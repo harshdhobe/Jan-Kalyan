@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-pmmsy-inland-stocking-of-fingerlings-in-res",
+  "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY-Inland): Stocking of fingerlings in reservoir - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Stocking of fingerlings in reservoirs: Assistance is provided for stocking 1,000 fingerlings per hectare. The unit cost of the fingerling is ₹3.00/- per piece.\n\n- Assistance of 40% of the unit cost is given for the General category.\n- Assistance of 60% of the unit cost is given for Women, Scheduled Caste, and Scheduled Tribe beneficiaries.\n\n<br>\n\n> **Mode of Disbursement:** The assistance is paid ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "voter-idration-cardaadhaar-cardpassport-as-proof-of-identity-bank-account-detail",
+    "if-applicable-consent-form-of-co-owners-in-case-of-co-owned-land-scheduled-caste"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=IVf4y2kDy/hLkKH1ioD8IA==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsysfrguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an individual, society, self-help group, association, reservoir lease holder, or private entity involved in inland fisheries activities.\n1. The applicant must be above 18 years of age.\n1. The applicant must have their own bank account.\n1. The applicant must have their own private land or a minimum 10-year lease agreement for land to avail construction-related assistance on land. In case of co-owners, the consent form of co-owners must be submitted.\n1. The applicant must have a Voter ID/Ration Card/Aadhaar Card/Passport as proof of identity.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n- All categories (General, Women, Scheduled Caste, and Scheduled Tribe) will receive benefits under the Inland Schemes.\n- Scheduled Caste and Scheduled Tribe beneficiaries are required to have a Scheduled Caste/Scheduled Tribe certificate to avail benefits under the inland components.\n\n<br>",
+  "_criteria_filled": 2
+}

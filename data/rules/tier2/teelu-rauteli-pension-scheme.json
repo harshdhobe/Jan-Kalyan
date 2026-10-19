@@ -1,0 +1,37 @@
+{
+  "id": "teelu-rauteli-pension-scheme",
+  "name": "Teelu Rauteli Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- A pension of ₹1,200/- per month is provided to each eligible beneficiary.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photo-certified-by-gram-pradhanvpdosabhas",
+    "which-is-linkedseeded-with-the-aadhaar-card-copy-of-family-register-copy-of-the"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmKisanOnlineApplicationForm.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dp-f",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be male or female engaged in agricultural activities.\n1. The applicant must be above 18 years of age.\n1. The applicant must be 20% to 40% disabled while performing agricultural work.\n1. There is no income limit to avail the benefits of the scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

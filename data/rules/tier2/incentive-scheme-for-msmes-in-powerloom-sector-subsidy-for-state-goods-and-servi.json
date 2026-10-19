@@ -1,0 +1,34 @@
+{
+  "id": "incentive-scheme-for-msmes-in-powerloom-sector-subsidy-for-state-goods-and-servi",
+  "name": "Incentive Scheme for MSMEs in Powerloom Sector: Subsidy for State Goods and Services Tax (SGST)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "**Zone B &amp; C:** 30% of Net SGST paid for 8 years from the date of commencement of commercial production. \n**Zone D &amp; E:** 50% of Net SGST paid for 8 years from the date of commencement of commercial production.\n> **Note:** Cumulative refund of SGST shall not exceed 75% of Fixed Capital Investment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-memorandum-of-association-and-articles-of-association-authenticate",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "annual-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-case-of-rented-leaseh",
+    "copy-of-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conversion-c",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-official-scheme-guidelines",
+    "commercial-tax",
+    "west-bengal-on-sgst"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/ismpsssgst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all micro, small, and medium enterprises (MSMEs) in the powerloom sector.\n  - Enterprises must have started production from 01.01.2022 to 31.12.2024.\n  - Enterprises should have executed a Four-party agreement with the Directorate of Textiles, Financial institution and Tantuja.\n  - The units should be a private sector, cooperative sector and joint sector undertaking as also companies/ undertakings owned and managed by the State Government and the Industrial SHGs.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.",
+  "_criteria_filled": 1
+}

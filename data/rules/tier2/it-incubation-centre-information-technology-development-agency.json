@@ -1,0 +1,26 @@
+{
+  "id": "it-incubation-centre-information-technology-development-agency",
+  "name": "IT Incubation Centre - Information Technology Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- The Incubation Center provides support to new startups in developing their businesses and solving related problems. The Center supports startups in the IT, medical, and electronics sectors in developing their innovative ideas and ventures.\n  - The Incubation Center provides startups with workspace and provides them with internet access, selected medical equipment, and infrastructure. The Center&",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "company-registration-number-in-hard-copy-or-soft-copy-iso-certification-other-ce"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iticitda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Startups registered in Uttarakhand, along with IT and medical students (especially those involved in Skill Development, IT &amp;amp; AI, Travel &amp;amp; Tourism, Healthcare, Technology, and Bio-Robotics), are eligible to avail the benefits offered by the Incubation Centre.\n\n<br>",
+  "_criteria_filled": 1
+}

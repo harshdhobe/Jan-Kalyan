@@ -1,0 +1,33 @@
+{
+  "id": "assistance-for-purchase-of-house-hbocwwb",
+  "name": "Assistance for Purchase of House (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, an interest-free loan of up to ₹2,00,000/- is provided to registered construction workers for the purchase or construction of their houses.\n\n**Note:** The Board will provide financial assistance in the shape of interest compensation upto ₹1,00,000/- through banks to the construction workers, who are beneficiaries of Pradhan Mantri Awaas Yojana for the construction of a house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 52
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r",
+    "4-for-maintenance-application-ownership-of-the-building-for-maintenance-only-att"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/aphhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be registered under the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker should have regular membership for at least 5 years and 8 years are left to attain the age of 60 years.\n   1. The maximum age of the worker should be 52 years. So that he/she can repay the loan in the next 8 years.\n   1. This facility will be available once in a lifetime.\n   1. The application frequency is limited to once.",
+  "_criteria_filled": 2
+}

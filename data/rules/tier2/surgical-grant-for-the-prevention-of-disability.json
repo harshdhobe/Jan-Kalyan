@@ -1,0 +1,31 @@
+{
+  "id": "surgical-grant-for-the-prevention-of-disability",
+  "name": "Surgical Grant For The Prevention Of Disability",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- A maximum of Rs. 6,00,000/- will be provided to Each disabled person.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-identification-proof-income-proof-a-certificate-of-disability-granted"
+  ],
+  "apply_url": "https://uphwd.gov.in/site/writereaddata/siteContent/202103181427562556ShalyaChikitsa-Niymavali-All.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The annual income of the applicant/applicant&#39;s guardian should not exceed Rs.60,000/-.\n1. The applicant should be an Indian citizen.\n1. Applicant should be a permanent resident of Uttar Pradesh or be a resident of the state for at least 5 years\n1. Should not be guilty in any criminal case.",
+  "_criteria_filled": 2
+}

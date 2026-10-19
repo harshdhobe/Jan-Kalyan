@@ -1,0 +1,36 @@
+{
+  "id": "old-age-pension-scheme",
+  "name": "Old-Age Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. ₹ 850/- per month to pensioners aged between 60 years to 69 years.\n1. ₹ 1500/- per month to pensioners aged 70 years and above.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 35000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "following-are-the-documents-required-to-apply-for-the-scheme-passport-size-photo"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ops",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicants must be a resident of Himachal Pradesh state.\n1. Such elderly persons whose age is 60 years or more and who do not have proper means of care/upbringing and who have minor children and whose family annual income from all sources does not exceed ₹ 35,000/- Or;\n1. Such elderly persons whose annual family income from all sources does not exceed ₹ 35000/- are eligible for the scheme.",
+  "_criteria_filled": 3
+}

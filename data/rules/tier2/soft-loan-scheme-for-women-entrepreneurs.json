@@ -1,0 +1,31 @@
+{
+  "id": "soft-loan-scheme-for-women-entrepreneurs",
+  "name": "Soft Loan Scheme for Women Entrepreneurs",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Soft Loan against Purchase order will be given to Women Entrepreneurs at the rate of 6% per annum on simple interest.\n   1. The amount of the loan is limited to 80% of the Purchase order and disbursement is as an advance against the milestone payment agreed by the client.\n   1. The repayment period of the loan is 1 year or completion of the project with full settlement whichever is earlier.\n   ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-udyog-aadharudyam-registration-2-ksum-unique-id-3-copy-of-pan-card-4-copy-of-m"
+  ],
+  "apply_url": "https://startupmission.kerala.gov.in/ml/schemes/women/soft-loan",
+  "source_url": "https://www.myscheme.gov.in/schemes/slswe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe Startup should be approved by DPIIT and have the Unique ID issued by the Kerala Startup Mission.\n2.\tThe women co-founder should have a majority stake in the startup.\n3.\tThe Startup should be registered in Kerala.\n4.\tThe client shall be a Government Department or Public Sector Undertaking \n**Note 01:** The Startup will sign an agreement with the Kerala Startup Mission before availing the benefit.\n**Note 02:** A personal guarantee needs to be executed by the Women&amp;#39;s founder for availing the loan.",
+  "_criteria_filled": 2
+}

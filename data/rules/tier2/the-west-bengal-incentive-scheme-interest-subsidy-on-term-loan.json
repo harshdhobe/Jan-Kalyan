@@ -1,0 +1,33 @@
+{
+  "id": "the-west-bengal-incentive-scheme-interest-subsidy-on-term-loan",
+  "name": "The West Bengal Incentive Scheme: Interest Subsidy on Term Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "**Group-&#39;A’ and ‘B&#39; areas:** 50%, subject to a limit of ₹ 25,00,000/- per year, for 5 years.\n**Group-&#39;C&#39; and &#39;D&#39; areas:** 60%, subject to a limit of ₹ 25,00,000/- per year, for 7 years.\n**Special Areas:** 75% , subject to a limit of ₹ 30,00,000/- per year, for 7 years.\n**Note:** The interest subsidy will be payable annually subject to submission of statement or certificate ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-the-registration-and-eligibility-certificate-form-ia-copy",
+    "photocopy-of-sanction-letter-from-the-central-financial-institutionstate-financi",
+    "conversion-certificate",
+    "site-plan",
+    "clearance-from-ma-deptt-etc-all-applicable-clearance-from-govt-authorities-fores",
+    "crz",
+    "police",
+    "etc-sarai-registration-certificate-under-bengal-sarai-regulation-act-in-case-hot"
+  ],
+  "apply_url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTIw/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MDRfd2Jpc18yMDIxLnBkZg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbisistl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all eligible tourism projects/units and also to expansion projects of existing units set up on or after the effective date (i.e. 22nd February, 2021)  of this incentive scheme.\n\n       Or,\n\n  - Eligible Hotel Units who started their commercial operation on or after 7th January, 2015 to 31st December, 2020 but could not apply under previous scheme 2015 due to absence of a Bar in the Hotel.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/ undertakings owned or managed by the State Government.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the West Bengal Tourism Development Corporation Limited on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

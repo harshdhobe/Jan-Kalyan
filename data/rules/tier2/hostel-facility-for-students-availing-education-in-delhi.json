@@ -1,0 +1,26 @@
+{
+  "id": "hostel-facility-for-students-availing-education-in-delhi",
+  "name": "Hostel Facility for Students Availing Education in Delhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Financial assistance is available for students from Madhya Pradesh who are pursuing higher education at institutions (universities and colleges) in Delhi. The assistance covers the following:\n\n  - **Monthly rent:** ₹1,000/- per month  - **Scholarship:** ₹500/- per month  - **Water and electricity expenses:** ₹100/- per month  - **One-time grant (at the time of admission):** ₹2,000/-\n**Note:** Paym",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=437",
+  "source_url": "https://www.myscheme.gov.in/schemes/hfsaed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should be a regular student currently enrolled in or admitted to an undergraduate (first year) or higher class, or professional course at a government or recognized institution located in Delhi.\n   1. The student should belong to the Scheduled Caste category.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "integrated-social-security-scheme-pension-for-physically-challenged-persons",
+  "name": "Integrated Social Security Scheme - Pension For Physically Challenged Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "A pension of ₹1000 per pensioner per month is deposited directly into their Bank Account through DBT mode.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card-voter-card",
+    "etc-income-certificate-of-less-than-75",
+    "000-per-annum-or-bpl-category-disability-certificate-40-and-above-issued-by-medi"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/pdf/FORMISSS1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isss-ppcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of applicant should be between 18 and 79 years.\n1. The applicant should have severe or multiple disabilities with a disability percentage of at least 40%.\n1. The income of the applicant should be less than ₹ 75,000/- per annum or the applicant should be from the &quot;Below Poverty Line (BPL)&quot; Category.",
+  "_criteria_filled": 5
+}

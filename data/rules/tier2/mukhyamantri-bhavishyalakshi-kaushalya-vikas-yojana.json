@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-bhavishyalakshi-kaushalya-vikas-yojana",
+  "name": "Mukhyamantri Bhavishyalakshi Kaushalya Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Training Cost Coverage:** Training cost will be directly paid to the Training Provider&#39;s bank account based on Common Skilling Norms for National Skill Qualification Framework courses.\n**Assessment Fee Coverage:** Assessment fee for National Skill Qualification Framework courses will be paid to the concerned Assessment Agency as per set standards.\n**Industry-Demand Based Course Fees:** For n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-of-gujarat-educational-certificate-10th-standard-12th-stand"
+  ],
+  "apply_url": "https://skills.gujarat.gov.in/writereaddata/Portal/Images/pdf/Final-MBKVY-Guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbkvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The trainees must be a domicile of Gujarat.\n- The trainees must have passed at least 10th Standard / 12th Standard / Industrial Training Institute / Degree-Diploma.\n- Trainees must be registered on the portal with Aadhaar number submission by Training Provider.\n- Training must be conducted only through trainers as per course guidelines and syllabus.\n- On Job Training must be made mandatory as per course requirements, with On Job Training/soft skills to be covered for others.\n- The Training Centers must carry branding of the MBKVY scheme.\n\n_*Monitoring will be portal-based and payments will be made based on portal data only._\n_*For National Skill Qualification Framework courses, assessment and certification will be done through concerned Sector Skill Councils/Gujarat Council for Vocational Training/Kaushalya The Skill University._ \n_*For new courses based on industry demand, assessment will be conducted as per standards set by Gujarat Council for Vocational Training or Kaushalya The Skill University, with certification provided through Gujarat Council for Vocational Training and Kaushalya The Skill University._\n<br>",
+  "_criteria_filled": 1
+}

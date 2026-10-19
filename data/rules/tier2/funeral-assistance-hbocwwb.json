@@ -1,0 +1,26 @@
+{
+  "id": "funeral-assistance-hbocwwb",
+  "name": "Funeral Assistance (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. In case of the death of a registered worker, an amount of ₹15,000/- is payable as funeral assistance to his/her nominee/legal heirs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-registered-deceased-worker-identity-proof-of-the-nomineeleg"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fahbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a nominee/legal heir of the deceased worker.\n   1. The deceased worker should have been registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered deceased worker should have held a regular membership with the Board.\n   1. The scheme allows for application only once.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-the-funeral-expenses",
+  "name": "Scheme for the Funeral Expenses",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- **Financial assistance of ₹20,000/- for funeral expenses.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-under-the-bocw-act-attested-copy-aadhaar-card-of-the-worker-an"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.O.5Funeral_Expenses.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sftfe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the nominee, dependent, or legal heir of the deceased construction worker.\n1. The deceased should be a registered construction worker under the Andhra Pradesh Building &amp; Other Construction Workers Welfare Board.\n1. The death of the deceased worker must be due to accidental or natural death.",
+  "_criteria_filled": 1
+}

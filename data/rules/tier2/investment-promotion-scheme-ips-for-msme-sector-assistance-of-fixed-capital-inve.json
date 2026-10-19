@@ -1,0 +1,28 @@
+{
+  "id": "investment-promotion-scheme-ips-for-msme-sector-assistance-of-fixed-capital-inve",
+  "name": "Investment Promotion Scheme (IPS) for MSME Sector: Assistance of Fixed Capital Investment Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- **Micro Industries:** 15% Subsidy with an upper ceiling of ₹15,00,000/-.  - **Small Industries:** 15% Subsidy with an upper ceiling of ₹30,00,000/-.  - **Medium Industries:** 15% Subsidy with an upper ceiling of ₹35,00,000/-.\n&gt; **Note:** If the eligible GFCI is over ₹10,00,00,000/- an additional ₹10,00,000/- will be given.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipsafcis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Should be a New Manufacturing/ Service units or Existing Manufacturing/ Service units which undertakes Expansion/ Diversification in MSME sector.\n   1. The unit should have commenced the commercial production between 20.05.2022 to 19.05.2027.\n   1. Unit should be located in the U.T. of Dadra and Nagar Haveli &amp;amp; Daman and Diu.\n   1. Enterprise will have to remain in production for 5 years from the date of commercial production.\n   1. Enterprise will have to observe Pollution Control measures as prescribed by PCC or other competent authority as per [Notification No. PCC/DMN/13(PART IV)/2020-2021/448 DATED 25/01/2021](https://www.daman.nic.in/websites/Pollution-Control-Committee/2021/448-25-01-2021.pdf).   1. The enterprise shall have to submit the application within one year from the date of the first disbursement of loan or on or before one year from the date of commencement of commercial production.",
+  "_criteria_filled": 1
+}

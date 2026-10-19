@@ -1,0 +1,26 @@
+{
+  "id": "integrated-child-development-services-scheme",
+  "name": "Integrated Child Development Services Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "**The ICDS Scheme offers a package of six services,** \n\n1. Supplementary nutrition.\n1. Immunization.\n1. Health check-up.\n1. Referral services.\n1. Pre-school non-formal education and\n1. Nutrition &amp; Health Education.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-sized-photograph-proof-of-age-dob-proof-of-address"
+  ],
+  "apply_url": "https://dsw.nagaland.gov.in/integrated-child-development-services-scheme-icds/",
+  "source_url": "https://www.myscheme.gov.in/schemes/icdss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligible beneficiaries under this scheme include:**\n\n1. Children up to 6 years of age\n1. Pregnant women\n1. Lactating mothers\n1. Adolescent girls (14–18 years)\n\n<br>",
+  "_criteria_filled": 1
+}

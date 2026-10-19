@@ -1,0 +1,37 @@
+{
+  "id": "baristha-nagarika-tirtha-yatra-yojana",
+  "name": "Baristha Nagarika Tirtha Yatra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The scheme offers a great opportunity to the poor and deprived senior citizens (60-75 years) of the State to the realization of their lifelong dream of having one Tirtha Darshan (Pilgrimage) and fulfill their spiritual aspirations, with the support of the state.\n   1. This scheme will be offered to people of all regions/faiths.\n   1. The scheme is envisaged to help senior citizens over 60-75 ye",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 75
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-card-ie-aadhaar-card-3-proof-of-age-4-resi",
+    "ii-ration-card-under-nfsa-iii-widow-pension-old-age-pension-iv-mgnregs-job-card"
+  ],
+  "apply_url": "https://yatra.odisha.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/bntyy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be over 60 years of age &amp;amp; within 75 years of age (except in cases of joint application of a married couple where one of the spouses can be less than 60 years of age). For the computation of age, the last date of submission of the application will be taken into account.\n   1. The applicant has to be a domicile of Odisha.\n   1. The applicant should have the requisite fitness to undertake the journey and should not be suffering from any communicable disease.\n   1. Under the scheme, an attendant can also accompany applicants above 70 years of age. The application of the attendant should be a joint application with the prospective &amp;#39;Pilgrim&amp;#39;.\n   1. The attendant has to pay 50% of the travel cost in the shape of a Bank Draft drawn on scheduled banks in favour of the Director, Tourism payable at Bhubaneswar along with the application.\n   1. The attendant should be over 18 years of age.\n   1. A married couple can apply &amp;#39;jointly&amp;#39; for the pilgrimage trip. Their joint application will be treated as one application, but, the facilities provided will be individual. The joint application will be held eligible even if one of the spouses is less than 60 years of age.\n   1. Under the scheme, the pilgrim can avail the benefit of a journey only once in a lifetime.\n   1. Since the scheme is meant for poor and deprived sections of society, the applicant should mandatorily possess any of the following:\n\n  - Antyodaya/ Annapurna card,\n  - Ration Card under NFSA\n  - Widow Pension/ Old Age Pension\n  - MGNREGS Job Card\n  - The auto inclusion and the deprivation criteria used by the Panchayati Raj Department which has replaced the criteria for identification of BPL category people and weaker sections for different development schemes can be used to filter the eligible applicants for this scheme.\n  - Any other similar documents issued by the State Govt. reflecting their weak economic status or deprivation.\n\n**Note:** Applicant providing false information will be debarred of benefit under the scheme.\n**Responsibility of Pilgrims Selected for Yatra:**\n\n   1. As far as possible the pilgrims should avoid wearing jewellery.\n   1. Pilgrims should give an undertaking that they have the requisite fitness to undertake the journey and they are not suffering from any communicable disease.\n   1. The pilgrim has to give an undertaking that he/she is taking the journey on his own will and at his/her own risk and that the state government will not be responsible for any unforeseen untoward incident, if any, during the entire duration of the pilgrimage up till the time they reach their homes.\n   1. The selected pilgrims should not deviate from the scheduled program journey and site visits under any circumstances.\n   1. The pilgrims should listen to the instructions of the IRCTC officials during the entire duration of the journey.\n   1. The pilgrims should maintain good behaviour among themselves and with IRCTC officials",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,31 @@
+{
+  "id": "vidhyadeep-yojana",
+  "name": "Vidhyadeep Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> ***Accidental Death***\n\n₹50,000/- per student.\n> ***Accidental Permanent Disability***\n\n- In case of loss of two eyes or both limbs or arm/leg due to accident: ₹50,000/-.\n- In case of loss of one eye and one limb due to accident: ₹50,000/-.\n- In case of loss of one eye or one limb due to accident: ₹25,000/-.\n\n> ***Conditions***\n\n- The incident must be unexpected, sudden, and unintentional, and s",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-to-establish-student-statuscertificate-from-the-principal-of",
+    "where-the-date-of-leaving-must-be-on-or-after-the-date-of-death-or-injury-certif",
+    "such-as-discharge-summary-birth-certificate-or-election-identity-card",
+    "only-if-the-deceasedinjured-is-illiterate-and-the-birth-certificate-is-unavailab",
+    "where-chemical-analysis-of-organs-was-sent-certificate-from-the-doctor-who-perfo",
+    "police-papers-are-mandatory"
+  ],
+  "apply_url": "https://dpe.gujarat.gov.in/Primary/SchemesDetailsPage?id=ArRrL0sH2Kx38oCwT5w4PA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/vy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> ***For the Student Beneficiary***\n\n- The beneficiary must be a student studying in all Primary, Secondary, and Higher Secondary schools of Gujarat.\n\n> ***For the Applicant/Claimant***\n\n- The applicant must be the successor or the disabled beneficiary themselves in case of permanent disability.\n- The applicant must appear in person with the original identity card.\n- The applicant must submit the written application in the prescribed format to the local Nodal/Competent Officer.\n- The application must be submitted within ninety (90) days from the date of death or accident.\n\n<br>",
+  "_criteria_filled": 1
+}

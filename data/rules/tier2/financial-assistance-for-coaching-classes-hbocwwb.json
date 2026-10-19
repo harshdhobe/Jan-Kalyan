@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-coaching-classes-hbocwwb",
+  "name": "Financial Assistance for Coaching Classes (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Financial assistance of ₹20,000/- is provided for coaching classes for admission of children of registered workers in professional/technical courses like Degree/Diploma in Medical, Engineering, Management, MCA, Law, Fashion Designing, etc.\n   1. Upon passing the Preliminary Examination of UPSC/HPSSC, individuals are eligible for ₹1,00,000/- to prepare for the Main Examination.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/login/bocw",
+  "source_url": "https://www.myscheme.gov.in/schemes/facchbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in building or construction work.\n   1. The applicant should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year’s regular membership.\n   1. The worker must have an active membership with the Board.\n   1. The son/daughter of the worker should be receiving coaching for admission in professional/technical courses from an institute.\n   1. The worker should not have applied again for financial assistance for the coaching of his/her child. The assistance will be provided only once. \n   1. The spouse of the worker should not have received any financial assistance for coaching classes of his/her child from any government department/board/corporate institution, nor should they have applied for such assistance.\n   1. Financial assistance for coaching will be given up to three children.",
+  "_criteria_filled": 1
+}

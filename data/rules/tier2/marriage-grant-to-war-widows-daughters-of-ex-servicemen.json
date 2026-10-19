@@ -1,0 +1,31 @@
+{
+  "id": "marriage-grant-to-war-widows-daughters-of-ex-servicemen",
+  "name": "Marriage Grant to War Widows’ Daughters of Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹21,000/- is given to the war widows for the marriage of their dependent daughters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemanwidow-of-ex-serviceman-identity-card-parivar-pehchan-patra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=xx1ENHZtUjctalsqq4+Oew%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgwwdesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a bonafide resident of Haryana.\n- The applicant should be the widow of an ex-serviceman who died in the war.\n- The daughter should be at least 18 years old.\n- The widow can receive the benefit for up to two of her daughters.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "devnarayan-gurukul-yojana",
+  "name": "Devnarayan Gurukul Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Under this scheme, eligible students receive free education, accommodation, meals, uniforms, text books and study materials in government-approved schools.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-educational-certificate-marks-certificate-of-class-5-income"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=87",
+  "source_url": "https://www.myscheme.gov.in/schemes/dgyr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native resident of Rajasthan.\n1. The applicant&#39;s family should not be a taxpayer.\n1. The applicant must be a regular student in a government or non-government school. \n1. The applicant must have passed class 5th with a minimum of 50% or above marks.1. The applicant should belong to one of the following Special Backward Class (SBC) communities:\n\n- Banjara, Baldia, Labana\n- Gadiya Lohar, Gadolia\n- Gujar, Gurjar\n- Raika, Rebari (Debasi)\n- Gadaria (Gadri, Gyari)\n\n**Note 1:** Only students who qualify on merit after clearing the pre-admission examination will be admitted to the 59 schools selected by the department.\n**Note 2:** Students will be given admission in Class 6 as per their merit based on marks obtained in Class 5.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "go-green-scheme-gujarat-labour-welfare-board",
+  "name": "Go Green Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a subsidy will be provided to Labourers/Industrial Workers on the purchase of Battery-Operated Two-Wheelers, 30% of the purchase price or ₹30,000/- whichever is less.\n   1. In addition to this, a one-time subsidy will also be provided on the RTO Registration Tax and Road Tax of the Two-Wheeler.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-id-card-of-labour-aadhaar-card-of-labour-labour-welfare"
+  ],
+  "apply_url": "https://gogreenglwb.gujarat.gov.in/IndexGLWB.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggs-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Labourers/Industrial Workers should be employed in a factory/institute in the state of Gujarat.\n   1. Labourers who have been regularly contributing to the Labour Welfare Fund will be eligible for this scheme.\n\n**Other Instruction:**\n\n   1. Subsidy will be given to those models which have been empanelled with FAME-2 and GEDA both.\n   1. Vehicles manufactured in India under Make in India and “Aatma Nirbhar Bharat”\n   1. Two-wheeler with a lithium-ion battery that can run at least 50 km on a single charge, does not require a separate charging station, recognized under the Motor and Vehicle Act.\n   1. Labour has to pay the residual amount after deducting the amount of subsidy from the ex-showroom price.\n   1. After sell, the amount of subsidy will be credited directly to the dealer&amp;#39;s account.\n   1. RTO Road Tax amount will be reimbursed to the dealer.",
+  "_criteria_filled": 1
+}

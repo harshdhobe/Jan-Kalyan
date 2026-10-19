@@ -1,0 +1,35 @@
+{
+  "id": "national-pension-scheme-for-traders-and-self-employed-persons",
+  "name": "National Pension Scheme For Traders And Self Employed Persons",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "##### ***1. Pension Benefit***\n\n- Each eligible subscriber under this scheme shall receive an assured minimum monthly pension of ₹3,000/- after attaining the age of sixty years.\n- The Government of India will make a matching contribution into the subscriber&#39;s pension account every month as a subsidy.\n\n##### ***2. Family Pension on Death of Beneficiary***\nDuring the receipt of the pension, if a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-savings-bank-account-or-jan-dhan-bank-account-details-indian-financ",
+    "cheque-leavebook",
+    "or-copy-of-bank-statement-as-evidence-of-bank-account-goods-and-services-tax-ide",
+    "00",
+    "000-self-declaration-document-for-annual-turnover-income"
+  ],
+  "apply_url": "https://maandhan.in/show_content.php?lang=1&level=1&ls_id=29&lid=29&page=6",
+  "source_url": "https://www.myscheme.gov.in/schemes/nps-tsep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Laghu Vyapari, self-employed person, shop owner, retail trader, rice mill owner, oil mill owner, workshop owner, commission agent, real estate broker, small hotel owner, or restaurant owner.\n- The applicant must be between 18 and 40 years of age.\n- The applicant must have an annual turnover that does not exceed ₹1,50,00,000/-.\n- The applicant must possess a savings bank account in their name.\n- The applicant must possess an Aadhaar Card or Aadhaar Number.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,29 @@
+{
+  "id": "capital-investment-subsidy-for-expansion-of-established-stardeluxestandard-hotel",
+  "name": "Capital Investment Subsidy For Expansion Of Established Star/Deluxe/Standard Hotel/Resort/Heritage Hotel",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary is entitled to a Capital Investment Subsidy of 15% against the Fixed Capital Investment.\n- The maximum ceiling for the subsidy is ₹5,00,00,000/-.\n- The subsidy is granted for the expansion of established Star, Deluxe, Standard Hotels, Resorts, or Heritage Hotels.\n\n##### ***Conditions***\n\n- The unit must maintain continuous operation and submit a self-declaration on or before the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "legal-entity-documentscopy-of-proof-of-legal-authorized-person-from-unit-copies",
+    "municipality-etc-copy-of-the-building-permission-granted-by-the-appropriate-auth",
+    "catering-bill",
+    "or-bill-of-servicefacility-provided-photographs-from-3-different-angles-jpg-form"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ciseesdshrhh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have an established Star, Deluxe, or Standard Hotel, Resort, or Heritage Hotel.\n- The applicant must incur a minimum capital expenditure of ₹1,00,00,000/- as approved by the department.\n- The applicant must ensure an expansion in terms of a minimum of 50% increased staying capacity to be eligible for the subsidy.\n- The applicant must obtain the necessary certification of heritage hotels/tourism projects from the Tourism Department to avail the exemptions/facilities.\n- The applicant must submit the application for capital subsidy within 1 year from the date of commencement of operation.\n- The applicant must ensure that the investment made prior to 3 years from the date of commencement of operation is not calculated for the capital subsidy.\n\n<br>",
+  "_criteria_filled": 1
+}

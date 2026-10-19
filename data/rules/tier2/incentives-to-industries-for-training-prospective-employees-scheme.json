@@ -1,0 +1,40 @@
+{
+  "id": "incentives-to-industries-for-training-prospective-employees-scheme",
+  "name": "Incentives to Industries For Training Prospective Employees Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement of 60% of training costs for prospective employees.\n- Maximum reimbursement of ₹60,000/- per employee.\n- Maximum reimbursement of ₹7,20,000/- per unit per year.\n- The benefit is for demand-driven Short Term Training Courses.\n\n_*The benefits under this scheme are subject to recommendation by the Task Force Committee (TFC)._\n_*The benefits are subject to budgetary allocation._\n##### ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 42
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-self-attested-copy-of-registration-under-umbrella-scheme-a-self-declaration-in",
+    "trade-commerce-certificate-from-the-skill-training-provider-that-the-said-course",
+    "age-of-goan-trainees-with-proof-age-certificate-from-chartered-accountant-certif",
+    "memorandum-of-associationarticles-of-association",
+    "as-the-case-may-be-copy-of-resolution-authorizing-applicant-to-swear-affidavit-t"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iitpes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***For the Enterprise***\n\n- The applicant must be a Micro, Small, Medium, or Large manufacturing enterprise.\n- The applicant must have registered under the Goa State Incentives to Encourage Investments Scheme (Umbrella Scheme).\n- The training must be conducted only through approved Skill Training Providers (STPs).\n- The course must be a demand driven Short Term Training Course.\n- The scheme shall not be applicable to cases which have claimed similar benefit under any other scheme/program of Government of Goa.\n- The prospective employees/trainees must be between the age of 18 to 42 years.\n- The prospective employees/trainees must fulfill the criteria of being a Goan as defined in the scheme.\n\n##### ***For the Trainee***\n\n- The trainee must satisfy one of the following criteria to be considered a Goan:\n- The person must be born in the State of Goa.\n- The person must have a 10 years Residence Certificate issued by the Mamlatdar.\n- The person must have any other document indicating residence in Goa issued by the Government of India or Government of Goa or its organisations, issued prior to 10 years, to the satisfaction of the Task Force Committee (examples include Driving license, Ration card, Electoral Photo Identity Card (EPIC), or Passport).\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,29 @@
+{
+  "id": "financial-assistance-to-purchaseconstruct-new-fishing-craft-less-than-26-feet-fo",
+  "name": "Financial Assistance to Purchase/Construct New Fishing Craft less than 26 feet for Fishing in Inland Waters of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **For General Category**\n\n50% subsidy, limited to ₹30,000, on a unit cost of ₹60,000 (excluding GST).\n> **For SC/ST/Woman Category**\n\n60% subsidy, limited to ₹36,000, on a unit cost of ₹60,000 (excluding GST).\n**NOTE:** The benefits can be availed after every 7 years against the replacement of the existing Canoe.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-original-invoice-towards-purchaseconstruction-of-new-fibre-reinforced-plastic",
+    "such-as-mamlatdar-or-chief-officer-of-the-concerned-municipality",
+    "or-secretary-of-the-concerned-village-panchayat",
+    "duly-countersigned-by-the-concerned-block-development-officer-bdo-7-scheduled-tr"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/07/CitizenCharter-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapcnfclt26ffiw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The Fishing Canoe should be registered with the Department of Captain of Ports, Government of Goa.",
+  "_criteria_filled": 1
+}

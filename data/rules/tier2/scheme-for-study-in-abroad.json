@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-study-in-abroad",
+  "name": "Scheme For Study In Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. A maximum of Rs. 30,000 for coaching and up to Rs.50,000 for registration for SAT (Scholastic Aptitude Test) examination will be borne by the state government per student on the basis of actual expenditure.\n   1. An amount of Rs. 25 thousand will be given to each girl student for submitting an application form for admission to a foreign university. \n   1. After the acceptance of the application",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-number-age-proof-address-proof-bonafide-domicile-certificate-10th-and-12t"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/332",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant girl should be among the first three girls at the state level studying in class 10th government school of Board of Secondary Education, Rajasthan. \n1. The girl students securing the first three positions are given the opportunity to pursue graduate-level education abroad",
+  "_criteria_filled": 2
+}

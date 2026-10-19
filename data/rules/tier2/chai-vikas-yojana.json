@@ -1,0 +1,27 @@
+{
+  "id": "chai-vikas-yojana",
+  "name": "Chai Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "> **Subsidy on Planting Materials:**\n\n      - 75% subsidy in the first year, with 25% provided in the second year if plant survival reaches 90%.\n\n> **Subsidy on Machines:**\n\n      - Pruning Machine: 50% of the cost or ₹60,000/- (whichever is less) (Minimum Land Area: 2 acres).\n      - Mechanical Harvester: 50% of the cost or ₹50,000/- (whichever is less) (Minimum Land Area: 2 acres).\n      - Pluck",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/ChaiVikasYojana/OnlineApp.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cvyb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n   1. The applicant should belong to any of the following districts of Bihar : Kishanganj, Araria, Supaul, Purnia and Katihar.\n   1. The applicant must have a minimum land area of 2 acres.\n   1. The applicant must be registered on the DBT portal.",
+  "_criteria_filled": 1
+}

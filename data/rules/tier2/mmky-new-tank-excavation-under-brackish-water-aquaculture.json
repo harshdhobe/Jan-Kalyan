@@ -1,0 +1,27 @@
+{
+  "id": "mmky-new-tank-excavation-under-brackish-water-aquaculture",
+  "name": "MMKY-New Tank Excavation Under Brackish Water Aquaculture",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "**Unit Cost and Subsidy Assistance:** Model Estimate for &amp;#39;**Excavation of New Brackish Water Ponds**&amp;#39; of 1.00 Ha. Under the State Sector Umbrella Scheme - MMKY:\n**Sl. No.****Capital Cost for 1.00 Ha. Water Area****Quantity****Rate (₹)****Amount (₹)****Subsidy Assistance (₹)****Subsidy Assistance (₹)****A****Item****General (40%)****SC/ST/ Women/ Transgender/ PwD (60%)**1New tank of",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identification-residential-proof-aadhaar-card-a-mobile",
+    "2016-will-be-acceptable-the-certificate-of-identity-as-transgender-person-issued"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/fisheries-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmky-ntebwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The following are the eligibility criteria for the beneficiaries:**\n\n   1. The beneficiary should be a resident of Odisha and must possess identity and residential proof including an Aadhaar Card. \n   1. The beneficiary should have a bank account in his/her name in the State of Odisha.\n   1. The beneficiary must have requisite land free from all encumbrances. \n   1. The beneficiary who has not availed assistance under this component shall be eligible for a subsidy maximum of up to 2.00 Ha water spread area.\n   1. The beneficiary who has availed similar subsidy earlier for excavation of Brackish water ponds under different schemes of Govt. of India or the State Government for less than 2.00 Ha. water spread area, he/she shall also be eligible to avail further subsidy for balance area keeping an overall maximum limit of up to 2.00 Ha. under the scheme.\n   1. While availing subsidy, the beneficiary family will be considered instead of individual members of the family. One beneficiary family should not be provided with multiple benefits under one particular scheme. A family will not be eligible for subsidy under the same scheme if any of its members have gotten a subsidy during the last three years.\n\n**Note 01:** Preference will be given for the selection of beneficiaries in cluster mode.\n**Note 02:** The documentary evidence in support of the suitable land needs to be provided by the beneficiary. (Copy of the RoR/Copy of the lease agreement in case of lease land for a minimum period of seven years of lease needs to be submitted).",
+  "_criteria_filled": 1
+}

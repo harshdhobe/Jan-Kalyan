@@ -1,0 +1,26 @@
+{
+  "id": "coaching-for-higher-studies",
+  "name": "Coaching For Higher Studies",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Provision of coaching to students for preparing them for various competitive examinations like Civil Services, Medical, Engineering, Staff Selection Committee (Graduate level), and Banking (Probationary Officers), to enable them to compete with other candidates and succeed.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "original-copy-of-birth-certificatehigher-secondary-leaving-certificate-admitpass"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/chs-assam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi community.\n- The applicant must secure the requisite percentage of marks in the qualifying examination prescribed for the desired coaching, based on subject matter and on the available seats.\n- **For Undergraduate students who are preparing for medical entrance examinations,** the applicant should be from the science stream with Physics, Chemistry, and Biology.- **For Undergraduate students who are preparing for engineering entrance examinations,** the applicant should be from the science stream with Physics, Chemistry, and Maths.\n<br>",
+  "_criteria_filled": 1
+}

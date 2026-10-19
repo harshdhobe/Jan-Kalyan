@@ -1,0 +1,27 @@
+{
+  "id": "raising-and-accelerating-msme-performance-ramp-interventions-reimbursement-of-gs",
+  "name": "Raising and Accelerating MSME Performance (RAMP) Interventions: Reimbursement of GST Amount for Promoting Destination Wedding- DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "This intervention aims to promote the tourism sector in the Union Territory by incentivising destination weddings organised through local MSME service providers. Under this intervention, MSMEs-Service Provider operating in the UT can claim reimbursement of the GST component paid by clients hosting destination weddings at their premises. This mechanism encourages clients to choose the UT as a weddi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "udyam-registration-certificate-certificate-of-incorporation-partnership-registra",
+    "photos-pan-and-bank-account-details-cancelled-cheque-for-rtgsneft-undertakingdec"
+  ],
+  "apply_url": "https://ddd.gov.in/district-industries-centre/",
+  "source_url": "https://www.myscheme.gov.in/schemes/rampwed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit must be Udyam registered with operations in the UT of DNH&amp;DD.\n1. Eligibility of MSME units in the Manufacturing or Service sector, upon commencement of commercial production or service operations, shall be governed by the duration of operation criteria as outlined in the relevant intervention of the scheme.\n1. Eligibility of the MSME unit shall be subject to the detailed conditions specified under the respective scheme provisions.\n\n<br>",
+  "_criteria_filled": 1
+}

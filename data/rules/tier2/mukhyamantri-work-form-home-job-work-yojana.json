@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-work-form-home-job-work-yojana",
+  "name": "Mukhyamantri Work Form Home-Job Work Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Financial and non-financial incentives -**\n\n1. Advertisement of such private unit which provides work from home-job work to a maximum number of women will be displayed free of cost on the Work from Home-Job Work portal.\n1. If a private unit provides work from home - job work to women and the payment for the work given to the woman is more than ₹  5,000, then ₹  3,000 per trainee will be given ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "address-proof-aadhar-card-age-certificate-email-id-passport-size-photo-mobile-nu"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/1020",
+  "source_url": "https://www.myscheme.gov.in/schemes/mwfhjwy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Rajasthan.\n1. The minimum age of the applicant should be 18 years.\n1. Preference will be given to widow/abandoned/divorced/disabled/victim of violence.",
+  "_criteria_filled": 2
+}

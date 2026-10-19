@@ -1,0 +1,32 @@
+{
+  "id": "distance-education-scheme-for-girls",
+  "name": "Distance Education Scheme for Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "***Reimbursement of full course fees for distance Education in:***\n\n- Undergraduate (UG) courses\n- Postgraduate (PG) courses\n- Diploma courses\n- Certificate and PG Diploma courses\n\n**Note:** No other additional grant will be payable.\n***Duration of Fee Disbursement:***\n\n- After selection, the candidate&#39;s fee will be reimbursed on Direct Benefit Transfer (DBT) mode on annual basis on satisfacto",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-educational-qualification-certificate-jan-aadhaar-card-proof-of-a",
+    "if-applicable-domicile-certificateproof-of-residence-in-rajasthan-non-judicial-s"
+  ],
+  "apply_url": "https://hte.rajasthan.gov.in/files/uploads/sch_1429-2-4.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/desfg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n   1. The applicant should be a native of Rajasthan.\n   1. The applicant should be enrolled in UG, PG, Diploma, Certificate or PG Diploma courses under distance education mode.\n   1. The applicant should be studying in a state-funded university or government institution in Rajasthan, including IGNOU (Indira Gandhi National Open University).\n   1. The applicant who is availing of other fee reimbursement in State Government Schemes during the same tenure is not eligible in this scheme. But these students will get reimbursement of difference amount of &amp;quot;Existing Scholarship&amp;quot; and &amp;quot;Distance Education Scheme for Girls&amp;quot;.\n   1. Students holding prize/incentive scholarships are not excluded from applying for this scheme.\n\n**Note:** The student who is eligible for distance education course in Post Matric/Other Scheme of Social Justice Department, Govt. of Rajasthan will get fee reimbursement from the existing process of fee reimbursement under Social Justice Department/ Other Department. The student will not get fee reimbursement from SJE portal under the category &amp;quot;DE-HE&amp;quot;.",
+  "_criteria_filled": 2
+}

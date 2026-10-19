@@ -1,0 +1,36 @@
+{
+  "id": "chief-minister-specially-abled-samman-pension-scheme",
+  "name": "Chief Minister Specially Abled Samman Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. For women below 55 years of age and men below 58 years of age: Rs. 750/- per month. \n1. To women aged 55 years and above, men aged 58 years and above but less than 75 years of age: Rs. 1,000/- per month.\n1. To the beneficiaries of 75 years and above age ( male and female): Rs. 1,250/- per month.\n1. To leprosy-free beneficiaries of all ages  ( male and female): Rs. 1,500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-bhamashah-card-copy"
+  ],
+  "apply_url": "https://ssp.rajasthan.gov.in/HtmlPages/Schemes/DisablityDetail.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsasps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Specially abled persons of any age with 40% and above disability.\n1. Applicants are suffering from any one or more following disabilities : \n\n   1. Blindness, \n   1. Short-sightedness, \n   1. Locomotor disability, \n   1. Leprosy free, \n   1. Hearing loss, \n   1. Mental retardation, \n   1. Mental illness, \n   1. Dwarfism (less than 3 feet 6 inches in height in case of an adult and holding a certificate issued by an authorized medical officer),\n   1. Naturally suffering from eunuchism.\n\n1. Native of Rajasthan and living in Rajasthan.\n1. Own combined annual income (from all sources) is up to Rs. 60,000/-.",
+  "_criteria_filled": 3
+}

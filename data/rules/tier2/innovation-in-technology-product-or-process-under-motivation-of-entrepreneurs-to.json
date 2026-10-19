@@ -1,0 +1,26 @@
+{
+  "id": "innovation-in-technology-product-or-process-under-motivation-of-entrepreneurs-to",
+  "name": "\"Innovation in Technology [Product (or) Process]\" under “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises”",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Cash Award of ₹2,00,000/- and a Citation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-patent-application-for-patent-entrepreneurs-memorandum-part-2-uam-pm"
+  ],
+  "apply_url": "https://industry.py.gov.in/sites/default/files/state-award-go.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/itpp-mesifai-sa-msme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The unit shall have obtained a patent/applied for a patent for the innovation.\n- The unit shall be functioning profitably for 3 years before the date of application.\n- The unit should provide at least 60% of employment to the people of UT of Puducherry of the total employment strength of the industrial units.",
+  "_criteria_filled": 1
+}

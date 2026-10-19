@@ -1,0 +1,31 @@
+{
+  "id": "gaon-ki-beti",
+  "name": "Gaon Ki Beti",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Each year, girls who pass the 12th standard with first-class marks from a village will be eligible.\n1. Selected students will receive a scholarship of ₹500/- per month.\n1. The scholarship will be provided for a maximum of 10 months per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "class-12-marksheet-age-certificate-domicile-certificate-caste-certificate-income"
+  ],
+  "apply_url": "http://mpcstvidisha.in/wp-content/uploads/2020/09/Gaon-ki-Beti-Yojna-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gkb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must have secured 60% or more marks in the 12th standard.\n1. The girl must reside in a rural area and possess a &quot;Gaon Ki Beti&quot; (Daughter of the Village) certificate.\n1. She must be enrolled in a recognized institution for higher education.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "loans-to-tribal-students-for-higher-studies-abroad",
+  "name": "Loans to Tribal Students for Higher Studies Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Monetary Benefit:**\n\n- Loan of up to ₹15,00,000 or the actual cost of study/training abroad, whichever is lower.\n\n**Interest Rate:** \n\n- 4% per annum.\n\n**Penalty Interest:** \n\n- 2.5% per annum for late repayment.\n\n**Beneficiary Contribution:** \n\n- No contribution is required from the beneficiary.\n\n**Repayment Terms:**\n\n- Repayment to be made in 60 monthly installments.\n- Repayment starts 6 month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-affidavit-birth-certificate-certificate-of-professional-course-i"
+  ],
+  "apply_url": "https://adijatinigam.gujarat.gov.in/assets/downloads/SchemesDetailsofGTDC08102024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltshsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must be a student. \n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must have secured special merit in Matriculation, Higher Secondary, Indian School Certificate, or its equivalent examination.\n1. The applicant must have secured admission to a recognized foreign university for higher education.\n1. The applicant must have passed the Higher Secondary Certificate (HSC) or equivalent examination.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "unemployment-allowance-for-the-educated-unemployed-youth-scheme",
+  "name": "Unemployment Allowance for the Educated Unemployed Youth Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "<br>\n\n**Sl. No.****Qualification****Rate of Unemployment Allowance**110+2 or equivalent₹900/- per month2Graduates/Post Graduates or equivalent₹1,500/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "family-id-ppp-document-attestation-of-residential-or-commercial-property-by-reve"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=KXYoviRrojd%2f9dnRCXLfVw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/ueas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be domicile of Haryana.\n   1. Applicants are eligible if they have passed the 10+2 examination, completed a 2-year certificate/diploma after Matric from a Haryana-recognized Board/University, hold a Graduate degree or higher, or completed a 3-year certificate/diploma or above after the 10+2 examination.\n   1. The applicant should be registered with any Employment Exchange in the State continuously for a minimum period of 3 years or more as on 1st November of each year.\n   1. The annual family income from all sources including that of the spouse should not exceed ₹3,00,000/- or the family should not have residential or commercial property exceeding ₹10.00 Lakhs in value or agriculture land in excess of 2 hectares.\n   1. The applicant should be in the age group of 21-35 years.\n   1. The applicant should not be a student/trainee/apprentice.\n   1. The applicant should not be employed/self-employed.\n   1. The applicant should not be a dismissed Government employee.\n   1. The applicant should not have been convicted of any offense resulting in imprisonment for a period of six months or more.\n   1. The applicant should not be registered in the Saksham Yuva Scheme of the Employment Department.\n\n**Note:**\n\n  - “Family” means a group of individuals who share ties of blood, marriage, or adoption; a group residing together and consisting of parents, children, and other relatives by blood or marriage; a group of individuals residing together who have consented to an arrangement similar to ties of blood or marriage.\n  - “Family Income” means the gross annual income of the family where the eligible applicant is associated as a family member.\n  - In case of a married female, in-Laws ration card is mandatory (Joint and Separate).",
+  "_criteria_filled": 4
+}

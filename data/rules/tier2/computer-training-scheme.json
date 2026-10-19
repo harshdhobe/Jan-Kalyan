@@ -1,0 +1,31 @@
+{
+  "id": "computer-training-scheme",
+  "name": "Computer Training Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "**Course Details**\nS. No. Training Name DurationFee1For ‘O’ computer training1 monthA maximum upto Rs. 15,000/- per trainee (In three phases)2For ‘CCC’ computer training3 monthsA maximum upto Rs. 3,500/- per trainee<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-caste-certificate-intermediate-marks-sheet-applicant-photogra"
+  ],
+  "apply_url": "https://www.backwardwelfareup.gov.in/en/page/computer-training-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/cts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Domicile of Uttar Pradesh.\n1. Unemployed youth who passed the Intermediate examination (10+2).\n1. The annual income of parents/guardians should be up to Rs. 1,00,000/- or less.",
+  "_criteria_filled": 2
+}

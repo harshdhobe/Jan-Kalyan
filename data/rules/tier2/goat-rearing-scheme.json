@@ -1,0 +1,46 @@
+{
+  "id": "goat-rearing-scheme",
+  "name": "Goat Rearing Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Financial assistance is provided for setting up goat units, specifically 10 goats and 1 male goat.\n1. The assistance amount is 50% of the total unit cost or a maximum of ₹45,000/-, whichever is less.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-below-poverty-line-bpl-score-0-to-20-certificate-aadhaar-car"
+  ],
+  "apply_url": "https://dsagsahay.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/grsguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a tribal woman beneficiary.\n1. The applicant&#39;s age must be between 18 and 60 years.\n1. The applicant must be a tribal woman livestock keeper residing in Scheduled Areas, Pockets, and Clusters within tribal districts.\n1. The applicant must be a Below Poverty Line (BPL) tribal woman livestock keeper with a BPL score between 0 and 20.\n1. Only one person per family will receive the benefit under this scheme.\n1. The scheme&#39;s benefit is ration card-based, meaning only one woman beneficiary per ration card can receive the benefit.\n1. The applicant can avail the benefit of this scheme again after 10 years.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation**\n\nThe following priority order will be given for beneficiary selection:\n\n1. Primitive Tribal Group (PVTG) livestock keeper women beneficiaries.\n1. Tribal livestock keeper women beneficiaries holding Forest Rights Act (FRA) entitlement letters.\n1. Other tribal livestock keeper women beneficiaries, with the following sub-priority:\n\n- Disabled tribal women.\n- Widowed or divorced tribal women.\n- BPL tribal women livestock keeper beneficiaries with the lowest score among those with a 0 to 20 BPL score.\n\n<br>",
+  "_criteria_filled": 5
+}

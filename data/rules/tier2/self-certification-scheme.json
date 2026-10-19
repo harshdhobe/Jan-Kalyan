@@ -1,0 +1,32 @@
+{
+  "id": "self-certification-scheme",
+  "name": "Self-Certification Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- Reduces inspection frequency, promoting a business-friendly environment.\n- Increases transparency and improves employer-employee relations.\n- Covers a range of labor laws to protect worker welfare.\n- Reduces administrative burden on the business.\n- Provides secure, interest-free refund of security after five years if no violations occur.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "shop-registration-detail-workers-details-registration-copy-attested-copy-of-regi",
+    "1970",
+    "if-applicable-registration-copy-with-attested-copy-of-registration-under-the-con",
+    "1970-if-applicable-license-copy-under-the-contract-labour-regulation-abolition-a",
+    "1970-if-applicable-details-of-fees-security-nature-of-industryactivity-manufactu",
+    "trading",
+    "services"
+  ],
+  "apply_url": "https://labour.tripura.gov.in/sites/default/files/2024-05/Self-Certification%20Scheme-%20under%20various%20Labour%20Laws.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All shops, factories, and establishments are eligible to apply. .\n1. Not available to units handling hazardous chemicals or substances as per the[ Factories Act, 1948](https://factory.tripura.gov.in/sites/default/files/The%20Factories%20Act1948.pdf) and [Tripura Factories Rules, 2007](https://thc.nic.in/Tripura%20State%20Lagislation%20Rules/Tripura%20Factories%20Rules,%202007.pdf).1. Enrollments must be confirmed with compliance with relevant labor laws.",
+  "_criteria_filled": 1
+}

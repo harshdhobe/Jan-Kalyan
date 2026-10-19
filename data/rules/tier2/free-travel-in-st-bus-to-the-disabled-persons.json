@@ -1,0 +1,31 @@
+{
+  "id": "free-travel-in-st-bus-to-the-disabled-persons",
+  "name": "Free Travel in S.T Bus to the Disabled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a free traveling facility is provided to Persons with Disabilities in all types of buses of Gujarat State Road Transport Corporation.\n1. The benefit of free travel is also provided up to the final/last station of the bus route in the case of travel outside the state of Gujarat.\n1. A card is also issued by the District Social Defense Officer after the approval of the applicati",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-copy-of-aadhaar-card-proof-of-residence-ration-cardelec"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dsd/scheme/bas-mafat-mushafari-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/ftstbdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should have a disability of 40% or more in order to avail of the benefits under the scheme.",
+  "_criteria_filled": 2
+}

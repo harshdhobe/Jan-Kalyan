@@ -1,0 +1,26 @@
+{
+  "id": "schedule-caste-pre-metric-scholarship-class-06-to-08",
+  "name": "Schedule Caste Pre-Metric Scholarship Class 06 To 08",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- For Schedule Caste Boy Students Rs. 75/- per month.\n- For Schedule Caste Girl Students Rs. 125/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-annual-income-of-the-parent-guardian-non-tax-payee-janaadhaar-card"
+  ],
+  "apply_url": "https://sso.rajasthan.gov.in/register",
+  "source_url": "https://www.myscheme.gov.in/schemes/scpmsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste category.\n1. The student should study as a regular student in classes 6 to 8 in schools run by the Central Government, State Government, Municipalities and schools recognized by the Department of Education.\n1. Student guardians should not be income taxpayers in case of parent(s) are not alive. \n1. The students who are not getting any other type of scholarship or allowance for study from central, state / public sources.\n1. The student who has not failed in the lower class in the last session. If he fails in the examination of any year, his scholarship will be stopped, but if he passes the same class in the next examination, he will be eligible for scholarship in the new class from the next session. For this, the student will have to apply for a new scholarship again.",
+  "_criteria_filled": 1
+}

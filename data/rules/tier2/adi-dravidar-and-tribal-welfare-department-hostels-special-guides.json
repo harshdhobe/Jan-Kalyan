@@ -1,0 +1,26 @@
+{
+  "id": "adi-dravidar-and-tribal-welfare-department-hostels-special-guides",
+  "name": "Adi Dravidar and Tribal Welfare Department-Hostels: Special Guides",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Accommodation:** Hostel facility for all Boys/ Girls Boarders studying upto XII Standard.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83078",
+  "source_url": "https://www.myscheme.gov.in/schemes/adthsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal community.\n  - The beneficiary should be enrolled within XII Standard (Stn. XII or lower).",
+  "_criteria_filled": 1
+}

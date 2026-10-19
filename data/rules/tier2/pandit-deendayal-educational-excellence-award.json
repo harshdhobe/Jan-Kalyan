@@ -1,0 +1,26 @@
+{
+  "id": "pandit-deendayal-educational-excellence-award",
+  "name": "Pandit Deendayal Educational Excellence Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **For Schools:**\n\nThe 3 schools giving the best results at the state level are awarded prizes of:\n\n- ₹10,00,000/-, ₹5,00,000/-, and ₹3,00,000/- at the Intermediate level.\n- ₹8,00,000/-, ₹4,00,000/-, and ₹2,00,000/- at the High School level.\n\n> **For Students (Intermediate Level):**\n\n- Students securing 1st, 2nd, and 3rd positions: ₹21,000/-, ₹15,000/-, and ₹11,000/- respectively.\n- Students secu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-from-the-applicant"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdeeauk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For School:**\n\n   1. The applicant school must be among the 3 best-performing schools at the Uttarakhand Board high school or intermediate level school at the state level.\n\n&gt; **For Student:**\n\n   1. The applicant student must be among the top 10 rank holders in the Uttarakhand Board Council Examination at High School or Intermediate level examination.\n\n<br>",
+  "_criteria_filled": 1
+}

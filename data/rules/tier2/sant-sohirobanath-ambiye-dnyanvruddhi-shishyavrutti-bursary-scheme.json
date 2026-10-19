@@ -1,0 +1,33 @@
+{
+  "id": "sant-sohirobanath-ambiye-dnyanvruddhi-shishyavrutti-bursary-scheme",
+  "name": "Sant Sohirobanath Ambiye Dnyanvruddhi Shishyavrutti- Bursary Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**Fee Reimbursement Assistance**\nThe scheme provides reimbursement of eligible fees up to:\n\n- ₹40,000 per annum towards course fees\n- Additional ₹5,000 per annum for textbooks/reference books\n\n**Eligible fee components include:**\n\n- Tuition Fees, Registration Fees, Library Fees, Laboratory Fees, Gymkhana Fees, IT Charges, Practical Fees, and other approved charges.\n\n**Mode of Disbursement**\n\n- Dir",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "marksheets-of-qualifying-examinations-10th",
+    "12thdiploma",
+    "graduation-as-applicable-income-certificate-issued-by-the-competent-authority-ad"
+  ],
+  "apply_url": "https://bursary.dhe.goa.gov.in/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssads-bs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be pursuing a diploma, graduation, or post-graduation in a recognized institution located in Goa.\n1. The applicant&#39;s institution should be affiliated with Goa University or recognized by the Directorate of Higher Education, Directorate of Technical Education, or any authority approved by the Government of India or Government of Goa.\n1. The applicant should be enrolled in a full-time course.\n1. The applicant&#39;s course duration should not exceed 5 years.\n1. The applicant pursuing a diploma course should have completed standard 10th in Goa.1. The applicant pursuing a graduation course should have completed Standard 10th and Standard 12th or a diploma in Goa.1. The applicant pursuing a post-graduation course should have completed Standard 10th, Standard 12th or a diploma, and graduation in Goa.1. The total annual family income (parents/guardian combined) must be less than ₹5,00,000/-.\n1. The applicant should not be receiving similar financial assistance, scholarship, or benefit under any other government scheme.\n\n> **Note:**\n\n- Relaxation in the qualifying education requirement is applicable for students graduating from premier institutions such as the Indian Institutes of Technology (IITs), National Institutes of Technology (NITs), Indian Institutes of Management (IIMs), and similar institutions, as per scheme norms.\n\n<br>",
+  "_criteria_filled": 2
+}

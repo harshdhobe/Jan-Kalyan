@@ -1,0 +1,29 @@
+{
+  "id": "establishment-of-12-milch-animal-farm",
+  "name": "Establishment of 12 Milch Animal Farm",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy:**\n\n   1. **General Category:** 7.5% for up to 5 years after availing of a bank loan.   1. **SC/ST/Female Beneficiaries:** 8.5% for up to 5 years.   1. Gir/Kankrej Breed Units: Up to 12% maximum subsidy.\n\n  - **Shed Construction Assistance:**\n\n   1. General Category: 50% of actual expenditure, up to ₹1,50,000/-.\n   1. Gir/Kankrej Breed: 75% of actual expenditure, up to ₹2,25,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-residence-proof-barcoded-ration-card-electricity-billbank-passbook-with",
+    "712-extract",
+    "8a-extract",
+    "or-lease-agreement-for-land-applicants-self-declaration-form"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=y5oEuDw/dR4mdA68HKrJfg==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/etmaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a livestock Farmer.\n  - The applicant must purchase 12 dairy animals (cows/buffaloes).\n  - The applicant must establish a new dairy farm.\n  - The applicant must have ownership rights or inheritance rights or leasehold rights of the land.\n  - The applicant must take a loan from a Reserve Bank-recognized institution/bank.\n\n&gt; **Note:** If the beneficiary does not own land, the dairy farm can be established on leased land for a minimum of 7 (seven) years.",
+  "_criteria_filled": 1
+}

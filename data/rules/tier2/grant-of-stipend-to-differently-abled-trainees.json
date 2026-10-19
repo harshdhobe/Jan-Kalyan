@@ -1,0 +1,36 @@
+{
+  "id": "grant-of-stipend-to-differently-abled-trainees",
+  "name": "Grant of Stipend to Differently Abled Trainees",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "A monthly stipend of ₹1,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-applicants-photo-aadhaar-card-financial-assistance-id-card-a"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsdat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should have undertaken a full-time vocational training course in any recognized vocational training centre, workshop, ITI, or any other institution sanctioned by the Central/State Government, local body, or voluntary organization.\n- The applicant&#39;s age should be 5 years and above.\n- The applicant should be differently abled.",
+  "_criteria_filled": 3
+}

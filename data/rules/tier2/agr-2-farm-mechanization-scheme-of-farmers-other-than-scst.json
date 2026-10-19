@@ -1,0 +1,27 @@
+{
+  "id": "agr-2-farm-mechanization-scheme-of-farmers-other-than-scst",
+  "name": "AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tThe beneficiary will get financial assistance for the purchase of agricultural equipment/components such as Power Tillers, Rice Transplanter, Self-Propelled Machinery, Tractor/ Power Tiller operated Implements /tools, Electric Motor operated, etc.\n2.\tUnder the scheme, more financial assistance will be given to the Small/Marginal/Women Farmers compared to other farmers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "government-approved-photo-id-ie-aadhaar-card",
+    "voter-id-card-basis-evidence-for-land-if-applicable-disability-certificate-from"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/agr-2-farm-mechanization.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/agr2fmsfotscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a permanent resident of Gujarat State.\n- Any farmer of Gujarat state other than SC/ST (in 208 talukas where the Submissions on Agricultural Mechanization (SMAM) scheme is not implemented) is eligible under this scheme.\n- The beneficiary farmer must purchase from the authorized manufacturer of the included manufacturer in the panels prepared for the purpose of periodic disclosed prize discovery by the Agriculture office/department.",
+  "_criteria_filled": 1
+}

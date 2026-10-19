@@ -1,0 +1,26 @@
+{
+  "id": "shram-kalyan-shaikshanik-chatravriti-yojana",
+  "name": "Shram Kalyan Shaikshanik Chatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "The scholarship is provided to the students studying From the class 5th to 12th, Graduation, Post Graduation, ITI, Polytechnic, PGDCA, DCA (Computer Course), B.E., M.B.B.S. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-account-statement-mark-sheet-ration-card-address-proof-proof-of"
+  ],
+  "apply_url": "http://scholarshipportal.mp.nic.in/ShramKalyan/Pages/about.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/skscy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The parents of the applicant should be employed in a factory or institution established in Madhya Pradesh under the Labor Welfare Fund Act, 1982.\n1. Only 2 children of a family are eligible to get the benefits of this scheme.\n1. Children of officers and employees working in institutions with managerial capacity are not eligible to get the benefit of this scheme.",
+  "_criteria_filled": 1
+}

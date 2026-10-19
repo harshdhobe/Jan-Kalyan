@@ -1,0 +1,31 @@
+{
+  "id": "bima-yojana-direct-benefit-to-artisan",
+  "name": "Bima Yojana - Direct Benefit to Artisan",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Assistance from the government may be either in the form of monthly allowance, or lump sum grant or both. In no case however shall the assistance exceed ₹ 8,000/- (Rs. Eight thousand only) per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-artisan-id-proof-birth-certificate-bank-account-details-passport-si"
+  ],
+  "apply_url": "https://www.handicrafts.nic.in/pdf/Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bydbta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a master craftsperson who has received Shilp Guru Awards, National Awards, Merit Certificates, or similar honours.\n- The applicant should be aged 60 years or above (relaxation is available for artisans with disabilities).\n- The applicant’s annual income should not exceed ₹1,00,000.\n- The applicant should not be receiving similar financial assistance from other sources.\n- The applicant should submit an income certificate and an affidavit annually, countersigned by a 1st Class Magistrate.",
+  "_criteria_filled": 2
+}

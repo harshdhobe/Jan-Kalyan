@@ -1,0 +1,36 @@
+{
+  "id": "union-territory-of-lakshadweep-pension-scheme-for-old-age",
+  "name": "Union Territory of Lakshadweep Pension Scheme for Old Age",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "household",
+  "benefit": "- Eligible beneficiaries receive a pension of ₹1,500/- per month (₹18,000/- per annum).\n**Mode of Disbursement:**\n\n- The pension amount is disbursed directly to the beneficiary’s bank account.\n\n**Frequency of Disbursement**\n\n- The pension amount is disbursed on a monthly basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-proof-of-residence-income-certificate-bank-account-d"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/oaspsl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Lakshadweep.\n1. The applicant should be above 60 years of age.\n1. The applicant’s monthly income should not exceed ₹1,500/- (₹18,000 per annum).\n1. The applicant should not have any source of income.\n1. The applicant should not be a beneficiary of any other similar pension scheme provided by the government.\n\n**Note:** Priority is given to applicants who do not have financial support from family members.",
+  "_criteria_filled": 3
+}

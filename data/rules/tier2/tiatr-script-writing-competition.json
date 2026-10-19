@@ -1,0 +1,26 @@
+{
+  "id": "tiatr-script-writing-competition",
+  "name": "Tiatr Script Writing Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Cash Prizes***\n\n- 1st Prize: ₹15,000/-\n- 2nd Prize: ₹10,000/-\n- 3rd Prize: ₹5,000/-\n\n##### ***Additional Benefits***\n\n- **Certificates:** Provided to first three prize winners.- **Publication Opportunity:** Prize winning scripts can be printed in book form at Tiatr Academy of Goa&#39;s cost (subject to No Objection Certificate from script writer).- **Honorarium:** ₹5,000/- one-time paymen",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "three-3-typed-copies-of-the-complete-tiatr-script-scripts-must-be-submitted-in-t"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tswc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***Basic Requirements***\n\n- The applicant must write scripts on themes as specified by Tiatr Academy of Goa.\n- The applicant must ensure the script has not been published or performed earlier.\n- The applicant must write original scripts only.\n\n##### ***Script Format Requirements***\n\n- The applicant must write scripts in traditional tiatr format.\n- The applicant must include minimum 6 to 7 podd&#39;de in the script.\n- The applicant must include at least 4 Cantos in the script.\n- The applicant must write scripts in Konkani language using Roman script.\n- The applicant must ensure comedy is inter-related to the main plot (however, comedy may be absent in religious tiatr).\n\n##### ***Content Guidelines***\n\n- The applicant must ensure scripts do not contain adverse remarks against any Governments/Individuals/Institutions.\n- The applicant must ensure scripts do not contain content against caste, creed and religion that may hurt sentiments.\n\n<br>",
+  "_criteria_filled": 1
+}

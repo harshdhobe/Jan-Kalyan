@@ -1,0 +1,36 @@
+{
+  "id": "young-interns-program",
+  "name": "Young Interns Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Stipend**\n\n₹ 30,000/- per month.\n<br>\n\n> **Laptop Connectivity and Mobility Support**\n\n₹ 2500/- shall be paid to each intern per month.\n<br>\n\n> **Leaves**\n\nEvery intern will be eligible for one casual leave every month on an accrual basis. Such leaves shall be provided in a cumulative manner i.e. 12 leaves for the entire year (from January to December).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-letter-of-intent-in-hindi-or-english-domicile-certificate-of-the-stat"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/DepartmentMaster/166/2023/May/30409/1662691f57b-6277-4c04-83f2-e5233a4904b5.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **General**\n\n1. The age of the applicant should be between 21 years and 30 years.\n1. The applicant should have excellent communication/presentation/intra–personal skills/soft skills.\n1. The applicant should have good Knowledge of English as well as Hindi language (Reading, Speaking, Writing and Understanding)\n1. The applicant should have well-versed ICT skills and knowledge of MS Office and other similar programs on alternative platforms.\n1. It is mandatory for all the interns to have their own Laptop and data card/internet facility.\n\n<br>\n\n> **Education Specific**\n\n1. The applicant should have a post-graduate qualification with a minimum of 60% marks or a CGPA of 6 on a scale of 10 in any stream from a recognized university.\n1. The graduate applicant of Engineering/Medical/Law/CA/CS Streams from a recognized University with a minimum 60% mark or a CGPA of 6 on a scale of 10 shall also be eligible for this internship. \n\n<br>\n\n> **Reservation / Preference / Priority**\n\n1. The applicant with working experience in the field of his/her choice of department shall be given priority.\n\n<br>\n\n**NOTE 1:** Any other additional educational and/or technical qualifications and experience shall be as per the special requirements submitted by the concerned department/district collector/divisional HQ, if any.\n**NOTE 2:** In case of any dispute, the decision of the Secretary-in-charge of, Statistics Department will be binding and final.",
+  "_criteria_filled": 3
+}

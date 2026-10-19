@@ -1,0 +1,28 @@
+{
+  "id": "replanting-rejuvenation-of-coconut-garden-by-the-coconut-development-board",
+  "name": "Replanting & Rejuvenation of Coconut Garden\" by the Coconut Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- **Cutting &amp; Removal** @ ₹ 1,000/‐ per palm subject to a maximum of ₹ 32,000/ per hectare.  - **Assistance for Replanting** @ ₹ 40 per seedling subject to a maximum of ₹ 4,000.- **Integrated Management Practices** @ ₹ 17,500/‐ per hectare in two annual installments, for upto 4 hectares per farmer.- Seasonality: Annually.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "in-the-case-of-land-owners-cultivating-their-land",
+    "a-copy-of-the-farmer-identity-card-containing-the-details-of-survey-numbers-and",
+    "tenants-shall-produce-a-cultivation-certificate-from-the-land-owner-or-agricultu"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/pdf/Horti_Application_Coconut.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rrcgcdb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All categories of coconut farmers with farmer&#39;s identity cards/ authenticated land records/documents are eligible.",
+  "_criteria_filled": 1
+}

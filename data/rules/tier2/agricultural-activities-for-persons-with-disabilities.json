@@ -1,0 +1,36 @@
+{
+  "id": "agricultural-activities-for-persons-with-disabilities",
+  "name": "Agricultural Activities for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loans up to ₹10,00,000/- are provided to persons with disabilities for agricultural production, irrigation, horticulture, sericulture, purchasing agricultural machinery/equipment for agricultural services, marketing agricultural products, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-proof-of-age-haryana-domicile-certificate-ration"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=Zo1BN3bFml3OfYJUOzJvwg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/aapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The applicant should be above 18 years old. For persons with mental retardation, the age requirement is relaxed to 14 years instead of the usual 18 years.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-area-expansion-of-spice-crops",
+  "name": "Assistance for Area Expansion of Spice Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Maximum assistance up to ₹12,000/- per hectare at 40% of the unit cost of ₹30,000/- per hectare.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afaesp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be engaged in the cultivation of spice crops, such as seed spices or rhizomatic spices.",
+  "_criteria_filled": 1
+}

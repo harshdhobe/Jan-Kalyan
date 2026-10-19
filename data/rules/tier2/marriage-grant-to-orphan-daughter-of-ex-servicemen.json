@@ -1,0 +1,36 @@
+{
+  "id": "marriage-grant-to-orphan-daughter-of-ex-servicemen",
+  "name": "Marriage Grant to Orphan Daughter of Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹51,000/‐ is given for the marriage of orphan daughters of ex-servicemen.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-identity-card-of-ex-serviceman-parivar-pehchan-patra-original-discharge"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=5rjEKrm37i3Fi7C4ijB56w%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgodesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bona fide resident of Haryana.\n   1. The applicant should be a dependent orphan daughter of an ex-serviceman.\n   1. The orphan daughter should be at least 18 years old.\n   1. Assistance is available for up to two orphan daughters of an ex-serviceman.",
+  "_criteria_filled": 3
+}

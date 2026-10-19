@@ -1,0 +1,34 @@
+{
+  "id": "scholarship-for-cadets-of-sainik-school-imphal",
+  "name": "Scholarship For Cadets Of Sainik School Imphal",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "Financial Assistance: The scholarship provides financial assistance to cadets who are facing financial constraints and are unable to bear the expenses of their education. It covers various expenses related to their education, such as tuition fees, boarding and lodging charges, uniforms, and other necessary expenses.\nEqual Opportunities: The scholarship provides equal opportunities to all cadets st",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-a-valid-income-certificate-issued-by-a-competent-authority-sh",
+    "which-should-be-less-than-rs-25-lakhs-academic-certificates-the-candidate-should",
+    "including-their-marks-or-grades-address-proof-the-candidate-should-submit-a-vali",
+    "such-as-a-voter-id-card",
+    "aadhar-card",
+    "or-any-other-government-issued-identity-card-caste-certificate-if-applicable-if",
+    "they-should-submit-a-valid-caste-certificate-along-with-the-application-form-ban",
+    "including-the-account-number-and-the-ifsc-code",
+    "to-receive-the-scholarship-amount-passport-size-photograph-the-candidate-should"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scossi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  Scholarship will be admissible to Mizo students permanently residing in the state of Mizoram studying at Sainik School, Imphal.\n1. Student should not be covered under any other Scholarship scheme.\n1.  Scholarship for studying in any class will be available for only one year and renewable as per Rules/Conditions.\n1. If after the award of the scholarship the cadet is found medically unfit in any way which according to the appropriate medical authority, renders him unfit for his entry into the NDA, the scholarship awarded shall be discontinued from the date the cadet is declared unfit",
+  "_criteria_filled": 1
+}

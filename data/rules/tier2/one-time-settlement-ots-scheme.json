@@ -1,0 +1,27 @@
+{
+  "id": "one-time-settlement-ots-scheme",
+  "name": "One Time Settlement (O.T.S.) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- All delayed payment charges, including 18% interest, will be waived off for consumers whose cases are referred to the Revenue Recovery Court (R.R.C.) from the date of referring the case till the date of realization of outstanding dues.\n- Consumers will have to pay only the principal amount in a lump sum.\n- The ₹100/- deposited along with the application will be adjusted against the energy bill t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "100-in-the-form-of-a-demand-draft-dd-or-pay-order-drawn-in-favour-of-the-chief-e",
+    "payable-at-the-local-accredited-bank"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is applicable to defaulting consumers in the categories of LIG (Low-Income Group), Domestic, Agriculture, Small Commercial, and LTP (Motive Power).\n- Consumers with accumulated arrears of up to ₹20,000/- as of 31-3-2008 are eligible.\n- The scheme is applicable to consumers whose installations are temporarily or permanently disconnected as of 31-3-2008 for non-payment of outstanding arrears.\n- Consumers whose cases have been referred to the Revenue Recovery Court (R.R.C.) are also eligible.",
+  "_criteria_filled": 1
+}

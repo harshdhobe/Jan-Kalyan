@@ -1,0 +1,25 @@
+{
+  "id": "nikshay-poshan-yojana",
+  "name": "Nikshay Poshan Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Financial Incentive:** An amount of ₹1,000/- per month for each notified TB patient.<br>",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "bank-account-proof-photocopy-of-bank-passbook-showing-account-holder-name",
+    "account-number",
+    "and-ifsc-cancelled-cheque-recent-bank-statement-note-the-account-must-be-a-savin",
+    "active",
+    "and-preferably-aadhaar-linked-aadhaar-document-optional-but-recommended-copy-of",
+    "you-should-apply-for-aadhaar-and-submit-a-copy-of-the-acknowledgement-receipt-co"
+  ],
+  "apply_url": "https://tbcindia.mohfw.gov.in/wp-content/uploads/2023/05/23294204DBTManualForNTEP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nikshay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All patients with tuberculosis (TB) who are notified to the government on or after April 1, 2018, including those who are already being treated for TB, are eligible for financial incentives.\n- To be eligible for the incentives, patients must be registered or notified on the NIKSHAY portal.\n\n<br>",
+  "_criteria_filled": 0
+}

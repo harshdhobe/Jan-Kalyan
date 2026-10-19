@@ -1,0 +1,26 @@
+{
+  "id": "whale-shark-conservation-programme",
+  "name": "Whale Shark Conservation Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Compensation for Damaged Nets**\n\nFishermen are paid compensation not exceeding ₹25,000/- (twenty-five thousand rupees) in lieu of nets that are damaged or cut during rescue operations involving trapped Whale Sharks.\n> **Conditions for Benefit Availment/Disbursement**\n\n- The rescue operation must be documented through videography or photography for compensation to be paid.\n- The fishermen must ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identification-as-a-fisherman-proof-of-damaged-fishing-nets-photographs"
+  ],
+  "apply_url": "https://forests.gujarat.gov.in/writereaddata/images/pdf/23_Mangrove-and-Whale-shark-conservation.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wscp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a fisherman, particularly from the Kharva and Koli communities residing in the coastal talukas of Veraval, Sutrapada, and Mangrol in Junagadh district.\n- The applicant&#39;s fishing net must incur damage or require cutting during an operation to rescue a trapped Whale Shark.\n- The applicant, or the rescue team involved, must ensure the rescue operation is thoroughly documented through either videography or photography.\n- The applicant, under the self-documentation scheme, must photograph the trapped Whale Shark, release it on the spot, and then submit these photographs along with incident details to the Forests and Environment Department after returning to the sea coast.\n\n<br>",
+  "_criteria_filled": 1
+}

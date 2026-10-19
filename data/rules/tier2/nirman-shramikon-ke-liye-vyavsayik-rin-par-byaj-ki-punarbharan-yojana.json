@@ -1,0 +1,27 @@
+{
+  "id": "nirman-shramikon-ke-liye-vyavsayik-rin-par-byaj-ki-punarbharan-yojana",
+  "name": "Nirman Shramikon ke Liye Vyavsayik Rin Par Byaj ki Punarbharan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **The board will reimburse the interest payable on business loans up to ₹5,00,000/-**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-duly-filled-and-complete-application-form-along-with-self-attested-c",
+    "bank-account-number-and-ifsc-code-self-declaration-certificate-by-spouse-of-the"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/LAB_/IRSBC/DOC_818_c4aede25-82a2-42dc-b0d1-489d29f2d5d3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsklvrpbkpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be construction worker and registered with the board are regularly depositing contributions.\n1. Applicant can utilities the loan amount only for own business work.\n1. Application can not use loan amount for purchase of shop/plot/vehicle or household goods.\n1. Applicant have to submit a certificate of intention to repay interest to the financial institution every year.\n1. This scheme will be applicable only on the loan taken by one of the registered beneficiary&#39;s wife/husband at a time.\n1. If any information provided in the application for assistance under the scheme by the beneficiary is found to be false, the responsibility of depositing the entire sanctioned assistance amount along with interest in lump sum will be of the concerned beneficiary.",
+  "_criteria_filled": 1
+}

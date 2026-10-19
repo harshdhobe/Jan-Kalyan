@@ -1,0 +1,31 @@
+{
+  "id": "basic-agriculture-training-centre-scheme",
+  "name": "Basic Agriculture Training Centre Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n- Free short-term training to educated unemployed rural youths.\n\n> **Type of Assistance and Entitlement (If Any):**\n\n- Training and capacity building.\n- Stipend @ ₹500/- per participant per month.\n- Seed money @ ₹10,000/- per participant.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-from-competent-authority-educational-qualification-sslc",
+    "if-applicable-birth-certificate-epic-bank-pass-book",
+    "copy-of-the-first-page-of-the-trainees-own-functional-bank-savings-account-two-2",
+    "a-self-certification-by-a-candidate-duly-endorsed-by-any-gazetted-officer-may-al",
+    "the-land-document-is-not-mandatory",
+    "but-has-to-indicate-non-farm-in-this-column"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=57",
+  "source_url": "https://www.myscheme.gov.in/schemes/batcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be an unemployed rural youth.\n1. The applicant should have passed Class X.\n1. The applicant should be interested in starting farm-based activities.\n1. The applicant should have owned or leased agricultural land.",
+  "_criteria_filled": 1
+}

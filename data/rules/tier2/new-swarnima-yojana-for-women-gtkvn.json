@@ -1,0 +1,46 @@
+{
+  "id": "new-swarnima-yojana-for-women-gtkvn",
+  "name": "New Swarnima Yojana for Women (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Up to ₹1,00,000 for eligible business/trade activities.- **Interest Rate:** 5% per annum.- **Loan Coverage:** 100% of the approved project/business cost.- **Repayment Term:** 60 equal monthly installments (5 years), including interest.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-voter-id-passport-size-photos-business-address-proof-bi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gtkvn/Schemes/1448?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsygtkdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a woman.\n1. The applicant should belong to Thakor or Koli community.\n1. The applicant should be between 21 and 50 years of age on the date of application.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The woman applicant should have experience related to the proposed business/trade.\n1. The applicant will have to provide suitable collateral to get the loan.\n\n> **Note:** At least 50% of the total credit is reserved for applicants from families with income up to ₹1,50,000/- annually.\n\n<br>",
+  "_criteria_filled": 5
+}

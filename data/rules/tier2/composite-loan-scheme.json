@@ -1,0 +1,59 @@
+{
+  "id": "composite-loan-scheme",
+  "name": "Composite Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "**Maximum Permissible Loan Amount**\n\n- For the SC category, the need-based loan is up to ₹3,00,000/-.\n- For OBC, Minority and PwD categories, the need-based loan amount is up to ₹1,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-as-proof-of-identity-and-residence-caste-certificate-issued-by-the",
+    "in-case-the-applicant-belongs-to-any-of-the-minority-community-pwd-certificate-i",
+    "is-required-if-the-person-belongs-to-the-pwd-category-age-proof-in-the-form-of-b",
+    "if-the-workplace-is-owned-by-any-of-the-relatives-blood-relation-affidavit-of-pe",
+    "towards-repayment-of-loan",
+    "along-with-05-blank-cts-cheque-truncation-system-post-dated-cheques-in-favour-of",
+    "00",
+    "000-affidavit-of-legal-heir-of-applicant-id-proof-of-legal-heir-with-passport-si",
+    "guarantor",
+    "two-witnesses",
+    "branch-in-charge-dealing-assistant-demand-draft-of-350-in-favour-of-dsfdc-toward",
+    "00",
+    "000",
+    "five-blank-cheques-from-guarantors-or-in-case-of-collateral-security-original-pr",
+    "in-case-of-immovable-property-and-noc-no-objection-certificate-from-the-owner-of",
+    "000",
+    "no-guarantor-or-collateral-security-is-required-however",
+    "the-same-shall-be-discretionary-but-the-applicant-shall-have-to-produce-two-refe",
+    "who-are-permanent-residents-of-delhi-and-reside-in-the-area-where-the-applicant"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/cls_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability.\n- The applicant should be a resident of Delhi. \n- The applicant&#39;s age should be between 18 to 50 years. \n- The annual family income of the applicant (from all sources) should not exceed ₹1,20,000/-. \n- The applicant should be willing to pursue one of the [income-generating activities](https://dsfdc.delhi.gov.in/sites/default/files/cls_schem_details.pdf) given in the scheme guidelines.- The applicant must have a proper workplace, for starting the proposed activity, either owned or rented. \n- The applicant should not have been declared a defaulter under any of the schemes being implemented by DSFDC.",
+  "_criteria_filled": 4
+}

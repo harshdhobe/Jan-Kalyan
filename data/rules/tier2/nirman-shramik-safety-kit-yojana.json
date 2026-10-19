@@ -1,0 +1,36 @@
+{
+  "id": "nirman-shramik-safety-kit-yojana",
+  "name": "Nirman Shramik Safety Kit Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "The scheme provides a direct cash transfer of ₹ 1,000 to the bank account of the registered beneficiaries/members of the board, for purchasing a branded helmet and a pair of safety shoes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nssky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be domiciled in the state of Jharkhand.\n1. The applicant should be in the age group of 18-60 years.\n1. The applicant should be a registered Construction Worker (Nirmaan Shramik) or a Member of the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The applicant should have worked for at least 90 days.\n1. The applicant should not already have availed of the benefits of this scheme.",
+  "_criteria_filled": 3
+}

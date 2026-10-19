@@ -1,0 +1,41 @@
+{
+  "id": "education-loan-for-persons-with-disabilities-haryana",
+  "name": "Education Loan for Persons with Disabilities- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, education loans of up to ₹50 lakhs are provided to persons with disabilities (OH/VH/HH/MR) for pursuing professional and technical education both in India and abroad.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-ie-aadhaar-card-proof-of-age-resident-proofaddress-proofowne"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=dqtBI+sui3UGdiZgKVKJ9Q%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/elpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana State.\n   1. The applicant should have a disability of more than 40%.\n   1. The applicant&amp;#39;s age should be between 18 and 55 years. For persons with mental retardation, the eligible age is above 14 years. An age certificate issued by a competent authority authorized by the State Government, or as mentioned in the 10th certificate or any other government-issued certificate, will be required document.\n   1. The applicant should have secured admission to a professional or technical course in India or abroad.\n   1. Unique Disability ID (UDID) registration under the Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice and Empowerment, Government of India, is mandatory for loan amounts of ₹15 lakhs and above.\n   1. The applicant must have a Parivar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 4
+}

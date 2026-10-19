@@ -1,0 +1,41 @@
+{
+  "id": "tripura-scheme-for-incentive-to-girl-child",
+  "name": "Tripura Scheme For Incentive To Girl Child",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "> **Rate of Incentive**\n\n- At the rate of ₹300/- per head per month up to the month the girl child attains the age of 15 years. The incentive amount will be paid to the mother of the girl child, preferably to the bank/post office account.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-certificate-indicating-that-the-applicant-belongs-to-a-bpl"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20of%20Scheme%20for%20providing%20pension%20to%20the%20%20Incentive%20to%20Girl%20Child-2009_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsigc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl child must be born on or after June 1, 2009.\n1. The parents of the girl child must be BPL (Below Poverty Line) cardholders or belong to listed BPL households.\n1. The incentive amount will be paid to the mother of the girl child.\n1. In case the mother of the girl child dies before the girl attains 15 years of age, the nearest legal guardian will become the applicant under the scheme.\n1. Up to two girl children in a family will be covered by the scheme.\n\n<br>\n\n> **Note**: \n\n- This criterion was modified on October 17, 2020. As per the modification, any girl child born on or after June 1, 2009, to parents having less than ₹1,00,000/- of family income per annum is eligible.)\n\n<br>",
+  "_criteria_filled": 4
+}

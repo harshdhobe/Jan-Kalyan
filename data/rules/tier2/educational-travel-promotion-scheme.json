@@ -1,0 +1,26 @@
+{
+  "id": "educational-travel-promotion-scheme",
+  "name": "Educational Travel Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹500/- per student per year is allocated to the school for organizing educational tours within the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "school-resolutions-related-to-the-plan-five-high-resolution-photographs-related"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/etps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student.\n  - The applicant must be enrolled in a government secondary and higher secondary school (including RMSA, Model/Model Day) of the state.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

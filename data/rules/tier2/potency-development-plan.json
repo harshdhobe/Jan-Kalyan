@@ -1,0 +1,33 @@
+{
+  "id": "potency-development-plan",
+  "name": "Potency Development Plan",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, artificial limbs/assistive devices worth up to ₹6,900/- are provided to persons with disabilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-of-chhattisgarh",
+    "if-applicable-bpl-card-if-applicable-a-recommendation-letter",
+    "if-applicable-any-other-documents-as-required"
+  ],
+  "apply_url": "https://sw.cg.gov.in/en/potency-development-plan",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n   1. The applicant should have a disability.\n   1. The applicant&amp;#39;s disability should be 40% or more.\n   1. The applicant should possess a Disability Certificate or a UDID Card.\n   1. The applicant should either be a member of a BPL family or have a recommendation from the Collector or Sub-Divisional Officer (Revenue).\n   1. The monthly income of the applicant’s parents/guardian should be less than ₹8,000/-.",
+  "_criteria_filled": 2
+}

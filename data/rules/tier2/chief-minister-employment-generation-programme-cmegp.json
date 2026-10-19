@@ -1,0 +1,36 @@
+{
+  "id": "chief-minister-employment-generation-programme-cmegp",
+  "name": "CHIEF MINISTER  EMPLOYMENT GENERATION  PROGRAMME (CMEGP)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "<br>\n\nCategories of beneficiaries under CMEGPBeneficiary’s Contribution (of project cost)Rate of subsidy (of project cost)Area (location of project/unit)UrbanRuralGeneral Category10%15%25%Special Category (includes SC / ST /Women/ Ex- servicemen / differently abled/VJNT/OBC/Minority)5%25%35%<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhar-card-3-domicile-certificate-4-educational-cetifia"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmegp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)The **Age** of the applicant should be between 18 to 45. For Special category (including SC/ST/Women/ Ex-servicemen/Differently abled) age is relaxed by 5 years.\n2)The **Occupation** of the applicant should be **unemployed youth, Youth willing to establish new ventures.**   \n3)The **Annual Income** of the Applicant/Family/Parent/Guardian should **No criteria** LPA\n4)The **Gender** of the applicant should be Male and Female\n 5)The **Marital Status** of the applicant should be **for all**\n 6)The **Educational Qualification** of the applicant should be **minimum 7th standard pass for   project/unit above Rs. 10 lac and for project/units above Rs.25 lac the required educational criterion for the applicant is minimum 10th standard pass.**\n<br>",
+  "_criteria_filled": 3
+}

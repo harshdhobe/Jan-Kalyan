@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-information-technology-it-information-technology-enab",
+  "name": "\"Capital Investment Subsidy: Information Technology (IT) / Information Technology Enabled Services (ITES) Industries\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Subsidy on the investments made on plant and machinery @ 20% thereon subject to a maximum of ₹20,00,000/- for the large, medium, small and micro enterprises during the period of operation of the scheme.\n<br>\n\n> **Number of Installments**\n\nThe subsidy shall be disbursed in a single instalment.\n<br>\n\n> **Mode of Disbursement** \n\n**In the case of Units Financed by Financial Institutions/Banks,** the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsentrepreneurs-memorandum-part-2-uam-pmt-registration-commenceme",
+    "an-affidavit-stating-that-the-subsidy-has-not-been-availed-of-from-the-central-g"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisitites-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a new IT/ITES industrial unit which started production on or after 6-11-2002.",
+  "_criteria_filled": 1
+}

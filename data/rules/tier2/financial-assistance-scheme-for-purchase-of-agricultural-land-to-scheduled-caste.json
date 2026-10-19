@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-scheme-for-purchase-of-agricultural-land-to-scheduled-caste",
+  "name": "Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under the scheme, Scheduled caste farmers are provided with financial assistance of ₹1,00,000/- per acre to purchase agricultural land.\n   1. Assistance is provided up to ₹2,00,000/- for a maximum of 2 acres to enable the purchase of agricultural land.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-issued"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/App_form_4_14102021_45932.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faspalscf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Scheduled Castes Category.\n   1. The applicant should be a native of Gujarat.\n   1. The applicant must be an agricultural labourer.\n   1. The annual income limit will be ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas.\n   1. Excluding government assistance, only the beneficiary who is able to purchase the land is eligible for the benefit.\n   1. Only one member of the family is eligible for the benefit.\n   1. Beneficiaries of land acquired with government assistance will be subject to non-sale for 15 years.\n   1. Under this scheme, assistance will be available for purchasing agricultural land from government or private individuals.",
+  "_criteria_filled": 2
+}

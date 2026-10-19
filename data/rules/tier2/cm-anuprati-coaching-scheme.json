@@ -1,0 +1,33 @@
+{
+  "id": "cm-anuprati-coaching-scheme",
+  "name": "CM Anuprati Coaching Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "Under the scheme, the following are the details of the amounts provided for the preparation of various exams:\nSl. No.ExaminationAmountDurationMinimum Qualification1Civil Services Examination conducted by UPSCThrough reputed institutes- ₹75,000/-1 Year1. Studying in final two years of graduation/undergraduate                     2. 70% marks in class 12Civil Services Examination conducted by UPSCTh",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photograph-janadhaar-number-sso-id",
+    "diploma-certificate-depends-on-the-courses-selected-income-certificate-if-the-ca",
+    "an-income-certificate-issued-by-the-head-of-officeemployer-is-required-any-other"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202206141157335834.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmacs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate must be a native of Rajasthan.\n   1. The candidate should belong to one of the following categories: Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), Extremely Backward Class (EBC), Economically Weaker Section (EWS), or Minority category.\n   1. The annual income of the candidate’s parents/guardians (including the candidate’s income, if applicable) must be less than ₹8.00 lakh, or the candidate&amp;#39;s parents must be State Government employees receiving a salary up to Level-11 of the Pay Matrix.\n   1. The candidate should not have previously availed the benefits of this scheme.\n   1. The candidate must possess the minimum qualifications required for the competitive examination.",
+  "_criteria_filled": 2
+}

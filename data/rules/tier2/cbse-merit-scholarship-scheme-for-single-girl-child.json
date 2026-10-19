@@ -1,0 +1,31 @@
+{
+  "id": "cbse-merit-scholarship-scheme-for-single-girl-child",
+  "name": "CBSE Merit Scholarship Scheme For Single Girl Child",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**Financial Assistance**\n\n- ₹1,000 per month per student provided for a maximum period of 2 years (classes 11th and 12th)\n**Mode of Disbursement**\n\n- Direct transfer through ECS (Electronic Clearing Service) / NEFT (National Electronic Funds Transfer)\n\n**Validity**\n\n- Up to completion of class 12 (maximum 2 years), subject to renewal conditions\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-and-scanned-signature-aadhaar-card-admission-proof-stud"
+  ],
+  "apply_url": "https://www.cbse.gov.in/cbsenew/scholar/Guidelines_SGC_2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msssgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a single girl child of her parents.\n1. The applicant should have secured 70% or more marks in CBSE class 10th examination.1. The applicant should be studying in Class 11 or 12 in a CBSE-affiliated school.\n1. The applicant should have a tuition fee not exceeding ₹2,500 per month in class 10th.1. The applicant should have a tuition fee not exceeding ₹3,000 per month in classes 11th and 12th.1. The applicant should have gross parental/family income not exceeding ₹8,00,000 per annum.\n1. The applicant should be an Indian National.\n1. The applicant should continue her studies in classes 11th and 12th.1. All children born together (such as twins) are considered a single girl child.\n1. NRI students are eligible and their tuition fee should not exceed ₹6,000 per month.\n\n<br>",
+  "_criteria_filled": 2
+}

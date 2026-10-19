@@ -1,0 +1,37 @@
+{
+  "id": "advance-high-skill-training-component-of-the-development-of-industries-scheme",
+  "name": "\"Advance / High Skill Training\" Component of the \"Development of Industries\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Skill Training**\n\nSelected candidates are sponsored to training in relevant courses offered by reputed Training Institutions situated in the neighbouring states.\n> **Stipend to Trainee (per month)**\n\n- Higher Secondary / ITI: ₹ 2,500/-.\n- Any Graduate or 3 years Diploma in Engineering or equivalent: ₹ 3,000/-.\n\n> **Travelling Allowances**\n\nOne-time to and fro expenses restricted to 2nd class t",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-applicants-passport-sized-photo-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-age-proof-educational-certificatesmarksheets"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be between 18 and 35 years of age.\n- The applicant should possess the educational qualification as prescribed by the Training Units/ Institutions.\n- The applicant should be a native of the Union Territory of Puducherry (or) continuous resident of the area for the past three years.",
+  "_criteria_filled": 3
+}

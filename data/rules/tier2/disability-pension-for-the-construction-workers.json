@@ -1,0 +1,41 @@
+{
+  "id": "disability-pension-for-the-construction-workers",
+  "name": "Disability Pension for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- ₹3,000/- per month as disability pension to permanently disabled due to paralysis, leprosy, T.B., accident etc. available from the date of registration.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "permanent-disability-certificate-issued-by-govt-doctor-medical-certificate-by-co"
+  ],
+  "apply_url": "https://dbocwwb.delhi.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n**For Application**\n\n- The applicant should be permanently disabled due to paralysis, leprosy, T.B., accident etc.\n\n<br>",
+  "_criteria_filled": 4
+}

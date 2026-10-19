@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-yuva-kaushal-yojana",
+  "name": "Chief Minister’s Yuva Kaushal Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "The scheme provides high-end training to the youth across the state to enable them to find jobs in the private sector.\nA guarantee of a minimum 70% placement to the youth.\nA Stipend of ₹3000/- is to be given to the trainees undergoing the course.\nCost of Uniforms/ Books to be borne by the state government.\nBoarding and Lodging are to be provided during on-the Job Training within the state.\nThe boa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-10th-pass-certificate-registered-mobile-number-bank-details-of-the-b"
+  ],
+  "apply_url": "https://ahvdd.arunachal.gov.in/pdf/eBook/Government%20Scheme%20Handbook.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cm-yky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tThe applicant should have a minimum qualification of class X.",
+  "_criteria_filled": 1
+}

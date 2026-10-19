@@ -1,0 +1,39 @@
+{
+  "id": "kanya-vivah-sahayta-yojana",
+  "name": "Kanya Vivah Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "Benefits\nIn case of fulfilment of all the qualifications to the registered construction worker, an amount of Rs.55,000/- (Rupees fifty five thousand only) will be provided by the board as financial assistance for the marriage of his own daughter or registered female construction worker and for inter-caste marriage Rs. An amount of 61,000 / – (Rupees sixty one thousand only) will be provided as fin",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-self-attested-copy-of-birth-certificate-school-leavin",
+    "then-the-records-related-to-her-as-certified-family-register-ration-card-of-the",
+    "attested-by-the-laborer-employment-self-declaration-certificate-in-the-prescribe",
+    "the-benefit-of-the-said-scheme-will-not-be-payable"
+  ],
+  "apply_url": "https://upbocw.in/pdf/schemes/kanya_vivah_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. After the registration by the construction worker, the membership period of the board should have been completed for at least 365 days.\n1. Provision has been made for application within 1 year of marriage and 15 days before in case of mass marriage.\n1. Aadhaar authentication of the daughter of the beneficiary labor has been made mandatory.\n1. The benefit is limited subject to the limit of 2 children.\n1. The benefit of the scheme will be admissible after the daughter and the proposed bridegroom complete the prescribed age of 18 years and 21 years respectively.",
+  "_criteria_filled": 3
+}

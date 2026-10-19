@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-for-preparation-of-training-camp-and-participation-in-land",
+  "name": "Financial Assistance for Preparation of Training Camp and Participation in Land, Mountain & Sea Adventure Sports Competitions",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to ₹30,000/- or 75% of the actual expenditure (whichever is lower).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-birth-certificate-certificate-of-pro"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/faptlmsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should be up to 45 years of age at the time of application.\n   1. The applicant should have participated in or completed a training program, workshop, expedition, or competition related to land, sea, or air adventure sports.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

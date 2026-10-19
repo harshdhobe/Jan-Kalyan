@@ -1,0 +1,31 @@
+{
+  "id": "dr-panjabrao-deshmukh-hostel-maintenance-allowance",
+  "name": "Dr. Panjabrao Deshmukh Hostel Maintenance Allowance",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "1.\tHostel maintenance allowance for students with annual income less than 8,00,000: Rs.3000 per year for Mumbai, Pune, Nagpur, and Aurangabad and Rs.2000 per year for other locations. (for 10 months in an academic year).\n2.\tHostel maintenance allowance for students whose parents are Aplabhudharak shetkari/Registered Labourers: Rs.30,000 per year for Mumbai, Pune, Nagpur, and Aurangabad and Rs.20,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-domicile-certificate-2-new-applicants-need-to-submit-hsc-and-ssc-mark-sheet-3"
+  ],
+  "apply_url": "https://mahadbt.maharashtra.gov.in/PDF/34.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/drpdhma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Eligibility Criteria: (As per the GR Dated 07th Oct 2017, 22nd Feb 2018 , 01st March 2018, 18th June 2018 ) \na) Applicant should have Nationality of India. \nb) Candidate should be Domicile of Maharashtra State.\nc) Applicant should be ”Bonafide Student of Institute” and admitted for Professional and Technical course (Diploma / Graduation / Post Graduation Degree) as mentioned in GR \nd) Deemed University and Private university is not applicable \ne) Candidate should be admitted through Centralized Admission Process (CAP). \nf) Applicant should not avail any other scholarship/stipend. \ng) For current Academic Year, Only 2 child from family are allowed for benefit of scheme. \nh) The Total Annual Income of Family / Guardian should not be more than 8 Lakhs. \ni) Minimum 50 % attendance in previous semester (Exception for fresh admitted in College). j) During course duration, candidate should not have a gap of 2 or more than 2 years.\n<br>",
+  "_criteria_filled": 2
+}

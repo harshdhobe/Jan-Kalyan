@@ -1,0 +1,31 @@
+{
+  "id": "district-level-sports-school",
+  "name": "District Level Sports School",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Monetary Support &amp; Facilities:**\n\n- Players are provided with free education, stationery, books, accommodation, meals, school uniforms, and modern sports equipment and kits.\n\n> **Medical Insurance:**\n\n- A Mediclaim security cover of up to ₹1,00,000/- is provided to each selected athlete.\n\n> **Expert Coaching &amp; Training:**\n\n- Intensive sports training is imparted in morning and evening ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 14
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate"
+  ],
+  "apply_url": "https://sycd.gujarat.gov.in/district-level-sports-school.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/dlssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be below 14 years of age.\n1. The applicant must qualify under one of the following categories:\n\n- **Proven Talent (PT):**\n\n   1. The applicant should have already performed at School Games Federation of India (SGFI), State-level, or National-level sports events.\n   1. The applicant must participate in a selection camp for final admission.\n\n- **Young Talent (YT):**\n\n   1. The applicant should have participated and secured first place at Taluka/District/Corporation level in Khel Mahakumbh (Under-9 or Under-11 category).\n   1. The applicant must register for Khel Mahakumbh and undergo the selection process.\n\n- **In-School Talent:**\n\n   1. The applicant should be identified within a school already running the DLSS program.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "adivasi-sanskriti-evam-kala-kendramajhi-bhavan-manki-munda-bhavan-parha-bhavan-p",
+  "name": "Adivasi Sanskriti Evam Kala Kendra/Majhi Bhavan, Manki Munda Bhavan, Parha Bhavan, Pargana Bhavan, Dumkuria Bhavan Evam Gosade Nirman Tatha Majhi Than Shed Nirman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Grants and Allocations:** Financial assistance of ₹25,00,000/- to ₹5,00,00,000/- per project, based on the scope of work and infrastructure required.- **Construction of Cultural Hubs:** Dedicated centers for tribal cultural preservation such as Majhi Bhavans, Dumkuria Bhavans, and Pargana Bhavans.- **Basic Infrastructure Development:** Facilities include boundary walls, multipurpose halls, dri",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "gram-sabha-resolution-proposal-for-infrastructure-development-land-ownership-cer"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D030DO003SD00305072022014908933",
+  "source_url": "https://www.myscheme.gov.in/schemes/asekkmbmtsny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should represent a village with a significant tribal population.\n1. The applicant village must have recognized traditional tribal leaders, such as Manki, Munda, or Pahan.\n1. The applicant committee must be formed under the leadership of tribal leaders with 7-11 tribal members.\n1. The applicant village must have government-approved land for the construction of the infrastructure.",
+  "_criteria_filled": 1
+}

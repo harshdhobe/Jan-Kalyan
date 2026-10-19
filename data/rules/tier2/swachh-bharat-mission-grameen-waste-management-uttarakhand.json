@@ -1,0 +1,26 @@
+{
+  "id": "swachh-bharat-mission-grameen-waste-management-uttarakhand",
+  "name": "Swachh Bharat Mission (Grameen - Waste Management) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Solid and liquid waste management facilities, such as public dustbins, soak pits, compost pits, garbage collection centres, and community sanitation complexes, are constructed according to the requirements of Gram Panchayats through convergence, addressing the needs of migrant and floating populations, at a cost of ₹3.00 lakh (70% from the Swachh Bharat Mission and 30% from the 15th Finance Commis",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-scheme"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbmgwmuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Gram Panchayat can apply to the district level unit with a simple application form along with a Gram Panchayat resolution. There is no prescribed format for the application.\n\n<br>",
+  "_criteria_filled": 1
+}

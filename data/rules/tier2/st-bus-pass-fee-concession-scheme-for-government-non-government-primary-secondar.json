@@ -1,0 +1,31 @@
+{
+  "id": "st-bus-pass-fee-concession-scheme-for-government-non-government-primary-secondar",
+  "name": "S.T. Bus Pass Fee Concession Scheme For Government/ Non Government Primary, Secondary & Higher Secondary and Higher Technical Education Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Concession in Fees of the Buses of Gujarat State Road Transport Corporation (GSRTC).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-identity-proof-bonafide-certificate-student-id-c"
+  ],
+  "apply_url": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=EMQfBFS3NWF+lPDAa44IYw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/stbpfcsgngpshshtes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be a Student.\n- The applicant must be a Girl.\n- The applicant must be studying in Primary / Secondary / Higher Secondary / Higher Secondary Technical Education.\n- The applicant must be studying in a Government or Non-Government School.\n\n<br>",
+  "_criteria_filled": 2
+}

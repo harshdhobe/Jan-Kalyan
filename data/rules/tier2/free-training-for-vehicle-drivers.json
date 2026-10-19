@@ -1,0 +1,26 @@
+{
+  "id": "free-training-for-vehicle-drivers",
+  "name": "Free Training for Vehicle Drivers",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, training will be provided to vehicle drivers to enhance their driving skills, which will help reduce road accidents and enable them to pursue better self-employment opportunities.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "for-light-motor-vehicle-commercial-course-aadhaar-card-of-the-applicant-caste-ce"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ftvd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand.\n  - The applicant must belong to a Scheduled Caste or Scheduled Tribe category.\n\n<br>",
+  "_criteria_filled": 1
+}

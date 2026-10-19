@@ -1,0 +1,27 @@
+{
+  "id": "vasantrao-naik-merit-awards-to-the-vjnt-students-who-came-first-in-state-or-firs",
+  "name": "Vasantrao Naik Merit Awards To The Vjnt Students Who Came First In State Or First In Board Of 10th And 12th Standard Examination",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1. Award of ₹ 1,00,000 trophy and Certificate for one Boy and one Girl Student who came First in State in the Senior Secondary School (SSC) Exam.\n1. Award of ₹ 51,000 trophy and Certificate for one Boy and one Girl Student who came First in each Board in the Senior Secondary School (SSC) Exam.\n1. Award of ₹ 1,00,000 trophy and Certificate for one Boy and one Girl Student who came First in State in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-domicile-certificate-of-maharashtra-caste-certificate-vjnt-or-sbc",
+    "not-below-the-rank-of-tehsildar-family-income-certificate-marksheet-of-10th12th"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/vnmatv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students should belong to the VJNT category.\n1. The student should be First in State, or First in Board Examination of 10th or 12th.standard.\n1. First Boy and First Girl Students who stood first in state and board both are eligible for Award.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation-seed-support",
+  "name": "Scheme for assistance for Start Ups/ Innovation: Seed Support",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Total Assistance: ₹30,00,000/-.**\n\n  - **Prototype Development:** Covers costs for raw materials, consumables, hardware, software, professional services, equipment, or tools.  - **Market Research:** Financial aid for conducting market research to ensure product viability.  - **Testing &amp;amp; Trials:** Assistance for product testing and trial phases.  - **Marketing/Publicity Assistance:**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-startup-project-proposal-identity-proof-of-the-applicants-recommendatio"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/13-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfasiss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n  - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n&gt; **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.",
+  "_criteria_filled": 1
+}

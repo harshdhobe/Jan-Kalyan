@@ -1,0 +1,26 @@
+{
+  "id": "agriculture-research-stations-and-laboratories-scheme",
+  "name": "Agriculture Research Stations and Laboratories Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Adaptive research at farmers&#39; field.\n\n> **Type of Assistance And Entitlement (If Any):**\n\n- Training on Soil management, Providing Soil Health Cards, Conducting soil surveys, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-being-a-farmer-any-ot"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=82",
+  "source_url": "https://www.myscheme.gov.in/schemes/arsls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

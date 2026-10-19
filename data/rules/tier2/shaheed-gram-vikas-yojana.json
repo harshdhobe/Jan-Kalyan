@@ -1,0 +1,26 @@
+{
+  "id": "shaheed-gram-vikas-yojana",
+  "name": "Shaheed Gram Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "> ***List of villages under Shaheed Gram Yojana:***\n\n**S.No.****District****Block****Village**1KhuntiArkiUlihatu2RanchiChanhoSilagai3SahebganjBarhetBhoganadih4GarhwaBhandariaMadgardi5GumlaSisaiMurgu Sisai6GumlaBisunpurChingari Nava Toli7West SinghbhumRajnagar ThanaGumidpur, Matkom Beda Gaon8KhuntiMurhuAetkedih**NOTE:** As per requirements, villages of other martyrs of the freedom struggle can also",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-caste-certificate-proof-of-kutcha-housing-i"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO003SD00316032021114645753",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The shaheed should belong to a Scheduled Tribe or Scheduled Caste. \n1. The family should be residing in one of the selected Shaheed villages.\n1. The shaheed family should live in a kutcha house and not have availed of benefits from any housing scheme in the last 5 years.\n1. Priority will be given to descendants of freedom fighters from selected villages.",
+  "_criteria_filled": 1
+}

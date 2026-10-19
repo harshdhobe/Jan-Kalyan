@@ -1,0 +1,41 @@
+{
+  "id": "ashirwad",
+  "name": "Ashirwad",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹51,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 32790
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-applicant-proof-of-date-of-birth-dob-income-certificate-cast"
+  ],
+  "apply_url": "https://ashirwad.punjab.gov.in/ashirwad/Public/ApplicantRegistration.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/asd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl should be 18 years old or above.\n   1. Annual income of the family from all sources does not exceed ₹32,790/-.\n   1. Parents/Guardians of the girl should be domiciled in Punjab State.\n   1. The application can be given before the fixed date of marriage or after the 30 days of the marriage by the applicant for getting financial assistance.\n   1. The amount of Ashirwad is limited up to two girls of the concerned family under the scheme.\n   1. Financial assistance is given to Scheduled Castes/Christian girls, Backward Classes/Castes, Economically weaker sections girls, daughters of widows of any caste at the time of their marriage, and Scheduled Castes widows/divorcees at the time of their re-marriage.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,32 @@
+{
+  "id": "delhi-arogya-kosh",
+  "name": "Delhi Arogya Kosh",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "Benefits\nProvides financial assistance of Rs. 5 lacs to needy eligible patients for treatment of any illness /disease in a Government hospital run by Delhi  Government or  Central Government or Local Bodies or  Autonomous Hospitals under State Government",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "requisite-documents-for-verification-of-income-any-one-of-the-following-national",
+    "birth-certificate-of-the-patient-and-the-domicile-proof-of-either-of-the-parent"
+  ],
+  "apply_url": "http://health.delhigovt.nic.in/wps/wcm/connect/083fff004d3a3c1181a5f5d1e963ea50/DAJSAl.pdf?MOD=AJPERES&lmod=95301809&CACHEID=083fff004d3a3c1181a5f5d1e963ea50",
+  "source_url": "https://www.myscheme.gov.in/schemes/dak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Patients with annual family income up to Rs 3 lacs are eligible.\n1. The patient should be a bonafide resident of Delhi for the last 3 years ( prior to the date of submission of the application).\n1. The patient requiring treatment for any illness/ treatment/ intervention in a Government Hospital run by Delhi Govt. /Central Govt. /AIIMS /Autonomous Institutes of the State Govt. /Local Bodies.",
+  "_criteria_filled": 2
+}

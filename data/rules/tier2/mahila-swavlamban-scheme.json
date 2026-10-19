@@ -1,0 +1,41 @@
+{
+  "id": "mahila-swavlamban-scheme",
+  "name": "Mahila Swavlamban Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Subsidy Support:** A subsidy of 15% or up to ₹30,000/- (whichever is lower) is provided to eligible women to support their business ventures.\n\n  - **Loan Facility:** Women can avail of loans up to ₹2,00,000/- to start or expand their economic activities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-aadhaar-card-quotation-for-business-activities-experience-certificate"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=233",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a woman.\n1. The applicant must be a resident of Gujarat.\n1. The applicant must belong to the BPL (Below Poverty Line) category \n1. The applicant&#39;s annual income must be ₹1,20,000/- in rural areas and ₹1,50,000/-in urban areas.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarship-for-students-with-disabilities-dnh-dd",
+  "name": "Post Matric Scholarship for students with Disabilities - DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Scholarship support is available for studies from Class 11 up to Post-Graduate Degree or Diploma level.\n1. Eligible courses should be approved by recognised bodies such as:\n\n- University Grants Commission (UGC)\n- National Medical Commission (NMC)\n- Rehabilitation Council of India (RCI)\n- All India Council for Technical Education (AICTE)\n- State Government or Union Territory Government\n\n> **Bene",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photograph-proof-of-age-certificate-of-disability-rights-of-persons-with-disabil"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/postmssd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student with a benchmark disability of 40% or more as defined under the Rights of Persons with Disabilities Act, 2016.\n1. The applicant should possess a Unique Disability ID (UDID).\n1. The applicant should possess an Aadhaar Card.\n1. The applicant should pursue eligible Post-Matric educational courses covered under the scheme.\n1. The applicant should satisfy the prescribed income ceiling criteria.\n1. The applicant should study in Class 11 to Post-Graduate Degree or Diploma level.\n1. The applicant should pursue courses approved by recognized bodies such as:\n\n- University Grants Commission (UGC)\n- State Government or Union Territory Government\n- National Medical Commission (NMC)\n- Rehabilitation Council of India (RCI)\n- All India Council for Technical Education (AICTE)\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "khet-talai",
+  "name": "Khet Talai",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Scheduled Caste (SC) and Scheduled Tribes (ST), small, and marginal farmers will get 70 percent of the unit cost or a maximum of ₹73,500/- on raw form pounds and 90 percent or ₹1,35,000/- on plastic lining form pounds and other category farmers. \n   1. The subsidy is available on 60 percent of the cost or a maximum of ₹63,000/- on raw form pounds and 80 percent or ₹1,20,000/- on plastic lining ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbook-land-proof-jan-aadhar-card-mobile-number"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/kt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Farmer.\n1. The applicant should be a native of Rajasthan.\n1. The applicant farmer should have a minimum cultivable land of 0.3 hectares at one place in his name.\n1. In the case of the joint account holder, the minimum land in one place should be 0.5 hectares.",
+  "_criteria_filled": 1
+}

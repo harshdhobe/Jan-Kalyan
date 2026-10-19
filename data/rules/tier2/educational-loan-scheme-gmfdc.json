@@ -1,0 +1,41 @@
+{
+  "id": "educational-loan-scheme-gmfdc",
+  "name": "Educational Loan Scheme (GMFDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. For studies within India, a maximum loan of ₹1,50,000/- per year and up to ₹7,50,000/- for a five-year course can be obtained.\n1. For medical courses within India, ₹2,50,000/- for 1 year and ₹12,50,000/- for 5 years can be obtained.\n1. For abroad studies, a maximum loan of ₹3,00,000/- for 1 year and ₹15,00,000/- for 5 years is provided.\n1. The annual interest rate on this loan is 3%.\n\n**Note 1:",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 32
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-income-certificate-minority-certificate-educational"
+  ],
+  "apply_url": "https://gmfdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/elgmfdcl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should belong to a minority religious community (Muslim, Christian, Sikh, Jain, Buddhist, Parsi, and Jewish) or a linguistic community (Sindhi, Marathi, Urdu) of Gujarat State.\n   1. The applicant or any family member should not have received a loan from Gujarat Minorities Finance and Development Corporation Limited, Gujarat Backward Class Development Corporation, Gandhinagar, or any other central/state government corporation/institution or bank.\n   1. The annual income of the applicant&amp;#39;s family should be:\n\n  - ₹98,000/- for rural areas.\n  - ₹1,20,000/- for urban areas.\n  - However, families with income exceeding ₹1,20,000/- and up to ₹8,00,000/- are also eligible, albeit with different interest rates\n\n  5. The applicant&amp;#39;s age should be between 16 and 32 years.\n<br>",
+  "_criteria_filled": 4
+}

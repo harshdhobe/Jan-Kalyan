@@ -1,0 +1,36 @@
+{
+  "id": "indiramma-old-age-pension-urban",
+  "name": "INDIRAMMA Old Age Pension (Urban)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "**Pension Amount:** The scale of benefit under the pension will be notified by the Government of Andhra Pradesh.\n**Mode of Disbursement:** The Bill Collector disburses the pension to the eligible individuals in the presence of Ward members and office bearers of DWCUA.\n**Time of Disbursement:** The pension is disbursed on the first date of every month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-proof-of-age-proof-of-residence-below-poverty-line-bpl-cert"
+  ],
+  "apply_url": "https://handlooms.ap.gov.in/documents/Old_age_pensions_(Urban)_GO.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ioap-u",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Below Poverty Line (BPL) family.\n- The applicant should be from an urban area.\n- The applicant should be a local resident of a district of Andhra Pradesh.\n- The applicant should not be covered under any other Pension Scheme.\n- The applicant should be 65 years of age or above.\n- The applicant should be destitute (with little or no means of subsistence and no family or relative to depend upon).\n\n_*The eligible citizens will be identified by their respective Ward Sabhas. The register containing the list of eligible citizens will be shared by the Bill Collector with the Municipal Commissioner._",
+  "_criteria_filled": 3
+}

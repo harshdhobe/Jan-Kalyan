@@ -1,0 +1,27 @@
+{
+  "id": "educational-award-scheme-gujarat-labour-welfare-board",
+  "name": "Educational Award Scheme - Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, children of laborers who have passed 70% or above marks in the 10th Standard will receive ₹2,500/- as an award.\n   1. The children of laborers who have passed 70% or above marks in the 12th Standard will receive ₹5,000/- as an award.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-id-card-of-labour-aadhaar-card-of-labour-labour-welfare",
+    "if-applicable-residence-proof-bank-account-detailsbank-passbook-marksheet-of-chi"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/educational-award-scheme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eas-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only the children (students) whose parents are working in a factory/institute in the state of Gujarat and whose parents have been paying the Labour Welfare Fund will be eligible for this scheme.\n   1. The children of labourers who have passed 70% and above marks in the 10th or 12th Standard can avail the benefits under the scheme.",
+  "_criteria_filled": 1
+}

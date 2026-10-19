@@ -1,0 +1,41 @@
+{
+  "id": "special-jobs-to-pwds-helper",
+  "name": "Special Jobs to PwDs - Helper",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "person",
+  "benefit": "1. Persons with Disabilities are employed as Helper in the District Panchayat offices of their respective islands.\n1. A monthly salary of ₹9,900/-.\n\n**Note:** Employment is provided on 89 days rotation basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-disability-certificate-residential-proof-st-certificate-education"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pwdhelper",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a local resident of the Union Territory of Lakshadweep.\n1. The applicant should have a minimum of 40% disability and be physically capable of performing the work of a helper.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The age of the applicant should be between 18 and 45 years.\n1. The applicant should have passed at least the 8th standard.",
+  "_criteria_filled": 4
+}

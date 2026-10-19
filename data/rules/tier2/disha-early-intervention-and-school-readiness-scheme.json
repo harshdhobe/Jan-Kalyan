@@ -1,0 +1,36 @@
+{
+  "id": "disha-early-intervention-and-school-readiness-scheme",
+  "name": "Disha - Early Intervention and School Readiness Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Day Care:** Day-care facilities to PwD for at least 4 hours in a day.1. **Staffing:** Provision of Therapies, trainings and providing support to family members.1. **Counselling:** Counselling and guidance especially for Activities for Daily Living (ADL) must be provided to parents or guardians of PwD with regular follow-ups by RO to ensure that parents or guardians attend a minimum number of ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 10
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "enrolment-form-birth-certificate-or-date-of-birth-proof-of-the-pwd-disability-ce"
+  ],
+  "apply_url": "https://nationaltrust.nic.in/disha-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/deisrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Following are the eligibility criteria that a PwD should have to be enrolled under Disha Centre:\n\n1. PwD should be in the age group of 0-10 years.\n1. PwD should have one of the disabilities covered under the [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf), which are Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities.\n<br>",
+  "_criteria_filled": 3
+}

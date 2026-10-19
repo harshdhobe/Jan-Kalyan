@@ -1,0 +1,28 @@
+{
+  "id": "lease-rental-rebate-scheme-for-goan-diaspora",
+  "name": "Lease Rental Rebate Scheme for Goan Diaspora",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. A 100% reimbursement of the lease rentals will be provided for a period of first 6 months of operations.\n2. A reimbursement of ₹ 35 per sq. ft. or 80% of the total lease rentals; whichever is lower; will be provided up to a maximum period of 2 years.\n3. Incentives shall be disbursed on a prorata basis based on the percentage of Employees of Goan origin or Goan Graduates: \n\n- Upto 30% of employe",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar",
+    "and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-the-first-bill-ge"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/lrsgd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a New/Existing Unit.\n2. The applicant should have their operations in Goa.\n3. The applicant should be one of the following:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n4. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n5. The unit should be operational for at least one year prior to the date of application.\n6. For a said office space, an IT unit can avail lease rental rebate only if the unit has operated from the said office space for a period of more than one year.\n7. The company/ firms should be registered in Goa.\n8. The company/ firms&#39; CEO / Head or the Majority Stakeholder(s) should be Goan Diaspora. \n9. The company/ firm should hire minimum 15 employees and minimum 60% of those employees should be of Goan Origin. \n10. The employees should be on the rolls of the company for a minimum period of one year.\n**NOTE:** Units will be subject to evaluation at the end of Fiscal Year to verify eligibility for continuing to receive subsidy under this scheme.",
+  "_criteria_filled": 1
+}

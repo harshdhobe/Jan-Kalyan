@@ -1,0 +1,31 @@
+{
+  "id": "kanya-dhan-scheme-for-sc-students",
+  "name": "Kanya Dhan Scheme for SC Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- An amount of **₹ 25,000/-** is provided as a fixed deposit in the name of the girl child and the officer nominated by the government.\n**NOTE:** The amount is disbursed to the beneficiaries after they pass the 12th standard board (or equivalent) examination.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-passport-size-photo-ration-car"
+  ],
+  "apply_url": "https://dip.goa.gov.in/2023/12/13/online-applications-invited-for-centrally-and-state-sponsored-schemes/",
+  "source_url": "https://www.myscheme.gov.in/schemes/kdscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Application**\n\n1. The applicant should be a girl.\n1. The applicant should be a student.\n1. The applicant should have passed the 10th Standard of examination.\n1. The applicant should have appeared in the 11th Standard of any stream (Science/Arts/Commerce/Vocational/ITI).\n1. Upto 2 girl children of a family are entitled under this scheme.\n\n<br>\n\n**For Disbursal of Benefits**\n\n1. The applicant should have passed the 12th standard examination in three attempts or within two years of the first attempt, whichever is earlier (otherwise, the money shall be forfeited and credited to the Government Treasury).",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "old-age-and-destitute-pension",
+  "name": "Old Age And Destitute Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- ₹1500/- per month for Old Age Persons, Destitute women, Widows, and Transgender with age less than 60 years.\n- ₹2000/- per month for Old Age Persons, Destitute women, Widows, and Transgender with age between 60 years and 79 years.\n- ₹3000/- per month for Old Age Persons, Destitute women, Widows, and Transgender with age 80 years and above.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identification-certificate-income-certificate-not-exceeding-75",
+    "000-residence-certificate-attested-copy-of-birth-certificate-or-documentary-proo",
+    "a-certificate-from-the-mla-and-anganwadi-worker",
+    "that-the-individual-has-been-deserted-for-seven-years-consecutively-and-a-sworn",
+    "and-a-sworn-affidavit-in-appendix-ii-in-the-transgender",
+    "proof-of-being-40-years-and-above-and-a-medical-certificate-from-a-medical-offic"
+  ],
+  "apply_url": "https://oaps.py.gov.in/Home/pension.aspx#:~:text=%E2%82%B9.,60%20years%20and%2079%20years.",
+  "source_url": "https://www.myscheme.gov.in/schemes/oadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Old Age both men and Women above fifty-five years.\n1. Widows above 18 years of age.\n1. Deserted Women consecutively deserted for the past seven years.\n1. Unmarried Women above 40 years.\n1. Transgender above 21 years.",
+  "_criteria_filled": 1
+}

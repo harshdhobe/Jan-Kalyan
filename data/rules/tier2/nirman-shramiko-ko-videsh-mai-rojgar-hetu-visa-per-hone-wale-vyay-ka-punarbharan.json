@@ -1,0 +1,28 @@
+{
+  "id": "nirman-shramiko-ko-videsh-mai-rojgar-hetu-visa-per-hone-wale-vyay-ka-punarbharan",
+  "name": "Nirman Shramiko Ko Videsh Mai Rojgar Hetu Visa Per Hone Wale Vyay Ka Punarbharan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> The beneficiary will be reimbursed for the expenses incurred for a visa for employment abroad up to a maximum of ₹5,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-registration-identity-card-of-the-beneficiary-copy-of-the-beneficiar",
+    "bank-account-number",
+    "and-copy-of-the-ifs-code-mentioned-visa-with-a-copy-of-passport-copy-of-employme"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/LAB_/VISA/DOC_820_45f07db9-c276-4ef1-a382-7c5350622b19.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nskvmyhvphvbkpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Construction workers must be registered with the board as beneficiaries and must be continuously depositing their contributions.\n1. To obtain overseas contract employment, construction worker need permission from the Protector of Emigrants (POE) office under the Emigration Act, 1983.\n1. The recruiting agency must be registered under the Emigration Act or possess a valid permit from the POE office\n1. The reimbursement of the visa amount will be payable only if the beneficiary has a valid passport with a minimum validity of 6 months along with a valid visa.\n1. The benefit of this scheme will be payable only if the future employment of the beneficiary abroad is in the construction and other construction works.\n1. The beneficiary will be entitled to the assistance amount only once.\n1. If any information given in the assistance application submitted by the beneficiary under the scheme is found to be false, the concerned beneficiary will be responsible for depositing the entire assistance amount approved under the scheme along with interest in one go.",
+  "_criteria_filled": 1
+}

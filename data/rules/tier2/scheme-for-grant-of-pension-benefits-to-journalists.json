@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-grant-of-pension-benefits-to-journalists",
+  "name": "Scheme for Grant of Pension Benefits to Journalists",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Pension Amount:** ₹6,000/- per month, or as may be fixed by the Government from time to time.- **Date of Payment:** Payment will be made on the 10th of every month.- **Mode of Payment:** Payment will be made through the Electronic Clearing System.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "for-the-applicantnativitynationalityresidence-certificate-form-ii",
+    "from-an-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-tahsild",
+    "from-an-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-tahsild"
+  ],
+  "apply_url": "https://info.py.gov.in/sites/default/files/2-pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgpbj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than ten years.\n- The applicant should be 58 years or above in age at the time of application.\n- The applicant should have served for a minimum of 20 years in roles such as Full-time Editor, Reporter, Sub-Editor, Press Photographer / Videographer / Correspondent of a Newspaper/Periodical/News Agency/Electronic Media, including Newspapers and Periodicals published in Puducherry and News Agencies/Electronic Media having headquarters outside Puducherry. \n- In the case of Media Persons who are unable to pursue their profession on account of chronic ill-health or are permanently incapacitated from performing their job, the pension shall be sanctioned if they have put in service for at least 10 years in any capacity (as mentioned in Point 4), irrespective of their present age, if they meet all the other eligibility criteria.\n- The applicant should not be receiving pension/honoraria from the Central/State Government.\n- In the case of the death of the journalist, his/her spouse is eligible for 50%)of the pension.",
+  "_criteria_filled": 2
+}

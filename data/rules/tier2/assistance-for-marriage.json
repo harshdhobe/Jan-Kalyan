@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-marriage",
+  "name": "Assistance for Marriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹2,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "differently-abled-identity-card-issued-by-the-welfare-board-birth-certificate-pr"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility for differently abled person:**\n\n1. The applicant should be a differently abled person.\n1. The differently abled person shall have attained the age as prescribed by law for marriage.\n\n**Eligibility for son or daughter:**\n\n1. The children of differently-abled person should be holding identity card.",
+  "_criteria_filled": 2
+}

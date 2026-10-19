@@ -1,0 +1,29 @@
+{
+  "id": "pmmsy-fish-feed-plants-of-production-capacity-of-at-least-100-tonday-haryana",
+  "name": "PMMSY: Fish Feed Plants of Production Capacity of at least 100 Ton/Day - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- The project cost is ₹650,00,000/-\n\n> **Subsidy Distribution :**\n\n1. A 40% subsidy is available for the General Category.\n1. A 60% subsidy is offered for SC (Scheduled Caste) and Women beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-proof-voter-idbirth-certificateaadhaarmatriculation-caste-certific",
+    "fard",
+    "registered-patta-with-clear-title-gst-bills-of-project-purchases-photographs-of",
+    "000-should-comply-with-gste-wayit-norms-clunocfirepollution-clearance-from-respe"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=j8wXS9qwLka/B7i2nz0gFA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sffppc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Haryana and possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant must own land or hold a registered lease of at least 10 years.\n1. The applicant must be willing to operate, maintain, and manage the feed plant after its construction.\n1. The applicant must ensure that the feed plant provides an affordable feed supply to fishers and fish farmers.\n1. The applicant must submit a valid Detailed Project Report (DPR) or Self-Contained Proposal (SCP) in accordance with PMMSY guidelines.\n1. The applicant must hold a valid training certificate relevant to feed mill operation and maintenance.\n1. The applicant must ensure that the land is free from legal disputes and must provide a valid land title.",
+  "_criteria_filled": 1
+}

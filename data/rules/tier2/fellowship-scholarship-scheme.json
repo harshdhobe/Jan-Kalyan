@@ -1,0 +1,31 @@
+{
+  "id": "fellowship-scholarship-scheme",
+  "name": "Fellowship Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Annual Scholarship:** Financial assistance is provided every year to eligible students.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-caste-certificate-for-scstphysically-backward-class-applicants-std-1"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have secured at least 70% marks in Class 10th.\n- The applicant must be pursuing higher secondary school (Class 11th onwards), college, or higher education.\n- The applicant’s personal/ family annual income must not exceed ₹2,50,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

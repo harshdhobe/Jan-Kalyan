@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-kaushal-vikas-yojana-40-short-term-training",
+  "name": "Pradhan Mantri Kaushal Vikas Yojana 4.0 - Short-Term Training",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The scheme provides free NSQF-aligned skill training ranging between 300 and 600 hours; courses of higher duration based on industry/sectoral demand can also be offered, and training in higher-level NSQF job roles (level 5, 6 and above) is also imparted.\n1. On-the-Job Training (OJT) is provided as an inherent component to give candidates practical exposure and a live-work environment, with the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-for-ekyc-and-mobile-based-one-time-password-otp-profile-verificatio"
+  ],
+  "apply_url": "https://xn--o1bna6ezc1cxc.xn--11b7cb3a6a.xn--h2brj9c/offerings/schemes-and-services/details/pradhan-mantri-kaushal-vikas-yojana-4-0-pmkvy-4-0-2021-ITO3ATMtQWa",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmkvy-stt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian national.\n1. The applicant should possess a valid Aadhaar.\n1. The applicant should be in the age group of 15 to 45 years.\n1. The applicant should fulfil the eligibility criteria of the respective job role, as defined in the course curriculum of the job role to be offered.\n1. The applicant may be a candidate looking for fresh skilling, re-skilling, or upskilling.\n1. The applicant may be an out-of-education candidate, a school/college dropout, or an unemployed youth.\n1. The applicant should not be enrolled again in the same job role in which he/she was already trained earlier.\n1. The applicant, if already certified once under PMKVY, opting for a lower NSQF-level course in the same sector, shall be discouraged; however, a higher job role in the same sector is permitted.\n1. The applicant may enrol not more than twice for training in the same sector, with the second time being for a higher NSQF-aligned job role only, and with a six-month gap between the certification date of the first course and the batch start date of the subsequent course.\n\n<br>",
+  "_criteria_filled": 2
+}

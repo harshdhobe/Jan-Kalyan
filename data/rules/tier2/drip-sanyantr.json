@@ -1,0 +1,26 @@
+{
+  "id": "drip-sanyantr",
+  "name": "Drip Sanyantr",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. 70% subsidy is given to general farmers and 75% subsidy is given to small, marginal Scheduled Caste, Scheduled Tribe, and women farmers.\n1. All categories of farmers are given subsidies on drip plants up to a maximum area of 5 hectares.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jamabandi-copy-not-older-than-6-months-aadhar-cardjanadhar-card-irrigation-sourc"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n1. The applicant should be a native of Rajasthan.\n1. The farmer should have at least 0.2 hectares of irrigated cultivable land.",
+  "_criteria_filled": 1
+}

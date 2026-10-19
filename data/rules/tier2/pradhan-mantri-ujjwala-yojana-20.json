@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-ujjwala-yojana-20",
+  "name": "Pradhan Mantri Ujjwala Yojana 2.0",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Cash assistance for PMUY connections is provided by the Government of India - ₹1600 (for a connection 14.2kg cylinder/ ₹1150 for a 5 kg cylinder). The cash assistance covers:\n\n1. Security Deposit of Cylinder – ₹1250 for 14.2 kg cylinder/ ₹ 800 for 5 kg cylinder.\n1. Pressure Regulator – ₹150.\n1. LPG Hose – ₹100.\n1. Domestic Gas Consumer Card – ₹25.\n1. Inspection/ Installation/ Demonstration charges",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "know-your-customerkyc-ration-card-issued-by-the-state-from-which-application-is",
+    "only-aadhaar-is-sufficient-bank-account-number-and-ifsc"
+  ],
+  "apply_url": "https://www.pmuy.gov.in/index.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmuy2",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be at least 18 years old.\n1. The applicant’s household must not have any existing LPG connection.\n1. The applicant woman must belong to any one of the eligible categories. \n\n- SC Households\n- ST Households\n- Pradhan Mantri Awas Yojana (Gramin)\n- Most Backward Classes\n- Antyodaya Anna Yojana (AAY)\n- Tea and Ex-Tea Garden tribes\n- Forest Dwellers\n- People residing on Islands and River Islands\n- SECC Households (AHL TIN)\n- Poor Household as per 14-point declaration\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

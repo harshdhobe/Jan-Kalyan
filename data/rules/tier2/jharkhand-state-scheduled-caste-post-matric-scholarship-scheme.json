@@ -1,0 +1,31 @@
+{
+  "id": "jharkhand-state-scheduled-caste-post-matric-scholarship-scheme",
+  "name": "Jharkhand State Scheduled Caste Post-Matric Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "**Covers tuition fees, academic allowance, and maintenance fees:**\nCourse GroupHostellerDay-scholarGroup- 1 &amp;amp;amp;quot;A&amp;amp;amp;quot;₹1,00,000/-₹90,000/-Group- 1 &amp;amp;amp;quot;B&amp;amp;amp;quot;₹90,000/-₹85,000/-Group- 1 &amp;amp;amp;quot;C&amp;amp;amp;quot;₹85,000/-₹80,000/-Group- 2 &amp;amp;amp;quot;A&amp;amp;amp;quot;₹75,000/-₹70,000/-Group- 2 &amp;amp;amp;quot;B&amp;amp;amp;qu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-issued-by-the-circle-officer-or-higher-authority-caste-c"
+  ],
+  "apply_url": "https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jscpmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria for the Student:**\n\n1. The student should be a native of Jharkhand.\n1. The student belongs to the scheduled caste category.\n1. The student&#39;s family annual income should not exceed ₹2,50,000/-.\n1. The student must be enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal. \n1. The student should be pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent). \n1. The student should not be receiving any other scholarship or financial assistance from the central or state government. \n\n<br>\n\n**Classification of Courses:** [Page No. 4](https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf)\n\n1. Group 1: Professional degree/postgraduate courses in institutions with A++ to B++ NAAC accreditation.\n1. Group 2: Vocational and diploma courses requiring Class 12 or higher qualifications.\n1. Group 3: Polytechnic and other courses not covered in Groups 1 or 2.\n1. Group 4: Graduate and Post Graduate course.\n1. Group 5: All post-matriculation (Post Class X level non-degree courses). \n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

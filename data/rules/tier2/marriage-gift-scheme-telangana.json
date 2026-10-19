@@ -1,0 +1,31 @@
+{
+  "id": "marriage-gift-scheme-telangana",
+  "name": "Marriage Gift Scheme - Telangana",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "- **Financial assistance : ₹30,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-regn-card-under-the-bocw-act-attested-copy-age-proof-ce"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/new_gos.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgs-tbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For construction workers themselves (Women only)**\n\n1. Construction worker should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board. \n1. Construction worker should be a woman.\n1. Construction worker should be unmarried. \n\n<br>\n\n> **For daughters of construction workers**\n\n1. Construction workers (either one or both parents) should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board.\n1. A construction worker can receive the scheme benefits for up to two daughters.\n1. The daughter(s) should have completed 18 years of age at the time of application.\n1. If both parents are registered workers, only one parent is eligible for the scheme amount.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

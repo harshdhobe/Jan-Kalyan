@@ -1,0 +1,31 @@
+{
+  "id": "to-increase-fish-seed-production-and-inland-fisheries-resources-in-tribal-areas",
+  "name": "To Increase Fish Seed Production and Inland Fisheries Resources in Tribal Areas: Training of Tribal Trainees - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "A trainee is paid a scholarship of ₹2,000/- per month for three months, amounting to a total of ₹6,000/-.\n> **Training Details**\n\n**Duration:** 3 months\n**Location:** Tribal area training centers run by the Fisheries Department at Khedbrahma, Kadana, Chhota Udepur, Rajpipla, Madhuban, and Ukai.\n**Conditions for Receiving Benefits:** A trainee is eligible for the scholarship only if they maintain a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-cardvoter-idration-cardpassport-as-proof-of-identity-scheduled-tribe-cer"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifptraininguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be Individuals/societies/self-help groups/associations/reservoir monopolies/private units, etc., involved in inland fisheries activities can avail the benefits of inland schemes.\n1. The applicant must be from the Scheduled Tribe community.\n1. The applicant must be above 18 years.\n1. The beneficiary must have his/her own bank account.\n1. The applicant must have an Aadhaar Card/Voter ID/Ration Card/Passport as proof of identity.\n\n<br>",
+  "_criteria_filled": 2
+}

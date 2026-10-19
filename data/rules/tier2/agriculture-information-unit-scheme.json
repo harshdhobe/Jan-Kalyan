@@ -1,0 +1,26 @@
+{
+  "id": "agriculture-information-unit-scheme",
+  "name": "Agriculture Information Unit Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n  - Free distribution of information leaflets, package of practices, booklets etc., including sponsoring Farmers Group, SHG to exposure programmes like trade fairs, expos, exhibitions in and outside the State.\n\n&gt; **Type of Assistance and Entitlement (If any):**\n\n  - Farmers Exposure Trip, Holding Crop Competition, Printing of booklets, leaflets, farmer calendar, pu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-being-a-farmer-any-ot"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=44",
+  "source_url": "https://www.myscheme.gov.in/schemes/aius",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nec-stipend-and-book-grant-scheme",
+  "name": "NEC Stipend And Book Grant Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "- The selection of the students will mainly depend upon their academic performance and the need for the scholarship. \n- The selected students will receive stipends and book grants for studies in India only.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-attested-copy-of-the-admission-receipt-attested-c",
+    "and-admit-card-from-class-10th-onwards-attested-copies-of-the-st-certificate-and"
+  ],
+  "apply_url": "https://highereducation.nagaland.gov.in/scholarship/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsbgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Nagaland State.\n1. The applicant should belong to Scheduled Tribe (ST) or General category.\n1. The applicant should have secured a minimum of 60% marks in the last qualifying examination if belonging to the ST category.\n1. The applicant should have secured a minimum of 75% marks in the last qualifying examination if belonging to the General category.\n1. The applicant should be pursuing a Higher Professional course approved by the North Eastern Council (NEC).\n\n<br>",
+  "_criteria_filled": 1
+}

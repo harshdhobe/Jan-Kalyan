@@ -1,0 +1,35 @@
+{
+  "id": "assam-tea-plantations-provident-fund-scheme",
+  "name": "Assam Tea Plantations Provident Fund Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Provident Fund Accumulation:** Members receive credit for their own contribution of 12% of wages and an equal 12% contribution from the employer.\n**Interest:** The accumulated deposits earn interest at a rate declared by the Board every year.\n**Final Settlement:** The total credit balance with interest is paid to the member or nominee upon retirement, resignation, death, or invalidity.\n**Refunda",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 78000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-details-a-bank-passbook-or-official-bank-document-containing-the-ba",
+    "name-of-the-banker",
+    "branch-name",
+    "and-ifs-code-proof-of-employment-an-employment-identity-card-or-service-certific",
+    "500-or-that-they-are-a-daily-wage-worker-nomination-details-a-nomination-form-or"
+  ],
+  "apply_url": "https://atppf.nic.in/about.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/atppfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be employed in a tea plantation or a tea factory in Assam.\n- The applicant must receive a monthly salary of up to ₹6,500/-.\n- The applicant must be a daily wage worker (eligible from the first day of work).\n\n<br>",
+  "_criteria_filled": 2
+}

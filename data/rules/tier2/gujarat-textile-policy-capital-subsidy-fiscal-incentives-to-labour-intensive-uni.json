@@ -1,0 +1,32 @@
+{
+  "id": "gujarat-textile-policy-capital-subsidy-fiscal-incentives-to-labour-intensive-uni",
+  "name": "Gujarat Textile Policy: Capital Subsidy (Fiscal Incentives to Labour Intensive Unit)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n**Category of Taluka****Activity 1****Activity 2**Category 1 &amp;amp;amp;amp; PM MITRA Park35%  of eFCI, Maximum ₹150,00,00,000/-25%  of eFCI, Maximum ₹150,00,00,000/-Category 230%  of eFCI, Maximum ₹150,00,00,000/-25%  of eFCI, Maximum ₹150,00,00,000/-Category 325%  of eFCI, Maximum ₹150,00,00,000/-25%  of eFCI, Maximum ₹150,00,00,000/-<br>\n\n**Note:**\n\n-  **Eligible Fix",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "document-of-registration-of-the-industrial-undertaking",
+    "as-applicable-under-law",
+    "and-the-industrial-entrepreneur-memorandum",
+    "as-prescribed-by-the-government-of-india-documents-related-to-legal-possession-o",
+    "and-registered-purchase-lease-rent-deed-if-the-plot-or-shed-is-in-gidc-estate",
+    "a-copy-of-the-possession-letter-should-be-attached-consent-to-establish-from-gpc",
+    "if-applicable-detailed-project-report-containing-the-following-executive-summary"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/pagecontent/Gujarat%20Textile%20Policy_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtccsliu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The industrial unit must be recognized as a Labour Intensive Unit.\n   1. The industrial unit must have availed a Term Loan for the project.\n   1. The unit must commence commercial production before applying for subsidy disbursement.\n   1. The unit must apply within one year from the Date of Commercial Production (DoCP).\n   1. The total subsidy received (State + Central) should not exceed the total term loan amount disbursed.\n\n&amp;lt;br&amp;gt;\n\n&amp;gt; **Eligible Activities:**\n\n**Activity 1:**\n\n  - Garments, Apparel &amp;amp;amp; Made-ups, Technical Textiles Activity (including Composite Unit)\n\n**Activity 2:**\n\n  - Weaving (with or without preparatory), Knitting, Dyeing &amp;amp;amp; Processing, Texturising, Twisting, Embroidery and MMF Spinning to manufacture yarn from Polyester Staple Fiber (PSF) / Viscose Staple Fiber (VSF) (excluding Spinning activity of Cotton and Synthetic Filament Yarn).\n\n&amp;gt; **Labour Intensive Unit:**\n\nLabour Intensive Unit means a new industrial unit that provides minimum employment to 4000 (four thousand) persons duly registered under EPF scheme, out of which minimum female employee should be at least 1000 (one thousand). The existing unit that carrying out expansion/diversification of activities , during the operative period of the scheme and provides totally new employment to minimum 4000 (four thousand) persons duly registered under EPF scheme, out of which minimum female employee should be at least 1000 (one thousand).",
+  "_criteria_filled": 1
+}

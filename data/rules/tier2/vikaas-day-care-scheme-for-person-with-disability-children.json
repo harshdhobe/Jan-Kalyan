@@ -1,0 +1,33 @@
+{
+  "id": "vikaas-day-care-scheme-for-person-with-disability-children",
+  "name": "Vikaas-Day Care Scheme For Person with Disability Children",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Day Care:** RO should provide day-care facilities to PwDs for at least 6 hours in a day(between 8 am to 6 pm) along with age specific activities.1. **Staffing:** Interpersonal and vocational skills would be provided for the betterment of the children.1. **Counselling:** Counselling and guidance especially for Activities for Daily Living (ADL)must be provided to parents or guardians of PwDs. R",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "parents-or-guardian-are-required-to-bring-the-enrolment-form-along-with-the-orig",
+    "lg-certificate",
+    "if-pwd-18-years-of-age-and-parents-are-not-the-guardians"
+  ],
+  "apply_url": "https://nationaltrust.nic.in/vikaas-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/vdcspds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary should be of the age of 10 years or more\n1. Beneficiary should have one of the disabilities under the  [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf), which are Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilitities.1. Beneficiary should not be simultaneously enrolled under Samarth or Gharaunda scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

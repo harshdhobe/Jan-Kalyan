@@ -1,0 +1,27 @@
+{
+  "id": "dastkar-prashikshan-iti",
+  "name": "Dastkar Prashikshan (I.T.I)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- To benefit the youth by connecting them with employment or self-employment opportunities in the private sector through skill training provided by district ITIs.\n- The duration of this training is either 1 year or 2 years.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-reservation-related-certificate",
+    "if-applicable-permanent-residence-certificate-bank-account-details-mobile-number"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpiti",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must have passed Class 8 or Class 10.\n1. The fee is currently fixed at ₹4,000/- per annum.\n\n<br>",
+  "_criteria_filled": 1
+}

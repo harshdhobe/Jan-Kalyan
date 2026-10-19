@@ -1,0 +1,20 @@
+{
+  "id": "pradhan-mantri-kisan-samman-nidhi-pm-kisan",
+  "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** An amount of ₹6,000/- per year in 3 equal installments of ₹2,000/- every four months is provided to each eligible family.\n<br>",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "aadhaar-card-landholding-papers-savings-bank-account"
+  ],
+  "apply_url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-kisan",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All landholding farmers&#39; families, which have cultivable land holding in their names are eligible to get benefit under the scheme.\n\n<br>",
+  "_criteria_filled": 0
+}

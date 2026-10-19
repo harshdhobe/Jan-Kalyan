@@ -1,0 +1,26 @@
+{
+  "id": "award-winning-tiatr-festival",
+  "name": "Award Winning Tiatr Festival",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Financial Remuneration for Tiatr Performance***\n\n- Tiatr Academy of Goa Popular Tiatr winners: ₹40,000/- for each tiatr.\n- Kala Academy Group &#39;A&#39; winners: ₹35,000/- for each tiatr.\n- Kala Academy Group &#39;B&#39; winners: ₹30,000/- for each tiatr.\n- Tiatr Academy of Goa Children Tiatr winners: ₹25,000/- for each tiatr.\n\n##### ***Infrastructure Support***\n\n- Payment to service pro",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-self-attested-copy-of-permanent-account-numbe"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/awtf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be the director/producer of a tiatr that has won 1st, 2nd or 3rd place in any of the following competitions:\n- The applicant must be the director/producer of a tiatr that won 1st, 2nd or 3rd prize in Tiatr Academy of Goa Popular Tiatr Competition.\n- The applicant must be the director/producer of a tiatr that won 1st, 2nd or 3rd prize in Kala Academy Group &#39;A&#39; tiatr Competition.\n- The applicant must be the director/producer of a tiatr that won 1st, 2nd or 3rd prize in Kala Academy Group &#39;B&#39; tiatr Competition.\n- The applicant must be the director/producer of a tiatr that won 1st, 2nd or 3rd prize in Tiatr Academy of Goa Children&#39;s Tiatr Competition.\n\n***Post-Selection Conditions***\n\n- Presentation of tiatr including kantaram should be done exactly the way it was presented in the respective competitions.\n- The tiatr should be shown without charging tickets.\n- Non-adherence to performance norms may result in withholding the payments.\n- Tiatr Academy of Goa may depute an observer to verify whether the performance is as per the norms.\n\n<br>",
+  "_criteria_filled": 1
+}

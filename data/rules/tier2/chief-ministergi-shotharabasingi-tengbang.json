@@ -1,0 +1,31 @@
+{
+  "id": "chief-ministergi-shotharabasingi-tengbang",
+  "name": "Chief Ministergi Shotharabasingi Tengbang",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "All persons with Intellectual Disabilities shall be eligible for Free Travel with one escort under this scheme.\nIn cases of Mental Illness, Locomotor disabilities, Visual Impairment, Hearing Impairment, Multiple Sclerosis, Parkinson’s disease, Haemophilia, Thalassemia, Sickle cell disease, they can enjoy 50% travel concession in the Manipur State Transport Services.\nThe Directorate of Social Welfa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-the-competent-authority-two-passport-sized-phot"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/7f/aa/7faaad2d-6483-46c6-a982-026406c4578e/free_travel_consession_for_disabled.docx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Person with Disability.\n1. The applicant should be a domicile of the State of Manipur.",
+  "_criteria_filled": 2
+}

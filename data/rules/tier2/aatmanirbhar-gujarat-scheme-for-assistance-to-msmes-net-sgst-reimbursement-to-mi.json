@@ -1,0 +1,46 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-net-sgst-reimbursement-to-mi",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Net SGST reimbursement to Micro, Small and Medium Manufacturing Enterprise (MSMEs):",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Category of Taluka** **Quantum of Incentive**  Category 1100% of net SGST for 10 years upto 7.5% of eFCl p.a. Category 2 90% of net SGST for 10 years upto 6.5% of eFCl p.a. Category 3 &amp;amp;amp;amp; Municipal Corporation Areas80% of net SGST for 10 years upto 5% of eFCI p.a. <br>\n\n> **Note:** The period of 10 years shall be from the date of commencement of commercial production.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-for-provisional-eligibility-duly-filled",
+    "stamped",
+    "and-signed-by-authorized-signatory-applicable-industrial-registration-certificat",
+    "etc-msme-acknowledgment-certificate-as-per-msme-act-2019-if-applicable-bank-appr",
+    "registered-partnership-deed-for-partnership-firms-chartered-accountant-certifica",
+    "and-pan-and-aadhaar-card-of-the-authorized-signatory-consent-to-establish-cte-or",
+    "such-as-712-utara",
+    "namuna-6",
+    "copy-of-index",
+    "etc-na-permission-if-applicable-copy-of-rent-deed-agreement-with-the-owners-proo",
+    "partner",
+    "or-at-least-an-employee-of-the-company-latest-audited-annual-reportbalance-sheet",
+    "including-the-annexure-for-gross-fixed-capital-investment-undertaking-in-the-pre",
+    "government-duesoutstanding",
+    "and-court-cases-against-the-government-in-prescribed-format-detailed-expenditure",
+    "machine-wise-valuation-certificate-from-a-chartered-engineer-mechanical-in-presc",
+    "a-certificate-of-residual-life-from-a-chartered-engineer-certificate-of-chartere",
+    "in-prescribed-format-agreement-for-technical-know-how",
+    "design",
+    "drawings",
+    "and-patent-if-applicable"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmecsgst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.\n   1. The subsidy is based on the lower of the Gross Fixed Capital Investment (GFCI) or the cost appraised by a bank or financial institution.\n   1. Enterprises must obtain separate GST registration for manufacturing eligible products.\n   1. Separate books of accounts are required for each manufacturing unit, certified by a Chartered Accountant.\n   1. Incentives are only for goods manufactured in the eligible enterprise&amp;#39;s premises, not for resold goods.\n   1. Compliance with all reporting and reimbursement requirements is mandatory.",
+  "_criteria_filled": 1
+}

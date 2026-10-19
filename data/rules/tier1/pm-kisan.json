@@ -1,0 +1,28 @@
+{
+  "id": "pm-kisan",
+  "name": "Pradhan Mantri Kisan Samman Nidhi",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Rs 6000 per year (in 3 instalments) to landholding farmer families.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.owns_cultivable_land",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "land_records",
+    "bank_account"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pm-kisan",
+    "apply": "https://pmkisan.gov.in/"
+  },
+  "notes": "Exclusion categories (govt employees, taxpayers, etc.) not in dataset text - verify on official page."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "patrakar-kritadnyata-nidhi-scheme-journalist-benevolent-fund",
+  "name": "Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Financial Assistance and Purpose**\n\n- Marriage of Daughter: Up to ₹2,00,000/-\n- Major/Minor Operation/Medical Treatment for Self or Family: Up to ₹2,00,000/-\n- Funeral Expenses of the Journalist: Up to ₹2,00,000/-\n- Travel/Incidental Expenses for Treatment: Up to ₹2,00,000/-\n- Medical Reimbursement for General Expenses: Up to ₹2,00,000/-\n- Scholarship/Incentives for Wards Pursuing Higher Educa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-working-in-an-established-newspaperperiodical-magazine-for-at-least-thr",
+    "age",
+    "relationship",
+    "occupation",
+    "income"
+  ],
+  "apply_url": "https://dip.goa.gov.in/wp-content/uploads/2021/03/The-Patrakarb-Kritadnyata-Nidhi-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pknsjbf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a journalist.\n- The applicant should have been born and brought up in Goa.\n- The applicant should be working in a newspaper establishment in Goa for at least three years continuously.\n- The applicant should be registered with the Department of Information and Publicity, Government of Goa, and renew registration by June 30th every year.\n- The applicant should not be engaged in any other profession.",
+  "_criteria_filled": 1
+}

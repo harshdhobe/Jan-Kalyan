@@ -1,0 +1,31 @@
+{
+  "id": "chief-minister-small-and-marginal-farmers-older-pension-scheme",
+  "name": "Chief Minister Small and Marginal Farmers Older Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- **Pension of ₹1250/- per month.** \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-income-certificate-domicile-certificate"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/201908271723067572Farmer%20Pension%20order%20and%20rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsmfops",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Rajasthan.\n1. The applicant must belong to a small and marginal farmer family. \n1. The minimum age requirement is:\n\n  - 55 years or above for women.\n  - 58 years or above for men.\n\n<br>\n\n**NOTE:** Small and marginal farmer as per the definition under the National Food Security Ordinance, 2013, and as per the Rajasthan Government&#39;s Food and Civil Supplies Department circular dated 31.8.2013.\n<br>",
+  "_criteria_filled": 2
+}

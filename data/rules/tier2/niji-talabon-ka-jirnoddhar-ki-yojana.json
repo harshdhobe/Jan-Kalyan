@@ -1,0 +1,29 @@
+{
+  "id": "niji-talabon-ka-jirnoddhar-ki-yojana",
+  "name": "Niji Talabon Ka Jirnoddhar Ki Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "**Renovation of 150 hectares of private ponds with the following category-specific targets:**\n\n- Other category beneficiaries: 86 hectares\n- Extremely backward castes: 27 hectares\n- Scheduled castes: 30 hectares\n- Scheduled tribes: 7 hectares\n\n<br>\n\n**Subsidy Details:**\n\n- Unit cost: ₹ 6,00,000/- per hectare.\n- Subsidy: 30% for other categories, 40% for extremely backward castes/scheduled castes/t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-cardration-cardvoter-id-card-two-passport-size-photographs-self-attested",
+    "branch",
+    "ifsc-code-details-caste-certificate-for-extremely-backward-castesscheduled-caste",
+    "if-applicable-lease-agreement-on-1000-non-judicial-stamp-for-leased-ponds-land-m"
+  ],
+  "apply_url": "https://fisheries.bihar.gov.in/docs/niji24-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ntkjky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fish farmer.\n1. The applicant should be private pond owners or lessees.",
+  "_criteria_filled": 1
+}

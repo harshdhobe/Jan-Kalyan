@@ -1,0 +1,26 @@
+{
+  "id": "interest-subvention-scheme",
+  "name": "Interest Subvention Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "**Amount of Loan:**\n\n  - The minimum loan size is ₹5.00 lakhs.\n  - The maximum loan size is ₹500.00 lakhs for Micro and Small Manufacturing Enterprises.\n  - ₹200.00 lakhs for manufacturing and allied services enterprises towards building, gross block of plant and machinery directly involved in production. The loan/s over and above these limits will carry contract rate of interest.\n\n**Rate of Inter",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-registration-certificate-pan-card-audited-financial-sta"
+  ],
+  "apply_url": "https://ksfc.karnataka.gov.in/english",
+  "source_url": "https://www.myscheme.gov.in/schemes/iss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Enterprises promoted by all categories of borrowers, proprietary concerns, partnership firms, companies &amp;amp; other legal entities.\n   1. The scheme is extended for all new investments in building, plant and machinery directly involved in production by new enterprises and existing enterprises by way of expansion, diversification, modernization and technology up-gradation etc., considering the gross block of plant and machineries.\n   1. Purchase of land from KIADB / KSSIDC or any other govt. agencies is not available under this scheme.\n   1. The unit which has already availed the interest subsidy under any other scheme of Government of Karnataka / Government of India are also not eligible for interest subsidy under this scheme.\n   1. The enterprise will be eligible for 5.5% p.a. interest subvention for a maximum period of five years from the date of first disbursement of respective loans even if the repayment period exceeds beyond five years.\n\n**Activities covered under this scheme:** \n\n  - Agro &amp;amp; Food Processing, Textile, Ready-made Garments, Engineering, Automobiles, Electrical &amp;amp; Electronics, Paper &amp;amp; Paper Products, Printing &amp;amp; Publishing, Telecommunications, Software &amp;amp; IT related and Wood based activities.\n\n**Terms and Conditions:**\n\n  - The terms and conditions of loan sanction such as promoters contribution, DER, Security requirement, viability of the project etc., shall be ensured as per the prevailing lending policy of the Corporation.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "gharelu-hinsa-ki-pidita-ke-liye-sahayta-yojana",
+  "name": "Gharelu Hinsa Ki Pidita Ke Liye Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**The victim will be assisted as follows**\n\n1. If the disabilities of less than 40% resulting from damage to any part of the body, compensation of up to ₹2,00,000/- will be provided.\n1. If the disability exceeds 40% due to damage to any part of the body, the compensation increases to a maximum of ₹4,00,000/-.\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-medical-reports-if-applicable-police-reports-or-complaints-any"
+  ],
+  "apply_url": "https://mpwcdmis.gov.in/Downloads/OSC/Domestic_violence.Pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ghpklsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be permanent resident of Madhya Pradesh.\n- The applicant must be women and girls only.\n- The applicant must be affected by domestic violence.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "professional-education-pejkbocwwb",
+  "name": "Professional Education (PEJKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "> **Financial Assistance based on the Educational Qualification -** \n\n- Para Medical Diploma Courses (Regular Students): ₹10,000/-.\n- ITI Diploma Courses (Regular Students): ₹10,000/-.\n- 3-Year Engineering / Any Other Recognized Diploma Courses (Regular Students): ₹30,000/-.\n- Professional / Technical Degree Courses (Regular Students): ₹50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-skill-upgradation-training-certificate-pro",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://portal.jkbocw.gov.in/LoginGuest.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration -** \n\nThe applicant should be a resident of Jammu &amp; Kashmir.\nThe applicant should be a Building/ Construction Worker.\nThe applicant should be between 18 and 60 years.\nThe applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\nThe registration of the applicant should be renewed annually.\n> **For Application -** \n\n1. The parents must be registered members of the &quot;Jammu &amp; Kashmir Building and Other Construction Workers Welfare Board&quot;.\n1. The parents must have an active membership with the JKBOCWW Board.\n1. The applicant must be a student.\n1. The applicant must be a regular in attendance.",
+  "_criteria_filled": 1
+}

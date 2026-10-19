@@ -1,0 +1,26 @@
+{
+  "id": "preservation-of-tiatr-literature",
+  "name": "Preservation of Tiatr Literature",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Printing Services***\n\n- Tiatr Academy of Goa will print scripts of tiatrs/khell tiatrs/khells, one-act plays, lyrics of kantaram with or without music in book form in Konkani in Roman Script.\n- Minimum of 500 copies of each book will be printed.\n\n<br>\n\n##### ***Category-wise Benefits***\n> ***Category I (Deceased or Inactive Tiatr Artistes)***\n\n- One-time honorarium as fixed by Tiatr Acade",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-self-attested-copy-of-permanent-account-numbe"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/potl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### **General Eligibility**\nThe applicant must be a tiatr artiste or the legal heir of a deceased tiatr artiste.\n##### **Category-wise Eligibility**\n***Category I:***\n\n- The applicant must be a tiatr artiste who has expired or is living but not active on the tiatr stage.\n- The applicant must submit scripts of Tiatr/Khell tiatr/Khell/One Act Plays.\n- The applicant must have a minimum collection of 50 songs with or without musical scores if submitting only songs (kantaram).\n\n***Category II:***\n\n- The applicant must be a tiatr artist who is active on the tiatr stage.\n- The applicant must submit scripts of Tiatr/Khell tiatr/Khell/One Act Plays.\n- The applicant must have a minimum collection of 100 songs with or without musical scores if submitting only songs (kantaram).\n\n***Category III:***\n\n- The applicant must be an individual artist/publisher who wishes to publish Scripts of Tiatr/Khell tiatr/Khell/One Act Plays on his/her own.\n- The applicant must ensure the book conforms to all norms of the scheme.\n\n##### ***Preference***\nScripts/lyrics/music written by tiatr artistes of yesteryears will be given first preference.\n<br>",
+  "_criteria_filled": 1
+}

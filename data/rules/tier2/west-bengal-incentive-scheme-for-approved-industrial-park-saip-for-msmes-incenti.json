@@ -1,0 +1,30 @@
+{
+  "id": "west-bengal-incentive-scheme-for-approved-industrial-park-saip-for-msmes-incenti",
+  "name": "West Bengal Incentive Scheme for Approved Industrial Park (SAIP) for MSMEs: Incentive for Setting up a Power Sub Station",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Pattern Of Assistance:** Setting up of a Power Sub-Station free of cost.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-applicant-private-sectorspv-memorandum-and-artic",
+    "lay-out-plan",
+    "operation-maintenance-om-plan-etc-application-for-grant-of-incentive-under-west",
+    "for-approved-industrial-park-for-msmes-registration-certificate-of-the-spv-memor",
+    "if-any-details-of-msmes-with-em-no-to-which-plot-of-land-shed-buildings-installa"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/newspdf/1602579714SAIP%202020_Notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saipispss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Should be a Private sector entity or Existing/ Operational industrial parks.\n  - Should have a minimum of 5 acres of legally owned land (by direct purchase or lease from the State Government).\n  - Special Purpose Vehicle (SPV) must be registered under Companies Act/ Societies Registration Act/Partnership Act/ LLP.\n  - Park area should be expanded up to minimum 5 acres in outlying districts and minimum 2 acres in Kolkata and Howrah.\n  - The individual units have complied with all the necessary clearances for land conversion, fire licence, environmental issues, building plan etc.",
+  "_criteria_filled": 1
+}

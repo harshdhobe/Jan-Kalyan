@@ -1,0 +1,34 @@
+{
+  "id": "poompuhar-state-award",
+  "name": "Poompuhar State Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Cash Prize of ₹50,000/-.\n- 4-gram Gold Medal.\n- Thamirapathiram.\n- Certificate.\n- Monthly Pension of ₹3,500/- to the economically backward awardee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-address-proof-aadhaar-card-front-page-of-passbook-craft",
+    "attested-by-a-first-class-criminal-judge-or-notary-public-recommendation-certifi",
+    "attested-by-any-of-the-managers-of-poombucar-outlets-and-manufacturing-plants-th",
+    "new-delhi-photograph-of-the-applicant-at-each-stage-of-production-of-the-product"
+  ],
+  "apply_url": "https://poompuhar.com/tnhdc/downloads/1696666049463145684.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artisan.\n1. The applicant should be a native of Tamil Nadu.\n1. The applicant should be above 30 years of age. For monthly pension, the applicant should be 60 years or above in age.\n1. The experience of the artisans and the service rendered by them in their profession will be taken into consideration during the passing (The artisans participating in the Award will be invited for process explanation and interview if required by the headquarters to test their skills).",
+  "_criteria_filled": 2
+}

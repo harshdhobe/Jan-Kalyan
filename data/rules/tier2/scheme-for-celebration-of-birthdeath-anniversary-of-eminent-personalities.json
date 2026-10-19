@@ -1,0 +1,29 @@
+{
+  "id": "scheme-for-celebration-of-birthdeath-anniversary-of-eminent-personalities",
+  "name": "Scheme for Celebration of Birth/death Anniversary of Eminent Personalities",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- Assistance for the arrangements of celebrations up to a maximum of ₹50,000/- per occasion, for a maximum of two occasions in one year.\n\n**Note:** Assistance for the celebration of Birth/Death Anniversaries of Dr. B.R. Ambedkar, Sant Ravidas, and Maharishi Balmiki will be provided through empaneled agencies.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "audited-accounts-of-the-ngo-recommendation-letter-from-the-area-mla-or-the-minis",
+    "backdrop",
+    "banner",
+    "posters-event-photographs"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/scheme_for_eminent.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scbdaep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The NGOs should be registered under the Societies Registration Act.\n1. The registered NGOs should have audited accounts.",
+  "_criteria_filled": 1
+}

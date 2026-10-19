@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-anusuchit-jati-ewam-anusuchit-janjati-civil-sewa-protsahan-yojana",
+  "name": "Mukhyamantri Anusuchit Jati Ewam Anusuchit Janjati Civil Sewa Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, candidates who pass the preliminary examination of Civil Services Competitive Examinations are eligible for the following incentives:\n\n   1. Scheduled Caste and Scheduled Tribe candidates who pass the Preliminary Examination of the Combined Competitive Examination conducted by the Bihar Public Service Commission, Patna, will receive a one-time financial assistance of ₹50,000/- f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-scanned-copy-of-signature-identity-proof-ie-aadhaar-car"
+  ],
+  "apply_url": "https://bcebconline.bihar.gov.in/cspy/EBCscholarship/Index.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmajeajcspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe category.\n   1. The applicant should have passed the preliminary examination of the Civil Services Competitive Examination conducted by either the Bihar Public Service Commission, Patna, or the Union Public Service Commission, New Delhi.\n   1. The benefit of this scheme is available to each candidate only once.\n   1. The applicant should not have received the same incentive from any other sources previously.",
+  "_criteria_filled": 1
+}

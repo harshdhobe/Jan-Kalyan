@@ -1,0 +1,31 @@
+{
+  "id": "scheme-to-provide-financial-assistance-to-registered-organizationsgovernment-org",
+  "name": "Scheme to Provide Financial Assistance to Registered Organizations/Government Organization/Non-Government Organizations/Institutions for Running Residential Facilities/Half Way Homes for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Operational Grant***\n\n- Maximum operational grant of ₹4,00,000/- per month.\n- **Payment to Medical Officer/Councilor/Therapist:** ₹60,000/- per month.- **Payment to team of Administrative Staff (Manager, Clerk, and six Attendants/Care takers/Aayas/Drivers):** ₹1,34,000/- per month.- **Administrative Expenses (Rent/Maintenance/Electricity/Water/Telephone, Mobile, Newspaper, etc.):** ₹46,00",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-application-stagereport-of-last-one-year-of-field-experien",
+    "2016-not-applicable-for-government-organizations-a-statement-containing-the-annu",
+    "audited-statements-of-accounts-and-the-receipt-and-payment-of-the-organizationin",
+    "vouchers",
+    "receipts",
+    "etc-required-for-reimbursement-of-actual-expenditure-utilization-certificate-as"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-7-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spfarogongoirrfhwhpwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered voluntary organization, Non-Governmental Organization, Government Organization, or Institution.\n- The applicant must be engaged in the Empowerment of Persons with Disabilities.\n- The applying Organization must bear 25% of the cost proposed.\n- The grantee Institution should be capable of mobilizing the community towards the cause.\n- The grantee Institution should be capable of effective networking with other institutions for optimum utilization of allocated resources.\n\n<br>\n\n##### ***Conditions Applicable ONLY to Non-Government Organizations/Institutions (Government Organizations are exempted from these)***\n\n- The grantee institution must be registered as per Section 50 of the Rights of Persons with Disabilities Act, 2016 and its further amendments.\n- The Organization must have a minimum of 20 inmates at the time of applying for the scheme.\n- The grantee institution must have at least one year of field experience in the empowerment of Persons with Disabilities.\n- The grantee institution must maintain financial viability to independently sustain the operation of residential facilities or halfway homes for a minimum period of three months in the event of delays in the release of operational grants or scheme discontinuation.\n- The grantee institution must have a good reputation and credibility with no cases of criminal offence registered against the said organization/institution.\n- The grantee institution/organization must have accessible physical and digital infrastructure.\n\n<br>",
+  "_criteria_filled": 1
+}

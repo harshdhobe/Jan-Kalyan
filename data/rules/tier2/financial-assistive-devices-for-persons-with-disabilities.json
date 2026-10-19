@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistive-devices-for-persons-with-disabilities",
+  "name": "Financial Assistive Devices for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loans of up to ₹5 lakhs are provided to the target group for the purchase of assistive devices such as screen readers, motorized tricycles, scooty, hearing aids, etc., including the cost of retrofitting, to enhance their employability or improve self-employment prospects.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-identitycitizenship-proof-ie-aadhaar-card-2-proof-of-age-3-resident-proofaddre"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=R%2fHWDGyVagIM4PkZHu1DQQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The age of the applicant should be above 18 years. For persons with mental retardation, the age is relaxed to 14 years instead of the usual 18 years.\n   1. The applicant should be employed, either working in a reputable organization or have a confirmed appointment letter.\n\n**Note 1:** The head of the organization should certify that the proposed assistive device will improve the applicant&amp;#39;s employability and that the device is not provided by the organization.\n**Note 2:** For self-employment, the need for an assistive device will be assessed by the authority (SCA/RRB, etc.) scrutinizing the application and will be recommended accordingly.",
+  "_criteria_filled": 3
+}

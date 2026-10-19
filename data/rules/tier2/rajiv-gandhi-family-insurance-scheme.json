@@ -1,0 +1,41 @@
+{
+  "id": "rajiv-gandhi-family-insurance-scheme",
+  "name": "Rajiv Gandhi Family Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "The financial assistance/compensation will be given to eligible beneficiaries as under:\nAccidental Death/Permanent Disability₹1.00 LakhLoss of two limbs, two eyes, one limb, and one eye₹50,000/-Loss of one eye or one limb₹25,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-residence-proof-a-copy-of-ration-card-a-copy-of-fir"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3a01a0380ca3c61428c26a231f0e49a09/uploads/2018/03/2018032249.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgfis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be only eligible in case of Accidental Death/ Permanent disability, or total/partial disability.\n1. Under this scheme, compensation is given in case of accidental death/permanent disability in the age group of 18-60 years.\n1. The applicant should be a permanent resident of Haryana.\n1. The name of the applicant should appear in the Voter’s list or should be a holder of the Ration Card\n1. The annual family income should not exceed ₹2.5 lacs.\n1. The applicant must not be a Government or Semi-Government employee.",
+  "_criteria_filled": 4
+}

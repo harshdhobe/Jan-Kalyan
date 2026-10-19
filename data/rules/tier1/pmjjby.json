@@ -1,0 +1,36 @@
+{
+  "id": "pmjjby",
+  "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Life insurance cover of Rs 2 lakh at an annual premium of Rs 436.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "has_bank_account",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bank_account"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmjjby",
+    "apply": "https://jansuraksha.gov.in/Files/PMJJBY/English/Rules.pdf"
+  },
+  "notes": ""
+}

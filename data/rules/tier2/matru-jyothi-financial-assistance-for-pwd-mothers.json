@@ -1,0 +1,43 @@
+{
+  "id": "matru-jyothi-financial-assistance-for-pwd-mothers",
+  "name": "Matru Jyothi - Financial Assistance For PwD Mothers",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, financial assistance of ₹2,000/- will be provided to differently-abled mothers until the child turns two years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-medical",
+    "copy-of-the-ration-card-bank-account-details-copy-of-bank-passbook-other-documen",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12529.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mj-fapm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant with the following type of disability will be considered under the scheme:\n\n**Sl. No.****Type of Disability****Percentage of Disability**1Blindness80%2Intellectual disability60%3Cerebral Palsy60%4Locomotor disability80%5Muscular dystrophy50%6Mental Illness60%7Multiple disabilities Combination of Deaf-blind- 1st priority, Combination of intellectual disability- 2nd priority, Other combination- 3rd priority50%8Acid attack victims80%9Autism spectrum disorder50%10Low vision70%11Deaf and Hard of hearing70%12Chronic Neurological condition70%13Leprosy cured person80%14Multiple sclerosis60%15Parkinson&amp;amp;amp;#39;s disease60%16Hemophilia70%17Thalassemia70%18Sickle cell disease70%19Speech and language disability80%20Dwarfism70%21Specific learning disability100%2. The applicant should be a native and resident of Kerala State.\n3.\tThe applicant should be a differently abled mother.\n4.\tThe differently abled mother who has a child less than two years old is eligible to apply under the scheme.\n5.\tThe applicant’s annual family income should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 4
+}

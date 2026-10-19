@@ -1,0 +1,26 @@
+{
+  "id": "schedule-tribe-pre-metric-scholarship-class-06-to-08",
+  "name": "Schedule Tribe Pre-Metric Scholarship Class 06 To 08",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- For Schedule Caste Boy Students Rs. 75/- per month.\n- For Schedule Caste Girl Students Rs. 125/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-annual-income-of-the-parent-guardian-non-tax-payee-janaadhaar-card"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/268",
+  "source_url": "https://www.myscheme.gov.in/schemes/stpmsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Tribe category.\n1. The student who is studying as a regular student in classes 6 to 8 in schools run by the Central Government, State Government, Municipalities and schools recognized by the Department of Education.\n1. Students whose parents/guardians are not income taxpayers when they are not alive.\n1. The student who is not getting any other type of scholarship or allowance for study from central, state / public sources.\n1. The student who has not failed in the lower class in the last session. If he fails in any year&#39;s examination, his scholarship will be stopped, but if he fails in the same class in the next\n1. If he passes the examination, he will be eligible for the scholarship in the new class from the next session. For this, the student will have to apply for a new scholarship again.\n1. Students who are not living in hostels are run or aided by the Department of Social Justice and Empowerment.",
+  "_criteria_filled": 1
+}

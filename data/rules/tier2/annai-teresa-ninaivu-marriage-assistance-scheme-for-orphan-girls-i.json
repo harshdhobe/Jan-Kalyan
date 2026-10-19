@@ -1,0 +1,37 @@
+{
+  "id": "annai-teresa-ninaivu-marriage-assistance-scheme-for-orphan-girls-i",
+  "name": "Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-I",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹25,000/-.\n- One sovereign (8gm) 22-carat gold coin for making Thirumangalyam. \n\n> **Mode of Disbursal:** Through Electronic Clearing Service.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "1-death-certificate-of-father-mother-or-orphan-certificate-issued-by-a-member-of",
+    "000-7-any-other-document-as-required-by-the-department"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/forms/social_welfare_form12.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atnmasfogi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl.\n1. The applicant should be an orphan.\n1. The bride should be 18 years or above at the time of marriage.",
+  "_criteria_filled": 3
+}

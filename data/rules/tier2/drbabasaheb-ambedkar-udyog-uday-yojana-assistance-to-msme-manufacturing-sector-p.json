@@ -1,0 +1,34 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-to-msme-manufacturing-sector-p",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance to MSME Manufacturing Sector Participation in the Exhibition (National and International)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **State Level Exhibition:**\n\n- **Assistance:** 80% of expenses, up to ₹50,000/-.- **Duration:** Eligible for a maximum of 5 times during the scheme&#39;s tenure.\n> **National Level Exhibition:**\n\n- **Assistance:** 80% of expenses, up to ₹1,00,000/-.- **Duration:** Eligible for a maximum of 5 times during the scheme&#39;s tenure.\n> **International Level Exhibition (Inside India):**\n\n- **Assistanc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "enterprise-registration-certificate-udyam-registration-proof-of-participation-in",
+    "invoice",
+    "etc-expenditure-bills-stall-rent",
+    "product-literature",
+    "display-material-costs-bank-details-for-reimbursement-photographs-of-the-exhibit",
+    "itpo",
+    "eepc-india",
+    "fieo",
+    "or-state-government-any-other-documents-if-required"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyammpe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. Only MSME enterprises from the manufacturing sector are eligible.\n   1. The enterprise must be in production within Gujarat during the scheme&amp;amp;#39;s tenure.\n   1. The exhibition/trade fair must be organized in India or outside India.\n   1. International exhibitions must be approved by recognized bodies like the MSME Development Institute(MSME-DI), India Trade Promotion Organization(ITPO), EEPC India, Federation of Indian Export Organization(FIEO) etc. or state Government.\n\n&amp;gt; **Note****:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "nijasharee-housing-scheme",
+  "name": "NIJASHAREE HOUSING SCHEME",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "Under this scheme, a `Basha’ (house) will be allotted to all the people belonging to the Lower Income Group (LIG) and the Middle Income Group (MIG) by lottery on ownership basis.\nCredit-linked subsidies to the eligible beneficiaries will be facilitated by the Housing Department, as per the existing scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 360000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-original-income-certificate-ie-an-income-certificate-should",
+    "etc"
+  ],
+  "apply_url": "http://wbhousing.gov.in/nijashree",
+  "source_url": "https://www.myscheme.gov.in/schemes/nhs-west-bengal",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Monthly family income should be ₹15,000 or less for the Lower Income Group (LIG).\n   1. Monthly family income should be ₹30,000 or less for the Middle Income Group (MIG).\n   1. The beneficiary should not have any pucca house/flat in his/her name, or in the name of any family (family includes spouse, unmarried sons or daughters) member in the state.\n   1. The applicant must be an inhabitant of the same district in which the project is to be implemented.\n   1. One applicant can apply for one flat only for his/her family. Any person allotted with a flat in the scheme cannot apply for the same scheme in another project in his/her district.\n\n&lt;br&gt;\n\n**Note 01:** The selection of beneficiaries and allotment of flats will be done through a transparent lottery in the respective district/sub-division.\n**Note 02:** The waiting list of the eligible applicants, consisting of 20% of the total flats under each category (i.e. LIG and MIG), will be prepared in case the number of applicants is more than the number of flats in a particular project.\n<br>",
+  "_criteria_filled": 2
+}

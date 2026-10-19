@@ -1,0 +1,26 @@
+{
+  "id": "cash-incentive-award-to-bonafede-meritorious-sportspersons",
+  "name": "Cash Incentive Award to Bonafede Meritorious Sportspersons",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "person",
+  "benefit": "1. Recognition and motivation\n2. Financial Support\n3. Equal Opportunities/ Gender equality across all age group\n4. Promotion of Sports culture\n5. Holistic development of individual \n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "www.syad.sikkim.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/cia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Medal winner in recognized Games/Competitions/ Tournaments/ Championship etc.\n2. Eligible for Zonal Level Competitions and above.\n3. Bonafede/possessing  domicile of Sikkim State\n4. Tournaments organized under the aegis of Ministry of Youth Affairs and Sports/ SAI/ recognized Sports Federation. \n5. Both Olympic and Non-Olympic Sports Disciplines\n6. Achievement in Veteran tournaments is not included in this scheme. \n<br>",
+  "_criteria_filled": 1
+}

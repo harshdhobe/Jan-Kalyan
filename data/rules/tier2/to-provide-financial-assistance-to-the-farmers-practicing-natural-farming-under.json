@@ -1,0 +1,26 @@
+{
+  "id": "to-provide-financial-assistance-to-the-farmers-practicing-natural-farming-under",
+  "name": "To Provide Financial Assistance to the Farmers Practicing Natural Farming Under the Completely Chemical Free Dang District",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **For the first year:** ₹10,000 per hectare \n\n      1. ₹5,000/hectare for Kharif\n      1. ₹5,000/hectare for Rabi and Summer\n\n  - **For already benefiting farmers (second year onwards):** ₹6,000 per hectare \n\n      1. ₹3,000/hectare for Kharif\n      1. ₹3,000/hectare for Rabi and Summer",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-land-ownership-barcoded-ration-card-proof-of-natural-farming-registrati"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=XWitJVnGypIBbPyRipp0WA==&domain=FDGZs8CO90JJ+6gbcYhjXw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/tpfafnfd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant farmer must own at least one indigenous cow, with or without an identification tag, at the time of application.\n   1. Only one beneficiary is allowed per farmer family (a farmer family includes husband, wife, and minor children listed on the barcoded ration card).\n   1. The applicant must be practicing natural farming on a minimum of 20 Guntha (0.5 acres) and a maximum of 2 hectares of agricultural land.\n   1. The applicant must be registered under natural farming by:\n\n    - An APEDA/NPOP recognized organization, or\n    - Registered by September 2021 through the appropriate authority.",
+  "_criteria_filled": 1
+}

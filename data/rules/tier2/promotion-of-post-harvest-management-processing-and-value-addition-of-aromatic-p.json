@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-post-harvest-management-processing-and-value-addition-of-aromatic-p",
+  "name": "Promotion of Post-Harvest Management, Processing, and Value Addition of Aromatic Plant Produce to Farmers/Institutions/Groups in the State - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, the following support is provided:\n\n  - A grant of up to ₹10 lakh is available for setting up necessary machinery, equipment, distillation units, etc., for drying, storage, and processing of aromatic plants. The grant is provided through Direct Benefit Transfer (DBT) at the rate of 75% in hilly areas and 50% in plain areas.\n  - Establishment of distillation (processing) faciliti",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-the-farmerapplicant-land-records-documents-or-lease-certificates-c"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppmpvaappfigs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a farmer, organization, or group belonging to Uttarakhand.\n   1. The farmer, organization, or group must be registered with the Centre for Aromatic Plants (CAP), Selaqui, Dehradun.\n   1. The cluster must have plants, machinery, and equipment as per the capacity and requirements of the aromatic cultivated area.\n\n<br>",
+  "_criteria_filled": 1
+}

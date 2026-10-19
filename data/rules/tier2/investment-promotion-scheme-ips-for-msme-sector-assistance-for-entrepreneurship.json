@@ -1,0 +1,28 @@
+{
+  "id": "investment-promotion-scheme-ips-for-msme-sector-assistance-for-entrepreneurship",
+  "name": "Investment Promotion Scheme (IPS) for MSME Sector: Assistance For Entrepreneurship Under Skill Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- 75% of the course fee is limited to ₹1,50,000/- per course upto 20 persons per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipsaeusd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Should be a New Manufacturing/ Service units or Existing Manufacturing/ Service units which undertakes Expansion/ Diversification in MSME sector.\n   1. The unit should have commenced the commercial production between 20.05.2022 to 19.05.2027.\n   1. Unit should be located in the U.T. of Dadra and Nagar Haveli &amp;amp; Daman and Diu.\n   1. Entrepreneur shall have to apply within six months of the date of completion of training.",
+  "_criteria_filled": 1
+}

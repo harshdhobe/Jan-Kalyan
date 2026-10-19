@@ -1,0 +1,38 @@
+{
+  "id": "assistance-to-general-farmers-for-sinking-tubewell",
+  "name": "Assistance to General Farmers for Sinking Tubewell",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- **65% subsidy** towards construction of tubewell/filter point in the Union Territory of Puducherry subject to a maximum of ₹1,50,000 per tubewell/filter point per individual.\n***The total cost incurred towards the construction of the tubewell shall be taken into account for the calculation of the subsidy.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "the-certificate-for-land-ownership-issued-by-an-officer",
+    "not-below-the-rank-of-deputy-tahsildar-a-copy-of-the-permit-obtained-from-the-po",
+    "puducherry",
+    "for-sinking-a-newreplacement-tubewellfilter-point-the-registration-certificate-f",
+    "issued-by-pondicherry-ground-water-authority",
+    "puducherry-in-the-case-of-a-new-service-connection",
+    "provide-a-copy-of-the-energization-letter-obtained-from-the-pondicherry-ground-w",
+    "puducherry-if-the-tubewellfilter-point-was-constructed-using-private-machinery",
+    "submit-i-a-copy-of-the-noc-issued-by-the-competent-authority-and-ii-a-copy-of-th",
+    "puducherry-original-bills-for-the-expenses-incurred-in-the-construction-of-the-t",
+    "provide-an-attested-copy-of-the-original-bills-and-a-certificate-from-the-bank-t",
+    "farmers-identity-card",
+    "and-the-front-page-of-the-bank-passbook"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/forms/persinwell.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/agfst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must obtain the necessary permit to sink a new/replacement tubewell/filter point from Pondicherry Ground Water Authority, Puducherry.\n- The tubewell/Filter point should have been constructed through a departmental power rig/hand bore set or should have been constructed with a No Objection Certificate of the Agriculture Department for engaging private drilling machinery registered with Pondicherry Ground Water Authority under departmental supervision.\n- The applicant should hold a minimum of 1.5 acres of land under the command area of the tubewell/filter point to be constructed.\n- The applicant should have ownership of the land for at least 2 years and a clear ownership title deed in his/her name. The eligible land holding of 1.5 acres should be in favour of the applicant farmer, spouse, or a member of the joint/undivided family.\n- Farmers who have already availed themselves of the subsidy for the same purpose within 5 years are not entitled to any benefit under this scheme.\n- The casing pipes should have a BIS certificate and should have been purchased from an authorized dealer/ M/s.PASIC Ltd.\n- The applicant should not convert the lands for a minimum period of 10 years from the date of construction of the tubewell/filter point to any purpose other than agriculture and should execute a bond accordingly.",
+  "_criteria_filled": 1
+}

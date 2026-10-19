@@ -1,0 +1,31 @@
+{
+  "id": "ex-gratia-payment-for-loss-of-hands-legs-eyes-or-vision",
+  "name": "Ex-Gratia Payment for Loss of Hands, Legs, Eyes, or Vision",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, an ex-gratia grant of ₹74,000/- is provided to each affected person. In cases where the disability exceeds 60%, a higher amount of ₹2,50,000/- per person is provided.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-disability-certificate-issued-by-government-hospital-or-authorized-medic"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/exgalimbseye",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be either disaster-affected individual or involved in disaster relief or preparedness-related activities.\n1. The extent and cause of the disability must be certified by a doctor from a government hospital or dispensary.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-for-engineering-and-medical-education",
+  "name": "Scholarship for Engineering and Medical Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Rate of Scholarship:**\n\n- ₹12,000/- per year for Engineering students\n- ₹15,000/- per year for Medical students\n- ₹10,000/- per year for PhD students\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-bank-account-details-ex-serviceman-identity-card-d"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfeame",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a dependent of an ex-serviceman.\n   1. The applicant should be pursuing a course in Engineering, Medical, or Ph.D. from a recognized institution.\n\n**Note:** It is mandatory that the applicant&amp;#39;s correct name is mentioned both in the bank account and the discharge book.\n<br>",
+  "_criteria_filled": 1
+}

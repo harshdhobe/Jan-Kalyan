@@ -1,0 +1,26 @@
+{
+  "id": "national-career-service-centers-for-scsts-erstwhile-coaching-cum-guidance-centre",
+  "name": "National Career Service Centers For SC/STs (erstwhile Coaching-cum-Guidance Centre for SC/STs)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- The scheme offers Vocational Guidance and Career Counselling Services to educated SC/ST jobseekers.\n- The scheme provides Practice in Typing and Shorthand to ensure registrants maintain their speed while waiting on the Live Register of Employment Exchanges.\n- The scheme offers a Special Coaching Scheme to prepare candidates for competitive examinations and selection tests for Group “C” or equiva",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-proof-of-scst-status-educational-qualification-certificates-10"
+  ],
+  "apply_url": "https://dge.gov.in/ncsc_for_sc_sts",
+  "source_url": "https://www.myscheme.gov.in/schemes/ncscscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Caste (SC) or the Scheduled Tribe (ST) category.\n- The applicant must be an unemployed jobseeker.\n- The applicant must be registered with an Employment Exchange.\n- The applicant must have passed 10+2 (Minimum educational qualification for coaching or courses).\n- The family annual income of the applicant should not be more than ₹3,00,000/- per annum.\n\n<br>",
+  "_criteria_filled": 1
+}

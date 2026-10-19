@@ -1,0 +1,38 @@
+{
+  "id": "direct-loans-for-business-enterprise",
+  "name": "Direct Loans For Business Enterprise",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Under this scheme, loans will be provided to eligible entrepreneurs to start or expand their businesses by mortgaging property (building or land).\nIf the applicant's family income is below Rs 8.00 lakhs, then the loan will be provided up to Rs 20 lakhs at a 4% interest rate.\nIf the applicant's family income is Rs 8.00 lakhs to 15 lakhs, then the loan will be provided up to Rs 20 lakhs at a 6% inte",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-while-applying-copy-of-aadhaar-as-residential-proof-caste-cer",
+    "with-the-family-tree-in-the-case-of-a-building",
+    "a-valuation-report-by-a-registered-valuer-valuation-certificate-self-declaration"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/dlbe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a resident of Karnataka state\n1. Applicant should belong to the  minority community\n1. Applicant should belong to a minority community\n1. Applicant Age should be between 18 to 55 years\n1. Business/Enterprise loan will be given to only one member of a family",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,33 @@
+{
+  "id": "state-award-to-two-anganwadi-workers-under-integrated-child-development-services",
+  "name": "State Award To Two Anganwadi Workers Under Integrated Child Development Services (ICDS) Schemes",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Each selected awardee receives a Cash Award of ₹5,000/-.\n- Each selected awardee receives a citation.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "the-scheme-guidelines-do-not-explicitly-list-the-documents-required-for-applicat",
+    "as-the-process-is-nomination-based-the-list-below-is-inferred-from-the-schemes-e",
+    "members-of-legislative-assembly-mlas",
+    "members-of-parliament-mps",
+    "womens-organisation",
+    "child-development-project-officer-cdpo",
+    "district-programme-officer-of-integrated-child-development-services-icds-scheme",
+    "or-district-collector-documentary-evidence-substantiating-exemplary-performance"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/10/Women-child-Citizen-Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/satawicdss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Anganwadi Worker under the Integrated Child Development Services (ICDS) Schemes.\n- The applicant must demonstrate exemplary performance in improving the coverage and quality of services provided to children and pregnant and lactating mothers under the Integrated Child Development Services (ICDS) Scheme.\n- The applicant must show contribution towards the implementation of programmes or schemes of the central Government, state Government, or local bodies.\n\n<br>",
+  "_criteria_filled": 1
+}

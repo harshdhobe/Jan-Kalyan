@@ -1,0 +1,37 @@
+{
+  "id": "refinance-scheme-for-acquisition-of-iso-9000-certification-for-ssi-unit-iso-9000",
+  "name": "Refinance Scheme for Acquisition of ISO 9000 Certification for SSI Unit (ISO 9000)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "The need-based loan under the scheme would be provided for meeting the expenditure on Consultancy, Documentation, Audit, Certification Fees, Equipment and Calibrating Instruments.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationregistration-proof-copy-of-acknowledgement",
+    "equipment",
+    "and-calibrating-instruments-proposed-with-detailed-specifications-and-catalogues",
+    "documentation",
+    "audit",
+    "and-certification-fees-identity-and-address-proof-copies-of-pan-card",
+    "voter-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-passbook-constitutional-documents-copy-of-partnership-deed-and-acknowle",
+    "municipalpanchayat-permission",
+    "and-pollution-clearance-property-documents-for-collateral-security-original-titl"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsai9csu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is applicable to the existing industrial concerns in the SSI sector.\n- The concern must have a good record of past performance and sound financial position.\n- The concern should have been in operation for a period of atleast four years.\n- The concern should have earned profit and / or declared dividend during the preceding two financial years.\n- The concern should not be in default to institution / banks in payment of their dues and\n- The concern should have been exporting their products directly or indirectly or have plans to manufacture products for exports.\n\n<br>",
+  "_criteria_filled": 1
+}

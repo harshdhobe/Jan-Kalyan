@@ -1,0 +1,26 @@
+{
+  "id": "reimbursement-of-expenses-for-startups-operating-from-leasedprivately-owned-prem",
+  "name": "Reimbursement of Expenses for Startups Operating from Leased/Privately Owned Premises Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **For start-ups that operate from privately owned premises:**\n\n1. The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed subject to an upper limit of ₹ 1,00,000 per quarter for a period of one year. \n1. This benefit can be availed by 20 start-ups each year which the SPC shall select as per its guidelines.\n\n<br>\n\n> **For start-ups that operate f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-aadhaar-card-of-the-director-ceo-2-birth-certificate-domicile-cert"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/resolpops",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number that are not using any government-developed co-working spaces/ incubators/ accelerators for their operations are eligible.\n<br>\n\n**NOTE:** Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally will be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the SPC to admit the expenditure as per its guidelines.\n<br>\n\n> **Definitions**\n\n**Local start-up:** For the purpose of this scheme “Local start-up” shall mean a start-up in which at least 50% equity/share is held by one or more Goans continuously since the time of inception. \n**Goan:** For the purpose of this scheme the term “Goan” shall mean:\n1. Person born in the State of Goa; or,\n2. Person having domicile for 10 years or more in the State; or,\n3. Spouse of a person covered under any of the conditions mentioned in (1) and (2), through marriages registered in Goa.",
+  "_criteria_filled": 1
+}

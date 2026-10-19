@@ -1,0 +1,39 @@
+{
+  "id": "swami-vivekananda-nishakta-swavlamban-protsahan-yojana",
+  "name": "Swami Vivekananda Nishakta Swavlamban Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Amount:** ₹ 1,000/- per month to the eligible beneficiary.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-disability-related-certificate-age-proof-in-case",
+    "applicants-age-is-less-than-18-years",
+    "birth-certificate-or-attested-copy-from-the-headmasterprincipal-is-required-copy",
+    "applicants-age-is-18-years-or-more-copy-aadhar-card-in-case-the-applicant-does-n"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDocument?id=D031DO00628062023124410458",
+  "source_url": "https://www.myscheme.gov.in/schemes/svnspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Jharkhand.\n- The applicant should have attained the age of five (5) years or more.\n- The applicant must belong to any of the following categories:\n\n1. Rights of Persons with Disabilities Act, 2016 Section-2 (r) benchmark disability.\n1. Section-2 (s) Persons with Disabilities.\n1. Section-2 (t) Persons with Disability having high support needs.\n1. Section-2 (zc) &quot;Specified Disability”.\n\n- The applicant should have a Voter ID card and Aadhar Card (For applicant’s aged 18 years and above)\n- The applicant should not be a beneficiary under any other Social Security pension scheme.\n- The applicant should not be retired or permanently employed in Central and State Government or in public sector undertakings.\n- The applicant or their spouse should not be a recipient of any family pension or pension from Central and State Government or from public sector undertakings.\n- Applicant’s family is not an income tax payee.\n\n<br>",
+  "_criteria_filled": 3
+}

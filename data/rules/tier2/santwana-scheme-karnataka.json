@@ -1,0 +1,41 @@
+{
+  "id": "santwana-scheme-karnataka",
+  "name": "Santwana Scheme - Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Up to ₹5,00,000/- per unit cost.- **Subsidy Amount:** 50% of the loan amount is provided as a subsidy, and the remaining 50% is a repayable loan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-applicant-casteminority-certificate-issued-by-the-competent-authori"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss-k",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the religious minority category of the Karnataka state.\n1. The applicant should be a permanent resident of the state.\n1. The applicant&#39;s age should be between 18 to 55 years.\n1. The family income from all sources should not exceed more than ₹8,00,000/-\n1. The applicant&#39;s family members should not be employees in the Central or State Government. \n1. The applicant or his/her family should not have availed a loan facility from Karnataka Minorities Development Corporation (EXCEPT ARIVU EDUCATION LOAN SCHEME ) in the last five years.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chief-ministers-green-taxi-scheme",
+  "name": "Chief Ministers Green Taxi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. 50% of on-road vehicle cost supported (5% by the entrepreneur, 45% by the Government of Meghalaya)\n1. 5% EMI co-payment support for 12 months (conditional on minimum 1500 km/month traffic compliance)\n1. Credit linkage through partnered banks (MRB, MCAB, SBI, Shillong Co-operative Urban Bank)\n1. Branding cost of vehicle borne by the Government (one-time)\n1. Waiver of registration charges up to ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-incorporation-certificate-or-registration-certificate-proof-of-addre"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%2FSa6sO0gG1bjZxvKpw5jRjBwQ5GT7E6t3DKCkw9E3l9dZJzN2pAewm%2F9euuxYtN2x4T7BEoLk%2F0Yz55Qkm19eL9GOqeq9eE9x3jXIw3wChDTKkY1pWdyi3T7fGoCnLAXO5vEd8tQYRTIng9OtktPUy6NjGyi3m%2FRenNI4RudFRDgUeWUnpPduEtRqxVam2TJYMsJFNavD1psW3SWGhB1WS2QuDxSv786CjJhMWMExCv7MpUqc%20XMmK=",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmgta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Individual:**\n\n1. The applicant must be a permanent resident of Meghalaya.\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must hold a valid driving license.\n1. The applicant must be a resident of the Greater Shillong Planning Area (GSPA).\n1. The applicant must not be a credit defaulter with any bank.\n\n**For Registered Entities**\n\n1. The entity must provide a valid Incorporation Certificate or Registration Certificate, as applicable.\n1. The entity must be a recognized and registered taxicab operator, organization, Self Help Group (SHG), or cooperative based in the Greater Shillong Planning Area (GSPA).\n1. The entity must have a registered office or a license to operate city taxis in the Greater Shillong Planning Area.\n1. The entity must not be a credit defaulter with any bank.\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chief-ministers-award-for-excellence-in-public-administration",
+  "name": "Chief Minister’s Award for Excellence in Public Administration",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "##### ***Chief Minister&#39;s Award for Excellence in Public Administration***\n\n- The award carries a Commendation Scroll and a Cash Award of ₹10,00,000/- each.\n- Two such awards are given: one each for Departments’ and Organizations/Institutions’ categories.\n\n##### ***Chief Minister&#39;s Appreciation for Initiative in Public Administration***\n\n- The award carries a Commendation Scroll and a Cash",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "recommendation-of-the-departmental-committee-a-write-up-including-an-executive-s",
+    "not-more-than-5-five-pages-supporting-documents-attached-with-the-nomination-for",
+    "details-not-more-than-100-words"
+  ],
+  "apply_url": "https://dpar.py.gov.in/CIRCULARS/GO.1_2025_ARW.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmaepap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must represent one of the following:\n\n       a)      A Local Body under the UT of Puducherry.\n       b)      An Autonomous Body under the UT of Puducherry.\n       c)      A Corporation under the UT of Puducherry.\n       d)      An Agency under the UT of Puducherry.\n       e)      A Public Sector Undertaking under the UT of Puducherry.\n       f)      A Government Department under the UT of Puducherry.\n\n- The applicant must be nominated only through the Administrative Secretary.\n- The applicant must submit an application that contains the recommendation of the Departmental Committee.\n- The applicant must propose achievements of initiatives and projects whose qualitative and quantitative outcomes/results are of very high order and which have benefitted a large number of citizens.\n- The application should be made for rewardable work done during the previous one calendar year as on the date of nomination.\n\n<br>",
+  "_criteria_filled": 1
+}

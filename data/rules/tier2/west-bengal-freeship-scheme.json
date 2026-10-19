@@ -1,0 +1,53 @@
+{
+  "id": "west-bengal-freeship-scheme",
+  "name": "West Bengal Freeship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "Benefits: Waiver for tuition fee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-applicant-image-size-20kb-50kb",
+    "image-format-jpgjpeg-signature-of-applicant-signature-size-10kb-20kb",
+    "signature-format-jpgjpeg-marksheet-of-102th-std-examination-file-size-400kb",
+    "image-format-pdf-merit-rank-card-file-size-400kb",
+    "image-format-pdf-domicile-certificate-file-size-400kb",
+    "image-format-pdf-income-certificate-of-family-file-size-400kb",
+    "image-format-pdf-competent-authority-to-issue-income-certificatefor-the-purpose",
+    "an-officer-of-the-state-government-in-the-rank-of-joint-block-developer-officer",
+    "additional-district-magistrate",
+    "deputy-magistrate",
+    "deputy-collector",
+    "sub-divisional-officer",
+    "block-development-officer-superintendent-of-police",
+    "additional-superintendent-of-police",
+    "sub-divisional-police-officer",
+    "deputy-superintendent-of-police-commissioner",
+    "additional-commissioner",
+    "joint-commissioner",
+    "deputy-commissioner",
+    "assistant-commissioner-of-police-commissionerate-judicial-magistrate-of-any-rank",
+    "additional-commissioner",
+    "joint-commissioner",
+    "assistant-commissioner-assistant-secretary-or-above-in-the-secretariat-to-the-go"
+  ],
+  "apply_url": "https://wbhed.gov.in/wbfs/index.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Candidate must be domicile of the West Bengal.\n1. Merit rank in State Level/NationaI Level Entrance Examination.\n1. Annual family income of the candidate must not be more than ₹ 2,50,000 /-.",
+  "_criteria_filled": 2
+}

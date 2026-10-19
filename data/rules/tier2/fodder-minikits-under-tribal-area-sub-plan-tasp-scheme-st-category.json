@@ -1,0 +1,26 @@
+{
+  "id": "fodder-minikits-under-tribal-area-sub-plan-tasp-scheme-st-category",
+  "name": "Fodder Minikits under Tribal Area Sub Plan (TASP) Scheme (ST Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under this scheme, the fodder seed minikit of 3 Kg, 7 Kg or 10 Kg is given to the eligible beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-proof-of-residence-3-proof-of-possessing10-guntha-of-land-4-a"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/fodder-development.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmtaspsstc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a permanent resident of Gujarat.\n   1. The beneficiary of the Scheduled Tribe (ST) category can avail the benefit under this scheme.\n   1. The beneficiary should possess 10 Guntha of land to his or her name.",
+  "_criteria_filled": 1
+}

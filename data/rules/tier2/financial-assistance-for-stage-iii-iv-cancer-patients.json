@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-for-stage-iii-iv-cancer-patients",
+  "name": "Financial Assistance for Stage III & IV Cancer Patients",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "Under this scheme, financial assistance/pension of ₹3,000/- per month will be provided to Stage III and IV cancer patients starting from 01.01.2024.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-any-one-of-the-following-date-of-birth-certificate-school-certificat",
+    "haryana-2-residential-proof-any-one-of-the-following-self-attested-documents-iss"
+  ],
+  "apply_url": "https://socialjusticehry.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients-2/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasiiiaivcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n   1. The applicant should be a bonafide resident of Haryana as per Government instructions issued from time to time.\n   1. The applicant should have Parivar Pehchan Patar (PPP) - Family ID.\n   1. All Stage III &amp;amp; IV cancer patients will be eligible under the scheme.\n   1. Cancer patients whose family income is less than ₹3,00,000/- per annum, except the amount of other Social Security Pension Schemes will be eligible. \n\n**Note:** The financial assistance provided under this scheme will be in addition to the benefits received by the applicant under any other social security pension scheme.",
+  "_criteria_filled": 2
+}

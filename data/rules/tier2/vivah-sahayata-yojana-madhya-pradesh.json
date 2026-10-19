@@ -1,0 +1,26 @@
+{
+  "id": "vivah-sahayata-yojana-madhya-pradesh",
+  "name": "Vivah Sahayata Yojana - Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the beneficiary will receive a total assistance of ₹55,000.\n1. This amount is divided into:\n\n   1. ₹11,000/- as cash.\n   1. ₹38,000/- worth of household goods.\n   1. ₹6,000/- provided to the organizer of the mass marriage program (if applicable).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-the-prescribed-format-maximum-of-15-days-before-the-marriage"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=z97iJgS9e2U=",
+  "source_url": "https://www.myscheme.gov.in/schemes/vsylwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The industrial establishment/institution must be covered under the Madhya Pradesh Labour Welfare Fund Act 1982 and the Board must be receiving regular contributions from the establishment.\n1. The application form in the prescribed format must be submitted either 15 days before the wedding date or 60 days after the wedding date.\n1. Bride and groom age should be 18 and 21 respectively.\n1. The applicant must have been working in the establishment for at least one year.\n1. If the applicant has availed the benefit of marriage assistance under any other scheme, he/she will be ineligible for this scheme.",
+  "_criteria_filled": 1
+}

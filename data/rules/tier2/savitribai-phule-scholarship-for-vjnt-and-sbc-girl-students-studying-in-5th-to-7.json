@@ -1,0 +1,31 @@
+{
+  "id": "savitribai-phule-scholarship-for-vjnt-and-sbc-girl-students-studying-in-5th-to-7",
+  "name": "Savitribai Phule Scholarship For V.J.N.T. And S.B.C. Girl Students Studying In 5th To 7th Standard",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The beneficiary is provided ₹ 60/- per month, i.e. ₹ 600/- for ten months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-proof-of-identity-proof-of-age-birth-certificate-proof-of-address"
+  ],
+  "apply_url": "https://mahadbt.maharashtra.gov.in/home/flow",
+  "source_url": "https://www.myscheme.gov.in/schemes/spsvsgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a girl.\n1. The applicant must be a resident of the state of Maharashtra.\n1. The applicant must belong to Vimukta Jati and Nomadic Tribes (VJNT) or Special Backward Classes (SBC) Category. \n1. The applicant must be studying in Class 5th to Class 7th.\n1. The applicant must be studying in a Government Recognized School.",
+  "_criteria_filled": 2
+}

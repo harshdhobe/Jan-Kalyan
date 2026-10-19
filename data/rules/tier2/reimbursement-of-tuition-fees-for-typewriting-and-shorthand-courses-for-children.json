@@ -1,0 +1,43 @@
+{
+  "id": "reimbursement-of-tuition-fees-for-typewriting-and-shorthand-courses-for-children",
+  "name": "Reimbursement of Tuition Fees for Typewriting and Shorthand Courses for Children of Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Financial Assistance of ₹ 50/- per month, as a reimbursement of the tuition fees.**\n*The reimbursement shall be allowed only for a maximum period of ten months for a course and for the first attempt only.\n*The reimbursement shall be allowed only for any two children of the widow.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-from-the-revenue-department-3-income-cert",
+    "member-of-parliament-mp",
+    "tahsildar",
+    "or-commissioner-of-municipality-or-commune-panchayat",
+    "affirming-that-the-applicant-is-a-widow",
+    "and-the-children-for-whom-reimbursement-is-sought-are-her-own-8-attested-copy-of",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtftsccw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years.\n- The applicant should be a widow.\n- The annual income of the applicant should not exceed ₹24,000.\n- The child of the widow should be a Student.\n- The child of the widow should be enrolled in an approved recognised by the Government of Tamilnadu/Government of Kerala/Government of Andhra Pradesh for the purpose of technical examinations.\n- The child should have passed/appeared for SSLC/Matriculation or any other equivalent examination recognized by the Education Department, Puducherry.\n- The child of the widow should be studying typewriting and/or shorthand.\n- Upto two dependent children of a widow are eligible.\n- The widow should not have been receiving assistance/grant under any other scheme being implemented by the Social Welfare Department, Puducherry.",
+  "_criteria_filled": 3
+}

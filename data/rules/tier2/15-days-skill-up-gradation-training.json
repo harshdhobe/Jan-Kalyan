@@ -1,0 +1,26 @@
+{
+  "id": "15-days-skill-up-gradation-training",
+  "name": "15 Days Skill Up-gradation Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- Stipend of ₹7,000/-. \n\n- Skill development training for construction workers.\n- Tool kits provided post-training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-worker-registration-certificate-with-the-welfare-board-bank"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.O.ms.No.43,dated.2013,NAC_Training.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/15dsugt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a registered construction worker under the Andhra Pradesh Building and Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

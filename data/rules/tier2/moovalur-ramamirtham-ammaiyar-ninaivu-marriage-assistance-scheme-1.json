@@ -1,0 +1,43 @@
+{
+  "id": "moovalur-ramamirtham-ammaiyar-ninaivu-marriage-assistance-scheme-1",
+  "name": "Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme-1",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "1. Cash assistance of **₹ 25,000** (paid through the Electronic Clearing Service ECS).1. One Sovereign (8 gram) 22-carat **Gold Coin**.\n**NOTE:** In case of death of parents, assistance is given to the daughter.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-community-certificate-marriage-invitation-copy-of-school-cert",
+    "bridegroom",
+    "and-their-mother-father-bank-pass-book-aadhar-card-of-the-brides-mother-and-fath"
+  ],
+  "apply_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationswomen-welfare/marriage-assistance-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/mranmas1",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The annual income of the family of the applicant should not exceed ₹72,000/-.\n1. The girl should be of the legal marriage age, i.e. 18 years or above.\n1. The boy should be of the legal marriage age, i.e. 21 years or above.\n1. The girl should have studied upto 10th Standard. As a special case, a bride from the Scheduled Tribe community, with a minimum education of 5th Standard, can also avail of this scheme.\n1. Only one girl from a family is eligible.",
+  "_criteria_filled": 4
+}

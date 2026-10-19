@@ -1,0 +1,66 @@
+{
+  "id": "dilli-swarojgar-yojna",
+  "name": "Dilli Swarojgar Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "Need-based loans up to ₹5,00,000/- at an interest rate of 6% per annum to support an [income-generating activity](https://dsfdc.delhi.gov.in/sites/default/files/dsy_scheme_details.pdf) mentioned in the scheme guidelines.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "pre-sanctionwith-application-duly-filled-loan-application-form-of-dilli-swarojga",
+    "available-at-branch-offices-rajpur-road",
+    "mangolpuri",
+    "nand-nagri-and-headquarters-at-rohini-it-can-also-be-downloaded-from-the-officia",
+    "an-affidavit-declaring-that-the-applicant-belongs-to-a-notified-minority-communi",
+    "school-leaving-certificate",
+    "or-affidavit-declaring-date-of-birthage-education-qualification-proof-technical",
+    "water-bill",
+    "or-telephone-bill-landline-of-mtnl-id-proof-of-the-owner-of-the-workplace-rent-a",
+    "national-savings-certificate-nsc",
+    "or-kisan-vikas-patra-kvp",
+    "etc-demand-draft-of-500-towards-the-processing-fee-in-favor-of-dsfdc-copy-of-ins",
+    "along-with-five-blank-cheque-truncation-system-cts-post-dated-cheques-in-favor-o",
+    "00",
+    "000-guarantee-of-one-regular-governmentpublic-sector-undertaking-psuautonomous-b",
+    "who-has-at-least-six-years-remaining-length-of-service-to-meet-the-equated-month",
+    "the-original-documents-of-immovable-property-with-a-complete-chain-of-documents",
+    "as-the-case-may-be",
+    "having-a-minimum-face-value-of-75-of-the-loan-amount-in-case-of-fdrnsckvp",
+    "the-lien-letter-of-the-appropriate-authority-is-also-required-original-pay-slip",
+    "as-per-the-specimen",
+    "along-with-id-proof-of-the-legal-heir-and-one-photograph-of-the-legal-heir-the-a",
+    "guarantor",
+    "branch-incharge",
+    "dealing-assistant",
+    "and-two-witnesses"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/affidavit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority.\n- The applicant must be a resident of Delhi for the last five years.\n- The applicant’s age should be between 18 to 50 years.\n- The annual family income of the applicant, from all sources, should not exceed ₹2,00,000/-.\n- The applicant should be willing to pursue one of the [income-generating activities](https://dsfdc.delhi.gov.in/sites/default/files/dsy_scheme_details.pdf) given in the scheme guidelines - - The applicant must have a proper workplace for starting the proposed activity, either owned by the applicant or their relative or rented.\n- The applicant should not have been declared a defaulter under any of the schemes being implemented by the DSFDC.\n- The applicant should have passed a minimum 8th standard.\n- The applicant should have technical qualifications for the proposed activity. However, this will not apply to traditional artisans or entrepreneurs already engaged in the activity for which the loan is applied, for the past three years at least.",
+  "_criteria_filled": 4
+}

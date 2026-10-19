@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-exhibitions-abroad-and-out-of-state",
+  "name": "Assistance for Exhibitions Abroad and Out of State",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to ₹1,00,000/- for organizing exhibitions abroad. \nParticularsMaximum Allowable AmountGallery rent and decoration15,000/-Transportation of artworks10,000/-Publication of catalogues or printed materials related to the exhibition₹25,000/-Framing, mounting, and display preparation of artworks₹20,000/-Inaugural ceremony, publicity, and advertisement costs₹15,000/-Artist’",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-documentation-of-previous-exhibitions-proof-of-exhibition-o"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/schemedetail-guj.htm?26",
+  "source_url": "https://www.myscheme.gov.in/schemes/aeaos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist originally from Gujarat.\n1. The applicant must have organized either:\n\n  - Individual Artists: Artists practicing in fields of visual arts (painting, sculpture, printmaking, etc.) who wish to participate in or organize exhibitions outside Gujarat or internationally.\n  - Registered Art Organizations or Groups: Art societies, academies, educational institutions, or cultural organizations that promote visual arts and are organizing such exhibitions.\n\n1. Applicants must exhibit a minimum of 30 original artworks at the exhibition for which financial assistance is being sought\n1. The exhibition must be:\n\n  - Outside the State (interstate exhibitions), or\n  - Outside the Country (international exhibitions abroad), and\n  - Must be art-related, such as showcasing paintings, sculptures, mixed media, or visual art forms.\n\n<br>",
+  "_criteria_filled": 1
+}

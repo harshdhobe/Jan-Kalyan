@@ -1,0 +1,28 @@
+{
+  "id": "free-passport-scheme",
+  "name": "Free Passport Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Reimbursement of passport application fee of ₹1,500/- to eligible students.\n\n**Mode of Disbursement:**\nThe reimbursement is provided through the respective college where the student is enrolled.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-address-proof-any-one-of-the-following-would-work-aadhaar-card-electricity-bil",
+    "you-will-have-to-provide-these-documents-as-well-student-id-card-bona-fide-certi",
+    "500-for-fresh-passports-the-payment-should-be-made-online-while-booking-an-appoi"
+  ],
+  "apply_url": "https://erp.highereduhry.ac.in/HowToApplyPassport.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/freepassport",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should be a final-year student in a UG or PG course in a government college.\n1. The applicant should not possess an existing passport.\n\n**Note:** The application procedure and processing time for getting passport are the same as for a regular passport.",
+  "_criteria_filled": 1
+}

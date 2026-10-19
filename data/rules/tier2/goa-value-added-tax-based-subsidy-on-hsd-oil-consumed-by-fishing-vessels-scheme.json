@@ -1,0 +1,26 @@
+{
+  "id": "goa-value-added-tax-based-subsidy-on-hsd-oil-consumed-by-fishing-vessels-scheme",
+  "name": "Goa Value Added Tax-Based Subsidy on H.S.D. Oil Consumed by Fishing Vessels Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- An amount equivalent to the actual Value Added Tax paid shall be reimbursed to the owner of the fishing vessel as a subsidy on H.S.D. Oil consumed by the fishing vessel used for the purpose of fishing on a limited quota, as decided by the government.\n- The total quota of H.S.D. Oil for the purpose of this scheme shall be restricted to 20,000 K.L. per financial year for the entire fishing industr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-statement-of-hsd-oil-consumed-2-invoice-of-hsd-oil-3-bills-of-hsd-oil-4-vrc-co"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/schemes-services/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gvatbshsdocfvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a registered fishing vessel under the M.S. Act.\n2. The applicant should possess a valid Net Licence and Fishing Licence for the year.\n3. The applicant should not be a defaulter of the Department of Fisheries.\n4. The applicant should not be a violator of the Goa, Daman and Diu Marine Fishing Regulation Act, 1980 (3 of 1981) and rules framed thereunder.\n5. The applicant should procure H.S.D. Oil from a Diesel Outlet run by the Registered Fisheries Co-operative Society or outlets approved by the Government of Goa.",
+  "_criteria_filled": 1
+}

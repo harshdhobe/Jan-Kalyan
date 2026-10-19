@@ -1,0 +1,36 @@
+{
+  "id": "atma-nirbhar-matsya-palan-yojana",
+  "name": "Atma Nirbhar Matsya Palan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "> **Benefits:**\n\n1. 45% Government Subsidy.\n1. 45% Bank Loan (credit-linked).\n1. 10% Beneficiary Contribution.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-pan-card-st-certificate-domicile-certifica"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s36c29793a140a811d0c45ce03c1c93a28/uploads/2023/06/2023062787.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/anmpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria for Individual Farmers**\n\n1. The applicant must be a Scheduled Tribe (ST) of Arunachal Pradesh.\n1. The applicant must be a permanent resident of Arunachal Pradesh. \n1. The applicant must be between 18 to 60 years of age.\n1. The applicant must not be a bank defaulter.\n1. The applicant must not be a government servant.\n1. The applicant must have experience in fisheries or aquaculture.\n1. The applicant must have sufficient and suitable land for aquaculture activity.\n\n**Eligibility Criteria for Self-Help Groups (SHGs)**\n\n1. SHGs must be affiliated with APRSLM (Arunachal Pradesh State Rural Livelihood Mission).\n1. SHGs under NERCOMP (for Changlang) are also eligible.\n1. SHGs must be actively engaged in fisheries or aquaculture.\n\n**Eligibility Criteria for Farmers Producer Organizations (FPOs)**\n\n1. The FPO must be registered.\n1. The FPO must have at least 100 shareholders.\n1. The FPO must have at least one audited balance sheet.\n1. Only FPOs engaged in fisheries/aquaculture are eligible.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,33 @@
+{
+  "id": "incentive-scheme-for-msmes-in-powerloom-sector-subsidy-for-water-conservation-en",
+  "name": "Incentive Scheme for MSMEs in Powerloom Sector: Subsidy for Water Conservation/ Environment Compliance",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- 50% subsidy subject to a maximum of ₹2,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-memorandum-of-association-and-articles-of-association-authenticate",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "annual-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-case-of-rented-leaseh",
+    "copy-of-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conversion-c",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-official-scheme-guidelines",
+    "money-receipts-for-expenditure-incurred-towards-cost-of-pollution-control-device"
+  ],
+  "apply_url": "https://wbmsmet.gov.in/home/download/YzA0YzdiMjc0YjAwYjBiMDgwYTRjYmRkOTU1MDY1NGQyNTNjM2YyYWYxMDRhNTkyYjRiMWI1YmVkZDYyOTZlN2YwNDc3ZDgwMDM5YzgxYjhmZWZiMWY2ODI0ZTNjYTUzMjU4N2YwYjViMjJiZTllZjAzYmM3NTRiZTY4ZDk0MTVjVmtvdlJCcjA0ZlpLYjZkbTlPQ0hyUTBaNGRuVzZZOXpHTlpGRkJwcUlZaDNwNXF0S01rSU4rTE5ZS3JCd3VKVmp5c1drM3hEb29QaHlXNit1Vy9CQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/ismpsswcec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all micro, small, and medium enterprises (MSMEs) in the powerloom sector.\n  - Enterprises must have started production from 01.01.2022 to 31.12.2024.\n  - Enterprises should have executed a Four-party agreement with the Directorate of Textiles, Financial institution and Tantuja.\n  - The units should be a private sector, cooperative sector and joint sector undertaking as also companies/ undertakings owned and managed by the State Government and the Industrial SHGs.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "food-bill-assistance-for-medical-engineering-students-of-nomadic-tribes-denotifi",
+  "name": "Food Bill Assistance for Medical & Engineering Students of Nomadic Tribes & Denotified Tribes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Monthly assistance up to ₹1,500/- for 10 months per academic year. \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-pass-bookcancelled-cheque-caste-certificate-income-certifica"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbamesntdnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a student.\n1. The applicant should belong to a Notified Tribe or De‑Notified Tribe (NTDNT) community of Gujarat.\n1. The applicant should be pursuing a Medical or Engineering degree course within the state of Gujarat.\n1. The applicant’s annual family income should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

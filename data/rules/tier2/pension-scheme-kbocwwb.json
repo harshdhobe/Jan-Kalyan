@@ -1,0 +1,31 @@
+{
+  "id": "pension-scheme-kbocwwb",
+  "name": "Pension Scheme (K.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- **Monthly Pension:** Up to ₹3,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeremployment-certificate90-days"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/pension",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\n  - The worker must have reached 60 years of age.\n  - The worker must have been a beneficiary of the Board for at least 3 consecutive years before turning 60 years of age.\n  - The worker must not be availing similar benefits from any other government schemes.",
+  "_criteria_filled": 2
+}

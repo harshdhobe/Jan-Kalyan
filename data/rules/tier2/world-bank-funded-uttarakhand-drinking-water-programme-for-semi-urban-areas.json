@@ -1,0 +1,44 @@
+{
+  "id": "world-bank-funded-uttarakhand-drinking-water-programme-for-semi-urban-areas",
+  "name": "World Bank-funded Uttarakhand Drinking Water Programme (For Semi-Urban Areas)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, domestic water connections are provided by depositing a nominal connection fee of ₹1.00 and an application fee of ₹25.00.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-self-attested-photocopy-of-any-one-of-the-followin",
+    "pan-card",
+    "unique-identity-card",
+    "ration-card-with-photo",
+    "driving-license",
+    "bank-passbook-with-photo",
+    "passport-self-attested-photocopy-of-the-map-approved-by-the-relevant-development",
+    "local-body",
+    "or-gram-sabha-required-only-for-building-construction-applications-ownershipoccu",
+    "any-of-the-following-sale-deed",
+    "lease-deed",
+    "ownership-certificate-fard",
+    "land-lease-documents-other-supporting-documents",
+    "self-attested-copies-of-voter-id-card",
+    "building-assessment-certificate-issued-by-municipal-corporationmunicipal-council",
+    "tenant-agreement",
+    "ration-card",
+    "electricity-bill",
+    "nationalized-certificate-non-judicial-stamp-paper-of-100-approval-letter-from-th"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ukdwpsua",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The World Bank–funded Uttarakhand Drinking Water Supply Programme for Semi-Urban Areas provides benefits to families residing in selected semi-urban regions of the state. \n   1. The programme is not applicable in urban areas.\n\n<br>",
+  "_criteria_filled": 1
+}

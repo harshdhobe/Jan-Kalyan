@@ -1,0 +1,29 @@
+{
+  "id": "award-of-pre-matric-scholarship-to-the-students-whose-parents-are-engaged-in-unc",
+  "name": "Award of Pre-matric Scholarship to the Students Whose Parents Are Engaged in Unclean Occupation",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹1850/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-aadhaar-card-b",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/award-pre-matric-scholarship-students-whose-parents-are-engaged-unclean-occupation",
+  "source_url": "https://www.myscheme.gov.in/schemes/apmsspeuo",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Scheduled Caste.\n- The applicant should be a Student.\n- The applicant should be studying in Class 1st to Class 10th.\n- The applicant should be a Native/Resident of the Union Territory of Puducherry.\n- Either or both the parents of the applicant should be engaged in unclean occupation (Scavenger/ Flayer/ Tarner).",
+  "_criteria_filled": 1
+}

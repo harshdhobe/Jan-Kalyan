@@ -1,0 +1,27 @@
+{
+  "id": "the-meghalaya-tribal-students-book-grant-post-matric-education",
+  "name": "The Meghalaya Tribal Students’ Book Grant (Post-Matric Education)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "The amount of grant per student per academic course will be as follows:\n\n- Class 11th - 12th (Arts &amp; Commerce): ₹500/- \n- Class 11th - 12th (Science): ₹700/- \n- Degree Arts (Pass): ₹600/- \n- Degree Arts (Honours): ₹750/- \n- Degree Science (Pass): ₹900/- \n- Degree Science (Honours): ₹1000/- \n- Post-Graduate Course (Arts &amp; Commerce): ₹900/- \n- Post Graduate Course (Science): ₹1200/- \n- Resea",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-domicile-certificate-caste-certificate-marksheet-examination",
+    "as-required"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmtsbg-pme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a student.\n1. The applicant should belong to the Khasi-Jaintia or Garo Community or as decided by the state government from time to time.\n1. The applicant should have secured at least 60% marks in aggregate in the preceding examination conducted by the Board/University.\n1. The courses of study should be a regular course other than technical or vocational course.\n1. The course should be pursued by a recognized institution in India.\n1. The applicant should not be employed in any capacity under the Government.",
+  "_criteria_filled": 1
+}

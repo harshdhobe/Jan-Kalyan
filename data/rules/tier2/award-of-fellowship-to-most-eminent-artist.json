@@ -1,0 +1,31 @@
+{
+  "id": "award-of-fellowship-to-most-eminent-artist",
+  "name": "Award of Fellowship to Most Eminent Artist",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Monthly Fellowship:** ₹5,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-government-issued-id-showing-age-60-years-or-above-proof-of-retirem"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/writereaddata/Portal/Magazine/Document/1_35_3_Aminent-Application-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aoftmea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an artist.\n  - The applicant must be 60 years or older.\n  - The applicant should be retired from the professional field of plastic arts.\n  - The applicant should have attained national-level fame and established a distinct identity through excellence in painting, sculpture, or graphic arts.",
+  "_criteria_filled": 2
+}

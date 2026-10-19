@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-motor-cycle-with-ice-box-haryana",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Motor Cycle with Ice Box - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Financial Assistance provided under the scheme:**\n\n- Project Cost: ₹75,000/- per unit\n- Subsidy will be limited to 40% of the project cost for the General Category of beneficiaries.\n- Subsidy will be limited to 60% of the project cost for Weaker sections/Scheduled Caste/Scheduled Tribe/Women and their co-operatives of beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-voter-id-card-date-of-birth-certificate-aadhaar-card-class-10t"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=v523+FERWLcoUAtjMqNcCg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcwibs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n1. The applicant should have a Parivar Pehchan Patra.\n1. The applicant should ensure that fish transport facilities are maintained in operational condition.\n1. The applicant will be eligible for a subsidy for the purchase of only motorcycle with ice box.\n1. The applicant should utilize the vehicle solely for fishery-related transportation activities.\n1. The Government of India and the Government of Haryana will not be responsible for any loss incurred in the purchase, operation, maintenance, and management of fish transport facilities.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kisan-parivahan-yojana",
+  "name": "Kisan Parivahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance (For Small, Marginal, Women, SC/ST Farmers)****Standard of Assistance (For General/Other Farmers)**Medium-sized goods vehicles (capacity of 600kg to 1500 kg)35% of the total vehicle cost or ₹75,000/-, whichever is lower25% of the total vehicle cost or ₹50,000/-, whichever is lower> **Note:** \n\n- **Minimum Time Limit for Reclaiming  Benefits:*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-caste-certificate-if-applicable-bank-passb"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/0O%E2%9C%A4rKA8v29ofg1pWLLd3eA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/kpyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n- The applicant must belong to the Gujarat state.\n- The applicant must purchase a medium-sized goods vehicle (600kg to 1500kg capacity) from an [authorized dealer](https://ikhedut.gujarat.gov.in/Public/frm_Public_DealerDetails.aspx).",
+  "_criteria_filled": 1
+}

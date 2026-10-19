@@ -1,0 +1,29 @@
+{
+  "id": "long-term-loan-to-sc-co-op-spinning-mills-under-special-component-plan",
+  "name": "Long Term-Loan to SC Co-op Spinning Mills under Special Component Plan",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "A loan covering 50% of the project cost.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-signed-across-recent-financial-statements-of-the-spinn",
+    "address-proof",
+    "and-any-other-required-documents",
+    "all-self-attested-any-prior-approvals-from-the-textile-department-any-other-docu"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/economic-upliftment",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltltscosmuscp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The spinning mill must collect a minimum of ₹80,00,000/- or at least 5% of the project cost as member shares.\n1. The project submitted by the spinning mill must be enumerated by recognized financial institutions/banks, which will also check the project report.\n\n> **Recognized Institutions for Enumeration**\n\n1. Maharashtra Industrial &amp; Technical Consultancy Organization Ltd. (MITCON), Pune.\n1. Agriculture Financial Corporation, Mumbai.\n1. Dattajirao Technical Institute, Ichalkaranji.\n\n> **NOTE 1:** Ensure that all financial contributions and project details are documented and verifiable.\n\n> **NOTE 2:** The spinning mill should engage with recognized institutions early in the project planning phase to facilitate a smooth enumeration process.\n\n> **NOTE 3:** Proper financial management is essential to meet the project cost and member share requirements.",
+  "_criteria_filled": 1
+}

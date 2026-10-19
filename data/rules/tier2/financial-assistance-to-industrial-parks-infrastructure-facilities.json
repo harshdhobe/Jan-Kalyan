@@ -1,0 +1,53 @@
+{
+  "id": "financial-assistance-to-industrial-parks-infrastructure-facilities",
+  "name": "Financial Assistance to Industrial Parks: Infrastructure Facilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Comprehensive Support:** Development of critical infrastructure like roads, power, water, and communication for industrial operations.  - **Support for Residential Facilities:** Up to 25% of the cost of constructing hostels or dormitories for domiciled workers, with a maximum limit of ₹20,00,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationcopy-of-registration-for-constitution-of-developer-companyfirm-i",
+    "partnership-act",
+    "or-the-companies-act-or-spv-copy-of-pan-card-of-developer-companyfirm-712-of-sur",
+    "partnership-act",
+    "or-the-companies-act-or-spv-copy-of-pan-card-of-developer-companyfirm-712-of-sur",
+    "features-and-scope-of-industrial-park",
+    "benefits-to-industrial-units-to-be-established",
+    "etc-ca-certified-net-worth-of-the-developer-companyfirmpromoters-authority-lette",
+    "then-give-details-sanction-letter",
+    "approval-letter",
+    "disbursement",
+    "etc-notarized-affidavit-in-prescribed-format-for-claimduly-attested-copy-of-sanc",
+    "then-provide-details-details-of-scheme",
+    "registration",
+    "sanction",
+    "approval",
+    "etc-received-under-that-scheme",
+    "component-wise-quantum-of-assistance-sanctioned",
+    "disbursed",
+    "if-any-if-you-have-applied-to-central-government-for-incentivesassistance-under",
+    "then-provide-details-details-of-scheme",
+    "registration",
+    "sanction",
+    "approval",
+    "etc-received-under-that-scheme",
+    "component-wise-quantum-of-assistance-sanctioned",
+    "disbursed",
+    "if-any-notarized-affidavit-for-claim-in-prescribed-format"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/faitif",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries Association / any enterprise registered under the Societies Act, Partnership Act, Trust Act, Companies Act or SPV constituted for setting up of Industrial Park shall be eligible to develop Industrial Park under this scheme.",
+  "_criteria_filled": 1
+}

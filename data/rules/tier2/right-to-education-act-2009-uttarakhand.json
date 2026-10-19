@@ -1,0 +1,26 @@
+{
+  "id": "right-to-education-act-2009-uttarakhand",
+  "name": "Right to Education Act 2009 - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under Section 12(1)(c) of the Right to Education Act, children from weaker and disadvantaged sections in rural and urban areas of Uttarakhand are provided free education, textbooks, uniforms, and the benefits of the PM Poshan Yojana up to Class 8 in private schools.\n  - In private schools, 25% of the total seats in the entry-level class are reserved for children from weaker and disadvantaged sec",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-of-the-child-aadhaar-card-of-the-child-and-parentsguard"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rta2009",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Children from the following categories will be eligible for admission up to Class 8 in private schools:**\n\n   1. **Children from weaker sections:** Those whose parents/guardians have an annual income of ₹55,000/- or less, or are BPL card holders.   1. **Children from disadvantaged classes:** SC, ST, and children belonging to the non-creamy layer of OBC, with a family annual income of up to ₹4.5 lakh.   1. Orphan children.\n   1. Children with physical disabilities.\n   1. Children living with HIV/AIDS or those dependent on parents who are HIV/AIDS positive.\n   1. Children dependent on disabled parents or parents affected by leprosy, with a family annual income of less than ₹4.5 lakh.\n   1. Children dependent on a divorced or widowed mother, with an annual family income of less than ₹80,000/-.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "varishtha-bunkar-samman-yojana",
+  "name": "Varishtha Bunkar Samman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹11,000/- is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-age-proof-to-verify-that-the-applicant-is-60-years-or-o"
+  ],
+  "apply_url": "https://www.cgapexhandloom.org.in/sites/default/files/page-documents/Bunkar-Schlorship_varishtha_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vbsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an active weaver member of the primary weaver cooperative society.\n- The applicant should be affiliated with the Chhattisgarh State Handloom Union, Raipur.\n- The applicant should be 60 years or older in age.\n- One weaver from each district of the state who has produced the maximum cloth in that district.\n- The weaver should not be a defaulter with the society.",
+  "_criteria_filled": 2
+}

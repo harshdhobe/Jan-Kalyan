@@ -1,0 +1,49 @@
+{
+  "id": "the-artist-welfare-fund-of-assam",
+  "name": "The Artist Welfare Fund Of Assam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Limit of Financial Grant for various disease\n1.\tCancer: ₹ 50,000.00\n2.\tKidney Transplant or Total Kidney Failure: ₹ 50,000.00\n3.\tHeart Pacemaker / Bypass: ₹ 20,000.00\n4.\tDeath: To be decided by the Board\n5.\tDisability due to Accident: To be decided by the Board\n6.\tOthers",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copies-of-the-following-documents-1-a-recent-not-older-than-six-mo",
+    "driving-license",
+    "electricity-bill",
+    "landline-telephone-or-broadband-connection-bill",
+    "water-bill",
+    "consumer-gas-connection-card-or-book-or-piped-gas-bill",
+    "bank-account-statement",
+    "domicile-certificate-issued-by-the-government",
+    "passport-of-the-spouse",
+    "post-office-pass-book-having-address-of-the-applicant",
+    "property-registration-document",
+    "electors-photo-identity-card-5-proof-of-age-dob-any-one-of-the-following-aadhaar",
+    "pan-card",
+    "electors-photo-identity-card",
+    "passport",
+    "driving-license",
+    "birth-certificate-issued-by-the-municipal-authority-or-any-office-authorized-to",
+    "marriage-certificate-issued-by-registrar-of-marriages",
+    "matriculation10thclass-certificate-or-mark-sheet-of-recognized-board-proofs-deta"
+  ],
+  "apply_url": "https://filmfinance.assam.gov.in/sites/default/files/10/how_do_i/level_1/Application%20Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tawfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be and artist in the field of art and culture of the State.\n2.\tThe applicant must be above the age of 20 years (in case of applicant being the artist).\n3.\tThe applicant should be in distress.\n4.\tThe applicant should have a made a mark or made some achievement in the field of art and culture.\n5.\tThe applicant should be able to provide artistic credentials supporting his/her achievement.",
+  "_criteria_filled": 2
+}

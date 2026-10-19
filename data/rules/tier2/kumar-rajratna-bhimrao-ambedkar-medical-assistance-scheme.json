@@ -1,0 +1,31 @@
+{
+  "id": "kumar-rajratna-bhimrao-ambedkar-medical-assistance-scheme",
+  "name": "Kumar Rajratna Bhimrao Ambedkar Medical Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Medical Assistance is provided to Scheduled Caste patients for treatment of incurable and critical diseases like TB, Leukemia, and other serious conditions.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-details-copy-of-hier-birth-certificate-certificate-by-civil-su"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/krbamas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Gujarat.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should be suffering from an incurable or critical disease such as TB or Leukemia, as certified by a civil surgeon.\n1. The family income of the applicant should not exceed ₹6,00,000/- per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

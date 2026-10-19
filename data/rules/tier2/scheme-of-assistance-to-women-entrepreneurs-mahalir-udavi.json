@@ -1,0 +1,62 @@
+{
+  "id": "scheme-of-assistance-to-women-entrepreneurs-mahalir-udavi",
+  "name": "Scheme Of Assistance To Women Entrepreneurs (Mahalir Udavi)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance shall be considered up to a maximum of 75% of the project cost.\n- The loan is provided for acquiring fixed assets.\n- The loan is provided to meet the working capital requirement.\n- A concessional rate of interest of 0.5% less than the normal rate is charged for units promoted by Women.\n- A 50% concession is provided on the investigation fee.\n- The maximum term loan repayment",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "since-the-maximum-loan-limit-is-20",
+    "00",
+    "000",
+    "the-following-list-synthesizes-required-documents-based-primarily-on-the-checkli",
+    "00",
+    "000-and-up-to-25",
+    "00",
+    "000",
+    "as-this-is-the-most-comprehensive-category-covering-the-schemes-limit-documents",
+    "small-and-medium-enterprise-registration-certificate-obtained-from-industries-de",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-copy-of-partnership-deed-and-acknow",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-for-all-the-promoters-details-asked-for-in-the-application-at",
+    "13",
+    "14",
+    "and-15-must-be-furnished-compulsorily-to-prepare-appraisal-report-consent-letter",
+    "50-concession-has-to-be-paid-documents-to-be-submitted-during-processing-time-or",
+    "puducherry-planning-authority-approval",
+    "inspector-of-factories-approval",
+    "municipal-or-panchayat-permission",
+    "and-pollution-clearance",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-factory-site-and-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sawemu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All existing and new SSI/Tiny units promoted exclusively by women entrepreneurs / consisting of majority of women entrepreneurs.\n<br>",
+  "_criteria_filled": 2
+}

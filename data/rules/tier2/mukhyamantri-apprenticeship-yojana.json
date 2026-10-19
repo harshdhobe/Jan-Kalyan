@@ -1,0 +1,35 @@
+{
+  "id": "mukhyamantri-apprenticeship-yojana",
+  "name": "Mukhyamantri Apprenticeship Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Categories of apprentices****Stipend**Trade apprentice (MSDE)₹1500/-Optional trade apprentice (MSDE)₹3000/- (Graduate ); ₹2000/- (Any Diploma); ₹1500/- (Others)Technician (Vocational) apprentices (MSDE)1500/-Technician apprentices (MOE) (Diploma in engineering or non-engineering stream and undergoing apprenticeship training in designated trades)2000/-Graduate apprentices (MOE) (Graduates i",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id",
+    "etc-proof-of-residence-aadhaar-card",
+    "voter-id",
+    "etc-proof-of-educational-qualification-certificates-or-mark-sheets-bank-account"
+  ],
+  "apply_url": "https://talimrojgar.gujarat.gov.in/2014/Docs/06Mar2023042918PM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mayg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be at least 14 years old (18 years for hazardous trades).\n   1. The applicant must meet the minimum educational qualification specific to the trade.\n   1. The applicant must be a minimum 5th pass-out.\n   1. The applicant must satisfy the physical fitness standards prescribed for the trade.\n   1. The applicant must not have been engaged in any similar apprenticeship program previously.",
+  "_criteria_filled": 2
+}

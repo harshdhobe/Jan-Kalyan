@@ -1,0 +1,35 @@
+{
+  "id": "scheme-for-assistance-for-research-development-activities-assistance-for-contrac",
+  "name": "Scheme for Assistance for Research & Development Activities: Assistance for Contract/Sponsored Research Work",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to 50% of the project cost (excluding land and building costs).  - **Maximum Funding:** A maximum of ₹50,00,000/- per project.  - **Support for Research Development:** Facilitates technological advancements through sponsored research.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-project-sanction-letter-issued-by-ic-office-copy-of-registration-of-the",
+    "outcomes-of-rd-proposed",
+    "details-of-asset-creation",
+    "benefit-to-the-society",
+    "benefit-to-the-industries",
+    "details-of-patent-filed-granted",
+    "details-of-international-national-publications",
+    "impact-analysis-of-the-rd-and-other-relevant-details-related-to-the-project-empl",
+    "notification",
+    "if-the-organization-is-established-by-government-of-india-or-government-of-gujar"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2023/2.%20CLAIM%20APPLICATION%20FORM%20SCHEME%202.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sardacsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligible institution:**\n\n   1. All Research and Development Institutions recognized by the Council of Scientific and Industrial Research (CSIR) / Department of Scientific and Industrial Research (DSIR).\n   1. Institutions set up by the Government of Gujarat (GoG) / Government of India (Gol).\n   1. All India Council for Technical Education (AICTE) approved institutions/professional colleges, (including autonomous as well as those colleges affiliated with Universities).\n   1. Any other institution as approved by SLEC.\n\n&lt;br&gt;\n\n&gt; **Eligible Activities:**\n\n   1. Proposals for contract/sponsored research by eligible institutions from Industrial Associations or individual industrial undertaking or government or any other agency as approved by SLEC.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "distribution-of-tractor-unit-under-cmsguy",
+  "name": "Distribution Of Tractor Unit Under CMSGUY",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Provision of Subsidy:70% subsidy will be provided to the selected groups on the price of the tractor, and its accessories including implements (as opted by the beneficiary group) subject to a maximum of ₹ 5,50,000. 20% of the total price will be a bank loan. 10% of the total price will be the beneficiary share.\nProvided that subsidy will be admissible on the lowest price of the tractor in the Govt",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-all-members-of-the-group-residential-certificate-of-all-members-o"
+  ],
+  "apply_url": "https://mmscmsguy.assam.gov.in/sites/default/files/swf_utility_folder/departments/mmscmsguy_webcomindia_org_oid_2/menu/document/revised-application-format.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dtu-cmsguy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A group of 8-10 members who are the actual adult farmers of the same village.\n1. The group should have a common bank account and will apply jointly with the signatures of each member on the application form preferably along with particulars of land and crops cultivated.\n1. The applicant group should not have more than one member from one family.\n\n<br>\n\n***NOTE: The scheme benefits cannot be availed by individuals.***",
+  "_criteria_filled": 1
+}

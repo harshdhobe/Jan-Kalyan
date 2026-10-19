@@ -1,0 +1,41 @@
+{
+  "id": "jharkhand-international-migrant-workers-grant-scheme",
+  "name": "Jharkhand International Migrant Workers Grant Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Financial assistance of ₹5,00,000/- to dependents of deceased workers.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-copy-of-firpost-mortem-report-if-applicable-copy-of-the-deceas"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/International_migrant_workers_scheme_notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jimwgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a dependent of the deceased workers.\n1. The deceased must be a Jharkhand resident and an Indian citizen.\n1. The family’s annual income should not exceed ₹72,000/-. \n1. The deceased age should be between 15 to 65 years.\n1. Eligible dependents include spouses, children, parents, or legal heirs.\n1. Death must be certified by the Ministry of External Affairs, Government of India.",
+  "_criteria_filled": 4
+}

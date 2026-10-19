@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-awards-to-msmes",
+  "name": "Scheme for Awards to MSMES",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **1. Separate awards to be given for Micro, Small and Medium category:**\n\n**Category:** Three awards to be awarded in each category-\n\n  - Growth in production and profit\n  - Quality and environment improvement measures\n  - Innovation in technology for new product or process development\n\n**Award Money:** Amount of ₹2,00,000/-, Trophy and Appreciation letter to each winner.\n&lt;br&gt;\n\n&gt; **2",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "udyog-aadhaar-memorandum-udyam-registration-certificate-business-registration-ce"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/4-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfatm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Enterprises shall be in continuous production for the previous three years.\n   1. Enterprises shall have valid statutory clearances and licenses as may be applicable.\n\n&lt;br&gt;\n\n**Note****:** MSME/Start-up will be entitled for only one award in each category during operative period of the scheme in each category.",
+  "_criteria_filled": 1
+}

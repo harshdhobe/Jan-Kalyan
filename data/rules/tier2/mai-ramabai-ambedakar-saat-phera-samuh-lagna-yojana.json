@@ -1,0 +1,32 @@
+{
+  "id": "mai-ramabai-ambedakar-saat-phera-samuh-lagna-yojana",
+  "name": "Mai Ramabai Ambedakar Saat Phera Samuh Lagna Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, couples participating in group marriages are given an incentive of ₹12,000/- per couple in the name of the bride.\n   1. For organizing Group Marriage Functions, the organizer/organizing institution will be paid an incentive of ₹3,000/- per couple up to a maximum of ₹75,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "document-to-be-submitted-institutionorganizerletter-to-the-district-deputy-direc",
+    "certificate-issued-by-group-wedding-planners-proof-of-income-of-the-brides-fathe"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/satfera_161221.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mraspsly",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. The annual income limit in this scheme is ₹6,00,000/- in rural areas and ₹6,00,000/- in urban areas.\n   1. In case of remarriage, the benefit will not be available under this scheme.\n   1. The age limit of the girl at the time of marriage should be 18 years and the age of the boys should be 21 years. Proof of age of bride and groom to be married will be mandatory.\n   1. Applications for assistance must be made within two years of the marriage.\n   1. The beneficiary girl participating in the group marriage will be eligible for the benefits under this scheme.\n   1. The assistance of the scheme will be available to girls from Kunwar Bai Nu Mameru Yojana.\n   1. Marriage registration certificate has to be submitted compulsorily to avail the benefits of this scheme.\n   1. The organization/institution organizing the group wedding has to apply to the concerned authority within two years from the date of marriage.\n   1. The bride must produce a certified copy of the caste certificate obtained from the competent authority of the bride.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dattopant-thengadi-artisan-interest-subsidy-scheme",
+  "name": "Dattopant Thengadi Artisan Interest Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\n\n- A maximum credit limit of ₹1,00,000/- is available for machinery or working capital (raw materials) or both.\n- Intended Use: This financial assistance is provided to purchase raw materials, equipment, tools, and machinery for the development of existing or new businesses.\n\n**Margin Money Subsidy**\n\n- 20% of the loan amount for General Category (Male) beneficiaries.\n- 25",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-application-submission-two-passport-size-photographs-to-be-affixed-on-both-c",
+    "district-industries-centre-birth-certificate-school-leaving-certificate-quotatio",
+    "house-tax-receipt",
+    "etc-proof-authority-letter-if-electricity-is-to-be-used-if-electricity-is-to-be"
+  ],
+  "apply_url": "https://cottage.gujarat.gov.in/FileExplorer/DTAISY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dtaiss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**General Eligibility**\n\n- The applicant must be more than 18 years of age.\n- The applicant must have an Identity card issued by the Development Commissioner Handloom/Handicraft/Indext-C.\n- The applicant must have skills in Handloom or Handicraft art.\n- The applicant must be registered as an artisan in urban as well as rural areas of the State with the Indext-C of the Cottage and Rural Industries Department.\n\n**Relaxation/Inclusions**\n\n- The applicant may be a Physically Handicapped or Blind Artisan, who can also avail the benefits of this scheme.\n- The applicant may hold a Provisional Certificate as an artisan issued by the General Manager, District Industries Centre, if they do not possess an Identity Card from the Development Commissioner.\n\n<br>",
+  "_criteria_filled": 2
+}

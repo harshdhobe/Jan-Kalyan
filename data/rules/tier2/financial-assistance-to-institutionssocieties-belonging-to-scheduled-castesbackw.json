@@ -1,0 +1,29 @@
+{
+  "id": "financial-assistance-to-institutionssocieties-belonging-to-scheduled-castesbackw",
+  "name": "Financial Assistance To Institutions/Societies Belonging To Scheduled Castes/Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Financial Assistance up to ₹2.00 lakhs may be sanctioned by the Minister in charge, Welfare of Scheduled Castes/Backward Classes.\n   1. The Chief Minister may sanction grants exceeding ₹2.00 lakhs in genuine cases.\n   1. In deserving cases, additional funds can also be sanctioned later on for construction/completion/ repair/ renovation of the infrastructure or for providing basic amenities in t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copies-of-the-registration-certificate-of-the-institution",
+    "certificate-of-registration-of-land-in-the-name-of-the-concerned-institutionsoci",
+    "with-annual-accountsbalance-sheet",
+    "etc-site-plan-architect-drawing-the-map-of-the-building-proposed-to-be-construct"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3229754d7799160502a143a72f6789927/uploads/2023/02/2023020129.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faisbscbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only those institutions/ societies of Scheduled Castes/ Backward classes registered under the Societies Registration Act, 1860, or the Indian Trust Act would be eligible for grant-in-aid.\n   1. The society/ institution should have at least 100 sq yards of its own land or allotted /donated to it by the Govt./ Panchayat/ Local Body/ any individual etc.\n   1. Second-time grants to the same institution will be given after only five years if all the UCs for the grants released earlier have been submitted to the District Welfare officer.\n\n**Note 01:** The institution/ society will maintain separate accounts for the grant which shall be open for inspection by the Director, Welfare of Scheduled Castes and Backward Classes Department, Haryana/concerned District Welfare Officer, or any other officer deputed by the competent authority.\n**Note 02:** Utilization certificate duly signed by the Head of the institution/ society dully verified by the Chartered Accountant will be furnished to the District Welfare Officer, who after spot inspection will forward the same to the Director, Welfare of Scheduled Castes and Backward Classes, Haryana with his comments for record.\n**Note 03:** The guarantee will have to furnish an indemnity bond in the prescribed format (ANNEXURE – B) to the Govt. binding itself to fulfill all the conditions attached to the grant and to refund the amount of the grant already paid in the event of non-fulfillment of the aim to abide by the decision of the authority releasing grant-in-aid.",
+  "_criteria_filled": 1
+}

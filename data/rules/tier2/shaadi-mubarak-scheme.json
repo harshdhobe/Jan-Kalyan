@@ -1,0 +1,43 @@
+{
+  "id": "shaadi-mubarak-scheme",
+  "name": "Shaadi Mubarak Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "1. Under the Scheme, one-time financial assistance of ₹1,00,116 /- at the time of marriage shall be granted to every unmarried girl belonging to the minority community with effect from October 2, 2014 subject to the eligibility condition.\n   1. The financial assistance of ₹1,25,145/- is provided to the parents of disabled girls.\n\n**Note:** The &amp;quot;Shaadi Mubarak&amp;quot; is only a one-time ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "1-brides-scanned-aadhaar-copy-2-brides-mothers-scanned-aadhaar-copy-3-bride-groo",
+    "if-available-8-wedding-photograph-9-brides-age-proof-certificate-10-community-ce",
+    "if-required"
+  ],
+  "apply_url": "https://telanganaepass.cgg.gov.in/KalyanaLakshmiLinks.do",
+  "source_url": "https://www.myscheme.gov.in/schemes/sms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe unmarried girl should belong to the minority community.\n2.\tThe unmarried girl should be a resident of Telangana state.\n3.\tThe unmarried girl should have completed 18 years of age at the time of marriage.\n4.\tThe wedding of the minority community girl should be on or after October 2, 2014.\n5.\tThe combined income of the Parents shall not exceed ₹2,00,000/- per annum.",
+  "_criteria_filled": 4
+}

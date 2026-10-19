@@ -1,0 +1,38 @@
+{
+  "id": "kala-samman-scheme",
+  "name": "Kala Samman Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Financial Assistance to the extent of ₹ 2,500/- per month every year.\n1. However, the recipient of State Cultural Award shall be entitled for Financial Assistance to the extent of ₹ 3,200/- per month every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-proof-of-age-birth-certificate-or-school-leaving-certi",
+    "copy-of-aadhar-card-or-baptism-certificate-certifying-his-birth-date-income-cert",
+    "giving-details-of-work-done-in-the-field-of-art-culture-references-of-two-known"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Application-Form-kala-samman-scheme-2022-23-Online-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist who is in indigent condition.\n1. The applicant should have attained the age of 60 years.\n1. The applicant should have given a contribution to the field of Art and culture or should have worked in the field of Art and culture.\n1. The income of the applicant should not exceed ₹ 48,000/- per annum. (However, this clause shall not be applicable, where the applicant is the recipient of the ‘State Cultural Award&#39;).\n\n**NOTE:** The number of cases to be sanctioned shall depend upon the availability of funds for every financial year.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mission-for-integrated-development-of-horticulture-sub-scheme-horticulture-missi",
+  "name": "Mission for Integrated Development of Horticulture Sub Scheme Horticulture Mission for North East and Himalayan Region- Meghalaya",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "**Pattern of Assistance:**\n\n  - Production of planting materials, area expansion, rejuvenation of senile plantation, creation of water sources, protected horticulture, beekeeping, mechanization, post-harvest, and establishment of market infrastructures.\n\n**Type of Assistance:**\n\n  - Grant in Aid, Subsidy sales of inputs, training, and demonstration",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=108",
+  "source_url": "https://www.myscheme.gov.in/schemes/midhhmneh-meghalaya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture.\n   1. The applicant should possess owned or leased land of at least 0.2 hectares or more.",
+  "_criteria_filled": 1
+}

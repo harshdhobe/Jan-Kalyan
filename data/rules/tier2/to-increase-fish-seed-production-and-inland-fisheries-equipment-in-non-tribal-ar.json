@@ -1,0 +1,31 @@
+{
+  "id": "to-increase-fish-seed-production-and-inland-fisheries-equipment-in-non-tribal-ar",
+  "name": "To Increase Fish Seed Production and Inland Fisheries Equipment in Non-Tribal Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Component Name****Standard of Assistance**\t**Minimum Time Limit for Reclaiming Benefits**Fish Seed Rearing\t₹90/- per 1000 (spawn to fry) ₹260/- per 1000 (fry to fingerlings) ₹460/- per 1000 (spawn to fingerlings)\t1 YearFish Seed/Prawn Seed Stocking\t50% subsidy on cost and transportation\t1 YearBoat &amp;amp;amp;amp; Net Assistance\t50% subsidy up to ₹7,500/- for Tin Boat-Net, ₹15,000/- for F",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-details-caste-certificate-passport-size-photo-bank-passbookcan"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=FDGZs8CO90JJ+6gbcYhjXw==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifsifnta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individuals/ societies/ self-help groups/ associations/ reservoir monopolies/ private units etc. involved in inland fisheries activities can avail the benefits of inland schemes.\n  - The applicant should be a Fisherman.\n  - Applicant should be above 18 years of age.\n  - Applicant must have own private land/leased land to avail new pond construction assistance for fish farming (In case of two or more land holders consent form of other land holders must be submitted).\n  - The beneficiary fisherman must have his own bank account.",
+  "_criteria_filled": 2
+}

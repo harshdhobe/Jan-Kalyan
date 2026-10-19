@@ -1,0 +1,26 @@
+{
+  "id": "mrityu-ki-dasha-me-antyeshti-evam-anugrah-sahayata-yojana",
+  "name": "Mrityu Ki Dasha Me Antyeshti Evam Anugrah Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Funeral assistance- ₹6,000/-\n1. Ex-gratia payment-\n\n  - In case of normal death : ₹2,00,000/-\n  - In case of death due to accident : ₹4,00,000/-\n  - In case of permanent disability due to accident : ₹2,00,000/-\n  - In case of partial permanent disability due to accident : ₹1,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-valid-registration-card-prescribed-application-form-the-death-certificat"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=336",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkdmaeasybeaskm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must have been registered for at least 6 months before their death.\n1. Death can be due to only natural causes or an accident.\n1. The worker must have a valid identity card.\n1. Benefit will only be provided to following successor-\n\n  - Wife or husband (as the case may be) of a worker holding a valid identity card\n  - Sons and unmarried and dependent daughters\n  - Dependent parents\n  - If there is none of the above, a family member who is dependent on the deceased worker.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

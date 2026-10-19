@@ -1,0 +1,26 @@
+{
+  "id": "organization-of-various-conclaves-and-felicitations-to-encourage-women-women-sci",
+  "name": "Organization of Various Conclaves and Felicitations to Encourage Women, Women Scientists, Teachers and Young Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, to promote and enhance scientific attitude and skill development among students, teachers, and women of the state, the following conclaves are organized and felicitations are given:\n\n  - Yuva-Bal Samagam: Medhavi Chhatra Samman\n  - Teacher/Science Conclave: Vigyan Prasar Samman\n  - Woman Scientists Conclave: Utkrisht Yuva Mahila Vaigyanik Samman\n  - Mahila Prayogdharmi Samman\n\n<",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-uttarakhand-science-education-and-research-cen"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ovcaewfstys",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand state. \n1. The applicant must be a student, teacher, woman, and the general public.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pre-ssc-scholarship-for-scheduled-caste-students-parixitlal-majmudar-scholarship",
+  "name": "Pre-SSC Scholarship for Scheduled Caste Students (Parixitlal Majmudar Scholarship)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Assistance Details:**\nSl. No.StandardBoys/GirlsScholarship Rate (Yearly)1Standard 1 to 5Both₹750/-2Standard 6 to 8Boys₹750/-3Standard 6 to 8Girls₹1000/-4Standard 9 to 10Both₹1000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-caste-certificate-from-the-co"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/Dscw/schemes/1555?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/psscsscspms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste Category of Gujarat.\n   1. The student should be enrolled in Standards 1 to 10.\n   1. There is no income limit for the scheme.",
+  "_criteria_filled": 1
+}

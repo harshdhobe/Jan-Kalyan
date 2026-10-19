@@ -1,0 +1,41 @@
+{
+  "id": "scheme-of-assistance-to-disabled-persons-for-purchasefitting-of-aidsappliances",
+  "name": "Scheme Of Assistance To Disabled Persons For Purchase/Fitting Of Aids/Appliances",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "QUANTUM OF ASSISTANCE\n(i) For aids /appliances costing up to Rs. 15,000: Full financial assistance under the scheme.\n(ii) For aids /appliances costing between Rs. 15,001/- to Rs. 30000/-: Financial assistance up to Rs 15000/-\n(iii) Further, all expensive items costing above Rs. 30,001/, except Cochlear Implant and Motorized Tricycle, eligible for assistance under the scheme, subject to income ceil",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 360000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-by-the-beneficiary-1-passport-size-photographs-2-a-copy-of-th",
+    "2016-b-a-copy-of-the-registration-certificate-under-the-societies-registration-a",
+    "1860",
+    "and-their-branches",
+    "if-any",
+    "separately-or-charitable-trust-act-c-names-and-details-of-the-members-of-the-man",
+    "aims",
+    "and-objectives-of-the-organization-e-a-copy-of-certified-audited-accounts-and-an",
+    "audited-accounts",
+    "and-annual-reports-for-the-last-three-years-will-be-required-f-the-implementing",
+    "and-utilized-and-list-of-beneficiaries-as-per-proforma-given-in-annexure-iv-h-ut"
+  ],
+  "apply_url": "https://disabilityaffairs.gov.in/upload/uploadfiles/files/Revised%20ADIP%20Scheme%202022%20English.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sadppfaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **ELIGIBILITY OF IMPLEMENTING AGENCIES**\n\n<br>\n\nThe following agencies are eligible to implement the Scheme on behalf of the Department of Empowerment of Persons with Disabilities (Divyangjan) under the aegis of the Ministry of Social Justice and Empowerment, subject to fulfillment of the following terms and conditions:\n<br>\n\n1. Societies and their branches, if any, were registered separately under the Societies Registration Act, of 1860.\n1. Registered Charitable Trusts.\n1. Indian Red Cross Societies and other Autonomous Bodies headed by District Collector/Chief Executive Officer/District Development Officer.\n1. National/Apex Institutes, CRCs, RCs, DDRCs, National Trust, ALIMCO, functioning under the administrative control of the Ministry of Social Justice and Empowerment/Ministry of Health and Family Welfare.\n1. National/State Handicapped Development Corporations.\n1. Local Bodies – Zilla Parishad, Municipalities, District Autonomous Development Councils and Panchayats, etc.\n1. Hospitals registered as separate entities, as recommended by State/UT/Central Govt.\n1. Nehru Yuva Kendras.\n1. Any other organization as deemed fit by the Department of Empowerment of Persons with Disabilities, Ministry of Social Justice &amp; Empowerment, Govt. of India.\n\n<br>\n\n**NOTE:** Grant-in-aid under the Scheme will not be given for commercial production or supply of aids/appliances.\n<br>\n\nWhile approving new implementing agencies, preference would be given to those Agencies:\n(i)   Which employ professional/technical expertise, in the form of professionally qualified staff (from RCI recognized courses) for identification, prescription of the required aids/appliances, fitment and post-fitment care of beneficiaries as well as aids/appliances.\n(ii)   Possess infrastructure in the form of machinery/equipment for fabrication, fitment, and maintenance of aids/appliances to be given to a person with a disability under the ADIP Scheme and which have the capacity to produce aids and assistive devices with ISI standards/ISO certification.\n<br>\n\n> **ELIGIBILITY OF THE BENEFICIARIES**\n\n1. An Indian citizen of any age.\n1. Holding a 40% Disability Certificate (Benchmark disability).\n1. Having monthly income from all sources not exceeding Rs.30,000/- per month.\n1. In the case of dependents, the income of parents/guardians not exceeding Rs. 30,000/- per month.\n1. Not having received assistance during the last 3 years for the same purpose from any source. However, for children below 12 years of age, the minimum time of assistance is one year.\n\n<br>\n\n> **Identification of Beneficiaries**\n\n<br>\n\ni. Through Camp Activity:\nImplementing agencies will carry out assessments of beneficiaries in camp mode at district levels.\n<br>\n\nii. Through Headquarter Activity:\nThe National  Institutes/CRCs/ALIMCO/ DDRCs and other implementing agencies will utilize the grants to extend services to eligible beneficiaries who approach their headquarters or their respective Regional Centres.\n<br>\n\niii. Through Common Service Centres (CSCs):\nThe Department will enter into an MOU with the CSCs functioning all over the country at Block, Taluka, and Gram Panchayat levels for registration of beneficiaries who need aids and assistive devices under the ADIP Scheme.\n<br>\n\niv. Through Mobile App:\nIn order to facilitate the beneficiaries in getting aids and assistive devices, a Mobile app will be launched by the Department which will enable beneficiaries to either place requests for new assistive devices(new registrations) or repair existing devices (existing users). The requests so received on the app will be compiled in the Department of Empowerment of Persons with Disabilities.\n<br>\n\nv. Through Management Information System (MIS)/ADIP Web Portal: \nThe portal will facilitate PwDs for an online request for providing aids &amp; assistive devices to the eligible beneficiaries within 6 months from the date of such registration on the Portal.",
+  "_criteria_filled": 2
+}

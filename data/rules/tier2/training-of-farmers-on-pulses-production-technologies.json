@@ -1,0 +1,27 @@
+{
+  "id": "training-of-farmers-on-pulses-production-technologies",
+  "name": "Training of Farmers on Pulses Production Technologies",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** ₹15,000/- per batch for 50 farmers.- **Training Program:** Training on advanced pulse production techniques.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-proof-of-cultivation-of-pul"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7068",
+  "source_url": "https://www.myscheme.gov.in/schemes/tfppt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should raise seed farms with Pulses crop.\n\n<br>",
+  "_criteria_filled": 1
+}

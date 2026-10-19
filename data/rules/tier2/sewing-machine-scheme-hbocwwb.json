@@ -1,0 +1,35 @@
+{
+  "id": "sewing-machine-scheme-hbocwwb",
+  "name": "Sewing Machine Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, the Board is providing financial assistance of ₹4,500/- to registered women construction workers for purchasing a sewing machine.\n\n**Note:** The Board can provide a sewing machine.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r",
+    "trademark",
+    "source",
+    "and-date-of-purchase-bank-account-details-any-other-documents-as-required"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/smshbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman and engaged in building or construction work.\n   1. The applicant should be registered under the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered woman worker must have a minimum of one year’s regular membership.\n   1. The applicant should have an active membership of the Board.\n   1. This benefit is admissible once in a lifetime.\n   1. The application frequency is limited to once.",
+  "_criteria_filled": 2
+}

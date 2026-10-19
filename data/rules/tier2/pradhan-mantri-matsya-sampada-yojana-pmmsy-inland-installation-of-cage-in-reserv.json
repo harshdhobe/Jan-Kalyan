@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-pmmsy-inland-installation-of-cage-in-reserv",
+  "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY-Inland): Installation of Cage in Reservoir - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The capital unit cost is ₹1,500/- per cubic meter.\n1. The operational cost is ₹1,500/- per cubic meter.\n1. **Minimum area per cage:** 100 cubic meters.1. **For individual beneficiaries:** Assistance up to 1,800 cubic meters.1. **For Co-operative Societies / SHGs / Joint Liability Groups:**\n\n  - 600 cubic meter per member\n  - Maximum up to 7,200 cubic meters water area.\n\n1. **Subsidy Rate:**\n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "voter-idration-cardaadhaar-cardpassport-as-proof-of-identity-bank-account-detail",
+    "if-applicable-consent-form-of-co-owners-in-case-of-co-owned-land-scheduled-caste"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=IVf4y2kDy/hLkKH1ioD8IA==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyicrguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an individual, society, self-help group, association, reservoir lease holder, or private entity involved in inland fisheries activities.\n1. The applicant must be above 18 years of age.\n1. The applicant must have their own bank account.\n1. The applicant must have their own private land or a minimum 10-year lease agreement for land to avail construction-related assistance on land. In case of co-owners, the consent form of co-owners must be submitted.\n1. The applicant must have a Voter ID/Ration Card/Aadhar Card/Passport as proof of identity.\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n> All categories (General, Women, Scheduled Caste, Scheduled Tribe) will get benefit under the Inland Schemes.\n\n> Women, Scheduled Caste, and Scheduled Tribe beneficiaries receive 60% of the unit cost as assistance.\n\n<br>",
+  "_criteria_filled": 2
+}

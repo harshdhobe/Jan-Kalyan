@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-non-pensioner-world-war-ii-veterans-and-their-widows",
+  "name": "Financial Assistance to Non-Pensioner World War-II Veterans and Their Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\nFinancial assistance of ₹8,000 per month is provided to non-pensioner world War-II veterans and their lawful widows.\n**Mode of Disbursement:**\nThe financial assistance amount is directly credited to the beneficiary’s bank account through the District Sainik Welfare Office.\n**Frequency of Disbursement:**\nThe financial assistance is disbursed monthly.\n**Expected Time of Dis",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-marriage-certificate-in-case-of-widow-applicant-death-cert"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=551",
+  "source_url": "https://www.myscheme.gov.in/schemes/fanpvwws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must be a non-pensioner World War-II veteran who served between 1 September 1939 and 14 August 1945, or his lawful widow.\n1. The veteran must have been discharged from military service due to demobilization after the end of World War-II.\n1. The applicant must not be receiving any pension from defense services or any other source.\n1. In case of the veteran’s death, only the lawful widow is eligible for the benefit.\n1. Upon the death of the widow, no other heir (children or relatives) becomes eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

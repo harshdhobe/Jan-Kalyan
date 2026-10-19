@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-giving-awards-to-traditional-artists",
+  "name": "Scheme for Giving Awards to Traditional Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Prize Money of ₹5,000/- per artist is given to 10 artists.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-art-works"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfgatta-sa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The artist should be a native of Tamil Nadu by continuous residence for not less than 5 years.\n1. The artist should be in the field of creating artworks like tanjore paintings, glass paintings, traditional paintings, wood carvings, metal sculptures, etc.",
+  "_criteria_filled": 1
+}

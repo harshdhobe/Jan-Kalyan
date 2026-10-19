@@ -1,0 +1,26 @@
+{
+  "id": "rmewf-financial-assistance-for-vocational-training-of-widows-of-esm",
+  "name": "RMEWF-Financial Assistance For Vocational Training Of Widows Of ESM",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Financial Assistance**\n\n- For vocational training, AFFDF is provided as a one-time aid of ₹50,000/- (max) on successful completion of said vocational training.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "complete-service-discharge-certificatebook-copy-of-widow-i-card-certificate-from"
+  ],
+  "apply_url": "https://ksb.gov.in/vocational-training-of-widows-of-esm.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmewf-vocational-training",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a widow of an ex-serviceman (ESM).\n1. The applicant’s spouse should be of rank up to Havildar or equivalent.\n1. The applicant should have completed vocational training from a recognized institution.\n1. The applicant should have relevant spouse details recorded in the service book of the ESM.\n1. The applicant should be recommended by the respective Zila Sainik Board (ZSB) and Rajya Sainik Board (RSB).\n\n<br>",
+  "_criteria_filled": 1
+}

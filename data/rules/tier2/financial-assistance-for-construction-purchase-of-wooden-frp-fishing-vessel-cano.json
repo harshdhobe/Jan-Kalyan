@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-for-construction-purchase-of-wooden-frp-fishing-vessel-cano",
+  "name": "Financial Assistance for Construction/ Purchase of Wooden/ FRP Fishing Vessel (Canoe) for Fishermen",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- For General Category, **50% subsidy, limited to ₹ 60,000/-**- For SC/ST Category, **50% subsidy, limited to ₹ 80,000/-**\n\n- The applicant will be entitled to a subsidy grant once every four years on one craft per family household.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-vessel-registration",
+    "issued-by-the-directorate-of-fisheries",
+    "government-of-goa",
+    "under-the-merchant-shipping-act-1958-fishing-vessel-license-certificate-fishing",
+    "net",
+    "and-its-accessories-by-fisheries-superintendent-fisheries-officer",
+    "assistant-superintendent-of-fisheries-as-per-format"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/01/F.R.P.-Application-forms.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/facpwfrpfvcf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The applicant or any member of his household should not be a defaulter with the Directorate of Fisheries, Goa.\n- The canoe purchased through the scheme should be duly registered with the Directorate of Fisheries under the Marine Fishing Regulation Act (MFR) Act 1980/ Merchant Shipping (MS) Act.\n- The applicant shall not sell, lease, mortgage, or transfer the wooden/ FRP craft for 5 years from the date of purchase of the said wooden/FRP craft.\n- The wooden/FRP craft purchased should have been operated exclusively for fishing purposes only.",
+  "_criteria_filled": 1
+}

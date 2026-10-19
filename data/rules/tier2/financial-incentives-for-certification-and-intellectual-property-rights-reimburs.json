@@ -1,0 +1,30 @@
+{
+  "id": "financial-incentives-for-certification-and-intellectual-property-rights-reimburs",
+  "name": "Financial Incentives for Certification and Intellectual Property Rights Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement of charges to the extent of 100% of actual expenditure per certification. Subject to a combined ceiling of ₹8,00,000/- only for the entire period of the scheme.\n- Reimbursement of 50% of the professional fees for registration and fees paid to the registry for registration of Intellectual Property Rights. Subject to a maximum ceiling of ₹15,00,000/- for the entire period of the sche",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "application-documentsa-self-attested-copy-of-registration-under-umbrella-scheme",
+    "functioning-status-of-the-unit-documents-of-acquiring-the-intellectual-property",
+    "memorandum-of-associationarticles-of-association-as-the-case-may-be-chartered-ac",
+    "government-of-goa",
+    "has-been-made-for-any-incentives-a-chartered-accountant-certificate-certifying-t"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ficiprrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be one of the following - \n\n           (a)  An Industrial Unit in all Categories operating in Goa.\n           (b)  A Hospital recognized by the Government of Goa and operating in Goa.\n           (c)  An Educational Institution recognized by the Government of Goa and operating in Goa.\n\n- The applicant must have obtained Certification from Indian Standard Institute (ISI), International Standard Organization (ISO) or any other recognised National/International Certification for quality standards and/or Intellectual Property Rights (IPRs) as accepted by the Task Force Committee.\n- The applicant must not have claimed this benefit under any other scheme/program of the Government of Goa.\n- The applicant must not be taking or have taken any benefit under any policy of the Department of Information Technology, Government of Goa.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scheduled-caste-boysgirls-housing-assistance-scheme",
+  "name": "Scheduled Caste Boys/Girls Housing Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- ₹2,000/- per month, if the student is residing in a Divisional headquarters (Bhopal, Indore, Gwalior, Jabalpur, Ujjain).\n- ₹1,250/- per month, if the student is residing in Other District Headquarters.\n- ₹1,000/- per month, if the student is residing in a Tehsil/Development Block Headquarters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-caste-certificate-income-certificate-proof-of-college-admissio"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=610",
+  "source_url": "https://www.myscheme.gov.in/schemes/scbshas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the Scheduled Caste (SC) category.\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be a College Student.\n1. The applicant should meet the income limit prescribed under the Post Matric Scholarship Scheme.\n1. The applicant should be residing outside their native city/village.",
+  "_criteria_filled": 1
+}

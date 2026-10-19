@@ -1,0 +1,27 @@
+{
+  "id": "kailash-mansarovar-yatra-madhya-pradesh",
+  "name": "Kailash Mansarovar Yatra- Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, the State Government will reimburse 50% of the total expenses incurred during the Kailash Mansarovar Yatra, up to a maximum of ₹30,000/- per pilgrim, upon submission of the required certificate/documents.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-certificate-of",
+    "government-of-india-bank-passbookbank-account-details-any-other-required-documen"
+  ],
+  "apply_url": "https://dharmasva.mp.gov.in/uploads/files/kailsh.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kmymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant must have completed the Kailash Mansarovar Yatra after being selected by the Ministry of External Affairs, Government of India.\n   1. Only individuals who have been selected by the Ministry of External Affairs, Government of India, for the pilgrimage are eligible for the benefits of this scheme.\n   1. The applicant should not be an income taxpayer.\n   1. Each individual is eligible for the grant only once in their lifetime.\n\n**Note 1:** To avail of the benefits of this scheme, pilgrims must submit all documents detailing their actual expenses incurred during the journey.\n**Note 2:** If both husband and wife are selected for the pilgrimage, their eligibility for travel benefits will be as per the guidelines of the Ministry of External Affairs, Government of India.",
+  "_criteria_filled": 1
+}

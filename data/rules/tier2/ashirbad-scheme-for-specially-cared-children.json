@@ -1,0 +1,26 @@
+{
+  "id": "ashirbad-scheme-for-specially-cared-children",
+  "name": "Ashirbad: Scheme for Specially Cared Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "> **Categories of Beneficiaries:**\n\n- **Category 2(A):** Children who have lost both parents on or after 1 April 2020.- **Category 2(B):** Children who have lost a single parent (including cases where the death of the other parent occurred earlier).- **Category 2(C):** Children who have lost one parent who was the primary bread earner and continue to live with the remaining parent.\n\n1. **Children ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificates-of-deceased-parents-or-primary-breadwinner-identity-proof-of"
+  ],
+  "apply_url": "https://health.odisha.gov.in/sites/default/files/2022-01/Ashirbad-scheme-specially-cared-children-20062021%20%282%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/speciallycaredchildren",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The beneficiaries must be children requiring special care who have faced difficulties due to the demise, on or after 1st April 2020, of:\nA. Both parents;\nB. A single parent (including cases where the death of the other parent occurred earlier); or\nC. One parent who was the primary breadwinner, where the child continues to live with the surviving parent.\n<br>",
+  "_criteria_filled": 1
+}

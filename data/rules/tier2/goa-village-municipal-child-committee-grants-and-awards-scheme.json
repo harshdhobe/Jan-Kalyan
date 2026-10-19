@@ -1,0 +1,26 @@
+{
+  "id": "goa-village-municipal-child-committee-grants-and-awards-scheme",
+  "name": "Goa Village & Municipal Child Committee Grants And Awards Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Amount:** An annual financial grant of ₹ 10,000/- towards administrative expenses incurred on organizing the activities of the Committee.\n**Instalments:** The grant will be released in a single instalment within three months. \n**Mode:** All payments will be made only through electronic transfers favouring the local body concerned.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-showing-the-activities-of-the-child-committee"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gvmccgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the concerned local body i.e. a Panchayat or a Municipal local body.\n1. The applicant should have established a Village or Municipal Child Committee as prescribed under [Rule 7 of The Goa Children&#39;s Homes Rules, 2004](https://dwcd.goa.gov.in/uploads/The%20Goa%20Childrens%20Rules.pdf).1. The Committee should have met at least once in the last three months prior to submission of the application.\n1. The Committee should have met to discuss and resolve the issues relating to children within the jurisdiction of the local body.\n1. The concerned local body should have provided the space for facilitating sittings of the Committee in its premises as and when required.",
+  "_criteria_filled": 1
+}

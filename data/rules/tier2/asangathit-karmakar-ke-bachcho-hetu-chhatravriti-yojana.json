@@ -1,0 +1,26 @@
+{
+  "id": "asangathit-karmakar-ke-bachcho-hetu-chhatravriti-yojana",
+  "name": "Asangathit Karmakar Ke Bachcho Hetu Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "<br>\n\nClassesFor Boy Students (Annually)For Girl Students (Annually)Class 1st to 5th₹ 500/-₹ 750/-Class 6th to 8th₹ 750/-₹ 1,000/-Class 9th to 12th₹ 1,000/-₹ 1,500/-Graduation Diploma ( B.A, B.Sc, B.Com etc)₹ 1,500/-₹ 2,000/-Post Graduation ( M.A, M.Sc., M.Com)₹ 2,500/-₹ 3,000/-On Pursuing graduation level Professional Course₹ 3,000/-₹ 4,000/-Study in professional examination at postgraduate level",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-registration-card-details-copy-of-ra"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/asangathit%20karmakaaron%20ke%20bachchon%20hetu%20chhaatravrtti%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/akbhcy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Parent must be registered unorganized worker in Social Security Board.\n1. Scholarship only be provided to the first two sons/daughters of registered unorganized workers.\n1. Contract workers, domestic female workers, porters, and sanitation workers are not eligible for the scholarship. \n1. Students receiving scholarships must complete at least one year of their engineering or medical education course. If they drop out within one year, they must return the scholarship money.\n1. Students can only receive one scholarship, even if they are eligible for multiple scholarships.",
+  "_criteria_filled": 1
+}

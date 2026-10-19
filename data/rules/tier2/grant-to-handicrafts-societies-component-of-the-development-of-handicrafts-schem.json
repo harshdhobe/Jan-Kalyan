@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-handicrafts-societies-component-of-the-development-of-handicrafts-schem",
+  "name": "\"Grant To Handicrafts Societies\" Component of the \"Development of Handicrafts\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Grants to Handicrafts Societies for conducting exhibitions.\n- PUDUMAI Handicrafts Artisans Society in Puducherry receives an annual grant of ₹10,00,000 for exhibition conduct.\n- Other eligible societies receive ₹2,00,000 per annum for participating in exhibitions in and outside India for 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-as-a-co-operative-society-or-under-the-societies-act-ap"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/ghs-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Handicrafts Society should be registered either as a Co-operative society or under the Societies Act.\n- Members of the society should be artisans approved either by the State Government or Development Commissioner (Handicrafts).\n- The Society should exclusively deal with handicraft products produced by artisans of the UT of Puducherry.",
+  "_criteria_filled": 1
+}

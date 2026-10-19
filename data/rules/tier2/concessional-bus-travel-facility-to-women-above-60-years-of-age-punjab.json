@@ -1,0 +1,39 @@
+{
+  "id": "concessional-bus-travel-facility-to-women-above-60-years-of-age-punjab",
+  "name": "Concessional Bus Travel Facility to Women above 60 years of age- Punjab",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "- Under this scheme, 50% concession in bus fare for women in the State Government buses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-aadhar-card",
+    "matric-certificate-2-residence-proof-aadhar-card",
+    "voter-card",
+    "ration-card"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/concessional-bus-travel-facility-to-women-above-60-years-of-age",
+  "source_url": "https://www.myscheme.gov.in/schemes/cbtfw60ya-p",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All women of 60 years and above residing in the State of Punjab can avail of the benefits under the scheme.",
+  "_criteria_filled": 3
+}

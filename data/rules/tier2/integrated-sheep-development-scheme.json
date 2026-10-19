@@ -1,0 +1,26 @@
+{
+  "id": "integrated-sheep-development-scheme",
+  "name": "Integrated Sheep Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "Mode-wise Pattern of Assistance\nParticipatory Mode: Selected beneficiaries shall be provided 10 ewes free of cost and from 3rd year onwards 2 ewes/does shall be retrieved for the next 5 years. \nSubsidy Mode: Selected beneficiaries shall be entitled to a 50% subsidy for the establishment of sheep/goat units of 20-200 ewes/does.\nShearing Units: Selected beneficiaries shall be entitled to a 50 % subs",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-voters-id-card-passport-driving-licence-pan-card-aadhaar-card"
+  ],
+  "apply_url": "https://jkash.nic.in/Guidelines/ISDS%202022-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Component:** Establishment of Sheep/Goat unit on participatory mode comprising 25 ewes/does.\n**Eligibility of Beneficiary:** Any Individual / Group of Individuals / Self Help Group / Cooperative Society / Farmers Producer Organization.\n<br>\n\n**Component:** Establishment of Sheep/Goat units (25 Sheep/goat per unit)\n**Eligibility of Beneficiary:** Any Individual / Group of Individuals / Self Help Group / Cooperative Society / Farmers Producer Organization.\n<br>\n\n**Component:** Procurement of Shearing units (Comprising of one shearing machine, one genset &amp; shearing accessories/spares)\n**Eligibility of Beneficiary:** Any individual (trained in MSS or intending to undergo training in MSS)",
+  "_criteria_filled": 1
+}

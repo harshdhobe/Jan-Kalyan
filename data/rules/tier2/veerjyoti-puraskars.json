@@ -1,0 +1,31 @@
+{
+  "id": "veerjyoti-puraskars",
+  "name": "Veerjyoti Puraskars",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A cash prize of ₹20,000/- is provided to each selected awardee.\n- A scroll/citation is provided to each selected awardee.\n- The award is conferred on Republic Day, which is the 26th of January, every year.\n- The award is restricted to only two persons annually.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residency-in-goa-documents-substantiating-the-deed-of-exceptional-brave"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/10/Women-child-Citizen-Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vp-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman or girl.\n- The applicant must have shown exceptional bravery and courage.\n- The applicant must have acted against any type of atrocities, violence, and/or harassment against themselves or against any other woman or girl.\n- The actions must have taken place at home, in the workplace, or anywhere in the public domain.\n- The applicant must have fought for their respect and dignity in society.\n\n<br>",
+  "_criteria_filled": 2
+}

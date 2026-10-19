@@ -1,0 +1,26 @@
+{
+  "id": "dr-p-g-solanki-scheme-for-stipend-to-scheduled-caste-lawyers",
+  "name": "Dr. P. G. Solanki Scheme for Stipend to Scheduled Caste Lawyers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "The stipend is given to law graduates for training in practice through senior lawyers as under:\n\n1. ₹1,000/- per month for First Year Training\n1. ₹800/- per month for Second Year Training\n1. ₹600/- per month for Third Year Training\n1. ₹500/- per month as given to Senior Lawyer for giving training",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-junior-lawerpassport-size-photograph-aadhaar-card-of-juni"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/Application_Form_31082021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpgsssscl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Law graduate.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. The benefit of this scheme will be given only to natives of Gujarat state.\n   1. There is no income limit in this scheme.\n   1. The benefit of this scheme will be available to one person only once.\n\n**Note 01:** Application has to be made within two years of registration in Gujarat Bar Council.\n**Note 02:** A senior lawyer should have been practicing for at least 10 years.\n**Note 03:** A senior lawyer can retain up to two more junior lawyers for training.\n**Note 04:** Training to lawyers should be given at the district headquarters. By amending it, this type of training can also be given at the taluka headquarters.\n**Note 05:** Trainee junior advocates will have to submit a certificate of training to the senior advocate every month.\n**Note 06:** At least 15% of applicants must be from the most marginalized of the scheduled castes.",
+  "_criteria_filled": 1
+}

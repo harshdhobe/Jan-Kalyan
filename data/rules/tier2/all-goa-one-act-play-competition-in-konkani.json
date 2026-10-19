@@ -1,0 +1,29 @@
+{
+  "id": "all-goa-one-act-play-competition-in-konkani",
+  "name": "All Goa One-Act Play Competition in Konkani",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Cash awards for 1st, 2nd, and 3rd best performances (amount as decided by Tiatr Academy of Goa).\n- Mementos and certificates for top 3 performances.\n- Individual awards with mementos (no cash) for Direction, Male Actor, Female Actor, Background Music, Stage Setting, Light Effects, Make-up, and Script.\n- Reimbursement of transport expenses as per Regional Transport Office norms.\n- Video recording",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-self-attested-copy-of-permanent-account-numbe",
+    "000-in-cash-or-demand-draft-in-favour-of-member-secretary",
+    "tiatr-academy-of-goa",
+    "payable-at-panaji"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/agoapck",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an individual, club, or association.\n- The applicant must present a One-Act Play in Konkani language.\n- The applicant must ensure the play duration is not less than 35 minutes and not more than 45 minutes.\n- The applicant must ensure participation only when at least 5 groups are participating in the competition.\n\n<br>",
+  "_criteria_filled": 1
+}

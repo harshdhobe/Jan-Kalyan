@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-sampoorna-pushti-yojana-purna-aahaara-for-children-6-months-5-years",
+  "name": "Mukhyamantri Sampoorna Pushti Yojana: Purna Aahaara for Children (6 months - 5 years)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "Under the scheme, eligible beneficiaries are provided Take Home Ration (THR) of 3 kg per month, along with 30 eggs per month, for a duration of 112 days from the date of enrollment.\n**Note:** Parents and caregivers are requested to have their children&amp;#39;s growth monitored at Anganwadi Centre (AWCs) and take special care of them.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 5
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-birth-certificate-of-child-any-other-documents-as-per-requirement"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/en/ICDS/mukhymantri-samproona-pushti-yojana-mspy",
+  "source_url": "https://www.myscheme.gov.in/schemes/purnaaaharaod",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Odisha.\n1. The beneficiary must be a child aged between 6 months and 5 years.\n1. The child must be identified as Severely Acute Malnourished (SAM) by an Anganwadi Worker or ICDS functionary.\n\n<br>",
+  "_criteria_filled": 3
+}

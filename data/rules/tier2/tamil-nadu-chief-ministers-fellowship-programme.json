@@ -1,0 +1,37 @@
+{
+  "id": "tamil-nadu-chief-ministers-fellowship-programme",
+  "name": "Tamil Nadu Chief Minister's Fellowship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "1. Under this fellowship programme, a monthly stipend of ₹65,000/- and an additional allowance of ₹10,000/- to meet their incidental expenses in performing their assigned work, such as travel, mobile phone, data usage, etc.\n\n**Note:** No additional financial assistance will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 22
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-passport-size-photograph-3-proof-of-age-4-educational-qualifi",
+    "as-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/tncmfp/notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tncmfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A candidate must hold a first-class in Bachelor’s degree in respect of Professional Courses (Engineering, Medicine, Law, Agriculture, Veterinary Science) or a first-class in Master&amp;#39;s degree in Arts/Science from any of the Universities incorporated by an Act of the Central or State Legislature in India or other educational institutions established by an Act of Parliament or declared to be deemed as a University under Section 3 of the University Grants Commission Act, 1956 or possess an equivalent qualification.\n   1. Working knowledge of Tamil is mandatory for the candidate.\n   1. Age Limit: The applicant’s age shall be between 22-30 years as on 25.05.2022. For candidates belonging to the SC/ST category, the maximum age limit shall be 35 years, and for candidates belonging to the BC/MBC category, it shall be 33 years.\n\n**Note 01:** Candidates with a Ph.D. degree will be preferred.\n**Note 02:** Work experience will be an added advantage.\n**Note 03:** Strong emphasis will be given to research experience.",
+  "_criteria_filled": 3
+}

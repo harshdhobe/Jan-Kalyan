@@ -1,0 +1,26 @@
+{
+  "id": "primary-education-scholarship-madhya-pradesh",
+  "name": "Primary Education Scholarship (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Scholarship of ₹150/- for 10 months at the rate of ₹15/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-domicile-certificate-caste-certificate-previous"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/pesmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be from a [De-Notified](https://samarth.mp.gov.in/Public/Pages/TribesDetail?ID=2),[ Nomadic, or Semi-Nomadic](https://samarth.mp.gov.in/Public/Pages/TribesDetail?ID=1) Community.\n_*The applicant should not need to apply again for renewal while continuing in classes of the same rate (e.g., classes 1 to 5)._\n_*The applicant should be eligible for the scholarship even if they fail one academic year._",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "agri-clinics-and-agri-business-centres-scheme",
+  "name": "Agri-Clinics And Agri-Business Centres Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- 44% of the project cost will be as a composite subsidy for women, SC/ST &amp; all categories of candidates from NE and Hill states and 36% of the project cost for all others.\n- Graduates from agriculture studies background will be given free of cost training if they wish to set-up centers.\n- National Institute of Agricultural Extension Management (MANAGE) will be responsible for providing traini",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      }
+    ]
+  },
+  "documents": [
+    "1-applicant-aadhaar-number-2-email-id-3-latest-educational-qualification-4-appli",
+    "shehe-can-avail-the-benefit-of-the-scheme-on-the-production-of-the-following-doc"
+  ],
+  "apply_url": "https://www.nabard.org/auth/writereaddata/File/ACABC%20-%20Revised%20guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/acandabc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant must be between 18 and 60 years.\n1. The applicant must qualify as one of the following -\n\n- Graduates in agriculture and allied subjects from SAUs/ Central Agricultural Universities/ Universities recognized by ICAR/ UGC. Degree in Agriculture and allied subjects offered by other agencies are also considered subject to the approval of the Department of Agriculture &amp; Cooperation, Government of India on the recommendation of the State Government.\n- Diploma (with at least 50% marks)/ Post Graduate Diploma holders in Agriculture and allied subjects from State Agricultural Universities, State Agriculture and Allied Departments, and State Department of Technical Education.\n- Diplomas in Agriculture and allied subjects offered by other agencies are also considered subject to the approval of the Department of Agriculture &amp; Cooperation, Government of India on the recommendation of the State Government.\n- Biological Science Graduates with Post Graduation in Agriculture &amp; allied subjects.\n- Degree courses recognized by UGC have more than 60 percent of the course content in Agriculture and allied subjects.\n- Diploma/Post-graduate Diploma courses with more than 60 percent of course content in Agriculture and allied subjects, after B.Sc. with Biological Sciences, from recognized colleges and universities.\n- Agriculture-related courses at intermediate (i.e. plus two) level, with at least 55% marks.",
+  "_criteria_filled": 2
+}

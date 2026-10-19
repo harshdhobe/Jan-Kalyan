@@ -1,0 +1,37 @@
+{
+  "id": "pm-svanidhi",
+  "name": "PM Street Vendor's AtmaNirbhar Nidhi",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Working capital loan starting at Rs 10,000 for street vendors.",
+  "criteria": {
+    "all": [
+      {
+        "field": "is_street_vendor",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "vendor_status",
+        "op": "in",
+        "value": [
+          "has_certificate_or_id",
+          "identified_in_survey",
+          "has_lor"
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "certificate_of_vending_or_id",
+    "letter_of_recommendation",
+    "aadhaar_card"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pm-svanidhi",
+    "apply": "https://www.pmsvanidhi.mohua.gov.in/"
+  },
+  "notes": "Vendors without cert/ID/LoR should be advised to request a Letter of Recommendation from their ULB."
+}

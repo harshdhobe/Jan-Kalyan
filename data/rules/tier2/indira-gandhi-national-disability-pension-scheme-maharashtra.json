@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme-maharashtra",
+  "name": "Indira Gandhi National Disability Pension Scheme (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "A monthly pension of ₹600/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-ie-voter-id-card",
+    "driving-license-disability-certificate-proof-of-age-caste-certificate",
+    "if-applicable-address-proof-bank-passbookbank-account-details-any-other-document"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/special-assistance",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndpsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra.\n   1. The applicant should be a person with a disability.\n   1. The percentage of the disability should be 80% or more.\n   1. The applicant’s age should be between 18 and 65 years.\n   1. The applicant should not be receiving pension benefits under any other social security scheme.",
+  "_criteria_filled": 4
+}

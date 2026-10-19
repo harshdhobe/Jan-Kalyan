@@ -1,0 +1,26 @@
+{
+  "id": "tripura-lynchingmob-violence-victim-compensation-scheme",
+  "name": "Tripura Lynching/Mob Violence Victim Compensation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "> **Minimum amount of compensation for the victims of lynching/mob violence:**\n\n**Sl. No.****Description of injuries/loss****Quantum of compensation**1Death₹4 Lakhs2Permanent Disability (80% or more)₹2 Lakhs3Partial disability (40% to 80%)₹1 Lakh4Fully damaged/destroyed house₹95,000/­-5(i)\tPucca House/ Shop/Commercial Establishment.₹95,000/­ -6(ii) Kutcha House / Shop/Commercial Establishment₹50,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-medical-report-of-the-victim-3-fir-and-related-p"
+  ],
+  "apply_url": "https://tripura.gov.in/sites/default/files/Tripura_lynching.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tlmvvcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The victim should be a resident of Tripura.\n   1. The victim or his dependents who have suffered loss or injury as a result of lynching/mob violence and who require rehabilitation are eligible for the grant of compensation.\n   1. Victim shall be eligible for the grant of compensation if ordered by the Court.\n   1. Victim shall be eligible for the grant of compensation if:\n\n  - The offender is not traced or identified, but the victim is identified and the victim has to incur a lot of expenses on physical and mental rehabilitation.\n  - The victim or claimant must report the crime to the Officer-in-Charge of the local Police Station under whose jurisdiction the offense was committed or to the Judicial Magistrate having jurisdiction before claiming compensation;\n  - The victim or claimant (in the case of the death of the victim) cooperates with the Police and prosecution during the investigation and trial of the case. Turning hostile, refusing to depose, or turning up during trial shall be considered to be non-cooperation.\n  - The death or permanent incapacitation of the victim was not the result of the victim&amp;#39;s wrongdoing or substantial provocation.\n  - The victim suffers substantial loss of income as a result of the crime or is unable to take care of expenses of medical treatment for injury caused on account of the crime.\n  - Due to the death of the victim as a result of the crime, dependents may claim compensation if the family becomes destitute and there is no earning member in the family who will support the dependents.\n  - The compensation would be admissible to the victim in the event of loss of property and the event of death or permanent incapacitation of the victim because of the act of crime.\n  - Perpetrators of crime or his/her dependents will not be eligible for any compensation under the Scheme.",
+  "_criteria_filled": 1
+}

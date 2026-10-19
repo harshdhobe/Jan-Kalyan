@@ -1,0 +1,27 @@
+{
+  "id": "district-innovation-and-challenge-fund",
+  "name": "District Innovation And Challenge Fund",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "Innovation: The scheme encourages new and creative approaches to address infrastructural gaps. Whether the intervention is out-of-the-box thinking involving cutting-edge technology. \nProblem-Solving: Relevance to solving a critical problem or meeting up a critical need in an innovative way. \nImpact on Employment: The projects that create long-term and enduring solutions to unemployment are on prio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "supporting-evidence-of-identified-need-a-detailed-budget-a-project-plan-with-lan",
+    "the-deputy-commissioners-dcs-will-be-required-to-submit-the-following-quarterly"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s339059724f73a9969845dfe4146c5660e/uploads/2018/08/2018080250.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dicf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The project must meet all of the following criteria:**\n\n1. The project should be innovative and out-of-the-box thinking that solves a critical problem or meets up a critical need involving unique and/or cutting-edge technology.\n1. Projects must practically address a need directly associated with the problems of the district or harness the existing potential of the district for the benefit of the community.\n1. Projects must create an impact on employment within the district and ensure revenue generation for the community and the State.\n1. Projects must demonstrate an innovative, new, or creative way of addressing the existing problems of the district.\n1. The project should add value to existing goods and products of the district and ensure better remuneration for the goods and products, especially in the agriculture, horticulture, textile, and handicrafts sectors.\n\n<br>\n\n> **Assessment Criteria for the Proposals:**\n\n**i. Innovation (40 % weightage)** \na) Is the project an innovative intervention to address the infrastructural gap in the district? \nb) Is the project an innovative intervention to meet the critical needs of the community and solve critical problems of the district? \nc) Does the project involve cutting-edge or unique technology to address the needs of the district? \nd) Does the project practically support the solutions to the problems of the district? \ne) Does the project demonstrate an innovative, new, or creative way of addressing the problems of the district? \n<br>\n\n**ii. Project planning (20 %weightage)**\na) Is there a clearly identified need that this project is addressing?\nb) Does this project have a clear goal and project plan?\nc) Is the project leveraging collaborative partnerships or converging resources from other sources (CSS or State schemes)?\nd) Does the application provide an achievable timeline for completion?\n<br>\n\n**iii. Budget (20 %weightage)**\na) Does the budget accurately reflect the scope and scale of the project?\nb) Has the DPR been prepared as per APSoR?\nc) Have quotes been provided to support key items (applicable in case of projects that involve direct procurement and installation of products/items)? \n<br>\n\n**iv. Social Impact (10 %weightage)** \na) Does the project generate employment? \nb) Is it a revenue-generating project? \nc) Was there broader community participation in developing the idea or project plan? \nd) Does the proposal provide a community engagement plan with community input and/or impacts of the project outlined?\n<br>\n\n**v. Sustainability (10 %weightage)**\na) Does the application provide a continuous improvement plan?\nb) Does the application demonstrate a sustainability plan if it is intended to continue beyond the period of funding?",
+  "_criteria_filled": 1
+}

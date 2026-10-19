@@ -1,0 +1,26 @@
+{
+  "id": "incentive-policy-for-setting-up-community-radio-stations-uttarakhand",
+  "name": "Incentive Policy for Setting Up Community Radio Stations - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme:\n\n  - The maximum grant for setting up new community radio stations will be ₹20 lakh or the actual cost incurred in establishing the radio station, whichever is lower.\n  - New community radio stations will be provided an operational grant of ₹4 lakh per year for three years.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-directions-of-the-uttarakhand-stat"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipscrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Priority will be given to setting up of community radio centres in areas or locations of the district that are not covered by existing community radio stations, as well as in disaster-prone and remote areas.\n\n   1. The applicant organization must have at least three years of experience in Uttarakhand.\n   1. The benefits of this scheme are available only for setting up new community radio centres.\n   1. The concerned organization must also possess a valid license from the Ministry of Information and Broadcasting, Government of India, for operating a community radio centre.\n\n<br>",
+  "_criteria_filled": 1
+}

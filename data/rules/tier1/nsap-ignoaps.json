@@ -1,0 +1,38 @@
+{
+  "id": "nsap-ignoaps",
+  "name": "NSAP - Indira Gandhi National Old Age Pension Scheme",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Monthly pension of Rs 200 (60-79 years) or Rs 500 (80+ years) for BPL elderly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photo",
+    "domicile_certificate",
+    "address_proof",
+    "age_proof",
+    "aadhaar_card",
+    "bank_passbook",
+    "ration_card",
+    "no_other_pension_affidavit"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/nsap-ignoaps",
+    "apply": "https://nsap.dord.gov.in/"
+  },
+  "notes": "Indian citizenship assumed."
+}

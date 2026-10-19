@@ -1,0 +1,32 @@
+{
+  "id": "goa-state-logistics-and-warehousing-incentives-scheme-subsidy-on-stamp-duty-and",
+  "name": "Goa State Logistics And Warehousing Incentives Scheme: Subsidy on Stamp Duty and Registration Charges",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Stamp Duty Reimbursement:** 100% subject to a maximum of ₹10,00,000/-.\n**Registration Charges Reimbursement:** 100% subject to a maximum of ₹10,00,000/-.\n\n- The reimbursement is applicable on the purchase of land meant for use in logistics and warehousing.\n\n- The subsidy covers Stamp duty for the lease of Land/Shed/Building paid for a year.\n- Stamp duty is reimbursed in respect of bonds or mortg",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-registered-land-sale-deedlease-deedtransfer-deed-payment-receipt-for-sta",
+    "managing-director-in-case-of-partnership-firm",
+    "company-limited-liability-partnership",
+    "co-operative-society",
+    "trust-authority-letterpower-of-attorney-for-availing-incentives-in-case-of-partn",
+    "2025",
+    "under-any-other-government-schemes-a-copy-of-payroll-of-the-unit-highlighting-th"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gslwis-ssdrc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an eligible Entity providing Logistics and Warehousing services in Goa.\n- The applicant must own a business unit in Goa.\n- The applicant must be a non-mega industry, meaning projects with investment less than ₹1,00,00,00,000/- and/or employment generation less than 1000 Goans.\n- The applicant must have incurred the expenses for Stamp Duty and Registration Charges after the date of launch of the Logistics and Warehousing Policy 2023.\n- The applicant must have provided a minimum of 40% local employment (Goan employees).\n- The applicant must not have claimed a similar benefit under any other scheme/program of the State or Central Government.\n- The applicant must apply for the subsidy only after the completion of construction of the project.\n- The applicant must apply for the subsidy only after the commencement of commercial operations.\n- The applicant must be a prospective developer engaged in the establishment of Logistics and Warehousing projects, as delineated in [Table 6.1](https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf).- The applicant must seek reimbursement for Stamp Duty and Registration Charges that have been duly paid to the State Registrar.\n\n##### ***Preference/Priority***\n\n- The benefits under this scheme are subject to first come first serve basis, contingent upon the availability of funds in a particular fiscal year.\n-  The applicant is eligible for 100% of the benefit amount if the quantum of Goan employment on payrolls is 60% or above.\n- The applicant is eligible for 80% of the benefit amount if the quantum of Goan employment on payrolls is more than 40% but less than 60%.\n\n<br>",
+  "_criteria_filled": 1
+}

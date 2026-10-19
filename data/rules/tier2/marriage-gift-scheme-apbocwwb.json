@@ -1,0 +1,37 @@
+{
+  "id": "marriage-gift-scheme-apbocwwb",
+  "name": "Marriage Gift Scheme (APBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial assistance for marriage: ₹20,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-bride-and-boc-worker-age-proof-certificate-marriage-registra",
+    "2002-waqf-boards-church-panchayat-secretary-wedding-invitation-marriage-photos-b"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.O.2,Marriage_gift.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgsapbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For construction workers themselves (Women only)**\n\n1. Construction worker should be registered under the Andhra Pradesh Building and Other Construction Workers Welfare Board. \n1. Construction worker should be a woman.\n1. Construction worker should be unmarried. \n\n<br>\n\n> **For daughters of construction workers**\n\n1. A construction worker can receive the scheme benefits for up to two daughters.\n1. The daughter(s) should have completed 18 years of age at the time of marriage.",
+  "_criteria_filled": 3
+}

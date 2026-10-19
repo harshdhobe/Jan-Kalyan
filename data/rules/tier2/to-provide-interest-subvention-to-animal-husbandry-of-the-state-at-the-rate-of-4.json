@@ -1,0 +1,29 @@
+{
+  "id": "to-provide-interest-subvention-to-animal-husbandry-of-the-state-at-the-rate-of-4",
+  "name": "To Provide Interest Subvention to Animal Husbandry of the State at the Rate of 4% to the Beneficiaries Kisan Credit Card",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Name of Component**\t**Standard of Assistance**\t**Minimum Time Limit (in Year) for Reclaiming Benefits)**To provide interest subvention to animal husbandry of the state at the rate of 4% to the beneficiaries Kishan Credit Card.4% interest subvention on timely repayment of short-term loan taken by animal husbandry up to ₹2,00,000/-.\tonly once in a financial year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "kisan-credit-card-kcc-details-loan-sanction-and-repayment-statement-identity-pro",
+    "voter-id",
+    "etc-proof-of-animal-husbandry-activity-eg",
+    "cattle-ownership-documents-bank-loan-account-details-any-other-documents-as-requ"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=r4Jlr6OhAHYMeFC63fUVdw==&domain=v4lc2tu73R/9lWYKO76SRg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/tpahkcc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a cattle breeder.\n1. The applicant must have taken a short-term loan from any of the following during the financial year:\n\n  - Primary Agricultural Credit Cooperative Society\n  - District Central Cooperative Bank\n  - Nationalized Bank\n  - Gramin Bank\n  - Private Bank\n\n1. The applicant must have repaid the loan on time.",
+  "_criteria_filled": 1
+}

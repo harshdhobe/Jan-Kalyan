@@ -1,0 +1,27 @@
+{
+  "id": "pipes-carrying-water-from-source-to-field",
+  "name": "Pipes Carrying Water From Source To Field",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** Subsidy on 50% cost or ₹15,000/- for water carrying pipes upto 800m and all types of pipes(PVC HDPE etc.,) and all sizes as per the requirement of the farmer.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-bank-account-details-caste"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6859",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcwfsf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of Tamil Nadu.",
+  "_criteria_filled": 1
+}

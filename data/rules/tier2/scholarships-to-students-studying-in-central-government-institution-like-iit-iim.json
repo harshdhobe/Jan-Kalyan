@@ -1,0 +1,31 @@
+{
+  "id": "scholarships-to-students-studying-in-central-government-institution-like-iit-iim",
+  "name": "Scholarships to Students Studying in Central Government Institution like IIT, IIM, IIIT, NIT and Central Universities",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Financial support for tuition, exam fees, and other compulsory fees up to ₹2,00,000/- annually.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-recent-photograph-birth-certificate-community-certificate-nativity-certi"
+  ],
+  "apply_url": "https://bcmbcmw.tn.gov.in/welfschemes.htm#incentive_scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/stss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Backward Classes (BC)/ Most Backward Classes (MBC)/ Denotified Communities (DNC).\n  - The beneficiary should be pursuing UG/PG courses in IIT/ IIM/ IIIT/ NIT and Central Universities.\n  - The beneficiary&amp;#39;s parental annual income should not exceed ₹2,50,000/-.",
+  "_criteria_filled": 2
+}

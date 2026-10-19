@@ -1,0 +1,31 @@
+{
+  "id": "maternity-benefit-for-women-beneficiaries",
+  "name": "Maternity Benefit for Women Beneficiaries",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "- **Financial assistance of ₹6,000/- per pregnancy (up to two times).**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-and-registered-worker-admission-and-discharge-summ"
+  ],
+  "apply_url": "https://nbocw.nagaland.gov.in/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbfwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered women construction worker under the Nagaland Building and Other Construction Workers&#39; Welfare Board or the wife of a registered male worker. \n1. The applicant should be Pregnant.\n1. Benefit is available for the first two live births.",
+  "_criteria_filled": 2
+}

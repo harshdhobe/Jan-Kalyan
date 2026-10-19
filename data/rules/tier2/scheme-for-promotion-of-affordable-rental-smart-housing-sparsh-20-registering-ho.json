@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-promotion-of-affordable-rental-smart-housing-sparsh-20-registering-ho",
+  "name": "Scheme for Promotion of Affordable Rental Smart Housing (SPARSH 2.0): Registering Housing Complexes",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "Each Housing Complex under the Scheme shall either be a registered Housing Complex under the ARHC scheme or, in the alternative, should provide the following minimum basic facilities or adhere to the following minimum basic specifications:\n\n1. One dwelling unit of the complex should not be less than 322 sq ft. in area. Not more than 33% of the dwelling units of the complex should be more than 350 ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-authorisation-letter-from-owner-if-applicable-construction-permissi"
+  ],
+  "apply_url": "https://ddd.gov.in/labour/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sparsh20rhcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Dadra And Nagar Haveli and Daman &amp; Diu.\n1. The applicant should be the owner or authorised representative of the housing complex.\n1. The housing complex should fulfil SPARSH 2.0 infrastructure norms.\n1. The housing complex should possess a valid construction permission and/or occupancy certificate.\n1. The applicant should agree to reserve at least 66% dwelling units for Economically Weaker Section beneficiaries.\n1. The applicant should agree to maintain the housing complex and waste management systems.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": "funeral-assistance-gbocwwb",
+  "name": "Funeral Assistance (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹5,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "in-the-case-of-nomineedependant-of-the-unregistered-workers"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-5-Funeral-Benefit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fa-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The deceased should have been a Worker.\n- The deceased should have been between 18 to 60 years of age.\n- The deceased should have completed ninety days of service as a registered worker.\n- The deceased should have been registered with the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be the nominee/dependant of the deceased.\n- The nominee/dependant of the unregistered workers shall be eligible upon the production of a certificate from the builder or Inspector of the area stating that the deceased was a building worker.",
+  "_criteria_filled": 3
+}

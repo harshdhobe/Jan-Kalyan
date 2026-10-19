@@ -1,0 +1,26 @@
+{
+  "id": "super-100-programme-uttarakhand",
+  "name": "Super-100 Programme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this programme, 100 Science students were prepared for engineering and medical entrance examinations in 2023–24. Faculty members were selected from reputed coaching institutes based on their interviews and experience.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "educational-qualification-certificate-caste-certificate-if-applicable-other-supp"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/s100puk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Class 12 Science stream student studying in Uttarakhand.\n   1. One top-performing student from each block, along with the highest-scoring students from the SC, ST, and OBC categories, will be considered eligible under this programme.\n   1. A total of 100 Class 12 Science stream students will be selected for the programme.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "post-matric-students-of-class-11th-12th-scheduled-caste",
+  "name": "Post Matric Students of Class 11th &12th ( Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "The facility of reimbursement of scholarship fee is provided to the students of class 11th and 12th.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-bank-account-details-passport",
+    "enrollment-verification",
+    "and-a-valid-residence-certificate-issued-by-the-tehsil-or-sub-tehsil-authority"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=6",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsocsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The student should be enrolled in Class 11th or 12th in a recognized educational institution.\n1. The student should provide a valid income certificate of the family, confirming that the annual income is below the prescribed limit.\n1. The guardian should provide a declaration stating that there has been no increase in the family income for the last financial year.",
+  "_criteria_filled": 1
+}

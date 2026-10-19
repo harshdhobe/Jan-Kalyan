@@ -1,0 +1,30 @@
+{
+  "id": "surakshit-matritva-aashwasan-yojana",
+  "name": "Surakshit Matritva Aashwasan Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Under SUMAN, beneficiaries are entitled to the following free and cashless services at designated public health facilities:**\n\n**Maternal Health Services**\n\n- Minimum 4 Antenatal Care (ANC) check-ups, including one in the first trimester\n- At least one check-up under Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)\n- Free and cashless normal delivery and Caesarean section (C-section)\n- Manage",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "pan-card",
+    "driving-license",
+    "voter-id-card",
+    "etc-womens-pregnancy-details-from-a-concerned-hospital-address-proof-any-other-d"
+  ],
+  "apply_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/RMNCHA/MH/Guidelines/SUMAN%20Guideline%202020%20Web%20Version.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/suman",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a pregnant woman. \n1. The applicant must be a mother (post-delivery) seeking services at a public health facility.\n1. Newborns aged 0 to 6 months old will be able to avail the benefits of this scheme.\n1. After delivery, lactating mothers up to 6 months from delivery are also eligible for this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

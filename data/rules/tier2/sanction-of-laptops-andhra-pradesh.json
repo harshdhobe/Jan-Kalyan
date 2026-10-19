@@ -1,0 +1,31 @@
+{
+  "id": "sanction-of-laptops-andhra-pradesh",
+  "name": "Sanction of Laptops - Andhra Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "**Distribution of Laptops.**\n\n- Category I: Parent/guardian income up to ₹15,000/- per month - Full cost covered.\n- Category II: Parent/guardian income from ₹15,000/- to ₹20,000/- per month - Half of the cost covered.\n- Category III: Parent/guardian income above ₹20,000/- per month - Full cost to be paid by the beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bonafide-certificate-issued-from-the-recognized-schoolcollege-parents-income-cer"
+  ],
+  "apply_url": "https://apdascac.ap.gov.in/Schemes/laptops/",
+  "source_url": "https://www.myscheme.gov.in/schemes/solap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a native of Andhra Pradesh.\n1. The student should be visually challenged, hearing challenged, speech impaired, and orthopedically challenged.\n1. The student should be pursuing postgraduate or professional courses.\n1. The laptop is sanctioned once in the lifetime of the student.",
+  "_criteria_filled": 2
+}

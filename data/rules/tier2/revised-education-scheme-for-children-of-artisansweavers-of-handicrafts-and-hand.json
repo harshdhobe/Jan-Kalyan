@@ -1,0 +1,33 @@
+{
+  "id": "revised-education-scheme-for-children-of-artisansweavers-of-handicrafts-and-hand",
+  "name": "Revised Education Scheme For Children Of Artisans/Weavers Of Handicrafts And Handloom Departments",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "Rate of the Scholarship:₹1500 per year up to primary education\n₹ 2000 per year for Classes 6th to 10th\n₹ 3000 per year for Classes 11th and 12th\nAs per the actual course fee fixed by the Government for Technical/Professional Courses.\nThe payment shall be made on Direct Benefit Transfer (DBT) to the student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 90000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-of-self-registration-cardcertificate-of-the-parent-handicrafts-an",
+    "govt-of-jammy-and-kashmir-below-poverty-line-bpl-card-priority-house-hold-phh-ca",
+    "000-per-annum-issued-by-1st-class-magistratetehsildar-concerned-proof-of-educati"
+  ],
+  "apply_url": "http://jkindustriescommerce.nic.in/Orders%202022/80%20IND%20OF%202022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rescaw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The parent of the applicant should be a Weaver/Artisan.\n1. The parent should be registered with the Handicrafts and Handloom Departments having valid registration car/certificate.\n1. The applicant should not have availed benefits under the following schemes being implemented by the departments: Pre-Matric Scholarship Scheme; Post-Matric Scholarship Scheme; Prime Minister&#39;s Scholarship Scheme; Any other scheme. The applicant shall seek NOC from the concerned Zonal Educational Officer and Tehsil Social Welfare Officer.\n1. The applicant should fulfill one of the following conditions:\n\n- The applicant should have a Below Poverty Line (BPL) Card, Antyodaya Anna Yojana (AAY) Ration Card, Priority Household (PHH) Card.\n- The applicant should have Economically Weaker Section (EWS) Certificate.\n- The total annual income of the parents of the applicant should be less than or equal to ₹90,000. The Income Certificate should be issued by 1st Class Magistrate/Tehsildar concerned.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6-interest-subsidy-on-loans-taken-through-banks-up-to-a-limit-of-rs5-lakh-for-se",
+  "name": "6% Interest Subsidy on Loans taken through Banks up to a Limit of Rs.5 Lakh for Self-Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- 6% interest subsidy on loans taken through banks.\n\n- Maximum loan amount eligible: ₹5,00,000/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-caste-certificate-loan-approval-lette"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/6islbse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must be a resident of tribal areas in Gujarat.\n1. The applicant must have availed a bank loan for self-employment purposes.\n\n<br>",
+  "_criteria_filled": 1
+}

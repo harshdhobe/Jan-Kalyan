@@ -1,0 +1,47 @@
+{
+  "id": "mukhyamantri-alpsankhyak-rozgar-rinn-yojana",
+  "name": "Mukhyamantri Alpsankhyak Rozgar Rinn Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under this scheme, loans of up to ₹5,00,000/- are provided to youth from minority communities at a simple annual interest rate of 5% for the purpose of generating employment.\n\n**Note 1:** After issuing the Sanction Order, the loan amount is transferred to the beneficiary&amp;#39;s account via RTGS.\n**Note 2:** If the sanctioned amount is:\n\n  - **More than ₹1,00,000/- (per unit of equipment or ma",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 400000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card-passport-size-photograph-proof-of-age-educational-qu",
+    "training",
+    "or-experience-certificate-photocopy-of-bank-passbook-showing-bank-name",
+    "account-number",
+    "and-ifsc-code-castecommunity-certificate-income-certificate-issued-by-a-competen",
+    "bdo",
+    "co-residence-certificate-issued-by-a-competent-authority-disability-certificate"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/42/Schemes/MW-Rojgar-Wrin-Yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/marry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n   1. The applicant should apply for the scheme benefits in their district of permanent residence.\n   1. The applicant should belong to a minority community (Muslim, Sikh, Christian, Buddhist, Jain, or Parsi).\n   1. The applicant&amp;#39;s age should be between 18 and 50 years.\n   1. The applicant should not be a government or semi-government employee.\n   1. The applicant’s annual family income should be less than ₹4,00,000/-.\n\n**Note 1:** The loan must be used exclusively for employment and income-generation activities.\n**Note 2:** Applicants from all minority communities, except Muslims, must submit a religious belief certificate issued by a recognized religious body.\n&gt; **Priority Criteria:**\n\n1.\tFormer beneficiaries who have fully repaid their loans on time are exempt from the selection and site inspection process.\n2.\tPreference will be given to applicants who meet one or more of the following criteria:\n\n  - Have an educational qualification or are trained under a skill development scheme\n  - Reside in a rural area\n  - Are women, disabled, abandoned, or widowed\n  - Aged between 18 to 35 years\n  - Members of a government-registered cooperative institution, federation, or self-help group (SHG)\n  - Experienced applicants or shopkeepers\n\n&gt; **Guarantor:**\n\n  - **Upto ₹1,00,000/-:** Self guarantee/guarantee by a person who has/ whose either parent has a rent receipt/ other related document for guarantee.  - **More than ₹1,00,000/-:** A govt/semi-govt/bank/ autonomous body employee (at least 5 years of service remaining), income tax payee, Anganbadi workers, teachers from Registered Madarsas, permanent teachers or mutawalli from registered waqf who has immoveable properties of equitable mortgage.",
+  "_criteria_filled": 4
+}

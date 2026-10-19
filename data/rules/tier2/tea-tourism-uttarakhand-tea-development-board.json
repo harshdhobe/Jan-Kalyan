@@ -1,0 +1,26 @@
+{
+  "id": "tea-tourism-uttarakhand-tea-development-board",
+  "name": "Tea Tourism - Uttarakhand Tea Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Presently, the Board is conducting tea tourism activities in the tea gardens of Ghorakhal (Nainital), Champawat, and Kausani (Bageshwar), which are yielding the following benefits:\n\n  - Tourists visiting the state, along with other scenic attractions, are also visiting the tea gardens and tea factories operated by the Board.\n  - The Board collects a nominal entry fee from tourists visiting the pla",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-uttarakhand-tea-development-board"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttuktdb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a firm or an individual belonging to Uttarakhand.\n   1. Firms or individuals with a minimum of three years of experience in the field of tourism are selected through the e-tendering process.\n   1. A 5-year contract is signed with the selected firm or individual.\n\n<br>",
+  "_criteria_filled": 1
+}

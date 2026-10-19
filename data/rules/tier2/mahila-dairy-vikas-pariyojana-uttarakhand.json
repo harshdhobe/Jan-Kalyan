@@ -1,0 +1,31 @@
+{
+  "id": "mahila-dairy-vikas-pariyojana-uttarakhand",
+  "name": "Mahila Dairy Vikas Pariyojana - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, by providing adequate resources to rural women through Women Milk Producers Cooperative Societies at the village level, their direct participation in the state’s economy is encouraged, making them socially and economically self-reliant. \n  - The scheme also organizes various training, incentive, and awareness programs for women members to increase milk production. These includ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-departments-guidelines-prescribed-for-this-sch"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mddpu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a woman interested in the milk procurement business sector.\n\n<br>",
+  "_criteria_filled": 2
+}

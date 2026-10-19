@@ -1,0 +1,31 @@
+{
+  "id": "futkar-sabji-phal-phool-vikreta-hetu-taraju-baat-evan-tokari-sahaayata-yojana",
+  "name": "Futkar Sabji, Phal-Phool Vikreta Hetu Taraju, Baat Evan Tokari Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> An amount of Rs 700/- (Rs seven hundred only) per beneficiary will be provided for scales, weights and 02 baskets.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-bank-account-details-registration-ca"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/phutakar%20sabjee,%20phal%20vikreta%20hetu%20taraaju,%20baat%20evam%20tokari%20sahayata%20yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsppv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered as an unorganized worker in any district of the state.\n1. Applicant must have minimum age of 18 years. \n1. Applicant should not have received the similar benefits from any other schemes.",
+  "_criteria_filled": 2
+}

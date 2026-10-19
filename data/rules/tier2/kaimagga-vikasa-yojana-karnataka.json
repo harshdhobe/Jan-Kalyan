@@ -1,0 +1,26 @@
+{
+  "id": "kaimagga-vikasa-yojana-karnataka",
+  "name": "Kaimagga Vikasa Yojana - Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "> **Subsidy:** \n\n- Beneficiaries can get 50% of the unit cost of new handloom/equipment/machinery. \n\n<br>\n\n> **Disbursement of Subsidy:**\n\n- 50% after initial verification and the remaining 50% after confirming the purchase of equipment.\n\n<br>\n\n**NOTE:** The remaining 50% can be financed by the beneficiary from a financial institution/bank loan or through the beneficiary&#39;s own capital.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "weavers-identity-card-attested-copy-handloom-weaving-training-certificate-attest"
+  ],
+  "apply_url": "https://www.karnatakadht.org/english/handlooms-schemes.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvy-k",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The weaver should have membership in Handloom Weaver Co-operative Societies residing in their own house/rented house, or Handloom Associations/Organisations/Karnataka Development Corporation. \n1. Traditional weavers should practice the current handloom weaving profession. \n1. The weaver should have a Weaver&#39;s Identity Card.\n1. Young men and women who are starting their weaving career must have completed training in handloom weaving under any government scheme and possess the relevant certificate.\n1. The weaver purchasing a warping machine should have a proper certificate of experience in washing and the necessary space to install the machine.",
+  "_criteria_filled": 1
+}

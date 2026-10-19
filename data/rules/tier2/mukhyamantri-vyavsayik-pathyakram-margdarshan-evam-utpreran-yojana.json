@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-vyavsayik-pathyakram-margdarshan-evam-utpreran-yojana",
+  "name": "Mukhyamantri Vyavsayik Pathyakram Margdarshan Evam Utpreran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Free Coaching:** Free coaching in the renowned [Career Guidance Centers(Page 26)](https://state.bihar.gov.in/cache/41/Department%20Info/Schemes/varsik2025s.pdf).\n**Note:****** There is no hostel provision in the centers.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "two-02-passport-size-color-photographs-birth-certificate-educational-qualificati"
+  ],
+  "apply_url": "https://bcebconline.bihar.gov.in/MCSYOnline/PETC/Default.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvpmeuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Bihar.\n   1. The applicant should belong to the Backward Class (BC) or Extremely Backward Class (EBC) categories.\n   1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n   1. The applicant must meet the minimum educational qualifications required for the chosen competitive examination.\n\n**Note:** \n\n  - Applicants will appear for competitive exams under their respective courses. Selection will be based on a multiple-choice written test following the prescribed syllabus.",
+  "_criteria_filled": 2
+}

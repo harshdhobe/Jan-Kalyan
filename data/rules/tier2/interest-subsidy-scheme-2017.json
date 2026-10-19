@@ -1,0 +1,38 @@
+{
+  "id": "interest-subsidy-scheme-2017",
+  "name": "Interest Subsidy Scheme, 2017",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- For claims of interest paid on term loan, subsidy will be calculated to the extent of 30% of the interest paid, subject to the scheme ceiling.\n- For claims of interest paid on working capital loan, subsidy will be calculated to the extent of 1½% of the total turnover or 30% of the interest paid by the units/enterprise, whichever is less.\n- The subsidy payable shall not exceed the ceiling of ₹25,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-self-attested-copy-of-registration-under-umbrella-scheme-a-self-declaration-in",
+    "of-the-financial-year-chartered-accountant-certificate-certifying-the-amount-of",
+    "the-interest-on-rescheduled-component-and-original-component-should-be-clearly-i",
+    "and-the-number-of-goan-employees-certificate-from-chartered-accountant-stating-t",
+    "government-of-goa",
+    "has-been-made-for-any-incentives-a-chartered-accountant-certificate-certifying-t",
+    "the-certificate-of-registrationor-approval-issued-by-the-department-of-tourismco",
+    "magnetic-ink-character-recognition-and-indian-financial-system-code-which-has-be",
+    "scheduled-tribe",
+    "other-backward-class",
+    "women-partnerpromoter-in-case-of-seeking-additional-benefit-under-these-categori",
+    "memorandum-of-associationarticles-of-association",
+    "as-the-case-may-be"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iss2017",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must represent one of the following - \n\n             (a)   A Micro, Small and Medium manufacturing industry.\n             (b)   A project of Hinterland Eco tourism in lesser developed talukas registered with/recognized by the Department of Tourism/Goa Investment Promotion Board/Town &amp; Country Planning/Planning &amp; Development Authority/Eco Sensitive Zone Authority.\n\n- The industry must be listed under White category, Green category and Orange category.\n- The industry must have commenced production after 01-10-2017.\n- The industry must engage a minimum of 60% of Goan manpower on regular employment.\n- The industry must have availed loan as term loan and/or working capital loan for conducting business of the unit claiming the benefit.\n- The loan must be availed from any nationalized bank, scheduled private bank, Co-operative Bank, Economic Development Corporation Limited, or any Non-Banking Financial Institutions recognized by the Reserve Bank of India.\n\n<br>",
+  "_criteria_filled": 1
+}

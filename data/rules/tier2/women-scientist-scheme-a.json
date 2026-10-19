@@ -1,0 +1,36 @@
+{
+  "id": "women-scientist-scheme-a",
+  "name": "Women Scientist Scheme-A",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. ₹ 55,000/- pm (and HRA as applicable) for Ph.D. or equivalent (total project cost not exceeding ₹ 30 lakh) \n1. ₹ 40,000/- pm (and HRA as applicable) for M.Phil./MTech or equivalent (total project cost not exceeding ₹ 25 lakh) \n1. ₹ 31,000/- pm (and HRA as applicable) for M.Sc. or equivalent (total project cost not exceeding ₹ 20 lakh)\n\n> This grant will cover the fellowship of the applicant and",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 57
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-document-refer-source-for-format-biodata-of-pi-signed-refer-sou"
+  ],
+  "apply_url": "https://www.indiascienceandtechnology.gov.in/programme-schemes/women-schemes/women-scientist-scheme-wos",
+  "source_url": "https://www.myscheme.gov.in/schemes/wos-a",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a FEMALE.\n1. The applicant must either be unemployed or in a position other than regular/permanent position.\n1. The age of the applicant must be between 27 and 57 years (5 year relaxation for SC/ST/OBC and physically challenged candidates)\n1. The applicant must hold either of the following Minimum essential qualification - \n\n  - Minimum Post Graduate degree, equivalent to M.Sc. in Basic or Applied Sciences or B.Tech. or MBBS or other equivalent professional qualifications.\n  - M.Phil/M.Tech/M.Pharm/M.VSc or equivalent qualifications.\n  - Ph.D. in Basic or Applied Sciences.\n\n<br>",
+  "_criteria_filled": 3
+}

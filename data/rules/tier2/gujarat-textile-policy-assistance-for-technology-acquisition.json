@@ -1,0 +1,32 @@
+{
+  "id": "gujarat-textile-policy-assistance-for-technology-acquisition",
+  "name": "Gujarat Textile Policy: Assistance for Technology Acquisition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Covers 65% of the technology cost, with a cap of ₹50,00,000/-.- **Royalty Payment:** Supports royalty payments for the first 2 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "document-of-registration-of-the-industrial-undertaking",
+    "as-applicable-under-law",
+    "and-the-industrial-entrepreneur-memorandum",
+    "as-prescribed-by-the-government-of-india-documents-related-to-legal-possession-o",
+    "and-registered-purchase-lease-rent-deed-if-the-plot-or-shed-is-in-gidc-estate",
+    "a-copy-of-the-possession-letter-should-be-attached-consent-to-establish-from-gpc",
+    "if-applicable-detailed-project-report-containing-the-following-executive-summary"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/pagecontent/Gujarat%20Textile%20Policy_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtpata",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit must be a new or existing industrial unit.\n   1. The technology must be acquired from a recognized institution.\n   1. The unit must obtain prior approval from the Industries Commissionerate within one year of signing the agreement.",
+  "_criteria_filled": 1
+}

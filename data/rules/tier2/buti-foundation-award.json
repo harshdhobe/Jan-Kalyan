@@ -1,0 +1,26 @@
+{
+  "id": "buti-foundation-award",
+  "name": "Buti Foundation Award",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Award Amount:** ₹50,000/-- **Award Recognition:** Medal",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "detailed-contribution-statement-2-pages-impact-statement-list-of-publications-li"
+  ],
+  "apply_url": "https://www.prl.res.in/prl-eng/opportunities/aabprl/butifoundationaward",
+  "source_url": "https://www.myscheme.gov.in/schemes/bfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Scientist/Engineer.\n  - The applicant’s age should be under 45 years as of 1st January 2021 (born on or after 02.01.1976).\n  - The applicant should have conducted innovative and outstanding research in the field of Plasma Science &amp;amp; Technology in India.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

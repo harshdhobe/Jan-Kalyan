@@ -1,0 +1,36 @@
+{
+  "id": "mukhya-mantri-kanyadaan-yojana",
+  "name": "Mukhya Mantri Kanyadaan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "> 1. The marriage grant at ₹40,000/- in each cases shall be admissible to the parents/guardians of the destitute girl/women for their marriage.\n\n<br>\n\n> 2. In case of the inmates of Nari Sewa Sadan/ Nari Niketan, Marriage grant of ₹51,000/-, shall be admissible to the girl/women for their marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 35000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-men-and-women-bonafide-himachali-certificate-proof-of-annual-family"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/176_l892s/Mukhya%20Mantri%20Kanyadan%20Yojna%20(B%20)-78665675.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl whose father is not alive and whose guardian’s total income does not exceed ₹35,000/- per annum (excluding MNREGA income).\n1. Girl whose father is incapacitated or bedridden due to physical or mental disability, including prolonged illness, and whose family income does not exceed ₹35,000 /- per annum (excluding MNREGA income).\n1. Orphan girls/neglected girls and women, including inmates of Nari Niketan and former inmates of Balika Ashrams, with no regular source of income.\n1. Deserted/divorced women whose income does not exceed ₹35,000/- per annum (excluding MNREGA income).\n1. Girls/women in moral danger or rescued from immoral trafficking.\n1. Destitute women/girls released after imprisonment under any law.\n1. Daughters of divorced/deserted women whose annual income does not exceed ₹35,000/- per annum (excluding MNREGA income).",
+  "_criteria_filled": 3
+}

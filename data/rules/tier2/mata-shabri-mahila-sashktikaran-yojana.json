@@ -1,0 +1,41 @@
+{
+  "id": "mata-shabri-mahila-sashktikaran-yojana",
+  "name": "Mata Shabri Mahila Sashktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "**Subsidy:**  The maximum subsidy amount is ₹1,300/-.\n**Note:** The subsidy covers 50% of the total cost of purchasing an LPG connection and stove.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 35000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-caste-certificate-bpl-certificate-income-certificate-is"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/176_l892s/AnnexureJ-20961722.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman.\n1. The applicant should belong to the Below Poverty Line (BPL) category.\n1. The applicant should belong to a scheduled caste or scheduled tribe family. \n1. The applicant&#39;s family income should not exceed ₹35,000/-. \n\n<br>",
+  "_criteria_filled": 4
+}

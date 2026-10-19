@@ -1,0 +1,31 @@
+{
+  "id": "devnarayan-pratibhawan-chhatra-protsahan-yojana",
+  "name": "Devnarayan Pratibhawan Chhatra Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹3,500/- per year per student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-educational-qualification-certificates-copy-of-original-residence"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=87",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpcpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a student.\n1. The applicant’s family’s annual income should not exceed ₹2,00,000/-.\n1. The applicant should be studying in a government school or college.\n1. The applicant should have passed class 10th to graduation with a first division.1. The applicant should have obtained at least 48% marks in the postgraduation first year and be enrolled in the final year.\n1. The applicant should belong to one of the Special Backward Class communities:\n\n- Banjara, Baldiya, Labana\n- Gadia-Lohar, Gadoliya\n- Gurjar, Gujjar\n- Raika, Raibari (Debasi)",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "observation-home-and-special-school",
+  "name": "Observation Home and Special School",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Free Boarding and Lodging.\n- Recreations Like Library, Play Materials With Sufficient Playground Area (Indoor and Outdoor). \n- Once a Year, Various Competitions Are Conducted in Sports, Games, Drawing, Singing, Essay Writing, Etc., the Winners Are Given Prizes During the Annual Day Celebration.\n- Educational Tours to Places of Interest Once in a Year.\n\n**NOTE:** Contact the authorities below in ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-address-proof-age-proof"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/observation-home-and-special-school-ariyankuppam-puducherry",
+  "source_url": "https://www.myscheme.gov.in/schemes/ohss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The child should be under 18 years of age.\n1. The child should be in conflict with the law. \n1. The child should have been admitted to the Juvenile Welfare Board.",
+  "_criteria_filled": 2
+}

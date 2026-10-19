@@ -1,0 +1,31 @@
+{
+  "id": "state-reward-to-the-recipient-of-national-award",
+  "name": "State Reward to the Recipient of National Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "A memento, a certificate of appreciation and a financial purse to the extent of ₹ 1,00,000/- per individual.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-residential-certificate-proving-that-the-applicant-has-spent-at-least-10-years",
+    "music",
+    "dance",
+    "theatre",
+    "fine-art",
+    "folk-art-etc-bhartiya-dhyanpeeth-award-saraswati-sanman-sahitya-akademi-jivan-ga"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srrna",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "a)       The applicant should be a Goan artist who has received any of the following National Awards:\n\n1. Sahitya Akademi Award. \n1. Sangeet Natak Akademi Award. \n1. Lalit Kala Akademi Award. \n1. Padma Award for the contribution to the field of art &amp; culture (for literature, music, dance, theatre, fine art, folk art etc.) \n1. Bhartiya Dnyanpeeth Award. \n1. Saraswati Sanman. \n1. Sahitya Akademi Jivan Gaurav Puraskar (Lifetime Achievement Award). \n1. Sangeet Natak Academy Fellowship. \n1. Any other National or International Award specially recognized by the Government of Goa for the purpose of this scheme from time to time. \n\nb)       Those living artists who have already received such awards stated above shall also be eligible for this scheme.\n<br>\n\n**NOTE:** Under this scheme, an artist shall be eligible to receive the benefit only once, although he gets more than one award from amongst above mentioned awards.",
+  "_criteria_filled": 1
+}

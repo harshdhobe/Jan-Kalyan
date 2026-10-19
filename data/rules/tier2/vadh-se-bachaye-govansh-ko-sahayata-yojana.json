@@ -1,0 +1,26 @@
+{
+  "id": "vadh-se-bachaye-govansh-ko-sahayata-yojana",
+  "name": "Vadh Se Bachaye Govansh Ko Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹40/day for large cattle and ₹20/day for small cattle.\n  - Support is provided for a maximum of one (1) year or the custody period, whichever is shorter.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-fir-related-to-cattle-rescue-approval-copy-from-a-competent-authorit"
+  ],
+  "apply_url": "https://gopalan.rajasthan.gov.in/scheme/detail/578",
+  "source_url": "https://www.myscheme.gov.in/schemes/vsbgks",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Registered Gaushalas/ Nandi Shalas/ Kanj Houses/ Local bodies/ Panchayati Raj institutions/Other approved institutions which are taking care of cows rescued from cow smuggling/ slaughter.",
+  "_criteria_filled": 1
+}

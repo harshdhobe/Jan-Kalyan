@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-purchase-of-paddy-harvesting-machine",
+  "name": "Scheme for Purchase of Paddy Harvesting Machine",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Loan of upto 70% of the cost of the tractor and harvesting machine.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-and-general-documents-application-stagecopies-of-pan-card",
+    "voters-identity",
+    "ration-card",
+    "aadhar-card-and-bank-pass-book-community-certificate-if-applying-for-concessions",
+    "for-30-years-if-possible-or-20-years-certified-copy-or-original-encumbrance-cert",
+    "tamilnadu-for-tamilnadu-property-in-case-of-properties-in-the-name-of-deceased-p"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/spphm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to the agriculturists belonging to Puducherry.\n<br>",
+  "_criteria_filled": 1
+}

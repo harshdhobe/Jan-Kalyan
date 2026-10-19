@@ -1,0 +1,27 @@
+{
+  "id": "grid-connected-rooftop-solar-power-plant-scheme-uttarakhand-renewable-energy-dev",
+  "name": "Grid Connected Rooftop Solar Power Plant Scheme - Uttarakhand Renewable Energy Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under the scheme, eligible beneficiaries are provided financial support by the State Government at the rate of ₹17,000/- per kW for plants with capacities ranging from 1 kW to 3 kW, and a fixed grant of ₹51,000/- for plants with capacities from 3 kW to 10 kW.\n  - The electricity generated from the installed rooftop solar power plants will be credited to the consumer’s electricity bill by UPCL th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "approval-sanction-letter-from-mnre",
+    "government-of-india-aadhaar-card-bank-account-details-other-supporting-documents"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gcrsppsureda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All domestic electricity consumers across Uttarakhand who have applied on the MNRE national portal ([https://solarrooftop.gov.i](https://pmsuryaghar.gov.in/)n) under the &amp;quot;Grid Connected Rooftop Solar Power Plant Scheme&amp;quot; and whose Central Financial Assistance (CFA) for the installation of the solar plant has been approved or released are eligible.\n<br>",
+  "_criteria_filled": 1
+}

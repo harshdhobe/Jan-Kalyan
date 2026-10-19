@@ -1,0 +1,36 @@
+{
+  "id": "purchase-of-vehicle-for-commercial-hiring-purpose-for-persons-with-disabilities",
+  "name": "Purchase of Vehicle for Commercial Hiring Purpose for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loans are provided to differently abled persons for commercial hiring up to ₹10,000,00/- and for purchasing special category vehicles such as JCB, Trucks, Road rollers, etc., with loans up to ₹25,000,00/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-identitycitizenship-proof-any-one-of-the-following-aadhaar-card-2-age-proof-an"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=4iOn9qgtYIFpNm+lC1XYrQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/pvcppd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The age of the applicant should be above 18 years. For persons with mental retardation, the age is relaxed to 14 years instead of the usual 18 years.\n   1. License is applicable as per the policy of the National Corporation.",
+  "_criteria_filled": 3
+}

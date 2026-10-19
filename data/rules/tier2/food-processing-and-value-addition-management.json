@@ -1,0 +1,26 @@
+{
+  "id": "food-processing-and-value-addition-management",
+  "name": "Food Processing and Value Addition Management",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, for setting up new food processing units, 50% of the project cost, up to a maximum of ₹400.00 lakh (₹4 crore), is provided as government assistance/subsidy.\nThe department is in the process of uploading previously approved proposals on its website, similar to the MSME model, to make it easier for interested companies, firms, or promoters to prepare their proposals.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-dpr-promoters-permanent-residence-certificate-organizati"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpvam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Companies, firms, and promoters interested in setting up food processing units in Uttarakhand are eligible to receive assistance under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

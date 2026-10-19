@@ -1,0 +1,26 @@
+{
+  "id": "health-check-up-abocwwb",
+  "name": "Health Check-up (A.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1. Under this scheme, registered construction workers can avail an amount of ₹5,000/- once in a year for his/her annual health check-up in any Hospital.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-abocwwbpassport-size-photograph-applic"
+  ],
+  "apply_url": "https://abocwwb.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/hc-uabocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Assam.\n   1. The applicant should be engaged in any building &amp;amp; other construction work.\n   1. The construction worker should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The registered construction workers having continuous membership of the Board are eligible to apply under the scheme.\n   1. The registered construction workers can avail benefits once in a year for his/her annual health check-up in any Hospital.",
+  "_criteria_filled": 1
+}

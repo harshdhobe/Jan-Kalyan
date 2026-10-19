@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-small-road-transport-operators-srtos",
+  "name": "Scheme for Small Road Transport Operators (SRTOs)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance is provided up to 70% of the cost of the vehicle.\n- The calculation for the financial assistance excludes the cost of road tax and insurance.\n- The assistance is intended to meet the expenditure towards the cost of the chassis and body building for new transport vehicles (Goods and Passenger vehicle).\n- The maximum repayment period is 58 monthly instalments.\n- The repayment ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-applicationcopy-of-the-proceedings"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsrtos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Puducherry.\n- The applicant must be seeking financial assistance for acquiring new transport vehicles, which include Goods vehicles and Passenger vehicles.\n- The applicant must not be seeking financial assistance for second-hand vehicles.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "kisan-credit-card-pashupalan",
+  "name": "Kisan Credit Card (Pashupalan)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Short-term working capital loan for livestock activities through the Kisan Credit Card system.\n- Interest subsidy is provided on loans sanctioned under the scheme.\n- Expected Time of Disbursement: Typically within 15 days of application approval.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-voter-id-carddriving-licensepan-cardaadhaar-cardpassportself-atte",
+    "etc-bank-related-information-name-of-the-applicants-bank-and-branch-account-numb",
+    "then-self-attested-copies-of-documents-related-to-the-kcc-account-number-and-ban"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=914",
+  "source_url": "https://www.myscheme.gov.in/schemes/kccp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant must be a livestock farmer or a member of a primary agricultural credit cooperative society.\n1. The applicant should require short-term working capital for livestock activities, including dairy production.\n\n<br>",
+  "_criteria_filled": 1
+}

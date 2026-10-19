@@ -1,0 +1,27 @@
+{
+  "id": "state-art-exhibition-student-category",
+  "name": "State Art Exhibition (Student Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Three main prizes will be awarded in each section/category:**\n\n- 1st Prize: ₹10,000/-\n- 2nd Prize: ₹7,000/-\n- 3rd Prize: ₹5,000/-\n\n<br>\n\n**Special Prizes:**\n\n- Ravji V. Gaunekar Memorial Prize by The Goa Hindu Association: ₹1,000/-\n- Artist to Artist Award by Smt. Prafulla Dahanukar: ₹15,000/-\n- Late Hanuman B. Neogi Memorial Prize: ₹1,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "duly-filled-entry-form-legibly-writtentyped-bonafide-certificate-from-the-studen",
+    "stating-the-work-is-the-students-original-creation-not-copiedimitated-the-work-h"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Kala%20Academy%20Goa%20Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saesc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A participant must be a bona fide student of any recognised art college or institution, studying one or more of the subjects in the exhibition sections. \n1. If an art student submits their entry in the Student Category, they are not eligible to participate in the Artist Category. \n1. Submission must include an official bonafide certificate from the student&#39;s institution; entries without it will not be accepted. \n1. Declarations for Originality and Prior Exhibits\n\n  - Each exhibit must be the student’s original work, neither a copy nor an imitation. A declaration to this effect must appear on the back of each entry.\n  - If the work has previously won an award or been displayed in prior exhibitions by Kala Academy or any other institution, it will not be accepted, and a declaration to that effect must also be submitted. \n\n1. Award Winners&#39; Restriction for Next Year\n1. A participant who receives an award in a given year is not eligible to receive an award in the same section in the following year\n\n<br>",
+  "_criteria_filled": 1
+}

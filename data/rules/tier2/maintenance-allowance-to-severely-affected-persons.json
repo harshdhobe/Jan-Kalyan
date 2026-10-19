@@ -1,0 +1,31 @@
+{
+  "id": "maintenance-allowance-to-severely-affected-persons",
+  "name": "Maintenance Allowance to Severely Affected Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹2,000/- per month. \n**NOTE:** The allowance is sent through ECS to their accounts directly from the Treasury.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-family-card-bank-account"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/matsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Locomotor disabled persons who cannot be rehabilitated through any other scheme.\n1. The percentage of disability should be more than 75%. \n\n<br>",
+  "_criteria_filled": 2
+}

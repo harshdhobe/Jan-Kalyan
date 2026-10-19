@@ -1,0 +1,27 @@
+{
+  "id": "biotechnology-young-entrepreneur-award",
+  "name": "Biotechnology Young Entrepreneur Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. The winning teams will be given cash awards by the Kerala Biotechnology Commission.\n   1. Cash award for winners - first prize ₹1,00,000/-, second prize ₹50,000/- and third prize ₹25,000/-.\n   1. The awardees will be encouraged to establish start-ups through facilitation and support after evaluation and recommendation by an Expert Committee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-endorsement-certificate-3-educational-certificat",
+    "if-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/wp-content/uploads/2019/06/BYE_Application_21.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/byea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students who are pursuing post-graduate programmes (including integrated PG degree programmes), doctoral degrees, B.E. or B.Tech. in Biotechnology or in the area of life sciences related to biotechnology (bioinformatics/Molecular biology/microbiology/biochemistry/Genetics and/or related subjects) from universities/Institutes in the State of Kerala are eligible to apply.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "guruji-student-credit-card-gscc-scheme",
+  "name": "Guruji Student Credit Card (GSCC) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "1. Education loans up to ₹15,00,000/- at a subsidized 4% interest rate.\n1. Long Repayment Term: Maximum repayment tenure of up to 15 years.\n1. No Processing Fees: No additional fees for loan processing, sanctioning, or disbursement.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-colour-passport-size-photograph-admission-documentletter-ration-car"
+  ],
+  "apply_url": "https://gscc.jharkhand.gov.in/sample%20files/guruji_guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student. \n1. The student should be an Indian national.\n1. The student should have completed class 10th to pursue a diploma and class 10th and 12th to pursue undergraduate or higher courses from a recognized school in Jharkhand. \n1. The student should have secured admission in institutions like IITs, IIMs, IIESTs, ISIs, NLUs, AIIMSs, NITs, XLRI, IISCs, BITS, SPA, NID, IIFTs, ICFAI Business School etc within and outside of the state (within India) which are ranked up to 200 in the overall list or ranked up to 100 in their respective individual category of NIRF Rankings or have been accredited grade either “A&quot; or above by NAAC.\n1. The student should not be aged more than 40 (forty) years at the time of application for loan.\n1. The student should not be a prior beneficiary of the scheme.\n1. The student should not have availed education loan from any State Co-operative Banks, Central Co-operative Banks, District Central Co-operative Banks, or any Public or Private sector Banks for the course in which he/she is applying for a loan under the Scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

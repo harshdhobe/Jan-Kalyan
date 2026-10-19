@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-samagra-gramya-unnayan-yojana",
+  "name": "Chief Minister Samagra Gramya Unnayan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Benefits\nThe Government of Assam has launched Samagra Gramya Unnayan Yojana.\nThrough this scheme farm mechanisms will be enhanced in the state and double-cropping will be facilitated.\nOne tractor unit consisting of one tractor including its accessories will be provided to the selected beneficiary group in the revenue village.\nThis tractor will be provided at a subsidized rate.\nThrough this scheme,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-aadhaar-card-residence-certificate-passport-size-phot"
+  ],
+  "apply_url": "https://finance.assam.gov.in/schemes/cmsguy",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsguy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The benefit of this scheme will be provided to any group of 8 to 10 members who are actual adult farmers of the same village\n1. The group of farmers must have a common bank account and will apply jointly with the signatures of each member on the application form preferably along with particulars of land and crops cultivated\n1. The applicant group should not have more than one member from one family",
+  "_criteria_filled": 1
+}

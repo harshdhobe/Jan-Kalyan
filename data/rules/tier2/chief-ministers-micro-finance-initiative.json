@@ -1,0 +1,27 @@
+{
+  "id": "chief-ministers-micro-finance-initiative",
+  "name": "Chief Minister's Micro Finance Initiative",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "household",
+  "benefit": "**Funding Pattern and Subsidy Support**\n**Financing through Banks**\n•\tAll banks in the State of Nagaland will be eligible as lending institutions in the Scheme.\n•\tAll participating banks must develop product codes for the Scheme.\n•\tThe quantum of loan, subsidy, and borrower&#39;s margin will be as follows:\n**Sl. No.****Particulars****Share in Project Cost**1BeneficiaryMinimum 10%2Bank FinanceMaxim",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-proof-of-address-aadhaar-card-pan-card-pan-can-be-procur",
+    "otherwise-have-to-open-new-account-with-the-bank-approving-the-loan-udhyam-regis"
+  ],
+  "apply_url": "https://credit.nagaland.gov.in/docs/CMMFI_2.0_booklet_compressed.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmmfi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&amp;gt; ***Eligible Beneficiaries***\n\n***A. Individual Farmers and Entrepreneurs:*** Individuals who are keen to invest in Agri-allied activities, Entrepreneurs, and other activities for a better livelihood would be assisted as per the norms of the Scheme.\n**Eligibility Criteria**\n\n   1. They should not be defaulters to any bank.\n   1. They should not be serving Government Employees.\n   1. They should have sufficient land for land-based activity in the name of the borrower or on lease with a remaining period of the lease agreement not less than the tenure of the loan. In the case of non-cadastral areas, a document issued by the concerned Village Council and countersigned by the area administrative officer certifying the land-holding shall be sufficient for the purpose.\n   1. They should generally have adequate experience or training in respect of the activity for which they seek assistance.\n\n***B. Self Help Groups (SHGs):********* SHGs have been a key element of credit extension to the poor and small entrepreneurs. They undertake activities in a group mode which benefit the community as well as provide meaningful livelihood opportunities to the members. SHGs have been supported under various programs being implemented in the State. The Government of Nagaland endeavors to further support the SHGs through this scheme to expand the scope of economic activities that can supplement the needs, especially of the rural household.\n**Eligibility Criteria**\n\n   1. All SHGs (including non-NSRLM SHGs) fulfilling the Panchasutra concept i.e., holding regular meetings; regular savings; regular inter-loaning; timely repayment; and up-to-date books of accounts shall be considered for assistance under the Scheme.\n   1. SHGs would be financed, primarily, by the bank where they have their Bank Account.\n   1. SHGs shall be graded on the basis of the “Panchsutra” concept.\n   1. The group members should have sufficient land, either self-owned or on lease, to carry out land-based activities.\n\n***C. Farmer Producer Organizations (FPOs)******:*** Farmer Producer Organizations are Farmers’ Collectives with characteristics of legal personality and limited liability similar to a company, can attract investments, modern technology, catalyze aggregating and marketing of bulk produce to fetch better remuneration and in turn lead to improved means of production. Although very few in number at present, in the state, they present huge opportunities and have been considered as eligible entities under the scheme.\n**Eligibility Criteria**\n\n   1. The FPO should have been registered and should have at least three years of Audited Balance Sheet.\n   1. Board members of FPOs and all members should be non-defaulters to any bank/financial institutions.\n   1. The FPO should not be in losses.\n   1. The FPO should have at least 100 shareholders and a minimum paid-up capital of Rs 1,00,000.\n   1. The activity should be relevant to the prime activity of the FPO.\n   1. The maximum borrowing of the FPO should be restricted to 2/3rd of their paid-up share capital or as per the borrowing power of their bye-laws.\n   1. At least 80% members should be participating in and benefitted by the FPO either through supply of input or aggregation of produce and marketing.\n\n&amp;gt; **Eligible Lending Institutions**\n\nAs the subsidy is credit-linked, the projects will be eligible for subsidy only if financed by either a commercial bank (Public &amp;amp;amp; Private Sector Banks), the Nagaland Rural Bank, or the Nagaland State Cooperative Bank.",
+  "_criteria_filled": 1
+}

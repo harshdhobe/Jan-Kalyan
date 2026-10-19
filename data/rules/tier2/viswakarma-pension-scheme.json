@@ -1,0 +1,38 @@
+{
+  "id": "viswakarma-pension-scheme",
+  "name": "Viswakarma Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The monthly pension amount of ₹1100/- will be given to the persons belonging to the traditional Viswakarma Communities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-identity-proof-2-proof-of-age-3-photo-of-the-applicant-4-copy-of-t",
+    "if-applicable-9-copy-of-bank-passbook-10-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://bcdd.kerala.gov.in/wp-content/uploads/2021/07/Viswakarma-Pension-Application-Form-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of the Kerala State.\n2.\tThe applicant should belong to the traditional Viswakarma Community of Kerala State.\n3.\tThe age of the applicant should be more than 60 years.\n4.\tThe annual family income of the applicant should be ₹1,00,000/-.",
+  "_criteria_filled": 3
+}

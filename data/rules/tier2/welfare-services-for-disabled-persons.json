@@ -1,0 +1,31 @@
+{
+  "id": "welfare-services-for-disabled-persons",
+  "name": "Welfare Services for Disabled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "> **Rehabilitation &amp; Training:**\n\n- Vocational training for self-employment.\n- Early detection and intervention services.\n\n> **Medical Support:**\n\n- Treatment and rehabilitation services.\n- HIV/AIDS care for disabled persons.\n\n> **Assistive Devices:**\n\n- Prosthetics, mobility aids, hearing aids, Braille equipment.\n- Education Support.\n- Special schools and vocational centres.\n\n> **Awareness:**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-income-certificate-identity-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wsfdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Individuals (Beneficiaries):**\n\n- The applicant must be a person with disability having at least 40% disability, duly certified by a competent medical authority.\n- The applicant must belong to any category such as locomotor, visual, hearing, mental, or multiple disabilities.\n- The applicant must require support for rehabilitation, medical treatment, education, or livelihood.\n\n> **For Organizations:**\n\n- The organization must be a registered voluntary organization/NGO/institution.\n- The organization must have experience in implementing disability welfare programmes.\n- The organization must have adequate infrastructure and trained personnel to provide services.\n- The organization must ensure that services are provided without discrimination.\n\n<br>",
+  "_criteria_filled": 2
+}

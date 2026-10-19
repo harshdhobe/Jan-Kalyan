@@ -1,0 +1,31 @@
+{
+  "id": "pedalandariki-illu",
+  "name": "Pedalandariki Illu",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "> **Rural Area:** \n\n1. One House Site Patta shall be issued for an extent of 1.5 Cents to an eligible household in the name of the woman beneficiary of the house. The patta shall be handed over to the beneficiary on the day of Ugadi, 2020. \n1. The Housing Department shall issue sanctions for the construction of Individual Housing Units to the eligible beneficiary under the available schemes in a p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-white-ration-card-address-proof-bank-account-passbook-domicile-certi"
+  ],
+  "apply_url": "https://gsws-nbm.ap.gov.in/NBM/images/GovtSchemesGos/GO%20on%20Housing.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **A) Rural Area:** \n\n1.\tThe beneficiary shall belong to the identified Below Poverty Line (BPL) category household. \n2.\tThe beneficiary shall not have their own House/House Site anywhere in the State of Andhra Pradesh. \n3.\tThe Beneficiary shall not have been covered in any previous Housing Scheme of the State/Central Government. \n4.\tThe Beneficiary shall not have more than 2.5 acres of Wet Land or 5.00 acres of Dry Land. \n<br>\n\n> **B) Urban Area:** \n\n1.\tThe beneficiary shall not have an Own House/House Site anywhere in the State of Andhra Pradesh. \n2.\tThe beneficiary shall not have been covered in any previous Housing Scheme of the State/Central Government. \n3.\tThe beneficiary shall not have more than 2.5 acres of Wet Land or 5.00 acres of Dry Land. \n4.\tThe Annual Income (from all the sources) of the Household should not exceed Rs.3,00,000/- (Rupees three lakhs only).",
+  "_criteria_filled": 2
+}

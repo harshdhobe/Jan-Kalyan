@@ -1,0 +1,26 @@
+{
+  "id": "pashudhan-mitra-scheme",
+  "name": "Pashudhan Mitra Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- **Castration Work:**  ₹20/- per calf (cow/buffalo) brought to the institution.- **Participation in Medical Camps &amp; Exhibitions:** ₹400/- per event for assisting in medical camps, cattle fairs, and exhibitions under official supervision.- **Vaccination Work (Per Animal):**\n- Bovine/Pig: ₹7/-\n- Goat/Sheep/Dog: ₹5/-\n- Poultry: ₹1/-\n- **Integrated Sample Survey Work:**\n- ₹1,500/- per village per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-domicile-certificate-caste-certificate-bank-account-details-any-oth"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/ahd/state_schemes/9_Pashudhan_Mitra_Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n1. The applicant should have experience in animal husbandry or artificial insemination.\n1. The applicant should be physically fit for fieldwork.\n1. The applicant should possess basic knowledge of vaccination and castration procedures.",
+  "_criteria_filled": 1
+}

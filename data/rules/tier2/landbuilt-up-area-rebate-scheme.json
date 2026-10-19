@@ -1,0 +1,28 @@
+{
+  "id": "landbuilt-up-area-rebate-scheme",
+  "name": "Land/Built-Up Area Rebate Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1.  **Purchase of Land for creating IT Office Space:** A one-time rebate at ₹40,000 per male employee (₹50,000 per female employee) will be provided up to 60% of the cost of the land as determined by the Consideration Amount (value as defined in the Stamp Registration/ Sale Deed).\n2.  **Purchase of Built-Up office space for IT operations:** A one-time rebate will be provided up to 20% of the cost ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-claiming-the-rebatecopy-of-incorporation-certificate-copy",
+    "aadhaar",
+    "and-gst-tin-memorandum-and-articles-of-association-copy-of-the-first-bill-genera"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbuars",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.   All the New and Existing Units must have their operations in Goa.\n2.   The applicant must be one of the below:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n3.   The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n4.   The applicant unit shall be eligible for the benefits under this scheme only upon production of Udyog Aadhaar.\n5.   The unit can avail land/built-up area rebate only if the unit has operated from the said office space for a period of more than one year.\n6.  The employees should have been on the rolls of the company for a minimum period of one year.\n7.   To claim the incentive, the unit should achieve the targets (both investments and employment) mentioned in the business plan.\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-yuva-swavalamban-yojana",
+  "name": "Mukhyamantri Yuva Swavalamban Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefits\nThe details of the benefit of these scholarships is as follows:-\nTuition Fee Grant - Maximum LimitCoursesRs. 2,00,000/-Medical (MBBS), Dental (BDS)Rs. 50,000/-Professional Graduation Course (BE, BTech, BPharm, etc)Rs. 25,000/-Diploma CoursesRs. 10,000/-Other Graduation Courses (Bcom, BSc, BA, BCA, BBA, etc)\nNOTE: Applicable for Self-Finance Courses. Amount of 50% of the annual Tuition Fee",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-income-certificate-adhaar-card-self-declaration-form"
+  ],
+  "apply_url": "https://mysy.guj.nic.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mysy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n   1. For scholarship in Diploma admissions, the candidate should have passed the Std X from a recognized board from the state of Gujarat with a minimum 80 percentile in the board examination\n   1. For scholarship in Bachelor&amp;#39;s degree programs, the candidates should have passed Std XII Science/ General stream from a recognized board from the state of Gujarat with a minimum 80 percentile in the board examination.\n   1. For Diploma to Degree students, the minimum eligibility criteria for availing the benefits of the scheme is a 65% mark at the Diploma level examination from a recognized university situated in the state of Gujarat.\n   1. The candidates whose parents annual income is not more than Rs. 6,00,000/- per annum shall only be considered eligible for the said scheme.\n   1. The State Government has approved the validity of the income certificate for three financial years from the date of issue. Accordingly, a candidate who has a valid income certificate need not have to issue it again for the next three years financial years.\n\n&lt;br&gt;\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

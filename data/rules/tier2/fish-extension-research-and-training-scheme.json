@@ -1,0 +1,26 @@
+{
+  "id": "fish-extension-research-and-training-scheme",
+  "name": "Fish Extension, Research, and Training Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "**Training and Workshops:**\n\n- Fish Seed Producers: 3-day training with a subsidy of ₹225.50 per participant (excluding travel/accommodation).\n- Fish Farmers/Stakeholders: Workshops with a subsidy of ₹1500.50 per participant (covering expenses and travel up to ₹600).\n\n**Fish Production and Research:**\n\n- ₹2,00,000/- for producing 5 tons of Pangasius fish.\n- Support for research on new fish species",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-account-details-registration-proof-of-fish-farming-for-farme"
+  ],
+  "apply_url": "https://jharkhandfisheries.org/orders/2024/Rajyadeshno.%2005%20RA%20(VI)%20dated%2013.06.2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ferts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered fish farmer, fishery extension worker, or related entity in the fisheries sector.\n1. The applicant should have prior experience or relevant qualifications in the fisheries field.\n1. The applicant should be from a region identified under the scheme by the Department of Fisheries.\n1. Preference will be given to applicants from rural and underdeveloped areas.\n1. The applicant should have a valid bank account for fund disbursement.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "out-of-turn-employment-to-sportspersons-in-state-services",
+  "name": "Out of Turn Employment to Sportspersons in State Services",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, medal-winning players from Uttarakhand who have represented the state in International or National Games are provided out-of-turn employment on Gazetted and Non-Gazetted posts (from Level-3 to Level-10) across various government departments.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "medal-winning-certificate-aadhaar-card-residence-certificate-educational-certifi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otejtpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. State players/sportspersons who have won gold, silver, or bronze medals in international or national games, such as the Olympic/Paralympic Games, World Cup/World Championship, Asian Games, Commonwealth Games, Asian Championship, Commonwealth Championship, SAF Games, and National Games, are eligible under the scheme.\n   1. Players/sportspersons participating in any of the following sports will be considered eligible: Athletics, Archery, Badminton, Basketball, Boxing, Canoeing &amp;amp; Kayaking, Cycling, Diving, Equestrian, Fencing, Football, Golf, Handball, Hockey, Judo, Lawn Tennis, Shooting, Rowing, Sailing, Swimming, Table Tennis, Taekwondo, Volleyball, Weightlifting, Wrestling, Baseball, Chess, Cricket, Kabaddi, Karate, Kho-Kho, and Mallakhamb.\n   1. The player/sportsperson must be a permanent resident of Uttarakhand.\n   1. The player/sportsperson must have represented the state of Uttarakhand in the National Games in the year and competition for which they are applying for employment.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "indira-amma-bhojanalya",
+  "name": "Indira Amma Bhojanalya",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. Nutritious and affordable food at subsidized rates.\n2. **Subsidized Rates:** \n\n- The consumer pays ₹25/- per plate in hilly areas.\n- The consumer pays ₹20/- per plate in Dehradun, Haridwar, Udham Singh Nagar, and Nainital districts.\n- A subsidy of ₹10/- per plate is borne by the State Government.\n\n3. The Urban Development Authority, Municipal Corporation, or Municipality provides free space, fu",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-number-of-selected-self-help-group-mis-number-of-selected-self-help",
+    "containing-date-wise-customer-name",
+    "address",
+    "and-mobile-number-stock-register-to-be-maintained-during-operation-cashbook-to-b"
+  ],
+  "apply_url": "https://ukrd.uk.gov.in/scheme/pradhan-mantri-adarsh-gram-yojana/",
+  "source_url": "https://www.myscheme.gov.in/schemes/iabuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a women Self-Help Group (SHG) formed according to the guiding principles of the National Rural Livelihoods Mission (NRLM).\n   1. Self-Help Groups (SHGs) formed as per NRLM guidelines that are actively functioning and have received the minimum Revolving Fund (RF) — either under the restructured SGSY scheme or directly under NRLM, if not previously covered under SGSY — shall be eligible to operate the canteen.\n   1.  In urban areas, self-help groups (SHGs) under the National Urban Livelihoods Mission (NULM) are also eligible to operate Indira Amma Canteens. The Rural Development Department provides grants to support these groups in running the canteens.\n\n***Notes:***__ \n\n  - It is essential for self-help groups to maintain complete records of beneficiaries, including their names and places of residence, to ensure transparency and prevent any irregularities in receiving contributions provided by the state government.\n  - SHGs formed under NRLM guidelines and having received the Community Investment Fund (CIF) or a Micro Credit Plan specifically for operating an Indira Amma Canteen will be given preference.\n  - The tenure of operation of State Government funded/aided canteens operating in Municipal Corporation areas shall be maximum of 01 year and thereafter they will be eligible to operate the canteen again only after a period of 02 years.\n  - Except Municipal Corporation areas, the tenure of operation of canteens funded/aided by the State Government in other institutions/offices/bodies etc. will be maximum 02 years. Thereafter, they will be eligible to operate the canteen again only after a period of 04 years.",
+  "_criteria_filled": 2
+}

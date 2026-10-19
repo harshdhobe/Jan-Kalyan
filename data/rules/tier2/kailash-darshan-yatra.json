@@ -1,0 +1,26 @@
+{
+  "id": "kailash-darshan-yatra",
+  "name": "Kailash Darshan Yatra",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "One-time financial assistance is provided to the pilgrim for undertaking the Kailash Darshan Yatra.\n**Validity:** Once in a lifetime per pilgrim.\n_*The scheme guidelines do not specify the amount of the benefit; applicants should verify with the authorities._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-passport-certificate-of-participation-proof-of-selection-bank-details-fo"
+  ],
+  "apply_url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2018-9-27_365.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a pilgrim from Gujarat.\n- The applicant must have completed the Kailash Darshan Yatra.\n- The applicant must apply within 90 days of yatra completion.\n- The applicant must not have availed of the benefit before under this scheme.",
+  "_criteria_filled": 1
+}

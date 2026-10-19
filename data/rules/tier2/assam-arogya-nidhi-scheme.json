@@ -1,0 +1,36 @@
+{
+  "id": "assam-arogya-nidhi-scheme",
+  "name": "Assam Arogya Nidhi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Under this scheme, financial assistance up to a maximum benefit of ₹3.00 Lakh will be provided.\nUnder this scheme, any serious disease is to be covered which requires surgery/implants/procedures like Bone Marrow Transplant (BMT) or any other critical disease including serious accident cases.\nAll financial assistance will be admissible for treatment in all Government hospitals including Medical Col",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-the-patient-attested-by-doctor-attested-photocopy-of-income-certif",
+    "adhaar-card",
+    "driving-license-original-bills",
+    "vouchers",
+    "receipts",
+    "etc-copy-of-the-medical-documents-of-treatment-to-be-certified-by-treating-docto"
+  ],
+  "apply_url": "https://nhm.assam.gov.in/schemes/assam-arogya-nidhi",
+  "source_url": "https://www.myscheme.gov.in/schemes/aan",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All Indian citizens who are ordinarily resident of the State of Assam will be eligible under the scheme.\n1. The family income of the applicant should be less than ₹5.00 lakhs per annum.\n1. There will be no age limit for coverage under the scheme.\n1. No Govt. employee or Govt. pensioners and their family members will be eligible under the scheme.\n1. Treatment should be undertaken in any govt. hospital including Govt. Medical Colleges and all reputed Pvt. Hospitals registered under Clinical Establishment Act. anywhere in the state or in the country.\n\n<br>",
+  "_criteria_filled": 2
+}

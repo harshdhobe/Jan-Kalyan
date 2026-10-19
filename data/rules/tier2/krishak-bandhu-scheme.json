@@ -1,0 +1,26 @@
+{
+  "id": "krishak-bandhu-scheme",
+  "name": "Krishak Bandhu Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "**Direct Income Support**\n\n  - Farmers with one acre or more of cultivable land receive ₹10,000/- per annum, payable in two equal installments of ₹5,000/- each (one for Kharif and one for Rabi season).\n  - Farmers with less than one acre of cultivable land receive assistance on a pro-rata basis, subject to a minimum of ₹4,000/- per annum, paid in two equal installments.\n\n**Death/Disability Benefit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "record-of-rights-ror-of-cultivable-land-ror-recorded-with-barga-patta-record-for"
+  ],
+  "apply_url": "https://krishakbandhu.wb.gov.in/#",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Income Support**\n\n  - The applicant must be a resident of West Bengal.\n  - The applicant must own cultivable land (up to 2 acres).\n  - The applicant must be actively engaged in farming.\n\n**For Death/Disability Benefit**\n\n  - The deceased/disabled person must have been a farmer aged 18–60 years.\n  - The applicant must be the legal heir (for death benefit).",
+  "_criteria_filled": 1
+}

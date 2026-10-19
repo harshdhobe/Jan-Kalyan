@@ -1,0 +1,61 @@
+{
+  "id": "laadli-laxmi-scheme",
+  "name": "Laadli Laxmi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> **For Unmarried Beneficiaries** (beneficiaries who attain the age of majority i.e. 18 years on or after 01-04-2012)\n\n1. Financial Assistance of ₹ 1,00,000, by means of a bank fixed deposit, jointly in the name of the Director (DoWCD) and the applicant.\n1. The fixed deposit shall be renewed annually automatically on maturity, along with the amount of interest accrued, till the date of claim by th",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-birth-certificate-self-attested-2-any-document-as-proof-self-attested-of-15-ye",
+    "the-previous-school-leaving-certificate-and-the-current-bonafide-student-certifi",
+    "in-the-case-of-girls-who-discontinued-education-at-the-school-level",
+    "the-gap-period-ie",
+    "from-the-time-of-discontinuation-of-education-till-completion-of-18-years-of-age",
+    "may-be-proved-by-the-production-of-residence-certificate-in-the-case-of-graduate",
+    "the-certificates-of-passing-of-xth",
+    "xiith-and-graduation-are-adequate-evidence-3-residence-certificate-of-the-parent",
+    "any-documentary-evidence-to-prove-the-residence-for-the-specified-period-can-als",
+    "mundcarial-rights",
+    "occupancy-rights",
+    "etc",
+    "b-employment-certificate",
+    "or-c-any-such-records-to-the-satisfaction-of-the-committee-d-in-case-of-a-girl-w",
+    "in-lieu-of-the-certificate-of-residence-such-applicant-may-produce-the-service-c",
+    "the-girl-should-be-born-in-goa-and-should-have-studied-in-goa-up-to-class-10th-4",
+    "b-school-leaving-certificate-of-the-parents-etc",
+    "c-any-document-which-establishes-that-one-of-the-grandparents-of-the-girl-has-li",
+    "d-any-such-records",
+    "which-establish-the-date-of-birth-of-the-parents-5-aadhaar-card-for-the-applican",
+    "the-government-by-separate-order-may-relax-the-requirement-of-producing-the-aadh",
+    "for-a-further-period-of-time",
+    "as-may-be-prescribed-in-the-said-order-6-a-self-declaration-in-the-format-as-giv",
+    "issued-by-the-competent-authority-the-income-certificate-shall-include-the-annua",
+    "such-an-application-shall-be-sanctioned-if-the-applicant-submits-her-15-years-of",
+    "may-apply-along-with-the-attested-copy-of-the-civil-marriage-registration-certif"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/01/Laadli-Laxmi-Scheme-Griha-Aadhar-Schme-Amendment-Notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lls-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Girl.\n1. The applicant should be born in the State of Goa OR should be a resident of Goa for the last fifteen years.\n1. In case, the applicant is a resident of Goa for the last fifteen years, she should have been educated in Goa for a minimum period of 7 years (continuous).\n1. The parental income of the applicant does not exceed ₹ 3,00,000 per annum.\n1. The applicant should qualify for ANY ONE of the following three criteria:\n\n             a)   At least one of the parents of the applicant is born in Goa and is also a resident of Goa for the last fifteen years.\n             b)   One of the parents of the applicant is residing in Goa for the last twenty-five years.\n<br>\n\n**NOTE:** In case the applicant is an affected person of Tillari Irrigation Project (a joint venture of the Government of Goa and the government of Maharashtra) and was rehabilitated in the State of Goa, her application shall be sanctioned if she produces a certificate issued by the Collector, North Goa District relaxing the condition of 10/15 years domicile in the State of Goa for various purposes for her family.",
+  "_criteria_filled": 3
+}

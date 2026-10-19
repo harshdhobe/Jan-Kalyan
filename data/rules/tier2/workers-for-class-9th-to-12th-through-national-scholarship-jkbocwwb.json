@@ -1,0 +1,26 @@
+{
+  "id": "workers-for-class-9th-to-12th-through-national-scholarship-jkbocwwb",
+  "name": "Workers for Class 9th to 12th Through National Scholarship (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "An annual scholarship of ₹1,200 per child (up to two children)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-worker-and-their-child-bocw-id-card-age-proof-certificate-st"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/wfctnsjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n> **For the Application of the Welfare Scheme:**\n\n1. One of the student&#39;s parents must be a registered member of the Building and Other Construction Workers (BOC) Welfare Board.\n1. The applicant must be studying in classes 9th to 12th.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "disabled-state-level-award-scheme",
+  "name": "Disabled State Level Award Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "The following benefits are provided under the scheme:\n**Sl. No.****Name of the Award****Category****Number of Award****Form of Award**1Best Disabled Employee1.\tVisually impaired 2.\tHearing impaired 3.\tLocomotor           4.\tCerebral palsy /multi-disabilityOne Award at each category₹5,001/- cash, appreciation certificate, certificate to each category2Best Employers (Regarding Disabled Persons)1.\tVi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "the-details-of-the-achievement-along-with-supporting-documentspapers-adequate-do"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/prizeinareaofdisabled.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dslas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be one of the following:\n•\tA disabled employee in Chhattisgarh\n•\tAn employer of persons with disabilities\n•\tA voluntary organization working for the benefit of persons with disabilities\n•\tA district in Chhattisgarh providing provisional facilities as outlined in the Disabilities Act\n2.\tThe applicant should be from Chhattisgarh.\n3.\tAmong all the districts, the district which has done the most work for the facilities provided in the Act for the rehabilitation of all types of disabled persons in the area, will be rewarded.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "madhya-pradesh-fasal-vividhikaran-crop-diversification-encouragement-scheme",
+  "name": "Madhya Pradesh Fasal Vividhikaran (Crop Diversification) Encouragement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- The scheme permits the costs incurred for necessary inputs provided to farmers to inspire them towards diversification.\n- The scheme primarily sanctions costs related to Human Resources (Manav Sansadhan) deployed for area overlap and Marketing (Vipanan).\n- The scheme generally does not sanction Capital (Poonji) expenditure.\n- Capital expenditure may be sanctioned only in special circumstances fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-must-be-submitted-along-with-the-application-record-of-q",
+    "firm",
+    "or-institution-project-viability-report-required-for-examination-by-the-state-le"
+  ],
+  "apply_url": "https://mpkrishi.mp.gov.in/hindisite_New/pdfs/06062022_order.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpfvcdes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Company, Firm, or Institution.\n- The applicant must maintain all records and qualifications as a qualifying Company, Firm, or Institution.\n- The applicant must advise the farmer regarding the sowing of the &#39;Eligible Crop&#39; and the associated Agriculture Practice (Krishi Karyapranali).\n- The applicant must confirm the purchase of the &#39;Eligible Crop&#39;.\n- The applicant must execute the crop diversification work.\n- The applicant must make a mandatory tie-up with another Company, Firm, or Institution for the purchase of the &#39;Eligible Crop&#39;.\n- The applicant must ensure they themselves do not purchase the crop.\n- The Eligible Crop must be any crop, excluding wheat (Gehun) and paddy (Dhan), that is sown in place of wheat and paddy.\n- The Eligible Crop must not be covered under Minimum Support Price (MSP).\n- Horticultural crops must also be included in the Eligible Crops.\n\n<br>",
+  "_criteria_filled": 1
+}

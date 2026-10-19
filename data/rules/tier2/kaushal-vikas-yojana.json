@@ -1,0 +1,26 @@
+{
+  "id": "kaushal-vikas-yojana",
+  "name": "Kaushal Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "1. **Training fees and materials:** Board will reimburse expenses of institute-fixed fees, textbooks, and other training-related stationery.1. **Exam:** After training, will have to pass an assessment test.1. **Wages**: In case the registered worker himself receives training, an amount equivalent to the minimum wage of the unskilled worker will be reimbursed but only registered workers are eligibl",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-registration-certificate-proof-of-deposit-of-updated-contribution-a"
+  ],
+  "apply_url": "https://www.upbocw.in/pdf/adhisuchna/kaushal%20vikas%20yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant himself or his/her husband/wife/father must be a registered construction worker and his/her contribution must be updated.\n1. If the registered worker himself wants to undergo training, then his/her age should be between 18-35.\n1. Age dependencies: \n\n  - Dependent wife/ unmarried daughter has no age limit. \n  - The maximum age of dependent son is 21 years",
+  "_criteria_filled": 1
+}

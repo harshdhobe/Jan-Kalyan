@@ -1,0 +1,37 @@
+{
+  "id": "karmaveer-padmashri-dadasaheb-gaikwad-birth-centenary-and-prize-distribution",
+  "name": "Karmaveer Padmashri Dadasaheb Gaikwad Birth Centenary And Prize Distribution",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The person winning the award and his/her institute will get ₹51,000/- along with a memorabilia, shawl and coconut.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-work-experience-in-the-social-welfare-sector-proof-of-registration-from",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/awards",
+  "source_url": "https://www.myscheme.gov.in/schemes/kpdgbcpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have done a social movement work.\n1. The applicant should be from a Social Welfare Sector or Institute, and should be registered.\n1. The period of the Social Service by the applicant should be 15 years &amp; above.\n1. For male applicants, the age should not be below 50 years. For female applicants, the age should not be below 40 years.\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "reimbursement-of-stamp-duty-and-registration-charges",
+  "name": "Reimbursement of Stamp Duty and Registration Charges",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "50% reimbursement of stamp duty and Registration charges paid to the Registration department on the purchase of land meant for industrial use.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-copy-of-registered-land-sale-deed-documen"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/stamp_duty.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsdarc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a manufacturing enterprise (micro or small scale), set up in the declared backward blocks of the state of Tamil Nadu.\n- This incentive is admissible to eligible enterprises on the land area up to five times the plinth area of the factory building constructed.\n- However, in respect of enterprises where the open land requirements would be large, due to the peculiar nature of the industry, the sanctioning Authority may consider allowing land in excess of five times the plinth area on case to case basis.\n\n<br>\n\nKnow Your Eligibility for this Scheme [here](Verify your Eligibility for the Scheme here\nhttps://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php)",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pravasi-bharatiya-bima-yojana",
+  "name": "Pravasi Bharatiya Bima Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "The Insured person shall be covered for a sum of ₹10 Lakh in the event of accidental death or permanent disability leading to loss of employment while in employment abroad, irrespective of change of employer/location of insured person.\nCertification of accidental death or permanent disability by Indian Missions and Posts abroad shall be accepted by the insurance companies.\nMedical insurance cover ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      }
+    ]
+  },
+  "documents": [
+    "in-case-of-death-due-to-accident-police-report-confirming-accidental-death-post",
+    "documents-depending-on-the-nature-of-claim-as-may-be-sought-by-the-company",
+    "inter-alia-original-insurance-certificate-policy-application-form-for-compensati",
+    "if-death-occurs-outside-india"
+  ],
+  "apply_url": "https://www.mea.gov.in/pbby.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an Overseas Indian (cleared emigration)\n1. The age of the applicant must be between 18 - 65 Years (Maximum entry age is subject to emigration clearance).",
+  "_criteria_filled": 2
+}

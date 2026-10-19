@@ -1,0 +1,26 @@
+{
+  "id": "advanced-animal-breeding-scheme-supply-of-breedable-pedigree-murrah-bull-on-subs",
+  "name": "Advanced Animal Breeding Scheme (Supply of Breedable Pedigree Murrah Bull on Subsidy)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Subsidized Murrah Bull**\n\n- Total unit cost: ₹62,000\n- Bull cost: ₹60,000\n- Transportation and insurance: ₹2,000\n- Government grant: 75% of total cost\n- Beneficiary contribution: 25% of total cost\n\n**Additional Support**\n\n- Transportation assistance included\n- Insurance coverage included",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://mpdah.gov.in/schemes/view/MmtKQWJCbTN3VGFXME5sTGw1bkFvUT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/aabssobpmbos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a progressive cattle breeder or a trained cow-helper.\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be willing to maintain and breed the Murrah bull.",
+  "_criteria_filled": 1
+}

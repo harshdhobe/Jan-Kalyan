@@ -1,0 +1,36 @@
+{
+  "id": "apy",
+  "name": "Atal Pension Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Guaranteed pension of Rs 1000-5000/month after age 60.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "has_bank_account",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bank_or_post_office_savings_account"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/apy",
+    "apply": "https://jansuraksha.gov.in/Files/APY/ENGLISH/APY.pdf"
+  },
+  "notes": "Age 18-40 with auto-debit bank account. Check official page for exclusions."
+}

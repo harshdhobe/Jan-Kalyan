@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-mahila-poshan-yojana",
+  "name": "Mukhyamantri Mahila Poshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the scheme, pregnant and lactating women are provided eggs two days a week and dates two days a week. Dates are given to those registered women who do not consume eggs.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "etc"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmpyu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a pregnant or lactating woman.\n\n<br>",
+  "_criteria_filled": 2
+}

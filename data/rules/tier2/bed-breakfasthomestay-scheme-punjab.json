@@ -1,0 +1,32 @@
+{
+  "id": "bed-breakfasthomestay-scheme-punjab",
+  "name": "Bed & Breakfast/Homestay Scheme- Punjab",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "The Bed &amp;amp; Breakfast/Homestay Scheme will provide the following benefits to the registered owners of the property:\n\n   1. A useful source of additional income for homeowners registered as BnB/Homestay units.\n   1. Association with the prestigious Punjab Tourism brand and Bed &amp;amp; Breakfast/Homestay unit owners to be allowed to use Punjab Tourism Logo on their sign boards.\n   1. The ben",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "checklist-of-facilities-duly-filled-annexure-ii-signed-declaration-annexure-iii",
+    "if-any-annexure-iv-identity-proof-aadhaar-carddriving-licensepassportvoter-cardg",
+    "ration-card",
+    "pan-card",
+    "pensioner-card",
+    "freedom-fighter-card-proof-of-ownership-allotment-letter",
+    "conveyance-deed-photograph-of-kitchen-photograph-of-main-gate-photograph-of-park"
+  ],
+  "apply_url": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=RMaeWxfIrR&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/bbhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Breakfast/Homestay units will be categorized as follows:** **Gold Category &amp;amp; Silver Category**\n&gt; **Eligibility for Gold category:**\n\n   1. The construction of the house should not be more than 20 years old at the time of submission of the first application for registration.\n   1. The property should have at least 25% open area such as lawn/green area/outside terrace.\n   1. Provision for hygienic storage of food should be there.\n   1. Adequate parking space for the guests inside the premises should be there.\n\n&gt; **Eligibility for Silver Category:**\n\n  - The properties which do not fulfill the criteria prescribed for the Gold category having at least one let-able room shall be eligible for registration under the Silver category.\n\n&gt; **Other General Conditions:**\n\n   1. The owner of the property should have at least one let-able room and a maximum of six let-able rooms (12 beds).\n   1. The registration for Bed &amp;amp; Breakfast / Homestay unit will be given only in those cases where the owner of the house is physically residing in the same property.\n   1. In the case of BnB unit, the type of breakfast to be offered will have to be specified, the charges will be displayed and the visitors will be informed in advance to avoid any unnecessary dispute.\n   1. Tariffs charged under BnB Scheme are at the discretion of the individual home-owner and should be inclusive of breakfast every day. The Homestay Scheme will be excluding breakfast. However, the owner of the Homestay is free to arrange the breakfast for the guest on mutually accepted terms.\n   1. Every registered unit must be furnished and decorated to a high standard of comfort suitable for international as well as domestic travellers. In addition to the bedroom, guests should also be allowed to use the sitting room or other appropriate common space/area on the property.\n   1. Every bedroom must have a neat &amp;amp; clean attached bathroom with a washbasin, 24-hour hot and cold running water facility, Western-style toilet with flush and adequate arrangements for power supply and backup, ventilation, and lighting facility.\n   1. The premises should be structurally safe and in good condition and should also meet the standards of hygiene, cleanliness, and safety.\n\n&gt; **Compliance by the registered units:**\n\n   1. The Bed &amp;amp; Breakfast/Homestay unit will be required to maintain the standards as per the checklist at all times. The Chief Executive Officer, PHTPB, or any other officer authorized by Govt. can conduct a surprise inspection of the unit at any time between 9.00 am to 5.00 pm without any previous notice.\n   1. In case of any violation, the CEO, PHTPB may cancel the registration of the unit. However, before cancellation CEO shall provide a due opportunity of being heard to the defaulting owner.\n   1. Any deficiencies pointed out by the Chief Executive Officer will have to be removed within the time stipulated by the CEO. In case of non-compliance of the same within the stipulated time or 3 months, whichever is lesser; the registration shall become liable for cancellation without any further notice.",
+  "_criteria_filled": 1
+}

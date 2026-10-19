@@ -1,0 +1,40 @@
+{
+  "id": "serb-power-fellowship",
+  "name": "SERB - POWER Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Fellowship of ₹15,000/- per month in addition to regular income.\n   1. Research grant of ₹10 Lakhs per annum. Research grants can be used for minor equipment, research personnel, consumables, contingencies, and domestic travel.\n   1. Overheads for the host institute.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 35
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-candidate-2-passport-size-photograph-3-proof-of-age-4-educat",
+    "name-of-the-bank",
+    "bank-branch",
+    "and-ifsc-code-7-any-other-document",
+    "as-required"
+  ],
+  "apply_url": "https://serb.gov.in/page/awards_fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/serbpowerf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The nominee should be an active woman scientist with an excellent record of research performance as an independent investigator.\n   1. The nominee should be an outstanding woman researcher and innovator working in Indian academic institutions and R&amp;amp;D laboratories, holding Ph.D. degrees in any branch of science and engineering.\n   1. The nominee should be in regular service throughout the duration of the Fellowship.\n   1. The nominee should be an Indian citizen between 35-55 years of age working in institutions in India.\n   1. The nominee should not be receiving any other fellowships from Government sources during the tenure.",
+  "_criteria_filled": 3
+}

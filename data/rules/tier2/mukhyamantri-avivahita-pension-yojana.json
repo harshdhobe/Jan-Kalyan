@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-avivahita-pension-yojana",
+  "name": "Mukhyamantri Avivahita Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Pension amount: ₹ 600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-samagra-card-address-proof-bank-account-statement-passport-size-phot"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=572",
+  "source_url": "https://www.myscheme.gov.in/schemes/maps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants should be a native of Madhya Pradesh State.\n1. The applicants should be Unmarried women. \n1. Applicant&#39;s age should be 50 years or more\n1. Applicants should not be income taxpayers.\n1. Applicants should not be a government employee/officer (government employee/officer means state or central government or government-aided corporation, undertaking, is from the employees/officers working under the organization.) \n1. Applicants should not be honorary employees working in government/non-government offices.",
+  "_criteria_filled": 3
+}

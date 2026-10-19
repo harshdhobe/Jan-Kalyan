@@ -1,0 +1,37 @@
+{
+  "id": "award-of-incentive-for-marriage-between-persons-with-benchmark-disabilities-othe",
+  "name": "Award Of Incentive For Marriage Between Persons With Benchmark Disabilities & Other Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The amount of incentive is fixed at ₹ 2,50,000/- and shall be disbursed to the couple through IFMS.\n   1. The amount of incentive shall be locked in for 3 years. \n   1. Withdrawal is allowed in three phases with the withdrawal of 10% of the funds after 6 months, the next 10% after one year, and the balance of 80% of the funds after the successful completion of 3 years of the marriage. \n   1. Th",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-district-medical-board-as-notified-by-the-gover",
+    "the-person-will-have-to-submit-proof-of-hisher-application-for-aadhaar-aadhaar-s"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2022-05/1613-compressed.pdf.8a9e70c914a93fec1e53659996d879ae.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aimpwbdop",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bridegroom and the bride must have completed 21 years and 18 years of age respectively at the time of the marriage. \n   1. Both of the spouses should be residents of Odisha State.\n   1. The cash incentive award can be given to either of the spouses with a benchmark disability if another person marries a Person with a Benchmark Disability (Disability Percentage of 40% or above). \n   1. The said marriage should be dowry free.\n   1. Neither of the spouses should have availed of the incentive award under this scheme earlier.\n   1. The beneficiary qualifying for the incentive of both the Departments i.e. ST &amp;amp; SC Development, Minorities, and Backward Class Welfare Department, and the Department of SSEPD will be left to opt to avail the benefit under one Department to avoid duplication.",
+  "_criteria_filled": 3
+}

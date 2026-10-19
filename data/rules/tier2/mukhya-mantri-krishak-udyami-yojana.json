@@ -1,0 +1,36 @@
+{
+  "id": "mukhya-mantri-krishak-udyami-yojana",
+  "name": "Mukhya mantri Krishak Udyami Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **For projects worth Rs 10 lakh or more:-**\n\n- For general class\t15% (maximum ₹12,00,000)\n- For BPL category 20% (maximum ₹18, 00, 000)\n- For women entrepreneurs, a 6% and male 5% interest subsidy \n- the guarantee fee will be payable at the prevailing rate for a maximum of 7 years.\n\n<br>\n\n> **For projects less than Rs 10 lakh:-**\n\n- 15% of the project cost (maximum  ₹1,00,000 ) for the general c",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-pan-card-birth-certificate-bpl-certificate-land-farming-paper-income"
+  ],
+  "apply_url": "https://mpmsme.gov.in:8080/mpmsmecms/Uploaded%20Document/Documents/SES%20order.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Madhya Pradesh.\n- The age of the applicant should be between 18 to 45 years.\n- Educational qualification should be a minimum of 10th class.\n- The parents of the beneficiary should not have their agricultural land.\n- The applicant should not be an income taxpayer.\n\n<br>",
+  "_criteria_filled": 3
+}

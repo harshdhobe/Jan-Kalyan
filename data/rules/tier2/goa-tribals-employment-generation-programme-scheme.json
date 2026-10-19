@@ -1,0 +1,41 @@
+{
+  "id": "goa-tribals-employment-generation-programme-scheme",
+  "name": "Goa Tribal's Employment Generation Programme Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Type of Activity:** Micro &amp; Small Manufacturing Enterprises\n**Maximum Project Cost (₹ in Lakh):** 25\n**Maximum Working Capital Limit:** 35%\n<br>\n\n**Type of Activity:** Service Enterprises\n**Maximum Project Cost (₹ in Lakh):** 15\n**Maximum Working Capital Limit:** 80%\n<br>\n\n**Type of Activity:** Trade Enterprises\n**Maximum Project Cost (₹ in Lakh):** 15\n**Maximum Working Capital Limit:** 80% ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-loan-assistancefill-up-the-prescribed-application-form-and-submit-the-same-i",
+    "badge",
+    "and-business-assurance-recommendation-letter-in-case-of-loan-for-the-vehicle-10",
+    "in-the-format-provided-with-the-application-form-for-project-reportfill-up-the-p",
+    "from-authorized-dealers-2-registration-of-the-unit-wherever-necessary-3-noctrade",
+    "pertaining-to-the-proposed-premises-7-electricitywater-connection-proof-wherever"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2023/07/GTEGP-Application-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtegp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be Unemployed.\n1. The age of the applicant should be between 18 and 45 years.\n1. The applicant should have passed Class 4th (relaxable for deserving cases).\n1. The applicant should be a Member of the Tribal Community notified by the Government of Goa.\n1. The applicant should not be a defaulter to any bank, financial institution, etc.\n1. The applicant should have been a permanent resident of Goa for at least 15 years.\n1. The eligible activities are Micro and small manufacturing enterprises, Service enterprises, and Trade Enterprises.\n1. The non-eligible activities are Farming activities, tobacco products and red-category industries.",
+  "_criteria_filled": 3
+}

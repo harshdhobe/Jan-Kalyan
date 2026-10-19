@@ -1,0 +1,32 @@
+{
+  "id": "nirman-shramik-avm-unke-aashrit-bacchon-dwara-bhartiya-rajasthan-prashasnik-seva",
+  "name": "Nirman Shramik Avm Unke Aashrit Bacchon Dwara Bhartiya Rajasthan Prashasnik Seva Hetu Aayojit Pratibhabhik Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. On passing the preliminary examination of Indian Administrative Service – ₹1,00,000/-\n1. On passing the preliminary examination of Rajasthan Administrative Service – ₹50,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-registration-identity-card-of-the-beneficiary-copy-of-the-beneficiar",
+    "bank-account-number-and-ifs-code-self-attested-copy-of-the-mark-sheetcertificate"
+  ],
+  "apply_url": "https://sso.rajasthan.gov.in/signin",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsauabdbrpshapy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be registered construction workers who are continuously depositing contributions\n1. The annual income of the applicant parents from all sources should not exceed ₹2,50,000/-\n1. Applicant who are already working in government services will not be given benefits.\n1. The applicant must have passed the following preliminary competitive examination:-\n\n   1. Indian Administrative Service.\n   1. Rajasthan Administrative Service.\n\n1. No benefit will be payable under this scheme for administrative examination of states other than Rajasthan state.\n1. Incentive amount will be given maximum once only for Indian Administrative Service and Rajasthan Administrative Service, that is, if incentive amount has been given for competitive examination in the past, then in the coming year, incentive amount will be given again for passing the preliminary examination of the same competitive examination. But incentive amount will not be payable.\n1. If any fact is found to be false in the information given by the beneficiary in the assistance application submitted under the scheme, then it will be the responsibility of the concerned beneficiary to deposit the entire amount of assistance accepted under the scheme in one lump sum along with interest.",
+  "_criteria_filled": 2
+}

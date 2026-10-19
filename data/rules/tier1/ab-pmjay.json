@@ -1,0 +1,96 @@
+{
+  "id": "ab-pmjay",
+  "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Health cover of Rs 5 lakh per family per year for secondary and tertiary care hospitalisation.",
+  "criteria": {
+    "any": [
+      {
+        "all": [
+          {
+            "field": "household.area_type",
+            "op": "==",
+            "value": "rural"
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "field": "household.house_type",
+                    "op": "==",
+                    "value": "kutcha"
+                  },
+                  {
+                    "field": "household.rooms",
+                    "op": "<=",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "household.no_adult_16_59",
+                "op": "==",
+                "value": true
+              },
+              {
+                "field": "household.no_adult_male_16_59",
+                "op": "==",
+                "value": true
+              },
+              {
+                "field": "household.disabled_member_no_able_adult",
+                "op": "==",
+                "value": true
+              },
+              {
+                "field": "household.is_sc_st",
+                "op": "==",
+                "value": true
+              },
+              {
+                "field": "household.landless_manual_labour",
+                "op": "==",
+                "value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "field": "household.special_vulnerable_group",
+        "op": "==",
+        "value": true
+      },
+      {
+        "all": [
+          {
+            "field": "household.area_type",
+            "op": "==",
+            "value": "urban"
+          },
+          {
+            "field": "household.has_listed_urban_worker",
+            "op": "==",
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "age_identity_proof",
+    "address_proof",
+    "caste_certificate",
+    "income_certificate"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/ab-pmjay",
+    "apply": "https://www.pmjay.gov.in/about/pmjay"
+  },
+  "notes": "Simplified from SECC criteria. A match means 'likely eligible', not confirmed."
+}

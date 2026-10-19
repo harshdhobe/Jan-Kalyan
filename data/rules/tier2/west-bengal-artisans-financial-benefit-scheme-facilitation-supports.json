@@ -1,0 +1,36 @@
+{
+  "id": "west-bengal-artisans-financial-benefit-scheme-facilitation-supports",
+  "name": "West Bengal Artisans Financial Benefit Scheme: Facilitation Supports",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- Facilitation for enlistment on the State Portal for Artisans.\n  - Facilitation for formation of Industrial Cooperative Society.\n  - Facilitation for obtaining statutory requirements.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-enrolment-in-the-state-portal-for-artisans-weavers-registration-certifi"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/circularpdf/1709828650Notification%20for%20West%20Bengal%20Artisans%20Financial%20Benefit%20Scheme%202024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbafbsfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to any group of artisans.\n  - The age of the applicant should be between 18-60 years.\n  - Applicant should be engaged in traditional Craft/ trade with hand tools/ equipment/ small machines.\n  - Applicant should be enlisted in the State Portal for artisans &amp;amp; weavers. \n  - Applicant should be an Indian citizen permanent resident of West Bengal for the past 10 years.",
+  "_criteria_filled": 3
+}

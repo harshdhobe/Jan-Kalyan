@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-for-education-gbocwwb",
+  "name": "Financial Assistance for Education (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance, as determined by the Board, for the education of the children of the Worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "if-applicable-educational-certificatesmarksheets-of-the-latest-qualifying-examin",
+    "signed-before-mlamppanchayat-presidentgazetted-officer-of-the-state-or-central"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-8-Financial-Assistance-For-Education.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fae-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Worker registered with the Goa Building and Other Construction Workers Welfare Board.\n- The worker should be between 18 to 60 years of age.\n- The worker should have completed ninety days of service as a registered worker in the year.\n- The ward of the worker should be pursuing education.",
+  "_criteria_filled": 3
+}

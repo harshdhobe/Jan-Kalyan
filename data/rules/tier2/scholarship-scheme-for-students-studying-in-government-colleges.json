@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-scheme-for-students-studying-in-government-colleges",
+  "name": "Scholarship Scheme for Students Studying in Government Colleges",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> Scholarships are provided to students:\n\n- Science stream: ₹3,000 per annum.\n- Commerce stream: ₹2,000 per annum.\n- Arts stream: ₹1,000 per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "graduate-marksheet-hsc-pass-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssssgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat state. \n1. The applicant must be a student.\n1. The applicant must be studying in a government college in Gujarat.\n1. The applicant must be pursuing higher education in Arts, Commerce, or Science stream.\n1. The applicant must have passed the Higher Secondary Certificate (HSC) examination.\n1. The applicant should have secured a rank in the first, second, or third position at the university level in Arts, Commerce, or Science.\n\n<br>",
+  "_criteria_filled": 1
+}

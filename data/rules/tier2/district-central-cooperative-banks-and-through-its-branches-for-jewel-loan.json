@@ -1,0 +1,28 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-jewel-loan",
+  "name": "District Central Cooperative Banks and through its Branches: For Jewel Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Up to ₹1,00,000/-.- **Interest Rate:** 12% (subject to change).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-valuation-certificate-for-the-pledged-jewelry-any-other-docume"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3569",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbfjl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n- Loans should be applicable only for Jewel.",
+  "_criteria_filled": 1
+}

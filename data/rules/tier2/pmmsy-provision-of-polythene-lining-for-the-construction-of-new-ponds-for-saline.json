@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-provision-of-polythene-lining-for-the-construction-of-new-ponds-for-saline",
+  "name": "PMMSY: Provision of Polythene lining for the Construction of New ponds for Saline/Alkaline area-Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is ₹8,00,000/- per hectare. \n- The subsidy provided will be limited to 25% of the project cost for all categories.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-beneficiary-and-fisheries-department-date-of-birth-certif",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-for-projects-on-leased-land-bi"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=Lb2viaU6jRA+yYMlAXmZVg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/pplcnpsaahr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchan Patra (PPP).\n1. The polythene lining cost shall be provided for new water bodies created under the various state government.\n1. Beneficiaries shall be provided with central assistance for the polythene lining cost for the initial crop only in newly constructed.\n1. Central assistance for the Polythene lining cost shall be released only after the ponds are ready for fish/shrimp culture.\n1. The projects having land on long-term lease shall also be considered for Central financial assistance. However, the registered lease period/agreement shall not be a minimum period of 7 (seven) years.",
+  "_criteria_filled": 1
+}

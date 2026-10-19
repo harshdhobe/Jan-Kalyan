@@ -1,0 +1,27 @@
+{
+  "id": "mahatma-jyotirao-phule-jan-arogya-yojana",
+  "name": "Mahatma Jyotirao Phule Jan Arogya Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- **Health Coverage for Categories A to E (Excluding D):** ₹5 lakhs per family per year on a floater basis under both schemes.- **Health Coverage for Category D:** ₹1 lakh per person per year.\n<br>\n\n**Medical Benefits**\n• For categories A to E (Excluding D) - 1356 Health Benefits Packages under 34 specialities.\n• For category D – 184 Health Benefits Packages for Road accident patients.\n**Follow-up",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-valid-photo-id-proofs-to-be-accepted-along-with-document-of-eligible-cri",
+    "any-document-that-is-accepted-for-issuance-of-an-aadhaar-card-will-also-be-accep"
+  ],
+  "apply_url": "https://www.jeevandayee.gov.in/MJPJAY/FrontServlet?requestType=CommonRH&actionVal=RightFrame&page=undefined%3E%3E%3Cb%3EMJPJAY%3C/b%3E&pageName=MJPJAY&mainMenu=About&subMenu=MJPJAY",
+  "source_url": "https://www.myscheme.gov.in/schemes/mjpjay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Category A:** Families holding Yellow, Antyodaya Anna Yojana (AAY), Annapurna Yojna and Orange Ration Card.\n**Category B**\t\n• White ration card holder families (including Govt./Semi Gov employees).\n• A family without having any kind of ration card but having domicile certificate of Maharashtra\n**Category C**\t\n• Students in Govt. and Govt. recognized Ashram School\n• Children in Govt. and Govt. recognized Orphanages\n• Women in Govt. and Govt. recognized Women&#39;s Ashram\n• Sr. citizens in Govt. and Govt. recognized old age homes\n• Journalists and their dependent family members as per criteria of Directorate General of Information and Public Relations Office.\n• Construction workers and their families (who are resident of outside of Maharashtra) registered with Maharashtra Building and Other Construction Workers Board.\n**Category D**\t\n\n- Road traffic accident victims from outside Maharashtra and outside India who met with an accident on roads in Maharashtra\n\n**Category E**\nFamilies holding below mentioned ration cards from 865 villages of Belgaon, Karwar, Kalburgi and Bidar Districts of Maharashtra- Karnataka border\n1) Antyodaya Anna Yojana (AAY)\n2) Priority House Holder (PHH)\n3) Annapurna Yojna",
+  "_criteria_filled": 1
+}

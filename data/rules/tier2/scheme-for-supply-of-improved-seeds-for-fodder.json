@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-supply-of-improved-seeds-for-fodder",
+  "name": "Scheme for Supply of Improved Seeds for Fodder",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Maize: Up to 10 kits (5 kg each)\n\n- Sorghum: Up to 50 kits (5 kg each)\n- Oats: Up to 5 kits (5 kg each)\n- Lucerne: Up to 20 kits (2 kg each)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-712",
+    "8-a",
+    "and-6-rights-of-own-land-copy-of-lease-agreement-if-land-is-leased-certificate-f"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=39qrRafhk/+DT2MD43m3eA==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsoisf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Panjrapol must be registered under the Charity Act.",
+  "_criteria_filled": 1
+}

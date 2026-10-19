@@ -1,0 +1,26 @@
+{
+  "id": "hearing-aid-grant-sainik-welfare",
+  "name": "Hearing Aid Grant (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹8,000/-, for the purchase of Hearing Aid.\n- The amount is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-esm-discharge-certificate-of-ex-serviceman-pre"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/spectacles_grant.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hag-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen)/Widow of an Ex-serviceman.- The applicant should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.\n\n- The applicant should not be a member of the Ex-Servicemen Contributory Health Scheme (ECHS).",
+  "_criteria_filled": 1
+}

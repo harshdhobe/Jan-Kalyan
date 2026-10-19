@@ -1,0 +1,31 @@
+{
+  "id": "pension-benefit-tbocww",
+  "name": "Pension Benefit (TBOCWW)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- **A pension of ₹1,000/- per month is to be paid till the death of the pensioner.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "original-copy-of-boc-worker-registration-identity-card-photocopy-of-beneficiarys"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/scheme.php?id=6",
+  "source_url": "https://www.myscheme.gov.in/schemes/pb-tbocww",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be registered under the Tripura Building and Other Construction Workers’ Welfare Board. \n1. The registered applicant should be working as a building worker for not less than 5 years.  \n1. The applicant&#39;s age should be 60 years or above.",
+  "_criteria_filled": 2
+}

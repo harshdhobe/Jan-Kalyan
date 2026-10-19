@@ -1,0 +1,29 @@
+{
+  "id": "atal-shresth-shahar-yojna",
+  "name": "Atal Shresth Shahar Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "**Incentive Pattern:**\nThe incentive pattern for ASSY prize winners i.e. Municipal Corporation, Municipal Council and Nagar Panchayat will be as under:\n**Prize****Municipal Corporation (₹)****Municipal Council (₹)****Nagar Panchayat (₹)**1st Prize1,25,00,000/-1,00,00,000/-75,00,000/-2nd Prize---75,00,000/-50,00,000/-3rd Prize---50,00,000/-25,00,000/-**Note:** In case of a tie for a particular posi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "report-of-fund-utilization-in-respect-of-funds-provided-during-preceding-the-las",
+    "user-charges",
+    "rent",
+    "and-income-from-other-sources-during-the-last-fy-details-of-audit-paras-settled"
+  ],
+  "apply_url": "https://ud.hp.gov.in/schemes-projects/atal-shresth-shahar-yojna-assy",
+  "source_url": "https://www.myscheme.gov.in/schemes/assy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme applies to all the Urban Local Bodies (ULBs) in the State.\n   1. It is mandatory for all the ULBs of the state to participate in the scheme.\n   1. There will be no bar on any ULB to participate in the scheme even if it has won an ASSY prize in the preceding year(s).\n   1. Any ULB making a false claim will be penalized suitably by deduction of its grant and disciplinary action will be initiated.\n\n**Indicator for Assessment:**\nThe top-performing ULBs will be selected on the basis of their performance on various indicators as given below.\nSl. No.ParameterIndicatorsMax Score1Swachh Survekshan Parameter1. Swachh SurvekshanAs fixed by GoI on year to year basis.2State Parameter1. Public Service Delivery15002. Increase in Income20003. Fund Utilisation15004. Public Infrastructure5005. Audit Paras settlement and audited account1000The ULBs will be ranked on the basis of the score obtained in Swachh Survekshan of the preceding year and the score obtained in the other five (5) State Parameters. The format for self-assessment of ULBs on which a claim is to be made by the ULBs is given at [Annexure-A](https://ud.hp.gov.in/sites/default/files/DAY%20NULM/AMRUT/ASSY_Guidlines_2022.pdf). There will be an online platform on which information will be submitted by the ULBs on or before the fixed date of the submission every year.\n**Note:**\n\n  - The first parameter i.e. Swachh Survekshan will be evaluated as per Swachh Servekshan criteria fixed by GoI on a year-to-year basis.\n  - Marks obtained by ULB in the assessment made by GoI in Swachh Survekshan of the previous year will be taken into account for inclusion every year.",
+  "_criteria_filled": 1
+}

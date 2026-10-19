@@ -1,0 +1,32 @@
+{
+  "id": "pre-matric-scholarship-for-scheduled-tribe-students-studying-in-classes-9th-10th",
+  "name": "Pre-Matric Scholarship For Scheduled Tribe Students Studying In Classes 9th & 10th",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "**Scholarship for 10 Months**\n\n- Day Scholars receive a scholarship of ₹225/- monthly (₹2,250/- annually).\n- Hostelers receive ₹525/- monthly (₹5,250/- annually).\n\n**Books and Ad Hoc Grant**\nDay Scholars receive a lump sum grant of ₹750/-, and Hostelers receive a grant of ₹1,000/-.\n**Additional Disability Allowance**\n\n- Divyangjan students, leprosy-cured students, and students having sickle cell a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-domicile-certificate-scheduled-tribe-certificate-issued-by-the-co",
+    "issued-by-a-competent-medical-authority-medical-certificate-for-leprosy-cured-st"
+  ],
+  "apply_url": "https://directoratetribalaffairsplain.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsstsscnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Tribe, as specified in relation to the State or Union Territory to which they actually belong (Domicile State).\n- The applicant must be studying in Class IX or Class X.\n- The applicant must be studying in a Government School or in a School recognized by the Government or a Central or State Board of Secondary Education.\n- The applicant must have a total family income from all sources that does not exceed ₹2,50,000/- per annum.\n- The applicant must have a valid account in a Scheduled Bank.\n- The applicant must have a bank account linked with their Aadhaar number.\n- The applicant must have a bank account linked with an active mobile number.\n- The applicant must not be getting any other scholarship.\n\n<br>",
+  "_criteria_filled": 2
+}

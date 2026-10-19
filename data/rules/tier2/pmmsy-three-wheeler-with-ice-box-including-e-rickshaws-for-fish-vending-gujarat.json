@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-three-wheeler-with-ice-box-including-e-rickshaws-for-fish-vending-gujarat",
+  "name": "PMMSY: Three wheeler with Ice Box including e-rickshaws for fish vending - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The unit cost is ₹3,00,000/-. 40% assistance for the General category, i.e. ₹1,20,000/- and 60% i.e. up to ₹1,80,000/- for women and the ST/SC category.\n1. The benefit will be available as per the target (category) allocated by the Government of India.\n\n<br>\n\n> **Remarks:** 60% contribution from Government of India and 40% contribution from State Governments is paid.\n\n> **Minimum Time Limit (in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-quotation-caste-certificate-if-applicable-fishing-license-passport-s"
+  ],
+  "apply_url": "https://cof.gujarat.gov.in/Home/SchemesDetailsPage/o4rkgGvkhO9IQUTkb5zosA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyfvguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat state.\n1. The applicant should have a fishing boat registered under Real Craft software.\n1. The applicant should hold a fishing license.\n1. The applicant should complete the online registration on the [iKhedut Portal](https://ikhedut.gujarat.gov.in/site/).1. The applicant should obtain in-principle approval before purchase of the floor plan.\n1. The applicant should have his/her own bank account.\n\n> **Preference/Reservation/Relaxation:**\n\n  - Women, SC, and ST beneficiaries are eligible for 60% assistance of the unit cost.\n  - General category beneficiaries are eligible for 40% assistance of the unit cost.\n\n<br>",
+  "_criteria_filled": 1
+}

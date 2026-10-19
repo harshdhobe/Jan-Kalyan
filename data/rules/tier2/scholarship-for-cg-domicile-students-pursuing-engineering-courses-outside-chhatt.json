@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-for-cg-domicile-students-pursuing-engineering-courses-outside-chhatt",
+  "name": "Scholarship for C.G. Domicile Students Pursuing Engineering Courses Outside Chhattisgarh State",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹2000/- month to cover educational expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "admission-letter-from-a-recognized-engineering-college-attested-copies-of-mark-s"
+  ],
+  "apply_url": "https://cgdteraipur.cgstate.gov.in/sites/default/files/admissioninfo0310.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfspbbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a domicile of Chhattisgarh.\n- The applicant must be enrolled in a recognized engineering college outside Chhattisgarh.\n- The applicant should be studying in IIT / NIT / IISc or in an AICTE-approved institution.\n- The applicant should be enrolled in the first year of a B.E./B.Tech. course.\n- The applicant should have secured at least 60% marks in the 12th examination.\n- The applicant must not be receiving any other scholarship from the state/central government or other sources.",
+  "_criteria_filled": 1
+}

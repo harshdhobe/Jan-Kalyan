@@ -1,0 +1,26 @@
+{
+  "id": "nishulk-ganavesh-yojana",
+  "name": "Nishulk Ganavesh Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, two sets of uniforms per student are provided through DBT/SMC to students studying in classes 1 to 8 of government and government-aided schools, covering all girls, all boys belonging to Scheduled Caste and Scheduled Tribe categories, and boys from the General category belonging to BPL families.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-respective-school"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be either a girl student, or a boy student belonging to the Scheduled Caste, Scheduled Tribe, or General Category BPL family.\n1. The applicant must be studying in Classes 1 to 8.\n\n<br>",
+  "_criteria_filled": 1
+}

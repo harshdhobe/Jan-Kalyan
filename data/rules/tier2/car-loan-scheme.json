@@ -1,0 +1,27 @@
+{
+  "id": "car-loan-scheme",
+  "name": "Car Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** 70% of the cost of the vehicle.\n**Security:** Immovable property situated in the UT of Puducherry to the extent of 100% of the loan amount.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-and-personal-documentscopies-of-pan-card-copies-of-voters-identity-copi",
+    "for-30-years-or-20-years-certified-copy-or-original-encumbrance-certificate-for"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/cls-pucu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to the employees of the Government of Puducherry &amp; Employees of the Government of Puducherry undertaking.\n<br>",
+  "_criteria_filled": 1
+}

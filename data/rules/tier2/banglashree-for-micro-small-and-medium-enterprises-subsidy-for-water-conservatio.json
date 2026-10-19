@@ -1,0 +1,34 @@
+{
+  "id": "banglashree-for-micro-small-and-medium-enterprises-subsidy-for-water-conservatio",
+  "name": "Banglashree for Micro, Small and Medium Enterprises: Subsidy for Water Conservation/Environment Compliance (WCS)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "**Pattern Of Assistance:** An eligible micro or small enterprise for its approved project will be entitled to a reimbursement of 50% of expenditure incurred by it towards the cost of captive Effluent Water Treatment Plant for wastewater recycling and/ or other pollution control devices subject to a maximum of ₹ 2,00,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-memorandum-of-association-and-articles-of-association-authenticated",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "money-receipts-existing-manufacturing-activities-in-west-bengal-stating-items",
+    "annual-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-case-of-rented-leaseh",
+    "copy-of-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conversion-c",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-scheme-copies-of-relevant",
+    "money-receipts-for-expenditure-incurred-towards-cost-of-pollution-control-device"
+  ],
+  "apply_url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTU5/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MDFfMTU0M19tc21ldF8xODAxMV8yMjA3MjAyMF9jb21wcmVzc2VkLnBkZg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmsmewcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The business/organization should be a Micro/ Small/ Medium Enterprise.\n  - The business/organization should belong to the manufacturing sector.\n  - The business/organization should have started production on or after 1st April 2019.\n  - The business/organization should be in the private sector/ cooperative sector/ joint sector undertaking or should be a company/ undertaking owned and managed by the State Government or the Industrial SHGs.\n  - The Date of Commencement of Commercial Production (DOCCP) should be between 1st April 2020 to 31st March 2025.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "naunihal-scholarship-yojana",
+  "name": "Naunihal Scholarship Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "The &quot;Scholarship&quot; amount mentioned against each class and course will be payable in lump sum annually.\n<br>\n\nCategoriesBoy StudentsGirl StudentsClass 1st to 5th ₹ 1,000/-₹ 1,500/-Class 6th to 8th₹ 1,500/-₹ 2,000/-Class 9th to 12th₹ 2,000/-₹ 3,000/-Graduation (B.A./ B.Sc / B.Com / ITI Diploma etc₹ 3,000/-₹ 4,000/-Post Graduation M.A./ M.Sc / M.Com / Post Graduate Diploma etc.₹ 5,000/-₹ 6,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "original-scanned-copy-of-the-beneficiarys-surviving-labor-registration-identity"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/193788_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsych",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be resident of Chhattisgarh. \n1. Only two children from a same will get the benefits.\n1. There is no requirement for a specific grade to obtain the scholarship\n1. There will be no requirement of marks to avail the benefits of the scheme.\n1. After admission in college/polytechnic or other course for engineering or medical education, the students receiving scholarship amount under this scheme will be required to study for minimum 1 year in that course. In case of first year dropout, the scholarship amount will have to be returned.\n1. The beneficiary should have worked as a construction worker for at least 90 days in the period of one year before the date of application.",
+  "_criteria_filled": 1
+}

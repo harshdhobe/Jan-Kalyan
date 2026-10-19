@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-bayan-jyoti-yojana",
+  "name": "Mukhyamantri Bayan Jyoti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "- **Free Tube Lights:** Distribution of 20-watt tube lights free of cost to beneficiaries.  - **Inverter Purchase Assistance:** ₹17,500/- is given in two installments  for purchasing inverters (1st installment of ₹10,000/- for purchase of equipment and 2nd installment of ₹7,500/ - after purchase of equipment).  - **Free Fans:** 35-watt fans given to beneficiaries at no cost.  - **Interest-Free Loa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-documents-to-be-submitted-along-with-the-application-form-copy-of-recent",
+    "full-name",
+    "name-of-fatherspouse",
+    "address",
+    "bank",
+    "branch",
+    "account-number",
+    "ifsc-and-micr-code-details-into-which-the-assistance-will-be-deposited-account-m"
+  ],
+  "apply_url": "https://handloom.odisha.gov.in/sites/default/files/2021-12/Guidelines%20for%20implementation%20of%20MBJY%20for%20weaver%20household%20and%20families%20of%20the%20state.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbjy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- He/ She must be a bonafide weaver/ full-time ancillary worker. \n- He/ She is a permanent resident/ domicile of Odisha.\n- The family income from all sources does not exceed ₹3, 00,000/- per annum.\n- At least 50% income of the family should be from weaving activities.\n- He or she should purchase the lighting unit from a GST-registered dealer with a valid TIN.\n- Where more than one member of a family is found eligible, only one of them will be entitled to benefit under this scheme",
+  "_criteria_filled": 2
+}

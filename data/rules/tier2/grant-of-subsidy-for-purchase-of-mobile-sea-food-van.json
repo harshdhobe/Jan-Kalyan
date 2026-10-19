@@ -1,0 +1,36 @@
+{
+  "id": "grant-of-subsidy-for-purchase-of-mobile-sea-food-van",
+  "name": "Grant of Subsidy for Purchase of Mobile Sea Food Van",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "1. The scheme provides a subsidy of 75% on the cost of the mobile seafood van, including fabrication of the body, procurement of an insulated ice-box, a two-burner stove, cooking utensils, and accessories.\n2. The remaining 25% is expected to be covered by a bank loan.\n<br>\n\n> **MODE OF DISBURSEMENT**\n\nThe subsidy portion will be released to a separate account of the beneficiary in the bank.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-residential-certificate-of-the-union-territory-of-pudu"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/mobile-sea-food-van.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspmsfv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the fishermen community.\n2. The applicant should be a resident of the Union territory of Puducherry by birth/domicile.\n3. The applicant should be a non-overdue member of the Primary Fisheries Co-operative Society concerned.\n4. The applicant should be between 18 and 50 years old.\n5. The applicant should not be employed in Government, Government Undertaking, or societies, either part-time or full-time.\n6. The applicant should be a registered Fisherwomen Co-operative Society in the Union territory of Puducherry, or a group under SHGs registered under District Rural Development Agency and Puducherry Urban Development Agency fold.",
+  "_criteria_filled": 3
+}

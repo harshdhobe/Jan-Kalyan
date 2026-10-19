@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-farmers-for-mini-tractor-and-power-tiller-in-farm-mechanization-pr",
+  "name": "Assistance to Farmers for Mini Tractor and Power Tiller in Farm Mechanization Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Mini Tractors up to 20 HP and Power Tillers above 8 BHP:**\n\n- **General Category Farmers:** Financial assistance of ₹45,000/- or 40% of the equipment cost, whichever is less.- **SC/ST Farmers:** Financial assistance of ₹60,000/- or 50% of the equipment cost, whichever is less.\n> **Power Tillers Below 8 BHP:**\n\n- **General Category Farmers:** Financial assistance of ₹40,000/- or 40% of the equi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/afmtptfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer.\n  - The applicant should be a resident of Gujarat.\n  - The applicant should be engaged in agricultural practices and require mechanization support.\n  - The applicant should intend to purchase either a mini tractor up to 20 HP, or a power tiller (either above or below 8 BHP).\n\n<br>",
+  "_criteria_filled": 1
+}

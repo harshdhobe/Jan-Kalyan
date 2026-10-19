@@ -1,0 +1,37 @@
+{
+  "id": "grant-of-stipend-to-junior-advocates-scheme",
+  "name": "Grant of Stipend to Junior Advocates Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- The scheme provides a stipend of ₹5,000/- per month with effect from 01.04.2019.\n- The previous stipend amount was ₹3,000/- per month from 01.01.2018 to 31.03.2019.\n- The stipend is provided to 25 eligible Junior Advocates every year.\n\n##### ***Benefit Disbursal***\n\n- **Duration Limit:** The assistance is provided for a period of two years or till starting independent practice, whichever is earl",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-enrolment-certificate-attested-copy-of-the-certificate-evid",
+    "union-territory-of-puducherry-legal-services-authority-attendance-certificate-is"
+  ],
+  "apply_url": "https://law.py.gov.in/docs/Stipend.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsjas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a citizen of India.\n- The applicant must be a native by birth or resident of the Union territory of Puducherry for a continuous period of five years.\n- The applicant must have pursued a Law degree in any Government Law College.\n- The applicant must be a Law Graduate.\n- The applicant must have enrolled in the Bar Council of Tamil Nadu and Puducherry.\n- The applicant must have passed the All India Bar Examination conducted by the Bar Council of India.\n- The applicant&#39;s family income must not exceed ₹2,00,000/- per annum.\n- The applicant must not be above 30 years of age.\n- The applicant must comply with the rules of the [scheme guidelines](https://law.py.gov.in/docs/Stipend.pdf) during the period of financial assistance.\n##### ***Preference, Priority, Reservation, Relaxation, Earmarking, etc.***\n\n- **Reservation:** The Rule of reservation notified by the UT of Puducherry for Government employment shall be followed.- **Earmarking:** One-third of the beneficiaries shall be women.- **Selection Criteria (Merit):** Selection will be based on the marks obtained in the qualifying examination (Bachelor&#39;s Degree in Law).- **Selection Criteria (Merit):** Selection will be based on the marks secured in the 12th Standard Board examination.- **Selection Criteria (Merit):** Negative marks will be applied for additional attempts in the qualifying examination.\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,32 @@
+{
+  "id": "chief-minister-kanya-utthan-yojana",
+  "name": "Chief Minister Kanya Utthan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "**Target Group**\n\n1. To the girl child born from the date of issue of notification.\n1. Given only to two girl children of the family.\n1. Payable to a family resident in Bihar.\n\n<br>\n\n**Nature of Grant:**\n\n1. Rs. 2,000/- will be transferred to the Parents/guardians of every girl child in the age group from 0 to 1 year. \n1. After the completion of 1 year of the girl child and Aadhaar registration, t",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-the-residential-certificate-photocopy-of-birth-registration-certifi",
+    "the-columns-of-the-prescribed-application-form-will-be-attested-by-the-anganwadi"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukyamantri%20Kanya%20Uthan%20Yojna/Mukyamantri%20Kanya%20Utthan%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmkuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl children should be residents of Bihar.\n   1. The birth has been duly registered.\n   1. The benefit of this scheme will be payable to the girl child born from the date of issue of the notification.\n   1. This benefit will be given only to two girl children of a family.\n   1. On the first day of the date of the beneficiary application of the scheme, Rs. 2,000 and for the second child of 1-2 years, Rs. 1,000 will be payable to the mother/father/guardian of the girl child after fulfilling all the prescribed conditions.",
+  "_criteria_filled": 2
+}

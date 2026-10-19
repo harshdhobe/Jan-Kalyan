@@ -1,0 +1,31 @@
+{
+  "id": "bus-traveling-facility-for-visually-impairedbus-concession",
+  "name": "Bus Traveling Facility For Visually Impaired/Bus Concession",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "1. Delhi Transport Corporation provides the facility of free traveling in DTC Buses to persons with vision impairment.\n1. The applicant having 100% disability will get a 50% concession for their escort/attendant.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-etc-card-issued-by-sdm-residential-proof-passport"
+  ],
+  "apply_url": "https://discomm.delhi.gov.in/discomm/schemes-and-facilities-persons-disabilities",
+  "source_url": "https://www.myscheme.gov.in/schemes/btfvibc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Delhi.\n1. The applicant should have 40% and above disability.\n1. Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM).\n\n**Note:** Facility of concession to the escort is given to those who have not less than 100% blindness.",
+  "_criteria_filled": 2
+}

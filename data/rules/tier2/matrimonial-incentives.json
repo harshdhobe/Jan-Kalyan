@@ -1,0 +1,37 @@
+{
+  "id": "matrimonial-incentives",
+  "name": "Matrimonial Incentives",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The eligible couple will get up to ₹ 50,000/- as financial assistance. The nature of financial assistance is as below –\n\n1. Saving Certificate of ₹ 25,000/-.\n1. ₹ 20,000/- in cash.\n1. ₹ 4,500/- in the form of household utility.\n1. ₹ 500/- to attend the marriage incentive program.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-proof-of-marriage-any-other-document-required-by-the-district-social-welfare"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare?&Submit=Submit",
+  "source_url": "https://www.myscheme.gov.in/schemes/mi-maha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. The applicant should have been married to a non-disabled person.",
+  "_criteria_filled": 2
+}

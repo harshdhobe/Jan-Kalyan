@@ -1,0 +1,38 @@
+{
+  "id": "jharkhand-state-migrant-labourers-survey-and-rehabilitation-scheme",
+  "name": "Jharkhand State Migrant Labourers Survey and Rehabilitation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "***Financial assistance and livelihood support for workers and families:***\n<br>\n\n**S. No.****Category****Benefits to Registered Workers****Benefits to Unregistered Workers**1In case of death or permanent disability (the dependent or beneficiary will receive)₹1,50,000/-₹1,00,000/-2Loss of both eyes or two limbs₹1,50,000/-₹1,00,000/-3Loss of one eye or one limb₹75,000/-₹50,000/-4Death/Natural Disas",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-in-jharkhand-aadhar",
+    "voter-id",
+    "etc-proof-of-employment-or-migration-outside-jharkhand-identity-proof-of-the-app"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/Inter_state_migrant_workers_scheme_notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsmlsrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The migrant worker must be a resident of Jharkhand.\n1. The worker must be between the ages of 18 and 65 years.\n1. The death or injury must have occurred due to an accident while working outside the state.\n1. The worker must be engaged in an unskilled or semi-skilled job.\n1. The worker should belong to economically weaker sections (EWS).",
+  "_criteria_filled": 3
+}

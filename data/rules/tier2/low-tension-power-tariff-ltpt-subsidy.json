@@ -1,0 +1,27 @@
+{
+  "id": "low-tension-power-tariff-ltpt-subsidy",
+  "name": "Low Tension Power Tariff (LTPT) Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "LTPT subsidy of 20% is given for 36 months from the date of commencement of production or from the date of obtaining power connection, whichever is later, after allotment of an Entrepreneur Memorandum (Part 2) number from the District Industries Centres.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "for-eligibility-certificate-applicationattested-copy-of-eb-meter-card-copy-of-ud",
+    "the-copies-should-be-duly-attested-by-the-branch-manager-of-the-bank-that-financ"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/html_cye_ltpt.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltpts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For New Enterprises**\n\n- All new Micro manufacturing enterprises established anywhere in the State\n- All new Small and Medium manufacturing enterprises established in all the 251 industrially backward blocks.\n- All new Agro-based industries in 385 blocks in the state.\n\n<br>\n\n> **For Expansion/diversification Enterprises**\n\n- Existing Manufacturing Enterprises of the above categories that have taken up substantial expansion/diversification of the existing activities, subject to the condition that expansion ( or) diversification involves enhancement of plant and machinery value by at least 25 % of the value of existing plant and machinery and also involving enhancement of turnover by 25 % for the same product (or) new products lines.\n\n**NOTE:** Only the enterprises using Low Tension Power supply (Tariff III B) are eligible.\n<br>\n\n> **Cases Involved in Multiple Service Connection of an Enterprise**\n\nIn cases of enterprises having multiple LT connections in the same premises, LTPT subsidy would be eligible for the first service connection only. However, if the enterprise has branch unit(s) in a different location(s) then an LTPT subsidy will be given to each of the LT connections (first LT service connection only)subject to the satisfaction of the above norm.",
+  "_criteria_filled": 1
+}

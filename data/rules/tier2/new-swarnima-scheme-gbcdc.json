@@ -1,0 +1,41 @@
+{
+  "id": "new-swarnima-scheme-gbcdc",
+  "name": "New Swarnima Scheme (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. **Loan Amount:** The maximum loan limit under this scheme is up to ₹200,000/- per beneficiary.1. **Interest Rate:** The interest rate in these schemes will be 5% per annum.1. **Loan Coverage:** 95% of unit cost financed by the national corporation (NBCFDC), 5% by the state government.\n<br>\n\n> **Repayment Terms:** Repayable in 60 equal monthly installments, including interest.\n\n> **Mode of Disbu",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-voter-id-passport-size-photos-business-address-proof-bi"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nssgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to a socially and educationally backward class.\n1. The total annual income of the applicant&#39;s family should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 and 45 years as on the date of application.\n1. The applicant must have experience in a business requiring technical and other skills.\n\n<br>",
+  "_criteria_filled": 4
+}

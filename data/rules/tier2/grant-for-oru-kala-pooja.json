@@ -1,0 +1,27 @@
+{
+  "id": "grant-for-oru-kala-pooja",
+  "name": "Grant For Oru Kala Pooja",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹20,000/- per annum per temple for meeting expenses towards the performance of Oru Kala Pooja.\n- Financial assistance of ₹1,000/- per annum per temple for meeting expenses towards Current Consumption Charges.\n- Financial assistance of ₹500/- per annum per temple for meeting expenses towards Water Consumption Charges.\n\n##### ***Disbursement***\n\n- Financial assistance shall",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "application-stagecopy-of-document-regarding-the-land-in-which-the-temple-is-situ",
+    "hindu-religious-institutions-to-certify-the-total-annual-income-from-all-sources"
+  ],
+  "apply_url": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gokp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be the concerned temple authority.\n- The temple must be situated in the Union Territory of Puducherry.\n- The temple must have poor resources.\n\n<br>",
+  "_criteria_filled": 1
+}

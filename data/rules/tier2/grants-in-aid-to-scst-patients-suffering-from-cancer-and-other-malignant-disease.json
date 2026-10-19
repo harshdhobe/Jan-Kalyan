@@ -1,0 +1,26 @@
+{
+  "id": "grants-in-aid-to-scst-patients-suffering-from-cancer-and-other-malignant-disease",
+  "name": "Grants In Aid To SC/ST Patients Suffering From Cancer And Other Malignant Diseases",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Under the scheme, such SC / ST patients will be given a one-time, fixed financial assistance of Rs. 50,000/- (Rupees Fifty thousand)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-caste-certificate-in-prescribed-performa-of-applicant-suffering-from-cancer-or"
+  ],
+  "apply_url": "https://wptbc.assam.gov.in/sites/default/files/swf_utility_folder/departments/wpt_uneecopscloud_com_oid_3/menu/document/guideline_for_fin_grant-in-aid_to_sc-st_patients_suffering_from_cancer_and_other_malignant_diseases.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gascstpsfcad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tThe applicant must belong to an SC / ST community of Assam. \n2)\tPerson suffering from cancer or other malignant diseases may apply.\n3)\tNo person shall be eligible to claim this financial aid more than once. \n<br>",
+  "_criteria_filled": 1
+}

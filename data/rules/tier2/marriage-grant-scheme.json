@@ -1,0 +1,41 @@
+{
+  "id": "marriage-grant-scheme",
+  "name": "Marriage Grant Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "The assistance of ₹20,000/- is provided per marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 56460
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-income-certificate-caste-certificate-certificate-showing-the-date-fi"
+  ],
+  "apply_url": "https://www.backwardwelfareup.gov.in/en/page/marriage-grant-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. To the daughters of poor individuals of other backward classes (excluding minorities in backward classes).\n   1. The annual income of the applicant in urban areas should not exceed Rs. 56,460/- and in rural areas Rs. 46,080/-.\n   1. The age of the girl and boy must be 18 years and 21 years or more respectively.\n   1. Applicants of other backward classes will have to enter the serial number of the online Caste Certificate issued by the Tehsil in their online application form. \n   1. Priority will be provided to the destitute woman after the death of the husband or widow applicant and they will not be needing a caste certificate.\n   1. Marriage grants will be allowed up to a maximum of 02 daughters from a family.",
+  "_criteria_filled": 4
+}

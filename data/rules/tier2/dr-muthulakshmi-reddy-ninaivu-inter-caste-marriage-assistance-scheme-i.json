@@ -1,0 +1,31 @@
+{
+  "id": "dr-muthulakshmi-reddy-ninaivu-inter-caste-marriage-assistance-scheme-i",
+  "name": "Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme-I",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹25,000/-. \n- 1 Sovereign (8gm) 22-carat gold coin for making Thirumangalyam.\n\n<br>\n\n> **Mode of disbursal:**\n\n₹15,000 through Electronic Clearing Service and ₹10,000 in the form of National Savings Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "marriage-invitation-marriage-registration-certificate-community-certificate-of-t"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmrnicmasi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bride should have passed the 10th standard (5th standard in case the applicant is from a Scheduled Tribe).\n1. The age of the bride should be above 18 years at the time of marriage.\n1. One spouse should be from a Scheduled Caste/Scheduled Tribe and the other should be from a different Community.\n\n<br>",
+  "_criteria_filled": 2
+}

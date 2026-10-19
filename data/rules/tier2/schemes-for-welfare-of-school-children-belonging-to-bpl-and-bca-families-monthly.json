@@ -1,0 +1,31 @@
+{
+  "id": "schemes-for-welfare-of-school-children-belonging-to-bpl-and-bca-families-monthly",
+  "name": "Schemes for welfare of School Children belonging to BPL and BC(A) families: Monthly Stipend for BPL Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**A.  For Girl Students:**\n\n   1. Class 1 to 5: ₹150/- per month\n   1. Class 6 to 8: ₹200/- per month\n   1. Class 9 to 12: ₹300/- per month\n   1. Class 11 to 12 **(Science Students only)**: ₹400/- per month\n**A.  For Boy Students:**\n\n   1. Class 1 to 5: ₹75/- per month\n   1. Class 6 to 8: ₹100/- per month\n   1. Class 9 to 12: ₹150/- per month\n   1. Class 11 to 12 **(Science Students only)**: ₹200/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-bpl-category-certificate-issued-by-a-competent-authority-school-enrollm"
+  ],
+  "apply_url": "https://schooleducationharyana.gov.in/document/scholarship-scheme-schemes-for-welfare-of-school-children-belonging-to-bpl-and-bca-families-dated-02-03-2009/",
+  "source_url": "https://www.myscheme.gov.in/schemes/wcbpls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Below Poverty Line (BPL) category.\n1. The applicant should be a student From Classes 1 to 12.\n1. The applicant should be enrolled in a Haryana Government school.\n1. The applicant should maintain at least 50% attendance to continue receiving benefits.\n1. The applicant should have an active bank account for stipend transfer.",
+  "_criteria_filled": 2
+}

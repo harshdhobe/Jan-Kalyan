@@ -1,0 +1,27 @@
+{
+  "id": "death-benefit-mbocwwb",
+  "name": "Death Benefit (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Under the scheme, an amount of ₹2,00,000/- shall be given to the nominees or dependents of registered construction workers towards death benefit, in case of natural death.\n   1. If the death is due to an accident during the course of employment, the nominee or dependent of registered construction workers shall be given ₹3,00,000/- towards death benefit.\n   1. The amount of ₹2,00,000/- for Natur",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "mbocwwb-id-card-of-worker-death-certificate-challanreceipt-of-the-monthly-subscr",
+    "licence-or-others-bank-passbook-applicant-address-proof-medical-certificate-nomi"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbmbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal nominee or dependent of the deceased worker.\n   1. The deceased worker should have been a resident of the Meghalaya.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The deceased worker should have been registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The financial assistance shall be given to the nominees or dependents of deceased registered workers in the event of their natural or accidental death during their course of employment.",
+  "_criteria_filled": 1
+}

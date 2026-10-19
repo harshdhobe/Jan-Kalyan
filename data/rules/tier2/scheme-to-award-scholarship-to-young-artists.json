@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-award-scholarship-to-young-artists",
+  "name": "Scheme to Award Scholarship to Young Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Government College of Fine Arts, Chennai**\n\n- Scholarship of ₹3,000/- to 10 outstanding students studying in final year B.F.A. (Bachelor of Fine Arts).\n- Scholarship of ₹5,000/- to 4 outstanding students studying in final year M.F.A. (Master of Fine Arts).\n\n**Government College of Fine Arts, Kumbakonam**\n\n- Scholarship of ₹3,000/- to 10 outstanding students studying in final year B.F.A. (Bachelo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "photographs-of-artworks-created-by-the-applicants"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stastya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be studying in the final year of B.F.A. or M.F.A. \n1. The applicant should be studying at the Government College of Fine Arts, Chennai or the Government College of Fine Arts, Kumbakonam.",
+  "_criteria_filled": 1
+}

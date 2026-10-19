@@ -1,0 +1,36 @@
+{
+  "id": "assistance-scheme-for-construction-worker-in-case-of-general-or-accidental-death",
+  "name": "Assistance Scheme For Construction Worker In Case Of General Or Accidental Death Or Injury",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "In case of normal death or accident (death or injury) of the beneficiary construction worker assistance amount will be given as follows :-\nRs. 5,00,000/- in case of death due to accident\nRs.3,00,000/- in case of permanent total disability due to accident\nRs 1,00,000/- for partial permanent disability due to an accident.\nUp to Rs.20,000/- in case of serious injury in an accident\nUp to Rs.5000/- for",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-and-jan-aadhaar-card-2-labor-card-3-death-certificate-in-case-of"
+  ],
+  "apply_url": "https://labour.rajasthan.gov.in/Schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/asfcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a Resident of Rajasthan State.\n2. Construction workers in the age group of 18 to 60 years will be eligible for this scheme.\n3. Applicant should be registered as Construction Worker under labor laws.\n No assistance shall be payable in the event of death or injury caused by suicide or by consumption of drugs or substances or in case of death or injury caused by assault on one another in contravention of law for the purpose of committing an offence.\n<br>",
+  "_criteria_filled": 3
+}

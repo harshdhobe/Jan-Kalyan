@@ -1,0 +1,46 @@
+{
+  "id": "financial-assistance-to-poor-needy-widow-women",
+  "name": "Financial Assistance To Poor & Needy Widow Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "The financial assistance will be at the rate of ₹ 2,000/- per annum per widow.\nThe scheme will cover all the eligible beneficiaries within the State of Manipur.\nFinancial assistance will be continued with the fresh/Renewal application every year if the fund is available.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "residential-domicile-certificate-of-the-state-of-manipur-details-of-the-bank-acc"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/1f/d9/1fd92642-986e-411d-a9b2-3d73c856e115/draft_ruleterm__condition.jpg",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapnw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the state of Manipur.\n1. The applicant should be a Widow.\n1. The age of applicant should be between 18-40 years.\n1. The applicant should belong to a Below Poverty Line (BPL) household.",
+  "_criteria_filled": 5
+}

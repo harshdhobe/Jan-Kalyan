@@ -1,0 +1,46 @@
+{
+  "id": "new-akanksha-scheme-higher-education-loan-ggdc",
+  "name": "New Akanksha Scheme (Higher Education Loan) (GGDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Educational Loan Details:**\n**1. Loan Amount:** \n\n- Up to ₹15,00,000/-\n\n**2. Interest Rate:** \n\n- 3.5% for female students \n- 4% for male students\n\n**3. Contribution:** \n\n- 95% contribution from the Corporation/State Government,\n- 5% from the beneficiary\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 17
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-ration-number-voter-id-voter-identification-number-income-certifi",
+    "hsc",
+    "diploma",
+    "degree",
+    "graduation-university-information-accreditation-proof-from-the-authority-that-ac",
+    "stationery-and-other-materials-required-for-the-course-other-fees-details-bank-a"
+  ],
+  "apply_url": "https://ggdconline.gujarat.gov.in/Educations/AddEdit",
+  "source_url": "https://www.myscheme.gov.in/schemes/newakankshaggvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be pursuing higher professional education such as Medical, Dental, Engineering, Pharmacy, or related course.\n1. The applicant should have secured admission in an institution approved by AICTE, UGC, or any recognized university.\n1. The applicant should belong to the Rabari or Bharwad caste from the socially and educationally backward class.\n1. The total annual income of the applicant’s family should not exceed ₹3,00,000/-.\n1. The applicant’s age should be between 17 and 45 years.\n\n<br>",
+  "_criteria_filled": 4
+}

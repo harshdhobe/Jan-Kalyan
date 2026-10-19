@@ -1,0 +1,44 @@
+{
+  "id": "rupashree-prakalpa",
+  "name": "Rupashree Prakalpa",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- Under this scheme, a one-time financial grant of ₹25,000/- is provided to economically stressed families at the time of their adult daughters’ marriages.\n\n**Note:**\n\n- The scheme’s financial benefit will be paid by direct bank transfer to a bank account held singly in the name of the applicant.\n- The sanctioned grant is transferred through IFMS (Integrated Financial Management System) to the ban",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-applicants-age-self-attested-photo-copy-of-any-one-of-the",
+    "account-number",
+    "bank-address",
+    "ifsc-indian-financial-system-code-code-and-other-details-proof-of-proposed-marri"
+  ],
+  "apply_url": "https://rupashree.wb.gov.in/search-applicant/search-by-applicant",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbrupashree",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman who proposes to be married.\n1. The applicant should have attained the age of 18 years.\n1. The applicant should be unmarried on the date of submitting her application.\n1. The proposed marriage should be her first marriage.\n1. The applicant should have been born in West Bengal, OR she should have been a resident of West Bengal for the last 5 years, OR her parents should be permanent residents of West Bengal.\n1. The applicant&#39;s family income should not be more than ₹1,50,000/- per annum.\n1. Her prospective groom should have attained the age of 21 years.\n1. The applicant should have an active bank account for which she is the sole account-holder. The bank account should be in a bank that has an IFSC (Indian Financial System Code) and a MICR (Magnetic Ink Character Recognition) code and transacts e-payments through NEFT (National Electronic Funds Transfer).\n\n<br>",
+  "_criteria_filled": 4
+}

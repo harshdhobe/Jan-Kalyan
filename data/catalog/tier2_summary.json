@@ -1,0 +1,218 @@
+{
+  "generated_at": "2025-07-05",
+  "total_tier2_schemes": 4692,
+  "sparse_schemes_count": 449,
+  "field_coverage": {
+    "household.state": 4008,
+    "age": 1838,
+    "household.income": 779,
+    "gender": 465,
+    "has_disability": 308,
+    "household.bpl": 157
+  },
+  "sparse_schemes_sample": [
+    {
+      "id": "aicte-short-term-training-programme-sfurti-scheme",
+      "name": "AICTE SHORT TERM TRAINING PROGRAMME-SFURTI SCHEME"
+    },
+    {
+      "id": "consortia-tender-marketing-scheme",
+      "name": "Consortia & Tender Marketing Scheme"
+    },
+    {
+      "id": "marketing-incentive-under-the-handloom-marketing-assistance-component-of-the-nat",
+      "name": "\"Marketing Incentive\" under the \"Handloom Marketing Assistance\" Component of the National Handloom Development Programme"
+    },
+    {
+      "id": "abdul-kalam-technology-innovation-national-fellowship",
+      "name": "Abdul Kalam Technology Innovation National Fellowship"
+    },
+    {
+      "id": "access-to-knowledge-for-technology-development-and-dissemination-a2k",
+      "name": "Access to Knowledge for Technology Development and Dissemination (A2K+)"
+    },
+    {
+      "id": "advance-authorisationaa",
+      "name": "Advance Authorisation(AA)"
+    },
+    {
+      "id": "advanced-vocational-training-scheme",
+      "name": "Advanced Vocational Training Scheme"
+    },
+    {
+      "id": "affdf-financial-assistance-for-treatment-of-serious-diseases-to-non-pensioner-ex",
+      "name": "AFFDF-Financial Assistance For Treatment Of Serious Diseases To Non Pensioner Ex-Servicemen (All Ranks)/Widows"
+    },
+    {
+      "id": "agricultural-marketing-infrastructure",
+      "name": "Agricultural Marketing Infrastructure"
+    },
+    {
+      "id": "agriculture-and-processed-foods-export-promotion-scheme-of-apeda-for-the-15th-fi",
+      "name": "Agriculture And Processed Foods Export Promotion Scheme Of APEDA For The 15th Finance Commission Cycle (2021-22 To 2025-26)"
+    },
+    {
+      "id": "aicte-distinguished-chair-professor-fellowship",
+      "name": "AICTE - Distinguished Chair Professor Fellowship"
+    },
+    {
+      "id": "aicte-grant-for-augmenting-infrastructure-in-north-eastern-region",
+      "name": "AICTE - Grant For Augmenting Infrastructure In North Eastern Region"
+    },
+    {
+      "id": "aicte-scheme-for-promoting-interests-creativity-and-ethics-among-students",
+      "name": "AICTE - Scheme For Promoting Interests, Creativity And Ethics Among Students"
+    },
+    {
+      "id": "aicte-youth-undertaking-visit-for-acquiring-knowledge-yuvak-study-tour-of-atal-t",
+      "name": "AICTE - YOUTH UNDERTAKING VISIT FOR ACQUIRING KNOWLEDGE (YUVAK): STUDY TOUR OF ATAL TUNNEL, HIMACHAL PRADESH"
+    },
+    {
+      "id": "aicte-e-shodh-sindhu-scheme-ess",
+      "name": "AICTE e-Shodh Sindhu Scheme (eSS)"
+    },
+    {
+      "id": "aicte-grant-for-organizing-conference",
+      "name": "AICTE Grant for Organizing Conference"
+    },
+    {
+      "id": "aicte-technical-university-joint-training-programs-for-librarians",
+      "name": "AICTE- Technical University Joint Training Programs for Librarians"
+    },
+    {
+      "id": "aicte-technical-university-joint-training-programs-for-teachers",
+      "name": "AICTE- TECHNICAL UNIVERSITY JOINT TRAINING PROGRAMS FOR TEACHERS"
+    },
+    {
+      "id": "aicte-idea-idea-development-evaluation-application-lab-scheme",
+      "name": "AICTE-IDEA (Idea Development, Evaluation & Application) LAB SCHEME"
+    },
+    {
+      "id": "aicte-iste-inductionrefresher-programme-scheme",
+      "name": "AICTE-ISTE INDUCTION/REFRESHER PROGRAMME SCHEME"
+    },
+    {
+      "id": "aicte-margdarshan-scheme",
+      "name": "AICTE-Margdarshan scheme"
+    },
+    {
+      "id": "aicte-national-initiative-for-training-of-technical-teachers-for-inductee-teache",
+      "name": "AICTE-National Initiative for Training of Technical Teachers (for Inductee Teachers) Scheme"
+    },
+    {
+      "id": "aicte-professional-development-scheme",
+      "name": "AICTE-PROFESSIONAL DEVELOPMENT SCHEME"
+    },
+    {
+      "id": "aicte-quality-improvement-foreign-university-programme",
+      "name": "AICTE-QUALITY IMPROVEMENT (FOREIGN UNIVERSITY) PROGRAMME"
+    },
+    {
+      "id": "aicte-short-term-training-programme-sttp-ut-jkladakh-and-ner",
+      "name": "AICTE-SHORT TERM TRAINING PROGRAMME (STTP) (UT-J&K,LADAKH AND NER)"
+    },
+    {
+      "id": "aicte-technical-book-writing-translation-scheme",
+      "name": "AICTE-Technical Book Writing & Translation Scheme"
+    },
+    {
+      "id": "aicte-training-programs-for-physical-education-trainerssport-games-teachersdirec",
+      "name": "AICTE-Training programs for Physical Education Trainers/Sport-Games Teachers/Director of Sports"
+    },
+    {
+      "id": "alcte-distinguished-professional-scheme",
+      "name": "AlCTE - Distinguished Professional Scheme"
+    },
+    {
+      "id": "ambedkar-social-innovation-and-incubation-mission-asiim",
+      "name": "Ambedkar Social Innovation and Incubation Mission (ASIIM)"
+    },
+    {
+      "id": "amended-technology-upgradation-fund",
+      "name": "Amended Technology Upgradation Fund"
+    },
+    {
+      "id": "assistance-to-training-institutions-scheme",
+      "name": "Assistance to Training Institutions Scheme"
+    },
+    {
+      "id": "assistance-to-voluntary-organisations-for-promotion-of-the-official-languages-in",
+      "name": "Assistance to Voluntary Organisations for Promotion of the Official Languages in the Field of Law"
+    },
+    {
+      "id": "atal-beemit-vyakti-kalyan-yojana",
+      "name": "Atal Beemit Vyakti Kalyan Yojana"
+    },
+    {
+      "id": "atal-bhujal-yojana",
+      "name": "Atal Bhujal Yojana"
+    },
+    {
+      "id": "atal-mission-for-rejuvenation-and-urban-transformation",
+      "name": "Atal Mission For Rejuvenation And Urban Transformation"
+    },
+    {
+      "id": "ayurswasthya-yojana-ayush-and-public-health",
+      "name": "Ayurswasthya Yojana: AYUSH and Public Health"
+    },
+    {
+      "id": "ayurswasthya-yojana-ayush-for-sports-medicine",
+      "name": "Ayurswasthya Yojana: AYUSH for Sports Medicine"
+    },
+    {
+      "id": "ayurswasthya-yojana-up-gradation-of-facilities-to-centre-of-excellence-coe",
+      "name": "Ayurswasthya Yojana: Up-gradation of Facilities to Centre of Excellence (CoE)"
+    },
+    {
+      "id": "ayush-oushadhi-gunvatta-evam-uttpadan-samvardhan-yojana",
+      "name": "Ayush Oushadhi Gunvatta Evam Uttpadan Samvardhan Yojana"
+    },
+    {
+      "id": "ayush-oushadhi-gunvatta-evam-uttpadan-samvardhan-yojana-aogusy-pharmacovigilance",
+      "name": "Ayush Oushadhi Gunvatta evam Uttpadan Samvardhan Yojana (AOGUSY): Pharmacovigilance of ASU&H Drugs Including Surveillance of Misleading Advertisements"
+    },
+    {
+      "id": "ayush-oushadhi-gunvatta-evam-uttpadan-samvardhan-yojana-aogusy-strengthening-and",
+      "name": "Ayush Oushadhi Gunvatta evam Uttpadan Samvardhan Yojana (AOGUSY): Strengthening and Up-Gradation of Ayush Pharmacies and Drug Testing Laboratories to Achieve Higher Standards"
+    },
+    {
+      "id": "ayush-oushadhi-gunvatta-evam-uttpadan-samvardhan-yojana-aogusy-strengthening-of",
+      "name": "Ayush Oushadhi Gunvatta evam Uttpadan Samvardhan Yojana (AOGUSY): Strengthening of Central and State Regulatory Frameworks Including Technical Human Resource and Capacity Building Programs for Ayush Drugs"
+    },
+    {
+      "id": "ayush-oushadhi-gunvatta-evam-uttpadan-samvardhan-yojana-aogusy-support-for-devel",
+      "name": "Ayush Oushadhi Gunvatta evam Uttpadan Samvardhan Yojana (AOGUSY): Support for Development of Standards and Accreditation/Certification of Ayush Products and Materials in Collaboration With BIS, QCI and Other Relevant Scientific Institutions and Industrial R&D Centres"
+    },
+    {
+      "id": "ayushman-bharat-pradhan-mantri-jan-arogya-yojana",
+      "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana"
+    },
+    {
+      "id": "bank-guarantee-charges-reimbursement-scheme",
+      "name": "Bank Guarantee Charges Reimbursement Scheme"
+    },
+    {
+      "id": "bank-loan-processing-fee-reimbursement-scheme",
+      "name": "Bank Loan Processing Fee Reimbursement Scheme"
+    },
+    {
+      "id": "bharat-steel-awards",
+      "name": "Bharat Steel Awards"
+    },
+    {
+      "id": "biotechnology-ignition-grant-scheme",
+      "name": "Biotechnology Ignition Grant Scheme"
+    },
+    {
+      "id": "biotechnology-research-innovation-and-entrepreneurship-development-bio-ride",
+      "name": "Biotechnology Research Innovation And Entrepreneurship Development (Bio-RIDE)"
+    },
+    {
+      "id": "bsr-fellowship-scheme-for-science-students-ugc",
+      "name": "BSR Fellowship Scheme for Science Students - UGC"
+    }
+  ],
+  "skipped_tier1": [
+    "Namo Shetkari Mahasanman Nidhi Yojana"
+  ]
+}

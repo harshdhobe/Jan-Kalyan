@@ -1,0 +1,31 @@
+{
+  "id": "rajasthan-varishth-patrakar-samman-yojana",
+  "name": "Rajasthan Varishth Patrakar Samman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- Monthly Honorarium: ₹15,000/- per month to the senior accredited journalists.\n- In case of the journalist&#39;s death, 50% of the amount is provided to the widow.\n\n**Duration:** \n\n- Paid for a maximum period of 5 years, subject to review.\n\n**Mode of Disbursement:**\n\n- Direct Bank Transfer to the journalist’s savings account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-proof-of-age-qualification-certificates-experience-certifica"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/DIPR/2020/Notification/O_270120_3618b4db-5c9d-4023-ab5e-049a93ee5479.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsajsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a full-time accredited journalist.\n   1. The applicant must have continuously worked for at least 20 years in daily newspapers, weekly newspapers, fortnightly news publications, independent journalism, electronic media, or news agencies, including roles such as editor, publisher, or owner of such media organizations.\n   1. Accredited journalists who have been regularly accredited with the Department of Information and Public Relations, Rajasthan for at least 10 years will be eligible for this scheme.\n   1. The journalist should be 60 years of age or older as of the application date.\n   1. The applicant should not be receiving any salary, pension, or regular financial assistance from any newspaper, institution, or any other regular assistance from the State Government.\n   1. The applicant must declare (via affidavit) that they do not fall under the category of an income tax payee.\n   1. The applicant should not have any criminal case registered against them.\n\n**Note:** The honorarium will be given for an initial period of five years.",
+  "_criteria_filled": 2
+}

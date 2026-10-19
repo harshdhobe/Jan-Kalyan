@@ -1,0 +1,40 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-accident-insurance-scheme-uttarakhand",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Accident Insurance Scheme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Under this scheme, an annual insurance coverage is provided as follows:**\n\n- ₹5,00,000/- in case of accidental death or total permanent disability.\n- ₹2,50,000/- for partial disability (such as loss of limbs, fingers, or partial loss of vision/hearing/speech, etc.).\n- ₹50,000/- for hospitalization expenses due to accidents.\n- The fish farmer is not required to pay any insurance premium. The enti",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "application-documentaadhaar-card-of-the-fisherman-bank-account-details-proof-of",
+    "relationship",
+    "aadhaar-card-claim-documentinsurance-certificate-issued-after-enrollment-recent",
+    "hospitalization",
+    "or-death-medical-certificate-in-case-of-partial-disabilityhospitalization-death"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ais",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must be engaged in fish production or fishing as a profession.\n1. The applicant may belong to any caste category, including General, Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or be a woman.\n1. The applicant’s age must be between 18 and 70 years at the time of enrollment.\n\n<br>",
+  "_criteria_filled": 3
+}

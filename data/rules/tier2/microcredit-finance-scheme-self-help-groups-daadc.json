@@ -1,0 +1,36 @@
+{
+  "id": "microcredit-finance-scheme-self-help-groups-daadc",
+  "name": "Microcredit Finance Scheme- Self Help Groups (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Up to ₹50,000/- (maximum ₹5,00,000/-)- **Interest Rate:** 6% annually- **Loan Tenure:** 36 months (3 years)- **State Government Share:** 95%  (₹47,500/-)- **Beneficiary Share:** 5% (₹2,500/-)- **Guarantor:** Not required- **Possible Installment amount :** ₹1,445/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-details-copy-of-hier-business-address-proof-identity-proof-of"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gapb/assets/downloads/micro_fincial_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfs-shg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to a Scheduled Caste (SC) community.\n1. The applicant must be part of an Antyodaya (AAY) family.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant must be a resident of Gujarat.\n1. The applicant should be a self-help group of unemployed persons. \n1. The applicant must be a member of a registered self-help group (SHG) or apply individually with valid business intent.\n\n<br>",
+  "_criteria_filled": 3
+}

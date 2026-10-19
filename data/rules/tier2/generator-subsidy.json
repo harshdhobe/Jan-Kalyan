@@ -1,0 +1,26 @@
+{
+  "id": "generator-subsidy",
+  "name": "Generator Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Subsidy of 25% on the cost of generator purchased (up to 320 KVA capacity), subject to a maximum of ₹ 5,00,000.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-the-file-type-should-be-pdf-pdf-the-file-size-s"
+  ],
+  "apply_url": "https://www.msmetamilnadu.tn.gov.in/generator-subsidy.php#chart-line",
+  "source_url": "https://www.myscheme.gov.in/schemes/gs-tn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All new and existing Micro, Small, and Medium Manufacturing Enterprises.",
+  "_criteria_filled": 1
+}

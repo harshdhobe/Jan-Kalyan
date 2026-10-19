@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-uchcha-shiksha-shodh-protsahan-yojana",
+  "name": "Mukhyamantri Uchcha Shiksha Shodh Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The maximum research grant provided by the state government is ₹15 lakh, which may be increased up to ₹18 lakh in special circumstances.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "all-required-documents-must-be-submitted-in-accordance-with-the-guidelines-speci"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmherps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The regular professors working in state government colleges and state university campuses of Uttarakhand, as well as students and research scholars enrolled in regular programs at recognized institutions within the state, are eligible to apply.\n   1. A research proposal may also include a co-investigator alongside the principal investigator.\n   1. The broad subject areas for research include Science, Arts and Humanities, Home Science, and Commerce &amp;amp; Management, while interdisciplinary subjects will also be accepted. \n   1. Research related to the state that proves to be productive and useful in social, economic, contemporary, or other areas of special importance will be encouraged. \n   1. Priority will be given to problem-oriented, solution-driven, and action-based research topics (Problem and Action-Based Research Programme).\n   1. Research proposals may also be invited based on requests for specific issues raised by any department of the state government. \n   1. A maximum period of two years will be allowed for completing the research work, which may be extended by one additional year under special circumstances.\n   1. Only one research project will be permitted for any teacher or research scholar at a time.\n\n<br>",
+  "_criteria_filled": 1
+}

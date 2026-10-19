@@ -1,0 +1,27 @@
+{
+  "id": "quality-certification-reimbursement-scheme",
+  "name": "Quality Certification Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement of the cost of industry-standard quality certification.\n\n- The maximum amount that may be availed under this reimbursement is capped at ₹ 5,00,000 per unit.\n\n**NOTE 1:** The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation is exceeded.\n**NOTE 2:** This incentive may be clai",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-incorporation-certificate-copy-of-new-unit-registration-documentcertific",
+    "aadhaar-and-gst-tin-memorandum-and-articles-of-association-copy-of-first-bill-ge"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/qcrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the new and existing units must have their operations in Goa.\n2. The applicant must be one of the below:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n3. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n4. Units incurring expenditure for acquiring the following quality and/or product-specific certificates are entitled to avail of the benefits: \n\n- ISO: International Organization for Standardization.\n- HACCP: Hazard Analysis and Critical Control Points.\n- BIS: Bureau of Indian Standards.\n- WHO-GMP: World Health Organization - Good Manufacturing Practices.\n- ZED: Zero Defect Zero Effect.\n- TS: Technical Specifications.\n- COPC: Customer Operations Performance Center.\n- eSCM: eSourcing Capability Model.\n- Hallmark: Hallmark certification, as approved by the Quality Council of India.\n- Any other certificates as recognized by the Government.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prime-ministers-award-for-yoga",
+  "name": "Prime Minister's Award for Yoga",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "The winners will be felicitated by means of a Trophy, Certificate and a Cash Award. The value of each Cash Award would be ₹ 25 lakh.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      }
+    ]
+  },
+  "documents": [
+    "completed-applicationnomination-form-proof-of-age-for-individual-category-docume"
+  ],
+  "apply_url": "https://yoga.ayush.gov.in/api/uploads/assets/IDY/PM-Awards-2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmafy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have rich experience and a deep understanding of Yoga.\n1. The applicant (individual category) must be at least 30 years of age.\n1. The applicant should have a minimum of 10 years of service with an excellent track record in promoting and developing Yoga.\n\n**Note:** The applicant can apply or be nominated for only one category (Individual or Institutional) in a particular year.\n<br>",
+  "_criteria_filled": 1
+}

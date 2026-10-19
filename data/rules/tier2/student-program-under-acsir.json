@@ -1,0 +1,26 @@
+{
+  "id": "student-program-under-acsir",
+  "name": "Student Program Under AcSIR",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Advanced Research Opportunities:** The program provides opportunities for conducting high-quality, interdisciplinary research in various fields of Himalayan Geo-science.  - **Leadership Development:** The scheme aims to develop leaders in the field of Himalayan Geo-science through the PhD program.  - **Career Advancement:** Successful completion of the PhD program leads to a postgraduate degre",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-mandatory-signature-mandatory-pwd-certificate-if-applicable"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spuac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have a postgraduate degree (M.Sc./M.Tech.) in any discipline of Earth Sciences.\n- The applicant must hold a valid national-level fellowship such as:\n\n1. NET-JRF (UGC/CSIR).\n1. INSPIRE Fellowship.\n1. Any other equivalent national fellowship.",
+  "_criteria_filled": 1
+}

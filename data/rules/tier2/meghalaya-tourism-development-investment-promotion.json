@@ -1,0 +1,30 @@
+{
+  "id": "meghalaya-tourism-development-investment-promotion",
+  "name": "Meghalaya Tourism Development & Investment Promotion",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "To encourage public participation in the tourism sector, homestay accommodation would be given an incentive as follows:-\n1)\tAssistance of 30% of the project cost limiting the project cost to a maximum of Rs 16.00 Lakhs\n2)\tThe maximum number of rooms that can be constructed under this scheme will be limited to 4 ( four) rooms\n3)\tEach room should necessarily be having a minimum area of approximately",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-identity-and-existence-of-applicant-copy-of-record-of-right-ove",
+    "if-any-a-copy-of-the-detailed-project-report-submitted-to-any-fibank-indicating",
+    "source-of-water",
+    "electricity-if-any",
+    "existing-land-use-etc-noc-for-the-creation-of-such-a-facility-in-that-area"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/schemes/MTD_Investment_Promotion_Scheme_2012.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtdip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The cost of the project should be within Rs 16.00 Lakhs for homestays and within Rs 100.00 Lakhs for resorts. In case the project cost is above Rs 16.00 Lakhs for homestays and above Rs 100.00 Lakhs for resorts the assistance would be limited to 30% of the amount of Rs 16.00 Lakhs for homestays and 30% of the amount of Rs 100.00 Lakhs for resorts.\n   1. The entrepreneur should own the land for the project in the case of Resorts and should be the owner of the property with built-up houses in the case of homestays.\n   1. The project should be completed within a period of 18 (eighteen) months from the date of disbursement of the incentive for the Resort and within a period of 12(twelve) months in case of homestays. \n   1. The scheme is available only for units set up on or after the date of notification of the incentive scheme.\n   1. The entrepreneur will have to follow the Minimum Wage policy of the Government.",
+  "_criteria_filled": 1
+}

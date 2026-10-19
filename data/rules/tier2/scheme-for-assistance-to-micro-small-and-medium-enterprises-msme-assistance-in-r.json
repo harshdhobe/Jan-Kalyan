@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-assistance-to-micro-small-and-medium-enterprises-msme-assistance-in-r",
+  "name": "Scheme for Assistance to Micro, Small and Medium Enterprises (MSME): Assistance in Rent to MSEs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Reimbursement of 65% of rent paid, up to ₹1,00,000/- per annum.  - **Long-term Assistance:** Available for a maximum period of 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promotersdirectorspartners",
+    "authorized-person-copy-of-gst-registration-if-applicable-copy-of-ca-certified-ba"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmearm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The enterprise must be a Micro or Small Enterprise (MSE).\n1. The enterprise must be engaged in manufacturing activities.\n1. The business must have acquired a rented/leased shed for its operations.\n1. The shed owner must have legal ownership and possession of the property.\n1. The manufacturing unit must be consuming electricity/power for its activities.\n1. The assistance will be applicable from the rent deed date or three months prior to production, whichever is later.",
+  "_criteria_filled": 1
+}

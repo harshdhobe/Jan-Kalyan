@@ -1,0 +1,26 @@
+{
+  "id": "education-assistance-folk-artist",
+  "name": "Education Assistance - Folk Artist",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Financial Assistance for the children of registered folk artistes**\n\n- Girl and Boy children studying 10th - ₹1,000/- \n- Girl children studying 11th - ₹1,000/- \n- Girl and Boy children studying 12th - ₹1,500/- \n- Regular Degree Course with Hostel facility - ₹3,250/- \n- Regular Post Graduate Course with Hostel facility - ₹5,000/-\n- Professional Degree Course with Hostel facility - ₹6,000/- \n- Pro",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-of-the-folk-artist-certificate-from-the-educational-institutio"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eafa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The registered folk artist&#39;s son or daughter.\n1. The registered folk artist must have no dues payable to the Board.\n1. The registered folk artist&#39;s son or daughter should be studying in a government or government-recognized institution.\n1. Assistance is available for up to two children per family.\n1. If both husband and wife are registered folk artists, only one of them is eligible for this assistance.",
+  "_criteria_filled": 1
+}

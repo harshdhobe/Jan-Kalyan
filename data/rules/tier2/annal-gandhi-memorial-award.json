@@ -1,0 +1,26 @@
+{
+  "id": "annal-gandhi-memorial-award",
+  "name": "Annal Gandhi Memorial Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **In first year:** ₹2,000/-.  - **For the succeeding five years:** ₹1,500/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/26775",
+  "source_url": "https://www.myscheme.gov.in/schemes/agma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a Student.\n  - The beneficiary should belong to the SC/ST (Hindu Adi Dravidar) community.\n  - The beneficiary must have secured the first rank in plus 2 Public Examinations in their district.",
+  "_criteria_filled": 1
+}

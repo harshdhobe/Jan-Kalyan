@@ -1,0 +1,26 @@
+{
+  "id": "special-scholarship-to-students-belonging-to-the-most-backward-castes-among-sche",
+  "name": "Special Scholarship to Students Belonging to the Most Backward Castes among Scheduled Castes (Vandaniya Sant Shri Vasiyadada Scholarship)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Assistance Details:**\n**Sl. No.****Standard/Class****Students (Boys &amp;amp;amp;amp; Girls)****Scholarship Rate (Yearly)**1Standard I to VIIIBoth₹1000/-2Standard IX to XBoth₹1500/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-caste-certificate-from-the-co"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1541",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssbmbcascvssvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the most backward castes among the scheduled castes of Gujarat.\n   1. The student should be studying in Standard I to X.\n   1. There is no income limit.\n   1. The most backward castes eligible under the scheme in Gujarat state include Valmiki, Hadi, Nadia, Senva, Turi, Garo, Harijan-Bava, and Vanker-Sadhu, who are granted special scholarships.",
+  "_criteria_filled": 1
+}

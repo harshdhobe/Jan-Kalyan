@@ -1,0 +1,36 @@
+{
+  "id": "scholarship-to-2-years-pre-service-student-teachers-undergoing-deled-programme-a",
+  "name": "Scholarship To 2 Years Pre-Service Student Teachers Undergoing D.El.Ed Programme At DIETs And CTTC Sohra",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "This scheme offers a scholarship of ₹5000/- per month for 2 years (10 months per year) to attract the state&amp;#39;s best talent to take up teaching as a profession.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 27
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-birth-certificate-class-xii-passedprovisional-cer"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/meghalaya/Guidelines_3045.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stypsstdpdcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n   1. The applicant who wants to become a teacher may apply for the scheme.\n   1. The applicant should be Class XII passed or its equivalent examination from recognized Boards/Councils with 50% marks with 5% relaxation for ST/SC/OBC/PWD.\n   1. A candidate waiting for Class - XII results may also apply with the condition that they can produce their provisional/original documents at the time of counseling.\n   1. The age of the applicant should be between 18 to 27 years and age relaxation will be up to 5 years for SC/ST/OBC/PWD as per the reservation policy of the government of Meghalaya. \n\n**Note:** There will be block-wise allocation of seats to facilitate the availability of trained teachers locally in the respective blocks.\n&gt; **Reservation Policy:**\n\n  - As per the Meghalaya Government Reservation Policy for different communities of the state.\n  - 5% of the seats will be reserved for persons with disabilities.\n\n&gt; **Marks allotment for the counseling:**\n\n**Sl. No.****Descriptions****Marks Allotment**1Academic (% of marks in Class XII)i. Marks with 80 – 100%50ii. Marks with 60 -79% 40iii. Marks with 60 -79% 302Entrance test marks503Personality104Communication Skills105Aptitude &amp;amp;amp;amp; interest towards teaching 206General Knowledge107Maximum Marks150**Note 01:** Waiting list candidates should be selected equivalent to the intake capacity of the institute.\n**Note 02:** The number of candidates for each counseling shall be decided by the respective DIETs.\n**Note 03:** In case the number of selected candidates is less than the intake capacity, in such cases, the institution should give preference to the waiting list from other districts as well.\n&gt; **Allotment of seats:**\n\nAt least 30% of the seats are to be allotted to candidates having Science and Mathematics backgrounds at the Class – XII level.",
+  "_criteria_filled": 3
+}

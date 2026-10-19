@@ -1,0 +1,29 @@
+{
+  "id": "khule-jalsroto-mei-pen-aadharit-matsya-paalan-ki-yojana",
+  "name": "Khule Jalsroto Mei Pen Aadharit Matsya Paalan ki Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **A 75% subsidy is provided on the fixed unit expenditure of ₹10,50,000/- per pen unit.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photograph-self-signed-training-certificate-land-lease-receipt-pen-rf",
+    "branch-name",
+    "account-number",
+    "ifsc-code"
+  ],
+  "apply_url": "https://misfisheries.bihar.gov.in/docs/pencul.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kjmpampky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Groups formed from lessees of the committee in Man, Chaur, and Lake are eligible to apply.",
+  "_criteria_filled": 1
+}

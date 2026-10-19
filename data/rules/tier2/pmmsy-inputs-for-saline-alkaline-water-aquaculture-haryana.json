@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-inputs-for-saline-alkaline-water-aquaculture-haryana",
+  "name": "PMMSY: Inputs for Saline /Alkaline Water Aquaculture - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is ₹6,00,000/- per hectare.\n\n> **Subsidy Distribution:**\n\n1. 40% of the project cost for General Category beneficiaries\n1. 60% of the project cost for SC/Women beneficiaries",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-beneficiary-and-fisheries-department-date-of-birth-certif",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=1DFzzH7UZG7HVekfpzlMIg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfifsawa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must have a valid Parivar Pehchan Patra (PPP).\n1. The applicant must create new water bodies under the scheme to receive input cost subsidy.\n1. The applicant will receive central assistance for input costs only for the initial crop in newly constructed ponds/tanks.\n1. The applicant must ensure the ponds/tanks are fully ready for fish or shrimp culture before claiming input cost assistance.\n1. The applicant may also use land on a long-term registered lease, provided the lease period is at least 7 years.",
+  "_criteria_filled": 1
+}

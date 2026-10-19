@@ -1,0 +1,26 @@
+{
+  "id": "one-time-financial-support-for-economically-weaker-meritorious-st-students",
+  "name": "One Time Financial Support for Economically Weaker Meritorious ST Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "> **Financial Support:** \n\nA one-time financial support of ₹1,00,000/- will be provided to selected students in two installments:\n\n- 1st Installment: ₹50,000/- released immediately after selection.- 2nd Installment: ₹50,000/- upon production of pass certificates for the 1st year course.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-scheduled-tribe-st-certificate-income-certificate-issue"
+  ],
+  "apply_url": "https://twd.tripura.gov.in/sites/default/files/Notification_for_Public_Domain-OTFS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otfs-t",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a domicile of Tripura.\n1. The student should belong to the Scheduled Tribe (ST) community.\n1. The student should have passed Class 10th (Madhyamik) for pre-12th courses or Class 12th (H.S level) for post-12th courses in 2022 with at least 45% marks.1. The student must have taken admission in any professional course listed in [Annexure-A and Annexure-B](https://twd.tripura.gov.in/sites/default/files/Notification_for_Public_Domain-OTFS.pdf) during the academic year 2022-23, with a course duration of at least 2 years.",
+  "_criteria_filled": 1
+}

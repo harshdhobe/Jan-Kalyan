@@ -1,0 +1,31 @@
+{
+  "id": "mobile-food-court-van-daadc",
+  "name": "Mobile Food Court Van (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount:** Up to ₹6,00,000/-\n**Interest Rate:** 6% per annum\n**Contribution:**\n\n- State Government Contribution: 95 %\n- Beneficiary Contribution: 5%\n\n**Possible Installment Amount:**\n\n- ₹11,020/- per month (for 5 years)\n- ₹ 9,447/- per month (for 6 years)\n- ₹ 8,327/- per month (for 7 years)\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-copy-of-license-income-certificate-passport-size"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gapb/assets/downloads/mobile_food_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfcvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should belong to an Antyodaya Anna Yojana (AAY) family.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should provide two guarantors to get the loan. \n\n<br>",
+  "_criteria_filled": 2
+}

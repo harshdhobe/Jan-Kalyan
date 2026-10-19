@@ -1,0 +1,36 @@
+{
+  "id": "ecce-early-childhood-care-and-education",
+  "name": "ECCE (Early Childhood Care and Education)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Providing infrastructure facilities such as furniture, TLM, and child-friendly furniture in co-located Anganwadi centres functioning within the premises of government schools in the state.\n  - Training of Anganwadi workers and assistants.\n  - Ensuring pre-school readiness so that children acquire cognitive and psychological skills before admission to Class 1.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 3
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-child-birth-certificate-of-the-child-as-proof-of-age"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ecceuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a boy or girl aged between 3 to 6 years.\n1. The child (boy/girl) must not have completed 6 years of age as on the date of commencement of the academic session.\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "development-and-maintenance-of-orchard-cum-horti-nurseries",
+  "name": "Development and Maintenance of Orchard Cum Horti Nurseries",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nTraining, awareness program, extension, technology support.\n&gt; **Type of Assistance:**\n\n  - Production and multiplication of good, high-yielding, diseased free planting materials for sale.\n  - Introduction of new high-yielding varieties of mother plants, suitable to the different areas of the State.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=103",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmochn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture.\n   1. The applicant/farmer should own or lease land of at least 200 sq.ms.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dr-savita-ben-ambedkar-antarjatiya-vivah-prothsahan-yojana",
+  "name": "Dr. Savita Ben Ambedkar Antarjatiya Vivah Prothsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:**\n\n- Financial assistance of ₹5,00,000/- is provided per couple.\n\n> **Disbursement Process:**\n\n- ₹2,50,000/- is deposited as a fixed deposit in a nationalized bank for eight years (not withdrawable before maturity).\n- ₹2,50,000/- is directly transferred to the couple’s joint bank account for household and essential needs.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "marriage-registration-certificate-caste-certificate-for-scheduled-caste-spouse-r"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Tenders/43610.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsbaavpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. One of the applicants should belong to the general category, and the other should be from the scheduled caste.\n1. Both applicants should be natives of Rajasthan.\n1. The age of the applicant should not be more than 35 years (females above 18 years and males above 21 years) at the time of applying. \n1. The annual family income of the couple must not exceed ₹2,50,000/-.\n1. The applicant should not have any criminal record.\n1. The couple must not have received financial benefits from similar state/central government schemes.\n1. There should be no case of remarriage; the benefit of this scheme is given only on the first marriage.\n1. A man who marries a widow shall be free from the contract of first marriage.\n\n<br>",
+  "_criteria_filled": 4
+}

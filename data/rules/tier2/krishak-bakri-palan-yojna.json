@@ -1,0 +1,27 @@
+{
+  "id": "krishak-bakri-palan-yojna",
+  "name": "Krishak Bakri Palan Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. **Financial Assistance:** Farmers receive goat units on a 60% subsidy, significantly reducing the initial investment required for goat farming.1. **Improved Livelihoods:** The scheme helps improve the livelihoods of small farmers by providing a steady source of income through goat farming.1. **Increased Meat Production:** By distributing high-quality goat breeds, the scheme boosts meat producti",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "the-copy-of-following-documents-may-be-required-at-the-time-of-filling-of-online",
+    "st"
+  ],
+  "apply_url": "https://hpahdbt.hp.gov.in/Home/krishk_bakri_pala_yojna",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbpyy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers belonging to all categories like general/SC/ST/BPL/Women and Landless persons of Himachal Pradesh are eligible. \n   1. Training/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\n   1. Training/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\n\n**The preference will be given to:**\n\n   1. Unemployed SC, ST, Women and General category persons. At least 30 percent beneficiaries should be women.\n   1. Families where no member is in Government job.\n   1. Persons with annual income not exceeding 2 lakh per annum.\n   1. Persons/farmers who have built their own goat sheds or built under MGNREGA.",
+  "_criteria_filled": 1
+}

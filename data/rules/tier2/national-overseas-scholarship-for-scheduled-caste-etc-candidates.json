@@ -1,0 +1,29 @@
+{
+  "id": "national-overseas-scholarship-for-scheduled-caste-etc-candidates",
+  "name": "National Overseas Scholarship For Scheduled Caste Etc. Candidates",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Annual Maintenance Allowance:** For the United States of America (USA) &amp; other countries except for the UK: 15400 US Dollars. For United Kingdom (UK): 9900 Great Britain Pounds1. **Contingency Allowance:** For the United States of America (USA) &amp; other countries except for the UK: 1500 US Dollars. For United Kingdom (UK): 1100 Great Britain Pounds1. **Tuition Fees:** Actual as charged",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "during-the-application-stage-1-10th-board-certificate-2-caste-certificate-refer",
+    "registration-or-admission-related-document-9-family-income-certificate-issued-by",
+    "in-order-to-receive-the-provisional-award-letter-under-the-scheme",
+    "the-following-documents-need-to-be-submitted-1-attestation-form-2-self-declarati"
+  ],
+  "apply_url": "https://nosmsje.gov.in/public/images/Scheme-guidelines-2025-26.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nos-sc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student belonging to a Scheduled Caste, Denotified Nomadic, Semi Nomadic Tribe, Landless Agricultural Labourer, or a Traditional Artisan.\n1. The applicant must have been admitted to or received an unconditional offer of admission for pursuing a master&#39;s / Ph.D. from an institute/university located abroad.\n1. The institute/university of the applicant must be accredited by the Government/authorized body of that country.\n1. The applicant must have secured at least 60% marks or equivalent grade in the qualifying examination (In the case of Ph.D. courses, the qualifying exam is a Master’s Degree; In the case of a Master’s Degree, the qualifying exam is a Bachelor&#39;s Degree)\n1. The total income of the family of the applicant (from all sources) is less than or equal to ₹ 8 lakh per annum.\n1. Two or more of the applicant&#39;s siblings must not be already availing of this scholarship.\n1. In case a student has completed a Bachelor of Engineering after completing a Diploma (Lateral Entry to 2nd year), the percentage of marks obtained in Bachelor&#39;s degree will be taken into account.\n1. 30% of the awards for each year shall be earmarked for women candidates. However, in case, adequate women candidates are not available as per the stipulations of the scheme, then the unutilized slots will be utilized by selecting suitable male candidates.\n1. There are 115 slots for Scheduled Castes, 6 slots for Denotified, Nomadic, and Semi-Nomadic Tribes, and 4 slots for Landless Agricultural Labourers and Traditional Artisans.",
+  "_criteria_filled": 1
+}

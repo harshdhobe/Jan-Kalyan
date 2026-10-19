@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-extending-family-maintenance-grant-to-the-families-of-the-deceased-fam",
+  "name": "Scheme of Extending Family Maintenance Grant to the Families of the Deceased Famous Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹25,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-of-deceased-artist-applicant-passport-size-photo-deceased-ar"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soefmgttfotdfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased should have been a famous artist in the art disciplines of music/ drama/ dance/ film/ folk arts.\n1. The benefit of the scheme will be given only on the death of the famous artist.\n1. The applicant should be the legal heir of the deceased.",
+  "_criteria_filled": 1
+}

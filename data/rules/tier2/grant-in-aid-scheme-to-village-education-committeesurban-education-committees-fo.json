@@ -1,0 +1,26 @@
+{
+  "id": "grant-in-aid-scheme-to-village-education-committeesurban-education-committees-fo",
+  "name": "Grant-in-aid Scheme to Village Education Committees/Urban Education Committees for minor repairs of Government School buildings",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Grant-in-Aid**\nSanctioned to the extent of 75% of the estimated cost expenditure of the works as the first instalment per work for the execution of minor works to the school buildings.\n**Ceiling Limit**\nThe ceiling limit is ₹ 50,000/-, other than for the works for which funds have been allotted under the Sarva Shiksha Abhiyan Scheme.\n**Mode of Payment**\nThe payment towards the expenditure is mad",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-detailed-proposal-document-identification-details-of-the-school-and-secuec-aut"
+  ],
+  "apply_url": "https://www.education.goa.gov.in/sites/default/files/2020-11/schemes-adm3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsvec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All Government school buildings that need urgent minor repairs are eligible.",
+  "_criteria_filled": 1
+}

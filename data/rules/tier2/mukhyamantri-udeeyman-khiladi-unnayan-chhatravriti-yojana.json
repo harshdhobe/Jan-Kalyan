@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-udeeyman-khiladi-unnayan-chhatravriti-yojana",
+  "name": "Mukhyamantri Udeeyman Khiladi Unnayan Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, players aged 8 to 14 years are selected every year on the basis of the Physical and Sports Aptitude Test (P-SAT). \n  - From each district, 150 boys and 150 girls are selected (25 boys and 25 girls from each age group: 8–9 years, 9–10 years, 10–11 years, 11–12 years, 12–13 years, and 13–14 years). \n  - Each selected player is awarded a scholarship of ₹1,500/- per month for one ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 8
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 14
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-permanent-residence-certificate-bank-account-deta"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mukuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must be a boy or girl between 8 and 14 years of age.\n   1. The boy or girl who obtain the highest marks based on merit in the final district-level competition, conducted through various stages of the Physical and Sports Aptitude Test (P-SAT) assessing physical abilities such as strength, flexibility, endurance, speed, and coordination, will be eligible for the sports scholarship.\n\n<br>",
+  "_criteria_filled": 3
+}

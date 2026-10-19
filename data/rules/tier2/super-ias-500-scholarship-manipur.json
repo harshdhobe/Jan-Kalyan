@@ -1,0 +1,31 @@
+{
+  "id": "super-ias-500-scholarship-manipur",
+  "name": "Super IAS 500 Scholarship Manipur",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "The scholarship program provides offline coaching facilities by renowned IAS mentors from the Alternative Learning System (ALS), Delhi, at the State Academy of Training (SAT) in Takyelpat, Manipur.\nThe top 200 students in the Scholarship Exam will receive a full scholarship from the Manipur government and will be provided offline classes at SAT.\nStudents ranked 201 to 500 will be eligible for ALS ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-passport-size-photograph-any-valid-identification-proof-like-aadhaar",
+    "pan-card",
+    "passport",
+    "drivers-license",
+    "bank-passbook",
+    "etc-birth-certificate-or-class-10th-mark-sheet-qualification-certificates-reside"
+  ],
+  "apply_url": "https://cmdashboard.mn.gov.in/departments/cm-flagships/super-ias-500-scholarship-manipur",
+  "source_url": "https://www.myscheme.gov.in/schemes/alsias",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate must be a domicile of India.\n1. He/She must be a permanent resident of the state of Manipur.\n1. The applicant must be a civil service student.\n1. The candidate must be a Meritorious and Brilliant IAS aspirant of Manipur.",
+  "_criteria_filled": 1
+}

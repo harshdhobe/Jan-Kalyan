@@ -1,0 +1,31 @@
+{
+  "id": "chief-minister-divyangjan-empowerment-scheme-sambal",
+  "name": "Chief Minister Divyangjan Empowerment Scheme (Sambal)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "1. A loan of up to Rs.2.00 lakh will be given for self-employment. \n1. The scholarship will be given for teaching in special schools, the rate of which will be less than the rate given to non-disabled people. \n1. In very special cases, the rate of grant and state grant in schemes of National Trust will be payable according to the needs of the scheme and the specific beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-pan-card-permanent-address-proof-two-passport-size-photos-bank-accou"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Divayangjan%20Shashaktikaran%20Chatra%20Yojna/SAMBAL.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmdes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age limit will be 18-60 years for self-employment loans and more than 5 years for artificial limbs and equipment.\n1. In very special cases, a grant will be payable in all cases covered by multiple disabilities and judgments and there will be no restriction on the limit of income, age etc.\n1. The age limit of the student for the special school will be 6-18 years.\n1. For shelter home (Ashiyana / Saket), the minimum age limit of the beneficiary (male/female) will be 18 years.",
+  "_criteria_filled": 2
+}

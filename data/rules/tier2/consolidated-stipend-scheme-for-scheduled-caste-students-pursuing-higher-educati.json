@@ -1,0 +1,26 @@
+{
+  "id": "consolidated-stipend-scheme-for-scheduled-caste-students-pursuing-higher-educati",
+  "name": "Consolidated Stipend Scheme for Scheduled Caste Students Pursuing Higher Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. **Stipend Amount:** Eligible SC students receive ₹1,000/- per month.1. **Hostel Stipend:** Additional ₹500/- per month for 12 months for students availing hostel facilities.\n**Mode of Disbursement:**\n\n1. The stipend is disbursed bi-monthly in September, November, January, and March.\n1. The amount for January to June is disbursed in March due to the financial year closure.\n1. Payments are transf",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Consolidate%20Stipend%20and%20Free%20Books%20to%20SC%20Students%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csfbscss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should be a domicile of Haryana.\n1. The applicant should be studying in a government college in Haryana.\n1. The applicant should have passed the previous academic year examination.\n1. The applicant should maintain at least 60% attendance to receive the stipend.",
+  "_criteria_filled": 1
+}

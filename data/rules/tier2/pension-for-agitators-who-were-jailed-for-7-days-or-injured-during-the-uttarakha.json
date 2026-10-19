@@ -1,0 +1,26 @@
+{
+  "id": "pension-for-agitators-who-were-jailed-for-7-days-or-injured-during-the-uttarakha",
+  "name": "Pension for Agitators Who were Jailed for 7 Days or Injured During the Uttarakhand State Movement",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Pension Amount:** ₹6,000/- per month\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-being-an-agitator-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/uksap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be an agitator who was jailed for 7 days or injured during the Uttarakhand State Movement.\n   1. The applicant must be unable to gain employment due to certain reasons.\n\n<br>",
+  "_criteria_filled": 1
+}

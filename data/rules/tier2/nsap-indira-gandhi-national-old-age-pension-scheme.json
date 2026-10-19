@@ -1,0 +1,31 @@
+{
+  "id": "nsap-indira-gandhi-national-old-age-pension-scheme",
+  "name": "NSAP - Indira Gandhi National Old Age Pension Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- ₹200 per month for beneficiaries aged 60–79 years.\n- ₹500 per month for beneficiaries aged 80 years and above.\n\n> **Note:** At present old age beneficiaries are getting anywhere between ₹200/- to ₹1000/- depending on the State Contribution.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-domicile-certificate-residential-proof-voter-cardelectricity"
+  ],
+  "apply_url": "https://nsap.dord.gov.in/Guidelines/social_audit_guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsap-ignoaps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should belong to a Below Poverty Line (BPL) household.\n1. The applicant should be 60 years of age or above.\n\n<br>",
+  "_criteria_filled": 2
+}

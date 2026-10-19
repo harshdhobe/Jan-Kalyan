@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-1-to-20-milch-animal-farm",
+  "name": "Establishment of 1 to 20 Milch Animal Farm",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy:** Eligible farmers receive an interest subsidy of 12% on the unit cost fixed by NABARD or banks.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-land-or-house-ownership-bank-loan-approval-documents-any-other-document"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=K4W8ZOq3ZEO6/ok2BNgxcw==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/eotmaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a livestock farmer, which includes agricultural laborers, small and marginal farmers, landless people, Maldhari (pastoralists), and educated unemployed individuals.\n  - The applicant should have taken a loan from a bank for dairy farming (1 to 20 milch animals).\n\n&gt; **Note:**\n\n  - Availability of the Land, livestock and water facilities with the Livestock Owners.\n  - As per the above scheme, the scheme of interest subsidy on establishment of units of 1 to 20 milch animals (cows and buffaloes) is also available for Scheduled Castes and Scheduled Tribes animal owners of the state.",
+  "_criteria_filled": 1
+}

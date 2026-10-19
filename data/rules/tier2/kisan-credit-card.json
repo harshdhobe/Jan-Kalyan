@@ -1,0 +1,22 @@
+{
+  "id": "kisan-credit-card",
+  "name": "Kisan Credit Card",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**Fixation of credit limit/Loan amount**\n\n1. **The short-term limit to arrive for the first year: For farmers raising a single crop in a year:** Scale of finance for the crop (as decided by District Level Technical Committee) x Extent of area cultivated + 10% of limit towards post-harvest / household/consumption requirements + 20% of limit towards repairs and maintenance expenses of farm assets + ",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "application-form-two-passport-size-photographs-id-proof-such-as-driving-license",
+    "aadhar-card-proof-of-landholding-duly-certified-by-the-revenue-authorities-cropp",
+    "as-applicable-any-other-document-as-per-sanction"
+  ],
+  "apply_url": "https://pib.gov.in/FactsheetDetails.aspx?Id=148600",
+  "source_url": "https://www.myscheme.gov.in/schemes/kcc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers - individual/joint borrowers who are owner cultivators;\n1. Tenant farmers, oral lessees &amp; share croppers;\n1. Self Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers including tenant farmers, share croppers etc\n\n<br>",
+  "_criteria_filled": 0
+}

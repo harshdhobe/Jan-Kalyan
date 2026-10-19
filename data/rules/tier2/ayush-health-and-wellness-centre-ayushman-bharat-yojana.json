@@ -1,0 +1,26 @@
+{
+  "id": "ayush-health-and-wellness-centre-ayushman-bharat-yojana",
+  "name": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments are provided as per the condition.\n\n  - Counselling based on nature testing and seasonal routines- screening and diagnosis of non-communicable diseases such as diabetes, hypertension, oral cancer, breast canc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "registration-proof-at-the-government-ayurvedicunanihomeopathic-dispensary-or-hos"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahwc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary must be a resident of Uttarakhand.\n- The beneficiary may belong to any age group.\n- The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or Homeopathic dispensary or hospital.\n\n<br>",
+  "_criteria_filled": 1
+}

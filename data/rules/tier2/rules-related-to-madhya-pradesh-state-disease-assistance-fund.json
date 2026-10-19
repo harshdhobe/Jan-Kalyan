@@ -1,0 +1,31 @@
+{
+  "id": "rules-related-to-madhya-pradesh-state-disease-assistance-fund",
+  "name": "Rules Related to Madhya Pradesh State Disease Assistance Fund",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Financial assistance ranging from ₹25,000 to ₹2,00,000 for major surgeries or medical interventions.\n\n> **NOTE:** \n\n1. The SIF assistance amount cheque is provided directly to the Hospital/Institution where the approved case (patient) is referred.\n1. The grant will be permissible for the recognized hospitals within the state &amp; outside the state. \n1. For cancer cases, the grant will be given ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-samagra-id-residence-certificate-issued-by"
+  ],
+  "apply_url": "https://www.health.mp.gov.in/sites/default/files/documents/sif--Gazatte.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aflbplsdrf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a domicile of Madhya Pradesh.\n1. The applicant must belong to a Below Poverty Line (BPL) family.\n1. The applicant must be suffering from a [disease listed](https://www.health.mp.gov.in/sites/default/files/siaf-approved-rate-list-2018.pdf) among the approved illnesses under the scheme.1. The hospital must be a recognized institution within or outside Madhya Pradesh.\n1. Only one eligible family member can receive assistance once.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bhausaheb-fundkar-falbag-lagvad-scheme",
+  "name": "Bhausaheb Fundkar Falbag Lagvad Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Subsidy through DBT is given to farmer for plantation of 16 perennial fruit crops like Mango, Cashew, Guava, Sapota, Custered Apple, Pomegranate, Paper Lemon, Coconut, Tamarind, Fig, Amla, Kokum, Jackfruit, Jamun, Orange, Mosambi, for below mentioned activities :\n<br>\n\n1.  Pit Diggsing\n2.  Planting grafts/seedling\n3.  Application of chemical and organic fertilizers.\n4.  Crop Protection\n5.  Gap fil",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-712-certificate-3-8-a-certificate-4-caste-certificate-for-sc",
+    "st-beneficiaries-5-self-declaration-6-pre-sanction-letter-7-invoice-of-implement"
+  ],
+  "apply_url": "https://gr.maharashtra.gov.in/Site/Upload/Government%20Resolutions/English/201807061207371701...pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhausaheb-fundkar-horticulture-plantataion-scheme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The beneficiary should be a permanent resident of Maharashtra State \nFarmer should have Aadhaar Card.\nFarmer should have 7/12 certificate and 8 –A certificate.\n<br>",
+  "_criteria_filled": 1
+}

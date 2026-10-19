@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-relief-and-rehabilitation-of-women-acid-victims",
+  "name": "Scheme for Relief and Rehabilitation of Women Acid Victims",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under the scheme, the following benefits will be provided to women acid attack victims:\n\n   1. ₹25,000/- as ad-hoc relief immediately by the concerned Deputy Commissioner.\n   1. ₹75,000/- within 15 days by the Women and Child Development Department for immediate medical expenses.\n   1. Finance Support for 100% medical treatment including medicine, food, bedding and plastic surgery/reconstructive s",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-parivar-pehchaan-patra-number-medical-certificate-court-order-cop"
+  ],
+  "apply_url": "https://wcdhry.gov.in/schemes-for-women/scheme-for-relief-and-rehabilitation-of-women-acid-victims/",
+  "source_url": "https://www.myscheme.gov.in/schemes/srrwav",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an acid attack victim girl/woman.\n1. The applicant should be a resident of Haryana.\n1. The applicant should be a victim of an acid attack occurring on or after 02.05.2011.\n1. The applicant should have suffered an acid attack within Haryana.\n1. The applicant should not have been fully cured or completed all medical procedures, as continuing treatment is covered under the scheme.\n\n> **RTS Time Limit:**\n\n> This scheme&#39;s RTS (Right to Service) time limit is 30 days.",
+  "_criteria_filled": 2
+}

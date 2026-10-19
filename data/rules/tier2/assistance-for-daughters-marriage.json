@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-daughters-marriage",
+  "name": "Assistance for Daughter's Marriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹25,000/- per daughter (up to two daughters) is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-ex-servicemans-discharge-bookservice-particulars-ex-service"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Daughter%27s%20Marraige.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afdm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should be the widow of an ex-serviceman of the rank of Havildar or below.\n   1. The assistance is available for a maximum of two daughters of the widow of an ex-serviceman.\n   1. The daughter should be at least 18 years of age at the time of marriage.\n   1. The daughter’s name should be duly recorded in the ex-serviceman’s discharge book or Part-2 order.\n   1. The applicant should possess a valid Ex-Serviceman/Widow Identity Card issued by the respective District Sainik Welfare Office.\n   1. The applicant should not have received marriage assistance for the same purpose from the Kendriya Sainik Board.\n   1. The application should be submitted within one year from the date of marriage to be eligible for assistance under this scheme.\n   1. Widows of ex-servicemen who are classified as Battle Casualties or Physical Casualties (attributable cases) are not eligible under this scheme, as marriage assistance in such cases is provided by the Army Headquarters.\n   1. If the applicant is eligible for the Daughter Marriage Assistance Scheme run by the Kendriya Sainik Board for ex-servicemen, then financial aid from the Amalgamated Fund shall not be granted.\n   1. The benefit shall be extended only to the widow of an ex-serviceman who meets the definition of an ex-serviceman as prescribed by the Government of India.",
+  "_criteria_filled": 2
+}

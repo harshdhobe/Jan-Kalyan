@@ -1,0 +1,33 @@
+{
+  "id": "aicte-inae-distinguished-visiting-professorship-scheme",
+  "name": "AICTE-INAE Distinguished Visiting Professorship Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- The Distinguished Visiting Professor will be reimbursed air-fare in “Y-Class” or actual fares if performed by Rail or approved INAE rate if travel is performed by Road. \n- The Distinguished Visiting Professoris entitled to an honorarium of ₹ 10,000/- per lecture day.\n- For on-line sessions of DVP Programs, the Experts will be paid only Honorariums of ₹ 10,000/- per day without travelling/lodging",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 75
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aicte-letter-of-approval-copy-of-educational-qualifications",
+    "degrees-obtained",
+    "industrial-experience-and-any-specialized-training-in-research-design-management"
+  ],
+  "apply_url": "https://www.aicte-india.org/sites/default/files/Application%20Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dvps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Industry Experts should have a minimum graduate degree in engineering or an equivalent qualification.\n   1. The Age of a Distinguished Visiting Professor shall be in the range of 40 to 75 years.\n   1. The applicant must have minimum Ten (10) years experience in Industry; and the individual must have distinguished work experience, as evidenced by development of products, technology, processes, patents, publications, awards etc.\n   1. All retired INAE Fellows also can apply under this Scheme.\n\n**Note:** For exceptional cases the Selection Committee may relax age limits.",
+  "_criteria_filled": 2
+}

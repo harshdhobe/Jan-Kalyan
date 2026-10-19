@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-margin-money-grant-to-nano-units",
+  "name": "Scheme for Margin Money Grant to Nano Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1.\tUnits with project costs up to ₹10 Lakhs will be covered in the scheme.\n2.\tMargin Money Grant of 30% to 40% of the Total Project cost according to the category of the applicant.\n3.\tWomen, Youth (Age between 18 and 40), Differentially-Abled Persons, Ex-Servicemen, and persons belonging to the SC/ST category will be eligible for a 10% additional Grant.\n4.\tThe maximum limit of margin money grant u",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-project-report-2-title-deed-of-land-land-tax-receipt-if-applicable-3-ownership",
+    "machinery-and-electrification-6-valuation-of-approved-engineer",
+    "chattered-engineer-for-civil-construction-7-sanction-letter-from-financial-insti"
+  ],
+  "apply_url": "https://schemes.industry.kerala.gov.in/public/index.php/nano",
+  "source_url": "https://www.myscheme.gov.in/schemes/smmgnu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All new Nano proprietary enterprises in manufacturing/food processing and job works and units engaged in the service sector having any type of value addition, whose project cost includes fixed capital and working capital up to 10 lakhs are eligible for assistance under the scheme.\n   1. The unit shall not have availed any grant assistance earlier under any schemes of the Government of India &amp;amp; Government of Kerala or Local Self Government Department.\n\n**Note 01:** Preference is given to special categories such as women, handicapped persons, ex-servicemen, and persons belonging to SC/ST.\n**Note 02:** Youth entrepreneurs up to the age of 40 are also given priority under the scheme.\n**Note 03:** 30% of the beneficiaries under the scheme shall be women entrepreneurs.\n**Note 04:** Industrial units which receive the assistance will be under obligation to remain working continuously for three years from the date of receipt of the grant. However, it is necessary that a unit shall be a working one as of the date of release of the assistance.\n&gt; **Obligation of an applicant:**\n\n   1. The applicant shall provide all required details and declare such information as to be true.\n   1. The applicant shall provide clarifications of further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/sanctioning authority.\n   1. Applicants shall produce originals of any important documents if so required by the recommending/ sanctioning authority for verification including:\n   1. Title deed of land/land tax receipt if any/Lease agreement/rent agreement as the case may be.\n   1. Ownership Certificate of the building if any.\n   1. Invoice or bill of Plant and machinery.\n   1. The applicant shall execute the requisite legal agreement online and if required on paper as and when the proposal is approved for implementation and furnish the signed hard copy subsequently via post or otherwise.\n   1. The applicant shall utilize the amount received only in the manner agreed upon.\n   1. The applicant shall operate the unit as stipulated in the agreement in which the quantum of support received, failing which the assistance shall be resumed by restoring the provisions of the Kerala Revenue Recovery Act.",
+  "_criteria_filled": 1
+}

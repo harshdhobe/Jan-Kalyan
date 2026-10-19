@@ -1,0 +1,31 @@
+{
+  "id": "mukhya-mantri-mahila-sashaktikaran-yojana",
+  "name": "Mukhya Mantri Mahila Sashaktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, permanent training will be provided on various subjects like: \n\n  - Pharmacy, Beautician, Hotel/Event Management\n  - Nursing, Short Term Management Course (Cooking/Banking), Laboratory Assistant\n  - Physiotherapy, I.T.I./Polytechnic Course, B.Ed./D.Ed. etc.\n\n**Only from Government Institutions:**\n\n  - Aaya/Dai/Ward Nurse Hospitality, other training as the Government prescribes f",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-id-proof-aadhaar-card-proof-of-age-other-necessary-documents-if"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=255",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a rape victim woman or girl. \n   1. The applicant should be a BPL woman saved from trafficking. \n   1. The applicant should be an acid attack victim. \n   1. The applicant should be a woman who completed their prison sentence. \n   1. The applicant should be a BPL woman who is abandoned/ divorced. \n   1. The applicant should be a girl/woman in distress residing in government and non-government shelter homes, girls’ homes, maintenance homes, etc.\n   1. The applicant should be a dowry victim woman.\n   1. The applicant should be a victim of child marriage.",
+  "_criteria_filled": 2
+}

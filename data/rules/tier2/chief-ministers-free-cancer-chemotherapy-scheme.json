@@ -1,0 +1,28 @@
+{
+  "id": "chief-ministers-free-cancer-chemotherapy-scheme",
+  "name": "Chief Minister’s Free Cancer Chemotherapy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Medicine worth ₹10.00 lakhs per person per annum (₹5.00 lakh for 6 months).\nFree Consultation\nFree counseling\nThe benefit of the scheme can be availed during the period of the entire treatment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-schedule-tribe-certificate-for-apst-patients-two-passport-size-photographs-a"
+  ],
+  "apply_url": "https://ahvdd.arunachal.gov.in/pdf/eBook/Government%20Scheme%20Handbook.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Regular State Government Employees and their dependents are eligible for the scheme.",
+  "_criteria_filled": 1
+}

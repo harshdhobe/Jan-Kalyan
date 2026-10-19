@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-voluntary-organizations-working-for-welfare-of-obcs",
+  "name": "Assistance to Voluntary Organizations Working for Welfare of OBCs",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- Financial support for skill development projects aimed at improving socio-economic conditions of OBCs.\n- Simplified and transparent application and approval process.\n- Regular monitoring and evaluation to ensure effective utilization of funds.\n- Support for NGOs to enhance their capacity and expand their reach.\n- Encouragement of self-employment and gainful employment for OBCs.\n- Priority given ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      }
+    ]
+  },
+  "documents": [
+    "ngo-pan-card-utilization-certificate-auditedunaudited-accounts-of-the-previous-y"
+  ],
+  "apply_url": "https://socialjustice.gov.in/writereaddata/UploadFile/ngoschemeobc2015635773242687450000.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/avowwobc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For the Organization:**\n\n1. Registered under the Societies Registration Act, 1860 (XXI of 1860) or any relevant Act of the State/Union Territory/Public trust.\n1. The organization should have an appropriate administrative structure and managing/executive committee.\n1. The organization should be democratically governed without external control.\n1. The organization must be registered for at least three years (waivable in exceptional cases).\n1. The organization should maintain a bank account in the organization’s name for at least three years.\n1. The organization should not be run for profit by any individual or a body of individuals.\n\n> **The following criteria would be kept in view while selecting the new VOs/NGOs:**\n\n1. Experience of at least two years in the relevant field.\n1. Projects should be in Backward Districts identified by the Planning Commission.\n\n> **For the Beneficiaries:**\n\n1. The beneficiary must belong to the Central or state/UT OBC list.\n1. The beneficiary&#39;s annual family income should not exceed ₹1,00,000/-..\n\n<br>",
+  "_criteria_filled": 1
+}

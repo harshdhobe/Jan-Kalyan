@@ -1,0 +1,51 @@
+{
+  "id": "scheme-for-tourism-related-activities",
+  "name": "Scheme for Tourism-related Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance to entrepreneurs for setting up or development of amusement parks, cultural centres, convention centres, restaurants, tourist service agencies, including expansion and modernization project.\n- The Loan Limit is need based.\n- The Project Cost must not exceed ₹12,00,00,000/-.\n- The Repayment Period is upto 10 years including moratorium period.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-applicationcopy-of-the-sale-deed-f",
+    "generator-set",
+    "air-conditioners",
+    "kitchen-equipment",
+    "furniture",
+    "electronic-private-automatic-branch-exchange-system",
+    "television",
+    "refrigerators",
+    "heaters",
+    "etc-two-comparative-quotations-from-standard-suppliers-for-all-the-above-equipme",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-for-all-the-promoters-brief-write-up-on-the-scope-of-the-proj",
+    "00",
+    "000-investigation-fee-payment-details-075-on-loan-amount-applied-plus-applicable",
+    "00",
+    "000-investigation-fee-payment-details-50-concession-on-applicable-fee-for-womens",
+    "food-licence",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-the-site-and-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/stra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Entrepreneurs setting up tourism-related activities are eligible.\n<br>",
+  "_criteria_filled": 1
+}

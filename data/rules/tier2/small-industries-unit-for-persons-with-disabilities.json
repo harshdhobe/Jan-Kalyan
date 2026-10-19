@@ -1,0 +1,36 @@
+{
+  "id": "small-industries-unit-for-persons-with-disabilities",
+  "name": "Small Industries Unit for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loan assistance of up to ₹25,00,000/- is provided to differently-abled persons for setting up manufacturing, fabrication, and production units.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-identitycitizenship-proof-any-one-of-the-following-aadhaar-card-2-age-proof-an"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=wsT17Ys5yxBYiig16ygxQg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/siupd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The applicant should be over 18 years old. For persons with mental retardation, the age requirement is relaxed to 14 years instead of the usual 18 years.",
+  "_criteria_filled": 3
+}

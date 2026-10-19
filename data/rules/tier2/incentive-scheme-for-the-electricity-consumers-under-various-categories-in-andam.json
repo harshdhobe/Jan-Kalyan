@@ -1,0 +1,27 @@
+{
+  "id": "incentive-scheme-for-the-electricity-consumers-under-various-categories-in-andam",
+  "name": "Incentive Scheme For The Electricity Consumers Under Various Categories In Andaman & Nicobar Islands",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "**Prize Money for Domestic Consumers (Green Energy &amp; Energy Conservation)**\nFirst Prize: ₹75,000/-; Second Prize: ₹50,000/-; Third Prize: ₹30,000/-\n**Prize Money for Domestic Consumers (Energy Conservation)**\nFirst Prize: ₹50,000/-; Second Prize: ₹30,000/-; Third Prize: ₹15,000/-\n**Prize Money for Commercial Consumers**\nFirst Prize: ₹75,000/-; Second Prize: ₹50,000/-; Third Prize: ₹30,000/-\n**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-of-the-consumer-proof-of-ownership-of-the-electric-connection",
+    "rooftop-solar-ground-mounted-solar-installations-for-green-energy-category-elect"
+  ],
+  "apply_url": "https://vidyut.andaman.gov.in/doc/24-01-2024_38DIS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isecvcani",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The consumers those have installed Solar Water Heating System, Rooftop Solar &amp; Ground Mounted Solar for their domestic requirements will be considered under Green Energy.\n- The consumers whose energy meters are in running condition.\n- The calculation of saving done by the consumer shall be on the basis of past three months average consumption.\n- The consumers having electricity bill paid up to date will only be considered.\n- Ownership of the meter should be in the name of the beneficiary who should be present at the time of evaluation, if called by the department.\n- Only those consumers will be eligible whose minimum energy savings are more than 30%.\n- The highest savings done by the consumers would be eligible for the prizes.\n- In case the percentage saving is equal for more than one consumer, say Mr. A &amp; Mr. B both are with 40% saving, then the winner will be selected by drawing of lots.",
+  "_criteria_filled": 1
+}

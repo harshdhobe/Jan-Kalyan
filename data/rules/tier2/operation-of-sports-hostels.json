@@ -1,0 +1,26 @@
+{
+  "id": "operation-of-sports-hostels",
+  "name": "Operation of Sports Hostels",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "The following facilities are provided in the sports hostel:\n\n- Free residential accommodation in sports hostels.\n- Nutritious meals, snacks, and special dietary arrangements as per approved pattern.\n- Sports training with modern equipment by expert coaches (especially in archery and athletics).\n- Free school uniforms and educational materials.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-jan-aadharbhamashah-card-copy-education-qualification-marksheet"
+  ],
+  "apply_url": "https://tad.rajasthan.gov.in/scheme/detail/535",
+  "source_url": "https://www.myscheme.gov.in/schemes/osh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should belong to the Scheduled Tribe community.\n1. The applicant should be studying in class 6th to 12th.1. The applicant should not have any disability or suffering from any serious illness.\n1. The applicant’s parents/guardians should not be income tax payers.\n1. The applicant should not be a failed student in the last examination.\n\n**Note:** Only those students who pass the selection test will be admitted to the sports hostel.",
+  "_criteria_filled": 1
+}

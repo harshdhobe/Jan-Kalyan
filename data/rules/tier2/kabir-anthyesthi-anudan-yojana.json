@@ -1,0 +1,32 @@
+{
+  "id": "kabir-anthyesthi-anudan-yojana",
+  "name": "Kabir Anthyesthi Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Under this scheme, a one-time grant of ₹3,000/- is provided to the family or dependents of the deceased person to cover funeral expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-the-applicant-ie-aadhaar-card",
+    "voter-id-card-identity-proof-of-the-deceased-person-ie-aadhaar-card-death-certif"
+  ],
+  "apply_url": "https://esuvidha.bihar.gov.in/Download/KabirForm.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kaay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a family member or dependent of the deceased person.\n   1. The deceased should belong to a Below Poverty Line (BPL) family.\n\n**Note:** The grant is provided to cover funeral expenses for the death of any person of any age from a BPL family.",
+  "_criteria_filled": 2
+}

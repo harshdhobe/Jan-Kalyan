@@ -1,0 +1,26 @@
+{
+  "id": "sanskrit-chhatra-pratibha-samman",
+  "name": "Sanskrit Chhatra Pratibha Samman",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Awards:**\n•\tFirst Place: ₹5,100/-\n•\tSecond Place: ₹4,100/-\n•\tThird Place: ₹3,100/-\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-the-award-will-be-as-per-the-guidelines-prescribed-by-the"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scpsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Students securing First, Second, or Third position in Sanskrit subject in the following examinations will be eligible:\n\n  - High School Examination (Uttarakhand Vidyalaya Shiksha Parishad)\n  - Intermediate Examination (Uttarakhand Vidyalaya Shiksha Parishad)\n  - Purva Madhyama Examination (Uttarakhand Sanskrit Shiksha Parishad)\n  - Uttar Madhyama Examination (Uttarakhand Sanskrit Shiksha Parishad)\n  - Shastri and Acharya Examinations (Uttarakhand Sanskrit University, Haridwar and Central Sanskrit University, Campus Devprayag, etc.)\n  - Graduate and Postgraduate classes of higher education institutions (on the basis of marks obtained in Sanskrit subject).\n\n<br>",
+  "_criteria_filled": 1
+}

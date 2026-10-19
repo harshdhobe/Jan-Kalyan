@@ -1,0 +1,33 @@
+{
+  "id": "rehabilitation-of-cured-leprosy-persons-pre-post-matric-scholarship",
+  "name": "Rehabilitation of Cured Leprosy Persons: Pre & Post-Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "<br>\n\n**Category****Rate/ Per Month**Pre-Matric (From Std. V to X)₹800/-Post-Matric (From Std. XI-XII)₹1,000/-General Graduate/Post-Graduate Courses₹1,500/-Professional Degrees/ Diplomas/ Certificates₹2,000/-<br>\n\n> **Note:** The scholarship is provided for a maximum period of 10 months in an academic year.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 240000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-permanent-domicile-in-odisha-birth-certificate-or-proof-of-age-of-the-c",
+    "40",
+    "000-certificate-of-non-receipt-of-financial-assistance-from-any-other-state-or-c"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20An%20umbrella%20scheme%20for%20Rehabilitation%20of%20Cured%20Leprosy%20Persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcpppms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant is a bonafide resident of Odisha.\n  - The applicant is either a child cured of leprosy or a child of a cured leprosy person.\n  - The applicant is a regular student of recognized educational institutions.\n  - The applicant shall have a family income of not more than Rs. 2,40,000/- per annum.\n  - The applicant is not in receipt of any financial assistance from the State Govt./ Central Govt. under any other scheme.",
+  "_criteria_filled": 2
+}

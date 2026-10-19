@@ -1,0 +1,26 @@
+{
+  "id": "award-for-meritorious-students-of-meghalaya-in-the-hsslc-examination-science-str",
+  "name": "Award For Meritorious Students Of Meghalaya In The HSSLC Examination (Science Stream)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "&gt; The award of ₹10,000/- per awardee  along with a certificate.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "st-certificate-class-xii-marksheet-front-page-of-student-bank-account"
+  ],
+  "apply_url": "https://meghalaya.gov.in/index.php/schemes/content/37590",
+  "source_url": "https://www.myscheme.gov.in/schemes/amsmhsslc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a tribal student belonging to the Khasi, Jaintia, Garo, Koch, or Hajong tribes of Meghalaya.\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should have passed the current HSSLC Examination from the Science stream.\n1. The applicant should have secured 60% or above aggregate marks in the examination.\n\n<br>",
+  "_criteria_filled": 1
+}

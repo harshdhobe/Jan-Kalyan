@@ -1,0 +1,31 @@
+{
+  "id": "private-tuition-assistance-to-scheduled-caste-students-studying-in-standard-11th",
+  "name": "Private Tuition Assistance to Scheduled Caste Students Studying in Standard 11th & 12th (Science Stream)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Assistance Details:**\n\n•\t11th Standard: ₹15,000/- per annum as a private tuition fees\n•\t12th Standard: ₹15,000/- per annum as a private tuition fees",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-identity-proof-ie-aadhaar-card-3-10th-class-marksheet-4"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1523",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptascsss1112ss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste of Gujarat.\n   1. The student should be studying in Standard 11th &amp;amp; 12th Science Stream.\n   1. The student should have 70% or more marks in Standard 10th.\n   1. The annual family income of the student should be up to ₹6 lakhs.",
+  "_criteria_filled": 2
+}

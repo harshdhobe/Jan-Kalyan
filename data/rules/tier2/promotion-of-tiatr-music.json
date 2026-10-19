@@ -1,0 +1,27 @@
+{
+  "id": "promotion-of-tiatr-music",
+  "name": "Promotion of Tiatr Music",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement of tuition fees paid to the tutor, with the exact amount to be decided by the Tiatr Academy of Goa.\n- A 50% subsidy (refund) on the cost of a blowing instrument (Saxophone, Trumpet, or Clarinet), based on the value of a medium-priced instrument.\n- Appropriate financial support for students to register and get themselves certified by institutions such as Trinity College or Royal Sch",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stage-self-attested-copy-of-aadhaar-card-self-attested-copy-of-pa",
+    "not-applicant-record-of-attendance-of-the-students-to-be-maintained-and-submitte"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/potm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be any interested person, young or adult, free to avail the benefit of this scheme.\n- The applicant must identify a tutor having the credentials to teach him/her the blowing instrument, which will be verified and accepted by the Tiatr Academy of Goa.\n- The applicant must serve the tiatr stage by playing in any tiatr band or musical group for at least one year after completion of the course.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mukhya-mantri-mahila-kisan-sashaktikaran-yojana",
+  "name": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Benefits\nFinancial Assistance: The scheme provides financial assistance to women farmers for various farm activities like purchasing inputs, seeds, equipment, etc. This helps in improving their agricultural productivity and income.\nTraining and Capacity Building: The scheme offers training and capacity-building programs to women farmers to enhance their skills and knowledge about modern agricultur",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-aadhaar-card-applicants-are-required-to-provide-their",
+    "scheduled-tribes",
+    "other-backward-classes",
+    "or-other-marginalized-groups-may-have-to-provide-their-caste-certificate-as-proo"
+  ],
+  "apply_url": "https://mksp.gov.in/images/MKSP_Agriculture_Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Women Farmers: Only women farmers are eligible to apply for the scheme. Women farmers who own or operate agricultural land are eligible to apply.\n1. Resident of Gujarat: Only women farmers who are residents of Gujarat are eligible to apply.\n1. Age Criteria: There is no specific age limit for the scheme. Women farmers of all age groups can apply.\n1. Income Criteria: There is no specific income criteria for the scheme. However, preference is given to women farmers who belong to economically weaker sections.\n1. Land Holding: Women farmers who own or operate agricultural land are eligible to apply. The size of the landholding is not a criterion for eligibility.\n1. Registration: Women farmers have to register themselves with the Department of Agriculture and Co-operation to apply for the scheme.\n1. Group Formation: Women farmers can also form groups and apply for the scheme collectively..\n\n<br>",
+  "_criteria_filled": 2
+}

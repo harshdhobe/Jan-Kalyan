@@ -1,0 +1,43 @@
+{
+  "id": "micro-finance-gopalak-nigam",
+  "name": "MICRO FINANCE (Gopalak Nigam)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan assistance up to ₹1.25 lakh** for small businesses- **Interest rate fixed at 5% per annum**\n- **95% loan coverage** by the corporation- **Only 5% contribution** needed from the applicant- Promotes economic independence and small-scale entrepreneurship",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "you-must-submit-the-following-documents-residencedomicile-certificate-of-gujarat",
+    "voter-id",
+    "etc-bank-passbook-or-cancelled-cheque-own-contribution-proof-5-basic-business-pl"
+  ],
+  "apply_url": "https://daadconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/msggvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a **permanent resident of Gujarat.**1. The applicant must be a woman or man belonging to the **Rabari or Bharwad caste.**1. The applicant must belong to a **socially and educationally backward class** as recognized by the Gujarat government.1. The applicant must be between **21 and 45 years of age.**1. The applicant’s annual family income must **not exceed ₹3.00 lakh.**1. The applicant must be planning to **start or expand a small business.**",
+  "_criteria_filled": 4
+}

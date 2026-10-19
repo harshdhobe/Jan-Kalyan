@@ -1,0 +1,28 @@
+{
+  "id": "award-scheme-for-candidates-selected-in-nda-ima-ota-ina-iaf",
+  "name": "Award Scheme for Candidates Selected in NDA, IMA, OTA, INA, IAF",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Award Amount:**  ₹50,000/- per candidate\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-pan-card-bank-account-details-permanent-residence-certificate-appoi",
+    "if-applicable",
+    "after-completion-of-training-a-declaration-stating-that-they-have-not-previously"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate must be a native or permanent resident of Uttarakhand.\n   1. The candidate should have been selected for service at one of the premier defence academies, such as National Defence Academy (NDA), Indian Military Academy (IMA), Officers Training Academy (OTA), Indian Naval Academy (INA) or Indian Air Force (IAF).\n   1. The applicant must either be currently undergoing training at the respective academy or have been formally inducted into the defence service.\n   1. The candidate must have successfully completed the relevant training and course.\n\n<br>",
+  "_criteria_filled": 1
+}

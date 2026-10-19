@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-establishment-of-backyard-poultry-units",
+  "name": "Scheme for Establishment of Backyard Poultry Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. 50 chicks, 10 day old reared at Government Hatchery along with two feeders and two water drinkers are provided free of cost to each beneficiary family at their doorstep.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-parivaar-pahchan-patra-ppp-id-2-identity-proof-ie-aadhaar-card-3-any-other-doc"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/sites/default/files/documents/Scheme%202023-24/BPU%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sebpu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be of 18 to 55 years of age and a resident of Haryana.\n   1. There are no mandatory educational qualifications or training requirements.\n   1. Any applicant who has earlier availed benefits under any Departmental Scheme for the establishment of a livestock unit will not be eligible for availing benefits under the Scheme.",
+  "_criteria_filled": 3
+}

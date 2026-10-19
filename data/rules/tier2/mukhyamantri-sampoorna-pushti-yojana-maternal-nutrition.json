@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-sampoorna-pushti-yojana-maternal-nutrition",
+  "name": "Mukhyamantri Sampoorna Pushti Yojana: Maternal Nutrition",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Take Home Ration:** Chikki/ladoo(s) and eggs are provided to pregnant women and lactating mothers under Supplementary Nutrition Programme (SNP). Additionally, the following nutrient-rich products would be provided under this scheme in addition to their existing entitlements.\n**Sl. No****Type of Take Home Ration****Monthly Quantity**1Til Ladoo500 gram (25 pieces of 20 gram each)2Paushtik Bhel75",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "etc-proof-of-residence-pregnancy-certificate-maternal-health-cardmedical-report"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/en/ICDS/mukhymantri-samproona-pushti-yojana-mspy",
+  "source_url": "https://www.myscheme.gov.in/schemes/maternalnutritionuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Odisha.\n   1. The beneficiary must be a pregnant woman or a lactating mother registered and residing within the service area of the concerned Anganwadi Centre (AWC).\n\n<br>",
+  "_criteria_filled": 2
+}

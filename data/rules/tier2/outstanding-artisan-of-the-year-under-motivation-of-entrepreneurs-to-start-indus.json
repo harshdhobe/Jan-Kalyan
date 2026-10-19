@@ -1,0 +1,27 @@
+{
+  "id": "outstanding-artisan-of-the-year-under-motivation-of-entrepreneurs-to-start-indus",
+  "name": "\"Outstanding Artisan of the Year\" under “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises”",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Cash Award of ₹2,00,000/- and a Citation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-participation-in-national-international-handicraft-exhibitionsfairs-any",
+    "as-required-by-the-award-committee"
+  ],
+  "apply_url": "https://industry.py.gov.in/sites/default/files/state-award-go.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oay-mesifai-sa-msme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Artisan.\n- The applicant should have been a participant for 3 years in National / International handicraft exhibitions/fairs.",
+  "_criteria_filled": 1
+}

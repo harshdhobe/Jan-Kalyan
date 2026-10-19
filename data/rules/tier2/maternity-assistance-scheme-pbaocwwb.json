@@ -1,0 +1,42 @@
+{
+  "id": "maternity-assistance-scheme-pbaocwwb",
+  "name": "Maternity Assistance Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹5,000/- credited within 15 days through DBT.\n*The spouse of male employee who is the beneficiary of the fund shall also be given this benefit. \n*The benefits can only be availed twice.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration1-duly-filled-and-signed-application-form-2-birth-certificatetra",
+    "serving-as-evidence-of-being-a-construction-worker-4-details-related-to-construc"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mat-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The applicant should have completed the age of 18 years.\n- The applicant should be a Woman.\n- The applicant should be Pregnant.\n- The applicant should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The beneficiary should be contributing to the fund until he/she attains the age of 60 years. \n- The applicant should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.\n- The applicant should not already have received the benefits of this scheme two times.\n- The spouse of male employee who is the beneficiary of the fund is also eligible.",
+  "_criteria_filled": 4
+}

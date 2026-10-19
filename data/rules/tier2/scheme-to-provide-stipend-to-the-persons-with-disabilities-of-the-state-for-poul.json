@@ -1,0 +1,31 @@
+{
+  "id": "scheme-to-provide-stipend-to-the-persons-with-disabilities-of-the-state-for-poul",
+  "name": "Scheme to Provide Stipend to the Persons With Disabilities of the State for Poultry Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Stipend Amount:** ₹2,000/- per beneficiary.\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-identity-card-ph-identity-card-ration-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spspwdpf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a person with physical disabilities, holding a valid PH Identity Card.\n  - The applicant should express interest in poultry rearing and be willing to attend the full 7-day training session.\n\n<br>",
+  "_criteria_filled": 2
+}

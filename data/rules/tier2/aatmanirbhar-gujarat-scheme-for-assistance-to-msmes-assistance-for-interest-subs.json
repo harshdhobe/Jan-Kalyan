@@ -1,0 +1,36 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-interest-subs",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Interest Subsidy to Micro, Small and Medium Enterprise (Service Sector)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Category of Taluka** **Quantum of Incentive**  Category 17% on Term Loan with a maximum amount of ₹35,00,000/- per annum for a period of 7 yearsCategory 2 6% on Term Loan with a maximum amount of ₹30,00,000/- per annum for a period of 6 years Category 3 &amp;amp;amp;amp; Municipal Corporation Areas5% on Term Loan with a maximum amount of ₹25,00,000/- per annum for a period of 5 years",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmecisss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise in the service sector.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. Only new MSME of Service sectors will be eligible for Interest subsidy on the term loan on new machinery, equipment, and furniture/fixtures (except land and building).\n   1. The enterprise must submit an application online within one year of the first loan disbursement, commencement of commercial production/services, or GR issue date, whichever is later.\n   1. Applications must be submitted before the scheme&amp;#39;s last operative date.\n   1. The enterprise must pay regular installments and interest to the bank/financial institution.",
+  "_criteria_filled": 1
+}

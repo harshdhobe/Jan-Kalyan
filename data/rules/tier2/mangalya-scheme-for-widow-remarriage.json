@@ -1,0 +1,41 @@
+{
+  "id": "mangalya-scheme-for-widow-remarriage",
+  "name": "Mangalya Scheme For Widow Remarriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹25000/- is provided to eligible widows and divorced women to remarry.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "the-following-particulars-should-be-attached-to-the-application-form-1-identity"
+  ],
+  "apply_url": "http://wcd.kerala.gov.in/scheme-info.php?id=NQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/mswr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n   1. The applicant should be a widow and a divorced woman.\n   1. Women belonging to the age group of 18 to 50 years who are legally divorced and widowed are eligible to apply under the scheme.",
+  "_criteria_filled": 4
+}

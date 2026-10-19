@@ -1,0 +1,31 @@
+{
+  "id": "rotavatorthresher-machine-equipment-assistance-scheme",
+  "name": "Rotavator/Thresher Machine Equipment Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial assistance to farmers to purchase a rotavator (6 feet) or a thresher machine.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-passport-size-photos-ration-card-712-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtmeas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer. \n1. The applicant should belong to the Scheduled Tribes (ST) category.\n1. The applicant should belong to a Below Poverty Line (BPL) family.\n1. The applicant should be a resident of tribal or forest areas of Gujarat.\n1. The applicant should be a farmer dependent on agriculture as the main source of livelihood.\n1. The applicant should intend to use the machinery for self-employment and agricultural purposes.\n\n<br>",
+  "_criteria_filled": 2
+}

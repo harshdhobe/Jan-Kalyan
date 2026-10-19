@@ -1,0 +1,42 @@
+{
+  "id": "west-bengal-migrant-workers-welfare-scheme-repatriation-of-dead-body",
+  "name": "West Bengal Migrant Workers’ Welfare Scheme: Repatriation of Dead Body",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- ₹ 25,000/- to the nominee of the Migrant Worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-max-size-50-kb",
+    "jpg-or-jpeg-file-only",
+    "aadhar-card-upload-document-both-sides-in-a-single-page-max-size-150-kb",
+    "pdf-file-only",
+    "first-page-of-bank-account-particulars-max-size-150-kb",
+    "pdf-file-only",
+    "employment-related-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://karmasathips.wblabour.gov.in/sites/default/files/static/migrant_worker_scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbmwwsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For registration as a Migrant Worker:**\n\n- The applicant must be a resident of West Bengal.\n- The applicant’s age should be between 18-60 years.\n- The applicant must be ordinarily a worker who is employed/ likely to be employed in any State/Union Territories other than the state of West Bengal/ Outside India.\n\n<br>\n\n> **For the application of Welfare Scheme:**\n\n- The beneficiary should be a nominee i.e., a person nominated by the registered Migrant Worker from his/ her family.\n- The migrant worker should have lost his/her life due to death during the course of employment outside the State of West Bengal.",
+  "_criteria_filled": 3
+}

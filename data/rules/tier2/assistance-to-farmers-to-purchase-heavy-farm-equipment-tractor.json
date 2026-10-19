@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-farmers-to-purchase-heavy-farm-equipment-tractor",
+  "name": "Assistance to Farmers to Purchase Heavy Farm Equipment (Tractor)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Subsidy Assistance:** 25% of the cost for:\n\n1. Models up to 40 PTO HP (Max ₹45,000/-).\n1. Models above 40 PTO HP and up to 60 PTO HP (Max ₹60,000/-).\n\n> **Note:**\n\n- Minimum Time Limit (in Years) for Reclaiming  Benefits: 10 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-proof-8-a-land-record-aadhaar-card-bank-passbook-domicile-certifi"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/9whX1efZSl8wVsjqjrs8hw%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/afphfe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a landholding farmer.\n  - The applicant should belong to the Gujarat state.\n\n  - The applicant must purchase the Tractor from an [authorized dealer](https://ikhedut.gujarat.gov.in/Public/frm_Public_DealerDetails.aspx).\n&gt; **Note:**\n\n  - Beneficiary farmers can receive the benefit of one tractor component per land record (8 A).\n  - Among the holders of a land record mentioned in 8-A, if there is more than one farmer, only one of these farmers will get benefits.\n  - If a farmer holds multiple land records or has a name in multiple land records, the benefits will be availed by the farmer on a single land record only.\n  - The benefits are available once every 10 years per land record.",
+  "_criteria_filled": 1
+}

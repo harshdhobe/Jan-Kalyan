@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-arogya-arunachal-yojana",
+  "name": "Chief Minister Arogya Arunachal Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Coverage of up to ₹5,00,000 per family per year.\n2. Cashless treatments during hospitalization.\n3. Pre-existing diseases are inclusively covered.\n4. The scheme encompasses expenses for pre-hospitalization for up to 3 days.\n5. Post-hospitalization expenses for up to 10 days are covered.\n6. Hospitalization expenses include:\n\n- Registration Charges, Bed Charges (General Ward), Nursing and Boarding",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-in-case-of-children-under-5-years-ration-card-for"
+  ],
+  "apply_url": "https://cmaay.com/pdf/Notification%20CMAAY%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmaay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to one of the tribal communities that are recognized by the state of Arunachal Pradesh.\n- The applicant should be legally residing in the Changlang, Lohit, or Namsai Districts of Arunachal Pradesh.\n- The applicant should be a member of one of the backward communities.\n- The people who are enrolled in the Arunachal Pradesh Scheduled Tribe (APST) are directly eligible.\n- In the case the applicant has employment with the state government, the insurance program’s benefits are also available to their dependents.",
+  "_criteria_filled": 1
+}

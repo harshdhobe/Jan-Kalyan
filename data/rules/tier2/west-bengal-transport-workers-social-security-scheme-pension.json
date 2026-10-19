@@ -1,0 +1,39 @@
+{
+  "id": "west-bengal-transport-workers-social-security-scheme-pension",
+  "name": "West Bengal Transport Workers’ Social Security Scheme: Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- **Pension Amount:** ₹1,500/- per month for beneficiaries aged 60 and above.  - **Incremental Benefit:** Additional ₹10/- per month for every completed year of enrolment beyond five years.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-new-registrationcertification-by-prescribed-authority-in-the-prescribed-form",
+    "passport-size-photo-self-and-for-each-dependent-member-age-proof-document-drivin",
+    "ii",
+    "iia-life-certificate-bank-details-joint-passport-size-photo-with-spouse-3-copies"
+  ],
+  "apply_url": "https://edistrict.wb.gov.in/portal/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtwssp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be between 18 and 60 years of age at the time of enrolment.\n   1. The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n   1. The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n   1. The applicant must have been continuously enrolled in the scheme for at least 5 years to qualify for pension benefits.\n\n&lt;br&gt;",
+  "_criteria_filled": 3
+}

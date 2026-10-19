@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-kanya-abhibhavak-pension-yojana",
+  "name": "Mukhyamantri Kanya Abhibhavak Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- A monthly pension amount of ₹500/- (Rupees 500) is provided.\n- The benefit is provided monthly.\n- The funds are deposited into the joint savings account of the applicant couple or the single applicant&#39;s account maintained at a nationalized bank or Post Office.\n\n_*The beneficiary must continue to fulfill the established eligibility criteria as defined in the rules so that the benefits are not",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "the-applicants-are-not-required-to-attach-or-upload-any-documents-when-submittin",
+    "the-applicants-will-need-to-have-certain-documents-available-to-reference",
+    "as-the-applicants-be-asked-to-enter-specific-document-numbers-or-identification"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=BS0zZwnKgzM=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkapy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Madhya Pradeah.\n  - The applicant couple or the single applicant must have a minimum age of 60 years for at least one person at the time of application.\n  - The applicant couple or the single applicant must have only daughters.\n  - The applicant must belong to the Below Poverty Line category.\n\n<br>",
+  "_criteria_filled": 3
+}

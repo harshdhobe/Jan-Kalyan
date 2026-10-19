@@ -1,0 +1,45 @@
+{
+  "id": "financial-assistance-for-the-marriage-of-daughters-of-widowsdestitute-women-belo",
+  "name": "Financial Assistance for the Marriage of Daughters of Widows/Destitute Women belonging to the Scheduled Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "household",
+  "benefit": "> **Financial grant :  ₹20,000/- for the marriage of daughters.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-father-of-girl-bride-caste-certificate-age-proof-of-the-gir",
+    "ration-card",
+    "electricity-bill",
+    "water-bill",
+    "etc-legal-guardian-certificate-in-case-both-the-parents-had-died"
+  ],
+  "apply_url": "https://chdsw.gov.in/index.php/scheme/financial-assistance-for-the-marriage-of-daughter-of-widows-destitute-women-belonging-to-schedule-caste",
+  "source_url": "https://www.myscheme.gov.in/schemes/marriage-of-daughter-of-sc-widow",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bride&amp;#39;s mother must belong to a Scheduled Caste community.\n   1. Financial help is available for the marriage of up to two daughters in a family.\n   1. The bride must be at least 18 years old on the date of marriage.\n   1. This assistance is only for the first marriage of each daughter.\n   1. Your family&amp;#39;s monthly income cannot be more than ₹2,000/-. (Verified by the Tehsildar).\n   1. Applicant must have lived in Chandigarh for at least 3 years.\n   1. If both the bride&amp;#39;s parents are deceased, her legal guardian can apply for this help.",
+  "_criteria_filled": 4
+}

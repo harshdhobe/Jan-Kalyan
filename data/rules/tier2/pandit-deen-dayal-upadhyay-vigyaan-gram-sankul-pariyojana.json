@@ -1,0 +1,26 @@
+{
+  "id": "pandit-deen-dayal-upadhyay-vigyaan-gram-sankul-pariyojana",
+  "name": "Pandit Deen Dayal Upadhyay Vigyaan Gram Sankul Pariyojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under the project, rural development work is carried out by forming clusters of villages across various districts of the state. \n  - Based on the natural resources available in the selected villages, various units are established to improve farmers&amp;#39; livelihoods through the application of science and technology.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-to-be-submitted-as-per-the-guidelines-of-the-uttarakhand"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdduvgsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiaries of the project include selected farmers, entrepreneurs, self-help groups, and general public residing in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

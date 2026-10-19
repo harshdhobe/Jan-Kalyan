@@ -1,0 +1,26 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-marriage-assistance",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Marriage Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Financial assistance for the marriage of daughters of registered transport vehicle drivers or conductors.\n1. Assistance is provided as per the prevailing rates and conditions of the &quot;[Mukhyamantri Kanya Vivah Yojana](https://socialjustice.mp.gov.in/schemes/view/SWhoak9tZGNSMnpISG9jbndQckN4UT09)&quot;.\n\n- Under this scheme, the following assistance is provided:\n- Each eligible bride (includ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-family-identification-number-samagra-member-ide"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-ma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor.\n1. The applicant should possess a valid commercial driving license or conductor&#39;s license issued in Madhya Pradesh.\n1. The applicant’s name should be registered on the Samagra Portal.\n1. The applicant’s daughter should be unmarried at the time of application.\n1. The marriage should be conducted as per the conditions of the Mukhyamantri Kanya Vivah Yojana.\n1. The applicant should not be a government employee.\n\n<br>",
+  "_criteria_filled": 1
+}

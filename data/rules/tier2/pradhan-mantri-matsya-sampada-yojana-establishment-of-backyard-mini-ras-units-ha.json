@@ -1,0 +1,28 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-establishment-of-backyard-mini-ras-units-ha",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Establishment of Backyard mini RAS Units - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Project cost: ₹50,000/- per unit\n- Subsidy will be limited to 40% of the project cost for the General Category of beneficiaries.\n- Subsidy will be limited to 60% of the project cost for Weaker sections/Scheduled Caste/Scheduled Tribe/Women and their co-operatives of beneficiaries.\n\n> **Note:** \n\n- **General Category:** Ratio 16% State Share, 24% Central Share and 60% Beneficiary Share.- **Weaker",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-beneficiary-and-fisheries-department-voting-cardbirth-cer",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://harfish.gov.in/technical-financial-assistance",
+  "source_url": "https://www.myscheme.gov.in/schemes/ebmrasuhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n   1. The applicant should have a Parivar Pehchan Patra (PPP).\n   1. The applicant should provide documentary evidence of the availability of the requisite land free from all encumbrances, financial resources, necessary clearances/permissions.\n   1. The water source for RAS units can be any surface or groundwater source, such as a canal, river, spring, open well, tube well, or ground well.\n   1. The applicant should ensure that post-construction operation, management, and maintenance of the RAS will be carried out in a satisfactory manner by the beneficiaries at their own cost.\n   1. The infrastructure created should have essential requirements for RAS, including water treatment units.\n   1. The projects having land on a long-term registered lease shall also be considered for Central financial assistance under the scheme. However, the lease period/agreement shall not be less than a minimum period of 10 years.",
+  "_criteria_filled": 1
+}

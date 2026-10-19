@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-for-self-finance-colleges-students-of-ntdnt",
+  "name": "Scholarship for Self Finance Colleges Students of NT/DNT",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Up to ₹50,000/- for tuition fee, registration fee, education fee, and other scholarship-related charges.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "previous-years-marksheet-income-certificate-caste-certificate-fee-payment-receip"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsfcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The applicant should belong to the NT/DNT (Nomadic Tribes and Denotified Tribes) category.\n   1. The applicant should be studying in a self-financed college in Gujarat.\n   1. The applicant should have passed the Higher Secondary Certificate (HSC) or equivalent examination.\n   1. The applicant’s individual and family annual income should not exceed ₹2,00,000/-.\n   1. The  Institute must be certified by the government.\n\n<br>",
+  "_criteria_filled": 2
+}

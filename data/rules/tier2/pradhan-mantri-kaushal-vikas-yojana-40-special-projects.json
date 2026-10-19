@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-kaushal-vikas-yojana-40-special-projects",
+  "name": "Pradhan Mantri Kaushal Vikas Yojana 4.0- Special Projects",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "The following benefits are provided to candidates under Special Projects:\n\n1. **Base Training Cost:** Provided as per the rationalised hourly base cost of ₹27.89 per hour.1. **Free Short-Term Skill Training:** On-the-Job Training (OJT) is provided in applicable job roles for practical, live-work exposure.1. **Uniform, Induction Kit, and Participant Handbook:** Maximum up to ₹500 per candidate. The",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-for-mobile-based-one-time-password-electronic-know-your-customer-ek"
+  ],
+  "apply_url": "https://www.msde.gov.in/offerings/schemes-and-services/details/pradhan-mantri-kaushal-vikas-yojana-4-0-pmkvy-4-0-2021-ITO3ATMtQWa",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmkvy-sp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be of Indian nationality.\n1. The applicant should possess a valid Aadhaar.\n1. The applicant should fulfil the eligibility criteria of the respective job role.\n1. The applicant should be in the age group of 15 to 45 years.\n1. The applicant should belong to a marginalised or vulnerable group, or another group requiring special attention, or should be undertaking job roles with a focus on future skills.\n\n<br>",
+  "_criteria_filled": 2
+}

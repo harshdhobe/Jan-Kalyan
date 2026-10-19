@@ -1,0 +1,31 @@
+{
+  "id": "janani-shishu-suraksha-karyakram-madhya-pradesh",
+  "name": "Janani Shishu Suraksha Karyakram Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Free and cashless delivery\n- Free treatment for sick newborns and infants up to one year of age.\n- Free medicines, consumables, and diagnostic services for both mothers and infants.\n- Free provision of blood and blood transfusion services, if required.\n- Free diet during hospitalization \n- Free transport facility\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-departments-guidelines-for-the-scheme"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=280",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsskmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant must be a pregnant woman. \n1. The applicant’s child (newborn or infant) should be up to one year of age to receive benefits.\n\n<br>",
+  "_criteria_filled": 2
+}

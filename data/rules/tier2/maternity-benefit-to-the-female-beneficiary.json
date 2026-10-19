@@ -1,0 +1,32 @@
+{
+  "id": "maternity-benefit-to-the-female-beneficiary",
+  "name": "Maternity Benefit to the Female Beneficiary",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "- **Financial assistance of ₹6,000/- for miscarriage or medical termination.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-medical-cer",
+    "medical-termination-of-pregnancy-or-miscarriage-for-the-maternity-benefit-aadhaa"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=maternity+benefit+to+the+female+beneficiary",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbttfb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female construction worker. \n1. The worker should be registered under the Manipur Building and Other Construction Workers Welfare Board.\n1. The applicant should have gone through a miscarriage or medical termination.",
+  "_criteria_filled": 2
+}

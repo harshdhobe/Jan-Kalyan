@@ -1,0 +1,31 @@
+{
+  "id": "assistance-to-women-for-trainer-and-coaches-training-course",
+  "name": "Assistance to Women for Trainer and Coaches Training Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Eligible female candidates receive financial support to enroll in recognized diploma courses in sports to become trainers or coaches.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-certificate-of-prof-course-food-bill-receipt-income-certificate-pas"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/atwtctc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should be a female.\n   1. The applicant should be a student.\n   1. The applicant should be pursuing a diploma course in sports from a recognized university or institution such as the Sports Authority of India.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,35 @@
+{
+  "id": "interest-subsidy-scheme-on-education-loan",
+  "name": "Interest Subsidy Scheme on Education Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy Assistance:** 100% interest subsidy on education loans up to ₹10,00,000/- for the moratorium period (course duration + 1 year).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-fresh-applicationpassport-size-photograph-max-50-kb-signature-max-50-kb-mark",
+    "signed-and-stamped-by-bank-manager-copy-of-education-loan-disbursement-letter-as",
+    "signed-and-stamped-by-bank-manager-statement-of-education-loan-account-from-firs",
+    "signed-and-stamped-by-bank-manager-copy-of-education-loan-disbursement-letter-as",
+    "signed-and-stamped-by-bank-manager-bank-interest-certificate-signed-and-stamped"
+  ],
+  "apply_url": "https://kcg.gujarat.gov.in/education_loan/pdf/How%20to%20Apply-English.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/issoel",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be a student.\n   1. The applicant must have passed HSC (Higher Secondary Certificate) with at least 60 percentile.\n   1. The applicant must have taken an education loan from a recognized bank for pursuing higher education in India or abroad.\n   1. The applicant must have a family income not exceeding ₹6,00,000/- per year.\n\n<br>",
+  "_criteria_filled": 2
+}

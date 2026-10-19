@@ -1,0 +1,26 @@
+{
+  "id": "registered-construction-worker-in-case-of-hisher-natural-death-jkbocwwb",
+  "name": "Registered Construction Worker in case of his/her Natural Death (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "₹2,00,000/- is provided to the nominee/dependent of the deceased construction worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "original-death-certificate-of-the-worker-attested-age-proof-of-the-worker-duly-a"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/MediaGallery/Accidental%20and%20natural%20death.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcwicohndjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a nominee/dependent of a registered member/worker who has deceased due to natural causes.",
+  "_criteria_filled": 1
+}

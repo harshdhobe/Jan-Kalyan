@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-upscapsc-mains-exam",
+  "name": "Financial Assistance for UPSC/APSC Mains Exam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Financial Assistance is provided, subject to eligibility verification and fund availability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-passing-the-apscupsc-preliminary-exam-caste-certificate-any-other-relev"
+  ],
+  "apply_url": "https://directoratetribalaffairsplain.assam.gov.in/how-to/apply-for-financial-assistance-for-upscapsc-mains-exam",
+  "source_url": "https://www.myscheme.gov.in/schemes/fauame",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Tribes (ST)/Other Backward Classes (OBC)/More Other Backward Classes (MOBC) community of Assam.\n- The applicant must have passed the Assam Public Service Commission (APSC) or Union Public Service Commission (UPSC) Preliminary Examination in the current year.\n\n_*Fulfilling eligibility does not guarantee benefits, as the Selection Committee has the right to reject applications without assigning reasons._",
+  "_criteria_filled": 1
+}

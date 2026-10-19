@@ -1,0 +1,32 @@
+{
+  "id": "biotechnology-post-doctoral-fellowship",
+  "name": "Biotechnology Post-Doctoral Fellowship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. The Post-Doctoral Fellowship carries an amount of ₹32,000/- per month + HRA (10%) with an annual contingent grant of ₹50,000/-.\n   1. Candidates who have submitted a thesis for a PhD and are awaiting the award of a PhD, will be paid only ₹22,000/- per month + 10% HRA.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-proof-of-age-3-phd-certificate-4-educational-cer",
+    "if-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/wp-content/uploads/2019/06/BioPDF_Application_21.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Kerala State.\n   1. The applicant should possess a first-class Master’s Degree in Life Sciences including Veterinary Science, Agriculture, Forestry, Fisheries or a Master’s Degree in Medicine followed by PhD in biotechnologically relevant aspects with quality publications in indexed (SCI) journals.\n   1. The candidates with the above qualifications who have submitted their PhD thesis and with quality publications in indexed (SCI) journals.\n   1. The Fellowship is open to candidates below 35 years, but relaxable up to a maximum of 5 years for SC/ST/Women and Physically handicapped candidates.\n   1. Applicant should not be receiving any fellowship or grant from any other source.\n   1. Those who have already availed of one Post-Doctoral Fellowship from KSCSTE or elsewhere are not eligible to apply for a second Post-Doctoral Fellowship. \n\n**Note:** Post-Doctoral fellows availing any other source of financial assistance/stipend from other state/central funding agencies will not be simultaneously eligible for the Kerala Biotechnology Commission (KBC) Post-Doctoral fellowship.",
+  "_criteria_filled": 2
+}

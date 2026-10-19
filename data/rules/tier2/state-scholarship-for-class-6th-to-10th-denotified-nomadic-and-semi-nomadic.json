@@ -1,0 +1,26 @@
+{
+  "id": "state-scholarship-for-class-6th-to-10th-denotified-nomadic-and-semi-nomadic",
+  "name": "State Scholarship for Class 6th to 10th (Denotified, Nomadic and Semi-Nomadic )",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Annual Scholarship (for 10 months):**\n\n**For Classes 6th to 8th**\n\n- Boys: ₹200/-\n- Girls: ₹600/-\n\n**For Classes 9th to 10th**\n\n- Boys: ₹600/-\n- Girls: ₹1200/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/sscdnnsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be from a Denotified, Nomadic, and Semi-Nomadic Community.\n1. The applicant should be studying in Class 6th to 10th.\n\n_*The applicant should be eligible for the scholarship even if they have failed one year._\n_*The applicant should not need to reapply for renewal if they continue in the same category of classes (e.g., 6th to 8th or 9th to 10th)._",
+  "_criteria_filled": 1
+}

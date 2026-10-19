@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-setting-up-of-sales-emporia-by-industrial-associations",
+  "name": "'Financial Assistance for Setting Up of Sales Emporia by Industrial Associations, Handicrafts Societies and Recognized Institutions' under 'Marketing And Publicity'",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial support via the Industrial Associations, Handicrafts Societies and Recognized Institutions.\n- Promotion of Handicrafts, Coir, Jute, Micro and Small Industrial products.\n- Acquisition of suitable buildings/premises and infrastructure facilities for setting up of Sales Emporia locally and in important cities in India.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-as-an-artisanunit-industrialist-from-puducherry-any-other"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasuseiahsri-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be an artisan/unit industrialist from Puducherry.",
+  "_criteria_filled": 1
+}

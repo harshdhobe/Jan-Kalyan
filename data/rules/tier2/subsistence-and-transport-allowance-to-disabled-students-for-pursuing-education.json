@@ -1,0 +1,36 @@
+{
+  "id": "subsistence-and-transport-allowance-to-disabled-students-for-pursuing-education",
+  "name": "Subsistence and Transport Allowance to Disabled Students for Pursuing Education in Computer and Management",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Eligible students under this scheme will receive the following assistance:\n\n  - Reimbursement of fees for computer and management courses.\n  - A monthly subsistence allowance of ₹1,500/-.\n  - A transport allowance of ₹500/- per month for those in Municipal Corporation areas and ₹300/- per month for those in Municipal Council areas.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=794",
+  "source_url": "https://www.myscheme.gov.in/schemes/stadspecm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should be a disabled student.\n   1. The student should be studying a Computer or Management subject/course at a government college.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe category.\n   1. The annual income of the applicant&amp;#39;s parents or guardians should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 3
+}

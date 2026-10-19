@@ -1,0 +1,30 @@
+{
+  "id": "nirmaan-kamgar-mrtyu-va-divyangta-sahayta-yojana",
+  "name": "Nirmaan Kamgar Mrtyu Va Divyangta Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "> **Death Benefits for register construction worker who die due to an accident:**\n\n- Total amount will be ₹5,25,000/-.\n\n1. To dependents of a registered construction worker who dies due to an accident : ₹5,00,000/-  as  approximately ₹ 9,395/- per month for 5 years (as per interest rate).\n1. For funeral expenses: ₹25,000/- lump sum.\n\n<br>\n\n> **Death Benefits for register construction worker who di",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-a-copy-of-the-online-death-certificate-bank-account-photocopy",
+    "both-the-primary-information-reportpanchnama-and-the-post-mortem-report-are-requ",
+    "provide-evidence-of-the-accident",
+    "such-as-the-primary-information-report-or-a-workplace-accident-report-disability",
+    "submit-a-disability-certificate-and-a-first-information-report-or-medical-certif"
+  ],
+  "apply_url": "https://www.uplmis.in/Guest/frm_CreateLogin.aspx?type=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/nkmds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant/Beneficiary must  be registered with labor department.\n1. Only family member will able to get the death benefits:\n\n  - Depended parents.\n  - Spouse (Husband/Wife).\n  - Daughter.\n  - Son ( Only If below 21 years old)\n\n1. Death benefit will not be applicable in the case of suicide. \n1. Deaths due to murder, snakebite, lightning, childbirth and other natural calamities will be considered as normal deaths and benefits will be admissible accordingly.\n1. In death benefit claim of a construction worker, Aadhaar authentication of the dependent will be required if the dependent applies.",
+  "_criteria_filled": 1
+}

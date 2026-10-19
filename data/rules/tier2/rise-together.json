@@ -1,0 +1,36 @@
+{
+  "id": "rise-together",
+  "name": "Rise Together",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "1. Financial assistance to the extent of ₹ 20.00 lakh comprising of an upfront subsidy component provided by Mission Youth (Minimum of ₹2.5 lakh or 10% of project cost) and a Loan provided by the Bank (70% of the project cost to the extent of ₹ 17.50 lakh).\n1. The balance cost of the project, not less than 20% of the project cost, shall be self-financed/ self-arranged by the beneficiary youth grou",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-ration-card-aadhaar-card-date-of-birth-certificate-issued-b"
+  ],
+  "apply_url": "https://missionyouth.jk.gov.in/scheme_pdf/rise_together.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any domicile of J&amp;K is essentially registered with Mission Youth, J&amp;K.\n1. Only the Youth Groups with minimum 3 youth members shall be eligible for Financial Assistance under the scheme;\n1. The financial assistance would be given only to Youth Groups with all its members aged 18 to 35 years having a minimum qualification of 12th standard. Provided that CEO Mission Youth shall be competent to relax the educational qualification criteria for deserving candidates on a case to case basis, based on proper justification. \n1. Preference will be given to youth registered as Self-Help Groups/ Registered Society/ Registered Trust.\n1. None of the group members shall have availed benefit under any Self-Employment or similar schemes of the Government.\n1. Character Antecedents of all members of the group should be certified by the Police.\n1. The applicants should not be defaulter to any Bank/ Financial Institution.\n1. Loan facility availed by the beneficiaries under Govt. sponsored scheme are not eligible.\n1. The beneficiary must be unemployed. To be certified by competent authority.",
+  "_criteria_filled": 3
+}

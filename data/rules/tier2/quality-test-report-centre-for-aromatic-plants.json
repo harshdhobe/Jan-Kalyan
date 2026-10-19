@@ -1,0 +1,28 @@
+{
+  "id": "quality-test-report-centre-for-aromatic-plants",
+  "name": "Quality Test Report - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this initiative, farmers receive a 50% discount on the quality testing fee for their produce/essential oil. The quality test report enables farmers to obtain a fair market price for their oil.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-centre-for-aromatic-plants-c",
+    "selaqui",
+    "dehradun-to-avail-the-benefits-of-the-scheme"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/qtrcap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The farmer must be engaged in the cultivation of aromatic plants.\n   1. The farmer must be registered with the Centre for Aromatic Plants (CAP), Selaqui, Dehradun.\n\n<br>",
+  "_criteria_filled": 1
+}

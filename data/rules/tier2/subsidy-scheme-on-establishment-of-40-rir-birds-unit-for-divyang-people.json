@@ -1,0 +1,32 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-40-rir-birds-unit-for-divyang-people",
+  "name": "Subsidy Scheme On Establishment Of 40 R.I.R. Birds Unit For Divyang People",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tThe beneficiary will be given 40 R.I.R birds unit along with poultry feed.\n2.\tThe subsidy will be given 90% of the unit cost of the scheme (maximum ₹7200/- in the form of birds and poultry feed).\n3.\tUnder the scheme, the birds will be given vaccination regularly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-income-proof-certificate-below-poverty-line-card-if-applicable-res"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/Images/animalhusbandary/pdf/English-Poultry-Development-web.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sse40rbudp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The benefits of this scheme will only be given to the adult of Divyang people of the society of Gujarat State.\n1. The beneficiary will have to provide income proof along with the application.\n1. Females and beneficiaries below poverty line will be given priority.\n1. The beneficiary should have taken poultry-keeping training.\n1. The beneficiary will have to manage to keep the birds safe during night hours.",
+  "_criteria_filled": 2
+}

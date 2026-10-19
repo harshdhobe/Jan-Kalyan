@@ -1,0 +1,37 @@
+{
+  "id": "scheme-for-providing-financial-assistance-for-the-purchase-of-laptop-or-desktop",
+  "name": "Scheme for Providing Financial Assistance for the Purchase of Laptop or Desktop Computer to the Media Persons of the Union Territory of Puducherry",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** Upto ₹15,000/- per month, or as may be fixed by the Government from time to time.\n**Purpose:** For the purchase of ANY ONE of the following - \n\n- A brand new personal computer that runs on AC power.\n- A brand new, small, portable personal computer that runs on either batteries or AC power; designed for use during travel.\n\n**Mode of Payment:** The Member Secretary-cum-Dire",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nationalitynativityresidence-certificate-form-ii",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t",
+    "showing-the-designation",
+    "the-nature-of-the-post-full-time-or-part-time",
+    "period-of-service",
+    "and-the-place-of-work-from-the-former-employer-declaration-form-iv-along-with-or",
+    "indicating-the-serial-number",
+    "the-make",
+    "and-other-technical-specification-press-identification-card",
+    "issued-by-the-directorate-of-information-and-publicity",
+    "puducherry-verification-certificate-form-v-of-the-director-of-information-and-pu",
+    "puducherry"
+  ],
+  "apply_url": "https://info.py.gov.in/sites/default/files/25-laptop.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spfapldcmputp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n2. The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than ten years.\n3. The applicant should have served for five years in ANY ONE of the following positions: \n\n- A full-time Editor/Reporter/Sub-Editor/Press Photographer/Correspondent of a Newspaper/Periodical duly registered with the Registrar of Newspapers of India, New Delhi.\n- Reporter/Photographer of News Agencies in Puducherry with headquarters outside the Union territory of Puducherry.\n- Reporter/Videographer in the employ of electronic media, namely Satellite Channels.",
+  "_criteria_filled": 1
+}

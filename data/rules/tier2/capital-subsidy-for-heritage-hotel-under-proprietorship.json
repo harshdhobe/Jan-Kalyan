@@ -1,0 +1,29 @@
+{
+  "id": "capital-subsidy-for-heritage-hotel-under-proprietorship",
+  "name": "Capital Subsidy for Heritage Hotel under Proprietorship",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary receives a subsidy of 15% against the Fixed Capital Investment.\n- The maximum subsidy amount is capped at ₹2,00,00,000/-.\n\n***Benefit Disbursal Conditions***\n\n- _The unit must be established and operationalized during the operative tenure of the policy._\n- _The unit must operate continuously for at least three years from the date of availing the subsidy._\n- _The beneficiary must ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-and-legal-documentscopy-of-proof-of-legally-authorized-person-from-the",
+    "municipality-etc-copy-of-approved-floor-plan-copy-of-the-building-permission-gra",
+    "catering-bill",
+    "or-first-bill-of-servicefacility-provided-any-other-legally-acceptable-proof-to"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cshhp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Proprietorship.\n- The applicant must be establishing a &quot;Heritage Hotel&quot; as a Tourism Project.\n- The applicant must incur a minimum capital expenditure of ₹3,00,00,000/- (as approved by the department).\n- The applicant must have established and operationalized the project during the operative tenure of the policy.\n- The applicant must submit the application within 1 year from the date of commencement of operation.\n- The applicant must ensure the investment claimed for subsidy was made not prior to 3 years from the date of commencement of operation (or 5 years if the project was executed in one go).\n- The applicant must not claim Investment Promotion Assistance if claiming this capital subsidy.\n\n<br>",
+  "_criteria_filled": 1
+}

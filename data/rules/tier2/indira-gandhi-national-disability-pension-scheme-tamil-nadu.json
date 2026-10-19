@@ -1,0 +1,44 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme-tamil-nadu",
+  "name": "Indira Gandhi National Disability Pension Scheme - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free dhoti to a male pensioner.\n- One free saree to a female pensioner.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meal.\n- 4kg/month to those who are not taking nutritious meal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-aadhaar-card-proof-of-age-aadhaar-consent-form-smart-ration-car",
+    "passport",
+    "pan-card",
+    "driving-license-optional-bank-passbook-bpl-card-number-differently-abled-id-card"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndpstn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the &quot;Below Poverty Line&quot; category.\n1. The applicant&#39;s age should be 18 years and above.\n1. The applicant should have a disability of 80% or above, or should have multiple disabilities.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,26 @@
+{
+  "id": "exhibition-fair-and-publicity",
+  "name": "Exhibition Fair and Publicity",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Awareness Creation:** Farmers receive knowledge about horticulture schemes and technologies related to fruit, flower, vegetable, and spice crops.  - **Scheme Promotion:** Departmental schemes are publicized to ensure more participation and benefit utilization among farmers.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/efap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

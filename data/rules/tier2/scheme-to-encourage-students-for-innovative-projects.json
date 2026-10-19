@@ -1,0 +1,32 @@
+{
+  "id": "scheme-to-encourage-students-for-innovative-projects",
+  "name": "Scheme to Encourage Students for Innovative Projects",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial support of up to ₹50,000/-.\n- A maximum of 10 projects will be supported through this scheme each financial year.\n- The financial assistance shall be permitted to be utilized only for student academic projects.\n- The funds should be used only for the purpose for which they are released.\n\n##### ***Disbursement***\n\n- The financial assistance shall be disbursed as a single installment.\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "application-stageproject-proposal-in-prescribed-format-proforma-i-and-proforma-i",
+    "000-all-quotations-and-bills-of-materials-bom-required-in-original-to-be-submitt",
+    "goa-state-innovation-council-project-details-including-diagrams",
+    "blueprints",
+    "designs",
+    "and-flowcharts-to-be-attached-with-proforma-ii-letter-of-intent-loi-in-case-the",
+    "department-of-science-and-technology-and-waste-management-copies-of-billsinvoice"
+  ],
+  "apply_url": "https://dstwm.goa.gov.in/wp-content/uploads/2023/03/SCHEME-TO-ENCOURAGE-STUDENTS-FOR-INNOVATIVE-PROJECTS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sesip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student from an Educational Institute in Goa.\n- The applicant must be one of the following - \n\n       (a) A final year student or a group of students working on a college project.\n       (b) A High School or Higher Secondary School student working on a school project participating either in State or National level competitions.\n\n- The applicant must be working on a hardware or software-based Product/Process Innovation.\n- The applicant must be registered under the Virtual Innovation Register (VIR) as a New Idea.\n- The applicant must not already have received financial support under this scheme.\n- The proposed innovative idea/ project in the form of a product/solution must be associated either with Academics, Industry or the Government.\n- The proposals should preferably be in the following focus sectors: _Green technology, Clean energy, Industrially utilizable smart materials, Waste to Wealth, Affordable Healthcare, Water &amp; Sewage Management, Renewable Energy sources, Electric Vehicles, Smart Cities, Agri-tech, Meditech, Health care tech, and Digital media, Information Technology Enabled Services (ITES)._\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dwarf-pension-scheme",
+  "name": "Dwarf Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "A pension of ₹1,200/- per month is provided to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photograph-certified-by-gram-pradhan-vpdo"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmBaunaOnlineApplicationForm.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/udps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be above 21 years of age.\n   1. The applicant’s height must be less than 4 feet.\n   1. There is no income limit for eligibility under the scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

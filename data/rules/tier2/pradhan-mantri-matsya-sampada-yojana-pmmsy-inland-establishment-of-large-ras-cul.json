@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-pmmsy-inland-establishment-of-large-ras-cul",
+  "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY-Inland): Establishment of Large RAS Culture System Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Assistance is provided for the establishment of a Large Recirculating Aquaculture System (RAS) with 8 tanks of a minimum 90 m3/tank capacity, targeting 40 tonnes/crop production.\n\n- The unit cost for this component is ₹50,00,000/- per unit.\n- For the General Category, the scale of assistance is 40% of the unit cost or 40% of the actual cost, whichever is less.\n- For Women, Scheduled Castes (SC), a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "voter-idration-cardaadhaar-cardpassport-as-proof-of-identity-bank-account-detail",
+    "if-applicable-consent-form-of-co-owners-in-case-of-co-owned-land-scheduled-caste"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=IVf4y2kDy/hLkKH1ioD8IA==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyelrasguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an individual, society, self-help group, association, reservoir lease holder, or private entity involved in inland fisheries activities.\n1. The applicant must be above 18 years of age.\n1. The applicant must have their own bank account.\n1. The applicant must have their own private land or a minimum 10-year lease agreement for land to avail construction-related assistance on land. In case of co-owners, the consent form of co-owners must be submitted.\n1. The applicant must have a Voter ID/Ration Card/Aadhar Card/Passport as proof of identity.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n- All categories (General, Women, Scheduled Caste, and Scheduled Tribe) will receive benefits under the Inland Schemes.\n- Scheduled Caste and Scheduled Tribe beneficiaries are required to have a Scheduled Caste/Scheduled Tribe certificate to avail benefits under the inland components.\n\n<br>",
+  "_criteria_filled": 2
+}

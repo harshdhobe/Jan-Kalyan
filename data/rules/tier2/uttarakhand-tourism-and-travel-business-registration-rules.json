@@ -1,0 +1,27 @@
+{
+  "id": "uttarakhand-tourism-and-travel-business-registration-rules",
+  "name": "Uttarakhand Tourism and Travel Business Registration Rules",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this initiative, tourism-related businesses and services within the state are registered online through the Department of Tourism.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "company-registration-details-as-mentioned-in-the-application-form-applicants-pan",
+    "000-fire-noc-pollution-control-board-noc-fssai-food-license-for-catering-units"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/uttbrr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following units are eligible for registration under the Rules:\n\n  - **Residential Units:** Hotels, motels, resorts, guest houses, dharamshalas, ashrams, etc.  - **Travel Trade-related Units:** Travel agents, domestic tour operators, excursion agents.  - **Catering-related Units:** Restaurants, beer bars, fast food centres, food plazas, food courts, etc.  - **Entertainment-related Units:** Amusement/theme parks, golf courses, ropeways, sound and light shows, angling units, etc.  - A**dventure Tourism-related Units:** Adventure tour operators, kayaking, canoeing, water sports, river rafting, wall climbing, mountaineering, rock climbing, paragliding, etc.  - **Other Units:** Handicraft/souvenir shops, yoga and meditation centres/sadhana kutirs, tourist information centres, and nature/adventure/wildlife photography units, etc.\n<br>",
+  "_criteria_filled": 1
+}

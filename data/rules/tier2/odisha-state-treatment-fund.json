@@ -1,0 +1,31 @@
+{
+  "id": "odisha-state-treatment-fund",
+  "name": "Odisha State Treatment Fund",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. OSTF will be a top up to RSBY. The patient will be covered under RSBY at the first assistance and where the amount of assistance required exceeds the limit of RSBY, the patient will be provided assistance under OSTF.\n   1. Treatment cost so approved shall be within the upper limit of Rs.3.00 lakh (Rupees three lakh only).\n   1. The sanction of District Head Quarters Hospitals shall be limited t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-voter-card-bpl-card-antyodaya-anna-yojana-aay-ration-card-rastriya-s"
+  ],
+  "apply_url": "https://health.odisha.gov.in/sites/default/files/2020-03/OSTF_Revised_Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ostf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. It is applicable to persons below the poverty line, person with annual family income not exceeding Rs.40,000/- in rural area and Rs.60,000/- in urban areas. Either BPL card / AAY card or annual income certificate issued by concerned Tahasildar will be accepted for determining the eligibility.\n   1. Rastriya Swasthya Bima Yojana (RSBY) card holder is also eligible under this scheme.\n   1. An unknown accident victim, patients duly referred from registered destitute home / orphanage / mental asylum / Child care Institutions are also eligible for assistance under the scheme subject to citing sufficient reason thereof for recommending the patient under the scheme.\n   1. Assistance will be available only to patients undergoing treatment as in-patient in any of the Govt./Empanelled private hospitals. However this will not restrict : Cancer patients from getting chemo in Govt. Day Care Centre without being formally admitted &amp;amp; Patients who have undergone kidney transplantation at Govt. Hospitals from getting post-operative care including supply of free medicines and investigation up to 6 months from the date discharge.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "late-jaswantsinhji-thakor-and-late-rasiklal-andhariya-classical-music-scholarshi",
+  "name": "Late Jaswantsinhji Thakor and Late Rasiklal Andhariya Classical Music Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **For Gurus:**\n\n- Financial assistance of ₹1,000/- per month for a duration of 10 months (i.e., ₹10,000/- per disciple) for training up to 2 disciples.\n\n> **For Disciples:**\n\n- A scholarship of ₹10,000/- per annum, calculated at ₹1,000/- per month for 10 months, for receiving classical music training from the selected Guru.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-age-proof-attested-copy-of-pan-card-copy-bank-details-bank-pass-book"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ljtlracms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Gurus:**\n\n- The applicant should be a classical music artist.\n- The applicant should have completed formal education in classical music or must possess at least 7 years of experience in teaching classical music.\n- The applicant should be capable of training a maximum of 2 disciples during the 10-month training period.\n\n> **For Disciples:**\n\n- The applicant should be a student of classical music residing in Gujarat.\n- The applicant should be undergoing training under an eligible Guru selected under this scheme.\n- The applicant should submit a certificate of training provided by the Guru.\n\n<br>",
+  "_criteria_filled": 1
+}

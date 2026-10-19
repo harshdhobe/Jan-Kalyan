@@ -1,0 +1,49 @@
+{
+  "id": "government-service-home-tamil-nadu",
+  "name": "Government Service Home - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "The beneficiary is provided accommodation, Food, Education, Vocational training, Free supply of textbooks, notebooks, uniforms, chappals, and sanitary napkins.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "age-certificate-widowdestitutedesertedorphan-certificate-income-certificate-of-t",
+    "in-case-of-differently-abled-death-certificate-of-the-husband",
+    "in-case-of-widows-certificate-showing-class-last-studied",
+    "if-available"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gshtn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female.\n1. The applicant&#39;s annual income should not exceed ₹ 72,000/- (not applicable for differently abled).\n1. The age of the applicant should be between 14 to 45 years. \n1. The applicant should qualify as one of the following:\n\n- Widow.\n- Destitute Woman.\n- Deserted Woman.\n- Adolescent Girl.\n- Differently Abled Woman.\n- Woman from Socially and Economically Backward Sections. \n\n<br>\n\n**NOTE: The women can stay with their male child up to 5th standard and girl child up to 12th standard in the Service Home.**",
+  "_criteria_filled": 5
+}

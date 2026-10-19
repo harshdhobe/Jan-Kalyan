@@ -1,0 +1,36 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-reimbursement",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Reimbursement of CGTMSE Fees",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Reimbursement of Fees:** 100% reimbursement of the annual service fees paid to banks or financial institutions for collateral-free loans under CGTMSE for a period of 5 years.\n\n  - **Annual Service Fees:** 1st Year-1.8% + Risk Premium; 2nd Year onwards:0.85%or as amended by CGTMSE (Credit Guarantee Fund Trust for Micro and Small Enterprise) Trust/RBI from time to time.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmercgt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The scheme is open to Micro and Small Enterprises (MSEs) that have availed a collateral-free term loan under the Credit Guarantee Scheme of CGTMSE.\n   1. The MSE must apply to the concerned District Industries Centre (DIC) within one year from the first disbursement of the loan or before the date of commencement of commercial production (whichever is later).\n   1. The enterprise must have paid the annual service fee for the CGTMSE-backed loan.",
+  "_criteria_filled": 1
+}

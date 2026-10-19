@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-meet-the-funeral-expenses-of-differently-abled-person",
+  "name": "Financial Assistance to Meet the Funeral Expenses of Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹2,000/- is paid to the legal heir of the deceased.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-legal-heir-certificate-original-national-identity-card-of-the",
+    "issued-by-the-welfare-board-for-the-differently-abled"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatmtfeodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the legal heir of the differently abled person.\n1. The differently abled person should be deceased.\n1. The differently abled person should have been a registered member of the Welfare Board for the Differently Abled&quot;.",
+  "_criteria_filled": 2
+}

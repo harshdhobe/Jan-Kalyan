@@ -1,0 +1,28 @@
+{
+  "id": "biju-patnaik-bravery-award",
+  "name": "Biju Patnaik Bravery Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The award shall comprise of a cash award of ₹1,00,000/-, one silver medal, and a scroll.\n   1. The awardee shall be invited to receive the award in person. The awardee shall be given TA/DA at the rate of 1st Class Rail/Bus fare and arrangements for his/her stay at Bhubaneswar shall be made by the Department.\n\n**Note 01:** Canvassing for the award in any form is prohibited.\n**Note 02:** The awar",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-three-passport-size-photographs-first-information-report-fir-or-p",
+    "if-any-recommendation-letter",
+    "if-any-adequate-documentary-evidence-in-support-of-the-act-of-bravery"
+  ],
+  "apply_url": "https://sports.odisha.gov.in/awards/youth-awards/state-youth-award/biju-patnaik-bravery-award-guidelines",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpba",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n   1. Anybody who performs any spectacular act of bravery inside Odisha will be eligible to be considered for the Award. A resident of Odisha performing the spectacular act of bravery outside will also be eligible for this award.\n   1. The applicant should have rendered the act of bravery from 1st January to 31st December of the preceding year.\n   1. The applicant should not have been convicted of any criminal offence.\n   1. The award shall be given to a person only once in his lifetime.\n\n&gt; **Cancellation &amp;amp; Recovery:**\n\n  - The award shall be cancelled in case it is found that it has been obtained by fraudulent means.\n  - In the event of cancellation of the award, the concerned person will be asked to refund the award (cash, silver medal and scroll) failing which steps shall be initiated to recover the involved cost from him alongwith simple interest @ 5% per annum.",
+  "_criteria_filled": 1
+}

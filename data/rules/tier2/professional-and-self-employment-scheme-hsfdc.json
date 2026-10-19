@@ -1,0 +1,36 @@
+{
+  "id": "professional-and-self-employment-scheme-hsfdc",
+  "name": "Professional and Self Employment Scheme (HSFDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Project Cost Ceiling:**\n\n  - Up to ₹1,50,000/-.\n\n&gt; **Subsidy:**\n\n  - Subsidy @ 50% of the total project cost (Maximum amount of subsidy is ₹10,000/-)  \n\n**Margin Money:**\n\n  - The Corporation provides margin money @ 10% of the project cost.\n  - Margin money is provided @ 4% interest per annum.\n  - The interest on bank loan is charged by the banks at their lending policies.\n\n**Bank Loan:**\n\n  ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-ration-card-voter-card-or-any-valid-identi"
+  ],
+  "apply_url": "https://hscfdc.org.in/appreg",
+  "source_url": "https://www.myscheme.gov.in/schemes/pseshsfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n   1. The applicant should belong to the Scheduled Caste Category.\n   1. The applicant should belong to the Below Poverty Line (BPL) family.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹1,80,000/- in both rural and urban areas.\n   1. The applicant&amp;#39;s annual family income should not exceed the BPL limit.\n   1. The applicant&amp;#39;s name should be included in the BPL Survey List.\n\n**Note:** The eligibility of the applicant is verified by the field staff before sponsoring the same to the bank for sanction.",
+  "_criteria_filled": 3
+}

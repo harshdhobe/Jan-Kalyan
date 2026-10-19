@@ -1,0 +1,32 @@
+{
+  "id": "pension-scheme-for-the-tappers-in-small-rubber-plantations",
+  "name": "Pension Scheme for the Tappers in Small Rubber Plantations",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The enrolled member who remits their annual contribution continuously up to the age of 60 years will get a pension of ₹1300/- per month.\n   1. The members are also eligible for other benefits like family pension, financial assistance for permanent disability, Maternity Benefits, Medical Assistance, etc., and also other benefits as decided by the Government from time to time.\n   1. The scheme en",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-training-certificate-issued-by-the-board-3-proof-of-age-4-two-p",
+    "as-required"
+  ],
+  "apply_url": "http://rubberboard.org.in/rbfilereader?fileid=419",
+  "source_url": "https://www.myscheme.gov.in/schemes/pstsrp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A tapper aged between 18 to 55 years and having an experience of 90 days in the preceding 12 months.\n   1. Engaged in tapping jobs throughout the year in small rubber plantations for wages or engaged in self-tapping in own small rubber plantation up to 1 ha.\n   1. The tappers should be certified under Recognition of Prior Learning (RPL) of PMKVY of the Government of India or any training conducted by the Rubber Board for skill up-gradation (TSS, TISP).\n   1. Tappers enrolled in the tapper bank under Rubber Producers Societies (RPS) are also eligible for enrolment.\n\n**Note:** A tapper who is a member of any pension scheme implemented by the Central/State Government or tapping in rubber plantation measuring an area above 5 ha. are not eligible under this scheme.\n&gt; **Mode of Contribution:**\n\nThe annual contribution of each tapper under the scheme is ₹480/-. Rubber Board will contribute, 50 % of the annual contribution for an initial period of 5 years for all the members who regularly remit their contribution every year on time. Accordingly, each tapper has to contribute ₹240/- annually to the scheme for 5 years. After 5 years the tapper has to remit the full contribution till attaining the age of 60 years.",
+  "_criteria_filled": 2
+}

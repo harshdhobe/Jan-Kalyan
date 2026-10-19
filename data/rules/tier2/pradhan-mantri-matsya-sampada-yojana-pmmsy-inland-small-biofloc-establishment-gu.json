@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-pmmsy-inland-small-biofloc-establishment-gu",
+  "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY-Inland): Small Biofloc Establishment Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Small Biofloc Establishment (7 tanks 4mm diameter and 1.5m height):\n> **Financial Assistance:**\n\n- The unit cost is ₹7,50,000/- per unit.\n\n- General Category: 40% of the unit cost or 40% of the actual cost, whichever is less.\n- Women/Scheduled Caste (S.C.) and Scheduled Tribe (S.T.) Categories: 60% of the unit cost or 40% of the actual cost, whichever is less.\n\n<br>\n\n> **Mode of Disbursement:** As",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "voter-idration-cardaadhaar-cardpassport-as-proof-of-identity-bank-account-detail",
+    "if-applicable-consent-form-of-co-owners-in-case-of-co-owned-land-scheduled-caste"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsysbeguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an individual, society, self-help group, association, reservoir lease holder, or private entity involved in inland fisheries activities.\n1. The applicant must be above 18 years of age.\n1. The applicant must have their own bank account.\n1. The applicant must have their own private land or a minimum 10-year lease agreement for land to avail construction-related assistance on land. In case of co-owners, the consent form of co-owners must be submitted.\n1. The applicant must have a Voter ID/Ration Card/Aadhar Card/Passport as proof of identity.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n- All categories (General, Women, Scheduled Caste, and Scheduled Tribe) will receive benefits under the Inland Schemes.\n- Scheduled Caste and Scheduled Tribe beneficiaries are required to have a Scheduled Caste/Scheduled Tribe certificate to avail benefits under the inland components.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation-sustenance-allowance",
+  "name": "Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹20,000/- per month for one year based on eligibility.  - **Encouragement for Women Entrepreneurs:** ₹25,000/- per month for startups with a woman co-founder.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "pitch-presentation-with-following-details-problem-statement-objective-for-the-s",
+    "advantage-of-product-service-over-competition-etc-detailed-project-cost-breakup"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/13-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfasisa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n  - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\nNote: Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.",
+  "_criteria_filled": 1
+}

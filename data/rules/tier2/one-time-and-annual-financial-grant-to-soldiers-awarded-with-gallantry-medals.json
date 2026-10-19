@@ -1,0 +1,28 @@
+{
+  "id": "one-time-and-annual-financial-grant-to-soldiers-awarded-with-gallantry-medals",
+  "name": "One-time and Annual Financial Grant to Soldiers Awarded with Gallantry Medals",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- A one time grant of maximum of ₹50,00,000/- and minimum ₹4,00,000/- is given.\n- Annual financial assistance of a maximum of ₹3,00,000/- and a minimum of ₹40,000/- is given.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-pan-card-photocopy-of-bank-passbook-and-cancelled",
+    "and-will-not-receive-in-the-future",
+    "the-one-time-grantannuity-payable-on-the-gallantry-medal-from-any-other-state-ph"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otgscgma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant should be a serving soldier, an ex-serviceman, or in the event of martyrdom/death of the soldier, an eligible dependent.\n   1. The soldier must have been conferred with a “Gallantry Medal Award.”\n   1. In case of martyrdom or death of the soldier, the following dependents are eligible to apply:\n\n  - Veer Nari (lifelong or until remarriage)\n  - Son (up to 25 years of age) / Daughter (till marriage)\n  - Parents\n  - Unmarried sisters\n  - Brother (up to 25 years of age)\n\n<br>",
+  "_criteria_filled": 1
+}

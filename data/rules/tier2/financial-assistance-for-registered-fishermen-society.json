@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-registered-fishermen-society",
+  "name": "Financial Assistance for Registered Fishermen Society",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial assistance to the extent of ₹50,000 as a grant-in-aid.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-application-in-the-prescribed-form-2-registration-certificate-3-bye-laws-of-th"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/07/CitizenCharter-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/farfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be fisheries co-operative societies/associations registered with the Fisheries Co-operative Societies.\n2. The society should produce an audited statement of accounts.\n3. The society should employ at least one personnel for the maintenance of records.\n4. The society&#39;s books of accounts shall be produced before department authorities for inspection when called for.\n5. The society should have more than 25 members.",
+  "_criteria_filled": 1
+}

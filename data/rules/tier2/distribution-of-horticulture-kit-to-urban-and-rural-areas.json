@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-horticulture-kit-to-urban-and-rural-areas",
+  "name": "Distribution of Horticulture Kit to Urban and Rural Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "75% subsidy, i.e. distribution of horticulture kit worth ₹ 3,000 per kit to urban and rural areas (homestead/backyards), through the Additional Director of Agriculture (Horticulture), during Aadipattam/Thaipattam seasonality.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "in-the-case-of-land-owners-cultivating-their-land",
+    "a-copy-of-the-farmer-identity-card-containing-the-details-of-survey-numbers-and",
+    "tenants-shall-produce-a-cultivation-certificate-from-the-land-owner-or-agricultu"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/schemes/Horticulture%20SOP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dhkura",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All horticulture growers of rural &amp; urban areas are eligible.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "adi-dravidar-and-tribal-welfare-department-incentiveaward-of-prizes",
+  "name": "Adi Dravidar and Tribal Welfare Department-Incentive/Award of Prizes",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **10+2 Examination:** ₹3,000/-.  - **10th Std. First Prize:** ₹1,000/-.  - **10th Std. Second Prize:** ₹5,00/-.  - **10th Std. Third Prize:** ₹3,00/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-mark-sheets-of-the-10th-or-12th-standard-examinat"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83082",
+  "source_url": "https://www.myscheme.gov.in/schemes/adtwdiap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal/ Adi Dravidar (converted to Christianity) community.\n  - The beneficiary should have secured the highest marks in 10th or 12th standard exams within the district.",
+  "_criteria_filled": 1
+}

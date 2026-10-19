@@ -1,0 +1,31 @@
+{
+  "id": "unemployment-allowance-to-differently-abled-persons",
+  "name": "Unemployment Allowance to Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- For SSLC (Secondary School Leaving Certificate) and below: ₹600/- per month.\n- For Higher Secondary Course: ₹750/- per month.\n- For Degree and above: ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "employment-registration-card-national-identity-card-of-the-differently-abled"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/uatdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be differently abled.\n1. The applicant should be unemployed. \n1. The applicant should have an education certificate, diploma, or degree. \n1. The applicant must be registered with the employment exchange for more than one year.\n1. The status of the registered applicant should be shown live in the employment exchange.",
+  "_criteria_filled": 2
+}

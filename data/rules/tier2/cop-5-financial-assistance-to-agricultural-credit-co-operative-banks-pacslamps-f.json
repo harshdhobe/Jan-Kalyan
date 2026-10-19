@@ -1,0 +1,26 @@
+{
+  "id": "cop-5-financial-assistance-to-agricultural-credit-co-operative-banks-pacslamps-f",
+  "name": "COP-5 Financial Assistance to Agricultural Credit Co-operative Banks (PACS/LAMPS) for Reconstruction and Reestablishment (General/Tribal Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Incentive admissible over and above the average amount of the last three years****Percentage of the grant of incentive on the excess amount**For growth from 10% to 15%\t1 %For growth above 15% and up to 20%\t1.5 %For growth above 20%\t2% or a maximum of ₹.50,000/- whichever is less (on deposits up to a ₹2,00,000/- whichever is less)<br>\n\n> **Note:** The benefit of the scheme is available only",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "growth-and-recovery-records-of-the-last-three-years-two-years-for-lamps-audit-re"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=VBmlBmd+scMV9XoODqMfYw==&domain=v4lc2tu73R/9lWYKO76SRg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/cfaacobrr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a registered Agricultural Co-operative Credit Society, either a Primary Agricultural Credit Society (PACS) or a Large-sized Adivasi Multi-Purpose Society (LAMPS).\n1. The society must have been operational and performing for the required duration:\n\n  -  PACS: At least the last three years.\n  - LAMPS: At least the last two years.\n\n1. The applicant must provide performance data for the relevant period, showing:\n\n  - Growth in credit disbursement (short and medium-term).\n  - Improvement in loan recovery rates.\n  - Increase in deposit collection.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "super-5000",
+  "name": "Super 5000",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Scholarship Amount: Rs. 25,000/- only at once.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-passport-size-photo-10th12th-class-m"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/Super5000.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Children of labor family native of Madhya Pradesh. \n1. Children of registered laborers in the unorganized sector. \n1. Only students who have passed the 10th/12th board examination conducted by the Madhya Pradesh Board of Secondary Education in a government school and included in the top 5000 children in the merit of the entire state.\n1. It is necessary to be a student of the Government school of Madhya Pradesh.\n1. The age of the construction worker should be more than 18 years and less than 60 years.",
+  "_criteria_filled": 1
+}

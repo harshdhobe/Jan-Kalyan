@@ -1,0 +1,41 @@
+{
+  "id": "motorized-tricycle-yojana",
+  "name": "Motorized Tricycle Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Under this scheme, beneficiaries will receive a motorized tricycle free of cost to support self-employment and higher education from the Senior Secondary level onwards.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-domicile-certificate-disability-certificate-driving"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=139",
+  "source_url": "https://www.myscheme.gov.in/schemes/mts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Rajasthan.\n1. The applicant should be self-employed or a student pursuing senior higher secondary education. \n1. The applicant must have a 50% or more locomotor disability.\n1. The annual family (parents/guardians including applicant&#39;s income, if any) income should not exceed ₹2,50,000/-.\n1. The applicant&#39;s age must be 18 years or older.\n1. The applicant must have prior experience in operating a vehicle and hold a valid driving license.",
+  "_criteria_filled": 4
+}

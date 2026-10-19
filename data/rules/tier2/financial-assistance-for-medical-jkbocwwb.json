@@ -1,0 +1,37 @@
+{
+  "id": "financial-assistance-for-medical-jkbocwwb",
+  "name": "Financial Assistance for Medical (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "- Financial Assistance in the Case of Injury: ₹5,000/-\n- Financial Assistance in the Case of Temporary Disability: ₹10,000/-\n- Financial Assistance in the Case of Permanent Disability: ₹75,000/-\n- Financial Assistancein the Case of Treatment of Chronic Diseases: ₹1,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/StaticPages/SchemeInformation.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafmjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker -** \n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n> **For Application to this Scheme -** \n\n1. The applicant must be a registered member of the Building and Other Construction Workers Welfare Board of Jammu &amp; Kashmir.\n1. The applicant should be suffering from an injury, a disability, or from a chronic disease.",
+  "_criteria_filled": 3
+}

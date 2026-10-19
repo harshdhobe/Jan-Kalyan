@@ -1,0 +1,31 @@
+{
+  "id": "maintenance-of-pregnant-desi-indigenous-cows-ration-for-bpl-families",
+  "name": "Maintenance Of Pregnant Desi Indigenous Cows Ration For BPL Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "**Benefits:**\nThe scheme for maintenance of pregnant Desi/Indigenous cows ration for BPL families of all categories of livestock farmers in Himachal Pradesh can have a significant impact on the health and livelihoods of farmers, as well as the overall development of the region. This scheme in _Himachal Pradesh can have several benefits,_****** such as:\n\n   1. **Improved cow health:** A balanced an",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-copy-of-bank-passbook-number-of-cow-along-with-their-ear-ta"
+  ],
+  "apply_url": "https://hpahdbt.hp.gov.in/Home/cow_ration_under_general_bpl",
+  "source_url": "https://www.myscheme.gov.in/schemes/pregnant-desiindigenous-cows-ration",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Livestock owners belonging to BPL families of all categories rearing Desi/Indigenous/crossbred cows.\n   1. The subsidy will be provided to each BPL family of all categories maximum upto two Desi/Indigenous cows and their crosses.",
+  "_criteria_filled": 2
+}

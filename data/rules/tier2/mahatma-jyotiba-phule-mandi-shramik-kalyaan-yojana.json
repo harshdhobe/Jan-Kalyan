@@ -1,0 +1,26 @@
+{
+  "id": "mahatma-jyotiba-phule-mandi-shramik-kalyaan-yojana",
+  "name": "Mahatma Jyotiba Phule Mandi shramik kalyaan yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Obstetric Support:**\n\n- For a maximum of two deliveries, the female license holder Hammal and Palledar are entitled to be paid assistance equivalent to 45 days&#39; wages as per the prevailing wage rate determined by the state government as an unskilled labourer.\n- As paternity leave, an amount equivalent to 15 days wages is payable to the Hammal/Tulara/Palledar father of the child as per the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-mark-sheet-age-proof-medical-certificate-bank-account"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/mjpmsky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be Farmers/agricultural laborers of the Rajasthan.\n1. The applicant workers hold licenses from the market committee.",
+  "_criteria_filled": 1
+}

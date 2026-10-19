@@ -1,0 +1,41 @@
+{
+  "id": "share-capital-to-local-entrepreneurs-and-self-employed-scheme-2008",
+  "name": "Share Capital to Local Entrepreneurs and Self Employed Scheme, 2008",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- **Capital Contribution**\n\n- ₹2,00,000/- per individual, covering 50% of the total project cost.\n- ₹3,00,000/- per individual for those with professional qualifications, provided the business activity was linked to their qualifications.\n- ₹10,00,000/- maximum for groups, with no restriction on the number of members.\n\n**Interest-Free Loan:** The capital contribution was interest-free.\n**Repayment:",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 80000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-educational-certificate-income-certificate-proof-of-age-train",
+    "for-professional-qualifications-house-tax-receipt-or-form-ixiv-as-proof-of-prope",
+    "for-age-relaxation-disability-certificate-if-applicable",
+    "for-age-relaxation-the-applicant-had-to-provide-a-self-guarantee-along-with-one",
+    "000",
+    "personal-guarantees-by-the-applicant-and-their-parents-or-spouse-were-sufficient"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scleses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant could be Individuals or groups of individuals could apply. Individuals born and resident in Goa for 15 years were given preference.\n- The applicant had to be below 40 years of age. For women, disabled persons, Scheduled Castes, Scheduled Tribes, and Other Backward Classes, the age limit was relaxed by 5 years.\n- The applicant had to have passed at least the 8th standard. This requirement could be relaxed in deserving cases by the Director of Industries, Trade and Commerce.\n- The income of the applicant along with their spouse should not exceed ₹80,000/- per annum.\n- The applicants who had availed more than 15% subsidy under any other scheme were not eligible.\n- The applicants who were covered under the Kamdhenu Scheme (except for dairy/dhilling units) were not eligible.\n\n**Preference/Priority**\n\n- Priority was given to women entrepreneurs, self-help groups of women, and disabled persons.\n- 30% of the budgeted outlay was reserved for women entrepreneurs.\n\n_*The Director of Industries, Trade and Commerce could relax any provision of the scheme with government approval if needed._",
+  "_criteria_filled": 3
+}

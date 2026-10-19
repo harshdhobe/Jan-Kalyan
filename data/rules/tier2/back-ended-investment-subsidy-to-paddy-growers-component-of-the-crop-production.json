@@ -1,0 +1,27 @@
+{
+  "id": "back-ended-investment-subsidy-to-paddy-growers-component-of-the-crop-production",
+  "name": "\"Back Ended Investment Subsidy to Paddy Growers\" component of the \"Crop Production Technology\" scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Back-ended investment subsidy to paddy growers @ ₹4,000/- per hectare.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-applicants-photo-farmers-identity-card-bank-passbook-fm",
+    "issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/forms/backendpad.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/beispgccpts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident/native of Puducherry.\n- The applicant should be residing in the Yanam region.\n- The applicant should be a Farmer.\n- The applicant should possess land holdings.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rmewf-financial-assistance-for-ex-servicemen-in-penury",
+  "name": "RMEWF-Financial Assistance For Ex-Servicemen In Penury",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Financial Assistance\n\n  - ₹4,000/- per month per beneficiary.\n  - Paid annually.\n  - Provided for a lifetime.\n\n1. Historical Benefit Structure (For Context)\n\n  - ₹100/- per month for 2 years (introduced in 1981).\n  - ₹500/- per month for 2 years (revised in 2007).\n  - One-time grant of ₹30,000/- at age 70/75 years (2007 revision).\n  - ₹1,000/- per month for lifetime (October 2011 revision).\n\n1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      }
+    ]
+  },
+  "documents": [
+    "log-in-to-the-web-portal-of-ksb",
+    "and-apply-for-the-penury-initial-application-scanned-image-of-the-following-docu",
+    "if-date-of-birth-not-given-in-the-service-document-discharge-book-identity-card",
+    "ifs-code-and-account-holders-personal-particulars-are-not-given-in-first-page-of",
+    "the-case-is-recommended"
+  ],
+  "apply_url": "https://ksb.gov.in/ex-servicemen-penury.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmewf-penury",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Must be a non-pensioner ESM or his widow.\n1. Should be of rank Havildar/equivalent from the Navy/AF and below.\n1. The ESM/widow should be 65 years of age on 01 Apr of the Financial Year in which applying.\n1. After the demise of ESM who was already availing the Penury Grant, his widow is eligible for Penury grant irrespective of her age at the time of the death of ESM. Therefore, in such cases, the condition of a widow attaining the age of 65 years is not applicable.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "indira-gandhi-national-disabled-pension-scheme-madhya-pradesh",
+  "name": "Indira Gandhi National Disabled Pension Scheme (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "The beneficiary will receive a monthly pension of ₹600/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-ie-voter-id-card-or-driving"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/schemes/nsap_application_form_11.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngndpsmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be a person with disability.\n   1. The applicant should have a disability of 80% or more.\n   1. The applicant’s age should be between 18 and 79 years.\n   1. The applicant should belong to a Below Poverty Line (BPL) family.\n   1. The applicant should not be receiving pension benefits under any other social security scheme.",
+  "_criteria_filled": 5
+}

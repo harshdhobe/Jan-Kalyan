@@ -1,0 +1,27 @@
+{
+  "id": "icmr-junior-research-fellowship",
+  "name": "ICMR-Junior Research Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Fellowship Stipend:** ₹31,000/- per month for 1st and 2nd year (JRF); ₹35,000/- per month for 3rd to 5th year (SRF, if upgraded).  - **Contingency Grant:** ₹20,000/- per year for research-related expenses.  - **Fellowship Duration:** JRF for 2 to 3 years; SRF for a maximum 3 years; total duration up to 5 years.  - **Ph.D. Opportunity:** Eligible candidates can enroll in Ph.D. programmes in rec",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 28
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-passport-size-photographs-3-educational-qualific",
+    "as-required"
+  ],
+  "apply_url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/junior-research-fellowships/Guidelines_Rules_ICMR_JRF_14_10_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icmr-jrf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The candidate should have a Post Graduate degree (M.Sc./MA) in basic science or a Post-Graduate degree (M.Sc./MA) in a professional course with 55% marks for General/Other Backward Class (OBC) and 50% for SC/ST/Physically Handicapped (PH)/Visually Handicapped (VH).\n  - The students having degrees like B. Tech/M. Tech in biomedical sciences, B. Pharma/M. Pharma or D. Pharma are not eligible.\n  - The upper age limit is 28 years [upper age limit relaxable up to five years in case of candidates belonging to SC/ST/OBC/PH/VH and female candidates, three years in the case of OBC category].\n\n<br>",
+  "_criteria_filled": 1
+}

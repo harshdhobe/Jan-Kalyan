@@ -1,0 +1,27 @@
+{
+  "id": "karkhandar-scheme-for-development-of-craft-sector",
+  "name": "Karkhandar Scheme For Development Of Craft Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "Financial assistance to Trainees:Rate of stipend per trainee/ per month:- ₹2000/- (₹1000/- shall be paid through an individual bank account and the rest of the amount shall be disbursed on the successful completion of probation/ practical training session).\nThe trainees are facilitated in the opening of Bank accounts under the Pradhan Mantri Jan-Dhan Yojana (PMJDY).\nFinancial assistance to the Kar",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-bank-details-domicile-certificate-proof-of-identity-proof-of-aged",
+    "govt-of-jammu-kashmir-if-registered-supporting-documents-regarding-the-number-of"
+  ],
+  "apply_url": "http://www.jkindustriescommerce.nic.in/Orders%202021/161%20IND%20OF%202021.pdf#page=5",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksdcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a pass-out trainee/ex-trainee from a departmental training center.\n1. The departmental training center must be run by the Handicrafts &amp; Handloom Department.\n1. The applicant must have an Aadhaar linked Bank Account.",
+  "_criteria_filled": 1
+}

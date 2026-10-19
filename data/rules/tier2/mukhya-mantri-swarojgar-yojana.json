@@ -1,0 +1,36 @@
+{
+  "id": "mukhya-mantri-swarojgar-yojana",
+  "name": "Mukhya mantri Swarojgar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **Financial help** \n\n**Margin money assistance**\n\n- 15% of the project cost (maximum ₹.1,00,000 for the general category.\n-  30% of the cost (maximum ₹2,00,000) for Below Poverty Line( BPL) , Scheduled Castes(SC)  , Scheduled Tribes(ST), Other Backward Classes(OBC) (except creamy layer)/ Women/ Minority/ Disabled project.\n\n> **Additional provisions -**\n\n- 30% of the project cost (maximum ₹3,00,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-pan-card-income-certificate-address-proof-passport-size-photo-mobile"
+  ],
+  "apply_url": "https://msme.mponline.gov.in/Quick%20Links/DCIE/DCIDocs/MSY_Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant Should be a permanent resident of Madhya Pradesh.\n- The applicant should have passed in the 5th class.\n- The applicant’s age should be between 18 to 45 years.\n- The applicant’s family should not be an income taxpayer.\n- The applicant should not be a defaulter of any bank.\n\n<br>",
+  "_criteria_filled": 3
+}

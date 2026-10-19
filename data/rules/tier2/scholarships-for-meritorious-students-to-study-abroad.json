@@ -1,0 +1,36 @@
+{
+  "id": "scholarships-for-meritorious-students-to-study-abroad",
+  "name": "Scholarships for Meritorious Students to Study Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Financial Support:**\nCovers actual expenses or up to $38,000 annually, plus an additional $2,000 for books, equipment, typing, thesis binding, and other academic work.\n**Total Amount:**\nA maximum of $40,000 annually or its equivalent in the local currency is provided.\n**Bond Requirement:**\nThe applicant must sign a bond for the entire amount received under the scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-birth-certificate-or-aadhar-card-income-certificate-educational-qua"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=796",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfmstsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be seeking a postgraduate degree with at least 75% marks in their graduation from a recognized university/institute in Madhya Pradesh.\n1. The applicant should have an annual family income not exceeding ₹8 lakh from all sources.\n1. The applicant should be under 25 years of age for postgraduate studies and under 35 years of age for PhD research.\n1. The applicant should have secured admission to a study program abroad.\n1. The applicant should have qualified for international tests such as GRE, GMAT, TOEFL, or IELTS.\n1. The applicant should be pursuing a PhD and have:\n\n- 75% marks in postgraduate studies in the relevant subject.\n- Two years of teaching experience or an M.Phil degree in the relevant subject from a recognized university or government college in Madhya Pradesh.",
+  "_criteria_filled": 3
+}

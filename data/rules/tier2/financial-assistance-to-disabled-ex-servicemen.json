@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-disabled-ex-servicemen",
+  "name": "Financial Assistance to Disabled Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,000/- per month is given to the disabled ex-servicemen, with an annual increase of ₹400/- w.e.f. 01.11.2017 every year in November.\n\n**Note:** The grant of financial assistance shall be payable to the disabled Ex-Servicemen from the first day of the following month in which case for grant of financial assistance is sanctioned by the competent sanctio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-aadhaar-card-original"
+  ],
+  "apply_url": "https://csharyana.gov.in/WriteReadData/Policies/Defence%20III/2541.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide resident of Haryana.\n   1. The applicant should be a disabled ex-serviceman.\n   1. The applicant should have been discharged from the Armed Forces on medical grounds, with a disability not attributable to military service.\n   1. The financial assistance is provided regardless of the applicant&amp;#39;s age.\n   1. The applicant should not be receiving any type of financial assistance or pension from any source.\n\n**Note 1:** The definition of Ex-Servicemen for the purpose of eligibility for financial assistance shall be effective as notified by the Ministry of Defence Government of India from time to time.\n**Note 2:** Every applicant shall have to produce a certificate issued by the concerned District Social Welfare Officer to the effect that the applicant is not getting any financial assistance Pension from the District Social Welfare Department of Haryana.\n**Note 3:** If any beneficiary receiving financial assistance under this scheme, after the sanction of financial assistance at any time is found getting old age pension, financial assistance or maintenance allowance from any other Department of Haryana Govt. Beneficiary shall be permanently debarred from getting the financial assistance under this scheme run by this department\n**Note 4:** Old eligible beneficiaries whose cases for grant of financial assistance have already been sanctioned prior to issue of these guidelines shall continue to get the financial assistance at enhanced rates and they need not apply afresh. However, payment shall be discontinued with immediate effect to persons in civil employment.\n**Note 5:** Payment of financial assistance to those beneficiaries shall be stopped immediately who fail to submit their survival verification proofs every year from the revenue authorities in the month of April. The Secretary, Zila Sainik Board shall be personally responsible for any lapse in this regard.",
+  "_criteria_filled": 2
+}

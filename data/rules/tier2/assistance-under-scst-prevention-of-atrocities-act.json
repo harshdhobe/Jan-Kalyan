@@ -1,0 +1,28 @@
+{
+  "id": "assistance-under-scst-prevention-of-atrocities-act",
+  "name": "Assistance under SC/ST Prevention of Atrocities Act",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Payment of Relief, Compensation for Loss, and Rehabilitation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-caste-certificate-copy-of-fir-re",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/assistance-under-scst-prevention-atrocities-act",
+  "source_url": "https://www.myscheme.gov.in/schemes/auscstpaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Scheduled Caste.\n- The applicant should have been affected by an atrocity.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "jai-johar-old-age-pension-scheme",
+  "name": "Jai Johar (Old Age Pension) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "A monthly pension of ₹1,000/- is transferred directly to the individual bank account of the beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-formal-caste-or-tribe-certificate-if-unavailable",
+    "a-castetribe-certificate-of-any-paternal-relative-is-acceptable-for-the-initial",
+    "the-applicant-must-procure-their-caste-certificate-later-and-submit-the-same-sub"
+  ],
+  "apply_url": "https://nadia.gov.in/scheme/taposili-bandhu-jai-johar-under-jai-bangla-prakalpa/",
+  "source_url": "https://www.myscheme.gov.in/schemes/jjoaps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of West Bengal.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The applicant should have attained the age of 60 years or more.\n1. The applicant should not be a beneficiary under any other Social Security pension scheme.\n1. The applicant should not be a recipient of Government pension or pension from any other organization.",
+  "_criteria_filled": 2
+}

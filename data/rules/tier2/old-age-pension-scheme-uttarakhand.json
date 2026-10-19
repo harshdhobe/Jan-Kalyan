@@ -1,0 +1,36 @@
+{
+  "id": "old-age-pension-scheme-uttarakhand",
+  "name": "Old Age Pension Scheme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "A pension of ₹1,500/- per month is provided to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photograph-certified-by-gram-pradhan-vpdo"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmOnlineRegisApplicationOldage.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/oap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be 60 years of age or above.\n1. The applicant’s family monthly income must not exceed ₹4,000/- or the applicant must belong to the BPL category.\n1. The applicant must not be receiving any other pension.\n\n<br>",
+  "_criteria_filled": 3
+}

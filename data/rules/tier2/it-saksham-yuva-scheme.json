@@ -1,0 +1,41 @@
+{
+  "id": "it-saksham-yuva-scheme",
+  "name": "IT Saksham Yuva Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Employment opportunities for unemployed youths.\n1. Provides digital literacy and IT-related skills to improve employability.\n1. Eligible candidates may receive an unemployment allowance.\n1. Entrepreneurial/Startup support after successful completion of employment tenure of one year.\n1. The eligible candidates who cleared/passed the exam will be given remuneration/allowance of ₹ 20,000/- pm (for",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-parivar-pehchan-patra-ppp-id-domicile-certificate-educational-cer"
+  ],
+  "apply_url": "https://infotechsakshamyuva.haryana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/itsys",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a domicile of Haryana having a valid Parivar Pehchan Patra ID.\n1. Applicant’s age should be between 18 to 35 years. \n1. Applicants should not be in any kind of employment e.g., public/government/private sector/ quasi-government or self-employment at the time of applying for the scheme.\n1. Applicants should be graduate or post-graduate (B. Tech./ BCA/ BSc. IT) / (M.E./M. Tech./MCA/MSc IT/MBA IT) from recognized institutes/ colleges/ universities. \n1. The candidates will be eligible for unemployment allowance only if the annual family income of the candidate does not exceed rupees three lakhs (₹ 3 lakhs) from all sources.\n1. The unemployment allowance will only be commenced post 1 month from the Date of issuance of the passing certificate for the assessment test of the course completed.",
+  "_criteria_filled": 4
+}

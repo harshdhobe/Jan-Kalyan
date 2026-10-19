@@ -1,0 +1,41 @@
+{
+  "id": "krushak-assistance-for-livelihood-and-income-augmentation",
+  "name": "Krushak Assistance For Livelihood And Income Augmentation",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "Financial Assistance of Rs.12,500/-will be provided to each landless Agricultural Household for Agricultural allied activities like for small goat rearing unit, mini-layer unit, duckery units, fishery kits for fisherman, mushroom cultivation and bee-keeping, etc. This will particularly benefit to SC & ST population of our State.\nVulnerable cultivators/landless agricultural laborers will get financ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-a-copy-of-your-aadhaar-card-is-mandatory-to-apply-for-the-kalia-sch",
+    "including-the-bank-name",
+    "branch-name",
+    "account-number",
+    "and-ifsc-code-land-documents-if-you-own-cultivable-land",
+    "you-need-to-submit-the-land-documents",
+    "such-as-the-land-passbook-or-land-tax-receipt-if-you-are-a-sharecropper",
+    "you-need-to-submit-the-sharecropping-agreement-income-certificate-you-need-to-pr",
+    "such-as-a-voter-id-card",
+    "pan-card",
+    "or-driving-license-photograph-you-need-to-submit-a-recent-passport-size-photogra"
+  ],
+  "apply_url": "https://kalia.odisha.gov.in/index1.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/kalia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Residency: The applicant must be a permanent resident of Odisha.\n1. Agricultural activities: The applicant must be engaged in agricultural activities, such as farming, cultivation, horticulture, or animal husbandry, either as a landowner, tenant farmer or sharecropper.\n1. Household status: The applicant&#39;s household should be categorized as &quot;deprived&quot; or &quot;vulnerable&quot; under the Socio-Economic Caste Census (SECC) 2011 or any other state government survey.\n1. Landownership: The applicant must either own cultivable land or be a sharecropper/tenant farmer cultivating someone else&#39;s land.\n1. Age: There is no age limit for applying for the KALIA Scheme.\n1. Income: The applicant&#39;s annual income should be less than Rs. 2.00 lakhs per annum.\n1. Bank account: The applicant must have a bank account in his/her name and a valid Aadhaar number linked to the account.\n1. Criminal record: The applicant must not have any criminal record or involvement in any illegal activities.",
+  "_criteria_filled": 2
+}

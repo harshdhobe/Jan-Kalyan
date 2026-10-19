@@ -1,0 +1,36 @@
+{
+  "id": "bebe-nanki-laadli-beti-kalyan-scheme",
+  "name": "Bebe Nanki Laadli Beti Kalyan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "**Benefits**\nFinancial assistance of Rs.61,000 to the Guardian of Girl Child in different stages up to the age of 18 years. \nS NoPeriod of benefitAgeThe amount released by LIC to the guardian of the beneficiary1On the birth of newly born girl child0 years₹ 2,100/-2On attaining the age of 3 years (after full immunization)3 years₹ 2,100/-3On admission to Class -16 years₹ 2100/-4On admission to Class",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 30000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-document-address-proof-of-guardian-adhaar-card-of-guardian"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/bebe-nanki-laadli-beti-kalyan-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/bnlbks",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl child must have been born on or after 1 January 2011.\n1. The parents of the girl child must be permanent residents of Punjab.\n1. Abandoned girl children found on or after 1 January 2011 and residing in orphanages or Children’s Homes in Punjab are also eligible.\n1. The number of girl children born before this date will not be considered while determining eligibility.\n1. The benefit of the scheme is not applicable to newly born male children.\n1. The annual family income should be less than ₹30,000.\n1. Proof of income must be provided in the form of a Blue Card issued by the Food and Supply Department, Punjab.\n1. If the girl child drops out of school for any reason, the benefits under the scheme will be discontinued from that date onward.\n\n<br>",
+  "_criteria_filled": 3
+}

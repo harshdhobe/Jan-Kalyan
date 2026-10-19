@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-dependents-in-case-of-death-of-registered-workersjkbocww",
+  "name": "Financial Assistance to dependents in Case of Death of Registered Workers(JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "A financial assistance of ₹2,00,000/- is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "original-death-certificate-of-the-worker-attested-age-proof-of-the-worker-duly-a"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/StaticPages/SchemeInformation.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatdicodorw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a dependent of the deceased worker.\n   1. The deceased should have been registered with the &amp;quot;Jammu and Kashmir Building &amp;amp; Other Construction Workers Welfare Board&amp;quot;.\n   1. The deceased should have held an active membership with the Board.\n   1. The scheme can be applied only once.",
+  "_criteria_filled": 1
+}

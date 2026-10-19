@@ -1,0 +1,31 @@
+{
+  "id": "pandit-omkarnath-classical-music-festival-and-awards",
+  "name": "Pandit Omkarnath Classical Music Festival and Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance and Recognition:** Eligible male artists receive a prestigious award that acknowledges their lifelong dedication to Indian classical music.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-age-proof-attested-copy-of-pan-card-bank-details-copy-bank-pass-book"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pocmfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a male.\n  - The applicant should be an artist.\n  - The applicant should have significantly contributed to the field of Indian classical music.\n  - The applicant should have rendered at least 40 years of service in classical music at the state or national level.\n  - The applicant should have received formal training under the traditional guru-shishya parampara (teacher-disciple tradition).\n  - The applicant should have worked for the promotion, protection, and nurturing of classical music.\n  - The applicant should have received recognized awards at the national or international level.\n  - The applicant should have conducted noteworthy research in the development and conservation of classical music.\n\n<br>",
+  "_criteria_filled": 2
+}

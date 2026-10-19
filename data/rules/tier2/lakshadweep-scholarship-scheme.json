@@ -1,0 +1,26 @@
+{
+  "id": "lakshadweep-scholarship-scheme",
+  "name": "Lakshadweep Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "person",
+  "benefit": "<br>\n\nName of the CoursesScholarship AmountPre-degree courses, Post Matric certificate courses, Post Matric Diploma courses, Degree Courses in Arts, Science, commerce, B.Ed., LLB etc.Rate of monthly scholarship ₹ 1,800/-, Rate of lump sum grant ₹ 1,500/-Post Graduate course in Arts, Science, Commerce, Law etc.Rate of monthly scholarship ₹ 2,100/-, Rate of lump sum grant ₹ 1,800/-MBBS, BDS, Enginee",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-income-certificate-educational-certificate-caste-certificat"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/Lakshadweep/Lakshadweep_3024_G.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lkdss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Both parents and the student must be born in Lakshadweep or have one parent from Lakshadweep.\n1. The student and the Islander parent must reside in the Islands.\n1. Scholars cannot receive other scholarships, must surrender any awards, and repay funds received.\n1. Retention of concessions granted by the institution or administration is allowed.\n1. Scholars can pursue courses in Arts, Science, Engineering, Medicine, Agriculture, Law, or Commerce in recognized Indian institutions.\n1. Educational concessions on the mainland are only for studies not available in the Islands.\n1. Stipends may be granted or renewed for health reasons or disability.",
+  "_criteria_filled": 1
+}

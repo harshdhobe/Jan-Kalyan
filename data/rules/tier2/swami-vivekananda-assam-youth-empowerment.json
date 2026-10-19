@@ -1,0 +1,35 @@
+{
+  "id": "swami-vivekananda-assam-youth-empowerment",
+  "name": "Swami Vivekananda Assam Youth Empowerment",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Benefits\nRs. 50 thousand will be provided as seed money to each individual under the renewed Swami Vivekananda Assam Youth Empowerment (SVAYEM) Yojana.\nWhile the groups with five members (Rs 50,000 per head) would be entitled to Rs 2.5 lakh, groups with 10 members would be entitled to Rs 5 lakh and so on with the maximum limit for members being 20.\nThe total budget of the scheme is Rs. 1000 crore ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-list-svayem-scheme-2023-application-form-proprietary",
+    "driving-license",
+    "pan-card",
+    "aadhaar-card",
+    "passport-etc-plan-report-for-proposed-project"
+  ],
+  "apply_url": "https://industriescom.assam.gov.in/sites/default/files/Application%20Form%20for%20SVAYEM%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svayem",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Residents of Assam above 18 years of age.\n1. There will be no income ceiling for getting assistance under this scheme.\n1. The individual beneficiary should have skills, experiences, knowledge, etc., to undertake the income-generating activities.\n1. The beneficiary should possess an educational qualification of at least Class VII standard.\n1. The beneficiary who has already completed Skill Development Training will be given preference.\n1. The beneficiary must not be the defaulter of any loan. If the information submitted by the beneficiary is found to be incorrect later, action would be taken against the beneficiary including cancellation of the loan, recovery of the amount as Bakijai and also blacklisting for future benefit under any Govt. Scheme.\n1. PMEGP beneficiaries of the last 5 years will not be eligible under the scheme.",
+  "_criteria_filled": 2
+}

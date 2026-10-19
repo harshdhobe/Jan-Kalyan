@@ -1,0 +1,36 @@
+{
+  "id": "trekking-in-coastal-area-for-scheduled-caste",
+  "name": "Trekking in Coastal Area for Scheduled Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Cultural and Industrial Exposure:** The program provides 100 Scheduled Caste youth annually with a 10-day trekking tour to explore the culture of Sagarkantha, learn about coastal wealth, and understand local industries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcasc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should belong to the Scheduled Caste category.\n  - The applicant should be between 15 and 35 years of age.\n\n<br>",
+  "_criteria_filled": 3
+}

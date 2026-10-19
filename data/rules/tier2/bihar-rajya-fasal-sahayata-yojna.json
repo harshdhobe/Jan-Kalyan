@@ -1,0 +1,26 @@
+{
+  "id": "bihar-rajya-fasal-sahayata-yojna",
+  "name": "Bihar Rajya Fasal Sahayata Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "1. In case of a reduction in the actual yield rate by 20% as compared to the threshold yield rate, total assistance of Rs. 15,000 is estimated at the rate of Rs. 7,500 per hectare up to a maximum of two (02) hectares.\n1. In the event of more than a 20% reduction in the actual yield rate as compared to the threshold yield rate, total assistance of Rs. 20,000 is estimated at the rate of Rs. 10,000 p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "land-possession-certificate-revenue-receipt-of-land-should-be-after-31-03-2022-s"
+  ],
+  "apply_url": "https://pacsonline.bih.nic.in/fsy/Public/BothSelfDeclaration_rabi.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/brfsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All such farmers cultivate their own land. \n1. All such farmers cultivate the land of others.\n1. Such farmers do farming on their own land as well as on the land of others.",
+  "_criteria_filled": 1
+}

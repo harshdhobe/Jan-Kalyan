@@ -1,0 +1,29 @@
+{
+  "id": "pmmsy-installation-of-cages-in-reservoirs-scheme-haryana",
+  "name": "PMMSY: Installation of Cages in Reservoirs Scheme - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Grant Amount:**\n\n- ₹3,00,000/- per unit (per cage).\n\n**Grant Proportion:**\n\n- 40% of unit cost for General Category beneficiaries.\n- 60% of unit cost for Scheduled Caste/Women beneficiaries.\n\n**Cage Limit for Assistance:**\n\n- Up to 5 cages for individual farmers.\n- Up to 20 cages for registered cooperative societies/self-help groups/joint liability groups (with at least 10 members).\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "general-document-family-identity-card-parivar-pehchan-patra-agreement-1-agreemen",
+    "nakal",
+    "akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=W%2fsFEMWlJZG3hueCeE3oEg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfiocir",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual farmer, cooperative society, self-help group, or joint liability group. \n1. The cooperative society, self-help group, or joint liability group having a minimum of 10 members. \n1. The applicant must possess a Family Identity Card (Parivar Pehchan Patra).\n1. The applicant must obtain prior permission from the Government of Haryana and competent authorities.\n1. The cage location must have year-round water availability and a minimum of 8 meters depth.\n1. The applicant should take government permission for rearing exotic fish species.",
+  "_criteria_filled": 1
+}

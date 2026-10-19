@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-pilgrims-for-kailash-mansarovar-yatra-rajasthan",
+  "name": "Assistance to Pilgrims for Kailash Mansarovar Yatra - Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Financial Assistance** \n\n- ₹1,00,000 per selected pilgrim after completing the Yatra.\n\n> **Mode of Disbursement**\n\nDirect transfer to the beneficiary’s bank account via account payee cheque/demand draft, depending on departmental discretion.\n> **Note:**\n\n- The Yatra must be completed through the Ministry of External Affairs, Government of India.\n- The benefit is available only once in a lifeti",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "certified-copy-of-rajasthan-domicile-certificate-certified-copy-of-passport-with"
+  ],
+  "apply_url": "https://devasthan.rajasthan.gov.in/Files/kailash_masrover_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apkmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should have successfully completed the Kailash Mansarovar Yatra through the Ministry of External Affairs, Government of India.\n   1. The applicant receives this grant only once in a lifetime.\n\n**Note 1:** 100 pilgrims are selected each year. If there are more applicants than available slots, selection is done through a lottery system.\n**Note 2:** After completing the trip, a certificate from the Ministry of External Affairs confirming the successful completion of the journey is required.",
+  "_criteria_filled": 1
+}

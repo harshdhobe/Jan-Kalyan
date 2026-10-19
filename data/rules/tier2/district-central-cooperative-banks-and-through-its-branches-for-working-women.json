@@ -1,0 +1,33 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-working-women",
+  "name": "District Central Cooperative Banks and through its Branches: For Working Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Up to ₹20,000/-.  - **Interest Rate:** 12% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-employment-or-work-related-documents-any-other-docume"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3576",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbfww",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a working woman.\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

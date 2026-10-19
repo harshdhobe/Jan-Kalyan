@@ -1,0 +1,36 @@
+{
+  "id": "tripura-journalist-health-insurance-scheme",
+  "name": "Tripura Journalist Health Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "The beneficiary will receive medical care facilities for all the diseases as listed by the State government after recommendation by the committee. The maximum coverage of benefits from all sources will be ₹3,00,000.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-dob-proof-of-residence-bank-details-refer-source-income-certificate"
+  ],
+  "apply_url": "https://tripura.gov.in/sites/default/files/Tripura_Journalis_Health_Insurance_Scheme_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tjhis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of the state of Tripura.\n1. The applicant must be an accredited working journalist by the state government or by the Press Information Bureau (PIB). \n1. The age of the applicant must be in between 21 years and 65 years. \n1. The applicant must not have been covered under the Ayushman Bharat Scheme or any other Health Insurance Scheme of the Central or State Government.",
+  "_criteria_filled": 3
+}

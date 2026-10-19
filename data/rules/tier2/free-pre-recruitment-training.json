@@ -1,0 +1,41 @@
+{
+  "id": "free-pre-recruitment-training",
+  "name": "Free Pre-Recruitment Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, 8 weeks of free pre-recruitment training for recruitment into the Military, Paramilitary, and Police Forces is provided to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "ordinary-application-form-birth-certificate-aadhaar-card-educational-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fprtuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a son of an ex-serviceman.\n1. The applicant&#39;s age should be more than 16 years and less than 21 years.\n1. The applicant should have passed high school with 45% marks.\n\n***All expenses incurred on training (honorarium of trainers + food + accommodation) are borne by the Directorate of Sainik Welfare.***\n**Note: 5** courses are conducted each year.\n<br>",
+  "_criteria_filled": 4
+}

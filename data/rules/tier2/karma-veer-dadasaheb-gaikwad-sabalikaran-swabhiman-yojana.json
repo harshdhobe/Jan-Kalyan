@@ -1,0 +1,48 @@
+{
+  "id": "karma-veer-dadasaheb-gaikwad-sabalikaran-swabhiman-yojana",
+  "name": "Karma Veer Dadasaheb Gaikwad Sabalikaran & Swabhiman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The beneficiary is provided with 2-acre irrigated land or 4-acre non-irrigated land on 50% of the subsidy and 50% is loan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-card-aadhaar-card-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "govt-of-maharashtra-details-of-the-bank-account-bank-name",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/awards",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvdgssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be in the 18 to 60 years age group.\n1. The applicant should be from Scheduled Caste or should be a Nav-Buddhists.\n1. The applicant should be landless.\n1. The applicant should be from the &quot;Below Poverty Line&quot; category.",
+  "_criteria_filled": 4
+}

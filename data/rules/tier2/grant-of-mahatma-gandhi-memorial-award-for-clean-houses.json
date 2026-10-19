@@ -1,0 +1,26 @@
+{
+  "id": "grant-of-mahatma-gandhi-memorial-award-for-clean-houses",
+  "name": "Grant of Mahatma Gandhi Memorial Award for Clean Houses",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Incentives worth ₹500/- in the form of household articles.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-bank-passbook-caste-certificate"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/adwgrant-mahatma-gandhi-memorial-award-clean-houses.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmgmach",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should belong to the Union Territory of Pondicherry by virtue of birth or continuous residence of not less than 3 years.\n- The applicant should be from Scheduled Caste.",
+  "_criteria_filled": 1
+}

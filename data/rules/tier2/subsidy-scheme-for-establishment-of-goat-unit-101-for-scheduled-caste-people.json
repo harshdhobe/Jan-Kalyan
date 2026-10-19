@@ -1,0 +1,27 @@
+{
+  "id": "subsidy-scheme-for-establishment-of-goat-unit-101-for-scheduled-caste-people",
+  "name": "Subsidy Scheme For Establishment Of Goat Unit (10+1) For Scheduled Caste People",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tUnder the scheme, each beneficiary should purchase 10 female goats and 1 male goat. 1 to 2 year old female goats and a 2 to 3 years old buck should be bought.\n2.\tUnder this scheme, the subsidy will be given 50% of the unit cost of the scheme (Maximum ₹45,000/-) for food, water, fodder, residence, and concentrate expenses.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-proof-of-date-of-birth-if-applicable-below-poverty-line-card-if-ap"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/sheep-goat-wool-development.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sseg10scp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme can be applicable only to the adult beneficiaries of the Scheduled Caste people.\n   1. The benefit has been provided to only one person per family.\n   1. The Beneficiary has to give his/her photograph with the goat unit.\n   1. The beneficiary should purchase 1 to 2 year old female goats and a 2 to 3 years old buck.\n   1. The beneficiary has to contribute 50% of the unit cost of the scheme for food, water, fodder, residence, and concentrates expenses.\n   1. In general circumstances, the unit should be run for 3 years.\n\n**Note 01:** The beneficiary has to purchase a goat&amp;#39;s unit within 90 days of pre-approval of the online application. If the beneficiary fails to establish the goat unit within the time limit or proves disabled then the approval order given to the beneficiary will be canceled and the approval order will be given to the beneficiary who is next on the waiting list.\n**Note 02:** Beneficiary has to note the record of milk production and has to give register and information during the visit of the department technical officer.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "delhi-pension-scheme-to-women-in-distress-widow-pension",
+  "name": "Delhi Pension Scheme To Women In Distress (Widow Pension)",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "The quantum of financial assistance under this scheme is ₹ 2,500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-self-attested-documentary-proof-for-the-following-needs-to-be-scanne",
+    "a-certificate-in-the-name-of-the-applicant-issued-by-a-competent-authority-has-t"
+  ],
+  "apply_url": "http://www.wcddel.in/faw.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpswdwp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- A woman who is a widow, divorced, separated, abandoned, deserted, or destitute woman above the age of 18 years of lifelong.\n- Residence of a minimum of 5 years in Delhi before the date of application. \n- The annual income of the applicant should be less than ₹ 1,00,000/-per annum from all sources (including rent, interest/dividends on savings &amp; investments, earnings from the farm, property sale proceeds, etc.) of the applicant. \n- Applicant should have the Aadhar number \n- The Applicant should have a single-operated Aadhar-linked account with any bank in the NCT of Delhi only. \n- Must not be receiving any pension/ financial assistance from Central Govt./ State Govt./MCD or NDMC and other Governmental/local bodies or any other source for this purpose.",
+  "_criteria_filled": 4
+}

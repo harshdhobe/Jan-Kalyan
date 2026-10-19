@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-to-disabled-students",
+  "name": "Scholarship to Disabled Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Scholarship Assistance:**\n\n- ₹1,500/- per year for students with disabilities studying in Class 1st to 8th.\n- ₹2,000/- to ₹4,500 per year for students studying in Class 9th and above.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-pass-bookcancelled-cheque-birth-certificate-identity-card-other"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/stdsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n  - The applicant should be a student.\n  - The applicant must have at least 40% of any of the 21 benchmark disabilities listed under the [Rights of Persons with Disabilities Act, 2016](https://www.indiacode.nic.in/bitstream/123456789/15939/1/the_rights_of_persons_with_disabilities_act%2C_2016.pdf).  - The applicant should have passed the last annual examination with a minimum of 40% marks.\n  - The applicant should possess a valid PH (Person with Disability) Identity Card.\n  - The applicant should be currently studying in a recognized educational institution.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

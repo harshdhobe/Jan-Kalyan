@@ -1,0 +1,28 @@
+{
+  "id": "100-penalty-mafi-yojana",
+  "name": "100% Penalty Mafi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- The applicant receives 100% waiver on the penalty amount accumulated on pending installments.\n- The waiver is applicable on all arrears of installments pertaining to old schemes of the Gujarat Housing Board and Slum Clearance Cell.\n- The benefit is a one-time waiver granted upon fulfillment of payment conditions.\n- The waiver is applied at the time of final settlement of dues.\n\n***Conditions***\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-account-number-card-income-certificate-copy-of-power-of-a",
+    "delivery-of-rent",
+    "or-letter-from-the-landlord-death-certificate-in-case-of-death-of-the-original-t"
+  ],
+  "apply_url": "https://tally.so/r/w5GN66",
+  "source_url": "https://www.myscheme.gov.in/schemes/1pmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be a beneficiary of the Gujarat Housing Board or Slum Clearance Cell.\n- The applicant must have pending installment arrears under the old schemes of the Gujarat Housing Board and Slum Clearance Cell.\n- The applicant must clear all arrears of installments in one lump sum payment.\n- The applicant must complete the payment by 31st March.\n- The applicant must be either the original tenant, a successive power of attorney holder, or the existing occupant of the property.\n\n<br>",
+  "_criteria_filled": 1
+}

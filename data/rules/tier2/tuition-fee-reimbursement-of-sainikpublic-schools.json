@@ -1,0 +1,26 @@
+{
+  "id": "tuition-fee-reimbursement-of-sainikpublic-schools",
+  "name": "Tuition Fee Reimbursement of Sainik/Public Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Reimburses Tuition Fees for Students Upon Admission to Sainik Schools or Institutions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/tfrosps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from Denotified, Nomadic, or Semi-Nomadic Community.\n1. The applicant should be a Student.\n1. The applicant should be enrolled in a Sainik School or institution.",
+  "_criteria_filled": 1
+}

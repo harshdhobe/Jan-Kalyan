@@ -1,0 +1,27 @@
+{
+  "id": "samman-bhatta-to-war-widows-and-parents-of-martyrs",
+  "name": "Samman Bhatta to War Widows and Parents of Martyrs",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Samman Bhatta is provided at ₹5000/- per month for a lifetime.\n\n**Note:** The amount of assistance is deposited in beneficiary’s bank account every month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "martyrdom-certificate-of-the-deceased-soldier-marriage-certificate-for-war-widow",
+    "if-applicable-bank-passbook-copy-any-other-document-if-required"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/raj/sainikwelfaresite/en/welfare-schemes/WELFARE-SCHEMES-state-government.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbwwpm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should either be a war widow of a martyr or a parent of an unmarried martyr who sacrificed their life in wars, counter-insurgency operations, or aid to civil authorities before 31st March 1999.",
+  "_criteria_filled": 1
+}

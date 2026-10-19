@@ -1,0 +1,45 @@
+{
+  "id": "tejaswini-the-radiant",
+  "name": "Tejaswini-the Radiant",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "A financial assistance of Rs. 5 lakh under Mudra loan from J&K Bank\nRe-payment of Financial Assistance provided under this scheme shall be interest free.\nMission Youth, J&K shall provide an amount of Rs. 50,000 or 10% of project cost (Whichever is minimum) as special incentive (subsidy) towards the loan which shall be adjusted towards monthly installments of the loan for first six months.\nInterest",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-ration-card-aadhaar-card",
+    "date-of-birth-certificate-issued-by-the-competent-authority",
+    "matriculation-certificate-unemployment-certificate-unemployment-certificate-is-r",
+    "the-applicant-will-submit-an-affidavit-to-the-effect-that-applicant-will-continu",
+    "whichever-is-later"
+  ],
+  "apply_url": "https://missionyouthjk.in/scheme_pdf/tejaswani.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any female domicile of J&amp;K, essentially registered with Mission Youth, J&amp;K.\n- Any individual women/ women entrepreneur (s)/ enterprise where women entrepreneurs hold not less than 50% of financial holding.\n- Preference will be given to the categories of women entrepreneurs trained in Rural Self Employment Training Institutes (R-SETIs)/ Skill Development Institutions etc. any other training institute.\n- The applicant should not be a defaulter to any Bank /Financial Institution.\n- The financial assistance would be given only to women between the age of 18 to 35 years having a qualification of 10th standard or above. Provided that CEO Mission Youth shall be competent to relax the educational qualification criteria for deserving candidates on a case to case basis, based on proper justification.\n- The beneficiary must be unemployed and registered with the concerned District Employment &amp; Counseling Center\n- No criteria regarding income of the family would be considered for the eligibility under this scheme.\n- One woman can seek the assistance under this scheme only once.\n- The amount of self assistance provided by Mission Youth (MY) has to be compulsorily utilized for self employment generation only.\n- If the total project cost of the self employment unit to be set up by the beneficiary exceeds Rs 5.00 lakh, the amount over and above shall have to be self financed by the applicant.\n\n<br>",
+  "_criteria_filled": 4
+}

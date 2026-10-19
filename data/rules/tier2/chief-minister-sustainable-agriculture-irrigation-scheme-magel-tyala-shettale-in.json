@@ -1,0 +1,28 @@
+{
+  "id": "chief-minister-sustainable-agriculture-irrigation-scheme-magel-tyala-shettale-in",
+  "name": "Chief Minister Sustainable Agriculture Irrigation Scheme - Magel Tyala Shettale (Individual Farm Pond)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "1) Financial Assistance is given to farmers.\n2)The subsidy payable to an individual farmer minimum Rs.14433/- and maximum Rs.75000/- depending on the size of the farm pond.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-to-confirm-identity-and-eligibility-for-dbt-residential-proof-voter",
+    "ration-card",
+    "or-other-valid-documents-confirming-maharashtra-residency-proof-of-land-ownershi"
+  ],
+  "apply_url": "https://gr.maharashtra.gov.in/Site/Upload/Government%20Resolutions/English/202206291827382601.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/chief-minister-sustainable-agriculture-irrigation-scheme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1) Farmer should hold at least (Minimum) 0.20 ha. land and Kokan region, while it is 0.40 ha. limit for rest of Maharashtra.\n2) The applicant farmers land will have to be technically suitable for digging farm pond. So that the runoff rainwater can be stored in the farm pond through natural flow and recharge will be possible. In case of farm ponds without inlet and outlet there should be a natural source from where extra runoff during rainy season can be lifted and stored in farm pond.\n3) Before applying for farm pond, the applicant farmers should not have availed the subsidy for farm pond, community tank or bodi in paddy bunding or any Government Scheme.",
+  "_criteria_filled": 1
+}

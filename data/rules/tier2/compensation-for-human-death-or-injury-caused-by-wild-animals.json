@@ -1,0 +1,27 @@
+{
+  "id": "compensation-for-human-death-or-injury-caused-by-wild-animals",
+  "name": "Compensation for Human Death or Injury Caused by Wild Animals",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Compensation Amount:**\n\n- **In case of death:** ₹4,00,000 is paid to the deceased’s legal heir or family member after deducting any temporary assistance already given and the actual cost of medical treatment before death.- **In case of injury:** Actual medical expenses are reimbursed, along with ₹500 per day (maximum ₹50,000) if hospitalized, after deducting any temporary assistance already prov",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-resident-proof-bank-account-details-death-certificate-treatment-b",
+    "if-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=314",
+  "source_url": "https://www.myscheme.gov.in/schemes/chdicbwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant should be a victim of a wild animal attack, resulting in injury or death.\n1. The applicant should submit proof that the injury or death was caused by a wild animal (excluding snakes, monitor lizards, and other poisonous creatures).\n1. In the case of death, the applicant must be a legal heir, family member, or relative of the deceased person.\n\n<br>",
+  "_criteria_filled": 1
+}

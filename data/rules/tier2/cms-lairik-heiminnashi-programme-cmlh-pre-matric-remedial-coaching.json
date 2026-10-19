@@ -1,0 +1,29 @@
+{
+  "id": "cms-lairik-heiminnashi-programme-cmlh-pre-matric-remedial-coaching",
+  "name": "CM’s Lairik Heiminnashi Programme (CMLH): Pre-Matric Remedial Coaching",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "The scheme provides free-of-cost remedial coaching to selected students. The coaching aims to help eligible students who are weak in studies to achieve higher grades/marks in English, Mathematics, and Science subjects. The duration of the coaching program for each class is 6 months.\n> **Mode of Disbursement:** Fund will be released to the Coaching Centres (CC) as cost for conducting coaching class",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-bank-account-details-pan-card-for-tax-related-purposes",
+    "such-as-a-copy-of-the-electricity-bill",
+    "water-bill",
+    "or-any-other-government-issued-document-details-of-the-coaching-centre-as-requir"
+  ],
+  "apply_url": "https://manipurobcsc.mn.gov.in/wp-content/uploads/2023/02/Application-Form-Pre-Matric-2020-21.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmlh-prem",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Coaching Centres:**\n\n1. The applicant should be a Government school, a private school recognised by the State Government, or a registered private coaching centre.\n1. The applicant should have at least 3 classrooms, each with a minimum 40-student capacity.\n1. The applicant should have sufficient toilets, safe &amp; hygienic drinking water facilities, an adequate number of benches and desks, functional fans, functional electricity connections and a good lighting system.\n1. The applicant should provide an adequate number of qualified teachers for each subject for all classes for which coaching is to be provided.\n1. The applicants should have excellent teachers who possess at least a graduate degree in the subject for which he/she is assigned to teach.\n1. The applicant should designate a Centre Coordinator and Peon-cum-Chowkidar.\n1. The applicant should prepare a course calendar and ensure monthly student progress reports.\n\n<br>\n\n> **Note: For Students:**\n\n- The applicant should be studying in Classes 8 to 10 under BOSEM.\n- The applicant should belong to a minority, OBC, or SC community.\n- The applicant should be academically weak.\n\n> **Preference / Reservation / Relaxation:**\n\n- At least 30% of the seats are reserved for girl students.\n- Girl students who do not get seats under the reserved 30% will still be considered under the remaining 70% open category.\n\n<br>",
+  "_criteria_filled": 1
+}

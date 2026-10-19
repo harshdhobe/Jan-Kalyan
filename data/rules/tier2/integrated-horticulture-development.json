@@ -1,0 +1,26 @@
+{
+  "id": "integrated-horticulture-development",
+  "name": "Integrated Horticulture Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "The Enhancement of horticulture production, augment farmers, income and strengthen nutritional security; Improve productivity by way of quality germplasm, planting material and water use efficiency through Micro Irrigation.\n\n-     Horticulture Subsidy for Fruits and Vegetables.\n\n-     Horticulture Subsidy for Spices (Maximum 4 ha for beneficiary)\n\n-     Horticulture Subsidy for Flower Farming.\n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "degreediploma-in-civil-mechanical-electrical-engineering-with-2-years-post-quali"
+  ],
+  "apply_url": "https://dirhorti.assam.gov.in/sites/default/files/swf_utility_folder/departments/horticulture_medhassu_in_oid_5/portlet/level_1/files/PRESENT%20SCENARIO%20HORTICULTURE%20IN%20ASSAM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "A person having Degree/Diploma in Civil/ Mechanical/ Electrical Engineering with 2 years&#39; post qualification experience preferably in irrigation sector and knowledge of computer. Eligibility criteria: Minimum 55% marks or 5.5/10 CGPA or equivalent marks at graduate/diploma level.",
+  "_criteria_filled": 1
+}

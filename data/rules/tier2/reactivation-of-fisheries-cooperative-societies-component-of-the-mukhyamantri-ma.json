@@ -1,0 +1,26 @@
+{
+  "id": "reactivation-of-fisheries-cooperative-societies-component-of-the-mukhyamantri-ma",
+  "name": "\"Reactivation Of Fisheries Cooperative Societies\" Component of the \"Mukhyamantri Maschyajibi Kalyan Yojana\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "A one-time revolving fund of ₹2,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-of-the-secretary-of-pfcs-society-registration-certifica"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/sites/default/files/2023-10/6.%20Reactivation%20of%20Primary%20Fisheries%20Cooperative%20Societies.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmky-rfcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an active Primary Fisherman Cooperative Society (PFCS).\n- The PFCS should have completed at least 1 year from the date of its registration under &quot;The Odisha Cooperative Societies Act-1962&quot;.\n- The PFCS should be in working condition.\n- The PFCS should not have availed the revolving fund before.\n- The PFCS should be conducting Committee of Management meetings and AGB meetings in time as per the OCS Act and Rules framed there under the Bylaws of the Society.\n- The PFCS  should have paid the Government lease value of the reservoir/ pond if taken on lease as per the Rules.\n- The PFCS should be able to produce last year&#39;s audited balance sheets with Profit Loss accounts of the Society from AGCS-empanelled CA firms/auditors.\n\n<br>",
+  "_criteria_filled": 1
+}

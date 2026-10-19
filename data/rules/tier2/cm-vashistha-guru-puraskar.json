@@ -1,0 +1,32 @@
+{
+  "id": "cm-vashistha-guru-puraskar",
+  "name": "CM-Vashistha Guru Puraskar",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Cash Award:** ₹1,00,000/- (Rupees One Lakh).\n**Citation:** Provided with each award.\n**Total 10 Awards:**\n\n- Primary Teacher: Two Awards (One in each District).\n- Secondary Teacher: Four Awards (Two in each District).\n- High School Headmaster: Two Awards (One in each District).\n- Higher Secondary Teacher: One Award (One in entire State).\n- Higher Secondary Principal: One Award (One in entire Sta",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-duly-attested-by-the-gazetted-officer-on-the-bac",
+    "must-show-more-than-40-disability-abstracts-required-if-innovative-ideas-for-rai",
+    "tools",
+    "reports-of-activities",
+    "field-visits",
+    "photographs",
+    "audios-or-videos-undertaking-by-the-applicant-certifying-that-all-submitted-info"
+  ],
+  "apply_url": "https://education.goa.gov.in/wp-content/uploads/2025/06/CM-Vashistha-Guru-Puraskar-2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmvgp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***Target Group Definition***\n    ◦ The applicant must be a school teacher, special educator, or Head of School.\n    ◦ The applicant must be working in a recognized government or aided primary, middle, high, or higher secondary school.\n    ◦ The applicant must be an in-service teacher.\n    ◦ The applicant must fulfill the required academic and professional qualifications as per their cadre for the State Award to Teachers.\n***Service Requirements***\n    ◦ The applicant, if an in-service Regular Teacher or Special Educator, must have completed at least 15 years of regular teaching service in the State of Goa as on June 30th of the academic year for which they are applying.\n    ◦ The applicant, if a Headmaster, must have 5 years of administrative experience out of the required 15 years of regular teaching service in the State of Goa.\n***Preference/Reservation***\n    ◦ One award out of the 10 is reserved for a differently abled teacher or Head of the School/Special Educator from Regular or Special Schools.\n    ◦ The applicant applying for the Differently Abled Category must attach a disability certificate indicating more than 40% disability.\n<br>",
+  "_criteria_filled": 1
+}

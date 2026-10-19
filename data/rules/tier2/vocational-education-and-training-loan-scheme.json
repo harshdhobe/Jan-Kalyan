@@ -1,0 +1,31 @@
+{
+  "id": "vocational-education-and-training-loan-scheme",
+  "name": "Vocational Education and Training Loan Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**Quantum of loan**\t\n\n1. Need-based finance to meet up to 90% of expenses shall be considered subject to the following Ceilings:\n\n- For courses of duration  up to 2 years: up to Rs. 4,00,000/-\n\n> Note: In case of cost over-run, it shall be borne by the beneficiary.\n\n**Interest**\t\nNational Safai Karamcharis Finance &amp; Development Corporation (NSKFDC) shall charge interest @ 1% per annum from the",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-driving-license-bank-details-caste-certificate-income-certificate-d"
+  ],
+  "apply_url": "https://nskfdc.nic.in/en/content/vocational-education-and-training-loan-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/vetls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligibility Criteria:**\n\n1. The person should be from the target group of NSKFDC.\n1. The person should have secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations, preferably leading to a Certificate/Diploma/Degree etc. Issued by a Government Organization or an Organization recognized/authorized by the Government to do so.\n\n> **Course Eligibility:**\n\nVocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations.\n> **Age Eligibility:**\n\nThe candidate should attain a minimum age of 18 years on completion of the course. The upper age limit is up to 50 years.\n<br>",
+  "_criteria_filled": 2
+}

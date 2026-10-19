@@ -1,0 +1,26 @@
+{
+  "id": "saral-bijli-bill-scheme",
+  "name": "Saral Bijli Bill Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Free Electricity Connection:** Eligible registered labourers and construction workers receive free domestic electricity connections without any connection charge.  - **Fixed Monthly Electricity Bill:** The beneficiary is required to pay only ₹200 per month for electricity consumption.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a registered labourer under the Mukhyamantri Mazdoor Kalyan (Sambal) Yojana–2018.\n  - The applicant should be a registered construction worker.\n  - The applicant should have a domestic electricity connection or intend to obtain one under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

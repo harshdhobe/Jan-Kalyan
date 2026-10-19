@@ -1,0 +1,26 @@
+{
+  "id": "state-rice-mission-scheme",
+  "name": "State Rice Mission Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n- Training, Awareness program, extension, Technology support, Subsidy on inputs.\n\n> **Type of Assistance and Entitlement (If any):**\n\n1. 50 % Subsidy for quality paddy seeds to farmers.\n1. Minor irrigation (Check dam, shallow tube well, etc.)\n1. 50 % sale of Power Tillers SRI Tools for demonstration.\n1. Trainings",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=6",
+  "source_url": "https://www.myscheme.gov.in/schemes/srmsmeghalaya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

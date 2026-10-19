@@ -1,0 +1,33 @@
+{
+  "id": "kerala-state-young-scientist-awards",
+  "name": "Kerala State Young Scientist Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Each Awardee will be presented with a certificate and a cash prize of ₹50,000/-.\n   1. The recipient may be considered by the Council for a research grant of ₹50 lakhs after due consideration of the research project with the help of an expert committee.\n   1. The Awardee, within 3 years of the receipt of the award, will be considered for a visit abroad to present the research work at a conferen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 37
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-candidate-2-educational-qualification-certificate-3-post-doc",
+    "if-any-8-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/kerala-state-young-scientist-awards/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksysa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Ph.D. holder with 3 years Post-Doctoral experience.\n   1. The applicant should have working experience in any R&amp;amp;D/Academic institution in Kerala continuously for the last 3 years.\n   1. The age of the applicant should not be more than 37 years as on 31st December in the notifying year.",
+  "_criteria_filled": 2
+}

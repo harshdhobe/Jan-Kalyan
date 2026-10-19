@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-to-gad-hanjis",
+  "name": "Financial Assistance To Gad-Hanjis",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "The financial assistance for the purchase of Nylon Twine will be sanctioned at the following rates:\n1. License holders having paid fee of ₹ 50/-: ₹ 500/-.\n2. License holders having paid fee of ₹ 40/-: ₹ 400/-.\n3. License holders having paid fee of ₹ 30/-: ₹ 300/-.\n4. License holders having paid fee of ₹ 20/-: ₹ 200/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 3600
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-domicile-certificate-of-the-stateut-of-jammu-kashmir-fis",
+    "govt-of-jammu-kashmir-3-passport-sized-photograph-signed-across-aadhaar-card-det",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-income-certificate-in-the-prescribed-form-from-a-revenue-officer-not-below-t"
+  ],
+  "apply_url": "https://jksabwdobcs.com/pdf/gov_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fagh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a Gad-Hanji (Fisherman) licensed by the Fisheries Department consecutively for the last 3 years.\n1. The annual income of the applicant should not exceed ₹ 3,600/-.\n1. The applicant should not have received assistance under this scheme during the last 2 years.",
+  "_criteria_filled": 2
+}

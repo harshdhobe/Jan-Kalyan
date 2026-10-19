@@ -1,0 +1,27 @@
+{
+  "id": "stipend-scheme-for-poultry-farming-training-for-schedule-caste",
+  "name": "Stipend Scheme For Poultry Farming Training For Schedule Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The beneficiary will be given maximum ₹2000 (direct in bank account) stipend for six days training. (Considering ₹300/- per day, ₹1800/- for 6 days as daily allowance and ₹200/- as to &amp; fro transport fare with the maximum total stipend ₹2000/-)\n1. Beneficiary will be given poultry training certificate after completion of training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-income-proof-certificate-below-poverty-line-card-if-applicable-res"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/subsidy-schemes-poultry.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sspftsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The benefits of this scheme will only be given to the adult of Schedule Caste people of the society of Gujarat State.\n1. Beneficiary will have to provide income proof and caste certificate.\n1. Females and beneficiaries Below Poverty Line will be given beneficiary priority.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "guru-shishya-parampara",
+  "name": "Guru Shishya Parampara",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "- To preserve and promote rare and vanishing art forms on Classical or Folk/Tribal so that the young talents be nurtured to acquire skills in their chosen field of art.\n\n- The Selected Guru Accompanist and four Shishyas will be appointed for a period of one year on payment of the following honorarium\n\n<br>\n\nGuruRs. 7,500/- per monthAccompanist (one)Rs. 3.750/- per monthShishyas(Four)Rs. 1,500 per ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "identification-proof-age-proof-address-proof-vcddvdcdphotograph-must-be-furnishe"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/schemes/GSP_Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicants should be Indian citizens. \n1. Applicants (Guru) should be Eminent Practitioners/ Resourceful persons in the specified field.\n1. Applicants (Guru) should be between 45 to 70 years.\n1. Applicants (Guru) should be physically and mentally sound to run efficiently the Guru Shishya Parampara Kendra.\n1. The Shishyas should be in the age groups of 15 to 25 years.",
+  "_criteria_filled": 3
+}

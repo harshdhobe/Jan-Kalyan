@@ -1,0 +1,26 @@
+{
+  "id": "plastic-mulching",
+  "name": "Plastic Mulching",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Small/marginal farmers can get a 25% subsidy on up to 2 hectares of land.\n1. Other farmers can get a 50% subsidy on up to 2 hectares of land.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-quotati"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n1. The applicant should be a native of Rajasthan.\n1. The applicant must have agricultural land ownership and irrigation sources.",
+  "_criteria_filled": 1
+}

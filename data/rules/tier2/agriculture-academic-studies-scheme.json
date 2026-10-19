@@ -1,0 +1,29 @@
+{
+  "id": "agriculture-academic-studies-scheme",
+  "name": "Agriculture Academic Studies Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n- Sponsorship of seats, book grants, and scholarships.\n\n> **Type of Assistance and Entitlement (If any):**\n\n- Monthly stipend @ ₹1,200/-.\n- Book grant @₹1,200/- per academic year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "admit-cards-x",
+    "xii-mark-sheets-x",
+    "xii-birth-certificate-caste-certificate-in-respect-of-sc",
+    "st-and-obc-all-candidates-are-required-to-submit-the-permanent-residential-certi"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=63",
+  "source_url": "https://www.myscheme.gov.in/schemes/aass",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/student should be a permanent resident of Meghalaya.\n   1. Students interested in pursuing a four-year degree course in Agriculture/Horticulture can apply under the scheme.\n   1. The students, general &amp;amp; OBC category, who should have passed 10+2 in the Science stream with 55% aggregate marks having Physics, Chemistry, Biology &amp;amp; English as compulsory subjects are eligible under the scheme.\n   1. The students, SC &amp;amp; ST category, who should have passed 10+2 in the Science stream with 45% aggregate marks having Physics, Chemistry, Biology &amp;amp; English as compulsory subjects are eligible under the scheme.\n   1. The applicant should also qualify for the Indian Council of Agricultural Research (ICAR) All India Entrance Examinations for Admission (AIEEA) conducted by the National Testing Agency (NTA).",
+  "_criteria_filled": 1
+}

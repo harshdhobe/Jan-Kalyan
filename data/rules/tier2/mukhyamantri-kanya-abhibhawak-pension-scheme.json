@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-kanya-abhibhawak-pension-scheme",
+  "name": "Mukhyamantri Kanya Abhibhawak Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Benefits\nRs. 600 / - per month to the couple.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-certificate-in-respect-of-couple-having-an-only-girl"
+  ],
+  "apply_url": "https://socialsecurity.mp.gov.in/Scheme/KAPS.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkaps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The native place should be Madhya Pradesh\n1. The benefits under this scheme can be availed to the couple having an only daughter as a child.\n1. The age of either of the beneficiary couples is 60 years or more.\n1. The beneficiary couple should not be income-tax payers.\n1. The children of the parent(beneficiary couple) should be daughters and should be married.",
+  "_criteria_filled": 2
+}

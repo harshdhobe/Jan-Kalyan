@@ -1,0 +1,31 @@
+{
+  "id": "food-bill-assistant-for-medical-engineering-students-of-sebc",
+  "name": "Food Bill Assistant for Medical & Engineering Students of SEBC",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** \n  - ₹300/- per month (₹3,000/- annually) towards mess charges for most eligible SEBC students.\n  - ₹700/- per month (₹7,000/- annually) towards mess charges for selected students (limited number of beneficiaries).\n  - ₹1,500/- per month (₹15,000/- annually) for SEBC students studying in self-financed medical/engineering colleges and residing in hostels (with a fixed ce",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-pass-bookcancelled-cheque-caste-certificate-income-certificate-other-mark-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbamessebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant must be a permanent resident of Gujarat.\n1. The applicant must belong to the Socially and Educationally Backward Classes (SEBC).\n1. The applicant should be pursuing a Medical or Engineering degree in a recognized institution.\n1. The applicant must have passed HSC (Class 12th).1. The applicant&#39;s annual family income should not exceed ₹6,00,000/-.\n1. The applicant who is already availing similar mess assistance under any other government scheme is not eligible.\n\n<br>",
+  "_criteria_filled": 2
+}

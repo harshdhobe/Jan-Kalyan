@@ -1,0 +1,27 @@
+{
+  "id": "sri-lankas-sita-temple-tour",
+  "name": "Sri Lanka's Sita Temple Tour",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this scheme, natives of Madhya Pradesh who complete visits to Sita Temple &amp;amp; Ashok Vatika in Sri Lanka, as well as Angkor Wat Temple in Cambodia, are eligible for reimbursement.\n   1. Upon submission of the certificate detailing the actual expenses incurred, the State Government will reimburse 50% of the total expenses, up to a maximum of ₹30,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-certificate-of",
+    "cambodia-bank-passbookbank-account-details-any-other-required-documents"
+  ],
+  "apply_url": "https://dharmasva.mp.gov.in/uploads/files/shri_lanka.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/slstt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should have completed a pilgrimage to the Sita Temple and Ashoka Vatika in Sri Lanka and the Angkor Wat Temple in Cambodia.\n   1. The applicant should not be an income taxpayer.\n   1. Each individual is eligible to receive financial assistance only once in their lifetime.",
+  "_criteria_filled": 1
+}

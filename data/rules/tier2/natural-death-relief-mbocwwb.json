@@ -1,0 +1,26 @@
+{
+  "id": "natural-death-relief-mbocwwb",
+  "name": "Natural Death Relief (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹30,000/- is provided for natural death as a free additional benefit (FREE ADD).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-death-certi"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=natural+death+relief",
+  "source_url": "https://www.myscheme.gov.in/schemes/ndr-mbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the nominee, dependent, or legal heir of the deceased construction worker.\n1. The deceased construction worker should be registered with the Manipur Building and Other Construction Workers&#39; Welfare Board.\n1. The death of the deceased worker must be due to natural death.",
+  "_criteria_filled": 1
+}

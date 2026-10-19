@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-purchase-singel-net-small-rampon-net-its-accessories",
+  "name": "Financial Assistance To Purchase Singel Net / Small Rampon Net & Its Accessories",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "Subsidy to the extent of **50% of the actual cost limited to ₹ 50,000/-** for the purchase of Singel Net/ Small Rampon Net and its accessories, after every five years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-vessel-registration",
+    "issued-by-the-directorate-of-fisheries",
+    "government-of-goa",
+    "under-the-merchant-shipping-act-1958-fishing-vessel-license-certificate-fishing",
+    "net",
+    "and-its-accessories-by-fisheries-superintendent-fisheries-officer",
+    "assistant-superintendent-of-fisheries-as-per-format"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/01/Gill-Net-Application-Forms.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapsnsrna",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The Fishermen should belong to the OBC (Kharvi) Community.\n- The grandfather/grandmother of the fishermen should be resident(s) of Goa.\n- The fishermen shall not possess registered fishing canoes or fishing trawlers.\n- Only one household family member can avail of the benefit under this scheme.",
+  "_criteria_filled": 1
+}

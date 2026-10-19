@@ -1,0 +1,28 @@
+{
+  "id": "scheduled-caste-sub-plan-scsp-electrification-of-wells-of-scheduled-caste-farmer",
+  "name": "Scheduled Caste Sub Plan (SCSP): Electrification of Wells of Scheduled Caste Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Electrification of agriculture wells of the farmer.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-charter-of-record-712",
+    "8-a-and-6-a-proof-of-identity-gender-certificate-in-case-of-co-ownerspartners",
+    "a-consent-letter-on-notarized-stamp-paper-as-per-charter-of-712-and-6-a-caste-ce"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/scsp-ewscf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be a farmer.\n- The applicant must be from a Scheduled Caste.\n\n<br>",
+  "_criteria_filled": 1
+}

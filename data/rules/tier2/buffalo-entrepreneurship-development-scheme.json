@@ -1,0 +1,26 @@
+{
+  "id": "buffalo-entrepreneurship-development-scheme",
+  "name": "Buffalo Entrepreneurship Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "**Subsidy Payment for beneficiary opted for Shed:**\n**Phase****Time****SC/ST/Women/PwD/ Transgender****General**1st PhaseAfter completion of the shed and purchase of 1st milch graded Murrah she Buffalo &amp;amp;amp;amp; completion of its insurance 50% of the subsidy amount₹59,100/-₹49,250/-2nd PhaseAfter the purchase of 2nd milch graded Murrah she Buffalo &amp;amp;amp;amp; completion of its insura",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-billmoney-receipt-disability-certificate-b"
+  ],
+  "apply_url": "https://sugam.odisha.gov.in/website/citizen-portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/beds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer, entrepreneur, or member of SHG.\n1. The applicant belongs to General, SC, ST categories, SHG members, PWD, Women, and Transgender individuals.\n1. The applicant should purchase two Graded Murrah She Buffaloes, preferably in their 1st or 2nd lactation and yielding a minimum of 8 liters of milk per day.\n1. If the applicant is a PwD, their disability should be more than 40%.\n1. An individual per family will be eligible to avail assistance only once.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

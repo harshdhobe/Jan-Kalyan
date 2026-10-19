@@ -1,0 +1,30 @@
+{
+  "id": "senior-citizens-saving-scheme",
+  "name": "Senior Citizens Saving Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Benefits:\nHassle-Free Process: Individuals can open their accounts at any post office or authorized bank in India.\nSCSS Tax Benefits: Under Section 80C of the Income Tax Act, the principal amount invested in this scheme is eligible for deduction up to a limit of ₹1.5 lakhs in a year. Furthermore, interest earned on SCSS is taxable according to an individual’s tax slab. However, if the amount excee",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      }
+    ]
+  },
+  "documents": [
+    "kyc-documents-aadhaar-card",
+    "voter-id-card",
+    "pan-card",
+    "passport-utility-bills-telephone-bill",
+    "electricity-bill-senior-citizen-card-or-birth-certificate-case-specific-2-passpo"
+  ],
+  "apply_url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCSSGOL17042020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Indian citizens above the age of 60 years\n1. Retirees in the age bracket of 55-60 years who have opted for Voluntary Retirement Scheme (VRS) or Superannuation*\n1. Retired defense personnel above 50 years and below 60 years of age*\n\n<br>\n\n**(*Investment must be made within a month of availing the retirement benefits.)**",
+  "_criteria_filled": 1
+}

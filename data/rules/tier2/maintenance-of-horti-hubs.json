@@ -1,0 +1,26 @@
+{
+  "id": "maintenance-of-horti-hubs",
+  "name": "Maintenance of Horti Hubs",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "&gt; **Pattern of Assistance:**\n\nOrganizing demonstration cum training on hi-tech floriculture for farmers who are interested in floriculture, and renovation/repairing of old hubs.\n&gt; **Type of Assistance:**\n\nDemonstration and Training",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=104",
+  "source_url": "https://www.myscheme.gov.in/schemes/mhh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicants should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n1. The applicant/farmer should own or lease land of at least 0.2 hectares or more.",
+  "_criteria_filled": 1
+}

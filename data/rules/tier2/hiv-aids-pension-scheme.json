@@ -1,0 +1,26 @@
+{
+  "id": "hiv-aids-pension-scheme",
+  "name": "Hiv / Aids Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "1. ₹ 1500/- per month with age less than 60 years.\n1. ₹ 2000/- per month with age between 60 years and 79 years.\n1. ₹ 3000/- per month with age 80 years and above.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "registration-treatment-certificate-issued-by-the-art-medical-officer-concerned-c"
+  ],
+  "apply_url": "https://oaps.py.gov.in/Home/hiv.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/haps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. He/She must be a resident of UT of Puducherry.\n1. He/She should be a registrant in the ART Centre, IGMC&amp;RI, Puducherry / Link ART Centre JIPMER in respect of Puducherry region, ART Centre, Nagapattinam in respect of Karaikal region, ART Centre, Calicut in respect of Mahe region, ART Centre, Kakinada in respect of Yanam region and taking regular treatment and any other ART/Link ART centres to be established in future in the UT of Puducherry.",
+  "_criteria_filled": 1
+}

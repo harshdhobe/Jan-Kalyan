@@ -1,0 +1,31 @@
+{
+  "id": "pandit-deen-dayal-upadhyay-samoohik-pashudhan-beema-yojana",
+  "name": "Pandit Deen Dayal Upadhyay Samoohik Pashudhan Beema Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Financial Protection**\n\n- Coverage for livestock loss due to death, providing financial security to farmers.\n- Sum insured is determined based on the market value of livestock and milk yield.\n- Maximum coverage is up to five large animals or equivalent small animals per household.\n\n**Subsidized Premiums**\n\n- APL beneficiaries pay ₹100/200/300 per large animal per year based on milk yield or ₹25/",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-ppp-health-certificate-issued-by-a-registered-veterinary-p"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/sites/default/files/documents/Scheme%202023-24/Guidelines%20LIS%20with%20approved%20scheme%202023-24%20%26%202024-25_.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdduspby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a livestock owner.\n- The applicant should be above 18 years of age.\n- The applicant should possess a Parivar Pehchan Patra (PPP), issued by the state of Haryana.\n\n**Preference and Relaxations**\n\n- Applicants from Scheduled Caste and Below Poverty Line categories will be given priority.\n- Scheduled Caste beneficiaries are exempt from paying premiums; the state and central governments fully subsidize their insurance.",
+  "_criteria_filled": 2
+}

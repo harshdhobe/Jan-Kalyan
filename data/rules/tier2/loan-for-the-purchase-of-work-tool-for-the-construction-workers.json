@@ -1,0 +1,39 @@
+{
+  "id": "loan-for-the-purchase-of-work-tool-for-the-construction-workers",
+  "name": "Loan for the Purchase of Work Tool for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- An amount not exceeding ₹20,000/-  may be sanctioned as loan to the members of the fund, for the purchase of work related tools.\n\n**Note:** The loan amount shall be recovered in not more than sixty installments.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "quotation-for-cost-of-the-tools-to-be-purchased",
+    "undertaking-from-the-applicant-for-paying-the-dues-in-the-time-in-affidavit",
+    "undertaking-from-the-surety-in-affidavit",
+    "photo-copy-of-first-page-of-bank-passbook-or-original-cancelled-cheque-of-surety"
+  ],
+  "apply_url": "https://bocw.delhi.gov.in/bocw/welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/lpwtcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration:**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 65 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n<br>\n\n> **For Application:**\n\n- The applicant should be registered under the Delhi Building and Other Construction Workers Welfare Board for not less than one year.\n- The applicant should remit their contribution regularly.\n- The applicant should not exceed 55 years of age.\n\n<br>",
+  "_criteria_filled": 3
+}

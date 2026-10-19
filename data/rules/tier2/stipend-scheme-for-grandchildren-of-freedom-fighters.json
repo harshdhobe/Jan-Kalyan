@@ -1,0 +1,27 @@
+{
+  "id": "stipend-scheme-for-grandchildren-of-freedom-fighters",
+  "name": "Stipend Scheme for Grandchildren of Freedom Fighters",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\nEligible students receive ₹1,000 per month as a stipend for 12 months and ₹2,000 per year as an allowance for books.\n**Coverage**\nThe scheme applies to students pursuing non-professional courses in government and government-aided colleges and universities in Haryana.\n**Good Conduct Requirement**\nScholarship installments are released only upon obtaining a good conduct and a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-relationship-to-freedom-fighter-certified-copy-endorsed-by-the-district",
+    "issued-by-the-principalhead-of-the-institution-bank-account-details"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Stipend%20Scheme%20for%20Grand%20Children%20for%20Freedom%20Fighter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssgff",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a grandchild (third generation) of a freedom fighter.\n1. The applicant should be a resident of Haryana.\n1. The applicant should be enrolled in a government or government-aided college/university in Haryana.\n1. The applicant should be pursuing a non-professional course.\n1. The applicant should have passed the previous examination based on which admission was granted.\n1. The applicant should maintain satisfactory attendance and conduct.\n1. The applicant should not have failed the previous year’s university examination.\n\n**Reinstatement Criteria:**\nIf a student drops out but re-joins classes and maintains at least 50% attendance for three months, the previous and current quarter’s stipend is released.",
+  "_criteria_filled": 1
+}

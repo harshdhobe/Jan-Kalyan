@@ -1,0 +1,38 @@
+{
+  "id": "aravanaippu",
+  "name": "ARAVANAIPPU",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "₹1200 financial assistance to lactating mothers.\n***The selection is periodical and depends on the availability of funds.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-from-the-revenue-department-3-income-cert",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://wcd.py.gov.in/sites/default/files/aravanaippu-appl-tamil.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/a-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of Puducherry by virtue of birth or continuous residence of not less than five years.\n- The applicant should have an annual family income not exceeding ₹24,000.\n- The applicant should be at least 18 years old.\n- The girl child of the applicant should be born after 1-4-2005.\n- The assistance is provided only for two girl children.",
+  "_criteria_filled": 3
+}

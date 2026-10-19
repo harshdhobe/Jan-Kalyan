@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-nirmaan-majadur-suraksha-upakaran-sahaayata-yojana",
+  "name": "Mukhyamantri Nirmaan Majadur suraksha upakaran sahaayata yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> The said material(helmets, footwear, gloves, safety jackets, and masks) will be purchased by the beneficiary at his own expense, as per the rate fixed by CSIDC or Rs. 1,500/- whichever is less.\n\n> The beneficiary will be responsible for procuring the mentioned materials at their own cost. Once obtained, the Board will provide the reimbursement  upon receipt of an application and the correspondin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "labor-registration-card-aadhaar-card-invoice-copy-bank-account-details"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/199885_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnmsusy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Chhattisgarh state.\n1. Applicant should be a registered construction worker in Chhattisgarh state. \n1. Applicant can apply for the benefits only after  the 90 days of registration.",
+  "_criteria_filled": 1
+}

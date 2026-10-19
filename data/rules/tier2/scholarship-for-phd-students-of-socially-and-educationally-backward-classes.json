@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-for-phd-students-of-socially-and-educationally-backward-classes",
+  "name": "Scholarship for Ph.D. Students of Socially and Educationally Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Scholarship Assistance:**\n\n- ₹25,000/- for students pursuing M.Phil.\n- ₹1,00,000/- for students preparing Ph.D thesis.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-passbookcancelled-cheque-caste-certificate-income-certificat"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sapssebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Socially and Educationally Backward Classes (SEBC).\n1. The applicant should be pursuing M.Phil or Ph.D at a recognized institution.\n1. The applicant’s annual family income should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

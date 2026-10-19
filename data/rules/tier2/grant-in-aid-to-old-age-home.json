@@ -1,0 +1,36 @@
+{
+  "id": "grant-in-aid-to-old-age-home",
+  "name": "Grant In Aid To Old Age Home",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "In this scheme, grants are provided to the NGOs for accommodating old men and women, destitute, and disabled victims, into Old age Homes, and providing them with facilities such as food, accommodation, resort, Free lodging & Boarding & Medical Assistance, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-age-birth-certificate",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/gaoah",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered Non-Governmental Organization (NGO).\n1. The applicant should only accommodate old/destitute/disabled victims.\n1. In the case of old men, the age should be 60 years and above. In the case of old women, the age should be 55 years and above.\n1. The old age person should be a citizen of India.\n1. The old age person should be a permanent resident of the state of Maharashtra.",
+  "_criteria_filled": 2
+}

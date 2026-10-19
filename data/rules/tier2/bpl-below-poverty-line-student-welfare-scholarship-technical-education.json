@@ -1,0 +1,31 @@
+{
+  "id": "bpl-below-poverty-line-student-welfare-scholarship-technical-education",
+  "name": "BPL (Below Poverty Line) Student Welfare Scholarship - Technical Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- The scholarship amount is ₹1,000/- per month for B.E. (Bachelor of Engineering) students.    \n- The scholarship amount is ₹500/- per month for Diploma students.    \n- The scholarship is payable for a maximum of 10 months in an academic year.    \n- If the actual study period is less, the scholarship will be provided for the actual study period.    \n- The scholarship is provided for each semester.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-below-poverty-line-cardcertificate-attested-photocopy-previous-semester-mark"
+  ],
+  "apply_url": "https://gpkgh.co.in/docs/Form_to_BPL_Scholarship_2017_18.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bplsws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native resident of Chhattisgarh.    \n- The applicant should not be receiving benefits from any other scholarship.    \n- The applicant must be a regular student in a government engineering or polytechnic institution in Chhattisgarh.    \n- The applicant must belong to the &quot;General Category&quot;.\n- The family of the applicant must be &quot;Below Poverty Line&quot;.    \n- The applicant&#39;s parent/guardian must possess a BPL (Below Poverty Line) card issued by the state government.    \n- The applicant&#39;s name must be mentioned on the BPL card.    \n- **For B.E. First Semester Students:** Scholarship is determined by the marks/rank obtained in the PET (Pre-Engineering Test) examination conducted by the Chhattisgarh Professional Examination Board.    - **For Polytechnic First Semester Students:** Scholarship is determined by the percentage of total marks obtained in the qualifying examination for admission.    - **For Diploma Holders Admitted to B.E. through Lateral Entry:** Merit is determined by the percentage of marks obtained in the final year of the diploma.    - **For Students in Higher Classes:** Scholarship is granted based on the merit list prepared from the marks of the previous passed semester examination.    - **Post-Selection Conditions:** The scholarship is subject to satisfactory academic progress and regular attendance of the student.",
+  "_criteria_filled": 2
+}

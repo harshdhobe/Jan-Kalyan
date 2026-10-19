@@ -1,0 +1,27 @@
+{
+  "id": "educational-assistance-anbocwwb",
+  "name": "Educational Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "> **Education Allowance shall be provided at the following rates:**\n\n**Sl. No.****Class/Course****Amount of Educational Assistance**1Class 1 to 5₹300/- per month2Class 6 to 8₹400/- per month3Class 9 to 12₹700/- per month4Diploma/Graduate Studies₹900/- per month5Vocational Training through ITI₹900/- per month6Post Graduate Studies₹2,000/- per month7MBBS/BEMBBS/BE/Professional Course the Board shall",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registrationpassport-size-photograph-proof-of-age-identit",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/eaanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The applicant should be engaged in any building &amp;amp; other construction work.\n   1. The applicant should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The applicant should have an active membership of the Board.\n   1. The son or daughter of the applicant/registered worker should be enrolled in any grade from Class I to Post Graduate Level/Professional Course.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "grant-in-aid-to-voluntary-organizations-working-in-the-area-of-disabled-welfare",
+  "name": "Grant-In-Aid to Voluntary Organizations Working In The Area of ​​Disabled Welfare",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "**Grant Support:** Financial assistance is provided for free education, training, residential arrangements, and rehabilitation of disabled individuals.\n**Operational Expenses:****** 70% of office expenses covered, up to a maximum of ₹2,000/-.\n**Teaching &amp; Training:****** 70% of the expenditure, up to a maximum of ₹1,000/-.\n**Building Rent:****** 70% of the total expense is covered.\n**Maintenan",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-institution-accreditation-certificate-by-the-dep"
+  ],
+  "apply_url": "https://sw.cg.gov.in/en/grant-aid-voluntary-organizations-working-area-%E2%80%8B%E2%80%8Bdisabled-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/giatvowitaodw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Institutions that are registered and accredited by the Department and have a work experience of at least three years.",
+  "_criteria_filled": 1
+}

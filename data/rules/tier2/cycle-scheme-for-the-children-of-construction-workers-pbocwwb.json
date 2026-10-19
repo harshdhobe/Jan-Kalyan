@@ -1,0 +1,37 @@
+{
+  "id": "cycle-scheme-for-the-children-of-construction-workers-pbocwwb",
+  "name": "Cycle Scheme for the Children of Construction Workers (P.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** One(1) cycle to the children of registered construction workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerage-proof-if-no-age-proof-is-a",
+    "account-no-and-ifsc-rtgs-number-detail-of-dependents-employers-certificate-form"
+  ],
+  "apply_url": "https://bocw.punjab.gov.in/userfiles/file/Welfare%20Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csccwpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a resident of Punjab.\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should have a monthly income of ₹15,000/- or below.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n  - The applicant should not have membership of the Employees&amp;#39; Provident Fund (EPF)/ National Pension System (NPS)/ Employees&amp;#39; State Insurance Corporation (ESIC).\n  - The applicant should not be an income tax payer.\n\n&gt; ***For the Application of the Welfare Scheme:***\n\n  - The beneficiary should be a child of a registered construction worker Under the Building and Other Construction Workers Welfare Board of Punjab.\n  - The beneficiary should be studying in any class between 9th to 12th in the State of Punjab.\n  - The beneficiary should not have received any bicycle from the State Government under “Mai Bhago Cycle Scheme”.",
+  "_criteria_filled": 3
+}

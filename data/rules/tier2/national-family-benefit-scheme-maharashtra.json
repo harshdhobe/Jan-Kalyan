@@ -1,0 +1,32 @@
+{
+  "id": "national-family-benefit-scheme-maharashtra",
+  "name": "National Family Benefit Scheme (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹20,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-the-applicant-ie-aadhaar-card",
+    "voter-id-card-identity-proof-of-the-deceased-person-ie-aadhaar-card-death-certif"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/scheme/national-family-benefit-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra.\n   1. The applicant should be a family member or dependent of the deceased breadwinner (an earning member of the family on whom the family primarily depended for income).\n   1. The family should be living Below the Poverty Line (BPL).\n   1. The deceased should have been between 18 and 59 years old.",
+  "_criteria_filled": 2
+}

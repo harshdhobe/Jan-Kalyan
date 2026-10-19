@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-nahri-kendra",
+  "name": "Mukhyamantri Nahri Kendra",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Monetary Benefit**\n\n- 50% of the project cost or ₹5,00,000, whichever is less, provided as subsidy.\n- The remaining 50% of the project cost is provided as a loan.\n\n> ***Subsidy Disbursement***\n\n- Given in two installments – 60% in the first installment and 40% in the second installment.\n\n> ***Interest Rate***\n\n- Loan at 4% per annum.\n\n> ***Repayment***\n\n- Loan (excluding subsidy) must be repai",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-affidavit-business-address-proof-income-certificate-ration-card"
+  ],
+  "apply_url": "https://adijatinigam.gujarat.gov.in/assets/downloads/SchemesDetailsofGTDC08102024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/somnk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman.\n- The applicant must belong to the Scheduled Tribe category.\n- The applicant must be residing in a tribal area.\n- The applicant must be engaged in or willing to establish a self-employment venture through a Nahri Kendra.\n\n<br>",
+  "_criteria_filled": 2
+}

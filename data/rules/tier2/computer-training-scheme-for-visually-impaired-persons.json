@@ -1,0 +1,39 @@
+{
+  "id": "computer-training-scheme-for-visually-impaired-persons",
+  "name": "Computer Training Scheme for Visually Impaired Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Computer Training with Screen-Reading Software**\n\n- Two-month intensive computer training is provided using screen-reading software.\n- Training is conducted in two batches daily, each of four hours.\n- Training is delivered in seven divisions: Bhopal, Indore, Jabalpur, Gwalior, Sagar, Rewa, and Ujjain.\n\n**Post-Training Laptop Support**\n\n- Each beneficiary receives a laptop after successful comple",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "class-8th-marksheet-disability-certificate-medical-board-certificate-for-40-or-m",
+    "ration-card",
+    "voter-id",
+    "or-similar-document-below-poverty-line-bpl-certificate-aadhaar-card-samagra-id"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/schemes/Order__66.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ctsfvip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must have 40% or more visual impairment.\n1. The applicant must belong to a Below Poverty Line (BPL) household.\n1. The applicant must have passed class 8th with at least 50% marks.1. The applicant is eligible to receive training only once under this scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

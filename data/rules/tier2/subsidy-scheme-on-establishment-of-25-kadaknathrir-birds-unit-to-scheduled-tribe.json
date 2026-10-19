@@ -1,0 +1,32 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-25-kadaknathrir-birds-unit-to-scheduled-tribe",
+  "name": "Subsidy Scheme On Establishment Of - 25 Kadaknath/R.I.R. Birds Unit To Scheduled Tribes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tThe beneficiary will be given 25 R.I.R birds unit along with poultry feed.\n2.\tThe Subsidy will be given 75% of the unit cost of the scheme (maximum ₹4500/- in the form of birds and poultry feed).\n3.\tUnder the scheme, the birds will be given vaccination regularly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-income-proof-certificate-below-poverty-line-card-if-applicable-res"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/subsidy-schemes-poultry.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sse25krbust",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The benefits of this scheme will only be given to the adult of Scheduled Tribe people of the society of Gujarat State.\n1. The beneficiary will have to provide income proof and a caste certificate along with application.\n1. Females and beneficiaries below poverty line will be given priority.\n1. The beneficiary should have taken poultry-keeping training.",
+  "_criteria_filled": 2
+}

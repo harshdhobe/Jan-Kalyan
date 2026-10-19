@@ -1,0 +1,36 @@
+{
+  "id": "nursing-kaushal-college-jharkhand",
+  "name": "Nursing Kaushal College Jharkhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Free residential training in nursing for two years (ANM course)\n- 100% campus placement assistance after course completion\n- Safe and modern campus with advanced simulation labs\n- Free 15-day residential coaching for JCECEB nursing entrance exam\n- Practical training in ICU simulation labs, geriatric care, and home nursing",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-card"
+  ],
+  "apply_url": "https://app.prejha.org/webadmin/uploads/pdf/Nursing%20Handbill%20JCECB%20EXAM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nkcj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant must be between 18-30 years of age.\n1. The applicant must have passed the 12th grade in any stream.",
+  "_criteria_filled": 3
+}

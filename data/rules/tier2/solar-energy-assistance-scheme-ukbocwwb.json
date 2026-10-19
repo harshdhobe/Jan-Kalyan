@@ -1,0 +1,26 @@
+{
+  "id": "solar-energy-assistance-scheme-ukbocwwb",
+  "name": "Solar Energy Assistance Scheme (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, solar energy plates/panels will be provided, and for maintenance and service charges, beneficiaries will have to contact the concerned supplier.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "labour-card-aadhaar-card-self-declaration-certificate-a-certificate-confirming-t"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/seasukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a registered construction worker with the Uttarakhand Building and Other Construction Workers Welfare Board.\n\n<br>",
+  "_criteria_filled": 1
+}

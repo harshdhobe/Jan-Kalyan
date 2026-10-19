@@ -1,0 +1,30 @@
+{
+  "id": "capital-investment-subsidy-scheme",
+  "name": "Capital Investment Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1.   Capital investments do not include investments made towards land and building, if any, by the applicant.\n2.   All New Units developing office spaces will be eligible for a capital investment subsidy up to 20% on the capital investments made during the tenure of the Scheme.\n3.   An additional 10% subsidy on the capital investments made will be provided in case of the establishment of Mega Busi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar",
+    "and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-first-bill-genera",
+    "purchase-orders",
+    "and-other-supporting-documents-for-capital-investment-made-11-receipts-or-other"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/ciss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the New and Existing Units must have their operations in Goa.\n2. The applicant must be one of the following - \n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent).\n\n3. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n4. For a said office space, a unit can avail of capital investment subsidy only if the unit has operated from the said office space for more than two years.",
+  "_criteria_filled": 1
+}

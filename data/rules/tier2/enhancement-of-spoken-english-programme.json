@@ -1,0 +1,26 @@
+{
+  "id": "enhancement-of-spoken-english-programme",
+  "name": "Enhancement of Spoken English Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The programme was implemented for approximately 39,000 students of Classes 9 to 12 across 109 government schools in all districts of the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-per-the-guidelines-of-the-respective-school"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/esep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of Classes 9 to 12 from one of the 109 selected government secondary schools in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

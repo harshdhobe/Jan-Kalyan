@@ -1,0 +1,26 @@
+{
+  "id": "certification-program-for-goan-it-professionals",
+  "name": "Certification Program for Goan IT Professionals",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Reimbursement up to 50% of the expenditure incurred for obtaining certifications for improving their employability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-2-proof-of-goan-origin-one-of-the-below-a-birth-certificate-of"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2020/08/ITPolicySchemes2018.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cpfitp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be of Goan origin.\n- The applicant should possess qualifications suitable for employment in the IT Industry.\n- The applicant&#39;s bank account should be linked to Aadhaar.\n- The applicant should have obtained the certifications must be obtained from OEM vendors or their authorized training partners.\n- The certifications should be directly relevant to the IT Industry.\n- The applicant should have completed the certification during the policy&#39;s operation.\n- The approved certifications (updated from time to time) include, but are not limited to:\n\n   - (ISC)2 Certifications\n   - Adobe Certifications\n   - Amazon Web Services Certified Developer\n   - APMG Certifications\n   - Apple (ACSP, ACTC)\n   - AWS Certifications\n   - Certifications on Agile Methodology\n   - Certified SCRUM Master\n   - Cisco Certifications (CCNA, CCDA, CCNP, CCiE, CISSP)\n   - Citrix Certifications (CCP-V, CCA-N)\n   - CompTIA Certifications (A+, CTP+, CDIA+, Network+, etc.)\n   - Computer System &amp; Server Administration\n   - Development of Mobile Applications using Android with project\n   - EC-Council Certifications\n   - ISACA Certifications\n   - ITIL knowledge V2 or V3\n   - Juniper Certifications\n   - Logical Operations Certs\n   - Microsoft Certifications (MCP, MCSA/MCSE, MCTS, etc.)\n   - Oracle Certifications (OCP, OCA, MCDBA, etc.)\n   - PMI Certifications\n   - Prince2 Certifications\n   - Programming Through C, C++, Python, Java, etc\n   - Red Hat Certifications\n   - SAP Developer\n   - VMware Certifications\n   - Web Application Technologies (LAMP Stack - Linux, Apache, MySql, PHP; J2EE; ASP.Net)\n**NOTE:** Scheme benefits are contingent upon budgetary allocation. No Promissory Estoppel is applicable if benefits are discontinued due to exceeded allocation.",
+  "_criteria_filled": 1
+}

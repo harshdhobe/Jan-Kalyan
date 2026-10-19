@@ -1,0 +1,27 @@
+{
+  "id": "old-age-homes-tamil-nadu",
+  "name": "Old Age Homes - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**NGO:**\n\n- The State Government is providing ₹5,60,000/- as grant-in-aid per home for a capacity of 40 inmates. \n- The institutions are required to contribute ₹1,12,000/- as their share.&quot;\n\n<br>\n\n**Senior Citizens:**\n\n- Food, Shelter, Medical care, and Recreation facilities.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "ngo-registration-certificate-under-societies-act-trust-act-company-act-ngo-maint",
+    "2009-any-other-document-if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oahtn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The NGOs should be registered under the Societies Act / Trust Act / Company Act etc. \n1. The NGOs should be running as Old Age Homes for Senior Citizens. \n1. The NGOs must have registered under Tamil Nadu Maintenance and Welfare of Parents and Senior Citizens Rules, 2009.",
+  "_criteria_filled": 1
+}

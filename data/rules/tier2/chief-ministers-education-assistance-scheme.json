@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-education-assistance-scheme",
+  "name": "Chief Ministers’ Education Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "> **Nature of Assistance**\n\n**Under the CMEAS, students shall be eligible for the following assistance:**\n**(i) Within State:**\n**SI.No.****Course****Type of Institution****Amount (in ₹) (per month/annum)**1Undergraduates/Diploma and EquivalentGovernment &amp;amp;amp;amp; PrivateUpto ₹5,000/- PM2Professional/Technical- Undergraduate &amp;amp;amp;amp; EquivalentGovernment Upto ₹5,000/- PM3Post Grad",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-identification-coi-of-the-studentfather-bonafide-certificate-from"
+  ],
+  "apply_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/Notification/531806.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmeas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be a domicile of the Sikkim state.\n   1. The student must belong to the Economically Weaker Section (EWS) as defined by the government.\n   1. The student must be enrolled in a recognized educational institution, a recognized distance education institution, or a recognized institution abroad. \n   1. The student should be studying in a registered coaching center.\n   1. A special consideration shall be given to students from marginalized, minority communities and specially abled categories (Divyangjan) and orphans.\n   1. The annual family income of the student shall not exceed a limit specified by the government, as revised from time to time.",
+  "_criteria_filled": 1
+}

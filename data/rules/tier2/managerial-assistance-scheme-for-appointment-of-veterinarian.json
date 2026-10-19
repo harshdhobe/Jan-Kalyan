@@ -1,0 +1,26 @@
+{
+  "id": "managerial-assistance-scheme-for-appointment-of-veterinarian",
+  "name": "Managerial Assistance Scheme for Appointment of Veterinarian",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Component**\t**Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Constituent Benefits**Managerial assistance to appoint VeterinarianThe Beneficiary Panjarapol Institute will pay ₹45,000/- per month to the appointed Veterinarian of which 75% will be paid to the Beneficiary Institute as a maximum of ₹33,750/- per month as subsidy.3 Year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-under-the-charity-act-proof-of-maintaining-over-2000-an"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=0oANNpkuj1GNk3F1JWMjGw==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/masav",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Panjrapol must be registered under the Charity Act.\n1. The Panjrapol must be maintaining more than 2000 animals.",
+  "_criteria_filled": 1
+}

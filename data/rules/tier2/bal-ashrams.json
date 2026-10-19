@@ -1,0 +1,30 @@
+{
+  "id": "bal-ashrams",
+  "name": "Bal Ashrams",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "Free schooling, boarding and lodging, free bedding and clothing, recreational material, and medicines.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-domicile-certificate-of-the-stateut-of-jammu-kashmir-3-p",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-of-self-or-of-the-guardian-death-certificate-of-the-mother-and-father-in-cas"
+  ],
+  "apply_url": "https://jksabwdobcs.com/pdf/gov_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ba",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a social worker or the guardian of the eligible child.\n1. The child should be an orphan or a destitute.\n1. The child should be a domicile / permanent resident of the state of Jammu &amp; Kashmir.\n1. The child should not already be availing of the benefits of the scheme.",
+  "_criteria_filled": 1
+}

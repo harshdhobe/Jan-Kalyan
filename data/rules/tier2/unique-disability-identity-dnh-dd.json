@@ -1,0 +1,31 @@
+{
+  "id": "unique-disability-identity-dnh-dd",
+  "name": "Unique Disability Identity - DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "The Unique Disability Identity (UDID) card, also known as the Swavlamban Card, is a mandatory document for persons with disabilities (PwDs) in the Union Territory of Dadra &amp; Nagar Haveli and Daman &amp; Diu to access various central and state government welfare schemes. The UDID card ensures a uniform, digitized record that eliminates the need for carrying multiple documents and provides a sin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-passport-size-photo"
+  ],
+  "apply_url": "https://swavlambancard.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/udid",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be suffering from any of the 21 specified disabilities listed under the Rights of Persons with Disabilities Act, 2016.\n1. The applicant should apply for issuance of a Disability Certificate and Unique Disability Identity (UDID) card through the UDID portal.\n1. The applicant should undergo disability assessment by the concerned hospital, Medical Board, or competent medical authority for the determination of disability percentage.\n1. The applicant should get the disability verified and certified by medical authorities notified by the respective State Government or Union Territory Administration.\n1. The applicant should provide the required personal, medical, and disability-related details during the application process.\n\n<br>",
+  "_criteria_filled": 2
+}

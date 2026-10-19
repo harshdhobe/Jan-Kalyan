@@ -1,0 +1,36 @@
+{
+  "id": "thayi-magu-sahaya-hastha-kbocwwb",
+  "name": "Thayi Magu Sahaya Hastha (K.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹6,000/- (at the rate of ₹500/- per month).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeremployment-certificate90-days"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/thayimagu",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmshkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered woman construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\n  - The child must be under 3 years of age.\n  - The assistance is available for the first 2 children only.",
+  "_criteria_filled": 3
+}

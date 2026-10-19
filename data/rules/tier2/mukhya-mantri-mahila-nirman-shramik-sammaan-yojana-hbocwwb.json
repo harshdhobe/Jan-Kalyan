@@ -1,0 +1,35 @@
+{
+  "id": "mukhya-mantri-mahila-nirman-shramik-sammaan-yojana-hbocwwb",
+  "name": "Mukhya Mantri Mahila Nirman Shramik Sammaan Yojana (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, registered female workers are being provided financial assistance of ₹5100/- for the purchase of Saree, suits, Slippers, raincoats, Umbrella, Sanitary Napkins and Kitchen Utensils, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r",
+    "price",
+    "source",
+    "and-date-of-purchase-any-other-documents-as-required"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmmnssyhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered woman worker must have a minimum one-year regular membership.\n   1. The benefit of this scheme will be given to the registered female worker on renewal of her membership every year.",
+  "_criteria_filled": 2
+}

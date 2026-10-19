@@ -1,0 +1,39 @@
+{
+  "id": "free-distribution-of-rice-to-differently-abled-persons",
+  "name": "Free Distribution of Rice to Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "15 Kg of rice per month or equivalent Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-birth-certificate-disability-certificate-income-certifi",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fdrdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The applicant should have an annual income not exceeding ₹75,000/- per annum.\n- The disability of the applicant should be 40% and above.\n- The applicant should be a beneficiary under the &quot;Grant of Financial Assistance to Differently Abled Person&quot; scheme.",
+  "_criteria_filled": 3
+}

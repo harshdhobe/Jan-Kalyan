@@ -1,0 +1,31 @@
+{
+  "id": "chikitsa-pratipoorti-yojana",
+  "name": "Chikitsa Pratipoorti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "The scheme provides financial assistance to the Registered Workers for the treatment of serious illnesses such as cancer, heart disease (including surgery), kidney disease (including surgery), incurable mental disease (including surgery), AIDS, total hip replacement, spinal surgery, major vascular disease, bone marrow transplant, liver transplant, hepatoma, advanced cirrhosis of the liver, retinal",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-eshr"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be a Worker registered with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be 18 years or above in age.\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The scheme&#39;s benefits are applicable once per disease per beneficiary.\n1. The applicant should be suffering from one of the following serious illnesses: Cancer, heart disease (including surgery), kidney disease (including surgery), incurable mental disease (including surgery), AIDS, total hip replacement, spinal surgery, major vascular disease, bone marrow transplant, liver transplant, hepatoma, advanced cirrhosis of the liver, retinal detachment, proliferative diabetic retinopathy, reflux disease, reflux disease.\n\n<br>\n\n**NOTE:** The list of diseases and the maximum limit of medical expenditure and modifications/modifications made in the list of listed hospitals by the Department of Health, Medical, Education and Family Welfare from time to time and the modifications/modifications made in the list of listed hospitals will be considered applicable for the purpose of this scheme.\n<br>",
+  "_criteria_filled": 2
+}

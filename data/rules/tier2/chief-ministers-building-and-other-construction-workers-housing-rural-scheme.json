@@ -1,0 +1,46 @@
+{
+  "id": "chief-ministers-building-and-other-construction-workers-housing-rural-scheme",
+  "name": "Chief Minister's Building and Other Construction Workers Housing (Rural) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. The Board reimburses a minimum loan grant of ₹50,000 to the beneficiary.\n1. The Banks may approve an additional loan of up to ₹30,000 based on repayment capacity, with no role for the State Government.\n1. The grant is limited to ₹50,000 per case.\n\n**NOTE:****** The Board provides the grant to District Labour Offices, which distribute it to banks based on approved loan cases.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-proof-of-residence-eg",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/MukhyamantriBhavanAvasYojna.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmbocwhrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration:**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The registration of the applicant should be renewed annually.\n\n**For Application:**\n\n1. The applicant should not fulfil the eligibility criteria for housing grants under Indira Awas Yojana or Chief Minister Antyodaya Awas Yojana.\n1. The applicant should have a family with a maximum of three hectares of agricultural land.\n1. The applicant&#39;s family&#39;s maximum income from all sources should be up to ₹3 lakh per annum.\n1. The applicant should have sufficient land available for house construction, as mentioned in clause 6 above.\n1. The applicant should be eligible to receive land for housing from the government.\n1. The applicant should be willing to construct a house on agricultural land owned by them.\n1. The applicant should be eligible to obtain a landholder certificate in the village population.\n1. The applicant should agree to obtain a bank loan for constructing a house with a 225 sq. ft. plinth area in the prescribed layout and provide their own contribution in the form of labour/material/inclusion.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-nijee-nalkup-yojana",
+  "name": "Mukhyamantri Nijee Nalkup Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "> **Subsidy for Borewell Construction:**\n\n<br>\n\n**Category****Subsidy Amount (Per Meter)**\t**Depth Allowed**General ₹600/-15-70 metersBackward/Most Backward Classes\t₹840/-15-70 metersScheduled Caste/Tribe Category\t₹900/-15-70 meters<br>\n\n> **Subsidy for Motor Pump Installation:**\n\n<br>\n\n- The amount of subsidy will be payable to General Category, Backward/Extremely Backward Classes and Scheduled C",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-applicationaadhaar-card-land-holding-certificate-lpc-which-is-not-earlier-th"
+  ],
+  "apply_url": "https://mwrd.bih.nic.in/mnny/pdf_file/karyanwayananudeshfinal.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers identified under the Saat Nischay-2 &amp;quot;Irrigation Water to Every Field&amp;quot; after a joint technical survey are eligible.\n   1. Farmers must own at least 0.40 acre (40 decimal) of land. Priority will be given to small and marginal farmers.\n   1. There should not be an existing borewell at the site.\n   1. No previous grants or financial assistance have been taken for borewell construction at the same site by the Farmer.\n   1. The grant is valid for one borewell and one motor pump set per farmer.\n   1. Borewell must be dug to a depth of 15-70 meters and with 4-6 inch diameter to qualify for the grant.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

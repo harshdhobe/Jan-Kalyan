@@ -1,0 +1,31 @@
+{
+  "id": "financial-loan-for-training-of-commercial-pilot",
+  "name": "Financial Loan for Training of Commercial Pilot",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Loan Amount:****** \n\n- Up to ₹25,00,000 for Commercial Pilot License training.\n\n**Interest Rate:****** \n\n- 4% simple interest per annum.\n\n**Penal Interest:** \n\n- 2.5% additional interest for late or defaulted payments.\n\n**Repayment Period:**\n\n- Principal: To be repaid within 10 years from the date of disbursement.\n- Interest: To be paid within 2 years, making the total repayment duration 12 year",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-school-leaving-certificate-family-income-certificate",
+    "it-return",
+    "form-16-copies-of-educational-qualification-certificates-from-class-10-to-the-la",
+    "a-copy-of-the-trainees-passport",
+    "a-copy-of-the-visa-for-that-country",
+    "and-a-copy-of-the-air-ticket-property-documents-and-valuation-report-of-the-trai"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/flftcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to a Socially and Educationally Backward Class (SEBC).\n1. The applicant must have passed Matriculation, Higher Secondary, Indian School Certificate, or an equivalent examination.\n1. The applicant must meet all academic, technical, and other criteria as specified by the training institution.\n1. The applicant must provide one solvent guarantor.\n1. The applicant or their guardian must own property to mortgage in favor of the government.\n\n<br>",
+  "_criteria_filled": 1
+}

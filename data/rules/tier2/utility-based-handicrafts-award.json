@@ -1,0 +1,29 @@
+{
+  "id": "utility-based-handicrafts-award",
+  "name": "Utility Based Handicrafts Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Cash Prize of ₹40,000/-.\n- 4 gm gold medal.\n- One Thamirapattiram. \n- Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-address-proof-aadhaar-card-front-page-of-passbook-non-t",
+    "attested-by-a-first-class-criminal-judge-or-notary-public-recommendation-certifi",
+    "attested-by-any-of-the-managers-of-poombucar-outlets-and-manufacturing-plants-th",
+    "new-delhi"
+  ],
+  "apply_url": "https://poompuhar.com/tnhdc/downloads/16966673571971772521.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ubha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artisan.\n1. The applicant should be a native of Tamil Nadu.\n1. The applicant should be a manufacturer of handicrafts in Tamil Nadu.\n1. The applicant should possess proficiency in Tamil and must be a contributor to Tamil literature.\n1. The applicant should use non-toxic and non-polluting craft materials for this award.",
+  "_criteria_filled": 1
+}

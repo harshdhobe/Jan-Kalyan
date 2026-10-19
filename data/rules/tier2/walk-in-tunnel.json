@@ -1,0 +1,26 @@
+{
+  "id": "walk-in-tunnel",
+  "name": "Walk In Tunnel",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. 50 percent grant is payable for the area.\n1. 800 square meters (maximum 5 units per beneficiary).\n1. 400 square meters (maximum 10 units per beneficiary).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-soil-an"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan#",
+  "source_url": "https://www.myscheme.gov.in/schemes/wit",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Rajasthan.\n1. The applicant should be a Farmer.\n1. The applicant must have agricultural land ownership and irrigation sources.",
+  "_criteria_filled": 1
+}

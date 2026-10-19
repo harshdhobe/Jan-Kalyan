@@ -1,0 +1,31 @@
+{
+  "id": "craftsmen-training-scheme",
+  "name": "Craftsmen Training Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "##### ***Vocational Training and Skill Development***\n\n- **Training Duration:** Varies from 6 months to 2 years, depending on the trade.- **Trade Certification:** National Council for Vocational Training certificate upon successful completion.- **Skill Development:** Hands-on practical training in various industrial trades.- **Employment Opportunities:** Enhanced employability in domestic and inte",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "at-the-application-stage-educational-certificates-age-proof-certificate-birth-ce"
+  ],
+  "apply_url": "https://dgt.gov.in/en/CTS",
+  "source_url": "https://www.myscheme.gov.in/schemes/cts-msde",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an Indian citizen.\n1. The applicant must meet the age requirements as specified for different trades (generally between 14 to 40 years).\n1. The applicant must have completed the minimum educational qualifications as prescribed for specific trades (ranging from 8th standard to 12th standard).\n1. The applicant must be able to read and write in the local language / Hindi / English.\n1. The applicant must be physically and medically fit to undergo the specific trade training.\n1. The applicant must not have any physical disabilities that would prevent them from performing the trade activities.\n1. The applicant must meet specific requirements for certain trades (such as colour vision for electrical trades).\n1. The applicant must demonstrate basic aptitude for the chosen trade.\n\n<br>",
+  "_criteria_filled": 2
+}

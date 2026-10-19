@@ -1,0 +1,28 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-consumer-durable",
+  "name": "District Central Cooperative Banks and through its Branches: For Consumer Durables T.V., Fridge and Two Wheelers Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** 75% of the cost of consumer durables.  - **Interest Rate:** 14% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-product-cost-estimate-or-invoice-any-other-documents-if-requir"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3574",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbfcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - Loans should be applicable only for Consumer durables such as T.V., Fridge and two wheelers.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

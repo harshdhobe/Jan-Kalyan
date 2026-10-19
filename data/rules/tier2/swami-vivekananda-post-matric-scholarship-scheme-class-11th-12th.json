@@ -1,0 +1,36 @@
+{
+  "id": "swami-vivekananda-post-matric-scholarship-scheme-class-11th-12th",
+  "name": "Swami Vivekananda Post-Matric Scholarship Scheme (Class 11th & 12th)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Under this scheme, the girl student will get a scholarship of ₹550/- per year and boy student will get a scholarship of ₹500/- per year.\n\n**Note:** The scholarship is sent directly to the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-3-domicile-certificate-of-madhya-pradesh-4"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=423",
+  "source_url": "https://www.myscheme.gov.in/schemes/svpmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be studying in Class 11 or Class 12.\n   1. The student should be enrolled in a government school.\n   1. Students studying in Class 11 must have passed their 10th board examination with a first division, and students studying in Class 12 must have passed their Class 11 examination with a first division to be eligible for this scholarship.\n   1. The applicant should belong to the Below Poverty Line (BPL) category.\n   1. The applicant&amp;#39;s parents&amp;#39; income from all sources should be less than ₹1,00,000/- per year.",
+  "_criteria_filled": 3
+}

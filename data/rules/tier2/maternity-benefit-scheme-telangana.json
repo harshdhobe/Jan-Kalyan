@@ -1,0 +1,31 @@
+{
+  "id": "maternity-benefit-scheme-telangana",
+  "name": "Maternity Benefit Scheme - Telangana",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "> ***Financial Assistance:*** \n\n- A total amount of ₹30,000/- per delivery is provided, limited to two deliveries.\n\n> ***Payment Breakdown:***\n\n- ₹10,000/- is paid during the 7th month of pregnancy to compensate for wage loss during the later stages of pregnancy.- ₹20,000/- is paid after the delivery.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-registration-card-under-bocw-act-attested-copy-renewal"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/forms/MaternityBenefit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbs-t",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For construction workers themselves (Women only)**\n\n1. The construction worker should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board. \n1. The construction worker should be a woman.\n1. The construction worker should have been registered for at least 12 months before the date of delivery.\n1. The construction work can get this assistance only twice.\n\n<br>\n\n> **For wife/daughters of construction workers**\n\n1. The construction workers should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board.\n1. The construction worker can receive the scheme benefits twice for up to two daughters.\n1. The construction worker should have been registered for at least 12 months before the date of delivery.\n1. If both parents are registered workers, only one parent is eligible for the scheme amount.",
+  "_criteria_filled": 2
+}

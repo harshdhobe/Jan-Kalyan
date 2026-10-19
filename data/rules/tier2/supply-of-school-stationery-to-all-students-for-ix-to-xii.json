@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-school-stationery-to-all-students-for-ix-to-xii",
+  "name": "Supply of School Stationery to all Students for IX to XII",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Reduces financial burden on parents by providing a comprehensive school kit.\n2. Provision of free stationery kits includes school bag , Notebooks and a complete stationery set \n3. Promotes regular school attendance by supporting foundational needs\n\t\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-required"
+  ],
+  "apply_url": "https://ddd.gov.in/directorate-of-education/",
+  "source_url": "https://www.myscheme.gov.in/schemes/supply-of-stationery",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a student.\n2.\tThe applicant should be studying in class 9th to 12th.\n3.\tThe applicant should be studying in a government school in UT of Dadra and Nagar Haveli and Daman &amp; Diu.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

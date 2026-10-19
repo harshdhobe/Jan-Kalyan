@@ -1,0 +1,32 @@
+{
+  "id": "free-distribution-of-blankets-and-chappals-to-senior-citizen",
+  "name": "Free Distribution of Blankets and Chappals to Senior Citizen",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "One Blanket and One Pair of Chappals Every Year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fdbcsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry.\n- The age of the applicant should be 60 years or above.\n- The applicant should be a recipient of Old Age Pension.",
+  "_criteria_filled": 2
+}

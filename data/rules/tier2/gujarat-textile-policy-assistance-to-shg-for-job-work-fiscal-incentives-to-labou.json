@@ -1,0 +1,37 @@
+{
+  "id": "gujarat-textile-policy-assistance-to-shg-for-job-work-fiscal-incentives-to-labou",
+  "name": "Gujarat Textile Policy: Assistance to SHG for Job Work (Fiscal Incentives to Labour Intensive Unit)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\n**Activity****Quantum**Training Assistance₹5,000/- per month per member for a period of 3 monthsPayroll Assistance25% of job work value turnover limited to ₹5,000/- per month per member for 5 years<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "document-of-registration-of-the-industrial-undertaking",
+    "as-applicable-under-law",
+    "and-the-industrial-entrepreneur-memorandum",
+    "as-prescribed-by-the-government-of-india-documents-related-to-legal-possession-o",
+    "and-registered-purchase-lease-rent-deed-if-the-plot-or-shed-is-in-gidc-estate",
+    "a-copy-of-the-possession-letter-should-be-attached-consent-to-establish-from-gpc",
+    "if-applicable-detailed-project-report-containing-the-following-executive-summary"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/pagecontent/Gujarat%20Textile%20Policy_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtpasjliu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The SHG must have at least 25 female members.\n1. Assistance is available only for female workers of the SHG.\n1. The industrial unit must pay ₹5,000/- per month per female worker in addition to the job work charges.\n1. The SHG should be engaged in job work for industrial units.",
+  "_criteria_filled": 2
+}

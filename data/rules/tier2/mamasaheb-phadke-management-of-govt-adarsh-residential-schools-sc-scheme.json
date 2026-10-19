@@ -1,0 +1,26 @@
+{
+  "id": "mamasaheb-phadke-management-of-govt-adarsh-residential-schools-sc-scheme",
+  "name": "Mamasaheb Phadke Management of Govt Adarsh ​​Residential Schools (SC) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Free Services Provided:**\n\n- Board and lodging, meals, textbooks, uniforms, and water\n- Study materials, mid‑day meals, and other academic support\n- Ration card, PH identity card, and other entitlements, as applicable\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-mark-sheet-passport-size-photos-ration-card-bank"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpmgarssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student. \n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant must be a resident of Gujarat.\n1. The applicant must be currently studying in standard 9th to 12th in a recognized institution.1. The applicant must have passed the previous annual exam with at least 50% marks (or a government-sanctioned exemption).\n\n> **NOTE:** Returning students must have passed with at least a second class with  50% to be considered for re-admission.\n\n<br>",
+  "_criteria_filled": 1
+}

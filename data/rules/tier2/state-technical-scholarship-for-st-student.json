@@ -1,0 +1,35 @@
+{
+  "id": "state-technical-scholarship-for-st-student",
+  "name": "State Technical Scholarship for ST Student",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance/scholarships will be given to students according to the course/programme in which they are enrolled.\n   1. Scholarship shall be provided for a maximum period of 3 years for Diploma, 4 years for Degree (B.E/B.Tech.), and 2 years for (M.E/M.Tech).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-photograph-with-clear-background-identity-proof-ie-aadhaar-card",
+    "account-should-be-opened-and-in-all-such-joint-accounts",
+    "the-applicants-name-should-appear-in-the-first-page-of-the-pass-book-note-02-if",
+    "st-or-indigenous-certificates",
+    "the-matter-will-be-reported-to-state-government-for-necessary-legal-action"
+  ],
+  "apply_url": "https://scholarship.nagaland.gov.in/storage/Guidelines//7_Guidelines",
+  "source_url": "https://www.myscheme.gov.in/schemes/stssts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "A student should fulfil the following criteria to be eligible for this Scholarship:\n\n   1. The applicant/student should be an inhabitant of Nagaland.\n   1. The applicant should belong to the Scheduled Tribe Community.\n   1. The annual income of the applicant’s parents from all sources must not exceed ₹6 lakhs.\n   1. The applicant pursuing Diploma/Degree/Post Graduated/ course in Engineering Institutes recognized by the All India Council for Technical Education can apply.\n   1. The applicants pursuing UG or PG in Forestry courses are eligible for this scheme.\n   1. Applicant must not be an employee of any government/semi-government establishment.\n\n**Note 01:** Applicant pursuing courses other than mentioned in Sl. No. 2 &amp;amp; 3 are not eligible for this scheme.\n**Note 02:** If any documents are found to be false/fraud or a candidate availing more than 1 (one) scholarship schemes in the same academic year the candidate shall be disqualified/debarred under state Technical Scholarship.",
+  "_criteria_filled": 2
+}

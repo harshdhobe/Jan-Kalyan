@@ -1,0 +1,33 @@
+{
+  "id": "free-education-scholarship-for-professional-courses-engineering-medical-agricult",
+  "name": "Free Education Scholarship for Professional Courses (Engineering, Medical, Agriculture, Veterinary, and Law)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "&gt; **Financial Assistance:** \n\n  - Full payment of tuition fees.\n  - Coverage of special and other non-refundable compulsory fees.\n  - Full reimbursement of examination fees as per government norms.\n\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "00",
+    "000-no-graduate-certificate-self-declaration-or-from-a-gazetted-officer-previous"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/27488",
+  "source_url": "https://www.myscheme.gov.in/schemes/fesfpc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a student.\n   1. The beneficiary should be a resident of Tamil Nadu.\n   1. The beneficiary should belong to the Backward Classes (BC), Most Backward Classes (MBC), and Denotified Communities (DNC).\n   1. The beneficiary should be pursuing a professional course in a Government/Government Aided or Self-Financing college.\n   1. The beneficiary’s family income should not exceed ₹1,00,000/- annually.\n   1. There should be no graduate in the family.",
+  "_criteria_filled": 2
+}

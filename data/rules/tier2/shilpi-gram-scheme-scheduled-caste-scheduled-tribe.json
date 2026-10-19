@@ -1,0 +1,31 @@
+{
+  "id": "shilpi-gram-scheme-scheduled-caste-scheduled-tribe",
+  "name": "Shilpi Gram Scheme (Scheduled Caste / Scheduled Tribe)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Free Skill Training:**\n\n- Training is offered at three levels — awareness &amp; orientation, basic training, and vocational training.\n\n**Infrastructure Support:**\n\n- Development of artisan villages with electricity, water, roads, and common facilities.\n\n**Marketing Assistance:**\n\n- Support for exhibitions, fairs, permanent haats, and promotion of Uttarakhand-branded craft products.\n\n**Raw Materi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 129840
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-voter-id-aadhaar-card-disability-certificate-if-applica"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgsscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must belong to a Scheduled Caste or Scheduled Tribe community.\n1. The applicant&#39;s annual income should not exceed ₹1,05,600 in rural areas and ₹1,29,840 in urban areas.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

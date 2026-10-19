@@ -1,0 +1,26 @@
+{
+  "id": "maths-wizard-spelling-genius-uttarakhand",
+  "name": "Maths Wizard & Spelling Genius - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, to enhance the interest of Class 5 students in Mathematics and English, the Government of India organized the “Maths Wizard” and “Spelling Genius” competitions at the school, block, district, and state levels under AWP-B for the year 2023-24, wherein participating students were encouraged through rewards.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-per-the-guidelines-of-the-competitive-examination"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mwsguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Class 5 student of a government school in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

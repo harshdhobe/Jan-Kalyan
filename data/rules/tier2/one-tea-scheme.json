@@ -1,0 +1,31 @@
+{
+  "id": "one-tea-scheme",
+  "name": "One Tea Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "1. Ensures fair and stable prices for tea farmers.\n1. Prevents distress sales due to low factory rates.\n1. Provides direct financial support via DBT.\n1. Farmers receive ₹35/kg and ₹40/kg support price.\n1. Government pays the difference if factory rate is &lt;semi_colon ₹35/kg and &lt;semi_colon ₹40/kg. \n1. Supports up to 10,000 kgs per farmer.\n1. Encourages organic cultivation, using ₹40/kg as ref",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-for-farmers-proof-of-identity-voter-id-ration-card"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19mkXsXyXg4eEj2O1KJTbttc0kKb%206h%20xyYHdE0faMah%2Fpy1M%2FVpuv%20SeJ5CuDVALYxmFYEGXkaEB0XeuzAFMHdjbyeZ1%209XH0k72jXVLaRjRBEv%2FYM%2FlAdGBuj9k8EQaLaPRXJwl5IWX9oL7I6aYGVZLh0J3JD%20MgXS2rK%20zMbuL5KGW%20MdTIocS0V4x7HULQxBuvnZVh1Aw%20kzquThteYCUBEhocdcE9HKmwr9nUospavMeUplDWk=",
+  "source_url": "https://www.myscheme.gov.in/schemes/otsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 years of age or above.\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a tea farmer.\n1. The applicant should possess a valid government-issued identity document.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sanction-of-motorized-three-wheeler-to-orthopedically-challenged",
+  "name": "Sanction of Motorized Three Wheeler to Orthopedically Challenged",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- Eligible persons with disabilities are provided with a motorized three-wheeler (customized/adapted for their use) to enhance their independence, mobility, and access to education or livelihood opportunities.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-aadhaar-card-ssc-certificate-caste-certificate-in-case-of",
+    "government-agency-private-agency",
+    "or-any-other-source",
+    "and-heshe-should-not-have-any-motorized-vehicle-twothreeor-four-wheeler-of-hishe"
+  ],
+  "apply_url": "https://apdascac.ap.gov.in/Schemes/motorized-three-wheelers/",
+  "source_url": "https://www.myscheme.gov.in/schemes/smtwoc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be between 18 to 45 years of age.\n1. The applicant should have a disability of 70% or above.\n1. The applicant&#39;s family annual income should not exceed ₹3,00,000/-.\n1. The applicant should be a bonafede student pursuing graduation or higher courses regularly.\n1. The applicant should be self-employed (including in agriculture and allied activities) or wage/salary employed for a minimum period of one year, and must have passed at least the 10th class.\n1. The applicant should obtain a valid driving licence for driving an adapted vehicle (previously called an invalid carriage) as per the Motor Vehicle Act within two months from the date of selection.\n1. The applicant is eligible for sanction only once in a lifetime.\n\n<br>",
+  "_criteria_filled": 5
+}

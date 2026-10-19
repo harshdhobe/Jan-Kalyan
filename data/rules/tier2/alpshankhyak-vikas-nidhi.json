@@ -1,0 +1,29 @@
+{
+  "id": "alpshankhyak-vikas-nidhi",
+  "name": "Alpshankhyak Vikas Nidhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **1. Financial Support for Community Development**\n\n**Fund Corpus:**\n\n- Initial allocation of ₹4,00,00,000/- (revised periodically).\n\n- Annual replenishment based on project demand and state budget provisions.\n\n**Project-Specific Grants:**\n\n- Education: Up to ₹10,00,000/- per institution for infrastructure (e.g., classrooms, libraries).\n- Livelihoods: ₹5,00,000/- max for vocational training cent",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-detailed-plan-with-objectives",
+    "budget",
+    "and-implementation-timeline-institutions-registration-certificate-community-cert",
+    "religiouslinguistic-affiliation-financial-contribution-proof-25-for-infrastructu"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s37b41bfa5085806dfa24b8c9de0ce567f/uploads/2025/02/20250217239266717.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/avn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The project must benefit notified religious/linguistic minority communities in Uttarakhand.\n- The project must address critical gaps in education, livelihoods, or social welfare.\n_*Priority given to districts with high minority populations (e.g., Ghaziabad, Saharanpur)._\n<br>",
+  "_criteria_filled": 1
+}

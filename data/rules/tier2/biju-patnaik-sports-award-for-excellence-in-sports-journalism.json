@@ -1,0 +1,28 @@
+{
+  "id": "biju-patnaik-sports-award-for-excellence-in-sports-journalism",
+  "name": "Biju Patnaik Sports Award for Excellence in Sports Journalism",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The award shall be presented every year subject to the availability of suitable candidates, which will carry a cash award of ₹1,00,000/-.\n   1. A statue, a scroll of honor, and a blazer with a tie shall be given along with all the Cash Awards.\n   1. The Awardees shall be invited to receive the awards in person. They shall be given T.A. and D.A. at the rate admissible to a Grade &amp;#39;A&amp;#",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-three-passport-size-photographs-proof-of-residence-attested-photo",
+    "if-applicable-details-of-sports-competitionchampionships-of-state",
+    "national-international-importance-covered-by-the-applicant-including-profiles-of"
+  ],
+  "apply_url": "https://sports.odisha.gov.in/sites/default/files/2023-07/Application-Biju-Patnaik-Awards.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpsaesj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the State of Odisha.\n   1. To be eligible for this award, a journalist must have done significant work in the sphere of journalism for the promotion and popularization of sports and games as well as fighting for the causes of sports and sportspersons in the State of Odisha.\n   1. The applicant should not have been convicted of any criminal offence.\n   1. The award will be conferred on a person only once in his/her lifetime, pertaining to the concerned category.\n   1. The award can be given posthumously to the next of kin of the selected awardee.\n\n&gt; **Annulment Cancellation of Award:**\n\n   1. The Award may be cancelled in case it is found that it has been obtained by fraudulent means.\n   1. In such event, the concerned person shall be asked to refund the award failing which steps will be taken to recover the involved cost from him/her with simple interest @ 5% per annum.",
+  "_criteria_filled": 1
+}

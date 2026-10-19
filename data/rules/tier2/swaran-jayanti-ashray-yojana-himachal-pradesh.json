@@ -1,0 +1,31 @@
+{
+  "id": "swaran-jayanti-ashray-yojana-himachal-pradesh",
+  "name": "Swaran Jayanti Ashray Yojana - Himachal Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial assistance of ₹1,50,000/- for construction of new house.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 50000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "himachali-certificate-issued-by-the-executive-magistrate-caste-certificate-annua"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/Swarn%20Jayanti%20Ashray%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjay-hp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Himachal Pradesh. \n1. The applicant should belong to Scheduled Castes (SC), Scheduled Tribes (ST), or Other Backward Classes (OBC). \n1. The applicant&#39;s annual income does not exceed ₹50,000/-.\n1. The applicant should not have his own house. \n1. The land in the applicant&#39;s name should be in the revenue record for the construction of the house.",
+  "_criteria_filled": 2
+}

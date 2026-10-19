@@ -1,0 +1,38 @@
+{
+  "id": "nps-vatsalya-scheme",
+  "name": "NPS Vatsalya Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Power of compounding along with financial security** -  Starting early allows money to grow significantly over time through compounding creating a financial cushion for the future.1. **Financial discipline**: Small, regular investments build a strong habit of saving and planning.1. **Empower your child:** Early exposure to saving builds responsible financial behaviour for life.1. **Tax Effici",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-date-of-birth-of-the-minor-birth-certificate",
+    "school-leaving-certificate",
+    "matriculation-certificate",
+    "minor-permanent-account-number-pan",
+    "or-passport",
+    "and-kyc-of-the-guardian-aadhaar",
+    "driving-license",
+    "passport",
+    "voter-id-card",
+    "national-rural-employment-guarantee-act-nrega-job-card",
+    "or-national-population-register-documents",
+    "and-pan-of-the-guardian-or-form-60-declaration-as-per-rule-114b-minors-sole-or-j",
+    "in-case-of-ocinri-guardian-optional-in-case-of-indian-residents"
+  ],
+  "apply_url": "https://www.pfrda.org.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/npsvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme is available to all Indian citizens who are aged below 18, including Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs)\n1. The account should be opened by parents/guardian in the minor&#39;s name, as they will operate the account exclusively for the benefit of the minor.\n1. If the guardian is court-appointed, they must submit a copy of the court order confirming the guardianship and KYC documents.\n1. The guardian must comply with KYC norms as per the Pension Fund Regulatory and Development Authority (PFRDA) requirements.\n\n<br>",
+  "_criteria_filled": 1
+}

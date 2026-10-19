@@ -1,0 +1,26 @@
+{
+  "id": "agr-4-scheduled-castes-sub-plan-for-distribution-of-seeds-and-fertilizers-input",
+  "name": "AGR-4 Scheduled Castes Sub-Plan for Distribution of Seeds and Fertilizers Input Kits at Subsidised Rates to Scheduled Caste Cultivators",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Subsidized Rates:** SC farmers receive essential agricultural inputs like seeds and fertilizers at significantly reduced costs.  - **Access to Quality Inputs:** The scheme ensures farmers have access to high-quality minor and micro-elements, castor cake, neem cake, liquid fermented organic manure, or green manure seeds.  - **Reduced Cultivation Costs:** By providing subsidized inputs, the sche",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/scspdsfik",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer. \n  - The applicant must be a resident of Gujarat.\n  - The applicant must belong to the Scheduled Caste category.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

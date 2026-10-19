@@ -1,0 +1,31 @@
+{
+  "id": "margadeepam-scholarship",
+  "name": "Margadeepam Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "> ***Financial Assistance***\n\n- Scholarship amount of ₹1,500/- per student per academic year.\n- One-time Direct Benefit Transfer (DBT) to Aadhaar-linked bank accounts in the name of selected students.\n\n> ***Conditions***\n\n- The beneficiary must maintain an active Aadhaar-linked bank account with a nationalized or scheduled bank in their own name for Direct Benefit Transfer.\n- The beneficiary must ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-minoritycommunity-certificate-bank-passbook-copy-disability-c"
+  ],
+  "apply_url": "https://margadeepam.kerala.gov.in/files/APPLICATION%20FORM%20MARGADEEPAM%202025-26.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Kerala.\n- The applicant must be studying in Class 1st to Class 8th.\n- The applicant must be studying in a Government or Government-aided school.\n- The applicant must belong to a minority religious community (Hindu, Christian (all denominations), Sikh, Buddhist, Jain, or Parsi).\n- The applicant&#39;s family annual income must not exceed ₹2,50,000/-.\n\n_*If adequate applicants are not available in one category, students from other categories may be considered._\n##### **Earmarking**\n\n- 30% scholarships are reserved for female students. \n- The applicant (male students) may be considered for female-reserved positions if adequate female applications are not received.\n\n##### ***Additional Merit Consideration***\n\n- **PwD:** The applicant should provide disability certificate if having 40% and above physical/mental disability.- **Orphan:** The applicant should provide death certificate if orphaned (father/mother/both parents deceased).\n##### ***Merit Point Calculation System***\nFamily Income: Formula = (2,50,000 - Actual Income)/25,000 (Maximum 10 points).\nAcademic Grades: Maximum 12 points (A+ Grade = 12, A Grade = 11, B+ Grade = 10, B Grade = 9, C+ Grade = 8, C Grade = 7, D+ Grade = 6, D Grade = 5).\nOrphaned Students: 4 points maximum (Both parents deceased = 4, Single parent deceased = 2).\nPhysical/Mental Disability: 4 points (40% and above disability and category 2 disability).\nTotal Maximum Points: 30.\n_*Academic excellence for Class 2nd to Class 8th students will be determined based on grade points received in academic year._\n_*Class 1st students will not be evaluated on academic marks but on income eligibility criteria._\n##### ***Post-Selection Conditions***\n\n- The applicant must reapply fresh each academic year to continue receiving benefits.\n- The applicant must maintain eligibility criteria throughout the benefit period.\n- The applicant must not provide false declarations as it will result in immediate scholarship cancellation and recovery of disbursed amount.\n\n<br>",
+  "_criteria_filled": 2
+}

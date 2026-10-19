@@ -1,0 +1,26 @@
+{
+  "id": "mukhya-mantri-samajik-suraksha-yojana-death-funeral-assistance-hbocwwb",
+  "name": "Mukhya Mantri Samajik Suraksha Yojana: Death & Funeral Assistance (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the Board provides financial assistance of ₹5,00,000/- to the nominee/legal heir of a registered construction worker if the worker dies in an accident while working at the workplace.\n   1. The Board also provides financial assistance of ₹15,000/- to the nominee/legal heir of a registered construction worker for funeral expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-registered-deceased-worker-copy-of-fir-in-regard-to-the-acc"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmssydfahbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a nominee/legal heir of the deceased construction worker.\n   1. The deceased worker should have been registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The scheme allows for application only once.",
+  "_criteria_filled": 1
+}

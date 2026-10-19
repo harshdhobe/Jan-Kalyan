@@ -1,0 +1,37 @@
+{
+  "id": "bal-sakha-yojana",
+  "name": "Bal Sakha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under this scheme, expert care will be provided to newborn babies to ensure child health.\n   1. The paediatrician attends all eligible newborns at the place of birth and has to ensure their survival by providing early neonatal care including immunizations at birth, nutrition advice.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 0
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bpl-cardration-card-scheduled-caste-certificate",
+    "if-applicable-authorization-by-a-locally-recognized-authority-application-form-i"
+  ],
+  "apply_url": "https://nhm.gujarat.gov.in/bal-sakha-yojana.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All newborns up to 30 days old belonging to Below Poverty Line (BPL) families and Scheduled Caste categories, who do not pay income tax, will be eligible for benefits.",
+  "_criteria_filled": 3
+}

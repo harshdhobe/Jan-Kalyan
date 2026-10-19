@@ -1,0 +1,35 @@
+{
+  "id": "lifetime-contribution-to-tiatr-awards-non-commercial",
+  "name": "Lifetime Contribution to Tiatr Awards (Non-Commercial)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- The Lifetime Contribution to Tiatr Award (Non-Commercial) consists of a shawl, a memento, a citation, and a Cash Burse as fixed by Tiatr Academy of Goa\n- Recognition and honor at a special function on 2nd January on the occasion of the birth anniversary of Lucasinho Ribeiro the &#39;Pioneer of Tiatr&#39;\n- Lifetime achievement recognition for contribution to tiatr field\n- Awards are conferred an",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-aadhaar-card-copy-recent-photograph-additional-documentseviden",
+    "cassettes",
+    "cds",
+    "dvds",
+    "digital-media-or-broadcast-on-all-india-radiodoordarshantv-channels-if-applicabl"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lctanc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be not less than 60 years of age.\n- The applicant should have at least 10 years contribution in the field of tiatr.\n- The applicant should demonstrate excellence as an actor, script writer, director, singer, lyricist, set designer, or other relevant role.\n- The applicant should have performed in at least 10 tiatrs if working as actor/singer/stage manager/lights provider/make-up artist/costume designer/live music/background music.\n- The applicant should have written/directed at least 10 tiatrs if working as a writer/director.\n\n***Relaxation***\nThe age limit of 60 years may be relaxed if the health of the artiste is not well.\n***Post-Selection Conditions***\n*The selected artistes will have to be compulsorily present in person to receive the award.\n*Tiatr Academy of Goa will confer Lifetime Contribution to Tiatr Awards only once in a lifetime be it in Tiatr (Commercial/Non-Commercial) or Khell or Khell-Tiatr or Konkani Cinema.\n<br>",
+  "_criteria_filled": 2
+}

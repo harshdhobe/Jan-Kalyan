@@ -1,0 +1,26 @@
+{
+  "id": "mission-saksham-anganwadi-poshan-20-dnh-dd",
+  "name": "Mission Saksham Anganwadi & Poshan 2.0, DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Under the scheme, Pregnant women, lactating mothers, and children in the age group of 0 to 3 years receive Take Home Ration (THR) in the form of ready-to-eat nutritious ladoos on a monthly basis. Additionally, children aged 3 to 6 years are provided with hot cooked meals at the Anganwadi Centres.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-mcp-card"
+  ],
+  "apply_url": "https://wcd.gov.in/offerings/nutrition-mission-saksham-anganwadi-and-poshan-2-0-mission-saksham-anganwadi-poshan-2-0",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss-dadra-and-nagar-haveli-and-daman-and-diu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a child below 6 years of age.\n1. The applicant should be a Pregnant Woman.\n1. The applicant should be a Lactating Mother.\n1. The applicant should be an Adolescent Girl aged 14-18 years.\n\n<br>",
+  "_criteria_filled": 1
+}

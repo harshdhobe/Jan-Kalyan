@@ -1,0 +1,38 @@
+{
+  "id": "old-age-assistance",
+  "name": "Old Age Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "1. Eligible candidates in the 60–69 age range financial assistance of Rs. 2,000/- per month. \n1. The government also gives SC/ST/Minority group members an extra Rs. 500/- month.\n1. Rs. 2,500/- per month will be given to people over 70 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-residence-proof-bank-account-number-single-account-in-the-case-of-scst",
+    "a-caste-certificate-in-the-name-of-the-applicant-issued-by-the-competent-authori",
+    "self-declaration-of-the-religion-of-the-applicant-duly-verified-by-the-religious"
+  ],
+  "apply_url": "https://edistrict.delhi.gov.in/eDownload/Eligibility/Guideline_2601.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants must be 60 years or older.\n1. They must have resided in Delhi for a minimum of five years before the date of application.\n1. The applicant&#39;s annual family income from all sources, including rent, interest/dividends on savings and investments, earnings from farming, property sale proceeds, etc., should be less than Rs. 1,00,000.\n1. The applicant must have an Aadhaar number.\n1. The applicant must have a singly-operated account in any bank within the National Capital Territory of Delhi only for receiving payment through the Public Financial Management System (PFMS).\n1. The applicant must not be receiving any pension/financial assistance from the Central Government/State Government/other governmental local bodies or any other source for this purpose.",
+  "_criteria_filled": 3
+}

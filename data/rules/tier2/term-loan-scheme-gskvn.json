@@ -1,0 +1,29 @@
+{
+  "id": "term-loan-scheme-gskvn",
+  "name": "Term Loan Scheme (GSKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "***Loan Amount:***__ \n\n- loans from ₹1,00,000/- to ₹15,00,000/- are provided at an interest rate of 6% for various businesses.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-ph-identity-card",
+    "if-applicable-widow-certificate",
+    "if-applicable-age-proof-identity-card-ph-certificate-from-civil-surgeon",
+    "if-applicable-ration-card"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gskvn/assets/downloads/01_dhiran_yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dcs-tl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a scavenger/sanitation worker or a dependent of one.\n1. The applicant should be willing to use the loan for starting income-generating self-employment activities or projects.\n\n<br>",
+  "_criteria_filled": 1
+}

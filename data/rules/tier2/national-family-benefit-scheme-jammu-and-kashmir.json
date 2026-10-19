@@ -1,0 +1,31 @@
+{
+  "id": "national-family-benefit-scheme-jammu-and-kashmir",
+  "name": "National Family Benefit Scheme (Jammu and Kashmir)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "A one-time financial assistance of ₹20,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-ie-voter-id-card-or-driving"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/welfareSchemes/PensionSchemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsjak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jammu and Kashmir.\n   1. The applicant should be a family member or dependent of the deceased person.\n   1. The deceased should have been the primary breadwinner (the main earning member of the family).\n   1. The family of the deceased must be living Below the Poverty Line (BPL).\n   1. At the time of death, the deceased must have been between 18 and 59 years old.\n   1. The application should be submitted within one year of the death of the primary breadwinner (husband, wife, or son).",
+  "_criteria_filled": 2
+}

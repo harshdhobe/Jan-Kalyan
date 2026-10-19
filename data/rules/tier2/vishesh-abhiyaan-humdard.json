@@ -1,0 +1,26 @@
+{
+  "id": "vishesh-abhiyaan-humdard",
+  "name": "Vishesh Abhiyaan - Humdard",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the scheme/campaign, all District Legal Services Authorities organize door-to-door programs for senior citizens to raise awareness about welfare schemes, their legal rights and access to these schemes, skill development, self-employment, technical and financial literacy, as well as personal security and protection.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-documents-required-as-specified-by-the-respective-legal-services-authorities"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vahuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This special campaign has been organized by the Uttarakhand State Legal Services Authority, Nainital for senior citizens, mentally and physically challenged individuals, and other destitute people in the state.\n\n<br>",
+  "_criteria_filled": 1
+}

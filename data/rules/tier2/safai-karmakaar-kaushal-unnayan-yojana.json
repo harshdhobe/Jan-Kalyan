@@ -1,0 +1,31 @@
+{
+  "id": "safai-karmakaar-kaushal-unnayan-yojana",
+  "name": "Safai Karmakaar Kaushal Unnayan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> Training will be given to unorganized workers and sanitation workers and their families.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-permanent-residence-certificate-copy-of-rati"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/safai%20karmakaar%20kaushal%20unnayan%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skkuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. sanitation workers must be registered. \n1. Applicant age must be above 18 years. \n1. Applicant must not receiving any other parallel scheme of the state government.",
+  "_criteria_filled": 2
+}

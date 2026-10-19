@@ -1,0 +1,28 @@
+{
+  "id": "mukhyamantri-gramin-peyjal-nishchay-yojana",
+  "name": "Mukhyamantri Gramin Peyjal Nishchay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Improved Access to Clean Drinking Water:** Provides safe and clean drinking water to rural households, ensuring better health and hygiene.- **Continuous Water Supply:** Ensures a reliable and uninterrupted supply of water to rural areas throughout the year.- **Reduction in Waterborne Diseases:** Helps in reducing the incidence of waterborne diseases by providing purified drinking water.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "voter-id",
+    "etc-address-proof-water-requirement-and-consumption-details-residential-proof-of"
+  ],
+  "apply_url": "https://bvm.bihar.gov.in/cache/sc_guidline/scheme-guidelines-mukhyamantri-gramin-peyjal-nishchay-yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgpny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of a rural area in Bihar.\n   1. The applicant must not already have a piped water supply connection.\n   1. The applicant should belong to a household requiring access to safe drinking water.\n   1. The applicant must comply with the guidelines set by the Gram Panchayat.\n   1. The applicant should be willing to contribute to the operation and maintenance of the water supply system.",
+  "_criteria_filled": 1
+}

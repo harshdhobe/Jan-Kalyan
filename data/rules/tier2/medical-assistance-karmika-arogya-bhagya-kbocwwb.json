@@ -1,0 +1,31 @@
+{
+  "id": "medical-assistance-karmika-arogya-bhagya-kbocwwb",
+  "name": "Medical Assistance (Karmika Arogya Bhagya) (K.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "**Financial Coverage:** ₹300/- per day to the maximum of  ₹20,000/- for a continuous period of Hospitalization subject to actuals.\n&gt; **Note:****** The assistance shall be towards hospitalisation for a minimum of 48 hours continuously.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeremployment-certificate90-days"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/medical",
+  "source_url": "https://www.myscheme.gov.in/schemes/makabbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka or his/her dependents.\n  - The beneficiary must be hospitalized for at least 48 continuous hours.\n  - Treatment must be conducted in a government, private, or State Government recognised insurance scheme hospital.",
+  "_criteria_filled": 2
+}

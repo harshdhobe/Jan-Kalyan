@@ -1,0 +1,37 @@
+{
+  "id": "leather-training-scheme-rajasthan",
+  "name": "Leather Training Scheme - Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Skill Development Training**\n\n- Modern technical training in Nagara Jooti (15 trainees per batch). \n- Leather goods training (20 trainees per batch).\n\n**Stipend**\n\n- Each trainee receives ₹500/- per month during the training period.\n\n**Tool Kits**\n\n- Tool kits worth up to ₹1,000/- are provided to each trainee after successful completion of the training.\n\n**Training Duration** \n\n- Two months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-domicile-certificate-proof-of-age-educational-certificate-caste-c",
+    "if-applicable-bank-account-details-any-other-document-if-required"
+  ],
+  "apply_url": "https://industries.rajasthan.gov.in/icom/#/scheme/detail/666",
+  "source_url": "https://www.myscheme.gov.in/schemes/cpyr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant&#39;s age should be between 18 to 35 years.\n1. The applicant should belong to the Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or General category.\n1. The applicant should be literate.\n\n**Note 1:** The Selection Committee has the authority to provide up to 10 years of age relaxation on a case-by-case basis.\n**Note 2:** Preference will be given to trainees who have passed 8th standard and are more educated.",
+  "_criteria_filled": 3
+}

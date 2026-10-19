@@ -1,0 +1,26 @@
+{
+  "id": "namo-saraswati-vignan-sadhana-yojana",
+  "name": "Namo Saraswati Vignan Sadhana Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Class 11th Benefit:** ₹10,000/- per annum, paid as a monthly stipend of ₹1,000/- for 10 months.  - **Class 12th Benefit:** ₹15,000/- per annum. Students will receive a monthly stipend of ₹1,000/- for 10 months (₹10,000)  - **Additional Benefit:** ₹5,000/- after passing the Class 12th board examination.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-pass-bookcancelled-cheque-bonafide-certificate-income-certificate-mark-shee"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsvsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student.\n  - The applicant must have studied in a government or grant-in-aid school in Class 9th and 10th.\n  - The applicant must have scored 50% or more in the Class 10 board examination.\n  - The applicant must have taken admission in the science stream in a government, grant-in-aid, or self-financed school recognized by GSHSEB (Gujarat Secondary and Higher Secondary Education Board) or CBSE (Central Board of Secondary Education).\n  - If the applicant has studied in a recognized self-financed school for Class 9 and/or 10, the family’s annual income must be ₹6,00,000/- or less.\n\n<br>",
+  "_criteria_filled": 1
+}

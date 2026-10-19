@@ -1,0 +1,31 @@
+{
+  "id": "subsidy-to-purchase-e-bike-for-journalists",
+  "name": "Subsidy to Purchase E-Bike for Journalists",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Subsidy up to 50% of the value on quotation or ₹ 50,000/-, whichever is less, and the remaining 50% value shall be borne by the beneficiaries. \n- The payment shall be effected directly to the beneficiaries upon receipt of the purchase of the e-bike document. \n- The subsidy shall be disbursed in a single instalment to the beneficiary, i.e., 100% on the purchase of the vehicle and production of pu",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-residence-certificate-issued-by-the-mamlatdar-aadhaar-card-val"
+  ],
+  "apply_url": "https://dip.goa.gov.in/wp-content/uploads/2024/01/notification-e-v-bike.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spebj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a journalist.\n- The sole livelihood of the applicant should be through journalistic activities.\n- The applicant should be residing in Goa for at least 15 years.\n- The applicant should be working for a Media organisation.\n- The applicant should not be more than 58 years of age.\n- The applicant should not have availed benefit to purchase an e-bike (two-wheeler) under any other Government scheme.",
+  "_criteria_filled": 2
+}

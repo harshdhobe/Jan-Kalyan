@@ -1,0 +1,32 @@
+{
+  "id": "pre-matric-scholarship-scheme-saral-vidya-sahay-for-sc-and-obc-v-to-viii",
+  "name": "Pre Matric Scholarship Scheme (Saral Vidya Sahay) for SC and OBC (V to VIII)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**1. As per &quot;Stipend under Saral Vidya Sahay Scheme&quot;**\n₹325/- per month for 11 months (₹3,575/- per annum)\n**2. As per &quot;Meritorious Scholarship Scheme&quot;**\n\n- For Classes 5th to 6th: ₹900/- per annum\n- For Classes 7th to 8th: ₹1,000/- per annum",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-issued-by-sub-divisional-magistrate-income-certif",
+    "attested-by-sarpanch-and-countersigned-by-block-development-officermunicipality"
+  ],
+  "apply_url": "https://cmscholarship.goa.gov.in/SchemesDetails.aspx#PreStateSW",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssso",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be studying in classes 5th to 8th on a full-time basis.\n\n- The applicant should belong to a Scheduled Caste or Other Backward Class.\n- The applicant&#39;s parent/guardian&#39;s annual income should not exceed ₹1,20,000/-.",
+  "_criteria_filled": 2
+}

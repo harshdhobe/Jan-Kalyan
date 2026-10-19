@@ -1,0 +1,27 @@
+{
+  "id": "rashtriya-parivar-sahayata-yojana",
+  "name": "Rashtriya Parivar Sahayata Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- Eligible applicants are entitled to a lump sum grant of ₹ 30,000/ \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 56460
+      }
+    ]
+  },
+  "documents": [
+    "age-certificate-death-certificate-death-certificate-in-the-case-of-accidental-de",
+    "lodged-the-preliminary-report-with-the-police"
+  ],
+  "apply_url": "https://nfbs.upsdc.gov.in/NFBS2022_23/index.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/rpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme is applicable in case of the death of the primary earning head of the family (male or female).\n1. The deceased earning member should be above 18 years and below 60 years of age at the time of death.\n1. The annual family income should not exceed ₹46,080 in rural areas.\n1. The annual family income should not exceed ₹56,460 in urban areas.\n1. The applicant must be a permanent resident of Uttar Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

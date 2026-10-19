@@ -1,0 +1,37 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-chief-minister-self-employment-sch",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Chief Minister Self-Employment Scheme for Drivers/Conductors",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Financial Assistance**\n\n**Project Cost:** ₹20,000 to ₹10,00,000\n**Margin Money Subsidy:**\n\n- **General Category:** 15 percent of project cost, up to ₹1,00,000 (Scheduled Caste, Scheduled Tribe, Other Backward Class (excluding creamy layer) - **Below Poverty Line, Women, Minority, and Persons with Disabilities:** 30 percent of project cost, up to ₹2,00,000- **Interest Subsidy:** 5 percent per a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-id-proof-of-residence-valid-commercial-driving",
+    "self-certified-caste-certificate-if-applicable-below-poverty-line-certificate-if"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-cmsesdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor.\n1. The applicant should possess a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant should be registered on the Samagra Portal.\n1. The applicant should be between 18 and 45 years of age.\n1. The applicant should have passed at least class 5th.1. The applicant should not be a defaulter of any nationalized bank, cooperative bank, or financial institution.\n\n<br>",
+  "_criteria_filled": 3
+}

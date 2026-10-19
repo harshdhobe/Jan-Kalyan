@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-kisan-maandhan-yojana",
+  "name": "Pradhan Mantri Kisan Maandhan Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Monthly Pension Benefit:**\n\n  - The subscriber will receive a minimum assured pension of ₹ 3,000/- per month after attaining the age of 60 years.\n\n- **Family Pension Benefit:**\n\n  - In case of death of the subscriber, the spouse will receive 50% of the pension amount as family pension.\n\n  - Family pension is applicable only to the spouse.\n\n- **Government Matching Contribution:**\n\n  - The Gover",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-savings-bank-account-number-along-with-ifsc-code-bank-passbook-or-c"
+  ],
+  "apply_url": "https://pmkmy.gov.in/scheme/pmkmy",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmkmdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Small or Marginal Farmer.\n   1. The applicant should have cultivable landholding up to 2 hectares as per State or Union Territory land records.\n   1. The applicant should be between 18 and 40 years of age at the time of entry.\n   1. The applicant’s name should appear in land records as on 01.08.2019.\n   1. The applicant should possess an Aadhaar card.\n   1. The applicant should have a savings bank account or PM-KISAN account.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

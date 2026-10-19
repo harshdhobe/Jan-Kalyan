@@ -1,0 +1,28 @@
+{
+  "id": "tiatr-competition-for-educational-institutions-at-higher-secondarycollegeunivers",
+  "name": "Tiatr Competition for Educational Institutions at Higher Secondary/College/University Level",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "***Financial Support:*** Educational institutions receive financial assistance as fixed by Tiatr Academy of Goa to meet expenses for music (live band with at least two blowing instruments), light effects, stage setting, background music, makeup, costumes, refreshments for rehearsals, and transport\n***Performance Platform:*** 15 educational institutions get opportunity to participate in production ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-application-complete-typed-copy-of-tiatr-script-typed-copy-of-lyrics-of-k",
+    "000-cash-or-demand-draft-in-favour-of-member-secretary",
+    "tiatr-academy-of-goa-payable-at-panaji-before-competition-3-days-prior-final-typ"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tceihscul",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an educational institution at higher secondary, college, or university level.\n- The applicant must ensure Tiatr script is either new or from any script published by reputed Tiatr writers.\n- The applicant must ensure Tiatr follows traditional format with 6 to 7 acts with at least 4 cantos.\n- The applicant must include comedy linked to the story of the play.\n- The applicant must include at least 8 kantaram including 1 duet (interactive), 1 duo (interactive), 1 trio (interactive), 1 quartet/quintet (interactive), 1 choral song, and solos.\n- The applicant must ensure not more than 2 shows of the given script have been performed prior to competition.\n\n<br>",
+  "_criteria_filled": 1
+}

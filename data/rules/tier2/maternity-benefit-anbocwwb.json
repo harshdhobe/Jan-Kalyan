@@ -1,0 +1,27 @@
+{
+  "id": "maternity-benefit-anbocwwb",
+  "name": "Maternity Benefit (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. The women employees, who are registered beneficiaries for a period of one year, shall be given a sum of ₹20,000/- as maternity benefit during the period of maternity.\n   1. Male employees, who are registered beneficiaries for a period of one year, and whose wives are 19 years or older and not registered beneficiaries, shall also receive a sum of ₹10,000/- as maternity benefit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-an-islands-building-other-construction",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in any building &amp;amp; other construction work.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. The women employees, who are registered beneficiaries for a period of one year, shall be eligible for maternity benefits during the period of maternity.\n   1. The male employees, who are registered beneficiaries for a period of one year, and whose wives are 19 years or older and not registered beneficiaries, shall be eligible for maternity benefits.",
+  "_criteria_filled": 1
+}

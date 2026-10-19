@@ -1,0 +1,26 @@
+{
+  "id": "assistance-on-death-of-the-unregistered-worker-hbocwwb",
+  "name": "Assistance On Death Of The Unregistered Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Financial assistance of ₹2,50,000/- is provided by the Board to the legal heir/dependent family member of an unregistered worker who dies in an accident at the workplace.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photograph-resident-proofaddress-pr"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/120",
+  "source_url": "https://www.myscheme.gov.in/schemes/aduw-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal heir/dependent family member of an unregistered worker who dies in an accident at the workplace.\n   1. The applicant should have a copy of the FIR in regard to the accident.\n   1. The applicant should have a post-mortem report of the death of an unregistered worker.\n   1. The applicant should have the certificate of being nominated/legal heir of the unregistered worker.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hari-om-ashram-prerit-doctor-vikram-sarabhai-research-award",
+  "name": "Hari Om Ashram Prerit Doctor Vikram Sarabhai Research Award",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Cash Prize:** An amount of ₹50,000/- and a medal.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "nomination-form-downloadable-from-the-prl-website-significant-contributions-to-t",
+    "basic-andor-applied-specific-contributions-for-which-the-nomination-is-being-mad",
+    "of-which-five-should-preferably-be-from-the-last-five-years-a-separate-listing-o"
+  ],
+  "apply_url": "https://www.prl.res.in/prl-eng/opportunities/aabprl/hoapvikramsarabhairesearchaward",
+  "source_url": "https://www.myscheme.gov.in/schemes/hoapdvsra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Indian citizen.\n  - The applicant should be a scientist. \n  - The applicant&amp;#39;s age is below 45 years (born on or after January 2, 1972, for the 2017 awards).\n  - The applicant&amp;#39;s contributions should be in the areas mentioned, such as Space Sciences, Space Applications, Electronics, Informatics, Telematics, Automation, etc.\n\n<br>",
+  "_criteria_filled": 1
+}

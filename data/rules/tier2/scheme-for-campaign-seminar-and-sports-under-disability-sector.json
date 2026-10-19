@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-campaign-seminar-and-sports-under-disability-sector",
+  "name": "Scheme for Campaign, Seminar and Sports under Disability Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **State-Level Events:** Financial assistance limited to ₹1,00,000/- per event.  - **District-Level Events:** Financial assistance limited to ₹50,000/- per event.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-proposal-of-the-event-recommendation-letter-from-the-collector-previous"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-05/Guideline%20for%20Scheme%20for%20Campaign%20Seminar%20and%20Sports%20under%20Disability%20Sector_0001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfcssuds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Institutions or an individual person with disabilities working for the welfare of Persons with Disabilities shall be eligible for financial support.\n  - The events should be State and District level programs.\n\n<br>",
+  "_criteria_filled": 1
+}

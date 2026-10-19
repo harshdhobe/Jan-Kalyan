@@ -1,0 +1,26 @@
+{
+  "id": "accidental-death-assistance-scheme-gbocwwb",
+  "name": "Accidental Death Assistance Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,00,000/- shall be given to the legal heirs of the deceased construction workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-accidental-death-assistanceidentity-proof-of-the-deceased"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/Home/BOCWScheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/adasgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal heir of the deceased worker.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The financial assistance shall be provided to the legal heirs of construction workers, whether registered or unregistered with the Board, in the event of accidental death or permanent disability occurring during ongoing work at the construction site.",
+  "_criteria_filled": 1
+}

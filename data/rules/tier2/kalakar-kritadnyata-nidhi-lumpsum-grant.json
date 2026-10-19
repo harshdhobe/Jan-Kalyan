@@ -1,0 +1,32 @@
+{
+  "id": "kalakar-kritadnyata-nidhi-lumpsum-grant",
+  "name": "Kalakar Kritadnyata Nidhi: Lumpsum Grant",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Financial Assistance in the form of a lumpsum grant, maximum of ₹20,000/- shall be provided.\n- The one-time financial assistance amount is disbursed to the eligible applicant in the form of Electronic Clearing Service (ECS) mode.\n\n> ***Conditions***\n\n- The wife/husband of the late artist shall be considered first for the grant.\n- In the event of the wife/husband predeceasing the late artist, the",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 25000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-of-the-deceased-artistdomicile-certificate-death-certificate-documenta",
+    "government-of-goa-documents-of-the-dependent-family-memberincome-certificate-doc"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkn-lg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The deceased artist must have been Goan, i.e., born and brought up in Goa.\n- The deceased artist must have been recognized by the Directorate of Art &amp; Culture, Government of Goa.\n- The deceased artist must not have been less than 50 years in age. (The Government may relax the age criteria for deserving cases under special circumstances.)\n- The applicant must be the dependent family member of the deceased artist.\n- The wife/husband of the late artist shall be considered first for the grant.\n- In the event of the wife/husband predeceasing the late artist, the benefit shall be passed on to the unmarried/unemployed sons/daughters of the deceased artist as the case may be in equal ratio.\n- The annual income of the family of the deceased artist (from all the sources) must be less than ₹25,000/- per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "academic-education-jkbocwwb",
+  "name": "Academic Education (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "**Financial Assistance based on the Educational Qualification -** \n\n1. Class 9th to 10th: ₹4,500/-.\n1. Class 11th to 12th: ₹ 6,000/-.\n1. Undergraduate: ₹10,000/-.\n1. Postgraduate: ₹15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-skill-upgradation-training-certificate-pro",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://portal.jkbocw.gov.in/LoginGuest.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/aejkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker -** \n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The registration of the applicant should be renewed annually.\n\n> **For Application to this Scheme -** \n\n1. The parent/s must be registered member/s of the &quot;Jammu &amp; Kashmir Building and Other Construction Workers Welfare Board&quot;.\n1. The parent/s must have an active membership with the JKBOCWW Board.\n1. The child must be a student.\n1. The child must be a regular in attendance.",
+  "_criteria_filled": 1
+}

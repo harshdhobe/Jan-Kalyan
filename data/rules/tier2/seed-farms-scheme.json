@@ -1,0 +1,26 @@
+{
+  "id": "seed-farms-scheme",
+  "name": "Seed Farms Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n- Supply of quality seeds to farmers.\n\n> **Type of Assistance and Entitlement (If any):**\n\n- Subsidy sale",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=73",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

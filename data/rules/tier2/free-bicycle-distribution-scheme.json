@@ -1,0 +1,26 @@
+{
+  "id": "free-bicycle-distribution-scheme",
+  "name": "Free Bicycle Distribution Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- Monetary assistance of ₹3000 per student for purchasing bicycles.\n\n<br>\n\n> **Note****:** \n\n- The amount is disbursed directly to the beneficiary’s bank account via DBT.\n- Ensures purchase of new bicycles conforming to ISI/ISO standards.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-school-certificate-bank-account-detail-any-other-document-if-r"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D030DO004SD001115012019053406479",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be studying in Class 8th.1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant’s family should either belong to the BPL or APL category.",
+  "_criteria_filled": 1
+}

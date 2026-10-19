@@ -1,0 +1,31 @@
+{
+  "id": "marriage-grant-of-rs51000-to-daughtersister-of-personnel-killed-disabled-in-war",
+  "name": "Marriage Grant of Rs.51,000/- to Daughter/Sister of Personnel Killed/ Disabled in War/ Action/Terrorist Attack/Naxalite Attack/IS Duty",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "A gift amount of ₹51,000 is provided for the marriage of the sister or daughter of a martyred soldier/officer.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-relationship-with-martyr-birth-certificatefamily-treeleg"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=75",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgdspkdwatana",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a dependent (sister or daughter) of a martyred officer or soldier.\n1. The deceased officer/soldier must be a permanent resident of Madhya Pradesh.\n1. The martyrdom must have occurred during war, military operation, Naxalite attack, terrorist attack, or internal security duty.\n\n<br>",
+  "_criteria_filled": 2
+}

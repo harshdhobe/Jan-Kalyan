@@ -1,0 +1,28 @@
+{
+  "id": "post-doctoral-fellowship-prl-funded",
+  "name": "Post Doctoral Fellowship (PRL Funded)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Fellowship:** Monthly stipend based on the academic status of the fellow:\n\n1. ₹58,000/- for candidates who have submitted their Ph.D. thesis but await the degree.\n1. ₹61,000/- for candidates holding a Ph.D. degree.\n1. ₹67,000/- for external applicants with a Ph.D. and at least two years of research experience.\n\n- **Academic Allowance:** One-time academic allowance of ₹ 10,000/- during the fell",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-phd-thesis-abstract-list-of-publications-research-propo",
+    "age",
+    "work-experience-recommendation-letters-from-referees-no-objection-certificate-fo"
+  ],
+  "apply_url": "https://www.prl.res.in/prl-eng/pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should complete a Bachelor’s and master’s degrees in science or engineering with first-class (60%) or equivalent grades at both levels.\n  - The applicant’s age should be 35 years.\n\n<br>",
+  "_criteria_filled": 1
+}

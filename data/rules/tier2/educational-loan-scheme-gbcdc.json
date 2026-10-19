@@ -1,0 +1,31 @@
+{
+  "id": "educational-loan-scheme-gbcdc",
+  "name": "Educational Loan Scheme (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The maximum loan limit under this scheme is up to ₹ 15,00,000/-.\n2. **The interest rate:**\n\n- 4% per annum for male students.\n- 3.5% per annum for female students.\n\n3. **Loan Contribution Breakdown:**\n\n- 90% by the National Corporation.\n- 5% by the State Government.\n- 5% by the beneficiary.\n\n4. **The loan amount will include the following:**\n\n- Admission fees and tuition fees\n- Accommodation an",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-income-certificate-class-12-marksheetqualifying"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/elgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant should belong to a socially and educationally backward class.\n1. The total annual family income should not exceed ₹3,00,000/-.\n1. The student must have secured admission through a recognized entrance examination conducted by the Central or State Government, or through a selection process, with at least 50% marks in Class 12 or the qualifying examination.\n1. The applicant should have secured admission in a recognized institution for one of the following courses:\n\n  - MBA or its equivalent (recognized by AICTE)\n  - Master of Computer Applications (MCA) or its equivalent (recognized by AICTE)\n  - Graduate-level engineering courses conducted by IITs or other institutions (recognized by AICTE)\n  - Medical or allied education such as Ayurvedic, Homeopathy, Unani, etc., from institutions recognized by the Medical Council of India\n  - Diploma course in Hospitality Management recognized by the National Council of Hotel Management\n\n> **Note:** Priority will be given to applicants whose family income is up to ₹1,50,000/- per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

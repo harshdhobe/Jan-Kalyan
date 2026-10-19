@@ -1,0 +1,30 @@
+{
+  "id": "payroll-subsidy",
+  "name": "Payroll Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Reimbursement of employee&#39;s contribution to the EPF for their employees for the first three years from the date of commencement of commercial production, subject to a maximum of ₹ 24,000/- per employee per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-attested-copy-of-tangedco-meter-card-if-t",
+    "copy-of-the-land-purchase-deed",
+    "duly-signed-by-the-applicant-if-the-enterprise-is-functioning-in-a-leased-landbu",
+    "copy-of-the-lease-agreement-deed-executed-on-stamp-paper-of-100",
+    "for-a-minimum-period-of-11-months-from-the-date-of-commencement-of-commercial-pr"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/payroll.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/ps-tn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All micro enterprises anywhere in the state of Tamil Nadu.\n- Small and medium enterprises set up in 254 [industrially backward blocks](https://www.msmeonline.tn.gov.in/images/TN_Schemes_Booklet_Draft_09072022_v10.pdf) and all industrial estates promoted by the Government and the Government agencies like SIPCOT, TANSIDCO etc.- Agro-based small and medium enterprises set up in all 388 blocks of the state.\n- The unit should have employed more than 20 persons. Only regular workers will be taken into account. Casual, temporary or contract workers will not be taken into account.\n- If the employee strength falls below 20 for any of the months, the claim will be restricted to the months in which the conditions are satisfied.\n\n<br>\n\nCheck Your Eligibility for this scheme [here](https://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php)",
+  "_criteria_filled": 1
+}

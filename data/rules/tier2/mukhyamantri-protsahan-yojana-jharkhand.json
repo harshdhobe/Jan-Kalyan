@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-protsahan-yojana-jharkhand",
+  "name": "Mukhyamantri Protsahan Yojana Jharkhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- A financial incentive of ₹5,000/- per annum for eligible candidates.\n- Special categories like widows, abandoned women, primitive tribes, and persons with disabilities receive an additional 50% incentive.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-disability-certificate-if-applicable-widowabandoned-wom",
+    "polytechnic",
+    "or-vocational-institute"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s32b8a61594b1f4c4db0902a8a395ced93/uploads/2021/06/2021062549.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmpyj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be unemployed (not employed in the public/private sector or self-employed).\n1. The applicant must be registered in a Jharkhand employment exchange.\n1. The applicant should have completed a skill training course conducted by a government ITI, polytechnic, or other government vocational institutes aligned with NSQF.\n1. The applicant must not have availed of any similar incentive under another scheme.\n1. The applicant must be a domicile of Jharkhand.\n1. The applicant should have a valid bank account and Aadhaar card.\n1. The applicant should not have been convicted of a crime with a sentence of 48 hours or more.\n1. The applicant must be between 18 to 35 years old on the date of employment exchange registration (relaxation as per government norms for SC/ST candidates).",
+  "_criteria_filled": 3
+}

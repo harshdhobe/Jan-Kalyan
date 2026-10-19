@@ -1,0 +1,32 @@
+{
+  "id": "day-care-cum-recreation-centre-and-physiotherapy-unit",
+  "name": "Day Care - cum - Recreation Centre and Physiotherapy Unit",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Free Physiotherapy given by the Physiotherapist, as advised by the Doctors.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-age-proof-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccrcpu-giapsca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be 60 years or above in age.\n- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.",
+  "_criteria_filled": 2
+}

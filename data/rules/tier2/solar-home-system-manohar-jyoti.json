@@ -1,0 +1,26 @@
+{
+  "id": "solar-home-system-manohar-jyoti",
+  "name": "Solar Home System (Manohar Jyoti)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **Subsidy for General Category:** A subsidy of ₹15,000/- per solar home system is provided to eligible families under the general category.  - **Subsidy under SCSP:** A subsidy covering 90% of the cost is provided to Scheduled Caste families under SCSP component.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "pariwar-pahichan-patra-ppp"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=thdDFao6PL3gqQvuuBnmjg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sms-mj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n   1. The applicant should possess a valid Pariwar Pahichan Patra (PPP).\n\n<br>",
+  "_criteria_filled": 1
+}

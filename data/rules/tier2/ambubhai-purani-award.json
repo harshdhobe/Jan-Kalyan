@@ -1,0 +1,32 @@
+{
+  "id": "ambubhai-purani-award",
+  "name": "Ambubhai Purani Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹51,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-allowed-formats-jpgpngjpeggif",
+    "maximum-size-2mb-domicile-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/apyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a male individual.\n   1. The applicant should have performed excellent work in the field of Gymnasiums (Akhadas).\n\n<br>",
+  "_criteria_filled": 2
+}

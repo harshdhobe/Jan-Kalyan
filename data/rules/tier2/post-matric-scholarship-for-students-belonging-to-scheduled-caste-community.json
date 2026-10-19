@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarship-for-students-belonging-to-scheduled-caste-community",
+  "name": "Post Matric Scholarship for Students belonging to Scheduled Caste Community",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "Financial assistance is provided to the students.\n_*The scheme is funded by the Ministry of Tribal Affairs and the Government of Mizoram in 90:10 ratio._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-self-account-income-certificate-issued-by-competent-au"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/c9e3156b7d4eeebf17e0d8ad7db5d9bc/scholarship-scheme-to-be-upload-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpmssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be permanently settled in Mizoram.\n- The applicant must belong to Scheduled Caste.\n- The income of the parents/guardians of the applicant (from all sources) should not exceed ₹2,50,000/- per annum.\n- The applicant&#39;s ongoing educational qualification must be between 11th Standard and Post-Doctoral Fellowship.\n\n<br>",
+  "_criteria_filled": 2
+}

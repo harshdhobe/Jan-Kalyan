@@ -1,0 +1,26 @@
+{
+  "id": "mission-for-integrated-horticulture-development-midh",
+  "name": "Mission for Integrated Horticulture Development (MIDH)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Crop Development and Production:** Support programs are provided for planting and increasing the production of diverse horticultural crops, including fruits, vegetables, pepper, spices, and flower crops, tailored to different regions and agro-climates within the state.  - **Technological Promotion:** The scheme promotes and extends the use of modern technology in horticulture.  - **Propagation",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-copy-of-khedut-ration-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfihdg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer\n  -  The applicant should be a resident of Gujarat.\n  - The applicant should intend to cultivate horticultural crops or undertake related activities.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "karma-sathi-prakalpa",
+  "name": "Karma Sathi Prakalpa",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "The scheme provides financial assistance in the form of a soft loan and subsidies for new income-generating projects in manufacturing, service, and trading/business sectors. The total financial assistance available is up to ₹2,00,000/-.\n\n1. **Project Subsidy:** A subsidy of 15% of the project cost is provided, with a maximum ceiling of ₹25,000/-.1. **Interest Subsidy:** This subsidy is paid to the",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-age-proof-document-residential-proof-document-education"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/all/themes/anonymous/pdf/FORMBengla.jpg",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any intending or, prospective entrepreneur fulfilling the conditions below can apply. Only one member of a family shall be eligible to apply under this Scheme, where &quot;family&quot; means parents and spouse.\n\n- **Age:** Any intending or prospective entrepreneur in the age group 18 - 50 years(from the date of notification, September 2020).- **Educational Qualification:** Minimum Class VIII passed. Preference will be given to intending entrepreneurs who are registered with the Employment Bank.- Any new income-generating activity taken up for self-employment in manufacturing, services, and trading will be eligible for assistance under the scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,27 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-epf-reimbursement-to-msmes",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: EPF Reimbursement to MSMEs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. **100% Reimbursement:** Covers 100% of the employer’s statutory EPF contribution for new employees.   1. **Maximum Limit:** Reimbursement capped at 12% of basic salary plus Dearness Allowance (DA) or ₹1800 per employee per month, whichever is lower.   1. **Extended Support:** Assistance is available for up to 10 years from the date of commercial production.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-application-form-with-declaration-signed-by-authorized-person-de",
+    "authorized-signatory-copy-of-cancelled-cheque-copy-of-gst-registration-if-applic"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmeepf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-shramik-aujaar-sahayata-yojana",
+  "name": "Mukhyamantri Shramik Aujaar Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> **Tool kits can given free of cost to the registered construction worker.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbook-photocopy-self-declaration-certificate-in-the-prescribed-form-issu"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/193719_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msasy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Applicant must be a native of Chhattisgarh.\n1. The beneficiary should be a construction worker.\n1. The beneficiary should be registered under the Building and Construction Workers Welfare Board.\n1. The age of the registered worker should not be less than 18 years.",
+  "_criteria_filled": 2
+}

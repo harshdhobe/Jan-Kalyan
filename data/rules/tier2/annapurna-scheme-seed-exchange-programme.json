@@ -1,0 +1,26 @@
+{
+  "id": "annapurna-scheme-seed-exchange-programme",
+  "name": "Annapurna Scheme: Seed Exchange Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Provision of improved seeds of high-yielding varieties of foodgrain crops.\n- 75% subsidy on the actual price of the seed provided in exchange.\n- The maximum limit of the subsidy is ₹1,500/-.\n- Seeds of suitable varieties for the land and area will be provided in equal quantity compared to the seed provided by the farmer.\n- The provision is limited to a maximum area of one hectare.\n- Certified se",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-proof-regarding-the-size-of-land-holding-information-pertainin"
+  ],
+  "apply_url": "https://mpkrishi.mp.gov.in/hindisite_New/pdfs/Annapurna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/as-sep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Caste or Scheduled Tribe category.\n- The applicant must be a small or marginal farmer.\n- The applicant must be unable to afford the purchase of improved varieties of high-yielding foodgrain crops.\n\n***Post-Selection Conditions***\n\n- The farmer must exchange their existing crop or seed for the improved seeds.\n\n<br>",
+  "_criteria_filled": 1
+}

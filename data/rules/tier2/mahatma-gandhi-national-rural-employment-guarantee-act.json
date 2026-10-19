@@ -1,0 +1,33 @@
+{
+  "id": "mahatma-gandhi-national-rural-employment-guarantee-act",
+  "name": "Mahatma Gandhi National Rural Employment Guarantee Act",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. The applicant receives guaranteed employment within 15 days from the date of application.\n1. Work is to be provided within a radius of 5 kilometers of the applicant’s residence if possible, and in any case within the Block. If the applicant lives more than 5 km away from the worksite, he/she will be entitled to a travel and subsistence allowance (10% of the minimum wage).\n1. Wages are paid with",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-applicant-name",
+    "age",
+    "and-gender-of-all-nrega-job-card-applicants-from-the-applicants-household-name-o",
+    "gram-panchayat",
+    "block-proof-of-identity-ration-card",
+    "voter-id-card",
+    "aadhaar",
+    "pan-details-of-whether-the-applicant-is-a-beneficiary-of-sc-st-indira-awaas-yoja"
+  ],
+  "apply_url": "https://nrega.nic.in/Circular_Archive/archive/Operational_guidelines_4thEdition_eng_2013.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgnrega",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be at least 18 years of age.\n1. The applicant must be residing in a Rural Area.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "krshak-prashikshan-tatha-bhraman-karyakram",
+  "name": "Krshak Prashikshan Tatha Bhraman Karyakram",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Farmer training within the state : ₹1,000/- per farmer per month (maximum 7 days)\n1. Farmer training outside the state : ₹1,500/- per farmer per day.\n1. Exposure visit outside the state to observe new technology (new component) : ₹1,500/- per farmer per day.\n1. A total of ₹12,000/- for 20 trainees in one-day farmer training and tour, i.e. maximum expenditure per farmer is ₹500/- and honorarium ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "photo-aadhaar-card-bank-passbook-birth-certificate"
+  ],
+  "apply_url": "https://www.mphorticulture.gov.in/sites/default/files/krashak%20prashikshan.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme will apply to all sections.\n1. Farmers of all classes who cultivate crops.",
+  "_criteria_filled": 1
+}

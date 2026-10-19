@@ -1,0 +1,27 @@
+{
+  "id": "snehasanthwanam",
+  "name": "Snehasanthwanam",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹2200/- is given to the bedridden Endosulfan victims.\n   1. Financial assistance of ₹1700/- is given to such bedridden Endosulfan victims who are getting ₹300/- per month as a disability pension.\n   1. All other Endosulfan victims are given ₹1200/- based on the list furnished by the District Collector.\n   1. In addition to this, monthly assistance of ₹7",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-aadhaar-card-2-passport-size-photograph-3-education-certific",
+    "if-required"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/scheme_info.php?id=MTM=",
+  "source_url": "https://www.myscheme.gov.in/schemes/skerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n1. The applicant should be an Endosulfan victim.",
+  "_criteria_filled": 1
+}

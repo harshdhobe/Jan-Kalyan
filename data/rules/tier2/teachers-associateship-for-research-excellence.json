@@ -1,0 +1,26 @@
+{
+  "id": "teachers-associateship-for-research-excellence",
+  "name": "Teachers Associateship for Research Excellence",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Research fellowship of ₹60,000/- per year (in addition to the researcher’s own salary) will be provided subject to completion of a minimum of 90 days of research work per year in the host institution.\n   1. Research grant of ₹5 lakhs per annum (50% each to host and parent institution) and overheads (as per SERB norms) will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-biodata-of-the-applicant-under-the-user-profile-sec"
+  ],
+  "apply_url": "https://www.serbonline.in/SERB/Tare",
+  "source_url": "https://www.myscheme.gov.in/schemes/tare",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Indian citizens residing in India holding a Ph.D. degree in Science/Engineering or MS/MD in Medicine are eligible to apply.\n   1. The applicant(s) must hold a regular academic/research position in State Universities/ Colleges and private Academic Institutions.\n   1. Applicant should not hold any ongoing research projects or any fellowship at the time of submission of application.\n   1. The upper age limit for the award is 45 years at the time of the submission of the application. Age relaxation of 5 (five) years will be given to candidates belonging to SC/ST/OBC/Physically Challenged &amp;amp; Women candidates.\n   1. Mentor should be at the level of Associate Professor/Scientist E, or higher level.\n   1. Only one candidate will be allowed to work with a mentor at any given point of time.",
+  "_criteria_filled": 1
+}

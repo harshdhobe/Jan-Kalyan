@@ -1,0 +1,36 @@
+{
+  "id": "homes-for-intellectually-impaired-persons",
+  "name": "Homes For Intellectually Impaired Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The Mentally Deficient Children who are in need of care and protection are admitted into shelter homes.\nThere are free facilities of food, shelter, and care & protection are provided in these homes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-proof-of-age-birth-certif",
+    "etc-residential-certificate-domicile-certificate-of-the-state-of-maharashtra-dis",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-child-welfare-committee"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/hiip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be an orphan.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Mentally Deficient Child (MDC) who is in need of care and protection.\n1. The percentage of the disability should be 40% or above.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

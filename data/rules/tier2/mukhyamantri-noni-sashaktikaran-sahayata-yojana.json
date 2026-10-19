@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-noni-sashaktikaran-sahayata-yojana",
+  "name": "Mukhyamantri Noni Sashaktikaran Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "Financial Benefits: ₹ 20,000/- only first two girl child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "labor-registration-card-daughters-aadhaar-card-daughters-bank-passbook-photocopy"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/196779_31_01_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl&#39;s father or mother or both should be registered as a construction worker in the Board for a period of at least one year.\n1. The daughter for whom application has been made should not be registered in any division under the Labor Department.\n1. Only two daughters of registered construction workers will be eligible for incentive amount.\n1. The age of the daughter should be at least 18 years and should not be more than 21 years. \n1. Daughter should be unmarried.\n1. The daughter must have passed at least 10th class. \n1. There should be a running bank account in the name of the daughter\n1. The Parents of the daughter must have been working as a construction worker for at least 90 days in the period of one year preceding the date of application.\n1. For payment of incentive amount, self-declaration form will be mandatory regarding verification of the beneficiary being a construction worker and the information given by the applicant in the application.\n1. Those girls beneficiaries who have already received assistance under Minimata Kanya Vivah Yojana/Rajmata Vijayaraje Kanya Vivah Assistance Yojana operated under the Board, will be not eligible for this scheme.",
+  "_criteria_filled": 4
+}

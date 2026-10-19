@@ -1,0 +1,31 @@
+{
+  "id": "sainik-school-scholarship-located-outside-the-uttarakhand",
+  "name": "Sainik School Scholarship Located Outside the Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Rate of Scholarships:**\n\n- ₹40,000/- per annum for students from families with a monthly income up to ₹12,000/-.\n- ₹30,000/- per annum for students from families with a monthly income of ₹12,001/- to ₹15,000/-.\n- ₹20,000/- per annum for students from families with a monthly income of ₹15,001/- to ₹18,000/-.\n- ₹10,000/- per annum for students from families with a monthly income of ₹18,001/- to ₹2",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 264000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "a-valid-family-income-certificate-issued-by-the-tehsil-permanent-residence-certi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssslos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Uttarakhand.\n- The applicant must be studying in Classes 6 to 12 in a Sainik School located outside Uttarakhand.\n- The scholarship will be awarded on the basis of the applicant’s family income.\n- The applicant is not eligible if the monthly family income exceeds ₹22,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

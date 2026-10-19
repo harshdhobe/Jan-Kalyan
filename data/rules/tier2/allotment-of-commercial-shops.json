@@ -1,0 +1,26 @@
+{
+  "id": "allotment-of-commercial-shops",
+  "name": "Allotment of Commercial Shops",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The scheme facilitates ease of doing business for traders by allotting them with commercial shops.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "valid-traders-license-issued-by-the-mandi-committee-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/acsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must hold a valid trader’s license issued by the Mandi Committee.\n\n<br>",
+  "_criteria_filled": 1
+}

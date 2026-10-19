@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-to-indigent-tamil-scholars",
+  "name": "Financial Assistance to Indigent Tamil Scholars",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹1,500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-any-other-document-if-required"
+  ],
+  "apply_url": "https://art.py.gov.in//sites/default/files/ecit1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatits",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an indigent artist. \n1. The applicant&#39;s age should be 58 years and above. \n1. The applicant should contribute to Tamil language and literature. \n1. The income of the applicant should not exceed ₹1,500/- per month.",
+  "_criteria_filled": 3
+}

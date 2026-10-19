@@ -1,0 +1,32 @@
+{
+  "id": "free-coaching-for-scs-obcs-and-beneficiaries-of-pm-cares-children-scheme",
+  "name": "Free Coaching for SCs, OBCs and beneficiaries of PM CARES Children Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Stipend**\n\n  - ₹4,000 per month (up to a maximum of 12 months)\n\n1. **Interview Incentive**\n\n  - ₹15,000 for students who clear the mains stage of Central/State Civil Services (Class I &amp; II)\n\n1. **Direct Benefit Transfer (DBT)**\n\n  - All financial benefits (stipend &amp; fees) are transferred directly to the student&#39;s Aadhaar-linked bank account\n\n1. **Course Fee Coverage are as follows",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-income-certificate-caste-certificate-resid",
+    "for-the-competitive-exams-for-which-the-qualifying-exam-is-class-12th-marksheet",
+    "for-the-competitive-exams-for-which-the-qualifying-exam-is-under-graduate-level",
+    "if-the-student-does-not-have-an-aadhar-number",
+    "he-she-can-submit-hisher-eid-number-however",
+    "the-payment-shall-be-released-only-after-obtaining-the-aadhar-number-and-shall-b",
+    "not-below-the-rank-of-tehsildar-employed-parentsguardians-are-required-to-obtain"
+  ],
+  "apply_url": "https://socialjustice.gov.in/writereaddata/UploadFile/84931739961630.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fcssos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For students belonging to SCs and OBCs Category:**\n\n   1. The applicant should be a student.\n   1. The applicant should be from Scheduled Caste or Other Backward Class.\n   1. The total annual family income of the applicant (from all sources) should be ₹8,00,000/- or less.\n   1. For the competitive exams for which the qualifying exam is class 12th, the candidate should have passed class 12th or be studying in class 12th as of the date of receiving the benefit under the scheme.\n   1. Further, in case of competitive exams for which the qualifying exam is Undergraduate level, the candidate should have completed the undergraduate level course or studying in the final year of the undergraduate course concerned at the time of receiving the benefit under the scheme shall be eligible.\n   1. Benefits under the Scheme can be availed by a particular student not more than twice, irrespective of the number of chances he/she may be entitled to take in a particular competitive examination and irrespective of the number of stages in the exam.\n   1. The applicant should not already be availing of the benefits of any other coaching scheme.\n\n&lt;br&gt;\n\n**NOTE:** A list of beneficiaries availing the scheme will also be uploaded on the website of the Ministry and shall be shared with Central Universities/Central Institutes to avoid the possibility of the candidate availing benefits of a similar coaching scheme simultaneously or more than twice.\n&lt;br&gt;\n\n&gt; **For beneficiaries of PM CARES Children Scheme:**\n\n  - All beneficiaries of the PM CARES Children Scheme who have a certificate (with beneficiary ID) issued by the Central Government confirming their status as beneficiaries are eligible. \n  - There will be no income or caste-related restrictions for such beneficiaries to avail of the benefits under this scheme.",
+  "_criteria_filled": 1
+}

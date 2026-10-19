@@ -1,0 +1,26 @@
+{
+  "id": "drone-policy-2023-information-technology-development-agency",
+  "name": "Drone Policy 2023 - Information Technology Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**The following measures have been initiated under the Drone Policy 2023 to boost the drone sector:**\n\n  - Giving a major boost to service delivery and governance through the use of drones in the difficult terrains of the state.\n  - Encouraging innovation and development in drone technology.\n  - Strengthening the Drone System Design and Manufacturing (DSDM) and Drone-Based Services (DES) ecosystem",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-directions-and-guidelines-of-itda-prescribed-u"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpitda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Drone service providers, drone manufacturers, drone industries, drone investors, drone startups, the youth of Uttarakhand, universities, ITIs, polytechnic colleges, and government institutions are eligible to avail benefits under the Drone Policy.\n\n<br>",
+  "_criteria_filled": 1
+}

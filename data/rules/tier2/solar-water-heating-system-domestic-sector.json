@@ -1,0 +1,26 @@
+{
+  "id": "solar-water-heating-system-domestic-sector",
+  "name": "Solar Water Heating System (Domestic Sector)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **Subsidy :** ₹10,000/- per 100 LPD (Maximum ₹30,000/-) for FPC system and ₹3,000/- per 100 LPD (Maximum ₹9,000/-) is being provided.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-any-one-of-the-following-aadhaar-card-resident-proofad"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=7Dp055F6MhNzBJWgZnQ20A==",
+  "source_url": "https://www.myscheme.gov.in/schemes/swhsds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any resident family of Haryana.\n   1. Government employees of Haryana residing in Chandigarh.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-to-non-governmental-organisations",
+  "name": "Financial Assistance to Non Governmental Organisations",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial assistance is given to the NGO for feeding charges, rent, and construction/extension of building.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-under-section-51-of-the-rights-of-persons-with-disabili",
+    "2016-any-other-document-if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatngo",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The school for children with intellectual disability should have functioned for a minimum period of 5 years.  \n1. The school should be registered under section 51 of the Rights of Persons with Disability Act,2016.\n\n<br>",
+  "_criteria_filled": 1
+}

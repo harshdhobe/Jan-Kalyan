@@ -1,0 +1,27 @@
+{
+  "id": "micro-nutrient-spray",
+  "name": "Micro Nutrient Spray",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** 50% subsidy or ₹70/- per hectare for micro-nutrient spray.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-caste-certificate-for-scst"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7084",
+  "source_url": "https://www.myscheme.gov.in/schemes/mns",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

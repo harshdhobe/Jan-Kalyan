@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-samuhik-vivah-yojana",
+  "name": "Mukhyamantri Samuhik Vivah Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "Benefits\nUnder this scheme, an amount of Rs. 35,000/- is deposited in the bank account of the bride for the establishment of the household and required materials for the wedding like apparel, ornaments, utensils etc. are provided to the couple from Rs. 10,000/- . Apart from it, Rs. 6000/- is provisioned to expense on per marriage. \nThus a total amount of Rs. 51,000/- is provisioned per marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-photo-of-bride-and-groom-couple-aadhaar-card-or-v"
+  ],
+  "apply_url": "http://samajkalyan.up.gov.in/#parentHorizontalTab1",
+  "source_url": "https://www.myscheme.gov.in/schemes/msvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The applicant must be a permanent resident of the State.\n1.  Family income from all sources should be within Rs.2,00,000  per annum.\n1. This scheme is open to all communities.\n1. The age of the registered girl should be 18 years or more and the age of the groom should be at least 21 years.\n1. At least 10 couples are required to participate in this Mass Marriage Ceremony.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,46 @@
+{
+  "id": "education-loan-scheme-delhi",
+  "name": "Education Loan Scheme - Delhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "- Need-based finance with a ceiling of ₹7,50,000/- for studies in India.\n- Need-based finance with a ceiling of ₹15,00,000/- for studies abroad.\n\n_*No promoter’s contribution required for loans up to ₹4,00,000/-._\n_*For loans above ₹4,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad._\n_*Loan repayment period is up to 10 years after the commencement of repayment",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "pre-sanctionwith-applicationcopy-of-aadhaar-card-of-borrower-applicant",
+    "co-borrower-parentsguardian",
+    "and-guarantor-copy-of-income-certificate-issued-by-the-office-of-the-sdm-concern",
+    "co-borrower",
+    "and-guarantor",
+    "and-one-full-size-photograph-of-the-borrower-in-case-the-applicant-belongs-to-pw",
+    "a-disability-certificate-40-or-more-issued-by-the-medical-board-of-a-government",
+    "delhi",
+    "is-required-affidavit-stating-that-no-loan-has-been-availed-from-any-government",
+    "freeship",
+    "studentship",
+    "if-any-proof-of-admission-to-the-recognized-courseinstitute-copy-of-schedule-of",
+    "00",
+    "000-copy-of-guarantors-undertaking-to-stand-as-guarantorsurety-or-original-colla",
+    "in-case-the-applicant-wishes-to-give-collateral-security-of-property",
+    "with-complete-chain-of-documents"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/proforma_affidavit_app_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/els-delhi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Delhi.\n- The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability.\n- The annual income of parents/guardian should be below ₹5,00,000/-.\n- The applicant must have secured admission in a recognized/Government/Technical Institution in India or abroad.\n- The College/Institute should have been offering the course for the last three years.\n- The College/Institute should be recognized by the Central/State Government or by appropriate authorities such as UGC (University Grants Commission), AICTE (All India Council for Technical Education), etc.\n- The duration of the course should not exceed 5 years.\n\n**Post Sanction Eligibility for the Borrower**\n\n- The borrower must not participate in any unlawful activity that would debar them from pursuing studies and must follow all rules and regulations laid down by the educational institution.\n- The borrower must not enter into any pecuniary obligation or financial liability during the currency of the loan.\n- The borrower must strive to secure suitable employment after completing the course and furnish full particulars of such employment, including income details, to DSFDC.",
+  "_criteria_filled": 2
+}

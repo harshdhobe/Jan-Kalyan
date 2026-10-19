@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-special-rural-development-fund-cmsrdf",
+  "name": "Chief Ministers Special Rural Development Fund (CMSRDF)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. CMSRDF shall be through direct participation of the people and not through contractors.\n1. The involvement of the people is through the village Dorbars/Local committees/ Beneficiary Organizations, etc.\n1. The CMSRDF funds should be kept in savings Bank Accounts and the interest earned should be reported to the State Government periodically.\n1. The implementing organizations should prominently d",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-jointly-operated-by-two-members-utilization-certificate-completion"
+  ],
+  "apply_url": "https://meghalaya.gov.in/schemes/content/37322",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsrdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Identified by Local MLAs\n- All implementing agencies&#39; NGOs, etc., should open a Bank Account, jointly operated by two members and funds should be released to their accounts only.\n- If the fund due to be released is above Rs. 50.000 the Block Development Officer concerned should release the same in 2 installments.\n- The fund shall not be allowed to be utilized for land compensation or for payment of salaries and office expenses.\n- A utilization certificate in respect of the amount drawn and utilized should be furnished by the Partner organizations to the Block Development officers concerned for record.\n- If the organization/beneficiaries fail to submit the UC(Utilization Certificate) for first installment and do not claim the second installment after a gap of three years, the particular work or project allotted or executed by them should be deemed as closed and the fund be returned back to the Directorate.\n- Citizens and SHGs in particular may seek the help of their local MLA to avail this scheme.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

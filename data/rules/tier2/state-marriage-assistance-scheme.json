@@ -1,0 +1,26 @@
+{
+  "id": "state-marriage-assistance-scheme",
+  "name": "State Marriage Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Ladakh",
+  "scope": "household",
+  "benefit": "- One-time financial assistance of ₹50,000/- shall be given to female beneficiaries. \n- Financial assistance of ₹1,00,000/- has been given to Divyangjan beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Ladakh"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-both-bride-and-bridegroom-aadhaar-card-both-bride"
+  ],
+  "apply_url": "https://helphub.ladakh.gov.in/uploads/state-marriage/SMASForm.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Antodaya Anna Yojana (AAY) or Priority Household (PHH) ration cardholder families. \n1. The bride and bridegroom should be permanent residents of Ladakh\n1. The bride should be above 18 years of age.\n1. The bridegroom should be above 21 years of age.\n1. The marriage should be the first marriage between the bride and the groom.\n1. The divyangjan applicants with benchmark disabilities as defined in “The Rights of Persons with Disabilities Act, 2016 are eligible.",
+  "_criteria_filled": 1
+}

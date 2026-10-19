@@ -1,0 +1,32 @@
+{
+  "id": "widow-pension-scheme-hpbocwwb",
+  "name": "Widow Pension Scheme (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Monthly Pension of ₹1,500/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-bank-account-detailscopy-of-bank-passbook-caste-certificate-age-proof"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/PublicPages/ApplyForSchemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/wpshpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow of a deceased construction worker.\n1. The deceased worker should have been registered with the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB).\n1. The deceased worker should have maintained regular membership with the Board.",
+  "_criteria_filled": 2
+}

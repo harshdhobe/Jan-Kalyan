@@ -1,0 +1,26 @@
+{
+  "id": "safai-karmakar-ke-bachche-hetu-chhatravrtti-yojana",
+  "name": "Safai Karmakar Ke Bachche Hetu Chhatravrtti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Financial assistance provided according to the below table\n\n<br>\n\nClassesBoy Student  (Annual Scholarship amount)Girl Student (Annual Scholarship amount)Class I to V₹ 1,000/-₹ 1,500/-Class VI to VIII₹ 1,5000/-₹ 2,000/-Class IX to XII₹ 2,000/-₹ 3,000/-Graduation (BSc, B.Com, Diploma etc₹ 5,000/-₹ 6,000/-Post-Graduation ( MA, MSc, M.Com)₹ 7,000/-₹ 8,000/-Pursuing graduate level professional course",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-scholarship-application-form-students-birth"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/safai%20karmakaar%20ke%20bachche%20hetu%20chhaatravrtti%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skbhcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only 2 sons/daughters of registered sanitation workers are eligible for the scholarship.\n1. The scholarship is provided for studying different courses.\n1. After admission in college/polytechnic or other course for engineering or medical education, the students receiving scholarship amount under this scheme but student must study for minimum one year in that course.\n1. If such a student is eligible to receive scholarship amount under any scheme of any other government department/institution, then he/she can choose any one scheme which is beneficial for him/her.\n1. The student cannot avail benefits of two schemes simultaneously.",
+  "_criteria_filled": 1
+}

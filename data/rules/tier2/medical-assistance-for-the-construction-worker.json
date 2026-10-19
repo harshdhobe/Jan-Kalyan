@@ -1,0 +1,36 @@
+{
+  "id": "medical-assistance-for-the-construction-worker",
+  "name": "Medical Assistance for the Construction Worker",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "person",
+  "benefit": "- ₹10,000/- is provided for Medical assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerphotographs-of-the-concerned-w"
+  ],
+  "apply_url": "https://labour.sikkim.gov.in/Uploads/Bocw/8F1D404A-3EC3-4DA9-A4D6-75880B26D191.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/maftcwsbw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of Sikkim.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have served the Board for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - Should be a registered member Under the Sikkim Building and Other Construction Workers Welfare Board.\n  - The applicant should suffer from T.B., Cancer, Heart Disease, Kidney Disease, Eye Disease, Leprosy and Nerve Disease, heart Disease, Kidney Disease etc.",
+  "_criteria_filled": 3
+}

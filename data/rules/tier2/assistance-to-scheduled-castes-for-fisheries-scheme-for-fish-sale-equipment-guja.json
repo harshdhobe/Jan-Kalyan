@@ -1,0 +1,31 @@
+{
+  "id": "assistance-to-scheduled-castes-for-fisheries-scheme-for-fish-sale-equipment-guja",
+  "name": "Assistance to Scheduled Castes for Fisheries: Scheme For Fish Sale Equipment - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Assistance is provided at 50% of the total unit purchase cost of ₹15,000/-, which amounts to ₹7,500/-. \n> **This assistance covers four components:** \n\n- An insulated box (₹1,000/-), \n- A box (₹500/-), \n- A renkadi (₹5,000/-),\n- A weighing unit (₹1,000/-).\n\n<br>\n\n> **Frequency of Disbursement:** This benefit can be availed once in a lifetime.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-cardvoter-idration-cardpassport-as-proof-of-identity-bank-account-passboo"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Bu2wc90IXRdJKrcfHJ/9ew==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascfseguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) community.\n1. The applicant should be above 18 years of age.\n1. The applicant should be involved in inland fisheries activities.\n1. The applicant can be an individual, a society, a self-help group, an association, a reservoir monopoly, or a private unit.\n1. The applicant must have a bank account in their own name.\n1. The applicant must have an Aadhar Card/Voter ID/Ration Card/Passport as proof of identity.\n\n<br>\n\n> **Preference/Reservation:**\n\nThe scheme specifically benefits Scheduled Caste fishermen under the inland fisheries scheme.\n<br>",
+  "_criteria_filled": 2
+}

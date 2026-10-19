@@ -1,0 +1,27 @@
+{
+  "id": "design-development-training-for-master-crafts-persons-component-of-the-developme",
+  "name": "\"Design Development Training For Master Crafts Persons\" Component of the \"Development of Handicrafts\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **For Craftsperson**\n\n- Remuneration: ₹3,000 per month.\n- Accommodation Charges: ₹1,000 per month.\n- Travelling Allowances: To &amp; Fro 2nd class (berth) train fare.\n- Period of Training: As prescribed by the Training Unit/ Institution.\n\n> **For Training Unit/ Institution**\n\n- Course Fee: As prescribed will be paid.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-occupation-educational-certificatesmarksheets-residential-certificate-p",
+    "puducherry"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/handicraftmaster.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddtmcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Craftsperson or Artisan.\n- The applicant should be literate.\n- The applicant should be from Puducherry.\n- The applicant should be carrying out the activity in their respective crafts for at least three years.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "post-metric-scholarship-madhya-pradesh",
+  "name": "Post Metric Scholarship - Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Reimbursement of full fee for professional courses when the fee is fixed by the Admission and Fee Regulatory Commission.\n1. Reimbursement of full fee prescribed in the course of government institutions\n1. In the courses of non-government colleges, half of the compulsory fee is reimbursed up to the income limit of ₹2,50,000/-, and for students with an income limit of ₹2,50,000/- to ₹6,00,000/-.\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-account-details-income-certificate-of-parents-passport-size-pho"
+  ],
+  "apply_url": "https://highereducation.mp.gov.in/?page=RdZcR%2FYL1Md3wesIflshHQ%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "•  The applicant should belong to the Scheduled Caste category.\n•  If the applicant studying in non-government institutions, the annual income limit of parents/guardians is up to ₹6,00,000/-.\n•  There is no income limit for government institutions.\n<br>",
+  "_criteria_filled": 2
+}

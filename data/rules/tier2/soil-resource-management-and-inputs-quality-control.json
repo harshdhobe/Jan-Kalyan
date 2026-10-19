@@ -1,0 +1,27 @@
+{
+  "id": "soil-resource-management-and-inputs-quality-control",
+  "name": "Soil Resource Management and Inputs Quality Control",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- The farmers from the Puducherry region can give their soil and water samples to the soil testing lab attached to this office for analysis and recommendation.\n- The farmers of the Puducherry region are provided with soil health cards for their cultivable lands within a month.\n- This office is also involved in analyzing the quality of the three most important inputs used by the farmers namely (i) ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "farmer-id-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/citchart/subsch.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srmiqc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of Puducherry.\n- The applicant should be a Farmer.",
+  "_criteria_filled": 1
+}

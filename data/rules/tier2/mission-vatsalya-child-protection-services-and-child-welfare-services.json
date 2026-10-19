@@ -1,0 +1,28 @@
+{
+  "id": "mission-vatsalya-child-protection-services-and-child-welfare-services",
+  "name": "Mission Vatsalya (Child Protection Services and Child Welfare Services)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "&gt; **Financial Support for Vulnerable Children:**\n\n  - Children living with biological parents or extended families receive financial assistance to meet their education, nutrition, and healthcare needs, helping prevent separation from families.\n\n&gt; **Family-Based Foster Care Support:**\n\n  - Children without parental care are placed with biologically unrelated foster families, ensuring a nurtur",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-proof-of-date-of-birth-aadhaar-card-unique-identity-of-the-chi",
+    "fosteradoption-records",
+    "or-special-needs-certificates"
+  ],
+  "apply_url": "https://missionvatsalya.wcd.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvcppsacws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant child must be below 18 years of age for Sponsorship, Foster Care, and Adoption.\n1. The applicant child must be 18 years or above for After-Care support (up to 21 years, extendable to 23 years).\n1. The applicant caregiver family shall be eligible for financial support if the annual family income is below ₹8 lakh per annum or as prescribed by the Ministry of WCD from time to time.\n1. The applicant child must be willing to stay with the foster family.\n\n<br>",
+  "_criteria_filled": 1
+}

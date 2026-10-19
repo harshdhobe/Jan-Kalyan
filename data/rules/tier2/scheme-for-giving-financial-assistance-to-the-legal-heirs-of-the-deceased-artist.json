@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-giving-financial-assistance-to-the-legal-heirs-of-the-deceased-artist",
+  "name": "Scheme for Giving Financial Assistance to the Legal Heirs of the Deceased Artist (Wife/Husband) on the Death of the Indigent Artist Who Was Receiving Financial Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹3,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "3-photographs-of-the-legal-heir",
+    "attested-by-the-tahsildar-specimen-signature-of-the-incumbent-legal-heir-certifi",
+    "if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfgfattlhotdawhotdotiawwrfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the legal heir (wife/husband) of the deceased.\n- The deceased should have been an artist.\n- The deceased should have been receiving financial assistance through the scheme &quot; Scheme of Financial Assistance to Indigent Artistes&quot; by the Art and Culture Department, Government of Tamil Nadu.\n- The deceased should have been 58 years or older.\n- The benefit of the scheme will be given only on the death of the indigent artist. \n- The deceased should have professionally served for the enrichment of any one of the art disciplines or more such as music, dance, drama, film, folk arts, etc.\n- The annual income of the deceased artist or their legal spouse should not have exceeded ₹12,000/-.",
+  "_criteria_filled": 2
+}

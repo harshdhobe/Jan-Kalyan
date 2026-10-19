@@ -1,0 +1,40 @@
+{
+  "id": "ladli-laxmi-yojana",
+  "name": "Ladli Laxmi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. An assurance certificate of ₹1,43,000/- is issued by the government in the name of the girl child.\n1. From the time of registration, ₹6,000/- will be deposited in the **Madhya Pradesh Ladli Laxmi Yojana Fund** for five consecutive years, the total amount of ₹30,000/- will be deposited in the name of the girl child. 1. To girl child taking admission in class 6th: ₹2,000/-\n1. To girl child taking",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "girl-childs-samagra-id-the-family-id-of-the-girl-child-photo-of-the-girl-child-w",
+    "jpeg",
+    "png",
+    "gif",
+    "jpg",
+    "jpeg",
+    "png",
+    "gif-etc-formats",
+    "other-than-these-no-other-format-is-valid-the-size-of-all-documents-can-be-betwe",
+    "less-or-more-size-is-not-acceptable"
+  ],
+  "apply_url": "https://ladlilaxmi.mp.gov.in/Application/Public/Rules.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/lly",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Normal Cases**\n\n1. The girl child should be born on or after January 1, 2006.\n1. The girl child should be registered in the local Anganwadi center.\n1. Parents should be natives of Madhya Pradesh.\n1. Parents should not be income taxpayers.\n1. Family planning has been adopted after the birth of the second child.\n1. Parents who have two or less than two children, family planning has been adopted after the birth of the second child.\n1. The girl child born from the first delivery will be given benefits without family planning but It is necessary for the mother/father to adopt family planning in order to get the benefit for the second girl child. \n\n<br>\n\n**For Special Cases**\n\n1. In a family where there are maximum 02 children and the mother or father has died, registration can be done till the girl child is 05 years old. But in this type of case, if the woman/man gets married for the second time and already has 02 children, then the daughter born from the second marriage will not get the benefit of the scheme.\n1. If there are 03 girls together born at the time of first delivery, all three girls will get the benefit.\n1. Girls born to women prisoners in jail will also be benefited under the scheme.\n1. The benefit of the scheme will be given to a girl child born to a rape victim or a girl child.\n1. The collector has been given the authority to approve the cases till 02 instead of 01 year in the cases where family planning has not been adopted due to health related reasons.\n1. District collector will provide approval/rejection under special cases, after minutely examining the applications received late.\n1. The application has to be made by the Superintendent of the Orphanage/Protection Home within 1 year of admission in the Orphanage and before the girl child attains the age of 5 years or within 1 year of adoption by the adoptive parents.\n\n<br>",
+  "_criteria_filled": 2
+}

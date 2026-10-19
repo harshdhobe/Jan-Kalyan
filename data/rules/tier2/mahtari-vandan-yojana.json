@@ -1,0 +1,36 @@
+{
+  "id": "mahtari-vandan-yojana",
+  "name": "Mahtari Vandan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Each eligible woman will receive ₹1000/- per month.\n- Women receiving less than ₹1000/- per month under social assistance programs and various pension schemes through the Samaj Kalyan Vibhag will receive additional assistance to a total ₹1,000/- per month.\n- The assistance will be directly deposited into the applicant&#39;s Aadhaar-linked DBT-based bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-passport-size-photo-local-residence-document-residence-certificate"
+  ],
+  "apply_url": "https://cgwcd.gov.in/sites/default/files/%E0%A4%AE%E0%A4%B9%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%80-%E0%A4%B5%E0%A4%82%E0%A4%A6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE-%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Chhattisgarh.\n- The applicant must be a married woman.\n- The applicant must be at least 21 years old as of 1st January of the year of application.\n- The applicant can also be a widow / divorced / abandoned woman.",
+  "_criteria_filled": 3
+}

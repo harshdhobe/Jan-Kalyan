@@ -1,0 +1,26 @@
+{
+  "id": "naye-fal-bagicho-ki-sthapana",
+  "name": "Naye Fal Bagicho Ki Sthapana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. For high-value and common interval crops, the maximum grant amount is 50% of the unit cost, up to a maximum of Rs. 30,000/- per hectare.\n1. For intensive horticultural orchards, the maximum grant amount is 40% of the unit cost, up to a maximum of Rs. 40,000/- per hectare.\n1. A farmer will be given a grant for a minimum of 0.4 hectares and a maximum of 4.0 hectares area.\n1. Small/marginal farmer",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-passpor"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbks",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n   1. The applicant should be a native of Rajasthan.\n   1. The applicant must have agricultural land ownership and irrigation sources.\n   1. Farmers with land between 0.4 and 4 hectares are eligible for the grant.\n   1. For Scheduled Caste/Tribe farmers and tribal areas, the minimum area limit is 0.2 hectares.",
+  "_criteria_filled": 1
+}

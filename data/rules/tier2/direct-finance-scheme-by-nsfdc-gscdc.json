@@ -1,0 +1,31 @@
+{
+  "id": "direct-finance-scheme-by-nsfdc-gscdc",
+  "name": "Direct Finance Scheme by NSFDC (GSCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Provide a loan for self-employment to a scheduled caste person at a low interest rate of just 1% to 5%.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-business-address-proof-certificate-of-income-in-prescribed-format-a"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dfsbnsfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must belong to the Scheduled Caste (SC) community.\n1. The applicant must be unemployed. \n1. The applicant’s annual family income should not exceed ₹3,00,000.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

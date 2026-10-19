@@ -1,0 +1,41 @@
+{
+  "id": "micro-finance-scheme-for-self-help-groups-gtkvn",
+  "name": "Micro Finance Scheme for Self Help Groups (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Up to ₹60,000/- for eligible small businesses.- **Interest Rate:** 5% per annum.- **Loan Coverage:** 95% of the project/business cost is covered; 5% contribution is to be made by the beneficiary.- **Repayment Term:** 48 equal monthly installments (4 years), including interest.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-voter-id-passport-size-photos-business-address-proof-bi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gtkvn/Schemes/1452?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfsfshg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should  be a resident of Gujarat.\n1. The applicant should be a member of a Self Help Group (SHG).\n1. The applicant should belong to the Thakor or Koli caste.\n1. The applicant&#39;s age should be at least 21 years and not more than 50 years as on the date of application.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should have relevant experience in the proposed trade/business field.\n1. The applicant will have to provide suitable collateral to get the loan.\n\n> **Note:** At least 50% of the total loan allocation is reserved for those with family income up to ₹1,50,000/-.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,32 @@
+{
+  "id": "post-matric-scholarship-for-sc-students-delhi",
+  "name": "Post Matric Scholarship for SC students (Delhi)",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "> **Maintenance Allowance (per month)**\n\n**Group 1** (e.g., Medicine, Engineering): Hostellers ₹1,200/-, Day Scholars ₹550/-\n**Group 2** (e.g., Pharmacy, Nursing): Hostellers ₹820/-, Day Scholars ₹530/-\n**Group 3** (e.g., BA/BSc): Hostellers ₹570/, Day Scholars ₹300/-\n**Group 4** (e.g., ITI, Polytechnic): Hostellers ₹380/-, Day Scholars ₹230/-\n> **Other Benefits**\n\n- Reimbursement of Compulsory No",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-aadhaar-seeded-previous-year-mark-sheet-origin",
+    "delhi-caste-certificate-issued-by-govt-of-nct-of-delhi-institution-certificate-c"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsfssd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Student.\n- The applicant should be from a Scheduled Caste.\n- The annual income of the family of the applicant should not exceed ₹2,50,000/-.\n- The applicant should be enrolled in a recognized post-matriculation/post-secondary course in India.\n- The applicant should not be availing of any other scholarship for the same course from any other source.",
+  "_criteria_filled": 2
+}

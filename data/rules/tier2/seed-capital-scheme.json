@@ -1,0 +1,26 @@
+{
+  "id": "seed-capital-scheme",
+  "name": "Seed Capital Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Start-ups with a promising idea can get a one-time grant of up to ₹ 10,00,000, as determined by the Start-up Promotion Cell (SPC).\n1. This incentive can be availed by 100 start-ups each year which will be selected by the SPC as per its due diligence and guidelines.\n\n**NOTE:** Under no circumstance shall the benefits under this scheme be considered an entitlement. The SPC shall reserve the sole ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-plan-of-action-to-create-a-minimum-viable-product-the-form-and-document"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scs-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All the Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number are eligible.",
+  "_criteria_filled": 1
+}

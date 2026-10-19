@@ -1,0 +1,36 @@
+{
+  "id": "yuva-srujan-puraskar-navsarjan-chetana-puraskar",
+  "name": "Yuva Srujan Puraskar (Navsarjan Chetana Puraskar)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. A memento, certificate of appreciation and financial purse to the extent of **₹ 25,000/-** per individual.1. Every year a maximum of 6 persons in the fields of Music/Dance, Drama/Tiatr, Folk Art, Photography/Painting, Craft, Sculpture, Bhajan/Kirtan, Literature, and Film shall be considered.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "recommendation-letter-from-individual-institution-copy-of-id-proof-of-recommende"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Yuva%20Srujan%20Puraskar%202023-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yspncp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual artist.\n1. The age of the applicant should be between 25 and 40 years. Only in exceptional cases, the minimum &amp; maximum age could be relaxed by upto 5 years.\n1. The applicant should have given extraordinary contributions in the field of Art and culture at large in his/ her respective field of art in specific.\n1. The applicant should have contributed to his/her respective field of art in Goa for a minimum 5 years out of his/her career as a \n1. practising artist.\n1. No award will be presented posthumously under this scheme. However, during the selection process if the death of any artist occurs after the recommendation of his name then the Task Force Committee may consider his name for the award, in such circumstances, the award will be presented posthumously.",
+  "_criteria_filled": 3
+}

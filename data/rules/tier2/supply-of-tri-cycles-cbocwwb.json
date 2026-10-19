@@ -1,0 +1,32 @@
+{
+  "id": "supply-of-tri-cycles-cbocwwb",
+  "name": "Supply of Tri-Cycles (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "Tri-Cycles will be provided to the disabled registered construction workers and their dependents, once in life time.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwwbpassport-size-photograph-filled",
+    "if-any-copy-of-aadhaar-card-of-nominee-bank-details-receipt-of-payment-file-any"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&message=Successfully+logged+out&OWASP_CSRFTOKEN=HP8Q-F5JT-MJYR-ZOPL-KMHT-VYI2-NUWH-4F5P",
+  "source_url": "https://www.myscheme.gov.in/schemes/stccbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his/her contribution towards the labour welfare fund should regularly been received by the Board.\n   1. Tri-cycles will be provided to the disabled registered construction workers and their dependents.\n   1. The Tri-Cycles will be given on the production of disability certificate by the competent authority and once in a lifetime.\n   1. The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.",
+  "_criteria_filled": 2
+}

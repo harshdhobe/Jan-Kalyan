@@ -1,0 +1,26 @@
+{
+  "id": "andaman-nicobar-islands-scheme-for-health-insurance",
+  "name": "Andaman & Nicobar Islands Scheme for Health Insurance",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "household",
+  "benefit": "1. The Health Insurance (ANISHI) shall provide cashless treatment upto ₹5 Lakhs per patients per illness which include indoor and outdoor treatments.\n   1. Free travel expenses for patients with one attendant shall be reimbursed (Bunk class fare).\n   1. Critically ill patients, if referred under the scheme to travel by flight, will be entitled to reimbursement of the air ticket for the patient and",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "bpl-patientislander-cardvoter-id-card-bpl-ration-card-pensionerspension-payment"
+  ],
+  "apply_url": "https://dhs.andaman.gov.in/DHSForms/Health%20Insurance.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/anishi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The persons/patients of the following categories are eligible to avail the benefits under the scheme:\n\n   1. The person who belongs to the BPL category settled in the A&amp;amp;N Islands can avail of the benefits under the scheme.\n   1. The Government pensioners of the A&amp;amp;N Administration who have settled in these Islands after retirement with their dependent family members can avail of the benefits under the scheme.\n   1. The permanent resident of the Andaman &amp;amp; Nicobar Islands whose family annual income is below ₹3.00 Lakhs can avail of the benefits under the scheme.",
+  "_criteria_filled": 1
+}

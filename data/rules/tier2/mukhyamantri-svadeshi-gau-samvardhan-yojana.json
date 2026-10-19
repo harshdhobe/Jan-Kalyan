@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-svadeshi-gau-samvardhan-yojana",
+  "name": "Mukhyamantri Svadeshi Gau Samvardhan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- Grants covering up to 40% of the total cost per unit (maximum ₹80,000), which includes purchasing cows, transportation, insurance, fodder cutting machine, and shed construction.\n\n**Note 1:** One unit means 02 cows of indigenous improved breed per beneficiary and the unit cost is considered to be approximately 2 lakhs. \n**Note 2:** The grant will be released directly into the bank account of the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "apply-document-passport-size-photo-self-attested-photocopy-of-aadhar-card-notari",
+    "on-which-the-species-of-cow-is-clearly-mentioned-notarized-affidavit-the-assets"
+  ],
+  "apply_url": "https://updairydevelopment.gov.in/MediaGallery/811_53_2_2023.Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msgsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Uttar Pradesh.\n1. The age of the applicant should be 18 years or above. \n1. The milk producer/animal rearer should have adequate space/shed available for keeping the animals.\n1. The milk producer/animal husbandry should not already have more than 02 cows of indigenous advanced breed like Gir, Sahiwal, Haryana, Tharparkar and F-1 cow of hybrid breed.\n1. The applicant should purchase an indigenous improved breed of cows from outside the state. \n1. The applicant should purchase cows of indigenous improved breed of first or second calving.\n1. The applicant should purchase disease-free and healthy cows. \n1. The applicant should take animal insurance for all the cows purchased for 03 years. \n1. The applicant should take the transit insurance for the cattle rearer to get for bringing the cows from the place of purchase/state to the place of establishment of the unit.",
+  "_criteria_filled": 2
+}

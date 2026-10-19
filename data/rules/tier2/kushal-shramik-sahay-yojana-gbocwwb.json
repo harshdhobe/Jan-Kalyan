@@ -1,0 +1,32 @@
+{
+  "id": "kushal-shramik-sahay-yojana-gbocwwb",
+  "name": "Kushal Shramik Sahay Yojana (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the full course fee will be reimbursed.\n   1. If the course will be of less than 1 year duration, all fees of the course will be reimbursed.\n   1. If the course is for more than one year all fees will be reimbursed annually.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "original-bonafide-certificate-of-the-beneficiarys-ongoing-course-from-schoolcoll",
+    "000-or-more-or-letter-of-consent-as-per-govt-notification-any-other-documents-as"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/kssugbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers who are registered with the Gujarat Building and Other Construction Worker’s Welfare Board and any two of their children will be eligible to get the benefit of this scheme.\n   1. This assistance will be admissible only in relation to the son/daughter of a construction worker who has been taken admission in various courses of study run by the Skill University or an institution affiliated with it.\n   1. The age limit for children of construction workers to get assistance should be a maximum of 30 years. If the son or daughter is handicapped then there will be no age limit.\n\n**Note:** Assistance will be limited to the first Trial in the academic year. A person who fails in the same standard/class will not be eligible for second aid for the same standard/class.",
+  "_criteria_filled": 2
+}

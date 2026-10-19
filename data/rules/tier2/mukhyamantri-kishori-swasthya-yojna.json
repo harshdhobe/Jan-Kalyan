@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-kishori-swasthya-yojna",
+  "name": "Mukhyamantri Kishori Swasthya Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- Free sanitary napkins for adolescent girls in secondary schools.\n\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-or-school-admission-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://state.bihar.gov.in/educationbihar/Content.html?links&page=FACTS_SCHEMES",
+  "source_url": "https://www.myscheme.gov.in/schemes/mksybs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Bihar.\n- The applicant must be a girl.\n- The applicant must be enrolled in a recognized secondary school.",
+  "_criteria_filled": 2
+}

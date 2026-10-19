@@ -1,0 +1,39 @@
+{
+  "id": "supply-of-invalid-carriages-motorized-tri-cycles-to-the-persons-with-disabilitie",
+  "name": "Supply of Invalid Carriages (Motorized Tri-cycles) to the Persons With Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Invalid carriages (Motorized Tricycles) are provided free of cost to the persons with disabilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/issue-motorized-tricycles-differently-abled-persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sicmtcpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The annual income of the applicant should not exceed ₹ 75,000/- per annum.\n- The applicant should have a locomotor disability affecting lower limbs to a degree not less than 65%.\n- The applicant should be certified by the Medical Authority that he/she is fit for operating the invalid carriage (motor tricycle).\n- The applicant should not be in receipt of transport allowance for conveyance from the Department or any other source.\n- The applicant should be in gainful employment or pursuing higher studies.",
+  "_criteria_filled": 3
+}

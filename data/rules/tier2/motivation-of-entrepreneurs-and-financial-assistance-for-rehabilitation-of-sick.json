@@ -1,0 +1,27 @@
+{
+  "id": "motivation-of-entrepreneurs-and-financial-assistance-for-rehabilitation-of-sick",
+  "name": "Motivation of Entrepreneurs and Financial Assistance for Rehabilitation of Sick Industries",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Subsidy @ 50% on the cost of diagnostic study by technical institutions initiated through Financial Institutions/Banks/Government with a maximum of ₹50,000/-.\n- 50% of fees (maximum ₹50,000/- per unit) will be reimbursed on implementing suggestions given by the experts in the field of technology, marketing and finance engaged to advise sick units.\n- Interest subsidy @ 5% per annum limited to ₹3,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production",
+    "as-required-by-the-committee"
+  ],
+  "apply_url": "https://industry.py.gov.in/sites/default/files/rehabiliatation-sick-go.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mefarsi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.   The applicant should be MSME unit those who have obtained UAM/EM(Part-ll)/Permanent Registration.\n2.   The applicant should be a &quot;Sick&quot; Industrial Enterprise. &quot;Sickness&quot; is defined as follows at present and shall be revised as per RBI guidelines from time to time:\n\n- Continuous decline in gross output compared to the previous two financial years.\n- Delay in repayment of loan, taken from institutional sources, for more than 12 months.\n- Erosion in net worth due to the accumulated losses to the extent of 50% of the net worth during the previous accounting year.\n\n3.   Other firms taking over a sick unit for rehabilitation will also be eligible.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "manabik-scheme",
+  "name": "Manabik Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- Sanctioned Pensioner will be supported by Rs ₹1,000/- per Month through DBT mode at Pensioners Bank Account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copies-of-disability-certificate-from-appropriate-authority-aadhaa"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3aff1621254f7c1be92f64550478c56e6/uploads/2021/06/2021061861.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a disable person with 50% of disability. \n1. Applicant must be a resident of the state namely West Bengal for not less than 10 Years on the date of making application for Pension.\n1. Family income of the beneficiary should not exceed ₹1,00,000/- (One thousand) per month.\n1. The differently abled person should be declared unsuitable for physical work by the respective Medical officer.",
+  "_criteria_filled": 3
+}

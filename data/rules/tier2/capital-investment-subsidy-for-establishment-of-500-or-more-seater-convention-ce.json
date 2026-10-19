@@ -1,0 +1,32 @@
+{
+  "id": "capital-investment-subsidy-for-establishment-of-500-or-more-seater-convention-ce",
+  "name": "Capital Investment Subsidy for Establishment of 500 or More Seater Convention Centre as Above cum Hotel under MICE",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary receives a capital subsidy of 15% against the Fixed Capital Investment.\n- The maximum subsidy amount is capped at ₹10,00,00,000/-.\n\n##### ***Conditions***\n\n- _The unit must operate continuously for at least three years from the date of availing the subsidy._\n- _The beneficiary must submit a self-declaration regarding the continuous operation of the unit on or before the 15th of A",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "legal-entity-documentsproof-of-legally-authorized-person-from-the-unit-memorandu",
+    "including-certified-khasra-and-site-map-copy-of-registered-sale-deed-or-lease-de",
+    "municipality",
+    "etc-copy-of-the-building-permission-granted-by-the-appropriate-authority-copy-of",
+    "catering-bill",
+    "or-bill-of-service-provided-additional-requirementsphotographs-of-the-unit-from",
+    "not-more-than-500-kb-cancelled-cheque-of-the-firmcompany-copy-of-pan-card-copy-o"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cise5msccahm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a tourism project that functions as a &quot;Convention Centre cum Hotel under MICE&quot;.\n- The applicant must incur a minimum capital expenditure of ₹20,00,00,000/- (approved by the department).\n- The applicant must ensure the project conforms to the criteria and standards laid down by the Government of India for convention centers.\n- The applicant must ensure the seating capacity of the main convention hall, taken alone, is 500 seats or more.\n- The applicant must submit the application within one year from the date of commencement of operation.\n\n<br>",
+  "_criteria_filled": 1
+}

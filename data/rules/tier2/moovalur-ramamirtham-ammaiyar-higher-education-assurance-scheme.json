@@ -1,0 +1,31 @@
+{
+  "id": "moovalur-ramamirtham-ammaiyar-higher-education-assurance-scheme",
+  "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "1. All girl students who studied from Classes 6th to 12th in Government schools will be paid ₹1,000/- per month till the completion of their undergraduate degree, diploma, ITI, and any other recognized course.\n   1. The assistance amount under this scheme will be disbursed directly into the student’s Bank Account.\n   1. The students shall be eligible for this in addition to other scholarships.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-passport-size-photos-residence-certificate-educational-certificat"
+  ],
+  "apply_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationswomen-welfare/pudhumai-penn-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be residing in the state of Tamil Nadu.\n   1. The applicant should be a student.\n   1. The applicant should be a female to avail of benefits from this scheme.\n   1. All girl students who studied from Classes 6th to 12th in Government schools of Tamil Nadu are eligible to apply under the scheme.\n   1. The assistance can be extended to any number of girl students in a family pursuing higher education at recognized Institutions/Colleges/Universities.\n   1. The girl students should pursue their education in recognized courses and colleges/universities.\n   1. Only the first course of higher education will be considered as an eligible factor.\n\n**Note 01:** The girl students availing of other scholarships are also eligible to enroll in this scheme.\n**Note 02:** The higher education department facilitates opening a &amp;quot;zero balance&amp;quot; bank account and certifying every six months in a year viz., 30th June and 31st December on the bonafide status of the girl students who had applied.\n**Note 03:** Four core banks viz., Indian Bank, Canara Bank, Indian Overseas Bank, and SBI have been identified to open bank accounts to the students wherever necessary to furnish the debit card.",
+  "_criteria_filled": 2
+}

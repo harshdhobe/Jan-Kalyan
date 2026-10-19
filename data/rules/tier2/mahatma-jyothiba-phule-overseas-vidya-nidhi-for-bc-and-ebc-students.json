@@ -1,0 +1,38 @@
+{
+  "id": "mahatma-jyothiba-phule-overseas-vidya-nidhi-for-bc-and-ebc-students",
+  "name": "Mahatma Jyothiba Phule Overseas Vidya Nidhi for BC and EBC Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "1.\tFees: Fees shall be payable in two installments as follows:\n**Instalment-I:** An amount of ₹10.00 Lakhs shall be payable to the Institution/students upon production of the landing permit /I-94 card (Immigration Card)/VISA Stamping/Boarding pass.\n**Instalment-II:** An amount of ₹10.00 Lakhs shall be payable to the Institution/students upon production of the 1st Semester results.\n2. Sanction Proc",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "1-caste-certificate-2-income-certificate-3-birth-certificate-4-aadhaar-card-5-e",
+    "letter-of-admission-or-equivalent-11-copy-of-the-latest-tax-assessment-12-copy-o",
+    "if-required"
+  ],
+  "apply_url": "https://goir.telangana.gov.in/pdfshow.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mjpovnbcebcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Telangana.\n   1. The applicant should belong to the Backward Classes &amp;amp; Economically Backward Classes community.\n   1. The student’s age should be less than 35 years as of 1st July of the year of advertisement.\n   1. Family income shall be less than ₹5.00 Lakhs per annum from all sources.\n   1. Only 1 child from a family is eligible.\n   1. Qualification for Post-Graduation Course: 60% marks or equivalent grade in foundation Degree in Engineering/Management/Pure Sciences/Agriculture Sciences/Medicine &amp;amp; Nursing/Social Sciences/Humanities.\n   1. The awardee cannot be considered for the second or subsequent times as the individual can be awarded only once in a lifetime.\n   1. The students should have a valid TOFEL/IELTS or GRE /GMAT or PTE score.\n   1. The students should have obtained admission to an accredited Foreign University.\n   1. The students should possess a valid Passport.\n\n&gt; **Countries Eligible:**\n\nUSA, UK, Australia, Canada, Singapore, Germany, New Zealand, Japan, France and South Korea. \n**Note 01:** Not more than one child of the same parents/guardians will be eligible and to this effect, a self-certificate will be required from the candidate.\n**Note 02:** The Candidate should make his/her own efforts in seeking admission to an accredited University / Institution Abroad.  \n**Note 03**: The selected candidate has to join the concerned University within one year of communication of selection. On the expiry of this specified period of time, the award will be automatically cancelled and come to an end. No request for an extension of time for availing the award is permissible under the Scheme.\n**Note 04:** The candidate shall not change the course of study for which the scholarship has been sanctioned.  \n**Note 05:** It will be the responsibility of the candidate to obtain the appropriate visa for a country wherein one intends to study further under an award from the Scheme and the Visa issuing authorities may kindly see that only such type of Visa be issued which only permits the candidate to pursue a specified course in abroad and thereafter the candidate returns to India.\n**Note 06:** 33% of the awards shall be earmarked for Women candidates.\n**Note 07:** Ph.D. Courses are also eligible under the scheme.\n**Note 08:** Relaxations of 60% minimum marks in degree/PG is considered only, subject to the candidate getting an adequate score in eligibility test such as GRE/GMAT//IELTS/TOEFL/PTE and getting unconditional admission in the abroad Universities/Institutions in case if the registrations are not up to the expected levels within the Budget allocated and being done only on a case to case basis by the Government.",
+  "_criteria_filled": 3
+}

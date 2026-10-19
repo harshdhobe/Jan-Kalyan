@@ -1,0 +1,27 @@
+{
+  "id": "phool-vikash-yojana",
+  "name": "Phool Vikash Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** 50% subsidy on ₹80,000/- per hectare for marigold cultivation.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/AreaExpansionStateScheme/OnlineAppFlowerDevScheme.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a farmer.\n   1. The applicant must have agricultural land a minimum of 0.25 acres (0.1 ha) and a maximum of 10 acres (4 ha).\n   1. The applicant must be registered on the DBT portal Agriculture Department.\n\n&gt; **Note 1:** The benefits of this scheme can be taken by ryot farmers on the basis of land documents and non-ryot farmers on the basis of contract form.\n\n&amp;gt; **Note 2:** Beneficiaries will be selected on first come first serve basis.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

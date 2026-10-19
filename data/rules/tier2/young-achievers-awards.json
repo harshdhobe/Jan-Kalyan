@@ -1,0 +1,33 @@
+{
+  "id": "young-achievers-awards",
+  "name": "Young Achievers Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Award Components:** The Young Achievers Award consists of a memento, a Citation and a Cash Burse as fixed by Tiatr Academy of Goa.\n**Recognition Ceremony:** Selected artistes are honoured at a special function on 16th November on the occasion of the Birth Anniversary of Regina Fernandes, the First Lady of the Tiatr Stage.\n**Annual Awards:** The award is given to a male and a female artiste every",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-attested-copies-of-birthschool-leaving-certificates",
+    "passport",
+    "and-driving-license-photo-identity-of-the-applicant-proof-of-contribution-to-the"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be not more than 35 years of age.\n- The applicant must have contributed in the field of tiatr for at least 10 years.\n- The applicant must have performed in at least 15 tiatrs.\n- The applicant&#39;s contribution should be considered in areas such as acting, script writing, directing, singing, lyricist work, set designing, etc.\n\n***Relaxation***\nThe age limit may be relaxed if the health of the artiste is not well.\n<br>\n\n***Selection Criteria***\n\n- The applicant&#39;s contribution as an actor, script writer, director, singer, lyricist, set designer, etc.\n- The applicant should have received or won any awards in his/her field.\n- The applicant should have done any innovation on the tiatr stage.\n- The applicant, if a singer/musician, should have songs recorded on Compact Discs, Digital Versatile Discs, All India Radio, Doordarshan, online, etc.\n- The applicant should have acted/directed/sung/composed music/composed lyrics/designed sets/provided background music/designed light effects for dramas in other languages or in films.\n- The applicant, if script writer or lyricist, should have published any books of his/her scripts/lyrics.\n- The applicant, if a writer/director, should have written/directed at least 7 tiatrs.\n- The applicant&#39;s contribution in acting/singing/providing live music/stage setting/background music, providing lights, as a makeup artiste should be at least for 10 years and should have performed in at least 15 tiatrs.\n\n<br>",
+  "_criteria_filled": 2
+}

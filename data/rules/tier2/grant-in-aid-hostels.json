@@ -1,0 +1,37 @@
+{
+  "id": "grant-in-aid-hostels",
+  "name": "Grant In Aid Hostels",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Free lodging and boarding facilities are provided to the students.\n***Conditions for NGOs***\n\n- The voluntary institution must agree to adhere to the current rules for Backward Class Hostels and any future changes.\n- The voluntary institution must agree to comply with administrative or other instructions received from the Tribal Development Department and the Director, Tribal Development.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "organizations-constitution-copy-organizations-registration-copy-latest-bank-bala",
+    "and-administrative-or-other-instructions-from-the-tribal-development-department",
+    "tribal-development-proposed-site-map-attached-with-full-details-building-assessm",
+    "including-school-name",
+    "grade-level-of-education-provided",
+    "and-details-of-scheduled-tribe-children-studying-there-details-of-other-schedule",
+    "including-water-and-electricity-at-the-demanded-hostel-location"
+  ],
+  "apply_url": "https://tribal.gujarat.gov.in/assets/downloads/newgrantsuchna26082025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/giah",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> ***For the Student***\n\n- The applicant must be a student.\n- The applicant must be from a Scheduled Tribe.\n- The applicant must be studying in standard 5th to 12th.\n- The applicant’s family annual income must be up to ₹1,20,000/- for rural area.\n- The applicant’s family annual income must be up to ₹1,50,000/- for urban area.\n\n> ***For the Institution***\n\n- The applicant must be a voluntary institution.\n- The applicant must be registered under one of the following acts: Public Trusts Act 1950, Societies Registration Act 1860\n- The applicant organization must have a bank balance (liquidity/working capital) certificate showing an amount exceeding ₹15,000/-.\n- The building must be suitable and equipped with complete facilities, including water and electricity, and available at the demanded site for the hostel.\n\n> ***Preference/Priority***\n\n- Preference must be given to selecting hostels only in places where there is currently no hostel facility.\n- Priority should be given to backward and remote areas during hostel selection.\n\n<br>",
+  "_criteria_filled": 2
+}

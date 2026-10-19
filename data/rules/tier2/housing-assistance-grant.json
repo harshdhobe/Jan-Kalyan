@@ -1,0 +1,26 @@
+{
+  "id": "housing-assistance-grant",
+  "name": "Housing Assistance Grant",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- A one-time grant of ₹2,00,000/- for the construction/ repair of the house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-battle-casualty-report-of-the-martyr-soldierwar-disabled-re"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hasuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n2. The applicant must be either:\n\n- A widow or dependent of a soldier martyred in a war or border clash, or\n- A war-disabled retired soldier.\n\n3. The grant is provided only once in a lifetime for the purpose of building construction or repair.\n<br>",
+  "_criteria_filled": 1
+}

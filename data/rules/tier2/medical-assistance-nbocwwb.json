@@ -1,0 +1,26 @@
+{
+  "id": "medical-assistance-nbocwwb",
+  "name": "Medical Assistance (NBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "household",
+  "benefit": "- ₹1,000/- per day for the first five days of hospitalization.\n- ₹500/- per day for the next 10 days (up to 15 days total).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-under-the-nbocwwb-aadhaar-card-of-the-applicant-admission-and"
+  ],
+  "apply_url": "https://nbocw.nagaland.gov.in/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/manbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker should be registered under the Nagaland Building and Other Construction Workers&#39; Welfare Board. \n1. The spouse and children of the construction worker are also eligible for financial assistance. \n1. The applicant should be hospitalized for at least five continuous days for assistance.",
+  "_criteria_filled": 1
+}

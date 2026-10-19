@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-poshan-shakti-nirman-dnhdd",
+  "name": "Pradhan Mantri Poshan Shakti Nirman - DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1)\tHot, cooked, nutritious meals provided to students on all school working days.\n2)\tEnsures adequate calorie and protein intake as per national nutritional norms.\n3)\tImproves health and nutrition levels of school-going children.\n4)\tEnhances school attendance, retention, and reduces classroom hunger.\n5)\tSupports better concentration and learning outcomes among students.\n6)\tProvides essential micro",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "1-no-document-required-2-enrollment-of-the-child-in-a-government-balvatika-to-cl"
+  ],
+  "apply_url": "https://pmposhan.education.gov.in/Files/Guidelines/2023/Guidelines%20on%20PM%20POSHAN%20SCHEME.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-poshan-dnhanddd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tThe applicant must be a school-going child enrolled in a Government (Balvatika–VIII), Government-aided (VI–VIII) or Local Body (Balvatika–VIII) school.\n2)\tThe child should be studying in Balvatika, Primary classes I–V, or Upper Primary classes VI–VIII.\n3)\tNo income criteria are applicable; all enrolled children are eligible.\n4)\tChildren studying in Special Training Centres (STCs) under the RTE Act and CwSN enrolled under Home based Education are also eligible.\n<br>",
+  "_criteria_filled": 1
+}

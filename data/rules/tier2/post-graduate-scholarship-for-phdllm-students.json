@@ -1,0 +1,26 @@
+{
+  "id": "post-graduate-scholarship-for-phdllm-students",
+  "name": "Post Graduate Scholarship for Ph.D./LLM Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** Scholarship is provided to the poor students to help them achieve the benefits of Higher Education. \n**Mode of Disbursement:** Direct Benefit Transfer (DBT)\n_*The applicant must maintain registration as Doctor of Philosophy/Post Doctorate Research Scholar in recognized universities._\n_*Academic performance standards must be maintained as per university requirements._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-as-doctor-of-philosophypost-doctorate-research-scholar"
+  ],
+  "apply_url": "https://highereducation.assam.gov.in/portlets/scholarships-0",
+  "source_url": "https://www.myscheme.gov.in/schemes/pgspls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have registered their names as Doctor of Philosophy/Post Doctorate Research Scholar in any recognized universities.\n- The applicant must be domiciled in Assam.\n- The applicant must have obtained at least 55% or above marks in the last qualifying examination.\n- The applicant must have uniformly good academic records.\n\n<br>",
+  "_criteria_filled": 1
+}

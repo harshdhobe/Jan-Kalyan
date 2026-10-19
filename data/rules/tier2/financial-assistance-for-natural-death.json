@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-natural-death",
+  "name": "Financial Assistance for Natural Death",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- **Financial assistance of ₹2,00,000/- is provided by the Board to the legal heir of a registered worker who dies due to natural death.** \n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafnd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the legal heir of the deceased construction worker.\n1. The deceased construction worker should be registered under the Maharashtra Building and Other Construction Workers&#39; Welfare Board.\n1. The death of the deceased worker must be due to natural death.\n\n<br>",
+  "_criteria_filled": 1
+}

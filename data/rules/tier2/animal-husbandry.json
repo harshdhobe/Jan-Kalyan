@@ -1,0 +1,26 @@
+{
+  "id": "animal-husbandry",
+  "name": "Animal Husbandry",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Subsidy:** Subsidy of 50% to 75% on sheep units, milch animals, and calves.  - **Health Care Facility for Animals:** Provision of health care and veterinary services.  - **Others:** Artificial insemination for animals to improve breeding.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/26799",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahtn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should be a Farmer.\n- The beneficiary should belong to the Adi Dravidar/Tribal community.",
+  "_criteria_filled": 1
+}

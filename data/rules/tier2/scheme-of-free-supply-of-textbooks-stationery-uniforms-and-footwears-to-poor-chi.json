@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-free-supply-of-textbooks-stationery-uniforms-and-footwears-to-poor-chi",
+  "name": "Scheme of Free Supply of Textbooks, Stationery, Uniforms and Footwears to Poor Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Laptop for 12th Standard Passout.\n- Umbrella for 1st Standard.\n- Pencil &amp; Eraser for 1st to 5th Standard.\n- Text Book &amp; Exercise Note Books for 1st to 12th Standard.\n- Geometry Box for 4th &amp; 6th Standard.\n- Plastic Scale for 4th Standard.\n- Crayon, Drawing Note Book for Lower Kindergarten (LKG) &amp; Upper Kindergarten (UKG).\n- Uniform &amp; Footwear for LKG to 12th Standard.\n- Copyw",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "stamp-sized-photograph-aadhaar-card-educational-certificates-proof-of-admission"
+  ],
+  "apply_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_Freesupply.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfstsufpc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be studying in LKG to 12th Standard.\n- The applicant should be studying in a Government/ Government-aided Private School in the UT of Puducherry.",
+  "_criteria_filled": 1
+}

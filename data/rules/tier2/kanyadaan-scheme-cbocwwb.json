@@ -1,0 +1,27 @@
+{
+  "id": "kanyadaan-scheme-cbocwwb",
+  "name": "Kanyadaan Scheme (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "1. Financial Assistance of ₹21,000/- will be granted to registered workers on the eve of the marriage of his/her daughter and self-marriage of female registered workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwpassport-size-photograph-filled-i",
+    "if-any-copy-of-aadhaar-card-of-nominee-bank-details-receipt-of-payment-file-any"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/kscbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards the labour welfare fund should regularly been received by the Board.\n2.\tThe applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.\n3.\tThe beneficiary hasn’t claimed/availed of such kind of benefits prevailing under the Central/State Govt. Schemes. If both the father and daughter are working in the same establishment, the benefit shall be granted to one of them.\n4.\tThis benefit will be given only on the production of a Marriage Registration Certificate.\n5.\tThe benefit of the scheme shall be given for two daughters only.\n6.\tThe applicant should apply for the ‘Kanyadaan Scheme’ within three months from the date of marriage.\n7.\tFemale registered workers can avail the benefit of this scheme on the eve of their self-marriage.",
+  "_criteria_filled": 1
+}

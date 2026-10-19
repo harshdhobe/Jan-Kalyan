@@ -1,0 +1,26 @@
+{
+  "id": "viranarayan-singh-shram-ann-yojana",
+  "name": "Viranarayan Singh Shram Ann Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "1. Hot food is being distributed to construction workers at ₹ 5/- in food centers.\n1. Cooked rice, dal, vegetable or khichdi, fai dal, vegetable or cumin rice, fried dal, vegetable.\n1. Pickles will also be payable along with the food.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-residence-certificate-registration-card"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/pandit%20deenadayaal%20upaadhyaay%20shram%20ann%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vssay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Registered unorganized workers are eligible for benefits.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-25-rir-birds-unit-100-broiler-birds-unit-and",
+  "name": "Subsidy Scheme on Establishment of 25 R.I.R. Bird’s Unit, 100 Broiler Bird’s Unit and Stipend for Poultry Farming Training for Scheduled Caste People",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Name of Component**\t**Standard of Assistance**\t**Minimum Time Limit(In Year) for Reclaiming Benefits**Subsidy Scheme on establishment of 25 R.I.R. birds unit for Scheduled Caste\t75% of total Expenditure or maximum ₹6,000/- in kind (25 R.I.R. birds and poultry feed)\tBenefit can be given to one member of family. After 3 years the same family can avail benefit.\tSubsidy Scheme for establishmen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-scheduled-caste-residential-proof-aadhaar-card",
+    "ration-card",
+    "etc-training-completion-certificate-6-day-poultry-rearing-training-bank-details"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=42oB/Vz5ZAQN1D6LYuYwZw==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssbutsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be residing in Gujarat.\n   1. The applicant must be a Scheduled Caste individual.\n   1. The applicant must be an adult (18 years or above).\n   1. The applicant must have completed a 6-day poultry farming training.\n\n&gt; **Note:** Females and beneficiaries Below Poverty Line (BPL) will be given priority.",
+  "_criteria_filled": 2
+}

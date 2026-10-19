@@ -1,0 +1,38 @@
+{
+  "id": "indira-gandhi-national-old-age-pension-scheme-bihar",
+  "name": "Indira Gandhi National Old Age Pension Scheme- Bihar",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Under this scheme, eligible beneficiaries will receive monthly pension as follows:\n\n  - Beneficiaries aged 60 to 79 years: ₹400/- per month\n  - Beneficiaries aged 80 years or above: ₹500/- per month\n\n**Note:** The pension amount is being paid to the beneficiaries under the Direct Benefit Transfer (DBT) process. In this process, the pension amount is paid directly into the accounts of the beneficia",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-ie-voter-i",
+    "driving-license-residence-proof-proof-of-age-below-poverty-line-bpl-cardrelated",
+    "if-applicable-address-proof-bank-passbookbank-account-details-any-other-document"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031737.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignoapsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant (Woman/Man) should be a resident of Bihar.\n1. The applicant should be a senior citizen.\n1. The applicant should be 60 years of age or older.\n1. The applicant should belong to a Below Poverty Line (BPL) family.\n1. The applicant should not be receiving pension benefits under any social security scheme.",
+  "_criteria_filled": 3
+}

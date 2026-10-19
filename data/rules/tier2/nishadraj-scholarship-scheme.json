@@ -1,0 +1,26 @@
+{
+  "id": "nishadraj-scholarship-scheme",
+  "name": "Nishadraj Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Scholarship up to ₹20,000 or the actual expenditure (whichever is lower) for technical courses such as Medical, Engineering, CLAT-based Law courses, and equivalent technical programs.\n- Scholarship up to ₹10,000 or the actual expenditure (whichever is lower) for non-technical courses such as B.A., B.Sc., B.Com., B.C.A., B.F.F.C., B.Sc. Agriculture, Law, and similar parallel courses.\n\n> **NOTE:**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "student-identity-proof-address-proof-caste-certificate-bpl-certificate-if-applic"
+  ],
+  "apply_url": "https://mpfisheries.gov.in/hi/matasaya-mahaasangha/yaojanaa-kai-jaanakaarai",
+  "source_url": "https://www.myscheme.gov.in/schemes/nss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a child of a fisher family working in the federation’s reservoirs.\n1. The applicant should be a student. \n1. The student must belong to General, Other Backward Classes (OBC), Scheduled Castes (SC), Scheduled Tribes (ST), Minority communities, or Below Poverty Line (BPL) categories.\n1. The applicant should be enrolled in a recognized technical course (Medical, Engineering, CLAT-based Law, etc.) or a non-technical course (B.A., B.Com., B.Sc., Agriculture, etc.).\n1. The applicant should be pursuing higher education at the time of application.\n\n<br>",
+  "_criteria_filled": 1
+}

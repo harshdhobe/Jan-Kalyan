@@ -1,0 +1,28 @@
+{
+  "id": "investment-promotion-scheme-ips-for-thrust-sectors-scheme-for-medical-equipment",
+  "name": "Investment Promotion Scheme (IPS) for Thrust Sectors: Scheme For Medical Equipment And Accessories, Medical Diagnostics And Ayush Products Manufacturing Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- **Capital Investment Subsidy:** 20% of Gross Fixed Capital Investment made will be reimbursed subject to maximum of ₹50,00,000/- per unit.  - **Credit Linked Interest Subsidy:** 60% per annum limited to maximum of ₹50,00,000/- lakhs per annum for Five years OR for the period of repayment of loan whichever is earlier.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipsftsame",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Should be a New Manufacturing/ Service units or Existing Manufacturing/ Service units which undertakes Expansion/ Diversification in MSME sector.\n   1. The unit should have commenced the commercial production between 20.05.2022 to 19.05.2027.\n   1. Unit should be located in the U.T. of Dadra and Nagar Haveli &amp;amp; Daman and Diu.\n   1. Enterprise shall have to apply at online portal within one year from the date of first disbursement of loan or on or before the date of commencement of commercial production.",
+  "_criteria_filled": 1
+}

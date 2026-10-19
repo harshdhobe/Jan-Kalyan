@@ -1,0 +1,43 @@
+{
+  "id": "grant-of-financial-assistance-for-performance-of-marriage-of-poor-brides-living",
+  "name": "Grant of Financial Assistance for Performance of Marriage of Poor Brides Living Below Poverty Line",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹25,000 for marriage expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-of-bride-2-aadhaar-card-father-3-aadhaar-card-mother-4-anganwadi",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-and",
+    "1988-59-of-1988-certificate-of-identity-having-a-photo-of-such-person-issued-by"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfampmblpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The annual income of the applicant should not exceed ₹75,000 per annum.\n- The parents/guardian of the bride should be a citizen of India and a native of the Union Territory of Pondicherry by birth or by continuous residence of 5 years or more.\n- The assistance is payable only for the first marriage of the bride.\n- The marriage should be performed in accordance with the law in force on the date of marriage.\n- The assistance is given for the performance of the marriage of one daughter only.\n- The bride should have attained the age of 18 years, and the bridegroom 21 years on the date of marriage.",
+  "_criteria_filled": 4
+}

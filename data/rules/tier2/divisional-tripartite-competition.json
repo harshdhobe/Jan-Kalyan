@@ -1,0 +1,26 @@
+{
+  "id": "divisional-tripartite-competition",
+  "name": "Divisional Tripartite Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- The first prize winner of the drama competition will receive a cash prize of ₹3,000/-.\n- The second prize winner will receive a cash prize of ₹2,500/-.\n- The third prize winner will receive a cash prize of ₹2,000/-.\n- The participating organization will receive cash prizes based on their ranking.\n- The first prize winning organization will receive ₹10,000/-.\n- The second prize winning organizati",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-details-of-the-applicant-bank-passbook-of-the-heir-aadhaar-card-proof-of-ag"
+  ],
+  "apply_url": "https://sangeetnatak.gujarat.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/dtc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pension-to-widows-and-destitute-women-chandigarh",
+  "name": "Pension To Widows And Destitute Women-Chandigarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "household",
+  "benefit": "> **Pension Amount To Widows And Destitute Women - ₹1,000/-  per month**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "residence-proof-of-three-years-voter-card",
+    "ration-card",
+    "electricity-bill-etc-death-certificate-of-husband-in-case-of-widow-aadhar-card-m"
+  ],
+  "apply_url": "https://chdsw.gov.in/index.php/scheme/pension-to-widows-and-destitute-women",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptwadwc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant women&#39;s age should be 18-60 years.\n1. The applicant should be a resident of UT, Chandigarh for more than 3 years.\n1. The applicant&#39;s family&#39;s annual income should not exceed ₹1,50,000/-",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-alpasankhyak-protsahan-yojana",
+  "name": "Mukhyamantri Alpasankhyak Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**The following incentives are provided to candidates from the minority community for their preparation:**\n**For the All India Civil Services Examination conducted by the Union Public Service Commission (UPSC):**\n\n- ₹75,000/- after passing the Preliminary Examination and applying for the Main Examination.\n- ₹25,000/- for interview preparation after passing the Main Examination.\n\n**For the Uttarakh",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-certified-by-a-gazetted-officer-educational-qual",
+    "and-clarifying-whether-this-is-the-firstsecondthird-attempt-at-the-competitive-e"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmaspyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must belong to a minority community (Muslim, Sikh, Christian, Parsi, Buddhist, or Jain).\n   1. The applicant must have successfully cleared either the Preliminary or Main Examination stage of UPSC, UKPSC (Combined Competitive or Higher Judicial Services), or the entrance examination of a national-level institution (such as IITs, IIMs, etc.).\n   1. The annual income of the applicant’s parents/guardians (including the applicant’s own income, if any) must not exceed ₹4.50 lakh.\n   1. The grant amount will be released only after the candidate submits the admit card of the relevant examination and the original application form/certificate of success to the competent authority.\n\n<br>",
+  "_criteria_filled": 2
+}

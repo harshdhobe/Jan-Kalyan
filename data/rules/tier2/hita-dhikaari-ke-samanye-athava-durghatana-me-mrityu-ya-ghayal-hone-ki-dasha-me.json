@@ -1,0 +1,36 @@
+{
+  "id": "hita-dhikaari-ke-samanye-athava-durghatana-me-mrityu-ya-ghayal-hone-ki-dasha-me",
+  "name": "Hita-dhikaari Ke Samanye Athava Durghatana Me Mrityu Ya Ghayal Hone Ki Dasha Me Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. In case of death due to accident : ₹5,00,000/-\n1. In case of permanent total disability due to accident : ₹3,00,000/-\n\n  - Permanent total disability means disabling of two eyes or both hands or both legs due to accident.\n\n1. In case of partial permanent disability due to accident : ₹1,00,000/-\n\n  - Permanent partial disability means disabling of one hand or one leg.\n\n1. In case of serious inju",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-discharge-ticket-from-hospital-in-case-of-accident-copy-of-mortuary-repo"
+  ],
+  "apply_url": "https://labour.rajasthan.gov.in/Schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/hksadmmyghkdms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Construction workers must be between 18 to 60 years of age.\n1. Construction workers must be registered with the labor board.\n1. Construction worker must be depositing their contributions regularly.",
+  "_criteria_filled": 3
+}

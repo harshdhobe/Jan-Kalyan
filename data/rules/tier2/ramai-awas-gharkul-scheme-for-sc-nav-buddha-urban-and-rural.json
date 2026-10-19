@@ -1,0 +1,31 @@
+{
+  "id": "ramai-awas-gharkul-scheme-for-sc-nav-buddha-urban-and-rural",
+  "name": "Ramai Awas (Gharkul) Scheme for SC & Nav-Buddha (Urban and Rural)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "The benefits vary with the area that the beneficiary resides in - \n\n- **Rural Area:** ₹ 1,00,000/- (Beneficiary&#39;s share is Nil)- **Municipal Area:** ₹ 1,50,000/- (Beneficiary&#39;s share is 7.5%)- **Municipal Corporation:** ₹ 2,00,000/- (Beneficiary&#39;s share is 10%)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "residential-domicile-certificate-caste-certificate-aadhaar-card-address-proof-id"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/ramai-awas-gharkul-scheme-sc-nav-buddha-urban-and-rural",
+  "source_url": "https://www.myscheme.gov.in/schemes/rassnb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have lived for 15 years in Maharashtra.\n2. The applicant&#39;s annual income limit is as under - \n\n- For Rural Area, ₹1,00,000/- per annum.\n- For Municipal Area, ₹1,50,000/- per annum.\n- For Municipal Corporation, ₹2,00,000/- per annum.\n\n3. Only one person in the family will get the benefit.\n4. The applicant should have his/her own land\n5. The applicant should not be receiving the benefits of any other housing scheme of the Government.\n> **Reservation/Relaxation/Priority**\n\nPriority will be given to applicants from the Below Poverty Line (BPL).",
+  "_criteria_filled": 2
+}

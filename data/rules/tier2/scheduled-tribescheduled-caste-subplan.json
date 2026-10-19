@@ -1,0 +1,26 @@
+{
+  "id": "scheduled-tribescheduled-caste-subplan",
+  "name": "Scheduled Tribe/Scheduled Caste Subplan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme:\n\n  - Pond clusters, comprising a minimum of 10 ponds at one location, are created for individuals belonging to the Scheduled Castes and Scheduled Tribes. The scheme provides 60% of the total cost as a grant for pond construction and the first-year investment, including expenses on fish hatcheries and feed. A minimum of 10 ponds will be constructed in each village.\n  - Individual",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-residence-certificate-khasra-khatauni-of-land-land-owners"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stscss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an individual belonging to the Scheduled Caste or Scheduled Tribe category and residing in the mountainous or plain areas of Uttarakhand.\n   1. The applicant must be interested in, or currently engaged in, fish farming or fish production.\n   1. The applicant (individual or group) must own or lease land and have a nearby water source within the state.\n   1. The applicant must be a permanent resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

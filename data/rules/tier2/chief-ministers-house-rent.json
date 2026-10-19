@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-house-rent",
+  "name": "Chief Ministers House Rent",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- ₹2,000/- per student in Bhopal, Indore, Jabalpur, Gwalior, and Ujjain.\n- ₹1,250/- at district headquarters.\n- ₹1,000/- in tehsil/development block headquarters and other cities.\n- Helps students with housing expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be regularly admitted to colleges or equivalent institutions and not in any government hostel.\n1. The applicant should be admitted before the last date and submit &#39;Appendix-B&#39;.\n1. The applicant should be within the income limit of the Post Metric Scholarship Scheme.\n1. The applicant should be responsible for any excess rent beyond the prescribed allowance.\n1. The applicant should be ineligible for the scheme if they fail in any year.\n1. The applicant should be aware of the third-party evaluation and annual review of the scheme.",
+  "_criteria_filled": 1
+}

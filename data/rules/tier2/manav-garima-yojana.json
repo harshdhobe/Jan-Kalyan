@@ -1,0 +1,43 @@
+{
+  "id": "manav-garima-yojana",
+  "name": "Manav Garima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Under the scheme, tool kits are provided for a total of 28 types of trades/businesses to individuals seeking self-employment opportunities. The list is as follows:\n**Sl. No.****Trade Name****Sl. No.****Trade Name****Sl. No.** **Trade Name**1Handicraft work10Electrical Appliances Repairing19Pickle Maker2Stitching work11Agricultural Blacksmith20Hot, Cold Drinks, Snack Seller3Vehicle Servicing And Re",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-ration",
+    "land-document-proof-of-annual-income-proof-of-vocational-training",
+    "if-any-self-declaration-agreement-any-other-documents-as-required-application-at"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/app_form_30102021_final_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste category.\n   1. The applicant should be a native of Gujarat state.\n   1. The age limit of the applicant should be 18 to 60 years.\n   1. The applicant from the Scheduled Caste Category should have an annual family income of up to ₹6,00,000/-.\n   1. There is no income limit for applicants belonging to the Most Backward Caste among the Scheduled Castes category.\n   1. If the beneficiary or any family members of the beneficiary have already benefited from this scheme, they are not eligible to avail of its benefits again.",
+  "_criteria_filled": 4
+}

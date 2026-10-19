@@ -1,0 +1,31 @@
+{
+  "id": "intensive-fisheries-development-programme-subsidy-on-commercial-four-wheeler-veh",
+  "name": "Intensive Fisheries Development Programme - Subsidy on Commercial Four-Wheeler Vehicles",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- Subsidy under the scheme is provided at the rate of 25% of the actual cost of the four-wheeler (₹9 lakh) or ₹2.25 lakh, whichever is lower.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-letter-1-agreement-letter-between-the-fisheries-farmer-and-the-departm"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=f5znw7Ta+lEjFDcziGz%2frA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/socfwv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant should be at least 18 years of age.",
+  "_criteria_filled": 2
+}

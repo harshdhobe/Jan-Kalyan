@@ -1,0 +1,28 @@
+{
+  "id": "incentives-to-green-investment-scheme",
+  "name": "Incentives to Green Investment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Water and Energy Audit Reimbursement***\n\n- Reimbursement of 25% of the cost of water and energy audits.\n- Subject to a maximum of ₹1,00,000/- per unit during the validity of this scheme.\n\n##### ***Energy Conservation Equipment Capital Reimbursement***\n\n- Reimbursement of 40% of the capital cost incurred on the purchase of the equipment.\n- Subject to ₹10,00,000/- per unit.\n- A unit can ava",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-self-attested-copy-of-registration-under-umbrella-scheme-a-self-declaration-in",
+    "with-regard-to-each-of-these-equipment-a-certificate-from-the-chartered-accounta",
+    "memorandum-of-associationarticles-of-association-as-the-case-may-be"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a manufacturing unit.\n- The applicant must fall under the micro, small, medium, or large category.\n- The applicant must ensure the water and energy audits, if claimed, are carried out by a recognised institution/consultant certified by the Bureau of Energy Efficiency, Ministry of Power and Government of India.\n- The applicant must ensure the energy conservation equipment, if claimed, is certified as an energy conserving fixed asset of capital nature by a recognised institution/consultant certified by the Bureau of Energy Efficiency, Ministry of Power, Government of India.\n- The applicant must ensure the total subsidy received (Subsidy under this scheme + Any other Subsidy received from Government of Goa/Government of India + Interest subsidy from soft loan/low interest loan schemes) does not exceed 100% of the purchase value of the respective equipment.\n\n<br>",
+  "_criteria_filled": 1
+}

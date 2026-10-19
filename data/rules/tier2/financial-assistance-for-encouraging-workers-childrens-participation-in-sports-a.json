@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-encouraging-workers-childrens-participation-in-sports-a",
+  "name": "Financial Assistance for Encouraging Worker's Children's Participation in Sports Activities- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance is provided as per the following table to the children of workers for participating in sports competitions:\nSl. No. Sports CompetitionDistrict-level competition amountDivision-level competition amountState-level competition amountNational-level competition amountInternational-level competition amount1On participation in group sports competition₹2,000/-₹3,000",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/75",
+  "source_url": "https://www.myscheme.gov.in/schemes/faewcpsa-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The applicant should be registered with the Haryana Labour Welfare Board.\n   1. The applicant&amp;#39;s monthly salary should not exceed ₹25,000/-.\n   1. Benefits are provided to children of registered workers for participating in group or individual sports competitions, and for securing 1st, 2nd, or 3rd place in these competitions.\n   1. There is no limit on the number of workers&amp;#39; children eligible under this scheme.\n   1. There is no minimum service period requirement for the worker.\n\n**Note:** Application must be submitted within one year of the date of issuance of the certificate of participation in sports activities.",
+  "_criteria_filled": 1
+}

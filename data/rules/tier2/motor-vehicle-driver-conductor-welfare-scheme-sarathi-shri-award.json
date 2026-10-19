@@ -1,0 +1,26 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-sarathi-shri-award",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Sarathi Shri Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Award Components**\n\n- Cash Prize: ₹1,00,000/-\n- Appreciation Certificate\n- Trophy\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-applicant-identification-number-samagra-family"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-ssa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor.\n1. The applicant should possess a valid commercial driving license or conductor&#39;s license issued in Madhya Pradesh.\n1. The applicant’s name should be registered on the Samagra Portal.\n1. The applicant should be actively engaged or registered as a transport driver or conductor.\n1. The applicant should not be a government employee.\n\n<br>",
+  "_criteria_filled": 1
+}

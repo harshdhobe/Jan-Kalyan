@@ -1,0 +1,26 @@
+{
+  "id": "registration-of-aromatic-plant-farmers-centre-for-aromatic-plants",
+  "name": "Registration of Aromatic Plant Farmers - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Registration of farmers with the Aromatic Plant Centre (CAP) is mandatory to avail of the benefits of all the schemes run by the Aromatic Plant Centre.\n  - After registration, CAP provides farmers with facilities such as subsidies provided by the State and Central Governments, technical information, training, product clearance, etc.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-records-documents-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rapf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a farmer.\n   1. The farmer must either legally own agricultural land or have leased land for a minimum period of 10 years.\n   1. The farmer must be engaged in aromatic plant cultivation.\n\n<br>",
+  "_criteria_filled": 1
+}

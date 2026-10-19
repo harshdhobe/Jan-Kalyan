@@ -1,0 +1,26 @@
+{
+  "id": "the-wired-internet-scheme-for-information-and-communication-technology-laborator",
+  "name": "The Wired Internet Scheme for Information and Communication Technology Laboratory in Schools in the State of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Monthly rental reimbursement of up to ₹2,000/-.\n- The benefit is intended to avail internet service to the respective school&#39;s Information and Communication Technology Laboratory.\n\n##### ***Disbursement***\n\n- Financial support will be released to the Head of Government and Government-Aided Schools through the Directorate of Education.\n- The Deputy Director Education of each Educational Zone ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "post-selection-benefit-continuation-proper-recordsregister-the-school-shall-main"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2324/2324-15-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/twisictlssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Government School or Government-Aided School in Goa.\n- The applicant must have a dedicated Information and Communication Technology Laboratory.\n- The applicant must have at least 03 working Computer Systems in the Information and Communication Technology (ICT) Laboratory.\n- The school must have a minimum student enrolment as prescribed by the Directorate of Education.\n- The school Information and Communication Technology Laboratory must not have availed of any internet services through any other schemes of the State or Central Government agencies or bodies.\n\n##### ***Required Internet Service Provider/Internet Vendor Conditions***\n\n- The Internet Service Provider/Internet Vendor must provide 50 Megabits per second upload and download speeds at a 1:10 contention ratio and unlimited data through Optical Fibre Connection.\n- The Internet Service Provider/Internet Vendor must provide a Service Level Agreement for rectification time after a complaint is logged in the Internet Service Provider/Internet Vendor provided portal: Minor Fault (Last mile issue, device issue, etc.) rectification time must be 04 to 08 hours.\n- The Internet Service Provider/Internet Vendor must provide a Service Level Agreement for rectification time after a complaint is logged in the Internet Service Provider/Internet Vendor provided portal: Major Fault (Major Links Down, Underground cable cut, etc.) rectification time must be 24-48 hours.\n- The link uptime should be not less than 97.5%.\n\n##### ***Preference***\nPriority would be given to remote/rural schools.\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "charmashilpa-scheme",
+  "name": "Charmashilpa Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "**Total Financial Assistance:** ₹10,00,000/- per unit.\n\n- ₹5,00,000/- as subsidy.\n- ₹5,00,000/- as a bank loan.\n\n<br>\n\n**Breakdown of costs:**\n\n- ₹3,50,000/- for machinery.\n- ₹6,00,000/- for working capital (raw materials and labor).\n- ₹50,000 for other expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 30000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-with-rd-number-annual-income-certificate-ration-c"
+  ],
+  "apply_url": "https://schemes.lidkar.com/schemes/self-employment-programs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leather artisans/Artisans SHGs/Co-operative societies.\n1. The applicant should belongs to sub-castes Arundathiyar, Chammadiya, Chamar, Chambar, Chamagar, Madar, Madig, Madiga, Mini Madig, Jambavalu, Haralayya, Machigar, Mochigar, Mochi, muchi, Telugu Mochi, kamaati mocha, Rohidas, Dhor, kakkayya, Kankayya, Samagara, Samagar, Aadhi Anddra, Aadhi Dravida, Aadhi Karnataka among schedule castes.\n1. The age of the applicant should be 18 years.\n1. The applicant&#39;s annual family income should not exceed ₹30,000/ in rural areas and ₹25,000/- in urban areas.\n1. The applicant or their family members must not have received benefits from other schemes, except training programs.\n1. The applicant&#39;s family members should not be employed in government or semi-government organizations.",
+  "_criteria_filled": 3
+}

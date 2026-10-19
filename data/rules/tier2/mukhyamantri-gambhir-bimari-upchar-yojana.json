@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-gambhir-bimari-upchar-yojana",
+  "name": "Mukhyamantri Gambhir Bimari Upchar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- Financial Assistance: Up to ₹5,00,000/- per case for the treatment of critical illnesses such as cancer, kidney transplant, and severe liver diseases.\n- Valid Hospitals: Treatment costs are covered only in Jharkhand&#39;s medical colleges, central medical institutions, or empaneled hospitals. (Link)\n- Expense Reimbursement: Covers bed charges, medicines, surgeries, and other related costs.\n\n**NO",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photographs-income-certificate-medical-reports-bank-account-detail"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D011DO003SD00314022020055057258",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgbuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant’s gross annual income must be below ₹8,00,000/- for three consecutive years (not applicable for acid attack victims).\n1. The applicant must suffer from one of the specified illnesses:\n\n  - All types of cancer.\n  - Kidney transplant.\n  - Severe liver diseases.",
+  "_criteria_filled": 2
+}

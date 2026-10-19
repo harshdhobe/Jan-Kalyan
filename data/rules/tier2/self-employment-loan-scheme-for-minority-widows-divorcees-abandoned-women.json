@@ -1,0 +1,53 @@
+{
+  "id": "self-employment-loan-scheme-for-minority-widows-divorcees-abandoned-women",
+  "name": "Self-Employment loan scheme for Minority Widows, Divorcees / Abandoned Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "- Financial assistance of up to ₹1,00,000/- as a government subsidy.\n- Maximum loan amount of ₹5,00,000/-.\n- The interest rate on the loan amount (excluding subsidy) is 6%.\n\n<br>\n\n> **Conditions/Criteria Associated with Benefits:**\n\nA 20% subsidy (maximum ₹1,00,000/-) is provided on the loan amount.\n\n- For a loan amount of ₹1,00,000/-, the subsidy is ₹20,000/-.\n- For a loan amount of ₹2,00,000/-, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-for-initial-application-copies-to-be-submitted-with-the-application-income-cer",
+    "divorced",
+    "or-abandoned-woman-2-for-interview-originals-to-be-presented-ration-card-aadhaar",
+    "divorced",
+    "or-abandoned-woman-permanent-residency-certificate-copies-of-the-above-documents",
+    "quasi-governmentpublic-sector-undertakingspanchayatsmunicipalitiesuniversitiesco",
+    "from-the-parent-department-employment-certificate-salary-certificate-only-for-th",
+    "up-to-the-agreement-date"
+  ],
+  "apply_url": "https://ksmdfc.org/wp-content/uploads/2025/02/Widows-application-form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/seloanwomen",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to a minority community (Muslim, Christian, Buddhist, Sikh, Parsi, Jain).\n- The applicant should be a widow, divorced woman, or abandoned woman.\n- The applicant&#39;s age should be between 20 and 60 years.\n- The applicant&#39;s family&#39;s annual income should not exceed ₹2,50,000/-.\n\n> **Preference/Priority**\n\n- Priority will be given to mothers of children below 18 years of age.\n- Priority will be given to widows from families identified through the extreme poverty identification survey.\n\n<br>",
+  "_criteria_filled": 5
+}

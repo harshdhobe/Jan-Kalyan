@@ -1,0 +1,34 @@
+{
+  "id": "mukhyamantri-bal-hridaya-upchar-yojana",
+  "name": "Mukhyamantri Bal Hridaya Upchar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Financial assistance ranging from ₹25,000/- to ₹1,00,000/- per case for treatment.\n- Provision of free treatment/surgery for 07 identified heart diseases in children.\n- The sanctioned amount is transferred to the account of the concerned medical institution via Cheque or E-Payment (e-transfer).\n- The benefit delivery period is stipulated as 20 working days.\n\n***Conditions***\n\n- Treatment must be",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 15
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationestimate-from-a-government-or-government-recognized-private-ho",
+    "janpad-panchayat",
+    "for-urban-area-certificate-issued-by-commissioner",
+    "nagar-palikanagar-parishad-official-recent-color-photograph-of-the-patient-patie"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbhuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n- The applicant must be a member of an Economically Weaker Family or a Below Poverty Line (BPL) family.\n- The applicant must ensure their name is recorded in the family roster and they hold a ration card.\n- The intended beneficiary (child) must be aged 0 to 15 years.\n- The intended beneficiary (child) must be suffering from one of the identified heart diseases.\n\n<br>",
+  "_criteria_filled": 2
+}

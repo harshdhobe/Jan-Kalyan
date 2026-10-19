@@ -1,0 +1,35 @@
+{
+  "id": "national-overseas-scholarship-for-scheduled-tribes-st-students",
+  "name": "National Overseas Scholarship For Scheduled Tribes (ST) Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "<br>\n\n**Sl. No.****Scholarship Component****Details**1.Annual Maintenance AllowanceThe Annual maintenance allowance in USD15,400 ($ Fifteen thousand four hundred only) in US/ Pound sterling 9,900 (£ Nine thousand nine hundred only) in United Kingdom for all level courses. For other countries, the USD or equivalent rates would be applicable.2.Annual Contingency and Equipment AllowanceThe Annual Con",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 38
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      }
+    ]
+  },
+  "documents": [
+    "required-documents-profilepersonal-photo-image-file-only-date-of-birth-dob-certi",
+    "at-the-time-of-admission-to-course-which-will-be-valid-for-the-entire-duration-o",
+    "the-income-of-previous-financial-year-will-be-considered-for-the-purpose-of-elig",
+    "if-a-candidate-applies-afresh-for-academic-year-2021-22",
+    "the-family-income-for-financial-year-2020-21-would-be-required"
+  ],
+  "apply_url": "https://tribal.nic.in/downloads/faqs/Instruction-manual-NOS-2022-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/css-nos-st",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be from a Scheduled Tribe (ST).\n- The applicant must be pursuing a post-graduate course (Master, Ph.D., or Post-Doctoral Research) from a foreign institute/university.\n- The annual income of the family of the applicant (from all sources) should not be greater than ₹ 6,00,000/-.\n- The applicant must have secured at least 55% marks or equivalent grade in the qualifying examination (In the case of Post-Doctoral Research, the qualifying exam is Ph.D.; In the case of Ph.D., the qualifying exam is a Master’s Degree; In the case of a Master’s Degree, the qualifying exam is a Bachelor&amp;#39;s Degree)\n- The applicant must be the only child in the family who is availing/has availed of this scholarship.\n\n**Age Criteria:-**\n\n- If pursuing Post-Doctoral Research, the age of the applicant as on 1st July of the selection year, should not be greater than 38 years.\n- If pursuing Ph.D., the age of the applicant as on 1st July of the selection year, should not be greater than 35 years.\n- If pursuing Masters, the age of the applicant as on 1st July of the selection year, should not be greater than 32 years.\n\n**Income Criteria:-** \nScholarships will be paid to the students whose family income from all sources does not exceed ₹ 6,00,000/- (Rupees Six lakhs only) per annum. The family income shall be computed in the following manner: - \n\n- In case where both father and mother are working, the combined income of both of them from all sources shall be taken into account in computing total family income. \n- In case any other member of the family, other than father and mother, is an earning member, his or her income shall not be included in computing total family income. \n- In case only one parent is alive, the income of that parent shall be taken into account for considering total family income. If other sibling or family member is an earning member, their income shall not be included in computing total family income. \n- In case of an orphan, supported by a guardian, income criteria shall not apply. \n\n**Note:-**\n\n   1. 30% of the awards for each year shall be earmarked for women candidates. \n   1. However, in case, adequate women candidates are not available as per the stipulations of the scheme, then the unutilized slots will be utilized by selecting suitable male candidates.\n   1. There are 17 slots for ST candidates and 3 slots for PVTG candidates.\n   1. An individual is eligible for only one award and cannot be considered for any other award or same/higher level of award for the second time under the Scheme.\n\n**Other Conditions:-**\n\n   1. Selected candidates shall furnish all such documents and enter into such agreements before their departure as shall be decided by the Government of India from time to time. \n   1. In case the candidate is already residing abroad, he/she shall furnish all relevant documents and enter into such agreements prior to the release of the scholarship by the Indian Mission. \n   1. The candidate shall not change the course of study or research and the Institute for which scholarship has been sanctioned. \n   1. It will be the responsibility of candidate to obtain the appropriate visa for a country wherein he/she intends to study. \n   1. In case the awardee has received overpayment through Indian Mission abroad or any other Government agency, he/she shall refund the same to Indian Mission abroad. \n   1. After completion of the course, the awardee shall upload the course completion details along with brief of study in the Alumni Module of National Overseas Scholarship (NOS) portal of the Ministry before his return tickets are booked. \n\n**Criteria for preparation of Merit List:-** \n\n  - All applications received within the stipulated period, will be scrutinized for the eligibility criteria.\n  - Separate merit list will be drawn for each field of study. \n  - The eligible applications will be considered for award of scholarship as per the procedure given below:\n\n   1. First priority will be given to the candidates who have already got admission and are pursuing their studies in the top 1,000 ranked foreign Institutes/Universities (as per the latest QS world ranking). The merit list will be drawn based on the ranking of the Institute. In case of a tie between the QS rankings of two or more candidates, merit will be decided on the basis of marks/grades secured by the candidate in the qualifying examination for higher studies for which the scholarship has been applied for.\n   1. In case sufficient number of students are not selected as mentioned in para (a) above, merit list will be drawn from the candidates who have already secured preliminary letter/offer of admission from top 1,000 ranked foreign Institutes/Universities (as per the QS world ranking) and are yet to join. Merit list will be drawn in similar manner as mentioned in para ‘a’ above; i.e. based on the ranking of the Institute and in case of tie in ranking of university/institution, the marks/grades secured by the candidate in the qualifying examination.\n   1. In case sufficient students are not selected as per para “1” and “2” above, the vacant slots will be filled from among the remaining eligible candidates through personal interview by a committee of experts constituted by the Ministry. The candidates who have cleared GRE/GMAT/TOFEL etc. will be given preference.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mizoram-sports-incentive-cash-award-scheme",
+  "name": "Mizoram Sports Incentive Cash Award Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "> **Incentive Cash Award:**\n\n- Lump sum cash award to Gold, Silver, and Bronze medal winners in recognised sports disciplines.\n- Applicable for National and International Championships, and Invitation Competitions/Tournaments Organized by the Recognised Federation.\n\n- The amount of the incentive cash award will be as per the Annexure in the [Official Guidelines](https://sys.mizoram.gov.in/uploads/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-proof-of-residence-in-mizoram-medal-certificate-par",
+    "as-required"
+  ],
+  "apply_url": "https://sys.mizoram.gov.in/uploads/attachments/2022/09/4e39860f74233bd0ccfccab9d698a156/incentive-cash-award-scheme-2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msias",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- A person must be a resident of Mizoram, representing any state of the union, the Sports Control Boards, or the Country.\n  - Winner of first, second, or third position in the specified championship as enumerated in column 3 of Annexure.\n  - Any sports-person participating in the International Championship.\n  - Officials, Manager, Coach, Masseur, Physiotherapist, and Doctor will also be entitled to receive 25% of the award applicable to the sports- person.\n  - Any sports person of Mizoram representing the Country in any recognised sports discipline in any international sports or championship will be entitled to receive Rs. 20,000/- as sports kit allowance.\n  - For the purpose of awarding the incentive cash award, there can be only one award in one sports discipline in a championship or tournament.\n\n<br>",
+  "_criteria_filled": 1
+}

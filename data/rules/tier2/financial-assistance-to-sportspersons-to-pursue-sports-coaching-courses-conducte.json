@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-sportspersons-to-pursue-sports-coaching-courses-conducte",
+  "name": "Financial Assistance to Sportspersons to Pursue Sports Coaching Courses Conducted by SAI, NSNIS, Patiala as a Part of Skill Development Programme to Improve their Employability",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "Sportspersons who apply and get selected to undergo SAl, NSNIS conducted coaching courses will be provided financial assistance as follows:-\n\n   1. **Sportspersons under the BPL category:** 100% Course Fee plus an amount of ₹10,000/- for Diploma and long-term courses and ₹5,000/- for Six Weeks Certificate Courses to meet traveling and other miscellaneous expenses.   1. **Sportspersons of Non-BPL c",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-attested-bpl-card-if-applicable-aadhaar-card-education"
+  ],
+  "apply_url": "https://sports.odisha.gov.in/schemes/sports-persons-welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/faspscccsnppsdppie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant belonging to the BPL or Non-BPL category both are eligible.\n   1. Sportspersons who have represented the Districts of Odisha, Odisha State, and its Universities in Sports &amp;amp; Games and who are found eligible to undergo the academic courses as laid down by SAI, NSNIS under its eligibility criteria only will be eligible under the scheme.",
+  "_criteria_filled": 1
+}

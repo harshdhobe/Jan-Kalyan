@@ -1,0 +1,26 @@
+{
+  "id": "research-and-development-grant",
+  "name": "Research and Development Grant",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Grants are provided to promote research aimed at addressing various problems in the interest of the state through scientific research.\n  - Academic scientists from government or private colleges/universities/research institutes/technical institutions, and research scholars across the state are eligible to participate.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-to-be-submitted-as-per-the-guidelines-of-the-uttarakhand"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/randd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand. \n1. The applicant must be a scientist/researcher. \n\n<br>",
+  "_criteria_filled": 1
+}

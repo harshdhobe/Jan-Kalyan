@@ -1,0 +1,42 @@
+{
+  "id": "financial-assistance-for-aids-and-appliances-for-disabled-persons",
+  "name": "Financial Assistance For Aids And Appliances For Disabled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "For Hearing Handicapped: Hearing Aids.\nFor Orthopedically Handicapped: Crutches, Tricycles, Calipers, Wheel Chair.\nFor Visually Handicapped: Tape Recorders and Blank Cassettes for Education Purposes Up to Cost of ₹3,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/faaadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. For financial assistance of 100% of the cost of the aids and appliances, the monthly income of the applicant should be less than ₹1,500/-.\n1. For financial assistance of 50% of the cost of the aids and appliances, the monthly income of the applicant should be between ₹1,500/- to ₹2,000/-.",
+  "_criteria_filled": 3
+}

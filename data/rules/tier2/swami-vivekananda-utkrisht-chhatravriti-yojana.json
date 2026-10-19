@@ -1,0 +1,27 @@
+{
+  "id": "swami-vivekananda-utkrisht-chhatravriti-yojana",
+  "name": "Swami Vivekananda Utkrisht Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "A scholarship of ₹18,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-carduid-eid-no-3-himachal-bonafide-certificate-4",
+    "during-verification"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Swami_Vivekanand_Utkrisht_Chattarvriti_Yojna-202324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svucy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a resident of Himachal Pradesh.\n2. The applicant should be a Student.\n3. The applicant should have passed Class 10th.\n4. The applicant should have come in merit (in top 2000).\n5. The applicant should be from the general category.\n6. The applicant should be enrolled in Class 11th or any professional/technical course in a recognized institute.\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "saksham-yuva-scheme",
+  "name": "Saksham Yuva Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "The following is the amount of Unemployment Allowance and Honorarium under the Saksham Yuva Scheme:\n**Sl. No.****Qualification (for both Male &amp;amp;amp;amp; Female)****Rate of Unemployment Allowance** **Rate of honorarium**110+2₹900/- per month₹6,000/- per month2Graduates₹1,500/- per month₹6,000/- per month3Post-Graduates₹3,000/- per month₹6,000/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-passport-size-photograph-applicants-signature-aadhaar-card-domicile-c"
+  ],
+  "apply_url": "https://www.hreyahs.gov.in/aboutus",
+  "source_url": "https://www.myscheme.gov.in/schemes/sys",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a domicile of Haryana.\n   1. Applicant should be registered in the Live Register of the concerned Employment Exchange. If not already registered, a 10+2/graduate/post-graduate qualified applicant may simultaneously register on [www.hrex.gov.in](https://hrex.gov.in/) website of the Department.   1. The eligible Post Graduate/Graduate degree should have been obtained only through regular courses from Punjabi University, Patiala and any recognized University in UT Chandigarh or NCT Delhi or Haryana. Those applicants who have obtained their eligible degree through correspondence courses and have been taking benefits under the scheme will also continue to avail the benefits.\n   1. Applicant should have passed the 10+2 examination, as a regular student, from any recognized school, affiliated to the Board of School Education Haryana, Bhiwani, Central Board of School Education (CBSE) Delhi and Indian Certificate of Secondary Education (ICSE) Board, Delhi, situated in Haryana and UT Chandigarh only.\n   1. Applicant’s age should be between 18 to 35 years for 10+2 and 21 to 35 years for graduate/post-graduate.\n   1. Applicant should not have passed the 10+2 examination through correspondence/ National Open School.\n   1. Applicant should not be a regular student under a full-time course.\n   1. Applicant should not be an employee dismissed from Government Service.\n   1. Applicant should not be in any employment e.g. public/private sector/quasi-government or self-employment.\n   1. The annual family income of applicant shall not exceed ₹3,00,000/- from all sources.\n   1. The honorarium shall be paid for a maximum period of 03 years (36 months) or 35 years of age, whichever is earlier. A period of 3 years (36 months) shall start from the date of allotment of honorarium assignment and the age of 35 years shall be the exact date of completion of 35 years.\n\n&gt; **Note:** Further, the applicant shall furnish a self-attested declaration with the following conditions:-\n\n   1. That the house of the applicant has a functional toilet. If the applicant has no functional toilet, he/she shall make a functional toilet within two months from the date of registration.\n   1. That the family of the applicant has no pending dues payable to/is defaulter of the Power Department or its companies and if in default, then she/he undertakes to utilize part of the honorarium/allowance towards clearance of the dues.\n   1. That the family of the applicant is not a defaulter of any Co-operative Bank and if in default, then he/she undertakes to utilize part of the honorarium/allowance towards payment of such dues.\n   1. That there is no encroachment on public/Panchayat land by any member of his/her family.\n   1. That the family of the applicant is not a defaulter of house tax payable to a Urban Local Body and if in default, then he/she undertakes to utilize part of the honorarium/allowance towards such dues.",
+  "_criteria_filled": 4
+}

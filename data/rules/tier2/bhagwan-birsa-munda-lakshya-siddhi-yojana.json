@@ -1,0 +1,29 @@
+{
+  "id": "bhagwan-birsa-munda-lakshya-siddhi-yojana",
+  "name": "Bhagwan Birsa Munda Lakshya Siddhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Financial Assistance***\n\n- Financial assistance for coaching fees for the National Eligibility cum Entrance Test (NEET) course, subject to a maximum limit of ₹3,00,000/- (Rupees three lakhs only).\n- Financial assistance for coaching fees for the Joint Entrance Examination (JEE) course, subject to a maximum limit of ₹3,00,000/- (Rupees three lakhs only).\n- 100% of coaching fees shall be re",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationpassport-size-photograph-caste-certificate-of-the-student-aadh",
+    "1860companies-act",
+    "2014",
+    "or-any-other-relevant-act-of-the-state-fee-structure-of-the-courses-offered-by-t"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-11-SI-OG-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bbmlsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Tribe Community of Goa.\n\n- The applicant must have scored at least 65% in the Secondary School Certificate Examination (SSCE) Board Examination.\n- The applicant must be a regular, full-time student studying in a Higher Secondary School.\n- The Higher Secondary School must be recognised by the Central/State Goa Board of Higher Secondary Education.\n- The applicant must apply for the benefit under the scheme in the XIth standard only.\n- The Coaching institute through which the student desires to take admission must be a registered body or run by any organisation registered under the Societies Registration Act, 1860/Companies Act, 2014, or any other relevant Act of the State.\n- The applicant must be precluded from availing benefits under any other coaching scheme of the Centre or the State Government.\n- The applicant must provide a declaration to the effect that they are not availing benefits under any other coaching scheme of the Centre or the State Government.\n\n<br>\n\n##### ***Selection Criteria (Post-Application)***\n\n- Selection shall be strictly done by drawing a merit list.\n- The merit list shall be drawn up for each course from the marks secured at the Goa Board/Central Board Secondary School Certificate Examination (SSCE) Examination among eligible students.\n- In case of two candidates having the same score for the National Eligibility cum Entrance Test (NEET) course, the score in the Science subject followed by the Mathematics subject shall be considered to decide the order of merit.\n- In case of two candidates having the same score for the Joint Entrance Examination (JEE) course, the score in the Mathematics subject followed by the Science subject shall be considered to decide the order of merit.\n- If students have secured equal marks in both the primary deciding subjects, then the score in English shall be considered for deciding the order of merit.\n- A waitlist of students beyond 150 for each course shall be drawn up.\n- If there are vacant slots after drawing the merit list, candidates shall be selected from those students who have applied for the other course, subject to a maximum total of 300 students seats.\n\n<br>",
+  "_criteria_filled": 1
+}

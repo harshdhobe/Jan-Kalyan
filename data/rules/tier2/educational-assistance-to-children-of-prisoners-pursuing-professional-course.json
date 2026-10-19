@@ -1,0 +1,37 @@
+{
+  "id": "educational-assistance-to-children-of-prisoners-pursuing-professional-course",
+  "name": "Educational Assistance To Children Of Prisoners (Pursuing Professional Course)",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, State Government is providing assistance amount of ₹100,000/- (per student) to the children of prisoners for pursuing degree-level professional courses in Government / Aided colleges.\n\n**Note 01:** The assistance amount also includes annual fees &amp; hostel fees.\n**Note 02:** The assistance will be given to more than one child belonging to a single family.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of-ration-c",
+    "hostel-fee",
+    "bank-account-number-of-the-college",
+    "ifsc-number",
+    "and-proof-that-the-student-has-been-admitted-to-the-merit-seat-copy-of-the-previ",
+    "if-any-note-if-the-name-of-the-convicts-child-has-not-been-included-in-the-ratio",
+    "then-the-applicant-has-to-submit-the-village-officers-declaration-statement-spec"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/22126.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacpppc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a native and resident of Kerala State.\n2.\tThe applicants should belong to Below Poverty Line (BPL) category.\n3.\tThe applicant must be the child of a prisoner sentenced to life imprisonment or death sentence.\n4.\tThose applicants who have been admitted to courses through merit basis are eligible for assistance.\n5.\tApplicant must have secured 70 % or above marks in Higher secondary level exams.\n**Note 01:** Educational assistance is being provided for Degree level professional courses in Government/ Aided colleges inside Kerala.\n**Note 02:** For courses like MBBS, B.VSc. assistance will be provided only if the children are studying in Government colleges.\n**Note 03:** In case both mother and father are convicts and the child is being looked after by a relative who belongs to the Above Poverty Line (APL) category then the application can only be considered based on the inquiry report submitted by the Probation Officer.\n**Note 04:** If more applicants are made, preference will be given based on the percentage of marks.",
+  "_criteria_filled": 2
+}

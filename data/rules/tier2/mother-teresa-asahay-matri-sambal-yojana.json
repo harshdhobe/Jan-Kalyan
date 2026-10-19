@@ -1,0 +1,36 @@
+{
+  "id": "mother-teresa-asahay-matri-sambal-yojana",
+  "name": "Mother Teresa Asahay Matri Sambal Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. Financial assistance of ₹5,000/- per child per year for up to two children.\n   1. Support for expenses related to the child&amp;#39;s upbringing, including education, nutrition, and healthcare.\n   1. Empowering women who are unable to raise their children due to financial hardship.\n   1. Encouraging education and reducing the dropout rate of children from underprivileged backgrounds.\n   1. Prom",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 35000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "panchayat-resolution-copy-for-selection-of-beneficiary-photocopy-of-bonafide-him"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/176_l892s/Mother%20Teresa%20Asahay%20Yojna-29049975.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtamsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Himachal Pradesh.\n   1. The applicant must be a woman who is unable to raise her child/children due to financial hardship.\n   1. The applicant must have a maximum of two children with maximum age of 18 years.\n   1. The applicant must belong to a socially and economically weaker section of society.\n   1. The applicant&amp;#39;s children must be studying in a recognized school.\n   1. The annual family income should not be more than ₹35,000/-.\n\n<br>",
+  "_criteria_filled": 3
+}

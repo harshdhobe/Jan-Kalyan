@@ -1,0 +1,41 @@
+{
+  "id": "deen-dayal-upadhyaya-antyodaya-parivar-suraksha-yojana-dayalu",
+  "name": "Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**The scheme will provide the below mentioned assistance which would vary depending on the age of the beneficiary:**\n**Sl. No.****Age****Compensation Amount**1Above 6 years and up to 12 years₹ 1 lakh2Above 12 years and up to 18 years₹ 2 lakh3Above 18 years and up to 25 years₹ 3 lakh4Above 25 years and up to 45 years₹ 5 lakh5Above 45 years and up to 60 years₹ 3 lakh**Note: For beneficiaries enrolle",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "family-idparivar-pehchan-patra-ppp-number-bank-account-details-registered-in-the"
+  ],
+  "apply_url": "https://dapsy.finhry.gov.in/document/Gazette_169-2024_Ext_20766.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dayalu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be a resident of Haryana.\n2.\tThe applicant refers to either:\n•\tThe beneficiary (in case of permanent disability), or\n•\tAn eligible relative (in case of death) applying for financial assistance under this scheme.\n3.\tThe family income of the beneficiary must be less than ₹1.80 lakh per annum, as verified in the Family Information Data Repository (FIDR) database.\n4.\tThe beneficiary must possess a Family ID/Parivar Pehchaan Patra (PPP) number.\n5.\tThe beneficiary must be above 6 years and up to 60 years of age.\n6.\tThe scheme is effective from 1st April 2023. Claims for deaths or disabilities occurring before this date will not be entertained by the Trust.\n7.\tFinancial assistance will be provided only in cases of:\n•\tDeath (natural or accidental), or\n•\tPermanent disability (caused by an accident).\n8.\tPermanent disability is defined as 70% or more disability resulting from an accident, as certified by the Medical Authority.\n**Other Terms &amp;amp; Conditions:**\nAll registered Construction workers, Industrial Labours, Other labours, Private Sector Employee, Private contractual workers, Unorganised workers etc. registered under Haryana Labour Welfare Board (HLWB) and Haryana Building and Other Construction Workers Welfare Board (HBOCW) having annual family income below Rs. 1.80 lakh will be given compensation by HLWB/HBOCW and in case the Labour department rejects the particular claim then the compensation will be given under DAYALU scheme as per their eligibility.\n**In case of death, the assistance amount shall be paid:**\n1.\tIn case Member of family is deceased then assistance will be given to the Head of the Family.\n2.\tIn case Head of Family is deceased then assistance will be given-\n•\tEldest of the family below the age of 60 years.\n•\tIn case no elder family member is below the age of 60 years then the family member immediate above the age of 60 years.\n3.\tIn case no family member is alive after the death in the family then no assistance will be paid.\n4.\tIn case the alive family members are below the age of 18 years then the assistance will be paid only at the time of any member attaining the age above 18 years, subject to para 5 below.\n5.\tIn case the applications for compensation received after 1st January, 2024 where the age of the beneficiary is above 25 years and upto 45 years and there is a minor girl child in the family then out of the compensation of ₹5 lakh, ₹2.5 lakh will be given to the minor girl child in her bank account linked with her Aadhaar number, if exists, and the balance of the compensation will be given as per the scheme.",
+  "_criteria_filled": 4
+}

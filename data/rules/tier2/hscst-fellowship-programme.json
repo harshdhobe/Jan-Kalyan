@@ -1,0 +1,31 @@
+{
+  "id": "hscst-fellowship-programme",
+  "name": "HSCST Fellowship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "***Stipend:***\n\n  - Candidates who have qualified JRF-NET (CSIR/UGC) will be given fellowship at par with CSIR/UGC in case they are not availing fellowship from CSIR/UGC for some valid reason i.e. ₹31,000/- per month for JRF and ₹35,000/- for SRF.\n  - Candidates who have qualified LS- NET, the fellowship will be given at existing rates for both CSIR/UGC with preference for CSIR i.e. ₹18,000/- per ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 28
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proofaadhar-card-domicile-certificate-haryana-net-jrfls-qualification-c"
+  ],
+  "apply_url": "https://dst.highereduhry.ac.in/Docs/Students/TermsConditionsFellowship.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hscstfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate should be a permanent resident of Haryana.\n   1. The candidate should hold an M.Sc. or an equivalent degree with a minimum of 55% marks.\n   1. The candidate should have qualified JRF-NET (CSIR/UGC) &amp;amp; LS-NET in the Joint CSIR-UGC Test for Junior Research Fellowship (JRF) and eligibility for lectureship (NET).\n   1. The candidate should be interested in pursuing full-time research leading to a Ph.D. degree in relevant science disciplines, including Life Sciences, Physical Sciences, Chemical Sciences, Mathematical Sciences, and Earth, Atmospheric, Ocean &amp;amp; Planetary Sciences.\n   1. Candidates receiving a fellowship or financial assistance from any other source are not eligible.\n   1. The upper age limit for JRF is 28 years, with a relaxation of up to 5 years for candidates belonging to Scheduled Castes (SC), Scheduled Tribes (ST), Women, Physically Handicapped (PH), and Other Backward Classes (OBC) applicants.",
+  "_criteria_filled": 2
+}

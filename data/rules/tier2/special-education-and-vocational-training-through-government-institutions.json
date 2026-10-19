@@ -1,0 +1,42 @@
+{
+  "id": "special-education-and-vocational-training-through-government-institutions",
+  "name": "Special Education And Vocational Training Through Government Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The child will have access to free education in an appropriate environment till he/she attains the age of eighteen years \nSpecial children above 18 years in age will be given vocational training.\nThe free facilities of food, shelter, clothing and education are provided in these institutions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-enrollment-into-the-government-institution-aadhaar-card-proof-of-age-bi",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/sevtgi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Impaired, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of disability should be 40% and above.\n1. For Special Education, the age of the applicant should be between 6 to 18 years.\n1. For Vocational Education, the age of the applicant should be 18 years and above.",
+  "_criteria_filled": 3
+}

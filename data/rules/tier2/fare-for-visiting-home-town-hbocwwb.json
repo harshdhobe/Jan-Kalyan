@@ -1,0 +1,27 @@
+{
+  "id": "fare-for-visiting-home-town-hbocwwb",
+  "name": "Fare for Visiting Home Town (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, a free traveling facility to visit the home town once in a year for a family not exceeding 5 members is provided to the registered construction worker of the Board.\n   1. The payment of expenditure incurred by the beneficiary is paid at the rate prescribed by the Haryana Roadways (Ordinary fare) from time to time or actual railway fare (2nd Class), as the case may be.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fvhthbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of two year’s regular membership.\n   1. The worker must have an active membership with the Board.\n   1. Five members of a family including registered construction workers are eligible to avail of benefits under the scheme on a visit to their home town once in a year.",
+  "_criteria_filled": 1
+}

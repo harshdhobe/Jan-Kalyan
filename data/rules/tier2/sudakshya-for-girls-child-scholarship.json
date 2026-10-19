@@ -1,0 +1,31 @@
+{
+  "id": "sudakshya-for-girls-child-scholarship",
+  "name": "Sudakshya For Girls Child Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. Reimbursement of Admission and Hostel Fee.\n   1. Maintenance Allowances will be given of ₹1,500/- per month for Hostellers and ₹500/- for Day Scholars.\n   1. Reimbursable cost of uniform ₹3,000/-.\n   1. Maintenance Allowances ₹1,000/- per month for Apprenticeship Training after ITI inside the state and ₹1,500/- per month for outside the state.\n   1. One Month Maintenance Allowances of ₹5,000/- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-income-certificate-of-the-parent-guardian-caste-cert"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/website/scholarship-details",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfgcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Odisha state.\n1. The applicant must be a girl child.\n1. The applicant must belong to the General/ST/SC/OBC/SEBC/EBC category.\n1. The applicant must be pursuing I.T.I. / I.T.C., Polytechnic/ Diploma courses.\n\n<br>",
+  "_criteria_filled": 2
+}

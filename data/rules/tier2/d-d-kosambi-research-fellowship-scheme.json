@@ -1,0 +1,26 @@
+{
+  "id": "d-d-kosambi-research-fellowship-scheme",
+  "name": "D. D. Kosambi Research Fellowship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Eligible scholars for the junior category shall be awarded a fellowship up to ₹ 15,000/- per month for a maximum period of 2 years, on a case-to-case basis. \n1. Eligible scholars for senior &amp; post-doctoral categories shall be awarded a fellowship of ₹ 20,000/- per month for a maximum period of 2 years, on a case-to-case basis. \n1. However, the applicant who undertakes to complete the resear",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-one-birth-certificate-photo-copy-attested-by-gazette-o"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddkfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any individual who has completed post-graduation and is upto 35 years of age shall be eligible to undertake research in the junior category.\n1. Any individual who has completed post-graduation and is above the age of 35 shall be eligible to undertake research in the senior category. \n1. Any individual who has completed a PhD shall be eligible to undertake research in the post-doctoral category. There shall be no age bar in this category. \n1. The fellowship shall be awarded to any scholar only once in his lifetime under each category.",
+  "_criteria_filled": 1
+}

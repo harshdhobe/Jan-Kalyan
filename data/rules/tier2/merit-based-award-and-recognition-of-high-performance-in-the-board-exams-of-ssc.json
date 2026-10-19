@@ -1,0 +1,31 @@
+{
+  "id": "merit-based-award-and-recognition-of-high-performance-in-the-board-exams-of-ssc",
+  "name": "Merit Based Award and Recognition Of High Performance In The Board Exams Of SSC And HSSC In The State Of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> **Felicitation of Rank Holders Students -** \n\n1. ₹ 20,000/- to the First Five Rank Holders (separately for all the streams of Science, Commerce, Arts and Vocational).\n1. A certificate of Appreciation will be given at the time of felicitation in the public function.\n\n<br>\n\n> **Merit-Based Awards -** \n\n1. ₹ 5,000 awarded to the students who have scored 50% to 59.99% marks.\n1. ₹ 8,000/- awarded to ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-caste-certificate-issued-by-competent-authority-2-copy-of-income-certi"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/08/Merit-base-award-tribal-welfare.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbarhpbe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from a Scheduled Tribe (ST) in the State of Goa.\n1. The applicant should have secured 50% or above marks in the SSC/ HSSC Board exams.\n1. (For Merit Based Award) The annual income of the family of the applicant should be less than ₹ 5,00,000/-.",
+  "_criteria_filled": 2
+}

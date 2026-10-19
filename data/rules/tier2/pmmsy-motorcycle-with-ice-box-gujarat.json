@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-motorcycle-with-ice-box-gujarat",
+  "name": "PMMSY: Motorcycle with Ice Box - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The unit cost of a motorcycle with an ice box is ₹75,000/-.\n1. General category beneficiaries receive 40% assistance, i.e., up to ₹30,000/-.\n1. Women and Scheduled Tribe (ST)/Scheduled Caste (SC) beneficiaries receive 60% assistance, i.e., up to ₹45,000/-.\n1. Assistance is provided once in a lifetime.\n1. The benefit is available as per the target (category) allocated by the Government of India.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-quotation-caste-certificate-if-applicable-fishing-license-passport-s"
+  ],
+  "apply_url": "https://cof.gujarat.gov.in/Home/SchemesDetailsPage/o4rkgGvkhO9IQUTkb5zosA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyiceboxguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat state.\n1. The applicant should have a fishing boat registered under Real Craft software.\n1. The applicant should hold a fishing license.\n1. The applicant should complete the online registration on the [iKhedut Portal](https://ikhedut.gujarat.gov.in/site/).1. The applicant should obtain in-principle approval before purchase of the floor plan.\n1. The applicant should have his/her own bank account.\n\n> **Preference/Reservation/Relaxation:**\n\n  - Women, SC, and ST beneficiaries are eligible for 60% assistance of the unit cost.\n  - General category beneficiaries are eligible for 40% assistance of the unit cost.\n\n<br>",
+  "_criteria_filled": 1
+}

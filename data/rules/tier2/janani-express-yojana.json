@@ -1,0 +1,31 @@
+{
+  "id": "janani-express-yojana",
+  "name": "Janani Express Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Free transport facility is provided to pregnant women for traveling to government hospitals for delivery.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-to-avail-the-benefits-of-this-scheme"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=279",
+  "source_url": "https://www.myscheme.gov.in/schemes/jey",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh. \n1. The applicant must be a pregnant woman. \n\n<br>",
+  "_criteria_filled": 2
+}

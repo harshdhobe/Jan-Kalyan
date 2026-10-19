@@ -1,0 +1,26 @@
+{
+  "id": "mukhya-mantri-krishak-samriddhi-yojana",
+  "name": "Mukhya Mantri Krishak Samriddhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- An incentive amount of ₹200/- per quintal is provided for Paddy cultivated during Kharif 2016.\n- An incentive amount of ₹200/- per quintal is provided for Wheat cultivated during Rabi Marketing Season 2016-17.\n- An incentive amount of ₹265/- per quintal is provided for Wheat cultivated during Rabi Marketing Season 2017-18.\n- An incentive amount of ₹100/- per quintal is provided for Gram, Lentil ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-mobile-number-bank-account-details-year-of-cultivation-payment-peri"
+  ],
+  "apply_url": "https://mpkrishi.mp.gov.in/hindisite_New/MKSY.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmksy-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered farmer.\n- The applicant must have registered for the e-Upajan Yojana.\n- The applicant must be registered in the e-Upajan system within the specified period (e.g., between 28 March and 26 May for Wheat eligibility in Rabi Marketing Season 2017-18).\n- The applicant must have cultivated and sold the eligible crops (Paddy, Wheat, Gram, Lentil, or Mustard) during the specified marketing season.\n- The applicant must sell the produce up to the limit of their registration/productivity/production capacity.\n- The applicant must have sold Wheat during the Rabi Marketing Season 2017-18 between 15 March 2018 and 26 May 2018 to receive the ₹265/- per quintal incentive.\n- The applicant must have sold Gram, Lentil, or Mustard during the Rabi Marketing Season 2017-18 between 10 April 2018 and 9 June 2018 to receive the ₹100/- per quintal incentive.\n\n<br>",
+  "_criteria_filled": 1
+}

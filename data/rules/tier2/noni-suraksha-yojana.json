@@ -1,0 +1,36 @@
+{
+  "id": "noni-suraksha-yojana",
+  "name": "Noni Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹1,00,000/- will be provided by a financial institution upon the girl&#39;s 18th birthday, provided she is unmarried and has completed 12th standard education. The amount shall not be less than ₹1,00,000/-. \n- ₹5,000/- per year, totalling ₹25,000/- over 5 years, will be invested in the name of the eligible girl through the Life Insurance Corporation of India. \n- An additi",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-the-girl-issued-by-gram-panchayatnagar-palikagovernment-aut"
+  ],
+  "apply_url": "https://cgwcd.gov.in/sites/default/files/2noni-surksha-yojna-application-form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsycg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The girl must have been born on or after April 1, 2014.\n\n- The girl&#39;s parents must be permanent residents of Chhattisgarh.\n- The girl must belong to a family living below the poverty line. The name of the family&#39;s head must be present in the current poverty line survey list of the Rural Development Department (currently, the 2002 survey list for rural areas and the 2007 survey list for urban areas is valid).\n- The benefit under the scheme is limited to two daughters. If there are two sons, a third daughter is not eligible for the benefit.\n- In the case of the second girl child, it is mandatory for the mother or father to have adopted a permanent family planning method before applying. \n- All girls born as twins or more than one child in the first/second delivery will receive the benefit of the scheme. \n- If a third girl child is born after the benefit has been given to twin girls born in the first delivery, the third girl child will not receive the benefit of the scheme.\n- If the family has legally adopted a girl, she will be considered eligible and given the benefit of the scheme if she meets the other criteria. \n- The girl must not marry before the age of 18, and she must complete her 12th standard education to be eligible for benefits under the scheme. \n\n_*The decision to determine eligibility and approve/disapprove cases rests entirely with the concerned District Collector._ \n<br>\n\n**Special Inclusion:**\nGirls born to HIV-affected couples (including A.P.L. families) after April 1, 2016, will also be given the benefit of the scheme for the first two girls.",
+  "_criteria_filled": 3
+}

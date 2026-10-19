@@ -1,0 +1,38 @@
+{
+  "id": "saksham-kvk-20",
+  "name": "SAKSHAM - KVK 2.0",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "##### ***Training Benefits***\n\n- Short-Term Training of approximately 300 hours duration in National Skills Qualifications Framework/Gujarat Council of Vocational Training aligned courses.\n- On-the-Job Training as an integral part of Short-Term Training with duration determined by specific job roles.\n- Specialized training courses for Special Projects tailored to meet specific needs of marginalize",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationaadhaar-card-original-and-copy-domicile-certificate-of-gujarat",
+    "school-leaving-certificate",
+    "or-passport-attested-copy-educational-qualification-certificate-latest-education"
+  ],
+  "apply_url": "https://skills.gujarat.gov.in/saksham-kvk-2-0.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/skvk2",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a domicile of Gujarat.\n- The applicant must be minimum 14 years of age as per labour law for non-hazardous occupations.\n- The applicant must be maximum 59 years of age for Short Term Training.\n- The applicant must be maximum 65 years of age for Special Projects.\n- The applicant must be looking for fresh skills, reskilling, or upskilling opportunities for Short Term Training.\n- The applicant must be out of education, school/college dropout, or unemployed youth for Short Term Training.\n- The applicant must belong to marginalized, vulnerable groups requiring special attention or specific job roles for Special Projects.\n\n> ***Eligibility for Special Projects***\n\nThe applicant must belong to one of the following categories: _Jail Inmates, Former Prisoners, Juvenile homes, Scheduled Castes, Women, Members of the Transgender Community, Members of the Beggar Community, Senior Citizens and Old age homes, Patients recovered from Mental illness, Children in Shelter Homes and Orphanages, Scheduled Tribes, Economically Backward Communities, Persons with Disabilities, Rural Artisans, or Migrant Workers._\n<br>",
+  "_criteria_filled": 3
+}

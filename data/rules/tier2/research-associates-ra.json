@@ -1,0 +1,26 @@
+{
+  "id": "research-associates-ra",
+  "name": "Research Associates (RA)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Fellowship amount:** The Research Associateship is tenable for a period of 2 yrs. In exceptional cases, depending upon the progress of the research and overall importance of the project, it may be extended upto 5 yrs. Each fellow is entitled to a monthly stipend in the range of ₹36,000-40,000/- (₹ 28,000/- for those who are yet to be awarded the Ph.D/M.D./M.S. degree) plus House Rent Allowance",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-pdf-copy-of-dob-certificate-self-attested-pdf-copies-of-degree-cer"
+  ],
+  "apply_url": "https://fellowships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant  must have Ph.D./ M.D./ M.S. degree in a relevant field.\n1. Applicant  must have good academic record.\n1. Age limit is 40 years for male candidates and 45 years for female candidates.\n1. Applicants who are employed can apply, but must relinquish their employment to accept the fellowship.\n1. The DBT-RA fellowship can be availed only once in a career.",
+  "_criteria_filled": 1
+}

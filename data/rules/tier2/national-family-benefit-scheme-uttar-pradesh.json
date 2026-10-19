@@ -1,0 +1,46 @@
+{
+  "id": "national-family-benefit-scheme-uttar-pradesh",
+  "name": "National Family Benefit Scheme - Uttar Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "Benefits\nUnder the this scheme the government will pay Rs. 30, 000/- per family as compensation. The amount of the compensation was Rs. 20, 000/- earlier. After 2013, the amount was revised and become Rs. 30, 000/-. Under this scheme anyone who is eligible to become the head of the family after the death of the earner can apply for the scheme and claim the mentioned amount as compensation from the",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 56450
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-death-certificate-below-poverty-line-card-below-p"
+  ],
+  "apply_url": "http://samajkalyan.up.gov.in/#parentHorizontalTab1",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. To apply for the scheme one must be living under the poverty line. \n1. The applicant should not be aged less than 18 years or above 60 years. \n1. The family income of the applicant should not be more than Rs. 56, 450/- if the family is from the urban area and Rs. 46, 080/- if the family is from the rural area. \n1. Support will be provided to the family after the death of the only earner of the family.",
+  "_criteria_filled": 5
+}

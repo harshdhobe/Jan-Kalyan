@@ -1,0 +1,29 @@
+{
+  "id": "scheme-for-assistance-for-industrial-infrastructure-dnhdd",
+  "name": "Scheme for Assistance for Industrial Infrastructure-DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Under the scheme, assistance will be considered up-to 50% of the project cost or Rs. 20 Crore per project, whichever is less.\n1. The committee may sanction upto 100% assistance to the projects of the Government Departments, Govt. Agency or Authority, State and Central Govt. PSUs, Board.\n1. The Committee may consider undertaking specific studies for specific industries/ industrial areas/ industr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "completed-application-form-signed-by-the-authorised-person-copy-of-the-constitut",
+    "detailed-cost-estimates-of-infrastructure-should-be-prepared-on-the-basis-of-s-o",
+    "then-submit-confirmation-letter-of-the-institutionbankother-source-please-includ",
+    "kindly-produce-evidence-for-ownership-of-land-if-the-ownership-of-the-land-is-wi"
+  ],
+  "apply_url": "https://ddd.gov.in/document/assistance-for-industrial-infrastructure-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/aiis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Industrial Area / Infrastructure:**\n\n1. An industrial area means a contiguous parcel of piece of land converted for Non-Agricultural Industrial Purpose or having valid permission to use land as Industrial purpose or having been notified by the competent authority.\n1. The NA Conversion permission shall be accorded by the Competent Authority of the UT Administration for the Industrial Area.\n1. The NA permission shall have validity for the Industrial Area on the day of submission of the claim for assistance by the eligible Institution/Agency.\n1. The Industrial area land should have a valid layout plan permission from the Competent Authority, i.e., Planning Authority, as per UT&#39;s DCR.\n1. The minimum area of land for the scheme shall be 25000 sq. m. for new products.\n\n> **Eligible Agency:**\n\n1. **Institution:-** Eligible institution means any Industries Association, Chamber of Commerce and Industries, Federation of Industries or SPV of Industries (which are registered under Societies Act, Trust Act or the Companies Act) or any Large project/ Group of industries are eligible.1. **Government Department:-** Any Government Department, Govt. Agency or Authority, State and Central Govt. PSUs, Boards, Corporations, Municipal Corporations/Councils will be treated as eligible Institution those having experienced and executed such a project since the inception of the Department.1. **A Developer/Contractor:-** A Developer / Contractor registered with the UT Administration, having work experience of at least 5 years for the development of an Industrial Estates area, not less than 10 hectares anywhere in India.\n> **Eligible Activities:**\n\n1. Common Infrastructure facilities as may be required in an industrial estate (both OIDC and Non-OIDC Industrial Estates), Industry clusters or industrial area and/or linked infrastructure/last mile connectivity for industrial estate/ cluster/area, such as:\n\na) Approach the road from the industrial estate/ area to the Highways/ MDR\nb) Upgradation of existing roads/widening of roads\nc) Water/ Gas/electricity/energy distribution networks\nd) Transport Nagar / Transport facilities, Water Augmentation Facility\ne) Any other infrastructure facilities as approved by the Implementation\nCommittee.\nf) Any other infrastructure as defined in DCR of Planning &amp; Zoning\nregulation of UT&#39;s.\n\n1. Up-gradation of infrastructure facilities in the estate which has been established.\n1. Link infrastructure facilities and last-mile connectivity to large projects, Central and State Industrial PSUs.\n1. Setting up of Convention Centre, Exhibition Centre, and Infrastructure Development of SIRs, clusters / Large Industrial Estates / Upcoming Industrial estates-areas, etc., as approved by the implementation committee.\n\n> **Eligible Investment:**\n\n1. Fixed capital investment in the components of project of critical infrastructure (excluding land cost) as approved by the Empowered Committee will be eligible.\n1. Cost of preparation of work estimates, cost of technical approvals and cost of third party Inspection for Quality assurance expenses maximum @ 3% of the project cost will be eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

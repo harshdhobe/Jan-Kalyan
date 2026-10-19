@@ -1,0 +1,37 @@
+{
+  "id": "rythu-bima-scheme",
+  "name": "Rythu Bima Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "- **Insurance Coverage:** ₹5,00,000/- per eligible farmer- **Coverage Type:** Natural and accidental deaths- **Claim Settlement Mode:** Direct bank transfer to the nominee’s account- **Claim Process:** Entirely online, farmer families are not required to visit any office",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-identity-proof-of-the-deceased-farmer-nominees-id-proof-pattad",
+    "if-required"
+  ],
+  "apply_url": "https://interstatecouncil.gov.in/wp-content/uploads/2023/08/Telangana1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rythu-bima",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n1. The applicant must be a resident of Telangana.\n1. The applicant must be aged between 18 and 59 years.\n1. The applicant’s details should be available in the Dharani database under RoR (Record of Rights) land records.\n1. The applicant should possess a valid Pattadar Pass Book (PPB) or a RoFR (Recognition of Forest Rights) Patta.",
+  "_criteria_filled": 3
+}

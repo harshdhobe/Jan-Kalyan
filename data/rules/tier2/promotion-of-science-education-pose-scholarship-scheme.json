@@ -1,0 +1,29 @@
+{
+  "id": "promotion-of-science-education-pose-scholarship-scheme",
+  "name": "Promotion of Science Education (POSE) Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "***Amount of Scholarships:***\n\n  - 1st to 3rd year of B.Sc./B.S./ B.Stat./B.Math/Integrated M.Sc./M.S. ₹4000/- pm.\n  - 4th to 5th years of Integrated B.S./B. Stat/B. Math/M.Sc./M.S./ M. Math./ M.Stat. ₹6000/- pm.\n\n**Note:** The selected students will get mentorship grant (one time) of ₹12,000/- in 3-year B.Sc. program, ₹17,000/- in 4-year B.S. program, ₹22,000/- in 5-year integrated M.Sc. program.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "signature-of-the-applicant-self-attested-copy-of-aadhar-card-photograph-of-the-a",
+    "where-tuition-fees-and-other-charges-payable-exceed-rs-one-lakh-per-year-if-stud",
+    "from-where-11th-and-12th-class-pass",
+    "sarpanch-of-the-village-panchayat-and-concerned-bdpo-are-mandatory-bank-account"
+  ],
+  "apply_url": "https://dst.highereduhry.ac.in/Docs/Students/POSE/2024/Procedure%20for%20submitting%20online%20POSE%20Applicaion%20Form%202024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/posess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a permanent residence of Haryana.\n   1. The students should have passed class X and XII Board examination from a school situated in Haryana with minimum 80% marks for Haryana Board School and 85% marks for other boards like CBSE/ICSE etc. in 12th class.\n   1. The students passing X or XII board examination from a school outside Haryana have to produce Haryana Residence Certificate.\n   1. The criteria mentioned in clause (2) above is not applicable to students admitted in reputed National Institutes i.e. Indian Institute of Technology (IIT), Indian Statistical Institute (ISI), Indian Institute of Science Education and Research (IISER), National Institute of Science Education and Research (NISER), Department of Atomic Energy – Centre for Basic Sciences (DAE-CBS), Indian Institute of Science (IISc) in basic and natural science course.\n\n***In case of tie preference will be given as under:***\n\n1. Girl students will be preferred.\n1. Preference to language score better of (English/Hindi) in 12th class board.\n1. Student younger in age will be preferred.\n\n***Other Terms &amp; Conditions:***\n\n   1. The students selected under this scheme will not be entitled for any other scholarship.\n   1. This scholarship will be given to the students studying basic &amp;amp; natural science in the identified 22 subjects.\n   1. Only regular students will be eligible to apply for this scholarship.\n   1. The students studying privately or through correspondence / distance mode or in unrecognized institutions will not be eligible for this scholarship.\n\n***Selection Criteria/Preparation of Merit List:***\n\n   1. First priority will be accorded to the students whose names appear in the Kishore Vaigyanik Protsahan Yojana (KVPY) aptitude test, 2021 (SA, SX stream) extended list published by KVPY, IISc, Banglore and admitted in a basic and natural science course.\n   1. Second priority will be accorded to the students admitted in a reputed national institute i.e. IIT, ISI, IISER, NISER, DAE-CBS, IISc in basic and natural science course.\n   1. Remaining scholarships, if any, will be given to the others admitted in a basic and natural science course on merit. Merit list will be prepared based on average percentage score obtained in class 12th board examination in English/Hindi (better of the two) and best of three out of Physics, Chemistry, Mathematics and Biology (i.e. Total of four subjects divided by maximum marks in four subjects = %age).\n\n**Note:** If number of students under (1) or (2) above is more than the number of offered scholarships, 12th board examination as mentioned under (3) will apply to shortlist the students within that category.\n\n  - Students who studied 11th &amp;amp; 12th class in a rural area school will be given additional 2% Rural area school will be regarded as those schools which are within the jurisdiction of the Gram Panchayat.\n  - The students who have passed their 11th &amp;amp; 12th class from rural area elite schools will not be given additional weightage of 2%. ‘Elite’ schools are defined to be schools, where tuition fees and other charges payable exceed Rs. one lakh per year.\n  - Additional weightage would be added to the average percentage score obtained by the student for determining inter se merit (for example if a student got 90% marks in 12th class board exam and he/she has passed 11th and 12th class from a non-elite rural area school then his/her marks will be considered as 92%).\n  - The students claiming the benefit of rural area must submit the rural area school certificate of passing 11th and 12th class from the rural area school duly signed by the Principal of the school, Sarpanch/Gram Sachiv of the village panchayat from where 11th and 12th class passed and concerned BDPO.",
+  "_criteria_filled": 1
+}

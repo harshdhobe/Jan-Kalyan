@@ -1,0 +1,26 @@
+{
+  "id": "state-integrated-cooperative-development-project-fisheries-sector",
+  "name": "State Integrated Cooperative Development Project - Fisheries Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the scheme, the following support is provided:\n\n  - Options for setting up large loan-based projects in both mountainous and plain areas are available for individuals or groups engaged in fisheries through cooperative societies.\n  - Facilities are provided for trout farming, angling, and retail outlets on a cluster basis in mountainous districts, and for Pangasius farming, major carp farming",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-cooperative-society-resolution-copy-detailed-pro"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scfdp-fs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a cooperative society engaged in fisheries sector.\n1. The cooperative society must be registered in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

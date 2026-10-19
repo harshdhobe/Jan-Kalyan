@@ -1,0 +1,41 @@
+{
+  "id": "pashupalan-dhiran-yojana",
+  "name": "Pashupalan Dhiran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Loan up to ₹1,30,000/- for animal husbandry.\n> **Note:**\n\n- **Loan Amount:** 95%- **Beneficiary Contribution:** 5%",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-age-proof-attested-copy-of-pan-card-bank-pass-bookcancelled-cheque-b"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Rabari or Bharwad caste, classified under socially and educationally backward classes (SC).\n  - The applicant must be between 21 and 45 years of age.\n  - The applicant must have a family annual income not exceeding ₹3,00,00/-.\n  - The applicant must be a resident of Gujarat.\n  - The applicant must be engaged in or intending to undertake animal husbandry activities.",
+  "_criteria_filled": 4
+}

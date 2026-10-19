@@ -1,0 +1,28 @@
+{
+  "id": "input-assistance-to-farmers-for-taking-up-fish-farming-in-farm-ponds-component-o",
+  "name": "\"Input Assistance to Farmers for Taking up Fish Farming in Farm Ponds\" Component of the \"Mukhyamantri Maschyajibi Kalyan Yojana\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "- One-day training and awareness programme will be conducted by the District Fisheries Officers for skill up-gradation of the beneficiaries.\n\n<br>\n\n> **Type of Farm Pond with Unit Cost and Pattern of Assistance**\n\nThe input assistance towards pisciculture on the unit cost of ₹4,00,000/- hectare shall be given to the farmer as a one-time support at 40% for General Category, and 60% for Scheduled Ca",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-photocopy-identification-residential-proof-aadhaar-card-a-mobile-nu",
+    "2019-will-be-accepted-for-transgender-category-for-differently-abled-persons-the",
+    "2016-will-be-acceptable"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/sites/default/files/2023-10/5.%20Input%20Assistance%20to%20Farmers%20for%20taking%20up%20Fish%20Farming%20in%20Farm%20Ponds.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmky-iaftufffp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Odisha.\n1. The applicant must have a bank account in his/her name in Odisha.\n1. The farm pond should have been excavated by the applicant.\n1. The farm pond should have been excavated under the various Government schemes including Watershed Development Projects &amp; MGNREGA through the Directorate of Soil Conservation &amp; Watershed Development.\n1. The farm pond should have a minimum 5 feet water depth.\n1. The farm pond should have sufficient water retaining capacity for a minimum 5 months of culture period.\n1. While availing subsidy, the beneficiary family will be considered instead of individual member of the family.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kisan-vriksha-mitra-yojana",
+  "name": "Kisan Vriksha Mitra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "> **Financial Assistance**\n\n- 100% financial assistance for plantation on up to 5 acres of land (maximum 5,000 plants).\n- 50% financial assistance for plantation on more than 5 acres of land (maximum 1,000 plants per acre).\n- 50% financial assistance for private educational institutions, private trusts, panchayats, and leased landholders.\n\n> **Buyback Assurance**\n\nThe government ensures buyback of",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-documents-bank-account-details-aadhaar-card-proof-of-identity-for"
+  ],
+  "apply_url": "https://forest.cg.gov.in/cms/media/c2829936-7c12-4f57-88af-c724e57b3ce5_kvmy_img.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following are eligible -\n\n- Farmers with private land.\n- Private educational institutions.\n- Private trusts.\n- Panchayats.\n- Leased landholders.\n\n_*Priority is given to farmers and stakeholders who are willing to plant commercially viable tree species like eucalyptus, bamboo, and others._",
+  "_criteria_filled": 1
+}

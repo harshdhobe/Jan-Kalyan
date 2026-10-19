@@ -1,0 +1,29 @@
+{
+  "id": "poompuhar-district-craft-award",
+  "name": "Poompuhar District Craft Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Cash Prize of ₹10,000/-. \n- Silver Medal.\n- Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-address-proof-family-card-voter-id-carddriving-license",
+    "attested-by-a-first-class-criminal-judge-or-notary-public-recommendation-certifi",
+    "attested-by-any-of-the-managers-of-poombucar-outlets-and-manufacturing-plants-th",
+    "new-delhi-photographs-of-the-item-to-be-offered-for-selection"
+  ],
+  "apply_url": "https://poompuhar.com/tnhdc/downloads/1696665915553009436.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artisan.\n1. The applicant should be a native of Tamil Nadu.\n1. Handicraft competitions will be conducted in the following 16 types of handicrafts: Panchaloka Idols, Brass Lamps and Brass Artifacts, Thanjavur Paintings, Thanjavur Plates, Wood Sculptures, Stone Sculptures, Fire Clay, Kalamkari Pathik and Applique Work, Pulp Toys, Mat Weaving, Bamboo and Palm Leaf Products, Neti Work, Textiles, Temple Jewellery, Pictorial Embroidery Work and Other Handicrafts.\n1. The experience of the artisans and the service rendered by them in their profession and other special features will also be taken into consideration during the passing.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "government-institute-for-the-mentally-retarded-tamil-nadu",
+  "name": "Government Institute for the Mentally Retarded - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**The children are also imparted training in daily living skills and below benefits are provided to children with intellectual disability :**\n\n- Special education, \n- Vocational training, \n- Food, \n- Uniforms, \n- Boarding, \n- Medicine, \n- Lodging facilities.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 4
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/giftmrc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The child should have an intellectual disability. \n1. The age of the child should be between 4 to 18 years.",
+  "_criteria_filled": 4
+}

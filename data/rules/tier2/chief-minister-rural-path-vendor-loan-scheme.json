@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-rural-path-vendor-loan-scheme",
+  "name": "Chief Minister Rural Path Vendor Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Low-cost equipment or working capital is made available to poor migrant workers/ small traders of rural areas of the state in the form of loans through banks.\n- Entrepreneurship Development Training is to be provided to rural migrant workers through the &quot;Self Employment Training Institute (RSET)&quot; for setting up new businesses.\n- After training, an **Interest-free loan of ₹10,000/-** is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-mobile-number-linked-to-aadhaar-samagra-id-bank-account-details"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=602",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmrpvls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a resident of a rural area.\n1. The applicant should be a small trader or vendor from the rural poor class.\n1. The applicant should not have defaulted on any prior government loans.",
+  "_criteria_filled": 1
+}

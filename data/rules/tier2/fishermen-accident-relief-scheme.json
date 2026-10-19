@@ -1,0 +1,28 @@
+{
+  "id": "fishermen-accident-relief-scheme",
+  "name": "Fishermen Accident Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Death in Pakistan Jail ₹4,00,000/-Only once, after dead or lost declared as per rules.Lost in Sea₹2,00,000/-Only once, after dead or lost declared as per rules.Accidental death while fishing at sea₹2,00,000/-Only once, after dead or lost declared as per rules.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-of-resident-of-gujarat-state-legal-heir-affidavit-copy-of-boat-call",
+    "license",
+    "and-movement-book-inquest-panchnama-fir-copy-of-post-mortem-report-copy-of-death"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=mS3Bu6DbxKaTxdKVWXY5zA==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/fars",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a legal heir of the deceased fisherman.\n  - The deceased must have been an active fisherman from Gujarat.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "training-to-farmers",
+  "name": "Training to Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Financial Assistance: ₹300/- for attending a two-day training session.\n- Training Program: Training covers modern maize cultivation techniques, improving crop yield and reducing input costs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-caste-certificate-for-scst"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6857",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi.\n- The beneficiary should grow maize.",
+  "_criteria_filled": 1
+}

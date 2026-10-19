@@ -1,0 +1,26 @@
+{
+  "id": "west-bengal-textile-incentive-scheme-waiver-of-fees-for-land-conversion-and-muta",
+  "name": "West Bengal Textile Incentive Scheme: Waiver of Fees for Land Conversion and Mutation",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- 100% waiver of fees for conversion and mutation of the land as approved in the project.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-land-record-documents-showing-payment-of-fees-for-land-conversion-mutati"
+  ],
+  "apply_url": "https://textiles.wb.gov.in/assets/New_PUBLICATION_OF_WBTIS_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtiswfflcm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries in the manufacturing and processing of textiles, apparel and technical textiles products.\n- The unit should have started production on or after 1st April 2022.\n- The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n- Shall not be applicable to the industrial units/enterprises.\n- The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n- The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the West Bengal Tourism Development Corporation Limited on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

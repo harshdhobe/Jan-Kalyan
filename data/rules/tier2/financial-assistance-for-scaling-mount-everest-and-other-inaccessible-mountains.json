@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-for-scaling-mount-everest-and-other-inaccessible-mountains",
+  "name": "Financial Assistance for Scaling Mount Everest and Other Inaccessible Mountains of the World",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Support for Mountaineers:**\n\n- Financial assistance ranging from ₹50,000/- to ₹10,00,000/- is provided to individuals depending on the height and difficulty of the mountain scaled.\n- A maximum of ₹15,00,000/- is provided to those who successfully climb Mount Everest.\n\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-successful-mountain-scaling-mount-everest-or-other-peaks-physical",
+    "passport",
+    "etc-residential-proof-certificate-of-participation-in-national-or-international"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasmeimw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligibility Criteria for Adventurer:**\n\n    - The applicant should have successfully scaled Mount Everest or other inaccessible mountains of the world.\n    - The applicant should be aged between 18 to 45 years as on 31st December of the respective year.\n    - The applicant should be a resident of Gujarat, Mount Abu, or any other Indian state.\n    - The applicant from Gujarat or Mount Abu should have completed a coaching course from the Swami Vivekananda Mountaineering Institute, Mount Abu.\n    - The applicant must be physically and mentally fit.\n\n    - The applicant must not have any criminal record.\n\n    - The applicant who has already participated once in the camp during the same year will not be allowed to participate again.\n\n&gt; **Eligibility Criteria for Coach or Instructor:**\n\n    - The applicant should have provided services in Artificial Rock Climbing Courses or Coaching Courses held at Mount Abu.\n    - The applicant must have completed the Method of Instructor Course and Search and Rescue Course.\n    - The applicant should possess sufficient mountaineering experience and certifications relevant to instructing rock climbing activities.\n\n&gt; **Eligibility Criteria for Subject Experts:**\n\n    - The applicant must be one of the following:\n\n    - A subject expert or experienced individual from any Ministry or Department of the Government.\n    - A representative of an international or national mountaineering association or institution recognized by the government.\n    - A person who has received National or International awards/medals or has similar significant achievements in mountaineering from recognized associations.\n\n&amp;gt; **Note:** Preference will be given to applicants who are participating for the first time.\n\n<br>",
+  "_criteria_filled": 3
+}

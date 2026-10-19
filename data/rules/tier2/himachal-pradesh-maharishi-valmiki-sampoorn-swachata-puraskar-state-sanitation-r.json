@@ -1,0 +1,31 @@
+{
+  "id": "himachal-pradesh-maharishi-valmiki-sampoorn-swachata-puraskar-state-sanitation-r",
+  "name": "Himachal Pradesh Maharishi Valmiki Sampoorn Swachata Puraskar (state Sanitation Reward Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. **Block Level:** The Gram Panchayat that attains the first position at the block level receives a cash prize of 1 lakh rupees. This monetary reward serves as recognition for their exemplary efforts in maintaining cleanliness and sanitation within their community.   1. **District Level:** The prize amount increases to 3 lakh rupees at the district level. Two Gram Panchayats can receive the prize",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "the-completed-application-form-provided-by-the-mvssp",
+    "including-the-following-information-gram-panchayat-resolution-a-resolution-passe",
+    "such-as-photographs",
+    "reports",
+    "or-testimonials-showcasing-the-sanitation-efforts-and-initiatives-undertaken-by",
+    "additional-documents-may-be-requested-to-assess-the-eligibility-or-performance-o"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/15_l892s/MVSSP-99936771.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpmvssp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. **Open Defecation-Free Gram Panchayat:** The Gram Panchayat should have achieved open defecation-free status. This means that the community within the Gram Panchayat has successfully eliminated the practice of open defecation by providing adequate toilet facilities for all households.   1. **Previous Level Winners:** Gram Panchayats that have won an award at a particular level in the MVSSP competition are not eligible to participate in the same level for the next three years. However, they can compete at higher levels in the subsequent years.   1. **State-Level Winner:** The Gram Panchayat that has won the state-level award is not eligible to participate in the MVSSP competition for three years after winning the award.",
+  "_criteria_filled": 1
+}

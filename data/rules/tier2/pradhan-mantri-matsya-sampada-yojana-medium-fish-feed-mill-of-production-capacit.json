@@ -1,0 +1,30 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-medium-fish-feed-mill-of-production-capacit",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Medium Fish Feed Mill of Production Capacity of 8 Ton/Day",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Tangible Benefits:**\n\n- Financial assistance for setting up a fish feed mill of 8 tons/day capacity.\n- Unit cost is ₹1,00,00,000/- per unit.\n- 40% subsidy of the project cost for General Category beneficiaries (up to ₹40,00,000/-).\n- 60% subsidy of the project cost for Weaker sections/ SC/ST/Women and their co-operatives of beneficiaries (up to ₹60,00,000/-).\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-voter-carddate-of-birth-certificateaadhaar-cardclass-10th-cert",
+    "copy-of-aksasrafardregistered-lease-deed-and-the-land-title-should-be-clear",
+    "along-with-the-latest-land-registryfardaksasra-bills-should-be-gst-compliant-pho",
+    "000-the-grant-application-must-be-accompanied-by-e-way-billsincome-taxgst-as-per",
+    "certifying-that-the-payments-for-the-goods-purchased-by-the-beneficiary-have-bee"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=WPlZETRRqEaxawtKcTvqcQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mffmpc8tds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n1. The applicant should possess a valid Parivar Pehchan Patra (Family ID).\n1. The applicant should ensure that the medium fish feed mill is in working condition.\n1. The applicant should ensure the feed produced from the unit is supplied at affordable price to fishers and farmers.\n1. The fish feed mill should be on land owned by the applicant or on a long-term registered lease (minimum of 10 years).\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pre-matric-scholarship-for-scheduled-tribe-students",
+  "name": "Pre Matric Scholarship For Scheduled Tribe Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Scholarship for 10 months: ₹ 225 per month for Day Scholars; ₹ 525 per month for Hostellers.\nBooks and Ad hoc Grant: ₹ 750 per annum for Day Scholars; ₹ 1000 per annum for Hostellers.\nAdditional Allowances for  Person with Disability (PwD) studying in private unaided Schools - \nReader Allowance for Blind students: ₹160.\nTransport Allowance for students with disabilities (as defined in the Persons ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-a-passport-size-photograph-with-signature-of-the-student-a-certif",
+    "stating-definite-income-from-all-sources-by-way-of-an-affidavit-on-non-judicial",
+    "they-would-furnish-declaration-by-way-of-an-affidavit-on-non-judicial-stamp-pape"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/PRE_MATRIC_ST_(Class_IX_X)_GUIDELINES.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pre-st",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student studying in Class 9th or Class 10th.\n1. The applicant must be from Scheduled Tribe.\n1. The Total Annual income of parents/guardians of the applicant (from all sources) must not exceed ₹ 2.50 Lakh per Annum.\n1. The applicant must not be availing of any other scholarship by the govt.",
+  "_criteria_filled": 1
+}

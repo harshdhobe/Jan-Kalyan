@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-dairy-animal-distribution-programme-special-backward-tribes-baiga-b",
+  "name": "Mukhyamantri Dairy Animal Distribution Programme (Special Backward Tribes Baiga, Bharia & Sahariya)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Provision of 2 Dairy Animals (cow or Murrah buffalo) per beneficiary at 90% subsidy.\n- Animals sourced from certified breeding tracts, progressive farmers, or NABARD-approved markets, ensuring quality and health.\n- Minimum milk yield requirement: cows – 7 liters/day; buffaloes – 8 liters/day.\n- Animal age limit: calves must be under 2 months.\n- Disease-free, healthy animals with mandatory taggin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-residence-proof-caste-certificate-bank-account-details-land-or-li"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=981",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant must belong to special backward tribes: Baiga, Bharia, or Sahariya.\n1. The applicant must be a livestock farmer residing in the designated districts.\n1. The applicant’s selected animals must comply with minimum milk yield and age requirements.\n1. The applicant must participate in pre-distribution training and follow cluster/milk route arrangements.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rearing-pond-construction-scheme",
+  "name": "Rearing Pond Construction Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "***Financial Assistance:***\n\n- SC/ST beneficiaries receive up to 80% of the total cost (maximum ₹4,00,000/-).\n- Other categories receive up to 70% (maximum ₹3,50,000/-).\n- Pond Construction Support: Assistance for constructing one-acre rearing ponds using machinery.\n\n***Mode of Disbursement:*** \n\n- Direct Benefit Transfer (DBT) to beneficiaries&#39; bank accounts.\n\n***Installments:***\n\n- First ins",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-certificate-or-lease-agreement-no-objection-certificate-noc-for-l"
+  ],
+  "apply_url": "https://jharkhandfisheries.org/orders/2021/2%20Sanction%20Order-%202020-21-%20Rearing%20tank.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rpcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fisherman.\n1. The applicant whose proposed land is near their residence, consisting of one, two, or three plots of &quot;don&quot; land. \n1. The applicant should be engaged in fish farming or have constructed a fish seed hatchery with a departmental subsidy.\n1. The land proposed for pond construction must be undisputed.  At least 130 decimals of land are required for a 100 decimal water area. For larger ponds, the ratio of water area to total land should be at least 1:1.3.\n1. The proposed land must not be mortgaged against any bank loan.\n1. The applicant must have valid possession of the proposed land and provide the necessary documentation.\n1. The applicant should be financially capable of contributing their share of the pond construction costs.",
+  "_criteria_filled": 1
+}

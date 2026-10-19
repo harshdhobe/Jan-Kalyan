@@ -1,0 +1,31 @@
+{
+  "id": "capital-subsidy",
+  "name": "Capital Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- 25% capital subsidy on the value of eligible plant and machinery, subject to a maximum of ₹ 150,00,000.\n- Additional capital subsidy for enterprises set up by Women / Scheduled Caste / Scheduled Tribe / Differently Abled and Transgender entrepreneurs at the rate of 5% on the value of eligible plant and machinery, subject to a maximum of ₹ 5,00,000.\n- Additional Capital subsidy of 10% for micro-e",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-udyog-aadhaar-memorandum-uam-2-copy-of-sanction-order-from-tamil-nadu",
+    "cash-bills",
+    "and-stamped-receipt-duly-attested-4-certificate-of-chartered-accountant-cca-for",
+    "specifically-for-self-fabricated-plant-and-machinery-items-7-copy-of-the-first-s",
+    "applicable-for-enterprises-engaged-in-manufacturing-on-a-job-work-basis-8-copy-o",
+    "valid-for-a-minimum-period-of-11-years-from-the-date-of-commencement-of-commerci"
+  ],
+  "apply_url": "https://www.msmetamilnadu.tn.gov.in/capital-subsidy.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/cs-tn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.   All new micro manufacturing enterprises established anywhere in the state.\n2.   All new small and medium enterprises under following 24 thrust sectors established anywhere in the state (excluding additional capital subsidy and employment generation subsidy):\n_Electrical and electronic industry; Leather and leather goods; Auto parts and components; Drugs and pharmaceuticals; Solar energy equipment; Gold / Diamond jewellery for exports; Pollution control equipments; Electric Vehicle components, charging infrastructure and components; Cost-effective building material; Readymade garments; Food processing; Plastic (except ‘one-time use and throw away plastics’); Rubber; Bio Technology; Petro Chemicals and Speciality Chemicals; Medical Devices, Equipment and Components; Sports goods and accessories; Technical Textiles and Medical Textiles; Aero Space, Defence Applications and Components; Electronic System Design and Manufacturing; Alternate products for ‘one time use and throwaway plastics’; Electronic Waste Processing; Industry 4.0; Traditional Industries._\n3. All new small and medium manufacturing enterprises established in any of the 254 industrially backward blocks in the state.\n4. All new agro-based small and medium manufacturing enterprises established in any of the 388 blocks in the state.\n5. Existing manufacturing enterprises of the above categories which have taken up substantial expansion/diversification of the existing activities.\n<br>\n\nCheck your Eligibility for the Scheme [here](https://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php)",
+  "_criteria_filled": 1
+}

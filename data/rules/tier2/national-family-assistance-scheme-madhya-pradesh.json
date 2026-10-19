@@ -1,0 +1,31 @@
+{
+  "id": "national-family-assistance-scheme-madhya-pradesh",
+  "name": "National Family Assistance Scheme (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "A one-time financial assistance of ₹20,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-ie-voter-id-card-or-driving"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/schemes/application_form_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfasmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be a family member or a dependent of the deceased person.\n   1. The deceased person should have been the primary breadwinner (an earning member of the family) on whom the family primarily depended for income.\n   1. The family of the deceased should be living Below the Poverty Line (BPL).\n   1. At the time of death, the deceased should have been between 18 and 60 years old.",
+  "_criteria_filled": 2
+}

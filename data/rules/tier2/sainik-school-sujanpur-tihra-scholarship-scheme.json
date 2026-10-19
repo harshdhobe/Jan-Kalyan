@@ -1,0 +1,26 @@
+{
+  "id": "sainik-school-sujanpur-tihra-scholarship-scheme",
+  "name": "Sainik School Sujanpur Tihra Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the scholarship will be given to the eligible students at the rate of ₹18,000/- per annum.\n   1. The students will also be given Dietary Money @ ₹10/- per day for 295 days.\n   1. Clothing Allowance @ ₹1,500/- per annum for the first year and ₹750/- per annum for the subsequent years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photographs-2-copy-of-aadhaar-card-3-copy-of-himachali-bonafide"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/sanik202324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssstss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students studying at Sainik School Sujanpur Tihra and Bonafide residents of Himachal Pradesh from Class VI to XII will be eligible to apply for the scholarship.\n\n&gt; **Conditions for the award of Renewal of Scholarships:**\n\nA scholarship once awarded to a student will continue to be awarded to him throughout this stay in the school, provided:-\n\n   1. The student makes satisfactory progress in his standard.\n   1. The student is not reported adversely regarding discipline.\n   1. No scholarship holder under this scheme draws a scholarship for financial assistance from any other source.\n   1. If the student fails in any Class the scholarship will be suspended for that particular class.\n\n&gt; **Revision of Scholarships:**\n\nA scholarship once awarded will be tenable for the entire course of education and will not be subject to any revision for subsequent changes in income.",
+  "_criteria_filled": 1
+}

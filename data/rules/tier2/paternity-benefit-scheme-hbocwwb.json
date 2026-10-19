@@ -1,0 +1,33 @@
+{
+  "id": "paternity-benefit-scheme-hbocwwb",
+  "name": "Paternity Benefit Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹21,000/- (i.e. ₹15,000/- for proper care of the newborn baby and ₹6,000/- for nutritious food for the wife) will be given to a registered male construction worker whose wife has delivered a baby.\n1. The paternity benefit is given to the male registered worker for up to two children but is expandable up to the birth of three daughters irrespective of t",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-a-copy-of-undertaking-a-copy-work-slip-proof",
+    "it-is-necessary-to-attach-the-birth-certificate-along-with-the-application-form"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/106",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbs-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a male construction worker.\n   1. The male worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The registered worker should have a minimum of one-year regular membership.\n   1. Only the registered worker whose wife has delivered a baby is eligible to avail of the benefits under the scheme.\n   1. The wife of the registered worker has not claimed the maternity benefit from any other employer.  \n\n**Note 01:** The benefits of the scheme will be given on the birth of child up to two children but expandable up to the birth of three daughters irrespective of the order of their birth.\n**Note 02:** It is mandatory to submit all the documents to the competent authority within a period of one year from the date of delivery of the wife.\n**Note 03:** After the birth of the child, it is necessary to attach the birth certificate along with the application.",
+  "_criteria_filled": 2
+}

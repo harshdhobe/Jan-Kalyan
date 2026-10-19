@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-fresh-water-aquaculture-farms",
+  "name": "Financial Assistance to Fresh Water Aquaculture Farms",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Financial Assistance for Construction &amp; Renovation of Farm**\n\n25% subsidy, limited to ₹2,00,000 per hectare, limited to 2 hectares.\n> **Financial Assistance for Purchase of Farming Equipment**\n\n50% subsidy, limited to ₹60,000 (per year) per hectare.\n> **Financial Assistance for Purchase of Feed**\n\n25% subsidy of the cost of feed, limited to ₹50,000 (per year) per hectare limited to 2 hecta",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-application-in-prescribed-form-2-joint-photograph-of-applicant-with-spouse-3-a"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/08/FW-Construction-Renovation-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafwaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Fish Farmer/ Individual/ Registered Self Help Groups/ Societies/ Associations, interested in freshwater fish/prawn farming in the State of Goa.\n- The applicant should be a resident of Goa for the last fifteen years.",
+  "_criteria_filled": 1
+}

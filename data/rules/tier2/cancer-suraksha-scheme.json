@@ -1,0 +1,36 @@
+{
+  "id": "cancer-suraksha-scheme",
+  "name": "Cancer Suraksha Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under this scheme, children under 18 years would be given free treatment for cancer through designated Government hospitals in the state.\n   1. The entire cost of treatment, including the cost of investigations, would be borne by the hospitals through the funds provided by the Mission.\n   1. The ceiling of expenditure per child would be initially ₹50,000/-.\n\n**Note:** The hospital can incur add",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-proof-of-identity-of-patient-2-proof-of-age-of-the-patient-3-c"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/scheme_info.php?id=MQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/css",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State and scheme is applicable only to patients from Kerala.\n   1. Cancer patients up to the age of 18 years in the Below Poverty Line (BPL) groups are eligible to be included in this scheme.\n   1. Cancer patients should belong to families which are too poor to afford treatment.\n   1. To be included in this scheme a confirmed diagnosis of cancer is a must.\n   1. Those patients who are yet to complete 18 years of age and need treatment are eligible for the benefit for one more year.",
+  "_criteria_filled": 3
+}

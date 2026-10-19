@@ -1,0 +1,28 @@
+{
+  "id": "juniorsenior-fellowship-in-the-field-of-fine-arts",
+  "name": "Junior/Senior Fellowship in the Field of Fine Arts",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Fellowship for Senior Artists:** ₹3,000/-per month.  - **Fellowship for Junior Artists:** ₹2,000/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "educational-qualification-certificates-in-the-field-of-art-project-report-relate",
+    "training",
+    "or-research-work-photograph-or-color-slide-as-proof-of-past-work-in-the-relevant"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/schemedetail.htm?21",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsifffa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident artist of Gujarat.\n  - The applicant should be actively engaged in the field of painting, sculpture, or graphic arts.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

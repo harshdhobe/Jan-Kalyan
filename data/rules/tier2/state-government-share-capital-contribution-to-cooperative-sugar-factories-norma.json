@@ -1,0 +1,26 @@
+{
+  "id": "state-government-share-capital-contribution-to-cooperative-sugar-factories-norma",
+  "name": "State Government Share Capital Contribution to Co.operative Sugar Factories (Normal Area) (Tribal Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\nName of the ComponentStandard of AssistanceMinimum Time Limit (in Years) for Reclaiming Benefits\tState Government share capital contribution to Co.operative Sugar Factories\tShare contribution by the State Government on the basis of 30% of the project cost to the new sugar co-operative factories to be set up in the State.\tTo the extent of 30% of the project cost to the concerned Sugar Co-oper",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-of-sugar-co-operative-factory-including-constructionmachinery-mem"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=DNxJl5a3JCcwihu9qhzeHA==&domain=XWitJVnGypIBbPyRipp0WA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgsccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Newly established sugar co-operative factories shall be eligible for this scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-suraksha-bima-yojana",
+  "name": "Pradhan Mantri Suraksha Bima Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. On Death- the Nominee shall get Rs. 2 Lakhs.\n1. Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot-  Subscriber shall get Rs. 2 Lakhs.\n1. Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot –subscriber shall get Rs. 1 Lakh.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Individual bank account holders of participating banks aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, will be enrolled into the scheme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kamban-pugazh-literary-prize",
+  "name": "Kamban Pugazh Literary Prize",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹10,000/-. \n- No. of Awards: 10",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-residence-certificate-birth-certificate-published-book"
+  ],
+  "apply_url": "https://art.py.gov.in/sites/default/files/kamban202367.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kplp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an author/writer.\n1. The applicant should be a native of Puducherry by virtue of birth or continuous residence of not less than five years.\n1. The applicant should publish the best novel, short story, drama, poetry and prose.\n1. First edition of the book should be published between 1st January and 31st December.\n1. The publication must be of creative literature of their own.\n1. The book should not be an abridged version of an imitation or translated version of another book or synopsis.\n1. The literary critics/ thesis research presented to university degrees or examinations are not eligible for award\n1. The author once awarded is not eligible to participate in the award for the next four consecutive years.\n1. The books sent for the prize should be those not awarded by other Government / Non-Government Organizations and Voluntary Literary Organizations.",
+  "_criteria_filled": 1
+}

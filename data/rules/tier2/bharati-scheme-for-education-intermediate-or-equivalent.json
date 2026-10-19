@@ -1,0 +1,33 @@
+{
+  "id": "bharati-scheme-for-education-intermediate-or-equivalent",
+  "name": "Bharati Scheme for Education - Intermediate or Equivalent",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "1. Financial Assistance: ₹10,000/-.\n1. Intended Use: To encourage Brahmin students to continue their education.\n\n<br>\n\n> **Mode of Disbursement:** The amount of Financial Assistance granted will be credited through online to the SB Accounts of the students.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-student-parents-with-address-in-andhra-pradesh-white-ration-c",
+    "residence-and-date-of-birth-number-issued-by-mee-seva-study-certificate-from-the",
+    "the-account-should-be-in-andhra-bank-or-state-bank-of-india-sbi"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/bharathi2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bse-ie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his/her parents should belong to the Brahmin community.\n1. The parents should reside in Andhra Pradesh.\n1. The student&#39;s parents/guardians should stay in Andhra Pradesh. \n1. The student should be enrolled in the Praja Sadhikara Survey (PSS).\n1. The annual family income of Parents/guardians should not be more than ₹3,00,000/- (Rupees Three lakhs only).\n1. The student should be pursuing a regular course in a School/College/Institute/University for the Academic year 2019-20.\n1. The student should have passed in all the subjects till the previous year of study (i.e., students who do not have any backlogs in their previous semesters/years are only eligible).\n1. The students availing the benefit from Archaka Welfare Trust are eligible under this scheme, in addition to the assistance they get from Archaka Welfare Trust.\n\n<br>",
+  "_criteria_filled": 2
+}

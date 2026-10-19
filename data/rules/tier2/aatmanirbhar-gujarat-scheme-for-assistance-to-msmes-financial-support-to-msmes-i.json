@@ -1,0 +1,28 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-financial-support-to-msmes-i",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Financial Support to MSMEs in ZED Certification",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance:**\n\n  - Subsidy of 50% of all charges after deducting assistance from the Government of India.\n  - Maximum subsidy capped at ₹50,000 during the scheme&amp;#39;s operative period.\n\n&gt; **Quality and Sustainability Enhancement:**\n\n  - Encourages MSMEs to adopt ZED manufacturing practices.\n  - Promotes energy-efficient manufacturing and eco-friendly production.\n\n&gt; **Pr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspartnersdirectors",
+    "and-authorized-signatory-copy-of-gst-registration-if-applicable-copy-of-ca-certi"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmezed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "scholarship-to-the-ward-of-beneficiary-cbocwwb",
+  "name": "Scholarship to the Ward of Beneficiary (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "**Rate of scholarship on the basis of percentage of marks obtained in 10th, 12th &amp; Graduation:**\n ClassPercentage of marks obtainedAmount of Scholarship10th 75% &amp;amp;amp;amp; above₹5,000/-10th60% &amp;amp;amp;amp; above₹4,000/-10th50% &amp;amp;amp;amp; above₹3,000/-10+275%₹5,000/-10+260% &amp;amp;amp;amp; above₹4,000/-10+250 % &amp;amp;amp;amp; above₹3,000/-Graduation or equivalent  (from ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwwbpassport-size-photograph-filled",
+    "if-any-copy-of-aadhaar-card-of-the-nominee-bank-details-receipt-of-payment-file",
+    "if-applicable-a-copy-of-aadhaar-card-of-the-student-pass-out-certificatemark-she"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/swbcbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board.\n   1. Any worker/beneficiary will be eligible to avail the benefit of the scheme only after 06 months of becoming the beneficiary member of the Chandigarh Building and Other Construction Workers Welfare Board at least for the last six months. \n   1. The scholarship application will not be entertained on getting a compartment in any of the subjects.\n   1. In case a scholarship is granted to the children of the workers from any other institution then he will not be entitled to get a scholarship from the Board.\n   1. If any student who placed at 1st, 2nd, and 3rd place in National/International games/sports then he will be granted a scholarship without taking into consideration the percentage of marks.\n   1. The scholarship will be given upto two children of the worker.\n   1. The applicant should apply for a Scholarship within three months from the date of issue of the mark sheet of the student.",
+  "_criteria_filled": 1
+}

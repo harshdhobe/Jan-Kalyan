@@ -1,0 +1,26 @@
+{
+  "id": "hand-pump-yojana",
+  "name": "Hand Pump Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "The scheme provides drinking water facilities through the installation of hand pumps in areas facing water scarcity.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-mandi-committee-mandi-board"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer, villager, village head, or public representative from Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

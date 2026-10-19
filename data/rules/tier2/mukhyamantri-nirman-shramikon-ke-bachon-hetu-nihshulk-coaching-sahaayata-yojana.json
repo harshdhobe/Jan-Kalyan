@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-nirman-shramikon-ke-bachon-hetu-nihshulk-coaching-sahaayata-yojana",
+  "name": "Mukhyamantri Nirman Shramikon Ke Bachon Hetu Nihshulk Coaching Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Free coaching assistance will be provided to the children of registered workers.\n\n<br>\n\n**Note:** Construction workers and their children registered under the Board are allowed to appear for competitive examinations as per educational qualification like PSC (Public Service Commission), CG VYAPAM (Chhattisgarh Professional Examination Board), SSC (Staff Selection Commission), IBPS (Banking), RAIL",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-passport-size-photograph-labor-registration-card-self-declaration-ce"
+  ],
+  "apply_url": "https://cglabour.nic.in/schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnskbhncsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The worker should be registered under The Building and Other Construction Workers Welfare Board.\n- The registered worker should have at least one year of regular membership.\n- The first two children of the worker are eligible for the scheme.",
+  "_criteria_filled": 1
+}

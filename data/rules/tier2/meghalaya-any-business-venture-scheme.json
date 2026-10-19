@@ -1,0 +1,36 @@
+{
+  "id": "meghalaya-any-business-venture-scheme",
+  "name": "Meghalaya Any Business Venture Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "- 25% upfront subsidy (max ₹12.5 lakhs) by Government of Meghalaya\n- Up to ₹5 lakhs EMI support (10% of project cost)\n- Loan up to 70% of project cost via MCAB, SBI, HDFC, etc\n- 15-year loan term with 18-month moratorium\n- Mentorship and coaching via PRIME\n- Support for business registration if required\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-proof-of-address-of-applicant-voter-idpassportdriving-license-ration"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19VRwuInkkeLd9Q5ZMtGuJxxt%20vxfwjJV7YZUyEjHdp5md1rfpKlTjPTlxEiIlgRjbr5I6meXMKzVnXDMJOWMpzar6aISi0id8BE0IbOys4KkYnH2t8ifaRVzmuWskJXn2kBdJd4vDYffqNeiO0XyQlPkJe%2F6gLvx54AwLIFN7K0y2uBU9zsvLKAWemtcl8GhrcFHthtqjg6ldvl0KKqiPsOWzT%20iB8kO9RPNrAyBAYs1QWhpVfceIY=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mabvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria – Individuals**\n\n1. The applicant should be between 18 and 58 years of age.\n1. The applicant and all partners involved in the proposal should be residents of the state of Meghalaya, and valid identification documents demonstrating residency should be submitted.\n1. The applicant should provide proof of relevant experience in the field related to the proposed project; fresh applicants without demonstrated experience should not be considered.\n1. The applicant should provide proof of land ownership or a valid lease agreement for the proposed establishment.\n1. The applicant should demonstrate commitment to the project by providing proof of the required contributing share, including financial contributions, resources, or any other form of investment outlined.\n1. The applicant should commit to employing local residents in accordance with the funds received and the type of unit being established.\n\n**Eligibility Criteria – Registered Entities**\n\n1. The applicant (authorized representative/partners) should be between 18 and 58 years of age.\n1. All partners involved in the proposal should be residents of the state of Meghalaya, and valid identification documents demonstrating residency should be submitted.\n1. The applicant should provide proof of relevant experience in the field related to the proposed project; fresh applicants without demonstrated experience should not be considered.\n1. The applicant should provide proof of land ownership or a valid lease agreement for the proposed establishment.\n1. The applicant should demonstrate commitment to the project by providing proof of the required contributing share, including financial contributions, resources, or any other form of investment outlined.\n1. The applicant should commit to employing local residents in accordance with the funds received and the type of unit being established.\n\n<br>",
+  "_criteria_filled": 3
+}

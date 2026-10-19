@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-to-meritorious-scheduled-tribe-students-who-have-passed-fir",
+  "name": "Financial assistance to Meritorious Scheduled Tribe Students who have Passed First Division from Board and University",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- A one-time financial incentive of up to ₹3,500/- will be provided to students, at the rate of ₹350/- per month for a maximum of ten months.\n\n**Note:** The incentive amount will be directly transferred to the student&amp;#39;s bank account linked with their Jan Aadhaar through Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "income-self-declaration-form-certified-by-a-competent-authority",
+    "stating-that-the-parentsguardianscaretakers-of-the-students-above-the-poverty-li"
+  ],
+  "apply_url": "https://hte.rajasthan.gov.in/dept/dce/uploads/doc/ST_HE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bufdstmsfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student. \n   1. The applicant should have passed the 12th standard examination from the Madhyamik Shiksha Board/Central Board of Secondary Education with a first division, securing 60% or more marks.\n   1. The applicant should have secured at least 48% marks in the first year examination to be eligible for the incentive in the second year.\n   1. The applicant should have secured at least 48% marks in the second year examination to be eligible for the incentive in the third year.\n   1. The applicant should belong to the Scheduled Tribe category.\n   1. The applicant&amp;#39;s parents/guardian/husband should not be income tax payers.\n   1. The student should be a native of Rajasthan.\n   1. There should be no gap in the applicant&amp;#39;s studies after passing the board examination.\n   1. The applicant should be enrolled as a regular student in general education in a government college.\n   1. Students residing in government hostels are not eligible for benefits under this scheme.\n   1. The applicant must possess a Jan Aadhaar Card and an Aadhaar Card.",
+  "_criteria_filled": 1
+}

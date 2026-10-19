@@ -1,0 +1,26 @@
+{
+  "id": "kala-utsav-pratiyogita-uttarakhand",
+  "name": "Kala Utsav Pratiyogita - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "A total of 20 students, who secured first place in 10 categories across boys’ and girls’ groups, participated in the National Level Kala Utsav Pratiyogita held at Bal Bhavan, New Delhi, representing the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kupuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of Classes 9 to 12.\n1. The applicant must be studying in a school in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

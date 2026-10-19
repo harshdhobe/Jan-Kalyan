@@ -1,0 +1,29 @@
+{
+  "id": "chief-ministers-free-diagnostic-services",
+  "name": "Chief Minister’s Free Diagnostic Services",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1.\tTo provide essential diagnostic services free of cost to all patients visiting government hospitals. No user charges will be levied on the patient.\n2.\tEnsure the availability of a minimum set of diagnostics appropriate to the level of care.\n3.\tReduce high out-of-pocket expenditure incurred by patients for diagnostics.\n4.\tUse of appropriate diagnostics to screen patients for a set of chronic con",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-residence-in-assam-eg",
+    "aadhaar-card",
+    "voter-id",
+    "or-residence-certificate-2-medical-prescription-or-recommendation-from-a-registe"
+  ],
+  "apply_url": "http://cmfreelabservicesassam.com/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be a resident of Assam.\n2.\tThe scheme is applicable to individuals of all age groups.\n3.\tThere is no specific income criteria, and the scheme is open to all socio-economic backgrounds.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

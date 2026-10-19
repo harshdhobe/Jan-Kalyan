@@ -1,0 +1,37 @@
+{
+  "id": "kalakar-kritadnyata-nidhi-compensation-towards-natural-calamities",
+  "name": "Kalakar Kritadnyata Nidhi: Compensation Towards Natural Calamities",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Financial assistance shall be provided to meet expenses towards the repair or construction of a house damaged due to natural calamities.\n- The quantum of financial assistance shall be a maximum of ₹25,000/- or as per the valuation done by the concerned Taluka Mamlatdar, whichever is less.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "valuation-report-from-the-concerned-taluka-mamlatdar-birth-certificate-income-ce",
+    "goa"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkn-ctnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Goan, i.e., born and brought up in Goa.\n- The applicant must be recognized as an artist by the Directorate of Art &amp; Culture, Government of Goa.\n- The income of the family of the applicant (from all sources) must not exceed ₹2,00,000/- per annum.\n- The artist must not be less than 50 years in age. (The Government may relax the age criteria for deserving cases under special circumstances.)\n- The applicant must be in need of funds to meet expenses towards repair or construction of their house damaged due to natural calamities.\n\n<br>",
+  "_criteria_filled": 3
+}

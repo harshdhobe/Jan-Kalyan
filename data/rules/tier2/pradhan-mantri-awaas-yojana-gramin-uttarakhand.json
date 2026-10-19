@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-awaas-yojana-gramin-uttarakhand",
+  "name": "Pradhan Mantri Awaas Yojana - Gramin, Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, selected eligible beneficiaries receive financial assistance of ₹130,000/- for house construction. Beneficiaries are also provided ₹12,000/- for toilet construction under convergence with MGNREGA/Swajal, along with 95 man-days of labour employment from MGNREGA. After the house is completed, the State Government provides an additional ₹6,000/- for purchasing kitchen utensils as p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-prescribed-by-the-government-for-th"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmayguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The selection of eligible beneficiaries for housing is done based on the “Social, Economic and Caste Census 2011 (SECC-2011)” and the Awaas Plus Permanent Waiting List.\n\n<br>",
+  "_criteria_filled": 1
+}

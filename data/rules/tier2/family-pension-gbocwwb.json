@@ -1,0 +1,26 @@
+{
+  "id": "family-pension-gbocwwb",
+  "name": "Family Pension (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "50% of the pension that used to be provided to the pensioner (the deceased) or ₹200/-, whichever is higher.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-2-Family-Pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fp-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the Spouse of the Pensioner.\n- The Pensioner should be deceased.\n- The deceased Pensioner, in their lifetime, should have been registered as a Worker with the Goa Building and Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

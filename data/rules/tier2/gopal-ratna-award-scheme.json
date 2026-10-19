@@ -1,0 +1,30 @@
+{
+  "id": "gopal-ratna-award-scheme",
+  "name": "Gopal Ratna Award Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "1. The selected dairy farmer shall be honoured with the “Gopal Ratna Award” constituting a Certificate of Appreciation, Memento and **cash prize of ₹ 1,00,000/-**.1. The award will be conferred upon the selected beneficiary on Independence Day i.e. 15th August at the hands of the Honourable Chief Minister of the State.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "evidence-of-membership-from-a-registered-dairy-co-operative-society-bachat-gat-s",
+    "stage-of-lactation-of-each-animal",
+    "milk-yield",
+    "date-of-calving",
+    "address-of-cattle-shed-etc-residential-certificate-proof-of-registration-of-dair"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2020/11/Gopal-Ratna-Award-scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gras",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a dairy farmer.\n1. The applicant should have given extraordinary contributions in the field of dairy farming by achieving the highest milk production in the State.\n1. The applicant should be a member of the Dairy Co-operative Society/Bachat Gat/Self Help Group, registered with the concerned Department.\n1. The applicant has to register his dairy farm with the Department of Animal Husbandry and Veterinary Services through the respective Area Officers of Veterinary Dispensary/Hospital.\n1. The applicant should be a bonafide resident of Goa for at least the preceding five years, owning a cattle shed with milch animals in the State of Goa.\n1. The applicant shall produce and pour a minimum of 1,00,000 litres of milk in the preceding year (April to March) with a minimum average of 250 litres of milk per day, to the Dairy Co-operative Society/Bachat Gat/Self Help Group.",
+  "_criteria_filled": 1
+}

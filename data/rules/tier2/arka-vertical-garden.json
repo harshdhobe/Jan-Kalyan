@@ -1,0 +1,26 @@
+{
+  "id": "arka-vertical-garden",
+  "name": "Arka Vertical Garden",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "**Total Cost of One Unit of Arka Vertical Garden:** ₹22,100/-.\n**Subsidy Amount per Unit:** ₹15,525/-.\n**Beneficiary Contribution:** ₹6,575/- per unit.\nThe beneficiaries are also provided with the following - \n\n- One unit of Arka Vertical Garden structure of one square meter area that can be installed.\n- The structure includes 4 tiers with 16 pots, and 80 kilograms of enriched planting medium (coi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-in-kerala-aadhaar-number-to-be-submitted-at-the-time-of-insta"
+  ],
+  "apply_url": "https://shm.kerala.gov.in/arka-vertical-garden/",
+  "source_url": "https://www.myscheme.gov.in/schemes/avg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Kerala.\n- The applicant must not have availed Arka Vertical Garden structure during the previous year.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "artisan-promotion",
+  "name": "Artisan Promotion",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "The Corporation provides opportunities for artisans to participate in fairs and melas organized by different National Apex Corporations.\n> **Stipend for Beneficiaries from Scheduled Castes Category**\n\n- Daily Allowance (DA) for Participant: ₹150/- per day\n- DA for Attendant/Spouse: ₹100/- per day\n- Travel Allowance (TA): Actual train fare by sleeper class or bus fare (on production of original tic",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-of-the-beneficiaryartisan-copy-of-aadhaar-card-cop",
+    "required-if-the-applicant-belongs-to-a-minority-community"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/artisan_promotion_app_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Artisan.\n- The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minority, Safai Karamchari, and Persons with Disabilities.\n- The applicant should be a beneficiary of the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Safai Karamchari Finance and Development Corporation (DSFDC).\n- The applicant should have availed a loan from DSFDC.\n- The applicant should be a resident of Delhi.\n- The applicant should be registered online under Micro, Small, and Medium Enterprises (MSME) at the website www.udyogaadhar.gov.in.",
+  "_criteria_filled": 1
+}

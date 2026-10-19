@@ -1,0 +1,26 @@
+{
+  "id": "exposure-tour-for-the-coir-artisans-component-of-the-development-of-coir-scheme",
+  "name": "“Exposure Tour for the Coir Artisans” Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The expenses relating to conveyance, accommodation, fees to the visiting institution, etc will be paid.\n- The participant will be provided ₹ 150/- per person per day as Daily Allowance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-being-a-coir-artisan"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/etftcacotdocs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a Coir Artisan.",
+  "_criteria_filled": 1
+}

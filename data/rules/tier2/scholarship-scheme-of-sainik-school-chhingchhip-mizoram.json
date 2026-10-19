@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-scheme-of-sainik-school-chhingchhip-mizoram",
+  "name": "Scholarship Scheme of Sainik School Chhingchhip, Mizoram",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "***Benefit Component:*** School Fee, Dietary Charge, Clothing Money (New/Subsequent Year)\n***Parent Income Category (per month):*** Scheduled Caste/Scheduled Tribe: Up to ₹50,000/- OR General Category: Up to ₹25,000/-\n***Benefit Rate:*** Rate I (Full)\n***State Government&#39;s Share:*** 100% of Fee/Charge + ₹2,000/- (For Fee only)\n***Central Share:*** NIL\n<br>\n\n***Benefit Component:*** School Fee,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "salaryincome-certificate-domicile-certificate-caste-certificate-if-applicable-pr"
+  ],
+  "apply_url": "https://printingstationery.mizoram.gov.in/storage/site/files/gazette_2949_589a02b18e740.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssscm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to Mizoram State only.\n- The applicant must qualify in the Annual Entrance examination conducted by the All India Sainik School Society.\n- The applicant must be admitted to Sainik School Chhingchhip, Mizoram.\n- The applicant must not be covered under any other Scholarship scheme.\n- The applicant must submit Income certificates/salary certificates at the time of admission for the grant of scholarship.\n- For Scheduled Caste (SC) and Scheduled Tribe (ST): The income of the parent/guardian should not exceed ₹1,00,000/- (One lakh) per month.\n- For General Category: The income of the parent/guardian should not exceed ₹50,000/- (Fifty Thousand) per month.\n- The applicant must not be more than one child of the same parents’/guardians eligible for the said scheme.\n\n_*The scholarship will be discontinued if the cadet is found medically unfit for entry into the National Defence Academy._\n_*The scholarship will be cancelled and the amount recovered if the student is found to have obtained the scholarship by false statements, and the student will be blacklisted forever._\n_*The student is liable to refund the scholarship amount if they discontinue the studies for which the scholarship was awarded during the course of the year._\n<br>",
+  "_criteria_filled": 1
+}

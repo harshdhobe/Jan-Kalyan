@@ -1,0 +1,33 @@
+{
+  "id": "the-andaman-nicobar-islands-disability-allowance-scheme",
+  "name": "The Andaman & Nicobar Islands Disability Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. The quantum of Disability Allowance shall be ₹2500/- per month subject to eligibility.\n   1. The financial assistance sanction shall be payable to a disabled person till his/her death subject to the conditions.\n   1. Disability allowance shall become payable from the month following the one in which it is sanctioned. \n\n**Note:** Assistance shall be stopped on the death of the disabled person, i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-disability-certificate-p",
+    "a-certificate-issued-by-the-tehsildar-of-the-respective-tehsils-stating-their-st",
+    "if-applicable-bank-account-detailscopy-of-passbook-affidavit-certificate-to-be-f"
+  ],
+  "apply_url": "http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/anidas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Persons who are permanent residents of the Union Territory of Andaman and Nicobar Islands or have resided in the Union Territory of Andaman and Nicobar Islands for more than 10 years at the time of making the application. \n   1. A person of age 01 month or more and having 40% &amp;amp; above disability is eligible under the scheme.\n   1. There is no income ceiling to avail this allowance.\n   1. The applicant is neither in receipt of any other financial assistance/allowances nor employed anywhere.\n\n&gt; **Cancellation of Assistance:**\n\n  - The sanctioning authority i.e. Director (Social Welfare) shall have the right cancel to the sanction of assistance at any stage if it is found that it was sanctioned on a mistaken ground or false information tendered or the conditions under which the assistance was granted no longer exist.\n  - The assistance shall be stopped if the beneficiary gets employment.",
+  "_criteria_filled": 2
+}

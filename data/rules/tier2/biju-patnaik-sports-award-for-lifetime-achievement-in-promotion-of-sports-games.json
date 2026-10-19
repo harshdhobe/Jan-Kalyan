@@ -1,0 +1,32 @@
+{
+  "id": "biju-patnaik-sports-award-for-lifetime-achievement-in-promotion-of-sports-games",
+  "name": "Biju Patnaik Sports Award for Lifetime Achievement in Promotion of Sports & Games",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The award shall be presented every year subject to the availability of a suitable candidate, which will carry a cash award of ₹3,00,000/-.\n   1. A statue, a scroll of honour, and a blazer with a tie shall be given along with all the Cash Awards.\n   1. The Awardees shall be invited to receive the awards in person. They shall be given T.A. and D.A. at the rate admissible to a Grade &amp;#39;A&amp",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-three-passport-size-photographs-proof-of-residence-proof-of-age-p",
+    "if-applicable-adequate-documentary-evidence-in-support-of-the-claim-for-the-awar"
+  ],
+  "apply_url": "https://sports.odisha.gov.in/sites/default/files/2023-07/Application-Biju-Patnaik-Awards.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpsalapsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the State of Odisha or shall be staying at least for a period not less than 07 years.\n   1. To be eligible for this Award, a sportsperson should have not only good performances at the National and International levels but should also have continued to contribute to the promotion of sports and games in his/her individual capacity even after retirement from an active sporting career.\n   1. The minimum age of the applicant should be 45 years as of 1st January of the year of the Award.\n   1. The applicant should not have been convicted of any criminal offence.\n   1. The award will be conferred on a person only once in his/her lifetime, pertaining to the concerned category.\n   1. Persons found positive for use of drugs/banned substances for performance enhancement, will not be eligible for this Award.\n\n**Note:** The award can be given posthumously to the next of kin of the selected sportsperson.\n&gt; **Annulment Cancellation of Award:**\n\n  - The Award may be cancelled in case it is found that it has been obtained by fraudulent means.\n  - In such event, the concerned person shall be asked to refund the award failing which steps will be taken to recover the involved cost from him/her with simple interest @ 5% per annum.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-persons-suffering-from-rare-diseases",
+  "name": "Financial Assistance to Persons Suffering from Rare Diseases",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, financial assistance of ₹3,000/- per month will be provided starting from 01.01.2024.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-any-one-of-the-following-date-of-birth-certificate-school-certificat",
+    "haryana-2-residential-proof-any-one-of-the-following-self-attested-documents-iss"
+  ],
+  "apply_url": "https://socialjusticehry.gov.in/financial-assistance-to-persons-suffering-from-rare-diseases/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapsrd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a domicile and bonafide resident of Haryana.\n   1. There are no age restrictions for applicants.\n   1. The applicant&amp;#39;s annual family income should be less than ₹3,00,000/-.\n   1. The applicant must possess a Parivar Pehchan Patra.\n   1. The applicant should be suffering from any of the Rare Diseases i.e. the medical conditions/diseases, mentioned in the National Policy for Rare Diseases, 2021, issued by MoHFW (GoI) &amp;amp; added from time to time; and diagnosed at any of the notified ‘Centres of Excellence’ (CoE), designated by MoHFW, GoI &amp;amp; added from time to time; under the said policy.\n\n**Note:** The financial assistance will be provided in addition to any benefits the applicant receives under other social security pension schemes.",
+  "_criteria_filled": 2
+}

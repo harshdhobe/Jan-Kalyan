@@ -1,0 +1,33 @@
+{
+  "id": "self-employment-scheme-for-dependents-of-prisoners",
+  "name": "Self-Employment Scheme For Dependents Of Prisoners",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the maximum amount of financial assistance to a family will be ₹30,000/- at a time.\n\n**Note:** Financial assistance shall be given only once for the dependents of a prisoner for the purpose.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of-ration-c",
+    "if-any-note-if-the-name-of-the-convicts-child-has-not-been-included-in-ration-ca",
+    "then-the-applicant-has-to-submit-village-officers-declaration-statement-specifyi"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/11925.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/s-esdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The applicants should belong to Below Poverty Line (BPL) category.\n   1. Families of such convicts who had undergone imprisonment for a period of 5 years or above are eligible for financial assistance.\n   1. The families are eligible for the assistance only during the period of imprisonment of the convict.\n   1. The financial assistance will be provided to those eligible persons who have not availed the amount for the same purpose previously.\n\n**Note 01:** Priority must be given to dependents (Husband/Wife, Unemployed, and Unmarried Son/Daughter).\n**Note 02**: Other category of dependents includes daughters who are widowed/Legally divorced/abandoned by husband, Father/Mother below 55 years of age.",
+  "_criteria_filled": 2
+}

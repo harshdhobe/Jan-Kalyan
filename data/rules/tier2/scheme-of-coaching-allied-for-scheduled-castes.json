@@ -1,0 +1,31 @@
+{
+  "id": "scheme-of-coaching-allied-for-scheduled-castes",
+  "name": "Scheme Of Coaching & Allied For Scheduled Castes",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- The students will be given stipend of Rs.1000/- fixed per month for the entire period of coaching as mentioned above. \n- The financial assistance shall also be provided for boarding and lodging to the outstation students @ Rs.2000/- per month per student. The concerned coaching institute shall make arrangements for outstation students and shall certify that the candidate is an outstation student",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-refer-form-i-budget-estimates-audited-accounts-for-last-three-y"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO00616012019010943594",
+  "source_url": "https://www.myscheme.gov.in/schemes/scasc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligibility for the Coaching Institution:**\n\n  - Should be a Registered private institutions/Non-governmental organizations (NGO).\n  - The institution should have the experience to run coaching for competitive examinations for at least three years. \n  - The institution should have not been declared bankrupt at any point of time.\n  - The institution should have not been blacklisted by any debarment or body of the Government at any point of time. \n  - The institution should have the capacity to manage the building/space to run coaching classes from its own resources at Ranchi and Dumka.\n\n<br>\n\n> **Eligibility for the Candidates:**\n\n- Should belong to Scheduled Caste (SC) category.\n- Should be a resident of Jharkhand.\n- Should have the eligible qualifications for the mentioned competitive exams.\n- The income ceiling of candidate (income of self and/or income of parents, if dependent on them) should not exceed ₹ 2,50,000/- per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

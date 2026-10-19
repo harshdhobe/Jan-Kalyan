@@ -1,0 +1,32 @@
+{
+  "id": "the-goa-state-photo-contest-and-exhibition-scheme",
+  "name": "The Goa State Photo Contest And Exhibition Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- First prize: ₹20,000/- in each category.\n- Second prize: ₹16,000/- in each category.\n- Third prize: ₹12,000/- in each category.\n- Five consolation prizes: ₹2,000/- each.\n- Certificates are presented to the best entries.\n- Judges&#39; Honorarium: ₹5,000/- each for three judges.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "colour-prints-in-12x13-size",
+    "mounted-soft-copy-of-high-resolution-photographs-author-details-name",
+    "nationality",
+    "postal-address",
+    "mobile-number",
+    "telephone-number",
+    "and-email-address-written-on-the-back-of-photographs-in-block-letters-technical"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2024/08/DIP-INVITES-ENTRIES.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tgspces",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Individuals who were born and residing in Goa for 15 years or more will be given preference, though the scheme does not bar others.",
+  "_criteria_filled": 1
+}

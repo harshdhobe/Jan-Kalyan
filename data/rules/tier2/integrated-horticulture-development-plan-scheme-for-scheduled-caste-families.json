@@ -1,0 +1,26 @@
+{
+  "id": "integrated-horticulture-development-plan-scheme-for-scheduled-caste-families",
+  "name": "Integrated Horticulture Development Plan Scheme for Scheduled Caste Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- Under this scheme, Scheduled Caste farmers receive 90% subsidy on components like Mushroom Trays, Bamboo Stacking in vegetable crops, Protected Structures (Poly House/Net House/Walk-in-Tunnels), Cultivation of High Value vegetables/ flowers under Protected Structures and other cultivation technologies in Haryana.\n  - Training will be provided on various aspects of horticultural crops cultivation",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-recent-passport-sized-photograph-caste-certificate-haryana-domici"
+  ],
+  "apply_url": "https://hortharyana.gov.in/sites/default/files/SCSP%20Scheme%20draft%202018-19.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihdpsscf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n   1. The farmer should be a resident of Haryana.\n   1. The applicant should belong to the Scheduled Caste community.\n   1. The applicant should own or lease agricultural land.\n\n**Note:** The scheme targets Scheduled Caste families with small landholdings in the state.",
+  "_criteria_filled": 1
+}

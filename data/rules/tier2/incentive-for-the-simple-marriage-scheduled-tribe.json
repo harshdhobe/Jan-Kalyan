@@ -1,0 +1,31 @@
+{
+  "id": "incentive-for-the-simple-marriage-scheduled-tribe",
+  "name": "Incentive For The Simple Marriage (Scheduled Tribe)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "An incentive of ₹50,000/- is provided to the married couple.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-marriage-proof-marriage-photo-income-certifica"
+  ],
+  "apply_url": "https://twd.karnataka.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/iftsmst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The couple should be residing in Karnataka.\n1. Both partners should belong to the Scheduled Tribe community.\n1. The combined annual income of the couple should be less than ₹2,00,000/-.\n1. The application should be submitted within one year of marriage.\n1. The marriage should have taken place on or after 11th August 2015.",
+  "_criteria_filled": 2
+}

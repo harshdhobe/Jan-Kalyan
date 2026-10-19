@@ -1,0 +1,29 @@
+{
+  "id": "capital-investment-subsidy-for-creation-of-infrastructure",
+  "name": "Capital Investment Subsidy for Creation of Infrastructure",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary will receive a capital investment subsidy of 25% against the Fixed Capital Investment.\n- The maximum ceiling of the subsidy is ₹3,00,00,000/-.\n\n##### ***Conditions***\n\n- _The unit must operate continuously for at least three years from the date of availing the subsidy._\n- _The unit must submit a self-declaration regarding continuous operation on or before the 15th of April every ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-first-lodging-bill",
+    "catering-bill",
+    "or-service-bill-coloured-photographs-of-unitproject-from-03-different-angles-cop",
+    "municipality-etc-copy-of-the-building-permission-granted-by-the-appropriate-auth"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisci",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a private investor or entity establishing a tourism project,.\n- The applicant must have obtained the land or heritage assets from the Tourism Department on a lease basis.\n- The applicant must create infrastructure such as power supply, water supply, approach road, sewage, and drainage systems on the obtained land or heritage assets.\n- The applicant must incur a minimum capital expenditure of ₹50,00,000/- as approved by the department.\n- The applicant must establish and operationalize the tourism project during the operative tenure of this policy.\n- The applicant must not claim Investment Promotion Assistance if claiming this capital subsidy.\n\n<br>",
+  "_criteria_filled": 1
+}

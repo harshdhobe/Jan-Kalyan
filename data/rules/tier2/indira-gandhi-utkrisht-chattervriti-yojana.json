@@ -1,0 +1,26 @@
+{
+  "id": "indira-gandhi-utkrisht-chattervriti-yojana",
+  "name": "Indira Gandhi Utkrisht Chattervriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- A total of 150 meritorious students will receive ₹18,000 per annum based on merit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "academic-transcripts-including-marksheets-and-certificates-admission-letter-cast"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Indira_Gandhi_Utkrisht_Chhatravriti_Yojna-merged-202324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igucy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**To be eligible,** \n\n  - an applicant must**** be a bonafide resident of Himachal Pradesh and fulfil the below academic criteria:\n\n   1. **Class 12:** Students must have secured a minimum of 60% marks in the Himachal Pradesh Board of School Education (HPBOSE) Class 12 examination in any stream (Arts, Science, Commerce).   1. **Graduate Level:** Students must have secured a minimum of 60% marks in the undergraduate degree examination from a recognized university.   1. be enrolled in an academic or professional stream at a recognized university or institution within or outside Himachal Pradesh.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "revival-and-rehabilitation-scheme-for-defunct-msmes-and-cashew-processing-units",
+  "name": "Revival and Rehabilitation Scheme for Defunct MSMEs and Cashew Processing Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1.\tEntitlement in the scheme shall be limited to ₹15 Lakhs per applicant unit and it can avail only once.\n2.\tFinancial Assistance under the scheme provided for the following components-\n    a)\tBuilding Renovation - 25% of the total revival project cost limited to ₹2 lakh:\n            i)\tBuilding Renovation includes maintenance and repair of existing factory buildings, construction of fresh \n      ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-identity-proof-of-applicant-2-udyog-aadharudyam-registration-3-revival",
+    "machinery-and-electrification-8-valuation-of-approved-civil-engineer-chartered-e"
+  ],
+  "apply_url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/rrsdmsmecpu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All MSMEs in the manufacturing sector which are defunct for at least 6 months due to genuine issues including cashew processing enterprises that have the potential to be revived and rehabilitated, are eligible for assistance under the scheme.\n\n&gt; **Obligations of the Applicant Entrepreneurs:**\n\n   1. The applicant shall provide all required details and declare such information as to be true.\n   1. The applicant shall provide clarifications or further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/ sanctioning authority.\n   1. The applicant shall produce originals of any important documents if so required by the recommending/ sanctioning authority for verification.\n   1. The applicant shall execute the requisite legal agreement on Stamp paper worth ₹200 as and when the proposal is approved for implementation and furnishes the signed hard copy to General Manager, District Industries Centre.\n   1. The applicant shall utilize the amount received only in the manner agreed upon as per the revival project submitted.\n   1. The applicant shall operate the unit as stipulated in the agreement in which the quantum of support received, failing which the assistance shall be resumed by restoring the provisions of the Kerala Revenue Recovery Act.",
+  "_criteria_filled": 1
+}

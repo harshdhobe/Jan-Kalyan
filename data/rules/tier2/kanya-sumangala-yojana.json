@@ -1,0 +1,36 @@
+{
+  "id": "kanya-sumangala-yojana",
+  "name": "Kanya Sumangala Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "Kanya Sumangala Yojana will be applicable in six categories. \nThe categories of beneficiary classification and distribution of funds for them are determined as follows:-\nFirst PhaseAt the birth of a girl child.Rs. 2,000/- lump sumSecond PhaseAfter complete vaccination of the girl child up to one year. Rs. 1,000/- lump sumThird PhaseAfter the admission of girl child in first classRs. 2,000/- lump s",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "at-phase-1-latest-photo-of-the-girl-child-joint-photo-of-the-girl-child-with-the"
+  ],
+  "apply_url": "https://mksy.up.gov.in/women_welfare/pdf/ae0a20105201932342.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary&amp;#39;s family should be a resident of Uttar Pradesh and have a permanent residence certificate, in which Ration Card / Aadhaar Card / Voter ID Card / Electricity / Telephone bill will be valid.\n   1. The maximum annual family income of the beneficiary should be ₹3,00,000/-.\n   1. Maximum of two girls in a family will be able to get the benefit of the scheme.\n   1. There should be a maximum of two children in the family.\n   1. If a woman has twins from the second delivery, the benefit will also be admissible to the girl child as the third child. If a woman has a girl child from the first delivery and only two twin girls from the second delivery, then only in such a situation the benefit will be admissible to all three girls.",
+  "_criteria_filled": 3
+}

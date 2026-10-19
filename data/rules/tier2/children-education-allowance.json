@@ -1,0 +1,26 @@
+{
+  "id": "children-education-allowance",
+  "name": "Children Education Allowance",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "household",
+  "benefit": "- **Financial assistance of ₹500/- per child, per month, for up to two children.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-of-the-worker-bank-passbook-study-certificate-issued-by-the-he"
+  ],
+  "apply_url": "https://nbocw.nagaland.gov.in/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/cea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in building or construction work.\n1. The worker should be registered with the Nagaland Building and Other Construction Workers&#39; Welfare Board. \n1. The worker’s child should be studying between Nursery and 10th Class. \n1. A maximum of two children per family are eligible.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

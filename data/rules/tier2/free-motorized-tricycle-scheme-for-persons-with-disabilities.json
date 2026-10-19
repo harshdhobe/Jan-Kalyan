@@ -1,0 +1,41 @@
+{
+  "id": "free-motorized-tricycle-scheme-for-persons-with-disabilities",
+  "name": "Free Motorized Tricycle Scheme for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "- The maximum grant amount under this scheme is the motorized actual price of tricycles or ₹25,000/- whichever minimum per person with disabilities will be permissible.\n\n> **Note:** If the cost of a motorized bicycle exceeds ₹25,000/-, the expenditure incurred in addition to the maximum grant amount of ₹25,000/- will be borne by the beneficiary himself.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-disability-certificate-domicile-certificate-income-cert"
+  ],
+  "apply_url": "https://hwd.uphq.in/Upkvib/images/MOTORIZED%20TRICYCLE%20SCHEME%20DETAILS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmtsfpwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary should be resident of Uttar Pradesh.\n1. Beneficiary age should be 16 old or above.\n1. Family annual income must not be exceed ₹1,50,000/- from all the sources. \n1. Beneficiary can get the benefits only at once. \n1. Beneficiary must not be previously benefited by a motorized tricycle from the Government of India/Local Bodies/Member of Legislative Assembly Fund/MPLADS or other Government or Government funded sources.\n1. Applicants must have disability of 80% or more and certified by the Chief Medical Officer of the district.",
+  "_criteria_filled": 4
+}

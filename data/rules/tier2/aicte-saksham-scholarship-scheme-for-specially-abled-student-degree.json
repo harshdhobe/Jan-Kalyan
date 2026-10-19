@@ -1,0 +1,33 @@
+{
+  "id": "aicte-saksham-scholarship-scheme-for-specially-abled-student-degree",
+  "name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. ₹50,000/- per annum for every year of study i.e. maximum 4 years for the first year admitted students and maximum 3 years for the second year admitted students through lateral entry as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc.\n1. After selection, the awardee will be paid a scholarship through DBT mode on annual basis.\n1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-copy-of-ssc10th-certificate-mark-sheet",
+    "copy-of-hsc12th-certificate-in-case-of-degree-level-mark-sheet-copy-of-iti-certi",
+    "if-applicable-study-bonafide-certificate-appendix-i-annual-family-income-certifi"
+  ],
+  "apply_url": "https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sak-deg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate should be admitted to the first year of the degree-level course or the second year of the degree-level course through lateral entry in any of the AICTE-approved institutions of the respective year.\n1. Specially-abled students have a disability of not less than 40%.\n1. Family income from all sources should not be more than ₹8,00,000/- per annum during the current financial year. A valid income certificate issued by the state/UT government needs to be enclosed.\n\n<br>",
+  "_criteria_filled": 2
+}

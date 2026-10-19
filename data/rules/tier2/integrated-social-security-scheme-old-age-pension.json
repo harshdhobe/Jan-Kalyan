@@ -1,0 +1,36 @@
+{
+  "id": "integrated-social-security-scheme-old-age-pension",
+  "name": "Integrated Social Security Scheme: Old Age Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "Ladakh",
+  "scope": "household",
+  "benefit": "**Amount of pension:**  ₹1,000/- per month per beneficiary",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Ladakh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-proof-of-age-proof-of-in"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2023/06/2023060595.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isssoap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Ladakh.\n   1. The applicant should belong to the Below Poverty Line (BPL) Category.\n   1. The applicant’s age should be 60 years and above for males and 55 years and above for females.\n   1. The applicant should have no means of subsistence from their own source of income or through financial support from family members or other sources.",
+  "_criteria_filled": 3
+}

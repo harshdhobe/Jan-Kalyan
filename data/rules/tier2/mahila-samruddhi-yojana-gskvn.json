@@ -1,0 +1,41 @@
+{
+  "id": "mahila-samruddhi-yojana-gskvn",
+  "name": "Mahila Samruddhi Yojana (GSKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. An individual loan of ₹1,00,000/- is provided.\n1. The interest rate on the loan is 4%.\n1. The loan is intended for various businesses/occupations such as Mandap Decoration, Computer, Electrical Shop, Animal Husbandry, Grocery Shop, Bamboo Work, Sewing Work, Embroidery, Beauty Parlour, Mobile Repairing, etc.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-election-identity-card-proof-of-the-applicants-total-an"
+  ],
+  "apply_url": "https://esamajkalyan.gujarat.gov.in/ApplicationForm/SJEDGSKVN/GSKVNMSYViewApplicantDetails.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msygskvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native resident of Gujarat State.\n1. The applicant must be a sanitation worker or a dependent woman.\n1. The applicant must be female.\n1. The applicant&#39;s age should not be less than 18 years and not more than 50 years on the date of the advertisement.\n\n<br>",
+  "_criteria_filled": 4
+}

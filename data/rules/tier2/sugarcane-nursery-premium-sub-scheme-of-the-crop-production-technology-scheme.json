@@ -1,0 +1,26 @@
+{
+  "id": "sugarcane-nursery-premium-sub-scheme-of-the-crop-production-technology-scheme",
+  "name": "\"Sugarcane Nursery Premium\" Sub-Scheme of the \"Crop Production Technology\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Nursery Premium for Raising Seed Material to Plant One Hectare of Sugarcane (10 Ares (25 Cents) of Nursery @ ₹4,000/-)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-applicants-photo-farmers-identity-card-field-measurement-book-sugar"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/forms/backendsugar.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/snpsscpts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident/native of Puducherry.\n- The applicant should be a Farmer.",
+  "_criteria_filled": 1
+}

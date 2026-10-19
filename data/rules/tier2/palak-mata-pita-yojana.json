@@ -1,0 +1,31 @@
+{
+  "id": "palak-mata-pita-yojana",
+  "name": "Palak Mata-Pita Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** ₹3,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 36000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-age-proof-bank-pass-bookcancelled-cheque-birth-certificate-children"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a close relative, guardian, or foster parent taking care of the child.\n  - The applicant must be caring for a child aged between 0 to 18 years.\n  - The applicant must be taking care of a child whose both parents are deceased, or whose father is deceased and mother has remarried.\n  - The applicant must ensure that the child between 3 to 6 years is enrolled in an Anganwadi center.\n  - The applicant must ensure that the child above 6 years is enrolled in a school for compulsory education.\n  - The applicant must submit a certificate from the school or institution every year confirming the child’s ongoing education.\n  - The applicant must have an annual family income not exceeding ₹27,000/- in rural areas.\n  - The applicant must have an annual family income not exceeding ₹36,000/- in urban areas.",
+  "_criteria_filled": 2
+}

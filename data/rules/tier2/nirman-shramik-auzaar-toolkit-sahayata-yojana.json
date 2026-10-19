@@ -1,0 +1,28 @@
+{
+  "id": "nirman-shramik-auzaar-toolkit-sahayata-yojana",
+  "name": "Nirman Shramik Auzaar Toolkit Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> Actual cost of purchasing tools/toolkit or ₹ 2,000/-, whichever is less",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-registration-identity-card-of-the-beneficiary-copy-the-first-page-of",
+    "bank-account-number",
+    "and-ifsc-code-are-mentioned-copy-of-the-beneficiarys-aadhar-card-and-bhamashah-c"
+  ],
+  "apply_url": "https://sso.rajasthan.gov.in/signin",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsatsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of the Rajasthan state.\n1. The applicant must be a registered construction worker for 3 years.\n1. Amount payable only on purchasing tools/toolkits related to one&#39;s work or business.\n1. The purchase of tools/toolkits will be done by the construction worker himself and the bill is required to be attached to the application.",
+  "_criteria_filled": 1
+}

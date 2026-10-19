@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-krishi-sinchayee-yojana-har-khet-ko-pani-surface-scheme-uttarakha",
+  "name": "Pradhan Mantri Krishi Sinchayee Yojana - Har Khet Ko Pani (Surface Scheme) Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, farmers are provided with free irrigation facilities. The following works are carried out to ensure irrigation support:\n\n- Pipelines / Gool (water channels)\n- Storage tanks / Geo-lined tanks\n- Solar pump sets\n- Small gated weirs\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-departments-guidelines-prescribed-for-this-sch"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmksy-hkkp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a farmer engaged in agricultural activities.\n   1. As per the guidelines issued by the Government of India:\n\n  - For the construction of collective irrigation schemes, clusters will be formed within a radius of 5 km from the proposed village, with a command area of 20 hectares or more.\n  - In the case of an individual scheme, the command area should be 10 hectares or more.\n  - The cost of the scheme must not exceed ₹4.00 lakh per hectare.\n  - The benefit-cost ratio of the scheme must be greater than 1.0.\n\n<br>",
+  "_criteria_filled": 1
+}

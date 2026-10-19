@@ -1,0 +1,46 @@
+{
+  "id": "shramashakthi-special-womens-scheme",
+  "name": "Shramashakthi Special Women's Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:** \n\n- A total of ₹50,000/- is provided, comprising ₹25,000/- as a loan and ₹25,000/- as a subsidy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 350000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-casteminority-certificate-issued-by-the-competent-authority-incom"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female. \n1. The applicant should be a widowed, divorced, unmarried woman. \n1. The applicant should belong to a religious minority community as defined in the Government Order.\n1. The applicant should be a permanent resident of Karnataka.\n1. The applicant&#39;s age should be between 18 to 55 years.\n1. The annual family income of the applicant from all sources should be below ₹3,50,000/-.\n1. The applicant&#39;s family member should not be a State/Central Government employee. \n1. The applicant or family members should not have availed of benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years.",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "overseas-educational-loan-scheme",
+  "name": "Overseas Educational Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- The loan amount will be provided up to ₹20,00,000/- at a zero interest rate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-as-residential-proof-casteminority-certificate-issued-by-the-competent-a"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/oels",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a resident of Karnataka State.\n1. The student should belong to a minority community (Muslim, Christian, Jain, Buddhist, Sikh and Parsi).\n1. The student should have secured at least 60% marks in the previous year.\n1. The student should have received an offer letter from a foreign university.\n1. Loans will be provided only on mortgage of property (building/land) to the corporation. The value of the property should not be less than the loan amount.\n1. The students who have not received a scholarship from the Directorate of Minorities.\n\n<br>",
+  "_criteria_filled": 1
+}

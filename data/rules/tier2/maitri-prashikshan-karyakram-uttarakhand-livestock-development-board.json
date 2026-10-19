@@ -1,0 +1,31 @@
+{
+  "id": "maitri-prashikshan-karyakram-uttarakhand-livestock-development-board",
+  "name": "Maitri Prashikshan Karyakram - Uttarakhand Livestock Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **In Hilly Districts:** ₹100/- per artificial insemination, with a minimum target of 25 to 30 inseminations.- **In Plain Districts:** ₹100/- per artificial insemination, with a minimum target of 50 to 60 inseminations.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-uttarakhand-livestock-develo"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "It is mandatory for registered Artificial Insemination workers to record all AI-related data on the Bharat Pashudhan App.\n\n   1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must be at least 18 years of age.\n   1. The applicant must possess a minimum educational qualification of High School.\n   1. The applicant must obtain a recommendation in the prescribed format from both the Local Veterinary Officer and the Chief Veterinary Officer.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "khel-mahakumbh",
+  "name": "Khel Mahakumbh",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Winners of competitions receive cash prizes worth ₹45,00,00,000/- in total.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-aadhaar-card-bonafide-certificate-for-schoolcollege-student"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/kmk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a native of Gujarat or should have been studying, residing, working, or doing business in Gujarat for the past 2 years.\n  - Students must participate from the taluka/district where their school or college is located.\n  - Employees transferred from other states are eligible if their transfer to the district occurred at least 6 months before the date of registration.\n\n**Note:** The applicant can register for a maximum of 2 sports only.\n<br>",
+  "_criteria_filled": 1
+}

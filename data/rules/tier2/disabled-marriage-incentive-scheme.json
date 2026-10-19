@@ -1,0 +1,42 @@
+{
+  "id": "disabled-marriage-incentive-scheme",
+  "name": "Disabled Marriage Incentive Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- In case both husband and wife and differently-abled, the couple is provided with ₹50,000/- (lump sum). \n  - In case either husband or wife is differently-abled, the couple is provided with ₹1,00,000/- (lump sum).\n  - The amount will be disbursed to the concerned beneficiary directly through **NEFT/RTGS**, whenever possible.\n_*The incentive amount will be jointly payable to the eligible couple._\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "latest-photograph-of-the-married-couple-a-colour-photograph-of-the-couple-taken",
+    "an-affidavit-signed-on-a-10-stamp-paper-judicial-regarding-his-first-marriage-co"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/vivahdoc.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dwis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. At least one partner in the couple should be a native of Chhattisgarh.\n   1. The applicant should have a disability of 40% or above (as per [Section 2 of the Persons with Disabilities Act, 1995](https://thenationaltrust.gov.in/upload/uploadfiles/files/Persons%20with%20Disability%20Act%201995.pdf)).   1. The applicant’s marriage should be conducted as per social customs or legally solemnized by a competent court.\n   1. The applicant should not be an income taxpayer.\n   1. The age of the bride at the time of marriage should be 18 to 45 years.\n   1. The age of the bridegroom at the time of marriage should be 21 to 45 years.",
+  "_criteria_filled": 4
+}

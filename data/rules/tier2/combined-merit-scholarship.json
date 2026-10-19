@@ -1,0 +1,32 @@
+{
+  "id": "combined-merit-scholarship",
+  "name": "Combined Merit Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "> **Financial Assistance**\n\n- For Degree Courses: ₹300/- per month.\n- For Master Degree Courses: ₹500/- per month.\n- The scheme provides 200 scholarships for degree students (three years duration) and 100 scholarships for master degree students (two years duration).\n\n**Selection:** Based on merit and budget allocation.\n**Coverage:** Students pursuing general degree and master degree courses in Art",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stagepermanent-resident-certificate-from-district-collector-or-su",
+    "account-number",
+    "branch-name",
+    "indian-financial-system-code-at-document-submission-stagehard-copies-of-online-a",
+    "principal",
+    "or-head-of-the-institution-to-directorate-of-higher-education",
+    "assam"
+  ],
+  "apply_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cms-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be pursuing general degree or master&#39;s degree courses in Arts, Science, or Commerce discipline in any recognized institution.\n- The applicant must be domiciled in Assam (Permanent Resident Certificate document mandatory).\n- The applicant must have obtained minimum 60% marks in Higher Secondary examination for those applying for Combined Merit Degree Scholarship scheme.\n- The applicant must have obtained minimum 60% marks in General Degree (Three Year Degree Course) examination for those applying for Combined Merit Master Degree Scholarship scheme.\n- The applicant must possess relevant qualification from any recognized institution.\n- The applicant must have a valid bank account in their name (preferably in State Bank of India).\n\n<br>",
+  "_criteria_filled": 1
+}

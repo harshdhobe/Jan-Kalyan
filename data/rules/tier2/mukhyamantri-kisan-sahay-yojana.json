@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-kisan-sahay-yojana",
+  "name": "Mukhyamantri Kisan Sahay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Benefits\nAmount of AssistanceCrop Loss PercentageRs. 20,000/- per HectareCrop Loss of 33% to 60%Rs. 25,000/- per HectareCrop Loss of Over 60%",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-proof-of-land-ownership-crop-loss-certificate-iss"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/MMKSY.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/mksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The applicant must be a farmer residing in Gujarat state.\n1. The applicant must have availed of a loan for agricultural purposes from a cooperative institution or a bank.\n1. The applicant must have suffered crop loss due to natural calamities such as drought, flood, or earthquake.\n1. The applicant must possess the land for agricultural purposes in his/her name or have the right to cultivate such land.\n1. The land should be surveyed by the Revenue Department of Gujarat and should have a record of rights.\n1. The crop loss should be certified by the Revenue Department of Gujarat.\n1. The applicant should have insured the crop under the Pradhan Mantri Fasal Bima Yojana or any other crop insurance scheme recognized by the Government of Gujarat.",
+  "_criteria_filled": 1
+}

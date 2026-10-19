@@ -1,0 +1,26 @@
+{
+  "id": "spectacle-grant-sainik-welfare",
+  "name": "Spectacle Grant (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹2,000/-, for the purchase of Spectacle.\n- The amount is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-esm-discharge-certificate-of-esm-prescription"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/spectacles_grant.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sg-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen)/Widow of an Ex-serviceman.- The applicant should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.- The applicant should not be a member of the Ex-Servicemen Contributory Health Scheme (ECHS).",
+  "_criteria_filled": 1
+}

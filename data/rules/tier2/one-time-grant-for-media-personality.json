@@ -1,0 +1,43 @@
+{
+  "id": "one-time-grant-for-media-personality",
+  "name": "One Time Grant For Media Personality",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1. A one-time grant of ₹ 5,00,000/- to 20 Journalists in a year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "a-brief-curriculum-vitae-of-the-applicant-education-and-employment-history-self",
+    "one-each-to-be-pasted-in-two-application-forms-reporters-journalists-in-print-an",
+    "unity",
+    "and-integrity-all-samples-should-be-submitted-in-2-copies-each-along-with-two-se",
+    "assam-in-the-case-of-freelancers",
+    "heshe-will-have-to-provide-supporting-documents-as-proof-of-hisher-articlesnewsr",
+    "etc-published-in-newspapers-journals",
+    "etc-the-income-certificate-in-original-duly-issued-by-the-concerned-circle-offic"
+  ],
+  "apply_url": "https://dipr.assam.gov.in/sites/default/files/swf_utility_folder/departments/dipr_webcomindia_org_oid_4/portlet/level_2/guideline_of_one_time_grant_for_media_personality.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otgmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Assam.\n1. The applicant must be an accredited/recognized journalist of Assam.\n1. The scheme is open to all mainstream media journalists having accredited/recognized cards of DIPR, Assam including freelancers from Print, Electronic, and News Agencies.\n1. The minimum age for journalists should be 40 years. There is no upper limit.\n1. The applicant must have at least fifteen years of experience in the field of Journalism.\n1. The applicant should not have been convicted for any criminal offense or punished by any Court of Law or reprimanded by the Press Council of India for misconduct or violation of ethics of journalism or for any other similar reason.\n1. The Annual income of the applicant should be less than ₹ 5,00,000.\n\n<br>\n\n**NOTE:** Canvasing for the grant in any form will disqualify the candidature. Anybody found canvassing in his/her favor shall be debarred from consideration for a grant.",
+  "_criteria_filled": 3
+}

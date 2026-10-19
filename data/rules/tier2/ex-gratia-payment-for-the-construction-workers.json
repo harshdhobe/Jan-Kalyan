@@ -1,0 +1,41 @@
+{
+  "id": "ex-gratia-payment-for-the-construction-workers",
+  "name": "Ex-gratia Payment for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- Ex-gratia payment of ₹1,00,000/- in case of permanent disability.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "permanent-disability-certificate-issued-by-govt-doctor-medical-certificate-by-co"
+  ],
+  "apply_url": "https://bocw.delhi.gov.in/bocw/welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/epcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n**For Application**\n\n- The applicant should be permanently disabled.\n\n<br>",
+  "_criteria_filled": 4
+}

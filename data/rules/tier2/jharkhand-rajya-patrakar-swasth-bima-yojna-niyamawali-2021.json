@@ -1,0 +1,42 @@
+{
+  "id": "jharkhand-rajya-patrakar-swasth-bima-yojna-niyamawali-2021",
+  "name": "Jharkhand Rajya Patrakar Swasth Bima Yojna Niyamawali 2021",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Health insurance coverage up to ₹5,00,000/- per year for accredited journalists.\n- Coverage for self, spouse, and dependent children (up to 2).\n- Includes expenses for hospitalization, surgeries, medicines, and treatments.\n- Cashless treatment in empaneled hospitals.\n\n<br>\n\n> **Note-1:** The Jharkhand State Journalist Health Insurance Scheme is valid for one year, with renewal formalities requir",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "five-passport-sized-photographs-accreditation-certificate-issued-by-the-state-go",
+    "confirming-their-position-as-a-full-timepart-time-birth-certificate-signed-by-th",
+    "attached-details-work-experience-certificate-from-the-relevant-editoremployerbur",
+    "with-their-signature",
+    "including-details-for-ecs-facilities",
+    "micr",
+    "and-ifsc-code-receipt-copy-for-the-insurance-contribution-payment-affidavitnotar"
+  ],
+  "apply_url": "http://www.prdjharkhand.in/iprd/jhrkhndhlthinsschm/Jharkhand%20Rajya%20Patrakar%20Swasth%20Bima%20Yojna%20Niyamawali%202021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jrpsbyn2021",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must reside in Jharkhand and their work area should be within the state.\n1. The applicant should be an accredited journalist in Jharkhand.\n1. The media representatives must be from newspapers, magazines, news agencies, electronic media, or news-based electronic media.\n1. The applicant must be regularly or contractually employed by the respective media organization.\n1. The applicant must possess an accreditation certificate issued by the state government.\n1. The journalist&#39;s age should be between 21 to 60 years. \n1. Freelance journalists must present valid press credentials issued by the Information and Public Relations Department at the time of applying.\n1. The insurance coverage will include the media representative&#39;s spouse and two unmarried and dependent children up to the age of 21 years.",
+  "_criteria_filled": 3
+}

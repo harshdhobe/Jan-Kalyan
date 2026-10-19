@@ -1,0 +1,28 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-to-basic-industrial-infrastruc",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance to basic industrial infrastructure (Water, Gas and Approach Road)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Quantum of Assistance:** 75% of cost of capital investment for infrastructure or expenditure incurred for water/gas facilities, maximum limit up to ₹15,00,000/- including all infrastructure/facilities.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-detailing-the-infrastructure-requirements-cost-estimates-for-th",
+    "water",
+    "or-gas-connection-proof-of-investment-in-infrastructure-development-quality-cert"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyabii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. The applicant must have made a fixed capital investment in industrial infrastructure such as an approach road, water, or gas facilities.\n   1. The infrastructure should be developed outside GIDC areas/industrial parks.\n   1. The approach road construction must be certified for quality by a government-approved third party.\n   1. Expenditures on water/gas connections should be for connecting the industrial unit from the source.\n\n&amp;gt; **Note****:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

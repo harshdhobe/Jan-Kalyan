@@ -1,0 +1,26 @@
+{
+  "id": "deployment-of-prantiya-rakshak-dal-prd-volunteers-for-volunteer-their-dependents",
+  "name": "Deployment of Prantiya Rakshak Dal (PRD) Volunteers (For volunteer & their Dependents)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "In the event of death, permanent disability, or an accident during duty under adverse conditions, financial assistance is provided as follows:\n\n  - Death during communal riots: ₹2.00 lakh\n  - Death during special high-risk duty: ₹1.50 lakh\n  - Death during normal duty: ₹1.00 lakh\n  - Permanent disability: Half of the ex-gratia amount admissible for the higher category.\n  - Serious injury: One-four",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "in-case-of-death-death-certificate-prd-training-certificate-survivor-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dprdvd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a trained Prantiya Rakshak Dal (PRD) volunteer or a legal dependent of a PRD volunteer (in the event of the volunteer’s death).\n\n<br>",
+  "_criteria_filled": 1
+}

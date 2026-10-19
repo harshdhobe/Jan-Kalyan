@@ -1,0 +1,42 @@
+{
+  "id": "ex-gratia-scheme-disability-compensation-pbocwwb",
+  "name": "Ex-gratia Scheme: Disability Compensation (P.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "- **Compensation for Complete Disability:** Ex-gratia amount of ₹4,00,000/-.  - **Compensation for Partial Disability:** Proportionate amount of ₹4,00,000/- shall be given on the basis of percentage of disability i.e., ₹4,000/- for each 1% disability and maximum of ₹4,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerage-proof-if-no-age-proof-is-a",
+    "account-no-and-ifsc-rtgs-number-detail-of-dependents-employers-certificate-form"
+  ],
+  "apply_url": "https://bocw.punjab.gov.in/userfiles/file/Scheme%20Forms/BOCW%20Schemes%20in%20English%20Final2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/egsdcppbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a resident of Punjab.\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should have a monthly income of ₹15,000/- or below.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n  - The applicant should not have membership of the Employees&amp;#39; Provident Fund (EPF)/ National Pension System (NPS)/ Employees&amp;#39; State Insurance Corporation (ESIC).\n  - The applicant should not be an income tax payer.\n\n&gt; ***For the Application of the Welfare Scheme:***\n\n  - The applicant should be a registered member Under the Building and Other Construction Workers Welfare Board of Punjab.\n  - The member should have complete or partial disability.\n  - The member should not possess Health Cards issued under the Bhagat Puran Singh Sehat Bima Yojna.",
+  "_criteria_filled": 4
+}

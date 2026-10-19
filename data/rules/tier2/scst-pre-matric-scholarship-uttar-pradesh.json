@@ -1,0 +1,41 @@
+{
+  "id": "scst-pre-matric-scholarship-uttar-pradesh",
+  "name": "SC/ST Pre Matric Scholarship - Uttar Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- Component-1\n\n   1. ₹3,500/- per annum (Day Students).\n   1. ₹7,000/- per annum (residential students).\n\n- Component-2\n\n   1. ₹3,500/- per annum (Day Students).\n   1. ₹8,000/- per annum (residential students).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 12
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 20
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "mark-sheet-of-your-last-qualifying-examination-caste-certificate-income-certific"
+  ],
+  "apply_url": "https://scholarship.up.gov.in/PDFS/GO/PreScst(class%209-10)%20niyamawali%202016.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmcup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary must be a resident of Uttar Pradesh.\n1. Beneficiary must belong to the Scheduled Caste (SC) or Scheduled Tribe(ST) category.\n1. Beneficiaries who are dependents of people in occupations traditionally considered untouchable.\n1. Financial:\n\n  - Component 1: Beneficiaries&#39; parents&#39; annual income should not be more than ₹2,50,000/-.\n  - Component 2: No income criteria.\n\n1. All the children of the applicant&#39;s parents will be eligible.\n1. Students cannot receive other scholarships alongside this one (with some exceptions).\n1. Beneficiary&#39;s age limit is 12 to 20 years old (as of July 1st).",
+  "_criteria_filled": 4
+}

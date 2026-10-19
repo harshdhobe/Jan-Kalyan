@@ -1,0 +1,31 @@
+{
+  "id": "green-skill-development-programme-gsdp",
+  "name": "Green Skill Development Programme (GSDP)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Skill Development Training:** Free-of-cost training in environment-related fields such as bird identification, wildlife conservation, biodiversity interpretation, and eco-tourism education.  - **Self-Employment Opportunities:** Empowers youth and farmers to pursue independent livelihood avenues through knowledge-based interventions.  - **Government Scheme Readiness:** Makes candidates eligible",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "filled-application-form-passport-size-photograph-recent-and-affixed-on-the-form"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsdpuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a student.\n  - The applicant should have completed at least 10th standard.\n  - The applicant should be a farmer/ youth or individual seeking self-employment.\n  - The applicant should be below 55 years of age at the time of application.\n  - The applicant should have an interest in environmental and ecological training topics such as wildlife, biodiversity, or natural resource interpretation.",
+  "_criteria_filled": 2
+}

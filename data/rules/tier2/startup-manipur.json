@@ -1,0 +1,31 @@
+{
+  "id": "startup-manipur",
+  "name": "Startup Manipur",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "The state government aims to support and strengthen existing business incubators and accelerators to create a robust support system for startups.\nThe government intends to encourage and inspire the youth of Manipur to explore entrepreneurship as a viable career choice.\nTo strengthen the startup culture in the state, the government will foster greater social acceptance and recognition of promising ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-account-number-pan-card-aadhaar-card-pan-card-for-the-business-entity"
+  ],
+  "apply_url": "https://cmdashboard.mn.gov.in/departments/cm-flagships/start-up-manipur/#1635433339269-844ce1e6-5750",
+  "source_url": "https://www.myscheme.gov.in/schemes/strtupmpr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The entity/startup must be promoted by individuals who have domicile in Manipur. If a group of individuals is promoting the entity/startup, at least one promoter should have domicile in Manipur.\n1. The owner of the entity/startup must be above 18 years of age.\n1. Completion of incubation will be a mandatory requirement from a date to be notified by the State government.",
+  "_criteria_filled": 2
+}

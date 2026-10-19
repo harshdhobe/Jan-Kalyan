@@ -1,0 +1,26 @@
+{
+  "id": "additional-financial-assistance-for-the-children-of-persons-engaged-in-the-clean",
+  "name": "Additional Financial Assistance for the Children of Persons Engaged in the Cleaning Profession",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** \n\n  - This scheme provides ₹500/- per month as additional financial assistance to children of individuals working in the cleaning/sanitation profession.\n\n**Note:** Assistance will be provided for a maximum of 10 months per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "parentsguardians-certificate-of-being-engaged-in-cleaning-profession-admission-c"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110061548490675.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsscpecp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The applicant should be eligible for or currently receiving a scholarship under the Post-Matric Scholarship Scheme.\n   1. The applicant should belong to Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Classes (OBC), Economically Backward Classes (EBC), or Extremely Backward Classes (EBC).\n   1. The applicant&amp;#39;s parents or guardian should be engaged in the cleaning profession and belong to the scavenger class.\n   1. If the applicant&amp;#39;s parent is not alive, the guardian engaged in the cleaning profession and belonging to the scavenger class is eligible to apply.",
+  "_criteria_filled": 1
+}

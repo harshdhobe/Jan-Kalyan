@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-mahila-udyami-yojana",
+  "name": "Mukhyamantri Mahila Udyami Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Substantial Financial Support:** Receive up to ₹10,00,000/- for setting up a business (50% of the total financial assistance (up to ₹5,00,000/-) is provided as a non-repayable grant. The remaining 50% (up to ₹5,00,000/-) is offered as an interest-free loan, with a nominal 1% interest under specific sub-schemes.)  - **Skill Development:** Mandatory training sessions are provided to enhance entr",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "matriculation-certificate-in-which-date-of-birth-is-mentioned-intermediate-or-eq"
+  ],
+  "apply_url": "https://udyami.bihar.gov.in/pdf/MMUY%202024-25%20Selection%20Process%20&%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmuyb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Bihar.\n  - The applicant must be female.\n  - The applicant should have passed at least 10+2, Intermediate, ITI, Polytechnic Diploma, or equivalent.\n  - The applicant must be aged between 18 and 50 years.\n  - The business unit must be a proprietorship or partnership firm.\n  - This scheme also provides benefits to Transgender community.",
+  "_criteria_filled": 4
+}

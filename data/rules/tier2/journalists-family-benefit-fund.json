@@ -1,0 +1,26 @@
+{
+  "id": "journalists-family-benefit-fund",
+  "name": "Journalists’ Family Benefit Fund",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:**\n\n- ₹50,000/- for 5 years of service.\n- ₹1,00,000/- for 10 years of service. \n- ₹1,50,000/- for 15 years of service.\n- ₹2,00,000/- for 20 years of service.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-of-the-applicant-nature-reporter-photograph-death"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/schemes/journalist_benefit_fund_3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jfbf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased should have been an editor/sub-editor/reporter/photographer and proofreader.\n1. The benefit of the scheme will be given only on the death of the journalist while working in Journalism.\n1. The editor, sub-editor, journalist, and photographer should have worked full-time in a newspaper or daily periodicals published in Tamil Nadu.\n1. In case of sudden death due to an accident or fatal disease, five years of service is mandatory.",
+  "_criteria_filled": 1
+}

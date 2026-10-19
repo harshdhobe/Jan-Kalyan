@@ -1,0 +1,27 @@
+{
+  "id": "soil-testing-laboratory",
+  "name": "Soil Testing Laboratory",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "To provide soil testing services for farmers free of cost.\nSoil Health Card (SHC).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "farmers-photo-verification-form-by-the-agriculture-development-officer-of-a-cd-b",
+    "ifsc-code-of-the-applicant-aadhaar-number-or-alternative-identification-document"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=30",
+  "source_url": "https://www.myscheme.gov.in/schemes/stl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Bonafide farmers engaged in Agriculture",
+  "_criteria_filled": 1
+}

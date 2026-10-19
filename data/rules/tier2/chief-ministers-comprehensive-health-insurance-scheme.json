@@ -1,0 +1,31 @@
+{
+  "id": "chief-ministers-comprehensive-health-insurance-scheme",
+  "name": "Chief Minister's Comprehensive Health Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "Extensive Coverage for Medical Emergencies: The Chief Minister Comprehensive Health Insurance Scheme is designed to provide financial support to families who are not financially equipped to handle medical emergencies due to the high costs of healthcare treatments in India. The scheme offers access to high-end medical treatments without the worry of incurring a significant financial burdens.\nLarge ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-from-the-village-administrative-officerrevenue-authorities-ra"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmchis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The Chief Minister’s Comprehensive Health Insurance Scheme is intended for the residents of Tamil Nadu who meet the specified eligibility criteria. To qualify for benefits under the scheme, the applicant&#39;s name must be present in the family card, and their family&#39;s annual income should be less than Rs.1,20,000/- per annum. This eligibility can be confirmed by producing necessary documents, such as the family card, Aadhar card, and income certificate issued by the VAO/Revenue Authorities, along with a self-declaration from the head of the family.\n<br>\n\nUnder this scheme, the definition of family includes the eligible member, their legal spouse, their children, and their dependent parents. By ensuring that these individuals meet the necessary criteria, they can access the benefits of the scheme and receive quality healthcare services without financial burden.",
+  "_criteria_filled": 2
+}

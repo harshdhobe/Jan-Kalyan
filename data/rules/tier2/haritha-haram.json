@@ -1,0 +1,29 @@
+{
+  "id": "haritha-haram",
+  "name": "Haritha Haram",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "The Haritha Haram programme has several benefits, including:\nIncreased green cover: The main objective of the programme is to increase the green cover in Telangana, which has several benefits, such as improving air quality, reducing soil erosion, and providing habitat for wildlife.\nMitigation of climate change: Trees absorb carbon dioxide, which is one of the primary greenhouse gases responsible f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "the-documents-required-to-participate-in-the-haritha-haram-program-depend-on-the",
+    "they-may-need-to-sign-a-declaration-form-pledging-their-commitment-to-the-progra",
+    "address-proof",
+    "and-photographs-as-per-the-requirements-of-the-government-it-is-advisable-to-che"
+  ],
+  "apply_url": "http://harithaharam.telangana.gov.in/Harithaharam_Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/haritha-haram",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Haritha Haram is a flagship program initiated by the government of Telangana in India, aimed at increasing the green cover in the state. The eligibility criteria for Haritha Haram program vary based on the type of participant.\n<br>\n\nIndividuals: Any individual who wishes to participate in the program can do so by volunteering for tree plantation drives organized by the government or by planting saplings on their own. There are no specific eligibility criteria for individuals.\n<br>\n\nNGOs: Non-governmental organizations (NGOs) working in the field of environmental conservation can participate in the program by partnering with the government. The NGOs should be registered and actively involved in environmental conservation activities.\n<br>\n\nEducational institutions: Schools, colleges, and universities can participate in the program by organizing tree plantation drives on their campuses or by adopting a nearby forest area. The educational institution should have the necessary infrastructure and resources to undertake such activities.\n<br>\n\nGovernment departments: Various government departments such as the forest department, municipal corporation, and public works department can participate in the program by taking up plantation activities in their respective areas of operation.\n<br>\n\nCorporates: Companies can participate in the program by partnering with the government or by organizing tree plantation drives in their corporate social responsibility (CSR) activities. The companies should have a valid CSR policy and should be actively involved in environmental conservation activities.\n<br>\n\nIn summary, there are no specific eligibility criteria for individuals to participate in the Haritha Haram program. However, NGOs, educational institutions, government departments, and corporates need to meet certain criteria related to their registration status, infrastructure, and involvement in environmental conservation activities.",
+  "_criteria_filled": 1
+}

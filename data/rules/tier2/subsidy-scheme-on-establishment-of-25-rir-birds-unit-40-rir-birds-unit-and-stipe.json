@@ -1,0 +1,26 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-25-rir-birds-unit-40-rir-birds-unit-and-stipe",
+  "name": "Subsidy Scheme on Establishment of 25 R.I.R. Bird’s unit 40 R.I.R. Bird’s Unit and Stipend for Poultry Farming Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Subsidy Scheme on establishment of 25 R.I.R. birds unit for Weaker Section\t75% of total Expenditure or maximum ₹6,000/- in kind (25 R.I.R. birds and poultry feed)Benefit can be given to one member of family. After 3 years the same family can avail benefit.Subsidy Scheme on establishment of ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "income-proof-caste-certificate-disability-proof-for-divyang-beneficiaries-proof"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=VBmlBmd+scMV9XoODqMfYw==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssebbup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be from Gujarat.\n  - The applicant must belong to the Economically Weaker Section(EWS).\n  - The applicant must have taken 6 days of poultry-rearing training.\n\n**Note:**\n\n  - Divyang people of Gujarat state are also eligible to apply.\n  - Priority is given to females and Below Poverty Line (BPL) applicants.",
+  "_criteria_filled": 1
+}

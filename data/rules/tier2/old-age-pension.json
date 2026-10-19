@@ -1,0 +1,36 @@
+{
+  "id": "old-age-pension",
+  "name": "Old Age Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-self-attested-copy-of-ration-card-copy-of-voter-id-copy-of-disab"
+  ],
+  "apply_url": "https://wbswpension.gov.in/readwrite/miscellaneous/form-P.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oapwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be a resident of West Bengal State.\n  - Applicant must be 60 years old or above, but in the case of physically and mentally handicapped individuals, the age limit for eligibility is 55 years.\n  - Applicant should not have any relation capable of providing financial support (here “relation” means: Son/ Grand Son/ Husband/Wife/ Unmarried daughter/ Parents).\n  - The income of the applicant should not exceed ₹ 1,000/- per month.\n  - The applicant should not be a recipient of any other Government pension.\n  - The applicant should be residing in the State for not less than ten years on the date of making the application.\n\n&gt; ***Note:***\n\n  - The State Government may relax the residency condition in cases where undue hardship is caused.\n  - When only the year of birth is known, 1st July of that year or when the month is only known, 16th day of the month is to be taken as the date of birth.",
+  "_criteria_filled": 3
+}

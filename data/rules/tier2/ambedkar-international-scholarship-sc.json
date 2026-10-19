@@ -1,0 +1,36 @@
+{
+  "id": "ambedkar-international-scholarship-sc",
+  "name": "Ambedkar International Scholarship - SC",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** ₹25,00,000/- is granted to selected candidates in three installments:\n\n- ₹10,00,000/- in the first year\n- ₹10,00,000/- in the second year\n- ₹5,00,000/- in the third year\n\n**Scholarship Validity:****** Up to three years.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-caste-certificate-non-judicial-affidavit-of-100-stating-no"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=1164",
+  "source_url": "https://www.myscheme.gov.in/schemes/ais-sc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Rajasthan.\n1. The applicant must belong to the Scheduled Caste (SC) category.\n1. The applicant must have completed a postgraduate degree from a recognized Indian university with a minimum of 55% marks.\n1. The applicant must have secured admission to a Ph.D. program in a foreign university accredited by the respective country&#39;s authority.\n1. The applicant&#39;s age must be below 35 years as of the application deadline.\n1. The applicant’s family annual income should not exceed ₹6,00,000/-.\n1. The applicant should not be beneficiary of any other govt scholarship program.\n1. The Ph.D. program must be in one of the following fields:\n\n  - Sociology.\n  - Public Administration.\n  - Law.\n  - Economics.\n  - Political Science.\n  - Anthropology.\n\n<br>",
+  "_criteria_filled": 3
+}

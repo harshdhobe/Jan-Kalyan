@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-on-marriage-of-children-hbocwwb",
+  "name": "Financial Assistance On Marriage Of Children (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. The financial assistance of ₹21,000/- for the son’s marriage and ₹50,000/- for the daughter&amp;#39;s marriage will be given to a registered construction worker for making arrangements of the marriage of his/her son/daughter.\n   1. The financial assistance shall be sanctioned for the marriage of two children of the beneficiary provided that the benefits shall be extended up to three daughters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-a-copy-of-undertaking-a-copy-work-slip-proof"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/123",
+  "source_url": "https://www.myscheme.gov.in/schemes/famc-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n2.\tThe registered worker should have a minimum of one-year regular membership.\n3.\tThe worker should have the attested marriage card of his/her son/daughter.    \n**Note 01:** The worker will write in writing that he/she will submit the certificate of marriage in the office of the concerned Assistant Director within a period of six months otherwise he/she will not be eligible for any benefit under any welfare scheme in the future.\n**Note 02:** The worker shall submit an undertaking/self-declaration that he/she has not received this assistance from any other Government Department/Board/Corporation and will not do so.\n**Note 03:** The financial assistance shall be payable up to the marriage of two children but extendable up to the marriage of three daughters.\n**Note 04:** The marriage card should be attested by any one of these authorities i.e. State Government Gazetted Officer/Assistant Labour Commissioner/Labour Inspector/Secretary Gram Panchayat/Panchayat Adhikari/ BDPO/ DDPO/ Naib Tehsildar/ Tehsildar/Canongo/Patwari/Assistant Director, Industrial Safety &amp;amp; Health/SDO and Government Department or Board or Municipal Committee/ Junior Engineer of Municipal Corporation / Municipal Council and Head of Government School (Principal / Head Master / Administrators)",
+  "_criteria_filled": 1
+}

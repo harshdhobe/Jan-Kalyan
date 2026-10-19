@@ -1,0 +1,29 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-mini-fish-feed-mills-of-production-capacity",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Mini Fish Feed Mills of Production Capacity of 2 Ton /Day",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Tangible Benefits:**\n\n- Project Cost: ₹30,00,000/- per unit\n- Subsidy will be limited to 40% of the project cost for General Category of beneficiaries.\n- Subsidy will be limited to 60% of the project cost for Weaker sections/ SC/ST/Women and their co-operatives of beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-certificate-voting-cardbirth-certificateaadhar-cardmatriculation-c",
+    "nakal-akshizrafardregistered-patta-nama-and-the-land-title-should-be-clear-addit",
+    "the-latest-jamabandifardakshizra-should-be-attached-gst-bills-photographs-of-a-f",
+    "certifying-that-the-payments-for-the-goods-purchased-by-the-beneficiary-comply-w"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=4YZ2pdMRvpmSJfePsKCvAQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/mffmpc2td",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/beneficiary should be a resident of Haryana.\n   1. The applicant should possess a valid Parivar Pehchan Patra (Family ID).\n   1. All operational, maintenance, and post-construction management costs of the infrastructure facilities shall be borne by the beneficiary.\n   1. The beneficiary should ensure that the Fish Feed Mill remains in functional condition.\n   1. The beneficiary should supply the feed produced from the government-assisted Fish Feed Mill/Plant to fishers and fish farmers at an affordable price.\n   1. The applicant should either own the land or have it on a registered lease agreement valid for a minimum of 10 years.\n\n<br>",
+  "_criteria_filled": 1
+}

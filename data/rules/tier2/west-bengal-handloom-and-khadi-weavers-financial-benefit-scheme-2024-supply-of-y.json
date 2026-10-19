@@ -1,0 +1,26 @@
+{
+  "id": "west-bengal-handloom-and-khadi-weavers-financial-benefit-scheme-2024-supply-of-y",
+  "name": "West Bengal Handloom and Khadi Weavers Financial Benefit Scheme 2024: Supply of Yarn to Societies etc. at Subsidized Rate",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- TANTUJA will supply yarn to handloom societies at a 10% discounted rate.\n  - TANTUJA will receive a 5% administrative cost from the State Government for transportation, storage, and handling.\n  - The Khadi Society, registered under various acts, will receive a 10% discount on roving or high count cotton fibre purchased from WBKVIB.\n  - The WBKVIB will be reimbursed by the State government for th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-aadhar-card-proof-of-being-a-handloom-khadi-weaver-any-other-documents-as"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/circularpdf/1709829549NOTIFICATION%20No.%201001-MSMET%20dt.%207.3.2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/syssr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following categories of weavers are eligible under this Scheme:\n\n- Handloom Weavers (Entrepreneur Weavers, so called Master Weavers/ Individual Weavers/ Allied Workers Associated with Handloom Weaving/ Cooperative fold Weavers/ Weavers associated with Handloom Clusters etc.),\n-  Khadi Weavers.",
+  "_criteria_filled": 1
+}

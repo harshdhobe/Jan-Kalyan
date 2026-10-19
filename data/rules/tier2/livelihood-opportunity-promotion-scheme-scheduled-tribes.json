@@ -1,0 +1,41 @@
+{
+  "id": "livelihood-opportunity-promotion-scheme-scheduled-tribes",
+  "name": "Livelihood Opportunity Promotion Scheme (Scheduled Tribes)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:**\n\n  - Project Cost: Between ₹50,000/- and ₹2,00,000/-.\n  - Bank Loan: 60% of the project cost\n  - Margin Money: 30% of the project cost, repayable at 7% annual interest in 60 monthly installments\n  - Grant: Up to ₹50,000/-.\n\n> **Beneficiary Contribution:**\n\n  - No contribution for project cost up to ₹1,00,000/-\n  - 10% contribution for project cost between ₹1,01,000/- an",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-voter-id-aadhaar-card-disability-certificate-if-applica"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lopsst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant&#39;s age must be between 18 and 50 years.\n1. The applicant’s annual family income should not exceed ₹2,50,000/-.",
+  "_criteria_filled": 4
+}

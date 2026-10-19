@@ -1,0 +1,42 @@
+{
+  "id": "mukhyamantri-alpasankhyak-medhwi-balika-protsahan-yojana",
+  "name": "Mukhyamantri Alpasankhyak Medhwi Balika Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "The following incentives are given to meritorious girl students of minority community:\n**High School / Munshi / Maulvi:**\n\n- ₹10,000/- for securing 60% or above marks\n- ₹15,000/- for securing 70% or above marks\n- ₹20,000/- for securing 80% or above marks\n\n**Intermediate / Alim:**\n\n- ₹15,000/- for securing 60% or above marks\n- ₹20,000/- for securing 70% or above marks\n- ₹25,000/- for securing 80% o",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 20
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 103000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "self-declaration-certificate-of-belonging-to-a-minority-community-income-certifi",
+    "etc"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmmgis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant must belong to a minority community in Uttarakhand.\n2.  The applicant must be a girl student.\n3. The girl student must have secured 60% or more marks as an institutional candidate in the High School Examination of the Uttarakhand Secondary Education Board / Madrasa Board or its equivalent (Munshi/Maulvi), or in the Intermediate Examination or its equivalent (Alim).\n4.  The applicant’s mother/father/guardian should belong to the Below Poverty Line (BPL) category, or their annual family income from all sources should not exceed:\n\n  - ₹81,000 in rural areas\n  - ₹1,03,000 in urban areas\n\n5.  The girl student must be unmarried.\n6.  The age of the girl student should not be more than 20 years.\n7.  A maximum of two daughters from the same family can avail of this benefit.\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,32 @@
+{
+  "id": "disability-assistance-for-registered-worker-hbocwwb",
+  "name": "Disability Assistance For Registered Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "On the basis of the percentage of disability, a lump sum financial assistance will be given to registered workers as under:\n**Sl. No.** **Percentage of Disability****Amount  to be Paid** 1    Upto 50% Disability     ₹1,50,000/-2    51% to 75% Disability       ₹2,00,000/-\n3     76% or above        ₹3,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-a-copy-work-slip-proof-of-residence-ration-c"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/102",
+  "source_url": "https://www.myscheme.gov.in/schemes/darwhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The registered worker should have regular membership.\n   1. The registered worker who has become disabled due to an accident at the workplace during the course of employment is eligible to apply under the scheme.\n\n**Note 01:** It is mandatory to apply within one year of becoming disabled.\n**Note 02:** The disability Certificates in regard to the percentage of disability issued by the Government Medical Board.",
+  "_criteria_filled": 2
+}

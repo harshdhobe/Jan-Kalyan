@@ -1,0 +1,46 @@
+{
+  "id": "mukhyamantri-samajik-sahayata-prakalpa-vulnerable-women",
+  "name": "Mukhyamantri Samajik Sahayata Prakalpa - Vulnerable Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "- **Pension Amount:** ₹2000/- per month.- **Mode of Disbursal:** The sanctioned grant will be transferred directly to the individual bank account of the applicant.- The list of beneficiaries will be made available on the [official website](https://socialwelfare.tripura.gov.in/) of the Social Welfare &amp; Social Education Department, Govt. of Tripura.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-from-sdm-sub-divisional-magistrate-age-proof-certificate-birt"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssp-vm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The annual income of the family of the applicant should not exceed ₹1,00,000/-.\n1. The age of the applicant should be between 18 to 59 years.\n1. In the case of unmarried women, the age should be 45 years or above.\n1. If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura.\n\n**NOTE:** The assistance under this scheme will be stopped in the following cases:\n1.   Death of Beneficiary.\n2.   Fulfillment of any exclusion criteria during the lifetime of the beneficiary:\n\n- Remarriage of a widow.\n- A member of the family of the beneficiary getting a government Job.\n- The annual family income of the beneficiary exceeding ₹1,00,000/-.",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-25-rirkadaknath-1000-broiler-birds-unit-and-s",
+  "name": "Subsidy Scheme on Establishment of 25 R.I.R./Kadaknath & 1000 Broiler Bird’s Unit and Stipend for Poultry Farming Training for Scheduled Tribes People of the State",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Subsidy Scheme on establishment of - 25 Kadaknath / RIR birds Unit to Scheduled Tribes\t75% of total Expenditure or maximum ₹6,000/- in kind (25 R.I.R. birds and poultry feed)Benefit can be given to one member of family. After 3 years the same family can avail benefitStipend Scheme for",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-scheduled-tribe-caste-certificate-proof-of-residence-ration-cardvot"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=0BuOPAw3hjOJ9afMQ8Nm9A==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sskpf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be from Gujarat.\n  - The applicant must be an adult Scheduled Tribe (ST) individual.\n  - The applicant must have completed 6 days of poultry rearing training for the 25 R.I.R./Kadaknath bird unit and stipend scheme.\n  - The applicant must have completed any poultry rearing training for the 1000 broiler birds unit scheme.\n\n**Note:**\n\n  - Priority is given to females and Below Poverty Line (BPL) applicants.\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

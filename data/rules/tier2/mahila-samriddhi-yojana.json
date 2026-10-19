@@ -1,0 +1,41 @@
+{
+  "id": "mahila-samriddhi-yojana",
+  "name": "Mahila Samriddhi Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. It is a microfinance scheme for women with a rebate in interest. Financial Assistance up to the cost of ₹1,40,000/- is provided.\n   1. The repayment period is within 3.5 years, in quarterly installments from the date of each disbursement including the moratorium period. \n   1. On repayment of loans under MSY, through the concerned State Channelizing Agencies (SCA), the eligible beneficiaries ca",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "address-proof-identity-proof-shg-membership-id-caste-certificate-if-applicable-i"
+  ],
+  "apply_url": "https://nsfdc.nic.in/en/mahila-samriddhi-yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/cbssc-msy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be between 18 to 55 years of age.\n1. Applicable to Women from low-income families or women who belong to SC/ST/OBC categories as notified by the Central/State Government and whose family income is less than Rupees three lakhs per annum.\n1. Applicable to Women looking to start their own business or engage in income-generating activities.",
+  "_criteria_filled": 4
+}

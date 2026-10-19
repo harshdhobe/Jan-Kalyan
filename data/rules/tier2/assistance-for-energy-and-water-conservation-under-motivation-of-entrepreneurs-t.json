@@ -1,0 +1,29 @@
+{
+  "id": "assistance-for-energy-and-water-conservation-under-motivation-of-entrepreneurs-t",
+  "name": "\"Assistance for Energy and Water Conservation\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Reimbursement of 50% of the fees paid to the recognized institution/consultant for conducting the energy/water audit, subject to a limit of ₹25,000/-.\n> **Number of Installments**\n\nIn single or multiple installments, depending on the availability of fund.\n> **Mode of Disbursement**\n\n- The subsidy amount shall be disbursed through the financial institutions/banks only, if the unit is financed by th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production",
+    "literature",
+    "and-display-material-original-copy-of-the-catalogueprinting-material-prepared-fo",
+    "employment-and-other-information-every-year-and-from-time-to-time-as-sought-by-t"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/aewc-mesifai-vi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All the Micro, Small, Medium and Large Industries are eligible.\n- The Unit should have made the investment on or after 1st April 2017.\n- The unit should provide at least 60% of employment to the people of the Union territory of Puducherry of the total employment strength of the industrial units. This 60% of the local employment will have to be maintained by the industrial unit during the period specified in the Affidavit.\n- The unit should have achieved saving in energy/water minimum by 10% of average monthly consumption of previous 12 months before conduct of audit.\n- The audit should have been conducted in the unit by a recognized institution/consultant.\n- The industrial unit shall not transfer or dispose of the fixed asset including plant and machinery in any manner till the completion of 5 years from the date of submitting the application/disbursement of the subsidy whichever is later.\n- The additional investments made by the new/existing industrial units after availing the first claim are also eligible for subsidy up to the ceiling limit.\n\n*The date of commencement as admitted by the entrepreneurs shall be reckoned after due verification by the officials of the Industries Department.\n> **Special Cases**\n\nIf, two or more industrial undertakings are set up by the same person as proprietor, common partners, common Board of Directors/shareholders, such units are eligible for subsidy as separate entity provided the location of the unit are different and licenses /clearances/ registrations are obtained separately for the enterprises.",
+  "_criteria_filled": 1
+}

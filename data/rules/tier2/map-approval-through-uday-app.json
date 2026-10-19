@@ -1,0 +1,26 @@
+{
+  "id": "map-approval-through-uday-app",
+  "name": "Map Approval through UDAY App",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "All landowners in Haridwar district can avail themselves of the benefit of map approval through the UDAY mobile app.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-required-documents-must-be-submitted-as-per-the-guidelines-of-the-haridwar-r"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/maua",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All landowners in the Haridwar district of Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

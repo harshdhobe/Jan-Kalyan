@@ -1,0 +1,26 @@
+{
+  "id": "development-of-handicrafts",
+  "name": "DEVELOPMENT OF HANDICRAFTS",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> To revive the vanishing crafts and to restore the traditional Handicrafts.\n\n<br>\n\n> Financial Assistance:\n\n<br>\n\n- To the trainee –\n\n(i) Stipend: Rs. 1,500 /- per month/ per trainee.\n\n- To the trainer –\n\n(i) Honorarium Rs. 300/-per month/ per trainee (maximum Rs.3, 000/- per month).\n(ii) Compensation for wastage of raw materials Rs.150 /- per month/ per trainee (maximum Rs.1,500/- per month).\n<b",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-proof-should-be-a-native-of-puducherry-union-territory-orshould-be-a-c"
+  ],
+  "apply_url": "https://yanam.gov.in/scheme/developments-of-handicrafts/",
+  "source_url": "https://www.myscheme.gov.in/schemes/doh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Residence -Should be the native of Puducherry Union Territory (or)Should be a continuous resident for the past three years.\n1. Proof: Birth Certificate / Education Certificate/Residence Certificate.\n1. Already trained candidates are not eligible to apply.",
+  "_criteria_filled": 1
+}

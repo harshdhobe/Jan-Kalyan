@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-alpsankhyak-chhatravas-yojana",
+  "name": "Mukhyamantri Alpsankhyak Chhatravas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, students from minority communities who are studying and residing in hostels run by the Minority Welfare Department, Government of Bihar, will receive the following benefits:\n\n  - A monthly stipend of ₹1,000/-.\n  - Provision of essential facilities such as cots, mattresses, bed sheets, tables, chairs for studying, as well as cooking utensils and kitchen facilities. \n  - Monthly d",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-certificate-from-matric-class-xth-or-equivalent-certificate-marksh",
+    "where-the-applicant-is-studying-recommendation-letter-from-the-principalhead-of",
+    "recommending-for-admission-to-the-hostel",
+    "in-the-prescribed-format-savings-bank-account-details-with-name-of-the-bank",
+    "name-of-the-applicant-in-the-bank-account",
+    "account-number",
+    "ifsc-code-passport-size-photo-of-the-candidate-passport-size-photo-of-father-pas"
+  ],
+  "apply_url": "https://ekalyan.bih.nic.in/MH_App/default.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmacy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Bihar.\n   1. The applicant should be a student.\n   1. The student should belong to a minority community.\n   1. The student should be enrolled in a recognized institution, school, college, university, or technical institution in their respective district.\n   1. The student should be pursuing a course that is recognized by the Government.\n   1. The student should reside in a hostel operated by the Minority Welfare Department, Government of Bihar, while pursuing their studies.",
+  "_criteria_filled": 1
+}

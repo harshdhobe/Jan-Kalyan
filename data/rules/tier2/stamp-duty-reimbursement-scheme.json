@@ -1,0 +1,26 @@
+{
+  "id": "stamp-duty-reimbursement-scheme",
+  "name": "Stamp Duty Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. In case of land/ developed area purchased/ leased by Start-ups/ incubators/ accelerators, the stamp duty for land area lease/ sale transaction for start-ups/incubators/ accelerators will not exceed ₹ 100/-, and the excess amount paid to the authorities concerned will be reimbursed.\n1. A start-up is eligible only once to avail the benefits of this scheme.\n1. In the case of an incubator/accelerat",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-transaction-deed-2-original-proof-of-payment-of-stamp-duty-3-copy-of-m"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Start-up certified by the Start-up Promotion Cell (SPC) and incubators/accelerators enlisted with the Start-up Promotion Cell (SPC).\n1. The applicant can apply for this scheme only once in their lifetime.\n1. The bank accounts of the Directors of the company should be linked to Aadhaar.\n1. Only expenditures incurred from one year before the notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally would be considered for reimbursement. In case digital payments are not possible then it shall be up to the SPC as per its due diligence to admit the expenditure.\n1. A start-up can avail of the benefits of this scheme only once.",
+  "_criteria_filled": 1
+}

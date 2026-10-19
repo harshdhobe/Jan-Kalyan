@@ -1,0 +1,26 @@
+{
+  "id": "coaching-assistance-to-scheduled-castes-students-for-preparation-of-examination",
+  "name": "Coaching Assistance to Scheduled Castes Students for Preparation of Examination Like IIM, NIFT, NLU, CEPT",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, ₹20,000/- or the actual coaching fee to be paid, whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-proof-o"
+  ],
+  "apply_url": "https://esamajkalyan.gujarat.gov.in/ApplicationForm/SJEDSC/IIMApplicantDetailReport.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cascspeinnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligibility Criteria for Student:**\n\n   1. The students should belong to Scheduled Caste Category.\n   1. A student should have secured 70% or more in Class 10th and studying in Class 12th (any stream) to get admission in CEPT, NIFT, or NLU.\n   1. To get admission in IIMs: Students should have secured 70% or more in Class 12th (any stream) and be in the third year of graduation (any stream) or should have secured 70% or more marks in graduation if completed graduation.\n   1. There is no income limit.\n\n&gt; **Eligibility Criteria for Institute:**\n\n   1. The organization should have more than three years of experience.\n   1. The organization should have a GST Number/PAN card.\n   1. Institutions should have biometric (fingerprint) machines for student attendance.\n   1. The training institute should be registered under any one of the following Acts.\n\n  - Mumbai Public Trust Act, 1950\n  - Companies Act, 1956\n  - Shop and Establishment Act, 1948 (Shops and Institutions Act, 1948)",
+  "_criteria_filled": 1
+}

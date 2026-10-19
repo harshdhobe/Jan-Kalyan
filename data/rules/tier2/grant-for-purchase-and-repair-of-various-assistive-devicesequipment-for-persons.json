@@ -1,0 +1,31 @@
+{
+  "id": "grant-for-purchase-and-repair-of-various-assistive-devicesequipment-for-persons",
+  "name": "Grant for Purchase and Repair of Various Assistive Devices/Equipment for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **Grant Amount:**\n\n- ₹50/- to ₹3,500/- for the purchase of assistive devices (maximum ₹7,000/- in special cases).\n- ₹500/- for repair of artificial limbs and assistive equipment.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-disability-certificate-recommendation-letter-from-a-government-do"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpradpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Uttarakhand.\n1. The applicant should be a person with a disability.\n1. The applicant should have a minimum disability of 40%.\n1. In the case of a minor beneficiary, the monthly income of parents/guardians should not exceed ₹4,000/-.\n1. The applicant should have a medical recommendation from a Government Medical Officer or specialist recommending the device or its repair.",
+  "_criteria_filled": 2
+}

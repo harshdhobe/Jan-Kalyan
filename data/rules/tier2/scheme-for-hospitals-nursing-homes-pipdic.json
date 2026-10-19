@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-hospitals-nursing-homes-pipdic",
+  "name": "Scheme for Hospitals / Nursing Homes (PIPDIC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance to Entrepreneurs for setting up of small hospitals/nursing homes, polyclinics. etc., with 10 or more but less than 50 beds.\n\n_*Cost of Project must not exceed ₹5,00,00,000/-._\n_*Post-graduate doctors are to be associated._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-to-be-submitted-at-the-time-of-filing-loan-applicationdetailed-project",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant-if-any-details-of-eff",
+    "scheduled-caste",
+    "scheduled-tribe",
+    "or-differently-abled-entrepreneurs-documents-to-be-submitted-either-during-proce",
+    "food-license",
+    "etc-original-title-deed-for-the-site-and-collateral-security-property-antecedent"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/shnh-pipdic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Entrepreneurs setting up small hospitals/nursing homes, polyclinics. etc., with 10 or more but less than 50 beds.\n- Cost of Project must not exceed ₹5,00,00,000/-.\n- Post-graduate doctors are to be associated.\n\n<br>",
+  "_criteria_filled": 1
+}

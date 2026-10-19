@@ -1,0 +1,26 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-scholarship",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The scholarship amount is provided to eligible students for education.\n- The scholarship was provided as per the norms of the concerned department.\n- Categories covered include Scheduled Caste, Scheduled Tribe, Other Backward Class, and the economically weaker general category.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-family-id-samagra-member-id-valid-commercial-dr"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor in Madhya Pradesh. \n1. The applicant should possess a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant’s name should be registered on the Samagra Portal.\n1. The applicant should belong to a Scheduled Caste, Scheduled Tribe, Other Backward Class, or economically weaker general category.\n1. The applicant should meet educational and income criteria prescribed under the relevant scholarship scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

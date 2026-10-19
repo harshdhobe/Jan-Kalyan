@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-giving-stipend-to-the-trainees-belonging-to-the-scheduled-casteschedu",
+  "name": "Scheme for Giving Stipend to the Trainees Belonging to the Scheduled Caste/Scheduled Tribe Community Enrolled under Various Labour Welfare Centres in the State of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A stipend of ₹1,000/- per month shall be provided to the eligible applicant/trainee.\n- The scheme&#39;s main objective is to train the members of Industrial workers so that they become self-employed. Trainees can earn to some extent to help their family.\n- The stipend shall be paid monthly.\n\n- The stipend will be paid till the completion of the course of that particular academic year.\n- The peri",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate",
+    "issued-by-the-mamlatdar-of-respective-area-caste-certificate",
+    "issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/12/3.-Revised-rates-for-service-charges.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgstbscstcevlwcsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be enrolled under the respective Labour Welfare Centre for a particular academic year.\n- The applicant must have resided in Goa for atleast 15 years.\n- The applicant must belong to the Scheduled Caste/Scheduled Tribe Community.\n- The applicant must not have any source of income of her own.\n- The applicant must not be owing business.\n- The applicant must not be drawing any stipend from any other source.\n\n<br>",
+  "_criteria_filled": 1
+}

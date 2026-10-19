@@ -1,0 +1,41 @@
+{
+  "id": "meghalaya-sericulture-weaving-scheme",
+  "name": "Meghalaya Sericulture & Weaving Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. 75% of project cost supported by Government of Meghalaya as upfront margin money (5% by entrepreneur, 20% as bank loan)\n2. Credit linkage through partnered banks – State Bank of India (SBI) and Indian Bank\n3. Guidance in application process through implementing agencies\n4. Support in project realization and facilitation for unit setup under CM-ELEVATE framework\n5. Training and capacity building",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "collective-registered-unregistered-entities-incorporation-registration-certifica",
+    "govt-of-meghalaya-self-declaration-download-valid-government-photo-identity-with",
+    "voter-id",
+    "passport-etc-of-the-president-and-the-secretary-land-availability-certificate-do",
+    "voter-id",
+    "passport-etc-for-grainage-applicants-bank-statement-for-last-6-months-self-decla"
+  ],
+  "apply_url": "https://www.primemeghalaya.com/meghalaya-sericulture-weaving-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/msws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Collectives (Registered &amp; Unregistered Entities):**\n\n1. The collective must be based in the village where the program is being implemented.\n1. The registered entity must have at least 10 members.\n1. The collective must have prior experience in spinning and weaving, with a bonafide certificate from the District Sericulture Officer/District Handloom Officer stating that at least 5 members are spinners, reelers, or weavers, or valid Handloom ID cards for at least 5 weavers issued by the Government of Meghalaya.\n1. The collective should employ a minimum of 5 spinners or weavers, supported by an undertaking.\n1. The collective applying for Grainage must have staff with a minimum educational qualification of 10th pass and a bonafide certificate from the District Sericulture Office confirming at least 2 years of experience in the production of layings.\n1. The collective must have an active bank account and submit bank statements for the last 6 months.\n1. The collective must have been operating for at least two years.\n1. The collective must possess land, either self-owned or leased, verified by the competent authority.\n\n**For Individuals:**\n\n1. The individual must be a permanent resident of Meghalaya.\n1. The individual must have completed training in spinning or weaving, supported by a certificate from a registered training provider, a bonafide certificate from the District Sericulture Officer/District Handloom Officer, or a valid Handloom ID issued by the Government of Meghalaya.\n1. The individual applying for Grainage must have a minimum educational qualification of 10th pass and at least 2 years of experience in the production of layings, certified by the District Sericulture Office.\n1. The individual must be between 18 and 58 years of age.\n1. The individual must not be a credit defaulter from any bank.\n\n<br>",
+  "_criteria_filled": 3
+}

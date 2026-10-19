@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-5-additional-capital-investment-subsidy-to-karaikal-r",
+  "name": "\"Capital Investment Subsidy: 5% Additional Capital Investment Subsidy to Karaikal Region\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "5% Additional Incentive on the Existing Subsidy Schemes to the Units in Karaikal Region:\n\n- 30% subject to a limit of ₹30,00,000/- in case of SC/ST/Women Entrepreneurs.\n- 25% subject to a limit of ₹25,00,000/- for IT Industries.\n- 40% subject to a limit of ₹35,00,000/- for Small and Micro Thrust Area Enterprises.\n- 25% Subject to a Maximum of ₹25,00,000/- for Medium and Large Thrust Area Enterpris",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsentrepreneurs-memorandum-part-2-uam-pmt-registration-commenceme",
+    "an-affidavit-stating-that-the-subsidy-has-not-been-availed-of-from-the-central-g"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cis5aciskr-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should have an industrial unit in the Karaikal Region of Puducherry.\n- The applicant should have a priority industry announced by Government and set up in Karaikal.",
+  "_criteria_filled": 1
+}

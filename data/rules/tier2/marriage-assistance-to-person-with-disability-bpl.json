@@ -1,0 +1,55 @@
+{
+  "id": "marriage-assistance-to-person-with-disability-bpl",
+  "name": "Marriage Assistance to Person with Disability / BPL",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "household",
+  "benefit": "- The scheme provides a financial assistance of ₹30,000/- to differently-abled individuals belonging to the BPL category for their first marriage.\n\n> **Mode of Disbursement:** The amount will be directly transferred to the beneficiary&#39;s bank account.\n\n> **Frequency of Disbursement:** One-time assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "duly-attested-copy-of-the-marriage-registration-certificate",
+    "issued-by-the-island-khazi-and-countersigned-by-the-aminsdodc-of-the-respective",
+    "000-per-annum",
+    "certified-by-the-dcsdo-of-the-respective-island-two-joint-passport-size-photogra",
+    "duly-attested-and-affixed-to-the-application-form-proof-of-address",
+    "such-as-ration-card",
+    "aadhaar-card",
+    "or-epic-voter-id-card-age-proof-of-both-the-bride-and-groom-eg",
+    "birth-certificate",
+    "school-leaving-certificate-self-declaration-stating-that-the-applicant-has-not-r"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mapdbpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a differently-abled person belonging to the Below Poverty Line (BPL) category.\n   1. The applicant should furnish a disability certificate indicating at least 40% disability and must possess a valid ration card.\n   1. The applicant should belong to the Scheduled Tribe category.\n   1. The family income of the applicant should be below ₹18,000/- per annum, certified by the Deputy Commissioner (DC) or Sub-Divisional Officer (SDO) of the respective island.\n   1. Both spouses should be natives and permanent residents of Lakshadweep/citizens of India.\n   1. The applicant should not have availed benefits under any similar scheme from the State/Central Government or any other agency.\n   1. The eligible beneficiary may marry either a differently-abled person or a non-disabled (normal) person.\n   1. The minimum age requirement is 21 years for the male and 18 years for the female. It should be the first marriage for both individuals.\n   1. The assistance is applicable only for the applicant’s first marriage.\n\nNote: The claim of incentive for marriage allowance will not be claimed as a matter of right.",
+  "_criteria_filled": 5
+}

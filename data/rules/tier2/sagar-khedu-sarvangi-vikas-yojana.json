@@ -1,0 +1,26 @@
+{
+  "id": "sagar-khedu-sarvangi-vikas-yojana",
+  "name": "Sagar Khedu Sarvangi Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "The scheme plans for several infrastructure improvements and resultant benefits for consumers in coastal areas:\n**Infrastructure Improvement:** Work is planned for the improvement of distribution lines, construction of new 66 Kilovolt sub stations, and repair and modernization of transmission lines.\n**Voltage and Supply:** Industrial and residential customers located in the coastal areas will rece",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-the-citizensthe-citizens-are-not-required-to-submit-any-documents-or-forms-t"
+  ],
+  "apply_url": "https://guj-epd.gujarat.gov.in/Home/BlogDetailsPage/66",
+  "source_url": "https://www.myscheme.gov.in/schemes/sksvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***The guidelines of the scheme do not define any specific eligibility criteria. However, the target groups benefiting from the infrastructure and connection provisions will be the following:***\n\n- Electricity consumers living in the coastal area.\n- Industrial, residential, or agricultural customers located in the coastal areas.\n- Consumers residing within one of the 39 taluks of the 15 districts of the Sagar Kantha area.\n- Farmer seeking a new agricultural electricity connection in the areas of Paschim Gujarat Vij Company Limited (PGVCL) company.\n\n<br>",
+  "_criteria_filled": 1
+}

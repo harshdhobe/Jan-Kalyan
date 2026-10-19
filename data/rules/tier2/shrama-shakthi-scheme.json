@@ -1,0 +1,41 @@
+{
+  "id": "shrama-shakthi-scheme",
+  "name": "Shrama Shakthi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Under this scheme, a loan of ₹50,000 will be given to persons belonging to religious minority communities.\nUnder this scheme, religious minority community entrepreneurs will be trained in artistic and technical skills.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 350000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "print-out-of-the-completely-filled-online-application-form-beneficiarys-latest-2"
+  ],
+  "apply_url": "https://kmdc.karnataka.gov.in/22/shrama-shakthi/en",
+  "source_url": "https://www.myscheme.gov.in/schemes/sss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age limit of the applicant should be between 18 and 55 years.\n1. The applicant must be a permanent resident of the State.\n1. Applicants must belong to State Religious Minority Community.\n1. Family income from all sources should be within Rs. 3.50 lakh per annum.\n1. An applicant or his/her family members should not have availed benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years.\n\n<br>\n\n<br>",
+  "_criteria_filled": 4
+}

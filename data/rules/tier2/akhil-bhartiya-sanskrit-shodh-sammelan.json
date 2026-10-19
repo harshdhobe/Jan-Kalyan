@@ -1,0 +1,26 @@
+{
+  "id": "akhil-bhartiya-sanskrit-shodh-sammelan",
+  "name": "Akhil Bhartiya Sanskrit Shodh Sammelan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "At the Sanskrit Shodh Sammelan, participants gain knowledge through new research in Sanskrit literature, exchange ideas, learn the methodology of writing research papers, and receive certificates.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-participation-in-the-sammelan-as-per-the-guidelines-of-th"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/absss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Acharyas, co-acharyas, assistant acharyas, lecturers, assistant professors, teachers, and research scholars from all states of the country who are engaged in study, teaching, or research are eligible to participate.\n\n<br>",
+  "_criteria_filled": 1
+}

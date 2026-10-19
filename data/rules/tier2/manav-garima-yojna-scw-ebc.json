@@ -1,0 +1,31 @@
+{
+  "id": "manav-garima-yojna-scw-ebc",
+  "name": "Manav Garima Yojna SCW (EBC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The primary benefit is the provision of various business tool-kits to eligible beneficiaries so that they can engage in small business activities and become self-employed and financially self-sufficient.\n1. The tool kits are given under the scheme targeted at the Economically Backward Class (EBC).\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-certificate-of-prof-course-identity-card-income-c"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/manavgarimaguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must belong to the Economically Backward Class (EBC).\n   1. The applicant’s annual individual and family income should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

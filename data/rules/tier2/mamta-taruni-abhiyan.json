@@ -1,0 +1,33 @@
+{
+  "id": "mamta-taruni-abhiyan",
+  "name": "Mamta Taruni Abhiyan",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Benefits\nAccess to Health and Wellness Services: The scheme provides access to various health and wellness services, including health check-ups, antenatal care, postnatal care, and nutritional support.\nImproved Maternal and Child Health: The scheme aims to improve maternal and child health outcomes by providing timely and quality healthcare services to pregnant women and young girls.\nHealth Educat",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-identification-documents-beneficiaries-must-have-iden",
+    "aadhaar-card",
+    "or-any-other-valid-government-issued-identity-proof-medical-certificate-pregnant"
+  ],
+  "apply_url": "https://nhm.gujarat.gov.in/mamta-abhiyan.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/mta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Adolescent Girls: The scheme is open to all adolescent girls between the ages of 10 and 19 years who are residents of Gujarat.\n1. Pregnant Women: The scheme is open to all pregnant women who are residents of Gujarat.\n1. BPL Families: The scheme gives priority to women and girls belonging to Below Poverty Line (BPL) families.",
+  "_criteria_filled": 2
+}

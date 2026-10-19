@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-meritorious-students-to-pursue-higher-secondary-education-in-the-best",
+  "name": "Scheme for Meritorious Students to Pursue Higher Secondary Education in the Best Schools of Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Full financial assistance for pursuing higher secondary education in reputed private schools.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "00",
+    "000-any-other-documents-if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/27514",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfmstn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Backward Classes (BC)/ Most Backward Classes (MBC)/ Denotified Communities (DNC).\n  - The beneficiary should have secured the highest marks in 10th Public examination.\n  - The beneficiary should be among the Top 10 meritorious students from each district.\n  - The beneficiary should be studying in Government/ Government Aided/ Private School.\n  - The beneficiary&amp;#39;s parental annual income should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 2
+}

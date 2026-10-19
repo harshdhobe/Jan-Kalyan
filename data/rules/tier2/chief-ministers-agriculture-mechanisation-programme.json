@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-agriculture-mechanisation-programme",
+  "name": "Chief Minister’s Agriculture Mechanisation Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Subsidized Agriculture Machinery\nThe assistance of tractor subsidies to progressive farmers/ registered co-operative agriculture farming society/ unemployed agriculture and allied graduates belonging to APST in all the districts.\nFor marginal and small farmers, farm machines such as Power tillers, Water pump sets, etc. as mentioned in the table below are to be distributed as per demand. \nSl. No.Ma",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-registered-mobile-number-permanent-resident-ce"
+  ],
+  "apply_url": "https://westsiang.nic.in/scheme/achief-minister-s-agriculture-mechanization-programme-cmamp/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmamp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All categories of farmers viz; Marginal, Small, Medium, and Large Farmers.\n- All the SHGs, Co-operative Societies, FPOs, and Entrepreneurs as identified by District Nodal Agencies, DAO as Member Secretary, DHO, DAH &amp;amp; VO, and DFDO as members.\n- A farmer or all members of a group of farmers should be first-time buyers of the tractor/ farm machinery.\n- Farmers should not own a tractor/ farm machinery now or earlier in or their name or in the names of his/ their family members.\n- Facilities for after-sale services and spare parts should reasonably be available in the area/ district where the scheme is to be implemented.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "integrated-vegetable-development-program",
+  "name": "Integrated Vegetable Development Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **For General Category Farmers:** Financial assistance of ₹1,500/- per hectare, including ₹1,400/- for hybrid/improved seeds and ₹100/- for seed treatment medicine.  - **For Scheduled Caste/Scheduled Tribe Farmers:** Financial assistance of ₹2,250/- per hectare, including ₹2,100/- for hybrid/improved seeds and ₹150/- for seed treatment medicine.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-caste-certificate-any-other-documents-as"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/ivdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the General/ Scheduled Caste/ Scheduled Tribe category.\n\n<br>",
+  "_criteria_filled": 1
+}

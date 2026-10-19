@@ -1,0 +1,45 @@
+{
+  "id": "arundhati-gold-scheme",
+  "name": "Arundhati Gold Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Benefits\nThe benefit of this scheme is the transfer of an incentive of rupees 40,000.\nBut the only rule in this scheme is when the money will be transferred to the bride’s account to incur gold expenditure.\nThis amount of money cannot be used for any other purpose.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-to-ascertain-the-eligibility-criteria-of-the-applicant-girl-d",
+    "1954-the-attested-copy-of-the-certificate-of-marriage",
+    "issued-by-the-marriage-officer",
+    "in-the-form-specified-in-the-fourth-schedule-of-the-special-marriage-assam-act",
+    "1954-the-income-certificate-of-the-parents-of-the-applicant-was-issued-by-the-ci"
+  ],
+  "apply_url": "https://arundhati.nic.in/index.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/ags",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. The bride and groom should have attained the legal age of 18 years and 21 years respectively at the time of registration of the marriage.  \n1. The marriage of the applicant should be registered under the Special Marriage Act, of 1954.\n1. The applicant should have solemnised her marriage on or after the 1st of December, 2019.\n1. The applicant should have registered her marriage on or after the 1st of January 2020.\n1. The applicant girl should apply for the benefit under Arundhati Gold Scheme on the same day that she applies for marriage registration. \n1. The total income of the parents of the applicant girl should be below Rs 5.00 Lakh per annum.\n1. The applicant girl can avail of this benefit for her first marriage only. \n1. Both the bride and the groom must have passed at least HSLC or equivalent Except Tea Tribe including Adivasi communities of the State. \n1. No minimum educational qualification is required in the case of Tea Tribe including Adivasi communities for the next five years, as most of the Tea Gardens in the State of Assam do not have High School facility",
+  "_criteria_filled": 4
+}

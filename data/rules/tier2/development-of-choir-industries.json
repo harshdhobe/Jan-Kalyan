@@ -1,0 +1,26 @@
+{
+  "id": "development-of-choir-industries",
+  "name": "Development of Choir Industries",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial assistance:  \n\n- To the trainee–  Stipend:Rs. 1,500/- per month/per trainee.    \n- To the trainer – \n\n(i) Honorarium -Rs. 300/- per month per trainee (maximum Rs.3,000/- per month.).  \n(ii) Compensation for wastage of raw materials- Rs.200/-per month per trainee (maximum Rs. 2,000/- per month.).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-proof-should-be-a-native-of-puducherry-union-territory-orshould-be-a-c"
+  ],
+  "apply_url": "chrome-extension://efaidnhttps://cdn.s3waas.gov.in/s3ddb30680a691d157187ee1cf9e896d03/uploads/2021/07/2021073014.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/doci",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Residence should be a native of Puducherry Union Territory (or) should be a continuous resident for the past three years. Already trained candidates are not eligible to apply.",
+  "_criteria_filled": 1
+}

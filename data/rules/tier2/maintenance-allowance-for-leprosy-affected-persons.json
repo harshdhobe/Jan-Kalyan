@@ -1,0 +1,31 @@
+{
+  "id": "maintenance-allowance-for-leprosy-affected-persons",
+  "name": "Maintenance Allowance for Leprosy Affected Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹2,000/- per month. \n> **NOTE:** The allowance is sent through ECS to their bank account directly from the Treasury.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-family-card-disability-ce"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/maflap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leprosy affected with deformity of 40% and above.\n1. The beneficiaries should not receive any other pension benefit of Tamil Nadu.",
+  "_criteria_filled": 2
+}

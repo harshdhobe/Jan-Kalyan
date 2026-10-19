@@ -1,0 +1,33 @@
+{
+  "id": "advocate-grant",
+  "name": "Advocate Grant",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1.\tThe grant of ₹12000/- per year will be provided to law graduates who enrolled before the Bar Council.\n2.\tThe grant will be provided for 3 consecutive years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-identity-proof-2-copy-of-aadhaar-card-3-photo-of-the-applicant-4-c",
+    "if-applicable-9-enrollment-certificate-10-certificate-from-the-senior-advocate-1",
+    "if-required"
+  ],
+  "apply_url": "https://bcdd.kerala.gov.in/wp-content/uploads/2021/07/pdf-3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of the Kerala State.\n2.\tThe applicant should belong to the State Backward Community of Kerala State.\n3.\tThe applicant should be a Law Graduate.\n4.\tThe applicant should be enrolled as an Advocate in the Bar Council (Kerala).\n5.\tThe applicant should be started practice as an Advocate within the state shall alone be considered.\n6.\tThe annual family income of the applicant should be ₹1,00,000/-.\n**Note 01:** Preference will be given to Below Poverty Line (BPL) candidates.\n**Note 02:** Preference will be given to the applicant whose annual family income is less.\n**Note 03:** If there is any tie, such cases shall be determined on the basis of the percentage of marks of the Law Degree.\n**Note 04:** If still there is any tie, preference shall be given to the candidates who have obtained degrees in law from the Universities in Kerala.",
+  "_criteria_filled": 2
+}

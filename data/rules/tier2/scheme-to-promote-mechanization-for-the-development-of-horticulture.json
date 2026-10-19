@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-promote-mechanization-for-the-development-of-horticulture",
+  "name": "Scheme to Promote Mechanization for the Development of Horticulture",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "<br>\n\nMachineryMaximum Subsidy (₹)Potato Planter/Digger30,000Garlic/Onion Planter/Digger30,000Tractor Mounted Agri-Blast Sprayer75,000Power Operated Pruning Machine20,000Fogging Machine10,000Mulch Laying Machine30,000Power Tiller75,000Power Weeder50,000Tractor with Rotavator (Up to 20 H.P.)1,50,000Onion/Garlic Marker500Post Hole Digger50,000Tree Pruner45,000Plant Hedge Trimmer35,000Mist Blower30,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/stpmtdh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

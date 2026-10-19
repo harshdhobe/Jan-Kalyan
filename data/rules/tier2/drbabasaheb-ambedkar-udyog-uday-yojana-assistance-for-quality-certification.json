@@ -1,0 +1,26 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-for-quality-certification",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance for Quality Certification",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **ERP Assistance:**\n\n- Covers 75% of the capital cost for installing an Enterprise Resource Planning (ERP) system, up to a maximum of ₹1,00,000/-.\n- Eligible costs include installation charges, software, and annual service costs.\n- Excludes hardware costs of the ERP system.\n\n- Software-as-a-Service (SaaS) subscription charges are also considered under the scheme.\n\n> **Quality Certification Assis",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemlol-registration-certificate-copy-of-the-constitution-of-the-ent"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyaqc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n  - The enterprise must apply within one year from the date of certification issuance.",
+  "_criteria_filled": 1
+}

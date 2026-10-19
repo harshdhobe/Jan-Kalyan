@@ -1,0 +1,31 @@
+{
+  "id": "readers-allowance-to-visually-impaired-persons",
+  "name": "Readers Allowance to Visually Impaired Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "> **Reader&#39;s allowance is being paid at the following rate:**\n\n- 9th**** To 10th Standard - ₹3,000/- (per annum).- Degree Courses - ₹5,000/- (per annum).\n- Post Graduate and Professional Courses - ₹6,000/- (per annum). \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "reader-certificate-issued-from-the-head-of-the-institution-national-identity-car"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ratvip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a visually impaired student.\n1. The applicant enrolled in 9th standard or above in a recognized/bonafide institution.",
+  "_criteria_filled": 2
+}

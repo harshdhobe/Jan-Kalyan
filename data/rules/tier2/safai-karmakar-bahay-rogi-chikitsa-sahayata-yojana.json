@@ -1,0 +1,36 @@
+{
+  "id": "safai-karmakar-bahay-rogi-chikitsa-sahayata-yojana",
+  "name": "Safai Karmakar Bahay Rogi Chikitsa Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "> Medical assistance up to Rs. 2,000/- in a year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-permanent-residence-certificate-copy-of-rati"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/safai%20karmakaar%20baahy%20rogee%20chikitsa%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skbrcsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Safai Worker must be registered Unorganized worker of State Social Security Board.\n1. Safai worker must be between 18 to 60 years.\n1. Family members details must be mentioned in the registration card. \n1. Benefits will be provided only safai worker and their family members (husband, wife, son and daughter) mentioned in the registration card.\n1. The benefit of the scheme will be available only up to two children.\n1. If the benefit of the scheme is being received from any other parallel scheme of the State Government, then the benefit of this scheme will not be available.",
+  "_criteria_filled": 3
+}

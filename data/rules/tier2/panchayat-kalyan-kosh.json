@@ -1,0 +1,31 @@
+{
+  "id": "panchayat-kalyan-kosh",
+  "name": "Panchayat Kalyan Kosh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "In the event of the death of a Panchayat Representative while in office, the following amounts will be provided to their families or dependents:\n\n  - Pradhan of Gram Panchayat, Pramukh of Kshetra Panchayat, and Zila Panchayat President: ₹10,00,000/-\n  - Member of Zila Panchayat: ₹5,00,000/-\n  - Member of Kshetra Panchayat: ₹3,00,000/-\n  - Member of Gram Panchayat: ₹2,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-identity-proof-proof-of-relationship-with-the-deceased-panchayat-repr",
+    "provide-a-copy-of-the-panchnama",
+    "postmortem-report",
+    "or-a-certificate-issued-by-a-registered-medical-practitioner-death-certificate-i",
+    "by-the-block-development-officer-in-case-of-the-death-of-an-kshetra-pramukh-or-k",
+    "and-by-the-additional-chief-officer-for-the-death-of-a-zila-panchayat-president"
+  ],
+  "apply_url": "https://prdfinance.up.gov.in/dist_pdf_kalyankosh/Avedan_Prakriya.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pkk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a family member or dependent of a deceased Panchayat Representative.\n   1. Assistance is provided in the event of the death of a Panchayat Representative (Pradhan of Gram Panchayat, Pramukh of Kshetra Panchayat, Zila Panchayat President, or members of Zila Panchayat, Kshetra Panchayat, and Gram Panchayat) while serving in office.\n   1. Assistance will not be provided in cases of suicide or involvement in criminal acts by the Panchayat Representative.",
+  "_criteria_filled": 1
+}

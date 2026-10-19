@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-encourage-the-children-of-sanitation-workers-who-have-passed-the-class",
+  "name": "Scheme to Encourage the Children of Sanitation Workers Who have Passed the Class 10/12 Examination (GSKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Cash Prize Details:**\n\n**Rank****10th Class****12th Class (Science Stream/General Stream)**First Rank₹ 41,000/-₹ 31,000/-Second Rank₹ 21,000/-₹ 21,000/-Third Rank₹ 11,000/-₹ 11,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "mark-sheet-of-10th-or-12th-standard-student-aadhaar-card-bank-pass-bookcancelled"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gskvn/assets/downloads/08_ssc_and_hsc.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/secshms1012e",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a student.\n1. The applicant should be a child of a sanitation worker engaged in scavenging activities.\n1. The applicant should have passed the SSC (Class 10) or HSC (Class 12) board examinations conducted during the current academic year to be eligible under this scheme.\n1. There is no annual income limit to avail the benefits of this scheme.\n\n> **Note:** Applicants who secure the first, second, or third rank among the online applications received will be eligible for benefits under this scheme. \n\n<br>",
+  "_criteria_filled": 1
+}

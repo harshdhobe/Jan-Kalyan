@@ -1,0 +1,26 @@
+{
+  "id": "various-awards-to-individualsorganizations-who-have-made-outstanding-contributio",
+  "name": "Various Awards to Individuals/Organizations who have made Outstanding Contributions in the Field of Social Welfare",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Under this scheme, individuals and organizations receive various awards in recognition of their exceptional contributions to social welfare.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-proof-of-residence-detailed-report-of-workcontr"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/vaioocfsw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be either an individual or an organization.\n- If the applicant is an individual, they should be a resident of Gujarat; if an organization, it should operate within Gujarat.\n- The applicant should have made outstanding contributions in the field of social welfare.\n- The contributions should specifically benefit or directly impact the Scheduled Caste (SC) community in Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

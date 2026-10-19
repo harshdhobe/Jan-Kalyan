@@ -1,0 +1,31 @@
+{
+  "id": "khushi-scheme",
+  "name": "Khushi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "The Khushi Scheme offers several key benefits aimed at improving menstrual hygiene and overall well-being for women and girls in the state.\n1. **Free or Subsidized Napkins:** The scheme provides free or affordable sanitary napkins to women and girls, especially in rural and underserved areas where access to such products is limited.\n2. **Education and Awareness:** Through educational campaigns, th",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-residence-school-id-card"
+  ],
+  "apply_url": "https://khushi.nic.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ks",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Odisha.\n1. All school girls from classes 6th to 12th are eligible.",
+  "_criteria_filled": 2
+}

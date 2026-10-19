@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation-assistance-to-enroll-and-particip",
+  "name": "Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Startups can receive financial assistance of up to ₹3,00,000/- to participate in acceleration programs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "informative-document-of-the-acceleration-program-brochure",
+    "leaflet",
+    "letter-from-host-organization-etc-details-of-fees-to-be-paid-for-participating-i"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/13-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfasiepap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n  - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n&gt; **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.",
+  "_criteria_filled": 1
+}

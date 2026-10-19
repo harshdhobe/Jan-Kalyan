@@ -1,0 +1,31 @@
+{
+  "id": "additional-pension-to-100-disabled-ex-serviceman-having-children",
+  "name": "Additional Pension to 100% Disabled Ex-Serviceman having Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**The rates of additional pension admissible under the scheme are as follows:**\nSl. No.CategoryAdditional Pension Amount1Other Ranks₹100/- per child per month subject to a maximum of ₹300/-2JCO’s₹150/- per child per month subject to a maximum of ₹450/-3Officers₹200/- per child per month subject to a maximum of ₹600/-**Mode of Payment:**\nEach Secretary of District Sainik Board will make payment of ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-original-discharge-boo"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=hM5OQxY5WVYrlVUPtSt+Vw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/apdesmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be an Ex-serviceman. An ex-serviceman means a member of the Armed Forces who is released from service due to 100% disability or permanent incapacity to work and the disability or incapacity is attributable to service.\n   1. The applicant should have 100% disability.\n   1. The benefit is provided for up to three children.\n   1. The benefit continues until the child dies, attains the age of 20 years, gets married, or becomes employed, whichever is the earliest.\n\n**Note 1:** Every eligible person shall give a certificate of eligibility on a half-yearly basis, in Form III and send it to the concerned Secretary of the District Sainik Board so as to reach him within the months of June and December every year.\n**Note 2:** As and when one or more children of the eligible person die or reach the age of 20 years or get married or secure employment, it shall be the responsibility of the eligible person/guardian to inform the Secretary of the District Sainik Board in this regard.",
+  "_criteria_filled": 2
+}

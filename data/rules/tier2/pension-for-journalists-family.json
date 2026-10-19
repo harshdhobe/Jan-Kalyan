@@ -1,0 +1,26 @@
+{
+  "id": "pension-for-journalists-family",
+  "name": "Pension for Journalists’ Family",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Pension Amount of ₹2,000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-attested-by-govt-registered-officer-death-certific"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/schemes/journalist_family_pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfjf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The benefit of the scheme will be given only on the death of the journalist.\n1. The applicant must be the spouse of the deceased journalist.\n1. The deceased journalist must contributed to the journalist pension.",
+  "_criteria_filled": 1
+}

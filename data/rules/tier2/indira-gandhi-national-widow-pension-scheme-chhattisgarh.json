@@ -1,0 +1,53 @@
+{
+  "id": "indira-gandhi-national-widow-pension-scheme-chhattisgarh",
+  "name": "Indira Gandhi National Widow Pension Scheme- Chhattisgarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a monthly pension of ₹500/-, (Central contribution- ₹300/-, State Contribution- ₹200/-).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-c",
+    "sarpanch-or-councillor-death-certificate-of-husband-proof-of-age-doctors-certifi",
+    "birth-certificate",
+    "certificate-issued-by-an-administrator",
+    "sarpanch",
+    "or-mayor",
+    "school-certificate",
+    "etc-below-poverty-line-bpl-cardrelated-documents-address-proof-bank-passbookpost"
+  ],
+  "apply_url": "https://edistrict.cgstate.gov.in/PACE/instructionPageHome.do?serviceId=15&OWASP_CSRFTOKEN=TLII-0C0N-TR8G-HK2P-TPTO-S8ZV-NCWP-8YD9",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignwpschh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a native of Chhattisgarh.\n2.\tThe applicant should be a widow.\n3.\tThe widow’s age should be between 40 and 79 years.\n4.\tThe widow&#39;s name should be included in the list of families living Below Poverty Line.\n5.\tThe widow should not be receiving pension benefits from any other Central or State Government pension scheme.",
+  "_criteria_filled": 5
+}

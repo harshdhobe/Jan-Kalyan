@@ -1,0 +1,38 @@
+{
+  "id": "indira-gandhi-national-old-age-pension-scheme-maharashtra",
+  "name": "Indira Gandhi National Old Age Pension Scheme (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "A monthly financial assistance of ₹600/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-ie-voter-i",
+    "driving-license-residence-proof-proof-of-age-below-poverty-line-bpl-cardrelated",
+    "if-applicable-address-proof-bank-passbookbank-account-details-any-other-document"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/special-assistance",
+  "source_url": "https://www.myscheme.gov.in/schemes/igoapsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra.\n1. The applicant should be 65 years of age or older.\n1. The applicant should be from a Below Poverty Line (BPL) family.\n1. The applicant should not be receiving pension benefits under any social security scheme.",
+  "_criteria_filled": 3
+}

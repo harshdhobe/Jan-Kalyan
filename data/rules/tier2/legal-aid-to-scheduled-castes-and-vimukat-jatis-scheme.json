@@ -1,0 +1,27 @@
+{
+  "id": "legal-aid-to-scheduled-castes-and-vimukat-jatis-scheme",
+  "name": "Legal Aid To Scheduled Castes And Vimukat Jatis Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. An amount of ₹22000/- is paid to the member of Scheduled Castes &amp;amp; Vimukat Jatis for defending his/her cases relating to the Land, Rent, etc. pending in the court.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-voter-id",
+    "aadhaar-card-ration-card-haryana-resident-certificate-bank-passbook-caste-certif"
+  ],
+  "apply_url": "https://haryanascbc.gov.in/legal-aid-to-scheduled-castes-and-vimukat-jatis",
+  "source_url": "https://www.myscheme.gov.in/schemes/lascvjs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Haryana State.\n2.\tThe applicant should belong to the Scheduled Caste or Vimukat Jatis of Haryana State to avail of the benefits of the scheme.",
+  "_criteria_filled": 1
+}

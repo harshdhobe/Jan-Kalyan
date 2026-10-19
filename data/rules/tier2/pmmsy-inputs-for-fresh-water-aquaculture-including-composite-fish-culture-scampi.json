@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-inputs-for-fresh-water-aquaculture-including-composite-fish-culture-scampi",
+  "name": "PMMSY: Inputs for fresh water Aquaculture including Composite fish culture, Scampi, Pangasius, Tilapia etc - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is: 4,00,000/- per hectare\n\n> **Subsidy Distribution:**\n\n1. 40% of the project cost for General Category beneficiaries\n1. 60% of the project cost for SC/Women beneficiaries",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-beneficiary-and-fisheries-department-date-of-birth-certif",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=Z27ECO7yU88Zd4NveOGi2g==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfiffwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Haryana with a valid Parivar Pehchan Patra (PPP).\n1. The applicant will be eligible for input cost subsidy provided by the State Government only for the expansion of fisheries in urban or semi-urban areas under the construction of new ponds.\n1. The applicant will receive central financial assistance only for the initial fish crop (fertilizer) in newly constructed ponds.\n1. The applicant will be eligible for central financial assistance on input costs only if the pond is properly prepared for fisheries.\n1. The applicant may use land on a long-term registered lease, provided the lease period is at least 7 years, for eligibility under this scheme.",
+  "_criteria_filled": 1
+}

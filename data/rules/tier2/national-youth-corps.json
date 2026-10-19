@@ -1,0 +1,31 @@
+{
+  "id": "national-youth-corps",
+  "name": "National Youth Corps",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "An honorarium of ₹ 5000 per month is provided for serving up to two years (including the period of training which will be for 4 weeks) in the identified development activities on a full-time basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 29
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-birth-certificate-class-10th-passing-certificate-aadhaar-caste"
+  ],
+  "apply_url": "https://nyks.nic.in/NewInitiatives/NYVSelection202021/Letters/NYVSelectionGuideline202122.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nyc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be between 18 - 29 years of age.\n1. The applicant must have passed Class 10th.",
+  "_criteria_filled": 2
+}

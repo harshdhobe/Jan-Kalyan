@@ -1,0 +1,31 @@
+{
+  "id": "maternity-benefit-scheme-apbocwwb",
+  "name": "Maternity Benefit Scheme (APBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial assistance for maternity: ₹20,000/-**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-and-registered-worker-medical-certificate-indicati"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.O.10_Maternity_benefit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbsapbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered women construction worker under the APBOCWWB, wives of registered male workers, and their daughters.\n1. The applicant should be Pregnant.\n1. Benefit is available for the first two live births.\n1. The worker should have completed one year of registration with the board before applying.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,39 @@
+{
+  "id": "destitutedeserted-wives-pension-scheme",
+  "name": "Destitute/Deserted Wives Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free saree.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meals.\n- 4kg/month to those who are not taking nutritious meals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-aadhaar-card-proof-of-age-aadhaar-consent-form-smart-ration-car",
+    "passport",
+    "pan-card",
+    "driving-license-bank-passbook-not-remarried-certificate-abandonment-certificate"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be legally divorced or deserted for a minimum of 5 years.\n1. The applicant should be a destitute woman.\n1. The applicant&#39;s age should be 30 years and above.\n1. The applicant&#39;s fixed assets not exceeding ₹1,00,000/-",
+  "_criteria_filled": 3
+}

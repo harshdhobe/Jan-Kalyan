@@ -1,0 +1,28 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-professional-loa",
+  "name": "District Central Cooperative Banks and through its Branches: For Professional Loan to Doctors, Engineers and Self Employed Professional",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** ₹10,00,000/-.  - **Interest Rate:** 13% (subject to change).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-professional-qualification-self-employment-any-other"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3571",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbfpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a Doctor/ Engineer/ Self-Employed Professional.\n   1. The beneficiary should be a resident of Tamil Nadu.\n   1. Loans should be applicable only for professional purposes.",
+  "_criteria_filled": 1
+}

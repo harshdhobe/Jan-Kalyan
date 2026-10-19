@@ -1,0 +1,26 @@
+{
+  "id": "house-building-loan-scheme-for-employees-of-government-of-goa",
+  "name": "House Building Loan Scheme for Employees of Government of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Financial Assistance***\n\n- The Government bears the remainder of the interest charged by the empanelled bank, subject to a maximum of 5%, while the employee bears 2% of the interest plus the principal component.\n- The loan takeover facility is provided for the amount outstanding as on the date of application after repayment of instalments from May 2020.\n- For employees who had availed add",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationcopy-of-sanction-order-of-house-building-advance-loan"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hblsegg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an erstwhile beneficiary of the House Building Advance who had their loans operative as on 15th May, 2020.\n- The applicant must fulfill the eligibility criteria put forth by the empanelled bank for being eligible for housing loan under this scheme.\n- The applicant who had shifted his housing loan to other bank upon closure of earlier scheme must ensure that the loan account shall now be operated in any of the banks empanelled for the purpose of this scheme.\n- The applicant must approach any of the empanelled banks for takeover of the existing loan for a maximum loan amount restricted to the tune of amount outstanding as on date after repayment of instalments from May 2020.\n\n##### ***Special Categories***\n\n- The applicant who had availed top-up additional loan over and above the House Building Advance amount sanctioned by Government is eligible only to the extent of such amount of House Building Advance loan which is outstanding as on the date of application.\n- The applicant who is among the 45 employees whose cases were sanctioned but were awaiting drawal of advance as on 15th May, 2020 is eligible to apply under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

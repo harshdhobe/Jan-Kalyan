@@ -1,0 +1,28 @@
+{
+  "id": "west-bengal-textile-incentive-scheme-waiver-of-electricity-duty",
+  "name": "West Bengal Textile Incentive Scheme: Waiver of Electricity Duty",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- 100% waiver of electricity duty for 5 years from the date of commencement of production subject to a maximum of ₹1,00,00,000/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-eligibility-certificate-under-west-bengal-textile-incentive-scheme",
+    "2022-as-modified-from-time-to-time-certifying-the-date-of-commencement-of-produc",
+    "if-necessary"
+  ],
+  "apply_url": "https://textiles.wb.gov.in/assets/New_PUBLICATION_OF_WBTIS_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtiswed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries in the manufacturing and processing of textiles, apparel and technical textiles products.\n  - The unit should have started production on or after 1st April 2022.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n  - Shall not be applicable to the industrial units/enterprises.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the Director of Textiles on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

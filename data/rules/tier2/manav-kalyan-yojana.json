@@ -1,0 +1,42 @@
+{
+  "id": "manav-kalyan-yojana",
+  "name": "Manav Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Toolkit Assistance:** E-vouchers for toolkits in 10 specified trades.\n**Trades Covered:** Dairy Product Sales, Plumber, Bharat Kaam (Embroidery), Centering Work, Beauty Parlor, Electric Appliances Repairing, Papad Making, Pickle Making, Vehicle Servicing, Puncture Kit\n_*The maximum cost limits per toolkit are predefined (exact amounts not specified in the document)._\n**Training Option:** Applica",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-for-scstsebc-applicants-income-certificate-issued-by-taluka-ma",
+    "mandatory-for-general-category-applicants-e-shram-card-number-bank-details-for-e"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/mky-gujarat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicants must be between 18 and 60 years of age to qualify for the scheme.\n- The applicants from Scheduled Castes (SC), Scheduled Tribes (ST), or Socially and Educationally Backward Classes (SEBC) nomadic tribes are eligible without any income proof requirement.\n- The applicants from general categories must have a family annual income of ₹6,00,000/- or less, and must submit an income certificate as proof.\n\n<br>\n\n**Additional Requirement for Rural Applicants**\nThe rural applicants must - \na) either be listed in the Below Poverty Line (BPL) list with a poverty score of 0 to 16.\nb) or submit an income certificate issued by the relevant authority.\n<br>\n\n**Income Criteria Exemptions**\nThe income limit does not apply to the following:\na) Individuals from the 12 most backward sub-castes within the Scheduled Castes.\nb) Members of the most backward, nomadic, or de-notified tribes under the SEBC category.\n_*For all other applicants, the annual family income must not exceed ₹6,00,000/-, whether residing in rural or urban areas._",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pandit-dindayal-upadhyay-awas-yojana-developing-caste-welfare-ebc",
+  "name": "Pandit Dindayal Upadhyay Awas Yojana (Developing Caste Welfare) (EBC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial Assistance of up to ₹1,20,000/- for house construction.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-caste-certificate-income-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pduayebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must belong to the Economically Backward Class (EBC).\n- Applicant must be a resident of Gujarat.\n- Applicant&#39;s family income should not exceed ₹6,00,000/- per annum.\n- Applicant must own land or have been allotted land/house under a government poverty housing scheme.",
+  "_criteria_filled": 2
+}

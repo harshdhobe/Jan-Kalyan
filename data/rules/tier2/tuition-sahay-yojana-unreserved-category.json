@@ -1,0 +1,31 @@
+{
+  "id": "tuition-sahay-yojana-unreserved-category",
+  "name": "Tuition Sahay Yojana (Unreserved Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Monetary Assistance:** ₹15,000/- per academic year is provided as tuition assistance to each eligible student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-proof-of-residence-copy-of-aadhaar-card-scschool-leaving-cert"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsyuc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the unreserved category.\n  - The applicant must be studying in Class 11th or Class 12th in the science stream.\n  - The applicant must have secured 70% or more marks (from total marks in all subjects) in Class 10.\n  - The applicant’s family income must not exceed ₹6,00,000 annually.\n  - The applicant must apply in the same academic year.\n  - The institution should be registered under a valid Act (such as Trust Act, Companies Act, etc.), with at least 3 years of experience in Class 11-12 science tuition.\n  - The institution should have filed IT returns for the past 3 years, including income from tuition classes, \n  - The institution should have a mandatory GST.",
+  "_criteria_filled": 2
+}

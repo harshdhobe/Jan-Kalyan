@@ -1,0 +1,28 @@
+{
+  "id": "antheyesthi-anudan-yojana",
+  "name": "Antheyesthi Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "A one-time grant of ₹5,000 is provided to voluntary organizations for conducting the last rites of unclaimed or destitute deceased individuals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-deceased-death-certificate-of-the-deceased-unclaimed-body-report-is",
+    "municipal-council",
+    "municipal-corporation-organizations-registration-certificate-issued-by-the-recog"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Schemes/Antheyesthi_Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aayr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a voluntary organization recognized by the state government.\n   1. The voluntary organization should be registered under the Societies Act.\n   1. The voluntary organization should be actively working in the welfare of destitute and helpless individuals or have prior experience in this field.\n   1. The financial condition of the voluntary organization should be strong.\n   1. The voluntary organization should not have been penalized or blacklisted in the past for any reason.\n   1. The deceased should be identified as unclaimed or destitute, with no known family or relatives to perform the last rites.\n   1. The death should have occurred within the jurisdiction of Rajasthan.\n   1. The organization should agree to conduct the last rites of the unclaimed or destitute deceased immediately at its own level with full legal procedure and to receive reimbursement of the amount fixed under this scheme from the State Government.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deen-dayal-upadhyaya-grah-aawas-home-stay-vikas-yojana",
+  "name": "Deen Dayal Upadhyaya Grah Aawas (Home-Stay) Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- There is a provision for financial assistance to permanent residents/native of the state who take a loan for the construction of homestays. \n  - In hilly areas, a subsidy of up to 50% of the project cost, subject to a maximum of ₹15.00 lakh, is provided along with an interest grant of up to ₹1.50 lakh for the first five years.\n  - In plain areas, a subsidy of up to 25% of the project cost, subje",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-aadhaar-linked-mobile-number-date-of-birth-certificate-educational"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddugavyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This benefit is provided as a subsidy for the construction of homestays across the state of Uttarakhand, excluding areas under Municipal Corporations and Municipalities. \n   1. The applicant must be a native of Uttarakhand. \n   1. The building owner, who resides in the building with their family, may construct a minimum of one and a maximum of six guest rooms. \n   1. Upon construction of a new homestay or renovation of an existing one, the property must be registered with the Uttarakhand Tourism Development Council.\n   1. Preference will be given to buildings constructed or developed in the traditional hill-style architecture.\n\n<br>",
+  "_criteria_filled": 1
+}

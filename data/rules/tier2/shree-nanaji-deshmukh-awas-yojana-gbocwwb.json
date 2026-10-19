@@ -1,0 +1,28 @@
+{
+  "id": "shree-nanaji-deshmukh-awas-yojana-gbocwwb",
+  "name": "Shree Nanaji Deshmukh Awas Yojana (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under the scheme, financial assistance of ₹1,60,000/- is provided to registered construction workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-e-nirman-card-under-the-gbocwwb1-photograph-of-the-worker",
+    "if-applicable-5-proof-of-age-birth-certificatedriving-licencepan-cardvoter-id-ca",
+    "election-card-and-residence-proof-7-copy-of-rent-agreementrent-receiptletter-fro"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/Home/BOCWScheme#",
+  "source_url": "https://www.myscheme.gov.in/schemes/sndaygbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers who are registered with the Gujarat Building and Other Construction Worker’s Welfare Board will be eligible to get the benefit of this scheme.\n   1. A house is allotted jointly to a registered construction worker husband or wife and either of the husband or wife is a registered construction worker will be eligible for the benefit of this scheme.\n   1. No land/property or building should be in the name of the registered construction worker husband or wife or any of their family members.\n   1. The benefit of this scheme is given once per family to the registered construction worker.\n\n**Note 01:** The construction worker should be registered in this scheme for at least 2 years.\n**Note 02:** Application for this scheme has to be made after one year of house allotment.",
+  "_criteria_filled": 1
+}

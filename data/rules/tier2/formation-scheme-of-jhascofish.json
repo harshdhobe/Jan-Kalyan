@@ -1,0 +1,26 @@
+{
+  "id": "formation-scheme-of-jhascofish",
+  "name": "Formation Scheme of JHASCOFISH",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Financial Aid:** ₹48,00,000/- allocated as grants to assist cooperative societies.- **Administrative Support:** Funds for machinery, equipment, seminars, publicity, and office expenses.- **Infrastructure Development:** ₹5,00,000/- for maintenance and renovation of facilities.- **Marketing Support:** Assists in providing fair prices for fish and improving marketing strategies.- **Fishermen Welf",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-of-cooperative-society-membership-list-of-the-cooperative"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D001DO003SD00311092019123318351",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsjhascofish",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant should be a member of a registered fishermen cooperative society.\n1. The cooperative society must be affiliated with JHASCOFISH.\n1. The society should actively participate in fish production or related activities.\n1. Societies with pending legal cases or misuse of prior funds are not eligible.",
+  "_criteria_filled": 1
+}

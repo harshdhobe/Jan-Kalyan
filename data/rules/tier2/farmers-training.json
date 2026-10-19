@@ -1,0 +1,28 @@
+{
+  "id": "farmers-training",
+  "name": "Farmers Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial assistance:** ₹5,000/- per training session of 50 Farmers/Agricultural labourers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-farming-or-agricultural-labor-status-any-other-documents-if-require"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6847",
+  "source_url": "https://www.myscheme.gov.in/schemes/ft",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should have interest in joining the training to enhance agricultural skills.",
+  "_criteria_filled": 1
+}

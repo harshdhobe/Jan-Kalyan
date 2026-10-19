@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-aadim-jan-jati-pension-yojana",
+  "name": "Mukhyamantri Aadim Jan Jati Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹1,000 per month is directly transferred to the bank account of the beneficiary through the Aadhaar-Based Payment System (ABPS) and Public Financial Management System (PFMS).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-photocopy-of-voter-id-card-family-membership-certificate-aadha"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s32bb232c0b13c774965ef8558f0fbd615/uploads/2020/09/2020092372.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/majjpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an adult woman.\n1. The applicant should be married.\n1. The applicant must belong to one of the recognized primitive tribal groups: Asur, Birhor, Hill-Kharia, Korwa, Mal-Paharia, etc.\n1. No family member of the applicant should have a government or public sector job that provides a regular salary.\n1. The family should not have a steady income from any government or public sector employment.\n1. The applicant cannot receive benefits from other pension schemes like the Indira Gandhi National Old Age Pension, Indira Gandhi National Widow Pension, or similar schemes.\n\n**NOTE:** If there is no married adult woman in the family, the male head of the family can receive the pension.",
+  "_criteria_filled": 1
+}

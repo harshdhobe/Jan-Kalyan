@@ -1,0 +1,36 @@
+{
+  "id": "deen-dayal-upadhyay-kaushal-kendra-ddukk-mega-skill-centre",
+  "name": "Deen Dayal Upadhyay Kaushal Kendra (DDUKK)- Mega Skill Centre",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Comprehensive Training:** Combines technical skills with soft skills and IT training.- **Residential Facility:** Training is fully residential, ensuring a focused learning environment.- **On Job Training (OJT):** Hands-on industry exposure for candidates to become job-ready.- **Multi-sector Opportunities:** Tourism &amp; Hospitality, Telecom, Security, Retail, Plumbing, Logistics, IT/ITES, Ele",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-bank-passbook"
+  ],
+  "apply_url": "https://jsdm.jharkhand.gov.in/jsdm/cms/en/mega/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddukk-msc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant&#39;s age should be 18-35 years.\n1. The applicant must belong to one of the priority groups (SC/ST, women, PwD, transgender).",
+  "_criteria_filled": 3
+}

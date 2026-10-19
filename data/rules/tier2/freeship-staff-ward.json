@@ -1,0 +1,26 @@
+{
+  "id": "freeship-staff-ward",
+  "name": "Freeship Staff Ward",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The eligible students will receive a 50% concession on tuition fees.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-must-be-submitted-as-per-the-guidelines-prescribed-by-the-university-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be enrolled in a 4-year undergraduate course, a 3-year postgraduate course, or a 3-year Ph.D. program at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n\n<br>",
+  "_criteria_filled": 1
+}

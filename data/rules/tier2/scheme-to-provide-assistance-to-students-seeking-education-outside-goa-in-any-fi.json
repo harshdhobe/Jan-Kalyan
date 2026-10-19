@@ -1,0 +1,32 @@
+{
+  "id": "scheme-to-provide-assistance-to-students-seeking-education-outside-goa-in-any-fi",
+  "name": "Scheme To Provide Assistance To Students Seeking Education Outside Goa In Any Field Of Art And Culture",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "##### ***Financial Assistance***\n\n- Financial assistance is given to acquire basic or advanced education in any field of Art and Culture (like music, dance, theatre, fine arts, folk arts, photography, etc.) at State, National, and International levels.\n- Maximum assistance up to ₹1,20,000/- is provided for acquiring education outside Goa or the actual cost of the education, whichever is less.\n- Ma",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationpassport-sized-photograph-of-the-student-15a-attested-photocop",
+    "unless-the-clause-is-not-applicable-due-to-regular-examinations-passing-certific"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/pages/schemes-programmes/assistance-to-students-seeking-education-outside-goa-in-any-field-of-art",
+  "source_url": "https://www.myscheme.gov.in/schemes/spasseogfac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must intend to seek advanced education in any field of Art and Culture, such as music, dance, theatre, fine art, folk art, photography, etc. (fields of visual and performing art).\n- The applicant must seek this education outside Goa or outside India.\n- The applicant should have outlined knowledge about the art form in which the education is desired.\n- The applicant should be born in Goa.\n- The applicant must be residing in Goa for a substantial period or at least for the last fifteen years to the date of application.\n- The applicant shall not be above the age of thirty-five years.\n- The applicant must be the only student per family applying under this scheme per financial year.\n- The applicant’s annual family income must not cross the limit fixed by the Government from time to time.\n- If the applicant is receiving a grant or scholarship from any other Government or non-Government bodies for the training, the total amount raised from different sources must be less than the actual cost of the education.\n\n##### ***Relaxation/Exception***\n\n- The application to seek training outside Goa shall be considered for assistance in exceptional cases wherein not even the basic education is available in a particular field of art within Goa.\n- In rare cases, a second application in the same family, but in a different stream of art to that of the first, may be considered depending upon his/her contribution or merit. The decision regarding this exception is to be taken by the committee.\n\n<br>",
+  "_criteria_filled": 2
+}

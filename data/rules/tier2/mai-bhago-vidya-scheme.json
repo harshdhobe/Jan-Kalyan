@@ -1,0 +1,36 @@
+{
+  "id": "mai-bhago-vidya-scheme",
+  "name": "Mai Bhago Vidya Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "Free bicycles are provided to all girl students of 9th to 12th classes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-such-as-aadhaar-card-resident-proof-bpl-card-caste-certificate-if"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl students should be residents of Punjab state.\n1. Girl students should be studying in standards 9th,10th, 11th, and 12th in the government school.\n1. Girl students should belong to those below the poverty line (BPL).",
+  "_criteria_filled": 3
+}

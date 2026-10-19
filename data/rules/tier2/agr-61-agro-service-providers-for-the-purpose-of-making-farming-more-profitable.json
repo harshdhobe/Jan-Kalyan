@@ -1,0 +1,29 @@
+{
+  "id": "agr-61-agro-service-providers-for-the-purpose-of-making-farming-more-profitable",
+  "name": "AGR-61 Agro Service Providers for the Purpose of Making Farming More Profitable With the Help of Farm Mechanization",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance (General areas)****Standard of Assistance (Tribal areas)**Agro Service Provider UnitUp to 75% or limited to ₹7,50,000/- (40% in the 1st year, 10% in the 2nd and 3rd years, and 7.5% in the 4th and 5th years)Up to 85% or limited to ₹8,50,000/- (50% in the 1st year, 10% in the 2nd and 3rd years, and 7.5% in the 4th and 5th years)> **Note:** \n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-proof-bank-passbook-caste-certificate-if-applicable",
+    "shgs",
+    "pacs",
+    "etc-any-other-document-as-required"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/6v6SCCcVaKzHbzUn5D4oSg%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/agrasp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligible entities:**\n\n- Primary Agricultural Cooperative Society (PACS)\n- Farmer Groups\n- Farmer Producer Companies\n- Cooperative Institutions\n- Self-Help Groups (SHGs) and Sakhi Mandals\n\n> **Eligible Individuals with relevant agricultural education:**\n\n- Diploma in Agriculture\n- Graduate in Agriculture\n- Postgraduate in Agriculture\n- Bachelor of Rural Studies (B.R.S.)\n\n<br>",
+  "_criteria_filled": 1
+}

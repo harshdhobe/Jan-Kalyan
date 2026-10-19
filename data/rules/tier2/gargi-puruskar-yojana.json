@@ -1,0 +1,31 @@
+{
+  "id": "gargi-puruskar-yojana",
+  "name": "Gargi Puruskar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Payable for 11 &amp; 12 class girl students: Rs. 3,000/- each year on the day of Basant Panchami.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "education-qualification-marksheet-certificate-copy-aadhar-card-copy-bank-passboo"
+  ],
+  "apply_url": "https://education.rajasthan.gov.in/secondary/#/scheme/detail/326",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must have secured minimum 75% marks in class 10th.\n1. The girl student should be studying regularly in class 11 or 12.\n1. There is no restriction on income, occupation and caste etc. of the parents of the student.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-grant-of-financial-assistance-to-industrial-workersemployee-for-purch",
+  "name": "Scheme for Grant of Financial Assistance to Industrial Workers/Employee for Purchase of Spectacles",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A financial assistance of up to ₹2,000 is provided to cover the cost of the frame and lens of the spectacle (If the expenses exceed this amount, the worker/employee will have to bear the additional cost).\n- Replacement of spectacles is allowed only after five years after the initial purchase. However, if the lens power requires a change, replacement can be done after one year, with expenses not ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "cash-receipt-for-spectacle-purchase-prescription-from-a-qualified-opticiandoctor"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/SCHEME-5-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgfaiweps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an industrial worker/employee covered under clause (C) of Section 2 of the Goa, Daman and Diu Labour Welfare Fund Act, 1986.\n- The applicant should have completed one year of service in the industrial establishment on the date of application, including broken spells of service.\n- The applicant should get their eyes tested in the State Hospitals or the Goa Medical College or by a qualified Optician.\n- The applicant should obtain the lens (s) number for the spectacles.",
+  "_criteria_filled": 1
+}

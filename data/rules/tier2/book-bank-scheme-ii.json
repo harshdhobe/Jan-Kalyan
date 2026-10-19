@@ -1,0 +1,27 @@
+{
+  "id": "book-bank-scheme-ii",
+  "name": "Book Bank Scheme: II",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free Textbooks Access:** Books are shared between two (2) students at free of cost.\n> **Note:** On completion of the course the students should return the books to the Library.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "received-from-the-government-of-india-any-other-documents-if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83094",
+  "source_url": "https://www.myscheme.gov.in/schemes/bbsii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a student.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal communities.\n  - The beneficiary must be receiving any Scholarship from the Government of India.\n  - The beneficiary must return the books after completing the course.\n  - The beneficiary must be enrolled in one of the following courses:\n\n   1. Medical\n   1. Engineering\n   1. Law (BL/LLB 3 years and 5 years, LLM/ML 2 years)\n   1. MBA (2 years)\n   1. Veterinary\n   1. Agriculture\n   1. Polytechnic\n   1. Chartered Accountants, Cost Accountants (Intermediate, Final)\n   1. Postgraduate Technical Courses in Medical, Engineering, Agriculture, Veterinary\n   1. Other equivalent professional studies, including Bio-Science.",
+  "_criteria_filled": 1
+}

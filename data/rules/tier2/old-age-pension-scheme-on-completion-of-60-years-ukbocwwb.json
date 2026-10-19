@@ -1,0 +1,31 @@
+{
+  "id": "old-age-pension-scheme-on-completion-of-60-years-ukbocwwb",
+  "name": "Old Age Pension Scheme - On Completion of 60 Years (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Pension Amount:**  ₹1,000/- per month\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "labour-card-aadhaar-card-bank-passbook-a-self-declaration-certificate-an-affidav"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oapcwcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board.\n   1. The applicant must have completed 60 years of age.\n\n<br>",
+  "_criteria_filled": 2
+}

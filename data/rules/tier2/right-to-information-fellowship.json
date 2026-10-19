@@ -1,0 +1,36 @@
+{
+  "id": "right-to-information-fellowship",
+  "name": "Right To Information Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Stipend**\n\n- A stipend of ₹ 50,000/- per month for three months. (subject to tax deduction at source)\n\n> **Additional Grant**\n\n- ₹ 50,000/- for books, research material, travel, printing, production of creatives, etc., sanctioned on the basis of the research proposal and released on production of actual bills.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "a-comprehensive-proposal-not-more-than-6-8-a4-size-pages-outlining-the-subject-t",
+    "the-research-plan-and-final-deliverable-curriculum-vitae-no-more-than-3-a4-sheet",
+    "000-words-which-is-ready-for-publication",
+    "or-featuresnews-stories-investigative-stories-that-could-be-printed-published-as",
+    "in-the-case-of-professionals-from-the-field-of-audio-video-media",
+    "it-could-even-be-short-video-films-or-stories"
+  ],
+  "apply_url": "https://rti.dopt.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtif",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a professional in the field of journalism (newspaper/ magazine/ radio/ TV), Civil Society and research and training in the field of RTI. \n1. The applicant should be between 25 and 40 years of age.\n1. The applicant should have proven credentials in his / her professional area.\n1. The applicant should have some prior experience of work relating to the Right to Information.\n1. The applicant should have an aptitude for research.",
+  "_criteria_filled": 2
+}

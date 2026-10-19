@@ -1,0 +1,26 @@
+{
+  "id": "simplification-of-sale-process-of-herbal-products-herbal-research-and-developmen",
+  "name": "Simplification of Sale Process of Herbal Products - Herbal Research and Development Institute, Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "This policy has been formulated with the objective of simplifying the sale of medicinal and aromatic products produced through cultivation. Farmers can sell the medicinal and aromatic products grown on their own agricultural land to markets operated by the Forest Department or to any other buyer. This arrangement has simplified the marketing process of medicinal and aromatic plant products produce",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-issued-by-the-institute-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sephp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand.\n- The applicant must be a cultivator producing medicinal and aromatic plants on measured land.\n- The applicant must be legally cultivating medicinal and aromatic plants on the measured land.\n\n<br>",
+  "_criteria_filled": 1
+}

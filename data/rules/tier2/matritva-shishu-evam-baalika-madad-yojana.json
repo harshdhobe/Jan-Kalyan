@@ -1,0 +1,36 @@
+{
+  "id": "matritva-shishu-evam-baalika-madad-yojana",
+  "name": "Matritva, Shishu Evam Baalika Madad Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "**Matritva Hitlabh (Maternity benefits)**\n\n1. Registered male workers: ₹6,000/- lump sum.\n1. Female workers for institutional delivery: 3 months&#39; minimum wage equivalent + ₹1,000/- medical bonus.\n1. Female workers for miscarriage: 6 weeks&#39; minimum wage equivalent.\n1. Female workers for sterilization: 2 weeks&#39; minimum wage equivalent.\n\n<br>\n\n**Shishu Hitlabh (Child benefits)**\n\n1. For s",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "essential-documentsproof-of-identity-attested-photocopy-of-the-registered-constr"
+  ],
+  "apply_url": "https://www.uplmis.in/Guest/frm_CreateLogin.aspx?type=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/mesy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Matritva Hitlabh (Maternity benefits):**\n\n1. Beneficiary women must be a permanent resident of Uttar Pradesh.\n1. Beneficiary women must be a registered construction worker.\n1. Beneficiary women must be above 18 years of age.\n1. Benefits will be provided only to the first two deliveries of the worker.\n\n<br>\n\n**Shishu Hitlabh (Child benefits)**\n\n1. First girl child born in the family (up to one girl child).\n1. Second girl child only if both first and second child are girls.\n1. If more than one girl child in first and second delivery, all girls are eligible.\n1. Applies to legally adopted girl child (first girl only) in childless families.\n1. Birth of girl child must be registered.\n1. Girl must remain unmarried until 18 to receive fixed deposit.\n1. Benefits will not be provided eligible if recipient of another similar government scheme.",
+  "_criteria_filled": 3
+}

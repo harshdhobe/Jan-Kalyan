@@ -1,0 +1,26 @@
+{
+  "id": "government-of-mizoram-incentive-cash-award-scheme-to-successful-candidates-for-c",
+  "name": "Government of Mizoram Incentive Cash Award Scheme To Successful Candidates for Central and All India Service Examination",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "**Incentive Cash Award:** ₹1,00,000/- (one-time payment) for clearance of any eligible examination.\n**Coaching Fee Reimbursement:** Actual fees paid to coaching institution or ₹20,000/-, whichever is less (only once, not granted on second attempt).\n**Hostel/Mess Fee Reimbursement:** ₹2,000/- per month for maximum 6 months (only once, not granted on second attempt).\n*Payment made through E-Payment ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-or-any-other-identification-paper-or-document-duly-attested-copy"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/2023/06/0bb793e5bb8b62140b2c2980e861512f/incentives-cash-award.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmicassccaise",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a bonafide citizen of the State of Mizoram.\n- The applicant should be a citizen of India and bonafide resident of Mizoram.\n- The applicant should have successfully cleared examinations conducted by Union Public Service Commission.\n\n***Examination Categories***\n\n- Civil Service Examination.\n- Combined Defence Service (Officers Training Academy) Examination.\n- National Defence Academy and Naval Academic Examination.\n- TCombined Medical Examination.\n- Central Police Forces (Assistant Commandants) Examination.\n- Indian Economic/Indian Statistical Service Examination.\n- Combined Geo-Scientist Examination.\n- Section Officers (20% Direct recruitment by Union Public Service Commission) Examination.\n\n<br>\n\n_*The applicant shall be entitled to two chances i.e. clearance of preliminary exam twice and mains exam twice._\n_*The applicant shall be entitled to claim for only one examination at a time._\n_*The applicant shall submit his claim in the prescribed form within a period of 3 months from the date of declaration of results._\n<br>",
+  "_criteria_filled": 1
+}

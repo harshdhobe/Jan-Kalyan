@@ -1,0 +1,44 @@
+{
+  "id": "the-meghalaya-victim-compensation-scheme-2022",
+  "name": "The Meghalaya Victim Compensation Scheme, 2022",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Particular of Loss or Injury: Loss of Life\n\n- Age Limit (if any): Age 40 years or below 40 years; Compensation (in ₹): 10,00,000/-\n\n2. Particular of Loss or Injury: Loss of Life\n\n- Age Limit (if any): Age above 40 years and up to 60 years; Compensation (in ₹): 7,00,000/-\n\n3. Particular of Loss or Injury: Loss of Life\n\n- Age Limit (if any): Age above 60 years; Compensation (in ₹): 5,00,000/-\n\n4.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "first-information-report-fir-or-police-complaint-this-document-should-contain-de",
+    "including-the-date",
+    "time",
+    "place",
+    "and-nature-of-the-crime-medical-certificate-this-certificate-should-be-issued-by",
+    "such-as-an-aadhaar-card",
+    "voter-id-card",
+    "passport",
+    "driving-license",
+    "etc-address-proof-this-can-be-any-document-that-proves-the-current-address-of-th",
+    "such-as-aadhaar-card",
+    "voter-id-card",
+    "passport",
+    "driving-license",
+    "etc-any-other-relevant-document-the-victim-can-also-submit-any-other-relevant-do",
+    "such-as-bills",
+    "receipts",
+    "etc-note-it-is-important-to-note-that-the-documents-submitted-must-be-original-o",
+    "the-district-legal-services-authority-dlsa-may-make-reasonable-efforts-to-obtain"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/schemes/POL_191_2004_Pt_I_780.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmvcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant may apply for a grant of compensation under sub-section (4) of Section 357-A of the Code of Criminal Procedure (CrPC) if the offender is not traced or identified.\n1. The applicant should require financial support for physical and mental rehabilitation resulting from the crime.\n1. The applicant should report the crime to the officer-in-charge of the local police station or to the Magistrate having jurisdiction.\n1. The applicant may also be eligible if the police have taken suo motu cognizance of the offense committed under their jurisdiction.\n1. The applicant must fully cooperate with the police and prosecution authorities.\n1. The applicant must cooperate from the stage of investigation until the conclusion of the trial.\n1. The applicant must not turn hostile, refuse to depose, or fail to appear during the trial. Such actions will be treated as non-cooperation.\n1. The applicant should be a victim of a crime that caused bodily injury, mental trauma, or death.\n\n<br>\n\n> **Note:** The victim shall inform the authority of the details of claims for compensation made under any other scheme or from any other source. The victim may exercise the option to choose another scheme of Government if the same is more beneficial to him. The victim will not be entitled to claim both benefits and part benefits from one scheme and part benefits from another.\n\n<br>",
+  "_criteria_filled": 1
+}

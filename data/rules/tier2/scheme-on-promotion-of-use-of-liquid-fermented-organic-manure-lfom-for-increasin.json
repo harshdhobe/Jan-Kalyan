@@ -1,0 +1,26 @@
+{
+  "id": "scheme-on-promotion-of-use-of-liquid-fermented-organic-manure-lfom-for-increasin",
+  "name": "Scheme on Promotion of Use of Liquid Fermented Organic Manure (LFOM) for Increasing Organic Carbon in Soil",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- An amount of ₹4,000/- per acre for using LFOM or FOM.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque-caste-certificate"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/splfom",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Gujarat.\n  - The applicant must be engaged in agricultural activities.\n  - The applicant must be willing to adopt LFOM/FOM on their farm.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-shiksha-alankar-yojana-for-students-of-economically-weaker-section",
+  "name": "Mukhyamantri Shiksha Alankar Yojana for Students of Economically Weaker Section",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "***Each selected student will receive:***\n\n- A one-time cash award of ₹50,000/- per student.\n- A Certificate of Appreciation.\n\n***No. of Students selected:***\n\n- A total of 32 students will be benefitted under the scheme.\n\n***For Class 10 students:***\n\n- 10 boys and 10 girls (total 20 students) will be selected.\n\n***For Class 12 students:***\n\n- In Arts stream: 2 boys and 2 girls (total 4 students)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaarjanadhar-card-ews-category-certificate-marksheet-any-other-document-if-re"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=67d13b34d4b65514ec008599",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsayfews",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The student should belong to the Economically Weaker Section (EWS).\n1. The student is studying in government schools in Rajasthan.\n1. The applicant should be enrolled in the 10th or 12th class.1. The student should have secured the highest marks in the 10th and 12th class board examinations conducted by the Rajasthan Board of Secondary Education, Ajmer (for Arts, Commerce, and Science streams).\n**Note:** Students benefiting from any other incentive schemes run by the state and central government will also be eligible for benefits under the scheme.",
+  "_criteria_filled": 1
+}

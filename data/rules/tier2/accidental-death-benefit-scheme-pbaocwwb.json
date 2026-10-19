@@ -1,0 +1,26 @@
+{
+  "id": "accidental-death-benefit-scheme-pbaocwwb",
+  "name": "Accidental Death Benefit Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹2,25,000/-.- **Time of Disbursal:** Within 15 days of the application.- **Mode of Disbursal:** Direct Benefit Transfer (DBT) into the bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "original-board-identity-card-last-subscription-renewal-copy-death-certificate-fi"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/adbs-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the nominee/dependent of the deceased Construction Worker.\n- The Construction Worker should have been a citizen of India.\n- The Construction Worker should have died in an accident caused due to the harness.\n- The deceased, in his/her lifetime, should have been registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The deceased, in his/her lifetime, should have completed the age of 18 years.\n- The deceased, in his/her lifetime, should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The deceased, in his/her lifetime, should have contributed regularly to the fund.\n- The deceased, in his/her lifetime, should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.",
+  "_criteria_filled": 1
+}

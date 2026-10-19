@@ -1,0 +1,32 @@
+{
+  "id": "incentive-scheme-for-msmes-in-powerloom-sector-interest-subsidy-on-term-loan",
+  "name": "Incentive Scheme for MSMEs in Powerloom Sector: Interest Subsidy on Term Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "&gt; **Micro &amp;amp; Small Enterprise:**\n\n  - **Zone A &amp;amp; B:** 55% of interest liability for 5 years.  - **Zone C, D &amp;amp; E:** 70% of interest liability for 5 years\n&gt; **Medium Enterprise:**\n\n  - **Zone B, C, D &amp;amp; E:** 25% of total Term Loan interest paid by the enterprise for 5 years subject to a ceiling of ₹ 1,75,00,000/- per year.\n&gt; **Note:** The interest subsidy will ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-memorandum-of-association-and-articles-of-association-authenticate",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "annual-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-case-of-rented-leaseh",
+    "copy-of-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conversion-c",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-official-scheme-guidelines"
+  ],
+  "apply_url": "https://wbmsmet.gov.in/home/download/YzA0YzdiMjc0YjAwYjBiMDgwYTRjYmRkOTU1MDY1NGQyNTNjM2YyYWYxMDRhNTkyYjRiMWI1YmVkZDYyOTZlN2YwNDc3ZDgwMDM5YzgxYjhmZWZiMWY2ODI0ZTNjYTUzMjU4N2YwYjViMjJiZTllZjAzYmM3NTRiZTY4ZDk0MTVjVmtvdlJCcjA0ZlpLYjZkbTlPQ0hyUTBaNGRuVzZZOXpHTlpGRkJwcUlZaDNwNXF0S01rSU4rTE5ZS3JCd3VKVmp5c1drM3hEb29QaHlXNit1Vy9CQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/ismpsistl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all micro, small, and medium enterprises (MSMEs) in the powerloom sector.\n  - Enterprises must have started production from 01.01.2022 to 31.12.2024.\n  - Enterprises should have executed a Four-party agreement with the Directorate of Textiles, Financial institution and Tantuja.\n  - The units should be a private sector, cooperative sector and joint sector undertaking as also companies/undertakings owned and managed by the State Government and the Industrial SHGs.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.",
+  "_criteria_filled": 1
+}

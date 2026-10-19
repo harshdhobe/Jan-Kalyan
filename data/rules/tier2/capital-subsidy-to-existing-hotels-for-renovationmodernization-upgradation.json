@@ -1,0 +1,27 @@
+{
+  "id": "capital-subsidy-to-existing-hotels-for-renovationmodernization-upgradation",
+  "name": "Capital Subsidy to Existing Hotels for Renovation/Modernization & Upgradation",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "##### **Subsidy For Upgradation To Deluxe Hotels**\nExisting standard hotels (minimum 50 rooms) and mini resorts (minimum 20 rooms) upgrading to Deluxe Hotels/Resorts are eligible for capital subsidy as per the tourism policy under such category.\n##### **Subsidy For Upgradation To 4-Star or Higher**\nExisting Deluxe hotels and resorts upgrading to 4-star or higher category Hotels (minimum 75 rooms) ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "companyfirm-documentationbrief-note-on-the-business-antecedents-of-the-promoters",
+    "municipality-etc-copy-of-the-building-permission-granted-by-the-appropriate-auth"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csehrmu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an existing Standard Hotel or Mini Resort to apply for Category A upgradation.\n- The applicant must ensure the upgraded facility meets the criteria for Deluxe Hotels (minimum 50 rooms) or Resorts (minimum 20 rooms) under Category A.\n- The applicant must make a minimum investment of ₹10,00,00,000/- to be eligible for the subsidy under Category A.\n- The applicant must be an existing Deluxe Hotel or Resort to apply for Category B upgradation.\n- The applicant must ensure the upgraded facility meets the criteria for 4-star or higher category Hotels (minimum 75 rooms) or Resorts (minimum 25 rooms) under Category B.\n- The applicant must make a minimum investment of ₹25,00,00,000/- to be eligible for the subsidy under Category B.\n- The applicant must claim subsidy only on capital investment made after the enforcement of this Policy.\n- The applicant must submit the application in the prescribed format within 1 year from the date of commencement of operation.\n- The applicant must not claim Investment Promotion Assistance if they are claiming capital subsidy under this policy.\n\n<br>",
+  "_criteria_filled": 1
+}

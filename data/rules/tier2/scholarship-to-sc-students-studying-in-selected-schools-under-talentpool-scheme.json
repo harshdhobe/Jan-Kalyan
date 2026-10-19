@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-to-sc-students-studying-in-selected-schools-under-talentpool-scheme",
+  "name": "Scholarship to SC students studying in selected schools under Talentpool Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Financial assistance of up to ₹40,000/- per student is provided.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-pass-bookcancelled-cheque-caste-certificate-income-certificate"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/2223",
+  "source_url": "https://www.myscheme.gov.in/schemes/sctalentpool",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste.\n1.  The applicant should from Standard 5 and Standard 10.\n1. The applicant should be studying in a school selected under the Talent Pool Scheme.\n1. The applicant&#39;s parents&#39; income limit should not exceed ₹6,00,000/-. (whose income is between ₹2,00,000/- and ₹3,00,000/-, are eligible for 50% assistance).\n1. The applicant must be a student.\n\n<br>",
+  "_criteria_filled": 2
+}

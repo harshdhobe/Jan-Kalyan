@@ -1,0 +1,26 @@
+{
+  "id": "oral-documentation-of-history-of-tiatr",
+  "name": "Oral Documentation of History of Tiatr",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> ***Financial Benefits***\n\n- Onetime remuneration as fixed by the Tiatr Academy of Goa to the artiste to be documented.\n- Additional amount as decided by the Tiatr Academy of Goa for artistes living outside Goa.\n- Remuneration to the interviewer as fixed by the Tiatr Academy of Goa.\n\n> ***Non-Financial Benefits***\n\n- Video recording of artiste&#39;s experiences on High Definition or higher format",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-application-form-oral-documentation-of-histor"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/odht",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a veteran artist who has contributed to the development of Tiatr.\n- The applicant must be a script writer, director, actor, singer, musician, backstage artiste involved in stage setting, light effects, background music, costumes, make-up, or those involved in organizing tiatrs.\n- The applicant must have made at least 20 years of contribution to the Konkani stage.\n- The applicant who is a writer or director must have scripted at least 15 tiatrs.\n- The applicant who is other than writer or director must have participated in at least 20 tiatrs.\n\n> ***Preference, Selection and Implementation***\n\n- At least five artistes will be considered for documentation in a financial year.\n- Artistes will be selected by the Managing Committee of Tiatr Academy of Goa.\n- Preference will be given to old and sick artistes.\n\n<br>",
+  "_criteria_filled": 1
+}

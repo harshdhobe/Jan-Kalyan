@@ -1,0 +1,27 @@
+{
+  "id": "cluster-mei-bagwani-ki-yojana-ii",
+  "name": "Cluster Mei Bagwani Ki Yojana-II",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "1. **Subsidy for Standard Crops:** ₹1,00,000/- per acre for guava, amla, lemon, bael, lemongrass, papaya, and marigold    1. **Subsidy for Premium Crops:** ₹2,00,000/- per acre for dragon fruit and strawberry.   1. **Supply of plant material.**\n\n&gt; **Note:** **Beneficiary allocation:**\n\n    - General Category: 78.56%.\n    - Scheduled Castes: 20%.\n    - Scheduled Tribes: 1.44%.\n    - Women Partic",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HORTMIS/AreaExpansionStateScheme/OnlineAppClusterScheme2.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmbkyii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual farmers/ farmers group/ Farmers Producer Organization (FPO)/ cooperative society or registered institution.\n   1. The applicant must have agricultural land a minimum of 0.25 acres and a maximum of 10 acres (25 acres for cluster area).\n   1. The applicant must be registered on the DBT portal.",
+  "_criteria_filled": 1
+}

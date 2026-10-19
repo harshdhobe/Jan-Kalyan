@@ -1,0 +1,31 @@
+{
+  "id": "top-class-education-for-students-with-disabilities",
+  "name": "Top Class Education For Students With Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Payment of **Full tuition fee** and non-refundable charges (Ceiling of ₹ 2.00 LPA per student for private sector institutions)1. **Living expenses**: ₹ 3000/- per month per student.1. **Books and stationery**: ₹ 5000/- per annum per student.1. A **computer/laptop** with accessories (UPS and printer) is limited to ₹ 30,000/- per student (one-time assistance).1. Reimbursement of expenses for the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-domicile-certificate-self-attested-degreemark-sheet-of-the-la"
+  ],
+  "apply_url": "http://disabilityaffairs.gov.in/upload/uploadfiles/files/scholarship2(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tce-swd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Student admitted in a full-time course in one of the &quot;notified institutions&quot;.\n1. The Percentage of Disability should be 40% or above.\n1. The applicant should be Pursuing a Graduate or Post Graduate Degree or Diploma.\n1. The Total Annual Income of the Parent / Guardian should be less than or equal to ₹ 6.00 Lakh per Annum.\n1. The applicant MUST NOT be the third sibling in his/her family who is availing of this scholarship.",
+  "_criteria_filled": 2
+}

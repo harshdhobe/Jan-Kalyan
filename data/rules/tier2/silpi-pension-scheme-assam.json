@@ -1,0 +1,34 @@
+{
+  "id": "silpi-pension-scheme-assam",
+  "name": "Silpi Pension Scheme - Assam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Under the Artist Pension Scheme, the beneficiary will receive an amount of ₹8,000/- (per month).\nUnder the Family Pension Scheme, the beneficiary will receive an amount of ₹4,000/- (per month).\nUnder the Barxik Silpi Sanman (Ex-Gratia Grant), the beneficiary will receive an amount of ₹50,000/- (One time).\nUnder the One-time special financial assistance to families of deceased Artist Scheme, the be",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "pan-card-aadhaar-card-age-proof-certificate-domicile-certificate-identity-proof",
+    "aadhaar",
+    "voter-id",
+    "driving-license",
+    "ration-card",
+    "bank-passbook",
+    "photo-identity-card",
+    "etc-passport-photograph-of-the-applicant-single-passport-photograph-of-the-appli",
+    "if-any-recommendation-if-any"
+  ],
+  "apply_url": "https://directorculture.assam.gov.in/sites/default/files/swf_utility_folder/departments/dca_medhassu_in_oid_3/how_do_i/level_1/artist_pension_advertisement.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sps-assam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of the State of Assam.\n- An artist, who has made outstanding contributions in the field of Music, Dance, Fine Arts, Puppetry, Musk making, and also covering artists and technicians associated with Mobile Theatre and Amateur Theatre and Films, is eligible under this scheme.\n- Indigent families of artists who have made outstanding contributions in the field of Music, Dance, Fine Arts, Puppetry, Musk making, etc. are eligible under this scheme.\n- The applicant must have a recognition proof certificate.",
+  "_criteria_filled": 1
+}

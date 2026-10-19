@@ -1,0 +1,31 @@
+{
+  "id": "incentive-scheme-for-meritorious-students-of-economically-backward-class-of-gene",
+  "name": "Incentive Scheme for Meritorious Students of Economically Backward Class of General Category",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n  - One-time financial assistance of ₹15,000/- is provided to economically backward students from the general category studying in government and private schools.\n\n&gt; **Certificate of Appreciation:**\n\n  - An official certificate is awarded along with the monetary benefit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-jan-aadhaar-card-of-the-student-marksheet-copy-income-certificat"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=63d105de12a7f949a0e67697",
+  "source_url": "https://www.myscheme.gov.in/schemes/ismsebcgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should be a student.\n   1. The applicant should belong to the economically backward class from the general category.\n   1. The applicant should be studying in a government or private school.\n   1. The applicant should have passed Class 10th, Praveshika, Class 12th (Science/Commerce/Arts), or Varishta Upadhyay examination conducted by Rajasthan Board of Secondary Education (RBSE), Ajmer.   1. The applicant should have secured a minimum of 75% marks in the qualifying examination.\n   1. The applicant’s parents’ combined annual income from all sources should be less than ₹2,50,000.",
+  "_criteria_filled": 2
+}

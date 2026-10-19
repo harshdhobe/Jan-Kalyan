@@ -1,0 +1,57 @@
+{
+  "id": "pmkmdy",
+  "name": "Pradhan Mantri Kisan Maandhan Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Monthly pension of Rs 3000 at age 60 for small and marginal farmers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "owns_land_in_own_name",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "land_hectares",
+        "op": "<=",
+        "value": 2
+      },
+      {
+        "field": "name_in_land_records_aug2019",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "has_aadhaar",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "has_bank_account",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "bank_account_with_ifsc"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmkmdy",
+    "apply": "https://pmkmy.gov.in/scheme/pmkmy"
+  },
+  "notes": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "floriculture-development-scheme",
+  "name": "Floriculture Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n  - By providing good quality flower planting material at 50% subsidy and low cost polyhouse free of cost with a minimum of 100sqm/unit area.\n\n&gt; **Type of Assistance:**\n\n  - To motivate farmers by cultivating low volume high-value crops to increase economic income. Under this aspect, poly house and good quality flower planting materials including organic fertilizer",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=102",
+  "source_url": "https://www.myscheme.gov.in/schemes/fcds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

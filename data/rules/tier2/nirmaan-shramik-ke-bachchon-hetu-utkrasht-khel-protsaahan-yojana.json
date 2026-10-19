@@ -1,0 +1,26 @@
+{
+  "id": "nirmaan-shramik-ke-bachchon-hetu-utkrasht-khel-protsaahan-yojana",
+  "name": "Nirmaan Shramik  ke Bachchon Hetu  Utkrasht Khel Protsaahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "Incentive amount will be provided to the children who perform excellently at the district / division / state / national level in all recognized sports as follows -\n\n1. Amount at district level: ₹ 1,000/-\n1. Amount at divisional level: ₹ 2,000/-\n1. Amount at state level: ₹ 5,000/-\n1. Amount at National level : ₹ 50,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-construction-worker-certificate-of-studying-in-schoo"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/197795_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsbhuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Benefits will only be provided to children of construction workers who are registered in any district within the state\n1. The benefit of the scheme will be given only to those children whose excellence is recognized by the Sports Department.",
+  "_criteria_filled": 1
+}

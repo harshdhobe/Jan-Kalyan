@@ -1,0 +1,26 @@
+{
+  "id": "pm-special-training-of-geriatric-caregivers",
+  "name": "PM-Special Training of Geriatric Caregivers",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> ***Skill Training***\n\nThe scheme provides training to candidates in four specific job roles: Geriatric Caregiver (Institutional &amp; Home Care) (480 hours), Elderly Caretaker (Non-Clinical) (360 hours), Elderly Care Companion (450 hours), and Wellness Therapist for Elderly (570 hours).\n> ***On-Job Training (OJT)***\n\nFor job roles as mandated by the National Council for Vocational Education and ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-proof-of-education-proof-of-residence"
+  ],
+  "apply_url": "https://socialjustice.gov.in/writereaddata/UploadFile/71551728966351.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmstgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a citizen of India.\n- The applicant must meet the minimum age as specified in the respective job role.\n- The applicant must be less than 40 years of age.\n- The applicant must have the minimum education qualification as per the required job roles.\n- The applicant must not indulge in any substance abuse.\n\n<br>",
+  "_criteria_filled": 1
+}

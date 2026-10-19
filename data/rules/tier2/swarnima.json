@@ -1,0 +1,47 @@
+{
+  "id": "swarnima",
+  "name": "Swarnima",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- Financial assistance of up to ₹5,00,000/- per Self-Help Group (SHG) project, with ₹25,000 allocated per beneficiary (up to 20 members per SHG).\n- Funding shares include 95% from the Central Corporation and 5% from the State Corporation.\n- No beneficiary contribution is required.\n- Low interest rate of 5% per annum.\n- Repayment period of up to 3 years to ease financial planning.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-any-other-document-required-by-the-district-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/employment",
+  "source_url": "https://www.myscheme.gov.in/schemes/sma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the Other Backward Class (OBC) category.\n1. The applicant should be a domicile of Maharashtra.\n1. The age of the applicant should be between 18 to 50 years.\n1. The annual income of the family of the applicant should be - \n\n- Rural areas: Less than or equal to ₹98,000.\n- Urban areas: Less than or equal to ₹1,20,000.",
+  "_criteria_filled": 4
+}

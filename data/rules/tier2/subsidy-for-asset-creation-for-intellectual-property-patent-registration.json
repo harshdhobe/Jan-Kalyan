@@ -1,0 +1,31 @@
+{
+  "id": "subsidy-for-asset-creation-for-intellectual-property-patent-registration",
+  "name": "Subsidy for Asset Creation for Intellectual Property: Patent Registration",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "75% subsidy on the cost of filing of the application for Patent Registration including the cost of the first-time maintenance fee of the granted application, subject to a maximum of ₹ 3,00,000 per Patent registered.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-copy-of-products-registered-under-trade-m",
+    "1999-self-certified-statement-on-expenditure-incurred-for-obtaining-geographical",
+    "etc-in-case-of-non-availability-of-receipts",
+    "the-bank-scroll-that-shows-the-payment-details-copy-of-loan-sanction-letter",
+    "if-availed",
+    "for-obtaining-the-registration-purpose-from-bankfinancial-institutions-copy-of-i"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/patent_trade.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfacfippr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All new and existing micro, small, and medium manufacturing enterprises located anywhere in Tamil Nadu.",
+  "_criteria_filled": 1
+}

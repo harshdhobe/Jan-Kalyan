@@ -1,0 +1,31 @@
+{
+  "id": "chief-ministergi-shotharabasingi-tengbang-cmst-scholarship-of-students-with-disa",
+  "name": "Chief Ministergi Shotharabasingi Tengbang (CMST): Scholarship Of Students With Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "Class: 1st to 5th; Rate of Scholarship (per annum): ₹ 3,000/-.\nClass: 6th to 8th; Rate of Scholarship (per annum): ₹ 4,000/-.\nClass: 9th to 12th; Rate of Scholarship (per annum): ₹ 6,000/-.\nGraduate & Above (including all Technical Courses): ₹ 8,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-the-competent-authority-two-passport-photograph"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/b6/cc/b6cceaf1-4162-45aa-80dc-5568908138ee/cmst_schoolership.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Person with Disability (PwD).\n1. The applicant should be a Student.\n1. The applicant should be a domicile of the State of Manipur.\n1. The applicant should be studying in Class 1st and above.\n1. The applicant should be enrolled in a school/college/university/institution recognized by the Govt. of Manipur.\n1. The applicant should not be availing scholarship under any other similar scheme from any source.\n\n<br>",
+  "_criteria_filled": 2
+}

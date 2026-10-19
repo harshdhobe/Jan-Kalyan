@@ -1,0 +1,49 @@
+{
+  "id": "scheme-for-women-entrepreneurs-mahila-udyam-nidhi-mun",
+  "name": "Scheme For Women Entrepreneurs Mahila Udyam Nidhi (MUN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The scheme provides financial assistance for projects with a cost up to ₹10,00,000/-.\n- The assistance includes a Term Loan component covering 65% of the project cost.\n- The assistance includes a Seed Capital component covering 25% of the project cost.\n- The applicant receives a concessional rate of interest that is 0.5% less than the normal interest rate charged for loans.\n- The applicant recei",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-application-for-loans-up-to-10",
+    "00",
+    "000-copy-of-acknowledgement-of-micro",
+    "small",
+    "and-medium-enterprise-registration-certificate-obtained-from-industries-departme",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-profitability-statement-detailing-monthly-sales-income-and-ex",
+    "including-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-from-approved-panel-valuer-of-pondicherry-industrial-promo",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfwemun",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman entrepreneur.\n- The applicant must be setting up a new Small Scale Industrial unit.\n- The applicant must be setting up a service activity.\n- The applicant must propose a project with a maximum cost of up to ₹10,00,000/-.\n\n_*The applicant is eligible for a concessional rate of interest that is 0.5% less than the normal rate._\n_*The applicant is eligible for a 50% concession on the investigation fee._\n_*The collateral security requirement is relaxed, mandating the value of the property offered to be fixed at 50% of the loan amount._\n<br>",
+  "_criteria_filled": 2
+}

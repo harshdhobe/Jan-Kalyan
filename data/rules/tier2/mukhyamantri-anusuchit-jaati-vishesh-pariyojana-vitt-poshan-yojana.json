@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-anusuchit-jaati-vishesh-pariyojana-vitt-poshan-yojana",
+  "name": "Mukhyamantri Anusuchit Jaati Vishesh Pariyojana Vitt Poshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The scheme offers a 100% grant based on government approval for project proposals from line departments, recommended by the evaluation committee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-proof-of-residence-eg",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://govtpressmp.nic.in/pdf/extra/2022-05-13-Ex-249.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/majvpvpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the Scheduled Caste (SC) category.\n1. The applicant should submit project proposals as per the norms set by the respective line departments.\n1. The applicant should ensure that the project proposal is recommended by the concerned department and approved by the State Project Implementation Committee.\n1. The applicant should meet any additional requirements as specified by the line departments for the specific project.\n1. The applicant should ensure that the project aligns with the objectives of the Mukhyamantri Anusuchit Jaati Vishesh Pariyojana Vitt Poshan Yojana.",
+  "_criteria_filled": 1
+}

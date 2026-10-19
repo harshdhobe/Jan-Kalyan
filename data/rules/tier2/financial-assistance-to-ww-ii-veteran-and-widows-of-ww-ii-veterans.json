@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-to-ww-ii-veteran-and-widows-of-ww-ii-veterans",
+  "name": "Financial Assistance to WW II Veteran and Widows of WW II Veterans",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹10,000/- per month is given to Ex-servicemen of the Pre-Independence Era (World War II Veterans) &amp;amp; their widows.\n\n**Note:** Sanctioned financial assistance grant shall be payable to the beneficiary from the first day of the following month in which case for grant of financial assistance is sanctioned by the Raiya Sainik Board and no arrear, for",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemanwidow-of-ex-serviceman-identity-card-parivar-pehchan-patra",
+    "00",
+    "000-a-copy-of-the-bank-passbook-linked-with-the-aadhaar-number-death-certificate"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=jZ850AqHSmXIbOHpqhpegQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawwiivwwwiiv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide resident of Haryana.\n   1. The applicant should be an ex-serviceman of the Pre-Independence Era (World War II Veterans) i.e. ex-servicemen enrolled before 31st August 1945 &amp;amp; their widows.\n   1. Only World War II Veterans of other ranks (i.e., Havildar and below) who are in penury and have an annual income from all sources below ₹2,00,000/- are eligible under the scheme.\n   1. The applicant should not be in receipt of any kind of pension, financial assistance, or maintenance allowance from any department of the Government of India/State Government or from anybody/organization controlled by the Central/State Government.\n   1. World War II Veterans and their widows, who have income from any job/profession/business, are not entitled to a grant of financial assistance.\n\n**Note 1:** If any beneficiary, after the date of sanction of the financial assistance, is found drawing old age pension or any other financial assistance from any other Government source. He/she shall be permanently debarred for the grant of financial assistance under all the welfare schemes run by the Rajya Zila Sainik Boards in Haryana.\n**Note 2:** Payment of financial assistance to those beneficiaries shall be stopped immediately who fail to submit their survival verification proofs once every year in the month of April from the authorities.\n**Note 3:** Old ex-serviceman &amp;amp; widow beneficiaries, whose cases for grant of financial assistance have already been sanctioned prior to issue of the guidelines shall continue to get the financial assistance at enhanced rates as per their eligibility and they need not apply afresh.",
+  "_criteria_filled": 2
+}

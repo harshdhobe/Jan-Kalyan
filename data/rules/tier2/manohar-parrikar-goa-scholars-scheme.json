@@ -1,0 +1,35 @@
+{
+  "id": "manohar-parrikar-goa-scholars-scheme",
+  "name": "Manohar Parrikar Goa Scholars Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Scholarship for Studies in India:**\n\n- Financial assistance of ₹6,00,000 is provided to each selected scholar pursuing postgraduate or Doctor of Philosophy studies in India.\n\n**Scholarship for Studies Abroad:**\n\n- Financial assistance of ₹15,00,000 is provided to each selected scholar pursuing postgraduate or Doctor of Philosophy studies abroad.\n\n**Number of Awards:**\n\n- Up to 40 scholars are se",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-birth-certificate-residence-certificate-showing-15-year",
+    "account-number",
+    "bank-name",
+    "branch-address",
+    "and-indian-financial-system-code-pre-receipt-for-sanctioned-amount-for-selected"
+  ],
+  "apply_url": "https://goascholar.dhe.goa.gov.in/#home",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpgss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should not be more than 35 years of age as on 1 January of the year for which the scheme is disbursed.\n1. The applicant should be a resident of Goa for a minimum period of 15 years.\n1. The applicant who is of Goan origin may also apply, provided the applicant has resided in Goa for at least 7 years.\n1. The applicant of Goan origin should submit proof that either parent or grandparent was born in Goa.\n1. The applicant should have passed the qualifying degree examination from an institution, preferably located in Goa.\n1. The applicant should have secured a minimum of 60% marks or equivalent grade in the qualifying degree examination.\n1. The applicant should have obtained a minimum aggregate score of 70% as per the criteria prescribed under the scheme for shortlisting.\n1. The applicant should be a bonafide student of the institution in which the applicant is pursuing a postgraduate or Doctor of Philosophy programme.\n1. The applicant should be pursuing the postgraduate or Doctor of Philosophy programme during the academic year for which assistance is sought.\n1. The applicant should provide a bonafide certificate mentioning the programme name and the start and end dates of study.\n1. The applicant may pursue a postgraduate or Doctor of Philosophy programme in any discipline.\n1. The applicant should provide rank, grade, position, or accreditation details if the institution is listed in QS World University Rankings, Times Higher Education Rankings, National Institutional Ranking Framework rankings, or accredited by the National Assessment and Accreditation Council.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

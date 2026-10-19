@@ -1,0 +1,26 @@
+{
+  "id": "rehabilitation-allowance-to-lepers",
+  "name": "Rehabilitation Allowance To Lepers",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1.\tFinancial assistance of Rs. 750 per month is provided to each leprosy patient.\n2.\tFree medical treatment and medicines are provided to the beneficiaries.\n3.\tThe scheme also provides assistance for the education of the children of leprosy patients.\n4.\tCounseling and rehabilitation services are provided to leprosy patients.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "leprosy-certificate-applicant-should-not-be-serving-in-governmentsemi-government"
+  ],
+  "apply_url": "https://hpshimla.nic.in/dwo-shimla/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ral",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a leprosy patient living in a leprosy colony.\n2.\tThe applicant should be a permanent resident of Himachal Pradesh.\n3.\tThe applicant should not be a recipient of any other government scheme or pension.\n<br>",
+  "_criteria_filled": 1
+}

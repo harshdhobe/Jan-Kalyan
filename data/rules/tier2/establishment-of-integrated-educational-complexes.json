@@ -1,0 +1,27 @@
+{
+  "id": "establishment-of-integrated-educational-complexes",
+  "name": "Establishment of Integrated Educational Complexes",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Allotment of (approx.) 3000 to 6000 square meters of land for every school/institution for separate building(s) depending on the strength of the students. The same is leased out for 33 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-of-the-society-and-renewal-certificate-for-education",
+    "senior-dy-director-of-education-and-joint-director-of-accounts-as-a-member"
+  ],
+  "apply_url": "https://www.education.goa.gov.in/sites/default/files/2020-11/schemes-adm3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eiec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Government-aided institutions in the city/town of Panaji/Margao/Mapusa located within 10 km. of the complex site and engaged in educational activities, if they so desire to shift from their present location due to the fact that their schools are presently functioning in areas that are congested and with insufficient infrastructure, may apply.\n1. Existing Government educational institutions that have no or insufficient premises and are located within 10 km. of the proposed complex site may also apply.",
+  "_criteria_filled": 1
+}

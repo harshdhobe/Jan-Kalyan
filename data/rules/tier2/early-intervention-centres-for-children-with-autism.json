@@ -1,0 +1,41 @@
+{
+  "id": "early-intervention-centres-for-children-with-autism",
+  "name": "Early Intervention Centres for Children with Autism",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Early intervention helps children with Autism by addressing social stimuli, imitation skills, language comprehension and usage, and appropriate play skills.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate-any-other-docu"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eicca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A beneficiary child should be between 0-6 years old.\n1. A beneficiary child should be affected by autism.",
+  "_criteria_filled": 4
+}

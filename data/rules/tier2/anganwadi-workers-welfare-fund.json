@@ -1,0 +1,36 @@
+{
+  "id": "anganwadi-workers-welfare-fund",
+  "name": "Anganwadi Workers Welfare Fund",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- A minimum amount of ₹30,000/- will be provided.\n- Upon completing 20 years of service, ₹1,30,000/- will be provided.\n\n**Note**: There is a provision for a 5% annual increase on the deposited amount.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "a-retirement-certificate-from-the-anganwadi-centre-aadhaar-card-bank-account-det"
+  ],
+  "apply_url": "https://wecd.uk.gov.in/files/AWK_Kalyan_Kosh_Format-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/awwfu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be an Anganwadi woman worker/mini worker/assistant working on an honorarium basis.\n1. The applicant must have completed 60 years of age.\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,28 @@
+{
+  "id": "childrens-tiatr-competition",
+  "name": "Children's Tiatr Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial support as fixed by Tiatr Academy of Goa.\n- Financial assistance covers expenditure towards Music (Live Band with at least two blowing instruments), Light Effects, Stage Setting, Background Music, Make up, Costumes, Refreshments for rehearsals, and Transport.\n- All payments made by cheques in the name of the Educational Institutions, Sports and Cultural Associations, or Individual Prod",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stageself-attested-copies-of-birth-certificate-or-baptism-certifi",
+    "000-in-the-form-of-cash-or-demand-draft-in-favour-of-member-secretary",
+    "tiatr-academy-of-goa-payable-at-panaji-pre-competition-stage-3-days-before-compe"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ctc-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Educational Institution, Sports and Cultural Association, or Individual Producer.\n- The applicant must ensure all child performers are aged up to 16 years on the date fixed for submission of application.\n- The applicant must ensure themes of Tiatr are compulsorily based on the lives of children only.\n- The applicant must ensure the duration of the tiatr is not less than one hour and a half and not more than two hours and a half (including interval of minimum 10 minutes and maximum 15 minutes).\n- The applicant must present the Tiatr in the traditional format as approved by Tiatr Academy of Goa.\n- The applicant must ensure the Tiatr has 6 to 7 acts (podd&#39;dde) with at least 4 cantos.\n- The applicant must ensure comedy is linked to the story of the play.\n- The applicant must include at least 8 Kantaram which should include 1 duet (Interactive), 1 Duo (Interactive), 1 Trio (Interactive), 1 Quartet/Quintet (Interactive), 1 Choral Song and Solos.\n\n> ***Priority***\n\n- The first three award winners of the previous year&#39;s Children Tiatr Competition will get a direct entry into this festival, provided their entries are received before due date.\n\n> ***Other Conditions***\n\n- Not more than 2 shows of the given script must have been performed prior to the performance at the competition.\n- No adverse remarks against any Governments, Individuals, Institutions or anything against caste, creed and religion in the scripts, lyrics of songs, performances, or speeches.\n- Artistes including technicians and backstage artistes whose names appear in the submitted list shall be permitted to participate only under that troupe (Only musicians can take part in more than one troupe).\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chief-minister-pension-scheme",
+  "name": "Chief Minister Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month.\n\n**Note:** The pension amount will be directly transferred to the applicant&amp;#39;s bank account and will be paid during the first week of each month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-certificate-of",
+    "in-case-of-none-of-these",
+    "the-age-must-be-certified-by-the-sarpanch-or-in-case-of-an-urban-area",
+    "the-mayoradministratorchairman-of-the-municipal-corporationmunicipalitynagar-pan",
+    "the-certification-related-to-abandonment-has-been-done-by-the-concerned-sarpanch",
+    "the-applicant-will-have-to-open-his-own-savings-account-in-the-bank-immediately"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmpsmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a senior citizen, widow, or abandoned woman.\n   1. Senior citizens should be 60 years of age or older.\n   1. Widow or abandoned woman should be 18 years of age or older.\n   1. In urban areas, the name of the applicant should be listed in the survey list of Socio-Economic and Caste Census 2011.\n   1. In rural areas, the name of the applicant should be in the list of households having at least one deprivation index in the automatically included index or deprivation index of the survey list of Socio-Economic and Caste Census, 2011.\n   1. The applicant must not be receiving pension benefits from any other central or state government pension scheme.",
+  "_criteria_filled": 2
+}

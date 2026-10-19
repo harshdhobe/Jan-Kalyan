@@ -1,0 +1,34 @@
+{
+  "id": "reimbursement-of-tution-fee-for-scstobcmin-students-in-public-schools-in-class-i",
+  "name": "Reimbursement of Tution Fee for SC/ST/OBC/Min students in Public Schools in Class I to XII",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "**Reimbursement Amount:** Maximum reimbursement of ₹48,000/- or actual paid fees (whichever is less) covering tuition, lab, and library fees.\n**Conditions for Disbursement**\n\n- Student must score 50% and above marks in the preceding year.\n- Student must have at least 70% attendance in the preceding year.\n\n**Mode of Disbursement:** Direct transfer to the student’s bank account (joint account with p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "marksheets-of-the-previous-year-attendance-record-of-the-previous-year-income-ce",
+    "issued-in-the-students-name-or-fathers-name-by-sdmdeputy-commissioner-revenue",
+    "gnctd-domicile-certificate-original-fee-receipt-for-the-current-academic-session",
+    "aadhaar-seeded"
+  ],
+  "apply_url": "https://www.edudel.nic.in/upload/upload_2023_24/2688_92_dt_25082023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rotffssipsic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Student.\n1. The applicant should be studying in Class 1st to 12th.\n1. The applicant should be enrolled in a school recognized/affiliated with the Dept. of Education, GNCTD or Municipal Local Bodies of Delhi.\n1. The applicant should have scored 50% or above in the previous academic year.\n1. The applicant should have at least 80% attendance in the preceding year.\n1. The applicant should not be repeating the same class.\n1. The annual income of the family of the applicant should not exceed ₹2,00,000/-.",
+  "_criteria_filled": 2
+}

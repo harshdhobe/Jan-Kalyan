@@ -1,0 +1,27 @@
+{
+  "id": "laptop-scheme-for-meritorious-students-of-scst",
+  "name": "Laptop Scheme for Meritorious Students of SC/ST",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Laptop is provided to the meritorious student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-the-applicant-issued-by-the-competent-authority-of-the-gove",
+    "issued-by-the-competent-authority-of-the-government-of-goa"
+  ],
+  "apply_url": "https://dit.goa.gov.in/schemes_policies.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsmsscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be born in Goa.\n- The applicant should be from a Scheduled Caste (SC) or Scheduled Tribe (ST) Community.\n- The applicant should have passed the class 10th examination of the Goa Board in the first attempt.\n- The applicant should have scored at least 70% (aggregate) marks in the class 10th examination of the Goa Board.\n- The applicant should be schooling in the taluka in which he/she is considered meritorious.\n- In the case of male students, he should have featured in the Top 5 among the Class 10th male students of his taluka.\n- In the case of female students, she should have featured in the Top 5 among the Class 10th female students of her taluka.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": "the-andaman-nicobar-islands-allowance-to-destitute-women-scheme",
+  "name": "The Andaman & Nicobar Islands Allowance to Destitute Women Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "household",
+  "benefit": "1. The quantum of Allowance to Destitute Women shall be ₹2500/- per month subject to eligibility.\n   1. Payment of allowance shall be made through Bank Account on a monthly basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-ie-aadhaar-card-3-local-certificate",
+    "if-applicable-5-bank-account-detailscopy-of-passbook-6-proof-of-income-issued-by"
+  ],
+  "apply_url": "http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aniadws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Andaman and Nicobar Islands or have resided in the Union Territory of Andaman and Nicobar Islands for more than 10 years at the time of making the application.\n   1. The applicant should be a poor and destitute woman.\n   1. The household income of the applicant does not exceed ₹4000/- per month.\n   1. The applicant should not be availing of any kind of assistance or pension from the government.",
+  "_criteria_filled": 3
+}

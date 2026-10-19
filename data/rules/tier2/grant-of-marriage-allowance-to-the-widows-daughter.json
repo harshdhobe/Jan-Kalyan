@@ -1,0 +1,38 @@
+{
+  "id": "grant-of-marriage-allowance-to-the-widows-daughter",
+  "name": "Grant of Marriage Allowance to the Widow's Daughter",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹25,000/- for marriage expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-from-the-revenue-department-income-certificate-from-the-re",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmawd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a widow with an annual income not exceeding ₹75,000/-.\n2. The widow should be a citizen of India and a native of the Union territory of Puducherry by birth or continuous residence of 5 years or more.\n3. The allowance is applicable only for the first marriage of the bride.\n4. The marriage must be performed in accordance with the law.\n5. The allowance is granted for the marriage of one daughter only.\n6. The age of the bride should be above 18, and the bridegroom&#39;s age should be above 21.",
+  "_criteria_filled": 3
+}

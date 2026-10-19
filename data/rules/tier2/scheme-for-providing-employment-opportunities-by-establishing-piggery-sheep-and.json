@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-providing-employment-opportunities-by-establishing-piggery-sheep-and",
+  "name": "Scheme for Providing Employment Opportunities by Establishing Piggery, Sheep and Goat Units (General) under Mukhya Mantri Antyodaya Parivaar Utthan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance under the Scheme:**\n\n**Establishment of 10+1 Piggery units:** \n\n  - 25% subsidy on the cost of livestock which has been availed as a loan by the beneficiary for establishment of a 10+1 Piggery unit. A maximum amount of ₹25,000/- will be provided as financial assistance in form of a subsidy.\n\n**Establishment of 15+1 Sheep/Goat units:**\n\n  - 25% subsidy on the cost of liv",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-privaar-pahchan-patra-ppp-id-2-copy-of-aadhaar-card-3-copy-of-pan-card-4-copy"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/sites/default/files/documents/Scheme%202023-24/PSGU%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/speoepsgugmmapuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 to 60 years of age and a resident of Haryana.\n   1. The applicant must be unemployed.\n   1. There would be no mandatory educational qualifications or training requirements.\n   1. The applicant should have a space/shed for keeping animals.\n   1. The applicant would have to submit a Self-Declaration for being unemployed and for undertaking to abide by other conditions as required under the Scheme.",
+  "_criteria_filled": 3
+}

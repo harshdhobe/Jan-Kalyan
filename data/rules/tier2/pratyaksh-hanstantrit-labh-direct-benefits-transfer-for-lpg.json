@@ -1,0 +1,28 @@
+{
+  "id": "pratyaksh-hanstantrit-labh-direct-benefits-transfer-for-lpg",
+  "name": "Pratyaksh Hanstantrit Labh / Direct Benefits Transfer For LPG",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Direct Subsidy Transfer:** LPG consumers receive subsidies directly in their bank accounts automatically.  - **Improved Availability:** Enhanced market availability of new LPG connections for genuine consumers.  - **Health Benefits:** Replaces unclean cooking fuels, reducing indoor pollution and preventing respiratory diseases among women and children in rural areas.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1000000
+      }
+    ]
+  },
+  "documents": [
+    "form-1-submit-a-copy-of-the-aadhaar-letter-to-the-lpg-distributor-or-bank-form-2",
+    "in-addition-to-residential-proof",
+    "to-be-submitted-to-the-lpg-distributor-form-3-a-copy-of-a-current-refill-slip-co"
+  ],
+  "apply_url": "https://mopng.gov.in/en/marketing/pahal",
+  "source_url": "https://www.myscheme.gov.in/schemes/pahal-dbtl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an LPG user.\n- The combined taxable income of the applicant and their spouse should not exceed ₹10,00,000 in the previous financial year, as per the Income Tax Act, 1961.",
+  "_criteria_filled": 1
+}

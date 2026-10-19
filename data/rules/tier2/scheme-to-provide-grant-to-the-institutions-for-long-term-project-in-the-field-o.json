@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-grant-to-the-institutions-for-long-term-project-in-the-field-o",
+  "name": "Scheme to Provide Grant to the Institutions for Long Term Project in the Field of Art and Culture (Sarjansheel Goa)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "A grant to the extent of 80% of the total expenditure involved is subject to a maximum ceiling of ₹ 5,00,000 per annum. \n<br>\n\n> **Number of Beneficiaries**\n\nThe Department/Government may restrict the number of institutions/individuals according to the availability of funds.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-institutionsa-copy-of-the-constitutionby-laws-rules-and-regulations-registra"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spiltpfacsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Institutions** \n\n1. Any institution registered under the Society’s Registration Act, 1860 or Indian Trust Act. \n1. The institution must be involved in long-term projects in the field of Art and Culture.\n\n<br>\n\n> **For Individuals**\n\n1. Any individual from the Goan community, who has been a resident of Goa for 15 years or more.\n1. The individual must be involved in a long-term project in the field of Art and Culture and should have contributed at least 15 years in the relevant field.",
+  "_criteria_filled": 1
+}

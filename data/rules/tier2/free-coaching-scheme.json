@@ -1,0 +1,26 @@
+{
+  "id": "free-coaching-scheme",
+  "name": "Free Coaching Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **1. Coaching Fees:** \n\nThe actual course fee of the institute in which the student is applying, which the institute charges from general students, or the prescribed course fee by the Ministry as per the Annexure of the Scheme, whichever is less. This is subject to the limits for fees and duration of the course. The maximum total course fee for various courses is as follows:\n<br>\n\n**S. No.****Co",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      }
+    ]
+  },
+  "documents": [
+    "family-income-certificate-10th-marksheet-certificate-12th-marksheet-certificate"
+  ],
+  "apply_url": "https://dwbdnc.dosje.gov.in/content/free-coaching",
+  "source_url": "https://www.myscheme.gov.in/schemes/freecoach",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to De-Notified, Nomadic and Semi-Nomadic (DNT) communities.\n1. The applicant&#39;s total family income from all sources should be ₹2,50,000/- or less per annum.\n1. The applicant should not be availing of any such benefits from a similar scheme of the Central Government or the State Government.\n1. The applicant must have secured the minimum marks in the qualifying examination of the competitive exam for which coaching is sought, as prescribed in the guidelines of the said competitive exam.\n1. If the applicant has not yet appeared for the qualifying examination, or if the result has not been declared, the marks obtained in the Board/Degree exam just prior to the qualifying exam shall be taken into account.\n1. For competitive exams where the qualifying exam is Class 12th, the applicant must have passed Class 12th or be studying in Class 12th as on the date of receiving the benefit under the scheme.\n1. For competitive exams where the qualifying exam is at the bachelor&#39;s level, the applicant must have completed the bachelor&#39;s level course or be studying in the final year of the bachelor&#39;s degree course at the time of receiving the benefits under the scheme.\n1. The applicant will be required to submit an affidavit that he/she has not taken benefit more than twice under the Scheme.\n1. The applicant is required to join an institute as empanelled by the Ministry under the “Free Coaching Scheme for Scheduled Caste (SC) and Other Backward Class (OBC) students.”\n1. A minimum physical coaching of 16 hours per week will be mandatory for all the courses.\n\n<br>\n\n> **Preference/Priority:**\n\n- For such examinations, which are conducted in two parts, Preliminary and Mains, priority in the selection will be given to those students who have at least once qualified for the preliminary examination.\n- If the number of eligible applications received is more than the given slots, the selection will be done in decreasing order of the marks obtained in the qualifying exams.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "private-tuition-assistance-to-socially-and-educationally-backward-class-students",
+  "name": "Private Tuition Assistance to Socially and Educationally Backward Class Students Studying in Science Stream of Class 11 & 12",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹15,000 for Class 11th- Financial assistance of ₹15,000 for Class 12th\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbookcancelled-cheque-caste-certificate-income-certificate-other-markshe"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptasebcssss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Gujarat.\n1. The applicant must belong to the Socially and Educationally Backward Class (SEBC).\n1. The applicant must be studying in the science stream in Class 11th or Class 12th in a recognized higher secondary school.1. The applicant must be availing of private tuition during the academic year.\n1. The applicant’s annual family income must not exceed ₹6,00,000/-.\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

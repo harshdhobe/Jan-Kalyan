@@ -1,0 +1,31 @@
+{
+  "id": "promotion-of-energy-audit-and-conservation-of-energy-peace-detailed-energy-audit",
+  "name": "Promotion of Energy Audit and Conservation of Energy (PEACE): Detailed Energy Audit",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- 75 % of the cost of the audit is subject to a maximum of ₹ 1,00,000 per energy audit.\n\n<br>\n\n***The subsidy will be released to the MSME after completion of the Energy Audit Report that is duly certified by the energy auditor.**\n***If the unit availed loan for the energy audit, the subsidy will be released to the bank to adjust in the loan account if the loan is in currency.**\n*** The overall ce",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-copy-of-udyam-certificate-certificate-of-regist",
+    "eb-meter-cardonline-statement-if-an-alternate-source-of-energy-other-than-electr",
+    "proof-for-the-usage-documents-for-engagement-of-energy-auditorletter-of-acceptan",
+    "or-partner-or-director-of-a-firmco",
+    "then-proof-for-the-same-copy-of-accreditation-of-energy-auditor-by-bureau-of-ene",
+    "etc-copy-of-the-detailed-energy-audit-report-the-file-type-should-be-pdf-pdf-the"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/dea_sub.php?id=New%20Application",
+  "source_url": "https://www.myscheme.gov.in/schemes/peacedea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All existing manufacturing MSMEs in the state which are undertaking energy audits for the first time.\n- MSMEs taking up subsequent energy audits after 3 years.\n- Enterprises having more than one unit may also avail of this concession, separately for each unit.\n- There should be a gap of a minimum of three years between the previous energy audit and the subsequent energy audit i.e. present energy audit.\n\n> **Compotients Eligible for Subsidy**\n\nThe expenditure incurred towards professional charges of conducting an Energy Audit alone is eligible.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "pension-to-the-persons-who-lost-100-eye-sight",
+  "name": "Pension to the Persons who lost 100% eye sight",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "Pension of ₹2,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-residential-certificate-electors-photo-identity-card-e"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20of%20Pension%20to%20100%25%20eye%20sight%20under%20APL%20families_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfeslpbtac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The age of the applicant should be 10 years &amp; above.\n1. The applicant should be 100% Visually Handicapped.\n1. The family income of the applicant should not exceed ₹1,00,000/-.\n1. No member of the family of the applicant should be a government employee.",
+  "_criteria_filled": 4
+}

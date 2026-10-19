@@ -1,0 +1,36 @@
+{
+  "id": "shri-vajpayee-bankable-yojana",
+  "name": "Shri Vajpayee Bankable Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefits\n Maximum Limit for Bank Loan \n    ₹.8.00 lakh for the Industries sector.\n    ₹.8.00 lakh for the Service sector.\n    ₹.8.00 lakh for the Business sector.\nRate of subsidy on the loan amount: Subsidy will be available as mentioned below for the Industries, Service & Business sectors.\nAreaGeneral CategoryScheduled Castes/ Scheduled Tribes / Ex-serviceman/Women/ blind or handicapped having 40",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-aadhar-card-copy-vocational-training-certificate"
+  ],
+  "apply_url": "http://www.cottage.gujarat.gov.in/Home-5E25726C3B65-214079-282472242566-5E2572",
+  "source_url": "https://www.myscheme.gov.in/schemes/svby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n   1. Age: 18 to 65 years.\n   1. Qualification: The applicant should have passed the minimum standard fourth OR, Training/ Experience: Should have undergone training for a minimum of three months from the private establishment or a minimum of one month from Government recognized Institutes, in the area of the proposed business or should have experience of minimum 1 year in the same activity or should be a hereditary craftsperson.\n   1. No Income criteria",
+  "_criteria_filled": 3
+}

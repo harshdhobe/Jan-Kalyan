@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-for-anmgnmtechnical-courses",
+  "name": "Financial Assistance for ANM/GNM/Technical Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- Financial Assistance to the youths of the Tea Tribes and Adivasi Community for training of Auxiliary Nurse Midwife (ANM)/General Nursing and Midwifery (GNM)/Para-Medical and other job assured technical and professional Diploma and Degree courses.\n- The training must have a minimum duration of one year and can be conducted in both Government and Non-Government Institutes.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-maximum-50kb-in-jpegjpg-format-signature-maximum-20kb-in-jpe"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/faanmgnmtc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi community.\n- The applicant&#39;s family income must not exceed ₹5,00,000/- per annum.\n\n- The applicant must currently be undergoing the course in a Government or Government Recognized Institute.\n- The applicant must be undergoing professional, job-oriented technical Diploma/Degree courses.\n- The applicant must be enrolled in a course with a minimum duration of one year.\n\n<br>",
+  "_criteria_filled": 2
+}

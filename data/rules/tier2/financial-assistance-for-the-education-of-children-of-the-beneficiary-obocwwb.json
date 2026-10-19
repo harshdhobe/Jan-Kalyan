@@ -1,0 +1,44 @@
+{
+  "id": "financial-assistance-for-the-education-of-children-of-the-beneficiary-obocwwb",
+  "name": "Financial Assistance for the Education of Children of the Beneficiary (O.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "<br>\n\n**Class/ Level****Amount (Per Annum)**For class - 6th and 7th (Girl child)₹2,000/-For class - 8th (Children)₹2,000/-For class - 9th (Children)₹3,000/-For class - 10th (Children)₹4,000/-Onetime Cash award to the children of registered beneficiaries securing 90% or above in Class- 1Oth₹10,000/-For B. Ed., CT, Nursing Training and other Technical Education₹40,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeraadhaar-linked-bank-passbook-f",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-passport-size-photo-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-aadhaar-card-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-signature-of-applicant-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-employment-certificate-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-for-the-application-of-the-welfare-schemeregis"
+  ],
+  "apply_url": "https://labdirodisha.gov.in/?q=node/15%27%3B",
+  "source_url": "https://www.myscheme.gov.in/schemes/faecbobocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of Odisha.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered member of the Odisha Building and Other Construction Workers Welfare Board.\n  - The member should be registered for a period of one year or more under the board.\n  - The children should be studying in class VI and above.",
+  "_criteria_filled": 3
+}

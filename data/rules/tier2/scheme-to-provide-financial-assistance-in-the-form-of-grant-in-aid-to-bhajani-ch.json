@@ -1,0 +1,31 @@
+{
+  "id": "scheme-to-provide-financial-assistance-in-the-form-of-grant-in-aid-to-bhajani-ch",
+  "name": "Scheme to Provide Financial Assistance in the Form of Grant-In-Aid to Bhajani/ Choir/ Cultural Group/ Institutions for Purchase of Musical Instruments",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Lumpsum grants / financial assistance to the maximum extent of ₹ 15,000/- per Group/ Institution for the purchase of Musical Instruments only.\n\n**NOTE:** The Government / Department may restrict the number of groups/institutions in each category according to the availability of the funds.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-registration-certificate-report-of-the-activities-ie-participation-i",
+    "epic-card",
+    "ration-card",
+    "aadhar-card",
+    "drivers-license",
+    "bank-ac-etc-mandatory-bank-details-of-the-group-as-per-enclosed-format-or-photoc"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Grant-in-Aid-to-Purchase-Musical-Instrument-2022-23-online-form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spfafgiabccgipmi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Mandal/ Group/ Institution/ Troupe should consist of at least a minimum of 10 members.\n1. The Mandal/ Group/ Institution/ Troupe should be conducting regular musical performances like bhajans, choir singing, folk performances etc.\n1. The Mandal/ Group/ Institution/ Troupe should not already have received the benefits of this scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-certified-seeds-of-maize",
+  "name": "Distribution of Certified Seeds of Maize",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Subsidy on Certified Seeds:** Farmers can receive 50% of the cost of certified maize seeds, with a cap of ₹1,200/- per quintal, whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-or-tenancy-recent-photograph-caste-certificate-for-s"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6853",
+  "source_url": "https://www.myscheme.gov.in/schemes/docsom",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be growing maize in the specified districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi.\n\n&gt; **Note:** Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups.",
+  "_criteria_filled": 1
+}

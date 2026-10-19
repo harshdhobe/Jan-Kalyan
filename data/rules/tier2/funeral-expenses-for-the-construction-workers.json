@@ -1,0 +1,36 @@
+{
+  "id": "funeral-expenses-for-the-construction-workers",
+  "name": "Funeral Expenses for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** ₹3,000/- for each deceased beneficiary payable to the nominee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerpassport-size-photographs-of-t"
+  ],
+  "apply_url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/feftcwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of West Bengal.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a nominee of a deceased registered member Under the Building and Other Construction Workers Welfare Board of West Bengal.",
+  "_criteria_filled": 3
+}

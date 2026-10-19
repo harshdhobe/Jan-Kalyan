@@ -1,0 +1,26 @@
+{
+  "id": "vidyasiri-food-and-accommodation-scholarship-scheme",
+  "name": "Vidyasiri food And Accommodation Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "1. Financial assistance for food and accommodation expenses.\n   1. Monthly stipend of Rs. 1,500 for 10 months per academic year.\n   1. Support for students belonging to backward classes.\n   1. Direct crediting of funds to the students&amp;#39; bank accounts.\n   1. Promotes access to higher education for eligible students.\n   1. Encourages academic performance through the eligibility criteria.\n   1",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-account-number-and-ifsc-code-caste-certificate"
+  ],
+  "apply_url": "https://bcwd.karnataka.gov.in/info-2/Scholarships/Vidyasiri/en",
+  "source_url": "https://www.myscheme.gov.in/schemes/vfas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students must be citizens of India and permanent residents of Karnataka.\n   1. Students should belong to backward classes listed by the Government of India or the State Government.\n   1. Students must be pursuing post-matric courses in government, local, aided, or recognized private institutions affiliated with statutory universities in Karnataka.\n   1. Students who have not secured admission in any departmental or government-funded student hostel are eligible.\n   1. The annual income of the student&amp;#39;s family should fall within the specified limits based on their category.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "term-loan-scheme-gtkvn",
+  "name": "Term Loan Scheme (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Loans up to ₹10,00,000/- are provided for eligible small businesses.- **Interest Rate:** Interest on the loan will be charged at 6% up to ₹5,00,000/-.- **Loan Coverage:** Government share 95% of project cost, and beneficiary share 5% margin money- **Loan Tenure:**\tThe loan amount will have to be repaid in 60 equal monthly installments including interest.- **Guarantor:** One guar",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-voter-id-passport-size-photos-business-address-proof-bi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gtkvn/Schemes/1454?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/tlsbgtkvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to Thakor or Koli community.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant’s age should be between 21 and 50 years. \n1. The applicant must have experience/skilled in the proposed trade or business.\n1. The applicant will have to provide suitable collateral to get the loan.\n\n> **Note:** At least 50% of the total loan amount will be allocated for families with annual income up to ₹1,50,000/-.\n\n<br>",
+  "_criteria_filled": 4
+}

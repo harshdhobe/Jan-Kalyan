@@ -1,0 +1,31 @@
+{
+  "id": "state-government-run-old-age-and-infirm-homes",
+  "name": "State Government-Run Old Age and Infirm Homes",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The following facilities are provided to elderly individuals in government-run Old Age and Infirm Homes:\n\n  - Free accommodation\n  - Free nutritious meals\n  - Free clothing\n  - Free medical care, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-copy-of-family-register-verification-note-by-gram-pradhan-r"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3bc7f621451b4f5df308a8e098112185d/uploads/2024/11/20241129799743448.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ogoaih",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant should be a male or female. \n1. The applicant&#39;s age must be 60 years or above. \n1. There is no income ceiling for eligibility.\n1. The applicant must not have a communicable disease (certified by a government doctor).",
+  "_criteria_filled": 2
+}

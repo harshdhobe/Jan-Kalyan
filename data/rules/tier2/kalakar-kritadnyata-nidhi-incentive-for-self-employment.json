@@ -1,0 +1,39 @@
+{
+  "id": "kalakar-kritadnyata-nidhi-incentive-for-self-employment",
+  "name": "Kalakar Kritadnyata Nidhi: Incentive for Self Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> ***Financial Assistance***\n\n- ₹50,000/- or the actual cost, whichever is less, shall be provided for setting up self employment venture.\n- The financial assistance amount shall be disbursed to the eligible applicant in the form of Electronic Clearing System mode.\n- The assistance is provided as a one-time grant.\n\n> ***Conditions***\n\n- The details of the expenditure incurred along with the vouche",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationbirth-certificate-domicile-certificate-income-certificate-cert",
+    "government-of-goa-declaration-or-affidavit-confirming-that-the-applicant-has-not",
+    "autonomous-bodies",
+    "or-corporations-after-benefit-disbursementdetails-of-the-expenditure-incurred-al"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkn-ifse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be Goan, i.e., born and brought up in Goa.\n- The artist must be an artist recognized by the Directorate of Art &amp; Culture, Government of Goa.\n- The income of the family of the applicant (from all sources) must not exceed ₹2,00,000/- per annum.\n- The applicant must not be less than 50 years in age. (The Government may relax the age criteria for deserving cases under special circumstances.)\n- The applicant must not be employed or self-employed at the time of application.\n\n<br>",
+  "_criteria_filled": 3
+}

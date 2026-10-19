@@ -1,0 +1,31 @@
+{
+  "id": "scheme-of-personal-assistance-allowance-to-differently-abled-persons-with-high-s",
+  "name": "Scheme of Personal Assistance Allowance to Differently Abled Persons with High Support Need",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹1,000/- per month. \n> **NOTE:** The amount sent through ECS directly to the beneficiary’s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "recommendation-certificate-issued-from-the-high-support-need-assessment-board-an"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sopaatdapwhsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a differently abled person.\n1. The differently abled person wants high support needs.",
+  "_criteria_filled": 2
+}

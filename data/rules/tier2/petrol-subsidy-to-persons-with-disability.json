@@ -1,0 +1,38 @@
+{
+  "id": "petrol-subsidy-to-persons-with-disability",
+  "name": "Petrol Subsidy To Persons With Disability",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "- Petrol Subsidy Scheme to Persons with Disability provides benefits in the form of subsidy on Petrol and Diesel\n- Under this scheme 50% subsidy on actual expenditure on purchase of petrol/ diesel provided\n- Vehicle of 2 Horse Power and Below – 15 litters per month\n- Vehicle of more than 2Horse Power – More than 15 litters per month\n- Due to this scheme, some financial burden will be reduced from ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "document-required-self-attested-photocopy-two-passport-size-photographs-residenc",
+    "ration-card",
+    "electricity-bill-copy-of-disability-certificateidentity-card-with-40-or-above-di"
+  ],
+  "apply_url": "https://chdsw.gov.in/index.php/scheme/petrol-subsidy-to-persons-with-disability",
+  "source_url": "https://www.myscheme.gov.in/schemes/petro-subsidy-for-disabled",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Persons with Disability who are owners of motorized vehicles. \n- Persons with Disability having an income up to Rs.1.50 lacs / p.a. from all sources are eligible for subsidy. \n- Those Persons with Disability who are already in receipt of the conveyance allowance either from any voluntary or Govt. source shall not be eligible for a grant of subsidy on the purchase of petrol/ diesel.",
+  "_criteria_filled": 3
+}

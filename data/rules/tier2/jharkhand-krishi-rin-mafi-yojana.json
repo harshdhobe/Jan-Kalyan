@@ -1,0 +1,31 @@
+{
+  "id": "jharkhand-krishi-rin-mafi-yojana",
+  "name": "Jharkhand Krishi Rin Mafi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. Under this scheme, outstanding loan amounts of up to ₹50,000/- in standard crop loan outstanding accounts as of 31st March 2020, will be waived.\n\n**Note:** Repayment of outstanding loan through DBT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-proof-of-age-ration-card-kisan-credit-card"
+  ],
+  "apply_url": "https://jkrmy.jharkhand.gov.in/Default",
+  "source_url": "https://www.myscheme.gov.in/schemes/jkrmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Jharkhand.\n   1. The age of the farmer should be more than 18 years.\n   1. The applicant should be a farmer who self-cultivates their land or cultivates leased land.\n   1. The applicant should be a small or marginal farmer who has availed of the loan through the Kisan Credit Card.\n   1. The farmer should have a valid Aadhaar number.\n   1. The applicant should be a valid ration card holder.\n   1. The applicant should be a Kisan Credit Card holder.\n   1. The applicant should be a short-term crop loan holder.\n   1. The crop loan should be issued by a recognized bank located in Jharkhand.\n   1. The family of the deceased debtor is also eligible under the scheme.\n   1. The applicant should have a standard crop loan account.\n   1. Only one member per family holding a crop loan will be eligible.\n   1. This scheme will be voluntary for all crop loan holders.\n\n**Note:** The applicant has to pay ₹1/- only for the application.\n**Eligibility for banks, criteria, determining outstanding loans and deadlines, eligible loan accounts, and exceptions:**\n\n  - Qualified Banks - Commercial Banks, Scheduled Co-operative Banks and Rural Banks\n  - Qualifying Loan - Short-Term Crop Loan\n  - Eligible period for disbursement - Upto 31.03.2020\n  - Qualifying Loan Account - Single &amp;amp;amp; Joint\n  - Loans taken for crop diseases",
+  "_criteria_filled": 2
+}

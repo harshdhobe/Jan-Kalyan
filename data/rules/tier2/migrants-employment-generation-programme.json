@@ -1,0 +1,42 @@
+{
+  "id": "migrants-employment-generation-programme",
+  "name": "Migrants Employment Generation Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the subsidy @ 25% of the project cost will be sanctioned to the beneficiaries subject to a maximum of ₹2.5 lakhs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-copy-of-election-id-card-aadhaar-card-2-copy-of-pan-card-3-p",
+    "if-required"
+  ],
+  "apply_url": "https://msmeonline.tn.gov.in/megp/megp_desc.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/megp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have returned to Tamil Nadu on &amp;amp; after 01-01-2020 due to the Covid-19 outbreak.\n   1. The age of the applicant should be between 18 to 45 years in general and for special categories (Women/Minorities/ BC/MBC/SC/ST/Ex-servicemen/Transgender/Differently abled), the age relaxation is up to 55 years.\n   1. The applicant should possess a minimum educational qualification of 8th standard pass.\n   1. The family income of the applicant should be below ₹5.00 lakh.\n   1. The maximum project costs for Manufacturing / Trading / Service projects should be ₹15.00 lakh / ₹5.00 lakh / ₹5.00 lakh respectively.\n   1. The applicant’s/promoter’s contribution should be 10% of the project cost for the General category and 5% for the Special Category.",
+  "_criteria_filled": 4
+}

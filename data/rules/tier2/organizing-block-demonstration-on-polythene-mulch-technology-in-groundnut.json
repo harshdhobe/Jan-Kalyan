@@ -1,0 +1,27 @@
+{
+  "id": "organizing-block-demonstration-on-polythene-mulch-technology-in-groundnut",
+  "name": "Organizing Block Demonstration on Polythene Mulch Technology in Groundnut",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** An assistance of  ₹4,000/- towards the cost of inputs to organize the demonstration and  ₹4,000/- to cover the land with Polythene sheet per hectare will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-proof-of-seed-production-an"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7614",
+  "source_url": "https://www.myscheme.gov.in/schemes/obdopmtig",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should produce and supply Foundation and Certified Class seeds to the Department.",
+  "_criteria_filled": 1
+}

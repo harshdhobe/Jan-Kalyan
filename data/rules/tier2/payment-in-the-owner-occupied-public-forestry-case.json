@@ -1,0 +1,27 @@
+{
+  "id": "payment-in-the-owner-occupied-public-forestry-case",
+  "name": "Payment in the Owner-Occupied / Public Forestry Case",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Farmers receive timely payment for the sale of their legally owned teak and sal wood.\n\n- Payment is made within 45 working days if sold at government rates and within 30 working days if sold through a separate lot after full recovery.\n- Ensures fair market value and legal compliance for forest produce sales.\n\n- Payments are made directly to the farmer’s bank account through e-payment.\n\n**Expecte",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-land-ownership-malik-makbuza-certificate-or-revenue-records-lok-vaniki",
+    "if-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=858",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptoopfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant should be a registered Malik Makbuza (private forest owner) or Lok Vaniki farmer.\n1. The sale must involve only specified forest produce such as teak (sagwan) and sal.\n\n<br>",
+  "_criteria_filled": 1
+}

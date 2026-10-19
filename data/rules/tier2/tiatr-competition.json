@@ -1,0 +1,26 @@
+{
+  "id": "tiatr-competition",
+  "name": "Tiatr Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Free auditorium with permissible infrastructure (extra facilities chargeable).\n- Hire charges paid for two vehicles for transportation of artistes and stage materials (as per Kala Academy norms).\n- 80% of gate collection from ticket sales is given to the participating institution.\n- Prizes awarded based on recommendations from a panel of judges. \n\n<br>\n\n**Best Performance**\n‘A’ Group: 1st Prize:",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-renewed-registration-certificate-typed-copy-of-the-script-to-be-submitte"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Kala%20Academy%20Goa%20Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The institution should be registered under the Societies Registration Act, 1860.\n1. The registration of the institution should be valid at the time of application.",
+  "_criteria_filled": 1
+}

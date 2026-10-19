@@ -1,0 +1,36 @@
+{
+  "id": "spurring-entrepreneurship-initiative",
+  "name": "Spurring Entrepreneurship Initiative",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "1. Financial Assistance provided under this scheme shall be provided by J&amp;amp;K Bank as a start-up loan. \n   1. Assistance under the scheme shall be a minimum ₹2 Lakhs and a maximum of up to ₹20 Lakhs including the interest capitalized during the implementation period shall be provided as assistance.\n   1. There will be no margin money requirement to be paid by the applicant.\n   1. Selected ap",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "applicant-photograph-passport-size-png-aadhaar-card-pdf-both-sides-domicile-cert"
+  ],
+  "apply_url": "https://missionyouth.jk.gov.in/scheme_pdf/SEI.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sei",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme is eligible for all those youths whose age is between 18 to 40 years.\n   1. The applicant must have qualified/passed the XIIth standard or above.    1. Financial assistance shall be provided to youth proposing the creation of a new or expansion of an existing business venture within J&amp;amp;K. \n   1. Assistance shall be provided to meet the requirements of assets such as plant and machinery and working capital.\n   1. For candidates seeking assistance for new start-up units, the concerned youth shall be unemployed and registered with the concerned District Employment and Counseling Center.\n   1. For candidates seeking assistance for the expansion of existing business, he/she should have an established business for at least 2 years.\n   1. Non-individual enterprises wherein at least 51% of the shareholding and controlling stake is held by one entrepreneur subject to the requirement that the entrepreneurs meet the criteria at i and ii of this rule.\n   1.  One person can seek assistance under this scheme only once. \n   1. 25 percent of the cases to be sanctioned under this scheme in a particular financial year shall be reserved for women. \n   1. This sub-component of the scheme shall be implemented in collaboration/convergence with JKTPO, SRLM, or any other government organization concerned with women&amp;#39;s development as may be decided by CEO Mission Youth from time to time. \n   1. Sanction of cases under this component shall also be governed by provisions of this scheme.",
+  "_criteria_filled": 3
+}

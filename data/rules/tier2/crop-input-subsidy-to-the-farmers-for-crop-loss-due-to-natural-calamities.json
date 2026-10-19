@@ -1,0 +1,26 @@
+{
+  "id": "crop-input-subsidy-to-the-farmers-for-crop-loss-due-to-natural-calamities",
+  "name": "Crop Input Subsidy to the Farmers for Crop Loss Due to Natural Calamities",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- As per the assistance norms fixed by the State Government, keeping in view the natural calamities that occur from time to time",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-passbook-cancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisfnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be a resident of Gujarat.\n   1. The applicant must have suffered crop loss due to natural calamity.",
+  "_criteria_filled": 1
+}

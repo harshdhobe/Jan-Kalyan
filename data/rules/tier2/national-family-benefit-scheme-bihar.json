@@ -1,0 +1,33 @@
+{
+  "id": "national-family-benefit-scheme-bihar",
+  "name": "National Family Benefit Scheme- Bihar",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Under this scheme, a one-time financial assistance of ₹20,000/- is given to the bereaved family of the deceased person.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-the-applicant-ie-aadhaar-card",
+    "voter-id-card-identity-proof-of-the-deceased-person-ie-aadhaar-card-death-certif",
+    "if-applicable-address-proof-bank-passbookbank-account-details-any-other-document"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/NFBS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a family member or dependent of the deceased person.\n   1. The deceased person should have been the primary breadwinner (an earning member of the family) on whom the family primarily depended for income.\n   1. The family of the deceased should be living Below the Poverty Line (BPL).\n   1. At the time of death, the deceased should have been between 18 and 60 years old.",
+  "_criteria_filled": 2
+}

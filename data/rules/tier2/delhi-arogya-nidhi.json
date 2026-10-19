@@ -1,0 +1,27 @@
+{
+  "id": "delhi-arogya-nidhi",
+  "name": "Delhi Arogya Nidhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of up to ₹1.5 lacs will be provided to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-continuous-residence-in-delhi-for-the-last-3years-through-any-one-of",
+    "duly-attested-by-the-treating-doctor-4-a-copy-of-the-national-food-security-card"
+  ],
+  "apply_url": "https://health.delhi.gov.in/sites/default/files/Health/generic_multiple_files/totalform.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dan",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Patients should have a National Food Security Card.\n1. The patient must be a resident of Delhi and has to furnish domicile proof of residing in Delhi continuously for the last 3 years (prior to the date of submission of the application).\n1. Treatment should be from the Government Hospital in Delhi.",
+  "_criteria_filled": 1
+}

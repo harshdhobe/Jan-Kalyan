@@ -1,0 +1,46 @@
+{
+  "id": "home-for-mentally-challenged-children",
+  "name": "Home for Mentally Challenged Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Free boarding and lodging for all the inmates.\n- Free supply of 4 uniform sets to the inmates per year.\n- Free supply of all daily living needs for the inmates.\n- Free medical check-ups, including paediatric and psychiatric services, for all the inmates.\n- Annual tours and local picnic trips to places of interest for the inmates.\n- Annual Day for prize distribution to winners in sports events an",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 7
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 17
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-id-address-proof-ration-card-age-proof-disability-certificate"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hmcc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should qualify as ANY ONE of the following:\n\n- Boys in the age group of 7 to 17 years.\n- Mild Mental Retardedness with an IQ level between 50-70.\n- Moderate Mental Retardedness with an IQ level between 35-49.\n- Severe Mental Retardedness with an IQ level between 20-34.\n- Profound Mental Retardedness with an IQ level under 20.\n- Unspecified Mental Retardedness with mental efficiency and sub-normality.",
+  "_criteria_filled": 5
+}

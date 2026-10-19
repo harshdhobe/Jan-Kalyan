@@ -1,0 +1,31 @@
+{
+  "id": "vikramaditya-yojna",
+  "name": "Vikramaditya Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Annual financial assistance of a maximum of ₹ 2,500/-\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "samagra-id-current-college-code-branch-code-recent-passport-size-photograph-cast"
+  ],
+  "apply_url": "http://www.scholarshipportal.mp.nic.in/Public/OtherSchemes/GB.aspx?ID=NQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/vay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the General category.\n1. He/she must have scored at least 60% or more marks in the Class 12 examination.\n1. The annual family income of the applicant should not exceed INR 1,20,000 (for higher education) and INR 54,000 (for graduation).",
+  "_criteria_filled": 2
+}

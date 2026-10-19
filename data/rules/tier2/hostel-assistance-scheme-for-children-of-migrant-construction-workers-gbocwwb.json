@@ -1,0 +1,26 @@
+{
+  "id": "hostel-assistance-scheme-for-children-of-migrant-construction-workers-gbocwwb",
+  "name": "Hostel Assistance Scheme for Children of Migrant Construction Workers (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, children of migrant construction workers should be provided free accommodation in primary school.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "e-nirman-card-childs-aadhaar-card-any-other-documents-as-required"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/hascmcwgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children of registered construction workers who are studying in the government primary and secondary schools of the district can avail the benefits under the scheme.\n   1. The construction workers should be registered with the Gujarat Building and Other Construction Worker’s Welfare Board.",
+  "_criteria_filled": 1
+}

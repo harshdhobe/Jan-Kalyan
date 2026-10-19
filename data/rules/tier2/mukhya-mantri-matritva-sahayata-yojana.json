@@ -1,0 +1,31 @@
+{
+  "id": "mukhya-mantri-matritva-sahayata-yojana",
+  "name": "Mukhya Mantri Matritva Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **Monetary Benefit:** A cash incentive of ₹5,000/- is provided in one instalment after the birth of a second child (boy).",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-beneficiary-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s34c144c47ecba6f8318128703ca9e2601/uploads/2024/11/20241125232046895.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmmsyh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **The following are eligible to apply for the scheme:**\n\n  - Women belonging to the Scheduled Castes(SC) and the Scheduled Tribes (ST).\n  - Women who are partially (40%) or fully disabled (Divyang Jan).\n  - Women holding of BPL ration card.\n  - Women beneficiaries under Pradhan Mantri Jan Aarogya Yojana (PMJAY) under Ayushman Bharat.\n  - Women holding E-shram card.\n  - Women farmers who are beneficiaries under Kishan Samman Nidhi.\n  - Women holding MGNREGA job card.\n  - Women whose net family income is less than Rs. 8 lakh per annum.\n  - Pregnant and Lactating AWWs/ AWHs/ ASHAs.\n  - Any other category as may be prescribed by the Central Government.\n\n&gt; **Conditions for Disbursement:**\n\n  - The child born on or after 08.03.2022 in any family in state of Haryana.\n  - Child birth is registered.\n  - Child has received first cycle of BCG, OPV, DPT and Hepatitis-B or its equivalent/substitute.",
+  "_criteria_filled": 2
+}

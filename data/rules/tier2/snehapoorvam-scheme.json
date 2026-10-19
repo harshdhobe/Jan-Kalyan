@@ -1,0 +1,26 @@
+{
+  "id": "snehapoorvam-scheme",
+  "name": "Snehapoorvam Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "<br>\n\n**Sl. No.****Class/Degree/Course****Amount of Assistance**1Children below 5 years and Class I to V₹300/- per month2Class VI to Class X ₹500/- per month3Class XI and Class XII₹750/- per month4Degree Courses / Professional Degree₹1000/- per month<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-identity-of-the-child-2-passport-size-photograph-3-income-certificate"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/vmcatalogue/notifications/2d924e1ec888aaff6d71bbaf2f050a76.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss-kerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n   1. The child who has lost either father or mother or both.\n   1. The applicant should belong to Below Poverty Line (BPL) category.\n   1. The students from the first standard to degree classes are eligible to apply under the scheme.\n   1. For children belonging to Above Poverty Line (APL) category, annual income should be below ₹ 20,000 in rural areas (Local body/Grama Panchayat) and ₹22,375 in urban areas (Corporation/ Municipality).\n\n**Note:** Candidate children below 5 years of age can be directly eligible.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "saraswati-cycle-yojana",
+  "name": "Saraswati Cycle Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Free cycles are being distributed to girl students under the scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-residence-certificate-b-pl-card-caste-certificate-school-certificate-a"
+  ],
+  "apply_url": "https://eduportal.cg.nic.in/schemes/Cycle_Yojna.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/scy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following categories of citizens are eligible for the Chhattisgarh Saraswati Cycle Scheme: –\n\n1. Should be a native of Chhattisgarh state only.\n1. Girl students below Poverty Line (BPL).\n1. SC/ST girl students.\n1. Girl students of class 9th.",
+  "_criteria_filled": 2
+}

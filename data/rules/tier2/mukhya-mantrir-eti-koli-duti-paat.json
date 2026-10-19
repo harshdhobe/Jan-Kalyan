@@ -1,0 +1,26 @@
+{
+  "id": "mukhya-mantrir-eti-koli-duti-paat",
+  "name": "Mukhya Mantrir Eti koli duti paat",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "One-time financial assistance of ₹5000 to tea garden workers in recognition of their invaluable contribution, thereby supporting their socio-economic well-being.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://dids.assam.gov.in/userGuide",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmekdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**To be eligible for the scheme, applicants must be:**\n•\ta permanent resident of Assam and presently residing in Assam\n•\tregistered tea garden worker or employee, excluding TE management, engaged in an officially recognised Tea Garden of Assam\n•\thold an active AADHAAR-linked bank account in a scheduled commercial bank.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

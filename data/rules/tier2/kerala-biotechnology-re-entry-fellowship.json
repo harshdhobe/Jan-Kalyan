@@ -1,0 +1,32 @@
+{
+  "id": "kerala-biotechnology-re-entry-fellowship",
+  "name": "Kerala Biotechnology Re-Entry Fellowship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Fellow entitled for a monthly remuneration of ₹1,00,000/- and ₹18,500/- as HRA per month.\n   1. Annual research /contingency grant of ₹7.5 lakh each for the first and second year and ₹ 5 lakh each for the subsequent 3 years.\n   1. Host Institution may provide medical benefits, transport allowance, and other benefits as per the prevailing norms applicable to their employees of the equivalent ran",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-passport-size-photographs-3-educational-certific",
+    "duly-signed-7-certificate-from-the-host-institution"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/kerala-biotechnology-re-entry-fellowship-k-biref/",
+  "source_url": "https://www.myscheme.gov.in/schemes/k-biref",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should possess a Ph.D., M.D., or equivalent degree and at least three years of post-doctoral research experience in premier research laboratories abroad with an outstanding track record of research in biotechnology-related areas as reflected in publications and other recognitions.\n   1. Only candidates (Indian nationals) working overseas who are below 45 years of age are eligible; relaxable for 3 years for OBC and 5 years for SC/ST/PH candidates.\n   1. The fellowship is tenable at any reputed institution in Kerala.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": "state-merit-scholarship-manipur",
+  "name": "State Merit Scholarship Manipur",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "For Class X passed students: The scholarship provides Rs. 6,000 per annum to the first 300 students who passed the High School Leaving Certificate Examination (HSLC) conducted by BSEM for a period of two years.\nFor Class XII passed students: The scholarship provides Rs. 12,000 per annum to the first 125 students of Science, 125 students of Social Sciences, and 50 students of Commerce who passed th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-applicants-passport-size-photograph-domicile-certificate-marksheet",
+    "ifsc-code",
+    "and-account-number-caste-certificate-for-students-belonging-to-sc-st-obc-categor"
+  ],
+  "apply_url": "http://scholarship.mdmmanipur.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/smsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Scholarship of Rs. 6000/- per annum is provided to the first 300 students who passed the class X examination conducted by the Board of Secondary Education Manipur for a period of 2 years.\n1. Scholarship of Rs. 12000/- per annum is provided to the first 125 students of Science, 125 students of Social Sciences, and 50 students of Commerce who passed the class XII examination conducted by the Council of Higher Secondary Education, Manipur for a period of 3 years.\n1. Students in full-time employment are not eligible for the scholarship.\n1. Students should not receive any other scholarship/stipend for the same course of study for which they are receiving the said merit scholarship.\n1. Candidates who have passed the qualifying examination in a year prior to the year of the award of the scholarship are not eligible for consideration.\n1. The scholarship is renewable from year to year within the same stage of education.\n1. Good conduct and regularity in attendance are required for the continuance of the scholarship. The scholarship will be canceled if a scholar gives up the chosen course of study before its completion or changes the course of study without the approval of the State Government. The decision of the State Government will be final and binding in all such matters.\n1. The scholarship may be renewed for a different course of study if the scholar has shifted to another course instead of continuing with the course for which the scholarship was originally granted.\n1. The maximum period of scholarship provided to the meritorious persons passing Class X &amp; XII is 2 years and 3 years, respectively.",
+  "_criteria_filled": 1
+}

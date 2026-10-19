@@ -1,0 +1,31 @@
+{
+  "id": "shikshashree-scheme",
+  "name": "Shikshashree Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "1. Under this scheme, eligible students shall be provided financial assistance through Bank Account only:\n**Class****Rate (Per Annum)**V₹750/-VI₹750/-VII₹750/-VIII₹800/-2. To improve participation of students in Pre-matric stages and minimize the incidence of drop-out especially in the case of girl students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-caste-certificate-address-proof-family-income-cer"
+  ],
+  "apply_url": "https://anagrasarkalyan.gov.in/Bcw/page/10",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss-west-bengal",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students should belong to Scheduled Caste.\n   1. Students of classes V-VIII are eligible for the scheme.\n   1. The annual family income of the student should not exceed ₹ 2.5 lakhs.\n   1. Only day scholars belonging to West Bengal can apply for this scholarship.\n   1. The applicant should be a regular full-time student reading in a Government School/Government-aided School and Govt. recognized schools in West Bengal.\n   1. The award once made will continue subject to subsequent application of the student up to class VIII and good conduct and attendance and otherwise being eligible.\n   1. The applicant should not get any other scholarship or stipend in any form for the same period. In case it is detected that the incumbent has drawn any amount of similar character from any other source this scholarship has to be refunded.\n   1. The applicant should be a holder of a bank account in a nationalized bank with a core banking facility. \n   1. The Scholarships for studying in any class will be available for only one year. If a student has to repeat a class, he/she would not get a scholarship for that class for a second year. However, if he or she is promoted to the next class subsequently he/she will enjoy the benefit provided the incumbent applicant is otherwise eligible. \n\n<br>",
+  "_criteria_filled": 2
+}

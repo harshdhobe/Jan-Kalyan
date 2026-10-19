@@ -1,0 +1,26 @@
+{
+  "id": "conducting-of-exhibitions-component-of-the-development-of-coir-scheme",
+  "name": "\"Conducting of Exhibitions\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Participants receive a daily allowance of ₹150 during the exhibition.\n- Travel expenses, in 2nd sleeper class, are provided for the journey from production units to the exhibition venue and back.\n- Actual transportation charges for transferring coir products from industrial units to the exhibition site are covered.\n- Free stall space is allocated to participants during the exhibition.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-possession-of-an-industrial-unit-for-coir-products-travel-receipts-for"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/cecdcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Participants receive a daily allowance of ₹150 during the exhibition.\n- Travel expenses, in 2nd sleeper class, are provided for the journey from production units to the exhibition venue and back.\n- Actual transportation charges for transferring coir products from industrial units to the exhibition site are covered.\n- Free stall space is allocated to participants during the exhibition.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-sports-development-scheme-retired-person",
+  "name": "Mukhyamantri Sports Development Scheme - Retired Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Fixed remuneration of ₹30,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 64
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-passport-size-photo-permanent-resident-certificate-of-tripura-prtc"
+  ],
+  "apply_url": "https://yas.tripura.gov.in/sites/default/files/2024-02/ADVERTISEMENT.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msdsrp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The applicant should be a retired sportsperson. \n1. The applicant&#39;s age should be less than 64 years.\n\n<br>",
+  "_criteria_filled": 2
+}

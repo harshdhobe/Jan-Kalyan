@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-to-ex-servicemen-of-and-above-the-age-of-60-years-and-their",
+  "name": "Financial Assistance to Ex-Servicemen of and above the Age of 60 Years and their Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,000/- per month is given to ex-servicemen and widows of ex-servicemen aged 60 years and above, with an annual increase of ₹400/- w.e.f. 01.11.2017 every year in November.\n\n**Note:** Sanctioned financial assistance grant shall be payable to the beneficiary from the first day of the following month in which case for grant of financial assistance is san",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-identity-card-of-ex-servicemanwidow-of-ex-serviceman-parivar-pehchan-pat",
+    "00",
+    "000-a-copy-of-the-bank-passbook-linked-with-the-aadhaar-number-death-certificate"
+  ],
+  "apply_url": "https://csharyana.gov.in/WriteReadData/Instructions/Defence%20III/2743.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faesmw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide resident of Haryana.\n   1. The applicant should be an ex-serviceman or widow of an ex-serviceman aged 60 years and above.\n   1. Only ex-servicemen of other ranks (i.e., Havildar and below) who are in penury and have an annual income from all sources below ₹2,00,000/- are eligible under the scheme.\n   1. The applicant should not be in receipt of any kind of pension, financial assistance, or maintenance allowance from any department of the Government of India/State Government or from anybody/organization controlled by the Central/State Government.\n   1. Persons who were discharged from service on the ground of &amp;quot;Service No Longer Required&amp;quot; under rule 13, III (V) due to misconduct &amp;amp; inefficiency are not eligible for financial assistance, and their widows’ are also not eligible for financial assistance as the individual does not fall in the definition of ex-serviceman.\n   1. The widows of ex-servicemen as per definition, who were discharged from service with fair character due to inefficiency/misconduct and &amp;quot;Service No Longer Required&amp;quot; due to inefficiency/misconduct are also not eligible for grant of financial assistance.\n\nNote 1: If any beneficiary, after the date of sanction of the financial assistance, is found drawing old age pension or any other financial assistance from any other Government source. He/she shall be permanently debarred for the grant of financial assistance under all the welfare schemes run by the Rajya Zila Sainik Boards in Haryana.\nNote 2: Payment of financial assistance to those beneficiaries shall be stopped immediately who fail to submit their survival verification proofs once every year in the month of April from the authorities.\nNote 3: Old ex-serviceman &amp;amp; widow beneficiaries, whose cases for grant of financial assistance have already been sanctioned prior to the issue of the guidelines shall continue to get the financial assistance at enhanced rates as per their eligibility and they need not apply afresh.",
+  "_criteria_filled": 3
+}

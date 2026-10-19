@@ -1,0 +1,36 @@
+{
+  "id": "micro-credit-finance-under-nskfdc-haryana",
+  "name": "Micro Credit Finance under NSKFDC- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Project Cost Ceiling:**\nThe Corporation (HSFDC), in collaboration with NSKFDC, provides loans of up to ₹1,00,000/- per beneficiary for small and petty trade/business and various self-employment income-generating activities.\n**Margin Money:**\n•\tThe Corporation provides margin money @ 10% of the project cost.              \n**Subsidy:**\nThe corporation provides a subsidy @ 50% of the total project ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-ration-card-3-safai-karamchari-or-dependent-of-safai-karamchari"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=uLyXlad%2fMkcccXKCZu86ag%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcfnskfdc-h",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant&amp;#39;s age should be between 18 and 55 years.\n   1. There is no income limit.\n   1. The applicant should be either Safai Karamchari or his/her dependent.\n\n**Note 1:** Permanent Safai Karamchari means a person engaged in, or employed for any sanitation work and includes his/her dependents.\n**Note 2:** The applicant shall have to produce a Certificate of Safai Karamchari or dependent of Safai Karamchari from the Head of the Government Departments (i.e. School, Colleges, Forest, Health, Education, Animal Husbandry having rank not less than Gazetted Officer), elected  members of Municipal Body/ Corporation and Pradhan of Gram Panchayats, Local Revenue Officer or an Officer of Local Municipal Office, or Cantonment Executive Officer of the Cantonment or an officer of the Railways not below the rank of gazette officer.",
+  "_criteria_filled": 3
+}

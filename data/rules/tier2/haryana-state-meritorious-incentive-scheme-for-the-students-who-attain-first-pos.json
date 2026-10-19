@@ -1,0 +1,26 @@
+{
+  "id": "haryana-state-meritorious-incentive-scheme-for-the-students-who-attain-first-pos",
+  "name": "Haryana State Meritorious Incentive Scheme for the Students Who Attain First Position in CBSE Annual Exams in the State",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\nThe entire tuition fee is covered, up to a maximum limit.\n**Incentives for 10th Class Toppers**\nUp to ₹25,000/- per year till 10+2 level and up to ₹1,00,000/- per year till graduation.\n**Incentives for 12th Class Toppers**\nUp to ₹1,00,000/- per year till graduation.\n**Mode of Disbursement**\nDirect Benefit Transfer (DBT) from 2021-22 onwards.\n**Frequency of Disbursement**\nA",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "haryana-domicile-certificate-marksheet-of-cbse-10th12th-annual-examination-admis"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Haryana%20State%20Meritorious%20Incentives%20Scheme%20(CBSE).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hrcbsefp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of Haryana.\n1. The applicant should be the top-ranked boy or girl in the CBSE 10th or 12th annual exams at the state level.\n1. The applicant should be continuing his/her education as a regular student.\n1. The applicant should have passed from a school in Haryana.\n1. For 10th Class, the applicant should have secured 92% or above in English, Science &amp; Technology, Mathematics, Social Science, and the best one of the remaining subjects.\n1. For the 12th Class, the applicant should have secured 90% or above in English and the four best subjects in Science (Medical &amp; Non-Medical), Commerce, or Humanities.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "free-bus-pass-for-media-persons",
+  "name": "Free Bus Pass for Media Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Free bus pass (valid for one year) for professional travel needs.\n**Time Limit for Issue of a Fresh Bus Pass:** Two weeks from the date of application.\n**Time Limit for Renewal of the Expired Bus Pass:** Two days form the date of application.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "for-fresh-applicationnativityresidence-certificate-form-ii",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t",
+    "three-stamp-sized-photographs-service-certificate-form-ii-showing-the-designatio",
+    "the-nature-of-the-post-full-time-or-part-time",
+    "period-of-service",
+    "and-the-place-of-work-from-the-former-employer-for-renewal-applicationan-atteste"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/citizens-charterinfopublicity.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbpmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should have served for a minimum of three years as a media person in the Print/Electronic Media/News Agency in the Union Territory of Puducherry.\n- The applicant should be employed as a media person in any Print/Electronic Media/News Agency during the application.\n- The term &quot;Media person&quot; includes individuals serving as a full-time Editor / News Editor / Sub Editor / Reporter / Press Photographer / Videographer / Correspondent of Print / Electronic Media / News Agency within the Union Territory of Puducherry.",
+  "_criteria_filled": 1
+}

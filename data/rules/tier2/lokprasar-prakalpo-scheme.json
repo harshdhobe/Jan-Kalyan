@@ -1,0 +1,34 @@
+{
+  "id": "lokprasar-prakalpo-scheme",
+  "name": "Lokprasar Prakalpo Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "1.\tIssuing identity cards to each folk artiste.\n2.\tUnder the scheme, the veteran and distressed folk-artistes who are above 60 years of age will get a monthly pension of ₹1000/-.\n3.\tThe enlisted folk artists under the age of 60 years, who are engaged in publicity campaigns in different departments, have been receiving ₹1000/- per month as a retainer fee.\n4.\tThe state government will arrange the mi",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-passport-size-photographs-bank-account-number-front-page-of-the-passbook-add",
+    "as-asked-by-the-concerned-department"
+  ],
+  "apply_url": "https://wb.gov.in/government-schemes-details-lokprasar.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/lps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant may have a lineage or belong to a family practicing a given folk form or may belong to a tribal cultural/dance team or a folk-based instrumentalist as recognized by the Folk &amp;amp; Tribal Cultural Centre.\n- The applicant must be between 18 to 60 years.\n- The applicants above 60 years will be eligible for pension. \n- The applicant must be a resident of West Bengal.",
+  "_criteria_filled": 2
+}

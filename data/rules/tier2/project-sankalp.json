@@ -1,0 +1,41 @@
+{
+  "id": "project-sankalp",
+  "name": "Project Sankalp",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Training Cost Reimbursement** \n\nThe Industry Partner will receive reimbursement for training costs per candidate per hour:\n\n- NSQF Category 1 Job Roles: ₹49.\n- NSQF Category 2 Job Roles: ₹42.\n- NSQF Category 3 Job Roles: ₹35.10.\n- GCVT Job Roles and Company-Specific Job Roles: ₹36.75 (which is 75% of the Category 1 NSQF job role training cost).\n\n_*The training cost for NSQF Job Roles is subjec",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-id-identity-proof-for-verification",
+    "original-documents-will-not-be-retained-by-training-providerstraining-centres-ad",
+    "original-documents-will-not-be-retained-by-training-providerstraining-centres-ed",
+    "original-documents-will-not-be-retained-by-training-providerstraining-centres-al",
+    "for-persons-with-disability-pwd-bplaay-card-if-applicable",
+    "for-below-poverty-lineantyodaya-anna-yojana-card-holders"
+  ],
+  "apply_url": "https://skills.gujarat.gov.in/gsdmdev/ProjectSankalpTrainingProvider/Registration?SchemeIDsakshamorsankalp=38",
+  "source_url": "https://www.myscheme.gov.in/schemes/ps-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Fresher Trainees must have a domicile of Gujarat.\n\n- The age of Fresher Trainees must be between 18 and 35 years.\n- The Existing Employees could be from Pan-India.\n- The age of Existing Employees must be between 18 and 55 years.\n\n> **Relaxations &amp; Preferences**\n\n- The scheme focuses on the inclusion of Special Groups such as Women, Persons with Disability (PwD), Below Poverty Line (BPL), Scheduled Caste (SC), and Scheduled Tribe (ST).\n- A relaxation of ten years may be given to Women, PwD, BPL, SC, and ST candidates for fresher trainees.\n\n<br>",
+  "_criteria_filled": 3
+}

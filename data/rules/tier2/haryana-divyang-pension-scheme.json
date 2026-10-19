@@ -1,0 +1,36 @@
+{
+  "id": "haryana-divyang-pension-scheme",
+  "name": "Haryana Divyang Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of ₹3,000/- per month is provided as a pension to disabled persons with a minimum of 60% disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photograph-domicile-certificate-dis"
+  ],
+  "apply_url": "https://socialjusticehry.gov.in/haryana-divyang-pension-schemes/",
+  "source_url": "https://www.myscheme.gov.in/schemes/hdps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a domicile of Haryana and should have been residing in the state for at least 3 years at the time of submitting the application.\n2.\tThe applicant should be 18 years of age or older.\n3.\tThe applicant’s self-income from all sources should not exceed the minimum wage for unskilled labour as notified by the Labour Department.\n4.\tThe applicant should have a disability ranging from 60% to 100%.\n5.\tThe applicant should have one of the following disabilities:\n•\tBlindness\n•\tLow vision\n•\tLeprosy cured\n•\tHearing impairment\n•\tLocomotor disability\n•\tIntellectual disability (Mental Retardation)\n•\tMental illness",
+  "_criteria_filled": 3
+}

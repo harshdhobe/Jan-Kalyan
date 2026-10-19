@@ -1,0 +1,26 @@
+{
+  "id": "karmashree-the-chief-ministers-award-for-excellence-in-public-administration",
+  "name": "KARMASHREE- The Chief Minister's Award For Excellence In Public Administration",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "To acknowledge, recognize and reward the extraordinary exemplary, and innovative work done by the officers of the State Govt. of Assam.\nThere would be a total of 10 (ten) awards and shall consist of a \"Citation\".\nThe award will be given every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "the-following-documents-should-be-attached-to-the-form-prescribed-in-the-portal"
+  ],
+  "apply_url": "https://art.assam.gov.in/portlets/cm-and-pm-awards#:~:text=In%20order%20to%20acknowledge%2C%20recognize,public%20administration%20has%20been%20instituted.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cm-awards-karmashree",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Selection for the award will be on the basis of the following criteria:\n&lt;br&gt;\n\n   1. Innovativeness\n   1. Sustainability\n   1. Up scalability\n   1. Impact on the overall service delivery system\n   1. Improvement in efficiency and effectiveness in administration or governance\n   1. Social, economic, or other benefits from the initiative\n   1. Improved transparency and objectivity in the process\n   1. Any other criteria which may be decided by the Screening Committee and Selection Committee\n   1. Officers of State Government individually or as a group will be eligible for the award. Not more than 4 (four) officials (maximum) including the applicant will be allowed in a group.\n\n&lt;br&gt;\n\n**Note 01:** For the nomination of the Award for implementation of the Priority Programme, it has to be from a District/ Implementing Unit.\n**Note 02:** For the nomination of the Award for Innovation, it has to be from a Department Organization of the State Government/ Districts.",
+  "_criteria_filled": 1
+}

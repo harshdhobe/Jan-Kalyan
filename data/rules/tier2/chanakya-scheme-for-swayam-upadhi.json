@@ -1,0 +1,42 @@
+{
+  "id": "chanakya-scheme-for-swayam-upadhi",
+  "name": "Chanakya Scheme for Swayam Upadhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- One-time financial assistance upto ₹2,00,000/-. \n\n**NOTE:** Not exceeding 50% of the project cost.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-applicant-valid-income-certificate-issued-by-competent-author",
+    "interests",
+    "and-capabilities-match-the-business-proposal-bank-statement-of-previous-six-mont",
+    "retired-high-court-judge",
+    "retired-professorvc-of-any-university",
+    "chartered-accountant",
+    "reputed-doctor-industrialist",
+    "bank-employee-retired-in-senior-position",
+    "etc",
+    "citing-his-passion",
+    "interests",
+    "and-capabilities"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/chanakya/cs-sus1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cssu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Brahmin community.\n1. The applicant should reside in any of the 13 districts of Andhra Pradesh.\n1. The applicant should have set up the enterprise in Andhra Pradesh.\n1. The applicant&#39;s age should be 50 years or below.  \n1. The applicant should have a zeal to become a successful entrepreneur.",
+  "_criteria_filled": 2
+}

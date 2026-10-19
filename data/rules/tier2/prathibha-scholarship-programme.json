@@ -1,0 +1,28 @@
+{
+  "id": "prathibha-scholarship-programme",
+  "name": "Prathibha Scholarship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Scholarship is awarded for studies in Basic / Natural Sciences.\n2. The selected students are eligible for scholarship as follows.\n(a) U.G. Course/ First 3 years of Integrated P.G. Course:\n\n  - 1st Year -  ₹12,000/-\n  - 2nd Year -  ₹18,000/-\n  - 3rd Year -  ₹24,000/-\n\n(b) P.G. Course (subject to scoring minimum 75% marks for Undergraduate course)\n\n  - 1st Year/ 4th Year of Integrated P.G. Course",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-applicant-passport-size-photographs-student-data-sheet",
+    "duly-signed-by-the-applicant-and-endorsed-by-the-head-of-the-institution-where-t",
+    "duly-signed-e-payment-form-in-prescribed-format"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/prathibha-scholarship-programme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/psp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be of Kerala origin.\n   1. Applicant should have qualified Higher Secondary Examination from Kerala.\n   1. Applicant should have qualified Higher Secondary Board Examination with minimum 90% marks or equivalent grade for all subjects put together and minimum 90% marks or equivalent grade for all Science subjects put together. (For SC/ST reservation category, the eligibility is stipulated to minimum marks of 80% or equivalent grade for all subjects in total and minimum 80% marks or equivalent grade for all Science subjects in total).\n   1. Applicant should have secured admission for 3 year B.Sc. / 5 year Integrated M.Sc. / 5 year Integrated BS-MS course in Basic or Natural Science (23 subjects enlisted in the ‘guidelines’) in any of the Institutions or Universities in India.\n\n**Note 01:** Students are selected at Undergraduate level only.\n**Note 02:** Selection is based on the aggregate marks obtained for all science subjects in the Higher Secondary Examination.\n**Note 03:** Those who have availed Prathibha Scholarship for all 3 years of Undergraduate Course and have qualified Degree Course with minimum 75% marks are eligible to continue the scholarship for Postgraduate course.\n**Note 04:** The scheme ensures at least 50% of the selection for girl students. 10% of the selection is reserved for SC/ST students.\n**Note 05:** Scholarships are allotted with the weightage of 30% for mathematical science, 40% for Physical Science and 30 % for Life Sciences based on the subject main chosen for the Degree course. Students in Triple-main courses are ranked in all three subject areas and are selected based on their top ranking position.",
+  "_criteria_filled": 1
+}

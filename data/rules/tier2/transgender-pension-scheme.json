@@ -1,0 +1,36 @@
+{
+  "id": "transgender-pension-scheme",
+  "name": "Transgender Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- The scheme provides a monthly pension of Rs. 650 to transgender persons who are above 18 years of age and belong to the BPL (Below the Poverty Line) category.\n- Monthly pension of Rs. 1200 to transgender persons who are above 80 years of age or 70% disabled and belong to the BPL (Below the Poverty Line) category.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "certificate-from-medical-board-applicant-should-not-be-serving-in-the-government"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/UNotification_Trans-38786617-28258868_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Himachal Pradesh.\n1. The applicant must be above 18 years of age.\n1. The applicant must belong to the BPL category.\n1. The applicant must have a transgender identity certificate issued by the District Magistrate or Sub-Divisional Magistrate.",
+  "_criteria_filled": 3
+}

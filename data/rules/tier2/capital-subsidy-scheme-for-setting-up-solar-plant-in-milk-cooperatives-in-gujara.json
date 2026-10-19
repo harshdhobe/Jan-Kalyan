@@ -1,0 +1,27 @@
+{
+  "id": "capital-subsidy-scheme-for-setting-up-solar-plant-in-milk-cooperatives-in-gujara",
+  "name": "Capital Subsidy Scheme for Setting Up Solar Plant in Milk Cooperatives in Gujarat State (Tribal Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 75% subsidy on capital cost for installation of solar systems ranging from 1KW to 40KW.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-society-registration-certificate-proof-of-electricity-usage-bills-or-rel",
+    "cost-estimate-bank-account-details-of-the-cooperative-society-any-other-documets"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csssspg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A registered milk cooperative society located in the tribal areas of Gujarat shall be eligible under this scheme.\n   1. The society must extensively use electricity for milk collection, cooling, and processing.\n   1. The society must be willing to install a solar power plant with a capacity between 1KW and 40KW.",
+  "_criteria_filled": 1
+}

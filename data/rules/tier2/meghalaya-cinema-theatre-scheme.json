@@ -1,0 +1,36 @@
+{
+  "id": "meghalaya-cinema-theatre-scheme",
+  "name": "Meghalaya Cinema Theatre Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> A maximum project cost of ₹1.5 Crores for a 100-seater cinema theatre and INR 3 Crores for a 200-seater cinema theatre will be accepted under this scheme.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-architectural-plan-if-available-pan-card-latest-bank-statement-last"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%20J8QVt8Zufl8EUv%2FZng1y2VeLt%207kxWg55vgfcvX0Y3z%2FIACSCYJ6n7oPcJqr7QQbeld89NoROfsHNfhI9%20cEgiW%20Hg0uVsnPEnfhX2noROt0Nyg5K5iqafvL52A0AkBg2kOoditC%2FHNQ%2Fy0q2SA3uJ56egenMbp%20cNcCvP895A04mygrqti97YRDDiutGYzOjPDUjr5972E9ela7clL8DHhhIEM6rc2YlWIAGb8dGSpKdp%2FPvmg5g=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Individual**\n\n1. The applicants must be between 18 and 58 years of age.\n1. The applicants must be permanent residents of Meghalaya.\n1. The applicants must have ownership of the land on which the theatre is proposed or have leased land.\n1. The applicants shall not be credit defaulters of any bank.\n\n**Registered Entity**\n\n1. The applicant must possess land, either self-owned or on lease, duly verified by the competent authority.\n1. The applicant shall not be a credit defaulter of any bank.\n\n<br>",
+  "_criteria_filled": 3
+}

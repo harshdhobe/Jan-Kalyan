@@ -1,0 +1,32 @@
+{
+  "id": "teelu-rauteli-award",
+  "name": "Teelu Rauteli Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, one woman or adolescent girl from each district, who has made outstanding achievements in a particular field, is awarded a cash prize of ₹51,000/- along with a certificate of appreciation by the State Government.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-age-proof-proof-of-residence-bank-account-details-achievements-ce",
+    "if-any"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a woman or an adolescent girl.\n1. The applicant should have made outstanding achievements in any of the following fields:\n\n- Social service\n- Education\n- Literature\n- Art and culture\n- Acts of courage and bravery\n\n<br>",
+  "_criteria_filled": 2
+}

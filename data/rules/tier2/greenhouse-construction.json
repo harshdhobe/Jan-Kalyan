@@ -1,0 +1,26 @@
+{
+  "id": "greenhouse-construction",
+  "name": "Greenhouse Construction",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "To promote vegetable and flower cultivation inside greenhouses, 50% to 80% of the total cost is provided as assistance for fan and pad systems, naturally ventilated polyhouses, and planting materials. The details are given below:\n\n  - For protected cultivation of flowers and vegetables, 50% of the total cost is provided for fan and pad systems or naturally ventilated polyhouses.\n  - Planting mater",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-related-documents-such-as-khasra-and-khatauni-lease-certificate-for-leased"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ghc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer and must hold a valid Udhyan Card.\n1. The farmer must either own agricultural land or have land on lease.\n1. This support is not provided to applicants working in a group.\n\n<br>",
+  "_criteria_filled": 1
+}

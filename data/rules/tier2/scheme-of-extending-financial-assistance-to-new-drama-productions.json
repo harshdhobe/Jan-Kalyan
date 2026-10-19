@@ -1,0 +1,27 @@
+{
+  "id": "scheme-of-extending-financial-assistance-to-new-drama-productions",
+  "name": "Scheme of Extending Financial Assistance to New Drama Productions",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of upto ₹20,000/-, based on the quality and sceneries of the social, historical, mythological, dramas selected by the expert committee,\n> **Number of Instalments**\n\nThe financial assistance is provided in four instalments: \n\n- 30% as the first instalment, given after the selection of the drama by the expert committee.\n- 40% as the second instalment, provided three days before ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "3-copies-of-drama-scripts-no-objection-certificate-for-the-dialogues-or-scenes-i",
+    "issued-by-the-district-collectorpolice-department"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soefatndp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The dramas should reflect the assistance of Tamil art forms, culture, civilization, tradition, society and history. \n- The drama should not be staged in advance. \n- The drama should not show caste, religious, or political animosity.\n- No additional dialogues or scenes should be added to the drama scripts without prior approval of the Manram. \n- The drama scripts should be selected by the Manram.",
+  "_criteria_filled": 1
+}

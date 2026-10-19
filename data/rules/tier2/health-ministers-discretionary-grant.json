@@ -1,0 +1,42 @@
+{
+  "id": "health-ministers-discretionary-grant",
+  "name": "Health Minister’s Discretionary Grant",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Financial assistance towards treatment in Government hospitals including super specialty Government hospitals / institutes.\nFinancial Assistance of ₹50,000/- if the estimated cost of treatment is up to ₹1,00,000/- .\nFinancial Assistance of ₹75,000/- if the estimated cost of treatment is above ₹1,00,000/- & up to ₹1,50,000/-.\nFinancial Assistance of ₹1,00,000/- if the estimated cost of treatment is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-prescribed-proforma-duly-signed-by-the-treating-doctor-and-c",
+    "000",
+    "if-the-estimated-cost-of-treatment-is-up-to-rs1",
+    "25",
+    "000-b-rs1",
+    "00",
+    "000-if-the-estimated-cost-of-treatment-is-above-rs1",
+    "25",
+    "000-and-up-to-rs1",
+    "75",
+    "000-and-c-rs1",
+    "25",
+    "000-if-the-estimated-cost-of-treatment-is-above-rs1",
+    "75",
+    "000-a-certificate-in-original-from-the-bdo-tehsildarcollector-sdm-quoting-full-n",
+    "designation",
+    "telephone-number-and-complete-official-address-of-the-certificate-issuing-author"
+  ],
+  "apply_url": "https://main.mohfw.gov.in/major-programmes/poor-patients-financial-assistance/health-ministers-discretionary-grant-hmdg",
+  "source_url": "https://www.myscheme.gov.in/schemes/hmdg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must not be an employee of either Central or State Govt.\n1. The applicant must have been Hospitalized / Undergoing Treatment in a Government Hospital (including super specialty Government hospitals / institutes).\n1. The Total Annual Family Income of the applicant must not exceed ₹1,00,000/- per annum.",
+  "_criteria_filled": 1
+}

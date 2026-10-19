@@ -1,0 +1,28 @@
+{
+  "id": "providing-navigational-aids-and-other-infrastructure-facilities",
+  "name": "Providing Navigational Aids and Other Infrastructure Facilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component**\t**Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Assistance to families of Pakistan captured fishermen\t\t₹300/- per day per article\tAs per period in custody at PakistanLife saving equipment\tMaximum ₹20,000/-\t2 yearsAssistance to Pagdia fishermen\tMaximum assistance of ₹7,200/- at 90% article of unit cost ₹8,000/-\t3 yearsAssistance on purc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "voter-id-residence-proof-domicile-certificate",
+    "ration-card-bank-account-details-passbook-or-statement-fishing-license-boat-regi"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=KQBjMeZAUYtrIgvpebJ01g==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pnaoif",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native of Gujarat.\n  - The applicant must own a registered fishing boat under [Real Craft Software](https://fishcraft.nic.in/web/new/index/public_login_registration.php) (registration is mandatory).  - The applicant must possess a valid fishing license.\n  - The applicant must have a bank account in their name.\n  - The applicant must have obtained in-principle approval to purchase of the floor plan.\n\n&gt; **Note:** \n\n  - The assistance for infrastructure (cold storage, fish market) is available to private units, entrepreneurs, and fisheries cooperatives.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "walking-device-tamil-nadu",
+  "name": "Walking Device - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of walking devices.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wdbwodapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The child should be orthopedically person. \n1. The child is having difficulty walking.",
+  "_criteria_filled": 2
+}

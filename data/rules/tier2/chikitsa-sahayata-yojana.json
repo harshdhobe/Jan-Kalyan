@@ -1,0 +1,36 @@
+{
+  "id": "chikitsa-sahayata-yojana",
+  "name": "Chikitsa Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "Payment of minimum wages at the prescribed rate for unskilled category workers.\nPayment is equivalent to a maximum of 40 working days.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-eshr"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be a Worker registered with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be between 18-60 years of age.\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The applicant should be admitted to the hospital for five or more working days.",
+  "_criteria_filled": 3
+}

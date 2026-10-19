@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-swarozgar-yojana-ati-sukshm-nano-udhyam",
+  "name": "Mukhyamantri Swarozgar Yojana Ati Sukshm (Nano) Udhyam",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "To strengthen small entrepreneurs and businessmen in rural and urban areas, financing of up to ₹50,000/- is provided through banks for setting up micro enterprises or businesses. This financial assistance is also available for the expansion of existing businesses. The subsidy structure is as follows:\n\n  - Subsidy for Category A districts: 35% for the general category (maximum ₹17,500/-) and 40% fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photograph-aadhaar-card-permanentresidence-certificate-special-catego"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsyasnu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native or permanent resident of Uttarakhand.\n   1. The applicant must be at least 18 years of age.\n   1. No educational qualification is required for availing the benefits under this scheme.\n   1. The applicant must hold an account with the financing bank in the concerned area.\n   1. The applicant or entity must not be a defaulter of any bank, nationalized bank, financial institution, or cooperative bank/institution.\n\n<br>",
+  "_criteria_filled": 2
+}

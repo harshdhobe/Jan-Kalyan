@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-increase-seed-replacement-rate-srr",
+  "name": "Scheme to Increase Seed Replacement Rate (SRR)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Seed Distribution:** Certified seeds are distributed to eligible farmers.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-712-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/stisrr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer.\n  - The applicant should be residing in Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

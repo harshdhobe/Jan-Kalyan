@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-loan-and-subsidy-for-manure-and-fertilizer-dnhdd",
+  "name": "Scheme for Loan and Subsidy for Manure and Fertilizer-DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "household",
+  "benefit": "1. **Provision of Manure and Fertilizers**\n\n  - Manures and fertilizers will be provided to eligible cultivators.\n  - Assistance is given in kind and not in cash.\n\n1. **Subsidy and Loan Component**\n\n  - Assistance is provided on a 40% subsidy and 60% loan basis.\n\n1. **Crop-wise Fertilizer Quantity (in Nutrients)**\n\n  - Paddy: Nitrogen 110, Phosphorus 60, Potash 60\n  - Maize: Nitrogen 100, Phosphor",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "land-holding-proof-to-verify-land-size-eligibility-identity-proof-of-applicant-c"
+  ],
+  "apply_url": "https://daman.nic.in/agriculture.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/slsmf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a cultivator or farmer.\n1. The applicant should belong to categories such as Scheduled Castes (SC), Scheduled Tribes (ST), or original farmers (as mentioned).\n1. The applicant should have a land holding of up to 2 hectares.\n1. The applicant should be engaged in agricultural activities requiring fertilisers or manure.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-medhavi-vidhyarti-yojana",
+  "name": "Mukhyamantri Medhavi Vidhyarti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**1. General Coverage:**\n\n    - Only the admission fee and the actual fee (excluding mess fee and caution money), as determined by the Fee Regulatory Committee or Madhya Pradesh Private University Regulatory Commission or the Government of India/State Government, will be paid as an expenditure fee for graduation level.\n\n**2. For Engineering Studies (after securing a rank within 1,50,000 in the Joi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "resident-certificate-of-madhya-pradesh-marks-list-of-10th-and-12th-exam-income-c"
+  ],
+  "apply_url": "https://medhavikalyan.mp.gov.in/MedhaviChhatra/Resources/Files/Government_Order_Corrigendum7_14062025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n2. The annual income of the applicant&amp;#39;s father/guardian must be less than ₹8,00,000/-.\n3. The applicant must have secured 70% or more marks in the 12th examination conducted by the Board of Secondary Education from the academic session 2018-19 onwards.\n4. The applicant must have secured 85% or more marks in the 12th examination conducted by the Central Board of Secondary Education (CBSE) or the Indian Certificate of Secondary Education (ICSE).\n5. The applicant who obtained the specified marks in the 12th examinations prior to 2016 will also be eligible.\n6. **For Engineering Studies:** [**Course List**](https://medhavikalyan.mp.gov.in/MedhaviChhatra/Public/CoursesAndInstitutes.aspx)\n\n    - The applicant should have obtained a rank within 1,50,000/- in the Joint Entrance Examination (JEE) Mains exam. \n    - The applicant should have gained admission to any government or private engineering college on this basis. If an engineering college provides admission based on a separate entrance examination, and the student holds a JEE Mains rank within 1,50,000/-, the applicant is also eligible.\n\n7. **For Medical Studies:** [**Course List**](https://medhavikalyan.mp.gov.in/MedhaviChhatra/Public/CoursesAndInstitutes.aspx)\n\n    - The applicant should have obtained admission based on the National Eligibility cum Entrance Test (NEET) into an MBBS/BDS course of a Central or State Government Medical/Dental College. \n    - The applicant should have also obtained admission into an MBBS course of a private medical college situated in Madhya Pradesh. Applicants who have obtained admission to MBBS courses in Government of India institutions based on examinations conducted by the institutions themselves will also be eligible.\n\n8. **For Law Studies:** [**Course List**](https://medhavikalyan.mp.gov.in/MedhaviChhatra/Public/CoursesAndInstitutes.aspx)\n\n    - The applicant should have obtained admission after the twelfth class to National Law Universities (NLU) and Delhi University through the Common Law Admission Test (CLAT) or through an examination conducted by the university itself.\n\n9. **For Other Graduate and Integrated Postgraduate Programs:** [**Course List**](https://medhavikalyan.mp.gov.in/MedhaviChhatra/Public/CoursesAndInstitutes.aspx)\n\n    - The applicant should have obtained admission to a Graduation Program, an Integrated Post Graduation Program, or a Dual Degree Course (which includes a Master&amp;amp;#39;s degree along with a Bachelor&amp;amp;#39;s degree) operated in any university/institution of the Government of India.\n\n10. The applicant should have obtained admission to any course operated in all government and grant-in-aid colleges/universities of the state government.\n11. The applicant must have obtained admission to diploma courses in polytechnic colleges (where admission is based on the 12th examination).\n<br>",
+  "_criteria_filled": 2
+}

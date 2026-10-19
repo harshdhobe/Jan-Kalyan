@@ -1,0 +1,28 @@
+{
+  "id": "team-production-award",
+  "name": "Team Production Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Cash Prize of ₹40,000/-.\n- 4 gm Gold Medal.\n- One Thamirapattiram. \n- Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-of-members-address-proof-of-members-aadhaar-card-of-mem",
+    "attested-by-any-of-the-managers-of-poombucar-outlets-and-manufacturing-plants-th",
+    "new-delhi"
+  ],
+  "apply_url": "https://poompuhar.com/tnhdc/downloads/16785206091258299061.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The group should be from Tamil Nadu.\n1. The group applying for a group production award must have more than two artisans as members.\n1. The group should be Tamil Nadu manufacturers of handicrafts.\n1. The craft submitted for this award should be produced by the group.",
+  "_criteria_filled": 1
+}

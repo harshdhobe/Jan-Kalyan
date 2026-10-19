@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-dairy-plus-programme-provision-of-02-murrah-buffaloes-on-subsidy",
+  "name": "Mukhyamantri Dairy Plus Programme (Provision of 02 Murrah Buffaloes on Subsidy)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **Subsidy Process:**\n\n- General Category: 50% subsidy and 50% beneficiary contribution.\n- Scheduled Castes (SC), Scheduled Tribes (ST), and Scheduled Caste farmers: 75% subsidy and 25% beneficiary contribution.\n- Provision of 2 Murrah Buffaloes with high genetic quality, each yielding 8–10 liters of milk daily.\n- Pregnant buffaloes (5 months or more) are provided to ensure immediate milk product",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-residence-proof-caste-certificate-bank-account-details-land-or-li"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=980",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmdpp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant must be a resident of Sehore, Vidisha, or Raisen district, where the scheme is currently implemented. \n1. The applicant must be a livestock farmer.  \n1. The applicant must belong to the General, Schedule Caste, or Schedule Tribe category.\n1. The applicant must have basic infrastructure for maintaining two dairy animals, such as a shed and water availability.\n\n<br>",
+  "_criteria_filled": 1
+}

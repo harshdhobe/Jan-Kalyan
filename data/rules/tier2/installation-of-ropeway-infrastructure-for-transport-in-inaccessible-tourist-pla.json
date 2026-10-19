@@ -1,0 +1,27 @@
+{
+  "id": "installation-of-ropeway-infrastructure-for-transport-in-inaccessible-tourist-pla",
+  "name": "Installation of Ropeway Infrastructure for Transport in Inaccessible Tourist Places or Forest Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Capital Investment Subsidy:** The scheme offers a subsidy of 40% against the Fixed Capital Investment.\n**Maximum Ceiling:** The maximum subsidy amount is capped at ₹5,00,00,000/- (Five Crore Rupees).\n***Conditions***\n\n- The unit must be established and operated as per the definition, criterion, and standards defined by the Government.\n- The unit must operate continuously for at least three years",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "basic-application-documentsapplication-form-for-claiming-capital-subsidy-copy-of",
+    "or-title-copy-like-registered-sale-deed-or-lease-deed-copy-of-map-sanctioned-by"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/irititpfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a private investor or entity establishing a tourism project defined under the policy.\n- The applicant must propose a project for the installation of ropeway infrastructure for transport.\n- The applicant must locate the project in inaccessible tourist places or forest areas.\n- The applicant must incur a minimum capital expenditure of ₹1,00,00,000/- (One Crore Rupees) as approved by the department.\n- The applicant must ensure the project is established and operationalized during the operative tenure of the Tourism Policy.\n- The applicant must submit the application for capital subsidy within one year from the date of commencement of operation.\n\n<br>",
+  "_criteria_filled": 1
+}

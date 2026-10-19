@@ -1,0 +1,26 @@
+{
+  "id": "national-mission-for-sustainable-agriculture-reinforced-area-development",
+  "name": "National Mission for Sustainable Agriculture - Reinforced Area Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Help:** Provides financial assistance to eligible farmers to adopt sustainable agricultural practices.  - **Improved Agronomic Practices:** Encourages the implementation of location-specific, modern, and efficient farming techniques.  - **Soil Health Management:** Supports initiatives for maintaining and enhancing soil fertility and health.  - **Enhanced Rainwater Use Efficiency:** P",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/nmsa-radg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

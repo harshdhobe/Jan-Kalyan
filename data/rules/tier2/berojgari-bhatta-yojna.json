@@ -1,0 +1,43 @@
+{
+  "id": "berojgari-bhatta-yojna",
+  "name": "Berojgari Bhatta Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "**Benefits**\n\n1. The government will provide financial assistance of Rupees 1,000 to Rupees 1,500 till the time youths get desired job.\n1. Private and government jobs are available on one portal.\n1. Online application facility.\n1. Facility to search jobs by category, location, department, and salary.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-residential-proof-aadhar-card-income-certificate",
+    "certificates",
+    "etc"
+  ],
+  "apply_url": "https://sewayojan.up.nic.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/bby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. The candidate must be a permanent resident of Uttar Pradesh.\n1. Candidates must have passed at-least 10th standard (High School) examinations.\n1. The candidate must be currently unemployed i.e he must not be not working in any private or government job.\n1. Moreover, all the applicants must lie in the age group between 21-35 years.\n1. The total family income of the candidates from all sources must not exceed Rupees 3 lahks per annum.\n\n<br>",
+  "_criteria_filled": 4
+}

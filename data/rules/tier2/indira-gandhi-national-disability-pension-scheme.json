@@ -1,0 +1,39 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme",
+  "name": "Indira Gandhi National Disability Pension Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- A pension of ₹300/- per month is provided to Divyangjan between 18-79 years. \n- A pension of ₹500/- per month will be provided to Divyangjan aged 80 years and above. \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-card-aadhaar-card-age-proof-for-age",
+    "the-birth-certificate-or-school-certificate-may-be-relied-on-in-their-absence-ra",
+    "any-medical-officer-of-any-government-hospital-may-be-authorized-to-issue-the-ag",
+    "community-health-centre-or-primary-health-centre-will-be-accepted-passport-size"
+  ],
+  "apply_url": "https://nsap.dord.gov.in/Guidelines/dps.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant should be 18 years and above.\n1. The applicant should be a resident of India.\n1. The applicant should be a physically or mentally disabled person.\n1. The applicant’s disability should be more than 80%.\n1. Dwarfs are also eligible for this scheme.\n1. The applicant should belong to the below poverty line.\n\n<br>",
+  "_criteria_filled": 3
+}

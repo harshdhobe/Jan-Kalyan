@@ -1,0 +1,28 @@
+{
+  "id": "sub-mission-on-agricultural-mechanization-smam-for-custom-hiring-centres-big-far",
+  "name": "Sub-Mission on Agricultural Mechanization (SMAM) for Custom Hiring Centres / Big Farmers - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the Custom Hiring Centre component (for groups of farmers involved in buying, renting, or selling agricultural equipment), farmer groups, cooperatives, FPOs, self-help groups, and individual farmers can purchase equipment valued between ₹10.00 lakh and ₹100.00 lakh. The Government of India provides a maximum subsidy of 40% on such purchases.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "to-apply-online",
+    "the-following-documents-must-be-uploaded-aadhaar-card-and-aadhaar-linked-mobile",
+    "the-following-are-mandatory-bank-account-of-the-group-or-custom-hiring-centre-ph"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smamchcbfuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a large farmer (owning 5 hectares or more of land), a cooperative group, self-help group, or a custom hiring centre in Uttarakhand.\n   1. The farmer or group must have cultivable land located in Uttarakhand.\n   1. For an individual large farmer, their name must be recorded in the revenue records. For a group, the names of all group members must be listed in the agricultural land documents.\n\n<br>",
+  "_criteria_filled": 1
+}

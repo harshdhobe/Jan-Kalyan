@@ -1,0 +1,36 @@
+{
+  "id": "scheme-of-financial-assistance-to-indigent-artists",
+  "name": "Scheme of Financial Assistance to Indigent Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹3,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-artist-certificate-age-proofcertificate-income-certific"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sofatia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The applicant should be in indigent circumstances.\n1. The age of the applicant should be 58 years or above.\n1. The applicant should have professionally served for the enrichment of one or more art disciplines such as music, dance, drama, film folk arts, etc.\n1. The annual income of the applicant or their legal spouse should not exceed ₹12,000/-.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "exposure-visits-to-the-assam-legislative-assembly",
+  "name": "Exposure Visits To The Assam Legislative Assembly",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1.\tPractical Exposure: Students gain practical experience by visiting the Assam Legislative Assembly and witnessing the legislative sessions, debates, and bill discussions.\n2.\tInteraction: Students have the opportunity to interact with dignitaries such as the Hon&#39;ble Speaker, Chief Minister, Ministers, MLAs, and senior officials.\n3.\tUnderstanding of Governance: The scheme helps students unders",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-cards-of-participating-students-2-list-of-participating-students-prov"
+  ],
+  "apply_url": "https://parliamentaryaffairs.assam.gov.in/schemes/exposure-visit-to-assam-legislative-assembly",
+  "source_url": "https://www.myscheme.gov.in/schemes/evtala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tEducational Institutions: High/Higher Secondary Schools and colleges within Assam are considered for participation.\n2.\tSubjects/Streams: Students from related subjects such as Political Science, Economics, etc., within the Arts/Humanities streams in colleges/higher secondary schools, and social sciences in secondary schools are preferred.\n3.\tSelection: Students showing good academic performance and enthusiastic participation in extracurricular activities like debating competitions, student activities, mock parliament, etc., may be selected.\n4.\tBatch Size: The total number of students in one batch should not exceed 50.\n5.\tVoluntary Participation: Student participation in the visit is voluntary, and only willing students should be selected.\n<br>",
+  "_criteria_filled": 1
+}

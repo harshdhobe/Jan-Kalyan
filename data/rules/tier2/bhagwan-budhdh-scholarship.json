@@ -1,0 +1,38 @@
+{
+  "id": "bhagwan-budhdh-scholarship",
+  "name": "Bhagwan Budhdh Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefits\nThe following group wise Academic Allowance is admissible\nGroupHostellerDay scholarA135007000B95006500C60003000D40002500\nIn addition to the above allowance, Approved tuition fees and Approved other fees are admissible, If the student is disabled then disability allowance is admissible.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-identity-proof-aadhar-card",
+    "voter-id",
+    "college-id",
+    "etc-residence-proof-pan-card",
+    "residence-certificate",
+    "etc-income-proof-aadhar-card-passport-size-photograph-academics-certificates-ban",
+    "ifsc",
+    "micr-code-other-documents-may-be-required-caste-certificate"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/Dscw/schemes/1519?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/bbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Only Scheduled Caste Girls Students are eligible.\n1. For Diploma level courses, In Std: 10 or 12 should have 50% or more percentile in the examination.\n1. For Graduate level courses, In Std: 12 should have 50% or more percentile in the examination.\n1. Must full fill all conditions of the Government of India&#39;s Post Matric Scholarship Scheme Guidelines.\n1. Income Limit: More than 2.50 Lakh.",
+  "_criteria_filled": 2
+}

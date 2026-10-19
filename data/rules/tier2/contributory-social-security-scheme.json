@@ -1,0 +1,41 @@
+{
+  "id": "contributory-social-security-scheme",
+  "name": "Contributory Social Security Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "1. A contribution of ₹ 300/- by the state and ₹ 200/- by the beneficiary shall be made per quarter for 5 or 10 years into the joint account opened for this purpose.\n1. The amount will be deposited in a bank account opened for the beneficiary, which will remain pledged to the District Social Welfare Officer (DSWO) for the period of the scheme.\n1. On completion of the scheme, the beneficiary has the",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-of-the-ut-of-jammu-kashmir-proof-of-identity-proof-of-age-iss",
+    "or-block-medical-officer-in-case-of-illiterate-persons-certificate-of-profession",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-of-self-or-of-the-guardian-any-other-document-required-by-the-district-socia"
+  ],
+  "apply_url": "https://jksabwdobcs.com/pdf/gov_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should not be below 18 years of age.\n1. The applicant should be a Marginal Worker (agriculture and non-agricultural labor, rural barber, craftsman, shepherd, blacksmith, mason, weaver, etc.).\n1. The income of the applicant (from all sources) should not exceed ₹ 48,000/- per annum.\n1. The applicant should be a domicile / permanent resident of the Union Territory of Jammu &amp; Kashmir.\n1. The applicant or his spouse should not be a beneficiary of any existing scheme.",
+  "_criteria_filled": 3
+}

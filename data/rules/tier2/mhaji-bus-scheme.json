@@ -1,0 +1,32 @@
+{
+  "id": "mhaji-bus-scheme",
+  "name": "Mhaji Bus Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A subsidy of ₹3/- per kilometer operated shall be provided to eligible bus operators under the scheme.\n- Bus Insurance Subsidy is provided as 50% reimbursement of the annual insurance premium paid up to a maximum of ₹30,000/-.\n- The scheme provides Assistance of ₹10,00,000/- for replacing buses older than 15 years, with new buses having a minimum seating capacity of 27.\n- The operator shall reta",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "required-at-applicationenrollment-stage-form-mm1registration-certificate-rc-vali",
+    "b",
+    "or-ccopy-of-the-vehicles-registration-certificate-rc-copy-of-the-valid-stage-car",
+    "annexure-a-copy-of-insurance-certificate-and-premium-paid-required-for-insurance",
+    "annexure-b-invoice-or-proforma-invoice-from-the-dealer-of-the-vehicle-within-the",
+    "showing-the-cost-price-of-the-vehicle-required-for-bus-replacement-subsidy-claim",
+    "annexure-c"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-7-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbs-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a private bus operator holding a valid stage carriage permit issued by the competent authority in Goa.\n- The applicant must be the registered owner of the bus/mini bus in the State of Goa.\n- The bus to be operated under this scheme must not be older than 15 years from the date of its initial registration.\n- The applicant must agree to comply with all operational, branding, safety, and service norms specified under this scheme.\n- The bus must operate for the full month.\n- If the bus is off the road, prior intimation must be given to the competent authority.\n\n***Relaxation***\n\n- For the initial period of 3 years, buses up to 20 years should be eligible to participate in this scheme.\n- The bus can be kept for repairs and maintenance for two days only, which should be Saturdays, Sundays, or holidays.\n\n<br>",
+  "_criteria_filled": 1
+}

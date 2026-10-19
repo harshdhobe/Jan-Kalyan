@@ -1,0 +1,27 @@
+{
+  "id": "compensation-for-livestock-loss-caused-by-wild-animals",
+  "name": "Compensation for Livestock Loss Caused by Wild Animals",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Compensation Amounts:**\n\n- Dairy animals (cow, buffalo, camel): ₹30,000\n- Sheep/Goat: ₹3,000\n- Non-dairy animals (bull, buffalo, camel, horse): ₹25,000\n- Young animals (calf of cow/buffalo/horse/camel), Donkey/Mule: ₹16,000\n- Pig: ₹3,000\n\n**Injury Compensation:** \n\n- 50% of the amount payable for injury under revenue circular provisions.\n\n**Mode of Disbursement:**\n\n- Compensation is paid directl",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-resident-proof-bank-account-details-death-certificate-treatment-b",
+    "if-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=312",
+  "source_url": "https://www.myscheme.gov.in/schemes/cfllcbwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant should be the owner of the livestock injured or killed by wild animals.\n\n<br>",
+  "_criteria_filled": 1
+}

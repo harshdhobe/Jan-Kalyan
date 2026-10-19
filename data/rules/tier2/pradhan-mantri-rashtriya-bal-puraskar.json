@@ -1,0 +1,33 @@
+{
+  "id": "pradhan-mantri-rashtriya-bal-puraskar",
+  "name": "Pradhan Mantri Rashtriya Bal Puraskar",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Medal\n- Certificate and citation",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-childs-birth-certificate-a-copy-of-the-childs-school-leaving-certi",
+    "stating-that-the-child-has-made-outstanding-contributions-in-any-of-the-fields-s",
+    "supported-by-documentary-evidence-a-recommendation-letter-from-a-person-of-emine"
+  ],
+  "apply_url": "https://awards.gov.in/Home/AwardLibrary",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmrbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A child should be an Indian Citizen.\n1. A child above the age of 5 years and not exceeding 18 years (as of 31st July of respective year).\n1. The act/incident/achievement should have been within 2 years of the last date of receipt of application/nomination for the year of consideration.\n1. The child must have made outstanding contributions in any of the seven categories specified above\n\n  - Bravery.\n  - Art &amp; Culture.\n  - Environment.\n  - Innovation.\n  - Science &amp; Technology.\n  - Social Service.\n  - Sports.",
+  "_criteria_filled": 2
+}

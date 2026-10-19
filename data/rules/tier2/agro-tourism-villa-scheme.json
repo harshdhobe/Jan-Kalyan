@@ -1,0 +1,38 @@
+{
+  "id": "agro-tourism-villa-scheme",
+  "name": "Agro Tourism Villa Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. 35% of total project cost supported (5% by entrepreneur, 25% as front-ended subsidy, 10% as EMI copayment by Government of Meghalayasemi_colon max project cost ₹1.5 Cr, max subsidy ₹52.5 lakh).\n1. Loan up to 95% of project cost with a 15-year repayment term and 18-month moratorium Government-funded villa design consultancy blending ethnic aesthetics with modern comfort, tailored to location.\n1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-self-declaration-land-documents-ownership-deed-or-lease-agreement-if",
+    "must-specify-lease-period-proof-of-identity-voter-id-passport-driving-license-pa",
+    "must-specify-lease-period-incorporation-certificate-or-registration-certificate"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%20qf9GRve87xyJF5QyqqHI9ROs0AbteJdTZk5CxuQi3HFG2aaF%20Kj8pkmYp5iZRQs93L%20sfXDvj53dea2jQXI86hoH7skZkI8WQ0AVKIHw3rn1D6e6XXZ3SrT5%20YzkgOikWE3NC47kw%20KLNJr2KAiLf4ekptRlVAYjWNZUSyIecCE9MfR2Mzdx5Zb6pVo5wLYPi35GpUA7D29fqgvpIgEy1T1uOwP101nmTp7ha5Tvd0rOmssivieMF=",
+  "source_url": "https://www.myscheme.gov.in/schemes/atvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Individuals should:**\n\n1. The applicant should be a resident of Meghalaya.\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant should not be a defaulter at any financial institution.\n1. The applicant should apply only for new projects sanctioned under the scheme.\n1. The applicant should own the land for the project and possess valid land documents, or the applicant should have a notarized lease agreement for a minimum period of 15 years.\n\n**Registered Entities should:**\n\n1. The entity should be a registered society, cooperative, or similar organization involved in tourism-related activities.\n1. The entity should be legally registered with the Government of Meghalaya.\n1. The entity should provide an Incorporation Certificate or Registration Certificate, whichever is applicable.\n1. The entity should not be a defaulter at any financial institution.\n1. The entity should hold land ownership for the project site or have a valid lease certified by competent authorities.\n\n<br>",
+  "_criteria_filled": 3
+}

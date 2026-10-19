@@ -1,0 +1,26 @@
+{
+  "id": "thakur-sen-negi-utkrisht-chatravriti-yojana",
+  "name": "Thakur Sen Negi Utkrisht Chatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "A total of 100 girls and 100 boys will receive ₹ 11,000 per annum for two years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-unique-identification-number-enrollment-ide"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Thakur%20Sen%20Negi%20Utkrisht%20Chhatervriti%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsnucy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bona fide of Himachal Pradesh.\n1. The applicant should be a Student.\n1. The applicant should belong to the Scheduled Tribes Category.\n1. The applicant should have passed Class 10th.\n1. The applicant should be in the top 100 Girls or top 100 Boys students, as declared in the result of the Matric Examination conducted by the Himachal Pradesh Board of School Education.\n1. The applicant should be studying in a recognized (including Professional / Technical) institution within or outside the State. \n1. The applicant should have a Bank Account.\n\n**NOTE:** The renewal in the 10+2 Class / 2nd Year of course will be subject to satisfactory performance in internal examinations of the 10+1 Class / 1st Year Course.",
+  "_criteria_filled": 1
+}

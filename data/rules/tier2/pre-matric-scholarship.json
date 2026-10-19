@@ -1,0 +1,35 @@
+{
+  "id": "pre-matric-scholarship",
+  "name": "Pre-Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "> ₹ 150/- per month for a maximum of 10 months and annual ad hoc grant  of ₹ 750/- in one go, maximum              ₹ 2250/- annually.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "up-residential-proof-students-can-upload-any-of-the-following-documents-ration-c",
+    "aadhaar-card",
+    "voter-id",
+    "driving-license",
+    "or-pan-card-student-caste-certificate-family-income-certificate-student-id-proof"
+  ],
+  "apply_url": "https://www.backwardwelfareup.gov.in/en/page/pre-matric-scholarship-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Native and studying in Uttar Pradesh. \n1. Annual income of the parents/guardians of the students upto ₹ 2 Lakh.\n1. Students studying in government schools, aided and recognized educational institutes (provided the availability of the budget). \n\n<br>",
+  "_criteria_filled": 2
+}

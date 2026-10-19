@@ -1,0 +1,31 @@
+{
+  "id": "grant-for-marriage-of-daughters-of-scheduled-caste-individuals",
+  "name": "Grant for Marriage of Daughters of Scheduled Caste Individuals",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Grant Amount:** ₹50,000/- per daughter, for the marriage of up to two daughters.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-aadhaar-card-photograph-caste-certificate-original-domi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsfmssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be a permanent resident of Uttarakhand.\n2.\tThe applicant must belong to the Scheduled Caste category.\n3.\tThe family’s total monthly income from all sources must not exceed ₹4,000/-, or the family must belong to the BPL category.\n4.\tAt the time of marriage, the bride’s age must be between 18 and 45 years.\n5.\tAt the time of marriage, the groom’s age must be between 21 and 45 years.\n6.\tThe grant is applicable for the marriage of up to two daughters.\n<br>",
+  "_criteria_filled": 2
+}

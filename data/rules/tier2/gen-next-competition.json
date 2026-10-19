@@ -1,0 +1,34 @@
+{
+  "id": "gen-next-competition",
+  "name": "Gen Next Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Cash Prize of ₹2,000/-.\n- Silver Medal. \n- Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photograph-birth-certificate-educational-certificate-address-p",
+    "attested-by-a-first-class-criminal-judge-or-notary-public-recommendation-certifi",
+    "attested-by-any-of-the-managers-of-poombucar-outlets-and-manufacturing-plants-th",
+    "new-delhi"
+  ],
+  "apply_url": "https://poompuhar.com/tnhdc/downloads/1697107607445135746.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Artisan.\n1. The applicant should be a native of Tamil Nadu. \n1. The applicant should be below 30 years of age.\n1. Handicraft competitions will be conducted in the following 16 types of handicrafts: Panchaloka Idols, Brass Lamps and Brass Artifacts, Thanjavur Paintings, Thanjavur Plates, Wood Carvings, Stone Sculptures, Fire Clay Sculptures, Applique and Kalamkari work, Paper Pulp Toys, Weaving, Bamboo and Palm Leaf Products, Neti Work, Fiber Products, Temple jewelry, Image Stitching Work, Other Handicrafts. \n1. The examination will be conducted based on places of prominence in handicraft industries. The center and date of the exam will be announced later.\n\n<br>",
+  "_criteria_filled": 2
+}

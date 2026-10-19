@@ -1,0 +1,31 @@
+{
+  "id": "procedure-for-making-medical-certificate-for-certifying-disability",
+  "name": "Procedure for Making Medical Certificate (for Certifying Disability)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "This certificate is essential to verify a person’s disability and to enable them to avail the benefits of various social welfare schemes such as pensions, scholarships, and reservations in employment.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-mobile-number-any-previous-medical-reports"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a person with disabilities.\n\n<br>",
+  "_criteria_filled": 2
+}

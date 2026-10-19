@@ -1,0 +1,41 @@
+{
+  "id": "pashupalan-gbcdc",
+  "name": "Pashupalan (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. **Low-Interest Loan:** A loan is provided at an interest rate of 6 per cent per annum.1. **Maximum Loan Limit:** The maximum loan limit in this scheme is up to ₹1,00,000/-.1. **Unit Cost Coverage:** 85 per cent of the unit cost will be loaned.\n\n- Out of this 85 per cent, 85 per cent will be from the national corporation.\n\n- 10 per cent will be from the state government.\n- 5 per cent will be fro",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-ration-card-voter-id-birth-certificate-income-certificate-school-leaving"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pashupalangbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be from a Socially and Educationally Backward Class (SEBC).\n1. The total annual income of the applicant&#39;s family should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 and 45 years on the date of application.\n1. The applicant must have experience in a business requiring technical and other skills.\n\n<br>",
+  "_criteria_filled": 4
+}

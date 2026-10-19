@@ -1,0 +1,26 @@
+{
+  "id": "asangathit-karmakar-samachar-patr-hawker-cycle-sahayata-yojana",
+  "name": "Asangathit Karmakar Samachar-Patr Hawker Cycle Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> A free of cost cycle will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-bank-account-details-registration-ca"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/asangathit%20karmakaar%20samachar-patr%20haakar%20saayakal%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aksphssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme is for unorganized newspaper delivery workers (hawker) registered in any district of the state.\n1. Newspaper delivery workers (hawker) are not eligible for this scheme if they receive benefits from a parallel scheme.",
+  "_criteria_filled": 1
+}

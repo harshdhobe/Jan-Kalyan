@@ -1,0 +1,34 @@
+{
+  "id": "group-insurance-scheme-for-powerloom-weavers",
+  "name": "Group Insurance Scheme for Powerloom Weavers",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1.\tIn the event of the natural death of the member, Sum assured of ₹60,000/- will become payable to the nominee.\n2.\tIn the event of death by accident or Partial/Total Permanent Disability due to accident, the following benefit shall be payable:\n\n  - On death due to accident: ₹1,50,000/-\n  - Permanent total disability due to accident: ₹1,50,000/-\n  - Permanent partial disability due to accident: ₹7",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      }
+    ]
+  },
+  "documents": [
+    "photo-identity-card-any-documentary-proof-of-age-death-certificate-police-compla",
+    "if-applicable-post-mortem-report",
+    "if-applicable-medical-certificate",
+    "if-applicable-discharge-certificate-in-case-of-injury-self-certification-other-r"
+  ],
+  "apply_url": "https://www.txcindia.gov.in/html/Format1.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/gispw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Powerloom weavers who are between 18 to 59 years of age.\n   1. The scheme will be universally applicable for powerloom workers/weavers irrespective of their status with reference to BPL/APL categories.\n   1. The scheme is applicable to the families of powerloom workers engaged in the activity of weaving on powerlooms and in allied pre-weaving/preparatory activities like twisting, winding, warping and sizing.\n   1. Self-employed weaver families owning not more than 4 looms will also be eligible.\n   1. Family for the purpose of the scheme shall be the beneficiary and his/her spouse and only one of them shall be eligible for coverage.\n   1. The scheme is operational on yearly basis i.e. the premium paid will cover the applicant under this insurance scheme for one year. He can continue the insurance every year during 12th Plan period by paying premium up to the age of 59 years.",
+  "_criteria_filled": 2
+}

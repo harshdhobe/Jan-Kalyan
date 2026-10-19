@@ -1,0 +1,26 @@
+{
+  "id": "state-scholarship-of-class-6th-to-10th-scheduled-caste",
+  "name": "State Scholarship of Class 6th to 10th (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Scholarship amount:** Boy - ₹200/- ,Girl -₹600/- (for 10 months)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-bank-account-details-passport-sized-photograph-ed"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=9",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssocscmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a resident of Madhya Pradesh\n1. The student should belong to the Scheduled Caste (SC) category.\n1. The student should be enrolled in classes 6th to 10th in a recognized educational institution..\n1. The student should apply for the scholarship before the 31st of October.",
+  "_criteria_filled": 1
+}

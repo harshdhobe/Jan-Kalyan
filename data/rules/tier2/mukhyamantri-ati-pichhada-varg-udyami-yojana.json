@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-ati-pichhada-varg-udyami-yojana",
+  "name": "Mukhyamantri Ati Pichhada Varg Udyami Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Substantial Financial Support:** Up to ₹10,00,000/- for setting up a business (50% of the total financial assistance (up to ₹5,00,000/-) is provided as a non-repayable grant. The remaining 50% (up to ₹5,00,000/-) is offered as an interest-free loan, with a nominal 1% interest under specific sub-schemes.)  - **Skill Development:** Mandatory training sessions are provided to enhance entrepreneur",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "matriculation-certificate-in-which-date-of-birth-is-mentioned-intermediate-or-eq"
+  ],
+  "apply_url": "https://udyami.bihar.gov.in/pdf/MMUY%202024-25%20Selection%20Process%20&%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mapvuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Bihar.\n   1. The applicant must belong to Extremely Backward Classes.\n   1. The applicant should have passed at least 10+2, Intermediate, ITI, Polytechnic Diploma, or equivalent.\n   1. The applicant must be aged between 18 and 50 years.\n   1. The business unit must be a proprietorship or partnership firm.",
+  "_criteria_filled": 3
+}

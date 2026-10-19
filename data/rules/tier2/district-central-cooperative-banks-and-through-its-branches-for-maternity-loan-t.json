@@ -1,0 +1,33 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-maternity-loan-t",
+  "name": "District Central Cooperative Banks and through its Branches: For Maternity Loan through Self Help Groups",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** ₹2,000/-.  - **Interest Rate:** 11% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-maternity-any-other-documents-if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3578",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbfml",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a woman.\n- The beneficiary should be pregnant.\n- The beneficiary should be a resident of Tamil Nadu.\n- Loans should be applicable only for Maternity.\n\n<br>",
+  "_criteria_filled": 2
+}

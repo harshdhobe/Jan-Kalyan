@@ -1,0 +1,26 @@
+{
+  "id": "educational-assistance-to-the-children-of-the-registered-worker-studying-in-11th",
+  "name": "Educational Assistance to the Children of the Registered Worker Studying in 11th and 12th Standard",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹10,000 per year for children studying in 11th and 12th grades.\n\n<br>\n\n> **Note:** Benefit applies to up to two children and the wife of a registered worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacrws11a12s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children&#39;s parents or guardians should be registered under the Maharashtra Building and Other Construction Workers Welfare Board.\n1. The child/wife must be studying in 11th or 12th standard.\n1. Only children and spouse of registered construction workers are eligible to get educational assistance.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "national-fellowship-for-students-with-disabilities",
+  "name": "National Fellowship for Students with Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**The value of the fellowship is as follows:**\n\n1. The fellowship provides financial assistance to students with disabilities to pursue M. Phil. and Ph.D. degrees.\n1. The fellowship is awarded on the basis of merit and the student&#39;s disability certificate.\n1. The value of the fellowship is ₹ 37,000 per month for Junior Research Fellows (JRFs) and ₹ 42,000 per month for Senior Research Fellows ",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-matric-certificate-educational-certificates-admi"
+  ],
+  "apply_url": "https://disabilityaffairs.gov.in/upload/uploadfiles/files/Scholarship%20Scheme%20Guidelines%202023-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sn2408",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a person with disability (PWD) as defined under the Rights of Persons with Disabilities Act, 2016, with at least 40% disability.\n1. The applicant must have a valid disability certificate issued by the competent authority.\n1. The applicant must have secured admission to an M. Phil. or Ph.D. program in a university/institution recognized by the University Grants Commission (UGC).\n1. The applicant must have a good academic record.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "atal-pension-yojana",
+  "name": "Atal Pension Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "#### Upon exit on attaining 60 years\nThe subscriber shall receive the following three benefits on attaining the age of 60:\n**(i) Guaranteed minimum pension amount:** Each subscriber under APY shall receive a  guaranteed minimum pension of Rs. 1000/- per month or Rs. 2000/- per month or Rs. 3000/- per month or Rs. 4000/- per month or Rs. 5000/- per month, after the age of 60 years until death.\n**(i",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "kyc-details-are-fetched-from-active-bankpost-office-savings-account"
+  ],
+  "apply_url": "https://jansuraksha.gov.in/Files/APY/ENGLISH/APY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "#### Age of joining and contribution period\n\n1. The minimum age of joining APY is 18 years and maximum is 40 years.\n1. The age of exit and start of pension is 60 years.\n1. Subscriber contribution to APY shall be made through the facility of ‘auto-debit’ of the prescribed contribution amount from the savings bank account of the subscriber on monthly, quarterly or half-yearly basis.\n1. The subscribers are required to contribute the prescribed contribution amount from the age of joining APY till the age of  60 years.",
+  "_criteria_filled": 2
+}

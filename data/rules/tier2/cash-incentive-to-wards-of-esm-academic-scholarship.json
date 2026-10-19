@@ -1,0 +1,26 @@
+{
+  "id": "cash-incentive-to-wards-of-esm-academic-scholarship",
+  "name": "Cash Incentive to Wards of ESM (Academic Scholarship)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Cash Incentive of ₹1,000 per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-the-esm-discharge-certificate-of-the-esm-mark"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/incentive_for_meritorious.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ciwesm-as",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Ward of an ESM / Ward of the Widow of an ESM.\n- The applicant should be registered with the Department of Sainik Welfare, Puducherry.\n- The applicant should have scored 95% in Class 11th/12th.\n- The applicant should have scored 90% in the semester/annual exam of a non-professional course (80% in the case of professional course). \n- The applicant should not be in receipt of any other academic scholarship.",
+  "_criteria_filled": 1
+}

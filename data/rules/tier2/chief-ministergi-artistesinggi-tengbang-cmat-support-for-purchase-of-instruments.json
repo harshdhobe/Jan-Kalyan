@@ -1,0 +1,36 @@
+{
+  "id": "chief-ministergi-artistesinggi-tengbang-cmat-support-for-purchase-of-instruments",
+  "name": "Chief Ministergi Artistesinggi Tengbang (CMAT): Support For Purchase Of Instruments / Equipment",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "Reimbursement towards the purchase of instruments/equipment.\nIn every academic year, 300 students will be supported.\nThe applicant may avail of the benefit of this scheme twice during his studentship with a gap of one year.\nNote: The extent of financial assistance will be decided by the Screening Committee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-card-residentialdomicile-certificate-reading-c"
+  ],
+  "apply_url": "https://artnculturemanipur.gov.in/media/filer_public/41/71/4171c3c3-f602-473a-ae8e-d08462dc119a/application_form_for_purchase_of_equipment__instruments.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmat-spie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident/domicile of the state of Manipur.\n1. The applicant should be a Student at one of the following institutes: Government Dance College, Shree Shree Bal Mukunda Dev Music College, Imphal Art College, Manipur University of Culture, Jawaharlal Nehru Manipur Dance Academy, and Manipur University (Dance, Music, and Fine Art Department).\n1. The applicant should be pursuing a course in one of the art forms.\n1. The applicant should be below 30 years of age (age to be reckoned on 1st April).\n1. The annual income of the parents, as well as the applicant, should be less than ₹ 1,00,000/-.",
+  "_criteria_filled": 3
+}

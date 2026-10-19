@@ -1,0 +1,26 @@
+{
+  "id": "fruit-development-scheme",
+  "name": "Fruit Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n  - Quality planting materials for sale at 50% subsidy and free of cost to the farmers under convergent mode with MGNREGA.\n\n&gt; **Type of Assistance and Entitlement (If any):**\n\n**Sl. No.****Entitlement****Owantum of Assistance**1To promote fruit cultivation by making available to farmers good quality planting materials including horticultural tools and implements.(i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=96",
+  "source_url": "https://www.myscheme.gov.in/schemes/fds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of at least 0.2 (hectares) or more.\n\n**Note:** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

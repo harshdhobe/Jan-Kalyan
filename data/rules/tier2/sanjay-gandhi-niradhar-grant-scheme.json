@@ -1,0 +1,36 @@
+{
+  "id": "sanjay-gandhi-niradhar-grant-scheme",
+  "name": "Sanjay Gandhi Niradhar Grant Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹ 600/- per month, if there is one beneficiary in the eligible family.\nFinancial assistance of ₹ 900/- per month, if there is more than one beneficiary in the eligible family.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 21000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office-medical-ce",
+    "and-death-certificate-of-husband-in-the-case-of-widow-applicants"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s304025959b191f8f9de3f924f0940515f/uploads/2018/04/2018040628-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgngs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Maharashtra.\n1. The name of the applicant should be in the list of Below Poverty Line (BPL) families OR the annual income of the family should be less than or equal to ₹ 21,000/-.\n1. The applicant should be one of the following:\n\n           a) Destitute Men and Women below 65 Years of Age.\n           b) Orphan Children.\n           c) All categories of Person with Disability (PwD).\n           d) Men and Women Who Are Unable to Sustain Themselves Due to Diseases Like Tuberculosis, Cancer, Aids, Leprosy.\n           e) Destitute Widows (including widows of farmers who committed suicide).\n           f) Women in the Divorce Process and Divorced but Not Alimony.\n           g) Women Who Have Been Tortured and Released From Prostitution.\n           h) Transgender.\n           i) Devadasi.\n           j) Unmarried Women Above 35 Years of Age.\n           k) The Wives of Prisoners Serving Sentences in Jail.\n           l) Those Suffering From Sickle Cell Disease.",
+  "_criteria_filled": 2
+}

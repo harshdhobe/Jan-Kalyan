@@ -1,0 +1,26 @@
+{
+  "id": "loan-for-training-of-commercial-pilot-gueedc",
+  "name": "Loan for Training of Commercial Pilot (GUEEDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Loan Assistance:** Up to ₹25,00,000/- at a concessional interest rate of 4% per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-pass-bookcancelled-cheque-caste-certificate-income-certificate-mark-sheet-m"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltcpg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be a permanent resident of Gujarat.\n\n  - Applicant must belong to the Unreserved (General) category.\n  - Applicant must have passed HSC (12th standard).\n  - Applicant must have secured admission to a recognized commercial pilot training institute.",
+  "_criteria_filled": 1
+}

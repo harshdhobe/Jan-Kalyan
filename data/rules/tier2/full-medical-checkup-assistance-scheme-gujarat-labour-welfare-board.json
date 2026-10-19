@@ -1,0 +1,31 @@
+{
+  "id": "full-medical-checkup-assistance-scheme-gujarat-labour-welfare-board",
+  "name": "Full Medical Checkup Assistance Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The scheme provides health check-ups for male Shramyogi above 45 years of age and female Shramyogi above 35 years of age working in the organized sector in the state of Gujarat.\n\n**Note:** A fixed amount of ₹1950/- per worker for complete medical check-ups and 25% of this amount is ₹487.50 to be paid by the organization/company.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-identity-card-issued-by-the-contractor-to"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/full-body-checkup-scheme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfmcas-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only those workers (Shramyogis) whose Labour Welfare Fund has been regularly paid by their organization/unit for the last one year will be eligible.\n   1. The male Shram Yogis above 45 years of age and female Shram Yogis above 35 years of age working in the organized sector will be eligible to avail of the benefits under the scheme.\n   1. The benefit will be given once a year to the labourers.\n   1. The Gujarat Labour Welfare Board shall not be responsible for any side effects during/after physical examination.\n   1. After getting in-principle approval from the office here, the medical examination has to be done within 30 days with the mutual agreement of the company and the hospital.\n\n**Note 01:** The company willing to avail the benefits will have to upload the list (Excel Sheet) in the portal.\n**Note 02:** Fees paid under this scheme will not be refunded.\n**Note 03:** The final decision regarding the scheme will be with the Welfare Commissioner. The jurisdiction will be Ahmedabad.",
+  "_criteria_filled": 2
+}

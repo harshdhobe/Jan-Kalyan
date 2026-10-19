@@ -1,0 +1,26 @@
+{
+  "id": "farmers-training-institute-scheme",
+  "name": "Farmers Training Institute Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Farmers are imparted specialised training at the center including in the farmers&#39; field.\n- Exposure programmes and field tours are also conducted for farmers&#39; groups.\n\n> **Type of Assistance and Entitlement (If any):**\n\n  - Assist in Training and capacity building and sponsoring Progressive/Award winning farmers for Exposure trips within/outside the State.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=45",
+  "source_url": "https://www.myscheme.gov.in/schemes/ftis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

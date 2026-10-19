@@ -1,0 +1,26 @@
+{
+  "id": "birsa-harit-gram-yojana",
+  "name": "Birsa Harit Gram Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. Plantation of fruit-bearing and fodder trees on common land and private land.\n1. Sustainable livelihood generation for marginalized families.\n1. Employment guarantee of 100 days under MGNREGA.\n1. Usufruct rights over the plantation for beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-if-applicable-bpl-certificate-if-applicable-mgn"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=A032DO00602032021040724204",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhgy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Scheduled Castes (SC), Scheduled Tribes (ST), Primitive Tribes, or be a Below Poverty Line (BPL) family.\n1. The applicant should be a woman-headed household, a person with disabilities, or a beneficiary of the Pradhan Mantri Awas Yojana (PMAY).\n1. The applicant should be a small or marginal farmer.\n1. The applicant should possess a MGNREGA job card.\n1. The applicant&#39;s livelihood should primarily depend on agriculture.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "assistance-scheme-for-handicraft-artisans",
+  "name": "Assistance Scheme for Handicraft Artisans",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Provides assistance for the Fixed Capital Investment, i.e. construction of Work shed/Workshop, cost of tools, equipment, machinery and accessories, electrification, Technology support/product/Design development.\n   1. For General Category artisans, assistance is 40% of the Fixed Capital Investment limited to ₹2.00 lakh.\n   1. For Young (18 to 45 years), Women, and SC/ST artisans, the assistance",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-self-attested-copy-of-the-identity-card-of-the-applicant-2-passport-size-photo",
+    "if-applicable-4-self-attested-copy-of-the-resolution-towards-applying-for-this-a"
+  ],
+  "apply_url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/asha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tAll Micro Enterprises engaged in the handicraft sector and set up in the State, which had filed Entrepreneurs Memorandum Part-II with the respective General Manager, District Industries Centre, or have taken Udyog Aadhaar shall be eligible for assistance under the Scheme.\n**Note:** Assistance to any unit which has already received any subsidy or grant earlier under any other schemes, from State or Central Government or Government Agencies shall be limited to the balance remaining eligible assistance payable under this scheme.\n&gt; **Obligations of the applicant artisans:**\n\n   1. The applicant shall provide all required details and declare such information as to be true.\n   1. The applicant shall provide clarifications or further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including tools, equipment &amp;amp; accessories, and all other assets if so required by the recommending/sanctioning authority.\n   1. The applicant shall produce originals of any important documents if so required by the recommending/sanctioning authority for verification.\n   1. The applicant shall execute the requisite legal agreement on paper as and when the proposal is approved for implementation.\n   1. The applicant shall utilize the amount received only in the manner agreed upon.\n   1. The applicant shall operate the unit as stipulated in the agreement in which the quantum of support received failing which the assistance shall be resumed by resorting to the provisions of the Kerala Revenue Recovery Act.",
+  "_criteria_filled": 1
+}

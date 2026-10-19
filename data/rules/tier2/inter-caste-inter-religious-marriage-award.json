@@ -1,0 +1,26 @@
+{
+  "id": "inter-caste-inter-religious-marriage-award",
+  "name": "Inter-Caste / Inter-Religious Marriage Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The married couple is jointly provided with a financial amount of ₹50,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-date-of-birth-of-the-bride-and-groom-high-school-certifi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icirma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must a married couple who has entered into either an inter-caste or an inter-religious marriage.\n1. In the case of an inter-caste marriage, one spouse must belong to a Scheduled Caste.\n1. In the case of an inter-religious marriage, both spouses must belong to different religions.\n\n<br>",
+  "_criteria_filled": 1
+}

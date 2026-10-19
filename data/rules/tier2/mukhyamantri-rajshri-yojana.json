@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-rajshri-yojana",
+  "name": "Mukhyamantri Rajshri Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- **Financial Benefits are**\n\n**Time to provide benefits****Amount of profit**At the time of birth₹2,500/-1 year after vaccination₹2,500/-On admission to first class₹4,000/-On taking admission in sixth class₹5,000/-On taking admission in the tenth class₹11,000/-On taking admission in class 12th₹25,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "bhamashahaadhaar-card-of-parents-aadhaar-card-of-the-beneficiary-girl-birth-cert"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/W_CD/MRY/DOC_261_956c47af-f8b6-4c8f-aa22-c1d1d20c1d03.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl child must be a resident of Rajasthan.\n1. She must be born on or after June 1, 2016.\n1. The girl child must be born in a government or private medical institution registered with Janani Suraksha Yojana (JSY).\n1. Only two girl child will be eligible.\n1. Girl&#39;s parents must have an Aadhar Card and a Bhamashah Card.",
+  "_criteria_filled": 2
+}

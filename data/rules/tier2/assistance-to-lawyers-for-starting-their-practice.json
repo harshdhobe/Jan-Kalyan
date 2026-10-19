@@ -1,0 +1,33 @@
+{
+  "id": "assistance-to-lawyers-for-starting-their-practice",
+  "name": "Assistance to Lawyers for Starting their Practice",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Incentives to unemployed Adi Dravidar/Tribal lawyers to start legal practice.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "00",
+    "000-bank-account-details-passport-size-photographs-any-other-documents-if-requir"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83091",
+  "source_url": "https://www.myscheme.gov.in/schemes/atlfstp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be an unemployed lawyer.\n  - The beneficiary should have registered their name as a lawyer within 5 years.\n  - The beneficiary should have an interest to start legal practice.\n  - The beneficiary should belong to the Adi Dravidar/Tribal community.\n  - Beneficiary’s annual family income should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 2
+}

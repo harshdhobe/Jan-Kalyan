@@ -1,0 +1,26 @@
+{
+  "id": "dr-kc-sharma-fellowship-msc-agriculture-agronomy-second-year-students",
+  "name": "Dr. K.C. Sharma Fellowship (M.Sc. Agriculture, Agronomy (Second Year) Students)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Fellowship Amount:**  ₹1,000/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kcsfellowshipuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be enrolled in the second year of the M.Sc. (Agriculture) in Agronomy program at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The fellowship is awarded for a duration of one year only.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mizoram-bana-kaih-handholding-scheme",
+  "name": "Mizoram Bana Kaih (Handholding) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "> **Handholding Support:**\n\n- Comprehensive support including advisory services, training, technical assistance, and supervision.\n- Credit linkage through bank loans with collateral-free provisions.\n- Full interest subvention and bank guarantee support.\n- Provision of catalytic capital grant and venture funding.\n\n> **Support to Implementing Departments:**\n\n- Funding for development of common infra",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-project-proposal-business-plan-bank-account-details"
+  ],
+  "apply_url": "https://handholding.mizoram.gov.in/official-notification/gazette.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbkhhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an individual, group, organization, entrepreneur, or innovator.\n  - The applicant should have high potential for wealth and employment generation.\n  - The applicant should be selected as a “Progress Partner” by the Apex Body.\n  - The applicant should be engaged in livelihood, business, startup, or development activities.\n\n<br>",
+  "_criteria_filled": 1
+}

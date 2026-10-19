@@ -1,0 +1,33 @@
+{
+  "id": "grant-of-incentive-to-the-family-having-one-girltwo-girl-children-and-parents-wh",
+  "name": "Grant of Incentive to the Family having One Girl/Two Girl Children and Parents who have undergone Family Planning",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹30,000/- for one girl child, and ₹15,000/- for each of two girl children.\n- The incentive amount is deposited in the name of the girl child/children and matures when the child reaches 18 years of age.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-from-the-revenue-department-income-certificate-from-the-re",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gifogc-fp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The parents should be citizens of India.\n1. Either of the parents should be a native of Puducherry by virtue of birth or continuous residence of not less than five years.\n1. The annual income of the applicant should not exceed ₹75,000/- per annum.\n1. The age of the parents should not be below 21 years for the father and 18 years for the mother at the time of their marriage.\n1. Either of the parents should have undergone Family Planning in a Central/State Government Hospital/ Private (Registered).\n1. The parents should have only one girl child/two girl children.\n1. The marriage of the applicant should be registered in the Registration Department/Municipality/Commune Panchayat.",
+  "_criteria_filled": 2
+}

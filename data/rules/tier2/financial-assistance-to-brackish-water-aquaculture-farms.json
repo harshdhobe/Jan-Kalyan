@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-brackish-water-aquaculture-farms",
+  "name": "Financial Assistance to Brackish Water Aquaculture Farms",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> **Financial Assistance for Construction &amp; Renovation of Farm**\n\n25% subsidy, limited to ₹2,00,000 per hectare.\n> **Financial Assistance for Purchase of Farming Equipment**\n\n50% subsidy, limited to ₹1,00,000 per hectare.\n> **Financial Assistance for the Purchase of Feed**\n\n25% subsidy of the cost of feed, limited to ₹30,000 per crop per hectare for 2 crops in a year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "joint-photograph-of-applicant-with-spouse-aadhaar-cardration-card-caa-license-co"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/08/BW-Const-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fabwaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer having a water spread area of 2 hectares or less.\n- The farms owned by the applicant should be licensed by the Coastal Aquaculture Authority.",
+  "_criteria_filled": 1
+}

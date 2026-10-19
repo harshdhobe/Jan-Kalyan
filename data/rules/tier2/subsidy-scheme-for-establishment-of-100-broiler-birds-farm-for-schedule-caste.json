@@ -1,0 +1,27 @@
+{
+  "id": "subsidy-scheme-for-establishment-of-100-broiler-birds-farm-for-schedule-caste",
+  "name": "Subsidy Scheme For Establishment Of 100 Broiler Birds' Farm For Schedule Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tSubsidy will be given 75% of the total unit cost (maximum ₹27000/-) to the beneficiary for the establishment of 100 Broiler birds&#39; Unit.\n2.\tThe subsidy amount is directly credited into the bank account of the beneficiary. \n3.\tThe birds will be given vaccination regularly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-income-proof-certificate-below-poverty-line-card-if-applicable-res"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/subsidy-schemes-poultry.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sse100bbfsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The benefits of this scheme will only be given to the adult of Schedule Caste people of the society of Gujarat State.\n- The beneficiary will have to provide income proof and a caste certificate along with the application.\n- Females and beneficiaries below the poverty line will be given priority.\n- The beneficiary should have taken poultry-keeping training.\n- The beneficiary should have either his/her own land or will have to take land for two years on a lease base.\n- The beneficiary will have to prepare a poultry shed having a capacity of 100 Sq. feet.\n- The beneficiary will have to bring 100 low-input broiler birds, poultry feed, and water &amp;amp; feed utensils.\n- As and when the Government officer visit the farm the beneficiary will have to show income and expenditure statement.\n- In normal cases, the unit will have to maintain for two years.",
+  "_criteria_filled": 1
+}

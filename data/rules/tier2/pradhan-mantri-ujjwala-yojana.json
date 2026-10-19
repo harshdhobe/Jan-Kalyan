@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-ujjwala-yojana",
+  "name": "Pradhan Mantri Ujjwala Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Rs. 1600 for a connection 14.2kg cylinder or Rs. 1150 for a 5 kg cylinder. \n1. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hot plate) both free of cost along with their deposit free connection.\n\n<br>\n\n#### Note: \nPriority would be given to the states which have lower LPG coverage (Compared to the national average) as on 1st Jan 2016.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "valid-photo-id-ration-card-issued-by-the-state-from-which-application-is-being-m"
+  ],
+  "apply_url": "http://nadia.gov.in/DISHA/DISHASchemeGuidelines/Pradhan%20Mantri%20UJJWALA%20Yojna%20Guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "An adult woman belonging to a poor household and not having an LPG connection in her household will be eligible under UJJWALA 2.0. The beneficiaries should belong to any of the following categories:\n\n1. Eligible as per SECC 2011 list\n1. Belongs to SC/ST households, be a beneficiary of Pradhan Mantri Awas Yojana (PMAY), Antyodaya Anna Yojana (AAY), Forest dwellers, Most Backward Classes (MBC), Tea and Ex-Tea Garden Tribes, People residing in river islands (Beneficiary will submit supporting document)\n1. If she is not falling in the above 2 categories, then she can stake her claim to be a beneficiary under Poor household by submitting 14-point declaration (as per prescribed format)",
+  "_criteria_filled": 1
+}

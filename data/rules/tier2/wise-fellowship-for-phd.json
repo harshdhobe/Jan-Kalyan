@@ -1,0 +1,36 @@
+{
+  "id": "wise-fellowship-for-phd",
+  "name": "WISE Fellowship for Ph.D.",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The fellowship amount under this programme is ₹37,000/- per month along with House Rent Allowances (HRA) as per norms.\n   1. This Programme also provides a Research Grant of ₹1.00 lakh per year and Institutional overhead charges @₹ 0.50 lakh per year (as per DST norms).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-complete-proposal-in-prescribed-proposal-format-2-complete-proposal-in-prescri"
+  ],
+  "apply_url": "https://dst.gov.in/wise-fellowship-phd-wise-phd",
+  "source_url": "https://www.myscheme.gov.in/schemes/wise-phd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Unemployed women who want to pursue a Ph.D. can apply for a fellowship under WISE-PhD. The programme is open for both candidates; those who have not yet registered as well as those who have already registered for a Ph.D., but not availing of a fellowship from any sources. However, candidates who have completed two (2) years duration in Ph.D. as of the date of application are NOT eligible. The following are the primary eligibility criteria:\n&gt; **Qualification:**\n\nThe applicant should have an M. Sc./ M. Tech. or equivalent degree like B. Tech., M.Phil., M. Pharm. etc. in basic and applied sciences from a recognized University/Institute.\n&gt; **Age:**\n\nThe minimum age to apply for the programme is 27 years and the maximum is 45 years (A relaxation of 3 years in the upper age limit is allowed for SC/ ST/ PH candidates). The cut-off date for age calculation would be the date of submission of the WISE-PhD application.\n&gt; **Employment:** \n\nWomen in regular employment are not eligible for WISE-PhD.",
+  "_criteria_filled": 3
+}

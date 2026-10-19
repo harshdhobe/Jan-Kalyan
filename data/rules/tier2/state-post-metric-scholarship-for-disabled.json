@@ -1,0 +1,36 @@
+{
+  "id": "state-post-metric-scholarship-for-disabled",
+  "name": "State Post-metric Scholarship For Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "A. Maintenance Allowance\nGroup A: Degree Course in Medical, Engineering, Agricultural, Veterinary, and Postgraduate Degree Courses.\nRate of Scholarship for Hosteller (in ₹ per month): 1200/-\nRate of Scholarship for Day Scholar (in ₹ per month): 550/-\nGroup B: Diploma course in Medical, Engineering, Agricultural, and Veterinary.\nRate of Scholarship for Hosteller (in ₹ per month): 820/-\nRate of Scho",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-the-latest-educational-qualification-passing-certificate-or-markshe",
+    "etc-any-other-document-required-by-the-schoolcollege-or-the-district-social-welf"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare?&Submit=Submit&page=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/spmsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Maharashtra.\n1. The applicant should be a student admitted/enrolled in a school recognized by the Govt. of Maharashtra.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. The applicant should have passed class 10th.\n1. The applicant should not have failed in the last qualifying examination.\n1. The applicant should be pursuing a post-metric qualification, i.e. Higher Secondary School (Class 11th, Class 12th), or a Technical/Professional Degree in Medical, Engineering, etc.",
+  "_criteria_filled": 2
+}

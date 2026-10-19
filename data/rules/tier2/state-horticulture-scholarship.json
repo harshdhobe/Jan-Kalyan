@@ -1,0 +1,28 @@
+{
+  "id": "state-horticulture-scholarship",
+  "name": "State Horticulture Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "- Under the scheme, scholarships/Stipends will be given to students according to the course/programme in which they are enrolled.\n\n&gt; **Time frame:** Applicant shall be awarded the stipend for a fixed number of years as follows:\n\n   1. **B.Sc. (Horticulture): 4 Years**\n   1. **M.Sc. (Horticulture): 2 Years**\n   1. **Ph.D. (Horticulture): 3 Years**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-institution-verification-form-a-copy-of-aa",
+    "if-applicable-disability-certificate",
+    "if-applicable-any-other-documents-as-required"
+  ],
+  "apply_url": "https://scholarship.nagaland.gov.in/storage/Guidelines//9_Guidelines",
+  "source_url": "https://www.myscheme.gov.in/schemes/shs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be an indigenous inhabitant of Nagaland.\n   1. The students who are pursuing B.Sc. Hons. (Horticulture), M.Sc. Horticulture and Ph. D. Horticulture are eligible to apply.\n   1. The institution in which the applicant is currently studying must be recognized by UGC.\n   1. Applicant should not be receiving any form of financial assistance in the form of a Scholarship/Stipend from any other sources.",
+  "_criteria_filled": 1
+}

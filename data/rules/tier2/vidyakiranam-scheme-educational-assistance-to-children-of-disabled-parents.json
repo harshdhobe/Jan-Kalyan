@@ -1,0 +1,37 @@
+{
+  "id": "vidyakiranam-scheme-educational-assistance-to-children-of-disabled-parents",
+  "name": "Vidyakiranam Scheme-Educational Assistance To Children Of Disabled Parents",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "**The following benefits will be provided to the children of differently-abled parents studying in various classes under this scheme:**\n**Sl. No.****Class****Scholarship Rate**1Standard 1 to 5₹300/- per month for 10 months2Standard 6 to 10₹500/- per month for 10 months3+1, +2, ITI equivalent courses₹750/- per month for 10 months4Degree, Post-Graduation, Polytechnic, Equivalent Courses, Training Co",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/14151.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vs-eacdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Kerala.\n   1. The children of differently abled parents belonging to the BPL category (Both / Anyone) will get a scholarship under this scheme.\n   1. The applicant should be a student.\n   1. The disability of the applicant’s father/ mother must be 40% or above.\n   1. The students pursuing courses from Govt. approved institutions are eligible to apply under this scheme.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "grishm-kaleen-dhan-ke-badle-dalhan-tilhan-makka-fasal-ko-protsahan-yojana",
+  "name": "Grishm Kaleen Dhan Ke Badle Dalhan, Tilhan, Makka Fasal ko Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- The subsidy amount is ₹2,000/- per acre (0.4 hectare).\n- A maximum subsidy of ₹10,000/- is available for up to 2 hectares.\n- The subsidy will be ₹10,000/- or the actual cost, whichever is lower.\n- Each farmer must cultivate a minimum area of 0.4 hectares to be eligible.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-landholding-certificate-bank-account-detailsbank-passbook-other-n"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/agridept/StateScheme/1.3%20grishmkalindhankebadle.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gkdkbdtmfkpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer cultivating pulses, oilseeds, or maize in place of Rabi/Summer rice.\n1. The applicant should be growing these crops in the same or an additional area as in previous years.\n1. The applicant should be cultivating pulses, oilseeds, or maize in lieu of summer paddy to be eligible for the subsidy.\n1. The applicant should be a sharecropper or landowning farmer, as both are entitled to the scheme benefits.\n1. The applicant should be a first-time cultivator of summer pulses, oilseeds, or maize to receive priority.\n1. The applicant should submit their application early, as selection will be on a first-come, first-served basis if applications exceed the target.\n1. The applicant should note that a particular farmer will be eligible for the benefit only once under the scheme.",
+  "_criteria_filled": 1
+}

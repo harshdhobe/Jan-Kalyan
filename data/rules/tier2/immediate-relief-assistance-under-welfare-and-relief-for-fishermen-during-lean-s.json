@@ -1,0 +1,44 @@
+{
+  "id": "immediate-relief-assistance-under-welfare-and-relief-for-fishermen-during-lean-s",
+  "name": "\"Immediate Relief Assistance\" under \"Welfare and Relief for Fishermen During Lean Seasons and Natural Calamities Scheme\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "₹ 1,00,000, in two installments of ₹ 50,000 each, as immediate relief assistance for the family (legal heir) of the missing fisherman.\n<br>\n\n> **Disbursal**\n\n- Initially, 50% will be extended within 3 months from the date of receipt of the application from the family (legal heir).\n- The family (legal heir) should approach this department for the release of the balance 50% of the relief which will ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-the-family-legal-heir-of-the-missing-fisherman-residential-certifi",
+    "relationship",
+    "and-address-of-the-legal-heir-affidavit-in-5-stamp-paper",
+    "affixing-as-the-legal-heir-duly-signed-in-before-a-notary-public-no-claim-certif",
+    "statement-of-panchayathars",
+    "statement-of-persons-who-have-lastly-seen-the-missing-person-advertisementnewspa",
+    "municipality-commune-panchayat-office",
+    "ration-shop",
+    "and-police-station-in-the-vernacular-language"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/immediate20relief20notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ira-wrflsncs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the family (legal heir) of the missing fisherman.\n- The missing fisherman should have been a resident of the Union territory of Puducherry.\n- The missing fisherman must have lost his/her life while fishing. \n- The missing fisherman must have been in the age group of 18-60 years.\n- The missing fisherman must not have been a beneficiary of the old age pension scheme. \n- The missing fisherman should have enrolled as a member of the Fishermen/Fisherwomen Co-operative Society.",
+  "_criteria_filled": 3
+}

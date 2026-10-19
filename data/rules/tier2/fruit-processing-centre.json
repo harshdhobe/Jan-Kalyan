@@ -1,0 +1,26 @@
+{
+  "id": "fruit-processing-centre",
+  "name": "Fruit Processing Centre",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nTraining and Demonstration\n> **Type of Assistance:**\n\nAwareness, Capacity building on fruit and vegetable processing",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-other-relevant-documents-as-required"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=106",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

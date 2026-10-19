@@ -1,0 +1,26 @@
+{
+  "id": "ashadeepa-scheme",
+  "name": "Ashadeepa Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "1. **Reimbursement of ESI and EPF contribution to the employers:** The private sector employer, who newly employs SC and ST candidates, will be reimbursed the ESI and EPF contribution paid by them for a period of 2 years, subject to the maximum limit of ₹3,000/- per month per candidate.   1. **Reimbursement of Stipend paid to the apprentice trainees:** The stipend amount under Apprenticeship Act, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-caste-certificate-employment-proof-apprenticeship"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/ashadeepaschemeform",
+  "source_url": "https://www.myscheme.gov.in/schemes/ads",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Karnataka.\n   1. The applicant should belong to the Scheduled Castes (SC) or Scheduled Tribe (ST) category.\n   1. Employment of the applicant should be in a private-sector industry or establishment.\n   1. SC/ST candidates undergoing apprenticeship training under the Apprenticeship Act, of 1961, are eligible for stipend reimbursement.\n   1. For candidates who complete an apprenticeship and are subsequently hired on a permanent basis, employers are eligible for reimbursement of a portion of the candidate’s salary.\n   1. SC/ST candidates are eligible for skill development training organised by the Department of Skill Development, Government of Karnataka.",
+  "_criteria_filled": 1
+}

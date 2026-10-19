@@ -1,0 +1,26 @@
+{
+  "id": "free-distribution-of-text-books-to-students",
+  "name": "Free Distribution of Text Books to Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Free textbooks.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=412",
+  "source_url": "https://www.myscheme.gov.in/schemes/fdotbts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be studying in class 9th to 12th.\n1. The applicant should be studying in a government school in Madhya Pradesh.",
+  "_criteria_filled": 1
+}

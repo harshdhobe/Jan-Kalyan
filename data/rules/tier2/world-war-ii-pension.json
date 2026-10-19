@@ -1,0 +1,26 @@
+{
+  "id": "world-war-ii-pension",
+  "name": "World War II Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- A pension of ₹15,000 per month is provided for a lifetime. \n\n**Mode of Disbursement:**\n\n- The pension is deposited monthly into the beneficiary’s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-applicant-recent-photograph-of-the-applicant-discharge-book-se"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/raj/sainikwelfaresite/en/welfare-schemes/WELFARE-SCHEMES-state-government.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/wwiip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should be either an ex-serviceman who served during World War II (1st September 1939 to 15th August 1945) or his widow.\n   1. The applicant should not be receiving any pension or financial assistance from any other source.",
+  "_criteria_filled": 1
+}

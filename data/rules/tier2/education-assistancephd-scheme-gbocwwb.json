@@ -1,0 +1,32 @@
+{
+  "id": "education-assistancephd-scheme-gbocwwb",
+  "name": "Education Assistance/Ph.D Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Under the scheme, the following benefits are provided to students from Standard 1 to 12, as well as for those pursuing Graduation and Postgraduate studies:\n**Sl. No.****Courses** **Amount of Assistance per Child per Annum**1Class-1 to Class-5₹1,800/-2Class-6 to Class-8₹2,400/-3Class-9 to Class-10₹8,000/-4Class-11 to Class-12₹10,000/-5Post-12th higher education graduate level courses like BA, B.Com",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-e-nirman-card-under-the-gbocwwb1-photograph-of-the-worker",
+    "if-applicable-5-proof-of-age-birth-certificatedriving-licencepan-cardvoter-id-ca"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/ApplicationForm/BOCW/SSY/ApplicationForm.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eaphdsgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children of construction workers registered with the Gujarat Building and other Construction Workers Welfare Board will be eligible to get the benefit of this scheme.\n   1. The son or daughter of a registered worker should be enrolled in any grade from Class I up to higher education or professional course.\n   1. The financial assistance will be provided once a year to two children of a construction worker.\n\n&gt; **Terms and Conditions:**\n\n   1. The age limit for children of construction workers to get scholarships should be a maximum of 30 years. If the son or daughter is handicapped or handicapped then there will be no age limit.\n   1. Which will be limited to the first trial in the academic year. A person who fails in the same standard/class will not be eligible for second aid for the same standard/class.\n   1. Board assistance is not admissible if any registered construction worker&amp;#39;s child is admitted through the Right to Education/studying in an Open University/studying externally or receiving any similar assistance from other departments.",
+  "_criteria_filled": 2
+}

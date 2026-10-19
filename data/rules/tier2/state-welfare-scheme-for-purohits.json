@@ -1,0 +1,27 @@
+{
+  "id": "state-welfare-scheme-for-purohits",
+  "name": "State Welfare Scheme For Purohits",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "1.\tMonthly Financial Assistance for all the poor Purohits and poor priests of other communities like Christians, Jains, Buddhists &amp;amp; Parsis of ₹1,000/- per month.\n2.\tA grant of ₹1,20,000/- will be provided to each poor Purohit/poor priest of other communities like Christians/ Jains/ Buddhists / Parsis for the construction of a dwelling house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-photograph-2-copy-of-digital-ration-card-3-copy-of-aadhaar-card",
+    "if-available-4-copy-of-voter-id-5-copy-of-residential-certificate-self-declarati"
+  ],
+  "apply_url": "https://howrah.gov.in/information-cultural-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/swsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tAll the poor Purohits or poor priests of other communities like Christians, Jains, Buddhists, and Parsis in the State will be eligible under the scheme.\n2.\tThe person is a resident of West Bengal on the date of making an application under the Scheme.\n3.\tThe person is not a beneficiary under any other Social Security pension scheme or a recipient of Government pension or pension from any other organization.\n4.\tFor receiving a housing grant, the person does not have a pucca dwelling house of his or her own but if he or she shall have a piece of land in his name. In case the beneficiary does not own land for the construction of the dwelling house, the State Government will mobilize vested and other lands whenever possible for providing housing facilities to such families.\n5. The applicant must be a financially distressed /economically backward practicing priest attached to any place of worship.",
+  "_criteria_filled": 1
+}

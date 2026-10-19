@@ -1,0 +1,32 @@
+{
+  "id": "award-of-puducherry-state-post-matric-scholarship-scheme",
+  "name": "Award of Puducherry State Post-Matric Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "> **Number of Slots**\n\n90 scholarships for 11th Standard and 90 scholarships for 12th Standard are awarded every year.\n* This number may vary depending on the availability of funds in the budget of the year.\n> **Rate of Scholarship**\n\n- Day Scholar: ₹60/month per student (₹600/year/student).\n- Hosteller: ₹100/month per student (₹1,000/year/student).\n\n* For ten months in an academic year.\n> **Mode ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativitycitizenshipresidential-certificate",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/Help.rar",
+  "source_url": "https://www.myscheme.gov.in/schemes/apspmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be studying in 11th or 12th standard.\n- The applicant should have secured promotion to the next higher class.\n- The family income of the applicant should not exceed ₹75,000 per annum.\n- If the applicant is studying in 11th standard, she/he should have secured 60% marks in 10th standard.\n- If the applicant is studying in 12th standard, she/he should have secured 50% marks in 11th standard.\n\n**NOTE:** _If proposals received more than the required number, the Directorate selects the required number of beneficiaries strictly in the order of merit of marks in per cent starting from the top and also in the order of preference of students from the Government schools, Government Aided schools and then from the Private schools recognized by the Government._",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "marriage-assistance-scheme-gujarat-labour-welfare-board",
+  "name": "Marriage Assistance Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, female workers will be entitled to receive ₹11,000/- after their marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-identity-card-issued-by-the-contractor-to",
+    "contact-the-concerned-factoryestablishment-official"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/fsmb-scheme-guj.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/mas-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only those women workers who are working in the factory/organization in the state of Gujarat and the Labour Welfare Fund of the concerned woman worker is paid by the organization at the office, will be eligible to get the benefit of this scheme.\n   1. The Labour Welfare Fund of the last one year of the concerned woman worker should be mandatorily filled by the Factory/Company/Organization.\n   1. Application should be made within one year from the date of marriage.\n   1. There should be a gap of one year between the date of employment and the date of marriage of the woman worker.",
+  "_criteria_filled": 2
+}

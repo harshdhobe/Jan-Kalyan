@@ -1,0 +1,26 @@
+{
+  "id": "prize-schemes-to-the-students-state-level-prizes",
+  "name": "Prize Schemes to the Students (State Level Prizes)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **First Prize:** ₹50,000/- (boys from BC), ₹25,000/- (girls from BC)  - **Second Prize:** ₹30,000/- (boys from BC), ₹20,000/- (girls from BC)  - **Third Prize:** ₹20,000/- (boys from BC), ₹15,000/- (girls from BC)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/27495",
+  "source_url": "https://www.myscheme.gov.in/schemes/psslp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Backward Classes (BC)/ Most Backward Classes (MBC)/ Denotified Communities (DNC).\n  - The beneficiary should be studying in a Government/ Government Aided/ Private School.\n  - The beneficiary must have studied Tamil as the first language.\n\n&gt; **Note:** If more than one student secures the same marks, awards are granted to all students.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": "wise-post-doctoral-fellowship",
+  "name": "WISE Post-Doctoral Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Fellowship Amount:** ₹55,000/- per month is provided as fellowship along with House Rent Allowance as per Department of Science and Technology (DST) norms.  - **Research Grant:** ₹2,00,000/- per year is provided to support research activities under the programme.  - **Equipment Support:** Financial assistance up to ₹3,00,000/- is provided for the purchase of small equipment.  - **Institutional",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-document-biodata-of-pi-signed-mentors-biodata-signed-caste-cert",
+    "10th-class-certificate-photograph-of-pi-signature-of-pi-highest-degree-certifica"
+  ],
+  "apply_url": "https://dst.gov.in/wise-post-doctoral-fellowship-wise-pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wise-pdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Employment:**\n\nCandidates in regular employment are not eligible for WISE-PDF. However, women scientists who are temporarily employed in research or academics may apply for the scheme but they have to leave their earlier assignment if the WISE-PDF project is approved. The position of research staff in any project, Post-Doctoral Fellow, Research Associate, etc. will be considered a temporary assignment.\n&gt; **Age:**\n\nThe minimum age to apply is 27 years and the maximum is 60 years. Women scientists, less than 27 years of age are NOT eligible.\n&gt; **Educational Qualification:**\n\nWomen Scientists having a Ph.D. in Basic/ Applied Science or an equivalent degree like MD, MS, MDS, etc. are eligible for WISE-PDF.\n&gt; **Break in Career:**\n\nBreak in career is not mandatory to apply for WISE-PDF, however, women who have a break are also encouraged to apply for this programme.",
+  "_criteria_filled": 3
+}

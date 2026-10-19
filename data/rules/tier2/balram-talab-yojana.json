@@ -1,0 +1,26 @@
+{
+  "id": "balram-talab-yojana",
+  "name": "Balram Talab Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- General category farmers receive 40% of the construction cost or maximum ₹80,000/- as subsidy.\n- Small and marginal farmers receive 50% of the construction cost or maximum ₹80,000/- as subsidy.\n- Scheduled Caste or Scheduled Tribe category farmers receive 75% of the construction cost or maximum ₹1,00,000/- as subsidy.\n\n##### ***Disbursement***\n\n- The subsidy will be disbursed to the beneficiary ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-identity-card-permanent-residence-certificate-bank-account-passbook"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3b1d10e7bafa4421218a51b1e1f1b0ba2/uploads/2018/07/2018071785.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bty",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Madhya Pradesh.\n- The applicant must possess agricultural land.\n- The applicant must have installed drip or sprinkler sets in financial year 2017-18 or thereafter, and these must be currently in operational condition, to be eligible for subsidized pond construction.\n- The applicant must construct the pond on their own land. Subsidy will not be provided for pond construction on leased land.\n\n<br>",
+  "_criteria_filled": 1
+}

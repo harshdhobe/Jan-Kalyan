@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-balika-cycle-yojna",
+  "name": "Mukhyamantri Balika Cycle Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- Financial assistance is provided to purchase a bicycle.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-or-school-admission-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://state.bihar.gov.in/educationbihar/Content.html?links&page=FACTS_SCHEMES",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbcyb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Bihar.\n  - The applicant must be a girl student.\n  - The applicant must be enrolled in a government or government-recognized secondary school.\n  - The applicant should have successfully completed Class VIII and be transitioning to Class IX or higher.\n  - The scheme applies only to girls from economically weaker sections or as specified by the government.",
+  "_criteria_filled": 2
+}

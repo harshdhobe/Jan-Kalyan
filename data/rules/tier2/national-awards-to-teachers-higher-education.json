@@ -1,0 +1,32 @@
+{
+  "id": "national-awards-to-teachers-higher-education",
+  "name": "National Awards To Teachers (Higher Education)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. A medal.\n1. A certificate.\n1. Cash Prize of ₹ 50,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      }
+    ]
+  },
+  "documents": [
+    "nomination-form-curriculum-vitae-cv-of-the-nominee-detailed-description-of-the-n",
+    "patents",
+    "awards-certificates",
+    "testimonials",
+    "letters-of-recommendation",
+    "etc",
+    "depending-on-the-specific-nomination-aadhaar-card-photograph"
+  ],
+  "apply_url": "https://awards.gov.in/Home/AwardLibrary",
+  "source_url": "https://www.myscheme.gov.in/schemes/natthe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The award is open to all the faculty members of colleges/universities/higher educational institutions in India, satisfying the following conditions:**\n\n1. Should be a regular faculty member.\n1. Should have at least five years of full-time teaching experience at the Undergraduate and/or Post-graduate level.\n1. Should not be above 55 years of age as of the last date of receiving an application for the awards.\n1. Vice-Chancellor/ Director/Principal (regular or officiating) are NOT eligible to apply.",
+  "_criteria_filled": 1
+}

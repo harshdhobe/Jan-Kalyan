@@ -1,0 +1,27 @@
+{
+  "id": "swami-vivekananda-exam-oriented-residential-training",
+  "name": "Swami Vivekananda Exam Oriented Residential Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Training and Coaching Support**\n\n- **Residential Training:** Comprehensive exam-oriented coaching in residential format.- **Defence Examination Preparation:** Specialized training for Army, Air Force, Navy recruitment examinations.- **Police Force Training:** Preparation for Police Force recruitment examinations.- **Paramilitary Force Coaching:** Training for Central Armed Police Forces and ot",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "educational-certificates-10th",
+    "12th-and-higher-education-as-applicable-domicile-certificate-of-gujarat-state-in"
+  ],
+  "apply_url": "https://employment.gujarat.gov.in/document/vivekanadtalimyojana_eng.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sveort",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Gujarat.\n- The applicant must be aspiring for recruitment in Army, Air Force, Navy, Paramilitary Forces or Police Forces.\n- The applicant must meet the age criteria as prescribed for respective defence and police services.\n- The applicant must possess minimum educational qualifications as required for the specific service examination they are preparing for.\n- The applicant must have completed relevant educational requirements as per Central Government norms for defence services.\n- The applicant must meet basic physical fitness standards for defence and police services.\n- The applicant must be medically fit as per general health requirements.\n- The applicant must be willing to undergo rigorous physical training programs.\n- The applicant must belong to economically weaker sections or demonstrate financial need for training assistance.\n- The applicant must not be receiving similar training assistance from other government schemes simultaneously.\n\n<br>",
+  "_criteria_filled": 1
+}

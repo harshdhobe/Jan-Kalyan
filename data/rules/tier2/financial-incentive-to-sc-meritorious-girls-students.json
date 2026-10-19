@@ -1,0 +1,38 @@
+{
+  "id": "financial-incentive-to-sc-meritorious-girls-students",
+  "name": "Financial Incentive to SC Meritorious Girls Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "A financial incentive of ₹5,000/- is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "recent-photograph-caste-certificate-valid-sc-certificate",
+    "inserting-sub-caste-parents-income-certificate",
+    "issued-by-the-circle-officer-hslc-admit-card-hslc-marksheet-hsslc-marksheet-fron"
+  ],
+  "apply_url": "https://directorwsc.assam.gov.in/home.php/scheme-page/%E2%80%9Cfinancial-incentive-sc-meritorious-girls-students%E2%80%9D",
+  "source_url": "https://www.myscheme.gov.in/schemes/fiscmgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be currently enrolled as a student.\n- The applicant must be female.\n- The applicant must belong to a Scheduled Caste (SC) community of Assam.\n- The applicant must have secured a minimum of 80% marks in the HSLC examination held in 2025.\n- The annual income of the applicant&#39;s parents/guardians must not exceed ₹5,00,000/-.\n\n<br>",
+  "_criteria_filled": 3
+}

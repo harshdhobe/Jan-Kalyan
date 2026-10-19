@@ -1,0 +1,31 @@
+{
+  "id": "rural-business-incubators-uttarakhand",
+  "name": "Rural Business Incubators - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "This is an innovative initiative of the Rural Development Department, under which entrepreneurs are provided with free of cost technical, business, and legal advice, marketing support, and mentorship through the incubator.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-rural-business-incubators-to"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rbisuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand and interested in starting or expanding a business in the state.\n- The applicant must be at least 18 years of age.\n- The applicant may belong to any of the following categories:\n\n- A member of a self-help group (SHG) in the state who wishes to start a business.\n- An individual already running a business and seeking to expand it.\n- An individual seeking technical or vocational training.\n- An individual requiring assistance in preparing a business plan.\n- An individual seeking guidance on legal procedures related to business.\n- An individual aiming to enhance the market reach of their products or services.\n\n<br>",
+  "_criteria_filled": 2
+}

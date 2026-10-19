@@ -1,0 +1,26 @@
+{
+  "id": "silicosis-pidit-hita-dhikariyon-hetu-sahayata-yojana",
+  "name": "Silicosis Pidit Hita-dhikariyon Hetu Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. In case of suffering from silicosis : ₹1,00,000/-\n1. In case of death of a victim of silicosis : ₹3,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-beneficiary-identity-cardbooklet-certificate-regarding-silicosis-from-pn"
+  ],
+  "apply_url": "https://labour.rajasthan.gov.in/Schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sphhsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Those construction workers who are registered with the Board as beneficiaries and are depositing contributions\n1. The beneficiary is suffering from silicosis as certified by the Pneumoconiosis Medical Board constituted under the Rajasthan Workmen&#39;s Compensation (Occupational Diseases) Rules, 1965.\n1. The beneficiary cannot receive silicosis assistance amount from the Rajasthan Environment and Health Care Fund (Rehab).\n\n<br>\n\n**Note - A person suffering from silicosis will be eligible to get assistance only under any one of the schemes of Rajasthan Environment and Health Cess Fund or the Board.**",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "the-goa-state-incentives-to-encourage-investments-scheme",
+  "name": "The Goa State Incentives to Encourage Investments Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Financial Assistance for New/Non-Availing Units***\n\n- The maximum cumulative Financial benefit under schemes to all industries shall be 50% of the Cumulative Capital investment at original value in the unit.\n- This is increased to 70% of the Cumulative Capital investment at original value in the unit in case of lesser developed talukas.\n\n##### ***Financial Assistance for Substantial Expan",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stagea-copy-of-permanent-registration-certificate-or-entrepreneur",
+    "scheduled-tribe",
+    "or-woman-partnerpromoter-in-case-of-seeking-additional-benefit-under-these-categ",
+    "previous-benefits-availed",
+    "and-details-of-substantial-expansion-chartered-accountant-certificate-certifying"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/umbrella-amendment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tgsieis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a new or existing unit.\n\n- The applicant must be a manufacturing unit classified under the Micro or Small sector to be eligible for the target schemes, unless otherwise specified in the target scheme.\n\na)   The applicant must be a unit that is going into production on or after 01-10-2017.\nb)   The applicant must be a unit that has gone into production on or after 01-10-2007 but not availed of any of the benefit under the old schemes specified under Schedule B.\nc)   The applicant must be a unit that has gone into production on or after 01-10-2007 but not completely exhausted benefits of the old schemes to be eligible for continuing benefits to the extent specified in this scheme.\nd)   The applicant must be a unit that has started production after 01-10-2007 and has availed benefit under old schemes mentioned under Schedule B, and has carried out substantial expansion during the validity period of this scheme.\n##### ***Preference, Priority, and Reservation***\n\n- _The applicant may receive additional benefits if they are a woman entrepreneur._\n- _The applicant may receive additional benefits if they are a Scheduled Caste (SC) entrepreneur._\n- _The applicant may receive additional benefits if they are a Scheduled Tribe (ST) entrepreneur._\n- _The applicant may receive higher financial benefits (70% instead of 50%) if the unit is located in one of the lesser developed talukas: Pernem, Satari, Bicholim, Sanguem, Quepem, Canacona, and Dharbandora._\n\n<br>",
+  "_criteria_filled": 1
+}

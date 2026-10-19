@@ -1,0 +1,26 @@
+{
+  "id": "rmewf-financial-assistance-to-100-disabled-child-of-ex-servicemen",
+  "name": "RMEWF-Financial Assistance To 100% Disabled Child Of Ex-Servicemen",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹3000/- per month (paid annually) per child is provided to eligible ex-servicemen or their widows.\n- The financial assistance is non-transferable and will cease automatically upon the death of the child.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copies-of-the-following-documents-duly-attested-by-zila-sainik-welfare-officer-z"
+  ],
+  "apply_url": "https://ksb.gov.in/disabled-child-of-esm.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmewf-disabled-child",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following criteria must be fulfilled:-\n\n- Child must be a legitimate offspring of ESM/Widow.\n- ESM should be of the rank of JCO/equivalent of the Navy/Air Force and below.\n- The child should be 100% disabled.\n- Should not be in receipt of any disability benefit from any official agency.\n- Should be recommended by respective Zila Sainik Board (ZSB).\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "silicosis-financial-assistance-scheme",
+  "name": "Silicosis Financial Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** ₹1,00,000/- (one lakh rupees) per case.\n**Purpose:** Financial assistance to heirs of deceased workers who died due to silicosis.\n**Nature:** One-time payment as compensation.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-the-worker-medical-certificate-confirming-silicosis-as-caus"
+  ],
+  "apply_url": "https://grwwb.gujarat.gov.in/silicosis.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be the legal heir of a deceased person who was engaged in Akik occupation.\n- The applicant must be the heir of a self-reliant person who carried on occupation of Akik in Gujarat state.\n- The applicant must be the heir of a person who died due to serious disease of silicosis.\n- The applicant must be the heir of a worker whose death occurred due to occupational silicosis while engaged in Akik work.\n- The applicant must establish the occupational nature of the silicosis disease in relation to Akik work.\n\n<br>",
+  "_criteria_filled": 1
+}

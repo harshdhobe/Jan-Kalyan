@@ -1,0 +1,32 @@
+{
+  "id": "young-investigators-programme-in-biotechnology",
+  "name": "Young Investigators Programme in Biotechnology",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Young Scientists without fellowship/salary are eligible for a fellowship of ₹45,000/- plus 10% HRA per month, in addition to the support for travel, contingency, consumables, and minor equipment.\n   1. A Principal Investigator having a regular position can seek manpower.\n   1. Maximum support up to ₹30 lakhs (excluding overhead charges @ 10% of the project cost subject to a ceiling of ₹ 1.0 lak",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-passport-size-photographs-3-educational-certific",
+    "as-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/young-investigators-programme-in-biotechnology-yipb/",
+  "source_url": "https://www.myscheme.gov.in/schemes/yipb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should possess a Ph.D. in any branch of Life Sciences.\n2.\tThe applicant should possess three years of post-doctoral experience in Biotechnology.\n3.\tThe applicant should be less than 40 years of age.\n**Note:** Five years of relaxation in age would be available to scientists belonging to SC/ST/OBC, Women, and Physically Handicapped categories.",
+  "_criteria_filled": 2
+}

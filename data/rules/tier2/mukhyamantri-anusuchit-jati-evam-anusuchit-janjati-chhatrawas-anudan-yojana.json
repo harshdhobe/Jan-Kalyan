@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-anusuchit-jati-evam-anusuchit-janjati-chhatrawas-anudan-yojana",
+  "name": "Mukhyamantri Anusuchit Jati Evam Anusuchit Janjati Chhatrawas Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Grant of ₹1,000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "resident-proof-caste-certificate-proof-of-enrolment-in-a-recognized-educational"
+  ],
+  "apply_url": "https://state.bihar.gov.in/scstwelfare/Content.html?links&page=kichengarden",
+  "source_url": "https://www.myscheme.gov.in/schemes/majeajcay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a resident of Bihar state.\n1. The student belongs to the Scheduled Caste and Scheduled Tribe. \n1. The student should be enrolled and reside in hostels following the departmental guidelines and instructions operated by the Scheduled Caste and Scheduled Tribe Welfare Department.\n1. The student should be studying in a recognized course.\n1. The student should be studying in a recognized educational institution.",
+  "_criteria_filled": 1
+}

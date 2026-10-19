@@ -1,0 +1,44 @@
+{
+  "id": "financial-assistance-to-dramatic-troupes-participating-in-kala-academys-annual-t",
+  "name": "Financial Assistance to Dramatic Troupes participating in Kala Academy’s Annual Tiatr Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***1. Financial Support***\n\n- For improving aspects of Tiatr production, including Direction, Stage Setting, Live Band Music with at least 2 blowing instruments, Light Effects, Background Music, Costumes, Make-up, and Transport. \n- The extent of the financial support shall be fixed by Tiatr Academy of Goa.\n- Direct payment to the Institution based on submitted bills.\n\n***Conditions***\n_*The ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stagetyped-copy-of-tiatr-script-typed-copy-of-song-lyrics-self-at",
+    "number-of-cantos",
+    "and-if-comedy-is-related-to-the-play",
+    "as-filled-in-application-form-details-of-kantaram-including-number-of-solos",
+    "duets",
+    "duos",
+    "trios",
+    "quartetsquintets",
+    "and-choral-songs",
+    "as-filled-in-application-form-at-benefit-disbursal-stageoriginal-bills-for-servi",
+    "stage-setting",
+    "live-band-music",
+    "light-effects",
+    "background-music",
+    "costumes",
+    "make-up",
+    "transport-statement-of-expenditure-receipts-for-amounts-exceeding-5",
+    "000",
+    "receipts-must-be-stamped"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadtpkaatc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a dramatic troupe.\n- The applicant must be participating in the Tiatr Competitions organized by Kala Academy.\n- The applicant must fulfill the conditions laid down in the scheme as per the format enclosed.\n- The applicant&#39;s Tiatr script will be scrutinized by a scrutiny committee who will submit a report on whether the Tiatr is as per the format.\n- The applicant must ensure that one typed copy of the Tiatr script and one typed copy each of the lyrics of the songs are submitted to Tiatr Academy of Goa along with the application form.\n- The applicant must ensure that handwritten copies of scripts and lyrics will not be accepted.\n- The applicant&#39;s Tiatr, in any form either written or verbal, must not contain any adverse remarks against any Government/Individual/Institution, etc., or anything against one’s caste, creed, and religion which may lead to hurting of religious sentiments of anybody.\n- The applicant must compulsorily participate in workshops organized by Tiatr Academy of Goa by deputing at least one of the members of the troupe.\n\n<br>",
+  "_criteria_filled": 1
+}

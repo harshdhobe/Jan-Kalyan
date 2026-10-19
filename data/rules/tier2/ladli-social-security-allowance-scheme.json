@@ -1,0 +1,37 @@
+{
+  "id": "ladli-social-security-allowance-scheme",
+  "name": "Ladli Social Security Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "₹2,500/- per month for 15 years, after either of the two parents completes 45 years of age. \n**NOTE 1:** The benefit will be paid to the mother. In case the mother is deceased, the benefit will be paid to the father.\n**NOTE 2:** After 60 years the scheme will be converted to &amp;quot;Old Age Samman Allowance&amp;quot; scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-any-one-of-the-following-documents-issued-prior-to-24082018-birth-ce",
+    "birth-death-school-certificate-5th-class-or-8th-class-or-10th-class-driving-lice",
+    "haryana-voter-card-issued-by-election-department",
+    "haryana-name-of-the-applicant-in-the-voters-list-that-shows-a-photograph-issued",
+    "haryana-in-case",
+    "none-of-the-above-documents-is-available",
+    "an-applicant-will-give-a-self-declaration-document-along-with-any-other-document"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032595.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lssas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The biological single parent/parents of the family should be domiciled in Haryana or should be working for the Government of Haryana.\n  - The family should have no son, whether biological or adopted.\n  - The family should have one or more girl children.\n  - The gross annual income of the family, from all sources, should not exceed ₹2,00,000/-.\n\n**NOTE:** The benefit will be paid to the mother. In case the mother is deceased, the benefit will be paid to the father.",
+  "_criteria_filled": 2
+}

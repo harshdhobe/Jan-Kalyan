@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-for-purchase-of-battery-operated-vehicles",
+  "name": "Financial Assistance for Purchase of Battery Operated Vehicles",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Investment subsidy of ₹80,000/- is provided.\n- The subsidy is provided by the Ministry of New and Renewable Energy Sources, Government of India.\n- This investment subsidy is specifically provided only for Companies or Societies.\n\n##### ***Conditions***\n\n- _The applicant must provide a Promoter’s Contribution of 10% on the cost of the vehicle._\n- _The collateral security required in the form of i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-applicationcopy-of-the-proceedings",
+    "00",
+    "000",
+    "or-075-for-loans-above-25",
+    "00",
+    "000-a-50-concession-on-the-investigation-fee-is-granted-for-women-scheduled-cast",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-copy",
+    "patta-copy-and-legal-opinion-report-for-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapbov",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a resident of Puducherry. \n<br>",
+  "_criteria_filled": 1
+}

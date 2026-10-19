@@ -1,0 +1,26 @@
+{
+  "id": "orthodox-or-specialty-tea-production-subsidy-under-the-assam-tea-industries-spec",
+  "name": "\"Orthodox or Specialty Tea Production Subsidy\" under the \"Assam Tea Industries Special Incentives Scheme\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Benefit Amount:** ₹10/- per kilogram for Orthodox tea, Green tea, White tea, Oolong tea, Singhpo tea, Purple Tea, Yellow tea, or other Specialty tea\n**Special Rate:** ₹12/- per kilogram for applications of Financial Year 2023-24 only (tea production year 2022-23).\n**Validity Period:** Extended from Financial Year 2023-24 to 2027-28.\n**Disbursement Mode:** Direct Benefit Transfer as reimbursement",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "monthly-e-returns-of-tea-production-submitted-to-tea-board-india-tea-production"
+  ],
+  "apply_url": "https://atisis.assam.gov.in/atsisver/pdfView.html?filename=Notification_ATISIS_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ostps-atisis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**General Eligibility**\n\n- The applicant must be a tea plantation across all sizes\n- The applicant must be a tea manufacturing unit manufacturing Crush, Tear, Curl Tea, Orthodox Tea, or Speciality tea including Green tea, Oolong Tea, White tea, Yellow tea and Purple tea\n- The applicant must be located entirely in Assam\n- The applicant must not have any part of the plantation or manufacturing facility located outside the State of Assam\n\n<br>\n\n**Production Subsidy Specific Eligibility**\n\n- The applicant must be manufacturing Orthodox tea, Green tea, White tea, Oolong tea, Singhpo tea, Purple Tea, Yellow tea or other Speciality tea (not manufactured through Crush, Tear, Curl process).\n- The applicant must have started production on or after 1st of April, 2020.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "incentive-for-the-inter-caste-marriage-couple-scheduled-tribe",
+  "name": "Incentive For The Inter Caste Marriage Couple (Scheduled Tribe)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "An incentive of ₹5,50,000/- is provided to the married couple, i.e. ₹3,00,000/- for the bride and ₹2,50,000/- for the groom.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-marriage-proof-marriage-photo-income-certifica"
+  ],
+  "apply_url": "https://twd.karnataka.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifticmcst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The couple should be residing in Karnataka.\n1. The couple should belong to the Hindu religion.\n1. One spouse should belong to the Scheduled Tribe (ST) community. Other spouse should belong to a community other than Scheduled Tribe (ST).\n1. The combined annual income of the couple should be less than ₹5,00,000/-.\n1. The couple should apply to the scheme within 18 months of marriage.\n1. The non-ST partner should be a Hindu.\n1. The non-ST partner should belong to the Scheduled Caste (SC) category.\n1. The marriage should have taken place on or after 7th February 2019.",
+  "_criteria_filled": 2
+}

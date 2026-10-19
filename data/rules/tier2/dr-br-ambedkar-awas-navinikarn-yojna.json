@@ -1,0 +1,31 @@
+{
+  "id": "dr-br-ambedkar-awas-navinikarn-yojna",
+  "name": "Dr. B.R. Ambedkar Awas Navinikarn Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "The exact sum given by the government will be determined after a professional contractor's inspection, the minimum financial assistance offered is Rs 50,000, and it ranges up to Rs 80,000.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patrappp-reservation-certificate-if-any-caste-certificate-if-bel"
+  ],
+  "apply_url": "https://haryanascbc-gov-in.translate.goog/dr-br-ambedkar-awas-navinikarn-yojna?_x_tr_sch=http&_x_tr_sl=hi&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc",
+  "source_url": "https://www.myscheme.gov.in/schemes/braany",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be been person amongst Scheduled Castes.\n- The applicant should have a plot of 50 sq.yard in rural areas and 35 sq.yard in urban areas.\n- The applicants should be a permanent resident of Haryana.\n- The applicants should be included under the Below Poverty Line family list.\n- The applicant must have a bank account to receive the money.\n\n<br>",
+  "_criteria_filled": 2
+}

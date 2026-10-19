@@ -1,0 +1,26 @@
+{
+  "id": "training-programme-for-entrepreneurship-development-in-biotechnology",
+  "name": "Training Programme for Entrepreneurship Development in Biotechnology",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this training programme, training and technical information are provided to the youth of the state to promote entrepreneurship development and support them in establishing startups in the field of biotechnology, along with guidance as per their specific needs.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-uttarakhand-council-for-biot"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tpedb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand. \n1. The applicant must be a student or researcher at the graduate, postgraduate, or Ph.D. level in Biotechnology, Microbiology, Molecular Biology, Genetic Biology, Environmental Biology, or related subjects.\n\n<br>",
+  "_criteria_filled": 1
+}

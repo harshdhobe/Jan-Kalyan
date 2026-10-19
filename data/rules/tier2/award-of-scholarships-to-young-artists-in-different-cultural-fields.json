@@ -1,0 +1,39 @@
+{
+  "id": "award-of-scholarships-to-young-artists-in-different-cultural-fields",
+  "name": "Award Of Scholarships To Young Artists In Different Cultural Fields",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Under the scheme, total number of scholarships is 400.\n1. Each scholar will be paid ₹5000/- per month for a period of two years to cover his/ her living expenses on travel, books, art material, or other equipment and tuition or training charges, if any.\n1. The scholarships are provided in the field of Indian Classical Music, Classical Dances, Light Classical Music, Theatre, Visual Arts, and Fol",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-one-self-attested-copy-of-education-qualifications-degrees",
+    "diplomas",
+    "etc",
+    "experiences",
+    "etc-one-self-attested-copy-of-the-matriculation-or-equivalent-certificate-or-oth",
+    "sculpture",
+    "and-applied-arts",
+    "they-are-required-to-come-with-self-attested-copies-of-photographs-of-the-origin",
+    "the-candidates-should-have-undergone-a-minimum-of-5-years-of-training-with-their"
+  ],
+  "apply_url": "https://culture.gov.in/files/downloads_document/Application_Form_for_SYA_Scheme_2025-26_10112025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/asyadcf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Candidates should be Indian Nationals.\n   1. Candidates should have adequate general education to pursue their training effectively.\n   1. Candidates must give evidence of their desire to make the pursuit of their training effectively.\n   1. As the scholarships are meant for advanced training and not for beginners, candidates must have already acquired a degree of proficiency in the chosen field.\n   1. The candidate should have undergone a minimum of 5 years of training with their Guru/Institutes. The Certificate duly signed by the present Guru / Institute and former Guru/ Institute (if any) should be submitted along with the application.\n   1. Candidates should have adequate knowledge of the connected arts/ disciplines.\n   1. The candidate&amp;#39;s age should not be less than 18 years and not more than 25 years as of 1st April of the year in which the application is being made. Age relaxation is not permissible.",
+  "_criteria_filled": 2
+}

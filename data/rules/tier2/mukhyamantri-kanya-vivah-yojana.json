@@ -1,0 +1,46 @@
+{
+  "id": "mukhyamantri-kanya-vivah-yojana",
+  "name": "Mukhyamantri Kanya Vivah Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under the scheme, an amount of ₹5,000/- will be given at the time of marriage of the girl child.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-basic-address-proof-caste-certificate-bpl-ration-card-date-of-birth"
+  ],
+  "apply_url": "https://serviceonline.bihar.gov.in/viewServiceApplicationForm.do?serviceId=8930001&tempId=2959&templStatus=243&state=10&backButtonUrl=&OWASP_CSRFTOKEN=JKAS-5G5F-YK7W-81YZ-LMMJ-ZBTH-VGKQ-QQ8P",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl who is 18 years of age or older at the time of application.\n1. The applicant should be a native of Bihar.\n1. The applicant&#39;s family should be Below Poverty Line (BPL) card holders.\n1. The annual income of the applicant&#39;s family should not exceed ₹60,000/-.\n1. The applicant should be marrying a boy who is 21 years of age or older.\n\n<br>",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,37 @@
+{
+  "id": "short-term-professional-training-courses",
+  "name": "Short Term Professional Training Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **List of Courses**\n\n1. Motor Driving Training Course.\n1. Tailoring Course.\n1. Cookery and Bakery Courses.\n1. Beautician Course.\n1. Mobile Repairing Courses.\n1. Computer Courses.\n\n<br>\n\n> **Quantum of Financial Assistance**\n\n1. Financial assistance will be given to complete any one course with a maximum limit of ₹ 5,000/-.\n1. 50% of the actual fees with a limit of ₹ 2,500/- shall be released as ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "scheduled-tribe-certificate-issued-by-the-competent-authority-of-the-state-of-go",
+    "if-any-learning-licence-in-case-of-motor-driving-course-aadhar-card-copy-one-pas"
+  ],
+  "apply_url": "https://tribalwelfare.goa.gov.in/images/2019/uploads/Notification_STPT_Yojana_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stptc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Tribe Community of Goa.\n1. The applicant shall be above 18 years of age and below the age of 50 years.",
+  "_criteria_filled": 3
+}

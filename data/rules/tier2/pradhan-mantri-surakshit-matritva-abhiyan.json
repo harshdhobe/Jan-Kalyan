@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-surakshit-matritva-abhiyan",
+  "name": "Pradhan Mantri Surakshit Matritva Abhiyan",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "##### ***Medical Services Provided***\n\n- **Comprehensive Antenatal Care:** Special Antenatal Care services provided by Obstetrics and Gynaecology specialists, Radiologists, and Physicians at government health facilities.- **Minimum Package of Services:** A minimum package of investigations and medicines such as Iron Folic Acid and calcium supplements provided to all pregnant women attending Pradha",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "at-health-facility-visit-mother-and-child-protection-card-if-available-aadhaar-c"
+  ],
+  "apply_url": "https://pmsma.mohfw.gov.in/wp-content/uploads/2016/09/Pradhan_Mantri_Surakshit_Matritva_Abhiyan-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a pregnant woman in her 2nd or 3rd trimester of pregnancy.\n- The applicant must be an Indian citizen residing in India.\n- The applicant must be willing to visit designated government health facilities on the 9th of every month.\n\n##### ***Trimester Specific Criteria***\n\n- The applicant must have completed the first trimester of pregnancy (beyond 12 weeks of gestation).\n- The applicant must be in 2nd trimester (13-28 weeks) or 3rd trimester (29-40 weeks) of pregnancy.\n\n##### **Special Categories**\n\n- The applicant identified as high-risk pregnancy cases receive priority attention and follow-up care.\n- The applicant who are dropouts from regular antenatal care services are encouraged to participate.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "state-senior-citizens-home",
+  "name": "State Senior Citizens Home",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "- Safe and secure living space for homeless elderly residents.\n- Recreational and wellness programs to enhance quality of life.\n- Access to essential amenities and supportive care.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "vc-or-local-council-letter-branch-yma-recognition-letter-doctors-letter-as-avail"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/page/old-age-home",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Mizoram.\n1. The applicant&#39;s age should be 60 years or older.\n1. The applicant should have no supporter/relative. \n\n<br>",
+  "_criteria_filled": 2
+}

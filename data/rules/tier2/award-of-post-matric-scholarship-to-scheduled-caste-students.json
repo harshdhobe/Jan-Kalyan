@@ -1,0 +1,38 @@
+{
+  "id": "award-of-post-matric-scholarship-to-scheduled-caste-students",
+  "name": "Award of Post-Matric Scholarship to Scheduled Caste Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Admissable fee fixed by Fee Committee. Reimbursement charged by the institution and award of maintenance allowance for hostlers or day scholars.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-caste-certificate-recent-passport-size-photogr",
+    "2-higher-secondary-hsc",
+    "degree-diploma",
+    "etc",
+    "in-respect-of-exam-passed-in-the-absence-of-an-aadhaar-card",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/apmsscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Scheduled Caste.\n- The applicant should be a student studying at the Post-Matric level or Post Secondary Stage.\n- The applicant should be a Native/Resident of the Union Territory of Puducherry for not less than 5 years.\n- The annual income should not exceed ₹ 2,00,000/-.",
+  "_criteria_filled": 2
+}

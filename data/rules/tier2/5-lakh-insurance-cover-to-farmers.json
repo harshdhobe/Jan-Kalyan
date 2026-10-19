@@ -1,0 +1,41 @@
+{
+  "id": "5-lakh-insurance-cover-to-farmers",
+  "name": "₹ 5 Lakh Insurance Cover To Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "1. **Financial Security:** Provides ₹5 lakh insurance coverage to farmers&#39; families in case of the farmer&#39;s death, offering substantial financial assistance.\t1. **Inclusive Coverage:** Covers death due to any cause, including natural causes and accidents.\t1. **Quick Disbursement:** Ensures compensation is paid to the nominee within 10 days of the farmer&#39;s death.\t1. **Zero Cost to Farme",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "since-the-5-lakh-insurance-cover-for-farmers-scheme-does-not-require-farmers-to",
+    "there-is-no-need-for-the-farmers-to-submit-documents-for-enrollment-the-state-go",
+    "in-case-of-a-claim-due-to-the-death-of-a-farmer",
+    "the-following-documents-are-required-for-the-nominee-to-receive-the-5-lakh-compe",
+    "voter-id",
+    "etc-proof-of-nomination-if-applicable-farmers-aadhaar-card-or-other-identificati"
+  ],
+  "apply_url": "https://gadwal.telangana.gov.in/scheme/rs-5-lakh-insurance-cover-to-farmers/",
+  "source_url": "https://www.myscheme.gov.in/schemes/farmer-insurance",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident farmer of Telangana.\n1. The applicant should be aged between 18 and 60 years.",
+  "_criteria_filled": 3
+}

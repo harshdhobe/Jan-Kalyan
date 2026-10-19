@@ -1,0 +1,26 @@
+{
+  "id": "fee-waiver-scheme-for-scst-students-pursuing-higher-education",
+  "name": "Fee Waiver Scheme For SC/ST Students Pursuing Higher Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. A full waiver of the fees supposed to have been paid by them in the institutions where they have sought admissions. \n1. The amount fee waiver shall consist of Tuition fees, Library fees, Laboratory fees and Development fees, if any.\n\n**NOTE:** All other charges and fees would be borne by the concerned student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-caste-certificate-proof-of-educational-qualification-proof-of"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/Dayanand-Bandodkar-Scheme-for-Orphans.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fwsscstsphe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have been born in Goa or resident of Goa for at least last fifteen years.\n1. The applicant should have passed his/her qualifying examination from any of the institutions located in Goa.\n1. The applicant should belong to the SC/ST Community of Goa.\n1. The applicant should be enrolled for the First Year of their Degree/PG Courses.",
+  "_criteria_filled": 1
+}

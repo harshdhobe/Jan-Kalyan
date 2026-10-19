@@ -1,0 +1,28 @@
+{
+  "id": "chief-ministers-health-insurance-scheme-nagaland",
+  "name": "Chief Minister’s Health Insurance Scheme - Nagaland",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "household",
+  "benefit": "All beneficiaries of the scheme are entitled to free and cashless hospitalization care for various ailments including pre-existing conditions/diseases, which can be availed from any empanelled hospital across the country. The treatment will include both surgical and medical procedures and limited day-care packages. However, OPD services and standalone diagnostics investigations will not be covered",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-mandatory-kyc-document-required-for-cmhis-gen-cat",
+    "countersigned-by-village-council-chairmanward-chairman-mandatory-kyc-document-re",
+    "last-pay-scale-or-designation-of-the-post-held-or-last-pay-is-drawn-prior-to-ret"
+  ],
+  "apply_url": "https://cmhis.nagaland.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhisn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \nThe Chief Minister Health Insurance Scheme is available to all permanent and indigenous residents of Nagaland. They are divided into two categories: \n**1. For CMHIS (EP):**\n- The applicant should be a government employee, pensioner, or dependent family member.\n- The applicant should possess valid supporting documents such as the PIMS Code, PPO book, Aadhaar card, and certificates for dependents.\n**2. For CMHIS (GC):**\n- The applicant should be an Indigenous Inhabitant or Permanent Resident of Nagaland not covered under AB PM-JAY.\n- The applicant should possess an Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, along with an Aadhaar card and valid mobile number.",
+  "_criteria_filled": 1
+}

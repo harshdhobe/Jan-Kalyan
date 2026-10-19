@@ -1,0 +1,26 @@
+{
+  "id": "market-development-assistance-to-msmes-assistance-to-organizers-for-organizing-i",
+  "name": "Market Development Assistance to MSMEs: Assistance to Organizers for Organizing Industrial Exhibitions in Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Electricity Cost Reimbursement:** 60% of the electricity bill incurred during the exhibition and pre-preparation period will be reimbursed.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "prior-approval-letter-from-the-msme-commissioner-electricity-consumption-bills-f"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/5-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdameao",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The organizer must be an industry association, federation of industries association, or chamber of commerce.\n   1. The exhibition must be organized in the interest of the manufacturing sector.\n   1. Prior approval from the MSME Commissioner is mandatory.\n   1. The exhibition must be held during the policy period.\n   1. Reimbursement will be based on the actual expenditure incurred.",
+  "_criteria_filled": 1
+}

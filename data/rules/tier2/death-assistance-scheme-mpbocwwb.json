@@ -1,0 +1,26 @@
+{
+  "id": "death-assistance-scheme-mpbocwwb",
+  "name": "Death Assistance Scheme (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Funeral Assistance:** ₹6,000/-\n**Ex-gratia Payment:**\n\n1. In case of normal death: ₹2,00,000/-\n1. In case of death due to accident: ₹4,00,000/-\n1. In case of permanent disability due to accident: ₹2,0,000/-\n1. In case of partial permanent disability due to accident: ₹1,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-nomineelegal-heirs-passport-size-photograph-proof"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/MratyuSahayta.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dasmpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker must have passed away while he/she was registered with the Madhya Pradesh Building and Other Construction Workers Welfare Board (MPBOCWWB) when he/she died.\n   1. The construction worker must have passed away while he/she held an active regular membership with the MPBOCWWB.\n   1. Only the legal heir or dependent family member of the deceased registered worker is eligible to apply for benefits under the scheme.\n   1. The construction worker must have passed away while he/she had a valid identity card.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mukhyamantri-majhi-ladki-bahin-yojana",
+  "name": "Mukhyamantri - Majhi Ladki Bahin Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- **Financial Assistance of ₹1,500/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-the-beneficiary-woman-aadhaar-card-domicile-certificate-if-the-dom",
+    "any-one-of-the-following-can-be-submitted-ration-card-issued-before-15-years",
+    "voter-id-card-issued-before-15-years",
+    "birth-certificate",
+    "or-school-leaving-certificate-for-women-born-abroad-submit-the-husbands-ration-c",
+    "voter-id-card-issued-before-15-years",
+    "birth-certificate",
+    "school-leaving-certificate",
+    "or-domicile-certificate-income-certificate-not-required-if-the-woman-has-a-yello",
+    "your-husbands-ration-card-can-be-used-as-proof-of-income-bank-account-details-ac"
+  ],
+  "apply_url": "https://ladlibahinstorage.s3.ap-south-1.amazonaws.com/site-pdf/%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%95+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A6%E0%A4%BF.%E0%A5%A8%E0%A5%AD.%E0%A5%A6%E0%A5%AD.%E0%A5%A8%E0%A5%AA.pdf#toolbar=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmlby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female.\n1. The applicant should be a resident of Maharashtra state.\n1. The applicant&#39;s age should be between 21-65 years.\n1. The applicant should have their bank account with an Aadhaar link.\n1. The annual income of the applicant&#39;s family should not exceed ₹2,50,000/-. \n1. Outsourced employees, voluntary workers, and contract workers with income up to ₹2,50,000/- are eligible.\n1. The applicant should be any one of the following:\n\n  - Married Woman \n  - Widowed \n  - Divorced Woman\n  - Abandoned and Destitute Women \n  - One Unmarried Woman in the family",
+  "_criteria_filled": 5
+}

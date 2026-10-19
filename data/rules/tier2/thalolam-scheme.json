@@ -1,0 +1,36 @@
+{
+  "id": "thalolam-scheme",
+  "name": "Thalolam Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. A patient will be eligible for initial assistance of ₹50,000/- only under this scheme.\n   1. Under the scheme, free treatment will be provided to the children below age of 18, who are suffering from Kidney diseases, Cardiovascular diseases, Cerebral Palsy, Brittle Bone Disease, Hemophilia, Thalassemia, Sickle Cell Anemia, Orthopedic deformities and other Neuro-Developmental Disabilities, Congen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-proof-of-identity-of-patient-2-proof-of-age-of-the-patient-3-i"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/scheme_info.php?id=Mg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ts-kerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State and the scheme is applicable only to patients from Kerala.\n   1. The patient should be below 18 years of age.\n   1. The scheme is applicable to patients belonging to families too poor to afford treatment of the Below Poverty Line (BPL) category.\n   1. Under this scheme, assistance will be provided to the patient for diseases other than cancer which are lethal or fatal.",
+  "_criteria_filled": 3
+}

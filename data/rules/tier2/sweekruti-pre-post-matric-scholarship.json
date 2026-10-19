@@ -1,0 +1,33 @@
+{
+  "id": "sweekruti-pre-post-matric-scholarship",
+  "name": "Sweekruti: Pre & Post Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "<br>\n\n**Category****Rate/ Per Month**Pre-Matric (From Std. V to X) ₹1,000/-Post-Matric (From Std. XI-XII)₹1,500/-General Graduate/ Post Graduate Courses₹2,000/-Professional Degrees/ Diplomas/ Certificates₹2,500/-Open University/ Non-formal Courses₹3,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 240000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-in-odisha-admission-letter-from-a-recognized-educational-inst",
+    "40",
+    "000-certificate-of-non-receipt-of-financial-assistance-from-any-other-state-or-c"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20Sweekruti.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sppms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a bonafide resident of Odisha.\n  - The applicant must be a transgender person.\n  - The applicant must be a regular student at a recognized educational institution.\n  - The applicant’s family income should not exceed ₹2,40,000/- per annum.\n  - The applicant must not be receiving financial assistance from any other State or Central Government scheme.",
+  "_criteria_filled": 2
+}

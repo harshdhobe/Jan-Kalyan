@@ -1,0 +1,26 @@
+{
+  "id": "punjabi-language-scholarship-scheme",
+  "name": "Punjabi Language Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Scholarship Amount:**\n\n1. ₹ 50/- per month for students of Class IX &amp; X.\n1. ₹ 75/- per month for students of Class XI &amp; XII.\n\n> **Mode of Disbursement:**\n\n> Scholarships are directly transferred to the student&#39;s bank account.\n\n> **Frequency of Disbursement:**\n\n> Scholarships are disbursed monthly.\n\n> **Validity:**\n\n> Scholarships are renewed in the next classes based on satisfactory ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-school-identity-card-previous-years-marksheet-certifying-punjabi-su"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3cf2226ddd41b1a2d0ae51dab54d32c36/uploads/2021/06/2021060221.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eeepl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have secured merit in Punjabi subject in 8th Class or 10th Class examination conducted by Haryana Board of School Education, Bhiwani.\n1. The applicant should continue studying Punjabi subject in 9th Class and 11th Class.",
+  "_criteria_filled": 1
+}

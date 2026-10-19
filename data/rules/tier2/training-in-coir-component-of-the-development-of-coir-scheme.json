@@ -1,0 +1,36 @@
+{
+  "id": "training-in-coir-component-of-the-development-of-coir-scheme",
+  "name": "“Training in Coir” Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Stipend of ₹1,500 per month per trainee during the 6-month training period.\n- An honorarium of ₹300 per month per trainee for the trainer, with a maximum of ₹3,000 per month.\n- Compensation for wastage of raw materials: ₹200 per month per trainee, with a maximum of ₹2,000 per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-for-verifying-native-or-continuous-residency-age-proof-e"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/coir.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/ticcotdocs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a native of Puducherry Union Territory or a continuous resident for the past three years.\n- The applicant should be between 18 to 35 years of age.\n- The applicant should be literate.\n- The applicant should not have already been trained through this scheme.",
+  "_criteria_filled": 3
+}

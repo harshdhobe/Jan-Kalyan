@@ -1,0 +1,36 @@
+{
+  "id": "appointment-of-contract-sports-coaches",
+  "name": "Appointment of Contract Sports Coaches",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Every year, around 250 coaches benefit from these training camps and gain employment.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-is-required-in-accordance-with-the-departments-guideline"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ckpkn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a sportsperson or a coach from Uttarakhand.\n   1. The applicant must be between 21 and 70 years of age.\n   1. The applicant must possess the relevant educational and sports qualifications.\n   1. The sports coach is not required to be a domicile or permanent resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 3
+}

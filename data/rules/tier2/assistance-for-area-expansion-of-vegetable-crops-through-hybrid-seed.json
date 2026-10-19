@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-area-expansion-of-vegetable-crops-through-hybrid-seed",
+  "name": "Assistance for Area Expansion of Vegetable Crops through Hybrid Seed",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Subsidy Assistance for Area Expansion Using Hybrid Seeds:** 40% of unit cost or up to ₹20,000/- per hectare, whichever is less.- **Promotion of Natural Farming in Vegetable Crops:** Maximum Assistance: ₹20,000/- per hectare.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/aaevcths",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a farmer.\n\n- The applicant should be engaged in vegetable crop cultivation.\n\n<br>",
+  "_criteria_filled": 1
+}

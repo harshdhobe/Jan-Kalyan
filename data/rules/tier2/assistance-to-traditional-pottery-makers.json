@@ -1,0 +1,33 @@
+{
+  "id": "assistance-to-traditional-pottery-makers",
+  "name": "Assistance to Traditional Pottery Makers",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The financial assistance of ₹25,000/- will be provided to the Traditional Pottery Makers for upgrading the occupation and purchasing machinery.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-identity-proof-2-copy-of-aadhaar-card-3-photo-of-the-applicant-4-c",
+    "if-applicable-10-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://bcdd.kerala.gov.in/wp-content/uploads/2021/07/Assistance-to-Traditional-Pottery-Makers-Application-Form-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atpm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of the Kerala State.\n2.\tThe applicant should belong to the State Backward Community of Kerala State.\n3.\tThe applicant should be currently engaged in a traditional pottery-making occupation.\n4.\tThe annual family income of the applicant should be ₹1,00,000/-.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chief-ministers-scholarship-scheme",
+  "name": "Chief Minister's Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "An eligible student shall be awarded a fixed scholarship of ₹6,000/- (Rupees six thousand only) per annum.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-upload-the-following-documents-at-the-time-of-applica",
+    "as-it-will-facilitate-verification-of-credentials-b-mark-sheet-of-the-previous-a"
+  ],
+  "apply_url": "https://megeducation.gov.in/edu_dept/notices_and_circulars/2025/CM%20Scholarship%20guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be a domicile of Meghalaya.\n1. The student must have a valid bank account, mobile number, and email ID.\n1. Students pursuing part-time or correspondence courses are not eligible.\n1. The student must have secured at least 35% marks in the preceding academic year.\n1. The scholarship is available only to students pursuing full-time regular courses in recognized institutions, including:\n\ni) Government institutes/colleges/universities\nii) Institutions of National Importance\niii) Central/State Universities; autonomous colleges recognized by UGC; and institutions recognized under Section 2(f) and/or 12(b) of the UGC Act\niv) Deemed Universities\nv) Private universities/institutions affiliated with Central/State Universities\nvi) Government/Government-aided/Private schools (for Classes XI and XII)\nvii) State/UT-recognized diploma-granting institutions\nviii) NCVT-affiliated vocational training institutes\nix) Institutions recognized by regulatory bodies such as MCI, AICTE, etc.\n**Cancellation of Scholarship:**\nThe Directorate reserves the right to cancel the scholarship under the following circumstances:\n(a) If the student is involved in misconduct or disciplinary proceedings, as reported by the concerned institution.\n(c) If the student is found to be ineligible at any stage, either during verification or thereafter. In such cases, the student shall be liable to refund the entire scholarship amount received.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

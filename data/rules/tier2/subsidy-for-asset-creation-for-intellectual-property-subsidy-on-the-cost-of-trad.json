@@ -1,0 +1,31 @@
+{
+  "id": "subsidy-for-asset-creation-for-intellectual-property-subsidy-on-the-cost-of-trad",
+  "name": "Subsidy for Asset Creation for Intellectual Property: Subsidy on the Cost of Trade Mark Registration or Geographical Indications (GI) in India or Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "50% subsidy on the cost of applying for Trade Mark Registration including the cost of the first-time maintenance fee of the granted application, subject to a maximum of ₹ 25, 000/- per Trade Mark or Geographical Indications registered.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-copy-of-products-registered-under-trade-m",
+    "1999-self-certified-statement-on-expenditure-incurred-for-obtaining-geographical",
+    "etc-in-case-of-non-availability-of-receipts",
+    "the-bank-scroll-that-shows-the-payment-details-copy-of-loan-sanction-letter",
+    "if-availed",
+    "for-obtaining-the-registration-purpose-from-bankfinancial-institutions-copy-of-i"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/patent_trade.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/sacipsctmrgiia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All new and existing micro, small and medium manufacturing enterprises including clusters located anywhere in Tamil Nadu.",
+  "_criteria_filled": 1
+}

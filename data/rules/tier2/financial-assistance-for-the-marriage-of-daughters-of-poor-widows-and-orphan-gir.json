@@ -1,0 +1,45 @@
+{
+  "id": "financial-assistance-for-the-marriage-of-daughters-of-poor-widows-and-orphan-gir",
+  "name": "Financial Assistance For The Marriage Of Daughters Of Poor Widows And Orphan Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "The quantum of Assistance is one-time ₹ 30,000/- up to two daughters only.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "the-application-shall-contain-the-recommendation-from-the-member-of-the-legislat",
+    "a-copy-of-the-ration-card-or-voter-identity-card-or-any-proof-of-residence",
+    "a-self-declaration-with-regard-to-the-income-of-the-applicant-age-proof-of-the-g",
+    "an-affidavit-on-stamp-paper-duly-attested-by-a-metropolitan-or-executive-magistr",
+    "such-persons-or-guardians-should-submit-the-affidavits-to-the-effect-that-the-gi",
+    "non-govt-organization",
+    "municipal-corporation-of-delhi-or-new-delhi-municipal-corporation",
+    "or-any-other-statutory-or-non-statutory-agency-for-this-purpose-aadhar-card-resi",
+    "a-caste-certificate-in-the-name-of-the-applicant-issued-by-a-competent-authority",
+    "and-in-the-case-of-minority-applicants-self-declaration-of-the-religion-of-the-a"
+  ],
+  "apply_url": "https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/adharnotificationwidowandwdmscheme2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/famdpwog",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Financial assistance can be granted for performing marriage up to two daughters only. \n1. Residence of a minimum of 5 years in Delhi before the date of application. \n1. The income of the applicant should be less than ₹ 1,00,000/-per year from all sources (including rent, interest/dividends on savings &amp; investments, earnings from the farm, property sale proceeds, etc.) of the applicant. \n1. Applicant should have an Aadhar number \n1. The Applicant should have a single-operated Aadhaar-linked account with any bank in the NCT of Delhi only. \n1. The applicant should not be in receipt of any assistance from the discretionary fund of the Lt. Governor or the Chief Minister of Delhi for the same purpose. \n1. The girl whose marriage is to be solemnized should be major on the date of marriage i.e. above 18 years of age. \n1. The application must be submitted within a period of sixty days, before or after the date of the marriage being solemnized.",
+  "_criteria_filled": 3
+}

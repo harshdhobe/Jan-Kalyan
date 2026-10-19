@@ -1,0 +1,31 @@
+{
+  "id": "incentive-for-the-simple-marriage",
+  "name": "Incentive For The Simple Marriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Financial Incentives: The scheme provides a financial incentive of Rs. 50,000.00 to eligible Simple Married Couples belonging to the SC community.\nPromotes Simple Marriages: The scheme aims to promote the concept of simple marriages, which can help reduce the financial burden on families and promote equality in society.\nEligibility Criteria: The eligibility criteria for the scheme are straightforw",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-rd-number-of-caste-certificate-rd-number-of-income-certificate-copy"
+  ],
+  "apply_url": "https://sw.kar.nic.in/swincentive/SIM/SmHome.aspx#:~:text=Incentive%20For%20The%20Simple%20Marriage&text=Scheme%20is%20applicable%20for%20within,not%20eligible%20for%20this%20scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/iftsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Karnataka State Resident: The applicant must be a resident of Karnataka state.\n1. SC Community: The applicant must belong to the SC community.\n1. Family Income: The family income from all sources should not exceed Rs. 2 lakhs per annum.\n1. Time Limit: The scheme is applicable only within 1 year of the marriage.",
+  "_criteria_filled": 2
+}

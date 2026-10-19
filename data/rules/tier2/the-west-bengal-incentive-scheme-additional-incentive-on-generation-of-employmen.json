@@ -1,0 +1,37 @@
+{
+  "id": "the-west-bengal-incentive-scheme-additional-incentive-on-generation-of-employmen",
+  "name": "The West Bengal Incentive Scheme: Additional Incentive on Generation of Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- Group A, B, C &amp; D areas: 60% for a period of 5 years\n- Special Areas: 60% for a period of 10 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-the-registration-and-eligibility-certificate-form-ia-copy",
+    "photocopy-of-sanction-letter-from-the-central-financial-institutionstate-financi",
+    "conversion-certificate",
+    "site-plan",
+    "clearance-from-ma-deptt-etc-all-applicable-clearance-from-govt-authorities-fores",
+    "crz",
+    "police",
+    "etc-sarai-registration-certificate-under-bengal-sarai-regulation-act-in-case-hot",
+    "their-age",
+    "date-of-appointment",
+    "nature-of-appointment-and-nature-of-work-employment-exchange-card-number-and-att",
+    "esi-as-per-annexure-a-format-is-available-for-download-in-the-attachment-section"
+  ],
+  "apply_url": "https://westbengalincentive21.wb.gov.in/files/contents/notification_wbis_2021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbisaige",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all eligible tourism projects/units/expansion projects of existing units set up on or after the effective date (i.e. 22nd February, 2021)  of this incentive scheme.\n\n       Or,\n\n  - Eligible Hotel Units who started their commercial operation on or after 7th January, 2015 to 31st December, 2020 but could not apply under previous scheme 2015 due to absence of a Bar in the Hotel.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the West Bengal Tourism Development Corporation Limited on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "transgender-utthan-kosh-collegehighertechnical-educational-fees-refund-for-trans",
+  "name": "Transgender Utthan Kosh - College/Higher/Technical Educational Fees Refund for Transgender Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "***Educational Fee Refund:***\n\n- Full reimbursement of prescribed fees is provided for transgender students enrolled in schools, colleges, or technical institutes pursuing higher or technical education.\n\n***Direct Bank Transfer:*** \n\n- The amount is credited directly to the beneficiary&#39;s bank account after verification.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "transgender-identity-certificate-school-enrollment-certificate-previous-years-ma"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110051259226370.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tuk-chterts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should belong to the transgender community.\n1. The applicant should be pursuing a higher or technical course.\n1. The applicant should be enrolled in a recognized school, college, or technical education institute in Rajasthan.\n1. The applicant’s family annual income should not exceed ₹8,00,000/-.",
+  "_criteria_filled": 2
+}

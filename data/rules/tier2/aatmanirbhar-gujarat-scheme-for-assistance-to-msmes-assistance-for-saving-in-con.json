@@ -1,0 +1,29 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-saving-in-con",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Saving in Consumption of Energy and Water",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Energy/Water Audit Reimbursement:**\n\n  - 75% of the cost of an energy/water audit, up to ₹50,000/- will be reimbursed.\n  - Reimbursement is available once during the operative period of the scheme.\n\n> **Equipment Cost Assistance:**\n\n  - 25% of the cost for equipment recommended by the audit authority, up to ₹20,00,000/-, is eligible for assistance.\n  - Assistance is available once during the s",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "such-as-electricity-bill",
+    "water-bill-copy-of-gpcb-approved-nocconsent-other-departments-approval-if-applic",
+    "promotersdirectorspartners-and-authorized-signatory-copy-of-gst-registration-if"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmeae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise in the service sector.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. Enterprises must have undergone an energy/water audit conducted by a recognized institution/consultant to qualify for the audit reimbursement.\n   1. Enterprises must demonstrate a minimum 10% reduction in energy/water consumption, based on the audit findings, to qualify for equipment assistance.",
+  "_criteria_filled": 1
+}

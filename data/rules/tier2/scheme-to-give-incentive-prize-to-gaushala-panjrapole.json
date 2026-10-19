@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-give-incentive-prize-to-gaushala-panjrapole",
+  "name": "Scheme to Give Incentive-Prize to Gaushala/ Panjrapole",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- First Rank: ₹1,50,000/- for the top-ranked Gaushala/Panjrapole.\n  - Second Rank: ₹1,00,000/- for the second-ranked Gaushala/Panjrapole.\n  - Third Rank: ₹50,000/- for the third-ranked Gaushala/Panjrapole.\n  - Frequency: The incentive prizes are awarded once every 3 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-under-the-public-charity-act-any-other-documents-as-req"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=VBmlBmd+scMV9XoODqMfYw==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgipgp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Gaushalas and panjarapol must be registered under the Charity Act.",
+  "_criteria_filled": 1
+}

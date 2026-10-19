@@ -1,0 +1,31 @@
+{
+  "id": "aam-aadmi-bima-yojana",
+  "name": "Aam Aadmi Bima Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "&gt; **Life Insurance Coverage:**\n\n  - Natural death: ₹30,000/-\n  - Death due to accident: ₹75,000/-\n\n&gt; **Disability Benefits:**\n\n  - Total permanent disability (loss of two eyes or two limbs) due to accident: ₹75,000/-\n  - Partial permanent disability (loss of one eye or one limb) due to accident: ₹37,500/-\n\n**Scholarship:**\n\n  - Two children of the beneficiary studying between 9th to 12th Sta",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsration-card-extract-from-birth-register-extract-from-school-cer"
+  ],
+  "apply_url": "https://labour.gov.in/schemes/aam-admi-beema-yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/aaby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be aged between 18 and 59 years.\n  - The applicant should normally be the head of the family or an earning member.\n  - The applicant’s family should be categorized as below the poverty line (BPL) or marginally above the poverty line.\n  - The applicant should belong to an identified occupational or vocational group.\n  - The applicant should be part of a rural landless household.",
+  "_criteria_filled": 2
+}

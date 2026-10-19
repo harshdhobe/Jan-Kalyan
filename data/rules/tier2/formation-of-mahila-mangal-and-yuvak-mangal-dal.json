@@ -1,0 +1,31 @@
+{
+  "id": "formation-of-mahila-mangal-and-yuvak-mangal-dal",
+  "name": "Formation of Mahila Mangal and Yuvak Mangal Dal",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "It is mandatory to form a group in order to avail the benefits of various schemes of the Youth Welfare and PRD Department and to collectively undertake any business activity.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-other-document-if-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmeymdkg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an interested woman or man.\n1. The applicant must be a resident of a Gram Panchayat in Uttarakhand.\n1. The applicant must be above 18 years of age.\n\n<br>",
+  "_criteria_filled": 2
+}

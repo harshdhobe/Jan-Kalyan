@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-cycle-with-ice-boxes-haryana",
+  "name": "PMMSY: Cycle with Ice Boxes-Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The scheme provides a subsidy for the cycle with ice boxes for fisheries activities. \n- The project cost is ₹0.10/- lakh per unit.\n- The subsidy will be limited to 40% of the project cost for beneficiaries falling under the General Category.\n- The subsidy will be limited to 60% of the project cost for beneficiaries who are Scheduled Caste (SC) or Women.\n\n<br>\n\n> **Note:** The Government of India",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-vendor-and-fisheries-department-date-of-birth-certificate"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=pnJ2qKtNsrD3/uRUNIWx+w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/cwibhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary must have Parivar Pehchan Patra (PPP).\n1. Beneficiaries should ensure that fish transport facilities are maintained in operational condition.\n1. Beneficiaries shall be provided central assistance for Cycle with Ice box the initial crop only in the purchase of newly purchased Cycle with Ice Box\n1. Central assistance for Cycle with Ice Box cost shall be released only for the fisheries activity.\n1. Govt. of India and Govt. of Haryana shall not be responsible for any losses incurred on procurement, operation, maintenance and management of the fish transport facilities.\n\n<br>",
+  "_criteria_filled": 1
+}

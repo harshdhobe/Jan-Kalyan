@@ -1,0 +1,41 @@
+{
+  "id": "small-business-scheme-gujarat-gopalak-vikas-nigam",
+  "name": "Small Business Scheme (Gujarat Gopalak Vikas Nigam)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The maximum loan limit is ₹2,00,000/- per individual.\n1. The interest rate is 6% per annum.\n1. The loan amount disbursed is 95% of the total project cost.\n1. The beneficiary Contribution is 5% of the total project cost.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "business-experience-certificate-for-the-business-for-which-the-loan-is-to-be-obt"
+  ],
+  "apply_url": "https://ggdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbsggvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Rabari and Bharwad castes from the Socially and Educationally Backward Classes (SEBC).\n1. The applicant&#39;s age should be between 21 and 45 years.\n1. The applicant&#39;s annual income should not exceed ₹3,00,000/-.\n\n<br>",
+  "_criteria_filled": 4
+}

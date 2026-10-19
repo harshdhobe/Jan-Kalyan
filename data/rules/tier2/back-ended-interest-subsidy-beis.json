@@ -1,0 +1,26 @@
+{
+  "id": "back-ended-interest-subsidy-beis",
+  "name": "Back Ended Interest Subsidy (BEIS)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Subsidy of 5% on term loans subject to a maximum of ₹ 20,00,000 is given for a period of 5 years to all new micro and small manufacturing enterprises for term loans up to ₹ 2,00,00,000 obtained for Credit Guarantee Fund Trust Scheme (CGTMSE).\n- Subsidy of 5% on term loans subject to a maximum of ₹ 25,00,000 is given for a period of 5 years to all new micro and small manufacturing enterprises for",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandumcopy-of-udyam-certificate-copy-of-loan-sanction"
+  ],
+  "apply_url": "https://www.msmetamilnadu.tn.gov.in/beis.php#chart-line",
+  "source_url": "https://www.myscheme.gov.in/schemes/beis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Micro and Small Enterprises who have availed of term loan under Technology upgradation/modernization schemes, National Equity Funds Scheme (Renamed as Micro / Small Enterprises Funding Scheme), Scheme for ISO Certification / R &amp; D under NSIC -SIDCO Consortium and Credit Guarantee Fund Trust Scheme.\n- New Enterprises that have set up their facilities, or existing Micro, Small, and Medium Enterprises, which upgrade their existing plant and machinery with state-of-the-art technology, with or without expansion, by induction of well-established and improved technologies in specified sub-sectors / products as listed in the guidelines on Credit Linked Capital Subsidy Scheme (CLCSS) Scheme of Government of India.",
+  "_criteria_filled": 1
+}

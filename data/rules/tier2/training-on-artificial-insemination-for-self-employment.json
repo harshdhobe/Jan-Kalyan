@@ -1,0 +1,31 @@
+{
+  "id": "training-on-artificial-insemination-for-self-employment",
+  "name": "Training on Artificial Insemination for Self-Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Trained Gausevaks receive an honorarium of ₹4,000 and equipment worth ₹18,000.- **Skill Development:** Provides three months of free training in artificial insemination, including theory and practical sessions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=215",
+  "source_url": "https://www.myscheme.gov.in/schemes/toaifse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an unemployed youth.\n1. The applicant should be at least 18 years old.\n1. The applicant should have passed the 10th standard.\n1. The applicant should have a keen interest in dairy farming and artificial insemination.",
+  "_criteria_filled": 2
+}

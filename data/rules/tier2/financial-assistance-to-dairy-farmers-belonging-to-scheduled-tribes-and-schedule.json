@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-to-dairy-farmers-belonging-to-scheduled-tribes-and-schedule",
+  "name": "Financial Assistance To Dairy Farmers Belonging To Scheduled Tribes And Scheduled Caste For Purchase Of Basic Dairy Equipments",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Maximum Financial Assistance***\n\n- 100% subsidy shall be provided for dairy items of general use.\n- The subsidy is subject to a maximum amount of ₹30,000/- or the actual cost of the items, whichever is lower.\n- The subsidy is a one-time assistance per family.\n\n##### ***Maximum Permissible Subsidy per Item***\n\n- Stainless Steel Cans (Twenty liters Capacity): ₹3,800/- (for 2 permissible uni",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationcaste-certificate-issued-by-competent-authority-aadhar-consent",
+    "localnon-descript-adult-heifers",
+    "and-young-female-calves-required-on-the-application-form-during-benefit-disbursa"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadfbstscpbde",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Goa for at least five preceding years.\n- The applicant must belong to the Scheduled Tribe or Scheduled Caste Community.\n- The applicant must be a Dairy Farmer.\n- The applicant must have at least two milch animals.\n- The two milch animals must be Local Cows, Indigenous cows, Cross Bred cows, Local Buffaloes, or Improved Buffaloes.\n\n<br>",
+  "_criteria_filled": 1
+}

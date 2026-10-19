@@ -1,0 +1,36 @@
+{
+  "id": "new-akanksha-scheme-educational-loan-gndtdc",
+  "name": "New Akanksha Scheme (Educational Loan) (GNDTDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**1. Loan Amount:** The maximum loan limit for this scheme is up to ₹10,00,000/-.\n**2. Included Expenses:** The loan amount will include the following:\n\n- Admission and tuition fees\n- Expenses for books, uniforms, essential materials, and exam fees\n- Accommodation and food expenses\n- Insurance – Policy premium\n\n**3. Interest Rate:** \n\n- 4% per annum for male students\n- 3.5% per annum for female st",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-ration-number-voter-id-voter-identification-number-income-certifi",
+    "hsc",
+    "diploma",
+    "degree",
+    "graduation-university-information-accreditation-proof-from-the-authority-that-ac",
+    "stationery-and-other-materials-required-for-the-course-other-fees-details-bank-a"
+  ],
+  "apply_url": "https://gndcdconline.gujarat.gov.in/SchemeEducation/AddEdit",
+  "source_url": "https://www.myscheme.gov.in/schemes/naelgntdnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Nomadic Tribe or Denotified Tribe.\n1. The applicant&#39;s family&#39;s annual income should not exceed ₹3,00,000/-.\n1. The applicant should be pursuing one of the following courses:\n\n- MBA or its equivalent (AICTE-approved course)\n- MCA (Master of Computer Applications) or its equivalent (AICTE-approved course)\n- Graduate-level engineering course approved by IIT/AICTE or any other approved professional graduate-level course\n- Graduate-level medical course from a college recognized by the Medical Council of India\n- Diploma course in Nursing\n\n**Note:** At least 50% of the total loan amount will be allocated for families having an annual income of up to ₹1,50,000/-.\n<br>",
+  "_criteria_filled": 2
+}

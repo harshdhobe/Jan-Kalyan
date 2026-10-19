@@ -1,0 +1,21 @@
+{
+  "id": "employees-pension-scheme",
+  "name": "Employees' Pension Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Superannuation Pension:** Payable to members who retire at 58 years with at least 10 years of eligible service. Calculated as (Pensionable Salary × Pensionable Service) / 70.- **Early Pension:** Reduced pension for members retiring between 50-58 years, with a 4% reduction per year below 58. Payable if the member has rendered eligible service of 10 years or more.- **Monthly Member&#39;s Pension",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "identity-proof-aadhaarpassportvoter-id-bank-account-details-cancelled-chequepass",
+    "from-epfo-approved-doctors-for-disablement-pension-service-proof-epf-passbookemp"
+  ],
+  "apply_url": "https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPS95_update102008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a member of the Employees&#39; Provident Fund Scheme, 1952, or an exempted establishment under Section 17 of the Act.\n- The applicant&#39;s pay must not exceed ₹15,000/month (unless contributing additional 1.16% above this limit).\n\n- The applicant must have a minimum of 10 years of eligible service for pension.\n- The applicant must have contributed to the Employees&#39; Pension Fund.\n\n> **For Superannuation Pension**\n\n- The applicant must be 58 years or above in age.\n- The applicant must have rendered at least 10 years of eligible service.\n\n> **For Early Pension**\n\n- The applicant must have rendered at least 10 years of eligible service.\n- The applicant must opt for early pension between 50 and 58 years of age.\n\n> **For Family Pension**\n\n- The applicant must be the spouse or child of a deceased member who met the eligibility criteria.\n- The applicant must provide proof of the relationship and the member&#39;s death.\n- The deceased member must have contributed for at least one month.\n\n> **Post-Selection Conditions**\n\n- The applicant must submit the required documents for verification.\n- The applicant must comply with EPFO guidelines for pension disbursement.\n\n<br>\n\n*International workers are eligible under specific social security agreements.",
+  "_criteria_filled": 0
+}

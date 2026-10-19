@@ -1,0 +1,27 @@
+{
+  "id": "agr-3-farm-mechanization-scheme-for-st-farmers",
+  "name": "AGR 3 (Farm Mechanization) Scheme For ST Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- The beneficiary will get financial assistance for the purchase of agricultural equipment/components such as Plant protection equipment, Tarpaulin, Field Demonstration, Micronutrients, Water carrying pipeline, Agriculture fair, Organic Fertilizer, Pump set, the premium for Farmers 100% Water Soluble Fertilizers, Pesticides, accidental insurance scheme, etc.\n- Under the scheme, seeds of more produ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "government-approved-photo-id-ie-aadhaar-card",
+    "voter-id-card-basis-evidence-for-land-if-applicable-caste-certificate-by-compete"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/agr-3-farm-mechanization.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/agr3fmsstf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a permanent resident of Gujarat State.\n- Any farmer of Gujarat State who belongs to the Scheduled Tribe category (in 208 talukas where the SMAM scheme is not implemented) is eligible under this scheme.\n- In the areas of Talukas (Blocks) and Districts which are benefited/added under the Agriculture Support Program in Tribal Area Sub Plan &amp;amp; Dispersed Tribes (TASP) can get the benefit of this Scheme.\n- The beneficiary farmer must purchase the agricultural equipment from the authorized manufacturer of the included manufacturer in the panels prepared for the purpose of periodic disclosed prize discovery by the Agriculture office/department.",
+  "_criteria_filled": 1
+}

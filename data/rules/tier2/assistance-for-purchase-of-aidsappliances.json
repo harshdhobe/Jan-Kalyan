@@ -1,0 +1,41 @@
+{
+  "id": "assistance-for-purchase-of-aidsappliances",
+  "name": "Assistance For Purchase of Aids/Appliances",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "> **100% cost on purchase of artificial limbs/ aids/ appliances subject to a maximum of ₹40,000/-**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "required-documents-self-attested-photocopy-two-passport-size-photographs-residen",
+    "ration-card",
+    "electricity-bill-copy-of-disability-certificateidentity-card-with-40-disability",
+    "pgimer",
+    "gmch",
+    "or-any-govt-dispensary-regarding-aid-appliance-required-by-the-applicant-driving"
+  ],
+  "apply_url": "https://serviceonline.gov.in/loginWindow.do",
+  "source_url": "https://www.myscheme.gov.in/schemes/afpoaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Annual income of the applicant from all sources should not exceed  ₹1,50,000/- per annum.\n   1. Applicant must be resident of UT, Chandigarh for more than 3 years.\n   1. Applicant&amp;#39;s Disability should be to the extent of 40% and above.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-to-sc-students-appearing-in-the-mains-examination-of-upsc",
+  "name": "Financial Assistance to SC Students Appearing in the Mains Examination of UPSC",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "An amount of up to ₹50,000/- is provided to each beneficiary, subject to budget provision.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-valid-sc-certificate",
+    "inserting-sub-caste-parents-annual-income-certificate",
+    "issued-by-the-circle-officer-admit-card-of-preliminary-examination-proof-of-qual"
+  ],
+  "apply_url": "https://directorwsc.assam.gov.in/home.php/scheme-pagefinancial-assistance-sc-students-appearing-mains-examination-upsc",
+  "source_url": "https://www.myscheme.gov.in/schemes/fassameu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to a Scheduled Caste (SC) community of Assam.\n- The applicant must have recently qualified for the Union Public Service Commission (UPSC) Preliminary Examination held in 2025.\n- The annual income of the applicant&#39;s parents/guardians must not exceed ₹5,00,000/-.",
+  "_criteria_filled": 2
+}

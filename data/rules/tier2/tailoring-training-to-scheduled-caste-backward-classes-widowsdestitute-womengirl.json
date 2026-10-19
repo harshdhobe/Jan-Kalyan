@@ -1,0 +1,48 @@
+{
+  "id": "tailoring-training-to-scheduled-caste-backward-classes-widowsdestitute-womengirl",
+  "name": "Tailoring Training To Scheduled Caste & Backward Classes Widows/Destitute Women/Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- ₹600/- stipend per month.\n- ₹300/- per month for raw materials.\n- 1 sewing machine.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photograph-proof-of-age-caste-certi",
+    "in-case-widow-proof-of-divorce",
+    "in-case-of-destitute-woman-bank-details-bank-passbook-ration-card-any-other-docu"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttscandbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Haryana.\n2.\tThe applicant should be a widow, destitute woman, or girl.\n3.\tThe applicant&amp;#39;s age should be between 14 and 45 years.\n4.\tThe applicant should belong to the Scheduled Caste or Backward Class category.\n5.\tThe applicant&amp;#39;s annual family income should be less than ₹2.5 lakhs.",
+  "_criteria_filled": 5
+}

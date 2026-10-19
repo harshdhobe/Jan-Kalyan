@@ -1,0 +1,26 @@
+{
+  "id": "krishi-vidya-nidhi-yojana",
+  "name": "Krishi Vidya Nidhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "&gt; **Scholarship Support:**\n\n   1. Scholarship is provided to students pursuing eligible professional, technical, diploma, postgraduate, and doctoral courses.\n   1. The scholarship is awarded purely on a merit basis.\n\n> **Course-Based Financial Assistance:**\n\n1. For the students of Government Institutions, the tuition fees, annual fees, one-time fees, hostel charges, and any other fees deposited",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-certificate-caste-certificate-if-required-passport-sized"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/website/scholarship-details",
+  "source_url": "https://www.myscheme.gov.in/schemes/kvny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident/domicile of the State of Odisha.\n   1. The applicant should be a child of an eligible beneficiary under the CM-KISAN scheme, including both components, namely Support to Farmers for Cultivation and Livelihood Support to Landless Agricultural Households.\n   1. The applicant’s parent must be eligible under CM-KISAN, which will be verified during the student’s application process at the Chief District Agriculture Officer (CDAO) level.\n   1. The applicant must have obtained admission on a merit basis in a Government Institution or Private Institution having an AISHE code (All India Survey on Higher Education) of the State, or in a Premier Government Institution, whether located inside or outside the State.\n   1. The applicant must have taken admission in any of the following Subjects and courses:\n    - Professional or Technical Undergraduate courses such as M.B.B.S., B.D.S., B.H.M.S., B.A.M.S., B.Pharm, B.Sc. (Nursing), Post Basic B.Sc. Nursing, B.Sc. (Hons) Agriculture, Bachelor of Veterinary Science and Animal Husbandry, B.Sc. (Hons) Horticulture, B.Sc. (Hons) Forestry, B.Sc. (Fisheries Science), B.Sc. (Community Science), B.Tech (Agricultural Engineering), B.Tech/B.E., B.B.A., B.C.A., and other equivalent courses offered by Government Institutions and Private Institutions having an AISHE code (All India Survey on Higher Education) of the State are covered under the Krishi Vidya Nidhi Yojana. OR\n    - Professional or Technical Postgraduate courses such as M.Tech, M.Sc. (Agriculture), M.Sc. (Forestry), Postgraduate courses in Medical Science, M.B.A., M.C.A., M.Pharm, and other equivalent courses forming part of a Master’s programme are also included. The maximum duration of scholarship support shall be 2 years for Postgraduate courses and 4 years for Ph.D. courses. Ph.D. courses must be related to the eligible postgraduate courses and must be pursued only in Government Institutions located within the State. OR\n    - Diploma courses such as Diploma in Pharmacy, Diploma in Medical Laboratory Technology, Diploma in Medical Radiography Technology, Ophthalmic Assistance or Surgical Ophthalmic Assistance, General Nursing and Midwifery, Auxiliary Nurse Midwifery, Psychiatric Nursing, and other equivalent medical courses recommended by the Directorate of Medical Education and Training, as well as courses offered by Polytechnic and Agricultural Polytechnic Institutions, are also included under the Krishi Vidya Nidhi Yojana.\n\n   1. The applicant admitted to self-financing courses in Government or Private Institutions shall be eligible for the scholarship only as per the capped fee structure.\n   1. The applicant should not be in receipt of any other scholarship. If the applicant is already availing another scholarship, he or she must shift from the existing scholarship scheme to the Krishi Vidya Nidhi Yojana, if they so choose. Only one scholarship can be availed.\n   1. The applicant should apply for only one professional course under this scheme.\n   1. The applicant should not avail more than one scholarship for similar courses.\n   1. The applicant should not be admitted to a Private Institution located outside the State.\n\n<br>",
+  "_criteria_filled": 1
+}

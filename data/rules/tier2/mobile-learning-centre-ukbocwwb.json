@@ -1,0 +1,26 @@
+{
+  "id": "mobile-learning-centre-ukbocwwb",
+  "name": "Mobile Learning Centre (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, mobile learning schools are operated to provide education to the children of construction workers.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "1-labour-card-of-the-construction-worker"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mlc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Children of workers registered with the Uttarakhand Building and Other Construction Workers Welfare Board are eligible to avail the benefits of this scheme.\n<br>",
+  "_criteria_filled": 1
+}

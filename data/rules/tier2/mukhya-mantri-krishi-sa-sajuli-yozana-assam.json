@@ -1,0 +1,33 @@
+{
+  "id": "mukhya-mantri-krishi-sa-sajuli-yozana-assam",
+  "name": "Mukhya Mantri Krishi Sa Sajuli Yozana - Assam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Through this scheme farm mechanization for the cultivation of different crops will be promoted in order to increase the production and productivity of different crops.\nWith the implementation of this scheme income of farmers will increase. Other than that this scheme will also save the labour and time of the farmers.\nThrough this scheme financial assistance of ₹ 5000 will be provided to every farm",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-residence-certificate-caste-certificate-ie-sc",
+    "st",
+    "etc-age-proof-proof-of-agricultural-land-bank-account-details-ration-card-passpo"
+  ],
+  "apply_url": "https://diragri.assam.gov.in/sites/default/files/swf_utility_folder/departments/diragri_medhassu_in_oid_4/menu/schemes/Guideline_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmkssy-assam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident farmer of Assam.\n1. Only small and marginal farmers are eligible for the benefit under the scheme.\n1. The beneficiary should be more than 21 years old.\n1. He or she should be involved in cultivation for at least three consecutive years.\n1. All Kisan Credit Card (KCC) holders are eligible to apply under the scheme.\n1. The applicant Beneficiary should have a live bank account.\n1. Only one farmer per family shall be eligible for the benefit under the scheme.\n1. Tenant farmers or sharecroppers with a minimum cultivation area of 1 Acre / 3 Bighas may also be considered under the scheme.",
+  "_criteria_filled": 2
+}

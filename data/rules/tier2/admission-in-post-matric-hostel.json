@@ -1,0 +1,26 @@
+{
+  "id": "admission-in-post-matric-hostel",
+  "name": "Admission in Post Matric Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Providing free accommodation for education to backward class students",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-domicile-certificate-income-certificate-previous-years-markshe"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=953",
+  "source_url": "https://www.myscheme.gov.in/schemes/aipmh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Backward Class.\n1. The applicant should be studying in an educational institution located near the hostel.\n1. The applicant should not be a resident.",
+  "_criteria_filled": 1
+}

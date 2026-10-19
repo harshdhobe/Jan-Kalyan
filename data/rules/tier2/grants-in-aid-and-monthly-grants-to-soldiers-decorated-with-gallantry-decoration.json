@@ -1,0 +1,26 @@
+{
+  "id": "grants-in-aid-and-monthly-grants-to-soldiers-decorated-with-gallantry-decoration",
+  "name": "Grants-in-aid and Monthly Grants to Soldiers Decorated With Gallantry Decorations",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**One-Time Grant Assistance:**\n\n- Depending on the category of the gallantry award, a one-time grant ranging from ₹20,00,000 to ₹12,000 is provided to the awardee.\n\n**Monthly Allowance:**\n\n- Soldiers or ex-servicemen receive a monthly allowance between ₹5,000 and ₹1,500, based on the class of gallantry decoration received.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-attested-copy-of-gallantry-award-notification-issued-by-the"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmgsdgd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must be a serving or retired soldier/ex-serviceman who has received a Gallantry Award recognized by the President’s Secretariat.\n\n<br>",
+  "_criteria_filled": 1
+}

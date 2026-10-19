@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-disabled-children-hbocwwb",
+  "name": "Financial Assistance To Disabled Children (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Financial assistance of ₹2000/- per month is provided to the children of registered workers who are declared by the medical authority 50% or more physically or mentally disabled.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-undertaking-work-slip-proof-of-residence-rat"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/118",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadc-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The registered worker must have a minimum of one-year regular membership.\n   1. The registered worker who has dependent children with 50% or more physical/mental disability is eligible to apply under the scheme.\n   1. The worker should have a disability certificate of 50% or more physical or mental disability of his/her dependent children issued by the District Medical Board.\n   1. The dependent child&amp;#39;s name has to be included in the ration card.\n   1. The dependent child of the registered worker has not availed of the benefit of the scheme in the current financial year from any other Haryana Government Department/Board/Corporation.\n   1. The dependent child of the worker should not have any source of income.\n   1. The dependent child of the worker should not be married.\n\n**Note:** The worker has to submit/upload the live certificate of the dependent child every year to continue the financial assistance under the scheme.",
+  "_criteria_filled": 2
+}

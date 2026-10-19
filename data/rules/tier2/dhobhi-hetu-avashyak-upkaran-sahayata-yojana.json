@@ -1,0 +1,36 @@
+{
+  "id": "dhobhi-hetu-avashyak-upkaran-sahayata-yojana",
+  "name": "Dhobhi Hetu Avashyak Upkaran Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Provided materials worth ₹1,500/-, including electronic/coal iron, clothespins, and a washing paddle (Thappi/Kutela).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-permanent-residence-certificate-copy-of-rati"
+  ],
+  "apply_url": "https://cglabour.nic.in/EngPages/schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dhausy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered Unorganized worker of State Social Security Board. \n1. The applicant should be a Dhobhi.\n1. Applicant age must be between 18 to 60 years.",
+  "_criteria_filled": 3
+}

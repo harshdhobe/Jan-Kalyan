@@ -1,0 +1,40 @@
+{
+  "id": "sneha-sparsha",
+  "name": "Sneha Sparsha",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "> **Permitted procedure and the maximum amount admissible:**\n\n<br>\n\n**Bone Marrow Transplant:** Leukemia (Blood Cancer) and other conditions like Thalassemia, in which Bone Marrow Transplant may be considered as a mode of treatment, financial assistance up to ₹ 10,00,000 per case for referral of such cases to &#39;leading Hospitals outside the state equipped with facilities for such treatment.\n<br",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 12
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aaadhaar-card-birth-certificate-of-the-patient-residential-proof-domicile-certif",
+    "sub-divisional-circle-officer",
+    "circle-officer",
+    "block-development-officer",
+    "or-any-other-authority-notified-by-govt-photograph-of-the-patient-attested-by-do"
+  ],
+  "apply_url": "https://nhm.assam.gov.in/sites/default/files/swf_utility_folder/departments/nhm_lipl_in_oid_6/do_u_want_2_know/Sneha_Sparsha_Application_Form_2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss-a",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a child below 12 years of age.\n1. The beneficiary should be a resident of the state of Assam.\n1. The beneficiary should be affected by some serious ailment(s).\n1. The annual income of the family of the beneficiary should be less than ₹ 5,00,000, while priority shall be given to Below Poverty Line (BPL) families.",
+  "_criteria_filled": 3
+}

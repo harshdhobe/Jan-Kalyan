@@ -1,0 +1,39 @@
+{
+  "id": "modular-employable-skills",
+  "name": "Modular Employable Skills",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. **Improved employability:** The MES scheme is designed to provide vocational training to individuals in various sectors, making them more employable in the job market.   1. **Flexible training:** The training provided under the MES scheme is modular, meaning that it can be taken up in parts, making it flexible for individuals to learn at their own pace.   1. **Certification:** The MES scheme pr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-any-government-issued-id-card-such-as-aadhaar-card",
+    "voter-id",
+    "driving-license",
+    "passport",
+    "etc-educational-certificates-copies-of-your-educational-certificates-such-as-cla",
+    "diploma-or-degree-certificates",
+    "as-per-the-eligibility-criteria-for-the-particular-course-age-proof-a-birth-cert",
+    "class-10-mark-sheet",
+    "or-any-other-document-that-shows-your-date-of-birth-passport-sized-photographs-r",
+    "electricity-bill",
+    "water-bill",
+    "etc-caste-certificate-if-applicable",
+    "a-caste-certificate-issued-by-the-competent-authority-income-certificate-if-appl",
+    "an-income-certificate-issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://techedu.hp.gov.in/?q=mes-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/mes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a school leaver, existing worker, or ITI graduate seeking vocational training to improve employability.\n   1. The applicant should be willing to undergo skill assessment, training, or certification under the scheme.\n   1. The applicant should meet the course-specific eligibility norms prescribed by the concerned training institution or industry.\n\n<br>",
+  "_criteria_filled": 1
+}

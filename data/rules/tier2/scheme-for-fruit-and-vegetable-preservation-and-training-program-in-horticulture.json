@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-fruit-and-vegetable-preservation-and-training-program-in-horticulture",
+  "name": "Scheme for Fruit and Vegetable Preservation and Training Program in Horticulture Department HRT 5",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Stipend:** ₹500/- per trainee per day sanctioned as training expenditure. Out of this, ₹250/- is provided as a direct stipend to the trainee, and ₹250/- is utilized for material cost, training literature kit, and honorarium to resource persons.  - **Skill Development Training:** Training duration ranges from 2 to 5 days. Modules include fruit and vegetable preservation, canning, kitchen garden",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "ration-card-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfvptphdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be willing to participate in horticulture-related skill development training.\n\n<br>",
+  "_criteria_filled": 1
+}

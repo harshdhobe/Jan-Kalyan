@@ -1,0 +1,27 @@
+{
+  "id": "assistance-scheme-for-occupational-diseases-gbocwwb",
+  "name": "Assistance Scheme for Occupational Diseases (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Free medical treatment and monthly assistance of ₹1500/- shall be provided to the registered construction worker under normal circumstances in case of less than 90% disability.\n   1. Free medical treatment and monthly assistance of ₹3000/- shall be provided to the registered construction worker in case of 90 to 100% disability.\n   1. The above assistance shall be provided up to a maximum limit ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-e-nirman-card-under-the-gbocwwbphotograph-of-the-worker-a",
+    "if-applicable-proof-of-age-birth-certificatedriving-licencepan-cardvoter-id-card"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/Home/BOCWScheme#",
+  "source_url": "https://www.myscheme.gov.in/schemes/asodgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers registered with the Gujarat Building and Other Construction Worker’s Welfare Board will be eligible to get the benefit of this scheme.\n   1. The registered worker who has any type of disability due to an occupational disease or any serious injuries can avail of the benefits under this scheme.",
+  "_criteria_filled": 1
+}

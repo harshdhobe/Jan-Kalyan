@@ -1,0 +1,27 @@
+{
+  "id": "subsidy-scheme-on-establishment-of-25-rir-birds-unit-for-weaker-section",
+  "name": "Subsidy Scheme On Establishment Of 25 R.I.R. Birds' Unit For Weaker Section",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The beneficiary will be given 25 R.I.R birds&#39; unit along with poultry feed.\n1. The subsidy will be given 75% (maximum ₹4500/- in the form of birds and poultry feed)\n1. Under the scheme, the birds will be given vaccination regularly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-income-certificate-below-poverty-line-card-if-applicable-residence"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/subsidy-schemes-poultry.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sse25rbuwse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The benefits of this scheme will only be given to the adult of the economically weaker section people of the society of Gujarat state.\n1. The beneficiary will have to provide income proof along with the application.\n1. Females and beneficiaries below the poverty line will be given priority.\n1. The beneficiary should have taken poultry-keeping training.",
+  "_criteria_filled": 1
+}

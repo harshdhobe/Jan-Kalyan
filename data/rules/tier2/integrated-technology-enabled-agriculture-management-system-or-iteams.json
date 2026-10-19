@@ -1,0 +1,26 @@
+{
+  "id": "integrated-technology-enabled-agriculture-management-system-or-iteams",
+  "name": "Integrated Technology Enabled Agriculture Management System Or iTEAMS",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Free Telephonic advisory, Access to Subject Matter Specialist (SMS), Transport services.\n\n> **Type of Assistance and Entitlement (If any):**\n\n  - Telephone advice, free mobile SMS to registered farmers, transport service to evacuate farmers&amp;#39; produce to markets at the rate of INR 2.00 per KM per Quintal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "an-active-mobile-number-other-documents-as-required"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=83",
+  "source_url": "https://www.myscheme.gov.in/schemes/iteams",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

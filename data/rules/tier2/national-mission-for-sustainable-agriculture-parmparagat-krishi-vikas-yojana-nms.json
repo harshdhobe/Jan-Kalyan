@@ -1,0 +1,26 @@
+{
+  "id": "national-mission-for-sustainable-agriculture-parmparagat-krishi-vikas-yojana-nms",
+  "name": "National Mission For Sustainable Agriculture-Parmparagat Krishi Vikas Yojana (NMSA-PKVY)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Assistance is provided for a maximum of 2 hectares per farmer for inputs for organic farming, on-farm input production infrastructure, etc.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/nmsa-pkvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer.\n  - The applicant should be a resident of Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,46 @@
+{
+  "id": "samagra-samajik-suraksha-parityakta-pension-yojana",
+  "name": "Samagra Samajik Suraksha Parityakta Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Pension Benefits : ₹ 600/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "three-photos-of-yourself-bpl-card-certificate-to-confirm-age-certificate-of-aban"
+  ],
+  "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pssppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The Abandoned women aged between 18 to 59 years.\n1. The applicant should be living below the poverty line.\n1. The applicant name should be mentioned on the Samagr portal.",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "antyodaya-gruha-yojana-incentive-to-beneficiaries",
+  "name": "Antyodaya Gruha Yojana: Incentive to Beneficiaries",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. ₹**20,000**/- to beneficiaries who complete house construction within **4** months from the date of receipt of the first instalment.   1. ₹**10,000**/- to beneficiaries who complete house construction within **6** months from the date of receipt of the first instalment.\n&gt; **Disbursement of Funds**\n\n1. Incentive amounts are credited to the beneficiary’s account from the State Nodal Account th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-of-the-applicant-proof-of-residence-certificate-establishing-h"
+  ],
+  "apply_url": "https://rh.odisha.gov.in/guidelines/Antyodaya_Gruha_Jojana_Guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/agy-itb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of the state of Odisha.\n   1. The applicant must be a beneficiary of Pradhan Mantri Awaas Yojana (Gramin), PM-JANMAN, or any other Government-funded rural housing scheme.\n   1. The applicant household must be residing in rural Odisha and must be houseless or living in a kutcha house.\n\n<br>",
+  "_criteria_filled": 1
+}

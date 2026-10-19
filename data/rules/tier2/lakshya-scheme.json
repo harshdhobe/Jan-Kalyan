@@ -1,0 +1,31 @@
+{
+  "id": "lakshya-scheme",
+  "name": "Lakshya Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "> **Part I: Candidate Clears the Civil Services Prelims Exam and Will Be Appearing for the Mains Exam**\n\n  - ₹1,00,000/- (₹70,000/- for coaching centre fee &amp; study material cost­, and  ₹30,000/- for travelling cost), extended from the date of publication of result till the date of Mains examination (date of last paper) \n\n> **Part II: Candidate Clears the Mains Exam and is Invited for an Interv",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1000000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-jpg-format-rc-member-id-bank-passbook-permanent-resident-tripura-cert"
+  ],
+  "apply_url": "https://highereducation.tripura.gov.in/DHE/sites/default/files/lakshya.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Candidates should be a domicile of Tripura. \n1. The Candidate should have cleared the Civil Services Exam (Prelims Exam) conducted by the UPSC. \n1. The combined annual family income of the candidate should not exceed ₹10,00,000/-. \n1. A candidate can receive assistance only twice, regardless of how many times he/she attempts to pass the exam.\n\n<br>",
+  "_criteria_filled": 2
+}

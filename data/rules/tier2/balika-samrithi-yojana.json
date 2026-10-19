@@ -1,0 +1,38 @@
+{
+  "id": "balika-samrithi-yojana",
+  "name": "Balika Samrithi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Assistance of ₹500 in the form of a National Savings Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 15000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-from-the-revenue-department-3-income-cert",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/womenrtimanual.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsy-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a girl child born on or after 15-8-97.\n- The annual income of the family of the applicant should not exceed ₹15,000.\n- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 3 years.",
+  "_criteria_filled": 3
+}

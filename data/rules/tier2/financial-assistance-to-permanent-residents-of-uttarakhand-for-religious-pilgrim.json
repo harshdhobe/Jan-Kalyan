@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-to-permanent-residents-of-uttarakhand-for-religious-pilgrim",
+  "name": "Financial Assistance to Permanent Residents of Uttarakhand for Religious Pilgrimages",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The Uttarakhand State Government provides financial assistance of ₹50,000/- to permanent residents of the state, irrespective of religion or caste, who successfully complete the Kailash Mansarovar Yatra organized by the Government of India.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "permanentdomicile-certificate-of-uttarakhand-travel-completion-certificate-issue",
+    "along-with-other-travel-related-documents-photocopy-of-bank-passbook-showing-the"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faprurp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must have successfully completed the Kailash Mansarovar Yatra organized by the Government of India.\n1. The applicant must have undertaken the journey through the Kumaon Mandal Vikas Nigam.\n\n<br>",
+  "_criteria_filled": 1
+}

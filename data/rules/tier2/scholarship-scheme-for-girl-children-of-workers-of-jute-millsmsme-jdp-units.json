@@ -1,0 +1,28 @@
+{
+  "id": "scholarship-scheme-for-girl-children-of-workers-of-jute-millsmsme-jdp-units",
+  "name": "Scholarship Scheme for Girl Children of Workers of Jute Mills/MSME JDP Units",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Secondary Education (for  Girls only ): ₹ 5,000/- (Five thousand)\n- Higher Secondary Education (for  Girls only): ₹ 10,000/- (Ten thousand)",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "admit-card-of-the-examination-passed-mark-sheet-of-the-examination-passed-certif",
+    "the-controller-of-examination-aadhar-voter-id-of-the-applicant-bank-details-copy",
+    "and-the-scholarship-amount-will-be-recovered-from-the-applicant-and-the-concerne"
+  ],
+  "apply_url": "https://jute.com/documents/10194/3012146/Scholarship.pdf?utm_source=chatgpt.com",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssfgcojmmw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Scholarship to the girl children on Passing out the Examination in 2021(2021-22), 2022 (2022-23), 2023 (2023-24), 2024 (2024-25), 2025 (2025-26) - Total 5 Years (2021-26) 15th Finance Commission period.\n- The scheme will be applicable to the girl children of the workers of Jute Mills and MSME - JDP units engaged in the production of jute products.",
+  "_criteria_filled": 1
+}

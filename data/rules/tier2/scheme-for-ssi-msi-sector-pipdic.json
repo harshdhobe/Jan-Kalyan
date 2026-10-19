@@ -1,0 +1,58 @@
+{
+  "id": "scheme-for-ssi-msi-sector-pipdic",
+  "name": "Scheme for SSI / MSI Sector (PIPDIC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance (Term Loan) up to a maximum of ₹10,00,00,000/- per project.\n- Loan proceeds may be used for acquiring fixed assets, including the purchase of land, construction of buildings, and procurement of machinery, equipment, electricals, and miscellaneous fixed assets.\n- The maximum repayment period is 8 years, which includes a maximum moratorium period of 2 years.\n\n##### ***Benefit ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-application-up-to-10",
+    "00",
+    "000-copy-of-acknowledgement-of-micro",
+    "small",
+    "and-medium-enterprise-registration-certificate-obtained-from-industries-departme",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-profitability-statement-detailing-monthly-sales",
+    "income",
+    "and-expenditure-details-consent-letter-to-offer-collateral-security-to-the-exten",
+    "50-concession-has-to-be-paid-additional-documents-required-at-the-time-of-filing",
+    "00",
+    "000-up-to-25",
+    "00",
+    "000-site-and-factory-building-plan-with-machinery-layout-and-civil-estimate-2-co",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-memorandum-and-articles-of-associat",
+    "13",
+    "14",
+    "and-15-to-prepare-the-appraisal-report-consent-letter-from-bank-for-sanction-of",
+    "00",
+    "000-copy-of-registered-lease-deed-for-the-work-premises-for-a-period-not-less-th",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant-if-any-details-of-eff",
+    "50-concession-has-to-be-paid-documents-to-be-submitted-either-during-processing",
+    "including-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance",
+    "etc-puducherry-planning-authority-approval-for-loans-above-10",
+    "00",
+    "000-original-title-deed-antecedent-title-deeds-encumbrance-certificate-for-30-ye"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfssimsis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant must belong to the Small Scale or Medium Scale sector.\n2.  The applicant organization must be one of the following forms: \n\n- Proprietary Concern\n- Partnership Firm\n- Co-operative Society\n- Private Limited Company\n- Public Limited Company\n\n3.  The loan application purpose must be for one of the following purposes:\n\n- Setting-up New Small-Scale Units\n- Setting-up New Medium Scale Units\n- Expansion of Existing Units\n- Modernization of Existing Units\n- Diversification of Existing Units\n- Any other activities eligible for assistance under the scheme.\n\n4.  The total project cost ceiling must not exceed ₹20,00,00,000/-.\n<br>",
+  "_criteria_filled": 1
+}

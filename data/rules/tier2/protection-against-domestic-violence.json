@@ -1,0 +1,31 @@
+{
+  "id": "protection-against-domestic-violence",
+  "name": "Protection Against Domestic Violence",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- **Counseling and Mediation Support:** Victims are provided with trained counselors for psychological support and help in mediation between the victim and the perpetrator if required.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-number-signed-application-for-grievance"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=mEmswUhYsEKmQRdG7mkR7Q==",
+  "source_url": "https://www.myscheme.gov.in/schemes/padv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female.\n   1. The applicant should be a resident of Haryana.\n\n<br>",
+  "_criteria_filled": 2
+}

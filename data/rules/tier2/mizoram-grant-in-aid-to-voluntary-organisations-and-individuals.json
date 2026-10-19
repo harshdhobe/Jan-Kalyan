@@ -1,0 +1,29 @@
+{
+  "id": "mizoram-grant-in-aid-to-voluntary-organisations-and-individuals",
+  "name": "Mizoram Grant-in-Aid to Voluntary Organisations and Individuals",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n- Up to 75% of project cost supported by Government.\n- Maximum recurring grant up to ₹5,00,000/- per year.\n\n> **Support for Welfare Services:**\n\n- Funding for women, children, disabled, elderly, and vulnerable groups.\n- Support for rehabilitation, shelter, healthcare, and skill training.\n\n> **Infrastructure &amp; Equipment:**\n\n- Grants for purchase of equipment, furnit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-constitution-of-the-association",
+    "its-articles-memorandum",
+    "and-its-aims-and-objectives-audited-statement-of-accounts-for-the-last-three-yea",
+    "the-details-in-this-regard-should-be-given-a-statement-of-full-receipt-and-expen"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgiavoi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Organizations/Institutions:**\n\n- Must be a registered voluntary organization, society, trust, or institution.\n- Minimum 3 years of experience in welfare activities (relaxable).\n- Should have a proper management structure.\n- Must be financially sound.\n- Programmes must be non-discriminatory.\n\n> **For Individuals:** The applicant must be any of the following:\n\n- Senior citizens (65+ years, BPL).\n- Destitute women and children.\n- Persons with disabilities (≥40%).\n- Victims of domestic violence or trafficking.\n- Orphans, juvenile delinquents.\n- Drug users, alcoholics, HIV/AIDS affected persons.\n\n<br>",
+  "_criteria_filled": 1
+}

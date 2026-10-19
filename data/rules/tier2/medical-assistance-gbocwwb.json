@@ -1,0 +1,38 @@
+{
+  "id": "medical-assistance-gbocwwb",
+  "name": "Medical Assistance (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹400/- for the first 5 days.\n- Financial Assistance of ₹40/- for remaining days, subject to a maximum of ₹2,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "in-the-case-of-disability-caused-by-the-accidentdiseasesurgery-certificate-from",
+    "in-the-case-of-unregistered-workers-their-dependents"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-10-Medical-Assistance.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ma-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Worker.\n- The worker should be between 18 to 60 years of age.\n- The worker should have completed ninety days of service as a registered worker in the year.\n- The applicant should be [registered](https://labour.goa.gov.in/eodb-bocwb/registration-eligibility/) with the Goa Building and Other Construction Workers Welfare Board.- The applicant should have been hospitalized for five or more days.\n- The cause of the hospitalization should be an accident or disease.\n- The unregistered workers/ their dependents shall be eligible upon the production of a certificate from the builder or Inspector of the area stating that he/she is a building worker.",
+  "_criteria_filled": 3
+}

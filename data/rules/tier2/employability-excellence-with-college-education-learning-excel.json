@@ -1,0 +1,26 @@
+{
+  "id": "employability-excellence-with-college-education-learning-excel",
+  "name": "Employability Excellence with College Education & Learning (EXCEL)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "1. Provides training alongside traditional education in college campuses.\n1. Enhances employability through life skills, communication, and domain-specific training.\n1. Free-of-cost training conducted within existing college infrastructure.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificate-residential-certificate-passport-sized-phot"
+  ],
+  "apply_url": "https://jsdm.jharkhand.gov.in/jsdm/cms/en/#",
+  "source_url": "https://www.myscheme.gov.in/schemes/excel",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The student must have completed their 12th education.\n1. Open to university students, former pass-outs, and non-college-going youth from the community are eligibile.",
+  "_criteria_filled": 1
+}

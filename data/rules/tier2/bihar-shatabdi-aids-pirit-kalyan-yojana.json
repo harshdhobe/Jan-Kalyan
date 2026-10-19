@@ -1,0 +1,34 @@
+{
+  "id": "bihar-shatabdi-aids-pirit-kalyan-yojana",
+  "name": "Bihar Shatabdi AIDS Pirit Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of ₹1,500/- per month is given to AIDS patients.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-eg",
+    "voter-id-card",
+    "driving-license",
+    "etc-medical-reportsdocuments-confirming-aids-diagnosis-address-proof-bank-passbo"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/BAPKY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsaidspky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n1. The applicant should be an AIDS patient.\n1. The applicant should be 18 years of age or older.",
+  "_criteria_filled": 2
+}

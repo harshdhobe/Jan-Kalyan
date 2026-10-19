@@ -1,0 +1,29 @@
+{
+  "id": "grant-to-jharkhand-state-unaided-educational-institutions",
+  "name": "Grant to Jharkhand State Unaided Educational Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Infrastructure Development Grants:** Financial assistance for classrooms, laboratories, toilets, drinking water, and essential facilities.- **Educational Resources:** Support for procuring teaching and learning materials.- **Staffing Assistance:** Salaries for qualified teaching and non-teaching staff as per norms.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "institutional-registration-certificate-under-societies-registration-act",
+    "1860-approval-certificate-from-the-state-government-or-jac-constitution-document",
+    "laboratories",
+    "etc"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D025DO005SD001313102020043329358",
+  "source_url": "https://www.myscheme.gov.in/schemes/gjsuei",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***For Secondary Schools:***\n\n1. The applicant should be an institution approved by the State Government.\n1. The school should be operated by a registered society or trust under the Societies Registration Act, 1860.\n1. The managing committee should be duly constituted and approved by Jharkhand Academic Council (JAC).\n1. The institution must have a student strength meeting the prescribed norms.\n1. The school’s examination pass rate should be at least 41%.\n1. Utilization certificates for previously received grants must be submitted.\n\n<br>\n\n***For Madrasas/Sanskrit Schools:***\n\n1. The applicant should be a recognized and registered madrasa or Sanskrit school in Jharkhand.\n1. The managing committee should be duly constituted.\n1. The institution must meet student strength norms.\n1. The pass percentage should not be below 41%.\n\n<br>\n\n***For Intermediate Colleges:***\n\n1. The applicant should be a permanently approved institution under Jharkhand Academic Council (JAC).\n1. The college must be operated by a registered society or trust under the Societies Registration Act, 1860.\n1. The institution must comply with JAC and Government rules.",
+  "_criteria_filled": 1
+}

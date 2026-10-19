@@ -1,0 +1,28 @@
+{
+  "id": "breed-multiplication-farm-entrepreneurship",
+  "name": "Breed Multiplication Farm Entrepreneurship",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "Construction of cattle sheds.\nProcurement of elite bull.\nPurchase of relevant equipment, mothers etc.\nEstablish breed multiplication farms and produce elite heifers using sex-sorted semen or IVF technology.\nMaximum Subsidy will not exceed Rs 2.00 Cr.\nIndicative cost of the model project for the establishment of Breed Multiplication Farm\nS NoParticularsTotal Cost (Rs in lakh)1Purchase of cows in fi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-certificate-of-incorporation-and-partnership-deed",
+    "if-any-for-individuals",
+    "a-copy-of-their-aadhar-card-along-with-a-bank-statement-proof-of-their-activity"
+  ],
+  "apply_url": "https://ahvety.mizoram.gov.in/uploads/attachments/2e2033ccb4f81a68125d2531528b92a7/breed-multiplication-farm-entrepreneurship-scheme-english.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmfe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant shall be an entrepreneur-aggregator /private individual, SHGs/FPOs/FCOs/ JLGs and Section 8 companies who have their registered offices in India.\n   1. Entrepreneur/applicant shall have appropriate experience in breeding or rearing dairy animals\n   1. The entrepreneur/applicant will be responsible for arranging land of suitable size and location. At least having ownership/lease deed of 5 acres of land.\n   1. The entrepreneur/applicant will make its own arrangement for the procurement of feed and fodder as per the requirement of the farm\n   1. The entrepreneur will establish a breed multiplication farm of at least 200 milch cows/buffalo and use the latest breeding technology to continuously upgrade the stock.",
+  "_criteria_filled": 1
+}

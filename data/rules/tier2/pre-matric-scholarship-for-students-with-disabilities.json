@@ -1,0 +1,31 @@
+{
+  "id": "pre-matric-scholarship-for-students-with-disabilities",
+  "name": "Pre Matric Scholarship For Students With Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Maintenance Allowance** * (₹ per Month): Day Scholars: 500, Hostellers: 800.1. **Book Grant**: ₹ 1000/- per annum.1. **Disability Allowances** (₹ per Annum):\n\n- Visually Impaired: ₹4,000.\n- Hearing Impaired: ₹2,000.\n- Physically Disabled (OH): ₹2,000.\n- Intellectual Disabilities: ₹4,000.\n- Other disabilities not covered above: ₹2,000.\n\n> **[NOTE: (*) means for 12 months in an academic year]**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-the-competent-authority-income-certificate-of-p"
+  ],
+  "apply_url": "http://disabilityaffairs.gov.in/upload/uploadfiles/files/scholarship2(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pre-dis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian national.\n1. The applicant should be a student with a benchmark disability and should have a valid disability certificate issued by the competent authority.\n1. The applicant should be a regular, full-time student studying in Classes IX and X in:\n\n  - A Government school; or\n  - A school recognised by the Government; or\n  - A school recognised by the Central/State Board of Secondary Education.\n\n1. The applicant’s parents/guardian’s income from all sources should not exceed ₹2,50,000/- per annum.\n1. Not more than 2 children with disabilities of the same parents will be eligible for benefits under the scheme. In case the second child is a twin, the scholarship will be admissible to both twins.\n1. Preference/Priority/Reservation/Relaxation\n1. 50% of the total scholarships available each year are reserved for female candidates. If adequate eligible female candidates are not available, remaining slots may be utilised for suitable male candidates.\n\n<br>",
+  "_criteria_filled": 2
+}

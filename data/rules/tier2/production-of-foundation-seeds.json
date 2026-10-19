@@ -1,0 +1,27 @@
+{
+  "id": "production-of-foundation-seeds",
+  "name": "Production of Foundation Seeds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** ₹1,000/- per quintal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-certification-of-seed-produ"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6891",
+  "source_url": "https://www.myscheme.gov.in/schemes/pofs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should raise seed farms with Pulses crop.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "gambhir-bimari-sahayata-yojana",
+  "name": "Gambhir Bimari Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "1. Full reimbursement of an amount equivalent to the benefit payable under Ayushman Bharat Scheme on treatment in government/autonomous hospitals or SACHIS empaneled hospitals.\n1. In case of medical/surgical treatment, advance amount can also be paid to the hospital after the hospital gives the estimate for the treatment.\n1. No maximum amount is fixed.\n1. The scheme covers the cost of treatment fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-construction-worker-registration-card-copy-of-aadhar-card-copy-of-bank-p",
+    "branch-name-and-ifsc-code-disease-related-details-doctors-certificate-on-format"
+  ],
+  "apply_url": "https://www.upbocw.in/pdf/adhisuchna/gambhir_bimari_29_01_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gbsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered workers under labor department. \n1. Beneficiary can not get the similar type of government scheme benefits like Pradhan Mantri Jan-Arogya Yojana and Chief Minister Jan-Arogya Yojana.\n1. Only below family members are covered\n\n  - Self.\n  - Depended parents.\n  - Spouse (Husband/Wife).\n  - Daughter.\n  - Son (only if below 21 years of age)",
+  "_criteria_filled": 1
+}

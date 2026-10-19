@@ -1,0 +1,11 @@
+{
+  "name": "@gov-scheme/engine",
+  "version": "1.0.0",
+  "description": "Government scheme eligibility engine",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/run_tests.js"
+  },
+  "license": "MIT"
+}

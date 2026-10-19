@@ -1,0 +1,42 @@
+{
+  "id": "widow-daughter-marriage-scheme",
+  "name": "Widow Daughter Marriage Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "1. The Quantum of assistance for this scheme is ₹30,000/- only.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "widow-as-an-applicant-want-to-apply-for-marriage-of-her-girl-under-the-scheme",
+    "then-aadhaar-card-of-widow-as-applicant-is-mandatory-and-aadhaar-card-of-girl-wh"
+  ],
+  "apply_url": "https://wcd.delhi.gov.in/wcd/delhi-pension-scheme-women-distress-widows-divorced-separated-destitute-abandoned-women#:~:text=2)%20WIDOW%2DDAUGHTER%20MARRIAGE%20SCHEME&text=Quantum%20of%20Assistance%20is%20Rs.%2030%2C000%2F%2D%20only.&text=(i)%20She%20has%20been%20residing,One%20Lakh).",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawdsddaw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The financial assistance can be granted for performing marriage up to two daughters only. \n1. Residence of a minimum of 5 years in Delhi before the date of application. \n1. The income of the applicant should be less than Rs 1,00,000/-Per year from all sources (including rent, interest/dividends on savings &amp; investments, earnings from the farm, property sale proceeds, etc.) of the applicant. \n1. Applicant should have an Aadhar number. \n1. The Applicant should have a single-operated Aadhaar-linked account with any bank in the National Capital Territory (NCT) of Delhi only. \n1. The applicant should not be in receipt of any assistance from the discretionary fund of the Lt. Governor or the Chief Minister of Delhi for the same purpose. \n1. The girl for whose marriage the Financial Assistance is sought, should be major on the date of marriage i.e., above 18 years of age.\n1. The application must be submitted within a period of sixty days, before or after the date of marriage being solemnized. \n1. The applicant should not be receiving any pension from Central Govt./State Govt./MCD and/or NDMC or any other source for this purpose.",
+  "_criteria_filled": 4
+}

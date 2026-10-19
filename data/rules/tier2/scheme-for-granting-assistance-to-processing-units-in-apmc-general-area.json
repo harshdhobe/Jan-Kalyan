@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-granting-assistance-to-processing-units-in-apmc-general-area",
+  "name": "Scheme for Granting Assistance to Processing Units in APMC (General Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Variable Grant Amount:** The grant percentage is tailored to the needs of different market committees, offering 25% for &#39;A&#39; and &#39;B&#39; class committees and 50% for &#39;C&#39; and &#39;D&#39; class committees.- **Maximum Assistance:** The maximum financial assistance provided under the scheme is capped at ₹1,50,00,000/-, ensuring substantial support for eligible projects.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-dpr-identity-proof-aadhaar-card-pan-card-proof-of-owners"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgapug",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "-  Co-operative institutions are eligible under this scheme.\n  - The institutions must set up a processing unit in the general area of an APMC.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

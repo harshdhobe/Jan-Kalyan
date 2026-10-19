@@ -1,0 +1,27 @@
+{
+  "id": "goa-state-financial-incentives-to-the-industries-for-certification-and-patenting",
+  "name": "Goa State Financial Incentives to the Industries for Certification and Patenting Scheme, 2008",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial assistance/subsidy to the extent of ₹2,00,000/- or the actual expenses incurred, whichever was less, was granted per unit.\n- The actual expenses did not include charges for lodging/boarding, refreshments, travel, etc., but included only the actual charges incurred to obtain the certificate.\n- Financial incentives could be availed once in the lifetime of the unit, irrespective of change",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documentary-proof-of-certification-from-indian-standard-instituteinternational-s",
+    "trade-and-commerce-if-applicable-clearance-certificate-from-high-powered-coordin"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsfiicps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Units that obtained Certification from the Indian Standard Institute, International Standard Organization Certification, or any other National/International certification for quality standards from Re-certifying bodies accorded by the Government, NABCB (National Accreditation Board for Certification Bodies), etc., and/or patent rights on products and/or processes were eligible.\n- Units had to be under the category of Micro &amp; Small/Medium and large-scale industry or service industry falling under the Green/Orange Category list.\n- Units permanently registered or acknowledged with Entrepreneurs Memorandum II by the Director of Industries, Trade and Commerce were eligible.\n- Units not registered or acknowledged with EM II but cleared by the High Powered Coordination Committee or any Committee or Authority formed to grant such clearances for investment in the State were also eligible.\n- Service Industries not covered under sub-clauses (a) and (b) were also eligible if they fell under the following categories:\n\n1. Hospitals or any other Medical Institutions registered with or recognized by the Directorate of Health Services.\n1. Educational Institutions recognized by the Directorate of Education/Directorate of Higher Education/Directorate of Technical Education or any other educational institution affiliated to Goa University/Goa Board/Goa Board of Technical Education or any other institution covered under the Goa Education Development Corporation or Human Resource Development Foundation.\n1. Co-operative Banks other than Multi-State Co-operative Banks registered with the Registrar of Co-operative Societies under the Government of Goa.\n1. Any other service sector specially notified for this purpose by the Director, Directorate of Industries, Trade and Commerce.\n\n- Units could obtain financial incentives under this Scheme only once in the lifetime of the unit after permanent registration.\n- Units that had already obtained Certification or patent rights but had not availed any financial assistance from the State Government were also eligible to apply for incentives under this Scheme for additional certification, provided the certification qualified for the benefit under this Scheme.\n- Units that had availed Central assistance for this purpose were also eligible but only to the extent of the balance amount after deducting the Central Assistance availed.\n- Units that lost certification due to inadequacies in the unit were not eligible to avail the benefit for the second time.",
+  "_criteria_filled": 1
+}

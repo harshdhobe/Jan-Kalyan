@@ -1,0 +1,31 @@
+{
+  "id": "the-goa-archaeological-research-fellowship-scheme",
+  "name": "The Goa Archaeological Research Fellowship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Eligible scholars under the Junior category shall be awarded a fellowship of ₹25,000/- per month for a period of 24 months.\n- Eligible scholars under the Senior category shall be awarded a fellowship of ₹40,000/- per month for a period of 24 months.\n- Maximum two fellowships shall be awarded under the Junior category.\n- Maximum two fellowships shall be awarded under the Senior category.\n\n##### *",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-applicationpost-graduation-certificate-require"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2025/09/Archeology-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tgarfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***For Junior Research Fellowship***\n\n- The applicant must have completed her/his post-graduation (M.A. in Ancient Indian History Culture and Archaeology/History/Indology).\n- The applicant must be up to 35 years of age as on the closing date of application.\n- The applicant, if applying as a Goan Scholar, must have 15 years of Residence in Goa.\n- The applicant, if applying as an Indian Scholar, must have Indian citizenship.\n\n##### ***For Senior Research Fellowship***\n\n- The applicant must have completed her/his Doctorate (in Ancient Indian History Culture and Archaeology/History/Indology).\n- The applicant must be up to 45 years of age as on the closing date of application.\n- The applicant, if applying as a Goan Scholar, must have 15 years of Residence in Goa.\n- The applicant, if applying as an Indian Scholar, must have Indian citizenship.\n\n<br>",
+  "_criteria_filled": 2
+}

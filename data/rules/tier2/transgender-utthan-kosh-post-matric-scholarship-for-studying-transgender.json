@@ -1,0 +1,31 @@
+{
+  "id": "transgender-utthan-kosh-post-matric-scholarship-for-studying-transgender",
+  "name": "Transgender Utthan Kosh - Post Matric Scholarship for Studying Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "***Post-Matric Scholarship:***\n\n- Scholarship @ ₹1,000/- per month per student for 10 months.\n\n**NOTE:** The scholarship amount is directly transferred to the beneficiary&#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "transgender-identity-certificate-certificate-of-enrollment-in-a-recognized-insti"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110051259226370.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tukpmsfst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should belong to the transgender community.\n1. The applicant should be studying at the post-matric level.\n1. The applicant should be enrolled in a recognized school/college in Rajasthan.\n1. The applicant’s family annual income should not exceed ₹8,00,000/-.",
+  "_criteria_filled": 2
+}

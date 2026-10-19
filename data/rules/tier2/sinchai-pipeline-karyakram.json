@@ -1,0 +1,26 @@
+{
+  "id": "sinchai-pipeline-karyakram",
+  "name": "Sinchai Pipeline Karyakram",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Cost of transporting water: 50% of the cost (capped at ₹1000/-).\n1. Pipe material cost:\n\n  - HDPE pipe: ₹50 per meter (capped at ₹15,000/- total).\n  - PVC pipe: ₹35 per meter (capped at ₹15,000/- total).\n  - HDPE laminated flat tube pipe: ₹20 per meter (capped at ₹15,000/- total).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-copy-of-aadhar-card-copy-of-jamabandi-or-jamabandi-copy-of-b"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/AGRI_/IPLP/DOC_250_33da8ac2-d17a-49e6-ad16-615dd5ff570a.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The agricultural land should be owned by the applicant.\n1. The applicant must be a farmer residing in Rajasthan.\n1. This scheme applies to farmers who have a diesel engine, electric pump, or tractor-driven pump set available on a borewell or well.\n1. Applicants must own at least 2 bighas of cultivable agricultural land.\n1. The farmer&#39;s bank account must be linked to an Aadhar card. Additionally, no farmer can apply again for the next 10 years after receiving the benefit.\n1. Farmers must apply for the grant within 30 days of purchasing the pipe and after this timeframe will not be considered.",
+  "_criteria_filled": 1
+}

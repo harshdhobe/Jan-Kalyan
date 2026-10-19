@@ -1,0 +1,20 @@
+{
+  "id": "advance-authorisationaa",
+  "name": "Advance Authorisation(AA)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Input for exports exempted from payment of Basic Customs Duty, Additional Customs Duty, Education Cess, Anti-dumping Duty, Safeguard Duty and Transition Product Specific Safeguard Duty, wherever applicable.\n1. Exempted from IGST and Compensation cess.",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "iec-copy-export-item-description-itc-hs-code-of-the-export-product-quantity-of-e"
+  ],
+  "apply_url": "https://content.dgft.gov.in/Website/Advance%20Authorisation%20Help%20Document%20V2.0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Advance Authorisation can be issued either to a manufacturer exporter or merchant exporter tied to supporting manufacturer,.\n   1. Advance Authorisation for pharmaceutical products manufactured through Non-Infringing (NI) process (as indicated in paragraph 4.18 of Handbook of Procedures) shall be issued to manufacturer exporter only.\n\n**Advance Authorisation shall be issued for:**\n\n   1. Physical export (including export to SEZ)\n   1. Intermediate supply; and/or\n   1. Supply of goods to the categories mentioned in paragraph 7.02 (b), (c), (d), (e), (f) and (g) of this FTP.\n   1. Supply of ‘stores’ on board of foreign going vessel / aircraft, subject to condition that there is specific Standard Input Output Norms in respect of item supplied\n\n**Export Obligation:**\n1. Minimum value addition of 15%\n2. Period for fulfilment of export obligation - 18 months from the date of issue of Authorisation or as notified by DGFT.\n<br>",
+  "_criteria_filled": 0
+}

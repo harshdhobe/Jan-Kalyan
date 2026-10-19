@@ -1,0 +1,51 @@
+{
+  "id": "nirman-shramik-pension-yojana-nspy-obocwwb",
+  "name": "Nirman Shramik Pension Yojana (NSPY) (O.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "- **Beneficiary (up to 80 years):** ₹500/- Per Month.- **Beneficiary (80 years and above):** ₹700/- Per Month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeraadhaar-linked-bank-passbook-f",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-passport-size-photo-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-aadhaar-card-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-signature-of-applicant-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-employment-certificate-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-for-the-application-of-the-welfare-schemecopy",
+    "except-wp-aids-dp-aids-proof-of-age-in-respect-of-the-applicant-for-oap-dp-categ",
+    "such-for-the-applicants-of-pension-due-to-disability-for-dp-category-medical-cer"
+  ],
+  "apply_url": "https://labdirodisha.gov.in/?q=node/15%27%3B",
+  "source_url": "https://www.myscheme.gov.in/schemes/nspybocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of Odisha.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be any of the following:\n\n   1. a construction worker and validly registered with the Odisha Building and Other Construction Workers’ Welfare Board and has completed 60 years of age (Old Age Pension-OAP).\n   1. a registered construction worker who is a widow (irrespective of age) (Widow Pension-WP)\n   1. a widow of a registered construction worker (irrespective of age).\n   1. a registered construction worker who is a leprosy patient with visible signs of deformity (CLP) as per rule.\n   1. a registered construction worker who is physically challenged (irrespective of age) (Disability Pension-DP). \n   1. a Widow of a registered construction worker who was a HIV-positive person (WP-AIDS).\n   1. a registered construction worker who is an HIV-positive person identified by the Orissa State AIDS Control Society or District AIDS Prevention Control Unit (D.A.P.C.U.) irrespective of age and income (DP-AIDS).\n\n  - The applicant’s family income from all sources not exceeding ₹24,000/- per annum.\n  - The applicant has not been convicted of any criminal offense involving moral turpitude.\n  - The applicant is not in receipt of any other pension from the union Government or the state government or any organization aided by either Government.\n\n&gt; Note: Where both husband and wife are covered under the above definition, each of them will be eligible for such pension.",
+  "_criteria_filled": 4
+}

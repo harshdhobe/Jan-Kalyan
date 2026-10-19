@@ -1,0 +1,36 @@
+{
+  "id": "distribution-of-free-house-sites-to-scheduled-casteother-economically-backward-c",
+  "name": "Distribution of Free House Sites to Scheduled Caste/Other Economically Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Distribution of free house sites to Scheduled Caste/Other Economically Backward Classes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-cum-nativity-certificate-income-certificate-caste-ce"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/adwdistribution-free-house-sites-scheduled-caste.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dfhsscoebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native or a permanent resident of the Union Territory of Pondicherry.\n- The annual family income should not exceed ₹24,000.\n- The applicant should have attained the age of 18 years.\n- The applicant should be a homeless person.\n- No member of the family of the applicant should own a house/house site.\n- The applicant should have a bonafide intention to construct a house within 2 years.",
+  "_criteria_filled": 3
+}

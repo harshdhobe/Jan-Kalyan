@@ -1,0 +1,40 @@
+{
+  "id": "pension-to-indigent-sportspersons-of-odisha",
+  "name": "Pension to Indigent Sportspersons of Odisha",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1.\tThe eligible sportsperson will get ₹3,000/- per month as a pension.\n&gt; **Pension to Surviving Spouse of a Deceased Pensioner:**\n\n  - Pension in favour of the surviving spouse of a deceased pensioner shall be sanctioned on a priority on receipt of application duly supported by death certificate, legal heir certificate, etc. The process of applying will be the same.\n\n&gt; **Mode of payment:**\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 50000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-card-2-birth-certificate-3-photographs-4-photocopy-of-bank-pas",
+    "if-applicable-6-proof-of-income-7-sportsachievements-certificates-8-any-other-do",
+    "as-required-life-certificate-in-the-month-of-january-each-year",
+    "the-pensioners-shall-personally-appear-before-the-district-sports-officer-of-the",
+    "failing-which-pension-shall-not-be-renewed"
+  ],
+  "apply_url": "https://portal.sportsodisha.gov.in/Citizen/Landing",
+  "source_url": "https://www.myscheme.gov.in/schemes/piso",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a permanent resident of the State of Odisha.\n   1. Applicant should be at least 50 years of age if a male and at least 40 years of age if a female, provided that the age limit, in either case, may be relaxed by a maximum period of 10 years if the sportsperson has been suddenly incapacitated by an injury or a physical handicap or a serious ailment resulting in premature withdrawal from active sports (Medical Board Certificate is mandatory for this case).\n   1. Applicant should have represented the State of Odisha in the sporting disciplines recognized by Sports &amp;amp; Youth Services Department as in [Annexure-I](https://sports.odisha.gov.in/sites/default/files/2021-11/guidelinesforsportspension.PDF).   1. Applicant should not be having income from all sources exceeding ₹50,000/- (Rupees fifty thousand) only per annum (Income Certificate from the Revenue authority shall be treated as an authentic source).\n   1. Applicant should be free from conviction in any criminal offence.\n\n**Note:** The age will be counted as on the date of application.\n&gt; **Cessation of Pension:**\n\n   1. Pension shall be ceased on the death of the pensioner. (However, if the spouse of the deceased pensioner is alive, he/she may apply for the same).\n   1. A pensioner may also voluntarily give up availing of the pension at any time.\n   1. Pension can also be ceased by this Department if, on inquiry, it is found that the pensioner is leading a comfortable life, i.e. he/she is not in any indigent condition. In such a case, the Department also reserves the right to take appropriate legal/administrative action for recovery of the total amount already availed by the beneficiary in the name of pension along with 18% annual interest.\n   1. Pension can also be ceased by this Department if, on inquiry, it is established that the pensioner is getting a pension by resorting to unfair or fraudulent means.",
+  "_criteria_filled": 3
+}

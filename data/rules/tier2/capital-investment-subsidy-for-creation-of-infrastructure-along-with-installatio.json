@@ -1,0 +1,29 @@
+{
+  "id": "capital-investment-subsidy-for-creation-of-infrastructure-along-with-installatio",
+  "name": "Capital Investment Subsidy For Creation of Infrastructure Along With Installation of Equipment To Establish Film Studio, Film Making, Museum, Aquarium, Theme Park",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary will receive a subsidy of 15% against the Fixed Capital Investment approved by the department.\n- The maximum ceiling of the subsidy is ₹5,00,00,000/-.\n\n##### ***Conditions***\n\n- _It is mandatory for the unit to operate for at least three years from the date of availing the subsidy._\n- _The beneficiary must submit a self-declaration regarding the continuous operation of the unit o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "companyentity-documentsmemorandum-and-articles-of-association-if-publicprivate-l",
+    "municipality-etc-copy-of-the-building-permission-granted-by-the-appropriate-auth",
+    "catering-bill",
+    "or-bill-of-servicefacility-provided"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisciieefsfmmatp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a new project in one of the following categories: Film Studio, Film Making, Museum, Aquarium, or Theme Park.\n- The applicant must incur a minimum capital expenditure of ₹1,00,00,000/- as approved by the department.\n- The applicant must ensure the project falls within the definition of &quot;Tourism Projects&quot; as determined by the Tourism Department.\n- The applicant must be a legal entity such as a Public/Private Limited Company, Partnership Firm, Proprietary Concern, or other registered legal entity.\n- The applicant must submit the application for the capital subsidy within one year from the date of commencement of operation.\n- The applicant must maintain the investment made prior to 3 years from the date of commencement of operation for calculating the capital subsidy.\n- The applicant must not have claimed capital subsidy/investment promotion assistance for the same project from any other category under the policy.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-pre-primary-school-in-remote-areas",
+  "name": "Financial Assistance To Pre-primary School In Remote Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Rent**\n\nUp to ₹ 2,000/- per month recurring expenditure depending upon the quality of the facility.\n<br>\n\n> **Snacks**\n\n₹ 300/- per month per student as refreshment expenses\n<br>\n\n> **Teaching Aids/ Toys and Other Teaching Materials**\n\nFixed Amount of ₹ 25,000/- for the first year. \nFor the next four years, ₹ 15,000/- per annum for Toys and other teaching material.\n<br>\n\n> **Remuneration of Tr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-resolution-of-the-gramsabhavillage-panchayat-2-noc-lease-agreement-of-the-owne"
+  ],
+  "apply_url": "https://www.tribalwelfare.goa.gov.in/attachments/article/56/Notification%20A.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fappsra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. There should not be a pre-primary school already existing in the locality.\n1. The school should have at least ten (10) Scheduled Tribe (ST) students in a class of twenty (20) students, to avail the benefit of one post of teacher and one post of Helper.\n1. Educational Qualification/Training for the Trained Teacher will be as per the eligibility requirements fixed by the Education Department for Primary Teachers/Pre-Primary Teachers. \n1. In case no trained teacher is available in that particular locality, the Government may consider the appointment of an untrained teacher. The untrained teacher shall obtain the necessary qualification within a period of 3 years.\n\n<br>\n\n> **Agencies/ Individuals**\n\n1. Existing Primary Schools including Government Primary schools/ High Schools from the locality.\n2. NGO with three years of experience in the line of managing pre-primary schools.\n3. Trained teacher having experience in teaching pre-primary students.",
+  "_criteria_filled": 1
+}

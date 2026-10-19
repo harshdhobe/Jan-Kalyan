@@ -1,0 +1,36 @@
+{
+  "id": "employment-subsidy-scheme-2017",
+  "name": "Employment Subsidy Scheme, 2017",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement shall be restricted to ₹7,000/- per Goan employee per month.\n- The total subsidy for Micro, Small, Medium enterprises and eco-tourism projects shall not exceed ₹25,00,000/- per annum, on a pro rata basis depending on the date of production.\n- The total subsidy for Large enterprises shall not exceed ₹50,00,000/- per annum, on a pro rata basis depending on the date of production.\n- S",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "claim-submission-documentsa-self-attested-copy-of-registration-under-umbrella-sc",
+    "and-monthly-salaries-paid-to-them-in-that-year-a-statement-of-goan-employees-exc",
+    "person-born-in-goa",
+    "or-person-having-10-years-residence-certificate-issued-by-the-mamlatdar",
+    "or-other-documents-indicating-residence-in-goa-issued-prior-to-10-years-like-dri",
+    "ration-card",
+    "election-photo-identity-card-epic",
+    "passport-a-copy-of-audited-balance-sheet-of-the-unit-for-the-claim-year-a-copy-o",
+    "memorandum-of-associationarticles-of-association",
+    "as-the-case-may-be-specific-documents-for-hinterland-eco-tourism-applicationscer",
+    "government-of-goa-has-been-made-for-any-incentives-a-certificate-from-chartered"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/employment_new.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ess-2017",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be classified as a Micro, Small, Medium, or Large manufacturing industry.\n- The applicant must be listed under the white category, green category, or orange category.\n- The applicant must engage a minimum of 60% of Goan manpower on regular employment.\n- The applicant must ensure the employees counted for the percentage calculation are employed on the enterprise’s payroll continuously during the claim year.\n- The applicant must ensure the Goan employees considered for subsidy calculation are up to 60 years of age.\n- The applicant must ensure the Goan employees considered for subsidy calculation are paid a gross salary of more than ₹8,000/- per month.\n- The applicant must ensure that the relations defined under section 56 of the Income Tax Act, 1961, are not counted as employees for the purpose of this scheme.\n- The applicant must not have availed of the Chief Minister’s Rojgar Yojana (CMRY) Scheme or any other employment generation scheme of the Government of India or the Government of Goa.\n- The applicant must not be taking or have taken any benefit under any policy of the Department of Information Technology, Government of Goa.\n- The applicant must not have claimed similar benefit under any other scheme/program of the Government of Goa.\n- The applicant must submit the application for at least one claim to the Directorate of Industries, Trade and Commerce (DITC) during the scheme&#39;s validity (up to September 30, 2022).\n\n##### ***Eligibility for Hinterland Eco-Tourism Projects***\n\n- The applicant must be a project of Hinterland Eco tourism in lesser developed talukas.\n- The applicant must be registered with/recognised by the Department of Tourism/Goa Investment Promotion Board (IPB)/Town &amp; Country Planning/Planning &amp; Development Authority (PDA)/Eco Sensitive Zone Authority.\n\n<br>",
+  "_criteria_filled": 1
+}

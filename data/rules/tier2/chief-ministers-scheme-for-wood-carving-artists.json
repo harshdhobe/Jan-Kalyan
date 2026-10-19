@@ -1,0 +1,38 @@
+{
+  "id": "chief-ministers-scheme-for-wood-carving-artists",
+  "name": "Chief Minister’s Scheme For Wood Carving Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Distribution of new improved tools, equipment, and good quality raw material to the eligible wood artisans.\n1. Skill-upgradation training with improved technology inputs.\n1. Organise buyers-sellers meet/ participate in Exhibitions/Expos/Trades etc.\n1. Support the artisans by linking their products to the market by identifying new markets, providing a better support system to the manufacturers, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-class-viii-pass-certificate-experience-certificate-in-trading-passport-size"
+  ],
+  "apply_url": "https://lohit.nic.in/department-of-textile-and-handicraft/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmswca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tThe preference to be given to a minimum of Class - VIII passes candidates of Arunachal Pradesh Schedule Tribe (APST).\n3.\tThe preference to be given to the candidate having experience certificate in trading.\n4.\tFor getting admission, the age of the applicant should be 14 to 25 years.\n**Note 01:** For getting admission, there is no educational qualification bar. However, preference is given to educated candidates.\n**Note 02:** Duration of training courses varies from 1 to 2 years.",
+  "_criteria_filled": 3
+}

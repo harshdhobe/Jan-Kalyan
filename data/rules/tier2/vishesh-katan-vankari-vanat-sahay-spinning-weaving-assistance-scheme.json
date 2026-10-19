@@ -1,0 +1,26 @@
+{
+  "id": "vishesh-katan-vankari-vanat-sahay-spinning-weaving-assistance-scheme",
+  "name": "Vishesh Katan, Vankari & Vanat Sahay (Spinning & Weaving Assistance Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **For Spinners**\n\n- General and Scheduled Caste Categories: Additional ₹1/- per hank for spinning of yarn.\n- Women and Scheduled Tribe Categories: Additional ₹1.5/- per hank for spinning of yarn.\n\n> **For Weavers**\n\n- General and Scheduled Caste Categories: Additional ₹3/- per square meter for weaving of Khadi.\n- Scheduled Tribe Category: Additional ₹4/- per square meter for weaving of Khadi.\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stageapplication-form-as-prescribed-by-gujarat-rajya-khadi-gramod"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?HodID=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/vkvvs-swas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must EITHER be Khadi spinners engaged in spinning of yarn activities, OR Khadi weavers engaged in weaving of Khadi activities.\n- The applicant must be provided production incentive for spinning of yarn/ weaving of Khadi.\n\n<br>\n\n> **Categories and Preferences**\n\n**General Category:** Eligible for standard assistance rates.\n**Scheduled Caste:** Eligible for standard assistance rates same as General category.\n**Women:** Eligible for enhanced assistance rates for spinning activities.\n**Scheduled Tribe:** Eligible for highest assistance rates for both spinning and weaving activities.\n<br>",
+  "_criteria_filled": 1
+}

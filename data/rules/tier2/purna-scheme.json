@@ -1,0 +1,41 @@
+{
+  "id": "purna-scheme",
+  "name": "PURNA Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Nutritional Support: S**upplementary nutrition (PURNA Shakti) 4 packets (1kg/packet) on 4th Tuesday of every month which contains 9 micronutrients.  - **Health Enhancement:** Distribution of IFA tablets every Wednesday at schools and AWCs, along with health check-ups and referral services, is conducted in convergence with the Health Department.  - **Educational Encouragement:** Support out of ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-document-15-18-years-address-proof-any-other-documents-if-required"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=275",
+  "source_url": "https://www.myscheme.gov.in/schemes/psg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a girl.\n  - The applicant must be aged between 15-18 years.\n  - Applicant must be enrolled at an Anganwadi center in Gujarat.\n\n&lt;br&gt;",
+  "_criteria_filled": 4
+}

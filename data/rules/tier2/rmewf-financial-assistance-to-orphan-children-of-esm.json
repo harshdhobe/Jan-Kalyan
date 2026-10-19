@@ -1,0 +1,26 @@
+{
+  "id": "rmewf-financial-assistance-to-orphan-children-of-esm",
+  "name": "RMEWF- Financial Assistance to Orphan Children of ESM",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹3,000/- per month disbursed annually to each orphan child.\n\n> **NOTE:** Direct credit to the beneficiary’s bank account via Electronic Clearing Service (ECS)**.**\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      }
+    ]
+  },
+  "documents": [
+    "service-discharge-bookdocument-must-have-entry-regarding-child-death-certificate"
+  ],
+  "apply_url": "https://ksb.gov.in/orphan-children-of-esm.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmewf-faocesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a legitimate offspring of an Ex-Serviceman, with details recorded in the Service Book.\n1. The applicant must be a son below 21 years of age or an unmarried daughter.\n1. The applicant must have lost both parents (ESM and spouse).\n1. The application must be recommended by the respective Zila Sainik Board (ZSB).\n\n<br>",
+  "_criteria_filled": 1
+}

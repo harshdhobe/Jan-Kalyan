@@ -1,0 +1,32 @@
+{
+  "id": "khel-chhatravriti-vritika-yojana",
+  "name": "Khel Chhatravriti (Vritika) Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "> ***Monetary Assistance Based on Performance***\n\n**National championship winners:**\n\n- First, Second, and Third Place: ₹6,000 per month.\n- Fourth to Eighth Place: ₹4,000 per month.\n\n<br>\n\n**State-level winners qualifying for national championships:**\n\n- First to Third Place: ₹3,000 per month.\n\n<br>\n\n**National record-equivalent performances:**\n\n- ₹4,000 per month.\n\n<br>\n\n***Recognition for Nation",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photographs-proof-of-residence-aadhaar-card-certificates-of-perfo",
+    "birth-certificate-or-school-leaving-certificate-bank-account-details-copy-of-pas",
+    "including-dates",
+    "distances",
+    "points",
+    "and-scores",
+    "verified-by-the-respective-associations"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/notification_docs/4ced6d8d1938.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kcvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Jharkhand.\n1. The applicant should be a sportsperson. \n1. Scholarships are awarded based on performance in the previous year&#39;s recognized national or state-level sports competitions.\n1. The applicant must not receive any other scholarship or benefits under any other sports scheme, such as free diet, accommodation, or stipend.\n\n<br>\n\n<br>\n\n**NOTE:** If the applicant is already receiving such benefits, they must forfeit them before applying for this scholarship.",
+  "_criteria_filled": 1
+}

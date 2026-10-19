@@ -1,0 +1,46 @@
+{
+  "id": "paternity-benefit-hpbocwwb",
+  "name": "Paternity Benefit (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. The scheme gives ₹6,000 to the wife of a registered worker for up to two deliveries.\n1. The male worker receives ₹1,000 as paternity assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-as-a-buildingconstruction-worker-identity-pr",
+    "aadhaar-card-passport-size-photograph-skill-upgradation-training-certificate-pro",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/Publicpages/Downloads.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Himachal Pradesh\n1. The applicant should be a Building/ Construction Worker..\n1. The applicant should be aged between 18 and 60 years.\n1. The worker should have completed at least 90 days of building and other construction work in the last 12 months.\n1. The registration of the applicant should have been renewed annually.\n\n<br>\n\n**For the Application of the Welfare Scheme:**\n\n1. The beneficiary must be a Building and Other Construction Worker.\n1. The worker should be registered with the &quot;Himachal Pradesh Building and Other Construction Workers Welfare Board&quot;.\n1. The worker&#39;s membership with the Welfare Board must be active.\n1. The wife of the worker should have delivered a baby.",
+  "_criteria_filled": 4
+}

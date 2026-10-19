@@ -1,0 +1,32 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-for-technology-acquisition",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance for Technology Acquisition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Covers 70% of the cost of technology acquisition, up to ₹50,00,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-constitution-of-enterprise-memorand",
+    "partnership-deed",
+    "etc-power-of-attorney-board-resolution-of-authorized-signatoryconsent-letter-cop",
+    "outcomeresult-after-adoption-of-technology-on-letterhead-audited-report-with-bal",
+    "if-applicable-project-reporttechnical-presentation-regarding-technology-term-loa",
+    "promotersdirectorspartners",
+    "and-authorized-signatory-gst-registration-certificate-if-applicable-technology-p"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyata",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. New and existing enterprises engaged in manufacturing or process improvement.\n   1. The enterprise must acquire technology from a recognized institution.\n   1. The technology must be relevant to the product or process of the enterprise.\n   1. The MoU/Agreement/Contract must be signed within one year.\n   1. The enterprise must obtain prior approval from the MSME Commissionerate.\n\n&amp;gt; **Note:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

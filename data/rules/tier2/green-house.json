@@ -1,0 +1,27 @@
+{
+  "id": "green-house",
+  "name": "Green House",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- For areas up to a maximum of 4,000 square meters, farmers will receive subsidies grant based on approved rates or department-specified unit costs, whichever is lower.\n\n   1. General-category farmers : 50% grant.\n   1. Small, marginal, scheduled caste, and scheduled tribe farmers : 70% grant.\n   1. The farmers of Scheduled Tribe areas and all the state&#39;s small and marginal category farmers : ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jamabandi-copy-not-older-than-6-months-aadhaar-card-janadhar-card-soil-and-water",
+    "marginal-scheduled-caste-and-scheduled-tribe-farmers-certificates"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/gh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Rajasthan.\n1. The applicant should be a Farmer.\n1. The applicant must have agricultural land ownership and irrigation sources.",
+  "_criteria_filled": 1
+}

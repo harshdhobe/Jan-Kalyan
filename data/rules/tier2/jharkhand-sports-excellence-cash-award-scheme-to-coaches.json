@@ -1,0 +1,38 @@
+{
+  "id": "jharkhand-sports-excellence-cash-award-scheme-to-coaches",
+  "name": "Jharkhand Sports Excellence Cash Award Scheme to Coaches",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "> **Cash Awards for Medal:**\n\n<br>\n\n**S.No****Competition****Gold****Silver****Bronze**1Summer/Winter Olympic Games₹25,00,000/-₹15,00,000/-₹10,00,000/-2Paralympic Games₹20,00,000/-₹15,00,000/-₹10,00,000/-3World Cup/World Championship Senior ₹15,00,000/-₹10,00,000/-₹7,00,000/-World Cup/World Championship Junior ₹10,00,000/-₹7,00,000/-₹5,00,000/-World Cup/World Championship Sub-junior₹5,00,000/-₹3,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "non-colorful-passport-size-photo-proof-of-medal-achievements-by-the-trainee-athl",
+    "event-records",
+    "etc-identity-proof-of-the-applicant-aadhaar",
+    "voter-id",
+    "pan-card",
+    "driving-license",
+    "passport",
+    "etc-proof-of-residential-address-aadhaar",
+    "resident-certificate",
+    "voter-id",
+    "driving-license",
+    "passport",
+    "or-ration-card"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/notice_docs/2fab3f58Sankalp%20Cash%20Award%20REVISED.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsecasc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a coach who trains medal-winning athletes/teams participating in competitions recognized by the International or Indian Olympic Association.\n1. The applicant must have coached athletes/teams representing Jharkhand or India for at least four years.\n1. The medal-winning athletes must have competed in recognized competitions for the coach to qualify.\n\n<br>",
+  "_criteria_filled": 1
+}

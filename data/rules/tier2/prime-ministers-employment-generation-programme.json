@@ -1,0 +1,27 @@
+{
+  "id": "prime-ministers-employment-generation-programme",
+  "name": "Prime Minister's Employment Generation Programme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Funds under PMEGP Scheme will be available under two major heads:**\n\n**1.  Margin Money Subsidy** \na) Funds will be allocated under annual Budget Estimates toward disbursement of Margin Money (subsidy) for setting up new micro-enterprises/units; and \nb) From the funds allocated under BE for the Margin Money subsidy, ₹ 100 Crores or as approved by the competent authority will be earmarked for e",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-special-category-certificate",
+    "wherever-required-rural-area-certificate-project-report-education-edp-skill-deve"
+  ],
+  "apply_url": "https://www.kviconline.gov.in/pmegpeportal/dashboard/notification/Circular%20-%20issued.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmegp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For PMEGP new enterprises (Units)** \n\n1. Any individual, above 18 years of age. \n1. There will be no income ceiling for assistance in setting up projects under PMEGP. \n1. For setting up of project costing above Rs.10 lakh in the Manufacturing sector and above ₹ 5,00,000 in the Business /Service sector, the beneficiaries should possess at least VIII standard pass educational qualification. \n1. Assistance under the scheme is available only for new projects sanctioned specifically under the PMEGP. \n1. Existing Units (under PMRY, REGP, or any other scheme of the Government of India or State Government) and the units that have already availed of Government Subsidy under any other scheme of the Government of India or State Government are not eligible. \n\n> **For up-gradation of existing PMEGP / REGP / MUDRA units**\n\n1. Margin Money(subsidy)claimed under PMEGP has to be successfully adjusted on the completion of the lock-in period of 3 years. \n1. The first loan under PMEGP/REGP/MUDRA has to be successfully repaid in the stipulated time. \n1. The unit is profit-making with good turnover and has the potential for further growth in turnover and profit with modernization/upgrading of the technology. \n\n**Reservation / Preference / Priority**\nPriority will be given to the persons affected by natural calamities/disasters in the areas which are declared as affected by &quot;disaster&quot; as defined under Section 2(d) of the Disaster Management Act, 2005 by the Ministry of Home Affairs.",
+  "_criteria_filled": 1
+}

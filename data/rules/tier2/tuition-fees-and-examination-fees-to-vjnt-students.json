@@ -1,0 +1,32 @@
+{
+  "id": "tuition-fees-and-examination-fees-to-vjnt-students",
+  "name": "Tuition Fees And Examination Fees To Vjnt Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "All types of compulsory fees such as Tuition fees, and Exams. Fees &amp; other fees are reimbursed to the concerned college/institution.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-domicile-certificate-of-maharashtra-caste-certificate-vjnt-or-sbc",
+    "not-below-the-rank-of-tehsildar-family-income-certificate-marksheet-of-the-lates"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/tfefvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. He should belong to the Vimukta Jatis &amp; Nomadic Tribes(VJNT) category.\n1. Reimbursement will be sanctioned to the students, whose parents&#39; income is between ₹ 1,00,000 to ₹ 4,50,000.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "encouragement-scheme-for-taking-admission-in-science-and-contemporary-subjects",
+  "name": "Encouragement Scheme for Taking Admission in Science and Contemporary Subjects",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, scholarships will be provided to Scheduled Tribe students at the following rates:\n\n- **Students who passed Class 10th and are enrolled in Class 11th in the Science stream:** ₹2,000/-- **Students who passed Class 12th and are enrolled in a B.Sc. course in Physics, Chemistry, Mathematics, or Biology:** ₹3,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=817",
+  "source_url": "https://www.myscheme.gov.in/schemes/estascs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The student should belong to the Scheduled Tribe category.\n   1. The scheme benefits are available to:\n\n  - Students who have completed Class 10 and are currently enrolled in Class 11 with a Science stream.\n  - Students who have completed Class 12 and are currently pursuing a B.Sc. degree in Physics, Chemistry, Mathematics, or Biology.",
+  "_criteria_filled": 1
+}

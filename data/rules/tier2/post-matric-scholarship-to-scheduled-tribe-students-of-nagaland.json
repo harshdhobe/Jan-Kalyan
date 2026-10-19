@@ -1,0 +1,35 @@
+{
+  "id": "post-matric-scholarship-to-scheduled-tribe-students-of-nagaland",
+  "name": "Post Matric Scholarship To Scheduled Tribe Students Of Nagaland",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "1. To provide social security provisions to the students of post-metric classes.\n1. Students will be able to pursue studies.\n1. To provide financial assistance to these students to complete their studies at the college level.\n1. Providing socio-economic welfare to the students belonging to the residentship of Nagaland state.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-fresh-application-1-class-10-marksheet-2-mark-sheet-s-of",
+    "mark-sheets-of-the-last-two-semesters-3-scheduled-tribe-certificate-issued-by-th",
+    "in-case-of-differently-abled-applicant-documents-required-for-renewal-applicatio",
+    "mark-sheets-of-the-last-two-semesters-2-admissionfee-receipt-of-the-current-year",
+    "in-case-of-differently-abled-applicant"
+  ],
+  "apply_url": "https://scholarship.nagaland.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsscsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be pursuing post-matric studies (above Class X) and belong to the Scheduled Tribe of Nagaland.\n- The applicant should have parents’/guardian’s annual income not exceeding ₹2.50 lakh from all sources.\n- The applicant should be studying in an institution with a valid AISHE/UDISE code.\n- The applicant should not be a repeater (students who failed in the last examination are not eligible).\n- The applicant should not have availed this scholarship at the same stage of education in a different stream or subject.\n- The applicant should not have a study break of more than two years.\n- The applicant should not be a beneficiary of any other scholarship scheme.\n- The applicant should not be employed in any Government or Semi-Government establishment.\n- The applicant should be pursuing a Diploma or Certificate course of at least two years duration, if applicable, and must fulfil all the above criteria.\n- The applicant should be studying under NIOS, if applicable, and must fulfil the above criteria and have passed Class 10 with English, Alternative English/MIL, Science, Mathematics, and Social Science for Class 11 or 12 level courses.\n\n<br>",
+  "_criteria_filled": 2
+}

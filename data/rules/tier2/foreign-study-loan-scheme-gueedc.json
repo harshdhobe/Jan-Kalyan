@@ -1,0 +1,31 @@
+{
+  "id": "foreign-study-loan-scheme-gueedc",
+  "name": "Foreign Study Loan Scheme (GUEEDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount:** Up to ₹15.00 lakh\n**Interest Rate:** Simple interest at 4% per annum\n**Collateral:**\n**Up to ₹7.50 lakh:** Property valued at 1.5 times the loan amount\n**Above ₹7.50 lakh:** Property equal to the loan amount\n**Loan Repayment:**\n**Up to ₹5 lakh:** repay in 5 years after 1-year moratorium\n**Above ₹5 lakh**: repay in 6 years after 1-year moratorium\n<br>\n\n**Borrower can pre-pay withou",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "class-12-marksheet-60-or-above-unreserved-category-proof-income-certificate-6-la"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/foreign-education-scheme.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a **citizen of India** and a **resident of Gujarat.**1. The applicant must belong to the **Unreserved category**.1. The applicant must have passed **Class 12 with 60% or more marks**.1. The applicant must be seeking admission to **MBBS, Master’s, PG Diploma, or equivalent programs abroad.**1. The applicant’s annual family income must be **₹6.00 lakh or less.**",
+  "_criteria_filled": 2
+}

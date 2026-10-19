@@ -1,0 +1,31 @@
+{
+  "id": "home-for-the-aged-and-infirm",
+  "name": "Home for the Aged and Infirm",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "1. Free Food, Lodging, Medical Facilities.\n1. In-door Entertainments Such as Television, Radio, Books Etc.\n1. 4 Sets of Clothes Are Provided to Them Every Year.\n1. ₹ 5/- is Given to Them Daily as Pocket Money.\n1. Annual Tour to Places of Interest is Conducted for the Inmates Subject to Their Health Conditions.\n1. Annual Day Function is Also Celebrated Without Affecting Their Health Conditions. \n1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-issued-by-the-medical-superintendents-government-hospital-certificat"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/old-age-homeadmissionapplications-hai.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hiai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have no one to look after them.\n1. The applicant should be above 60 years of age.\n1. The applicant should not be suffering from communicable disease or mental illness is not be admitted to the Home.",
+  "_criteria_filled": 2
+}

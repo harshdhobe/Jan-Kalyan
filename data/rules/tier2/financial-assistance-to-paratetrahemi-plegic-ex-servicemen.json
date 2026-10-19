@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-paratetrahemi-plegic-ex-servicemen",
+  "name": "Financial Assistance to Para/Tetra/Hemi Plegic Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,000/- per month is given to Para/Tetra/Hemi Plegic Ex-Serviceman, with an annual increase of ₹400/- w.e.f. 01.11.2017 every year in November.\n\n**Note:** Subject to the condition that application/claim case is found in order financial assistance to the Paraplegic, Tetraplegic, or Hemiplegic Ex-Serviceman will be sanctioned with effect from the first d",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-aadhaar-card-original"
+  ],
+  "apply_url": "https://csharyana.gov.in/WriteReadData/Policies/Defence%20III/2539.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fappesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide resident of Haryana.\n   1. The applicant should be an Ex-Serviceman with paraplegia, tetraplegia, or hemiplegia.\n   1. In the case of Paraplegic, Tetraplegic, and Hemiplegic ex-servicemen of Haryana State financial assistance will be admissible to only those who are not fit to resettle in civil life on account of total incapacitation (100% disabled) and are penury.\n   1. In the case of a Hemiplegic Ex-Serviceman of Haryana State financial assistance will be admissible to only those who after 6 months of the attack of the deceased, do not recover and who are also declared 100% disabled on account of Hemiplegic disease by the Medical authorities even after 6 months of the attack of the disease.\n   1. The financial assistance will not be admissible to those paraplegia, tetraplegia, or hemiplegia ex-servicemen who are admitted in paraplegic homes run by the Government of India or the State Government and are covered by grants to paraplegic homes.\n   1. The applicant should not be in receipt of any kind of financial assistance from any department of the Haryana Government.\n\n**Note 1:** The financial assistance is admissible to eligible paraplegia, tetraplegia, or hemiplegia ex-servicemen in addition to any disability pension from Govt. of India, Ministry of Defence.\n**Note 2:** The old beneficiaries whose cases for grant of financial assistance have already been sanctioned prior to the issue of the guidelines shall continue to get the financial assistance at enhanced rates and they need not apply afresh. However, payment shall be discontinued with immediate effect who fail to submit their survival verification proofs every year from the revenue authorities.\n**Note 3:** Payment of financial assistance to those beneficiaries shall also be stopped immediately who fail to submit their survival verification proofs every year from the revenue authorities in the month of April. \n**Note 4:** Every applicant shall have to produce a certificate issued by the concerned District Social Welfare Officer to the effect that the applicant is not getting any financial assistance/ Pension from the Social Justice &amp;amp; Empowerment Department of Haryana.\n**Note 5:** If any beneficiary, after the sanction of the financial assistance under this scheme, is found drawing any type of financial assistance from any other Department of Haryana Government. He/she shall be permanently debarred from getting financial assistance under all schemes.",
+  "_criteria_filled": 2
+}

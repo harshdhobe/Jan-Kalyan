@@ -1,0 +1,52 @@
+{
+  "id": "financial-assistance-to-disabled-for-self-employment",
+  "name": "Financial Assistance To Disabled For Self Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Financial Assistance of up to ₹1,50,000/- is provided. 80% loan amount is provided by the Nationalized Bank.\n20% subsidy of up to ₹30,000/- is provided by the Department of Social Justice & Special Assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. The applicant should be in the 18 to 50 years age group.\n1. The annual income of the applicant should be less than ₹1,00,000/-.",
+  "_criteria_filled": 5
+}

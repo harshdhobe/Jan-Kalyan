@@ -1,0 +1,48 @@
+{
+  "id": "scheme-for-hotel-and-restaurant-projects",
+  "name": "Scheme for Hotel and Restaurant Projects",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance to entrepreneurs for setting up of hotel / restaurant projects in urban areas.\n- The Loan Limit is need based.\n- The Project Cost must not exceed ₹12,00,00,000/-.\n- The Repayment Period is upto 10 years including moratorium period.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-to-be-submitted-at-the-time-of-filing-loan-applicationcopy-of-the-sale",
+    "namely-lift",
+    "generator-set",
+    "air-conditioners",
+    "kitchen-equipments",
+    "furnitures",
+    "electronic-private-automatic-branch-exchange-system",
+    "television",
+    "refrigerators",
+    "heaters",
+    "etc",
+    "proposed-with-detailed-specifications-and-catalogues-original-quotations-to-be-p",
+    "kalyanamandapam",
+    "community-hall",
+    "commercial-complex",
+    "or-commercial-godown-selected-supplier-client-list-with-detailed-postal-address",
+    "voters-identity",
+    "ration-card",
+    "aadhar-card",
+    "and-bank-pass-book-for-all-the-promoters-brief-write-up-on-the-scope-of-the-proj",
+    "such-as-municipal-or-panchayat-permission",
+    "and-food-licence",
+    "etc-original-title-deed-for-the-site-and-collateral-security-property-antecedent"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/shrp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Entrepreneurs setting up hotel / restaurant projects in urban areas are eligible.\n<br>",
+  "_criteria_filled": 1
+}

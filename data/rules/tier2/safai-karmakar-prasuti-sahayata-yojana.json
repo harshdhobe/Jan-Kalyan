@@ -1,0 +1,26 @@
+{
+  "id": "safai-karmakar-prasuti-sahayata-yojana",
+  "name": "Safai Karmakar Prasuti Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Female employees will receive a financial assistance of ₹4,200 in the third month of pregnancy and ₹2,800 in the eighth month of pregnancy as maternity benefit.\n- Male employees will receive a financial assistance of ₹3,000 as paternity leave after the birth of the child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-permanent-residence-certificate-copy-of-rati"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/safai%20karmakaar%20prasuti%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant(Male or Female) must be registered worker.\n1. Benefits will be provided only for two children.",
+  "_criteria_filled": 1
+}

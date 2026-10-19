@@ -1,0 +1,26 @@
+{
+  "id": "icar-emeritus-professor",
+  "name": "ICAR Emeritus Professor",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Honorarium:**\n\n- Honorarium of ₹50,000/- per month is provided to the Emeritus Professor.\n\n> **Contingency Grant:**\n\n- A non-lapsable contingency grant of ₹1,00,000/- per annum is provided.\n- The grant may be used for secretarial assistance, stationery, postage, consumables, books, journals, and travel related to the approved assignment.\n- The grant may also be used for attending one scientifi",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      }
+    ]
+  },
+  "documents": [
+    "academic-qualification-certificatedocument-employment-record-certificatedocument"
+  ],
+  "apply_url": "https://icar.org.in/sites/default/files/Circulars/Guidelines%20for%20ICAR-Emeritus%20Professor%20scheme_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icar-ep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an outstanding superannuated teacher/Scientist with a good record of published work and teaching/ training experience of a minimum of 5 years.\n  - The maximum age limit for applying for ICAR Emeritus Professor will be 65 years. \n  - The ICAR Emeritus Professor can work under this scheme up to the age of 70 years or up to three years, whichever is earlier.\n  - The teacher/Professor who is to retire in the next 12 months time is eligible to apply. \n  - The application should be submitted through the Executive Authority where the Emeritus Professor proposes to work in the prescribed Proforma to the Deputy Director General (Education), ICAR. \n\n&gt; **Note:**\n\n  - Preference will be given to applicants superannuated within one year from the date of notification. The notification for filling up vacant slots will be issued depending upon the vacancies from time to time. The applications received within the period specified in the circular will only be entertained.\n\n<br>",
+  "_criteria_filled": 1
+}

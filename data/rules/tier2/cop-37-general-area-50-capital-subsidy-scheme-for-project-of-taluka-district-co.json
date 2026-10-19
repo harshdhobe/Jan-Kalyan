@@ -1,0 +1,26 @@
+{
+  "id": "cop-37-general-area-50-capital-subsidy-scheme-for-project-of-taluka-district-co",
+  "name": "COP-37 (General Area) 50% Capital Subsidy Scheme for Project of Taluka & District Co-op. Purchase Sale Union",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Provides a 50% capital subsidy to cooperative unions, with a maximum limit of ₹20,00,000/-.  - **Improved Services for Farmers:** Enables unions to offer better and more diverse services to farmers, such as providing quality agricultural inputs, procuring produce at support prices, and offering modern processing and storage facilities.  - **Enhanced Infrastructure:** Su",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-document-land-ownership-proof-identity-proof-of-union-office-be"
+  ],
+  "apply_url": "https://rcs.gujarat.gov.in/Home/SchemesDetailsPage/gliVwGX8Ej94zJwViawMjA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/cssptdcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Taluka or District Cooperative Purchase and Sale Associations are eligible under this scheme.\n1. Taluka and District Purchase and Sale Associations should have their own land.\n\n<br>",
+  "_criteria_filled": 1
+}

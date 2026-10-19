@@ -1,0 +1,37 @@
+{
+  "id": "the-andaman-nicobar-islands-old-age-assistance-scheme",
+  "name": "The Andaman & Nicobar Islands Old Age Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "household",
+  "benefit": "1. The amount of assistance for persons in the age group 60-79 years shall be ₹2,500/- per month.\n   1. The amount of assistance for persons aged 80 years &amp;amp; above shall be ₹3,000/-.\n\n**Note 01:** The scheme also included the beneficiaries of the Indira Gandhi National Old Age Pension Scheme (IGNOAPS).\n**Note 02:** Payment of allowance shall be made through Bank Account on a monthly basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-proof-of-age-local-certi",
+    "if-applicable-bank-account-detailscopy-of-passbook-proof-of-income-issued-by-the"
+  ],
+  "apply_url": "http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/anioaas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Andaman and Nicobar Islands or have resided in the Union Territory of Andaman and Nicobar Islands for more than 10 years at the time of making the application.\n   1. The age of the applicant should be 60 years or above.\n   1. The household income of the applicant does not exceed ₹4000/- per month.\n   1. The applicant should not be receiving any other financial assistance, pension, or grant from the government or any other source.",
+  "_criteria_filled": 3
+}

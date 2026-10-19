@@ -1,0 +1,36 @@
+{
+  "id": "skill-development-training-15-days-residential-skill-up-gradation-training-progr",
+  "name": "Skill Development Training - 15 Days Residential Skill Up-gradation Training Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "**Stipend:** \n\n- ₹300/- per day per trainee\n\n<br>\n\n**Duration:**\n\n- 15 working days (120 Hours total: 24 Hours of Theory, 96 Hours of Practical Training)",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-boc-id-card-ration-card-aadhaar-card-1st-page-of-bank-a"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2016LETF_MS63.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sugtpctrcw-t",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be registered with the Telangana Building &amp; Other Construction Workers Welfare Board, Hyderabad.\n1. The worker&#39;s age should be between 18-45 years old.\n1. The worker should have knowledge of Telugu, Hindi, and English language.",
+  "_criteria_filled": 3
+}

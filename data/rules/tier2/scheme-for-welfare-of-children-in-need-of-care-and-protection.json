@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-welfare-of-children-in-need-of-care-and-protection",
+  "name": "Scheme For Welfare Of Children In Need Of Care And Protection",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> **Financial Assistance (Grants)**\n\n1. ₹ 400/- per child per month, if the children are housed on their own premises.\n1. ₹ 500/- per child per month, if the children are housed in rented premises.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-of-the-voluntary-organization-details-of-the-destitute-and"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/swcncp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For the Organization**\n\n1. The applicant should be a Voluntary Organization.\n1. The Organization should be Registered with the Government of Goa.\n\n<br>\n\n> **For the Children**\n\nThe Child should qualify for ANY ONE of the following conditions - \n\n1. The Child should not have either parents or near relatives.\n1. The Child should be from a single-parent family, deprived of adequate family care due to death, desertion, prolonged illness, or imprisonment of one of the parents.\n1. The income of the family of the Child is less than ₹ 500/- per month.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "maternity-assistance-scheme-gujarat-labour-welfare-board",
+  "name": "Maternity Assistance Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹10,000/- is provided to female workers and the wives of workers to cover expenses incurred during the maternity period.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-a-copy-of-the-identity-card-issued-by-the-contracto"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/prasurti-shay-ane-bati-protsahan-yojna.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/masglwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The workers who are working in the organized sector in the state of Gujarat will be eligible to get the benefit of this scheme.\n   1. The workers should have been working continuously with the Factory/Company/Organization for one year and his/her Labour Welfare Fund should have been deposited in the board.\n   1. Application has to be made within 1 (one) year from the date of delivery.\n   1. The benefit of this scheme is available to either female workers or the wives of workers for only one delivery.\n\n**Note:** Assistance will not be provided if there is a change in the name of the pregnant woman mentioned in the birth certificate/document and the name of the pregnant woman mentioned in the bank passbook.",
+  "_criteria_filled": 2
+}

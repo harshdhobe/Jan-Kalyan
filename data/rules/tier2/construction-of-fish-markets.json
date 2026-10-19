@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-fish-markets",
+  "name": "Construction of Fish Markets",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- For Panchayats/Municipalities with an Annual Income of up to ₹2,00,000: **100% Subsidy, Limited to ₹5,00,000.**- For Panchayats/Municipalities with an Annual Income Above ₹2,00,000: **75% Subsidy, Limited to ₹5,00,000.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-panchayatmunicipality-resolution-2-land-documents-complete-in-all-respects-3-e"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/schemes-services/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a local body such as a Municipality or a Village Panchayat in the State of Goa.",
+  "_criteria_filled": 1
+}

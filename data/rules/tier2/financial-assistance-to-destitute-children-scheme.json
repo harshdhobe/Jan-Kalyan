@@ -1,0 +1,43 @@
+{
+  "id": "financial-assistance-to-destitute-children-scheme",
+  "name": "Financial Assistance To Destitute Children Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Rate of Allowance:** ₹1850/- per month per child subject to the maximum for two children of one family.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-a-certificate-from-the-head-of-an-educational-or-technical-instituti",
+    "or-a-certificate-from-a-gazetted-officer-of-the-central-or-state-government-pers",
+    "or-an-affidavit-attested-by-a-first-class-magistrate-2-residential-proof-any-one",
+    "haryana-voter-card-issued-by-election-department",
+    "haryana-voter-list-which-shows-the-name-of-the-applicant-along-with-hisher-photo",
+    "haryana-in-case",
+    "none-of-the-above-documents-is-available",
+    "the-applicant-will-give-self-declaration-along-with-any-other-documentary-proof"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032581.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tDomicile of Haryana and residing in Haryana State.\n2.\tA child under twenty-one years of age.\n3.\tIncome of parents/guardians from all sources should not exceed ₹2, 00,000/- per annum.\n4.\tChildren have been deprived of parental support or care for the following reasons:\n•\tReason of Death or;\n•\tContinued absence from home of his father for the last 2 years, or;\n•\tFather/Mother has been sentenced to imprisonment for a period not less than one year, or;\n•\tPhysical/Mental incapacity of the Parent.",
+  "_criteria_filled": 3
+}

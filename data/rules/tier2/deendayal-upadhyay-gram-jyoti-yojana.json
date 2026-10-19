@@ -1,0 +1,31 @@
+{
+  "id": "deendayal-upadhyay-gram-jyoti-yojana",
+  "name": "Deendayal Upadhyay Gram Jyoti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Free Electricity Connection:** Free electricity connections are provided to 3,94,741 beneficiaries living below the poverty line.  - **Intensive Village Electrification:** A total of 17,827 villages are covered under the scheme for comprehensive electrification.  - **Strengthening of Power Infrastructure:** Feeder separation, metering, and distribution system strengthening works are carried ou",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/dugjy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be residing in a rural area.\n  - The applicant should belong to the Below the Poverty Line (BPL) category.\n\n<br>",
+  "_criteria_filled": 2
+}

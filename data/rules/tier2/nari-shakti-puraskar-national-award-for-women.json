@@ -1,0 +1,31 @@
+{
+  "id": "nari-shakti-puraskar-national-award-for-women",
+  "name": "Nari Shakti Puraskar - National Award for Women",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Award Components:** Certificate and a cash amount of ₹2,00,000/- per awardee.  - **Number of Awards:** Maximum 15 awards.  - **Relaxation Provision:** The selection committee may relax the maximum number of awards at its discretion.\n***Presentation of the Award:***\n\n   1. The Award shall be presented at New Delhi at a special ceremony/ function held on the occasion of the International Women&a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-details-of-work-carried-out-by-the-nominees-for-whic"
+  ],
+  "apply_url": "https://dsel.education.gov.in/sites/default/files/update/Nari%20Shakti%20Puruskar%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cnspnaw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The awards are open to individuals only.\n  - The applicants must be at least 25 years of age on 1st July of the award year.\n  - The applicant should not be a recipient of the same award earlier (including Stree Shakti Puraskars as were awarded by the Ministry earlier).\n  - The Nari Shakti Puruskar may be awarded for outstanding work, preferably in exceptional circumstances, to individuals in the areas of: economic and social empowerment of women or pertaining to this theme or incidental thereto.\n  - The Nari Shakti Puruskar may be awarded to individuals who encouraged women to participate in decision making roles; encouraged women&amp;#39;s skill development in traditional and non-traditional sectors; facilitated basic amenities for rural women; promoted women in non-traditional sectors like science and technology, sports, art, culture, concretely and significantly towards safety and security, health and wellness, education, skill development, life skills, respect and dignity of women etc.\n  - An award may also be given to a State or Union Territory, which has appreciably improved Child Sex Ratio (CSR).\n  - Normally the awards shall not be presented posthumously; excepting in cases where death occurred subsequent to a proposal having been submitted to the Ministry in the manner as stipulated in these guidelines.\n\n***Nominations:***\n1.\tNominations for the award shall be invited from:\n\n  - State Governments, Union Territory Administrations, concerned Central Ministries/ Departments.\n  - Non-Governmental Organizations, Universities/ Institutions, Private and Public Sector Undertakings (PSUs).\n  - The Selection Committee may also, suo-moto, recommend an individual for the award with sufficient justification.\n  - Self-nominations &amp;amp; recommendations for the awards, both, shall be considered.\n\n2.\tThe Nominations would be submitted to the Ministry of Women and Child Development with details as per online application form along with supporting documents as mentioned in the application form.\n3.\tThe entities as recommending the nominations should clearly certify the work carried out by the nominees for which the award is being recommended.\n<br>",
+  "_criteria_filled": 2
+}

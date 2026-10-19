@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-destitute-elderly-and-disabled-person",
+  "name": "Financial Assistance to Destitute Elderly and Disabled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **For beneficiaries aged 60 to 79 years:** ₹1,000/- per month- **For beneficiaries aged 80 years or more:** ₹1,250/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-age-proof-bank-pass-bookcancelled-cheque-birth-certificate-identity"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadedp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a resident of Gujarat.\n1. Applicant must be:\n\n- Aged 60 years or more and does not have a son aged 21 years or above.\n- OR, aged 45 years or more and has a disability of more than 75%.\n- OR, listed in the BPL category (Score 0–20) in rural areas or included in the urban BPL list.\n\n1. Annual Family Income must be:\n\n- ₹1,20,000 or less for rural residents.\n- ₹1,50,000 or less for urban residents.",
+  "_criteria_filled": 2
+}

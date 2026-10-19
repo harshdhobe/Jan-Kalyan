@@ -1,0 +1,41 @@
+{
+  "id": "mukhya-mantri-grihini-suvidha-yojana",
+  "name": "Mukhya Mantri Grihini Suvidha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "The benefits of Himachal Pradesh Grihini Suvidha Yojna are as follows:-\nHP govt. will provide one cylinder for domestic Liquefied Petroleum Gas (LPG) connection and two additional cylinders to the poor families.\nAll families in the state who does not possess the LPG Gas Connections and are not covered under Pradhan Mantri Ujjwala Yojana (PMUY) will get covered under HP Grahani Suvidha Scheme 2023.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-application-form-the-application-form-for-the-mukhya-mantri-grihini-suvidha-yo",
+    "ration-card",
+    "aadhaar-card",
+    "passport",
+    "electricity-bill",
+    "telephone-bill",
+    "or-any-other-document-that-shows-the-applicants-address-3-identity-proof-any-one",
+    "voter-id-card",
+    "pan-card",
+    "driving-license",
+    "or-any-other-document-that-proves-the-applicants-identity"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmgsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Himachal Pradesh.\n1. The applicant should belong to the Below Poverty Line (BPL) category.\n1. The applicant should not have an LPG connection in their name or in the name of any member of their household.\n1. The applicant should not be a recipient of any other LPG connection under any other government scheme",
+  "_criteria_filled": 2
+}

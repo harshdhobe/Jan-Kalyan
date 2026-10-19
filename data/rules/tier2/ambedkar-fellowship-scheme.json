@@ -1,0 +1,36 @@
+{
+  "id": "ambedkar-fellowship-scheme",
+  "name": "Ambedkar Fellowship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "***Financial Assistance:***\n\n- Selected Ph.D. candidates receive a monthly fellowship of ₹15,000 for up to three years.\n\n***Mode of Disbursement:***\n\n- The fellowship amount is directly transferred to the student&#39;s bank account by cheque or DD.\n\n**Duration*****:***\n\n- The fellowship continues for a maximum duration of 3 years, subject to satisfactory academic progress.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-issued-by-a-competent-authority-in-rajasthan-residence-certifi"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=1165",
+  "source_url": "https://www.myscheme.gov.in/schemes/afs-sc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should have completed a postgraduate degree with at least 55% marks.\n1. The applicant should be below 35 years of age at the time of application.\n1. The applicant&#39;s annual family income should not exceed ₹2,50,000/- from all sources.\n1. Priority is given to candidates enrolled in central or state government universities in Rajasthan.\n1. A maximum of two children from a single family (parents/guardians) can apply under the scheme.\n1. The applicant should have secured admission in a Ph.D. program in a recognized university in Rajasthan in one of the following subjects:\n\n- Sociology\n- Public Administration\n- Law\n- Economics\n- Political Science\n- Anthropology\n\n***Other terms &amp; conditions:***\n\n   1. The selected candidate will have to submit a certificate regarding admission from the Head of the concerned University or Institute in which he/she is pursuing Ph.D.\n   1. Candidates selected for Ph.D. will have to submit certificate regarding attendance as prescribed by University Grants Commission (UGC).\n   1. Every year a progress report of the research work done by the student will be submitted to the department and after completion of the research work a copy will be made available to the department also.\n   1. In case the amount received as fellowship is misused by the student, the amount paid along with 10% interest will be recovered from the concerned student. The student will have to submit an undertaking to this effect on a non-judicial stamp of ₹100/-.",
+  "_criteria_filled": 3
+}

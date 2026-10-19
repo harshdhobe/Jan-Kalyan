@@ -1,0 +1,37 @@
+{
+  "id": "vocational-training-component-of-the-development-of-industries-scheme",
+  "name": "\"Vocational Training\" Component of the \"Development of Industries\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Institution-oriented training in trades like Tailoring &amp; Embroidery, Beauty Parlour, Arts &amp; Design.\n- Stipend to Trainee: ₹1,500/- per month.\n- Honorarium to the Master Trainer: ₹ 300/- per trainee per month.\n- An amount of ₹150/- per trainee per month will be paid to the training institution towards compensation for wastage of raw materials.\n\n**Commencement of Training:** In September.\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-applicants-passport-sized-photo-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-age-proof-educational-certificatesmarksheets"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/vocational.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/vt-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be between 18 and 35 years of age.\n- The applicant should be unemployed.\n- The applicant should have passed Class 10th (SSLC) passed.\n- The applicant should be a native of the Union Territory of Puducherry (or) continuous resident of the area for the past three years.",
+  "_criteria_filled": 3
+}

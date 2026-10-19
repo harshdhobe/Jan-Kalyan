@@ -1,0 +1,26 @@
+{
+  "id": "tholkappiar-award",
+  "name": "Tholkappiar Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹10,000/-. with an award and certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-residence-certificate-birth-certificate-author-biographies-f"
+  ],
+  "apply_url": "https://art.py.gov.in/sites/default/files/tholkappier2354.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a writer/author.\n1. The applicant should be born in Puducherry or a resident of Puducherry for five years or have continuous residence before the date of application in the jurisdiction to exist.\n1. The applicant should submit research books not less than 150 pages.\n1. The applicant should submit texts that must have been printed and published as a first edition by December 31 of the specified year.\n1. Essays and dissertations submitted for university degrees or examinations are not eligible.\n1. A one-time awardee is ineligible to apply for the subsequent four years.\n1. The texts submitted for competition should not be an abridgment, adaptation, translation, or paraphrase of another text.\n1. Novels, short stories, poetry, drama, travelogues, and collections of essays are not eligible for the Tholkappiar Award.\n1. The thesis editor should be in Tamil language only.\n1. The thesis submitted for the Tholkappiar Award should be published in the calendar year preceding the year of the award. It should not have been published in the previous year.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nationwide-artificial-insemination-programme",
+  "name": "Nationwide Artificial Insemination Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Increased fertility rate: The programme will help to increase the fertility rate by providing access to artificial insemination services. This will help to improve the fertility rate of cows, buffaloes, goats and sheep in the state. \n   1. Improved quality of livestock: The programme will help to improve the quality of livestock through the use of improved semen from superior bulls. This will h",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-a-valid-government-issued-photo-id-such-as-an-aadhaar-card",
+    "passport",
+    "or-voter-id-card-proof-of-address-a-valid-government-issued-proof-of-address-suc",
+    "passport",
+    "voter-id-card",
+    "utility-bills",
+    "or-ration-card-medical-records-a-copy-of-the-last-medical-examination-report",
+    "including-the-results-of-any-tests-conducted-consent-forms-a-completed-and-signe"
+  ],
+  "apply_url": "https://mplivestock.org/naip/",
+  "source_url": "https://www.myscheme.gov.in/schemes/naip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The livestock owner should be a resident of Madhya Pradesh. \n1. The applicant should have valid livestock registration documents. \n1. The applicant should have the required infrastructure to undertake AI operations. \n1. The applicant should not belong to any of the scheduled castes and tribes. \n1. The applicant should have the required knowledge and skill to undertake AI operations. \n1. The applicant should not have any prior criminal record.",
+  "_criteria_filled": 1
+}

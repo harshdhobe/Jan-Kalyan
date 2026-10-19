@@ -1,0 +1,26 @@
+{
+  "id": "kam-lagat-pyaaj-bhandaran-sanrachna",
+  "name": "Kam Lagat Pyaaj Bhandaran Sanrachna",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Onion storage structure (25 Metric Ton capacity): 50% unit cost subsidy, max grant ₹ 87,500/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-cardjan-aadhar-card-copy-of-jamabandi-not-more-than-six-months-old"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan#",
+  "source_url": "https://www.myscheme.gov.in/schemes/klpbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Rajasthan.\n1. The applicant should be a Farmer.\n1. The applicant must have a minimum of 0.5 land ownership.\n1. A farmer who is cultivating onion and wants to build a low-cost onion storage structure.",
+  "_criteria_filled": 1
+}

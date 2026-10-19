@@ -1,0 +1,34 @@
+{
+  "id": "technical-education-scholarship-scheme-for-diploma-level",
+  "name": "Technical Education Scholarship Scheme For Diploma Level",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. The value of scholarship for Diploma level courses is ₹200/- per month for all categories of students.\n\n**Note:** For Diploma students 100% scholarships shall be awarded to the SC, ST, and Girls students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 36000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-uid-eid-no-2-passport-size-photo-3-himachali-bonafide-certificate",
+    "not-below-the-rank-of-tehsildar-6-latest-bank-statement-of-the-students-bank-acc",
+    "not-below-the-rank-of-tehsildar-8-any-other-document",
+    "as-required-note-01-for-all-girl-students-income-certificate-is-not-mandatory-no"
+  ],
+  "apply_url": "https://techedu.hp.gov.in/?q=scholarship",
+  "source_url": "https://www.myscheme.gov.in/schemes/tessdlhp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only those students shall be eligible for the award of scholarships who are Bonafide Himachali and ward of Himachal Pradesh Government employees.\n   1. The scholarships will be awarded to the students who are pursuing Diploma level Courses in Engineering/Technology including Architectural Assistantship or any other equivalent courses as approved by the All India Council of Technical Education (AICTE).\n   1. The scholarship shall be awarded only if the total income of parents or guardians from all the sources is not more than ₹36000/- per annum.\n\n**Note 01:** The scholarship shall be awarded on the basis of (i) Poverty-cum-Brilliance and (ii) Brilliance.\n**Note 02:** The scholarship shall be awarded strictly according to merit to be determined with reference to (i) Income of parents or guardian and (ii) Marks obtained in the Examination/Class by virtue of which a candidate is eligible for admission provided the students has Secured at least 60% of marks in the said exam. This condition will however not be applicable to the SC and ST Students as their merit will be judged amongst themselves.\n**Note 03:** The students who become eligible for scholarships on the basis of poverty-cum-brilliance shall first be awarded scholarships. After their list is exhausted, the remaining scholarships shall be awarded on the basis of brilliance.\n**Note 04:** The scholarship shall be tenable for the full course from the date of joining for the duration of the course and shall be awarded/renewed on a year-to-year basis subject to satisfactory progress of the student and continued good conduct.\n**Note 05:** The recommendation of the Principal or other authorized officer of the institute where the student is studying will be necessary for the award/renewal of the scholarship. If the student fails in a university examination in the Polytechnic examination or any examinations or tests while undergoing the course which prevents him/her from being promoted to the next higher class, the scholarship shall be discontinued. However, two failures will not result in an extension in the total period of the course.\n**Note 06:** The students who are not awarded scholarships from the date of joining of courses i.e. in the first year can also be considered for award of scholarships in subsequent years in case numbers of scholarships are available due to dropouts, failure or otherwise, in particular year shall not be exceeded. These scholarships shall be awarded on the basis of the performance of the previous annual examination they have passed in the Engineering course. Other conditions of award of fresh/renewal of scholarship, will remain operative as at present in vogue.",
+  "_criteria_filled": 2
+}

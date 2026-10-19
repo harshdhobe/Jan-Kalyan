@@ -1,0 +1,27 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-medium-scale-ornamental-fish-rearing-unit-f",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Medium Scale Ornamental Fish Rearing Unit (Fresh Water) - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Tangible Benefits:**\n\n- Project Cost: ₹8,00,000/- per unit\n- Subsidy will be limited to 40% of the project cost for General Category applicant.\n- Subsidy will be limited to 60% of the project cost for Scheduled Caste (SC)/Women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-letter-1-agreement-letter-between-the-beneficiary-and-the-department-b",
+    "copy-of-aksasra-fard-or-registered-lease-deed-billreceiptvoucher-photograph-of-t"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=EUqwCIPF9kVQCnOhG6Jqog==",
+  "source_url": "https://www.myscheme.gov.in/schemes/msofru",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n1. The applicant should possess a valid Parivar Pehchan Patra (Family ID).\n1. The applicant should have at least 150 square meters of vacant land with adequate water supply.\n1. The applicant should either own the land or possess a registered lease deed valid for at least 7 years.\n\n<br>",
+  "_criteria_filled": 1
+}

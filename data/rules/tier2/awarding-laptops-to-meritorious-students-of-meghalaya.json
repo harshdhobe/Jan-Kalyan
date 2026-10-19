@@ -1,0 +1,26 @@
+{
+  "id": "awarding-laptops-to-meritorious-students-of-meghalaya",
+  "name": "Awarding Laptops To Meritorious Students Of Meghalaya",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "- The eligible student will be awarded a laptop.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "original-mark-sheet-identity-proof-other-relevant-documents-as-required-by-the-d"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/announcement/DITC_61_2022_74.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/laptopmeghalaya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must have studied in the State of Meghalaya; or the applicant should be a resident of Meghalaya who studied outside the State.\n1. The applicant must have topped in the respective Annual School Board Examinations in a particular year.\n1. The applicant must have passed the examinations conducted only by:\n\n  - Meghalaya Board of School Education (MBOSE);\n  - Council for the Indian School Certificate Examinations (CISCE);\n  - Central Board for School Education (CBSE).\n\n1. The applicant must have appeared in Class X or Class XII Annual Board Examinations of the above-mentioned Boards/Council.\n1. The applicant of Class X of CBSE Board shall be selected as per [Section 3 II (a)](https://ditmeghalaya.gov.in/pdf/9.Policy%20for%20awarding%20Laptops%20to%20meritorious%20students%20of%20the%20State%20of%20Meghalaya.pdf).1. For Class XII, the applicant should have topped in any stream, namely Arts, Commerce or Science.\n\n> **Subject-Specific Eligibility (MBOSE Only):**\n\n1. For Class X (MBOSE), the applicant who is a subject topper in Mathematics, Science or Computer Application shall also be eligible for the award.\n1. For Class XII (MBOSE), the applicant who is a subject topper in Physics, Chemistry, Mathematics, Computer Application or Biology shall also be eligible for the award.\n1. The applicant whose name appears as an MBOSE top ranker as well as a subject topper (in one or more subjects) shall be eligible for only one award in a particular year.\n1. However, in recognition of such achievement, the applicant shall be awarded a Laptop of configuration higher than those of other awardees.\n\n<br>",
+  "_criteria_filled": 1
+}

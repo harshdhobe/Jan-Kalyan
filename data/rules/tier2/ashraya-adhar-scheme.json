@@ -1,0 +1,34 @@
+{
+  "id": "ashraya-adhar-scheme",
+  "name": "Ashraya Adhar Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**₹ 5,00,000/-** advanced as financial assistance in the form of a loan @ 2% per annum. \n<br>\n\n> **Mode of Advance**\n\nThe loan amount shall be advanced in two instalments after the submission of the required documents is complete in all respect. \n**₹ 3,75,000/-** immediately after sanctioning the loan. \n**₹ 1,25,000/-** on utilization of the first instalment. The 2nd instalment is to be released o",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-scheduled-tribe-certificate-self-attested-2-age-proof-of-applicant-birth-certi",
+    "latest-salary-certificate-or-last-three-03-months-payslips-along-with-last-06-mo",
+    "affidavit-of-surety-on-50-stamp-paper-duly-notarized-and-id-proof-of-surety-note",
+    "then-2nd-surety-is-not-required-in-case-of-the-applicant-is-an-employee-of-the-s"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2020/02/Schemes-of-the-ST-Corporation.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any person belonging to Scheduled Tribe Community and having his/her house (which shall also include a mundcarial house) either owned individually or jointly will be eligible for financial assistance under this scheme. \n1. In case the house is owned jointly and there are different family units in the same house residing separately, each such unit will be eligible for financial support.\n1. The age of the applicant should not be more than 55 years as of the date of the loan application. However, the age of the applicant is relaxed up to 58 years in case the applicant is an employee of the State/ Central Government/ Government Corporation/ Board or aided Institute.",
+  "_criteria_filled": 2
+}

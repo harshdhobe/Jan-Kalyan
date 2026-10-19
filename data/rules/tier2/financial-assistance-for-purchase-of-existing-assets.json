@@ -1,0 +1,52 @@
+{
+  "id": "financial-assistance-for-purchase-of-existing-assets",
+  "name": "Financial Assistance for Purchase of Existing Assets",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** Minimum of ₹5,00,000/- and maximum as applicable to term loans.\n**Interest Rate:** 1% more than the prevailing rate.\n**Repayment:** 5 years including moratorium period of 1 year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationidentity-and-address-proofs-copies-of-perm",
+    "voter-identity-card",
+    "ration-card",
+    "and-aadhaar-card-bio-data-of-all-the-promoters-duly-filled-in-all-respects-as-pe",
+    "small-and-medium-enterprises-msme-registration-certificate-obtained-from-the-ind",
+    "00",
+    "000-copy-of-registered-lease-deed-for-the-work-premises-for-a-period-of-not-less",
+    "00",
+    "000-site-and-factory-building-plan-with-machinery-layout-and-civil-estimate-2-co",
+    "00",
+    "000-manufacturing-process-details-with-a-flow-chart-details-of-effluent-and-arra",
+    "income",
+    "and-expenditure-details-for-loans-up-to-10",
+    "00",
+    "000-balance-sheet-and-profit-loss-account-for-the-last-3-years-and-bankers-detai",
+    "00",
+    "000-valuation-and-quotation-documents-quotation-from-the-selected-supplier-for-a",
+    "00",
+    "000-selected-machinery-suppliers-client-list-with-detailed-postal-address-and-pr",
+    "existing-competitions",
+    "and-major-consumers-details-other-application-documents-consent-letter-to-offer",
+    "00",
+    "000-track-record",
+    "name",
+    "and-address-of-concerns-and-type-of-consultancy-service-rendered-by-the-consulta",
+    "puducherry-copy-of-no-objection-certificate-noc-clearance-from-district-industri",
+    "technology-environment-from-pollution-angle"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to the units which are in existence for a minimum period of 2 years with good track record.\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-mizoram-provisional-employees-savings-scheme",
+  "name": "The Mizoram Provisional Employees Savings Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "- **Long-Term Financial Security:** The scheme allows provisional employees to make defined contributions towards planned savings, ensuring future security through a pension.  - **Flexible Withdrawal Options:** Allows partial withdrawals for essential expenses such as higher education, marriage, housing, and medical emergencies.  - **Nomination Facility:** Nominees are designated to receive funds ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-id-and-proof-of-employment-status-bank-account-details-for-salary-deduct"
+  ],
+  "apply_url": "https://dpar.mizoram.gov.in/uploads/attachments/2024/08/8a283992ea157847b2e21a7a23906e47/posts-1518-the-mizoram-provisional-employees-saving-scheme-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The provisional employees whose engagement is duly approved by the Department of Personnel &amp;amp; Administrative Reforms (DP&amp;amp;AR) and the Finance Department, Government of Mizoram, are eligible.\n   1. The provisional employees should be registered under the Mizoram Employee Provident Scheme. \n   1. The employees with family members should nominate them as beneficiaries.\n\n**Note:** No Contribution shall be affected from the month of joining. Contribution shall start from the wages of the month following the month in which the Provisional Employee joins service.\n**Condition for Partial withdrawal:**\n\n   1. Partial withdrawal is permissible whereby a member can withdraw certain amount of his contribution subject to certain conditions as laid down in the succeeding paras.\n   1. Withdrawal is permissible to each Member not exceeding to 1/4th of his/her balance available in his/her account at the time of application and a maximum of 2 times is permissible during the entire service.\n   1. Withdrawal shall be permissible to those members who have been subscribing to or joining the Scheme for not less than 5 (five) years.\n   1. Withdrawal is permissible only against the specified reasons such as –\n\n  - Higher education of children.\n  - Marriage of self/children.\n  - Purchase/construction of residential house.\n  - Treatment of illnesses of self/family members.\n\n**Condition for Exit Withdrawal:**\nThe following exit categories are permissible: –\n\n   1. **Upon Superannuation/Regularization:** The accumulated savings wealth shall be paid in lump sum to the member.   1. **Pre-mature Exit:** Exit before superannuation age such as removal, resignation, etc. from service are treated as Pre-mature Exit. The accumulated savings shall be paid in lump sum to the member.   1. **Exit upon Death:** In case of death of member, the accumulated savings shall be paid in lump sum to the nominee(s), failing which the accumulated savings shall be paid in lump sum to the legal heir(s).",
+  "_criteria_filled": 1
+}

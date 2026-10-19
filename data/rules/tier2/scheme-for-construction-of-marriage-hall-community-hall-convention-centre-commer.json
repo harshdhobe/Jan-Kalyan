@@ -1,0 +1,52 @@
+{
+  "id": "scheme-for-construction-of-marriage-hall-community-hall-convention-centre-commer",
+  "name": "Scheme for Construction of Marriage Hall/ Community Hall/ Convention Centre/ Commercial Godown",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** ₹ 2,50,00,000/-.\n**Repayment:** 8 years excluding moratorium period of 2 years.\nCollateral security to an extent of 100% of loan amount including the value of commercial complex site.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationidentity-and-entity-documents-bio-data-of",
+    "voters-identity",
+    "ration-card",
+    "aadhar-card",
+    "and-bank-pass-book-for-all-the-promoters-copy-of-partnership-deed-and-acknowledg",
+    "kalyanamandabam",
+    "community-hall",
+    "commercial-complex",
+    "or-commercial-godown-quotation-from-selected-supplier-for-all-the-equipments-viz",
+    "generator-set",
+    "air-conditioners",
+    "kitchen-equipments",
+    "furnitures",
+    "epabx-system",
+    "television",
+    "refrigerators",
+    "heaters",
+    "etc-proposed-with-detailed-specifications-and-catalogues-original-quotations-to",
+    "00",
+    "000-050-on-the-loan-amount-applied-plus-applicable-service-tax-for-loans-above-2",
+    "00",
+    "000-075-on-the-loan-amount-applied-plus-applicable-service-tax-for-women",
+    "sc",
+    "st",
+    "or-differently-abled-entrepreneurs-50-of-the-fee-has-to-be-paid-during-processin",
+    "food-licence",
+    "etc-property-and-legal-documents-original-title-deed-for-the-site-and-collateral"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/scmhchcccg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to Proprietary, Partnership and Limited Companies.\n<br>",
+  "_criteria_filled": 1
+}

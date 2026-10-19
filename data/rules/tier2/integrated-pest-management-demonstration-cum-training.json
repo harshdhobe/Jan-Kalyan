@@ -1,0 +1,28 @@
+{
+  "id": "integrated-pest-management-demonstration-cum-training",
+  "name": "Integrated Pest Management Demonstration Cum Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **For Farmer Field Schools:** Financial Assistance: Grants of ₹17,000/- is allowed towards Demonstration of 40 Ha. each and Training per Farmers Field School through cluster approach.  - **For Farmers:** Training &amp;amp; Demonstration: Hands-on training in pest management through Farmer Field Schools.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "for-farmeridentity-proof-aadhar-card",
+    "voter-id-address-proof-electricity-bill",
+    "ration-card-land-ownership-proof-any-other-documents-if-required-farmer-field-sc"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6848",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipmdct",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Farmer:**\n\n  - The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be willing to adopt Integrated Pest Management practices.\n\n&gt; **For Farmer Field Schools:**\n\n  - The entity/organization should be a Farmer Field School.\n  - The entity/organization should be interested in conducting a Demonstration and Training program for the Farmers.",
+  "_criteria_filled": 1
+}

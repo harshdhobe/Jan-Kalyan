@@ -1,0 +1,30 @@
+{
+  "id": "pmjdy",
+  "name": "Pradhan Mantri Jan Dhan Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Zero-balance bank account with RuPay debit card, overdraft facility, and insurance cover.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "govt_id",
+    "address_proof",
+    "photo",
+    "account_opening_form"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmjdy",
+    "apply": "https://pmjdy.gov.in/"
+  },
+  "notes": "Open decision: should we filter to people without a bank account? Minors 10+ need guardian."
+}

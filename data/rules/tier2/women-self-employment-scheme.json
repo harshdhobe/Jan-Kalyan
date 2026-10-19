@@ -1,0 +1,36 @@
+{
+  "id": "women-self-employment-scheme",
+  "name": "Women Self Employment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial Assistance of ₹5,000/- provides women to help them start small businesses or trade activities.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 35000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-bond-form-aadhaar-card-any-other-document-if-required"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/176_l892s/Self%20Employment%20to%20Women-12980152.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman. \n1. The applicant should set up their own business trade, and small industry to earn their livelihood.\n1. The applicant&#39;s annual income does not exceed ₹35,000/-. \n1. Physically handicapped individuals are also eligible to apply under this scheme.",
+  "_criteria_filled": 3
+}

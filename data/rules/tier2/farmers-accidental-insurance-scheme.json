@@ -1,0 +1,43 @@
+{
+  "id": "farmers-accidental-insurance-scheme",
+  "name": "Farmers Accidental Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Particular****Benefit (₹)**1. Accidental death/ 100% permanent Disability₹2,00,000/-2. In case of Accidently Loss of two eyes or two limbs or Hand and leg₹2,00,000/-3. In case of Accidently Loss of one eye and one limb₹2,00,000/-4. In case of Accidently Loss of one eye or one limb₹2,00,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-in-prescribed-form-annexure-1",
+    "2",
+    "3",
+    "3a",
+    "4",
+    "5-copy-of-712",
+    "8-a-hack-patrak-form-no-6-copy-of-post-mortem-report-ir-spot-panchami-police-inq",
+    "in-the-case-of-disablement-sub-divisional-magistrate-report-and-police-tapas-rep"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/Bu2wc90IXRdJKrcfHJ%E2%9C%A49ew%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/fais",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant or their parent must have a registered land record before the date of the accident.\n  - The death or disability must be caused by an accident.\n  - The deceased/disabled person must be the registered farmer, their spouse, or any legal heir (son/daughter).\n  - The applicant must possess a valid driving license in case of death/injury (For vehicular accident).\n  - The beneficiary must be between 5 to 70 years of age (For accidental death or permanent disability).\n  - Application should be made in the office of the concerned District Agriculture Officer within 150 days.",
+  "_criteria_filled": 3
+}

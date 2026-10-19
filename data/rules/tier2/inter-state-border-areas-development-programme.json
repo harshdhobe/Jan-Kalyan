@@ -1,0 +1,26 @@
+{
+  "id": "inter-state-border-areas-development-programme",
+  "name": "Inter-state Border Areas Development Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Infrastructure Development: The ISBADP may focus on improving infrastructure such as roads, bridges, railways, and connectivity in the border areas. This can enhance accessibility, trade, and transportation in these regions.\n1. Socio-economic Development: The scheme may aim to uplift the socio-economic conditions of the border areas by implementing various development projects. It can include i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-residential-certificate-income-certificate-certificate-fr"
+  ],
+  "apply_url": "https://megbad.gov.in/guidelines/ISBADP%20%20Guidelines%202018.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isbadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme is applicable to the residents of the state of Meghalaya living in remote and inaccessible areas situated near the international border.",
+  "_criteria_filled": 1
+}

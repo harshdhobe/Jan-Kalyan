@@ -1,0 +1,28 @@
+{
+  "id": "vasantrao-naik-tanda-basti-development-scheme",
+  "name": "Vasantrao Naik Tanda / Basti Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "**Admissible Grant based on the Population of the VJNT Community -** \n\n- VJNT Population: 51 to 100; Admissible Grant: 4 Lakhs.\n- VJNT Population: 101 to 150; Admissible Grant: 6 Lakhs.\n- VJNT Population: Above 151; Admissible Grant: 10 Lakhs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-proposal-gram-panchayat-resolution-population-certificatecertif",
+    "issued-by-the-local-authority-land-ownership-or-authorization-certificatedocumen",
+    "if-applicable-endorsement-from-block-development-officer-bdo-aadhaar-cards-of-gr"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/social-remedies",
+  "source_url": "https://www.myscheme.gov.in/schemes/vntbds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Tanda or Basti should have a population of at least 51 residents who belong to the Vimukta Jatis and Nomadic Tribes (VJNT) category.\n1. The area must be lacking basic infrastructure amenities like water, sanitation, or electrification.\n1. The Tanda or Basti must be located in Maharashtra.",
+  "_criteria_filled": 1
+}

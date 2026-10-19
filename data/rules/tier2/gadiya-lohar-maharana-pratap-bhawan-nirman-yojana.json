@@ -1,0 +1,26 @@
+{
+  "id": "gadiya-lohar-maharana-pratap-bhawan-nirman-yojana",
+  "name": "Gadiya Lohar Maharana Pratap Bhawan Nirman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Financial Assistance:**\n\n- ₹1,20,000/- is provided to each eligible beneficiary.\n\n**Mode of Disbursement:**\n\n- First Installment: ₹40,000/- is provided after verification of land ownership and submission of required documents.\n- Second Installment: ₹40,000/- is disbursed after verification of construction progress.\n- Third Installment: ₹40,000/- is given upon completion of construction and submi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "document-submit-in-first-installment-identity-proof-caste-certificate-issued-by"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=175",
+  "source_url": "https://www.myscheme.gov.in/schemes/glbngs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should belong to the Gadiya Lohar community.\n1. The applicant should own a plot for house construction.\n1. The applicant or their family should not own any other house within the district or anywhere in Rajasthan.",
+  "_criteria_filled": 1
+}

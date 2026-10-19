@@ -1,0 +1,36 @@
+{
+  "id": "deen-dayal-antyodaya-yojana-national-urban-livelihoods-mission-day-nulm-self-hel",
+  "name": "Deen Dayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM): Self-Help Group - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- In urban local body areas, urban poor women are provided with benefits under the scheme.\n  - A one-time amount of ₹10,000/- is given to each group as an incentive by the Government of India.\n  - Through bank loans, various activities are carried out by the groups to improve women’s livelihoods.\n  - To encourage groups to adopt self-employment, subsidies are provided by both the Government of Ind",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-one-passport-size-photograph-proof-of-family-annual-income-other-su"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/daynulmshguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a woman.\n   1. To form a Self-Help Group, the beneficiary must belong to an urban body.\n   1. The beneficiary must have an Aadhaar card &amp;amp; one passport-size photograph.\n   1. The annual income of the beneficiary&amp;#39;s family must be less than ₹3.00 lakh.\n\n<br>",
+  "_criteria_filled": 3
+}

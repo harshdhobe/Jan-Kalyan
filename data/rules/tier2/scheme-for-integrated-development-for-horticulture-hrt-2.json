@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-integrated-development-for-horticulture-hrt-2",
+  "name": "Scheme for Integrated Development for Horticulture (HRT-2)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Promotional Activities Support:** Provides assistance for publications, exhibitions, competition seminars, Krishi Mela, and stall rental payments related to horticultural crops.  - **Farm Mechanization:** Offers support for farm mechanization, including subsidies for power tillers and mini tractors.  - **Processing Unit Establishment:** Facilitates the establishment of new distillation units f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-copy-of-khedut-ration-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfidfh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer based in Gujarat.\n- The applicant should be engaged in horticultural activities eligible under the scheme.\n- The applicant must possess valid land ownership records such as 7/12 Certificate.\n\n<br>",
+  "_criteria_filled": 1
+}

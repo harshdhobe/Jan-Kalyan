@@ -1,0 +1,27 @@
+{
+  "id": "payment-of-death-benefit-hpbocwwb",
+  "name": "Payment of Death Benefit ( HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- ₹4,00,000 in the event of accidental death.\n- ₹2,00,000 in the event of natural death.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-undertaking-a-copy-work-slip-proof-of-reside"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/PublicPages/schemedetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/podbhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a nominee/legal heir of the deceased worker.\n1. The deceased worker should have been registered with the &quot;Himachal Pradesh Building and Other Construction Workers Welfare Board&quot;.\n1. The membership of the deceased worker with the Welfare Board must be active.",
+  "_criteria_filled": 1
+}

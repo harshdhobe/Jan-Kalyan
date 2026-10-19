@@ -1,0 +1,27 @@
+{
+  "id": "distribution-of-gypsum-oil-seeds",
+  "name": "Distribution of Gypsum-Oil Seeds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** 50% of the cost of material plus transport limited to ₹750/- per ha whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhar-card-proof-of-land-ownershiplease-agreement-certificate-of-seed-productio"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7618",
+  "source_url": "https://www.myscheme.gov.in/schemes/dogos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be engaged in seed production.\n  - The beneficiary should produce and supply Foundation and Certified Class seeds to the Department.",
+  "_criteria_filled": 1
+}

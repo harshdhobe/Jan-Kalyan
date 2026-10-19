@@ -1,0 +1,26 @@
+{
+  "id": "organic-manure-scheme",
+  "name": "Organic Manure Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Type of assistance:**\n\n- Training and awareness campaign in the production of organic composts.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=75",
+  "source_url": "https://www.myscheme.gov.in/schemes/oms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "chief-ministers-comprehensive-health-insurance-scheme-tamil-nadu",
+  "name": "Chief Minister’s Comprehensive Health Insurance Scheme - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "1. The scheme seeks to provide cashless hospitalization-specific ailments and procedures. \n1. The scheme provides coverage up to ₹ 5,00,000 per family per year on a floater basis for the ailments and procedures covered under the scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "ration-card-national-identity-card-of-the-differently-abled-person-any-other-doc"
+  ],
+  "apply_url": "https://www.cmchistn.com/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmchis-tn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tamil Nadu.\n1. The applicant should have their name included in the family card.\n1. The applicant’s family income should not exceed ₹1,20,000 per annum.\n1. The applicant should submit a family card, an Aadhaar card, and an income certificate issued by VAO/Revenue Authorities, along with a self-declaration.",
+  "_criteria_filled": 2
+}

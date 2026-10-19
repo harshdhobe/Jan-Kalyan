@@ -1,0 +1,26 @@
+{
+  "id": "student-welfare-scheme",
+  "name": "Student Welfare Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance is provided for the following:\n•\t**For participation in special events such as art, cultural, intellectual, and scientific activities:** ₹3,000/-\n•\t**For tricycles for disabled students:** ₹3,000/-\n•\t**In case of untimely calamity or any emergency situation:** ₹25,000/-\n•\t**For special diseases such as cancer, TB, and heart disease, etc.:** ₹10,000/-\n•\t**In ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=816",
+  "source_url": "https://www.myscheme.gov.in/schemes/sws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a student.\n2.\tThe student should be a native of Madhya Pradesh.\n3.\tThe student should be studying in Class 1 to 10.\n4.\tThe student should belong to the Scheduled Tribe category.\n5.\tThe student should be enrolled in a government or accredited and approved educational institution/school.\n6.\tA student who has not received financial support from any other government scheme is eligible for this scheme.\nNote: Any aspect which is supported by any scheme availed, that aspect will not be provided by this scheme",
+  "_criteria_filled": 1
+}

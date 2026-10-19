@@ -1,0 +1,26 @@
+{
+  "id": "infrastructure-development-subsidy-for-itites-under-motivation-of-entrepreneurs",
+  "name": "\"Infrastructure Development Subsidy (For IT/ITES)\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "30% subsidy, subject to a maximum of ₹1,00,00,000/-.\n_*The building value will be assessed by the PIPDIC/Public Works Department._\n> **Number of Installments**\n\nThe infrastructure subsidy shall be disbursed in annual installment not exceeding ₹25,00,000/- per annum till completion of the total eligible subsidy.\n> **Mode of Disbursement**\n\n- The subsidy amount shall be disbursed through the financi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-productio"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/ids-mesifa-cii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The investment should have been made on building with a minimum extent of 50,000 sq.ft. constructed area.\n- The investment should have been made by the infrastructure developers/industries.\n- The investment should have been made for leasing out to IT industries or for own industrial use (for manufacturer of computer systems, Software/ITES, BPO, KPO).\n- The unit should provide at least 60% of employment to the people of the Union territory of Puducherry of the total employment strength of the industrial units. This 60% of the local employment will have to be maintained by the industrial unit during the period specified in the Affidavit.\n- The industrial unit shall not transfer or dispose of the fixed asset including plant and machinery in any manner till the completion of 5 years from the date of submitting the application/disbursement of the subsidy whichever is later.\n- The additional investments made by the new/existing industrial units after availing the first claim are also eligible for subsidy up to the ceiling limit.\n\n*The date of commencement as admitted by the entrepreneurs shall be reckoned after due verification by the officials of the Industries Department.\n*The units which have commenced commercial production on or after 1-4-2017 are considered new industries.\n*The units which have commenced production before 1-4-2017 are considered as existing units.\n> **Special Cases**\n\nIf, two or more industrial undertakings are set up by the same person as proprietor, common partners, common Board of Directors/shareholders, such units are eligible for subsidy as separate entity provided the location of the unit are different and licenses /clearances/ registrations are obtained separately for the enterprises.",
+  "_criteria_filled": 1
+}

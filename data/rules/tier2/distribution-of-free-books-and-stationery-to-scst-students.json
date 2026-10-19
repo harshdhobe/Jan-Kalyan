@@ -1,0 +1,26 @@
+{
+  "id": "distribution-of-free-books-and-stationery-to-scst-students",
+  "name": "Distribution of Free Books and Stationery to SC/ST Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under the scheme, free books worth ₹1,500/- and stationery worth ₹500/- per year are provided to SC/ST students studying in government colleges in undergraduate and postgraduate courses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-caste-certificate-3-domicile-certificate-of-madhya-pradesh-4"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=797",
+  "source_url": "https://www.myscheme.gov.in/schemes/dfbsscsts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should be a regular student.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe category.\n   1. The applicant should be studying in a government college.\n   1. The applicant should be pursuing either a graduation or post-graduation course.",
+  "_criteria_filled": 1
+}

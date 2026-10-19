@@ -1,0 +1,33 @@
+{
+  "id": "odisha-sahaya-scheme-pre-post-matric-scholarship",
+  "name": "Odisha Sahaya Scheme - Pre & Post Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. The students desirous to avail of the scholarship shall submit applications in the prescribed format to the DSSO with certification/ recommendation by the head of the educational institutions.  \n2. Under this scheme students so eligible will get a scholarship for a maximum period of 10 months in an academic year. The students availing scholarships from either the Central or State Govt. under an",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 240000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificates-bonafide-certificate-income-certificate-previous",
+    "if-the-candidate-is-18-years-of-age-or-above",
+    "or-a-joint-account-in-the-name-of-the-fathermother-guardian-of-the-candidate-in"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2022-05/Scheme%20for%20Beggars-Final.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ossppms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant is a bona fide resident of Odisha. \n1. The applicant is either a beggar or the child of a beggar. \n1. The applicant is a regular student of recognised educational institutions.  \n1. The applicant shall have a family income of not more than ₹ 2,40,000/- per annum.  \n1. The applicant is not in receipt of any financial assistance from the State Govt./ Central Govt. under any other scheme. \n\n<br>",
+  "_criteria_filled": 2
+}

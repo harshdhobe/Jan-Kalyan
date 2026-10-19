@@ -1,0 +1,36 @@
+{
+  "id": "aapki-beti-yojana",
+  "name": "Aapki Beti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:**\n\n- ₹2,100/- per annum for girl students in classes 1st to 8th.- ₹2,500/- per annum for girl students in classes 9th to 12th.\n> ***Mode of Disbursement:***\n\n- Direct Benefit Transfer (DBT) to the bank account linked with Jan Aadhaar of the family head or the girl child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-of-the-applicant-identity-proof-of-applicant-educational-cer"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=670104fd629122007438dba7",
+  "source_url": "https://www.myscheme.gov.in/schemes/aby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a girl student \n1. The applicant should be studying in a government school in Rajasthan.\n1. The applicant should be studying in classes 1st to 12th.1. The applicant’s family should fall under the Below Poverty Line (BPL) category.\n1. The applicant should have lost either one parent (single parent) or both parents.",
+  "_criteria_filled": 3
+}

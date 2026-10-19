@@ -1,0 +1,35 @@
+{
+  "id": "scheme-of-conferring-kalaimamani-award",
+  "name": "Scheme of Conferring ‘Kalaimamani’ Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "The artist is provided with an Investiture Gold Pendant of three Sovereign Ponnadai and a Citation.\n_*If the artist expires after the announcement of the award to him/her but before the investiture function, the award will be given to his/her dependent._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-of-the-artist-proof-of-achievementsmerits-in-the-art-disciplines-of-tam",
+    "music",
+    "bharathanatyam",
+    "drama",
+    "film",
+    "folk-arts",
+    "painting",
+    "sculptures",
+    "vigadam-etc-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/socka-tn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Artist.\n1. The artist should be popular and famous.\n1. The artist should have professionally rendered yeomen services for the enrichment of the traditional arts.\n1. The artist&#39;s performance should have had lasting contribution, popularity, and merit in the art disciplines of Tamil Literature, Music, Bharathanatyam, Drama, Film, Folk arts, Painting, Sculptures, Vigadam, etc.\n1. An artist who is popular in various art disciplines can be conferred the Kalaimamani Award for one discipline only. \n1. If more than one artist is jointly engaged in artistic pursuit in any of the art disciplines, the award will be given to them jointly.\n\n**NOTE 1:** This award is conferred regardless of caste, religion, race and age.\n**NOTE 2:** Individual works of art or a single achievement will not be considered for conferring this award. \n<br>",
+  "_criteria_filled": 1
+}

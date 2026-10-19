@@ -1,0 +1,26 @@
+{
+  "id": "assistance-program-for-the-cultivation-of-lotus-fruit-dragon-fruit",
+  "name": "Assistance Program for the Cultivation of Lotus Fruit (Dragon Fruit)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **General category:** 50% assistance or up to ₹3,00,000/- per hectare (whichever is less).- **SC/ST** **category:**  75% assistance or up to ₹4,50,000/- per hectare (whichever is less).\n> **First Year Assistance:**\n\n- **Cement pole/pipe:** 1111 units at ₹300 each = ₹3,33,300/-- **Planting material:** 4444 units at ₹35 each = ₹1,55,540/-- **Total:** ₹4,88,840/-- **Actual Assistance Provided:** 50",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apclfdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Gujarat.\n  - The applicant must have a minimum land between 0.20 ha and 1 ha.\n  - The applicant must procure quality planting materials from a nursery and start the plantation.\n\n&gt; **Note:** Preference will be given to small-scale and women farmers.",
+  "_criteria_filled": 1
+}

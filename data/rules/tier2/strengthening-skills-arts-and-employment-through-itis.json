@@ -1,0 +1,26 @@
+{
+  "id": "strengthening-skills-arts-and-employment-through-itis",
+  "name": "Strengthening Skills, Arts and Employment through ITIs",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The scheme provides employment-oriented training through ITIs, aiming to enhance traditional skills and offer employment or self-employment opportunities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/skaaeti",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the De-notified, Nomadic, and Semi-Nomadic communities listed in Madhya Pradesh.\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should not be an income taxpayer.\n1. The applicant&#39;s educational qualification should meet the course requirements.",
+  "_criteria_filled": 1
+}

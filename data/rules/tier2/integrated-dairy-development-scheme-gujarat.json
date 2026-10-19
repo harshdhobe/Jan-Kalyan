@@ -1,0 +1,36 @@
+{
+  "id": "integrated-dairy-development-scheme-gujarat",
+  "name": "Integrated Dairy Development Scheme Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Financial Assistance Structure:**\n\n- Total unit cost: ₹90,000\n- GTDC Loan (Gujarat Tribal Development Corporation): ₹29,000\n- Government of India Subsidy: ₹29,000\n- State Government Assistance: ₹29,000\n- Beneficiary Contribution: ₹3,000\n- Milch cattle and dairy equipment provided to tribal women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-bpl-card-caste-certificate-bank-passbook-or-cancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/iddsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman. \n1. The applicant should belong to Scheduled Tribes (ST).\n1. The applicant should belong to a Below Poverty Line (BPL) family.\n1. The applicant should be a farmer, livestock keeper (Pashu Palak), or self-employed woman in tribal or forest areas.\n1. The applicant should be interested in self-employment through dairy farming.\n\n<br>",
+  "_criteria_filled": 3
+}

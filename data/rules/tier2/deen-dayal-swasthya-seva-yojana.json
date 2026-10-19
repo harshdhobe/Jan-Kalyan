@@ -1,0 +1,29 @@
+{
+  "id": "deen-dayal-swasthya-seva-yojana",
+  "name": "Deen Dayal Swasthya Seva Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**The benefit under this scheme shall be provided on a cashless basis to the beneficiaries, up to the limit of their annual coverage, and shall be as under:**\n\n1. The insurance cover shall be up to ₹2,50,000/- per annum for a family of three or fewer members and up to ₹4,00,000/- for a family of four or more members. Under no case, the claim would exceed ₹4,00,000/- annually.\n1. The insurance bene",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-cardenrolment-acknowledgement-slip-of-every-family-member-above-5-years-c",
+    "residence-certificateelection-carddriving-license-issued-a-minimum-of-5-years-ag",
+    "00",
+    "000-per-annum-for-scst-cast-certificate-issued-by-the-director-of-tribal-welfare"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2020/09/Deen-Dayal-Swasthya-Seva-Yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of the state of Goa.\n1. The applicant must have resided in Goa continuously for a minimum of five years or more.",
+  "_criteria_filled": 1
+}

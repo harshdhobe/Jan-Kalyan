@@ -1,0 +1,48 @@
+{
+  "id": "mahila-samruddhi-gujarat-backward-caste-development-corporation",
+  "name": "Mahila Samruddhi (Gujarat Backward Caste Development Corporation)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The maximum loan limit under this scheme is up to ₹1,25,000/-.\n1. The interest rate on these schemes will be 4% per annum.\n1. In these schemes, 95% of the unit cost will be provided as a loan, where 95% will be contributed by the National Corporation and 5% by the State Government.\n1. This loan is to be repaid in 48 equal monthly installments, including interest.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhar-card-affidavit-age-proof-cross-referencing-eligibility-cr",
+    "00",
+    "000-passport-size-photos-quotations-ration-card-residence-proof-school-leaving-c"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/msgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be female.\n1. The applicant must be a resident of Gujarat.\n1. The applicant should belong to a socially and educationally backward class, specifically Other Backward Classes (OBC).\n1. The total annual income of the applicant&#39;s family should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 and 45 years on the date of application.\n1. The applicant must have experience in a business requiring technical and other skills.\n\n<br>",
+  "_criteria_filled": 5
+}

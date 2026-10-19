@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-medhavi-chhatra-protsahan-scholarship-scheme-secondary-level-class",
+  "name": "Mukhyamantri Medhavi Chhatra Protsahan Scholarship Scheme (Secondary Level- Class 11 & 12)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***Rate of Scholarship:***\n\n- **For Class 11th Students:**   ₹1,200/- per month for 1 year.- **For Class 12th Students:**   ₹1,200/- per month for 1 year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-aadhaar-linked-bank-account-passbookdetails-caste-certificate-only"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmmsissuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must have secured at least 80% marks in the Uttarakhand Board Examination of Class 10  while studying in a state government school or a government-aided non-government school (excluding central and residential schools).\n   1. The student must maintain 75% attendance and 75% marks in Class 11. SC/ST students will be given a 5% relaxation in marks and attendance in the board examination.\n   1. There is no income criterion for the parent/guardian of the student under this scholarship.\n   1. The student cannot avail benefits under multiple state scholarship schemes simultaneously\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-kanya-suraksha-yojana",
+  "name": "Mukhyamantri Kanya Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- ₹2,000/- is invested as a fixed deposit for each eligible girl child.\n\n&gt; **Note:** In the event of the girl child’s death, the amount is returned to the Women &amp;amp; Child Development Corporation, Bihar.\n\n&lt;br&gt;\n\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-the-girl-child-bpl-certificate-of-the-family-aadhaar-card-o"
+  ],
+  "apply_url": "https://wcdc.bihar.gov.in/MKSYDetails",
+  "source_url": "https://www.myscheme.gov.in/schemes/mksybb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Girl must be a resident of Bihar.\n1. The Girl child must born on or after November 22, 2007.\n1. The family must belong to the Below Poverty Line (BPL) category.\n\n> Note: A maximum of 2 girl children per family can avail of the benefit.",
+  "_criteria_filled": 3
+}

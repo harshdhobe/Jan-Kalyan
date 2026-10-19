@@ -1,0 +1,30 @@
+{
+  "id": "sheti-samrudhi-yojana",
+  "name": "Sheti Samrudhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "##### ***Financial Assistance for Operational Costs***\n\n- Wages of one resource person (Diploma in Agriculture) and one peon at the rates fixed under the Minimum Wages Act.\n- A fixed amount of ₹25,000/- per annum for incurring expenditure on stationery, printing, etc..\n- Rent reimbursement for office space, subject to limits: Minimum limit of ₹8,000/- per month for urban areas; Minimum limit of ₹5",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "membership-and-legal-status-documentsscheduled-tribe-certificates-of-the-members",
+    "along-with-the-office-bearers-the-farmer-co-operative-shall-submit-the-last-two",
+    "only-audit-report-of-last-financial-year-may-be-furnished-identification-and-ope",
+    "state-of-goa-project-and-compliance-documentsbrief-project-report-on-the-activit",
+    "management-of-community-forest-produce-or-registration-of-claims-of-the-forest-d"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-11-SI-OG-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssy-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Tribal Farmers&#39; Cooperative Organization.\n\n- The Cooperative must be registered under the Goa Co-operative Societies Act, 2001.\n- The objective of the Cooperative must be to improve productivity and/or to market the farm or forest produce.\n\n<br>",
+  "_criteria_filled": 1
+}

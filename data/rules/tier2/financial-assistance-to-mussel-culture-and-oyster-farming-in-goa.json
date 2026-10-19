@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-mussel-culture-and-oyster-farming-in-goa",
+  "name": "Financial Assistance to Mussel Culture and Oyster Farming in Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Setting Up of Unit in Estuarine Waters**\n\n50% subsidy limited to ₹ 25,000 per unit, maximum for 2 units. Each unit in the estuarine water will be of size 4 meters x 4 meters.\n> **Setting Up of Unit in Open Sea**\n\n50% limited to ₹ 40,000 per unit, maximum for 2 units. Each unit in the Open sea will be of size 6 meters x 6 meters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-identity-2-photographs-2-nos-3-documents-for-the-proof-of-availabilit"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/08/Mussel-Oyster-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/famcofg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Fish Farmer/ Individual/ Registered Self Help Groups/ Societies/ Associations, interested in setting up the Mussel Culture/ Oyster Farming Unit in Goa.\n- The applicant should be a resident of Goa for the last fifteen years.\n- The applicant should have undergone a training programme on Mussel Culture/ Oyster Farming organized by the Fisheries Department/ MPEDA/ ICAR/ any other institute.",
+  "_criteria_filled": 1
+}

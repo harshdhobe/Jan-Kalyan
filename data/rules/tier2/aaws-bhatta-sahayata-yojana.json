@@ -1,0 +1,32 @@
+{
+  "id": "aaws-bhatta-sahayata-yojana",
+  "name": "Aaws Bhatta Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. In Bhopal, Indore, Jabalpur, Gwalior, and Ujjain cities ₹2,000/- per student per month.\n1. At district headquarters ₹1,250/- per student per month.\n1. At the tehsil and development block level ₹1,000/- per student per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "10th-and-12th-class-mark-sheet-certificate-of-the-class-in-which-the-student-is",
+    "scheduled-tribe-the-category-to-which-the-student-belongs-passport-size-photogra"
+  ],
+  "apply_url": "https://highereducation.mp.gov.in/?page=vLuWikaQay75hcoaHzpQew%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/absy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Caste category.\n1. The applicant must be admitted as a regular student in a government or recognized non-government college.\n1. The applicant must not be admitted to any government hostel.\n1. The annual income of the student&#39;s family must be as per the income limit prescribed in the Post Matric Scholarship Scheme, which is currently ₹6,00,000/- per annum.\n1. The college or the student&#39;s permanent residence should not be located within the geographical limits of the same local body (urban body/gram panchayat).",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,36 @@
+{
+  "id": "early-intervention-centre-for-children-with-cerebral-palsy-in-srtc-chennai-and-t",
+  "name": "Early Intervention Centre for Children with Cerebral Palsy in SRTC, Chennai and Tiruchirapalli Districts",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Early intervention provides stimulation training to the children.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate-any-other-docu"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eicccpsrtcctd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The young child/infants should be affected with cerebral palsy. \n1. The age of a young child/infant should be 6 years or below.",
+  "_criteria_filled": 3
+}

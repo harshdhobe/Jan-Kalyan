@@ -1,0 +1,31 @@
+{
+  "id": "mahila-bakri-palan",
+  "name": "Mahila Bakri Palan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, one unit of goats (3 females and 1 male) aged 12 to 18 months is provided to eligible women. The entire cost of the scheme, ₹35,000, is borne by the State Government.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-caste-certificate-other-supporting-documents-a"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a woman.\n1. The applicant must be from one of the following categories:\n\n- Abandoned\n- Widow\n- Destitute\n- Single woman\n- Disaster-affected woman\n\n<br>",
+  "_criteria_filled": 2
+}

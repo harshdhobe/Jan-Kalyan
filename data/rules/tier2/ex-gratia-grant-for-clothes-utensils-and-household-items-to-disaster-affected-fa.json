@@ -1,0 +1,26 @@
+{
+  "id": "ex-gratia-grant-for-clothes-utensils-and-household-items-to-disaster-affected-fa",
+  "name": "Ex-Gratia Grant for Clothes, Utensils, and Household Items to Disaster-Affected Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, an ex-gratia grant of ₹2,500/- per family is provided for damage to clothes, and an additional ex-gratia grant of ₹2,500/- per family is provided for damage to utensils or household items.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "form-p-20-entry-confirmation-recorded-by-the-concerned-patwari-other-supporting"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/defamiliesuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a disaster-affected family from Uttarakhand whose house has been affected by a natural disaster.\n\n<br>",
+  "_criteria_filled": 1
+}

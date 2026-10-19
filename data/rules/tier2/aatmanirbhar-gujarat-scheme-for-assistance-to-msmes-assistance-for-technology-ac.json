@@ -1,0 +1,32 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-technology-ac",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Technology Acquisition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance:**\n\n  - Covers 65% of the technology acquisition cost.\n  - Maximum assistance of ₹50,00,000/-, including royalty payments for two years.\n\n&gt; **Eligibility for Prior Costs:**\n\n  - Enterprises opting for this scheme are eligible for assistance on expenses incurred under the previous scheme during the operative period.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-constitution-of-enterprise-memorand",
+    "partnership-deed",
+    "etc-power-of-attorney-board-resolution-of-authorized-signatoryconsent-letter-cop",
+    "outcomeresult-after-adoption-of-technology-on-letterhead-audited-report-with-bal",
+    "if-applicable-project-reporttechnical-presentation-regarding-technology-term-loa",
+    "promotersdirectorspartners",
+    "and-authorized-signatory-gst-registration-certificate-if-applicable-technology-p"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmeata",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.",
+  "_criteria_filled": 1
+}

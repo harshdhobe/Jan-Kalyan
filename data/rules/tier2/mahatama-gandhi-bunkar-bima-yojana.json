@@ -1,0 +1,40 @@
+{
+  "id": "mahatama-gandhi-bunkar-bima-yojana",
+  "name": "Mahatama Gandhi Bunkar Bima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "This scheme provide insurance coverage to handloom weavers as under:\n\n   1. In the event of the natural death of the weaver, a Sum Assured of ₹ 60,000 will become payable to the nominee.\n   1. In the cause of Accidental Death or Total Permanent Disability, a Sum Assured of ₹ 1,50,000/- will become payable to the nominee.\n   1. In case of Partial Disability, a Sum Assured of ₹ 75,000/- will become ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-ie-aadhar-card-etc-in-the-case-of-death-or-disability",
+    "the-nominee-beneficiary-concerned-shall-submit-documentary-evidence-such-as-a-de",
+    "as-applicable-in-the-case-of-accidental-claim",
+    "police-inquiry-report-will-also-be-required-to-be-submitted-photocopy-of-first-p",
+    "as-requested-by-concerned-authorities"
+  ],
+  "apply_url": "https://handloom.odisha.gov.in/sites/default/files/2020-02/3_MGBBY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgbby-odisha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The weaver should be earning at least 50% of his income from handloom weaving.\n   1. All weavers, whether male or female, between the age group of 18 and 59 years are eligible to be covered under the scheme, including minorities, women weavers, and weavers belonging to NER.\n   1. The weavers belonging to the State Handloom Development Corporations/Apex/ Primary Handloom Weavers’ Cooperative Societies will be covered under the Scheme.\n   1. Weavers outside co-operative can also be covered under the scheme on a certificate from the State Directorate of Handlooms that they are fulfilling the eligibility conditions.\n   1. The children of weavers who are covered under “Shiksha Sahyog Yojana” will also be eligible for scholarship and the benefit of scholarship is restricted to two children of the member covered. Both the children irrespective of gender based discrimination will be covered for scholarship.\n\n**NOTE:**\n\n   1. It will be the responsibility of the State Director in charge of Handlooms to verify the eligibility of the weavers who are proposed to be covered under the scheme.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "registered-boc-workers-in-case-of-an-accidental-death-jkbocwwb",
+  "name": "Registered BOC Workers in case of an Accidental Death (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "₹4,00,000/- is provided to the nominee or dependents of the deceased worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-nomineelegal-heirs-passport-size-photograph-proof"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/MediaGallery/Accidental%20and%20natural%20death.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rbwicoaadjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n> **For the Application of the Welfare Scheme:**\n\n1. The applicant should be a nominee/dependent of a registered member/worker who has passed away due to accidental death.",
+  "_criteria_filled": 1
+}

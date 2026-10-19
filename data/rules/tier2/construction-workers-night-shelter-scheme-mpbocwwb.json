@@ -1,0 +1,41 @@
+{
+  "id": "construction-workers-night-shelter-scheme-mpbocwwb",
+  "name": "Construction Workers Night Shelter Scheme (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Night shelters for construction workers and their families.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-proof-of-residence-eg",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/NirmanShramikRenBasera.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cwnss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The registration of the applicant should be renewed annually.\n\n**For Application**\n\n1. The applicant should be a Construction worker.\n1. The Construction worker and their family members should possess valid identity cards.\n1. The Construction worker and their family members should have temporarily relocated from other places for work.",
+  "_criteria_filled": 3
+}

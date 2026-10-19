@@ -1,0 +1,26 @@
+{
+  "id": "interest-free-loan-scheme-to-teachers-for-the-purchase-of-laptops",
+  "name": "Interest Free Loan Scheme To Teachers For The Purchase Of Laptops",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- An Interest Free Loan up to a maximum amount of ₹1,00,000/- is granted for the purchase of a Laptop.\n- The loan is disbursed in the form of a Crossed Cheque.\n- The Cheque is drawn in favor of the dealer.\n- The Cheque is issued through Messers Goa Education Development Corporation (GEDC), Government of Goa.\n\n***Conditions***\n\n- _The purchase of the Laptop must be made from any registered or autho",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "quotation-of-the-laptop-from-a-registered-dealer-pre-receipt-details-and-specifi"
+  ],
+  "apply_url": "https://education.goa.gov.in/wp-content/uploads/2024/11/schemes-planning.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iflstpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a regular/permanent full-time teacher.\n- The applicant must be teaching in Secondary schools or Higher Secondary schools.\n- The applicant must be working in a Government school or in a Government Aided school.\n- The applicant must be covered under the Administrative control of the Directorate of Education in the State of Goa.\n\n<br>",
+  "_criteria_filled": 1
+}

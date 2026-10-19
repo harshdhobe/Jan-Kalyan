@@ -1,0 +1,29 @@
+{
+  "id": "market-support-scheme-for-smaller-business-units",
+  "name": "Market Support Scheme for Smaller Business Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A reimbursement of 50% of the exhibition rental cost for will be provided for participating in national/ international exhibitions, limited to 9 square meters of space, subject to approval by the Government.\n\n**NOTE 1:** The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation is exceeded.\n*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "common-documents-required-at-the-time-of-pre-approval1-copy-of-incorporation-cer",
+    "aadhaar",
+    "and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-the-first-bill-ge",
+    "showing-the-date-of-commencement-of-operations-or-other-relevant-documents-6-bro"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssfsbu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the new and existing units must have their operations in Goa.\n2. The applicant must be one of the below:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n4. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n5. Pre-approval from the Committee is required prior to attending an exhibition in order to claim a reimbursement.",
+  "_criteria_filled": 1
+}

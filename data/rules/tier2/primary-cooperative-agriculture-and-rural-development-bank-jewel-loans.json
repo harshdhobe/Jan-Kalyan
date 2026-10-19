@@ -1,0 +1,28 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-jewel-loans",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: Jewel Loans",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Access to Loan:** Up to ₹2,00,000/- based on the value of the pledged jewels.\n**Interest Rate:** 11.5% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-land-ownership-or-lease-jewels-purchaseinvoice-detail"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3545",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcaardjl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of Tamil Nadu.\n   1. The beneficiary should be a farmer.\n   1. The beneficiary should be engaged in agricultural activities.",
+  "_criteria_filled": 1
+}

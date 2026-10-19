@@ -1,0 +1,27 @@
+{
+  "id": "sharodotsav-pandit-nandan-mehta-plan-for-conducting-classical-music-competition",
+  "name": "Sharodotsav Pandit Nandan Mehta: Plan for Conducting Classical Music Competition and Ceremony",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **First Prize:** ₹11,000/-.  - **Second Prize:** ₹8,000/-.  - **Third Prize:** ₹5,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-cardvoter-iddriving-license-address-proof-ration-cardelec",
+    "if-any-any-other-documents-as-required"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spnmcmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be an individual participating in the classical music or percussion category.\n\n<br>",
+  "_criteria_filled": 1
+}

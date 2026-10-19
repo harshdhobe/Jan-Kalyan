@@ -1,0 +1,32 @@
+{
+  "id": "super-30-scheme",
+  "name": "\"SUPER 30\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "The scheme covers the coaching fees (capped at ₹1,00,000/-) &amp; the accommodation fees of ₹1,40,000/- per annum (with 5% extra in 2nd year), for attaining a two-year coaching programme for JEE/ NEET at a nationally reputed Coaching Institution outside Tripura.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "original-income-certificate-issued-by-the-sub-divisional-magistrate-sdm-deputy-c",
+    "as-required"
+  ],
+  "apply_url": "https://schooleducation.tripura.gov.in/sites/default/files/S%2030%20Notification%20%281%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/s30s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura. \n1. The applicant should be a student.\n1. The applicant should belong to the Scheduled Tribe (ST)/ Scheduled Caste (SC)/ Person with Disability (PH) community.\n1. The student should have passed the class-10th Pre-Board/ Pre-Test Exam from the government-recognized school of Tripura with 50% marks.\n1. The applicant should be appearing for the class 10th board final exam.\n1. The annual income of the family of the applicant should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 2
+}

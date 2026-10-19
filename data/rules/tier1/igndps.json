@@ -1,0 +1,44 @@
+{
+  "id": "igndps",
+  "name": "Indira Gandhi National Disability Pension Scheme",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Monthly pension of Rs 300 (18-79 years) or Rs 500 (80+) for severely disabled BPL persons.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "disability_percent",
+        "op": ">=",
+        "value": 80
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl_card",
+    "aadhaar_card",
+    "age_proof",
+    "disability_certificate"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/igndps",
+    "apply": "https://nsap.dord.gov.in/Guidelines/dps.pdf"
+  },
+  "notes": "Dataset conflict: 'more than 80%' vs '80% and more'. Using >= 80. Verify on official page."
+}

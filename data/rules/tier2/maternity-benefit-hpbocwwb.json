@@ -1,0 +1,46 @@
+{
+  "id": "maternity-benefit-hpbocwwb",
+  "name": "Maternity Benefit (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "₹25,000/- to registered female worker at the time of delivery or upon the birth of a child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-as-a-buildingconstruction-worker-identity-pr",
+    "aadhaar-card-passport-size-photograph-skill-upgradation-training-certificate-pro",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/PublicPages/schemedetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Himachal Pradesh\n1. The applicant should be a Building/ Construction Worker..\n1. The applicant should be aged between 18 and 60 years.\n1. The worker should have completed at least 90 days of building and other construction work in the last 12 months.\n1. The registration of the applicant should be renewed annually.\n\n<br>\n\n**For the Application of the Welfare Scheme:**\n\n1. The beneficiary should be a woman.\n1. The woman should be registered as a worker with the &quot;Himachal Pradesh Building and Other Construction Workers Welfare Board&quot;.\n1. The woman should be pregnant.\n1. The worker&#39;s membership with the Welfare Board must be active at the time of application.\n1. The worker should have at least two months of subscription with the Board.",
+  "_criteria_filled": 4
+}

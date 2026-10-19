@@ -1,0 +1,34 @@
+{
+  "id": "pmmy",
+  "name": "Pradhan Mantri Mudra Yojana",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Collateral-free business loans up to Rs 10 lakh (Shishu, Kishore, Tarun tiers).",
+  "criteria": {
+    "all": [
+      {
+        "field": "wants_business_loan",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "is_loan_defaulter",
+        "op": "==",
+        "value": false
+      }
+    ]
+  },
+  "documents": [
+    "identity_proof",
+    "residence_proof",
+    "bank_statement",
+    "business_proof"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmmy",
+    "apply": "https://www.mudra.org.in/"
+  },
+  "notes": "Very broad criteria. Rule filters out defaulters only. Check official page for non-farm business limits."
+}

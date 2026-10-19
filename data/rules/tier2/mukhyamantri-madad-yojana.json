@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-madad-yojana",
+  "name": "Mukhyamantri Madad Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "The scheme offers the following assistance to Scheduled Tribe families:\n\n  - **Birth of a Child:** Upon the birth of a boy or girl, the family will receive 50 kg of wheat and rice, along with cooking utensils, provided at the panchayat level.  - **Death of a Family Member:** In the event of a family member&amp;#39;s death, the family will receive 1 quintal (100 kg) of either wheat or rice.\n**Note:",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-identify-proof-2-domicile-certificate-of-madhya-pradesh-3-caste-certificate-4"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=604",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a native of Madhya Pradesh.\n   1. The beneficiary should belong to the Scheduled Tribe category.\n   1. The beneficiary should reside in a rural area.\n   1. No family member should be employed in government service (Class 1/2/3) or hold a high-ranking post.\n   1. The beneficiary must reside in one of the 20 identified tribal districts of Madhya Pradesh: Mandla, Dindori, Balaghat, Shahdol, Anuppur, Umaria, Jhabua, Alirajpur, Barwani, Ratlam, Hoshangabad, Betul, Sidhi, Seoni, Chhindwara, Dhar, Khargone, Khandwa, Burhanpur, and Sheopur.\n\n**Note:** Benefits under the scheme are provided for the birth of the first or second child of the couple.",
+  "_criteria_filled": 1
+}

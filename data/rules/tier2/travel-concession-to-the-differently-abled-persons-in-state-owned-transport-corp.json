@@ -1,0 +1,34 @@
+{
+  "id": "travel-concession-to-the-differently-abled-persons-in-state-owned-transport-corp",
+  "name": "Travel Concession To The Differently Abled Persons In State Owned Transport Corporation Buses",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "i) All visually impaired persons are given travel concession to travel up to 100 Km. to and fro without any condition and free of cost.\nii) Free-of-cost travel concession is allowed to intellectually disabled persons to travel with one escort. \niii) The speech and hearing impaired and locomotor differently-abled persons are given travel concession free of cost up to 100 Kms to go to schools/colleg",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-for-differently-abled",
+    "certificate-from-the-educational-institution",
+    "except-for-the-blind-bonafide-certificate-from-concerned-authorityemployer-for-7",
+    "a-certificate-from-government-doctor-should-be-submitted"
+  ],
+  "apply_url": "chrome-extensionhttps://www.scd.tn.gov.in/pdf/schemes/pdf/TRAVEL%20CONCESSION%20TO%20THE%20DIFFERENTLY%20%20ABLED%20%20PERSONS%20%20%20IN.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcdapsotcb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The Applicant should be a Differently abled person.",
+  "_criteria_filled": 2
+}

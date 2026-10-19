@@ -1,0 +1,26 @@
+{
+  "id": "infrastructure-subsidy-under-motivation-of-entrepreneurs-to-start-industries-and",
+  "name": "\"Infrastructure Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 25% subsidy subject to a maximum of ₹1,00,00,000/-. For the infrastructure developer who has made investment on building with a minimum extent of 50,000 sq. ft. constructed area, for leasing out to IT industries.\n- 25% subsidy subject to a maximum of ₹1,00,00,000/-. For the industrial unit, which is investing for construction of factory building of not less than 50,000 sq.ft for setting up of th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-productio"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/infs-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be an infrastructure developer who has made investment on building with a minimum extent of 50,000 sq. ft. constructed area, for leasing out to IT industries.\n**OR**\nThe applicant should be an industrial unit, which is investing for construction of factory building of not less than 50,000 sq.ft for setting up of the IT industries.\n**OR**\nThe applicant should be an infrastructure developer who has made investment on building with a minimum extent of 50,000 sq. ft. constructed area, for leasing out to the bio-technology industries.\n**OR**\nThe applicant should be a bio-technology industry unit which has made investment on building with a minimum extent of 5,000 sq. ft for self-occupation.\n_*The subsidy would be eligible for the investment made on building on or after 31-7-2006._\n_*For the purpose of this scheme, &quot;IT industries&quot; mean Manufacturers of Computer Systems, Software/Information Technology Enabled Services (ITES), Business Process Outsourcing (BPO) and Knowledge Process Outsourcing (KPO)._",
+  "_criteria_filled": 1
+}

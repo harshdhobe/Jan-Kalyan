@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-purchase-of-barrier-net-and-its-accessories",
+  "name": "Financial Assistance for Purchase of Barrier Net and its Accessories",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **For General Category**\n\nSubsidy of 50%, limited to ₹30,000 on a unit cost of ₹60,000 (excluding GST).\n> **For SC/ST/Woman Category**\n\nSubsidy of 60%, limited to ₹36,000 on a unit cost of ₹60,000 (excluding GST).\n**NOTE:** The beneficiary can avail of the scheme every 4 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-original-invoice-from-authorized-dealers-for-the-purchase-of-barrier-net-and-i"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/07/CitizenCharter-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapbnia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The applicant should have purchased a Barrier Net and its Accessories.",
+  "_criteria_filled": 1
+}

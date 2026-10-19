@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-to-dependent-children-of-widows-and-destitute-women",
+  "name": "Financial Assistance To Dependent Children Of Widows And Destitute Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "household",
+  "benefit": "₹ 1000/- per month per child is provided for up to two children in a family to meet the cost of maintenance and education.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-birth-certificate-of-the-child-issued-by-the-registrar-of-birth",
+    "ration-card",
+    "electricity-bill-etc-of-the-mother-or-the-legal-guardian-in-case-the-child-is-an"
+  ],
+  "apply_url": "https://chdsw.gov.in/uploads/media/1604739785-THE_FINANCIAL_ASSISTANCE_TO_DEPENDENT_CHILDREN_OF_WIDOWS_AND_DESTITUTE_WOMEN.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsdcwdw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a widow/destitute woman or with a dependent child/children. OR the legal guardian of the child/children who have been deprived of parental support or care after their parent&#39;s death or continued absence from home.\n1. The age of the child/children should be less than or equal to 18 years. \n1. If parents of the child/children have died, the assistance will be provided to the legal guardian.\n1. The widow/destitute woman or the legal guardian should be a resident of the UT of Chandigarh for more than 3 years.\n1. The child should not be in receipt of family pension from any State/Central Govt.\n\n<br>\n\n**NOTE:** Children who have been given institutional care by government/NGO shall not be eligible for financial assistance.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sponsorship-for-employment",
+  "name": "Sponsorship for Employment",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, employment opportunities are provided to ex-servicemen and their legal dependents by sponsoring them for contractual posts through outsourcing.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-ppo-copy-discharge-book-educational-documents-any"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be an ex-serviceman (Army, Navy, or Air Force), their legal dependent, or a widow of an ex-serviceman (Veer Nari).\n\n<br>",
+  "_criteria_filled": 1
+}

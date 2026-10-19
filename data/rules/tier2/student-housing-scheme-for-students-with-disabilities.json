@@ -1,0 +1,33 @@
+{
+  "id": "student-housing-scheme-for-students-with-disabilities",
+  "name": "Student Housing Scheme for Students with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Free facility of accommodation to 01 or more than 01 (group of maximum 05 children) within the fixed rate of rent at the rate prescribed by the Rent Control Authority.\n   1. The maximum monthly rent amount of the building including electricity and other expenses is determined for the following category of cities-\n\n  - For A category cities, up to ₹10,000/- will be payable.\n  - For B category ci",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-educational-qualificatio",
+    "panch",
+    "or-councilor-confirming-that-the-original-residence-is-20-kilometers-or-more-fro"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/disabled-home.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/shssd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n   1. The applicant should be a student with disabilities.\n   1. The applicant should have a disability of 40% or above.\n   1. The applicant should have passed the Higher Secondary Examination.\n   1. The applicant should be enrolled as a regular student in a College, Polytechnic, or ITI (students failing in any academic session will not be eligible).\n   1. The distance between the applicant&amp;#39;s original residence and the educational institution should be more than 20 kilometers.",
+  "_criteria_filled": 2
+}

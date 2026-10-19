@@ -1,0 +1,29 @@
+{
+  "id": "labour-welfare-scheme-health",
+  "name": "Labour Welfare Scheme (Health)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "##### ***General Healthcare***\n\n- Healthcare facilities are provided to workers and their dependants through a network of 10 hospitals and 285 dispensaries.\n- Financial assistance of ₹300/- is provided for the purchase of spectacles.\n\n##### ***Heart Diseases***\nReimbursement of expenditure up to ₹1,30,000/- is provided for the treatment of heart diseases.\n##### ***Kidney Diseases***\nReimbursement ",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "valid-identity-card-of-the-worker-medical-prescription-or-treatment-recommendati",
+    "tuberculosis",
+    "cancer",
+    "heart",
+    "kidney",
+    "mental-diseases",
+    "leprosy",
+    "and-spectacles-original-bills-and-receipts-of-medical-expenditure-required-for-t",
+    "kidney-treatment",
+    "and-cancer-treatments-birth-certificates-of-children-required-for-maternity-bene"
+  ],
+  "apply_url": "https://www.labour.gov.in/static/uploads/2025/07/ecf840b243c79655eff64977f76a234b.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lws-h",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered beedi worker, cine worker, or an iron, manganese, chrome, limestone, dolomite, or mica mine worker.\n- The applicant must be a dependant of an eligible worker to claim dependant-specific medical benefits.\n- The applicant must possess a valid identity card indicating their status as a recognized unorganised worker.\n\n<br>\n\n***Post-Selection Conditions / Special Cases***\n\n- _The applicant must be a female worker undergoing her first or second delivery to avail the maternity benefit._\n- _The applicant must have exactly two children to avail the family planning operation scheme benefit._\n\n<br>",
+  "_criteria_filled": 0
+}

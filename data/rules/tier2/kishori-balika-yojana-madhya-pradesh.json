@@ -1,0 +1,43 @@
+{
+  "id": "kishori-balika-yojana-madhya-pradesh",
+  "name": "Kishori Balika Yojana (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Each Anganwadi center selects 2 adolescent girls, 1 Anganwadi worker, and 1 Auxiliary Nurse Midwife (ANM) for a two-day master trainer training at monthly intervals.\n- Master trainers provide vocational, health, and hygiene training at the Gram Panchayat level.\n- A two-day master trainer training program is provided at monthly intervals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 11
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "etc-proof-of-age-birth-certificate",
+    "etc-address-proof"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=252",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfagmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be a girl.\n   1. The applicant should be aged between 11 and 18 years.\n   1. The applicant should be from one of the following categories: General, Other Backward Class (OBC), Scheduled Castes (SC), Scheduled Tribes (ST).",
+  "_criteria_filled": 4
+}

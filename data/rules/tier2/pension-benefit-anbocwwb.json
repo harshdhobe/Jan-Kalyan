@@ -1,0 +1,33 @@
+{
+  "id": "pension-benefit-anbocwwb",
+  "name": "Pension Benefit (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the registered construction worker, who has completed 55 years of age, is eligible for pension @ ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registrationpassport-size-photograph-proof-of-age-identit",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen",
+    "if-any-life-certificate-bank-account-detailscopy-of-passbook-any-other-document"
+  ],
+  "apply_url": "https://serviceonline.gov.in/login.do",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in building or other construction works and continue as such work for a continuous period of not less than five years.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The registered construction worker, who has completed 55 years of age, is eligible to apply under the scheme.\n   1. The beneficiary must have made regular contributions to the welfare fund for at least 5 years.",
+  "_criteria_filled": 2
+}

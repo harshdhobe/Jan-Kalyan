@@ -1,0 +1,31 @@
+{
+  "id": "dr-apj-abdul-kalam-meritorious-students-incentive-scheme-class-12th-passed",
+  "name": "Dr. A.P.J. Abdul Kalam Meritorious Students Incentive Scheme (Class 12th Passed)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Under this scheme, students who achieve the highest marks in the 12th class examination in government schools within their district will receive ₹5,000/-.\n\n**Note:** The scholarship is sent directly to the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-3-domicile-certificate-of-madhya-pradesh-4"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=387",
+  "source_url": "https://www.myscheme.gov.in/schemes/dapjakmsis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n   1. The student must have achieved the highest marks in their district in the Class 12 examination.\n   1. The student must have passed their Class 12 examination from a government school in Madhya Pradesh (Government Higher Secondary School).\n   1. The student&amp;#39;s parents&amp;#39; income from all sources should be less than ₹1,00,000/- per year.",
+  "_criteria_filled": 2
+}

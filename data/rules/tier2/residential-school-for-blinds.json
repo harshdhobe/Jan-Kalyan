@@ -1,0 +1,41 @@
+{
+  "id": "residential-school-for-blinds",
+  "name": "Residential School For Blinds",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "The inmates are provided with free education, overall development, and vocational training for which they are found fit.\nThe inmates are provided with clothing, free boarding and lodging, and pocket money @ ₹ 500/- per inmate per month.\nThe inmates are given lessons in music.\nThe inmates are retained in the institution till graduation or till attaining 25 years of age, whichever is earlier.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-domicile-certificate-of-the-stateut-of-jammu-kashmir-dis"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/welfareSchemes/RESIDENTIAL%20SCHOOL%20FOR%20THE%20BLINDS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Jammu &amp; Kashmir.\n1. The applicant should be a Person with Disability (PwD) (total/partial absence of sight).\n1. The age of the applicant should be between 6 to 21 years.",
+  "_criteria_filled": 4
+}

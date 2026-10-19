@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-enhancement-of-technical-competence-and-manpower-scheme-of-financial",
+  "name": "Scheme for Enhancement of Technical Competence and Manpower: Scheme of Financial Assistance for Tuition Fees for Enhancement of Skill",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n- Up to ₹15,000 for training programs of 121 hours or more.\n- Up to ₹10,000 for training programs of 61 to 120 hours.\n- Up to ₹5,000 for training programs of 40 to 60 hours.\n\n> **Full Fee Coverage:**\n\n- 100% assistance for BPL, Physically Handicapped, SC, ST, SEBC, and Women candidates.\n- 75% assistance for other eligible candidates.\n\n&gt; **Additional Assistance:**\n\n ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-in-the-prescribed-format-registration-detail-of-the-applicant-organi",
+    "annexure-c",
+    "annexure-d-proposed-training-center-infrastructure-photoslay-outmap-self-declara"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/setctfes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The training institute must have at least 5 years of experience in skill development or relevant industry.\n  - The training program must be industry-responsive and recognized by skill development bodies.\n  - The first training batch must commence within 3 months of the sanction order.\n  - Minimum 10 trainees per batch must complete the training and certification process.\n  - Candidates must not have availed of similar government assistance for the same course.\n  - The training duration should not exceed 6 months unless specified by authorities.\n\n<br>",
+  "_criteria_filled": 1
+}

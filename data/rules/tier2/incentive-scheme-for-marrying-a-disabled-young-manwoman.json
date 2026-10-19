@@ -1,0 +1,43 @@
+{
+  "id": "incentive-scheme-for-marrying-a-disabled-young-manwoman",
+  "name": "Incentive Scheme for Marrying a Disabled Young Man/Woman",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "On marriage, the couple is given ₹25,000/- as incentive.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-both-partners-disability-certificate-passport-size-photographs-v",
+    "are-not-involved-in-any-criminal-activities",
+    "and-do-not-have-any-previous-spouse-alive"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbgmig",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant couple should be residents of Uttarakhand or have been domiciled in the state for at least five years.\n   1. The couple must be citizens of India.\n   1. The couple should not be income tax payers.\n   1. Neither partner should have a living spouse at the time of marriage.\n   1. No member of the couple should have been convicted in any criminal case.\n   1. The benefit is provided when a person with 40% or more disability marries a non-disabled person, or when both partners have disabilities.\n   1. At the time of marriage, the groom should be between 21 and 45 years of age.\n   1. At the time of marriage, the bride should be between 18 and 45 years of age.\n   1. The marriage should be conducted in accordance with prevailing social customs and traditions or be legally registered.\n\n<br>",
+  "_criteria_filled": 4
+}

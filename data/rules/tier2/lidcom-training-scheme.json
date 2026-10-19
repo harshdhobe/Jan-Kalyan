@@ -1,0 +1,47 @@
+{
+  "id": "lidcom-training-scheme",
+  "name": "LIDCOM Training Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "This scheme is being implemented for the students to enable them to start their own businesses, trade, or get a job.\nThe training includes: \n        a)  Training Programme for Footwear Designing through Footwear Design & Development Institute (FDDI), Fursatganj, Amethi, Uttar Pradesh.\n        b)  Training Programme for Union Public Service Commission (UPSC) and Maharashtra Public Service Commissio",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-office-of-lidcom"
+  ],
+  "apply_url": "https://www.lidcom.co.in/training-scheme.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/lts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a Student.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be in the 18 to 50 years age group.\n1. The applicant should be from Charmakar Community only (Dhor, Chambhar, Holar, Mochi, etc.).\n1. The annual income of the family of the applicant should be less than or equal to ₹1,00,000/-.\n1. The applicant should have knowledge of the business for which he has applied for the loan.",
+  "_criteria_filled": 4
+}

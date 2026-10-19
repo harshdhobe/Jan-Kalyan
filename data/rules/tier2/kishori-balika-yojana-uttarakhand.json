@@ -1,0 +1,41 @@
+{
+  "id": "kishori-balika-yojana-uttarakhand",
+  "name": "Kishori Balika Yojana- Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, awareness is created among adolescent girls about nutrition, health, and life cycle issues. They are also provided supplementary nutrition (fortified rice and wheat for 25 days each month) for 300 days in a year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be an adolescent girl in the age group of 14 to 18 years.\n1. The applicant must be residing in one of the aspirational districts of Uttarakhand- Haridwar or Udham Singh Nagar.\n\n<br>",
+  "_criteria_filled": 4
+}

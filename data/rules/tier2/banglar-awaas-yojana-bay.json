@@ -1,0 +1,26 @@
+{
+  "id": "banglar-awaas-yojana-bay",
+  "name": "Banglar Awaas Yojana (BAY)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Beneficiaries receive ₹1,30,000/- per house, credited in three installments (1st installment: ₹60,000/-; 2nd installment: ₹60,000/-; 3rd installment: ₹10,000/-).  - **Wage Support:** Beneficiaries are entitled to 95 unskilled mandays of wages under the Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS).  - **Assistance for Toilet Construction:** Eligibl",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-bank-account-details-any-other-documents-if-required"
+  ],
+  "apply_url": "https://paschimmedinipur.gov.in/scheme/scheme-title-1-will-appear-here/",
+  "source_url": "https://www.myscheme.gov.in/schemes/bay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an Indian citizen.\n   1. The applicant must be enlisted in the Permanent Waiting List (PWL) based on SECC 2011 data.\n   1. The applicant must be from a houseless household or living in a kutcha or dilapidated house.",
+  "_criteria_filled": 1
+}

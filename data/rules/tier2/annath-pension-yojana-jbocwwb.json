@@ -1,0 +1,31 @@
+{
+  "id": "annath-pension-yojana-jbocwwb",
+  "name": "Annath Pension Yojana (JBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "In case of the death of the pensioner, the pension will be payable at the rate of the family pension and will be evenly divided among orphans below 18 years of age.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apy-jbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased should have been domiciled in the state of Jharkhand.\n1. The deceased should have been a Registered Worker with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The deceased should have been receiving a pension from the board.\n1. The applicant should be a child of the deceased.\n1. The applicant should have been orphaned after the death of the pensioner.\n1. The applicant should be less than 18 years of age.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": "death-benefit-anbocwwb",
+  "name": "Death Benefit (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. **Natural Death:**\n\n    - ₹1,00,000/- shall be sanctioned to the nominee or dependent of a registered beneficiary.\n\n   1. **Accidental Death (During Employment):**\n\n    - ₹2,00,000/- may be given to the nominee or dependent of the beneficiary.\n\n   1. **Accidental Death (Non-registered Construction Workers):**\n\n    - ₹50,000/- may be provided, subject to a certificate from the concerned Tehsilda",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-death-certificate-copy-of-the-nominationlegal-heir-certificate-regis",
+    "in-case-of-accidental-death-of-a-non-registered-construction-worker-identity-pro",
+    "if-any-address-proof-bank-details-of-nominee-any-other-document-as-required"
+  ],
+  "apply_url": "https://serviceonline.gov.in/loginWindow.do",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal nominee or dependent of the deceased worker.\n   1. The deceased worker should have been a resident of the Union Territory of Andaman &amp;amp; Nicobar Islands.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The financial assistance shall be given to the nominees or dependents of deceased registered workers in the event of their natural or accidental death.\n   1. The financial assistance shall be given to the nominees or dependents of non-registered construction workers in case of accidental death only.",
+  "_criteria_filled": 1
+}

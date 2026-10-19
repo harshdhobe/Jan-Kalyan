@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-for-education-of-self-children-of-beneficiaries",
+  "name": "Financial Assistance for Education of Self/ Children of Beneficiaries",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "<br>\n\n**Class****Amount**Madhyamik passed &amp;amp;amp;amp; Admitted to class XI ₹4,000/-Promoted to class XII ₹5,000/-H.S. passed &amp;amp;amp;amp; Admitted to Graduation ₹6,000/-Admitted to P.G. ₹8,000/-Admitted to Medical/Engineering/MBA/CA  ₹30.000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerpassport-size-photographs-of-t"
+  ],
+  "apply_url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafeoscob",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of West Bengal.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered member or his/ her children Under the Building and Other Construction Workers Welfare Board of West Bengal.\n  - The applicant should be studying Higher Secondary and above.",
+  "_criteria_filled": 3
+}

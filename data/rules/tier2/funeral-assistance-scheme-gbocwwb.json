@@ -1,0 +1,26 @@
+{
+  "id": "funeral-assistance-scheme-gbocwwb",
+  "name": "Funeral Assistance Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹10,000/- shall be given to the legal heirs of the deceased construction workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-deceased-worker-identity-proof-of-heir-copy-of-death-certifica"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/Home/BOCWScheme#",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal heir of the deceased worker.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The deceased worker should have been registered with the Gujarat Building and Other Construction Worker’s Welfare Board.\n   1. Financial assistance is provided to the legal heir of the deceased worker in the event of their death during the ongoing membership.",
+  "_criteria_filled": 1
+}

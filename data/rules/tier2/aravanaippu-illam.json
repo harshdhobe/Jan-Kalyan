@@ -1,0 +1,31 @@
+{
+  "id": "aravanaippu-illam",
+  "name": "Aravanaippu Illam",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Free Shelter and Food.\n- Free Supply of 4 Sets of Dresses and Other Daily Living Needs. \n- Free Medical Treatment (Referred to Nearby PHC). \n- Training in Korai &amp; Coir Mat Weaving. \n- Labour Charges of ₹ 20/- Per Mat for the Work of Mat Weaving as and When Carried Out. \n- ₹ 5/- Per Day as Daily Pocket Money.\n- Recreation Like Radio, TV, Library, Besides Local Trips to Places of Interest and ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-id-address-proof-ration-card-age-proof"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/aravanaippu-illam-puducherry",
+  "source_url": "https://www.myscheme.gov.in/schemes/aillam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be lacking basic needs and proper care in society.\n1. The applicant should be 20 years or above in age.\n1. The applicant should not be suffering from communicable disease.",
+  "_criteria_filled": 2
+}

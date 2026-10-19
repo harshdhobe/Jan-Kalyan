@@ -1,0 +1,36 @@
+{
+  "id": "rafting-course-internship",
+  "name": "Rafting Course & Internship",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The beneficiary will receive training and internship opportunities to become a river rafting guide.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-submit-the-necessary-documents-in-accordance-with-the"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/raftinguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a youth of Uttarakhand.\n1. The applicant must be between 18 to 30 years of age.\n1. The applicant must be educated.\n1. The applicant must be mentally and physically healthy.\n\n> The total number of 215 beneficiaries will be selected.\n\n<br>",
+  "_criteria_filled": 3
+}

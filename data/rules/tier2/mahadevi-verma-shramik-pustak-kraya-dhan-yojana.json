@@ -1,0 +1,32 @@
+{
+  "id": "mahadevi-verma-shramik-pustak-kraya-dhan-yojana",
+  "name": "Mahadevi Verma Shramik Pustak Kraya Dhan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- Financial Assistance : ₹7,500/- lump sum per candidate for postgraduate candidates.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-online-application-form-filled-in-relation-to-the-scheme-re",
+    "family-register-or-other-government-record-in-confirmation-of-the-relationship-o"
+  ],
+  "apply_url": "https://skpuplabour.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvspkdpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be working in an establishment registered under the Shops and Commercial Establishments Act, 1962 or the Factories Act, 1948 in Uttar Pradesh.\n1. The monthly salary (basic salary + dearness allowance) of the worker should not exceed ₹15,000/-.\n1. The worker must have completed at least six months of continuous service in the establishment/factory and must be in service at the time of application.\n1. The benefit of the scheme will be available to only two daughters of the worker.\n1. In case the worker is a woman herself, she will be eligible for the benefit.\n1. Where both the parents are working as workers in factories/establishments, then only one of them will be eligible for this assistance.",
+  "_criteria_filled": 2
+}

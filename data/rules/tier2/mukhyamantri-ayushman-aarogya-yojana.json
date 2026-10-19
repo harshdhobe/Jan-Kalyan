@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-ayushman-aarogya-yojana",
+  "name": "Mukhyamantri Ayushman Aarogya Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Under the Chief Minister Ayushman Arogya Yojana, along with the eligible families of NFSA and SECC currently benefiting from it, contractual workers, small and marginal farmer families and destitute and helpless families who received Covid-19 ex-gratia amount last year will get free insurance cover and apart from these categories, other remaining families of the state can join the scheme on paymen",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadhaar-cardjan-aadhaar-card-numberjan-aadhaar-card-registration-receipt-num"
+  ],
+  "apply_url": "https://jansoochna.rajasthan.gov.in/CMS/EligiblityRules",
+  "source_url": "https://www.myscheme.gov.in/schemes/maayr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Free Category :\n\n  - Families eligible under the National Food Security Act (NFSA).\n  - Families identified under the Socio-Economic Caste Census (SECC) 2011.\n  - Contractual employees working in state departments, boards, corporations, and government companies.\n  - Small and marginal farmers.\n  - Destitute and helpless families who received COVID-19 ex-gratia relief in the previous year.\n\n1. Premium Category :\n\n  - Families not included in the free category.\n  - Families who are not government employees or pensioners.\n  - Families who are not availing benefits under the Medical Attendance Rules.\n  - These families can enroll by paying ₹850 per year per family (50% of the premium), while the remaining 50% is borne by the State Government.\n\n<br>",
+  "_criteria_filled": 1
+}

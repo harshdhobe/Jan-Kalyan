@@ -1,0 +1,36 @@
+{
+  "id": "mahila-samruddhi-yojana-daadc",
+  "name": "Mahila Samruddhi Yojana (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** ₹50,000/- provided to eligible women for starting micro or small businesses.- **Interest Rate:** 6% per annum.- **State Government Contribution:** 95% of the loan amount, i.e., ₹47,500/-, is borne by the state.- **Beneficiary Contribution:** 5% of the loan amount, i.e., ₹2,500/-.- **Possible Monthly Installment Amount:** ₹1,445/- per month.- **Duration:** 36 Months (3 years)\n<br",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-caste-certificate-ration-card-copy-of"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gapb/assets/downloads/mahila_samrudhi_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msydaadc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Gujarat.\n1. The applicant should be a woman. \n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should belong to the Antyodaya Anna Yojana (AAY) family or be from the economically backward class.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should be planning to start a self-employment venture or micro-enterprise.\n\n<br>",
+  "_criteria_filled": 3
+}

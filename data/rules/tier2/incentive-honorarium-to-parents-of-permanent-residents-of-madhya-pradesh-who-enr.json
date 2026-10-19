@@ -1,0 +1,26 @@
+{
+  "id": "incentive-honorarium-to-parents-of-permanent-residents-of-madhya-pradesh-who-enr",
+  "name": "Incentive Honorarium to Parents of Permanent Residents of Madhya Pradesh who enroll their Daughter in Defence Services",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Annual Honorarium:** \n\n- ₹20,000 per year is granted to the parents whose daughters are serving or have retired from the defense services.\n\n**Mode of Disbursement:** \n\n- The sanctioned amount is directly credited to the beneficiary’s bank account through the District Sainik Welfare Office.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "service-certificate-of-daughter-issued-by-the-concerned-defense-unit-residence-c"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=552",
+  "source_url": "https://www.myscheme.gov.in/schemes/hipprmpdds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must be the mother or father of a daughter serving or retired from any recognized defense service (Army, Navy, or Air Force).\n1. The applicant’s daughter must be serving in a recognized defense unit or retired not more than five years ago.\n\n<br>",
+  "_criteria_filled": 1
+}

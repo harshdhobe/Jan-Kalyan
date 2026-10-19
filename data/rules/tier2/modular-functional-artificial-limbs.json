@@ -1,0 +1,31 @@
+{
+  "id": "modular-functional-artificial-limbs",
+  "name": "Modular Functional Artificial Limbs",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of modular functional artificial limbs.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfal",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an orthopedically differently-abled person.\n1. The applicant should be a resident of the area/district of Tamil Nadu. \n1. The applicant should be any one of the following:\n\n  - Student.\n  - Employed.\n  - Self-Employed.",
+  "_criteria_filled": 2
+}

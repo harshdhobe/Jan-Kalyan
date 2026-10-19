@@ -1,0 +1,26 @@
+{
+  "id": "free-shoe-and-bag-scheme",
+  "name": "Free Shoe and Bag Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance is provided for purchasing shoes and bags for boys and girls as follows:\n\n  - ₹318/- per student for Classes 1 to 5\n  - ₹462/- per student for Classes 6 to 8\n\nThe amount is transferred directly to the students&amp;#39; account through Direct Benefit Transfer (DBT).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsbsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of Classes 1 to 8 studying in any government or non-government aided school in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

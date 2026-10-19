@@ -1,0 +1,26 @@
+{
+  "id": "housing-assistance-madhya-pradesh",
+  "name": "Housing Assistance (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The scheme provides housing assistance to tribal boys/girls to continue their higher and higher education outside their home town (for whom hostels are not available).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=812",
+  "source_url": "https://www.myscheme.gov.in/schemes/ha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should have passed class 12th from a government or non-government college.\n1. The applicant should be enrolled in a graduate, graduate diploma, technical, or paramedical course.\n1. The applicant should be regularly admitted in the course they are pursuing.\n1. The applicant should not have received admission to a government hostel.",
+  "_criteria_filled": 1
+}

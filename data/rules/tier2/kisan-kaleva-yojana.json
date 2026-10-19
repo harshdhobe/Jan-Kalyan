@@ -1,0 +1,26 @@
+{
+  "id": "kisan-kaleva-yojana",
+  "name": "Kisan Kaleva Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. The scheme aims to provide affordable and nutritious meals to farmers and their helpers at a subsidized rate of ₹5/- per plate.\n1. The meals will be provided in the mandi premises itself.\n1. The menu for the meal includes:\n\n  - 8 chapatis (made from 250 grams of flour).\n  - 1 bowl of dal (125 grams).\n  - 1 bowl of vegetables (125 grams).\n  - 50 grams of jaggery (in winter, from October to March",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identification-proof-farmers-coming-to-the-market-premises-to-sell-agricultural"
+  ],
+  "apply_url": "https://rlsa.gov.in/povertyScheme/21.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/kky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be Hamal/Palledar/Tulara of the farmers coming to sell agricultural commodities.\n- The applicant should be a member of the market premises.\n- The applicant should be a license holder of the market.",
+  "_criteria_filled": 1
+}

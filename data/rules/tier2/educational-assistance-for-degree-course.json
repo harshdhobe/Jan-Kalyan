@@ -1,0 +1,26 @@
+{
+  "id": "educational-assistance-for-degree-course",
+  "name": "Educational Assistance for Degree Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹20,000/- per year for undergraduate students.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eafdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children&#39;s parents or guardians should be registered under the Maharashtra Building and Other Construction Workers Welfare Board.\n1. The student must be enrolled in a degree course (1st, 2nd, 3rd, or 4th year).\n1. The benefit applies to a maximum of two children and the wife of a registered male worker.\n\n<br>",
+  "_criteria_filled": 1
+}

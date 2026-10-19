@@ -1,0 +1,33 @@
+{
+  "id": "deen-dayal-upadhyay-grameen-kaushalya-yojana",
+  "name": "Deen Dayal Upadhyay Grameen Kaushalya Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Skill Training:** The program provides skill training to beneficiaries in a variety of sectors, including agriculture, construction, retail, and hospitality. The training is designed to be industry-relevant and to equip beneficiaries with the skills they need to secure employment.- **Placement Assistance:** The program provides placement assistance to beneficiaries by connecting them with pote",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-age-bpl-card-if-applicable-mgnrega-card-if-applicable",
+    "issued-by-competent-authority-if-applicable-stsc-certificate",
+    "issued-by-competent-authority-if-applicable-self-certification-by-the-candidate"
+  ],
+  "apply_url": "https://rural.nic.in/sites/default/files/DDUGKY_Guidelines_English_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddugku",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The target group for DDU-GKY is poor rural youth in the age group 15-35.\n- The upper age limit for women candidates, and candidates belonging to Particularly Vulnerable Tribal Groups (PVTGs), Persons with Disabilities (PwDs), Transgender and other Special Groups like rehabilitated bonded labor, victims of trafficking, manual scavengers, trans-genders, HIV-positive persons, etc shall be 45 years.\n\n<br>\n\nThe poor will be identified by a process called **Participatory Identification of Poor (PIP)**. Till the time poor are identified through the use of PIP, apart from the existing list of Below Poverty Line (BPL) households, the applicant qualifying as ANY ONE of the following shall also be eligible to avail of the skilling program even if such youth are not on the BPL list - \n\n- Youth from MGNREGA worker households with at least 15 days of work in the previous financial year by any of its family members.\n- Youth from a household with RSBY card wherein the details of youth are mentioned in the card.\n- Youth from households who have been issued Antyodaya Anna Yojana / BPL PDS cards.\n- Youth from a household where a family member is a member of SHG under NRLM.\n- Youth from a household covered under auto inclusion parameters as per SECC, 2011 (when notified).",
+  "_criteria_filled": 2
+}

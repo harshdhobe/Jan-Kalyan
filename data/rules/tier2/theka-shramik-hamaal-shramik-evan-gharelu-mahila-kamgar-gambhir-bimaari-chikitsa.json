@@ -1,0 +1,36 @@
+{
+  "id": "theka-shramik-hamaal-shramik-evan-gharelu-mahila-kamgar-gambhir-bimaari-chikitsa",
+  "name": "Theka Shramik, Hamaal Shramik Evan Gharelu Mahila Kamgar Gambhir Bimaari Chikitsa Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "1. Medical aid of ₹50,000/- will be provided for the treatment of registered contract workers, Hamal workers and female domestic workers who are suffering from serious illness.\n1. Serious diseases under the scheme will include kidney, cancer, sickle cell anemia, heart disease, AIDS and paralysis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-aadhaar-card-labor-registration-card-voter-id-card-pan-card"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/theka%20shramik,%20hamaal%20shramik%20evam%20%20gharelu%20mahila%20kamagar%20gambhir%20bimaari.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/thgmbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered with the State Social Security Board at least 90 days in advance.\n1. Applicant must be in the age group of 18 to 60 years will be eligible for this scheme.\n1. Applicant can be only received benefits at once. \n1. If applicant received from any other parallel scheme of the State Government, then he/she is not eligible for this scheme.",
+  "_criteria_filled": 3
+}

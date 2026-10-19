@@ -1,0 +1,40 @@
+{
+  "id": "scholarshipmerit-scholarship-to-obcminscst-students-from-class-i-to-xii",
+  "name": "Scholarship/Merit scholarship to OBC/MIN/SC/ST students from Class I to XII",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "**Class 1st to 8th SC/ST/Minority Students**\n₹1,000/- per Annum (No % of Marks Required).\n**OBC Students (6th to 8th)**\n\n- ₹600/- per Annum (55% to 60% Marks in Previous Class).\n- ₹720/- per Annum (Above 60% Marks in Previous Class).\n\n**Class 9th to 10th SC/ST/OBC/Minority Students**\n\n- ₹1,620/- per Annum (55% to 60% Marks in Previous Class).\n- ₹2,040/- per Annum (Above 60% Marks in Previous Class",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-scstobc-issued-by-sdmdeputy-commissioner-revenue",
+    "government-of-nct-of-delhi-self-declaration-of-family-income-for-minority-studen",
+    "proof-of-residence-epic-card",
+    "aadhaar-number",
+    "ration-card",
+    "mtnl-landline-telephone-bill",
+    "driving-license-issued-by-gnctd",
+    "domicile-certificate",
+    "or-bank-passbook-for-minority-students",
+    "declaration-by-parentguardian-confirming-minority-community-status"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/merge_file.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smstomsssfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from Scheduled Caste (SC)/Scheduled Tribe (ST)/Other Backward Classes (OBC)/Minority (including Jain) community\n\n- Students from the Scheduled Caste (SC)/Scheduled Tribe (ST)/Minority category should be studying in Class 1st to 12th.\n- Students from the Other Backward Classes (OBC) category should be studying in Class 6th to 12th.\n- The applicant should be studying in a Government/Aided/Recognised school affiliated to the Directorate of Education/Kendriya Vidyalaya Sangathan/National Open School/Schools affiliated to NDMC/Delhi Cantonment Board, East Delhi Municipal Corporation, North Delhi Municipal Corporation, and South Delhi Municipal Corporation.\n- For students from the OBC/Minority category, the income of the family should be less than or equal to ₹2,00,000/-.\n- The applicant can avail of only one scholarship, either under the State Plan Scheme or Centrally Sponsored Scholarship Scheme, whichever is more beneficial.",
+  "_criteria_filled": 2
+}

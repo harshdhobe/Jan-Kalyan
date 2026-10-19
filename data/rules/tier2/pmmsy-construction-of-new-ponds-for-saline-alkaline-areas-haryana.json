@@ -1,0 +1,27 @@
+{
+  "id": "pmmsy-construction-of-new-ponds-for-saline-alkaline-areas-haryana",
+  "name": "PMMSY: Construction of New ponds for Saline /Alkaline areas-Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is ₹8,00,000/- per hectare. \n- The subsidy is limited to 40% of the project cost for the General Category and 60% of the project cost for Scheduled Caste (SC) and women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-the-beneficiary-and-the-fisheries-department-date-of-birt",
+    "nakal-akshizra-farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvo"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=Qq3vxAYWCy6zq47MhGteig%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/scnpsaahr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchan Patra (PPP).\n1. The construction of new ponds subsidy will be provided by the state government for the expansion of fisheries in various urban/semi-urban areas only under the construction of new ponds under the Pradhan Mantri Matasya Sampada Yojana (PMMSY) scheme.\n1. Only central financial assistance will be provided to the beneficiaries for the initial fish crop only on the fertiliser of newly constructed ponds.\n1. Central financial assistance on the construction of new ponds will be provided only on ponds prepared for fisheries.\n1. Under this scheme, ponds whose pond duration will be for a long time, and the registered lease period will be at least 7 years, will be considered for a grant on those ponds.",
+  "_criteria_filled": 1
+}

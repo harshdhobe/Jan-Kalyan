@@ -1,0 +1,48 @@
+{
+  "id": "scheme-of-assistance-to-good-borrowers-a-category",
+  "name": "Scheme Of Assistance To Good Borrowers: ‘A’ Category",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance is available for a minimum amount of ₹5,00,000/- and a maximum amount of ₹150,00,000.\n- An interest concession of 1% less than the normal rate is provided for &#39;A&#39; Category borrowers.\n- The loan funds are intended to be used to acquire fixed assets for setting up of new units.\n- The loan funds are intended for expansion, modernization, purchase of balancing equipment,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "checklist-for-loan-application-httpspipdicinuploadspipdic-docscheck-list-for-loa",
+    "00",
+    "000",
+    "the-document-requirements-listed-below-correspond-to-the-checklist-for-loans-abo",
+    "00",
+    "000-documents-required-at-the-time-of-filing-loan-applicationcopy-of-acknowledge",
+    "small",
+    "and-medium-enterprises-registration-certificate-obtained-from-industries-departm",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-copy-of-partnership-deed-and-acknow",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-detailed-project-report-on-the-project-details-asked-for-in-t",
+    "13",
+    "14",
+    "and-15-are-to-be-furnished-compulsorily-to-prepare-appraisal-report-consent-lett",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant-if-any-details-of-eff",
+    "inspector-of-factories-approval",
+    "municipal-or-panchayat-permission",
+    "and-pollution-clearance-etc-original-title-deed-antecedent-title-deeds-encumbran"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sagb-ac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an existing assisted unit classified as ‘A’ Category.\n- The applicant must be an existing assisted unit of Medium Scale Industry or Small Scale Industry classified as ‘A’ Category.\n- The existing assisted unit must be in operation for more than 3 years.\n- The existing assisted unit must be regular in repayment.\n- The existing assisted unit must be regular in repayment without availing re-schedulement.\n- The applicant can be an existing assisted unit by other institutions or Banks which satisfies the criteria under Good Borrowers, and its fixed assets must be free from encumbrance.\n- The applicant can be an existing transport loanee who has settled the loan promptly.\n\n<br>",
+  "_criteria_filled": 1
+}

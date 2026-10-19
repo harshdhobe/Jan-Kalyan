@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-tiatr-through-academic-activities",
+  "name": "Promotion of Tiatr Through Academic Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "• **Awareness Creation:** Awareness about Tiatr, its song, and music will be created through academic activities such as talks, symposia, seminars, and workshops.\n• **Resource Person Honorarium:** Resource persons will be paid an honorarium, as fixed by the Tiatr Academy of Goa, for every session, with the amount dependent upon the distance from their residence to the venue.\n• **Expenditure Covera",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pttaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "• The applicant must be an educational institution or an individual interested in collaborating with the Tiatr Academy of Goa to organize academic activities for promoting Tiatr.\n• The applicant must ensure the number of participants for conducting the Symposia, Seminar, or Workshop shall be at least 20.\n• The applicant must obtain prior approval from the Tiatr Academy of Goa before finalizing resource persons, if the activity is organized by others in collaboration.\n• The applicant must get the cost of refreshments or food to be served verified and approved by the Tiatr Academy of Goa before finalizing them.\n<br>",
+  "_criteria_filled": 1
+}

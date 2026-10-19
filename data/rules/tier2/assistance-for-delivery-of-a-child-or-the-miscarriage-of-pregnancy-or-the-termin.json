@@ -1,0 +1,32 @@
+{
+  "id": "assistance-for-delivery-of-a-child-or-the-miscarriage-of-pregnancy-or-the-termin",
+  "name": "Assistance for Delivery of a Child or the Miscarriage of Pregnancy or the Termination of Pregnancy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- Child Delivery – ₹6,000/- (₹1,000/- per month for six months).\n\n- Miscarriage – ₹3,000/-.\n- Termination – ₹3,000/-.\n\n> **Note:** Assistance is available only twice.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-of-the-folk-artist-birth-certificate-of-child-or-certificate-o",
+    "or-termination-of-pregnancy-from-registered-maternity-doctor"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/adcmptp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered female folk artist.\n1. The applicant can be eligible only if she is giving birth to a child or has a miscarriage or termination of pregnancy. \n1. The applicant should not have any dues payable to the board.\n1. The female folk artist is not eligible if already has two children.",
+  "_criteria_filled": 2
+}

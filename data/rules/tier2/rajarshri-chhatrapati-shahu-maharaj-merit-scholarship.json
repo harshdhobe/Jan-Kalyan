@@ -1,0 +1,26 @@
+{
+  "id": "rajarshri-chhatrapati-shahu-maharaj-merit-scholarship",
+  "name": "Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "> ***Scholarship Rate:***\n\n- Class 11th: ₹300/- per month.\n- Class 12th: ₹300/- per month.\n\n<br>\n\n> ***Duration:***\n\n- Ten months\n\n<br>\n\n**Note:** Totaling ₹3,000 per academic year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-issued-by-the-competent-authority-class-10th-mark-sheet-school"
+  ],
+  "apply_url": "https://mahadbt.maharashtra.gov.in/PDF/4.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcsmms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The boy/girl should belong Scheduled Caste.\n1. The applicant should be studying in classes 11th and 12th in Junior Colleges and Colleges.\n1. The applicant should have passed the Class 10th examination with 75% or more marks.\n1. Backward-class students who have been admitted to class 11th in the junior college/college are eligible for this scholarship.\n\n<br>",
+  "_criteria_filled": 1
+}

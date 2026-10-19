@@ -1,0 +1,31 @@
+{
+  "id": "sc-girl-child-literacy-incentive-amount-class-11th",
+  "name": "SC Girl Child Literacy Incentive Amount - Class 11th",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Eligible SC girl students of Class 11 receive an annual financial incentive of ₹3,000/-, credited directly to their bank account\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-sc-domicile-certificate-class-10-marksheet-bank-p"
+  ],
+  "apply_url": "https://www.cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=937",
+  "source_url": "https://www.myscheme.gov.in/schemes/scgca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a scheduled Caste girl students.\n1. Applicant should have a attested photocopy of the permanent caste certificate from the Sub-Divisional Officer (Revenue).\n1. Applicant&#39;s father or guardian must not be an income tax payer and self-declaration.\n1. The student must be in continuous study.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "inter-caste-marriage-award",
+  "name": "Inter-Caste Marriage Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, a person from another caste who marries a person from a Scheduled Caste receives ₹50,000/- or an amount decided by the Government from time to time.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "age-certificate-of-both-spouses-caste-certificate-of-both-spouses-himachali-cert"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/Inter%20Caste%20%20Marriage%20Form_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aficm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria for Inter-Caste Marriage Award:**\n\n1. The applicant must be a permanent resident of Himachal Pradesh.\n1. The age of the couple should not exceed 50 years.\n1. The marriage must be registered under the applicable Act/Rules.\n1. The applicant should not have received any Inter-Caste Marriage Award earlier.\n\n<br>",
+  "_criteria_filled": 2
+}

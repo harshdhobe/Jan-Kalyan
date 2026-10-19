@@ -1,0 +1,26 @@
+{
+  "id": "gau-palan-yojana",
+  "name": "Gau Palan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, a milch cow up to the fourth stage of pregnancy is provided. Of the total cost of ₹40,000/-, 90% (₹36,000/-) is borne by the state government, while 10% (₹4,000/-) is to be contributed by the beneficiary.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-caste-certificate-other-supporting-documents-a"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must belong to the General, Scheduled Caste, or Scheduled Tribe category.\n1. The applicant must be included in the SECC (Socio-Economic and Caste Census) category.\n1. The applicant should have an interest in cow rearing.\n\n<br>",
+  "_criteria_filled": 1
+}

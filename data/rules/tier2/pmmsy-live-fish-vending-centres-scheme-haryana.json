@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-live-fish-vending-centres-scheme-haryana",
+  "name": "PMMSY: Live Fish Vending Centres Scheme - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Monetary Benefit:**\n\n- Financial assistance of ₹20,00,000/- per unit for setting up a live fish vending center.\n- Subsidy of 40% of unit cost for general category beneficiaries.\n- Subsidy of 60% of unit cost for Scheduled Caste and women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-voter-id-carddate-of-birth-certificateaadhaar-cardclass-10th-c"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=yx9tvPDUNl0I9WvlX6guJw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/lfvcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fisherman.\n1. The applicant must have a valid Family Identity Card (Parivar Pehchan Patra).\n1. The applicant should be engaged in fishery-related activities.\n1. The applicant must ensure proper operation and maintenance of the vending center.\n1. The applicant will receive assistance for only one live fish vending center.\n1. The government will not be responsible for any operational loss or damage.",
+  "_criteria_filled": 1
+}

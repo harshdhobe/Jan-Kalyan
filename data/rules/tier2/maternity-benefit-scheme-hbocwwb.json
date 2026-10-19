@@ -1,0 +1,33 @@
+{
+  "id": "maternity-benefit-scheme-hbocwwb",
+  "name": "Maternity Benefit Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹36,000/- (i.e. ₹30,000/- for motherhood and ₹6000/- for nutritious food) will be given to registered women construction workers after the birth of the child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-a-copy-of-undertaking-a-copy-work-slip-proof",
+    "it-is-necessary-to-attach-the-birth-certificate-along-with-the-application-form"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/105",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbs-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The women worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The registered women worker should have a minimum of one-year regular membership.\n   1. The registered women worker is not eligible for maternity benefits in case the husband is availing paternity benefits from any department/board/corporation.  \n\n**Note 01:** The benefits of the scheme will be given on the birth of child up to two children but expandable up to the birth of three daughters irrespective of the order of their birth.\n**Note 02:** It is mandatory to submit the application form along with all the documents to the competent authority within one year of delivery.\n**Note 03:** After the birth of the children, it is necessary to attach the birth certificate along with the application.",
+  "_criteria_filled": 2
+}

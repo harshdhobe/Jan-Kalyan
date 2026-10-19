@@ -1,0 +1,41 @@
+{
+  "id": "community-based-training-scheme",
+  "name": "Community Based Training Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **The scheme provides training in Heavy Vehicle Driving, Short Hand, Security Services, Office Soft Skill, Retail Sales, and Beauty Parlor Course (Male and Female).**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 103000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-as-residential-proof-copy-of-bank-passbook-sslcpucdiplomadegree"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/cbts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the religious minority community of the state.\n1. The applicant should be a permanent resident of Karnataka.\n1. The applicant&#39;s age should be between 18 to 35 years. \n1. The annual income of the applicant&#39;s family from all sources should be less than ₹1,03,000/- in urban areas and less than ₹96,000/- in rural areas.\n1. The selected applicants should compulsorily complete the training.\n1. The applicant must have a minimum qualification of SSLC.\n1. The applicant should not have previously taken training in any schemes of the state or central government.",
+  "_criteria_filled": 4
+}

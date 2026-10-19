@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-hunar-vikas-yojana-higher-educationtechnical-education",
+  "name": "Mukhyamantri Hunar Vikas Yojana- Higher Education/Technical Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Higher Education /Technical Education Benefits:**\n\n- Financial assistance for career-oriented higher or technical education (graduation/post-graduation courses). \n\n> **Mode of Disbursement:**\n\n- Reimbursement of the actual course fee through bank account transfer.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-copy-of-jan-aadhaar-card-certificate-of-educational-qualific"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202402231257087804.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mhvs-hte",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a beneficiary under the Palanhar Scheme of Rajasthan.\n   1. The applicant should have completed 15 years of age.\n   1. The applicant’s maximum age should not exceed 21 years or till course completion (whichever is earlier).\n   1. The applicant should be pursuing education from a university/college/technical educational institution recognized by the Government of India/State Government.\n   1. Financial assistance is applicable for regular higher or technical education at the graduate or postgraduate level.\n   1. The applicant should not be receiving any scholarships or grants for higher/technical education from the Central or State Government.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-fishermen-for-purchase-of-fisheries-requisites-gill-net",
+  "name": "Financial Assistance To Fishermen For Purchase of Fisheries Requisites (Gill Net/ River Gill Net with Accessories)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- For General Category: 50% subsidy limited to **₹ 30,000/-**.- For SC/ST Category: 50% subsidy limited to **₹ 40,000/-**.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-vessel-registration",
+    "issued-by-the-directorate-of-fisheries",
+    "government-of-goa",
+    "under-the-merchant-shipping-act-1958-fishing-vessel-license-certificate-fishing",
+    "net",
+    "and-its-accessories-by-fisheries-superintendent-fisheries-officer",
+    "assistant-superintendent-of-fisheries-as-per-format"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/01/Gill-Net-Application-Forms.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafpfrgnrgnwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The applicant should or any of his households should not be defaulters with the Directorate of Fisheries.\n- The applicant should possess their own registered fishing canoe.\n- The original VAT bill may be submitted by the applicant from the authorized dealer to claim the subsidy.\n- The applicant shall not sell, lease, or transfer the Gill Net for five years from the date of purchase of the first Gill Net.\n- The fishing net shall be duly registered with the Directorate of Fisheries.",
+  "_criteria_filled": 1
+}

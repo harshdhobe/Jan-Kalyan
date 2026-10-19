@@ -1,0 +1,26 @@
+{
+  "id": "loans-and-advances-for-construction-of-a-house",
+  "name": "Loans and Advances for Construction of a House",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "> ***Financial assistance for house construction for building workers:***\n\n- Unskilled Labour: ₹1,00,000/-.\n- Simi-Skilled Labour: ₹1,50,000/-.\n- Skilled Labour: ₹2,00,000/-. \n\n<br>\n\n> ***Rate of Interest:***\n\n- Simple interest rate of 5% per annum.\n\n<br>\n\n> ***Repayment:***\n\n- 5-year repayment period with monthly installments.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-estimate-co"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=loans+and+advances+for+construction+of+a+house",
+  "source_url": "https://www.myscheme.gov.in/schemes/lach",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker should be registered under the Manipur Building and Other Construction Workers&#39; Welfare Board. \n1. The construction worker should have an active labor card.\n1. The construction must execute a surety bond.",
+  "_criteria_filled": 1
+}

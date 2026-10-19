@@ -1,0 +1,26 @@
+{
+  "id": "awards-to-bright-students",
+  "name": "Awards to Bright Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance:**\n\n  - **For the first year:** ₹800/-.\n\n  - **For the next five years (per year):** ₹960/-.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83093",
+  "source_url": "https://www.myscheme.gov.in/schemes/atbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a student.\n  - The beneficiary should have passed 10th std., Public Examinations.\n  - The beneficiary should be among the top two boys or two girls in their concerned district.\n  - The beneficiary should be continuing their studies after 10th standard.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal/ Adi Dravidar Converted to Christianity communities.",
+  "_criteria_filled": 1
+}

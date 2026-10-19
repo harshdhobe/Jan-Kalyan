@@ -1,0 +1,36 @@
+{
+  "id": "meghalaya-motorcaravan-scheme",
+  "name": "Meghalaya Motorcaravan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "**Down Payment/Margin Money Support:**\nTotal down payment will be 50% of the price of the vehicle. Of this:\n\n1. 5% of the caravan price is to be paid by the entrepreneur to the bank.\n1. 45% of the caravan price will be paid by the Government of Meghalaya to the entrepreneur through the bank.\n\n**EMI Support:**\n\n1. To reduce the operational cost burden in the first year, the Government of Meghalaya ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-latest-bank-statement-last-6-months-valid-driving-license-preferably"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19hdjWYvuQcYiWCt2%2Fjo3YuppPt7yOfXsQJDC7KxFWffMqLjinCNIL9ejz0WpdbkL9TQ9e8drC9e%2FLCLLLj5HfM3GiYZwrgsbE3NDMvZxmDL%2FPaFaS5vclXDwc3qThASNZZJ%20UTPGwJprsL43%20U%2FAOm0RQfBPQEIZobwsmAlmWZD7im9mtM4DuVPhbOR0gCfDy%20267LdVsBGY5D%20%2FNoK1SJNkh6AlMprT8UxxFOPTiO%2FKscNY6I1Eat=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Individuals**\n\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must hold a valid driving license.\n1. The applicant must be a permanent resident of Meghalaya.\n1. The applicant must have a minimum of 3 years of experience in the tourism service sector.\n1. The applicant shall not be a credit defaulter from any bank.\n\n**For Registered Entities:**\n\n1. The entity must be a recognized and registered tourism operator or tourism society with the Tourism Department, Government of Meghalaya.\n1. The entity must have a minimum of 3 years of experience in the tourism service sector.\n1. The entity shall not be a defaulter at any financial institution.\n1. The entity must provide an Incorporation Certificate or registration certificate, whichever is applicable.\n1. The entity shall not be a credit defaulter from any bank.\n\n**For Unregistered Entities:**\n\n1. The entity can be any unregistered organization such as village organizations, self-help groups, or traditional communities based in Meghalaya.\n1. The entity must be actively involved in the tourism sector.\n1. The entity must have a minimum of 3 years of experience in the tourism service sector.\n1. The entity shall not be a credit defaulter at any financial institution.\n\n<br>",
+  "_criteria_filled": 3
+}

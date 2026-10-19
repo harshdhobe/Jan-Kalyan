@@ -1,0 +1,26 @@
+{
+  "id": "family-pension-dbocwwb",
+  "name": "Family Pension (DBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "50% of the pension or ₹1,500/-, whichever is higher.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-of-spouse-address-proof-of-the-spouse-copy-of-first-page-of"
+  ],
+  "apply_url": "https://dbocwwb.delhi.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpdbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The deceased should have been a pensioner of the Board.\n- The applicant should be a family member or a dependent of the deceased.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "pradhan-mantri-uchchatar-shiksha-protsahan-pm-usp-central-sector-scheme-of-schol",
+  "name": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**Rate of Scholarship**\n\n- ₹12,000/-per annum at the Graduation level for the first three years of College and University courses.\n- ₹20,000 per annum at the Post-graduation level.\n- ₹20,000/-per annum in the 4th and 5th year to the Students pursuing professional courses, in case, where the duration of the course is five (5) years/Integrated course.\n- Students pursuing technical courses such as B.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      }
+    ]
+  },
+  "documents": [
+    "the-following-documents-need-to-be-uploaded-on-the-portal-at-the-time-of-applica",
+    "family-income-certificate",
+    "category-caste-certification-for-reserved-category-students",
+    "disability-certificate-if-applicable-b-renewal-previous-year-mark-sheet-the-copy",
+    "if-sought-for-by-the-institute-nodal-officer-ino"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csss-cus",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be above the 80th percentile of successful candidates in the relevant stream from the respective Board of Examination in Class 12th of 10+2 pattern or equivalent.\n  - The applicant must be pursuing regular degree courses.\n  - The applicant must be pursuing courses at colleges/ institutions recognized by the All India Council for Technical Education and the respective Regulatory Bodies concerned.\n  - The gross parental/ family income of the applicant should not exceed ₹4,50,000/- per annum.\n  - For renewal of scholarship in each year of study, besides getting at least 50% marks in the Annual Examination, maintenance of adequate attendance should be at least 75%.\n  - The students are required to have Aadhaar seeded bank accounts opened in their name.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "loan-for-small-businesses-daadc",
+  "name": "Loan for Small Businesses (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount:**\n\n- Up to ₹1,25,000/-\n\n***Interest Rate***_:_ \n\n- 4% per annum\n\n***Loan Tenure:***__ \n\n- 60 months (5 years)\n\n***Guarantors Required:***__ \n\n- Two guarantors\n\n***State Government Contribution:*** \n\n- 100% (no beneficiary share required)\n\n***Approximate Installment Amount:***\n\n- ₹2,302/- per month (maximum)\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-income-certificate-school-leaving-copy-of-elec"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gapb/assets/downloads/Different_small_29092023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbsdaadc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should belong to an Antyodaya Anna Yojana (AAY) family.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should intend to start or expand a small business or occupation.\n1. The applicant should be able to provide two guarantors.\n\n<br>",
+  "_criteria_filled": 2
+}

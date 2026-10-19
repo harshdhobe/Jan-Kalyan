@@ -1,0 +1,31 @@
+{
+  "id": "chhatraon-ke-liye-protsahan-rashi",
+  "name": "Chhatraon Ke Liye Protsahan Rashi",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. Senior Secondary Level:\n\n  - Girls studying agriculture in 11th and 12th standard will receive a scholarship of ₹15,000 per year.\n\n1. Undergraduate Level:\n\n  - Girls enrolled in undergraduate agricultural programs (4/5 years) like Horticulture, Dairy, Agricultural Engineering, Food Processing, and Shri Karna Narendra Business School, Jobner will receive a scholarship of ₹25,000 per year.\n\n1. Po",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "address-proof-last-years-mark-sheet-bank-account-passport-size-photo-mobile-numb"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cklpr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Girl.\n1. The applicant should be a native of Rajasthan \n1. The applicant should be studying in schools, colleges, and universities recognized by the government and state government.",
+  "_criteria_filled": 2
+}

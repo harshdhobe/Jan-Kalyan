@@ -1,0 +1,29 @@
+{
+  "id": "establishment-of-small-scale-dairy-unit-ssdu",
+  "name": "Establishment Of Small Scale Dairy Unit (SSDU)",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "**Assistance for 10 Cows:**\n<br>\n\n**Sr. No.****Activity****Cost (₹)****U.T. Administration Subsidy****Under DEDS – Beneficiary Gets Subsidy**1Cost of 10 milch cows, including transportation cost (@ ₹60,000 per cow)₹6,00,000/-₹1,50,000/- (25% of purchase cost)Back-ended subsidy from NABARD: ₹1,50,000/- (25% for General) or ₹1,99,980/- (33.33% for SC/ST)2Cost towards cattle shed, water tank, store r",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-bank-loan-sanction-letter-purchase-invoice-of-milch-cows-breed",
+    "equipment",
+    "and-machinery-insurance-policy-documents-utilization-certificate-audited-stateme",
+    "1963"
+  ],
+  "apply_url": "https://www.daman.nic.in/websites/veterinary_office_daman/documents/2017/374-26-10-2017.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssdu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of the Union Territory of Daman and Diu and Dadra and Nagar Haveli.\n1. The applicant should establish a small-scale dairy unit with 10 milch cows.\n1. The applicant should procure indigenous Gir breed cows only.\n1. The applicant should avail a bank loan for implementation of the project.\n1. The applicant should utilise the subsidy strictly for approved components.\n1. The applicant should maintain records as per the General Financial Rules, 1963.\n\n> **Preference / Reservation / Relaxation:** The applicant belonging to the Scheduled Caste or the Scheduled Tribe category is eligible for a higher subsidy rate under the back-ended subsidy and insurance components.\n\n<br>",
+  "_criteria_filled": 1
+}

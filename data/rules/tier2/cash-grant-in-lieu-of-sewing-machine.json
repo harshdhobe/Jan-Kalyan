@@ -1,0 +1,31 @@
+{
+  "id": "cash-grant-in-lieu-of-sewing-machine",
+  "name": "Cash Grant in lieu of Sewing Machine",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- A Cash Grant of ₹10,000/- is provided for the purchase of a Sewing Machine.\n- The amount is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "id-card-of-the-widow-id-card-of-the-late-ex-serviceman-discharge-certificate-of"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/widow_rehabilitation_grant.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cgilsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the Widow of an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen).- The applicant should be [registered](https://sainik.py.gov.in/registration-procedure) with the Department of Sainik Welfare, Puducherry.- The scope of this scheme will also apply to those ESM / living spouse/widows who are re-employed as regular / deemed to be regular in Government/Public Sector Undertakings/Private Organizations and self-employed IT assesses.",
+  "_criteria_filled": 2
+}

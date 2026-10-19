@@ -1,0 +1,29 @@
+{
+  "id": "scheme-to-assist-for-infrastructural-facilities-for-gaushalas-panjrapole",
+  "name": "Scheme to Assist for Infrastructural Facilities for Gaushalas & Panjrapole",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Financial assistance of up to 75% of the total cost or ₹4,00,000/-, whichever is lower, for each of the following:\n\n   1. Cattle Shed.\n   1. Compound Wall.\n   1. Grass Godown.\n   1. Water Bore (Electric Motor / Submersible Pump).\n   1. Overhead or Underground Water Tank.\n\n> **Note:** The benefit of this scheme will be available to an organization for a period of five years for different purpose-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-712",
+    "8-a",
+    "and-6-rights-land-records-ownlease-land-lease-agreement-minimum-99-years",
+    "if-applicable-estimate-and-planmap-of-the-proposed-construction-work-as-per-talu"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=picXjrkWac6JiCP+hnZI2Q==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/saifgp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any panjarapol and gaushala of the state registered under Public Charity Act.\n   1. At least 3 (three) acres of land on which the organization has to construct the development work, must be in the name of the organization or on lease of 99 years. There is no limit on the maximum land.\n   1. A gaushala must have more than 50 cows of local origin While Panjarapol must have more than 100 livestock.",
+  "_criteria_filled": 1
+}

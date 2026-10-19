@@ -1,0 +1,47 @@
+{
+  "id": "annual-tour-to-the-differently-abled-persons",
+  "name": "Annual Tour to the Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- One free tour to various places every year.\n\n**NOTE:** Drugs and alcoholic items are prohibited.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/annual-tour-differently-abled-persons",
+  "source_url": "https://www.myscheme.gov.in/schemes/atdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The annual income of the applicant should not exceed ₹ 75,000/-.\n- The applicant should have a disability of 40% or above.\n- The applicant should not have performed the tour for the past ten years.\n- The applicant should not be affected by any contagious diseases. \n- The applicants may apply to this scheme only after the issue of notification in the local newspapers.\n- The age of the applicant should be between 18 and 50 years.\n- The applicant should not be a Government Servant.\n- The parents of the applicant should not be a Government servant.\n- The applicant should have registered his/her name in the Anganwadi Centre.",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bihar-state-journalist-insurance-scheme",
+  "name": "Bihar State Journalist Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- Personal accident insurance coverage up to ₹5,00,000/-\n- Medical expense coverage up to ₹5,00,000/- for the insured and their dependents.\n\n**NOTE:** Media representatives contribute 20% of the premium, while the remaining 80% is covered by the government.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "five-passport-size-photograph-appointmentaffiliation-letter-issued-by-editor-bur",
+    "full-timepart-time-birth-certificate-countersigned-by-editor-resident-editorempl",
+    "government-of-bihar-proof-of-circulation-for-media-organizations-crossedcancelle",
+    "micr-and-ifsc-code-premium-contribution-receipt-affidavit-regarding-criminalcivi"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/10/Old%20Office%20Document/Old%20Act%20and%20Policy/Journalist%20Insurance%20Scheme%202014.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsjis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a journalist/media representative. \n1. Independent journalists must hold a valid press accreditation card.\n1. The applicant should have a minimum of 5 years of work experience in journalism. \n1. The media representative&#39;s age is between 21-70 years. \n1. The media representative should be residing and working in Bihar. \n1. The media representative educational qualification should be matriculation or equivalent for the insurance.\n1. The media representative should cover 50% of news or comments in journalists from newspapers, magazines, news agencies, electronic media, and independent journalists with valid press accreditation.\n1. The media representative&#39;s spouse and two dependent children are included in this Insurance Scheme. \n1. The media representative&#39;s son&#39;s age is up to 23 years (or 25 if studying any bonafide institutions), and the daughter will be covered until marriage.\n1. A media representative affiliated with a private news channel must ensure that the channel&#39;s telecast reaches at least 20 districts in the state.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,50 @@
+{
+  "id": "stand-up-india",
+  "name": "Stand-Up India",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Facilitation of composite loan (inclusive of term loan and working capital) between ₹10 Lakhs and ₹100 Lakhs. Rupay debit card to be issued for convenience of the borrower.\n1. The web portal by SIDBI provides hand-holding support through a network of agencies engaged in training, skill development, mentoring, project report preparation, application filling, work shed / utility support services,",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-voters-id-card-passport-driving-license-pan-card-signature-ide",
+    "partner-of-director-if-a-company-proof-of-residence-recent-telephone-bills",
+    "electricity-bill",
+    "property-tax-receipt-passport-voters-id-card-of-proprietor",
+    "partner-of-director-if-a-company-proof-of-business-address-proof-that-the-applic",
+    "wherever-applicable-certificate-of-incorporation-from-roc-to-establish-whether-m",
+    "other-directors-in-the-company",
+    "the-activity-being-undertaken-addresses-of-all-offices-and-plants",
+    "shareholding-pattern-etc-last-three-years-balance-sheets-of-the-associate-group",
+    "from-whom-to-be-acquired",
+    "price",
+    "names-of-suppliers",
+    "financial-details-like-capacity-of-machines",
+    "capacity-of-utilization-assumed",
+    "production",
+    "sales",
+    "projected-profit-and-loss-and-balance-sheets-for-the-tenor-of-the-loan",
+    "the-details-of-labour",
+    "staff-to-be-hired",
+    "basis-of-assumption-of-such-financial-details-etc-manufacturing-process-if-appli",
+    "major-profile-of-executives-in-the-company",
+    "any-tie-ups",
+    "details-about-raw-material-used-and-their-suppliers",
+    "details-about-the-buyers",
+    "details-about-major-competitors-and-the-companys-strength-and-weaknesses-as-comp"
+  ],
+  "apply_url": "https://www.udyami.org.in/storage/schemes/file/t4CQkv4D2TsdhI3MK8KqFSnYPw6RTBBsmh7p449D.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sui",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Finance is  provided for Greenfield Enterprises.\n- If the applicant is a male, he must be from SC / ST category.\n- The age of the applicant must be at least 18 years.\n- The applicant must not be in default to any bank/financial institution.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "financial-assistance-to-commercial-tiatr-troupesdirectorsproducers-for-stage-set",
+  "name": "Financial Assistance to Commercial Tiatr Troupes/Directors/Producers for Stage Setting",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial assistance as fixed by Tiatr Academy of Goa will be provided to six commercial tiatr troupes/directors/producers annually for stage setting development.\n- Disbursal is made only upon completion of fifteen performances of the tiatr mentioned in the application.\n- Payment is processed as a one-time benefit per beneficiary.\n\n_*Tiatr Academy of Goa logo must be displayed on the front visib",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationone-typed-copy-of-the-script-of-the-tiatr-self-attested-copy-o",
+    "tickets",
+    "advertisements",
+    "or-certificate-from-organizers"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/facttdpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have been on the commercial tiatr stage for at least five years.\n- The applicant must have five years experience on the commercial tiatr stage along with the application.\n- The applicant must be a commercial tiatr troupe, director, or producer.\n\n***Selection Process***\n\n- A maximum of six commercial tiatr troupes/directors/producers will be selected annually.\n- If more than six applicants apply, selection will be decided by way of lots.\n- Remaining applicants will be wait listed and provided with financial assistance in the following financial year.\n- In case of withdrawal by any selected applicant, the next applicant on the waiting list will be given preference for allotment.\n\n<br>",
+  "_criteria_filled": 1
+}

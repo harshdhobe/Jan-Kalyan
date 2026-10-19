@@ -1,0 +1,26 @@
+{
+  "id": "sub-mission-on-seeds-and-planting-material",
+  "name": "Sub mission on Seeds and Planting Material",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Seed Village Programme:**\n\n  - Assistance will be provided for the distribution of foundation and certified seed required for a 1-acre area for cereal crops; the assistance covers 50% of the cost, and for pulse, oilseeds, green manure &amp; fodder crops, the assistance covers 60% of the cost.\n  - Validity: The maximum time limit for reclaiming benefits is 2 years.\n\n> **Strengthening of Seed Qu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-address-proof-land-records-bank-account-details"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=VBmlBmd+scMV9XoODqMfYw==&domain=KQBjMeZAUYtrIgvpebJ01g==",
+  "source_url": "https://www.myscheme.gov.in/schemes/smspguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to one of the following categories: all categories of farmers, State Agricultural Universities (SAUs), Farmers&#39; Producer Organisations (FPOs), Co-operative enterprises, or Government enterprises.\n1. The applicant must attach land records along with the application form.\n1. The applicant must have their own bank account.\n\n<br>",
+  "_criteria_filled": 1
+}

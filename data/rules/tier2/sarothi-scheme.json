@@ -1,0 +1,31 @@
+{
+  "id": "sarothi-scheme",
+  "name": "Sarothi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\n\n1. The government provides financial assistance for startups in the form of loans with interest subvention\n1. The loan amount will be a maximum of Rs. 10.00 lakh.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-application-in-the-prescribed-format-as-per-form-a-tw",
+    "udyog-adhar",
+    "as-applicable-scheme-project-report-of-the-proposed-activity-identity-proof-any",
+    "if-any-certificate-of-training",
+    "if-any-certificate-of-obcscstphysical-handicraft",
+    "if-any-any-other-documents-likely-to-be-provided-by-the-applicant"
+  ],
+  "apply_url": "https://industries.assam.gov.in/sites/default/files/Sarothi_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. All innovative startup industrial activities and the new individual applicant will be eligible to get the benefit under the Sarothi scheme.\n1. New Micro, Small and Medium Enterprises (MSME) units in Assam are eligible for these benefits.\n1. Priority will be given to an applicant if he or she undergoes any skill development training.\n1. If the applicant is a defaulter of any Bank or Financial Institution, he or she will not be eligible for benefits under the Sarothi scheme.",
+  "_criteria_filled": 1
+}

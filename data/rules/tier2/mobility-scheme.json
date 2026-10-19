@@ -1,0 +1,31 @@
+{
+  "id": "mobility-scheme",
+  "name": "Mobility Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Monthly Salary:** Consolidated monthly salary is provided to awardees for the entire project duration.  - **Manpower Support:** Need-based manpower support is provided to assist in project implementation.  - **Research Grant:** ₹5,00,000/- per annum is provided for consumables, contingencies, travel, and minor equipment.  - ***Duration:*** Total tenure will be a maximum of five (5) years for t",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-research-proposal-proof-of-current-employment-relocation-proof-ac"
+  ],
+  "apply_url": "https://dst.gov.in/sites/default/files/ADVERTISEMENT-Mobility.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msdst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Woman scientists/academicians working at permanent position in any Government Institution/R&amp;amp;D Lab/University and willing to resign from their permanent position or take a long leave to avail the fellowship and after completion of the tenure return back to the parent organization.\n  - The new place should be located beyond 500 Km from present city.\n  - Upper age limit is 50 years to apply.\n\n<br>",
+  "_criteria_filled": 2
+}

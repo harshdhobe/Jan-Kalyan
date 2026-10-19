@@ -1,0 +1,26 @@
+{
+  "id": "integrated-toll-free-104-helpline",
+  "name": "Integrated Toll Free 104 Helpline",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the National Health Mission (NHM), the Integrated Toll-Free 104 Helpline is being operated 24×7×365day. Through this helpline, health-related advice and information can be obtained.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-to-avail-the-benefits"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/itfh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The general public of Uttarakhand is eligible to avail the benefits.\n\n<br>",
+  "_criteria_filled": 1
+}

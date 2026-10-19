@@ -1,0 +1,41 @@
+{
+  "id": "sukhad-sahara-yojana",
+  "name": "Sukhad Sahara Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive financial assistance of ₹500/- per month.\n\n**Note:** The amount of assistance will be directly transferred to the applicant&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-c"
+  ],
+  "apply_url": "https://edistrict.cgstate.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssychh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be either a widow or a deserted woman.\n   1. The age of the widow should be between 18 and 39 years.\n   1. The age of the deserted woman should be 18 years or older.\n   1. The applicant&amp;#39;s name should be included in the list of families living Below Poverty Line.\n   1. The applicant should not be receiving pension benefits from any other Central or State Government pension scheme.",
+  "_criteria_filled": 4
+}

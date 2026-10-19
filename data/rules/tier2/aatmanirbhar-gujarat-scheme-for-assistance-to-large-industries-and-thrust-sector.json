@@ -1,0 +1,27 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-large-industries-and-thrust-sector",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to Large Industries and Thrust Sector: Net SGST Reimbursement",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Category of Taluka****General****Thrust**Category 1100% of net SGST for 10 years  upto 7.5% of eFCl p.a. 100% of net SGST for 10 years upto 8% of eFCl p.a. Category 290% of net SGST for 10 years  upto 6.5% of eFCl p.a. 90% of net SGST for 10 years upto 7% of eFCl p.a. Category 380% of net SGST for 10 years  upto 5% of eFCl p.a. 80% of net SGST for 10 years upto 5.5% of eFCl p.a.<br>\n\n**Note**: \n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-under-the-scheme-provisional-eligibility-certificate-under-the-sche",
+    "directors-partners-owner-authorised-person-should-be-any-directorpartnerat-least"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agslitsngr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A new large industrial undertaking, or an existing one that undertakes expansion and/or diversification, is eligible for this scheme.\n   1. The large industrial undertaking must have obtained acknowledgment/registration, as the case may be from DPIIT. \n   1. The industry should commence commercial production during the scheme&amp;#39;s operative period.\n   1. Undertakings must have a separate GST registration for the eligible manufacturing unit.\n   1. Compliance with SGST guidelines and no fraudulent reporting of sales.\n   1. Only eligible goods manufactured in the premises qualify for reimbursement.",
+  "_criteria_filled": 1
+}

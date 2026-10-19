@@ -1,0 +1,41 @@
+{
+  "id": "self-employment-scheme-for-unemployed-minority-communities",
+  "name": "Self-Employment Scheme for Unemployed Minority Communities",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under this scheme, a grant is provided for self-employment. On taking a loan of ₹1 lakh to ₹10 lakh, a grant of 25% of the loan amount is given, with a minimum grant of ₹25,000/- and a maximum of ₹2,50,000/-.\n  - The benefit of the scheme is available only on taking a loan, in which 60% of the project cost is provided as a loan, 25% as grant/subsidy by the department, and 15% as contribution by ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-bpl-certificate-caste-certificate-permanent-residence-certifi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msesu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must belong to a minority community (Muslim, Sikh, Christian, Parsi, Buddhist, or Jain).\n1. The applicant’s age should be between 18 and 55 years.\n1. The annual family income from all sources should not exceed ₹2,50,000/-, or the applicant should be a member of a BPL family.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uttar-pradesh-old-age-pension-scheme",
+  "name": "Uttar Pradesh Old Age Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "Benefits\nMonthly pension Rs. 1000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-photograph-income-certificate-age-certificate"
+  ],
+  "apply_url": "https://sspy-up.gov.in/docs/form_oap.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/upoaps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. Age should be between 60 to 150.\n1. Applicant should be below poverty line or his/her annual income should be upto for Rural Areas Rs. 46,080/- and Urban Areas Rs. 56,460/-.",
+  "_criteria_filled": 2
+}

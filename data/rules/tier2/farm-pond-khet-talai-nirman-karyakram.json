@@ -1,0 +1,26 @@
+{
+  "id": "farm-pond-khet-talai-nirman-karyakram",
+  "name": "Farm Pond (Khet Talai) Nirman Karyakram",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- Subsidy breakdown:\n\n   1. Raw farm pond: 50% of the construction cost (capped at ₹52,500)\n   1. Plastic lined farm pond: 50% of the construction cost with lining (capped at ₹75,000)\n\n- Additional subsidy:\n\n   1. Raw farm pond: Up to 60% of the total cost (capped at ₹63,000)\n   1. Plastic lined farm pond: Up to 60% of the total cost (capped at ₹90,000)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-passbook-land-proof"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/AGRI_/PMKSY/DOC_208_6afd23b6-69ec-497e-9da1-7add5f37e0df.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpktnk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. All categories of farmers are eligible.\n1. The applicant farmer should have a minimum cultivable land of 0.5 hectares at one place on his name.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shaikshanik-chatravriti-yojana",
+  "name": "Shaikshanik Chatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the scholarship amount fixed for each class is provided by the board to the students studying in  Class 5th to 12th, Graduation, Post Graduation, ITI, Polytechnic, PGDCA, DCA (Computer Course), B.E., M.B.B.S. M.Sc.\n   1. The scholarship amount will be paid by the student by e-payment through the Regional Office after the approval of the Welfare Commissioner as per the bank det",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "latest-passport-size-photograph-jpeg-of-the-applicant-previous-years-mark-sheet",
+    "bank-account-number",
+    "and-ifs-code"
+  ],
+  "apply_url": "https://scholarshipportal.mp.nic.in/ShramKalyan/Pages/about.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mskscy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a permanent resident of Madhya Pradesh.\n1. The parents of the applicant must be working in a factory or institution established in Madhya Pradesh under the Labor Welfare Fund Act 1982.\n1. Only 2 children in a family are eligible to get the benefit of this scheme.\n1. Children of officers and employees in managerial capacities working in institutions cannot be benefited from this regime.",
+  "_criteria_filled": 1
+}

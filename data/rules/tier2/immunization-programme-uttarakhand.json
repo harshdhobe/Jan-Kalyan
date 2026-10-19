@@ -1,0 +1,36 @@
+{
+  "id": "immunization-programme-uttarakhand",
+  "name": "Immunization Programme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "To protect children from various life-threatening diseases, free vaccinations are provided under the Universal Immunization Programme (UIP) as per the prescribed schedule below:\n***National Immunization Schedule:***\n**Vaccine****Dose****Vaccination Age**BCG1 doseAt birth, Upto one yearOPV5 dosesAt birth, 6 week, 10 week, 14 week &amp;amp;amp;amp; 16-23 monthsFIPV3 doses6 week, 14 week, &amp;amp;am",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 16
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "childs-birth-certificate-card-issued-by-the-anm"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All children of Uttarakhand aged 0–16 years who require vaccination are eligible under the scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

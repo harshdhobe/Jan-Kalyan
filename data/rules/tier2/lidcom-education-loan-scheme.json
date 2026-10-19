@@ -1,0 +1,45 @@
+{
+  "id": "lidcom-education-loan-scheme",
+  "name": "LIDCOM Education Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "Education Loan up to ₹10,00,000 for post graduate students in India.\nEducation Loan up to ₹20,00,000 for post graduate students in abroad.\nRate of Interest for Male Beneficiary: 4% per annum.\nRate of Interest for Female Beneficiary: 3.5% per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-marksheet-passing-certifi",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-ac-statement-for-last-1-year-in-case-of-any-previous-loan-from-other-banksle"
+  ],
+  "apply_url": "https://www.lidcom.co.in/education-loan-scheme.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/lels",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be from Charmakar Community only (Dhor, Chambhar, Holar, Mochi etc.).\n1. The applicant should be in the 18 to 50 years age group.\n1. The annual income of the family of the applicant should be less than or equal to Rs.3,00,000/-.\n1. The applicant should have a knowledge of the business for which s/he has applied for loan.",
+  "_criteria_filled": 4
+}

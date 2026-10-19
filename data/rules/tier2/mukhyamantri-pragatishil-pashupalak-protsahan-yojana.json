@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-pragatishil-pashupalak-protsahan-yojana",
+  "name": "Mukhyamantri Pragatishil Pashupalak Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "- **Cash awards ranging from ₹10,000 to ₹15,000 per cow for high productivity and improved breeds.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhar-card-certificate-and-identification-number-microchips"
+  ],
+  "apply_url": "https://updairydevelopment.gov.in/MediaGallery/812_53_2_2023_Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Uttar Pradesh.\n1. The age of the applicant should be 18 years or above.\n1. Only individual cattle farmers will be eligible, but groups, firms, or organizations will not eligible.\n1. Only indigenous breed of cows like Gir, Sahiwal, Haryana, Gangatiri, and Tharparkar species are eligible.\n1. The cattle farmers of the state can avail the benefit of this incentive amount only once for a maximum of 02 cows.\n1. The cattle farmers will be eligible to receive an incentive amount only once in the lifetime of the cow.\n\n<br>",
+  "_criteria_filled": 2
+}

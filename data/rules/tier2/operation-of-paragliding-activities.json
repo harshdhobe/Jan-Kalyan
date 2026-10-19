@@ -1,0 +1,26 @@
+{
+  "id": "operation-of-paragliding-activities",
+  "name": "Operation of Paragliding Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Paragliding companies are permitted to operate, and tandem pilot licenses have been issued, allowing license holders to earn a livelihood through paragliding activities in the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "for-running-the-firm-prescribed-application-form-valid-registration-under-the-fi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/opa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand for at least ten years or a native of the state.\n1. The applicant should possess advanced practical and technical knowledge of aero sports.\n\n<br>",
+  "_criteria_filled": 1
+}

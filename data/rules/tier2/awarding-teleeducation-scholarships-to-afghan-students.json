@@ -1,0 +1,33 @@
+{
+  "id": "awarding-teleeducation-scholarships-to-afghan-students",
+  "name": "Awarding Teleeducation Scholarships To Afghan Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "The scholarship amount covers the entire degree programme fee including:\n\n  - Tuition fees,\n  - Admission fees,\n  - Examination fees,\n  - E-content charges,\n  - Other charges like registration fee, re-examination, and award of degree, etc.\n\n&gt; **Note:** \n\n  - The passed students are awarded Degree online and physical copies of degrees/certificates are also sent to Indian Mission in Kabul, and st",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      }
+    ]
+  },
+  "documents": [
+    "valid-academic-records-transcripts-certificates",
+    "as-required-by-the-respective-indian-universityinstitute-valid-national-id-with",
+    "applicants-are-requested-to-upload-certified-copies-of-translations-of-these-doc"
+  ],
+  "apply_url": "https://ilearn.gov.in/static/static/pics/Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atestas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a national of Afghanistan.\n  - The applicant must possess a valid Afghan National ID or Passport.\n  - The applicant must be between 18 to 35 years of age as on July 1 of the academic year.\n  - The applicant must meet the minimum academic qualifications required by the respective Indian university for the chosen program.\n  - The applicant must ensure proficiency in English to understand and complete the program, as the medium of instruction is English.\n  - The applicant must apply only for one program under the e-VB project.\n  - The applicant must not be enrolled in any other ongoing program under the e-VB project.\n\n&gt; **Note:**\n\n  - Applicants must check the eligibility criteria/pre-requisites for admission to a particular programme/course on the respective university portal and then apply.\n  - Students who have already obtained a degree under e-VB project (at the time of announcement of the new academic session) and willing to avail scholarship under e-VB project for pursuing another degree, may also apply afresh through iLearn portal to process their application",
+  "_criteria_filled": 2
+}

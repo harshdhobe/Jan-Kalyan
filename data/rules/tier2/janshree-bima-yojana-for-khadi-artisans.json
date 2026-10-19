@@ -1,0 +1,31 @@
+{
+  "id": "janshree-bima-yojana-for-khadi-artisans",
+  "name": "Janshree Bima Yojana for Khadi Artisans",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **For death:** Natural causes – ₹20,000; and Accident – ₹50,000.1. **For permanent disability** (loss of two eyes or two limbs) – ₹50,000.1. **For partial disability** (loss of one eye or one limb) – ₹25,000.1. **Free add-on benefit**: Scholarship of ₹300 per quarter for children of Khadi Karigar, studying in class 9th to 12th standard, subject to a maximum of 2 children per family",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-proof-of-income-income-certificate-proof-of-occupation-aadhaar-bank"
+  ],
+  "apply_url": "https://my.msme.gov.in/MyMsmeMob/MsmeScheme/Pages/1_3_1.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkjby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Khadi Artisan (Khadi Karigar).\n1. The age of the applicant must be between 18 and 59 years.\n1. The applicant must be a member of the approved vocation/occupation groups.\n1. The group must have a minimum of 25 members.\n\n<br>",
+  "_criteria_filled": 2
+}

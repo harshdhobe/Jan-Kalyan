@@ -1,0 +1,36 @@
+{
+  "id": "nirmaan-sthal-par-karya-ke-dauran-a-panjeekrat-shramik-ke-mratyu-ki-dasha-me-ant",
+  "name": "Nirmaan Sthal Par Karya Ke Dauran A-panjeekrat Shramik Ke Mratyu Ki Dasha Me Antyeshti  Evan Anugrah Rashi Bhugatan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Funeral assistance of ₹ 3,000/-\n1. In case of accidental death ₹ 4,00,000/-\n1. In case of permanent disability ₹ 2,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "prescribed-application-form-death-certificate-copy-of-post-mortem-report-and-fir"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=772&_x_tr_sl=hi&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsokkdaskmkdmaearby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Madhya Pradesh.\n1. Applicant should be a Building and other construction workers.\n1. Applicant age should be between 18 to 60 years.",
+  "_criteria_filled": 3
+}

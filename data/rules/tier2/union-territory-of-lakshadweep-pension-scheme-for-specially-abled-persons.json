@@ -1,0 +1,36 @@
+{
+  "id": "union-territory-of-lakshadweep-pension-scheme-for-specially-abled-persons",
+  "name": "Union Territory of Lakshadweep Pension Scheme for Specially Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "person",
+  "benefit": "Under this scheme, eligible individuals receive a monthly pension of ₹1,500/- (₹18,000/- per annum).\n\n- **Mode of Disbursement:** The pension is directly transferred to the beneficiary’s bank account.- **Frequency of Disbursement:** The pension is disbursed on a monthly basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-disability-certificate-proof-of-age-proof-of-residence-income-cer"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sapsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Union Territory of Lakshadweep.\n1. The applicant should be a specially-abled person who is deaf, dumb, blind, mentally retarded, or orthopedically disabled.\n1. The applicant should have at least 40% disability, certified by a competent authority.\n1. The applicant should not have a monthly income exceeding ₹1,500/- (₹18,000 per annum).\n1. The applicant should not have any source of income.\n1. The applicant should not be a recipient of any other similar pension scheme provided by the government.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mukhya-mantri-sarvajan-uchcha-shiksha-chhatravriti-yojana",
+  "name": "Mukhya Mantri Sarvajan Uchcha Shiksha Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- Students receive 50% reimbursement of their non-refundable institutional fees (such as tuition, library, medical, and examination fees).\n\n**Direct Benefit Transfer (DBT):****** \n\n- The scholarship amount is transferred directly to the student&#39;s bank account.\n\n**Annual Disbursement:**\n\n- The scholarship is disbursed annually throughout the duration of the course.\n\n*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "for-new-application-self-attested-passport-size-photo-domicile-certificate-10th",
+    "if-applicable-marriage-certificate",
+    "if-applicable-bank-account-details-any-other-documents-if-required-for-applicati",
+    "if-applicable-aadhaar-cardpan-cardpassport-caste-certificate-if-applicable-for-r"
+  ],
+  "apply_url": "https://sso.rajasthan.gov.in/signin",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsuscy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The annual income of the parent/guardian of the student/applicant from all sources (including the applicant’s own income, if any) should be less than ₹5,00,000/-.\n1. The applicant should be enrolled in IITs, IIMs, NITs, AIIMS, or other [national institutions listed](https://sje.rajasthan.gov.in/Default.aspx?PageID=198) under the scheme.1. The applicant should not be availing of any other government scholarship for the same course.\n1. The applicant should maintain academic performance as required for renewal of the scholarship.\n1. An employee pursuing full-time studies while on leave without pay for the entire duration of the course will also be eligible for the scholarship.\n1. The student studying outside Rajasthan in the [listed national institutions](https://sje.rajasthan.gov.in/Default.aspx?PageID=198) are eligible.",
+  "_criteria_filled": 2
+}

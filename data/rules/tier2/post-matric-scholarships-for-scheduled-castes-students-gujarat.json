@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarships-for-scheduled-castes-students-gujarat",
+  "name": "Post-Matric Scholarships for Scheduled Castes Students- Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Academic allowance:**\n\n**Sl. No.****Category of courses** **Hostellers (Yearly in ₹)****Day Scholars (Yearly in ₹)**1Group 1: Degree and Post Graduate level professional courses1350070002Group 2: Other Professional Courses leading to Degree, Diploma, Certificate9500 65003Group 3: Graduate and Post Graduate courses not covered under Group 1 &amp;amp;amp;amp; Group 2600030004Group 4: All post-ma",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-identity-proof-ie-aadhaar-card-3-income-certificate-comp"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/gr6_dscw_sje_02092022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsscs-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste Category of Gujarat.\n   1. The students who have passed the Matriculation or Higher Secondary or any higher examination of a recognized University or Board of Secondary Education will be eligible.\n   1. Scholarships will be paid to the students whose parents/guardians&amp;#39; income from all sources does not exceed ₹2,50,000/- during the last Financial Year.\n   1. Candidates who, after passing one stage of education are studying in the same stage of education in a different subject e.g. Intermediate Science after Intermediate Arts or B.Com after B.A. or M.A in one subject after M.A in other subjects will not be eligible.\n   1. Students, who pursue their studies through correspondence/online courses, are also eligible. The term correspondence includes distance and continuous education for courses in Central/ State Universities only. Non-refundable fees shall be paid and no academic allowance will be paid.\n   1. All the children of any parent/guardian will be entitled to receive the benefits of the scheme.\n   1. A scholarship holder under this scheme will not hold any other scholarship/stipend.\n   1. If awarded any other scholarship/stipend, the student can exercise his/her option for either of the two scholarships/stipends, whichever is more beneficial to him/her, and should inform the awarding authority through the Head of the Institution about the option made. No scholarship will be paid to the students under this scheme from the date he/she accepts another scholarship/stipend. The student can, however, accept free lodging or a grant or ad-hoc monetary help from the State Government or any other source for the purchase of books, equipment, or for meeting the expenses on board and lodging in addition to the scholarship amount paid under this scheme.\n   1. All seats filled through arbitrary and non-transparent processes (including management quota, NRI quota, spot admissions, etc.) without following the merit criteria as decided by the State Government are not eligible for these scholarships.\n\n&gt; **Duration and Renewal of Awards**\n\n   1. The award once made will be payable up to the completion of the course subject to satisfactory academic performance and attendance of 75% in every academic year. The attendance will be verified through an Aadhaar-based attendance System.\n   1. If a scholar is unable to appear in the annual examination owing to illness, the award may be renewed subject to the production of a medical certificate from a prescribed authority and acceptance of the same by the institution/college.\n   1. If, according to the Regulations of a University/Institution, a student is promoted to the next higher class even though he/she may not have actually passed in the lower class and is required to take an examination of the junior class again after some time, he/she will be entitled to scholarship for the class to which he/she is promoted if the student is otherwise eligible for scholarship. Further, in case a student fails in any class and then again joins the same class as a regular student, he/she will be eligible for a scholarship for one additional year or the actual period, whichever is lower.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "promotion-of-energy-audit-and-conservation-of-energy-peace-incentive-for-impleme",
+  "name": "Promotion of Energy Audit and Conservation of Energy (PEACE): Incentive for Implementing Energy Audit Recommendations",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- 50% of the cost of eligible components, subject to a maximum limit of ₹ 10,00,000/ -.\n- Investments made after the energy audit alone will be eligible for the subsidy.\n\n***The overall ceiling on subsidy should not be applied for the original energy audit and subsequent energy audit taken together but should be applied separately for the original energy audit and the subsequent energy audit.**\n<b",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-copy-of-udyam-certificate-certificate-of-regist",
+    "eb-meter-cardonline-statement-if-alternate-source-of-energy-other-than-electrici",
+    "proof-for-the-usage-documents-for-engagement-of-energy-auditorletter-of-acceptan",
+    "or-partner-or-director-of-a-firmco",
+    "then-proof-for-the-same-copy-of-accreditation-of-energy-auditor-by-bureau-of-ene",
+    "etc-copy-of-the-detailed-energy-audit-report-the-file-type-should-be-pdf-pdf-the"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/dea_sub.php?id=New%20Application",
+  "source_url": "https://www.myscheme.gov.in/schemes/peaceifiear",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- AIl manufacturing MSMEs in the state which have undertaken energy audits arid have achieved at least 10% energy savings in terms of the number of units of energy consumed per unit of product manufactured with reference to the last 12 months average.\n- Enterprises having more than one unit may also avail of this concession, separately for each unit.\n- There should be a gap of a minimum of three years between the previous energy audit and the subsequent energy audit i.e. present energy audit.\n\n***The percentage of savings in specific energy consumption (Kwh/Kcal per unit of product) shall be reckoned on twelve-month average energy consumption before the implementation of energy audit recommendations and a minimum three-month average after the implementation of the recommendation of the energy audit.**\n<br>\n\n> **Eligible Components**\n\n- Cost of technology acquired for energy saving.\n- Cost of replacement of equipment for energy conservation/ cost of machinery/accessories newly purchased &amp; installed for the purpose.\n- Cost of modification/ alteration made in the existing machinery/equipment/retrofit equipment for energy conservation.",
+  "_criteria_filled": 1
+}

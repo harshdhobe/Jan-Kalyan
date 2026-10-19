@@ -1,0 +1,29 @@
+{
+  "id": "financial-assistance-to-former-sports-person-of-up",
+  "name": "Financial Assistance to Former Sports Person of UP",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "The following financial assistance will be provided under the scheme:\n\n  - State-level sports persons who have represented the official team of the state: **₹2,000/- per month**  - National level sports persons who have represented the official national team: **₹3,000/- per month**  - International level sports persons who were members of the official national team and represented the country in t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identify-proof-proof-of-age-ie-birth-certificate-income-certificate-domicile-cer",
+    "if-applicable-details-of-sports-competitionchampionships-of-state",
+    "national-international-importance-covered-by-the-applicant-including-profiles-of",
+    "as-required"
+  ],
+  "apply_url": "https://upsports.gov.in/site/writereaddata/siteContent/department/201608101230027577sports_2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafspup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The sportsperson should be a domicile of Uttar Pradesh.\n   1. The sports persons who are old, weak, or facing hardships and whose monthly income from all sources is not more than ₹10,000/- are eligible to apply under the scheme.",
+  "_criteria_filled": 1
+}

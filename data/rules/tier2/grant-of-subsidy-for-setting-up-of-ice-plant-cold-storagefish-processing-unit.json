@@ -1,0 +1,40 @@
+{
+  "id": "grant-of-subsidy-for-setting-up-of-ice-plant-cold-storagefish-processing-unit",
+  "name": "Grant of Subsidy For Setting up of Ice-Plant /Cold Storage/Fish Processing Unit",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 10% subsidy, subject to a maximum of ₹3,00,000 per unit, for the establishment of Ice Plant-cum-Cold Storage.\n- 10% subsidy, subject to a maximum of ₹10,00,000 per unit, for the establishment of a Processing Unit.\n- Grant-in-aid for construction and maintenance of fishing harbor, fish landing center, fish landing jetty, fish drying platform, fish curing yard, work sheds, cyclone shelters, commun",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-declarationaffidavit-that-the-applicant-has-not-availed-any-benefit",
+    "department-of-science-and-technology",
+    "inspector-of-factories-and-boilers",
+    "agriculture-department",
+    "etc"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/subsidies-application007.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsis-icfsfpu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Private Sector/Fishermen/Fisherwomen Cooperative Societies/Fishermen /Entrepreneurs.\n- The applicant should be between 18 to 50 years old.\n- The applicant should not have availed any benefit of loan/subsidy from any other source for the intended purpose.",
+  "_criteria_filled": 3
+}

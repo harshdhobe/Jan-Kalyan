@@ -1,0 +1,26 @@
+{
+  "id": "scheduled-castes-unsalaried-credit-co-operative-society-and-credit-and-supply-co",
+  "name": "Scheduled Castes Unsalaried Credit Co-operative Society and Credit and Supply Co-operative Scheme for Providing Managerial Assistance and Computer–Furniture to the Society",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Managerial Assistance:** A maximum of ₹8,000/- per month is provided for an employee&#39;s salary, totaling Rs. 0.96 lakh per society on an annual basis.- **Computer and Furniture Assistance:** A maximum of Rs. 0.62 lakh per society is provided for the purchase of computers and furniture.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-under-the-co-operative-act-proof-of-scheduled-caste"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/scuccocsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The society must be registered under the Co-operative Act.\n  - The society must be a Scheduled Caste Savings and Credit Co-operative Society.\n  - The society should be formed exclusively by members belonging to the Scheduled Castes.\n  - The applicant society must be registered within the last three financial years prior to the application year.\n\n<br>",
+  "_criteria_filled": 1
+}

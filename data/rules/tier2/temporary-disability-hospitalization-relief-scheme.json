@@ -1,0 +1,26 @@
+{
+  "id": "temporary-disability-hospitalization-relief-scheme",
+  "name": "Temporary Disability (Hospitalization) Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial Assistance of ₹3,000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-worker-medical-certificate-indicating-the-nature-of-the-disa"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.O.4,Hospitalization.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tdhrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker should be registered under the Andhra Pradesh Building and Other Construction Workers Welfare Board. \n1. The worker should have a temporary disability due to an accident/disease.",
+  "_criteria_filled": 1
+}

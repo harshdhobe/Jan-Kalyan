@@ -1,0 +1,44 @@
+{
+  "id": "meghalaya-adventure-tourism-scheme",
+  "name": "Meghalaya Adventure Tourism Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. 75% of total equipment cost supported (5% by entrepreneur, 75% as front-ended subsidy by Government of Meghalaya)\n1. Credit linkage through partnered banks (Meghalaya Rural Bank, MCAB, SBI, Shillong Co-operative Urban Bank)\n1. Loan of up to 20% of project cost, repayable over a 2-year term, with a 6-month moratorium\n1. Financial support for eco-friendly infrastructure (e.g., eco-campsites, bio-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-proof-of-identity-voter-id-passport-driving-license-pan-card-of-appl",
+    "must-specify-lease-period-noc-from-traditional-bodies-forest-department-if-appli",
+    "photos",
+    "testimonials",
+    "previous-registrations-if-applicable-self-attested-statement-on-land-availabilit",
+    "testimonials",
+    "annual-reports",
+    "etc-identity-proofs-aadhaar",
+    "pan-of-key-promoters-office-bearers-authorized-representatives-resolution-from-g"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19LRcugeBsfqEU30zvxP7pzLCc7%2Fe7lnmQc2IJQV3aZTbKXBeOUeLFn4aHeo%20lN22Rx8HyBO0Zzub8VIezdJVoiI1KrNvCQl6sC1%2FbmsuZ5WAXrC%2F2eFtojhlui8Htufrhu5XA8hXpDDeJ4Tjlig8wduP%209fNceSDybFF8TPsAJ3HuwhdKrxixE5bVazvF2W5xVoAgibgX45qmFI5ACmLTmLe9yK86Y8XwADcuETYDdJySPlcdTIiEn=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mats",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Individuals:**\n\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must be a permanent resident of Meghalaya.\n1. The applicant must be involved in the tourism sector, specifically in adventure tourism (e.g., 4x4 vehicles).\n1. The applicant must provide a valid government-issued ID with address (Aadhaar Card, Voter ID, Passport, or Driving License).\n1. The applicant shall not be a credit defaulter with any bank.\n1. The applicant must have experience as a commercial driver if applying for the 4x4 category.\n\n**For Registered and Unregistered**\n\n1. The entity must provide an Incorporation Certificate or a valid Registration Certificate, as applicable.\n1. The entity must be based in Meghalaya and actively engaged in the tourism sector.\n1. The entity must have an active bank account and submit the last six months’ bank statement.\n1. The key office bearers (President/Secretary) must provide valid government ID proof with address (Aadhaar, Voter ID, Passport, or Driving License).\n1. The entity shall not be a credit defaulter with any bank or financial institution.\n1. The entity must hold land ownership or have a lease for the project site, certified by competent authorities.\n\n<br>",
+  "_criteria_filled": 3
+}

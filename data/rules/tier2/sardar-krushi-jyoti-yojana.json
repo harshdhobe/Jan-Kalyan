@@ -1,0 +1,26 @@
+{
+  "id": "sardar-krushi-jyoti-yojana",
+  "name": "Sardar Krushi Jyoti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Replacement of old and dilapidated agricultural feeder wires and conductors.\n- Improvement in quality of electricity supply to farmers.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "allotment-order-of-land-readymade-house-received-under-any-poverty-housing-schem"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/skjy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer. \n1. The applicant should be a resident of Gujarat.\n1. The applicant should be connected to agricultural electricity feeders.\n\n<br>",
+  "_criteria_filled": 1
+}

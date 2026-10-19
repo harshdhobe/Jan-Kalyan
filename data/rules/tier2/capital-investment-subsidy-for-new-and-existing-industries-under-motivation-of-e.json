@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-for-new-and-existing-industries-under-motivation-of-e",
+  "name": "\"Capital Investment Subsidy (for New and Existing Industries)\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- For Micro and Small Enterprises, a 40% subsidy on the investments made on land, building, plant and machinery, subject to a maximum of ₹40,00,000/-.\n- For Medium and Large Enterprises, a 35% subsidy on the investments made on land, building, plant and machinery, subject to a maximum of ₹35,00,000/-.\n- For Women/SC/ST Entrepreneurs, a 45% subsidy on the investments made on land, building, plant a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production",
+    "employment-and-other-information-every-year-and-from-time-to-time-as-sought-by-t"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cis-mesifa-cii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme applies to the Micro, Small, Medium and Large Enterprises, and to the Women/SC/ST Entrepreneurs.\n- In the case of the SC/ST/Women category, the investments in respect of industrial units fully owned by the respective category and women entrepreneurs will alone be considered.\n- In the case of partnership and private limited companies, all the partners, shareholders and Board of Directors shall belong to the respective category as the case may be.\n- The Unit should have made the investment on or after 1st April 2017.\n- The unit should provide at least 60% of employment to the people of the Union territory of Puducherry of the total employment strength of the industrial units. This 60% of the local employment will have to be maintained by the industrial unit during the period specified in the Affidavit.\n- The industrial unit shall not transfer or dispose of the fixed asset including plant and machinery in any manner till the completion of 5 years from the date of submitting the application/disbursement of the subsidy whichever is later.\n- The additional investments made by the new/existing industrial units after availing the first claim are also eligible for subsidy up to the ceiling limit.\n\n*The date of commencement, as admitted by the entrepreneurs, shall be reckoned after due verification by the officials of the Industries Department.\n*The units which have commenced commercial production on or after 1-4-2017 are considered new industries.\n*The units which have commenced production before 1-4-2017 are considered as existing units.\n> **Special Cases**\n\nIf, two or more industrial undertakings are set up by the same person as proprietor, common partners, common Board of Directors/shareholders, such units are eligible for subsidy as separate entity provided the location of the unit are different and licenses /clearances/ registrations are obtained separately for the enterprises.",
+  "_criteria_filled": 1
+}

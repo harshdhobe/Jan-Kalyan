@@ -1,0 +1,36 @@
+{
+  "id": "pension-scheme-for-craftsmen",
+  "name": "Pension Scheme for Craftsmen",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, craftsmen aged 60 years or above who are already receiving an old age pension are provided with an additional incentive of ₹400/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-passbook-copy-proof-of-receiving-old-age-pensi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be an artisan/craftsman aged 60 years or above.\n   1. The applicant must be already receiving an old age pension from the government.\n   1. The applicant must belong to a Below Poverty Line (BPL) family.\n   1. If the son or grandson of the artisan is 20 years of age or above and the family still lives below the poverty line, the applicant remains eligible.\n   1. The applicant must be engaged in traditional handicrafts such as stone, wood, iron, lamp, ringal, bamboo, and product development from natural fibres, or in any other crafts approved by the government from time to time.\n\n<br>",
+  "_criteria_filled": 3
+}

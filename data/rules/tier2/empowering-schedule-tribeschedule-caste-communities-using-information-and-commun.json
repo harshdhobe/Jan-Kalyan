@@ -1,0 +1,27 @@
+{
+  "id": "empowering-schedule-tribeschedule-caste-communities-using-information-and-commun",
+  "name": "Empowering Schedule Tribe/Schedule Caste Communities Using Information And Communication Technology Tools",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- **Free Information Technology Related Trainings:** The scheme provides Information Technology related trainings to the Schedule Tribe and Schedule Caste beneficiaries free of cost.- **Training Content:** The trainings cover basic computer skills, various job oriented Information Technology training courses, and structural training programmes depending on the needs of the community.- **Implementi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-passport-size-photograph-with-signature-of-the-applicant-self-attested-c",
+    "issued-by-the-deputy-collector-in-case-the-applicant-is-belonging-to-schedule-tr"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2223/2223-22-SI-OG-0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/estsccictt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be of Goan Origin.\n- The applicant must belong to the Schedule Tribe/Schedule Caste Community.\n- The applicant must apply for courses offered under the Information Technology Knowledge Centers and available at the Information Technology training centers empanelled by M/s Info Tech Corporation of Goa Limited (ITG).\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rajya-dairy-udhyamita-vikas-yojna",
+  "name": "Rajya Dairy Udhyamita Vikas Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "**Dairy Unit Grant Details**\n**1. Financial Assistance for Dairy Units**\n\n- **Eligible Animals:** Indian dairy breeds (Sahiwal, Red Sindhi, Gir, Tharparkar, etc.), advanced crossbreed cows, and high-breed buffaloes.- **Maximum Limit:** Financial support for up to two milch animals.- **Total Finance Cost:** ₹1,40,000/- (₹70,000/- per animal, including three years of insurance).\n**2. Subsidy Details",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-chhattisgarh-domicile-certificate-caste-certificate-address-verifi"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/ahd/PDF_common/BeneficiaryForm/RDUVY_2019_Application_Form_204.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rduvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh for at least five years.\n1. The applicant should be purchase a maximum of two milch animals under the scheme.\n1. The applicant should be entitled to 50% subsidy (up to ₹70,000/-) for general category and 66.6% subsidy (up to ₹93,200/-) for SC/ST category.\n1. The applicant should be responsible for any additional costs beyond the scheme’s provisions, with no subsidy provided for the excess amount.\n1. The applicant should ensure that the purchased animal is in milk production, not older than five years, and capable of producing at least 10 liters of milk per day at the time of purchase.\n1. The applicant should have the animal insured for a minimum period of three years (total five years recommended) at the time of unit setup.\n1. The applicant should be a landless, small or marginal farmer, BPL family member, milk co-operative society member, village resident on a milk collection route, Garva Yojana beneficiary, women SHG member, or an existing dairy farmer, as they will receive priority.\n1. The applicant should be the only eligible beneficiary from a joint family.\n1. The applicant should not own at least two high-breed dairy animals at the time of applying for the scheme.",
+  "_criteria_filled": 1
+}

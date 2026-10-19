@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-krishak-mitra-yojana",
+  "name": "Mukhyamantri Krishak Mitra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Cost Sharing Support:** Only 50% of the infrastructure development cost will be borne by the concerned farmer or group of farmers.\n\n- **Government Grant:** 40% of the cost will be provided directly by the State Government to the power distribution company as a grant.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "self-photo-maximum-upload-size-is-3-mb-aadhaar-card-maximum-upload-size-is-3-mb"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=966",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a landholding farmer/group-farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

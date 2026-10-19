@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-awas-yojna-hpbocwwb",
+  "name": "Mukhyamantri Awas Yojna (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Amount of ₹1,50,000/- (One Lakh Fifty Thousand) will be provided",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-residence-bank-account-detailscopy-of-bank-passbook-age"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/pdf/Kalyanikariyojana2021_Ab1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mayhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Himachal Pradesh\n1. The applicant should be a Building/ Construction Worker..\n1. The applicant should be aged between 18 and 60 years.\n1. The worker should have completed at least 90 days of building and other construction work in the last 12 months.\n1. The registration of the applicant should have been renewed annually.\n\n<br>\n\n**Eligibility Criteria for Scheme:**\n\n1. The applicant should be engaged in building or construction work under the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB).\n1. The applicant should be registered with the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB).\n1. The applicant’s membership with the Himachal Pradesh Building and Other Construction Workers Welfare Board must be active at the time of application.",
+  "_criteria_filled": 3
+}

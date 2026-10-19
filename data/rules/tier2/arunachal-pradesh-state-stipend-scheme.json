@@ -1,0 +1,26 @@
+{
+  "id": "arunachal-pradesh-state-stipend-scheme",
+  "name": "Arunachal Pradesh State Stipend Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "**Tangible Benefits:**\n\n- Monthly Stipend for the duration of the course (except vacation periods).\n- Initial Book Grant for the first year.\n- Subsequent Book Grant for the following years.\n\n**Mode of Disbursement:**\n\n- For students within Arunachal Pradesh: Disbursed by the Head of Institution.\n- For students outside Arunachal Pradesh: Disbursed via Demand Draft by the Sanctioning Authority to He",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-attested-copy-of-caste-certificate-attested-copy-of-markshee"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/ArunachalPradeshStipendSchemeGuideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasstsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to a scheduled tribe (ST) of Arunachal Pradesh, as notified by the central or state government.\n1. The applicant must be a permanent resident of Arunachal Pradesh.\n1. The applicant must not be in full-time employment.\n1. The applicant should be pursuing a higher and technical education. \n1. The applicant who has failed in the same class previously and was then re-admitted to a different course or stream at the same level of study is not eligible. \n1. The applicant must not be under any disciplinary action.\n1. The applicant must maintain at least 75% attendance each month. \n1. The applicant enrolled in correspondence or distance education programs is not eligible for the stipend.\n1. The applicant must be enrolled in an institution recognized by the State or Central regulatory bodies, such as UGC, AICTE, MCI, DCI, BCI, CCH, etc. \n\n**NOTE:**\n\n- If a girl student fails in a class, she may be allowed to receive the stipend once more for the same class, in the following year, with a specific recommendation from the Head of the Institution.",
+  "_criteria_filled": 1
+}

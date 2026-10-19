@@ -1,0 +1,35 @@
+{
+  "id": "yashwantrao-chavan-mukta-vasahat-yojana-for-vjnts",
+  "name": "Yashwantrao Chavan Mukta Vasahat Yojana for VJNTs",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- Each family is provided with a plot of land measuring 5 gunthas (approximately 500 square meters or about 5,382 square feet).\n- This plot of land will include the construction of a 269-square-foot home, forming a cluster of 20 families.\n- The project will also cover the essential amenities, including shelter, internal roads, drainage, water supply, electricity, and a community hall (Samaj Mandir",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "voter-card",
+    "etc-passport-size-photograph-vjnt-category-certificate-domicile-certificate-addr",
+    "issued-by-an-authorized-government-officer-a-declaration",
+    "stating-that-the-family-is-landless"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/social-remedies",
+  "source_url": "https://www.myscheme.gov.in/schemes/ycmvyfvjnts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The family of the applicant should be residing in Maharashtra.\n1. The family of the applicant should belong to the original VJNT (Vimukta Jati and Nomadic Tribes) category.\n1. The family of the applicant should not be having their own house.\n1. The family of the applicant should be residing in a tent house or hut.\n1. The family of the applicant should be landless.\n1. The family of the applicant should be residing in one place for at least six months and, for the remaining months, should be wandering from village to village for livelihood.\n1. The annual income of the family of the applicant should be less than ₹1,00,000/-.\n1. The family of the applicant should not have availed of the benefits of any other housing scheme such as Gharkul etc. \n1. The benefit of this scheme will be given to one member only of the eligible family.\n\n_*Priority shall be given to families living in tents, with no earning hand widows, divorcees, handicapped and flood-affected persons._",
+  "_criteria_filled": 2
+}

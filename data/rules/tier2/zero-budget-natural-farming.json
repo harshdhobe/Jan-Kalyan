@@ -1,0 +1,26 @@
+{
+  "id": "zero-budget-natural-farming",
+  "name": "Zero Budget Natural Farming",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. A subsidy of 50% provides to farmers to buy the farming items.\n   1. A large drum of 200 litres, a small drum of 50 litres capacity, a bucket of 20 litres capacity, a Jug, filter, water spray, sprayer, Trichoderma, cow-urine, dung, etc. Material and organic mulch material like leaves of trees, weed bedding, leaves of millet-sorghum, etc., groundnut peels, and in the field for moisture conservat",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-passbook-land-proof"
+  ],
+  "apply_url": "https://jankalyan.rajasthan.gov.in/#/scheme/detail/440",
+  "source_url": "https://www.myscheme.gov.in/schemes/zbnf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Interested farmers should be selected for the scheme who have a special interest in natural farming. Every farmer must have a minimum of one-acre land ownership or family account holder.\n1. Interested farmers may be from the same village, neighboring villages, or different villages as far as possible. \n1. Interested farmers will be selected by the Regional Assistant Agriculture Officer / Agriculture Supervisor.\n1. Horticulture crops and animal husbandry should also be included in natural farming.\n1. For the selection of farmers, priority should be given to SC, ST, BPL, small and marginal farmers as much as possible. Youths up to 35 years should be included for natural farming so that their capacity can increase.\n1. Necessary material like drum, bucket, jug etc. will be given on grant to the concerned farmer for setting up the input unit for natural farming. \n1. Farmers selected under Paramparagat Krishi Vikas Yojana should not be included in this scheme.",
+  "_criteria_filled": 1
+}

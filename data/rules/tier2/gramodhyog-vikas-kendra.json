@@ -1,0 +1,26 @@
+{
+  "id": "gramodhyog-vikas-kendra",
+  "name": "Gramodhyog Vikas Kendra",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Building Infrastructure:** ₹10,00,000/- for Common Facility Center construction including office, godown, work-shed, and electric connection.\n**Assistance in Training and Design:** ₹70,000/- for capacity building and design development.\n**Administrative Assistance:** ₹40,000/- for administrative support.\n**Toolkit Assistance:** ₹1,20,000/- for providing necessary tools and equipment.\n**Revolving",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "society-registration-certificate-for-non-governmental-organizations-cooperative"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=8",
+  "source_url": "https://www.myscheme.gov.in/schemes/gvk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be one of the following:\n\na)  A Non-Governmental Organization registered under the Society Registration Act.\nb)  A cooperative society registered under relevant cooperative legislation.\nc)  A registered trust under applicable trust laws.\n\n- The applicant must have 2 to 3 years of working experience in the relevant field.\n- The applicant must have their own land of 1000 to 1200 square feet area.\n- The applicant must ensure the land is Non-Agricultural in nature.\n- The applicant must be able to manage a suitable site, building, raw materials, technical/administrative staff marketing.\n- The applicant must be efficient in providing employment to at least 25 artisans under the activities of the village.\n\n<br>",
+  "_criteria_filled": 1
+}

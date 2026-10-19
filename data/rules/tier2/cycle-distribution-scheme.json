@@ -1,0 +1,31 @@
+{
+  "id": "cycle-distribution-scheme",
+  "name": "Cycle Distribution Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Under this scheme, a cash amount equal to the cost of the cycle credited directly to the bank account of the applicant.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=813",
+  "source_url": "https://www.myscheme.gov.in/schemes/cds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n   1. The girl student should be a native of Madhya Pradesh.\n   1. The girl student should be studying in Class 11.\n   1. The girl student should belong to the Scheduled Tribe category.\n   1. The girl student who did not receive a cycle in Class 9 is eligible under the scheme.\n   1. The girl student should travel more than 2 km to reach her school.\n   1. There is no restriction on the annual family income of the student.",
+  "_criteria_filled": 2
+}

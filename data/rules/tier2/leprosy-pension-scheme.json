@@ -1,0 +1,41 @@
+{
+  "id": "leprosy-pension-scheme",
+  "name": "Leprosy Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "The rate of grant per beneficiary per month will be Rs. 3000/- who became disabled due to Leprosy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 56460
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-colour-photograph-date-of-birthage-certificate-disability-certific"
+  ],
+  "apply_url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension",
+  "source_url": "https://www.myscheme.gov.in/schemes/lpsup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. It is necessary to be a permanent resident of Uttar Pradesh.\n1. Disabled due to leprosy (with any percentage of disability).\n1. Persons with disabilities due to leprosy may belong to any age group.\n1. Must be below the poverty and should be under Rs. 56,460/- per annum for urban and Rs. 46,080/- per annum for rural areas. \n1. Are not taking advantage of other pension schemes.",
+  "_criteria_filled": 4
+}

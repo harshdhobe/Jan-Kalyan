@@ -1,0 +1,26 @@
+{
+  "id": "lab-on-wheels",
+  "name": "Lab on Wheels",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The Lab on Wheels program has been launched to popularize science in rural areas of Uttarakhand and promote science education in schools. It provides students from all districts, including remote areas, with the opportunity to explore and learn the practical applications of science.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-must-be-submitted-in-accordance-with-the-guidelines-of-the-respective"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of one of the 13 districts of Uttarakhand.\n1. The applicant must be a student or youth studying science subject in a government or non-government school.\n\n<br>",
+  "_criteria_filled": 1
+}

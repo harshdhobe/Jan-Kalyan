@@ -1,0 +1,36 @@
+{
+  "id": "natural-death-benefit-scheme-pbaocwwb",
+  "name": "Natural Death Benefit Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance: ₹70,000/-.\nTime of Disbursal: Within 1 month of the application.\nMode of Disbursal: Direct Benefit Transfer (DBT) into the bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "beneficiary-identity-card-last-subscription-renewal-copy-death-certificate-proof"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ndbs-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the nominee/dependent of the deceased Construction Worker.\n- The Construction Worker should have been a citizen of India.\n- The deceased, in his/her lifetime, should have been registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The deceased, in his/her lifetime, should have completed the age of 18 years.\n- The deceased, in his/her lifetime, should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The deceased, in his/her lifetime, should have contributed regularly to the fund.\n- The deceased, in his/her lifetime, should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.",
+  "_criteria_filled": 3
+}

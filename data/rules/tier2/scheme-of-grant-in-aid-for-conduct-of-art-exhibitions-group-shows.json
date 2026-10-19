@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-grant-in-aid-for-conduct-of-art-exhibitions-group-shows",
+  "name": "Scheme of Grant-In-Aid for Conduct of Art Exhibitions: Group Shows",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-of-the-artists-passport-sized-photographs-of-the-artists-photographs-of"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sogiafcoae-gs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a group of artists.\n\n1. The artists should be natives of Tamil Nadu by continuous residence for not less than 5 years.\n1. The artists should have continuous involvement in their field of painting and sculpture.\n1. The artists should possess an adequate number of artworks for the conduct of their show.\n1. Participation in National or State level Art Exhibitions and Artists Camps will be considered as an additional qualification.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-providing-golden-jubilee-one-time-grant-in-aid-in-memory-of-blessed-m",
+  "name": "Scheme for Providing (Golden Jubilee) One Time Grant-In-Aid in Memory of Blessed Mother Tereza",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. An amount of **₹ 25,00,000** shall be sanctioned as a time grant to the selected institutions/NGOs as per clause (A).1. The quantum of financial assistance to the eligible institutions under clauses (B) &amp; (C) shall be as per the recommendation of the selection committee and the approval of the government.\n1. Enhanced grants as per clause (C) shall be considered on a case-to-case basis. Howe",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-with-the-state-government-registration-authorities-proof-o",
+    "sick",
+    "underprivileged-children-etc-details-of-infrastructure-facilities-of-spacious-ac",
+    "toilet",
+    "kitchen",
+    "etc-a-copy-of-the-constitutionbylaws"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spgjotgiambmt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**List of Eligible Institutions/NGOs**\n<br>\n\n> **Clause (A)**\n\n1.\tSnehamandir, Ponda\n2.\tLokvishwas Pratishthan, Ponda\n3.\tSanjeevan, Ponda\n4.\tMatruchhaya, Ponda\n5.\tKasturba Matoshri Trust, Panaji\n6.\tChildren’s Rights in Goa, Panaji\n7.\tSangat, Panaji\n8.\tJan Ugahi, Margao\n9.\tPositive People, Panaji\n10.\tSethu, Panaji\n11.\tDisha Charitable Trust, Panaji\n12.\tMother Teresa Sisters’, Panaji\n13.\tGujarati Samaj Educational Trust for Handicapped, Margao\n14.\tCaritas, St Francis Xavier’s Academy, Old Goa\n15.\tDaddy’s Home, Margao\n16.\tAsha Deep, Vasco\n17.\tArz, Vasco\n18.\tChetana Charitable Trust, Curchorem\n19.\tNavjot Rehabilitation, Thivim\n20.\tShanti Avedna Ashram, Loutolim\n21.\tNitya Seva Niketan, Rivona\n22.\tKeshav Seva Sadhana’s Narayan Zantye School for special children\n23.\tCaritas Asro, Thivim\n24.\tJyot Society, Margao\n25.\tMother Mary Heaven, Calangute\n26.\tDivine Providence, Benaulim\n27.\tIndian Red Cross Society, Panaji\n28.\tLar Santa Margarita, Diwar\n29.\tLar de Santa Teresa, Margao\n<br>\n\n> **Clause (B)**\n\nOther Institutions/NGOs not covered in the list above shall be eligible for the grant subject to the following conditions:\n1.\tThe Institution/NGOs shall submit applications for the grants under the scheme in the prescribed proforma.\n2.\tThe Institution/NGOs should be registered with the state government registration authorities.\n3.\tThe Institution/NGOs should be in existence for a minimum period of 05 years. \n4.\tShould have been providing humanitarian service to a minimum of 25 inmates (Old, sick, underprivileged children etc.) for the last 5 years. \n5.\tThe Institution/NGOs should have infrastructure facilities of spacious accommodation of a minimum area of 50 sq. mts. with proper ventilation, toilet, kitchen etc.\n6.\tThe Institution/NGOs should furnish a copy of the constitution/bye laws of the institution.\n<br>\n\n> **Clause (C)**\n\nThe aforementioned Institutions/NGOs are eligible for enhanced grants considered on specific proposals on case to case basis subject to the following conditions:\n1.\tThe Institutions/NGOs shall submit a specific proposal for sanction of additional grants supported by proper documentation. \n2.\tThe proposal shall be restricted to the area of their operations as per the approved constitution/bye laws of the institution. \n3.\tThe proposals shall be specifically towards activities related to the upliftment of underprivileged children, sick, aged, disabled, destitute etc.\n4.\tThe total grants under the scheme shall however be not more than ₹ 1,00,00,000.",
+  "_criteria_filled": 1
+}

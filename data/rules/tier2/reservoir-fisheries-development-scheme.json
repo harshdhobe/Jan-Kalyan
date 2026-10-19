@@ -1,0 +1,26 @@
+{
+  "id": "reservoir-fisheries-development-scheme",
+  "name": "Reservoir Fisheries Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Supply of 530 lakh fish fingerlings annually to various reservoirs.\n- Subsidy of ₹1,000/- or 50% of the cost per member for fishing nets (whichever is lower).\n- Provision of ₹10,000/- or 50% of the cost for one boat per cooperative society (whichever is lower).\n- Encouragement for cage culture in water bodies.\n- Enhanced fish production in 1,06,000 hectares of water bodies.\n- Livelihood support ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "cooperative-society-registration-certificate-membership-proof-of-the-applicant-w"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D001DO003SD00311092019123014399",
+  "source_url": "https://www.myscheme.gov.in/schemes/rfds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a member of a registered fisheries cooperative society.\n1. The cooperative society should be actively involved in fisheries activities.\n1. The water body must be a stable water resource such as a reservoir, check dam, coal pit, or similar areas affected by mining.\n1. The water body should have a minimum size to qualify for stocking and development.",
+  "_criteria_filled": 1
+}

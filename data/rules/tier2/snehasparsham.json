@@ -1,0 +1,38 @@
+{
+  "id": "snehasparsham",
+  "name": "Snehasparsham",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "- Under the scheme, financial assistance of ₹1000/- per month will be given to unwed mothers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-aadhaar-cardconfirmation-slip-received-after-aadhaar-card-regis",
+    "if-required-note-life-certificate-to-be-submitted-every-year-in-the-month-of-jun",
+    "kerala-social-security-mission-to-continue-the-scheme-benefits"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/vmcatalogue/notifications/b3713dd7b121ac75d6623a48aa756211.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/s-kerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n   1. The applicant should be an unwed mother.\n   1. The applicant should be under 65 years.\n   1. The applicant should not be a recipient of any other pension schemes of the government. \n\n**Note:** The applicant must be an account holder in a post office.",
+  "_criteria_filled": 3
+}

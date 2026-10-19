@@ -1,0 +1,33 @@
+{
+  "id": "higher-educational-finance-assistance-scheme-pbaocwwb",
+  "name": "Higher Educational Finance Assistance Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Qualification: M.B.B.S / B.D.S (CENTAC); Benefit: ₹ 1,00,000/- (One Time Payment).\n- Qualification: B.E. / B.Tech. (CENTAC); Benefit: ₹ 50,000/- (One Time Payment).\n- Qualification: Diploma in Engineering; Benefit: ₹ 20,000/- (One Time Payment).\n- Qualification: UG; Benefit: ₹ 2,000/- per annum.\n- Qualification: PG; Benefit: ₹ 4,000/- per annum.\n- Qualification: Diploma; Benefit: ₹ 2,000/- per a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "for-mbbs-bds-centac",
+    "and-be-btech-centaclast-subscription-bill-board-id-card-aadhaar-card-ration-card",
+    "pg",
+    "diploma",
+    "diploma-in-engineering-and-pg-diploma1-last-subscription-bill-2-board-id-card-3",
+    "ms-orthopaedics-related",
+    "md-clinical-pharmacology-related",
+    "and-mtechme-courses1-last-subscription-bill-2-board-id-card-3-aadhaar-card-4-rat"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hefas-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a Student.\n- The applicant should be a ward of a Construction Worker.\n- The Construction Worker should be registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The applicant should have secured admission into a higher education program through CENTAC, Puducherry.",
+  "_criteria_filled": 1
+}

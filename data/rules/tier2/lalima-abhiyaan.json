@@ -1,0 +1,26 @@
+{
+  "id": "lalima-abhiyaan",
+  "name": "Lalima Abhiyaan",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. **Anemia Prevention:** Free iron folic acid tablets are provided to combat anemia among children, adolescent girls, and women.1. **Improved Nutrition:** Awareness campaigns promote healthy diets and better nutrition practices, especially for adolescent girls and mothers.1. **Collaborative Approach:** The campaign is supported by multiple departments, including Public Health, AYUSH, and School E",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-age-proof-of-pregnancy-or-lactation-for-pregnant-or-l"
+  ],
+  "apply_url": "https://khargone.nic.in/en/scheme/lalima-abhiyan/",
+  "source_url": "https://www.myscheme.gov.in/schemes/la",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be one of the following - \n\n- School-going girl.\n- Adolescent Girl.\n- Pregnant Woman.\n- Lactating Woman.\n- Child in the age group of 6 months to 10 years.\n- Woman of reproductive age group (19 to 49 years).",
+  "_criteria_filled": 1
+}

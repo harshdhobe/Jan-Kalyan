@@ -1,0 +1,26 @@
+{
+  "id": "samagr-samajik-suraksha-pension-yojana",
+  "name": "Samagr Samajik Suraksha Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Pension amount: Rs. 600/- per momth.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "two-photos-bpl-card-or-destitutepoor-certificate-age-proof-certificate-disabilit"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Destitute-aged people above 60 years. (or)\n1. Widow (Kalyani) should be above 18 years of age and should not be an income taxpayer. (or)\n1. Unmarried women who are above 50 years of age and not an income taxpayer. (or)\n1. Abandoned women, who are 18 years to 59 years of age and living below the poverty line. (or)\n1. Diable persons who are above 6 to 18 years of age whose disability is 40% or more and not income taxpayers. (or)\n1. All inmates living in old age homes whose age is more than 60 years.",
+  "_criteria_filled": 1
+}

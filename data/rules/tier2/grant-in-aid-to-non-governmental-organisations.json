@@ -1,0 +1,26 @@
+{
+  "id": "grant-in-aid-to-non-governmental-organisations",
+  "name": "Grant-in-aid to Non-governmental Organisations",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 90% of estimated maintenance cost.\n\n<br>\n\n**NOTE:** Contact the authorities below in case of delay in disbursal of benefits:\nPuducherry: The Director, Directorate of Social Welfare, Saradhambal Nagar, Ellaipillaichavadhy, Puducherry. \nKaraikal: The Collector, Karaikal.\nMahe/Yanam: The Regional Administrator, Mahe/Yanam.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificatelicense-moubye-law-audit-report-utilization-certificate"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/application-form-grant-registration-certificate-old-age-home.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/giango",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The NGO should have a sound financial position. \n1. The NGO should have facilities and resources for running the residential homes. \n1. The NGO should be non-sectarian offering services to its beneficiaries irrespective of religion, caste, colour or creed. \n1. The NGO should not be run for profit of any individual or a body of individuals. \n1. The NGO should be free from corrupt practices.",
+  "_criteria_filled": 1
+}

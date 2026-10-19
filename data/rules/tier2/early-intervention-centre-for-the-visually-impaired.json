@@ -1,0 +1,36 @@
+{
+  "id": "early-intervention-centre-for-the-visually-impaired",
+  "name": "Early Intervention Centre for the Visually Impaired",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Early Intervention Centre identified the visually impaired children to join main stream education.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate-any-other-docu"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eicftvi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary child should be visually impaired.\n1. The beneficiary child&#39;s age should be 6 years or below.",
+  "_criteria_filled": 3
+}

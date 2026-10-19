@@ -1,0 +1,33 @@
+{
+  "id": "special-incentive-to-obc-meritorious-students-boys-girls",
+  "name": "Special Incentive to OBC Meritorious Students (Boys & Girls)",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "A financial incentive of upto ₹ 10,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "recent-photograph-caste-certificate-valid-obc-certificate",
+    "inserting-sub-caste-parents-income-certificate",
+    "issued-by-the-circle-officer-hsslc-admit-card-hsslc-marksheet-hslc-marksheet-fro"
+  ],
+  "apply_url": "https://directorwsc.assam.gov.in/home.php/scheme-page/%E2%80%9Cspecial-incentive-obc-meritorious-students-boys-girls%E2%80%9D",
+  "source_url": "https://www.myscheme.gov.in/schemes/siomsbg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be currently enrolled as a student.\n- The applicant must belong to the Other Backward Class (OBC) community of Assam.\n- The applicant must have secured a minimum of 80% marks in the HSSLC examination held in 2025.\n- The annual income of the applicant&#39;s parents/guardians must not exceed ₹5,00,000/-.\n\n_*In instances where multiple applicants achieve an identical percentage in the HSSLC examination, preference will be given to those with a higher percentage in the HSLC examination._\n\n<br>",
+  "_criteria_filled": 2
+}

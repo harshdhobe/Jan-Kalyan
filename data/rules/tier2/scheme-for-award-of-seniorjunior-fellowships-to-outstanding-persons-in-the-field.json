@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-award-of-seniorjunior-fellowships-to-outstanding-persons-in-the-field",
+  "name": "Scheme For Award Of Senior/Junior Fellowships To Outstanding Persons In The Fields Of Culture",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "&gt; The number of fellowships will be up to 400 each year. These are of two types, namely, senior and junior fellowships. \n\n**Senior Fellowship:**\n\n- Number of fellowships: 200\n- Monthly amount: ₹20,000\n- Age group: Above 40 years\n\n**Junior Fellowship:**\n\n- Number of fellowships: 200\n- Monthly amount: ₹10,000\n- Age group: 25–40 years\n- Age is calculated as on 1st April of the given year\n\n**Publis",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-passport-size-photographs-proof-of-age-ie-birth-certificate-etc-d",
+    "a-copy-of-written-assurance-from-hisher-head-of-department-that-in-case-the-fell",
+    "the-candidate-would-be-granted-leave-for-the-duration-of-the-fellowship-an-under"
+  ],
+  "apply_url": "https://culture.gov.in/application-form-seniorjunior-fellowship-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasjfopfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant should be above 40 years for applying under senior fellowships.\n   1. The age of the applicant should be between 25-40 years for applying under junior fellowships.\n   1. Graduation is the minimum educational qualification for applicants in the fields/areas mentioned in the scheme guideline.\n   1. Applicants for senior fellowship should not be the recipient of pension from the Ministry of Culture under the scheme for grant of financial assistance to artists in indigent circumstances.\n   1. An applicant should not have availed of the same fellowship earlier. However, an applicant who had been awarded a Junior Fellowship can apply for a Senior Fellowship, provided 5 years have elapsed after the closure of the earlier project.\n\n**Note 01:** The age of the applicant will be reckoned as of 1st April of the year.\n**Note 02:** Under the Senior and Junior Fellowships, the awardees will submit a six-monthly progress report. In cases where such reports are not received timely, the Ministry may withhold further releases of the Fellowship amount.\n**Note 03:** The selected candidates will have to undertake academic or application-oriented research work on projects for which they have been awarded the Fellowship. They will complete their Projects within two years and submit the same to the Ministry. Extension of time by a maximum of three months will be permissible without any additional financial liability to the Government.\n**Note 04:** A mid-term review/assessment of performance in each case will be carried out after one year and further continuance of Fellowship will depend on such review/assessment.",
+  "_criteria_filled": 1
+}

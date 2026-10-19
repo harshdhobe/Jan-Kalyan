@@ -1,0 +1,41 @@
+{
+  "id": "miscarriage-benefit",
+  "name": "Miscarriage Benefit",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** ₹6,000/-.\n**Note:** The benefit shall be allowed for two times in beneficiarie&amp;#39;s whole life time.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerpassport-size-photographs-of-t"
+  ],
+  "apply_url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbbwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of West Bengal.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered female member or wife of a male member Under the Building and Other Construction Workers Welfare Board of West Bengal.\n  - The applicant should have gone through a miscarriage.",
+  "_criteria_filled": 4
+}

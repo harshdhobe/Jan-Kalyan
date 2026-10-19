@@ -1,0 +1,30 @@
+{
+  "id": "grant-of-quality-certification-reimbursement-of-charges",
+  "name": "Grant of Quality Certification Reimbursement of Charges",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Reimbursement of payments made to Consultancy and Certification Agencies towards acquiring Quality Certification, subject to a ceiling of ₹ 2,00,000/- for National Level Certification and ₹ 10,00,000/- for International Level Certification.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-udyog-aadhaar-memorandum-copy-of-udyam-certificate-2-certificate-of-re",
+    "ie",
+    "eb-meter-cardonline-statement-4-copy-of-invoices",
+    "cash-bills",
+    "and-stamped-receipts-5-copy-of-iso-9000iso-14001iso-22000haccpghpgmpzedinternati"
+  ],
+  "apply_url": "https://www.msmetamilnadu.tn.gov.in/q-cert.php#chart-line",
+  "source_url": "https://www.myscheme.gov.in/schemes/gqcrc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be an MSME in the state of Tamil Nadu.\n> **Components Eligible for Reimbursement Subsidy**\n\n- Payments made for consultancy and certification agencies.\n- Calibration and testing charges for certification from the NABL-accredited testing lab.",
+  "_criteria_filled": 1
+}

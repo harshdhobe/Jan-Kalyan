@@ -1,0 +1,60 @@
+{
+  "id": "sbssps",
+  "name": "Shravanbal Seva State Pension Scheme",
+  "tier": 1,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Monthly pension for destitute elderly (65+) with Maharashtra domicile.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "field": "domicile_years_maharashtra",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "is_destitute",
+        "op": "==",
+        "value": true
+      },
+      {
+        "any": [
+          {
+            "field": "household.bpl",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "household.income",
+            "op": "<=",
+            "value": 21000
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "photo",
+    "age_proof",
+    "income_or_bpl_certificate",
+    "domicile_certificate",
+    "bank_details"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/sbssps",
+    "apply": "https://sjsa.maharashtra.gov.in/"
+  },
+  "notes": ""
+}

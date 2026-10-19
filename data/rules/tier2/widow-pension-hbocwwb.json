@@ -1,0 +1,32 @@
+{
+  "id": "widow-pension-hbocwwb",
+  "name": "Widow Pension (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, ₹3,000/- per month is given as a widow pension to the widow of the registered construction worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-aadhaar-card",
+    "voter-card-2-passport-size-photograph-3-proof-of-residence-4-ration-card-5-bank"
+  ],
+  "apply_url": "https://hrylabour.gov.in/login/bocw",
+  "source_url": "https://www.myscheme.gov.in/schemes/wphbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow of a deceased construction worker.\n   1. The deceased worker should have been registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The deceased worker should have been a regular member of HBOCWWB for at least three years.\n   1. The widow should reside in Haryana.\n   1. The widow should not be employed by the Haryana Government, any board, corporation, or PSU.\n   1. The widow will not be eligible for the monthly pension if she remarries.\n   1. The widow should not be receiving a similar benefit from any other government entity, department, board, corporation, or PSU.",
+  "_criteria_filled": 2
+}

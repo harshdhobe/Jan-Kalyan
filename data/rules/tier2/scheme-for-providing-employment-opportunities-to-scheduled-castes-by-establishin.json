@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-providing-employment-opportunities-to-scheduled-castes-by-establishin",
+  "name": "Scheme for Providing Employment Opportunities to Scheduled Castes by Establishing Livestock Units under Mukhya Mantri Antyodaya Parivaar Utthan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance under the Scheme:**\n\n**Establishment of Dairy units of 2 milch animals:**\n\n  - 50% subsidy on the cost of milch animals which has been availed as a loan for the purchase of these milch animals by the beneficiary for the establishment of dairy units of 2 milch animals;\n\n**Establishment of 10+1 Piggery units:**\n\n  - 50% subsidy on the cost of livestock which has been avai",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-parivaar-pahchan-patra-ppp-id-2-copy-of-aadhaar-card-3-copy-of-pan-card-4-sche"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=oIuzbC18sVCDcxEXkDGeTw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/speoselummapuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 to 60 years of age and a resident of Haryana.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. The applicant must be unemployed.\n   1. There are no mandatory educational qualifications or training requirements.\n   1. The applicant should have a space/shed for keeping animals.\n   1. The applicant would have to submit a Self-Declaration for being unemployed and for undertaking to abide by other conditions as required under the Scheme.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,32 @@
+{
+  "id": "development-of-playfield-under-cmsguy",
+  "name": "Development Of Playfield Under CMSGUY",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Facilities Proposed to be Created:Improvement of the existing playfield with earth-filling, leveling with approved soil or as per requirement. \nTurfing with local suitable grass. \nDressing room for boys, girls, and officials with electricity and provision for adequate running water in the toilet. \nFixing of Football Goal Post of standard size (one pair) 24 feet x 8 feet made of GI Pipe of 4” to 5”",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-documents-in-support-of-the-mandatory-fields-of-the-application-fo",
+    "name-of-bank",
+    "name-of-branch",
+    "ifs-code",
+    "bank-balance-as-on-date-with-bank-certificate-land-holding-certificate-playfield",
+    "the-registration-certificate-under-the-societies-act",
+    "1860-photograph-of-the-playground-with-counter-signature-of-district-sports-offi"
+  ],
+  "apply_url": "https://dsyw.assam.gov.in/sites/default/files/swf_utility_folder/departments/dsyw_medhassu_in_oid_4/menu/document/Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dp-cmsguy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Schools, Colleges, Clubs, and other Sports Organizations have playgrounds measuring a minimum of 120m in length x 90m in breadth that will be considered for development. \n1. The Schools, Colleges, and Clubs having requisite suitable land in the area can apply in a prescribed format to take up the scheme for the up-gradation of their playgrounds.\n1. The earth filling should be done with sandy and loamy soil. \n1. The top surface of the playground should be made with sufficient sand filling and planting required grass.\n1. The compaction of the playfield should be made with a light roller not exceeding 2 tons.\n1. There must be sufficient space a minimum of 5m wide around the playfield for the movement of the players, officials, and spectators and for the construction of the dressing room.\n1. The available playfield should be owned by either the local School/College Authority, Sports Club, or Gaon Panchayat.\n1. Playing facilities should be made available to the Children, Youth, and Senior Citizens of the villages.",
+  "_criteria_filled": 1
+}

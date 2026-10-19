@@ -1,0 +1,28 @@
+{
+  "id": "ganesh-shankar-vidyaarthi-shramik-puraskar-rashi-yojana",
+  "name": "Ganesh Shankar Vidyaarthi Shramik Puraskar Rashi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "The scholarship amounts awarded to students based on their marks in High School/Intermediate/Graduation/Post Graduation (Arts, Science, Commerce, and Agriculture) exams:\n\n- 60% to 74.99% - ₹5,000/-\n- 75% or more - ₹7,500/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-photocopy-of-the-online-filled-application-form-related-to-the-scheme-r",
+    "science",
+    "commerce-and-agriculture-final-year-in-graduation-masters"
+  ],
+  "apply_url": "https://skpuplabour.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsvsps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a worker employed in a registered factory, commercial establishment, or shop in Uttar Pradesh.\n1. The applicant worker&#39;s monthly salary (basic pay + dearness allowance) should not exceed ₹15,000/-.\n1. The applicant&#39;s child must have passed 10th, 12th, undergraduate, or postgraduate exams.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "educational-allowances-to-the-children-of-widows",
+  "name": "Educational Allowances to the Children of Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial assistance ranging from ₹25 to ₹125 for the purchase of textbooks, notebooks, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-from-the-revenue-department-3-income-cert",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 3 years.\n- The applicant should be a widow.\n- The annual income of the applicant should not exceed ₹24,000.\n- The child of the applicant should be a Student.\n- The child of the applicant should have obtained not less than 50% marks in every class.",
+  "_criteria_filled": 3
+}

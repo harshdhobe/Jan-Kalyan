@@ -1,0 +1,31 @@
+{
+  "id": "kutirjyoti-yojana-gujarat",
+  "name": "Kutirjyoti Yojana Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Free electricity household connection is provided to BPL/lower income group beneficiary.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "allotment-order-of-land-readymade-house-received-under-any-poverty-housing-schem"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/kyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The applicant should be living in a tribal area of the state.\n1. The applicant’s family should belong to the Below Poverty Line (BPL) or lower-income group category.\n1. The applicant’s family annual income should not exceed ₹1,50,000/-.\n1. The applicant should own land or a house under a poverty housing scheme or through land allotment.\n\n<br>",
+  "_criteria_filled": 2
+}

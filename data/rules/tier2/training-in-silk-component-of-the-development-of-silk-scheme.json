@@ -1,0 +1,36 @@
+{
+  "id": "training-in-silk-component-of-the-development-of-silk-scheme",
+  "name": "\"Training in Silk\" Component of the \"Development of Silk\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **For Trainees**\n\n- Monthly stipend of ₹1500.\n\n> **For Master Trainer**\n\n- An honorarium of ₹500 per trainee per month (up to ₹5000).\n- A compensation of ₹500 per trainee per month for raw materials (up to ₹5000).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-residence-certificate-any-other-document-as-required-by-the-di"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/silk.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/ts-ds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The age of the applicant should be between 18 and 35 years.\n- The applicant should be literate.\n- The applicant should be a native of Puducherry or a continuous resident of Puducherry for three years.\n- The applicant should not have already been trained before through this scheme.",
+  "_criteria_filled": 3
+}

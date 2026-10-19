@@ -1,0 +1,26 @@
+{
+  "id": "cluster-development-scheme",
+  "name": "Cluster Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Types of Assistance Provided**\n\n- **Diagnostic Survey:** Assessment and analysis of cluster needs and potential.- **Design Development:** Support for product design and innovation.- **Training:** Skill development and capacity building programs for artisans.- **Common Facility Centre:** Establishment of shared infrastructure and facilities.- **Margin Money:** Financial assistance for working c",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stagecluster-formation-certificate-list-of-participating-artisans"
+  ],
+  "apply_url": "https://cottage.gujarat.gov.in/Home-242566262A74-214079-282472242566-3F2E72",
+  "source_url": "https://www.myscheme.gov.in/schemes/cds-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be part of a cluster with minimum 25 artisans or more who work and produce goods at one place.\n\n- The applicant must be engaged in handloom and handicraft sector activities.\n- The applicant must be working and producing goods at a common or designated location within Gujarat.\n\n- The applicant must be involved in artisan-based activities in handloom and handicraft sector.\n- The applicant must be classified as Micro or Small Enterprise.\n- The applicant must be willing to participate in collective cluster activities.\n\n<br>",
+  "_criteria_filled": 1
+}

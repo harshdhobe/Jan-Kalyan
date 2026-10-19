@@ -1,0 +1,34 @@
+{
+  "id": "chief-ministers-meghalaya-homestay-mission-scheme",
+  "name": "Chief Minister's Meghalaya Homestay Mission Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Up to 70% of the project cost supported\n1. Enhanced subsidy of up to 80% (₹8 lakhs) for Persons with Disability (PwD) applicants\n1. ₹50,000 grant per room (up to ₹2 lakhs) for upgradation of existing homestays\n1. Credit linkage through partner banks (Meghalaya Rural Bank and others notified)\n1. Collateral-free loans with 1-year moratorium: subsidy disbursed as EMI support over 24 months\n1. Desi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "development-of-new-homestay-required-documents-valid-photo-identity-proof-aadhaa",
+    "voter-id",
+    "passport",
+    "driving-license",
+    "or-pan-card-highest-educational-qualification-certificate-certificate-of-disabil",
+    "voter-id",
+    "passport",
+    "driving-license",
+    "or-pan-card-proof-of-registration-and-active-usage-of-meghalaya-m-time-portal-no"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%20DYka%2FfrlQbTYi2HLmITZYf6ZImK2P1nkjfGxefxWt7nSumFN0B0Odpp%20LJNRdOgM%2FW8a%20IVfzMAO7n5uyBFjGK3joAlc5%20%20khvbeMjQjglHGvWPCcQ7wF4aqEiOKORKNIVabAuH8coIQ%20QOXXAQCjZAurfnaA%2Fju87MN5DK1wpERDpVu3drDK4hKH1DCVfRMJCNJxwZniljjuAlcVbEKiSzownq5oBGcx7Bz8Wn56HXBkswK8%20e2O=",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmmhms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Development of New Homestays**\n\n1. The applicant must provide proof of land ownership or a registered lease agreement for a minimum period of 7 years.\n1. The applicant must select one homestay design from the 33 standard designs prepared by the Department of Tourism.\n\n**Upgradation of Existing Homestays**\n\n1. The applicant must provide proof of homestay operations for at least 6 months.\n1. The applicant must ensure that the guest register shows a minimum of 50 bed nights.\n\n<br>",
+  "_criteria_filled": 1
+}

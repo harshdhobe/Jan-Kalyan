@@ -1,0 +1,41 @@
+{
+  "id": "sikhligars-community-development-scheme",
+  "name": "Sikhligar’s Community Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** The scheme offers a loan of ₹50,000/- and a subsidy of ₹50,000/- for business ventures. For purchasing goods tempos or vehicles, a subsidy of 33% of the vehicle cost, up to a maximum of ₹1,50,000/-, is provided.\n<br>\n\n- **Subsidy for Self-Employment Loans:** A 33% subsidy, up to a maximum of ₹1,00,000/-, is available for those taking loans from banks or financial instit",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-applicant-minority-certificate-issued-by-the-competent-authority-in"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/scds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Sikh community.\n1. The applicant must be a permanent resident of the state.\n1. The applicant&#39;s age should be between 18 and 55 years.\n1. The family income from all sources should not exceed ₹6,00,000/-.\n1. No family member of the applicant should be a State/Central Government employee.\n1. Neither the applicant nor their family members should have availed of any loan/subsidy facility from the Corporation in the last 5 years, except for the Arivu Education Loan and Foreign Education Loan Scheme.\n1. The applicant should not be a defaulter of the Corporation.",
+  "_criteria_filled": 4
+}

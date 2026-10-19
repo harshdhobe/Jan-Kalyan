@@ -1,0 +1,36 @@
+{
+  "id": "mid-day-meals-scheme",
+  "name": "Mid Day Meals Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "- Improved nutritional status of children, leading to better physical and cognitive development.\n- Increased school attendance and retention rates among children.\n- Reduction in malnutrition-related health issues among school children.\n- Enhances the concentration and learning abilities of children.\n- Promotes social equality by ensuring equal access to nutritious meals for children from all socio",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 14
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificates-or-age-proof-of-the-students-aadhaar-card-or-other-identifica"
+  ],
+  "apply_url": "https://dibangvalley.nic.in/scheme/midday-meal-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Students in Government and Government-aided schools: The scheme primarily targets students studying in government and government-aided schools across India. Children enrolled in classes from the primary level up to the secondary level are eligible to benefit from the scheme.\n- Age criteria: The scheme typically covers children between the ages of 6 and 14 years. However, specific age requirements may vary slightly from state to state or depending on the educational policies of different regions.\n- Socio-economic criteria: The Mid Day Meals Scheme aims to benefit children from economically disadvantaged backgrounds. Typically, children belonging to families with below-poverty-line (BPL) status or those from marginalized communities are given priority for enrollment in the scheme.\n- School attendance: One of the key eligibility criteria for availing the benefits of the scheme is regular school attendance. Students are expected to attend school regularly to receive the mid-day meals.\n- Enrolled in recognized schools: Children must be enrolled in schools recognized by the appropriate education authorities to be eligible for the scheme. The scheme is primarily implemented in schools that adhere to the government&#39;s educational standards and guidelines.",
+  "_criteria_filled": 3
+}

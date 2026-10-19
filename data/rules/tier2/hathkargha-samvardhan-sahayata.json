@@ -1,0 +1,26 @@
+{
+  "id": "hathkargha-samvardhan-sahayata",
+  "name": "Hathkargha Samvardhan Sahayata",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "Under HSS, financial assistance to the extent of 90% of the cost of technological up-gradation items shall be borne by the Govt. of India while the remaining 10% shall be borne by the beneficiary.\nIndicative List of Admissible Technology Up-gradation Items:\nPneumatic Jacquard System for a Set of 4 Handlooms; Motorized Jacquard on the Existing Handloom; Take-up & Let Off Motions on the Existing Han",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-weavers-identity-card-two-passport-size-photographs-of-the-applicant"
+  ],
+  "apply_url": "https://handloom.odisha.gov.in/sites/default/files/2020-02/Hathkargha_Samvardhan_Sahayata_HSS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of the state of Orissa.\n1. The applicant should be a Handloom Weaver.\n1. The applicant should have undergone training in weaving in the last 2 years under various government programmes, including Block Level Clusters.\n1. The applicant should be willing to contribute 10% of the total cost.",
+  "_criteria_filled": 1
+}

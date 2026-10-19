@@ -1,0 +1,36 @@
+{
+  "id": "scheme-of-giving-awards-to-eminent-artists-kalai-sudarmani-award",
+  "name": "Scheme of Giving Awards to Eminent Artists - Kalai Sudarmani Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹10,000/-.\n- Certificate of Appreciation.\n- A shawl worth ₹500/-.\n- 5 eminent artists are awarded every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 36
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "3-photographs-bio-data-degree-certificate-copy-of-family-card-or-voter-id-card-a"
+  ],
+  "apply_url": "https://artandculture.tn.gov.in/sites/default/files/forms_uploads/Award%20application_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sogateaksa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The age of the applicant should be between 36 to 50 years.",
+  "_criteria_filled": 3
+}

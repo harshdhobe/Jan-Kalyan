@@ -1,0 +1,47 @@
+{
+  "id": "sant-surdas-scheme",
+  "name": "Sant Surdas Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a monthly assistance of ₹1,000/- is paid to the beneficiary by the State Government through DBT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 17
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-issued",
+    "if-applicable-disability-identity-carddisability-certificate-from-a-civil-surgeo"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=Gujarati",
+  "source_url": "https://www.myscheme.gov.in/schemes/sss-gujarat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should be 0 to 17 years age group.\n   1. Percentage of disability of 80 or more or those who cannot move even with help of artificial limbs independently.\n   1. The applicant should be registered in the Below Poverty Line (BPL) list and BPL score is up to 20.\n   1. The benefit of this scheme is eligible to the disabled person of Gujarat living under the Below Poverty Line (disabled person included in the BPL from the Ministry of Rural Development, Government of India for the rural area and the Ministry of Housing &amp;amp; Urban Poverty Alleviation, Government of India for the urban area) are eligible to get the benefit of this scheme.\n   1. The applicant should be possessing disability card issued by state government.\n\n**Note:** The amount of assistance will be stopped when the applicant/beneficiary reached age of 18 years.",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,33 @@
+{
+  "id": "youth-engagement-through-empowered-youth-organisations-yess",
+  "name": "Youth Engagement through Empowered Youth Organisations (YESS)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Financial assistance of up to INR 1.00 lakh per financial year may be sanctioned to eligible youth organisations or individuals.\n1. Up to 10% of the total applications may receive a higher amount of financial support.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "for-organisations-registration-certificate-of-the-organisation-programmeactivity",
+    "account-number",
+    "ifsc-declaration-of-nonblacklisting-for-individuals-id-proof-aadhaarvoter-id-pro"
+  ],
+  "apply_url": "https://www.yessmeghalaya.in/YESS_Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yeteyoyess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Youth Organisations**\n\n1. The organisation should be a registered society, trust, charitable organisation, Section 8 company, or not-for-profit entity under the Societies Registration Act of 1860 for at least 3 months.\n1. The organisation should maintain financial accounts with a clear framework for effective and transparent management.\n1. The organisation should have primary beneficiaries under the age of 35 and be open to all citizens of the state without distinction of religion, race, caste, or language.\n1. The organisation should have at least 50% of registered members under the age of 35 as of the application date.\n1. The organisation should not be blacklisted or barred by any government or private entity and should have no pending or ongoing litigation related to misconduct, misappropriation of funds, or sexual harassment.\n\n**For Individuals**\n\n1. The applicant should be a citizen of Meghalaya and under the age of 35 as of the application date.\n1. The applicant should have a bank account in their name (single or joint account).\n1. The applicant should be able to provide proof of selection for the competition or event for which the grant is being requested.\n\n<br>",
+  "_criteria_filled": 2
+}

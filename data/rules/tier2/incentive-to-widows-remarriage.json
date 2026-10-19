@@ -1,0 +1,43 @@
+{
+  "id": "incentive-to-widows-remarriage",
+  "name": "Incentive to Widow's Remarriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹50,000/- in the form of a National Saving Certificate.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-residence-certificate-from-the-revenue-department-2-marriage-invitation-3-age",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/iwr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a Widow.\n1. The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence of not less than 5 years.\n1. The applicant should not be carrying a child.\n1. The applicant&#39;s annual income should not exceed ₹75,000/- per annum.\n1. The bridegroom should be a bachelor or a widower.\n1. The Bride and the Bridegroom should be of legal marriage age, i.e. 18 years for the Bride and 21 years for the Bridegroom.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,26 @@
+{
+  "id": "use-of-advanced-drone-technology-agriculture-aircraft-in-agriculture-sector",
+  "name": "Use of Advanced Drone Technology (Agriculture Aircraft) in Agriculture Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Scheme and Standard of assistance****Financial Provision(Rs. In lakh)****Implementing Agency/office**Use of advanced Drone technology (agriculture aircraft) in agriculture sector 1) 90% of the cost or a maximum of Rs. 500/- whichever is less will be admissible per acre/per spraying₹500.00/-IFFCO or Subsidiary Organisation/Co-operative Organisation/Farmers Producer Organization (FPO",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-mandatory-land-ownership-documents-minimum-1-acre-mandatory-bank-pas"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/A36Rf7FTT%E2%9C%A4556gX2TyXKFw%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/uadtas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be land holder.\n  - The beneficiary farmer should have minimum 1 acre Agricultural land.\n  - The beneficiary farmer must have his own bank account (Bank passbook and cancelled check).\n  - The beneficiary must have Aadhar card as identity proof.\n  - The beneficiary must have a Certified bill of purchase of equipment/items.",
+  "_criteria_filled": 1
+}

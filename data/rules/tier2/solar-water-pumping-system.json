@@ -1,0 +1,26 @@
+{
+  "id": "solar-water-pumping-system",
+  "name": "Solar Water Pumping System",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **Subsidy Amount:** A 75% subsidy is provided on the cost of solar water pumps.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-zamabandi-of-the-agriculture-land-details-of-micro-irrigat"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=h8CmKfu5auuAcQ2i8H6QkA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sswps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any Haryana Resident family with Pariwar Pahichan Patra (PPP).\n   1. Farmers of Haryana with no electric agricultural connection in his/her name.\n   1. Water User Associations, Gaushalas, and community/cluster-based irrigation systems.\n   1. The beneficiaries who have not been covered under the solar pump scheme in past.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "operation-of-river-rafting-kayaking-activities",
+  "name": "Operation of River Rafting / Kayaking Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Rafting companies are permitted to operate, and licenses are issued to river guides, providing revenue benefits to the state and economic benefits to tourism businesses.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "for-raftingkayaking-firm-operation-application-letter-prescribed-application-for"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/orrkauk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand for at least ten years or a native of the state.\n1. The applicant should possess advanced practical and technical knowledge of aero sports.\n\n<br>",
+  "_criteria_filled": 1
+}

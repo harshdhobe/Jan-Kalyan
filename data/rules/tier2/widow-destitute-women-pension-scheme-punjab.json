@@ -1,0 +1,36 @@
+{
+  "id": "widow-destitute-women-pension-scheme-punjab",
+  "name": "Widow / Destitute Women Pension Scheme - Punjab",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "judgement-of-court-or-panchayat-divorce-deed-only-in-case-applied-by-divorced-de"
+  ],
+  "apply_url": "https://punjab.gov.in/wp-content/uploads/2023/08/Widow-Destitute-pension-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wdwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary should be a Permanent Resident of Punjab .\n1. The Annual Income of Beneficiary should not be more than Rs. 60,000/-per year .\n1. The below mentioned women are eligible for monthly pension :-\n\n   1. Widow Women.\n   1. Destitute Women.\n   1. Unmarried Women.\n\n1. The Age of the beneficiary should be :- \n\n   1. Widow or Destitute Women: Below 58 Years.\n   1. Unmarried Women: Above 30 Years.",
+  "_criteria_filled": 3
+}

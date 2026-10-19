@@ -1,0 +1,26 @@
+{
+  "id": "advocate-graduate-stipend-gujarat",
+  "name": "Advocate Graduate Stipend Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Stipend to junior tribal advocates:**\n\n- ₹10,000 per month for the first year.\n- ₹8,000 per month for the second year.\n- ₹6,000 per month for the third year.\n\n> **Allowance to senior advocate (mentor):** \n\n- ₹5,000 per month for three years.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-certificate-of-professional-course-identity-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/agsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Scheduled Tribe (ST) youth.\n1. The applicant should have completed LLB degree.\n1. The applicant should have obtained a charter within two years of graduation.\n1. The applicant should begin legal practice as a junior lawyer under a senior advocate.\n1. The applicant should be practicing in tribal areas of Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

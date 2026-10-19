@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-physicallymentally-disabled-children-of-beneficiary-cboc",
+  "name": "Financial Assistance to Physically/Mentally Disabled Children of Beneficiary (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "1. Under the scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance of ₹1000/- per month.\n   1. The benefit under this scheme shall be admissible only till such time the child is alive.\n   1. The benefit is given for a maximum of two children.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwwb1-passport-size-photograph-2-fi",
+    "if-any-5-copy-of-aadhaar-card-of-nominee-6-bank-details-7-receipt-of-payment-fil"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapmdcbcbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards the labour welfare fund should regularly been received by the Board.\n   1. Registered construction workers whose child has a disability of 40% or more are eligible to apply under the scheme.\n   1. This benefit is for a maximum of two children.\n   1. The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.",
+  "_criteria_filled": 2
+}

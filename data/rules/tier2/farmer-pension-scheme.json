@@ -1,0 +1,34 @@
+{
+  "id": "farmer-pension-scheme",
+  "name": "Farmer Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "A pension of ₹1,200/- per month is provided to eligible farmers.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photograph-certified-by-gram-pradhan-vpdo",
+    "or-less-than-2-hectares",
+    "along-with-the-relevant-land-documents-copy-of-family-register-only-for-rural-ar",
+    "who-certifies-it-in-the-prescribed-formletter"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmKisanOnlineApplicationForm.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/kpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must be a farmer actively engaged in cultivating their own land.\n1. The applicant must be above 60 years of age.\n1. The applicant must own and cultivate up to 2 hectares of agricultural land.\n\n<br>",
+  "_criteria_filled": 2
+}

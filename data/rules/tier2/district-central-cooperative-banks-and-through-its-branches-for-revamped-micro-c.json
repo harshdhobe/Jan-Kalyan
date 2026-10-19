@@ -1,0 +1,33 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-revamped-micro-c",
+  "name": "District Central Cooperative Banks and through its Branches: For Revamped Micro Credit Loan for Women Vendors of Flower, Vegetable, Fruit etc.",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Micro-Loan:** ₹100/- to ₹5,000/-.  - **Interest Rate:** 11% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-vending-activity-if-applicable-any-other-documents-if"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3575",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccvfrmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a woman.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be engaged in vending activities of flowers, vegetables, fruits, etc.\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bhesaj-krishi-vikas-yojana-herbal-cultivation-programme",
+  "name": "Bhesaj Krishi Vikas Yojana (Herbal Cultivation Programme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "***From the cultivation of medicinal plants, the following estimated profits can be earned:***\n\n- **Kuth species:** ₹1,000/- per nali per year- **Kutki species:** ₹660/- per nali per year- **Big Cardamom species:** ₹1,120/- per nali per year (from the fourth year onwards)- **Sarpagandha species:** ₹1,200/- per nali per year- **Tejpata species:** ₹1,200/- per nali per year (after ten years)\n***This",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bkvyhcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be unemployed.\n   1. The applicant must have at least five Nali of land available.\n   1. The applicant must have an Aadhaar card.\n   1. The applicant must be interested in obtaining employment opportunities through herbal cultivation.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "early-intervention-centre-for-infants-and-young-children-with-hearing-impairment",
+  "name": "Early Intervention Centre for Infants and Young Children with Hearing Impairment",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Infants and young children with hearing impairment are given the training to develop speech and language skills.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate-any-other-docu"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eicfiaycwhi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary child should be between 0-6 years. \n1. The beneficiary child should have hearing impairment.\n1. The beneficiary child should not have any other disabilities.",
+  "_criteria_filled": 4
+}

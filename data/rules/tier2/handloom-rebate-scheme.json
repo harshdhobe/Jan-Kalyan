@@ -1,0 +1,26 @@
+{
+  "id": "handloom-rebate-scheme",
+  "name": "Handloom Rebate Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Festival Rebate:** 10% on sales for 120 days; 20% for women-led cooperatives.\n**Permanent Rebates:** 5% standard; 15% for women-led groups.\n**Additional Support:** e-Voucher toolkit distribution; Priority for SC/ST/BPL artisans.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "cooperative-registration-certificate-sales-invoices-festival-period-for-special"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=9",
+  "source_url": "https://www.myscheme.gov.in/schemes/hrs-g2",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered cooperative society, apex institution, or women-led group.\n- The applicant must produce handloom products.\n- The applicant must obtain prior rebate certification from the Commissionerate.\n\n<br>",
+  "_criteria_filled": 1
+}

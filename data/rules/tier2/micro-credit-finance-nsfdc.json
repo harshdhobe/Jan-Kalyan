@@ -1,0 +1,26 @@
+{
+  "id": "micro-credit-finance-nsfdc",
+  "name": "Micro Credit Finance (NSFDC)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**Maximum Loan Limit:**\n\n  - NSFDC provides loans up to 90% of the Project Cost with the maximum amount of ₹1.25 lakhs.\n\n**Rate of Interest:**\n\n  - The NSFDC shall charge interest @ 2.5% from the SCAs/CAs, which in turn, shall charge 6.5% from the Beneficiaries.\n\n**Repayment Period:**\n\n  - The loan under the Scheme is to be repaid in quarterly instalments within a maximum period of three years fro",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-income-certificate-caste-certificate-resid"
+  ],
+  "apply_url": "https://nsfdc.nic.in/UploadedFiles/other/form/termloan-english.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcfnsfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe Individual applicant should belong to a Scheduled Caste community.\n2.\tThe applicant&amp;#39;s annual family income should be less than ₹3,00,000/-, both in rural and urban areas w.e.f. 08.03.2018.\n3.\tThe Partnership Firms and Co-operative Societies are also eligible to apply under the scheme. However, proposals submitted by Partnership Firms and Co-operative Societies shall be considered subject to the following:\na) All the members of Partnership Firms/Co-operative Societies belong to Scheduled Caste community.\nb)\t Annual family income of each member/applicant should not exceed ₹3,00,000/-. \n**Note:** The verification of eligibility criteria shall be the sole responsibility of the State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). NSFDC shall, however, be entitled to re-verify the eligibility of the applicants, if it so desires.",
+  "_criteria_filled": 1
+}

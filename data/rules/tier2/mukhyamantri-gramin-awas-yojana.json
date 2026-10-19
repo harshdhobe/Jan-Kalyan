@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-gramin-awas-yojana",
+  "name": "Mukhyamantri Gramin Awas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹1,20,000/-  (Provided in three installments: ₹40,000/- each through Direct Benefit Transfer or DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-caste-certificate-for-scstextremely-backward-class"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s31943102704f8f8f3302c2b730728e023/uploads/2022/07/2022072358.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgawb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to rural area.\n   1. The applicant must belong to the Scheduled Caste, Scheduled Tribe, or Extremely Backward Class category.\n   1. The applicant must reside in a cluster housing scheme built under previous government programs before January 1996.\n   1. The applicant must have a house that is currently in a dilapidated condition.",
+  "_criteria_filled": 1
+}

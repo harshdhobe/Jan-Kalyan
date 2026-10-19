@@ -1,0 +1,26 @@
+{
+  "id": "samudayik-sahbhagita",
+  "name": "Samudayik Sahbhagita",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- SMC/SMDC are formed in all government schools to actively involve the community in education.\n  - The scheme provides awards and certificates of appreciation to community members who demonstrate excellence in the field of education.\n  - The Sapno Ki Udaan program promotes innovative and outstanding work in education to the public.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cpuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The members of the local community shall be eligible under this scheme.\n1. SMC/SMDC are formed in all government schools to actively involve the community in education.\n1. The regular training programs for SMC/SMDC members are conducted by the DIET.\n1. Under Samudayik Sahbhagita, outstanding and innovative work in the field of education is promoted through documentary films, banners, flexes, and radio broadcasts.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "userc-establishment-and-operation-of-entrepreneurship-development-centers",
+  "name": "USERC Establishment and Operation of Entrepreneurship Development Centers",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "In the U-SERC Entrepreneurship Development Centres, training in entrepreneurship development is provided to students of the area, women, and the general public.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-documents-required",
+    "as-per-the-guidelines-of-the-respective-entrepreneurship-development-centre"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ueoedc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All students, women, and general public in Uttarakhand will be eligible to receive the training.\n\n<br>",
+  "_criteria_filled": 1
+}

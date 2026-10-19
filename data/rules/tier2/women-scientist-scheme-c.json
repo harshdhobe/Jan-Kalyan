@@ -1,0 +1,37 @@
+{
+  "id": "women-scientist-scheme-c",
+  "name": "Women Scientist Scheme-C",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. ₹ 35,000/- per month for Ph.D. in Basic or Applied Sciences/MD or equivalent degree.\n1. ₹ 30,000/- per month for M.Phil / M.Tech / M.Pharm / M.VSc or equivalent degree.\n1. ₹ 25,000/- per month  for M.Sc in Basic or Applied Sciences / MBBS / B.Tech or equivalent degree.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "photo-sign-proof-of-date-of-birth-secondary-school-leaving-certificate-papers-pu",
+    "if-any-details-of-any-scholarships-received-from-time-to-time-details-of-period"
+  ],
+  "apply_url": "https://www.indiascienceandtechnology.gov.in/programme-schemes/women-schemes/women-scientist-scheme-c-wos-c",
+  "source_url": "https://www.myscheme.gov.in/schemes/wos-c",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a female.\n1. The applicant must have a break in her career.\n1. The age of the applicant must be between 27 and 45 years.\n1. Minimum Educational Qualification must be either Master of Science or Bachelors in Engineering / Technology or equivalent.",
+  "_criteria_filled": 3
+}

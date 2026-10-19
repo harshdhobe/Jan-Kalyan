@@ -1,0 +1,28 @@
+{
+  "id": "farmer-suicide-ex-gratia",
+  "name": "Farmer Suicide Ex-Gratia",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹ 7,00,000 to the family members of the deceased farmers/tenant farmers, who commit suicide due to agrarian reasons.\nA Point of Contact at the Collector’s office of the rank of Superintendent shall be designated as in charge of farmer suicide cases and assistance to victim families.\nIn the process of Rehabilitation, benefits of other Government schemes should be provided on",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "residentialdomicile-certificate-passport-size-photo-ex-gratia-proposals-with-the",
+    "documentary-evidence-of-the-lease-such-as-revenue-records",
+    "or-crop-cultivators-rights-card-ccrc"
+  ],
+  "apply_url": "https://apagrisnet.gov.in/GO/2019/14.10.2019-1.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/fseg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased farmer should have been a resident/domicile of the state of Andhra Pradesh.\n1. The cause of death of the farmer should be suicide.\n1. The reason for the suicide should be an agrarian reason, such as Failure of Bore wells, Raising of Commercial crops with a high cost of cultivation, Non-Remunerative Prices, Oral tenancy, and ineligibility to avail of Bank Loans, Private lending with higher interest rates, Adverse seasonal conditions, Heavy expenditure incurred towards Children education, ill health, and marriages.\n1. The term “farmer” shall include every person who derives substantial livelihood from farming, not limited to those with title to land, but including tenant farmers and women farmers.\n1. The beneficiary of the financial assistance should be a family member of the deceased farmer.",
+  "_criteria_filled": 1
+}

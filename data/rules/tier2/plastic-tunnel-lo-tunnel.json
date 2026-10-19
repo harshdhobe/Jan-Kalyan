@@ -1,0 +1,26 @@
+{
+  "id": "plastic-tunnel-lo-tunnel",
+  "name": "Plastic Tunnel (Lo-Tunnel)",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. 50 percent subsidy is available for a maximum of 1000 square meters.\n1. Small/marginal category farmers are given a 75 percent subsidy for a maximum of 4000 square meters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-quotati"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptlt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a farmer.\n1. The applicant must have agricultural land ownership and irrigation sources.",
+  "_criteria_filled": 1
+}

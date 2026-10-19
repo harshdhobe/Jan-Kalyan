@@ -1,0 +1,26 @@
+{
+  "id": "the-goa-state-journalist-awards-scheme",
+  "name": "The Goa State Journalist Awards Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Each award includes a certificate, a memento, and a cash prize of ₹10,000/-.  \n- A total of seven awards, amounting to ₹70,000/-, are distributed annually.  \n- Judges receive an honorarium of ₹2,000/- each.  \n- Awards are conferred on National Press Day (16th November).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "nominations-from-editors-of-eligible-publications-relevant-press-video-clippings"
+  ],
+  "apply_url": "https://dip.goa.gov.in/wp-content/uploads/2021/03/The-Goa-State-Journalist-Awards-Scheme-2015.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tgsjas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a journalist working in a registered daily or weekly newspaper published in English, Konkani, or Marathi, or private sector electronic media recognised by the Department of Information &amp; Publicity, Government of Goa.  \n- The applicant&#39;s work (news items, articles, or reports) must have been published during the previous calendar year.  \n- Nominations must be sponsored by the Editors of eligible publications.\n- The nomination of the journalist can only be for the news items and articles published during the previous calendar year under one of the following categories: \n\na) Best Editor Award on National Integration and Communal Harmony. \nb) Rural Reporting. \nc) Reporting on Public Health and Hygiene. \nd) Reporting with special reference to Women and Children/Social issues. \ne) Sports Reporting. \nf) Reporting on Art and Culture. \ng) Photo Journalism (Best photograph of the year).",
+  "_criteria_filled": 1
+}

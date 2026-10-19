@@ -1,0 +1,28 @@
+{
+  "id": "drip-irrigation-sprinkler",
+  "name": "Drip Irrigation Sprinkler",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Irrigation systems are established to provide irrigation facilities through drip irrigation, portable sprinklers, micro sprinklers, mini sprinklers, or rain guns, as per the requirements of new plants.\nUnder this scheme, a 45 to 55% subsidy is payable for areas ranging from 4 hectares up to a maximum of 5 hectares. An additional 25% subsidy is provided to state farmers as a top-up.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-related-documents",
+    "such-as-khasra-and-khatauni",
+    "lease-certificate-for-leased-land-aadhaar-card-pan-card-udhyan-card-bank-account"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer and hold a Udhyan Card.\n1. The farmer must either own agricultural land or have land on lease.\n\n<br>",
+  "_criteria_filled": 1
+}

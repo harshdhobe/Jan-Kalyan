@@ -1,0 +1,36 @@
+{
+  "id": "anya-pichhda-varg-kalyan-chhatravaas",
+  "name": "Anya Pichhda Varg Kalyan Chhatravaas",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- ₹1,000/- per month hostel grant for each student.\n- 15 kg of free food grains per month (9 kg rice + 6 kg wheat).\n- Free facilities like cot, mattress, bedsheet, and cooking utensils.\n- Food arrangements under superintendent&#39;s supervision; students bear actual meal costs.\n- Hostel facilities may include CCTV, water purifier, TV, Wi-Fi, computer lab, and sports equipment (based on fund availa",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 11
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-id-proof-caste-certificate-bank-account-detailsbank-pas"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/cache/41/13-Apr-25/SHOW_DOCS/ltr-102.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apvkc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Bihar.\n1. The applicant’s age should be between 11 to 40 years.\n1. The applicant should belong to the Backward Class (BC) or Extremely Backward Class (EBC).",
+  "_criteria_filled": 3
+}

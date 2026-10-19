@@ -1,0 +1,36 @@
+{
+  "id": "mukhya-mantri-seekho-kamao-yojana",
+  "name": "Mukhya Mantri Seekho Kamao Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Skill Enhancement: Offers practical training to improve job readiness.\n- Stipend Support: Provides up to ₹1 lakh as financial aid during training.\n- 12th Pass: ₹8,000 per month.\n- ITI Pass: ₹8,500 per month.\n- Diploma Pass: ₹9,000 per month.\n- Graduate or Higher Qualification: ₹10,000 per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 29
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://mmsky.mp.gov.in/?page=lgdprhvrT0r2JtVen1lRzQ%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be between 18 to 29 years of age.\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be educated with a minimum qualification of 12th pass, ITI, or higher.\n1. The applicant should be designated as a “Student-Trainee” upon selection.",
+  "_criteria_filled": 3
+}

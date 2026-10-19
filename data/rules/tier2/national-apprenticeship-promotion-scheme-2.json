@@ -1,0 +1,31 @@
+{
+  "id": "national-apprenticeship-promotion-scheme-2",
+  "name": "National Apprenticeship Promotion Scheme-2",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Under the scheme, training will be imparted in Designated Trades (DT) and Optional Trades (OT).\n**A. Designated Trades (DT)**\n\n  - Designated Trade means any trade or occupation or any subject field in engineering or non-engineering or technology or any vocational course which the Central Government. \n  - Duration of apprenticeship training in DT for Industrial Training Institutes‟ (ITIs) pass-out",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-documents-required-as-per-selected-trade"
+  ],
+  "apply_url": "https://naps-cdn.s3.ap-south-1.amazonaws.com/NAPS+2.0_Guidelines_25-08-2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/naps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Minimum age for an apprentice is 14 years, and 18 years for designated trades related to hazardous industries, as per Section 3(a) of the Apprentices Act, 1961. \n   1. Apprenticeship training is primarily a transition from academia to workplace, and therefore, to avail partial stipend support by the Government, at the time of registration the upper age limit should be 35 years. \n   1. Candidates from skill development programmes such as Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDUGKY), National Urban Livelihoods Mission (NULM), Pradhan Mantri Kaushal Vikas Yojana (PMKVY), etc. will be encouraged to take up apprenticeship training to enhance their skills and employability. \n   1. Establishments will be able to issue a contract only to those candidates who have updated their Aadhaar numbers and completed e-KYC on the apprenticeship portal.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,53 @@
+{
+  "id": "big-loan-scheme",
+  "name": "Big Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "Term loan of up to ₹5,00,000/- as a part of the total project cost / loan demanded by the aspirant applicants/beneficiaries on case to case basis. \n_*Repay the loan in 60 monthly installments over five years with a six-month moratorium period._\n_*For Persons with Disabilities, the maximum repayment period is ten years with a three-month moratorium period._",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "pre-sanctionwith-application5-passport-size-photographs-copy-of-scheduled-castes",
+    "an-affidavit-declaring-the-applicant-belongs-to-a-particular-minority-community",
+    "other-backward-classes",
+    "and-minorities-affidavit-declaring-not-availed-any-loan-from-any-bankfinancial-i",
+    "the-disability-should-not-be-less-than-40-for-safai-karamchari-category",
+    "the-following-persons-are-considered-eligible-scavengerssafai-karamcharis-and-th",
+    "head-of-the-government-departments-ie",
+    "schools",
+    "colleges",
+    "forest",
+    "health",
+    "education",
+    "animal-husbandry-having-rank-not-less-than-gazetted-officer",
+    "elected-members-of-municipal-body",
+    "pradhan-of-gram-panchayats",
+    "and-regional-managers-of-regional-rural-banks-rrbsnationalized-banks-post-sancti",
+    "guarantors",
+    "and-witnesses-along-with-the-scheme-in-charge-and-dealing-assistant"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/big_loan_app.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Delhi.\n- The applicant’s age should be between 18 and 50 years.\n- The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minorities, Safai Karamcharis, and Persons with Disabilities.\n- The annual family income of the applicant under Scheduled Castes, Other Backward Classes, and Minority categories should not exceed ₹1,20,000/- per annum.\n- For the creamy layer of the Minority category, the maximum income ceiling is ₹6,00,000/- per annum.\n- There is no income limit under Persons with Disabilities and Safai Karamchari categories.\n- The applicant should not have been declared a defaulter under any scheme of DSFDC, Nationalized Bank, Financial Institution, or Co-operative Bank.\n- The applicant should possess knowledge and experience as per the requirement of the scheme.\n- The applicant must have valid permissions like SSI Certificate, Pollution Control Certificate, or any other required permissions for setting up the Business/Industry (Manufacturing Unit) if required on a case-to-case basis.\n- The loan is provided for setting up of Income Generating Activities under the permissible non-polluting trades approved in Delhi. However for manufacturing units, the work place should be in approved industrial area.",
+  "_criteria_filled": 3
+}

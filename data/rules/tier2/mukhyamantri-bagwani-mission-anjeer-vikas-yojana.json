@@ -1,0 +1,27 @@
+{
+  "id": "mukhyamantri-bagwani-mission-anjeer-vikas-yojana",
+  "name": "Mukhyamantri Bagwani Mission: Anjeer Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "> **Financial Support:** \n\n  - **First year:** ₹30,000/- per hectare.  - **Second and third year:** ₹10,000/- per hectare (per year).\n\n> **Plant Distribution:** \n\n  - Supply of high-quality plants.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-own"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/AreaExpansionStateScheme/OnlineAppFigSchemeState.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbyavyb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a ryot farmer.\n   1. The applicant must have agricultural land a minimum of 0.25 acres (0.1 ha) and a maximum of 10 acres (4 ha).\n   1. The applicant must be registered on the DBT portal.\n\n&gt; **Note 1: Beneficiary allocation:**\n\n    - General Category: 78.56%.\n    - Scheduled Castes: 20%.\n    - Scheduled Tribes: 1.44%.\n    - Women Participation: 30%.\n\n&gt; **Note 2:** Beneficiaries will be selected on first come first serve basis.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "national-scheme-of-incentive-to-girls-for-secondary-education",
+  "name": "National Scheme Of Incentive To Girls For Secondary Education",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- A sum of ₹3000/- would be deposited under term deposit/ fixed deposit in a public sector bank or in a post office in the name of every eligible girl child. \n- The term/ period of the deposit may be counted from the date of deposit to the date on which the girl child attains the age of 18 years. No premature withdrawal will be allowed.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-scanned-copy-of-the-applicants-aadhaar-card-2-domicile-certificate-3-income-ce"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/NSIGSEGuidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsigse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant should be a girl child.                                                   \n2.  The applicant should be from Scheduled Caste / Scheduled Tribe SC/ST \n3.  The applicant should have passed class 8th from Kasturba Gandhi Balika Vidhalayas (irrespective of whether they belong to Scheduled Castes or Tribes) \n4.  The applicant should have enrolled for class 9th in State/UT Government, Government-aided, or local body schools in the academic year 2008-09 onwards.",
+  "_criteria_filled": 1
+}

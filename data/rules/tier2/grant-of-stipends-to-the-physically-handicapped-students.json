@@ -1,0 +1,36 @@
+{
+  "id": "grant-of-stipends-to-the-physically-handicapped-students",
+  "name": "Grant of Stipends to the Physically Handicapped Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**Monthly Stipend Rates**\n\n- Standards 1 to 4: ₹200 per month\n- Standards 5 to 8: ₹200 per month\n- Standards 9 to 12: ₹300 per month\n\n**Duration:** 11 months (full academic year)\n**Disbursement:** Two installments (September and January)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 25000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-valid-for-3-years-from-date-of-issue-income-certi"
+  ],
+  "apply_url": "https://cmscholarship.goa.gov.in/SchemesDetails.aspx#",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsphs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a bonafide resident of the State of Goa\n- The applicant must be a regular student of a recognized school\n- The applicant&#39;s parents/guardian&#39;s combined annual income should not exceed ₹25,000\n- The applicant must be physically handicapped as specified under Rule 4 read with Rule 5\n- The applicant should not be a repeater in the current standard (one failure can be condoned at Director&#39;s discretion)\n- The applicant should not be residing in or receiving maintenance from any government institutions, local bodies, or grant-receiving private organizations\n- The applicant should not be receiving any other stipend or scholarship\n- Multiple handicapped children from the same family are eligible if other conditions are met",
+  "_criteria_filled": 3
+}

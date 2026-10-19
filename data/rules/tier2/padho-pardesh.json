@@ -1,0 +1,26 @@
+{
+  "id": "padho-pardesh",
+  "name": "Padho Pardesh",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Financial assistance:** The scheme provides an interest subsidy on education loans, which can help to reduce the cost of overseas education for minority students.1. **Increased access to education:** The scheme makes overseas education more accessible to minority students from all backgrounds, regardless of their financial situation.1. **Improved employability:** Studying abroad can give stud",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      }
+    ]
+  },
+  "documents": [
+    "application-form-admission-letter-passport-income-certificate-education-loan-app"
+  ],
+  "apply_url": "https://www.minorityaffairs.gov.in/WriteReadData/RTF1984/8244568969.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students must have been admitted to an approved master&#39;s, M.Phil, or Ph.D. program abroad.\n1. Students must have been admitted to a recognized university or institution abroad.\n1. Student&#39;s family income must not exceed ₹ 6,00,000 per annum.\n1. Students must have obtained an education loan from a scheduled bank under the Indian Banks Association (IBA) Education Loan Scheme.\n1. Students must apply for the scheme&#39;s benefits during their first year of study. Applications received in the second year or later will not be accepted.\n1. Priority will be given to applications from states and union territories with lower bank interest rates.\n1. Payment of financial benefits may be linked to the student&#39;s Aadhaar number.",
+  "_criteria_filled": 1
+}

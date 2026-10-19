@@ -1,0 +1,38 @@
+{
+  "id": "kera-suraksha-insurance-scheme",
+  "name": "Kera Suraksha Insurance Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**1.** **Components under the scheme and present compensation**:\n**Sl. No.****Benefits available - due to accidents only****Sum insured**1Death/Permanent Total disability₹7,00,000/-2Permanent Partial Disablement ₹3,50,000/-3Hospital expenses reimbursement (minimum 24 hours hospitalization)₹2,00,000/- 4Ambulance charges₹3,500/-5Weekly Compensation in case of TTD₹21,000/-  (Maximum 1 claim in a year",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-to-apply-under-the-scheme",
+    "aadhaar-card-proof-of-age-caste-certificate",
+    "if-applicable-declaration-for-assignment-declaration-form-certificate-issued-by",
+    "as-required-in-case-of-accidentoriginal-discharge-summary-op-ticket-original-med",
+    "branch",
+    "account-number-and-ifsc-duly-signed-claim-voucher-in-case-of-deathoriginal-medic",
+    "branch",
+    "account-number-and-ifsc-duly-signed-claim-voucher"
+  ],
+  "apply_url": "https://coconutboard.gov.in/docs/Appl-Kerasuraksha.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Coconut Tree Climber/Neera Technician/Coconut Harvester/Trainee.\n   1. The age of the applicant should be between 18 to 65 years.\n\n&gt; **Responsibilities of Climbers /Harvesters/Neera Technicians/Trainees(Beneficiaries):**\n\n   1. Submit applications for insurance under the insurance scheme in the prescribed format with all mandatory documents. \n   1. Payment of his/her/their share of premium prescribed by the Board by way of demand draft/ online mode. \n   1. Safe custody of policy document/ policy number received from the Board \n   1. Intimation of accident within 72 hours of its occurrence to Board. \n   1. Submission of claim form along with mandatory documents to Board, in case of accidents-related hospital expenses/death, for getting benefits under the scheme.",
+  "_criteria_filled": 2
+}

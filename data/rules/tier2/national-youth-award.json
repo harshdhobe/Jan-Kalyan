@@ -1,0 +1,31 @@
+{
+  "id": "national-youth-award",
+  "name": "National Youth Award",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Individual Awards:**\n\n- Receive a medal, certificate, and ₹1,00,000/-.\n\n<br>\n\n> **Voluntary Youth Organization Awards:**\n\n- Receive a medal, certificate, and ₹3,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 29
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-date-of-birth-dob-supporting-documents-for-outstanding-work-recommendat"
+  ],
+  "apply_url": "https://awards.gov.in/Home/AwardLibrary",
+  "source_url": "https://www.myscheme.gov.in/schemes/nya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Individuals:**\n\n1. The applicant should be a citizen of India.\n1. The applicant should be Between the age of 15- 29 years as of the first January of the nominated year.\n1. The applicant should have done extraordinarily identifiable social work.\n1. The applicant who Persons employed in any government service i.e. with the Central/State Governments, PSUs/Universities, Colleges/schools, etc. is not eligible for the award.\n1. The award will be conferred once in a lifetime.\n\n<br>\n\n> **For Voluntary Organizations:**\n\n1. The Organizations Should be registered under the Registration of Societies Act, 1860 (Act XXII of 1860) for the last three years or under the corresponding State Act and have a proper constitution or Articles of Association.\n1. The organization should be a non-profit organization.\n1. The organization Should not have discriminated against any person or group of persons on the grounds of sex, religion, caste, or creed;\n1. The organization Has rendered extra-ordinary service involving the Youth in the relevant field for at least three years;\n1. The organization Has a good reputation among the local community/area\n1. The organization Should not have been conferred with this award earlier.\n\n<br>",
+  "_criteria_filled": 2
+}

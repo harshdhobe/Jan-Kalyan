@@ -1,0 +1,26 @@
+{
+  "id": "minority-scholarship-scheme-for-class-1-to-10",
+  "name": "Minority Scholarship Scheme for Class 1 to 10",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "At present, the State Government provides the following **monthly scholarships** for students from Class 1 to 10:\n\n- **Class 1 to 5:** ₹50/-- **Class 6 to 8:** ₹80/-- **Class 9 to 10:** ₹120/-\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "educational-certificates-aadhaar-card-bank-account-linked-with-aadhaar-permanent"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to a minority community (Muslim, Sikh, Christian, Parsi, Buddhist, or Jain).\n1. The applicant must be studying in Classes 1 to 10.\n1. The applicant must be enrolled in a recognized government/non-government educational institution in the state of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

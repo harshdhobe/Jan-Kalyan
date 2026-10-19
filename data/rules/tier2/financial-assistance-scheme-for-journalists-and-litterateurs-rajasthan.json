@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-scheme-for-journalists-and-litterateurs-rajasthan",
+  "name": "Financial Assistance Scheme for Journalists and Litterateurs - Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Monetary Assistance for Medical Treatment:**\n\n- Up to ₹1,00,000/- for treatment of critical diseases (e.g., cancer, bypass surgery, kidney transplant, brain stroke, etc.).\n- In special cases, the committee may approve up to ₹2,00,000/-.\n\n> **Monthly Financial Assistance:**\n\n- ₹1,000 to ₹2,500 per month for a maximum of one year to unemployed journalists or those without income due to illness o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-medical-reports-and-prescription-if-applicable-proof-of-age-incom"
+  ],
+  "apply_url": "https://www.tourism.rajasthan.gov.in/content/dam/dipr/Downloads/forms/Arthik%20Shitiya%20Format%20Sansodhan.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasfj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should be a journalist or litterateur.\n1. The journalist or litterateur should meet one or more of the following criteria:\n\n- Suffering from incurable diseases such as tuberculosis, cancer, leprosy, or requiring treatment for serious conditions like valve replacement, transplantation, angioplasty, bypass surgery, or kidney-related ailments.\n- Unemployed due to ill health and without any other source of income.\n- Aged 60 years or above and having no other source of income.\n- Eligible on any other humanitarian grounds as recommended by the designated Committee.\n\n**Note:** Financial assistance will be given to only one person at a time.",
+  "_criteria_filled": 1
+}

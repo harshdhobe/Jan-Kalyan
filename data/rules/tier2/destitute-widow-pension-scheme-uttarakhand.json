@@ -1,0 +1,41 @@
+{
+  "id": "destitute-widow-pension-scheme-uttarakhand",
+  "name": "Destitute Widow Pension Scheme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "A pension of ₹1,500/- per month is provided to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photograph-certified-by-gram-pradhan-vpdo"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmWidowOnlineApplicationForm.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/uwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a widow.\n   1. The widow must be at least 18 years of age.\n   1. The widow’s family monthly income should not exceed ₹4,000/-, or she must possess a valid BPL (Below Poverty Line) certificate.\n   1. The widow must not be receiving any other pension benefits.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pre-matric-scholarship-for-students-with-disabilities-dnh-dd",
+  "name": "Pre-Matric  Scholarship for Students with  Disabilities, DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Maintenance allowance of ₹500/- per month for day scholars.\n1. Maintenance allowance of ₹800/- per month for hostellers.\n1. Disability allowance of ₹4,000/- per annum for visually impaired/intellectual disability students.\n1. Disability allowance of ₹2,000/- per annum for other disabilities.\n1. Book allowance of ₹1,000/- per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-aadhaar-enrolment-identification-number-eid-as-applicable-disabilit"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/premssd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Dadra &amp; Nagar Haveli and Daman &amp; Diu.\n1. The applicant should be a student with a benchmark disability and possess a valid Disability Certificate issued by the competent authority under the Rights of Persons with Disabilities Act, 2016.\n1. The applicant should be studying in the Union Territory of Dadra &amp; Nagar Haveli and Daman &amp; Diu or should be a bona fide resident of the Union Territory pursuing eligible studies.\n1. The applicant&#39;s parent(s)/guardian(s) should have an annual income from all sources that does not exceed ₹2,50,000.\n1. The applicant should be one of not more than two children with disabilities from the same parents receiving benefits under the scheme.\n1. The applicant may be eligible if the second child is a twin and both twins have disabilities.\n1. The applicant should have an active bank account linked to Direct Benefit Transfer (DBT).\n1. The applicant should not be receiving any other scholarship or stipend for the same purpose from any other source.\n1. The applicant should be a regular full-time student and studying in Class IX or Class X.\n1. The applicant should be studying in a Government school or a school recognised by the Government or a Central/State Board of Secondary Education.\n\n<br>",
+  "_criteria_filled": 3
+}

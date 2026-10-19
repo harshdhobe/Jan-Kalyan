@@ -1,0 +1,31 @@
+{
+  "id": "kanya-saksharta-protsahan-yojana",
+  "name": "Kanya Saksharta Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Under this scheme, all girls belonging to Scheduled Tribes who have passed Class 10th and are entering Class 11th will receive an incentive amount of ₹3,000/- per year.\n\n**Note:** The incentive amount will be paid into the bank accounts of the girl students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-samagra-id-caste-certificate-bank-account"
+  ],
+  "apply_url": "https://shikshaportal.mp.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/kspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl.\n   1. The girl student should be a native/resident of Madhya Pradesh.\n   1. The girl student should belong to the Scheduled Tribe community.\n   1. The applicant should be a regular student.\n   1. All girls who have passed Class 10th and are entering Class 11th are eligible for the scheme.",
+  "_criteria_filled": 2
+}

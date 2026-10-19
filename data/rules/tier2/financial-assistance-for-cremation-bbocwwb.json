@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-cremation-bbocwwb",
+  "name": "Financial Assistance for Cremation (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹5,000/- is provided for the cremation of the deceased construction worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-registered-worker-aadhaar-card-death-certificate-of-the-wor"
+  ],
+  "apply_url": "https://bocw.bihar.gov.in/Website/pdf/Brochure.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafcbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a dependent of the deceased construction worker.\n- The deceased, in his/her lifetime, should have been registered with the Bihar Building &amp; Other Construction Workers Welfare Board.\n- The deceased, in his/her lifetime, should have maintained regular membership with the Board.",
+  "_criteria_filled": 1
+}

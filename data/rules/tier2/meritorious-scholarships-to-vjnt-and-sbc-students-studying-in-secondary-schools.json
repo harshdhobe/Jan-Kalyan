@@ -1,0 +1,26 @@
+{
+  "id": "meritorious-scholarships-to-vjnt-and-sbc-students-studying-in-secondary-schools",
+  "name": "Meritorious Scholarships To Vjnt And Sbc Students Studying In Secondary Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1. The students will get ₹ 200/- for 5th to 7th standard per annum. \n1. The students will get ₹ 400/- for 8th to 10th standard per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-domicile-certificate-residence-proof-aadhar-card-bank-details"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training",
+  "source_url": "https://www.myscheme.gov.in/schemes/msvss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students who secured more than 50 percent marks in the previous year’s annual examination and stood first or second in the class.\n1. He should belong to VJNT / SBC category.\n1. He should be studying in 5th to 10th standard.\n1. There is no income limit for this scholarship.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "pre-matric-post-matric-scholarship",
+  "name": "Pre-Matric & Post-Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- The benefits are to provide stipend to Pre-Matric and Post-Matric Scholarship to the students belonging to the Tea Tribes and Adivasi community for the benefit of poor students.\n- The scheme is to provide financial assistance to the students of the Tea Tribes and Adivasi community pursuing their studies at the post-matriculation or post-secondary stage to enable them to complete their education.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "valid-caste-certificate-which-is-duly-certifiedissued-by-the-district-commission",
+    "00",
+    "000-per-annum-to-be-submitted-by-the-parent-guardian-recommendation-letter-from"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmpms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi Community.\n- The applicant must produce a valid Caste certificate which is duly certified or issued by the District Commissioner of the concerned district or his or her designated officer.\n- The applicant must submit an undertaking on the annual family income stating that it is not exceeding ₹5,00,000/- per annum.\n- The Pre-Matric Scholarship is awarded to students from Class 9th to Class 10th.\n- The Post-Matric Scholarship is awarded to students pursuing studies from Class 11th to normal Three Years Degree Courses (Bachelor of Arts, Bachelor of Business Administration, Bachelor of Commerce, Bachelor of Science, Integrated Graduate plus Post Graduate courses like integrated Master of Business Administration / Bachelor of Arts-Bachelor of Law / Bachelor of Arts-Bachelor of Education / Master of Social Work, etc.).\n- The scholarships are available for all recognized post-matriculation or post-secondary courses in recognized institutions.\n\n##### ***Special Provisions***\n\n- All children of the same parents or guardians are eligible.\n- Students studying through correspondence course are also eligible to apply.\n\n<br>",
+  "_criteria_filled": 2
+}

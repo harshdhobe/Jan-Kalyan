@@ -1,0 +1,29 @@
+{
+  "id": "establishment-of-50-milch-animals-dairy-unit",
+  "name": "Establishment of 50 Milch Animals Dairy Unit",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy:** 7.5% interest subsidy for up to 5 years on bank loans for purchasing 50 dairy animals.- **Shed Construction:** 50% subsidy on actual expenditure, up to ₹5,00,000/-.- **Animal Insurance:** 75% subsidy for a three-year premium, up to ₹1,80,000/-.- **Equipment Assistance:**\n\n1. 75% subsidy on an electric chaff cutter (up to ₹30,000/-).\n1. 75% subsidy on a fogger system (up to ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-residence-proof-barcoded-ration-card-electricity-billbank-passbook-with",
+    "712-extract",
+    "8a-extract",
+    "or-lease-agreement-for-land-applicants-self-declaration-form"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=qEITCG3U50OobCZFAdsNeQ==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/emadu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a livestock Farmer.\n  - The applicant must purchase 50 dairy animals (cows/buffaloes).\n  - The applicant must establish a new dairy farm.\n  - The applicant must have ownership rights or inheritance rights or leasehold rights of the land.\n  - The applicant must take a loan from a Reserve Bank-recognized institution/bank.\n\n&gt; **Note:** If the beneficiary does not own land, the dairy farm can be established on leased land for a minimum of 7 (seven) years.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,44 @@
+{
+  "id": "maternity-assistance-for-the-construction-workers",
+  "name": "Maternity Assistance for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- ₹30,000/- is provided to the registered women members and wives of male members for upto 2 children from the date of joining membership of the fund.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "in-case-of-delivery-at-hospitalbirth-certificate-of-the-child-duly-issued-by-any",
+    "discharge-summarymedical-certificate-to-be-obtained-from-medical-officer-not-bel",
+    "proof-of-visiting-a-hospitalnursing-home-in-connection-with-the-pregnancy-in-the",
+    "photocopy-of-any-id-proof-of-aayadai"
+  ],
+  "apply_url": "https://dbocwwb.delhi.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mafcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n> **For Application**\n\n- Registered women member Under the Delhi Building and Other Construction Workers Welfare Board .\n\nOr,\nWives of registered male members Under the Delhi Building and Other Construction Workers Welfare Board.\n\n- The applicant shall be eligible to avail the benefits only for their first 2 children.",
+  "_criteria_filled": 4
+}

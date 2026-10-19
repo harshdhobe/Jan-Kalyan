@@ -1,0 +1,36 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-to-special-entrepreneurship-de",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance to Special Entrepreneurship Degree Approach Training with 360 Promoters/ with Mentoring Support and Sustenance Allowance for Entrepreneurs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Special Entrepreneurship Training:**\n\n1. 100% coverage of training fees, up to ₹10,000/- per month per person.\n1. Training duration between 6 months to 1 year.\n1. Covers business management, finance, marketing, logistics, soft skills, and best practices.\n\n> **Mentorship Support:**\n\n1. Entrepreneurs receive expert guidance from industrial mentors.\n1. 100% coverage of mentorship fees, up to ₹5,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "instituteany-other-legal-entity-applicant-details-details-of-court-cases",
+    "if-any-details-of-govt-dues-and-outstanding",
+    "if-any-applicant-organization-deregisteredblack-listed-by-government-govt-bodies",
+    "if-any-other-details-like-achievement",
+    "award",
+    "certification-details-of-legal-constitution-of-the-organization-please-enclose-a"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/2-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyseat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Caste (SC) or Scheduled Tribe (ST) community.\n1. The applicant must be above 18 years of age.",
+  "_criteria_filled": 2
+}

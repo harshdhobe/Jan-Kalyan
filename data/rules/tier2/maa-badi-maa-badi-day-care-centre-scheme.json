@@ -1,0 +1,36 @@
+{
+  "id": "maa-badi-maa-badi-day-care-centre-scheme",
+  "name": "Maa-Badi / Maa-Badi Day-Care Centre Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**At these centers, children are provided following benefits:**\n\n- Free primary education (classes 1st to 4th).- Breakfast and nutritious mid-day meals.\n- Free uniforms, school bags, shoes, socks, sweaters, ties, and belts.\n- Free sports equipment etc.\n\n**Day-Care Centre Specific Benefits:**\n\n- Full-day (9:00 AM to 5:00 PM) operation.\n- 2 education facilitators and 3 assistants at each centre.\n- M",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-caste-certificate-copy-address-proof-any-other-docum"
+  ],
+  "apply_url": "https://tad.rajasthan.gov.in/scheme/detail/503",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbmbdccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a child aged 6 to 12 years.\n1. The applicant should belong to the Scheduled Tribe, Kathodi, or Sahariya community.\n1. The applicant should reside in Udaipur, Dungarpur, Banswara, Pratapgarh, Sirohi, or Rajsamand districts.\n1. The applicant should not currently be enrolled in any formal school.\n1. The applicant should reside in areas where the nearest school is at least 1.5–2 km away.",
+  "_criteria_filled": 3
+}

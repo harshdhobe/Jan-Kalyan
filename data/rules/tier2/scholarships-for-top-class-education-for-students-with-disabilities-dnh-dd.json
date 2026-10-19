@@ -1,0 +1,36 @@
+{
+  "id": "scholarships-for-top-class-education-for-students-with-disabilities-dnh-dd",
+  "name": "Scholarships for Top Class Education for students with Disabilities, DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "household",
+  "benefit": "1. Reimbursement of admission and tuition fees up to ₹1.90 lakh per annum.\n1. Maintenance allowance: ₹3,000/- per month for day scholars and ₹1,500/- per month for hostellers.\n1. Book allowance of ₹5,000/- per annum.\n1. One-time laptop/computer grant up to ₹45,000/- in the first year.\n1. One-time assistive devices grant up to ₹30,000/-.\n1. Special disability-related allowances such as reader, esco",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-the-competent-authority-domicile-certificate-of"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/scholarshiptcesd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to DNH&amp;DD.\n1. The applicant must be a student with disability.\n1. The applicant must be pursuing Graduate or Post-Graduate Degree/Diploma courses.\n1. The applicant must be studying in the Institutes of Excellence notified by the Department of Empowerment of Persons with Disabilities, New Delhi.\n1. The applicant’s annual family income should not exceed ₹8 lakh.\n1. The applicant should meet the admission criteria of the respective institution.\n\n<br>",
+  "_criteria_filled": 3
+}

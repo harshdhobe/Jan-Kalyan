@@ -1,0 +1,26 @@
+{
+  "id": "gadiya-lohar-raw-material-purchase-grant-in-aid-scheme",
+  "name": "Gadiya Lohar Raw Material Purchase Grant-in-aid Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Under this scheme, the member of Gadia Lohar community of Rajasthan receives a one-time financial grant of ₹10,000/- to purchase raw materials for their business.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-castecommunity-certificate-address-proof-bank-account-details-any"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=175",
+  "source_url": "https://www.myscheme.gov.in/schemes/glrmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should belong to the Gadiya Lohar community.",
+  "_criteria_filled": 1
+}

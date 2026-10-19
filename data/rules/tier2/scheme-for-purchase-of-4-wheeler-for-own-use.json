@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-purchase-of-4-wheeler-for-own-use",
+  "name": "Scheme for Purchase of 4 Wheeler for Own Use",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** Upto 75% of the cost of vehicle.\n**Interest Concession:** 1% for Good Borrowers of ‘A’ category and 0.5% for ‘B’ category.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationproof-of-identity-and-address-copy-of-the",
+    "management",
+    "accountancy",
+    "engineering",
+    "architecture",
+    "etc-vehicle-documents-original-quotation-for-the-vehicle",
+    "chassis",
+    "or-body-building-works-copy-of-the-rc-book-for-the-existing-vehicle-if-applicabl"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sp4wou",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to Qualified Personnel in Medicine, Management, Accountancy, Engineering, Architecture, etc. and Good Borrowers of the Corporation (Industrial Units).\n<br>",
+  "_criteria_filled": 1
+}

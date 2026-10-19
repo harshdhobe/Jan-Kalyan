@@ -1,0 +1,26 @@
+{
+  "id": "west-bengal-textile-incentive-scheme-state-capital-investment-subsidy",
+  "name": "West Bengal Textile Incentive Scheme: State Capital Investment Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "An eligible textile sector enterprise in the state will be entitled to State Capital Investment Subsidy for its approved\nproject as follows:\n&lt;br&gt;\n\n**Sl. No.****Type of Manufacturing Activities****Quantum of Subsidy****Maximum Admissible Amount**1.Spinning (short staple) 10%₹2,00,00,00,00/-2. Weaving &amp;amp;amp;amp; Knitting (warp and flat-bed) and texturing &amp;amp;amp;amp; twisting20%₹1,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "auditors-chartered-accountants-certificate-for-utilization-of-funds-a-certificat"
+  ],
+  "apply_url": "https://textiles.wb.gov.in/assets/New_PUBLICATION_OF_WBTIS_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtisscis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries in the manufacturing and processing of textiles, apparel and technical textiles products.\n  - The unit should have started production on or after 1st April 2022.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n  - Shall not be applicable to the industrial units/enterprises.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the Directorate of Textiles on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

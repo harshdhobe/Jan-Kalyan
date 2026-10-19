@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-medhavi-chhatra-puraskar-yojana",
+  "name": "Mukhyamantri Medhavi Chhatra Puraskar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**At the university level, students securing first, second, and third positions in graduation examinations are awarded:**\n\n  - 1st Position: ₹50,000/-\n  - 2nd Position: ₹30,000/-\n  - 3rd Position: ₹15,000/-\n\n**Students securing first, second, and third positions in post-graduation examinations are awarded:**\n\n- 1st Position: ₹75,000/-\n- 2nd Position: ₹60,000/-\n- 3rd Position: ₹30,000/-\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-required-documents-can-be-collected-directly-from-the-students-universitycol"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmcpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme is applicable to the top three students who have obtained the highest marks at the university level after completing their courses in the Arts, Science, and Commerce faculties at the graduate and post-graduate levels in the state’s Shridev Suman University, Kumaon University, Soban Singh Jeena University, and their affiliated colleges.\n   1. Students who have obtained less than 60% marks will be ineligible under the scheme.\n   1. Students who have appeared in improvement examinations in graduation or post-graduation, backlog examinations, or those who have dropped out in any year and then progressed to the next class will also be ineligible for the scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "bihar-shatabdi-asangathit-karyakshetra-kamagaar-evan-shilpakar-samajik-suraksha",
+  "name": "Bihar Shatabdi Asangathit Karyakshetra Kamagaar Evan Shilpakar Samajik Suraksha Yojana: Total Permanent Disability",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** ₹75,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "prescribed-application-form-2-residential-certificate-proof-of-age-aadhar-card",
+    "voter-card-etc-one-photograph-showing-the-disability-status-of-the-applicant-cop",
+    "then-certificate-issued-by-the-mukhiyaward-councillor-regarding-the-accident-dis"
+  ],
+  "apply_url": "https://state.bihar.gov.in/labour/cache/40/14-May-21/SHOW_DOCS/Schemes-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsaktpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Bihar state.\n   1. The applicant must work as a worker or craftsman in the unorganized sector within Bihar.\n   1. The applicant&amp;#39;s age must be between 18 and 65 years.\n\n&gt; **Note****:** \n\n    - Applicant&amp;amp;#39;s age will be calculated as of the 1st of July of any year.\n    - **Total Permanent Disability:** Total permanent disability means that due to an accident, both the eyes or both hands or both legs of a worker or artisan become useless or one eye, one hand and one leg become useless. Apart from this, if both the eyes become useless due to paralysis or the brain stops working, then it will also be considered as permanent disability.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-help-scheme",
+  "name": "Chief Minister Help Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**On Birth of a Child:** 50 kg of wheat, rice, and cooking utensils.\n**On the Death of a Family Member:** \n\n- 1 quintal of rice for the following districts: Mandla, Dindori, Balaghat, Shahdol, Anuppur and Umaria.\n- 1 quintal of wheat for the following districts: Jhabua, Alirajpur, Barwani, Ratlam, Hoshangabad, Betul, Sidhi, Seoni, Chhindwara, Dhar, Khargone, Khandwa, Burhanpur, Sheopur.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-domicile-certificate-caste-certificate-death-certificate-birth-cert"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=604",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the Scheduled Tribe category.\n1. There should have either been a birth of a child OR the death of a member of the applicant&#39;s family.\n1. No member from the applicant&#39;s family should be employed in government service (Class 1/2/3) or a higher category post.\n1. In the case of the birth of a child in the applicant&#39;s family, the benefits can only be availed for the first or second child of a couple.",
+  "_criteria_filled": 1
+}

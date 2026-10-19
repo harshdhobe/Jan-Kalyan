@@ -1,0 +1,31 @@
+{
+  "id": "bpl-scholarship-for-college-students",
+  "name": "BPL Scholarship for College Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "1. The rate of scholarship for Post Graduate Level (PG) students is ₹500/- per month.\n   1. The rate of scholarship for Graduate Level (UG) students is ₹300/- per month.\n   1. The renewal applicants will get a full scholarship i.e. ₹3000 for UG Classes and ₹5000 for PG Classes. \n\n**Note 01:** The scholarship amount is transferred directly to the student&amp;#39;s bank account using the Direct Bene",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "educational-documents-of-the-student-bank-passbook-for-filling-in-bank-details-a"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/Chattisgarh/Guidelines_3042.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bplscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students of Graduate Level (UG)  &amp;amp; Post Graduate Level (PG) who are studying in any Government college of Chhattisgarh, under the Higher Education Department are eligible to apply under the scheme.\n   1. The student&amp;#39;s guardian should have a BPL Card.\n   1. The student is not getting the benefit of any other scholarship scheme.\n   1. The students should pass the annual examination in the first attempt.\n   1. The student attendance should not be shortened.",
+  "_criteria_filled": 2
+}

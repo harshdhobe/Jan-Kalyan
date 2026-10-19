@@ -1,0 +1,35 @@
+{
+  "id": "aicte-swanath-scholarship-scheme-for-students",
+  "name": "AICTE-Swanath Scholarship Scheme For Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **NUMBER OF SCHOLARSHIPS**\n\nA maximum of 2000 scholarships (1000 for Degree Students and 1000 for Diploma Students) will be awarded\nevery year to eligible candidates as above.\n<br>\n\n> **AMOUNT OF SCHOLARSHIP**\n\nRs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for the first year admitted Degree students and maximum 3 years for Diploma Students as lump sum amount towar",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "a-for-orphan-candidatesi-death-certificates-of-both-father-mother-if-available",
+    "or-a-certificate-issued-by-tehsildar-sdm-as-per-enclosed-format-annexure-i-ii-bo",
+    "the-current-year-income-certificate",
+    "explicitly-mentioning-that-income-of-the-family-is-less-than-8",
+    "00",
+    "000-issued-by-the-competent-authority-iii-bonafide-certificate-issued-by-the-ins",
+    "explicitly-mentioning-that-income-of-family-less-than-8",
+    "00",
+    "000",
+    "issued-by-competent-authority-vii-category-certificate-scstobc-ncl"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aicte-ssss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate should be one of the following: (i) an orphan, OR (ii) whose either or both parents died due to Covid 19, OR (iii) Ward of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed).\n1. The family income from all sources should not be more than ₹8,00,000 per annum during the financial year of the application. \n1. The candidate should be currently studying in the AICTE Approved institutions and courses at the Degree/Diploma level in regular mode (in 1st /2nd / 3rd /4th year). \n1. The candidate should NOT be Recipient of any of the Central Govt. / State Govt. / AICTE Sponsored scholarships.",
+  "_criteria_filled": 1
+}

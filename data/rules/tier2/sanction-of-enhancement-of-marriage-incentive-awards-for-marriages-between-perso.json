@@ -1,0 +1,33 @@
+{
+  "id": "sanction-of-enhancement-of-marriage-incentive-awards-for-marriages-between-perso",
+  "name": "Sanction of Enhancement of Marriage Incentive Awards for Marriages Between Persons with Differently Abled and Normal Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- A one-time cash incentive of ₹1,50,000/- is provided to eligible differently abled persons who marry either a normal person or another differently abled person under this scheme.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "differently-abled-certificate-marriage-registration-certificate-issued-by-the-co",
+    "adhaar-card",
+    "or-residential-certificate-issued-by-the-tahsildar"
+  ],
+  "apply_url": "https://konaseema.ap.gov.in/disabled-welfare/",
+  "source_url": "https://www.myscheme.gov.in/schemes/semiampdnp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should ensure that the marriage is between a person with a disability and a person without a disability.\n1. The applicant should ensure that neither the bride nor the bridegroom has availed of the incentive award under this scheme earlier.\n1. The applicant should ensure that the bridegroom is 21 years of age and the bride is 18 years of age at the time of marriage.\n\n<br>",
+  "_criteria_filled": 2
+}

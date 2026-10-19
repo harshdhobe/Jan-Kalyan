@@ -1,0 +1,40 @@
+{
+  "id": "industrial-skill-development-allowance-to-the-new-employees-employed-in-industri",
+  "name": "Industrial Skill Development Allowance To The New Employees Employed In Industries In H.p",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Skill Development: The scheme provides an opportunity for new employees in industries in Himachal Pradesh to upgrade their skills through on-the-job training. It enables them to gain practical experience and enhance their employability.\nBetter Employment Prospects: By participating in the scheme, eligible individuals can develop their skills and improve their chances of securing better employment ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 36
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "form-i-application-form-for-the-grant-of-allowance-to-be-obtained-from-the-schem",
+    "voter-id",
+    "etc-address-proof-such-as-utility-bills",
+    "ration-card",
+    "etc-educational-qualification-certificates-skill-development-training-certificat"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/14_l892s/SDA-93604762.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isdane",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Age: The scheme is open to individuals between the ages of 18 and below 36 years. Those falling within this age range are eligible to participate in the scheme.\n1. Educational Qualification: The scheme primarily targets individuals with limited formal education. The specific educational qualifications required may vary depending on the type of skill development program. Generally, individuals with lower levels of educational attainment are given priority.\n1. Residence: The scheme is specifically designed for residents of Himachal Pradesh. Applicants must be permanent residents of the state to be eligible for the scheme.\n1. Employment Exchange Registration: Eligible individuals should be registered with the Employment Exchanges in Himachal Pradesh. This registration is necessary to avail the benefits and opportunities provided by the scheme.\n1. Unemployed Status: The scheme primarily aims to provide skill development opportunities to unemployed individuals. Therefore, applicants should be currently unemployed and seeking employment to be eligible for participation.",
+  "_criteria_filled": 3
+}

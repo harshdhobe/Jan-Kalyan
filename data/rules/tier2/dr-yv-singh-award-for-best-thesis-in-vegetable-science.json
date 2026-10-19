@@ -1,0 +1,26 @@
+{
+  "id": "dr-yv-singh-award-for-best-thesis-in-vegetable-science",
+  "name": "Dr. Y.V. Singh Award for Best Thesis in Vegetable Science",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Award Amount:** ₹20,000/- per year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yvsinghawarduk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The applicant must have submitted a thesis in the field of Vegetable Science at the university.\n   1. The award is granted for a period of one year only.\n\n<br>",
+  "_criteria_filled": 1
+}

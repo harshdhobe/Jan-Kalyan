@@ -1,0 +1,31 @@
+{
+  "id": "educational-assistance-to-children-of-women-headed-families",
+  "name": "Educational Assistance to Children of Women Headed Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1.\tCategory I - Children below 5 years and between 1st to 5th standard: ₹300/- per month\n2.\tCategory II - Between 6th to 10th standard: ₹500/- per month\n3.\tCategory III - Plus one (11th Standard) &amp; Plus two (12th Standard): ₹750/- per month\n4.\tCategory IV - Degree and above: ₹1000/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-etc-passport-size-photograph-below-poverty-line-b"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12014.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacwhf-kerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n   1. The applicant should belong to the Below Poverty Line Family.\n   1. HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status.\n   1. A family in which the husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury is eligible to apply under the scheme.\n   1. Only two children’s per family are eligible for this scheme.\n   1. The child should study in Government or Government aided School or College.",
+  "_criteria_filled": 2
+}

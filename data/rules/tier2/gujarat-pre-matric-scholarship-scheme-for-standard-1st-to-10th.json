@@ -1,0 +1,26 @@
+{
+  "id": "gujarat-pre-matric-scholarship-scheme-for-standard-1st-to-10th",
+  "name": "Gujarat Pre-Matric Scholarship Scheme for Standard 1st to 10th",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "The scheme provides financial assistance in the form of scholarships. The amounts are as follows:\n> **For Boys**\n\n- Class 1 to Class 8: Annual scholarship of ₹750/-.\n\n- Class 9 to Class 10: Annual scholarship of ₹1,000/-.\n\n> **For Girls**\n\n- Class 1 to Class 5: Annual scholarship of ₹750/-.\n- Class 6 to Class 10: Annual scholarship of ₹1,000/-.\n\n> **For Extremely Backwards Students**\n\n- Class 1 to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-number-proof-of-educational-qualification-st-c"
+  ],
+  "apply_url": "https://www.digitalgujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/premsssguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Gujarat.\n1. The applicant must be a Scheduled Tribe student.\n1. The applicant must be studying in Class 1st to 10th.\n\n<br>",
+  "_criteria_filled": 1
+}

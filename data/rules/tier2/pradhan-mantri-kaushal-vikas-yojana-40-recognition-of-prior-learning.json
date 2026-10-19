@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-kaushal-vikas-yojana-40-recognition-of-prior-learning",
+  "name": "Pradhan Mantri Kaushal Vikas Yojana 4.0 - Recognition Of Prior Learning",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Industry-relevant skill certification for candidates with prior learning experience or skills, through due assessment.\n1. Mandatory training/orientation of a minimum of 30 hours in a classroom setting, with the maximum duration of RPL being 132 hours.\n1. Pre-screening of candidates by certified trainers to assess their existing level of learning; no payment is charged to the candidate for pre-s",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-for-ekyc-and-mobile-based-one-time-password-otp-profile-verificatio"
+  ],
+  "apply_url": "https://www.msde.gov.in/offerings/schemes-and-services/details/pradhan-mantri-kaushal-vikas-yojana-4-0-pmkvy-4-0-2021-ITO3ATMtQWa",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmkvy-rpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian national.\n1. The applicant should possess a valid Aadhaar.\n1. The applicant should be in the age group of 18 to 59 years.\n1. The applicant should be a candidate with prior learning experience or skills, willing to get assessed and certified.\n1. The applicant should have prior experience in the job role for which RPL certification is being sought, as specified in the job role.\n1. The applicant should fulfil the eligibility criteria of the respective job role.\n1. The applicant should not be enrolled again in the same job role in which he/she was already trained earlier.\n1. The applicant, if already certified once under PMKVY, opting for a lower NSQF-level course in the same sector, shall be discouraged; however, a higher job role in the same sector is permitted.\n1. The applicant may enrol not more than twice in the same sector, with a six-month gap between the certification date of the first course and the batch start date of the subsequent course.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "chief-minister-bc-ebc-chhatravas-anudan-yojana",
+  "name": "Chief Minister BC & EBC Chhatravas Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:**  ₹1,000/- per month for students residing in government hostels.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-income-certificate-residence-certificate-any-other-documents-a"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/Content.html?links&page=Schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmbccay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the BC or EBC category.\n1. The annual family income should be less than ₹3,00,000/-.\n1. The student must be residing in a government hostel.",
+  "_criteria_filled": 2
+}

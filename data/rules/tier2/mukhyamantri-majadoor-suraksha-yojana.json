@@ -1,0 +1,40 @@
+{
+  "id": "mukhyamantri-majadoor-suraksha-yojana",
+  "name": "Mukhyamantri Majadoor Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Maternity Leave Assistance –\n\n  - 45 days’ wage equivalent for registered female workers or wives of registered workers (first two deliveries).\n  - 15 days’ wage equivalent for fathers (paternity leave).\n\n1. Maternity Expense Assistance –\n\n  - Institutional deliveries covered under Janani Suraksha Yojana.\n  - ₹500/- aid for home deliveries of below-poverty-line women.\n  - Managed by the Public ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "two-photographs-of-yourself",
+    "bpl-card-or-destitutepoor-certificate",
+    "age-verification-certificate",
+    "disability-certificate",
+    "photocopy-of-labor-security-card"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=284",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have been residing regularly in the Gram Panchayat for at least five years.\n1. The age of the applicant should be between 18 and 59 years.\n1. The applicant should be capable of performing wage labor.\n1. The applicant should earn his livelihood by working as a laborer in agriculture, horticulture, afforestation, collection of forest produce, fishing, etc.\n1. Neither the applicant nor any member of his family should own agricultural land.\n\n<br>",
+  "_criteria_filled": 3
+}

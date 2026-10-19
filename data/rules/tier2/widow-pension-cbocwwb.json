@@ -1,0 +1,31 @@
+{
+  "id": "widow-pension-cbocwwb",
+  "name": "Widow Pension (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹1000/- per month in the form of pension shall be given to the widows of male registered construction workers of the Board.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-aadhaar-card-of-the-applicant-self-declar"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&message=Successfully+logged+out&OWASP_CSRFTOKEN=FG8Q-N9Y9-L6GR-9YL1-RX8I-7E5P-RHHN-9DZK",
+  "source_url": "https://www.myscheme.gov.in/schemes/wpcbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased worker should have been working at the establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contributions to the labour welfare fund should have been regularly received by the board.\n   1. The financial assistance will be given on the production of the death certificate issued by the competent authority along with self-declaration for not withdrawing pension from any other sources/office/factory.\n   1. The financial assistance will not be given to those beneficiaries who are covered under EPF.\n   1. The widow of a male construction worker would be eligible to avail the benefit of this scheme only if the male construction worker was a member of the Board for at least the last six months.\n   1. The widow should apply for the benefit of this scheme within one year.",
+  "_criteria_filled": 2
+}

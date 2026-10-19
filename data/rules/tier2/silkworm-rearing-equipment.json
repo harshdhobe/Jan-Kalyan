@@ -1,0 +1,26 @@
+{
+  "id": "silkworm-rearing-equipment",
+  "name": "Silkworm Rearing Equipment",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, selected beneficiaries are provided ₹40,000/- (in an 80:10:10 ratio) to purchase equipment necessary for silkworm rearing. Beneficiaries are required to contribute 10% of this amount themselves for the installation of the leaf chamber, while other rearing materials are provided by the department.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "voter-id-cardration-card-bank-account-details-land-documents-ownership-proof-pho"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ku",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must belong to a cluster or group.\n   1. In hilly areas, a minimum of 25 farmers is required to form a cluster, while in plain areas, at least 50 farmers are mandatory.\n   1. The beneficiary must be willing to engage in sericulture.\n   1. Preference will be given to farmers who are already engaged in sericulture or who have mulberry seedlings available.\n   1. Under the Silk Samagra Yojana, saplings are planted on the boundaries of farmers’ fields, with a standard of 300 saplings per acre.\n   1. All farmers in the selected cluster are required to plant the saplings.\n\n<br>",
+  "_criteria_filled": 1
+}

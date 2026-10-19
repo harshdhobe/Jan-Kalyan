@@ -1,0 +1,42 @@
+{
+  "id": "grant-of-transport-allowance-to-differently-abled-persons",
+  "name": "Grant of Transport Allowance to Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹ 300/- per month shall be paid through Anganwadi Centres as Transport Allowance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/transport-allowance-differently-abled-persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtadap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The applicant should have orthopaedic disability of 40% or above.\n- The annual income of the applicant should not exceed ₹ 75,000/-.\n- The applicant should not be in receipt of any other financial assistance for conveyance purpose from the department or any other source.\n- The age of the applicant should be 5 years and above.\n- The applicant should not have a formal education qualification.\n- If the applicant possess a free bus pass, then the same should be surrendered to the Directorate of Social Welfare.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,34 @@
+{
+  "id": "fair-recreational-activity-and-non-competitive-involvement-in-sports-urban-conne",
+  "name": "Fair Recreational Activity and Non-Competitive Involvement in Sports Urban Connect Scheme (F.R.A.N.C.I.S Urban Connect Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Development of safe play areas for healthy recreation and sports.\n- Provision of facilities such as walking tracks, volleyball courts, basketball courts, athletics tracks, football fields, hockey fields, artificial rock climbing walls, and tennis courts.\n- Additional amenities like changing rooms, toilet blocks, storage spaces, illumination, and mild steel fencing.\n- Funding assistance up to ₹3,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "any-documents-as-required-by-the-nodal-agency-to-verify-the-information-provided",
+    "location-with-survey-numbers",
+    "area-of-land",
+    "land-ownership-status",
+    "business-plan",
+    "management-structure",
+    "operational-details-upon-approval-of-the-application",
+    "the-beneficiary-must-sign-a-memorandum-of-understanding-mou-annexure-2-with-the",
+    "outlining-the-terms-and-conditions-for-the-development-and-maintenance-of-the-fa"
+  ],
+  "apply_url": "https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/francis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following entities owning land not less than 2,000 square meters within the Municipal jurisdiction shall be eligible for the benefit under this scheme:\n(a) Local Municipal body;\n(b) Schools, colleges, or such other institutions;\n(c) Registered Sports Clubs;\n(d) Registered Housing Societies;\n(e) Other Registered bodies espousing the cause of Physical fitness and Sport:\nProvided that an applicant whose land falls in any of the peripheral Panchayat jurisdiction may be considered eligible.",
+  "_criteria_filled": 1
+}

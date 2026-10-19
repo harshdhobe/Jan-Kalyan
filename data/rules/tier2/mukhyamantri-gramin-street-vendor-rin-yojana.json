@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-gramin-street-vendor-rin-yojana",
+  "name": "Mukhyamantri Gramin Street Vendor Rin Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Provision of low-cost equipment.\n- Provision of working capital (Karyasheela Punji).\n- Provision of loan (Rin) through banks.\n- Provision of Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI).\n\n##### ***Conditions***\n\n- The loan is made available from banks following the training.\n- The benefit is only for existing businesses (old ente",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-mobile-number-aadhaar-linked-samagra-number-bank-account-number-i"
+  ],
+  "apply_url": "https://kamgarsetu.mp.gov.in/Content/User-Manual-Registration.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgsvry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must reside in Madhya Pradesh.\n- The applicant must reside in a rural area.\n- The applicant must be between 18 and 55 years of age.\n- The applicant must belong to the poor class.\n- The applicant must be a migrant worker or a small trader (Street Vendor).\n- The applicant must be applying for a loan for an existing enterprise located in a rural area.\n- The applicant must be a migrant worker establishing a new enterprise.\n\n<br>",
+  "_criteria_filled": 3
+}

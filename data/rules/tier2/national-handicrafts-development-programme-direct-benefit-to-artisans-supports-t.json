@@ -1,0 +1,34 @@
+{
+  "id": "national-handicrafts-development-programme-direct-benefit-to-artisans-supports-t",
+  "name": "National Handicrafts Development Programme: Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Assistance of upto ₹8,000/- per month is granted in the form of a monthly allowance or lump sum grant or both, disbursed via the Public Financial Management System (PFMS)/ Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      }
+    ]
+  },
+  "documents": [
+    "1-photograph-2-self-attested-copy-of-the-certificate-of-handicrafts-award-bestow",
+    "in-case-of-physically-handicapped-artisan-6-affidavit-duly-attested-by-the-first",
+    "every-financial-year",
+    "the-master-craftsperson-has-to-submit-an-income-certificate-and-an-affidavit-in"
+  ],
+  "apply_url": "https://www.handicrafts.nic.in/pdf/FORM_OF_APPLICATION_FOR_GRANT_OFFINANCIAL.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nhdp-dba-saic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a master craftsperson who is the recipient of the Shilp Guru Award/ National Award/ Merit Certificate/ State Award/ any other bigger award.\n- The annual income of the artisan should not exceed ₹1,00,000/- in the preceding financial year.\n- The applicant should not be a recipient of similar financial assistance from any other source.\n- The artisan should not be less than 60 years of age on the date of application. Age may be relaxed in the case of artisans with disabilities, subject to submission of the Certificate issued by the appropriate authority.",
+  "_criteria_filled": 2
+}

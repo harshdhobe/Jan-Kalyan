@@ -1,0 +1,30 @@
+{
+  "id": "loan-based-scheme-for-pay-and-use-community-toilets",
+  "name": "Loan based Scheme for Pay and Use Community Toilets",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Livelihood:** Enables Safai Karamcharis to shift from manual scavenging to a respectable, income-generating sanitation business.   1. **Collateral-Free, Low-Interest Loan:** Offers up to ₹25 lakh without collateral, at just 4% interest (even lower for women and timely repayment).   1. **Moratorium period:** Six Months in addition to implementation period of six months.   1. **Repayment period",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-eg",
+    "aadhaar-card",
+    "voter-id-proof-of-age-eg",
+    "birth-certificate",
+    "school-certificate-project-proposal-detailing-the-plan-for-the-pay-use-community"
+  ],
+  "apply_url": "https://nskfdc.nic.in/en/content/home/pay-use-toilets",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbssk-spuct",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Indian citizens aged 18 years or above are eligible belonging to the category of:\n\n   1. Safai Karamcharis\n   1. Manual scavengers\n   1. Dependents of the above groups\n\nIndividual beneficiaries/ self-help groups from the target group of NSKFDC, through State Channelizing Agencies (SCAs), in collaboration with reputed organizations are eligible to apply for the scheme.\n&lt;br&gt;\n\n**Note:**\n\n   1. Scavenger/Safai Karamchari and their dependents duly identified under the National Scheme for Liberation &amp;amp; Rehabilitation of Scavengers (NSLRS) in a survey/registered co-operative societies of Safai Karamcharis/legally constituted association/firm promoted by the target group and also all those who produce a certificate from local Revenue Officer/local Municipal Officer/Cantonment Executive Officer/Railway Officer, Head of the Govt. Departments (i.e. Schools, Colleges, Forest, Health, Education, Animal Husbandry) having rank not less than Gazetted Officer, Elected Members of Municipal Body &amp;amp; Pradhan of Gram Panchayats for which the State Govt. is required to issue necessary notification, Regional Managers of the Regional Rural Banks/Nationalised Banks. \n   1. However, under the MS Act, 2013, a person identified as Manual Scavenger in a survey need not to provide any certificate once his/her name appeared in the final list of Manual Scavengers prepared by State/UT Governments.",
+  "_criteria_filled": 1
+}

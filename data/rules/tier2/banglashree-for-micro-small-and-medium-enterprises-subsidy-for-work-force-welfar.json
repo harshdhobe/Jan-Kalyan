@@ -1,0 +1,37 @@
+{
+  "id": "banglashree-for-micro-small-and-medium-enterprises-subsidy-for-work-force-welfar",
+  "name": "Banglashree for Micro, Small and Medium Enterprises: Subsidy for Work Force Welfare Assistance (WWAS)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "&gt; ***Pattern Of Assistance:***\n\nAn eligible micro, small or medium enterprise for its approved project will be entitled to a reimbursement of 100% in first year and 75% in the remaining years of expenditure incurred by it for paying its contribution towards Employees State Insurance (ESI) and Employees Provident Fund (EPF) if at least 50% of the employees in the enterprise are recruited from am",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-memorandum-of-association-and-articles-of-association-authenticated",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "money-receipts-existing-manufacturing-activities-in-west-bengal-stating-items",
+    "annual-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-case-of-rented-leaseh",
+    "copy-of-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conversion-c",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-scheme-copies-of-documents",
+    "their-age",
+    "date-of-appointment",
+    "nature-of-appointment-and-nature-of-work-certificate-from-the-regional-provident",
+    "esi-as-per-annexure-ill-documents-showing-the-recruitment-from-the-employment-ba"
+  ],
+  "apply_url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTU5/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MDFfMTU0M19tc21ldF8xODAxMV8yMjA3MjAyMF9jb21wcmVzc2VkLnBkZg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmsmewwas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The business/organization should be a Micro/ Small/ Medium Enterprise.\n   1. The business/organization should belong to the manufacturing sector.\n   1. The business/organization should have started production on or after 1st April 2019.\n   1. The business/organization should be in the private sector/ cooperative sector/ joint sector undertaking or should be a company/ undertaking owned and managed by the State Government or the Industrial SHGs.\n   1. The Date of Commencement of Commercial Production (DOCCP) should be between 1st April 2020 to 31st March 2025.\n\n<br>",
+  "_criteria_filled": 1
+}

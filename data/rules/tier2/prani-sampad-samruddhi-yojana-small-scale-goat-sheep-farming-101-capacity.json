@@ -1,0 +1,27 @@
+{
+  "id": "prani-sampad-samruddhi-yojana-small-scale-goat-sheep-farming-101-capacity",
+  "name": "Prani Sampad Samruddhi Yojana: Small Scale Goat / Sheep Farming (10+1 Capacity)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "**1. Cost of one Goat / Sheep Unit (10+1):**\n**Sl. No.****Component****Cost (in ₹)**1.Construction of a shed of 180 sq ft for 10 females, 10 Kids &amp;amp;amp;amp; one male @ ₹ 200/sq. ft₹ 36,000/-2.Cost of animals along with transportation cost - Female (5 - 6 months) @ ₹ 5000/- &amp;amp;amp;amp; Male one (6-7 months) @ ₹ 6000/-₹ 56,000/-3.Insurance Premium @ 7% for 11 animals for one year. ₹ 8,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-records-of-the-proposed-site-caste-certificate-for-scst-applic",
+    "000-or-more-insurance-schedule-after-induction-of-animals-health-certificate-of"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/sites/default/files/2025-12/Small%20scale%20goat%20sheep%20farming%2010%2C%201%20capacity.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssgsf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Odisha.\n1. The applicant must be interested in small, marginal farmers and landless labourers.\n1. The applicant must be willing to establish a new Goat/Sheep Unit (10+1 capacity) in individual mode.\n1. The applicant must have an Aadhaar linked at the time of submission of the application.\n1. The applicant must have a suitable proposed site for the establishment of the goat/sheep unit, verified by the Block Level Inspection Team (BLIT).\n1. The applicant proposal must be for a new project only (as verified by BLIT at the time of initial verification).\n1. The applicant must have, or be willing to arrange, the remaining cost (after subsidy) through a bank loan or self-finance.\n> **Preference / Priority / Reservation:**\n\n- Priority is given to SC, ST, Women, Transgender, and Differently-Abled categories, who are eligible for 60% subsidy.\n- General (Male) category applicants are eligible for 50% subsidy.\n- The total target is 1,875 units for SC, ST, and General (including Women, Transgender, and Differently-Abled) beneficiaries.\n- In case of non-availability of beneficiaries from a particular reserved category (SC or ST), the target may be interchanged among the reserved categories. If no beneficiary is available from any reserved category, the target may be allotted to the General category.\n- District-wise targets are specified in [Annexure-VI](https://fard.odisha.gov.in/sites/default/files/2025-12/Small%20scale%20goat%20sheep%20farming%2010%2C%201%20capacity.pdf) of the scheme guidelines.\n<br>",
+  "_criteria_filled": 1
+}

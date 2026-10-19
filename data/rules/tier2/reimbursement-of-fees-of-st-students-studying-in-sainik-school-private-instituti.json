@@ -1,0 +1,26 @@
+{
+  "id": "reimbursement-of-fees-of-st-students-studying-in-sainik-school-private-instituti",
+  "name": "Reimbursement of Fees of ST Students Studying in Sainik School Private Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Free arrangement for accommodation, school fees and studies for the students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-pre"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=893",
+  "source_url": "https://www.myscheme.gov.in/schemes/rofpsssisspi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Madhya Pradesh.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The applicant must be enrolled in a recognized Sainik School or private institution covered under the scheme.",
+  "_criteria_filled": 1
+}

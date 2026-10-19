@@ -1,0 +1,31 @@
+{
+  "id": "kasturba-gandhi-special-term-deposit-receipt-scheme",
+  "name": "Kasturba Gandhi Special Term Deposit Receipt Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Monetary Benefits:**\n\n- A Special Term Deposit Receipt (STDR) of ₹2,000/- for girl students enrolled in Class 11.\n- A Special Term Deposit Receipt (STDR) of ₹4,000/- for girl students pursuing a graduation course.\n\n> **Mode of Disbursement:**\n\n- STDRs (Special Term Deposit Receipts) in the name of the student.\n\n> **Validity:**\n\n- An STDR of ₹2,000/- is valid for 5 years.\n- An STDR of ₹4,000/- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-jan-aadhaar-card-of-the-student-marksheet-copy-certificate-of-re"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=63d105de12a7f949a0e67697",
+  "source_url": "https://www.myscheme.gov.in/schemes/kgsfdrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **General Eligibility**\n\n1. The applicant should be a native of Rajasthan state.\n1. The applicant should be a girl student.\n1. The applicant should have passed the 8th class from a Kasturba Gandhi Residential Girls School in Rajasthan.\n> **Eligibility Criteria for Class 10****th** **Students**\n\n1. The applicant should have passed the 10th class with a minimum of 50% marks while studying in a government school. 1. The applicant should be enrolled in the 11th class in a government school. \n> **Eligibility Criteria for Class 12****th** **Students**\n\n1. The applicant should have passed class 12th with at least 50% marks from a government school 1. The applicant should be enrolled in the first year of a recognized undergraduate course.",
+  "_criteria_filled": 2
+}

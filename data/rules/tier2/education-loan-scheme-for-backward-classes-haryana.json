@@ -1,0 +1,41 @@
+{
+  "id": "education-loan-scheme-for-backward-classes-haryana",
+  "name": "Education Loan Scheme for Backward Classes Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Education loan for pursuing professional and technical education at the graduate and higher levels.\n1. The maximum loan amount provided is ₹15,00,000/- for studies in India.\n1. The maximum loan amount provided is ₹20,00,000/- for studies abroad.\n1. The interest rate is 4% per annum.\n1. For girl students, the interest rate is 3.5% per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenshipage-proof-aadhar-card-resident-proofaddress-proofownership-pr"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/elsbch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be between 18 to 55 years of age.\n1. The applicant should be a permanent resident of Haryana.\n1. The annual family income of the applicant should not exceed ₹3,00,000/- in both rural and urban areas.\n1. The applicant should belong to Backward Classes.\n1. The applicant should have obtained admission for any professional and technical courses approved by an appropriate agency, such as AICTE, Medical Council of India, UGC, etc., in a duly accredited/recognised institute.\n1. The applicant should have a minimum of 50% marks in the qualifying exam, i.e., the exam whose qualification is a prerequisite for the course.\n1. The applicant should have a Pariwar Pehchan Patra (PPP ID).\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,39 @@
+{
+  "id": "awareness-programme-on-childhuman-trafficking-family-planning-legal-awareness-he",
+  "name": "Awareness Programme on Child/Human Trafficking, Family Planning, Legal Awareness, Health etc.",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- The benefit is to generate awareness among the Tea Tribes and Adivasi community on issues like child/human trafficking, family planning, legal awareness, and health (reduction of Maternal Mortality Rate, Infant Mortality Rate, Alcoholism, and maintenance of hygiene).\n- This awareness generation aims towards bringing effective social and behavioural change amongst the community.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "track-record-of-having-experience-in-providing-awareness-programmes-which-includ",
+    "family-planning",
+    "reducing-child-labour",
+    "improvement-of-health",
+    "prioritizing-girls-education",
+    "reduction-of-maternal-mortality-rate",
+    "infant-mortality-rate",
+    "alcoholism",
+    "maintenance-of-hygiene-etc-with-documentary-evidence-such-as-audit-report",
+    "photographic-evidence",
+    "etc-details-regarding-the-availability-of-well-trained-staff",
+    "infrastructure",
+    "and-the-required-managerial-expertise-to-organize-and-carry-out-the-activities-u",
+    "provide-documentary-evidence-total-population-covered-till-date-indicate-the-num"
+  ],
+  "apply_url": "https://ttwd.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/apchtfplahe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Non-Governmental Organization.\n- The applicant must have valid registration under Societies Act, XXI of 1860.\n\n<br>",
+  "_criteria_filled": 1
+}

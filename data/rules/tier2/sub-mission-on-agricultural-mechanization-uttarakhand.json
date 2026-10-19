@@ -1,0 +1,26 @@
+{
+  "id": "sub-mission-on-agricultural-mechanization-uttarakhand",
+  "name": "Sub-Mission on Agricultural Mechanization - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the scheme, all farmers of the state are eligible to receive financial assistance for the purchase of modern agricultural equipment for farming. A 50% subsidy/financial assistance is provided to SC/ST, small and marginal, and women farmers (of all categories), while 40% subsidy/financial assistance is provided to other (large) farmers. The details are as follows:\n**Sl. No.****Name of Equipme",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-and-aadhaar-linked-mobile-number-bank-account-details-land-ownershi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smamuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must be a farmer engaged in agricultural activities.\n   1. SC/ST farmers, small and marginal farmers, and women farmers (of all castes) are eligible for 50% financial assistance under the scheme, while 40% subsidy/financial assistance is provided to other (large) farmers. \n   1. The name of the applicant farmer must be recorded in the revenue records of the cultivable land owned or cultivated by them.\n\n<br>",
+  "_criteria_filled": 1
+}

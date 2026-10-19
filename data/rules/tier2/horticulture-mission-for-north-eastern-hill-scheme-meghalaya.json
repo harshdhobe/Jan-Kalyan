@@ -1,0 +1,26 @@
+{
+  "id": "horticulture-mission-for-north-eastern-hill-scheme-meghalaya",
+  "name": "Horticulture Mission for North Eastern Hill Scheme- Meghalaya",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nTraining, Awareness program, extension, Technology support, Subsidy on inputs, Improving marketability and marketing support.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=70",
+  "source_url": "https://www.myscheme.gov.in/schemes/hmneh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n1. The applicant should possess owned or leased land of at least 200 sqms.",
+  "_criteria_filled": 1
+}

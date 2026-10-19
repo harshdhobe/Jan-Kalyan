@@ -1,0 +1,37 @@
+{
+  "id": "mukhyamantri-bhedbakri-sheepgoat-palak-uthan-yojana-for-scheduled-castes",
+  "name": "Mukhyamantri Bhed/Bakri (Sheep/Goat) Palak Uthan Yojana for Scheduled Castes",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. **Sheep Unit:** 20 Ewes and one Ram with Green Fodder cum Salt Block Feeder free of cost. 1. **Goat Unit:** 20 Does and one Buck with Green Fodder cum Salt Block Feeder free of cost.1. **Veterinary Assistance:** All animals in the established unit will receive deworming, vaccination, and treatment free of cost by the concerned Veterinary Institution.1. **Wool Purchase Assistance:** Assistance f",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "schedule-caste-certificate-mandatory-aadhar-card-mandatory-self-declaration-cert",
+    "000-duly-signed-by-the-person-mandatory-availability-of-space-for-the-constructi"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbbpuyhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Scheduled Caste\n1. The applicant should be of 18 to 55 years of age.\n1.  The applicant should be a resident of Haryana \n1. The applicant should be a Parivar Pehchaan Patra (PPP).\n1. The applicant should not be employed even in the Private Sector/ Govt. /Semi Govt. Organizations.\n1. There would be no mandatory educational qualifications or training requirements.\n1. Any group/firm/organisation would not be permitted to apply under the Scheme, as the Scheme being individual beneficiary-oriented.\n1. The applicant would have to submit a Self-Declaration in the format annexed as [Annexure-I (Page-9)](https://pashudhanharyana.gov.in/sites/default/files/documents/Scheme%202024-25/BhedBakri%20(SheepGoat)%20Palak%20Utthan%20Yojanafor%20the%20year%202024-25%20(N).pdf) on the portal for being unemployed and for undertaking to abide by other conditions as required under the Scheme. \n<br>",
+  "_criteria_filled": 3
+}

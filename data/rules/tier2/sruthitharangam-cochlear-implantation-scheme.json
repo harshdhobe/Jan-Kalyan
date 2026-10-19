@@ -1,0 +1,41 @@
+{
+  "id": "sruthitharangam-cochlear-implantation-scheme",
+  "name": "Sruthitharangam ( Cochlear Implantation Scheme )",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, children who are hearing impaired will be provided free cochlear implantation surgery.\n\n**Note:** The children will be selected by Regional and State level technical committees for cochlear implantation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 3
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-identity-2-proof-of-age-of-the-child-3-income-certificate-4-copy-of-b"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/vmcatalogue/notifications/ea56ddc8ce0461b846d58f30a101fdaf.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a resident of Kerala State.\n2.\tThe child who is hearing impaired is eligible under the scheme. \n3.\tThe child should be in the age group of 0-3 years.\n4.\tThe annual family income of the applicant should be below ₹2 Lakhs.\n**Note:** The Screening Committee would be empowered to make exceptions beyond 3 years and up to 5 years of age on a case-to-case basis; where the committee feels that a high possibility of success exists or if there are other compelling technical reasons warranting or making an exception.",
+  "_criteria_filled": 4
+}

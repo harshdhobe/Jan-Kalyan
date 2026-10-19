@@ -1,0 +1,27 @@
+{
+  "id": "mukhyamantri-sukh-ashray-yojana",
+  "name": "Mukhyamantri Sukh Ashray Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Children Aged 0-14 Years: ₹1,000 per month for general maintenance.\n1. Children Aged 14-18 Years and Destitute Women: ₹2,500 per month.\n1. Young Adults Aged 18-27 Years: ₹4,000 per month pocket allowance; up to ₹1,00,000 annually for coaching and hostel fees; ₹3,000 per month for PG rent where hostels are unavailable.\n1. Housing Support: 3 bighas of land and ₹3,00,000 for house construction.\n1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "bonafide-himachali-certificate-income-certificate-proof-of-date-of-birth-10th-ce",
+    "if-applicable-proof-of-divorce-if-applicable-copy-of-parivar-register-verificati"
+  ],
+  "apply_url": "https://www.itiberthin.edu.in/wp-content/uploads/2024/10/Application-Form-for-Students-under-MMSSY-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Himachal Pradesh.\n1. Orphans, abandoned, or specially-abled children under 27 years of age.\n1. Destitute women who are either unmarried or whose husbands have been missing for over 7 years.\n1. Senior citizens who do not have any support are also eligible under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

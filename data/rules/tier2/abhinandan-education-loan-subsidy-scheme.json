@@ -1,0 +1,26 @@
+{
+  "id": "abhinandan-education-loan-subsidy-scheme",
+  "name": "Abhinandan Education Loan Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Benefits**\n\n1. A subsidy of Rs 50,000 will be provided to students by the Government of Assam on education loans up to Rs 1 lakh.\n1. In this scheme, all the applicant students can apply for the subsidy by paying 25% of their loans.\n1. Under this scheme, the subsidy can be obtained only on loans taken from commercial banks like Federal Bank and HDFC and regional rural banks like Assam Rural Regio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-document-students-aadhaar-card-parent-identification-docume"
+  ],
+  "apply_url": "https://assam.gov.in/scheme-page/223",
+  "source_url": "https://www.myscheme.gov.in/schemes/aelss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. It is mandatory for the student to be a permanent resident of the state of Assam.\n1. The student must have taken a loan from a commercial or rural bank, otherwise, he cannot avail of the benefit of the scheme.\n1. The bank has been recognized by the Reserve Bank of India.\n1. The benefit of this scheme can be availed only as a subsidy on education loans.\n1. It is mandatory for the student’s parents to have an education loan of more than Rs 1 lakh.\n\n<br>",
+  "_criteria_filled": 1
+}

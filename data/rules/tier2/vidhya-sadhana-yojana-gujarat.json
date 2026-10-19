@@ -1,0 +1,36 @@
+{
+  "id": "vidhya-sadhana-yojana-gujarat",
+  "name": "Vidhya Sadhana Yojana Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Free bicycles given to the scheduled tribal girl students as a gift.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate"
+  ],
+  "apply_url": "https://tribal.gujarat.gov.in/vidya-sadhna-yojana-free-bicycles",
+  "source_url": "https://www.myscheme.gov.in/schemes/vsyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a girl student.\n1. The applicant should belong to the Scheduled Tribe category.\n1. The applicant should be studying in class 9th in a recognized school.1. The applicant’s annual family income should not exceed ₹6,00,000/-.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

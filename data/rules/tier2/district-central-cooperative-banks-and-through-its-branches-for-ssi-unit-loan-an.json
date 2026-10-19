@@ -1,0 +1,28 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-for-ssi-unit-loan-an",
+  "name": "District Central Cooperative Banks and through its Branches: For SSI Unit Loan and Other NFS Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Up to ₹1,00,000/-.- **Interest Rate:** 13% (subject to change).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-small-scale-industries-ssi-unit-registration-if-applicable-bus"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3570",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbssi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - Loans should be applicable only for small-scale industries (SSI) Unit and Other Non-Farm Sector (NFS) Activities.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

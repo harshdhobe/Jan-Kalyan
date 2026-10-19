@@ -1,0 +1,38 @@
+{
+  "id": "investment-promotion-scheme-ips-for-handicraft-artisans-assistance-for-capital-i",
+  "name": "Investment Promotion Scheme (IPS) For Handicraft Artisans: Assistance For Capital Investment To Uplift The Economic Condition Of Artisans/ Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "<br>\n\nName of TradeApproximate Cost(₹)Senting work, Cobbler, Mobile repairing10,000/-Different types of Push Carts, Plumber, Beauty Parlour, Repairing of electrical appliances, Welding Work, Carpentry, Laundry services, Broom maker, Milk-Curd seller, Fish seller, Papad maker, Pickle maker, Hot cold beverages seller, Puncture kit, Flour mill, Masala mill, Hair cutting15,000/-Mason work, Vehicle ser",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipshaaciec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Handloom and Handicrafts artisan.\n   1. The applicant should be a resident of the U.T. of Dadra and Nagar Haveli &amp;amp; Daman and Diu.\n   1. The applicant should be above 18 years of age.\n   1. The applicant should belong to the SC/ST/OBC/EWS communities.\n   1. The applicant should be engaged in 27 different activities, as mentioned in the [Official Guidelines](https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf) (Refer page no. 47 &amp;amp; 48 of the document).   1. Applicant’s annual income should be upto ₹2,00,000/- for rural areas and upto ₹2,50,000/- in urban areas.",
+  "_criteria_filled": 3
+}

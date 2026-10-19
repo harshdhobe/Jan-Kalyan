@@ -1,0 +1,31 @@
+{
+  "id": "battery-operated-wheelchair-by-welfare-of-differently-abled-persons-department",
+  "name": "Battery Operated Wheelchair by Welfare of Differently Abled Persons Department",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of Battery-Operated Wheelchairs.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-any-other-documents-if-re"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bowbwodapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be affected by Muscular Dystrophy or Tetraplegia.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,36 @@
+{
+  "id": "back-to-lab-post-doctoral-fellowship-programme",
+  "name": "Back-To-Lab Post-Doctoral Fellowship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The scheme offers a Post-doctoral fellowship of ₹45,000/- + 10% HRA per month along with an annual contingency grant of ₹75,000/-.\n   1. Duration of the Fellowship is limited to a maximum of 2 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-photo-of-applicant-3-proof-of-date-of-birth-thos"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/wp-content/uploads/2019/06/DECLARATION.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/btlpdfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tOnly women candidates are eligible to apply.\n2.\tApplicant should be a Permanent Resident of Kerala.\n3.\tApplicant should be unemployed and should be under career-break due to family commitments or other related matters, at the time of application.\n4.\tApplicant should not receive any emoluments from any source at the time of application.\n5.\tThose who have availed KSCSTE Back-to-Lab Fellowship earlier for their PhD programme are not eligible to apply.\n6.\tAge limit: 40 years - as on the date of application, relaxable for 3 years for OBC and 5 years for SC/ST.\n7.\tApplicant should have qualified Ph.D. in Science/Engineering subjects.\n8.\tApplicant should have scored a minimum of 60% marks for post-graduation.\n9.\tApplicant should have chosen an institution as Research Centre subject to the following.\n•\tThe Research Centre should not be the same as the Ph.D. Research Centre.\n•\tTenable only in R&amp;amp;D institutions (National/State level) or University Departments in Kerala and should belong to the category of “Government Institutions” [however, premier National Institutions viz., IISER, IIT, IISc. etc. outside the State shall also be considered].\n10.\tApplicant should have published at least one research paper in a SCI Journal/ secured patent.\n11.\tThose who have already availed of one Post-Doctoral Fellowship from KSCSTE or elsewhere are not eligible to apply.",
+  "_criteria_filled": 3
+}

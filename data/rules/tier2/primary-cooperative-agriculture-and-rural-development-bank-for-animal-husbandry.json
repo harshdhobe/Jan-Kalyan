@@ -1,0 +1,29 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-animal-husbandry",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Animal Husbandry",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** \n\n   1. **For purchasing 2 Buffaloes:** ₹20,000/-.   1. **For purchasing 21 Goats:** 24,500/-.\n\n  - **Interest Rate:** 14.5% to 16.5% (subject to change).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-agricultural-occupation-eg",
+    "farmers-certificate-if-applicable-any-other-documents-if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3564",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcardah",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a farmer.\n  - The beneficiary should be engaged in animal husbandry.\n  - The beneficiary should be interested to avail Animal Husbandry Loan from the Primary Cooperative Agriculture and Rural Development Bank.\n  - The beneficiary should have the intention to use the loan specifically for animal husbandry (e.g., purchasing buffaloes or goats).\n\n<br>",
+  "_criteria_filled": 1
+}

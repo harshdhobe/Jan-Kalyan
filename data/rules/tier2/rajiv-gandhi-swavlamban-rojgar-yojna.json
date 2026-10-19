@@ -1,0 +1,45 @@
+{
+  "id": "rajiv-gandhi-swavlamban-rojgar-yojna",
+  "name": "Rajiv Gandhi Swavlamban Rojgar Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "1. The quantum of loan granted under this scheme, to proposed and functioning units, shall be up to ₹3,00,000/-.\n   1. Govt. of Delhi would provide a subsidy @ 15% of the project cost subject to the ceiling of ₹7,500/- per entrepreneur.  \n\n**Note 01:** The concerned entrepreneur shall make at least a 10% contribution of the amount demanded as a loan from the DKVIB.\n**Note 02:** In the case of weak",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-electoral-card-valid-passportaadhar-card-as-identity-proof-two-passport",
+    "rent-agreement",
+    "no-objection-certificate-from-the-owner",
+    "electricity-bill",
+    "etc-declaration-in-the-prescribed-format-proforma-attached-consent-letter-of-the",
+    "the-above-documents-can-be-uploaded-on-the-portal-in-jpeg",
+    "jpg",
+    "png",
+    "gif",
+    "or-pdf-format-file-size-should-not-be-more-than-2-mb"
+  ],
+  "apply_url": "https://dkvib.delhi.gov.in/sites/default/files/DKVIB/generic_multiple_files/rgsry-form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgsry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any one of the following can avail loan under the scheme:\n\n  - School/College dropouts\n  - Individual entrepreneur\n  - Trade Professionals\n  - Artisan\n  - Passed out candidates from any technical/professional institute recognized by the Government and its authorized undertaking bodies, without further training. \n  - Small-Scale Industrial units with a total investment in plant, machinery, and equipment, not exceeding the ceiling prescribed for small-scale units by the Central Government from time to time and must be located within the N. C. T. of Delhi, are also eligible for financial aid/ loan.\n\n2. The age of the applicant should be between 18 years to 50 years.",
+  "_criteria_filled": 3
+}

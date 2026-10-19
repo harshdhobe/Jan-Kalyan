@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-merit-award",
+  "name": "Chief Minister Merit Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Financial Support:** ₹3,000/- per year for five consecutive years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/26772",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should belong to the Adi Dravidar/ Tribal/ Adi Dravidar converted to Christianity communities.\n- The beneficiary should have passed plus 2 Public Examination.\n- The beneficiary should be continuing their studies after plus 2 standards.",
+  "_criteria_filled": 1
+}

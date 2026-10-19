@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-purchasing-study-materials-for-medical-and-engineering-students-f",
+  "name": "Assistance for Purchasing Study Materials for Medical and Engineering Students from Socially and Educationally Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Financial assistance per student:**\n\n- For Medical Student: ₹10,000/-\n- For Engineering Student: ₹8,000/-\n- For Diploma Student: ₹3,000/-\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-pass-bookcancelled-cheque-caste-certificate-income-certifica"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/iamessec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a student belonging to the Socially and Educationally Backward Class (SEBC) category.\n1. The applicant should be pursuing a medical, engineering, or diploma/degree course within the state of Gujarat.\n1. The annual family income of the applicant should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

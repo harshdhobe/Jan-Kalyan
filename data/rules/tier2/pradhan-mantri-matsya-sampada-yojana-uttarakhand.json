@@ -1,0 +1,26 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-uttarakhand",
+  "name": "Pradhan Mantri Matsya Sampada Yojana - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "A 60% subsidy is provided to SC/ST and Women beneficiaries for pond construction, trout units, rearing units, RAS, biofloc units, cage culture, cold storage, motorcycles with ice boxes, fish kiosks, ornamental fisheries, feed mills, hatcheries, and similar activities. A 40% subsidy is provided for all other categories, and a 20% subsidy is provided specifically for large RAS units.\n**Table-1:**\n**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-records-permanent-residence-certificate-caste-certificate-bank"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant may belong to any caste category, including General, Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or be a woman.\n1. The applicant must have availability of land and a water supply source.\n\n<br>",
+  "_criteria_filled": 1
+}

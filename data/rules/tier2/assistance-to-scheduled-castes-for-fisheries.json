@@ -1,0 +1,31 @@
+{
+  "id": "assistance-to-scheduled-castes-for-fisheries",
+  "name": "Assistance to Scheduled Castes for Fisheries",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Fish Seed Rearing₹90/- per 1000 spawn to fry (30% recovery); ₹260/- per 1000 fry to fingerlings (35% recovery); ₹460/- per 1000 spawn to fingerlings (12% recovery); Rearing time: 30, 60, 90 days1 YearFish Seed Stocking100% assistance for fish seed and transportation cost1 YearPrawn Seed St",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-quotation-caste-certificate-passport-size-photo-bank-passbook-cancel"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Bu2wc90IXRdJKrcfHJ/9ew==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifspta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individuals/ societies/ self-help groups/ associations/ reservoir monopolies/ private units etc. involved in inland fisheries activities can avail the benefits of inland schemes.\n  - The applicant should be a Fisherman.\n  - The applicant should belong to the Schedule Caste(SC) category.\n  - Applicant should be above 18 years of age.\n  - The beneficiary fisherman must have his own bank account.",
+  "_criteria_filled": 2
+}

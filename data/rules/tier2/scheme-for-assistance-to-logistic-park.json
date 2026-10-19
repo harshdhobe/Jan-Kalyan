@@ -1,0 +1,35 @@
+{
+  "id": "scheme-for-assistance-to-logistic-park",
+  "name": "Scheme for Assistance to Logistic Park",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 25% of eligible Fixed Capital Investment (excluding land and vehicles) up to ₹15 crores.  - **Stamp Duty Reimbursement:** 100% reimbursement on land purchase stamp duty for approved projects.  - **Central and State Scheme Benefits:** Combined assistance from State and Central Government up to 60% of project cost.  - **Reimbursement Linked to Milestones:** Disbursement i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationself-attested-application-form-copy-of-registration-for-constitu",
+    "partnership-act-or-the-companies-act-or-spv-copy-of-pan-card-of-developer-compan",
+    "partnership-act-or-the-companies-act-or-spv-copy-of-pan-card-of-developer-compan",
+    "features-and-scope-of-logistic-park",
+    "benefits-to-logistic-service-beneficiaries-in-the-park-to-be-established",
+    "etc-ca-certified-net-worth-of-the-developer-companyfirmpromoters-authority-lette",
+    "then-give-details-sanction-letter",
+    "approval-letter",
+    "disbursement",
+    "etc-notarized-affidavit"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/9-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfalp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries Association / any enterprise registered under the Societies Act, Partnership Act, Trust Act, Companies Act or Special Purpose Vehicle (SPV) constituted for setting up of Logistics Park shall be eligible to develop a Logistic Park under this scheme.\n  - The institution must intend to develop a logistic park as per the approved guidelines of the State Level Empowered Committee (SLEC).\n  - The institution should possess 100% ownership of the land required for the project.\n  - Projects under execution before obtaining registration will not qualify for assistance.\n  - Assistance is only available for infrastructure-related Fixed Capital Investment (excluding land cost and vehicles).\n  - Projects should be completed within 3 years from the date of approval, with a possible 1-year extension under exceptional circumstances.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-certified-seeds-oil-seeds",
+  "name": "Distribution of Certified Seeds-Oil Seeds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Subsidy of 50% of the seed cost or ₹1,200/- per quintal, whichever is less.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-eg",
+    "aadhaar-card",
+    "voter-id-proof-of-land-ownership-or-cultivation-seed-purchase-receipt-certificat"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7613",
+  "source_url": "https://www.myscheme.gov.in/schemes/docsos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should produce and supply Foundation and Certified Class seeds to the Department.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

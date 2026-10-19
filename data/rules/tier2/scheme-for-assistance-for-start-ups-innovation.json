@@ -1,0 +1,41 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation",
+  "name": "Scheme For Assistance For Start Ups/ Innovation",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Assistance to StartupsThe Quantum of Assistance as under would be provided to the Startups whose innovative project is approved/sanctioned by SLEC.\n \nSustenance Allowance:A sustenance allowance of ₹ 20,000 per month per startup will be provided to the Startups for a period of one year.\nIf startups have at least one woman co-founder, ₹ 25,000 per month per startup will be provided as a sustenance a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "component-assistance-for-seed-support-1-pitch-presentation-with-the-following-de",
+    "the-advantage-of-product-service-over-competition",
+    "etc-detailed-project-cost-breakup-tentative-action-plan-for-the-next-3-5-years-r",
+    "leaflet",
+    "a-letter-from-the-host-organization",
+    "etc-2-receipt-of-fees-paid-for-participating-in-the-training-program-3-certifica",
+    "clearly-indicating-the-name-of-the-participants-founderco-founders-of-startup-co",
+    "leaflet",
+    "a-letter-from-the-host-organization",
+    "etc-2-details-of-fees-to-be-paid-for-participating-in-the-acceleration-program-p",
+    "interviewstestimonials-of-stakeholdersbeneficiaries",
+    "recognitions-or-achievements",
+    "etc-describe-the-non-measurable-social-impact-generated-by-the-startup-you-must",
+    "interviewstestimonials-of-stakeholdersbeneficiaries",
+    "recognitions-or-achievements",
+    "etc-2-evaluation-matrix-by-nodal-institution-3-recommendation-form-by-nodal-inst"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/Policies/New_Industrial_Policy/14%20Scheme%20for%20Assistance%20for%20Start%20Ups%20and%20Innovation.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Startups:**\n\n1. Any individual/group of individuals having an innovative idea/concept and recommended by an approved Nodal Institution will be eligible to get recognized as a startup under this scheme. \n1. The innovative project can be from any sector or any faculty/branch of science/ technology/ engineering/ agriculture/ healthcare and no innovation worth its name is restricted from availing assistance just because of its being in a particular sector, making this a sector agnostic scheme.\n\n<br>\n\n**Note 1:** An entity formed by splitting up or reconstruction of an existing business shall not be considered a &#39;Startup&#39;.\n**Note 2:** The startups which are availing incentives as a &#39;startup&#39; in any other &#39;startup scheme&#39; of the Government of Gujarat will not get incentives under this scheme. However, the startups/innovators availing benefits under the Student Startup and Innovation Policy (SSIP) would also be eligible to avail of assistance under this scheme.\n<br>\n\n> **For Nodal Institution:**\n\n1. Any University, Government approved/ affiliated/ recognized educational institution, Incubation center, PSU, R&amp;D Institutions, private and other establishments operating in Gujarat.\n1. The institution should be registered under the Companies Act-2013, rule of Section 8, as a &#39;non-profit making company&#39;.\n1. The institution should have separate spaces and engage full-time employees for the purpose.\n\n<br>\n\n> **For Mentor:**\n\n1. The mentor means a resource person who is registered under this scheme and associated/recommended by the Nodal Institution.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mukhyamantri-teerth-darshan-yojana",
+  "name": "Mukhyamantri Teerth Darshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. The State Government provides one-time assistance in a lifetime to senior citizens above 60 years of age (2 years relaxation in case of women) to visit a prescribed pilgrimage outside the state.\n   1. In this scheme, senior citizens of the state are made to travel to the identified pilgrimage sites of the country free of cost.\n   1. The pilgrims travel by special train, breakfast, food, and pur",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-for-residence-proof-ration-card",
+    "driving-license",
+    "electricity-bill",
+    "or-any-other-evidence-recognized-by-the-state-government-colored-passport-size-p"
+  ],
+  "apply_url": "https://dharmasva.mp.gov.in/uploads/files/Tirth_darshan___Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The age of the male applicant should be 60 years or above.\n   1. The age of the female applicant should be 58 years or above.\n   1. There is no age limit for disabled citizens whose disability is more than 60%.\n   1. If the husband and wife want to travel together, then if one of the spouses is eligible, the life partner can also go on the journey, even if his age is less than 60 years.\n   1. The applicant should not be a taxpayer.\n   1. The applicant should not have taken the benefit of Teerth Darshan Yojna earlier.\n   1. The applicant should be physically and mentally fit for the journey and should not be suffering from any infectious disease like TB, congestive cardiac, obstructive respiratory disease, coronary insufficiency, coronary thrombosis, mental illness, infectious leprosy, etc. \n\n**Note 01:** Application can be made for pilgrimage by forming a group, the head of the group will be the main applicant, but such group will not exceed 25 persons.\n**Note 02:** The applicant providing false information and hiding facts can be deprived of benefits under the scheme anytime.\n**Note 03:** In order to travel, it is mandatory for the applicant to provide a medical certificate that he is physically and mentally fit and not suffering from any infectious disease.\n**Note 04:** Single pilgrims above 65 years of age and 60% of disabled citizens are eligible to take a helper (Caretaker).",
+  "_criteria_filled": 2
+}

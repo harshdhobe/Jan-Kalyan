@@ -1,0 +1,38 @@
+{
+  "id": "biponi-scheme",
+  "name": "Biponi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "This scheme aims at Providing financial assistance for participation in Exhibition /Trade Fair/ Melas within the State, outside the state and outside the country.\nAssistance at Rs. 5,000/- as stall rent for participation inside the state.\nAssistance at Rs. 15,000/- as stall rent for participation outside the state.\nDA at 50/- per stall for actual fair days for participating units within the distri",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-document-one-pass-port-size-photograph-copy-of-industry-reg",
+    "as-applicable-training-certificate",
+    "if-available-copy-of-cancelled-cheque-with-the-name-of-the-proprietor-printed-qu"
+  ],
+  "apply_url": "https://industries.assam.gov.in/sites/default/files/Biponi_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The location of the industry must be in rural areas of Assam.\n1. The industry must be already existing and also the unit necessity is to have a continuous operation for a minimum of 2 years.\n1. The industry/unit should hold its own workshed for the process and production.\n1. The age of the applicant should be not less than 18 years and more than 50 years to apply for this scheme.\n1. There is no bar of educational qualification.\n\n<br>",
+  "_criteria_filled": 3
+}

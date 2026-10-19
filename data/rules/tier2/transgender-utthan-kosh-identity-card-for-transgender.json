@@ -1,0 +1,28 @@
+{
+  "id": "transgender-utthan-kosh-identity-card-for-transgender",
+  "name": "Transgender Utthan Kosh – Identity Card for Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Issuance of identification cards to recognized transgender individuals.\n- Transgender person applies for an ID card themselves, the payment will be made to their account upon presentation of the ID card.\n- This certificate/identity card will be valid for all government purposes like ration card, Aadhaar card and birth certificate etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "non-judicial-affidavit-self-declaring-gender-identity-income-certificate-residen",
+    "voter-id",
+    "or-any-government-issued-proof-passport-sized-photograph-transgender-identity-ca"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/201909241503347185.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tufs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Rajasthan.\n1. The applicant must belong to the transgender community.",
+  "_criteria_filled": 1
+}

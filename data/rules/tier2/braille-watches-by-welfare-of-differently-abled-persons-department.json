@@ -1,0 +1,31 @@
+{
+  "id": "braille-watches-by-welfare-of-differently-abled-persons-department",
+  "name": "Braille Watches by Welfare of Differently Abled Persons Department",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of braille watches.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-any-other-documents-if-re"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bwbwodapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a visually impaired working person. \n1. The applicant should be working in the unorganized sectors. \n1. The applicant should be any one of the following:\n\n  - Employee.\n  - Self-Employed.",
+  "_criteria_filled": 2
+}

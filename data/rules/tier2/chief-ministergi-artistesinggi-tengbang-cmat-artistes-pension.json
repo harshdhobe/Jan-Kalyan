@@ -1,0 +1,38 @@
+{
+  "id": "chief-ministergi-artistesinggi-tengbang-cmat-artistes-pension",
+  "name": "Chief Ministergi Artistesinggi Tengbang (CMAT) – Artiste’s Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "Category A: Awardees & Gurus (150 number) @ ₹ 4,000/- per month will be supported.\nCategory B: Non-Awardees (850 number) @ ₹ 2,500/- per month will be supported.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-residentialdomicile-certificate-of-the-state-of-manipu",
+    "the-artiste-should-submit-life-certificate-duly-certified-by-authorities-every-s",
+    "government-of-manipur-failing-which-subsequent-pension-will-not-be-released"
+  ],
+  "apply_url": "https://artnculturemanipur.gov.in/media/filer_public/79/9a/799a0d4d-4a03-4e17-a66d-a3bef1227c28/application_form_for_artistes_pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmat-ap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the State of Manipur.\n1. The applicant should be an Artist.\n1. The applicant should be 60 years or above in age, as of 1st April of the current financial year.\n1. The applicant should not be employed in any public/private undertakings.\n1. **For Category (A):** The applicant should be a National / State Awardee, such as Padma Awardee, Sangeet Natak Akademi, Sahitya Akademi, Lalit Kala Akademi or Manipur State Kala Akademi Awardee, Manipur State Film Development Society or National Award Winners in Film.1. **For Category (B):** The applicant should have made a substantial contribution to the preservation and promotion of Arts during his / her young age and should be a well-known artiste recognized by a competent authority of Government including Shree Shree Govindaji Temple Board, Sanamahi Temple Board for Sankirtana and Lai Haraoba or recommended by any reputed registered organizations authorized by the Government, etc in the concerned field.1. The income of the applicant including that of the spouse from all sources should not exceed ₹ 1,50,000/- per annum.\n1. Any dependent spouse of the Artiste who enjoyed Pension and Medial benefits under the CMAT shall be eligible for financial assistance / medical assistance.\n\n<br>\n\n> **Reservation/Preference/Priority:**\n\nThe artiste who is in indigent circumstances will be given preference.",
+  "_criteria_filled": 3
+}

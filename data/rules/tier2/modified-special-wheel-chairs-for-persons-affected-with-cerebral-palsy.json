@@ -1,0 +1,36 @@
+{
+  "id": "modified-special-wheel-chairs-for-persons-affected-with-cerebral-palsy",
+  "name": "Modified Special Wheel Chairs for Persons Affected with Cerebral Palsy",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of modified special wheel chairs.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-any-other-document-if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mswcfpawcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The person&#39;s age should be 12 years or above. \n1. The person should be affected with cerebral palsy. \n1. The person should be a resident of the district/area in Tamil Nadu.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sthaniya-fasal-protsahan-karyakram",
+  "name": "Sthaniya Fasal Protsahan Karyakram",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Under the scheme, the following objectives will be achieved by distributing verified seeds of local crops at 100% subsidy:**\na. Distribution of certified seeds on subsidy to increase the cultivation area according to the specific region.\nb. Ensuring the recommended seed replacement rate is met.\nc. Enhancing production and productivity through the use of quality seeds.\nd. Promoting and encouragin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "farmers-should-submit-documents-as-specified-in-the-program-guidelines"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfpk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All farmers from the mountain districts of Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

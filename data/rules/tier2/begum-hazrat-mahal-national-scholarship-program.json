@@ -1,0 +1,31 @@
+{
+  "id": "begum-hazrat-mahal-national-scholarship-program",
+  "name": "Begum Hazrat Mahal National Scholarship Program",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **For Class IX &amp;amp; X:** ₹5,000/- each.  - **For Class XI &amp;amp; XII:** ₹6,000/- each. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-family-income-certificate-school-verification-form-passport-size-pho"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/1053_G.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhmnsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only girl students belonging to six notified Minority Communities i.e. Muslims, Christians, Sikhs, Buddhists, Jains and Parsis are eligible.\n  - The scholarship will be awarded to minority girl students who are studying in Class 9th to 12th and have secured at least 50% marks or equivalent grades in aggregate in the previous class/qualifying exam.\n  - The annual income of the student’s parent/guardian from all sources does not exceed Rs.2.00 lakh.\n  - An Income certificate, issued by a Competent Authority in the State/UTs Governments is required in respect of parent/guardian of the student.\n  - A self-Certified Community Certificate is required from a student who has attained 18 years of age. For others, the Community Certificate certified by the parent/guardian of the student is required.\n  - If a student violates school discipline or any other terms and conditions of the scholarship, the scholarship may be suspended or cancelled. The State Government/Union Territory Administration can also directly cancel the award if duly satisfied with the reasons of violation of these regulations governing the scheme.\n  - If a student is found to have obtained a scholarship by false statement, her scholarship will be cancelled forthwith and the amount of the scholarship paid will be recovered by the concerned State/UT Govt.\n  - The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose.\n  - A student shall be eligible for only one scholarship out of all the available Scholarships of the Central Government meant for SC/ST/OBC/minority.\n  - The scholarship will not be given to more than two students from a family of the same class\n  - No scholarship shall be given for studies abroad for any course.\n\n<br>",
+  "_criteria_filled": 2
+}

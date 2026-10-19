@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-for-self-marriage-of-registered-women-workers-hbocwwb",
+  "name": "Financial Assistance for Self-Marriage of Registered Women Workers (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹50,000/- is provided to registered women workers for arranging their own marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/159",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasmrwwhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman and engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered woman worker must have a minimum one-year regular membership.\n   1. The registered woman worker must have an active membership with the Board.\n   1. The registered woman worker shall submit an undertaking/self-declaration that she has not received and will not receive this assistance from any other Government Department/Board/Corporation.",
+  "_criteria_filled": 2
+}

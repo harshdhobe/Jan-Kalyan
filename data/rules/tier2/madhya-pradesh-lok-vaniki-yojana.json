@@ -1,0 +1,26 @@
+{
+  "id": "madhya-pradesh-lok-vaniki-yojana",
+  "name": "Madhya Pradesh Lok Vaniki Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Authorization for scientific management of tree-covered areas.\n\n<br>\n\n##### ***Conditions***\n\n- _The designated Landowner, Gram Panchayat, or Gram Sabha must implement the Technical Management Plan according to the activities and conditions specified within the plan._\n- _For &quot;Lok Van&quot; (Public Forest) management plans, the Gram Sabha must authorize the implementation of the specified ac",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "latest-land-records-khasra-copy-declaration-regarding-land-titlepossession-land"
+  ],
+  "apply_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_265_00015_00015_1697454194461&type=rule&filename=rule_lokvaniki_2002.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mplvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a landowner who desires to take responsibility for the management of any tree covered area.\n- The applicant must be a Gram Panchayat or a Gram Sabha who desires to take responsibility for the management of any tree covered revenue land located within its jurisdiction.\n- The applicant must apply to the Tehsildar (Revenue) for the demarcation and management of the land as &quot;Lok Van&quot; (Public Forest), if the land is tree covered revenue land.\n- The applicant must submit the management proposal to the Divisional Officer (Van Mandal Adhikari) or the Range Officer (Van Kshetra Adhikari).\n- The applicant (Landowner) must attach a declaration regarding land title/possession, including an attested photocopy of the latest land records (Khasra).\n- The applicant (Gram Panchayat/Gram Sabha) must submit a resolution to the Tehsildar (Revenue) after getting the land demarcated and handed over for management as &quot;Lok Van&quot;.\n\n<br>",
+  "_criteria_filled": 1
+}

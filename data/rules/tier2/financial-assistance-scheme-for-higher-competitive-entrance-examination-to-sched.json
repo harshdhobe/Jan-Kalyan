@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-scheme-for-higher-competitive-entrance-examination-to-sched",
+  "name": "Financial Assistance Scheme For Higher Competitive/ Entrance Examination To Scheduled Castes/ Backward Classes Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the Scheduled Castes &amp;amp; Backward Classes candidates will be entitled to free coaching for IAS and other higher services competitive examinations.\n   1. The Scheduled Castes and Backward Classes candidates can avail of postal/classroom coaching for civil services Examinations like IFS, IAS &amp;amp; Allied Services, and any other services examinations conducted by the UP",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-etc-educational-certificates-passport-size-photog"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3229754d7799160502a143a72f6789927/uploads/2023/01/2023012740.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fashceescbcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility of students:**\n\n   1. The student should be a domicile of Haryana &amp;amp; must belong to a Scheduled caste/Backward Class.\n   1. The annual Income of the parents/guardians Should not exceed ₹2.50 lacs.\n   1. The candidate should possess all the requisite qualifications required for the examination.\n   1. The candidate will not be permitted to avail of more than two chances for a particular competitive examination.\n\n**Note 01:** The selected candidates shall have to attend all classes. In the event of any student remaining absent for more than 5 days at a time maximum of 15 days during the entire course without any valid reason, benefits of free coaching to him/her shall be discontinued and another candidate shall be taken in his/her place.\n**Note 02:** Depending on the budget allocation, the total number of students should be fixed in advance and distributed among the agencies; it should not be left open-ended.\n**Note 03:** This scheme will be applicable and available for only those courses which are not covered by any other Scheme for Scheduled Castes and Backward Classes run by other departments.\n**Selection of reputed institutions:**\n\n   1. The Director, Welfare of Scheduled Castes and Backward Classes Department, Haryana will invite proposals from the implementing agencies directly every year.\n   1. The proposals received from the implementing agencies will be considered and finalized by a committee consisting of the following: \n\n  - Chairman: Secretary to Govt. Haryana, Welfare of Scheduled Castes And Backward Classes Department.\n  - Member-Secretary: Director, Welfare of Welfare of Scheduled Castes  and Backward Classes Department, Haryana \n  - Member: Deputy Director, Welfare of Scheduled Castes  &amp;amp; Backward Classes Department, Haryana\n  - Member: District Welfare Officer (concerned District) \n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

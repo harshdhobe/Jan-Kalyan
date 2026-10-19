@@ -1,0 +1,26 @@
+{
+  "id": "uniform-assistance-for-notified-tribes-and-denotified-tribes-castes-students-stu",
+  "name": "Uniform Assistance for Notified Tribes and Denotified Tribes Castes students Studying in Class 1st to 8th",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹900/- is provided to each eligible student for the purchase of three pairs of school uniforms.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-residence-proof-passport-size-photograph-academic-certificates-ba"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/uandtsoe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a student.\n  - The applicant should belong to the state of Gujarat.\n  - The applicant should be studying in Class 1st to Class 8th.\n  - The applicant should be enrolled in a government or government-aided primary school.\n  - The applicant should belong to the Notified Tribes and Denotified Tribes Castes.",
+  "_criteria_filled": 1
+}

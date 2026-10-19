@@ -1,0 +1,27 @@
+{
+  "id": "indo-french-visitingmobility-programme-for-women-in-science",
+  "name": "Indo-French Visiting/Mobility Programme for Women in Science",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Return airfare (economy class), accommodation &amp;amp; per diem allowances, local travel in India/France, airport transfer, insurance, and visa charges shall be given to the selected candidates.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-invitationhosting-letter-from-indianfrench-scientistresearcherfacultyinstituti",
+    "as-required"
+  ],
+  "apply_url": "https://www.cefipra.org/PgmMF.aspx?p=PR",
+  "source_url": "https://www.myscheme.gov.in/schemes/prowis-ii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Women applicants must be Indian or French citizens (citizens residing in France) from a recognized university or research institution in India/France.\n   1. Indian applicants should hold a PhD degree &amp;amp; sanctioned/tenured post in a scientific/academic institution and be willing to undertake collaborative research projects in French institutions/universities.\n   1. French women applicants holding a PhD degree and currently completing a postdoctoral project &amp;amp; willing to undertake collaborative research projects in Indian institutions/universities.\n   1. The mobility should take place during the employment period of the applicant in the concerned institution.\n   1. The applicant should not have availed of any visiting fellowship in France/India during the last 5 years.\n   1. This fellowship cannot be availed simultaneously with any other fellowship.\n\n**Note 01:** Preference will be given to those candidates who don&amp;#39;t have any international exposure.\n**Note 02:** CEFIPRA may relax the eligibility conditions in case of potential candidates.",
+  "_criteria_filled": 1
+}

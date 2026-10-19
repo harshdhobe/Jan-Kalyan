@@ -1,0 +1,31 @@
+{
+  "id": "icssr-senior-fellowship",
+  "name": "ICSSR Senior Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1)\tMonthly Fellowship amount @ Rs.45,000 per month\n2)\tContingency Grant @ Rs.40,000 per annum\n3)\tAPI points as per the UGC Guidelines in force at the point of time",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 45
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      }
+    ]
+  },
+  "documents": [
+    "1-the-list-of-documents-required-will-be-given-in-the-application-form-when-the"
+  ],
+  "apply_url": "https://icssr.org/senior-fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/senior-fellowship",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tThe applicant must be an Indian citizen.\n2)\tMust have a Ph.D. in any Social Science discipline. \n3)\tAge: Between 45 to 70 years as on the last application date.\n4)\tMust have an established publication record in reputed journals or books.\n5)\tMust be affiliated with a UGC-recognized or ICSSR research institute.\n6)\tShould not be availing any other fellowship concurrently.\n7)\tMust not be a defaulter of ICSSR funds.",
+  "_criteria_filled": 2
+}

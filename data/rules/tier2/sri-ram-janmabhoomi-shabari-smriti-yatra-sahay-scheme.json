@@ -1,0 +1,32 @@
+{
+  "id": "sri-ram-janmabhoomi-shabari-smriti-yatra-sahay-scheme",
+  "name": "Sri Ram Janmabhoomi Shabari Smriti Yatra Sahay Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> ***Financial Assistance***\n\n₹5,000/- per pilgrim as financial assistance towards travel expenses for pilgrimage to Sri Ram Janmabhoomi, Ayodhya.\n> ***Travel Arrangements***\n\n- Travel arrangements through the Indian Railway Catering and Tourism Corporation Limited.\n- Railway journey assistance and booking support.\n\n> ***Coverage Details***\n\n- First 1,500 scheduled tribe and tribal pilgrims will b",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationself-attested-copy-of-aadhaar-card-self-attested-copy",
+    "including-temple-premises-selfies-are-accepted-all-documents-must-be-self-attest"
+  ],
+  "apply_url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2024-3-19_724.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srjssyss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat state for twelve years or more from the current age.\n- The applicant must belong to the scheduled tribe or tribal community category.\n- The applicant must be eligible for only one pilgrimage assistance per person per year to Sri Ram Janmabhoomi, Ayodhya.\n- The applicant must be above 12 years of age.\n- The applicant can include up to 8 family members in the group application.\n- The applicant must obtain prior approval from the Gujarat Pavitra Yatradham Vikas Board before undertaking the journey.\n\n***Priority/Preference***\nPriority will be given to the first 1,500 registered applicants from the scheduled tribe and tribal communities.\n<br>",
+  "_criteria_filled": 2
+}

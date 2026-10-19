@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-virasat-ka-samvardhan",
+  "name": "Pradhan Mantri Virasat ka Samvardhan",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1)\tSkill training (both traditional and modern).\n2)\tEducation support (8th std, 10th std. and 12th std.).\n3)\tLeadership and entrepreneurship support for women.\n4)\tStipend support to trainees.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-and-aadhar-linked-bank-account-ews-certificate-for-non-minority-can"
+  ],
+  "apply_url": "https://pmvikas.minorityaffairs.gov.in/uploads/documents/Guidelines-PM-VIKAS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-vikas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Age of the applicant should be 14 to 45 years for skilling and education component and 18 to 45 years for Women Leadership and Entrepreneurship Component\n  - 33% of total seats in Skilling and Training component, 50% of total seats in Education component and 100% of total seats in Women Leadership and Entrepreneurship component are earmarked for women. \n  - The education qualification for Skilling and Training component would be as per NSQF norms and Education component would be as per NIOS norms. Candidates with aptitude and leadership qualities will be selected for Women Leadership and Entrepreneurship component.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

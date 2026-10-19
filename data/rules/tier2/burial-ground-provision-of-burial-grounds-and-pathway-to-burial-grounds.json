@@ -1,0 +1,26 @@
+{
+  "id": "burial-ground-provision-of-burial-grounds-and-pathway-to-burial-grounds",
+  "name": "Burial Ground-Provision of Burial Grounds and Pathway to Burial Grounds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Dignified Burial Services:** Provision of land for burial grounds.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83096",
+  "source_url": "https://www.myscheme.gov.in/schemes/bgpbg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal communities.\n  - The beneficiary must be residing in habitations without existing burial ground or pathway access.",
+  "_criteria_filled": 1
+}

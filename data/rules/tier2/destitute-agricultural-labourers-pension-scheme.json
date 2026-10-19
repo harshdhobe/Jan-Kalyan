@@ -1,0 +1,31 @@
+{
+  "id": "destitute-agricultural-labourers-pension-scheme",
+  "name": "Destitute Agricultural Labourers Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free dhoti to a male pensioner.\n- One free saree to a female pensioner.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meal.\n- 4kg/month to those who are not taking nutritious meal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-bank-passbook-any-other-document-if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/whatsnew/socialwelfare.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dalps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be destitute agricultural labour.\n   1. The age of the applicant should be 60 years and above. \n   1. The applicant should not have any source of income or means of subsistence to support.\n   1. The applicant should not be a habitual beggar.\n   1. The applicant should not possess property valued at more than ₹5000/-.\n   1. The applicant should not be supported by a son or son&amp;#39;s son aged 20 years or above.",
+  "_criteria_filled": 2
+}

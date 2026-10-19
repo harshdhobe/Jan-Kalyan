@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-cultivation-of-medicinal-aromatic-crops",
+  "name": "Assistance for Cultivation of Medicinal/ Aromatic Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial assistance up to 75% of the cost or ₹11,250/- per hectare, whichever is lower.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afcmac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be a resident of Gujarat.\n   1. Applicant must possess cultivable land ranging from 0.20 hectares to 4 hectares.",
+  "_criteria_filled": 1
+}

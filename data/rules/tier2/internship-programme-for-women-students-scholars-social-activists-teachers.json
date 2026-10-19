@@ -1,0 +1,36 @@
+{
+  "id": "internship-programme-for-women-students-scholars-social-activists-teachers",
+  "name": "Internship Programme for Women Students / Scholars / Social Activists / Teachers",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Stipend:** ₹20,000 per month provided as a lump sum amount.\n\n  - ***Duration:*** The duration of the Internship Programme will be 2 months throughout the year. Interns can select any of the 2-month batches while submitting their applications\n\n  - **Travel Reimbursement (Joining &amp;amp; Return):** Travel cost reimbursed by Deluxe/AC Bus or 3 Tier AC Train for joining and returning after compl",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "candidates-photograph-id-proof-address-proof-signature-highest-education-certifi"
+  ],
+  "apply_url": "https://wcd.intern.nic.in/aboutproject",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipmwcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The women students, scholars, social activists and teachers from non-tier-I cities and rural parts of India will be eligible for the programme.\n  - The women students, scholars, social activists, teachers (herein after referred to as interns) need to be enrolled in/associated with any university/academic/non-academic institution.\n  - The age of the applicant should be between 21 to 40 years.\n\n> **Number of Interns:**\n\n- The ministry would take up to 20 interns per batch.\n\n<br>",
+  "_criteria_filled": 3
+}

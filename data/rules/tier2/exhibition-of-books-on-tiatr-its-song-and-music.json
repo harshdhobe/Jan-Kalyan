@@ -1,0 +1,27 @@
+{
+  "id": "exhibition-of-books-on-tiatr-its-song-and-music",
+  "name": "Exhibition of Books on Tiatr, Its Song and Music",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Book Purchase:** Tiatr Academy Goa will purchase books at 80% of the rate fixed as per Tiatr Academy Goa conditions.\n**Marketing Support:** Books are sold through book exhibitions organized by Tiatr Academy Goa and participation in exhibitions by various Book Houses and Institutions.\n**Promotional Platform:** Books receive exposure to Tiatr lovers and enthusiasts through organized exhibitions.\n<",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "three-3-copies-of-the-published-book-related-to-tiatr",
+    "its-song-and-music"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ebtsm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a writer or publisher of books related to Tiatr, its song and music.\n- The applicant should have published books in any script or language (not limited to Roman Konkani script).\n\n<br>",
+  "_criteria_filled": 1
+}

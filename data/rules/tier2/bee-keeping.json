@@ -1,0 +1,26 @@
+{
+  "id": "bee-keeping",
+  "name": "Bee Keeping",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme:\n\n  - Bee families (bees, including the queen bee) and bee colonies (bee boxes) are provided with a 40% subsidy (maximum cost per bee box is ₹2,000/- and per bee colony is ₹2,000/-). 50 bee boxes are provided in plain areas and 25 in hilly areas.\n  - For example, if a bee box and bee colony cost ₹200/-, the farmer has to deposit ₹120/- at the concerned Horticulture Mobile team Ce",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-address-proof-mobile-number-residence-certificate-bank-account-deta"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a farmer interested in beekeeping.\n\n<br>",
+  "_criteria_filled": 1
+}

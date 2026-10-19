@@ -1,0 +1,26 @@
+{
+  "id": "decentralized-peoples-nursery",
+  "name": "Decentralized People’s Nursery",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance for Raising Seedlings:** ₹2.20 per seedling is provided in three installments.\n**Ownership of Seedlings:** The beneficiary retains full ownership of the seedlings raised and can sell or use them without requiring permission from anyone.\n**Income Generation:** The scheme is recognized as a &quot;very good income generating activity&quot;.\n**Accessibility of Plants:** Decentra",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-address-land-ownership-or-lease-agreement-for-land-re"
+  ],
+  "apply_url": "https://forests.gujarat.gov.in/writereaddata/images/pdf/2-kissan-nursery-request.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be interested in raising seedlings.\n- The scheme is open to all individuals.\n- The applicant must typically aim to raise a target of 20,000 seedlings.\n\n**Preference**\n\n- An applicant who can keep a piece of land reserved for the purpose of nursery for a minimum of twelve months.\n- An applicant who plans to undertake the nursery activity as a commercial activity and not merely a seasonal one on that piece of land.\n\n**Specific to Decentralized School / Kisan Nursery**\n\n- The interested stakeholder must submit an application in response to an advertisement in the local media. \n- Small and marginal farmers, Below Poverty Line (BPL) cardholder families, landless laborers, and schools can raise plants under this variant.\n\n**Specific to SCP-Decentralised Peoples Nursery**\n\n- The beneficiary or beneficiary group must belong to the Scheduled Caste community.\n\n<br>",
+  "_criteria_filled": 1
+}

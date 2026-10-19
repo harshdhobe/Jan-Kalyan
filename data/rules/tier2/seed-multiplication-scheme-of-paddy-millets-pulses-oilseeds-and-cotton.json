@@ -1,0 +1,27 @@
+{
+  "id": "seed-multiplication-scheme-of-paddy-millets-pulses-oilseeds-and-cotton",
+  "name": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Premium:** On seeds ranges from ₹1/- to ₹3/- per kg.  - **Foundation Class Seeds:** The premium is between 7.5% to 30% over the Local Market Rate per kg, depending on the type of oil seed.  - **For Certified Class Seeds:** The premium is between 5% to 20% over the Local Market Rate per kg, based on the specific oil seed.  - **Training:** The farmer so desirous of enrolling himself/herself will",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-proof-of-seed-production-an"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6843",
+  "source_url": "https://www.myscheme.gov.in/schemes/smsopm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should produce and supply seeds for the Department of Agriculture on a contract basis.\n- The seed Farms should be registered by the Seed Producer viz., the Assistant Director of Agriculture of the respective Blocks.\n- Field Run Produce has to satisfy the standards of physical/genetic purity, moisture levels and germination percentage as prescribed in the Certification standards.",
+  "_criteria_filled": 1
+}

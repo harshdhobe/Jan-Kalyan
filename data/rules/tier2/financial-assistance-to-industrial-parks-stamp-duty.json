@@ -1,0 +1,37 @@
+{
+  "id": "financial-assistance-to-industrial-parks-stamp-duty",
+  "name": "Financial Assistance to Industrial Parks: Stamp Duty",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Assistance to Institutes:** 100% reimbursement of stamp duty on the purchase of land required for the industrial park.  - **Assistance to Individual Units:** Individual units located within the Industrial Park are eligible for a 50% reimbursement of the stamp duty paid on the purchase of plots within the park",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationcopy-of-registration-for-constitution-of-developer-companyfirm-i",
+    "partnership-act",
+    "or-the-companies-act-or-spv-copy-of-pan-card-of-developer-companyfirm-712-of-sur",
+    "partnership-act",
+    "or-the-companies-act-or-spv-copy-of-pan-card-of-developer-companyfirm-712-of-sur",
+    "features-and-scope-of-industrial-park",
+    "benefits-to-industrial-units-to-be-established",
+    "etc-ca-certified-net-worth-of-the-developer-companyfirmpromoters-authority-lette",
+    "then-give-details-sanction-letter",
+    "approval-letter",
+    "disbursement",
+    "etc-notarized-affidavit-in-prescribed-format-for-claimduly-attested-copy-of-sanc"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/faitsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries Association / any enterprise registered under the Societies Act, Partnership Act, Trust Act, Companies Act or SPV constituted for setting up of Industrial Park shall be eligible to develop Industrial Park under this scheme.",
+  "_criteria_filled": 1
+}

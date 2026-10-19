@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-establishment-of-open-sea-cages-100-120m3-vol-gujarat",
+  "name": "PMMSY: Establishment of open Sea cages (100-120)m3 vol. - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Establishment of Open Sea Cages (100-120 m³ volume):**\n\n- The estimated unit cost is ₹5,00,000/- for the general category against ₹(Rs.) 40% assistance, i.e., ₹2,00,000/- or 40% of the purchase (whichever is less). \n- 60% contribution of the central government and 40% of the state government will be in the assistance received.\n- 1 Sea-Cage unit under this scheme against the estimated unit cost o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-pass-bookcancelled-cheque-caste-certificate-copy-of-license-ide"
+  ],
+  "apply_url": "https://cof.gujarat.gov.in/Home/SchemesDetailsPage/o4rkgGvkhO9IQUTkb5zosA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyeoscguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat state.\n1. The applicant should have a fishing boat registered under Real Craft software.\n1. The applicant should hold a fishing license.\n1. The applicant should complete the online registration on the [iKhedut Portal](https://ikhedut.gujarat.gov.in/site/).1. The applicant should obtain in-principle approval before purchase of the floor plan.\n1. The applicant should have his/her own bank account.\n\n> **Preference/Reservation/Relaxation:**\n\n  - Women, SC, and ST beneficiaries are eligible for 60% assistance of the unit cost.\n  - General category beneficiaries are eligible for 40% assistance of the unit cost.\n\n<br>",
+  "_criteria_filled": 1
+}

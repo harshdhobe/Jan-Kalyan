@@ -1,0 +1,27 @@
+{
+  "id": "assistance-scheme-for-reimbursement-for-expenditure-on-visa-by-construction-work",
+  "name": "Assistance Scheme For Reimbursement For Expenditure On Visa By Construction Workers For Employment Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "Under this scheme, registered construction workers in Rajasthan who have secured employment in foreign countries are eligible for reimbursement of expenses incurred on obtaining the necessary visa and related documentation. \nUnder this scheme, a maximum amount of Rs.5000/- will be reimbursed from the circle level to the eligible beneficiary for reimbursement of the expenditure incurred for visa fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-beneficiary-registration-identity-card-2-copy-of-the-beneficiary-a",
+    "bank-account-number-and-ifs-code-to-be-mentioned-4-copy-of-passport-with-visa-5"
+  ],
+  "apply_url": "https://labour.rajasthan.gov.in/Schemes.aspx#",
+  "source_url": "https://www.myscheme.gov.in/schemes/asfrfevcsea",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a resident of Rajasthan State.\n 2.Applicant should be registered as Construction Worker under labor laws.\n<br>\n\nOther Conditions\n 1. For getting contract employment abroad, it is necessary to take permission for migration from the office of Protectors of Emigrants (POE) under the Migrant Act, 1983.\n 2. Registration of the recruiting agency under the Overseas Act or a valid permit from the POE office is necessary.\n 3. Reimbursement of visa amount under the above scheme will be payable on the beneficiary passport having a minimum validity of 6 months including valid visa.\n 4. Under the scheme, the benefit of assistance amount will be payable to the beneficiary only once.\n 5. During scrutiny of application and documents, if any facts found to be false resulting in the cancellation of eligibility, it will be the responsibility of the concerned beneficiary to deposit all the assistance amount sanctioned under the scheme along with interest.              \n 6. The benefit of this scheme will be payable only if the beneficiary is employed abroad, is in the building and other construction works.\n<br>",
+  "_criteria_filled": 1
+}

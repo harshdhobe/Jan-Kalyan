@@ -1,0 +1,38 @@
+{
+  "id": "one-time-assistance-to-small-and-marginal-farmers-for-purchase-of-small-farm-imp",
+  "name": "One Time Assistance to Small and Marginal Farmers for Purchase of Small Farm Implements (OTA-SFI)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "> **Pattern Of Assistance:**\n\n  - Maximum ₹10,000/- or 50% of total indicative price of purchased manually operated machinery/implement whichever is lower.\n\n&gt; **Available Equipment:****** \n\n  - A list of different manually operated machinery/implements is provided in [Annexure-III](https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1lDIiwiZXhwIjpudWx",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-epicvoter-id-card",
+    "aadhar-of-applicant-spouse-for-individual-application",
+    "bank-account-details-active",
+    "active-mobile-no",
+    "land-particulars",
+    "krishak-bandhu-id-no-visit-here-to-check-your-krishak-bandhu-id",
+    "name-of-machineryequipment-implement",
+    "name-of-manufacturer-etc-to-be-selected-from-the-departmental-portal"
+  ],
+  "apply_url": "https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1lDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6e05a52aaf58b7fbfa749a5d71be15309a5101ea/FMS_Operational%20Guidelines_2024_25.pdf?disposition=attachment",
+  "source_url": "https://www.myscheme.gov.in/schemes/ota-sfi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individual farmers registered under Krishak Bandhu (New) Scheme.\n\nOr,\nGroups like SKUS/PACS/FPO/FPC/FIG/SHG duly graded /LAMPS etc approved/recognized by any Govt Institution/Departments.\n\n- The age of the beneficiary should be minimum 18 years at the time of application.\n\n<br>",
+  "_criteria_filled": 2
+}

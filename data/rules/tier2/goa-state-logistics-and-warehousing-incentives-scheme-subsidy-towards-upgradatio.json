@@ -1,0 +1,35 @@
+{
+  "id": "goa-state-logistics-and-warehousing-incentives-scheme-subsidy-towards-upgradatio",
+  "name": "Goa State Logistics and Warehousing Incentives Scheme: Subsidy towards Upgradation in Transportation through Tracking Devices",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A one-time allowance covering 50% of the expenditure incurred for the installation of tracking devices on goods carriers.\n- The maximum reimbursement is limited to ₹5,000/- (Indian Rupees 5,000/-) per tracking device, per truck or carrier.\n\n##### ***Disbursal***\n\n- The benefits are subject to a first-come, first-served basis.\n- The Government aims to benefit a maximum of 1,000 trucks/carriers in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-application-claim-submissionaadhaar-of-proprietor-in-case-of-proprietorsh",
+    "managing-director-in-case-of-partnership-firm",
+    "company",
+    "limited-liability-partnership-llp",
+    "co-operative-society",
+    "or-trust-authority-letterpower-of-attorney-for-availing-incentives-in-case-of-pa",
+    "2025",
+    "under-any-other-government-schemes-copy-of-payroll-of-the-unit-highlighting-the",
+    "tracking-device",
+    "functioning-status"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/subsidy-towards-upgradation-in-transportation-through-tracking-devices",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Entity must be only applicable for non-mega industries.\n- The Entity must own a business unit in Goa and provide Logistics and Warehousing services in Goa.\n- Support under the scheme shall be provided only to the entities who are Logistics and Warehousing services providers.\n- The Entity must have a Permanent Account Number (PAN).\n- The Entity must regularly file the Income Tax Returns in the name of the legal entity (proprietor, firm, or company, etc.).\n- The Entity must be in continuous operations for a minimum period of six months post the date of notification of Logistics and Warehousing Policy 2023.\n- The Entity must have incurred the expenses (for claiming reimbursement) post the date of launch of the Logistics and Warehousing Policy 2023.\n- The Entity must not have claimed similar benefit under any other scheme/program of State or Central Government.\n- The Entity must provide Minimum 40% local employment (employees who are employed continuously during the claim year and are on the payroll of the unit for that year shall be considered).\n- The Entity or transport operator must possess a fleet and provide cargo transportation services within Goa, whether by land or water.\n- Transport operators and their commercial vehicles must be registered in one of the Regional Transport Offices (RTO) in Goa and must maintain valid registration credentials.\n- The tracking device purchases must have been made subsequent to the introduction of the ‘Logistics and Warehousing Policy, 2023’.\n- The application for reimbursement should only be submitted subsequent to the acquisition of the fleet intended for tracking device installation.\n\n##### ***Preference/Quantum of Benefit***\n\n- The quantum of benefit shall be defined by the proportion of Goan employees on payrolls.\n- If the Quantum of Goan Employment on payrolls is 60% or above, the Entity is eligible for 100% of the benefits.\n- If the Quantum of Goan Employment on payrolls is More than 40% but less than 60%, the Entity is eligible for 80% of the benefits.\n- If the Quantum of Goan Employment on payrolls is Less than 40%, the Entity is Ineligible.\n\n<br>",
+  "_criteria_filled": 1
+}

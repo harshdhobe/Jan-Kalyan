@@ -1,0 +1,26 @@
+{
+  "id": "breed-multiplication-farms-uttarakhand-livestock-development-board",
+  "name": "Breed Multiplication Farms - Uttarakhand Livestock Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, a maximum subsidy of ₹50 lakh is provided by the Department of Animal Husbandry and Dairying, Government of India, for a project cost of ₹1 crore under the Rashtriya Gokul Mission.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-submit-all-necessary-documents-as-per-the-guidelines"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a livestock farmer, a farmer producer company, a registered company under Section 8, or a self-help group based in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

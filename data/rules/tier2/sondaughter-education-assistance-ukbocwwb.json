@@ -1,0 +1,26 @@
+{
+  "id": "sondaughter-education-assistance-ukbocwwb",
+  "name": "Son/Daughter Education Assistance (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Financial assistance for education will be provided to the children of construction workers at the following rates:**\n**Sl. No.****Class/Course****Financial Assistance (Yearly)**1Class 1 to 5₹1,800/-2Class 6 to 10₹2,400/-3Class 11 to 12₹3,000/-4Graduation/Post Graduation or its equivalent₹10,000/-5ITI, Polytechnic courses or higher educationThe course fee will be payable to the Government Instit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "shramiklabour-card-aadhar-card-of-the-worker-mobile-number-bank-account-details"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/easukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The two (2) children of a construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board will be eligible to avail benefits under this scheme.\n\nApplications must be submitted between November of the same financial year in which admission is taken (from Class 1 to Post Graduation) and June of the next academic session. Applications received after this period will not be considered by the Board.\n&gt; **Financial assistance for education is provided on an annual basis.**\n\n<br>",
+  "_criteria_filled": 1
+}

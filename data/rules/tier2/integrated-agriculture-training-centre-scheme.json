@@ -1,0 +1,26 @@
+{
+  "id": "integrated-agriculture-training-centre-scheme",
+  "name": "Integrated Agriculture Training Centre Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Conduct trainings and awareness programmes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-being-a-farmer-any-ot"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=79",
+  "source_url": "https://www.myscheme.gov.in/schemes/iatc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Meghalaya.\n- The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

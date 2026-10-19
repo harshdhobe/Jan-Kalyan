@@ -1,0 +1,29 @@
+{
+  "id": "gst-exemption-certificate-scheme",
+  "name": "GST Exemption Certificate Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. A concession of 10% on GST can be availed through this certificate and zero cess would be applicable. A person availing of this certificate will have to pay 18% GST &amp; no cess instead of 28% GST &amp; applicable cess on the purchase of a car. \n1. The certificate is issued within a month of receipt of the application complete in all respects.\n1. The certificate is valid for a period of 6 mont",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-pan-card-unique-disability-id-card-udid-issued-by-the-ministry-of-so",
+    "govt-of-india-or-disability-certificate-issued-by-central-govtstate-govtdistrict",
+    "where-the-vehicle-will-be-registered-note-if-a-person-does-not-have-either-of-th",
+    "then-duly-filled-annexure-b-is-required-with-the-signature-and-countersignature"
+  ],
+  "apply_url": "https://gecs.heavyindustries.gov.in/assets/site/main/User_Manual_New.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gstecs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any Orthopedic Physically handicapped person having a permanent disability of 40% &amp; above can apply for the benefit under the scheme, irrespective of whether the applicant drives the vehicle himself or otherwise.\n1. Cars (automatic or manual) having a length less than or equal to 4m and engine capacity of not more than 1200 cc (petrol, Liquefied Petroleum Gases (LPG) or compressed natural gas (CNG) or 1500 cc (diesel) qualify for purchase under this scheme.\n1. The said Certificate for availing the GST concession would be valid for a period of three months from the date of issue of the certificate and the vehicle would have to be purchased by the applicant within this three-month period to avail the concession.",
+  "_criteria_filled": 1
+}

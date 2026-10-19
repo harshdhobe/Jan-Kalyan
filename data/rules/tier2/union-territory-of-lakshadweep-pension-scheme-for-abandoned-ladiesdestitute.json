@@ -1,0 +1,38 @@
+{
+  "id": "union-territory-of-lakshadweep-pension-scheme-for-abandoned-ladiesdestitute",
+  "name": "Union Territory of Lakshadweep Pension Scheme for Abandoned Ladies/Destitute",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- Eligible beneficiaries receive a pension of ₹1,500 per month (₹18,000 per annum).\n\n**Mode of Disbursement:**\n\n- The pension is disbursed directly to the beneficiary’s bank account.\n\n**Frequency of Disbursement**\n\n- The amount is provided monthly.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-residence-proof-of-marital-status-divorced",
+    "abandoned",
+    "or-destitute-income-certificate-bank-account-details-self-declaration-any-other"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/aldspsl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Lakshadweep.\n   1. The applicant should be a divorced, abandoned, or destitute woman.\n   1. The applicant should not have remarried after separation or abandonment.\n   1. The applicant should either have no source of income or a nominal income not exceeding ₹1,500/- per month (₹18,000/- per annum).\n   1. The applicant should not be a beneficiary of any other similar pension scheme provided by the government.",
+  "_criteria_filled": 3
+}

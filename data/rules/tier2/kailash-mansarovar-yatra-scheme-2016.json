@@ -1,0 +1,27 @@
+{
+  "id": "kailash-mansarovar-yatra-scheme-2016",
+  "name": "Kailash Mansarovar Yatra Scheme 2016",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. The financial assistance will be provided up to the extent of ₹50,000/- or 50% of the actual expenditure per person whichever is less.\n   1. Financial assistance shall be provided to a maximum of 50 (fifty) numbers of pilgrims.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-passport-size-photographs-3-attested-copy-of-the-permanent-re",
+    "govt-of-india-6-attested-copy-of-required-visa-and-passport-7-declaration-from-t"
+  ],
+  "apply_url": "https://haryanatourism.gov.in/News/kailash-mansarovar-yatra-scheme-2016",
+  "source_url": "https://www.myscheme.gov.in/schemes/kmys2016",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Haryana State.\n   1. The applicant/pilgrim should complete the Yatra through the Ministry of External Affairs, Govt. of India and the completion certificate in this regard must be obtained from the Ministry of External Affairs, Govt. of India.\n   1. The financial assistance shall be given only once to a pilgrim.",
+  "_criteria_filled": 1
+}

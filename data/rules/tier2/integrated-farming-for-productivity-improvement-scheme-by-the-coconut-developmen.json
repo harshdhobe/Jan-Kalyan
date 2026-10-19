@@ -1,0 +1,28 @@
+{
+  "id": "integrated-farming-for-productivity-improvement-scheme-by-the-coconut-developmen",
+  "name": "\"Integrated Farming for Productivity Improvement Scheme\" by the Coconut Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- **Laying of Demonstration Plot (LoDP):** Financial assistance @ ₹ 35,000/‐ Ha in two annual instalments.- **Construction of Organic Manure Unit:** Financial assistance @ ₹ 40,000/‐ to ₹ 60,000/‐ per Unit on Pro‐rata basis. Unit size of 1200 cubic feet to 150 cubic feet (60 x 8 x 2.5 ft to 15 x 5 x 2 ft).- The eligible subsidy amount shall be released to the beneficiary&#39;s account on DBT (Dire",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "in-the-case-of-land-owners-cultivating-their-land",
+    "a-copy-of-the-farmer-identity-card-containing-the-details-of-survey-numbers-and",
+    "tenants-shall-produce-a-cultivation-certificate-from-the-land-owner-or-agricultu"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/pdf/Horti_Application_Coconut.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifpisbtcdb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All categories of coconut farmers with farmer&#39;s identity cards/ authenticated land records/documents are eligible.",
+  "_criteria_filled": 1
+}

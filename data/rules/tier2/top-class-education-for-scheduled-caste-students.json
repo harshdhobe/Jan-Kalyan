@@ -1,0 +1,26 @@
+{
+  "id": "top-class-education-for-scheduled-caste-students",
+  "name": "Top Class Education For Scheduled Caste Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Full tuition fee and non-refundable charges shall be paid.\n1. For private sector institutions, the fee support is subject to a ceiling of ₹2,00,000 per annum per student.\n1. Academic Allowance:\n\n  - ₹86,000 in the first year.\n  - ₹41,000 in each subsequent year.\n\n1. Allowance covers living expenses, books and stationery, computer/laptop, UPS, printer, and any other academic requirements necessa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-domicile-certificate-self-attested-degreemark-sheet-of-the-la"
+  ],
+  "apply_url": "https://socialjustice.gov.in/writereaddata/UploadFile/95131767944207.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tce-sc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should have secured admission to a notified institution identified under the scheme.\n1. The applicant should be pursuing a course beyond Class 12 in a notified institution.\n1. The applicant&#39;s total annual family income from all sources should not exceed ₹8,00,000.\n1. The applicant should be admitted through the prescribed admission process and satisfy the merit requirements applicable to the institution/course.\n1. The applicant should be a first-year student of the approved course for consideration under the fresh scholarship category.\n\n> **Reservation:**\n\n- 30% of the scholarship slots are reserved for eligible Scheduled Caste girl students.\n- Unutilized slots reserved for girls may be transferred to eligible male students.\n\n<br>",
+  "_criteria_filled": 1
+}

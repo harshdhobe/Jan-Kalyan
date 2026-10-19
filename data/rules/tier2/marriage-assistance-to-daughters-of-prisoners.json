@@ -1,0 +1,37 @@
+{
+  "id": "marriage-assistance-to-daughters-of-prisoners",
+  "name": "Marriage Assistance To Daughters Of Prisoners",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the maximum amount of financial assistance will be ₹30,000/- per person.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-mobile-number-email-id-passport-size-photographs-copy-of-ra",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/31138.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/madp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The applicants must belong to Below Poverty Line (BPL) category.\n   1. Either the father or the mother should be undergoing imprisonment for more than two years.\n\n**Note 01:** The application must be submitted after six months of marriage and within one year period. \n**Note 02:** A maximum of two girls from a family can get financial assistance for marriage.\n**Note 03:** Once the marriage grant has been sanctioned, if the existing marriage is dissolved and remarried for any reason, the grant will not be eligible.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-extending-financial-assistance-to-folk-artists-troupes-for-the-purchas",
+  "name": "Scheme of Extending Financial Assistance to Folk Artists, Troupes for the Purchase of Musical Instruments, Costumes",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "For Folk Artists, financial Assistance of ₹2,000/-.\nFor Troupes, financial Assistance of ₹6,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "performance-copies-of-advertisements-and-newspapers-authenticated-letter-from-a"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soefatfatftpomic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Folk Artist/Troupe.\n- The applicant should be continuously performing in the programs.\n- The applicant should have performed in the programs for more than three years.",
+  "_criteria_filled": 1
+}

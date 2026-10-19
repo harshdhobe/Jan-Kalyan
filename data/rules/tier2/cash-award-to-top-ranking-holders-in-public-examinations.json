@@ -1,0 +1,27 @@
+{
+  "id": "cash-award-to-top-ranking-holders-in-public-examinations",
+  "name": "Cash Award to Top Ranking Holders in Public Examinations",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Quantum of Award**\n\n- 1st Rank: ₹50,000/-.\n- 2nd Rank: ₹30,000/-.\n- 3rd Rank: ₹20,000/-.\n\n* Every year, the awards are granted separately for each of the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam, Secondary School Certificate (SSC) Exam, Matriculation Exam, and for Higher Secondary Certificate (HSC) Exam, and Intermediate (2nd Year) Public Examinations.\n* The",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativitycitizenshipresidential-certificate",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t"
+  ],
+  "apply_url": "https://schooledn.py.gov.in/download.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/catrhpe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be a Student.\n- The applicant should be studying in a Government/Private High/Higher Secondary School or in Intermediate Level (2nd Year) in a Government Junior College in the Union Territory of Puducherry.\n- The applicant should be among the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam/ Secondary School Certificate (SSC) Exam/ Matriculation Exam/ Higher Secondary Certificate (HSC) Exam/ Intermediate (2nd Year) Public Examination.",
+  "_criteria_filled": 1
+}

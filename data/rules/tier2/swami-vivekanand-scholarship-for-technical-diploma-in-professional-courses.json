@@ -1,0 +1,31 @@
+{
+  "id": "swami-vivekanand-scholarship-for-technical-diploma-in-professional-courses",
+  "name": "Swami Vivekanand Scholarship for Technical Diploma in Professional Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- A monthly stipend of ₹400 for 12 months for the ITI and professional courses.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-marksheet"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/svstdpc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a student.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The applicant should be enrolled in a state government industrial training institute (ITI), or a government-recognized Private ITI, or a recognized one-year professional course.\n1. The applicant’s family annual income should not exceed ₹1,20,000 in rural areas.\n1. The applicant’s family annual income should not exceed ₹1,50,000 in urban areas.\n\n<br>",
+  "_criteria_filled": 2
+}

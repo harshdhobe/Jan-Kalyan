@@ -1,0 +1,28 @@
+{
+  "id": "mukhyamantri-vas-sthal-kray-sahayata-yojana",
+  "name": "Mukhyamantri Vas Sthal Kray Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹60,000/- for purchasing residential land.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card",
+    "voter-id-proof-of-landlessness-certified-by-the-concerned-authority-pmay-g-benef"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s31943102704f8f8f3302c2b730728e023/uploads/2022/07/2022072358.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmvsksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be listed as a beneficiary under PMAY-G.\n   1. The applicant must be landless and houseless.\n   1. The applicant must reside in a village where no government land is available for housing allocation.\n   1. The applicant must have a bank account for direct fund transfer.",
+  "_criteria_filled": 1
+}

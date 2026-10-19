@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-saur-swarojgar-yojana-uttarakhand-renewable-energy-development-agen",
+  "name": "Mukhyamantri Saur Swarojgar Yojana - Uttarakhand Renewable Energy Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the scheme, self-employment is provided to eligible applicants/beneficiaries through the allocation of solar power projects with capacities of 20, 25, 50, 100, and 200 kW, as detailed below:\n\n  - 20 kW: Project cost ₹10 lakh; land required – 300 sq. meters.\n  - 25 kW: Project cost ₹12.50 lakh; land required – 300 sq. meters.\n  - 50 kW: Project cost ₹25.00 lakh; land required – 700–1000 sq. m",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-residence-certificate-aadhaar-card-identity-card-application-fee-affid"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssyureda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. Only one solar power plant will be allotted per family, and each applicant is eligible for only one project.\n   1. To avail benefits under the current MSME Policy, the allottee must apply under this scheme as a proprietorship. Applications in the form of a partnership firm, company, trust, or society will not be permitted.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "zero-ticket-bus-travel-scheme-for-women",
+  "name": "Zero Ticket Bus Travel Scheme for Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Free bus travel in Tamil Nadu government buses. \n- No Need to Pay any Fare up to 30 Kilometers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "any-one-of-the-below-mentioned-documents-will-be-shown-by-women-beneficiary-to-t"
+  ],
+  "apply_url": "https://spc.tn.gov.in/IPT_studies/ZTBTphase2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tnztbtsfw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only women will be eligible.\n- Women should be permanent Residents of Tamil Nadu.\n- There is a travel limit of 30-kilometers.",
+  "_criteria_filled": 2
+}

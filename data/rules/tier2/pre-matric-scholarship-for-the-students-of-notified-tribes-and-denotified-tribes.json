@@ -1,0 +1,31 @@
+{
+  "id": "pre-matric-scholarship-for-the-students-of-notified-tribes-and-denotified-tribes",
+  "name": "Pre-Matric Scholarship for the Students of Notified Tribes and Denotified Tribes Castes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Scholarship Amounts:**\n\n- Boys (Class 1st to 8th): ₹750/- per annum- Boys (Class 9th to 10th): ₹1,000/- per annum- Girls (Class 1st to 5th): ₹500/- per annum- Girls (Class 6th to 10th): ₹1,000/- per annum\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-income-certificate-10th12th-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssntdt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to Notified Tribes or Denotified Tribes as recognized by the Government of Gujarat.\n1. The applicant must be a student and studying in standard 1st to 10th. \n1. The applicant must be studying in a government or government-aided primary or secondary school.\n1. The applicant must be a resident of Gujarat.\n1. There is no income limit for students from standard 1st to 8th.\n1. The applicant’s annual family income must not exceed ₹6,00,000/- for classes 9th to 10th.\n\n<br>",
+  "_criteria_filled": 2
+}

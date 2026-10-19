@@ -1,0 +1,26 @@
+{
+  "id": "pre-matric-scholarships-scheme-for-scheduled-castes-others",
+  "name": "Pre- Matric Scholarships Scheme for Scheduled Castes & Others",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "The students shall be given a consolidated academic allowance, as follows:\n\n1. **Day Scholar:**- ₹3,500/- per annum1. **Hosteller:** - \n\n- Component 1- ₹7,000/- per annum\n- Component 2- ₹8,000/- per annum (For Class III-X)\n- In addition, a 10% extra allowance shall be given to Divyang (Disabled) students.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      }
+    ]
+  },
+  "documents": [
+    "photograph-academic-certificate-caste-certificate-income-proof-domicile-certific"
+  ],
+  "apply_url": "https://socialjustice.gov.in/schemes/23",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scholarships are open to Nationals of India only.\n- **Component 1: Pre Matric Scholarship for SC students**\n\n   1. Applicant students should be studying in class IX and X on a full time basis.\n   1. Applicant students should belong to a Scheduled Caste.\n   1. Parent/Guardian of applicant students income should not exceed Rs. 2.50 lakh per annum\n\n- **Component 2: Pre-Matric scholarship for children of parents/guardians engaged in Unclean and hazardous Occupation**\n\n   1. The students should be studying in classes I to X on a full time basis.\n   1. Scholarship will be admissible to the children/wards of parents/guardians who, irrespective of their caste/religion belong to one of the following categories\n\n      - Persons who are Manual Scavengers.\n      - Tanners &amp; Flayers.\n      - Waste pickers.\n      - Persons engaged in hazardous cleaning.\n\n   1. There is no family income ceiling under this component of the Scheme.\n\n- Eligible for one scholarship at a time for classes I to X. Notify awarding body if another scholarship is received.",
+  "_criteria_filled": 1
+}

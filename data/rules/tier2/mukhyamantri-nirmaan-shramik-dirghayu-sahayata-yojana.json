@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-nirmaan-shramik-dirghayu-sahayata-yojana",
+  "name": "Mukhyamantri Nirmaan Shramik Dirghayu Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Accidental medical treatment:\n\n   1. Registered workers will be eligible for a one-time payment of up to ₹20,000/- for medical treatment due to an accident.\n   1. Additionally, they will be eligible for ₹1,000/- for a vision aid (glasses), ₹5,000/- for artificial teeth, and ₹6,000/- for a hearing aid.\n   1. If a worker is hospitalized for more than 15 days, they will be eligible for reimbursemen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "labor-registered-card-hospital-certificate-bank-passbook-photocopies-certificate"
+  ],
+  "apply_url": "https://cglabour.nic.in/EngPages/schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnsdsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered with labor board.\n1. Applicant age must be between 18 to 60 years.",
+  "_criteria_filled": 3
+}

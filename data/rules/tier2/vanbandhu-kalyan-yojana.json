@@ -1,0 +1,31 @@
+{
+  "id": "vanbandhu-kalyan-yojana",
+  "name": "Vanbandhu Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Double the income of all tribal families, with a special focus on the migrant families and the Particularly Vulnerable Tribal Groups\n  - Increas in animal husbandry and dairy based activities\n  - Access to quality education for every eligible tribal child and increased emphasis on higher education.\n  - Double the income of all tribal families including migrant tribal families and Particularly Vu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "tribal-category-document-bpl-certificate-land-related-document-in-case-of-availi"
+  ],
+  "apply_url": "https://vky.gujarat.gov.in/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/vky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary must be from Tribal Category. \n1. Must belong to BPL group.",
+  "_criteria_filled": 2
+}

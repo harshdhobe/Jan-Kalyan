@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-awarding-fellowships-for-undergraduate-and-postgraduate-students",
+  "name": "Scheme for Awarding Fellowships for Undergraduate and Postgraduate Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Undergraduate Students:** ₹500/- per month for 12 months.  - **Postgraduate Students:** ₹1,500/- per month for 12 months.  - **Ph.D. Student:** ₹2,000/- per month for 12 months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "graduate-mark-sheet-mark-sheet-of-12th-std-passport-size-photos-post-graduate-ma"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/safupgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a regular full‑time student enrolled in an undergraduate/ postgraduate or Ph.D. program at Anand Agricultural University.\n  - The student should not avail any other Scholarship/ Fellowship concurrently with this one.\n  - The family income of the student should not exceed ₹6,00,000/- per year.",
+  "_criteria_filled": 2
+}

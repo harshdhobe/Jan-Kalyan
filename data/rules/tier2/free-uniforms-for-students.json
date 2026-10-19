@@ -1,0 +1,26 @@
+{
+  "id": "free-uniforms-for-students",
+  "name": "Free Uniforms for Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Each boy and girl student is provided ₹600/- for two sets of uniforms.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "it-should-be-provided-as-per-the-guidelines-of-the-school-management-committee"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=385",
+  "source_url": "https://www.myscheme.gov.in/schemes/fufs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of a government primary or middle school in Madhya Pradesh.\n1. Applicable for Classes 1 to 8.\n1. Student must be enrolled before 15 August of the academic year.\n\n<br>",
+  "_criteria_filled": 1
+}

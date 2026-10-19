@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-coir-clustersocietiesagency-component-of-the-development-of-coir-scheme",
+  "name": "\"Grant to Coir Cluster/Societies/Agency\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Grant of ₹2,00,000 per year for five years to cover administrative and developmental expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "registration-proof-under-the-co-operative-act-or-relevant-societies-act-details"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/gccsa-dc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a cluster/society/agency.\n- The applicant should be engaged in coir product activities.\n- The members of the organization should be coir artisans.\n- The applicant should be registered under the Co-operative Act or any other Societies Act.",
+  "_criteria_filled": 1
+}

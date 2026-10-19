@@ -1,0 +1,31 @@
+{
+  "id": "scheduled-tribe-dashamottar-scholarship-starting-from-class-11-uttarakhand",
+  "name": "Scheduled Tribe Dashamottar Scholarship (Starting from Class 11) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***The total scholarship amount determined by the districts = Educational Allowance + Tuition Fee.***\n***Group 1:***\nBachelors, Master’s Degree, M.Phil/Ph.D. Degree, PG Diploma, Professional Courses in various streams-\n\n  - **Hostellers:** ₹1,200/- per month; (₹12,000/- per annum)  - **Day Scholars:** ₹550/- monthly; (₹5,500/- per annum)\n***Group 2:***\nFor all non-professional recognized courses t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-recent-photograph-caste-certificate-residence-certificate-bank-pass"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stdss11uk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must belong to the Scheduled Tribe (ST) category.\n   1. The applicant must be enrolled in a recognized school/educational institution in Uttarakhand.\n   1. The applicant must be studying in Class 11 or higher level course.\n   1. The applicant must possess valid documents, such as Caste Certificate, Residence Certificate, Bank Passbook, Aadhaar, Photograph, Educational Qualification Certificates, and Income Certificate.\n   1. The total annual income of the parents/guardians from all sources must not exceed ₹2.5 lakh.\n   1. The scholarship will be available for one year only for studying in any class.\n\n<br>",
+  "_criteria_filled": 2
+}

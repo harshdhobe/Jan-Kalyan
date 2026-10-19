@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-for-normal-delivery-and-surgical-delivery",
+  "name": "Financial Assistance for Normal Delivery and Surgical Delivery",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "**Financial Assistance For:**\n\n- Normal Delivery- ₹15,000/-\n- Surgical Delivery- ₹20,000/-\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fandsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered women construction worker under the MBOCWW or the wife of a registered male worker.\n1. The applicant should be Pregnant.\n1. Benefit is available for the first two deliveries only.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "acharya-vidyasagar-gau-samvardhan-yojana",
+  "name": "Acharya Vidyasagar Gau Samvardhan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The animal owner can get the plan approved for minimum 5 or more animals and the maximum limit amount of the project is Rs. 10.00 lakhs.\n75 percent of the project cost will have to be received through bank loan and the balance amount will have to be arranged in the form of margin money assistance and the beneficiary's own contribution.\nReimbursement of interest on 75 per cent of the unit cost or 5",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-land-document-bank-details"
+  ],
+  "apply_url": "https://mpdah.gov.in/schemes/view/eWl6N3NIUFc2bzQ3Tjl1UUNyRmRCQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/avgsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is applicable to all the registered cow shelters, non-governmental organizations, and individuals who own cows.\n- The scheme is only applicable to the indigenous cows that are recognized by the government.\n- The cow owners or cow shelters must be registered with the Gau Samvardhan Board to avail the benefits of the scheme.\n- The applicant must have a valid Aadhaar card, and the cow must be registered with the Gau Samvardhan Board.\n- The cow owners or cow shelters must have a dedicated space for the cows, along with facilities for their feeding, cleaning, and medical care.\n- The applicant must have a bank account in the name of the cow shelter or in their individual name.",
+  "_criteria_filled": 1
+}

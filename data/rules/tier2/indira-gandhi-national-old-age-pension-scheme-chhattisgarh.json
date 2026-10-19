@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-national-old-age-pension-scheme-chhattisgarh",
+  "name": "Indira Gandhi National Old Age Pension Scheme- Chhattisgarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "Eligible beneficiaries under this scheme will receive monthly financial assistance as follows:\n\n  - **Beneficiaries aged 60 to 79 years:**  ₹500/- per month (Central contribution: ₹200/-, State contribution: ₹300/-).  - **Beneficiaries aged 80 years or above:** ₹650/- per month (Central contribution: ₹500/-, State contribution: ₹150/-).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-c",
+    "sarpanch-or-councillor-proof-of-age-doctors-certificate",
+    "birth-certificate",
+    "certificate-issued-by-an-administrator",
+    "sarpanch",
+    "or-mayor",
+    "school-certificate",
+    "etc-below-poverty-line-bpl-cardrelated-documents-address-proof-bank-passbookpost"
+  ],
+  "apply_url": "https://edistrict.cgstate.gov.in/PACE/instructionPageHome.do?serviceId=12&OWASP_CSRFTOKEN=DG6E-B6XY-YPVM-NM2S-DC2F-5R8E-J9QL-DQY4",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignoapsch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a senior citizen.\n   1. The applicant should be 60 years of age or older.\n   1. The applicant&amp;#39;s name should be included in the list of families living Below Poverty Line.\n   1. The applicant should not be receiving pension benefits from any other Central or State Government pension scheme.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,27 @@
+{
+  "id": "khiladi-protsahan-yojana",
+  "name": "Khiladi Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- On selection at various levels, incentive amount is payable as follows:-\n\nLevels(Category – A) Incentive amount on getting selected in district/divisional/state level sports.(Category – B) Incentive amount given by the Board for being winner in District/Divisional/State level game.At District Level₹10,000/-₹5,000/-At Division Level₹25,000/-₹15,000/-At State Level₹25,000/-₹30,000/-<br>\n\n<br>\n\n<br",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-the-prescribed-format-along-with-a-copy-of-the-registration",
+    "certificate-given-by-the-district-superintendent-of-police-and-district-sports-o"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/KhiladiProtsahanYojna.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/kpymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. Family members registered under MP Building and Other Construction Workers Welfare Board.\n1. The applicant should be a bank account.",
+  "_criteria_filled": 1
+}

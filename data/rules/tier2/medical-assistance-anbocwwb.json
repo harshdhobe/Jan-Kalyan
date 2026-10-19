@@ -1,0 +1,28 @@
+{
+  "id": "medical-assistance-anbocwwb",
+  "name": "Medical Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "household",
+  "benefit": "1. Medical assistance will be provided to the beneficiaries @ ₹200/- per day for the first 5 days of hospitalization and ₹100 per day for the remaining days subject to a maximum of ₹5,000/-.\n   1. The beneficiary shall be entitled to ₹1,00,000/- in the event of medical referred cases to the Mainland of the beneficiary or his/her dependents to the Mainland by the Govt. Medical Authorities for treat",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-an-islands-building-other-construction",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen",
+    "if-any-treatment-bills-originals-latest-subscription-receipt-bank-account-detail"
+  ],
+  "apply_url": "https://serviceonline.gov.in/citizenRegistration.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/maanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in a building or other construction work.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. To avail medical assistance under the scheme, either the beneficiary or their dependent should be hospitalized due to an accident or illness.\n\n**Note 01:** The beneficiaries are required to produce a medical certificate\n**Note 02:** The beneficiaries are required to produce a referral letter from the competent authority.",
+  "_criteria_filled": 1
+}

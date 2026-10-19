@@ -1,0 +1,32 @@
+{
+  "id": "savitribai-phule-scholarship-for-vjnt-and-sbc-girls-students-studying-in-8th-to",
+  "name": "Savitribai Phule Scholarship For V.J.N.T And S.B.C Girls Students Studying In 8th To 10 Std",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The beneficiary is to provide ₹100/- per month for 10 months i.e. ₹1,000/- for 10 months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-proof-of-identity-proof-of-age-birth-certificate-proof-of-address",
+    "not-below-the-rank-of-tehsildar-marksheet-of-the-latest-educational-qualificatio"
+  ],
+  "apply_url": "https://mahadbt.maharashtra.gov.in/home/flow",
+  "source_url": "https://www.myscheme.gov.in/schemes/sps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl Student should belong to V.J.N.T. or S.B.C category.\n1. Girl Student should be studying in 8th to 10th Standard.\n1. No income limit and there will be no limit of marks.",
+  "_criteria_filled": 2
+}

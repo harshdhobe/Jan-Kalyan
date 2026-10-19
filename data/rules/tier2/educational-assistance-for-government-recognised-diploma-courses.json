@@ -1,0 +1,26 @@
+{
+  "id": "educational-assistance-for-government-recognised-diploma-courses",
+  "name": "Educational Assistance for Government Recognised Diploma Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "**Financial Assistance For:**\n\n- Government Recognized Diploma Courses- ₹20,000/-\n- Postgraduate Diploma Courses- ₹25,000/-\n\n<br>\n\n> **NOTE:** Benefit applies to a maximum of two children and to the wife of registered male workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eagrdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra.\n1. The applicant should be a child or spouse of a registered construction worker.\n1. The construction worker should be registered under the MBOCWW. \n1. The applicant must be enrolled in a government-recognized diploma or postgraduate diploma course.\n\n<br>",
+  "_criteria_filled": 1
+}

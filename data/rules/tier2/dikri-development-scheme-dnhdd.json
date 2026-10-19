@@ -1,0 +1,32 @@
+{
+  "id": "dikri-development-scheme-dnhdd",
+  "name": "Dikri Development Scheme-DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "&gt; **Financial Benefit**\n\n   1. An LIC is purchased from the Life Insurance Corporation named as Single Premium Endowment Plan (No. 917) in the name of the girl child of sum amount of ₹42,372/- (inclusive of all taxes). \n   1. Amount will be given to the first two girl children who are among the first two living issues that the couple has. \n   1. On attaining the age of 18 years, the child can u",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "original-institutional-delivery-certificate-oidc-from-the-institutional-head-in",
+    "including-bank-account-number-name-of-bank-with-branch-ifsc-code-aadhar-seeded-b"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2021/09/2021090854.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Either of the applicant&amp;#39;s parents should be a domicile of Dadra &amp;amp; Nagar Haveli &amp;amp; Daman &amp;amp; Diu. \n   1. The applicant&amp;#39;s mother must be of above 18 years old at the time of marriage. \n   1. The applicant delivery shall be carried out at Government / registered private hospitals of the U.T. of Dadra &amp;amp; Nagar Haveli &amp;amp; Daman &amp;amp; Diu. \n   1. The applicant&amp;#39;s expected mother must have undergone at least 3 Antenatal Checkups as per the Reproductive and Child Health scheme to be duly certified by the concerned Auxiliary Nurse Midwife / Field Health functionary of the respective sub-centre, and in case of high-risk patients, the number of antenatal checkups may be as recommended by a gynaecologist. \n   1. The applicant&amp;#39;s expected mother is registered under the Mother &amp;amp; Child Tracking System, and an ID has been generated. \n   1. The applicant will be eligible for the first two girl children who are among the first two living children that the couple has.\n\n<br>",
+  "_criteria_filled": 2
+}

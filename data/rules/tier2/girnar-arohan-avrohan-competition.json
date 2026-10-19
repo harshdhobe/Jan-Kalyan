@@ -1,0 +1,26 @@
+{
+  "id": "girnar-arohan-avrohan-competition",
+  "name": "Girnar Arohan-Avrohan Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Cash Prize:** A total of ₹8,40,000/- is distributed among the first 10 winners.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-any-other-documents-as-required"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gaac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be physically fit and willing to participate in the stair-climbing competition.\n  - The applicant should complete the required number of steps: 5,500 steps for men and 2,200 steps for women.\n\n<br>",
+  "_criteria_filled": 1
+}

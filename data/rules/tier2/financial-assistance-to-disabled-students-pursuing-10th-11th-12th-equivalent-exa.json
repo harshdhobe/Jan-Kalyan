@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-disabled-students-pursuing-10th-11th-12th-equivalent-exa",
+  "name": "Financial Assistance To Disabled Students Pursuing (10th, 11th, 12th Equivalent Exams)",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "<br>\n\n**Sl. No.****Class/Course****Course Fee Assistance****Exam Fee Assistance****Registration Fee Assistance****Admission Fee Assistance**1SSLC/10th Class₹1750/-₹500/-₹100/---211th Class₹1950/-₹700/-₹100/-₹200/- 312th Class₹1950/-------",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-passport-size-photo-3-educational-certificates-4-below-povert"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/24910.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fadsp1012e",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Kerala State.\n   1. The differently abled students with 40% or more disability are eligible to apply under the scheme.\n   1. Financial assistance will be provided to students falling in Above Poverty Line (APL) as well as Below Poverty Line (BPL) categories.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "organizing-participation-in-exhibitions-trade-fairs-expo-seminars-investors-meet",
+  "name": "'Organizing/ Participation in Exhibitions /Trade Fairs /Expo /Seminars /Investors Meets, etc' under 'Marketing And Publicity'",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Promotion Campaigns, Exhibitions, Trade Fairs, Investors Meets, Seminars etc., are arranged in important towns/cities of India and abroad, for the market promotion (display cum sale) for (MSME) products (industrial products, handicraft products, cottage industries products, etc).\n- The participating artisans/unit industrialists are paid traveling expenses restricted to second-class railway fare ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-as-an-artisanunit-industrialist-from-puducherry-any-other"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/opetfesime-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be an artisan/unit industrialist from Puducherry.",
+  "_criteria_filled": 1
+}

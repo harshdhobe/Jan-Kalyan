@@ -1,0 +1,34 @@
+{
+  "id": "maintenance-of-govt-boys-and-girls-hostels-sc",
+  "name": "Maintenance of Govt Boys and Girls Hostels (SC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Free Accommodation in Government Hostels.\n- Free Meals (Breakfast, Lunch, Dinner).\n- Free Educational Facilities such as textbooks and study material.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-caste-certificate-gender-certificate-obtai",
+    "rent-agreement",
+    "voter-id",
+    "or-ration-card-annual-family-income-certificate-mark-sheet-of-last-examination-p"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgbghsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Caste (SC) category.\n1. The applicant must be a permanent resident of Gujarat.\n1. The applicant must have passed class 10th (SSC) or higher from GSEB/CBSE.1. The applicant must be enrolled in a regular course in a college within the same district as the hostel.\n1. The boy student&#39;s annual family income must not exceed ₹2,50,000. No income limit for girl students.\n1. The applicant must have scored at least 50% marks in the last annual exam.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

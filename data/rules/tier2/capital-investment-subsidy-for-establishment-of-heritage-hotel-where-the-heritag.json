@@ -1,0 +1,28 @@
+{
+  "id": "capital-investment-subsidy-for-establishment-of-heritage-hotel-where-the-heritag",
+  "name": "Capital Investment Subsidy for Establishment of Heritage Hotel where the Heritage Assets are obtained from Tourism Department on Lease",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The scheme provides a capital subsidy of 15% against the Fixed Capital Investment made in the project.\n- The maximum ceiling for the capital subsidy is ₹5,00,00,000/-.\n- SC/ST category entrepreneurs who establish the tourism project under 100% ownership shall be entitled for an additional 5% capital investment subsidy.\n- Projects established in distant and ulterior areas are entitled to an addit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "project-and-entity-details-memorandum-and-articles-of-association-if-the-applica",
+    "catering-bill",
+    "or-service-bill-other-documents-coloured-photographs-of-the-unitproject-from-03"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisehhhatdl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a Heritage Hotel project.\n- The applicant must have obtained the Heritage Assets from the Tourism Department on a lease basis.\n- The applicant must incur a minimum capital expenditure of ₹10,00,00,000/- as approved by the department.\n- The applicant must be a private investor, which may include a proprietary concern, partnership firm, company, or other legal entity.\n- The applicant must have obtained the heritage asset through the open bidding process conducted by the Empowered Committee.\n- The applicant must execute and operate the entire project in one go, or the capital expenditure incurred up to a maximum of 05 years prior to the commencement of the unit will be considered for the calculation of the capital grant.\n- The applicant must ensure the project is certified as a heritage hotel by the Tourism Department based on the framed rules and procedures.\n\n<br>",
+  "_criteria_filled": 1
+}

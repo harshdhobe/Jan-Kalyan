@@ -1,0 +1,44 @@
+{
+  "id": "skill-development-allowance-scheme",
+  "name": "Skill Development Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "Allowance shall be payable to each educated unemployed applicant for a maximum period of two years; subject to fulfilling eligibility criteria &amp;amp; timely submission of attested copies of 8th/matriculation marks sheet/certificate to ascertain age and educational qualification and Affidavit as per form ‘C’, at the following rates:\n1. **For Physically Challenged person** who have minimum 50% pe",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 36
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "please-ensure-that-all-the-columns-of-the-application-form-are-filled-attested-c",
+    "its-agencies",
+    "public-sector-undertaking",
+    "bodies-etc-self-certified-declaration-declaring-that-shehe-is-unemployed-as-per"
+  ],
+  "apply_url": "https://himachal.nic.in/showfile.php?lang=1&dpt_id=14&level=2&lid=20819&sublinkid=20531",
+  "source_url": "https://www.myscheme.gov.in/schemes/sda2013",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Subject to the provisions of this Scheme, all educated unemployed applicants shall be eligible for the\ngrant of Skill Development Allowance, who fulfill the following criteria:\n\n   1. She/He should be unemployed (i.e. neither employed in Govt. sector nor in private sector nor self employed) and should be a Bonafide Himachali.\n   1. She/He should have passed minimum 8th from any Board/University/Institution recognized by H.P Govt. There will be no requirement of minimum qualification for admissibility of allowance under the Scheme when applicant wants to pursue training in Sectors such as masonry, carpentry, blacksmithy or plumbing etc.\n   1. She/He should be registered with any Employment Exchange in Himachal Pradesh as on the date of application.\n   1. Her/His annual family income for the Financial Year immediately preceding date of application, from all sources including that of spouse should be less than Rs. 2.00 Lakh (Rs. Two Lakhs).\n   1. She/He should be above 16years and below 36 years of age and in case of widow less than 45 years of age as on the date of application.\n   1. She/He should not be self-employed.\n   1. The employment under MGNREGA will not be counted as employment.\n   1. She/He should not be a dismissed Govt. employee.\n   1. She/He should not be convicted of any offence resulting in imprisonment for a period of 48 hours or more.\n   1. She/he should be enrolled in a skill development training.",
+  "_criteria_filled": 4
+}

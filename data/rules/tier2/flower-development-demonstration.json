@@ -1,0 +1,26 @@
+{
+  "id": "flower-development-demonstration",
+  "name": "Flower Development (Demonstration)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Exhibition: Demonstrations of major flowers such as rose, tuberose, aster, marigold, chrysanthemum, and gladiolus are conducted in farmers’ fields over an area of 0.04 hectares (400 square meters).\n\n  - Financial Assistance: A subsidy is provided at the rate of 75% or a maximum of ₹3,000/- per demonstration, whichever is less, based on ₹4,000/- per demonstration for seeds, plants, bulbs, or suck",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/fdd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

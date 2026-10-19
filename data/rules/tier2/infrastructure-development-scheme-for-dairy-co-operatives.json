@@ -1,0 +1,26 @@
+{
+  "id": "infrastructure-development-scheme-for-dairy-co-operatives",
+  "name": "Infrastructure Development Scheme for Dairy Co-operatives",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "****The financial support is provided to meet administrative/managerial expenses on staff salaries and allowances, wages, office expenses, rent rates and taxes, and equipment.***\n****The Registering Authority shall verify the utilization of the grants released.***\n##### ***General Category Dairy Co-operative Societies***\n\n- Above 500 liters per day: ₹1,50,000/-.\n- 300–500 liters per day: ₹1,00,000",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "milk-supply-report-from-the-milk-union-for-the-period-for-which-the-assistance-i"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2425/2425-33-SI-OG-0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/idsdco",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Dairy Co-operative Society in the State.\n- The applicant must regularly supply the milk to the Milk Union.\n- The applicant must have completed one year of its registration.\n- The applicant must submit the Milk Supply Report from the Milk Union for the period for which the assistance is applied for along with the proposal.\n- The applicant must approve the proposal for Government assistance in the General Body/Special General Body before submitting the proposal to the concerned office of Assistant Registrar.\n\n##### ***Tribal Sub Plan/Schedule Caste Sub Plan Category Criteria***\nThe applicant must have a minimum of 15% shareholders as Scheduled Tribe/Scheduled Caste, as the case may be, to be considered a Tribal Sub Plan/Schedule Caste Sub Plan Co-operative Society for the purpose of availing assistance.\n<br>",
+  "_criteria_filled": 1
+}

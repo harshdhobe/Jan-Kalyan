@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-digital-learning-platform",
+  "name": "Establishment of Digital Learning Platform",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the Digital Learning Platform, students of secondary schools are provided with training and career counseling on various subjects, such as ICT orientation, emerging technologies, and more, through both online and offline modes.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-required-documents-should-be-submitted-in-accordance-with-the-guidelines-of"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/edlp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All students studying in secondary schools across Uttarakhand are eligible.\n<br>",
+  "_criteria_filled": 1
+}

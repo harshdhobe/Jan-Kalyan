@@ -1,0 +1,26 @@
+{
+  "id": "leave-travel-concession-scheme-haryana-labour-welfare-board",
+  "name": "Leave Travel Concession Scheme- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, an amount of ₹1,500/- is given to the worker as LTC once in a block of 4 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-board-aadha"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/88",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltcs-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹18,000/-.\n   1. The service period of the workers is fixed for 5 years.\n   1. The worker should not have received any LTC amount earlier in the concerned block.\n\n**Note:** The first block year will be considered as 2012-15.",
+  "_criteria_filled": 1
+}

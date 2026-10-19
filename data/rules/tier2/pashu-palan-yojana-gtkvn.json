@@ -1,0 +1,43 @@
+{
+  "id": "pashu-palan-yojana-gtkvn",
+  "name": "Pashu Palan Yojana (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- The maximum loan limit under this scheme is up to ₹1,00,000/-. \n- The loan is provided for animal husbandry activities such as dairy farming, boosting rural self-employment.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-annual-income-certificate-proof-of-age-aadhaar-card-ration-car",
+    "disabled",
+    "widow-experiencetraining-certificate-milk-association-certificate-for-animal-hus"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pgtkvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to Thakor or Koli community.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 to 50 years.\n1. The applicant should intend to purchase cows, buffaloes, or related dairy equipment for self‑employment.\n\n<br>",
+  "_criteria_filled": 4
+}

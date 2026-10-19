@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-st-students-under-gagan-bharari-shiksha-yojana",
+  "name": "Financial Assistance to ST Students under \"Gagan Bharari Shiksha Yojana\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. An Additional Maintenance Allowance of ₹ 7,500/- to Day Scholars for 10 Months.\n1. An Additional Maintenance Allowance of ₹ 15,000/- to Hostellers for 10 Months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-attested-copies-of-mark-sheetpassing-certificate-of-the"
+  ],
+  "apply_url": "https://tribalwelfare.goa.gov.in/images/2022/Circular_Gagan_Bharari.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasts-gbsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from a Scheduled Tribe (ST) in the State of Goa.\n1. The student should be a regular, full-time student studying in a recognized Institution / University. \n1. The applicant should have availed or should be eligible for Centrally Sponsored Post Matric Scholarship during the current Academic Year.\n1. The income of parents/guardians of the applicant should not exceed ₹ 5,00,000 per annum. \n\n**NOTE:** If a student has to repeat a class, he/she shall not be eligible to get a scholarship for a second time in the same class.",
+  "_criteria_filled": 2
+}

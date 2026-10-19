@@ -1,0 +1,37 @@
+{
+  "id": "capacity-building-for-service-providers-skill-testing-certification",
+  "name": "Capacity Building For Service Providers - Skill Testing & Certification",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> ***Benefits to the Institute -********* \n\nThe administrative expenses incurred by the implementing agencies towards organizing the training programmes under the guide training and other sectoral programmes (including tourism awareness programmes) shall be met by the MoT to the extent of 5% of the total estimated sanctioned training cost for a training confined to one city and \n@10% for training ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "for-the-trainee-proof-of-identity-proof-of-residence-proof-of-age-marksheet-of-c",
+    "name",
+    "address",
+    "age",
+    "scstobc",
+    "and-nature-of-work-register-of-training-programmes-date-duration-of-programme",
+    "location-of-training-camp",
+    "type-of-training-provided",
+    "no-of-trainees",
+    "name-of-trainersresource-person",
+    "brief-write-up",
+    "expenditure-quarterly-progress-report-to-mot-indicating-physical-and-financial-p"
+  ],
+  "apply_url": "https://tourism.gov.in/sites/default/files/2021-07/CBSP%20as%20on%201507.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cbsp-stc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For the Trainee (before enrolment) -** \n\n1. The applicant should have passed Class 8th.\n1. The applicant should be above the age of 18 years.\n\n<br>\n\n> **For the Trainee (after enrolment) -** \n\n1. To ensure that training are viewed seriously, a trainee must attend 80% of the classes/periods to become eligible for a certificate/ for appearing in the end-of-the-course test.\n\n<br>\n\n**Note 1:** The batch size of all programs/courses requiring hands-on/practical training should ideally comprise 20 persons\n**Note 2:** The selection of trainees is to be done in a transparent manner and the same trainee or person should not be selected again.\n**Note 3:** The students and trainers to be enrolled must be linked to Aadhaar in the Implementing Agency’s records as well as the individual’s Banks account. \n<br>",
+  "_criteria_filled": 1
+}

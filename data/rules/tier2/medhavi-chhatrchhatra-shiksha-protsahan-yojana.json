@@ -1,0 +1,26 @@
+{
+  "id": "medhavi-chhatrchhatra-shiksha-protsahan-yojana",
+  "name": "Medhavi Chhatr/Chhatra Shiksha Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "<br>\n\n**Class wise details****Annual Incentive Amount (For Boy Students)****Annual Incentive Amount (For Girl Students)**For Class 10th &amp;amp;amp;amp; 12th₹ 5,000/-₹ 5,500/-All Graduate Courses₹ 7,500/-₹ 7,500/-All Post Graduate Courses₹ 10,000/-₹ 10,500/-All vocational education and professional education₹ 12,000/-₹ 12,500/-By Chhattisgarh Board of Secondary Education. For the boys and girls w",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "labor-registration-certificate-guardian-aadhar-card-bank-account-details-permane"
+  ],
+  "apply_url": "https://govtschemes.in/sites/default/files/2023-04/Chattisgarh%20Medhavi%20Chatr-%20Chatra%20Shiksha%20Protsahan%20Yojna%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mccspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be resident of Chhattisgarh. \n1. First two children from a family\n1. Factory worker should be registered.\n1. Those children who score more than 75 percent marks will get the benefit of the scheme.\n1. Beneficiaries will be eligible for the benefits of this scheme after 90 days of registration.",
+  "_criteria_filled": 1
+}

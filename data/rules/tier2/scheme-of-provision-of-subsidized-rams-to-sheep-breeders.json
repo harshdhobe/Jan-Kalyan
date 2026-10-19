@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-provision-of-subsidized-rams-to-sheep-breeders",
+  "name": "Scheme Of Provision Of Subsidized Rams To Sheep Breeders",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "This Scheme of Provision of subsidized Rams to Sheep Breeders in Himachal Pradesh can benefit sheep breeders in the state by providing access to superior breed rams, increasing productivity and profitability, and promoting the adoption of modern and scientific methods of sheep breeding. Under this scheme, Breeding Ram will be provided on 60% subsidy.\n**Some of the key benefits of this scheme are:*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-copy-of-bank-passbook-sheep-availability-declaration-certif"
+  ],
+  "apply_url": "https://hpahdbt.hp.gov.in/Home/sheep_breeders",
+  "source_url": "https://www.myscheme.gov.in/schemes/rams-to-sheep-breeders",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The eligibility criteria for the Scheme may vary based on the specific guidelines and criteria set by the implementing agency of the scheme. However, some of the general eligibility descriptions given as under:\n\n   1. A Sheep breeder of H.P. having a flock of at least 25 sheep will be considered for providing ram under this scheme.\n   1. One ram per 25 Sheep will be allotted. A maximum of two rams will be allotted to one beneficiary.\n   1. The beneficiary will have to sign an agreement that he will not sell and castrate the allotted ram during the breeding life of the ram.",
+  "_criteria_filled": 1
+}

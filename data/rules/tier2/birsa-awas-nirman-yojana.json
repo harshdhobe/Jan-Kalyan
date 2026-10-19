@@ -1,0 +1,26 @@
+{
+  "id": "birsa-awas-nirman-yojana",
+  "name": "Birsa Awas Nirman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "> **Financial Support: Beneficiaries receive ₹1,31,500/- for constructing houses under the scheme:**\n\n1. First Installment: ₹40,000/- upon approval of the house.\n1. Second Installment: ₹75,000/- after window sealing.\n1. Third Installment: ₹16,500/- upon completing the house, including painting.\n\n<br>\n\n> **Incentives for Monitoring: Panchayat Volunteers or SHGs receive ₹500 per house in phases:**\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-residence-caste-certificate-issued-by-a-competent-authorit"
+  ],
+  "apply_url": "https://cms.myscheme.gov.in/department-of-scheduled-tribe-scheduled-caste-minority-and-backward-class-welfare/schemes/add/scheme-content",
+  "source_url": "https://www.myscheme.gov.in/schemes/bany",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Tribe community in Jharkhand.\n1. The applicant must fall under the economically weaker section. \n1. Only individuals residing in rural areas are eligible.",
+  "_criteria_filled": 1
+}

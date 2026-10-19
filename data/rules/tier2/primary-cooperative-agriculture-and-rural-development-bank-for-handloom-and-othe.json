@@ -1,0 +1,28 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-handloom-and-othe",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Handloom and Other Non Farm Sector Activities",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** Up to ₹2,00,000/-.  - **Interest Rate:** From 11% to 12.5%, (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-agricultural-occupation-for-handloom-and-other-non-fa"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3558",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcardfhtn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a farmer.\n  - The beneficiary should be engaged in handloom or non-farm sector activities.\n  - The beneficiary should be interested to avail the loan for handloom or non-farm sector activities.\n  - The beneficiary should have the intention to use the loan specifically for handloom or non-farm sector activities.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

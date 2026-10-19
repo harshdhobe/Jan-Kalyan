@@ -1,0 +1,46 @@
+{
+  "id": "mahila-samiriddhi-yojana-for-backward-classes-haryana",
+  "name": "Mahila Samiriddhi Yojana for Backward Classes- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, Nigam provides loans up to ₹1,25,000/- per beneficiary only to women entrepreneurs of the target group either directly or through Self-Help Groups.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=io69Z+3QVT1DyjmMKkgSPw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/msybc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be between 18 and 55 years old.\n   1. This scheme is applicable for women only.\n   1. The applicant should belong to Backward Classes in the case of individual woman beneficiary.\n   1. In a Self-Help Group (SHG) 60% of members can be from Backward Classes and the remaining 40% members may be from other weaker sections like SC/Handicapped/Minorities etc.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹3,00,000/- in both rural and urban areas.\n   1. The applicant should have Pariwar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 5
+}

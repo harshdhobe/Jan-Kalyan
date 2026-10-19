@@ -1,0 +1,26 @@
+{
+  "id": "award-of-cash-incentive-to-the-toppers-at-regional-level-and-students-scoring-ce",
+  "name": "Award of Cash Incentive to the Toppers at Regional Level and Students Scoring Centum in the Subjects Involving Theory in Secondary School Leaving Certificate/Secondary School Certificate/Intermediate/Higher Secondary Public Examinations in Government Schools in the Union Territory of Puducherry",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- For students securing top three ranks at the regional level in Secondary School Leaving Certificate/Secondary School Certificate/Intermediate/Higher Secondary Public Examinations in Government Schools: 1st Rank: ₹20,000/-; 2nd Rank: ₹15,000/-; 3rd Rank: ₹10,000/-.\n- For students scoring centum in the subjects involving theory in Secondary School Leaving Certificate/Higher Secondary Course Examin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-citizenship-of-india-proof-of-residence-in-the-union-territory-of-puduc"
+  ],
+  "apply_url": "https://styandptg.py.gov.in/2024/JANUARY/EXTRAORDINARYPART-II/1/02-PART-II%20dated%2011-01-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/acitrlsscstsslcsscihspegsutp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a citizen of India.\n- The applicant must be a resident of the Union territory of Puducherry, by virtue of birth or continuous residence of not less than five years.\n- The applicant must be a student appearing in Secondary School Leaving Certificate/Secondary School Certificate/Intermediate/Higher Secondary Public Examinations in Government Schools.\n- The applicant must have passed the qualifying examination in the first attempt.\n- The applicant&#39;s marks from consecutive attempts must not be taken into account.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "coaching-assistance-scheme-for-scheduled-caste-students-for-pre-exam-preparation",
+  "name": "Coaching Assistance Scheme For Scheduled Caste Students For Pre-Exam Preparation Like NEET, JEE, GUJCET",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, ₹20000/- or the actual fee to be paid whichever is less.\n1. The assistance amount is directly credited to the student&#39;s bank account through DBT (Direct Benefit Transfer).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificates-caste-certificate-ration-card-12th-certifi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/2225?lang=english",
+  "source_url": "https://www.myscheme.gov.in/schemes/casscsppnjg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria of the Student:**\n1.\tStudents should be of Scheduled Caste.\n2.\tThere is no income limit for students.\n3.\tStudents for preparation of exams like NEET, JEE, and GUJCET with 70% or more marks in Std. 10 and must be studying in Std. 12 (Science stream).\n**Eligibility Criteria of the Institute:**\n1.\tThe organization should have more than three years of experience.\n2.\tThe organization should have a GST number/PAN card.\n3.\tInstitutions should have biometric (fingerprint) machines for student attendance.\n4.\tFaculty for NEET, and JEE who should have done M.Sc. in that subject.\n5.\tThe training institute should be registered under any one of the following Acts.\n•\tMumbai Public Trust Act, 1950\n•\tCompanies Act, 1956\n•\tShop and Establishment Act, 1948 (Shops and Institutions Act, 1948)",
+  "_criteria_filled": 1
+}

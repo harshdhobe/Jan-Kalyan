@@ -1,0 +1,41 @@
+{
+  "id": "ganga-swarupa-punah-lagna-arthik-sahay-scheme",
+  "name": "Ganga Swarupa Punah Lagna Arthik Sahay Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Assistance through Direct Bank Transfer (DBT): ₹**25,000/- will be credited directly to the beneficiary&amp;#39;s savings account through Direct Bank Transfer (DBT).  - **Assistance for National Savings Certificates:** **₹**25,000/- will be issued to the beneficiary in the form of National Savings Certificates (NSC), providing a secure and long-term savings option.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-applicant-widowed-woman-copy-of-ration-card-school-leaving-certific"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=234",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsrfas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be aged between 18 to 50 years.\n   1. The applicant must be a beneficiary of the &amp;amp;quot;Ganga Swarup Economic Assistance Scheme&amp;amp;quot;.",
+  "_criteria_filled": 4
+}

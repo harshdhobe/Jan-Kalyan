@@ -1,0 +1,26 @@
+{
+  "id": "pension-scheme-for-transgender",
+  "name": "Pension Scheme for Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- ₹2,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbook-ration-card-address-proof-age-proof-permanent-residen"
+  ],
+  "apply_url": "https://slsa.tripura.gov.in/sites/default/files/SW%20%26%20SE_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psft",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The applicant should be Transgender.",
+  "_criteria_filled": 1
+}

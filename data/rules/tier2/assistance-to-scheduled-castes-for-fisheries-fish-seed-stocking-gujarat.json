@@ -1,0 +1,31 @@
+{
+  "id": "assistance-to-scheduled-castes-for-fisheries-fish-seed-stocking-gujarat",
+  "name": "Assistance to Scheduled Castes for Fisheries: Fish Seed Stocking - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- 100% assistance is given to Scheduled Castes for the cost of fish seed and the total cost, including transportation.\n\n> **Note:** Minimum Time Limit (in Years) for Reclaiming Benefits: 1 Year\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-cardvoter-idration-cardpassport-as-proof-of-identity-bank-account-passboo"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Bu2wc90IXRdJKrcfHJ/9ew==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascffsguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) community.\n1. The applicant should be above 18 years of age.\n1. The applicant should be involved in inland fisheries activities.\n1. The applicant can be an individual, a society, a self-help group, an association, a reservoir monopoly, or a private unit.\n1. The applicant must have a bank account in their own name.\n1. The applicant must have an Aadhar Card/Voter ID/Ration Card/Passport as proof of identity.\n\n<br>\n\n> **Preference/Reservation:**\n\nThe scheme specifically benefits Scheduled Caste fishermen under the inland fisheries scheme.\n<br>",
+  "_criteria_filled": 2
+}

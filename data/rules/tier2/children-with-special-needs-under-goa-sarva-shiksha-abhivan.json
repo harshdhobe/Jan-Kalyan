@@ -1,0 +1,32 @@
+{
+  "id": "children-with-special-needs-under-goa-sarva-shiksha-abhivan",
+  "name": "Children With Special Needs Under Goa Sarva Shiksha Abhivan",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Grant is released for activities for CWSN, medical assessments, resource rooms, home-based education, TLM, training of educators, volunteer educators, assistive aids, and corrective surgeries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-medical-certificates-if-available-other-supporting-documents",
+    "as-specified-in-the-scheme-guidelines"
+  ],
+  "apply_url": "https://education.goa.gov.in/sites/default/files/2020-11/schemes-gssa.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cwsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The child must either be differently-abled or require special needs.",
+  "_criteria_filled": 2
+}

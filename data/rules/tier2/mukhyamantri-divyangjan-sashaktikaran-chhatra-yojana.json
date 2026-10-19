@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-divyangjan-sashaktikaran-chhatra-yojana",
+  "name": "Mukhyamantri Divyangjan Sashaktikaran Chhatra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Free distribution of battery-operated tricycles.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photograph-income-certificate-issued-by-a-competent-authority-residential-certif"
+  ],
+  "apply_url": "https://online.bih.nic.in/swf/swftc/Register.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdscy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a locomotor-disabled student/employee.  \n1. The applicant should be a permanent resident of Bihar.\n1. The applicant&#39;s annual family income should not exceed ₹2,00,000/-.\n1. The applicant&#39;s age should be 18 years or above. \n1. The applicant&#39;s minimum disability should be 60 percent. \n1. The student or employee must reside at least distance of 3 kilometers or more from their respective place of education or work.",
+  "_criteria_filled": 4
+}

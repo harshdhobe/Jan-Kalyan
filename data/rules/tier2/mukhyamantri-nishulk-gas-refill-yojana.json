@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-nishulk-gas-refill-yojana",
+  "name": "Mukhyamantri Nishulk Gas Refill Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, Antyodaya ration card (pink card) holders in the state are entitled to receive 03 free gas cylinder refills every year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "antyodaya-ration-card-pink-card-aadhaar-cardbank-details-mobile-number"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mngryu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand.\n- The applicant must hold an Antyodaya (pink card) ration card issued by the state.\n\n<br>",
+  "_criteria_filled": 1
+}

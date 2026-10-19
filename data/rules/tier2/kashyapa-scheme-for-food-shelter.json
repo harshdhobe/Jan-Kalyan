@@ -1,0 +1,33 @@
+{
+  "id": "kashyapa-scheme-for-food-shelter",
+  "name": "Kashyapa Scheme for Food & Shelter",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:**\n\n- ₹2,000/- per month to orphan children.\n- ₹2,000/- per month to different abled persons.\n- ₹2,000/- per month to widow or destitute women (separated from husband).\n- ₹2,000/- per month for elderly staying in his/her own home.\n- ₹4,000/- per month for elderly staying in any Old-Age Home in Andhra Pradesh. \n- ₹2,000/- per month for elderly staying in any Old-Age Home in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhar-card-of-the-applicant-caste-certificate-issued-b",
+    "in-case-of-destitute-women-separated-from-husband",
+    "but-do-not-have-legal-document"
+  ],
+  "apply_url": "https://andhrabrahmin.ap.gov.in/down/kashyapa2018.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Brahmin community and reside in Andhra Pradesh. \n1. The applicant should be a holder of a white ration card. \n1. The applicant&#39;s annual family income should not exceed ₹75,000/-. \n1. The orphan children below 14 years of age as of 31st Jan 2019.  \n1. The Elderly above 60 years of age as of 31st Jan 2019. \n1. All differently abled of any age and widows &amp; destitute women (separated from husband, but do not have legal documents) of any age. \n1. The applicant should not have availed himself/ herself of any amount under any other Government scheme for the same purpose.",
+  "_criteria_filled": 2
+}

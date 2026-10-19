@@ -1,0 +1,31 @@
+{
+  "id": "pension-to-the-beneficiary-building-worker-who-has-completed-60-years",
+  "name": "Pension to the Beneficiary Building Worker Who Has Completed 60 Years",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "- **Pension of ₹500/- per month with an increase of ₹10/- for each additional year of service beyond the initial 5 years.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-birth-certi"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=pension+to+the+beneficiary+building+worker+who+has+completed+60+years",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbbwc60y",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be registered under the Manipur Building and Other Construction Workers&#39; Welfare Board.\n1. The registered applicant should be working as a building worker for not less than 5 years.  \n1. The applicant&#39;s age should be 60 years or above.",
+  "_criteria_filled": 2
+}

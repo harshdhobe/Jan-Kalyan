@@ -1,0 +1,31 @@
+{
+  "id": "rkvy-soil-health-and-fertility-village-level-soil-testing-lab",
+  "name": "RKVY Soil Health and Fertility Village level Soil Testing Lab",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **One-Time Financial Assistance:** Financial assistance of ₹1,50,000/- is provided for establishing a Village Level Soil Testing Lab (VLSTL).  - **Assistance for Soil Testing Equipment:** Up to ₹1,00,000/- for soil testing equipment, reagents, sample shaker machine, and one-year Annual Maintenance Contract (AMC).  - **Assistance for Laboratory Consumables:** Up to ₹50,000/- for distilled water, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 27
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-land-documents-bank-details-photographs-any-other-documents-as-re"
+  ],
+  "apply_url": "https://agriwelfare.gov.in/sites/default/files/guide_soil.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rkvyshfvlstl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Age of the applicant should be between 18 to 27 years\n  - The Educational Qualification of the applicant should be 10th pass with science and knowledge of computer\n  - The applicant / entrepreneur group should have their own premises / rented building with lease agreement for atleast four years.\n\n<br>",
+  "_criteria_filled": 2
+}

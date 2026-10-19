@@ -1,0 +1,44 @@
+{
+  "id": "marriage-assistance-scheme-mpbocwwb",
+  "name": "Marriage Assistance Scheme (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- ₹55,000/- Total Assistance\n- ₹11,000/- Cash Support\n- ₹38,000/- For Materials\n- ₹6,000/- For Mass Marriage Organizer",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationcopy-of-the-composite-id-copy-of-the-first-page-of-the-passbook",
+    "utility-bill",
+    "voter-id",
+    "etc-marriage-invitation-card-original-proof-of-relationship-with-the-registered"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/VivahSahayta.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/masmpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n- The applicant should be a resident of Madhya Pradesh.\n- The applicant should be a Building/ Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n- The registration of the applicant should be renewed annually.\n\n**For Application**\n\n- The applicant should be a registered female worker or the daughter of a registered worker.\n- The applicant should participate in the &quot;Chief Minister Kanya Vivaah/Nikah Scheme&quot;.\n- The bride should be at least 18 years old.\n- The applicant should not have received similar assistance before.",
+  "_criteria_filled": 4
+}

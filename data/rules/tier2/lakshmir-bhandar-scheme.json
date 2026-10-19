@@ -1,0 +1,52 @@
+{
+  "id": "lakshmir-bhandar-scheme",
+  "name": "Lakshmir Bhandar Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- For women from Scheduled Caste / Scheduled Tribes households: ₹ 1,200/- per month\n- For women from other category: ₹ 1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "swasthyasathi-card-aadhaar-card-scst-certificate",
+    "if-applicable-bank-account-details-self-attested-photocopy-of-the-page-of-the-ba",
+    "account-no",
+    "bank-address",
+    "ifs-code-and-micr-no-the-bank-account-should-be-a-single-bank-account-in-name-of",
+    "statutory-bodies",
+    "government-undertakings",
+    "panchayats",
+    "municipal-corporations-municipalities",
+    "local-bodies",
+    "government-aided-educational-institutions",
+    "etc-c-information-furnished-by-her-in-the-application-form-is-true"
+  ],
+  "apply_url": "https://www.wburbanservices.gov.in/upload_file/file_doc/lakshmir_bhandar_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbs-wb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of West Bengal.\n1. The applicant should be a woman.\n1. The age of the applicant should be between 25 - 60 years.\n1. The household of the applicant should be enrolled under the &quot;Swasthyasathi&quot; scheme.\n1. The applicant should not be a government employee in permanent employment/ retired government employee of Central/ State Government, Statutory Bodies, Government Undertakings, Panchayats, Municipal Corporations/ Municipalities, Local Bodies, teaching and non-teaching employees of Government aided Educational Institutions, etc. receiving regular salary/ pension.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,46 @@
+{
+  "id": "scheme-to-provide-electric-scooter-to-disabled-person",
+  "name": "Scheme to Provide Electric Scooter to Disabled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to the limit of 50% of the basic cost of the electric scooter + 50% of the disability kit or ₹25,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card-electricity-bill-driving-license-aadhaar-card-ele"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spesdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be between 18 to 50 years of age.\n- The applicant must have an orthopedic disability of 40% or more, certified by a civil surgeon.\n- The applicant must possess a Disability Identity Card issued by the Social Security Department.\n- The applicant must be listed in the BPL (Below Poverty Line) category with a score of 0 to 20.\n- The applicant must not have already availed benefits under this scheme in the last five years, unless the previously allotted electric scooter is damaged and the applicant remains otherwise eligible.\n- The applicant must purchase the electric scooter from an agency approved by JEDA at the government-approved price.\n\n**Note:** The applicant will be given priority if their name appears in the SECC-2011 (Socio-Economic Caste Census) data.",
+  "_criteria_filled": 5
+}

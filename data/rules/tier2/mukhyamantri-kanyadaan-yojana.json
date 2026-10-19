@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-kanyadaan-yojana",
+  "name": "Mukhyamantri Kanyadaan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- The implementation of this scheme will be reviewed at the district level and a committee meeting will be held every 3 months.\n- The state government will provide financial assistance of ₹ 31,000 to ₹ 41,000 to the eligible beneficiaries at the time of the girl&#39;s marriage.\n- Under this scheme, a provision of savings of about ₹24 crore has been approved.\n- If the girls of the state pass 10th t",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-copy-aadhar-card-copy-address-proof-copy-bank-passbook-copy-bi"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/SJED/kanyadan/DOC_128_9153b445-1c0e-45ea-8e46-b1bc5a5a8d06.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**This scheme is specifically for Divyang and Women that belong to following :**\n\n1. BPL family belonging to the Scheduled Tribe category\n1. Minority category BPL families\n1. Specially Qualified Individuals (Not Income Tax Payers)\n1. A female player (if self-married) who fulfills the prescribed criteria as per the circulars issued by the Personnel Department. Self or parents are not income taxpayers.\n1. Beneficiary in Palanhar Yojana.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bihar-student-credit-card-scheme",
+  "name": "Bihar Student Credit Card Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "The eligible students will get the following benefits under this scheme:-\n\n   1. A maximum loan amount of ₹4 lakh.\n   1. Loan can be availed for polytechnic, technical and general courses.\n   1. This assistance may be utilized for purchasing of books and laptops or pay any kind of fees.\n   1. Repayment of the loan starts once the course has been completed and student have secured a job.\n   1. The ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "filled-common-application-form-aadhar-card-pan-card-xth-and-xiith-mark-sheet-and",
+    "id",
+    "driving-license",
+    "voter-id-tax-receipt"
+  ],
+  "apply_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in/resources/Guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Bihar state and should be at least 25 years.\n   1. The applicant must have passed the class 12th.\n   1. The applicant must get admission to a course in an authorized institute.\n   1. The applicant must complete the entire course.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-girl-child-attend-her-age-of-18",
+  "name": "Financial Assistance for Girl Child Attend Her Age of 18",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- Fixed deposit of ₹1,00,000/- for one female child.\n\n<br>\n\n> **Note:** The fixed deposit will remain in the bank until the girl child turns 18 years old.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fagcaha18",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a registered construction worker in Maharashtra.\n1. The worker or their spouse must have undergone contraceptive surgery after the birth of one female child.\n\n<br>",
+  "_criteria_filled": 1
+}

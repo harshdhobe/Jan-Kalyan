@@ -1,0 +1,38 @@
+{
+  "id": "coaching-scheme-for-divyang-students",
+  "name": "Coaching Scheme for Divyang Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "> **Financial Allowances:**\n\n- Coaching fees.\n- Transport or hostel allowance.\n- Disability allowance.\n- Book allowance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-disability-certificate-2-aadhaar-number-or-aadhaar-enrolment-number-3-unique-d",
+    "00",
+    "000-or-less-per-annum-from-all-sources-from-the-revenue-officer-not-below-the-ra"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csdsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student with a benchmark disability (40% or more) as defined.\n- The applicant must hold a valid disability certificate issued by a competent authority.\n- The applicant must possess a Unique Disability ID (UDID).\n- The applicant must have an Aadhaar number or Aadhaar enrollment number.\n- The total annual family income of the applicant should not exceed ₹8,00,000/-.",
+  "_criteria_filled": 3
+}

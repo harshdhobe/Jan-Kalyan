@@ -1,0 +1,37 @@
+{
+  "id": "financial-assistance-for-marriage-hpbocwwb",
+  "name": "Financial Assistance for Marriage (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "₹51,000/- for a registered unmarried beneficiary’s marriage.\n₹51,000/- per child for up to two children of a registered married beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-a-copy-work-slip-proof-of-residence-bank-account-detailscopy-of-bank"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/pdf/form44Marriage_A1b.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafmhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***For Registration as a Building/Construction Worker:***\n\n1. The applicant should be a resident of Himachal Pradesh.\n1. The applicant should be a Building or Construction Worker.\n1. The age of the applicant should be between 18 and 60 years.\n1. The applicant should have worked in building or construction activities for at least 90 days in the preceding 12 months.\n1. The registration should be renewed annually.\n\n<br>\n\n***Eligibility Criteria for Scheme:***\n\n1. The worker’s membership with the Welfare Board must be active at the time of application.\n1. The worker should be unmarried at the time of applying for the financial assistance.\n1. The worker should have at least a two month subscription.\n1. The benefit is provided for the marriage of up to two children of a registered married worker.\n\n<br>",
+  "_criteria_filled": 3
+}

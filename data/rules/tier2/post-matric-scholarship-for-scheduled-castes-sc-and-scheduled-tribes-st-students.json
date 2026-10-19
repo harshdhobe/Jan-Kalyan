@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarship-for-scheduled-castes-sc-and-scheduled-tribes-st-students",
+  "name": "Post-Matric Scholarship for Scheduled Castes (SC) and Scheduled Tribes (ST) Students-Bihar",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Scholarship and maintenance allowance will be payable on the basis of the criteria prescribed in the resolution issued by the Government of India from time to time.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-caste-certificate-domicile-certificate-income-cer"
+  ],
+  "apply_url": "https://pmsonline.bih.nic.in/pmsedu2223/(S(05cddllei4wwdyhxtllm3h04))/pms/SamplePdf/PMSPPORTAL2021_Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsscstb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar state. \n   1. The caste of the applicant should be included in the list of Scheduled Castes (SC) and Scheduled Tribes (ST) issued by the state government.\n   1. The applicant should be studying in higher classes after passing the Matriculation/Entry Examination.\n   1. The family’s annual income must not exceed ₹3,00,000/-.",
+  "_criteria_filled": 2
+}

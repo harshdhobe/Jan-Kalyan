@@ -1,0 +1,26 @@
+{
+  "id": "aswachh-dhandha-chhaatravrtti",
+  "name": "Aswachh Dhandha Chhaatravrtti",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Under this scheme, regular students studying in Class 1st to Class 10th are given a scholarship of ₹1,850/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-samagra-id-caste-certificate-bank-account"
+  ],
+  "apply_url": "https://shikshaportal.mp.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/adc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste or other deprived categories of society.\n   1. One or both parents of the applicant should be engaged in unclean/unhygienic occupations (Scavenger/Flayers/Tanner). Students whose parents left these occupations after 1997 are also eligible for the scheme.\n   1. The applicant should be a student.\n   1. The applicant should be studying in Class 1st to Class 10th.\n   1. Only two children from one family are eligible.\n   1. The applicant should be a native/resident of Madhya Pradesh.\n   1. The applicant is not eligible for any other state scholarship.",
+  "_criteria_filled": 1
+}

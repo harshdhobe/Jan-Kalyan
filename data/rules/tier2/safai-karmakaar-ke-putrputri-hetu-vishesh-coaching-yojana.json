@@ -1,0 +1,26 @@
+{
+  "id": "safai-karmakaar-ke-putrputri-hetu-vishesh-coaching-yojana",
+  "name": "Safai Karmakaar Ke Putr/Putri Hetu Vishesh Coaching Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> The fee for special coaching for admission in engineering, medical, CA and MBA or other professional education to the son/daughter (two children) studying in class 10th and above will be paid by the board.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-scholarship-application-form-students-birth"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/safai%20karmakaar%20ke%20putrputree%20hetu%20vishesh%20coching%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skhvc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Children of registered sanitation workers will qualify for benefits.\n1. If a student is eligible for assistance from multiple government departments or institutions, they may choose the program that is most beneficial to them, but they cannot receive benefits from two programs simultaneously.",
+  "_criteria_filled": 1
+}

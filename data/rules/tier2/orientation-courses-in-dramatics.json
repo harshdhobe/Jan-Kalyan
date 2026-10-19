@@ -1,0 +1,26 @@
+{
+  "id": "orientation-courses-in-dramatics",
+  "name": "Orientation Courses in Dramatics",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "• **Training and Skill Enhancement:** The scheme provides orientation courses and workshops in various aspects of dramatics, including script writing, lyrics composition, direction, acting, stage setting, stage craft, background music, light effects, costumes, make-up, and the history of tiatr. These courses and workshops are intended to help tiatr artistes improve the standard and quality of tiat",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ocd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an individual.\n- The applicant must be interested in getting trained in various aspects of tiatr, including its song and music performances.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mahila-adhikarita-yojana-gujarat-safai-kamdar-development-corporation",
+  "name": "Mahila Adhikarita Yojana (Gujarat Safai Kamdar Development Corporation)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Loan Assistance:** An amount of ₹20,000/- at 5% interest rate, with a repayment period of 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-any-one-of-electricity-billlicencelease-agreementelectoral-ca"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/maygskdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman sweeper or a dependent of a woman sweeper.\n- The applicant must be a resident of Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

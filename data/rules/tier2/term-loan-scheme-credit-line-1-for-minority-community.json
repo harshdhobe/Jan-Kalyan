@@ -1,0 +1,41 @@
+{
+  "id": "term-loan-scheme-credit-line-1-for-minority-community",
+  "name": "Term Loan Scheme- Credit Line 1 for Minority Community",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under the scheme, Nigam provides loans of up to ₹20,00,000/- at a concessional interest rate to individuals from minority communities to enhance their employability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=jWbCEEoVLEmLXAhDCCN2IA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/tls-cl1mc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The age of the applicant should be between 18 and 55 years.\n   1. The annual family income of the applicant should not exceed ₹98,000/- (Rural Area) and ₹1,20,000/- (Urban Area).\n   1. The applicant should belong to a minority community, i.e., Muslims, Sikhs, Christians, Buddhists, Parsis, and Jains.\n   1. The applicant should have a Parivar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 4
+}

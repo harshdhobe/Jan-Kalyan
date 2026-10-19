@@ -1,0 +1,36 @@
+{
+  "id": "grant-for-the-purchase-of-work-related-tools-for-the-construction-workers",
+  "name": "Grant for the Purchase of Work Related Tools for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- An amount of  ₹5,000/- as a grant to the members of the Fund, for the purchase of work-related tools once in 5 years.\n\n> **Validity****:** The benefit can be applied for after three years from the date of registration.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "for-registrationaadhaar-card-contact-number-for-applicationinvoicebill-for-equip"
+  ],
+  "apply_url": "https://bocw.delhi.gov.in/bocw/welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpwrtcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration:**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 55 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n<br>\n\n> **For Application:**\n\n- The applicant should be registered under the Delhi Building and Other Construction Workers Welfare Board for not less than 3 years.\n- The applicant should remit their contribution regularly.\n- The applicant should not exceed 55 years of age.\n- The applicant must be a registered construction worker.\n\n<br>",
+  "_criteria_filled": 3
+}

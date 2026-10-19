@@ -1,0 +1,26 @@
+{
+  "id": "natural-calamity-relief-to-fishermen-of-state",
+  "name": "Natural Calamity Relief to Fishermen of State",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Death/Disability**\n\n- **Loss of Life/Total Disability While Fishing in Sea/River:** ₹5,00,000 in Case of Loss of Life/Total Disability on Production of the Required Documents.\n<br>\n\n> **Loss/Damage to Fishing Canoe**\n\n- **Partial Damage of Fishing Canoe:** Actual Value, as Assessed by an Authorized Marine Surveyor, is Limited to ₹1,00,000.- **Total Loss/Damage of Canoe With OBM:** Actual Value",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-photograph-of-the-applicant-2-copy-of-the-vessel-registration-certificate-3-co"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/11/Natural-Calamity-Application-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ncrfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Fisherman. \n- The applicant should have been contributing to the Fishermen Corpus Relief Fund.\n- The applicant&#39;s non-motorized/motorized canoe and mechanized fishing vessel/trawler should be registered with the Department of Fisheries.\n- The applicant&#39;s fishing vessels, including engines, motors, and fishing vessels, should have been damaged or lost due to natural calamities like floods, cyclones, tsunamis, and accidental fire.\n- The applicant should not be a defaulter of the department.\n- The applicant&#39;s loss or damage should be verified by the competent authority.",
+  "_criteria_filled": 1
+}

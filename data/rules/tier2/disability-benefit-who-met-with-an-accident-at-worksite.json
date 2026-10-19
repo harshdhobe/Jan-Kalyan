@@ -1,0 +1,31 @@
+{
+  "id": "disability-benefit-who-met-with-an-accident-at-worksite",
+  "name": "Disability Benefit Who Met With an Accident at Worksite",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "> **Temporary Disablement:**\n\n- **Financial Assistance:** 50% of the minimum wage rate for unskilled construction workers, as notified by the Labour Department, Govt. of Tripura.- **Duration:** Up to a maximum of 3 months, provided the worker is unable to work due to the accident.\n<br>\n\n> **Permanent Disablement:**\n\n- **Financial Assistance:** ₹3,000/- per month for workers with a disability excee",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-board-recommendation-certification-for-permanent-disability-benefit-issu"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/2170017.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbwmwaaaw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **General Eligibility:**\n\n- The applicant should be a registered construction worker at the time of the accident.\n- The disablement must have occurred due to an accident at the worksite.\n- Such disablement may be either temporary or permanent.\n\n> **Specific Eligibility for Disable Person:**\n\n**Temporary Disablement:**\n\n- The worker must suffer a temporary loss of earning ability for at least one month due to the accident.\n\n<br>\n\n**Permanent Disablement:**\n\n- The worker must have a disability exceeding 90%, as certified by a competent authority, leading to a complete loss of earning ability.\n\n<br>\n\n**NOTE:** The injured worker, or someone on their behalf, must notify the Labour Inspector of the area about the accident as soon as possible. This can be done either in writing or orally.",
+  "_criteria_filled": 2
+}

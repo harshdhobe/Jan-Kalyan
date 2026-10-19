@@ -1,0 +1,26 @@
+{
+  "id": "marriage-assistance-folk-artist",
+  "name": "Marriage Assistance - Folk Artist",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance of ₹2,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-of-the-folk-artist-certificate-from-the-village-administrative"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mafa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered folk artist.\n1. The registered folk artist must have no dues payable to the Board.\n1. The registered folk artist can apply for financial assistance for their marriage or adult children (son or daughter). \n1. The registered folk artist and the person getting married must attain the age prescribed by law for marriage. \n1. If both husband and wife are registered folk artists, only one of them is eligible for this assistance per marriage.\n1. The family of a registered folk artiste can avail of this assistance only twice.",
+  "_criteria_filled": 1
+}

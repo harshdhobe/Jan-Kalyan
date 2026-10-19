@@ -1,0 +1,28 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-tractor-purchase",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** Covers up to 90% of the tractor cost.  - **Interest Rate:** 11% to 12.25% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-land-ownership-or-lease-tractor-purchase-invoicequota"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme_details.php?id=ODQ4",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcardftc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of Tamil Nadu.\n   1. The beneficiary should be a farmer.\n   1. The beneficiary should be engaged in agriculture activities.\n   1. The beneficiary should have the intention to use the loan specifically for purchasing Tractor.",
+  "_criteria_filled": 1
+}

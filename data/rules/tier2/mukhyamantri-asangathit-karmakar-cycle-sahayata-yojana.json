@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-asangathit-karmakar-cycle-sahayata-yojana",
+  "name": "Mukhyamantri Asangathit Karmakar Cycle Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> A free of cost cycle will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-bank-account-details-registration-ca"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20asangathit%20karmakaar%20saayakal%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/makssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be an unorganized female worker.\n1. Applicant registered in any district of the Chhattisgarh state.\n1. Applicant must be between the ages of 18 and 40.\n1. Applicant must not be receiving benefits under any other parallel scheme of the State Government for the same purpose.",
+  "_criteria_filled": 4
+}

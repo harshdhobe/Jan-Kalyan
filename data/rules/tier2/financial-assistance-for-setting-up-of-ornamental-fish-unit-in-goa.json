@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-setting-up-of-ornamental-fish-unit-in-goa",
+  "name": "Financial Assistance for setting up of Ornamental Fish Unit in Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Setting Up of a Breeding Unit:** 50% of the actual cost, limited to ₹ 1,50,000/-.\n**Setting Up of a Rearing Unit:** 50% of the actual cost, limited to ₹ 1,50,000/-.\n**Setting Up of a Rearing Unit &amp; Breeding Unit:** 50% of the actual cost, limited to ₹ 2,50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-proof-of-identity-2-photographs-2-nos-3-documents-for-the-proof-of-availabilit",
+    "form-14-b-for-lessee-i-noc-from-the-land-owner-ii-registered-lease-agreement-4-p"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/08/Ornamental-1-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasuofug",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Fish Farmer/ Individual/ Registered Self Help Group/ Societies, interested in setting up of the Ornamental Fish Farming unit in Goa.\n- The applicant should be a resident of Goa for the last fifteen years.\n- The applicant should have adequate water facilities for setting up the unit.\n- The applicant should have own/ leased land, adequate to set up an ornamental unit.\n- The applicant should have undergone a training programme on Ornamental Fish Farming organized by the Fisheries Department/ MPEDA/ ICAR.",
+  "_criteria_filled": 1
+}

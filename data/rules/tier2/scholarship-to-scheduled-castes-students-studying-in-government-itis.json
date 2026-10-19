@@ -1,0 +1,27 @@
+{
+  "id": "scholarship-to-scheduled-castes-students-studying-in-government-itis",
+  "name": "Scholarship To Scheduled Castes Students Studying In Government ITI’s",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1.\tThe scholarship of ₹200/- per month will be given to the student of Scheduled Caste in each academic year.\n2.\tUnder the scheme, ₹15/- per month as tuition fee will be reimbursed.\n**Note 01:** No scholarship will be given to failed students.\n**Note 02:** The scholarship will be given in two installments in each academic year. The first installment (50% amount) will be given after taking admissio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate",
+    "bpl-certificate-if-applicable-fathers-death-certificate-if-applicable-an-affidav"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/State%20SC%20Scheme%20(Govt%20ITI).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sscssgi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Scholarship will be given to all Scheduled Castes students who are studying in Government ITI&amp;#39;s situated in Haryana State.\n   1. The students should belong to the Scheduled Castes of Haryana.\n   1. The student should be a resident of Haryana State.\n\n**Note:** The students taking benefits of this scheme will not be eligible to get benefits under any other State/Central Scheme.",
+  "_criteria_filled": 1
+}

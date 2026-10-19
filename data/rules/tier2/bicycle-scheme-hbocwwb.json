@@ -1,0 +1,30 @@
+{
+  "id": "bicycle-scheme-hbocwwb",
+  "name": "Bicycle Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. The registered worker will be provided ₹3000/- for the purchase of the bicycle.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-a-copy-of-undertaking-a-copy-work-slip-resid",
+    "trademark",
+    "source",
+    "and-date"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/109",
+  "source_url": "https://www.myscheme.gov.in/schemes/bs-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n2.\tThe registered worker should have a minimum of one-year regular membership.\n3.\tThe worker may avail of the benefits only once in 3 years.  \n**Note:** The beneficiary needs to submit an undertaking for the purchase of the bicycle giving the price, trademark, source, and date.",
+  "_criteria_filled": 1
+}

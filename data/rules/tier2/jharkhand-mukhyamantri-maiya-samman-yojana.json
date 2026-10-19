@@ -1,0 +1,41 @@
+{
+  "id": "jharkhand-mukhyamantri-maiya-samman-yojana",
+  "name": "Jharkhand Mukhyamantri Maiya Samman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Financial Assistance ₹1,000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 49
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-ration-card-voter-id-pan-card-bank-passboo"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s32b8a61594b1f4c4db0902a8a395ced93/uploads/2024/07/2024073013.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jmmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female.\n1. The applicant should be a permanent resident of Jharkhand. \n1. The applicant&#39;s age should be between 21-49 years.\n\n<br>\n\n<br>",
+  "_criteria_filled": 4
+}

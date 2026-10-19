@@ -1,0 +1,33 @@
+{
+  "id": "bihar-disability-pension-scheme",
+  "name": "Bihar Disability Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible differently-abled persons will receive a monthly pension of ₹400/-. \n\n**Note:** The pension amount is being paid to the beneficiaries through the Direct Benefit Transfer (DBT) process. In this process, the pension amount is transferred directly into the beneficiaries&amp;#39; accounts via the Public Financial Management System (PFMS) at the state level, based on the a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-ie-voter-i",
+    "driving-license-disability-certificate-caste-certificate",
+    "if-applicable-address-proofresidence-certificate-bank-passbookbank-account-detai"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031737.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bdps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar or should have been residing in Bihar for at least the past 10 years as of the date of application submission.\n   1. The applicant should be physically disabled.\n   1. The applicant should possess a disability certificate with a minimum of 40% disability.\n   1. There is no minimum or maximum age limit for availing of the benefits of the scheme.\n   1. There is no upper limit on annual income for availing of the pension.\n   1. The applicant should not be receiving pension benefits under any other social security scheme.",
+  "_criteria_filled": 2
+}

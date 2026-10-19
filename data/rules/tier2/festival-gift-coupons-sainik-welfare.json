@@ -1,0 +1,26 @@
+{
+  "id": "festival-gift-coupons-sainik-welfare",
+  "name": "Festival Gift Coupons (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Festival Gift Coupons worth ₹4,000/- per annum.\n\n*The coupons are to be collected in person on intimation from DSW, normally between November and January.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-identity-card-of-the-esm-widow-of-the-esm"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/festival_gift_coupon.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-Serviceman](https://sainik.py.gov.in/definition-ex-servicemen) or the Widow of an Ex-Serviceman.- The Ex-Serviceman should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.- The Ex-Serviceman should be a Non-Pensioner.\n- The Ex-Serviceman should be 60 years or older in age, as on 31st March of the current year (No age bar for Widow of an Ex-Servicemen).\n- The scope of this scheme will also apply to those ESM / living spouse/widows who are re-employed as regular / deemed to be regular in Government/Public Sector Undertakings/Private Organizations and self-employed IT assesses.",
+  "_criteria_filled": 1
+}

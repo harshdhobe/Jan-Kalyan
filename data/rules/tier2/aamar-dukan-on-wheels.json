@@ -1,0 +1,33 @@
+{
+  "id": "aamar-dukan-on-wheels",
+  "name": "Aamar Dukan On Wheels",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Benefits**\n\n1. The beneficiary will keep the commodities allotted by the Department in case of AAMAR DUKAN on wheels in addition to other commodities.\n1. The selected beneficiaries of AAMAR DUKAN on wheels is allowed to take a profit margin of Rs. 2.00 to Rs. 3.00 per Kg./Per litre from consumers.\n1. The selected beneficiaries must abide by the direction of the Director, FCS&amp;CA, Deputy Commi",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-document-age-proof-address-proof-personal-identification-aa",
+    "voter-id-driving-license-educational-qualification-experience-certificate",
+    "if-any-photographs"
+  ],
+  "apply_url": "https://fcsca.assam.gov.in/schemes/aamar-dukan-on-wheels",
+  "source_url": "https://www.myscheme.gov.in/schemes/adow",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. The applicant should be educated unemployed youth.\n1. The applicant should be a permanent resident of Assam.\n1. He should attain the age of 18 years and above.\n1. His name should be registered in the Employment Exchange.\n1. The minimum educational qualification will be HSLC or equivalent.",
+  "_criteria_filled": 2
+}

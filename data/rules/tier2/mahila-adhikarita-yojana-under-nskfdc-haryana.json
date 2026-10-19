@@ -1,0 +1,41 @@
+{
+  "id": "mahila-adhikarita-yojana-under-nskfdc-haryana",
+  "name": "Mahila Adhikarita Yojana under NSKFDC- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Project Cost Ceiling:**\n\n  - The Corporation (HSFDC), in collaboration with NSKFDC, provides loans of up to ₹2,00,000/- per beneficiary/unit for small and petty trade/business and various income-generating activities.\n\n**Margin Money:**\n\n  - The Corporation provides margin money @ 10% of the project cost.        \n\n**Subsidy:**\n\n  - The corporation provides a subsidy @ 50% of the total project co",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-ration-card-3-safai-karamchari-or-dependent-of-safai-karamchari"
+  ],
+  "apply_url": "https://hscfdc.org.in/#accordionExample",
+  "source_url": "https://www.myscheme.gov.in/schemes/maynskfdc-h",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be a female.\n   1. The applicant&amp;#39;s age should be between 18 and 55 years.\n   1. There is no income limit.\n   1. The applicant should be either a woman Safai Karamchari or a dependent daughter of Safai Karamchari.\n\n**Note 1:** Permanent Safai Karamchari means a person engaged in, or employed for any sanitation work and includes his/her dependents.\n**Note 2:** The applicant shall have to produce a Certificate of Safai Karamchari or dependent of Safai Karamchari from the Head of the Government Departments (i.e. School, Colleges, Forest, Health, Education, Animal Husbandry having rank not less than Gazetted Officer), elected members of Municipal Body/ Corporation and Pradhan of Gram Panchayats, Local Revenue Officer or an Officer of Local Municipal Office, or Cantonment Executive Officer of the Cantonment or an officer of the Railways not below the rank of gazette officer.",
+  "_criteria_filled": 4
+}

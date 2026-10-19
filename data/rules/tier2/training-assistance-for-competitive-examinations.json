@@ -1,0 +1,31 @@
+{
+  "id": "training-assistance-for-competitive-examinations",
+  "name": "Training Assistance for Competitive Examinations",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** ₹20,000/- per student or the actual fee payable, whichever is less.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-the-prescribed-format-copy-of-aadhaar-card-proof-of-residenc"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/Training-Scheme-for-Competetive-Exams.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/tafce",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the non-reserved category.\n1. The applicant must have secured 60% or more marks in the 12th standard.\n1. The applicant must be undergoing training in a recognized/selected coaching institution for recruitment examinations conducted in UPSC, GPSC Class-1, Class-2 and Class-3, Subordinate Services Selection Board, Panchayat Services Selection Board and Government of India Railways, Banks etc.\n1. The annual family income of the applicant must not exceed ₹4,50,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

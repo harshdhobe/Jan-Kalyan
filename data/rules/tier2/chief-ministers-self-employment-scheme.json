@@ -1,0 +1,41 @@
+{
+  "id": "chief-ministers-self-employment-scheme",
+  "name": "Chief Minister's Self Employment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "- Loans up to ₹3,00,000/- per individual.\n- Loans are interest-free for 2 years, followed by a 6% simple interest rate.\n\n<br>\n\n**Note:** In case of the death of a loan recipient, the co-applicant shall be liable for a refund of the outstanding loan. The co-applicant is liable for a refund of only the principal amount to be paid within a period not exceeding one year. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 22
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-certified-by-the-district-collector-affidavit-of-unemployment"
+  ],
+  "apply_url": "https://sidico.in/wp-content/uploads/2021/10/DocScanner-29-Oct-2021-1.26-pm.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be unemployed. \n1. The applicant&#39;s age should be between 22 to 35 years. \n1. The applicant should have passed the 10th class.\n1. The applicant&#39;s family annual income should not exceed ₹2,50,000/-. \n1. Only one member per family shall be considered for the benefit, except in the case of Below Poverty Line (BPL) families.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,26 @@
+{
+  "id": "performance-linked-grant-scheme-for-smaller-business-units",
+  "name": "Performance Linked Grant Scheme for Smaller Business Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A performance grant of 5% of the reported net income, subject to a total cap of ₹ 25,00,000.\n\n**NOTE:** The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation is exceeded.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/plgsfsbu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Smaller Business Unit.\n2. The applicant should have their operations in Goa.\n3. The applicant should be one of the following:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n4. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n5. The applicant should have had a record growth of 15% y-o-y turnover for a period of any three consecutive years during the operation of the policy.",
+  "_criteria_filled": 1
+}

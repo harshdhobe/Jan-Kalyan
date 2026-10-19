@@ -1,0 +1,36 @@
+{
+  "id": "gausevak-training-initial-and-refresher",
+  "name": "Gausevak Training (Initial and Refresher)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Initial Training:**\nTraining cost: ₹6,000.\nStipend: ₹1,200 for six months at ₹1,000 per month.\nTotal: ₹7,200 per Gausevak.\n**Refresher Training:**\nStipend: ₹500.\nStudy material: ₹100.\nTotal: ₹600 per Gausevak.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://mpdah.gov.in/schemes/view/MVROZ3BmNnl1NCtnKzNOYUZGSG1CUT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtiar",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be in the age group of 18 to 35 years.\n1. The applicant should be unemployed.\n1. The applicant should be from a rural area.\n1. The applicant should have passed the 10th standard.\n1. The applicant should be a cow-helper.",
+  "_criteria_filled": 3
+}

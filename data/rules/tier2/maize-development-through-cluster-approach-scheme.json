@@ -1,0 +1,26 @@
+{
+  "id": "maize-development-through-cluster-approach-scheme",
+  "name": "Maize Development through Cluster Approach Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "- Under the scheme, quality seeds shall be supplied to farmers at subsidized rates for higher yield.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdcas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n1. The applicant should have sufficient available cultivable land of (0.025 hectares).",
+  "_criteria_filled": 1
+}

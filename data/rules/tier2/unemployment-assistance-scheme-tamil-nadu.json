@@ -1,0 +1,36 @@
+{
+  "id": "unemployment-assistance-scheme-tamil-nadu",
+  "name": "Unemployment Assistance Scheme - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "<br>\n\n**Candidate Type****Qualification****Amount of Assistance (Per Month)**General CandidateSSLC/10th Failed (Secondary School Leaving Certificate).Rs. 200/-General CandidateSSLC/10th Passed (Secondary School Leaving Certificate).Rs. 300/-General CandidateHSC /12th(Higher Secondary Certificate).Rs. 400/-General CandidateGraduationRs. 600/-Differently Abled CandidatesIlliterate to SSLC/10th (Seco",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "any-one-of-the-identification-proof-aadhar-card-pan-card-voter-id-passportdrivin"
+  ],
+  "apply_url": "https://tnvelaivaaippu.gov.in/download.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/ueastn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- **General Candidate**\n\n- Resident of Tamil Nadu.\n- Family Annual Income should not be more than Rs. 72,000/- per annum.\n- Maximum Age Limit :-\n\n  - 40 Years for General Candidate.\n  - 45 Years for Schedule Caste/Tribe Candidate.     \n\n- Should be registered in Employment Exchange for 5 years or more.\n- Should not be a regular student of any school or college.\n- Should not be in any type of employment.\n\n- **Differently Abled Candidates**\n\n- Resident of Tamil Nadu.\n- Should have Physical Disability.\n- Should be registered in Employment Exchange for 1 year or more.\n- No Maximum Age or Income Limit.\n- Should not be in any type of employment.\n- Should not be a regular student of any school or college.",
+  "_criteria_filled": 3
+}

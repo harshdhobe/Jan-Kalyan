@@ -1,0 +1,28 @@
+{
+  "id": "deen-dayal-upadhyaya-sahkarita-kisan-kalyan-yojana",
+  "name": "Deen Dayal Upadhyaya Sahkarita Kisan Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the scheme, an interest-free loan of up to ₹1.00 lakh is provided for agricultural activities, up to ₹3.00 lakh for non-agricultural activities (such as animal husbandry, dairy, poultry, fisheries, cultivation of herbs, aromatic plants, spices, mushrooms, floriculture, horticulture, agricultural processing, farm mechanization, organic farming, off-season vegetable cultivation, poly-house far",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "recent-photograph-of-the-applicant-aadhaar-card-pan-card-detailed-work-planproje",
+    "deposits",
+    "etc-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dduskky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a general, small, or marginal farmer, or a farmer living below the poverty line, including their family members or a self-help group (SHG) from Uttarakhand.\n   1. The applicant must be a member of the cooperative society in their respective area or hold a savings account in the District Cooperative Bank.\n   1. Only one member from a family will be eligible to receive benefits under the scheme.\n   1. The benefits of the scheme will not be extended to defaulting cooperative members.\n   1. Currently, there is no income limit prescribed for farmers to avail of the scheme’s benefits.\n\n***(Note: A small farmer is one who owns up to 5 acres of unirrigated land or up to 2.5 acres of irrigated land. A marginal farmer is one who owns up to 2.5 acres of unirrigated land or up to 1.25 acres of irrigated land.)***\n<br>",
+  "_criteria_filled": 1
+}

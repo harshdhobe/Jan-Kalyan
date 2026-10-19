@@ -1,0 +1,40 @@
+{
+  "id": "su-swastha-yojana",
+  "name": "Su-Swastha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "**Cashless Convenience:** Cashless admission and discharge across network hospitals eliminate the burden of arranging funds during hospitalization.\n**Access to Top-Tier Healthcare:** Beneficiaries gain access to best-in-class healthcare by leveraging a network of top-tier hospitals and institutes across India.\n**Quality Assurance:** The Su-Swastha Facilitation Center ensures quality of care by ove",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-one-of-the-following-id-proofs-that-shows-the-identity-of-th",
+    "aaadhaar-card",
+    "drivers-license",
+    "passport",
+    "or-any-other-government-id-one-of-the-following-proofs-of-the-relationship-betwe",
+    "voters-id",
+    "pan-card",
+    "passport",
+    "drivers-license",
+    "hospital-discharge-card-attested-by-a-gazette-government-official-for-newborn-ba",
+    "birth-certificate",
+    "immunization-certificate",
+    "school-certificate-attested-by-school-authority-and-gazette-government-official",
+    "marriage-certificate",
+    "affidavit-attested-by-gazette-government-official-in-lieu-of-no-government-issue"
+  ],
+  "apply_url": "https://suswasthasikkim.com/pdf/Coverage-Benefits.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/su-swastha-yojana",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a regular employee in service of the Government of Sikkim or the dependent family members of such employee (spouse; brother and/or sister; children (own or legally adopted); parents of self or spouse) (up to a maximum of 5 dependents).",
+  "_criteria_filled": 1
+}

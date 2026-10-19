@@ -1,0 +1,31 @@
+{
+  "id": "bharati-scheme-for-education-6th-class-to-10th-class",
+  "name": "Bharati Scheme for Education - 6th Class to 10th Class",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- **Financial Assistance for the 6****th** **Class to 10****th** **Class: ₹7,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-student-parents-with-address-in-andhra-pradesh-white-ration-c"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/bharathi2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bse-6c10c",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his/her parents should belong to the Brahmin community.  \n1. The student should be studying in Andhra Pradesh.\n1. The student&#39;s parents/guardians should reside in Andhra Pradesh. \n1. The annual family income of parents/guardians should not exceed ₹3,00,000/-. \n1. The student under the category of orphan, differently abled (physically handicapped), or children of single parents&#39; priority will be given. \n1. The student should be enrolled in the Praja Sadhikara Survey (PSS). \n1. The student should not have availed himself/ herself of any amount under any other government scheme for the same purpose.  However, students benefitting from Archaka Welfare Trust are eligible under this scheme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cluster-nutritional-kitchen-garden-scheme",
+  "name": "Cluster Nutritional Kitchen Garden Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Reduced dependence on other states for vegetables and livestock.\nImproved self-sufficiency and availability of fresh and nutritious produce.\nIncreased dietary diversity and improved nutritional intake.\nGeneration of additional income through surplus produce.\nPromotion of sustainable farming practices and agro-ecological techniques.\nEnhancement of food security at the household level.\nEmpowerment o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-valid-identity-proof-documents-such-as-aadhaar-card",
+    "voter-id",
+    "or-pan-card-proof-of-residence-documents-verifying-the-residential-address",
+    "such-as-ration-card",
+    "electricity-bill",
+    "or-driving-license-land-ownership-documents-or-lease-agreement-if-the-applicant",
+    "relevant-land-ownership-documents-should-be-provided-if-the-land-is-on-lease",
+    "a-lease-agreement-may-be-required-bank-account-details-information-regarding-the",
+    "including-the-account-number-and-ifsc-code",
+    "for-financial-transactions-related-to-the-scheme-any-other-documents-the-distric",
+    "if-deemed-necessary-for-verification-purposes"
+  ],
+  "apply_url": "https://changlang.nic.in/scheme/cluster-nutritional-kitchen-garden-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cnkgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Resident of Arunachal Pradesh: Applicants must be permanent residents of Arunachal Pradesh, possessing valid residential proof such as ration card, electricity bill, or driving license.\n- Marginal Farmers: The scheme is open to marginal farmers who own or lease small areas of agricultural land suitable for kitchen gardening. Land ownership documents or lease agreements may be required as proof.\n- General Public: Individuals from the general public who are interested in establishing a kitchen garden and meet the eligibility criteria are also eligible to apply for the scheme.\n- Availability of Space: Applicants must have sufficient space within their premises to establish a kitchen garden. Adequate land or open space is necessary for growing vegetables and rearing livestock.\n- Commitment and Capability: Eligible individuals should demonstrate the commitment and capability to maintain and sustain the kitchen garden. This includes dedicating time and effort for regular care, watering, and management of the garden.",
+  "_criteria_filled": 1
+}

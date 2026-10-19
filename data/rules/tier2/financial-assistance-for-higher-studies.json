@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-for-higher-studies",
+  "name": "Financial Assistance for Higher Studies",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- Financial assistance for students belonging to the Tea Tribes and Adivasi community.\n- This assistance supports students pursuing higher studies such as Bachelor of Medicine, Bachelor of Surgery (MBBS), Master of Business Administration (MBA), Engineering, and such other technical/higher education.\n- The assistance covers higher studies in Administration, Medical, Engineering, Law, Research, and",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "valid-caste-certificate",
+    "certifiedissued-by-the-district-commissioner-of-the-concerned-district-undertaki",
+    "by-the-parentguardian-admission-fee-receipt-of-the-course-undergoing-recommendat"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fahs-assam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi community.\n- The applicant must be pursuing higher studies such as Bachelor of Medicine, Bachelor of Surgery (MBBS), Master of Business Administration (MBA), Engineering, and such other technical/higher education.\n- The applicant&#39;s family income must not exceed ₹5,00,000/- per annum.\n- The applicant should not be a Government Service holder.\n- Students studying through correspondence course are also eligible to apply.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,41 @@
+{
+  "id": "financial-assistance-for-marriage-of-poor-scheduled-caste-brides",
+  "name": "Financial Assistance for Marriage of Poor Scheduled Caste Brides",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹15,000/- in each case for the marriage of their two daughters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-birth-certificate-or-tc-of-the-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fampscb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Parent/Guardian of the bride should be a citizen of India.\n- The Parent/Guardian of the bride should be from a Scheduled Caste.\n- The Parent/Guardian of the bride should be a native of Puducherry.\n- The assistance is provided for the first marriage alone.\n- The marriage should be registered.\n- The assistance is available only for two daughters in a family.\n- The application should be submitted 30 days prior to the date of marriage.\n- The annual income of the parent/guardian should not exceed ₹2,00,000.\n- The applicant should not be receiving financial assistance from other sources.\n- The marriage should be performed in accordance with the law.\n- The bride should have attained the age of 18 years.\n- The bridegroom should have attained the age of 21 years.",
+  "_criteria_filled": 4
+}

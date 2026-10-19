@@ -1,0 +1,40 @@
+{
+  "id": "aama-kuni-pilaa",
+  "name": "Aama Kuni Pilaa",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "***The key components of the scheme are as listed below:***\n**Sl. No.****Components****Unit Cost****Specifications****Usage****Point of Distribution****Procurement by**1Kuni Calendar for children (0-3 years)₹1.53/- per calendar/month/childSize: 11.5&amp;amp;amp;quot; x 17&amp;amp;amp;quot;    Paper: 220 gsm art paper      Print: Multi colour single sideTo be used at household level by the families",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 3
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-child-any-other-documents-as-per-the-requirement-note-the-f",
+    "and-all-activities-kuni-calendar-distribution",
+    "toy-kit-preparation",
+    "home-visits",
+    "and-stimulation-sessions-are-conducted-through-the-icds-system"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/sites/default/files/2025-06/21.%2026179_ECCE-Aama%20Kuni%20Pilaa.pdf.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/akpod",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a child aged 0 to 3 years, residing in Odisha.\n   1. All children in the 0–3 years age group who are enrolled in the Poshan Tracker shall be considered as the targeted beneficiaries under this scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

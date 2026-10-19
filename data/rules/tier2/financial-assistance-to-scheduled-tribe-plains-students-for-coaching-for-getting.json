@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-scheduled-tribe-plains-students-for-coaching-for-getting",
+  "name": "Financial Assistance to Scheduled Tribe (Plains) Students for Coaching for Getting Admission into Medical/Engineering/IIT/etc.",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Financial reimbursement for coaching expenses related to Medical/Engineering/IIT entrance exams.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-st-p-community-caste-certificate-proof-of-coaching-certificate-or-recei"
+  ],
+  "apply_url": "https://directoratetribalaffairsplain.assam.gov.in/sites/default/files/swf_utility_folder/departments/directorate_wpt_uneecopscloud_com_oid_4/how_do_i/level_1/application_form_for_coaching.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fastpscgameie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Tribe (Plains) community.\n- The applicant must be undergoing or have completed coaching (within the last one year) for Medical/Engineering/IIT entrance examinations.\n- The applicant must have appeared/passed the 10+2 examination.\n\n_*Selection is based on merit (percentage secured in the Matriculation Examination)._",
+  "_criteria_filled": 1
+}

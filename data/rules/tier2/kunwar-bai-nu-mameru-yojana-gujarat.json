@@ -1,0 +1,36 @@
+{
+  "id": "kunwar-bai-nu-mameru-yojana-gujarat",
+  "name": "Kunwar Bai Nu Mameru Yojana Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹12,000/- per couple is provided during the marriage. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "girls-aadhaar-card-aadhaar-card-of-the-girls-fathergguardian-example-of-the-cast"
+  ],
+  "apply_url": "https://evanbandhu.gujarat.gov.in/index.aspx?ServiceID=duJMDyg6dmO007n6aojWGQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbnmyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of the Gujarat. \n1. The applicant must belong to a Scheduled Tribe. \n1. The applicant&#39;s annual family income must not exceed ₹6,00,000/-.\n1. The benefits under this scheme are eligible for till the occasion of the marriage of two (2) adult girls of the family.\n1. The bride&#39;s age must be 18 years at the time of marriage.\n1. The groom&#39;s age must be 21 years at the time of marriage. \n\n<br>",
+  "_criteria_filled": 3
+}

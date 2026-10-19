@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-establishment-of-on-farm-storage-for-sorting-grading",
+  "name": "Assistance for Establishment of On farm Storage for Sorting-Grading",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **For Construction of On-Farm Infrastructure:** Financial aid will be 50% of the unit cost or ₹1,50,000/- per unit, whichever is lower.- **For Machinery or Equipment Purchase:** Financial aid of 50% of the actual cost, subject to a maximum of ₹50,000/- per unit, whichever is less.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/aeofsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

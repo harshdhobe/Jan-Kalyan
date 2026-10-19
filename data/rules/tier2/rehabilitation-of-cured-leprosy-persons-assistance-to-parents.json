@@ -1,0 +1,31 @@
+{
+  "id": "rehabilitation-of-cured-leprosy-persons-assistance-to-parents",
+  "name": "Rehabilitation of Cured Leprosy Persons: Assistance to Parents",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **Financial assistance:** ₹1,000/- per transgender child per month.\n&gt; **Note:** \n\n  - Assistance is provided until the child reaches the age of 18 years.\n  - In case of death of the parent, supportive money will be made available to the guardian subject to production of the relevant Certificate of guardianship obtained from the Competent Authority. \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-permanent-domicile-in-odisha-for-parents-birth-certificate-or-proof-of"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20An%20umbrella%20scheme%20for%20Rehabilitation%20of%20Cured%20Leprosy%20Persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rclpap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Parents should be permanent domiciles of Odisha.\n- The child should be a Cured Leprosy Person.\n- The child must be under 18 years of age.",
+  "_criteria_filled": 2
+}

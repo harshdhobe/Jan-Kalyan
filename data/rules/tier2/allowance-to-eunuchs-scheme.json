@@ -1,0 +1,36 @@
+{
+  "id": "allowance-to-eunuchs-scheme",
+  "name": "Allowance To Eunuchs Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. The financial assistance of ₹2750/- will be given by the state government to eunuchs who are living in various parts of the State.\n**Note:** If a Eunuch attains the age of 60 years his case will be transferred to Old Age Allowance Scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-age-proof-2-residential-proof-any-one-of-the-following-self-attested-documents",
+    "haryana-voter-card-issued-by-election-department",
+    "haryana-voter-list-which-shows-name-of-the-applicant-along-with-hisher-photograp",
+    "haryana-in-case",
+    "none-of-the-above-documents-is-available",
+    "the-applicant-will-give-self-declaration-along-with-any-other-documentary-proof"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032565-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident/domicile of Haryana State and has been residing in Haryana State for the last 5 years at the time of submission of the application.\n1. The age of the applicant should not be less than 18 years.\n1. The applicant must give a certificate from the Civil Surgeon in support of being an Eunuch.\n1. The applicant should not be involved in any unlawful activity.",
+  "_criteria_filled": 2
+}

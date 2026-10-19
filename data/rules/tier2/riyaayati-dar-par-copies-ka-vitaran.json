@@ -1,0 +1,26 @@
+{
+  "id": "riyaayati-dar-par-copies-ka-vitaran",
+  "name": "Riyaayati Dar Par Copies Ka Vitaran",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- 10 Small Copies: ₹10/- per copy\n- 10 Registers : ₹14/- per register",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-card-proof-of-income-proof-of-age-passport-size-photograph-mob"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=892",
+  "source_url": "https://www.myscheme.gov.in/schemes/kdpckv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant construction workers should be employed in industrial units/establishments falling within the circle&#39;s jurisdiction.\n1. The benefit extends to a maximum of two children per worker.\n1. It is mandatory for the concerned worker to deposit the amount of copies in the board through the institute.",
+  "_criteria_filled": 1
+}

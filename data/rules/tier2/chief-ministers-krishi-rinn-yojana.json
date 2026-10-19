@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-krishi-rinn-yojana",
+  "name": "Chief Minister's Krishi Rinn Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "**Benefits**\n\n   1. Kisan Credit Card and card limit up to ₹3.00 lakh as loan, sanctioned by all banks to all farmers of the state during the current financial year.\n   1. Interest subvention of 4% on crop loan, over and above the subvention given by the Government of India.\n   1. In effect, farmers making timely repayments can avail ₹3.00 lakh of the loan with access to an interest credit facilit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-land-holding-certificate-issued-by-the-local-gaon-buras-gbs-n"
+  ],
+  "apply_url": "https://ahvdd.arunachal.gov.in/pdf/eBook/Government%20Scheme%20Handbook.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmkry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Eligible Beneficiary/Group Farmers cultivating short-term crops in Arunachal Pradesh.\n- Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme.\n- The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year.\n- The scheme is available for crop loans or Kisan Credit Card limits up to Rs. 3.00 lakhs.\n- The farmers must fulfill the eligibility criteria and documentation requirements set by the banks.\n- The scheme is open to both small and marginal farmers as well as large farmers in the state.",
+  "_criteria_filled": 1
+}

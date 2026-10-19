@@ -1,0 +1,34 @@
+{
+  "id": "scheme-for-supply-of-tv-sets-to-industrial-establishmentslabour-welfare-centresc",
+  "name": "Scheme for Supply of TV Sets to Industrial Establishments/Labour Welfare Centres/Clubs/Recreation Rooms",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- One TV Set (coloured) of up to ₹25,000, including all accessories.\n\n**NOTE 1:** The incidental expenses incurred in connection/ with the operation of TV Sets etc. will have to be borne by the concerned establishment.\n**NOTE 2:** If the Management/Union/Government fails to comply with the provisions of the schemes/agreement, the Goa Labour Welfare Board shall have the right to withdraw TV Set if ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-ownership-or-authorization-letter-of-authorization-registration-certifi",
+    "if-the-applicant-represents-an-organization-documentation-of-the-tv-set-already",
+    "if-any-documentation-brochure",
+    "etc-of-the-tv-set-specifications",
+    "mentioning-the-size",
+    "make",
+    "and-price-including-taxes",
+    "if-any-confirmation-of-willingness-to-provide-suitable-accommodation-for-install",
+    "if-provided"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/SCHEME-4-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sstvsielwccrr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be one of the following - \n\n- Industrial Establishment/Labour Welfare Centre run by the Government of Goa.\n- Club/Recreation Room run by the Registered Trade Unions having 300 or more Members.\n\n> **Preference**\n\nApplicants situated in labor-concentrated areas.\n**NOTE:** The beneficiary establishment should enter into an agreement with the Welfare Board to maintain the TV Set in good working condition at all times and exhibit programmes for the benefit of their workers on day-to-day basis.",
+  "_criteria_filled": 1
+}

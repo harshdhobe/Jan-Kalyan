@@ -1,0 +1,43 @@
+{
+  "id": "providing-tin-stalls-to-gatai-kamgar",
+  "name": "Providing Tin stalls to Gatai Kamgar",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "₹500/- is provided as financial assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 50000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-age-birth-certificate",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "income-certificate-issued-by-an-authorised-govtofficer-caste-certificate-issued",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/economic-upliftment",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptstgk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from a Scheduled Caste.\n1. The applicant should be a resident of Maharashtra.\n1. If the applicant resides in a rural area, his/her total household income should be less than ₹40,000.\n1. If the applicant resides in an urban area, his/her total household income should be less than ₹50,000.\n1. The applicant should be 18 years or above in age.\n1. The place where the applicant asking for the stall must be provided on rent/ lease/purchased/official free hand by Gram panchayat, Municipality, Cantonment Board or Municipal corporation or must be of own property of the applicant.",
+  "_criteria_filled": 3
+}

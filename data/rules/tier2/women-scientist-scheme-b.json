@@ -1,0 +1,36 @@
+{
+  "id": "women-scientist-scheme-b",
+  "name": "Women Scientist Scheme-B",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. ₹ 55,000/- pm (and HRA as applicable) for Ph.D. or equivalent (total project cost not exceeding ₹ 30 lakh (excluding HRA and Overhead)\n1. ₹ 40,000/- pm (and HRA as applicable) for M.Phil./MTech or equivalent (total project cost not exceeding ₹ 25 lakh (excluding HRA and Overhead)\n1. ₹ 31,000/- pm (and HRA as applicable) for M.Sc. or equivalent (total project cost not exceeding ₹ 20 lakh (exclud",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 57
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-document-refer-source-for-format-biodata-of-pi-signed-refer-sou"
+  ],
+  "apply_url": "https://www.indiascienceandtechnology.gov.in/programme-schemes/women-schemes/women-scientist-scheme-b-wos-b",
+  "source_url": "https://www.myscheme.gov.in/schemes/wos-b",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a FEMALE.\n- The applicant must either be unemployed or in a position other than a regular/permanent position.\n- The age of the applicant must be between 27 and 57 years (5-year relaxation for SC/ST/OBC and physically challenged candidates).\n- Minimum two years break in career after attaining highest qualification required from S&amp;T qualified women.\n- The applicant must hold either of the following Minimum essential qualifications:\n\n1. Minimum Post Graduate degree, equivalent to M.Sc. in Basic or Applied Sciences or B.Tech. or MBBS or other equivalent professional qualifications;\n1. M.Phil/M.Tech/M.Pharm/M.VSc or equivalent qualifications;\n1. PhD in Basic or Applied Sciences.\n\n> **Notes:**\n\n- Incomplete application or application not in the format prescribed under WOS-B will not be considered. It is necessary to tick on one of the theme area code as asked. Decision may be taken based on the major bias towards the theme area of the proposal.\n- Applicant will apply as Principal Investigator. Mentor will not be an applicant.\n- Applicant must have educational qualification in science and technology disciplines.\n- Proposals without a mentor will not be considered.\n- Proposals in which host and mentor institute are different will not be considered.\n- Mentor should be in a regular position in the host institute. Mentor should not be associated with the host institute as a consultant or visiting faculty.\n- Online submission of proposals through WOS Portal is mandatory. Proposal has to be submitted online by the closing date of submission as given in the advertisement including extended period, if any.\n- Proposal should be submitted only once in the WOS Portal. If proposal received in duplicate, same will not be considered.\n- If asked in the advertisement, hard copy of online application has to be submitted surely. Hard copy of submitted online application has to reach the department within twenty days from the last date of online submission of proposals including extended period, if any.\n- Proposals received only in hard copy form without online submission will not be considered.\n- Applicant has to be within the age limit as on the closing date of application submission given in the advertisement including extended period, if any.\n- WOS-B component does not provide funds for infrastructure and high-end equipment etc.\n- Subject Expert Committee (SEC) will review progress of project.\n- Host institution where the project will be implemented assumes administrative responsibilities of project.\n- DST reserves the right to terminate the project at any stage if it is convinced that the appropriate progress is not being made in project.\n- Project will become operative with effect from the date on which the first grant is received by the implementing institute. The Implementing Institute as well as Principal Investigator will intimate this date to the DST. It will, in no case, later than one month after the receipt of the grant by the Institute.\n- The institute shall submit to DST the necessary expenditure statement, Audited Statement of Accounts, Utilization Certificate in respect of the funds released in connection with the implementation of the project. The PI shall furnish annual progress report to DST indicating the achievements/progress as well as the problems faced if any.\n- The funds will be released in the name of the implementing institute only.\n- In case of arbitration, Secretary DST would be empowered to take suitable decision.\n\n<br>",
+  "_criteria_filled": 3
+}

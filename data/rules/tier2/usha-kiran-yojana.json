@@ -1,0 +1,26 @@
+{
+  "id": "usha-kiran-yojana",
+  "name": "Usha Kiran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Providing protection and support against domestic violence",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=250",
+  "source_url": "https://www.myscheme.gov.in/schemes/uky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All women of all age groups.\n1. All children under the age of 18.",
+  "_criteria_filled": 1
+}

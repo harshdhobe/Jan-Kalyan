@@ -1,0 +1,26 @@
+{
+  "id": "agr-4-farm-mechanization-scheme-for-sc-farmers",
+  "name": "AGR 4 (Farm Mechanization) Scheme For SC Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tThe beneficiary will get financial assistance for the purchase of agricultural equipment/components such as Power Tillers, Rice Transplanter, Self-Propelled Machinery, Tractor/Power Tiller operated Implements /tools, Electric Motor operated, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "government-approved-photo-id-ie-aadhaar-card-basis-evidence-for-land-if-applicab"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/agr-4-scheme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/agr4fmsscf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a permanent resident of Gujarat State.\n- Any farmer of the state belonging to the Scheduled Caste category (in 208 talukas where the SMAM scheme is not implemented) is eligible under this scheme.\n- The beneficiary farmer has to purchase from the authorized dealer of the manufacturer included in the panel prepared for the purpose of price discovery announced by the account from time to time.",
+  "_criteria_filled": 1
+}

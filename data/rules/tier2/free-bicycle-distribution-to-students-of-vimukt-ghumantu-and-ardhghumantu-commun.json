@@ -1,0 +1,26 @@
+{
+  "id": "free-bicycle-distribution-to-students-of-vimukt-ghumantu-and-ardhghumantu-commun",
+  "name": "Free Bicycle Distribution to Students of Vimukt, Ghumantu and Ardhghumantu Communities",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Free bicycle distribution to students studying in classes 6th to 11th in government and recognized private educational institutions. - Equal distribution of benefits among boys and girls (50% boys and 50% girls).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "students-aadhaar-card-or-jan-aadhaar-card-caste-certificate-marksheet-non-judici"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=63d105de12a7f949a0e67697",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbdsvgac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a student.\n1. The applicant should belong to one of the Denotified Tribes, Nomadic Tribes, or Semi-Nomadic Tribes as notified by the Government of Rajasthan.\n1. The applicant should be studying in the 6th, 7th, 8th, 9th, 10th, or 11th class.1. The applicant should be enrolled in a government or a private educational institution/school affiliated with the Rajasthan Board of Secondary Education, Ajmer .\n1. The applicant should have secured 60% or more marks in the previous academic year.\n1. The students who has already availed the benefit of this scheme once will not be eligible.\n\n> **NOTE:**\n\n&gt; Students belonging to a total of 32 communities (including 9 Denotified Tribes, 10 Nomadic Tribes, and 13 Semi-Nomadic Tribes) will be eligible as per Government [Order No. F-1(1)(2)S.W/63 dated 24.02.1964](https://sje.rajasthan.gov.in/Default.aspx?PageID=68), Annexure &amp;#39;A&amp;#39;.",
+  "_criteria_filled": 1
+}

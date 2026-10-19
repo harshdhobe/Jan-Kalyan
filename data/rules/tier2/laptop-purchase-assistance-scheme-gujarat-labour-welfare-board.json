@@ -1,0 +1,26 @@
+{
+  "id": "laptop-purchase-assistance-scheme-gujarat-labour-welfare-board",
+  "name": "Laptop Purchase Assistance Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, 50% of the amount or ₹25,000/- whichever is less will be given to the student admitted in a professional or designing course, with consideration to the laptop price limit of ₹50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-identity-card-issued-by-the-contractor-to"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/images/glwb/pdf/Laptop-Sahay-Yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lpas-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Workers who are employed in a factory/institute within the state of Gujarat and have been contributing to the Labour Welfare Fund for at least one year at the local office are eligible to apply for benefits under this scheme for their children.\n   1. The benefit of the scheme will be given to children of workers who have passed the class 12th board exam and secured all over 70% or more.\n   1. The student should be admitted in any professional or design course.\n   1. The laptop should be purchased in the name of the student.\n   1. Students who have taken admission abroad are not eligible to benefit from this scheme.\n   1. In the year in which the board exam has been given, the application will have to be made within 6 (six) months after purchasing the laptop in the same year.",
+  "_criteria_filled": 1
+}

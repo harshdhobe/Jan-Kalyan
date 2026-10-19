@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-school-uniform-and-tie-belt-to-other-than-scst-boys-students-of-std-i",
+  "name": "Supply of School Uniform and Tie belt to other than SC/ST Boys Students of Std I to VIII",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "<br>\n\n1. Fosters a sense of identity, equality and discipline among students.\n2. Significantly reduces school absenteeism and improves performance by eliminating the financial barrier of purchasing clothes.\n3. Promotes regular school attendance by supporting foundational needs\n\t\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-required"
+  ],
+  "apply_url": "https://ddd.gov.in/directorate-of-education/",
+  "source_url": "https://www.myscheme.gov.in/schemes/supply-of-school-uniform-and-tie-belt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a student.\n2.\tThe applicant should be studying in class 1st to 8th.\n3.\tThe applicant should be studying in a government school in UT of Dadra &amp; Nagar Haveli and Daman &amp; Diu.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

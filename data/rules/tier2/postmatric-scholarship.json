@@ -1,0 +1,31 @@
+{
+  "id": "postmatric-scholarship",
+  "name": "Postmatric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:** \n\n- Tuition fee assistance of ₹500/- (₹50/- per month for 10 months).\n- Full examination fee coverage for 12th-standard students.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/27465",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmstn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Backward Classes (BC), Most Backward Classes (MBC), and Denotified Communities (DNC).\n  - Parents&amp;#39; income should not exceed ₹1,00,000/- (for Backward Classes (BC) students).\n  - There should be no graduate in the family (for Backward Classes (BC) students). \n  - The beneficiary should be studying in 11th or 12th standard in an English medium school.\n\n<br>",
+  "_criteria_filled": 2
+}

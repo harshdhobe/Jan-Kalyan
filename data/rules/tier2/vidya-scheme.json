@@ -1,0 +1,32 @@
+{
+  "id": "vidya-scheme",
+  "name": "Vidya Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Financial assistance: A sum of ₹10,000/- (Rupees Ten Thousand) would only be deposited under the bank&amp;#39;s Fixed Deposit scheme in the name of every eligible female student.\n   1. The term/period of deposit may be counted from the date of deposit to the approximate date the girl student passes Class-XII.\n   1. No premature withdrawal will be allowed.\n   1. Scheme is beneficial one time on ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "class-v-pass-certificate-from-the-school-concerned",
+    "duly-countersigned-by-the-ddse-of-the-district-concerned-a-recent-passport-size"
+  ],
+  "apply_url": "https://ditc.arunachal.gov.in/pdf/notice/Vidya-Scheme-Guidelines2019Revised-1-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vidya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be studying in a school in Arunachal Pradesh.\n   1. Applicant must be an unmarried female Student.\n   1. Applicant must have a valid class V passing certificate.\n   1. The mandatory condition for withdrawal is completion of the age of 18 years and class XII.\n   1. The applicant must have an active saving account with the State Bank of India.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,33 @@
+{
+  "id": "indira-priyadarshini-award",
+  "name": "Indira Priyadarshini Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**The scheme provides the following one-time financial rewards to the girl students:**\n***Class 8 Girl Students:***\n\n  - ₹40,000/- cash prize (Who secure first position at the district or state level).\n\n***Class 10 Girl Students:***\n\n  - ₹75,000/- cash prize (Who secure first position at the district or state level).\n\n***Class 12 Girl Students (Arts, Science, and Commerce streams – considered sepa",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-copy-residence-proof-disability-certificate",
+    "if-applicable-bpl-certificate",
+    "if-applicable-bank-passbook-copy-education-qualification-marksheetcertificate-co"
+  ],
+  "apply_url": "https://evaluation.rajasthan.gov.in/scheme/detail/335",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should be a girl student and enrolled as a regular student.\n   1. The applicant should belong to one of the following categories: Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Minority Communities, Differently-abled (Disabled), General Category, Special Backward Classes (SBC), or Below Poverty Line (BPL).\n   1. The applicant should have secured the first position at the district level in Class 8, 10, or 12 examinations (Arts, Science, or Commerce stream) conducted by the Rajasthan Board of Secondary Education.\n   1. The student should have obtained at least 60% marks in the respective examination.\n   1. Girl students who secure the first position at the state level in Class 8, (10) Praveshika, or (12) Varishtha Upadhyay examinations conducted by the Sanskrit Education Department are also eligible.\n   1. Girl students securing the first position at the state level in vocational education examinations for Class 10 or 12 are eligible under the scheme.\n   1. Girl students from Swami Vivekananda Government Model Schools who score a CGPA of 9.0 or above in Class 10 or 12 are also eligible.\n\n**Note:** The caste/category certificate submitted by the student at the time of applying for the board examination will be treated as final.",
+  "_criteria_filled": 2
+}

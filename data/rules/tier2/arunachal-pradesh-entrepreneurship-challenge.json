@@ -1,0 +1,31 @@
+{
+  "id": "arunachal-pradesh-entrepreneurship-challenge",
+  "name": "Arunachal Pradesh Entrepreneurship Challenge",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. **Financial:** Top 50 entrepreneurs will be selected for the Incubation and Pre-Incubation programs facilitated by the IIM Calcutta Innovation Park. Out of these, the top 10 entrepreneurs will be awarded up to Rs. 5 lakhs and the next 40 entrepreneurs will be awarded up to Rs. 4 lakhs.1. **Government Support:** Eligibility to avail of various Government Support Schemes, Grants, Soft Loans &amp;",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "applicant-photograph-passport-size-png-aadhaar-card-pdf-both-sides-domicile-cert"
+  ],
+  "apply_url": "https://www.arunachalplan.gov.in/arunachal-pradesh-entrepreneurship-development-programme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/apepc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a resident of Arunachal Pradesh above 18 years of age with principal business units or should have a proposal to set up branches in Arunachal Pradesh or an Arunachali currently working or residing outside the state, but wishes to return back to the state &amp; become an Entrepreneur.\n2.\tThe applicant should be promised an idea and plan or prototype/working model.\n3.\tThe applicant should be an Entrepreneur with good communication skills.\n4.\tThe applicant should be an early-stage venture set up on or after 15 August 2015.\n5.\tThe applicant should be MSME-registered enterprises.\n6.\tThe applicant should be an existing entrepreneur in your district.\n7.\tThe applicant should be a College graduate.\n8.\tThe applicant should be Self-employed people in innovative businesses. \n9.\tThe applicant should belong to organized producer groups.\n<br>",
+  "_criteria_filled": 2
+}

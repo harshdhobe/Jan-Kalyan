@@ -1,0 +1,26 @@
+{
+  "id": "burial-and-ex-gratia-payment-scheme-in-case-of-death-of-unregistered-laborer-dur",
+  "name": "Burial and Ex-gratia Payment Scheme in Case of Death of Unregistered Laborer During Work at Construction Site",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. **Funeral Assistance:** ₹3,000 payable in case of death of a construction laborer.1. **Grace Amount:**\n\n- Death due to an accident during construction work: ₹4,00,000/-.\n- Permanent disability due to an accident during construction work: ₹2,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-nomineelegal-heirs-passport-size-photograph-proof"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/MratyuSahayta.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/baepsicodouldwact",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased construction worker should have been registered with the Madhya Pradesh Building and Other Construction Workers Welfare Board (MPBOCWWB).\n   1. The deceased construction worker should have held an active regular membership.\n   1. The only person who is a legal heir/dependent family member of the deceased registered worker is eligible to apply under the scheme.\n   1. The deceased worker should have valid identity card.",
+  "_criteria_filled": 1
+}

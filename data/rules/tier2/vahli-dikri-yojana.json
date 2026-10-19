@@ -1,0 +1,36 @@
+{
+  "id": "vahli-dikri-yojana",
+  "name": "Vahli Dikri Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance at Different Stages:**\n\n- ₹4,000/- at the time of admission in 1st standard.\n- ₹6,000/- at the time of admission in 9th standard.\n- ₹1,00,000/- at the age of 18 years for higher education or marriage.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-of-gujarat-aadhar-card-passport-size-photo-income-certificate-caste-cer"
+  ],
+  "apply_url": "https://govtschemes.in/sites/default/files/2023-04/Gujarat%20Vahli%20Dikri%20Yojana%20Application%20Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should have a bank account.\n1. The applicant should be one of the first two girl children of the family.\n1. The annual family income should not exceed ₹2 lakh.\n1. Girls born on or after 02-08-2019 should be eligible for financial assistance.",
+  "_criteria_filled": 3
+}

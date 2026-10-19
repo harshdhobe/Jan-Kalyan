@@ -1,0 +1,27 @@
+{
+  "id": "tuition-fees-and-examination-fees-to-vjntsbc-students-studying-in-high-schools",
+  "name": "Tuition Fees And Examination Fees To Vjnt/sbc Students Studying In High Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1.  BPL students studying in Govt. approved aided, non-aided, permanent non-aided schools in 1st to 10th standard are being paid Rs.100/- to 200/- Education Fee as per Urban and Rural area. \n1. Tuition fees, Examination fees, Laboratory fees, Library fees, etc. fees are sanctioned and paid to concerned Govt. approved aided, non-aided, permanent non-aided schools. \n1. No other concessional benefit ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-domicile-certificate-of-maharashtra-caste-certificate-vjnt-or-sbc",
+    "not-below-the-rank-of-tehsildar-family-income-certificate-marksheet-of-the-lates"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/sites/default/files/vjntscheme/eng/2-12.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tfefvssshs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. He should be a student of a recognized High School. \n1. No limit on age or income. \n1. Students should belong to V.J.N.T. &amp; S.B.C. category.\n1. Once failure is eligible. \n1. Twice failure is not eligible.",
+  "_criteria_filled": 1
+}

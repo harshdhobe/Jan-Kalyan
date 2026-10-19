@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-nirmaan-shramik-pension-sahayata",
+  "name": "Mukhyamantri Nirmaan Shramik Pension Sahayata",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Pension to the Beneficiary : ₹ 1,500/- per month (or)\n- Pension to the widow of the beneficiary: ₹ 700/-  per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "original-scanned-copy-of-beneficiarys-surviving-labor-registration-certificate-l"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/192647_08_09_2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnsps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiaries should be 60 years old or more. \n1. Beneficiaries must be permanent residents of Chhattisgarh.\n1. Beneficiaries must have registered members as construction workers in the Board for 10 years.\n1. Beneficiaries cannot receive benefits under this scheme if they are already receiving benefits from any other parallel scheme of the State/Central Government.\n1. Registered construction workers who have availed the benefit of the Chief Minister Syan Sahayata Yojana are ineligible for this scheme.\n1. Beneficiaries must submit a survival certificate every year in March to continue receiving the assistance amount.\n1. If both husband and wife are registered workers and both are receiving pension benefits, only one spouse will continue to receive pension after the death of the other. Family pension will not be payable to dependents.\n1. If both husband and wife are registered workers and the husband dies before the wife turns 60, the wife will receive family pension until she turns 60. After turning 60, she can apply for pension under the pension scheme, and the family pension will automatically stop.\n1. Beneficiaries have six months from the date of completing 59 years and three months to 60 years to apply for the scheme. A survival certificate must be submitted in the month when the first pension amount is to be paid.",
+  "_criteria_filled": 2
+}

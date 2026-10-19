@@ -1,0 +1,43 @@
+{
+  "id": "scheme-for-acquisition-of-equipment-and-others",
+  "name": "Scheme for Acquisition of Equipment and Others",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "##### ***Loan Quantum***\n\n- For Manufacturing and Installation of Renewable Energy/Energy Saving Systems: ₹5,00,000/- per Product.\n- For In-House Quality Control Facilities: Need-based.\n- For DG Sets: Need-based.\n- For Pollution Control Equipment: Need-based.\n- For Computers and Related Accessories: Need-based.\n- For Indigenization/Import Substitution: Need-based.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "checklist-for-loan-application-httpspipdicinuploadspipdic-docscheck-list-for-loa",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-bio-data-of-all-promotersentrepreneurs-duly-filled-in-all-res",
+    "00",
+    "000-original-title-deeds",
+    "antecedent-title-deeds",
+    "and-encumbrance-certificate-for-30-years-for-collateral-security-property-valuat",
+    "fmb-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-collateral-security-property-site-and-factory-build",
+    "00",
+    "000-financial-and-project-documentsquotations-from-selected-suppliers-for-all-ma",
+    "00",
+    "000-consent-letter-from-the-bank-for-sanction-of-working-capital-loan-for-loans",
+    "00",
+    "000-approvals-and-clearances-where-applicableinspector-of-factories-approval-mun"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfaoeao",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be an organization in the small-scale sector.\n<br>",
+  "_criteria_filled": 1
+}

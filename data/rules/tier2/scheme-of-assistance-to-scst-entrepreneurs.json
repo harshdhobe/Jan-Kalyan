@@ -1,0 +1,49 @@
+{
+  "id": "scheme-of-assistance-to-scst-entrepreneurs",
+  "name": "Scheme of Assistance to SC/ST Entrepreneurs",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Loan of upto ₹2,00,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-application-filingcopy-of-acknowledgement-of-m",
+    "small-and-medium-enterprises-registration-certificate-obtained-from-industries-d",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-copy-of-the-community-certificate-in-case-of-scheduled-castes",
+    "such-as-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance-permission-from-puducherry-planning-authority",
+    "puducherry-power-feasibility-certificate-from-electricity-department",
+    "puducherry-a-copy-of-permission-letter-obtained-from-the-electricity-department",
+    "puducherry-for-captive-generation-of-power-in-case-generator-is-required-for-the",
+    "technology-and-environment-from-pollution-angle-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-collateral-security-property-valuation-certificate",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate",
+    "field-measurement-book-copy",
+    "patta-copy-etc-for-factory-site"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sascste",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "New and existing Micro Enterprises, promoted by Scheduled Caste / Scheduled Tribe entrepreneurs.\n<br>",
+  "_criteria_filled": 1
+}

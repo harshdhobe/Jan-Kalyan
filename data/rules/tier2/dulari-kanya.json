@@ -1,0 +1,31 @@
+{
+  "id": "dulari-kanya",
+  "name": "Dulari Kanya",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "1. An amount of ₹ 20,000/- shall be deposited in the fixed deposit Bank Account (Minor Account) of the girl child born in any Government Hospital or Government recognised private hospital. \n1. Maturity amount can be withdrawn by the beneficiary on attaining the age of 18 years, which would be subject to verification by the concerned DMO of the respective districts.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "during-application-a-copy-of-delivery-discharge-certificate-by-the-mo-of-the-hos"
+  ],
+  "apply_url": "http://health.arunachal.gov.in/wp-content/uploads/2018/08/Dulari-Kanya.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl child should be born in a Government Hospital or Government recognized private hospital in the state of Arunachal Pradesh.\n1. The father/guardian should belong to a schedule tribe Arunachal Pradesh or a domicile resident of Arunachal Pradesh or possess a household residential certificate.\n1. The scope of the scheme is restricted to a maximum of first two live girl child.",
+  "_criteria_filled": 2
+}

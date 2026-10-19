@@ -1,0 +1,26 @@
+{
+  "id": "vegetable-development-scheme",
+  "name": "Vegetable Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n  - Supply of seeds/ seedlings and garden tools at 50% sales subsidy.\n  - Demonstration on improved methods of vegetable cultivation at the rate 2,600 per farmer is provisioned.\n\n> **Type of Assistance and Entitlement (If Any):**\n\nSl. No.EntitlementOwantum of Assistance1To promote vegetable production by providing hybrid, HYV, and OP quality vegetable seed to farmers ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=95",
+  "source_url": "https://www.myscheme.gov.in/schemes/vds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a resident of Meghalaya.\n1. The small and marginal farmers having sufficient available cultivable land can apply under the scheme.\n\nNote: The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

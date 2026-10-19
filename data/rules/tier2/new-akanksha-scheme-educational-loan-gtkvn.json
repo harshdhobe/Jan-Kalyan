@@ -1,0 +1,31 @@
+{
+  "id": "new-akanksha-scheme-educational-loan-gtkvn",
+  "name": "New Akanksha Scheme (Educational Loan) (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Education Loan Details:**\n\n***Loan Amount:*** Up to ₹15,00,000/-.\n***Interest Rate:*** 4% per annum for male students and 3.5% per annum for female students.\n***Coverage Includes:***\n\n- Admission fees and tuition fees\n- Books, writing materials, necessary equipment and examination fees required for the course\n- Accommodation &amp; food expenses\n- Travel and insurance premiums\n\n***Contribution:",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-other-mark-sheetslast-year-mar"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gtkvn/Schemes/1460?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/elsgtkdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Thakor or Koli caste/community. \n1. The family&#39;s annual income should not exceed ₹3,00,000/-.\n1. The applicant should have secured admission in a recognized institution for:\n\n- MBA or equivalent (approved by AICTE)\n- MCA (Master of Computer Applications or equivalent)\n- Undergraduate Engineering programs (approved by AICTE/IITs)\n- MBBS or equivalent (approved by Medical Council of India)\n\n**Note:** At least 50% of the total sanctioned loan amount will be reserved for applicants from families earning up to ₹1,50,000 annually.\n<br>",
+  "_criteria_filled": 2
+}

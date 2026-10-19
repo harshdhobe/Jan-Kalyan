@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-assistance-to-micro-small-and-medium-enterprises-msme-assistance-of-c",
+  "name": "Scheme for Assistance to Micro, Small and Medium Enterprises (MSME): Assistance of Capital Investment Subsidy (Manufacturing Sector)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n**Category of Taluka****Quantum of Incentive** Category 125% of term loan amount upto ₹35,00,000/-; If the Eligible FCI is over ₹10,00,00,000/-, additional ₹10,00,000/- will be given.Category 220% of term loan amount upto ₹30,00,000/-; If the Eligible FCI is over ₹10,00,00,000/-, additional ₹7,50,000/- will be given.Category 3 &amp;amp;amp;amp; Municipal Corporation Areas",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmecis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must be in the manufacturing sector.\n   1. The term loan must be sanctioned by a recognized Bank/Financial Institution (excluding NBFCs).\n   1. The enterprise must apply within one year of loan disbursement or before the commercial production starts.\n   1. The enterprise must remain operational for at least 7 years post-subsidy approval.\n   1. The enterprise must comply with pollution control measures.\n   1. Only one type of investment (Forward Integration, Backward Integration, Diversification, or Expansion) will be eligible for subsidy.",
+  "_criteria_filled": 1
+}

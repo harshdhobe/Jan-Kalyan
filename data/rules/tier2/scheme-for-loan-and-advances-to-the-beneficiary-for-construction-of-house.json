@@ -1,0 +1,33 @@
+{
+  "id": "scheme-for-loan-and-advances-to-the-beneficiary-for-construction-of-house",
+  "name": "Scheme For Loan And Advances to the Beneficiary For Construction Of House",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "1. Credit-linked interest subsidy at 6.5% for eligible loans.\n1. Loan amount up to ₹6 lakh, repayable over a maximum period of 20 years.\n\n> **Note:** Direct subsidy credited to the loan account to reduce financial burden.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-boc-worker-registration-card-aadhaar-number-or-aadhaar-aadhaar-enrolment",
+    "voter-id",
+    "driving-license-proof-of-minority-community-if-the-applicant-belongs-to-a-minori"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/scheme.php?id=10",
+  "source_url": "https://www.myscheme.gov.in/schemes/slabch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be a registered active BOC worker under the Tripura Building and Other Construction Workers Welfare Board.\n1. The worker must be a registered construction worker for at least 5 years.\n1. The worker should have a minimum of 20 years before retirement.\n1. The registered construction worker must not hold any pucca house in any part of the country.\n1. The registered construction workers should have a minimum land area (30 Square meters) as per their income status for the construction of Houses.\n1. The beneficiary family should not have availed of any central assistance under any housing scheme from the central/ state Government.\n1. The worker&#39;s annual income should not exceed ₹3,00,000/-.\n1. The worker should belong to the economically weaker section (EWS) category. \n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

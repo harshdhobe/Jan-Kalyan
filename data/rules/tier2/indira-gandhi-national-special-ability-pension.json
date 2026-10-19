@@ -1,0 +1,46 @@
+{
+  "id": "indira-gandhi-national-special-ability-pension",
+  "name": "Indira Gandhi National Special Ability Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "Individuals who have a disability of 80 percent or more and are between 18 to 79 years old and living below the poverty line are eligible for a monthly sum of Rs. 300 from the Government of India.\nThe state government also provides an additional amount of Rs. 1000 per month, bringing the total pension amount to Rs. 1300 per month.\nThe Department of Social Welfare also offers Disability Relief Allo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-applicant-must-be-80-or-more-handicapped-latest-bpl-certi"
+  ],
+  "apply_url": "http://himachalpr.gov.in/PressReleaseByYear.aspx?Language=1&ID=12335&Type=2&Date=10/06/2018",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be a citizen of India.\n2.\tThe person must be between 18 to 79 years old.\n3.\tThe applicant should have 80% or more special ability.\n4.\tThe person should belong to a below-poverty-line household.\n5.\tThe applicant should have a valid bank account.\n<br>",
+  "_criteria_filled": 5
+}

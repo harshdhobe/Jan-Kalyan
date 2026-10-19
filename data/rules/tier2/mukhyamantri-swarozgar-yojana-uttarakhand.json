@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-swarozgar-yojana-uttarakhand",
+  "name": "Mukhyamantri Swarozgar Yojana - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The maximum project cost for manufacturing sector enterprises is ₹25 lakh, and for service and business sector enterprises, it is ₹10 lakh, which is financed through banks.\n\n  - 25% subsidy for Category-A districts (manufacturing sector – maximum ₹6.25 lakh; service sector – maximum ₹2.50 lakh)\n  - 20% subsidy for Category-B and B+ districts (manufacturing sector – maximum ₹5 lakh; service sector ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photograph-aadhaar-card-permanentoriginal-residence-certificate-speci"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsy-uk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native or permanent resident of Uttarakhand.\n   1. The applicant must be at least 18 years of age.\n   1. No educational qualification is required for availing the benefits under this scheme.\n   1. Under the scheme, financing is available for industrial, service, and business sectors. It is also available for projects related to apple cultivation, orchids, animal husbandry, and agriculture activities.\n   1. The applicant or entity must not be a defaulter of any bank, nationalized bank, financial institution, or cooperative bank/institution.\n   1. The applicant must hold an account with the financing bank in the concerned area.\n\n<br>",
+  "_criteria_filled": 2
+}

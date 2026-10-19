@@ -1,0 +1,31 @@
+{
+  "id": "haryana-post-matric-scholarship-for-minority",
+  "name": "Haryana Post Matric Scholarship For Minority",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**1.** **Admission and Tuition Fee:**\n\n- Classes 11 and 12: Up to ₹7,000/- per annum\n- Technical/Vocational Courses (11 and 12): Up to ₹10,000/- per annum\n- Undergraduate/Postgraduate: Up to ₹3,000/- per annum\n\n**2.** **Monthly Maintenance Allowance (for 10 months):**\n**1. Classes 11 and 12 (including technical courses):**\n\n- Hostellers: ₹380/- per month\n- Day Scholars: ₹230/- per month\n\n**2. Unde",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "student-photograph-mandatory-institution-verification-form-mandatory-self-declar"
+  ],
+  "apply_url": "https://haryana.gov.in/scheme/post-matric-scholarship/",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Muslim, Christian, Sikh, Buddhist, Jain, or Zoroastrian (Parsi) community.\n1. The applicant should have secured a minimum of 50% marks in the previous final examination.\n1. The applicant&#39;s family annual income should not exceed ₹2,00,000/- from all sources.\n1. The applicant should be a regular student in a government or private higher secondary school/college/university.\n1. The applicant should not be availing of any other scholarship for the same purpose.\n\n<br>\n\n> **Preferences:**\n\n- Priority to students from BPL families.\n- 30% of scholarships are earmarked for girl students.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,41 @@
+{
+  "id": "shilpi-samridhi-yojana",
+  "name": "Shilpi Samridhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "-  Loan for various economic development schemes having unit cost up to ₹50,000/-.\n- Margin Money at 10% of the project cost.\n- Subsidy at 50% of the total project cost, subject to a maximum of ₹10,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-scheduled-caste-certificate"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=tJvHCanYiLEBtdXtmnbR4g==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssyh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Haryana.\n  - The applicant should belong to the Scheduled Caste category.\n  - The applicant&amp;#39;s annual family income should not exceed ₹3,00,000/-.\n  - The applicant should be in the age group of 18 to 45 years.\n  - The applicant should have adequate knowledge and experience of the scheme.\n\n  - The applicant should not have misused the previous loan obtained from the Corporation.\n  - The applicant should not have any other similar unit.\n  - The applicant should not be a defaulter of the Corporation/banks.",
+  "_criteria_filled": 4
+}

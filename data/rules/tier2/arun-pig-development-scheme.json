@@ -1,0 +1,28 @@
+{
+  "id": "arun-pig-development-scheme",
+  "name": "Arun Pig Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "4750 farmers will be given piggery subsidy (25% beneficiary contribution and 75% government contribution).\nPiglets will be procured by the District Administration and handed over to the farmers after ensuring that a suitable sty was constructed by the selected farmer.\nThe sty should accommodate 5 piglets with a scope to accommodate a further 15 nos.\n5 pig entrepreneurs will be selected per distric",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-below-poverty-line-bpl-card-application-form-and-farmer-details-in-the-presc"
+  ],
+  "apply_url": "https://ahvdd.arunachal.gov.in/nlm_sch.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/apds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tPig-rearing individual farmers/ Self Help Groups (SHGs), ones identified by the District Pig Development Committee are eligible to apply under the scheme.\n3.\tPreference would be given to women and genuinely poor farmers.",
+  "_criteria_filled": 1
+}

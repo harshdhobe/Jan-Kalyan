@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-matsya-sampada-yojana",
+  "name": "Mukhyamantri Matsya Sampada Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under this scheme, assistance is provided to small and large farmers/women engaged in various activities or items related to the fisheries sector, as mentioned in the table below**.**\n**Activity/Item****Unit Cost****Grant (General Category)****Grant (Women / SC / ST)****Maximum Limit/ Grant Limit**Intensive Fish Farming₹4,000/- (per 1,000 fingerlings)50% of the cost price50% of the cost priceFor",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-proof-khasra-khatauni-permanent-residence-certificat"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant should have availability of land and a water supply source or should already be engaged in fish farming.\n1. All individuals/applicants belonging to any caste category in Uttarakhand are eligible to avail the benefits under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

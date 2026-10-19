@@ -1,0 +1,26 @@
+{
+  "id": "plant-protection-including-integrated-pest-management-scheme",
+  "name": "Plant Protection including Integrated Pest Management Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Distribution of bio-pesticide and other IPM tools to farmers.\n- Sale of Sprayers and Plant Protection Equipment.\n\n> **Type of Assistance and Entitlement (If any):**\n\n1. Free distribution of Bio-pesticides and other IPM tools.\n1. 50% subsidy sale on Plant Protection Equipment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=34",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

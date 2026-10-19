@@ -1,0 +1,28 @@
+{
+  "id": "chief-minister-ebc-civil-seva-protsahan-yojana",
+  "name": "Chief Minister EBC Civil Seva Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, candidates who pass the preliminary examination of competitive exams are provided with a prescribed incentive amount ranging from ₹30,000/- to ₹1,00,000/- as under:\n**Sl. No.****Name of Competitive Examination****Name of the Institution Conducting the Competitive Examination****Incentive Amount**1Civil ServicesUnion Public Service Commission, New Delhi₹1,00,000/-2Indian Engineer",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filling-of-application-form",
+    "the-applicants-photo-size-should-be-less-than-50-kb-preferred-dimension-200-x-23",
+    "the-applicants-signature-size-should-be-less-than-20-kb-preferred-dimension-140"
+  ],
+  "apply_url": "https://bcebconline.bihar.gov.in/cspy/EBCscholarship/Photo/BC.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmapvcspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n   1. The applicant should belong to the Extremely Backward Class (EBC) category.\n   1. The applicant should have passed the preliminary examination of a competitive exam, such as UPSC, BPSC, Bihar Judicial Service, NDA, CDS, Banking, Railway, SSC, etc.\n   1. The applicant should not have previously received the same incentive from any other source.",
+  "_criteria_filled": 1
+}

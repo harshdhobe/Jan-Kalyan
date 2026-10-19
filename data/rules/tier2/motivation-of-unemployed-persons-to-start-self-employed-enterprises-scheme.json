@@ -1,0 +1,28 @@
+{
+  "id": "motivation-of-unemployed-persons-to-start-self-employed-enterprises-scheme",
+  "name": "Motivation Of Unemployed Persons To Start Self-Employed Enterprises Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the applicant may get a loan from ₹10,000/- to ₹2,00,000/- to set up a startup in the manufacturing and/or service sectors.\n   1. 50% of the project cost excluding pre-operative and preliminary expenses will be granted as a subsidy for the projects not exceeding ₹50,000/-\n   1. 35% of the project cost excluding pre-operative and preliminary expenses to a maximum of ₹35,000 wil",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-educational-qualification",
+    "if-any-passport-size-photo-2-number-proof-for-residence-family-ration-card-caste",
+    "if-any"
+  ],
+  "apply_url": "https://dic.py.gov.in/motivation-unemployed-persons-start-self-employed-enterprises",
+  "source_url": "https://www.myscheme.gov.in/schemes/mupsese",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Unemployed Men and Women of the Union Territory of Puducherry are eligible to apply under the scheme.\n1. The age of the applicant should be as per the existing norms of banks.\n1. No formal education is required. However, the applicant should know to read and write fluently.\n1. No limit on family income.\n1. The applicant should be a permanent resident of the Union Territory of Puducherry for at least 3 years.",
+  "_criteria_filled": 1
+}

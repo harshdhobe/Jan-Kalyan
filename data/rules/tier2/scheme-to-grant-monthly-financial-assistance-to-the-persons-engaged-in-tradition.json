@@ -1,0 +1,42 @@
+{
+  "id": "scheme-to-grant-monthly-financial-assistance-to-the-persons-engaged-in-tradition",
+  "name": "Scheme to Grant Monthly Financial Assistance to the Persons Engaged in Traditional Occupations/Businesses including Motorcycle Pilots",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Monthly financial assistance of ₹1,000/- (Rupees one thousand only) shall be provided by the Government to the eligible persons.\n- The financial assistance sanctioned under the Scheme shall be released in the Saving Bank Account of the beneficiaries through Electronic Clearance System (ECS).\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-with-the-applicationresidence-certificate",
+    "issued-by-the-mamlatdar-of-the-concerned-taluka-income-certificate",
+    "issued-by-the-competent-authority-attested-copy-of-birth-certificateproof-attest",
+    "insurance",
+    "fitness-certificates-of-the-vehicle-attested-copy-of-driving-license",
+    "badge-and-valid-permit-to-carry-out-the-activities",
+    "issued-by-competent-authorities"
+  ],
+  "apply_url": "https://www.goaprintingpress.gov.in/downloads/1213/1213-38-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgmfapetobmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be of Goan Origin.\n- The family income of the applicant from all sources must not exceed ₹1,50,000/- per annum.\n- The applicant must not be less than 50 years of age.\n- The applicant should be engaged in the traditional occupations/businesses/motor-cycle pilot activities for at least 10 (ten) years before applying for financial assistance under this Scheme.\n- The applicant must still be continuing the traditional business/occupation including motorcycle pilot activity.\n- The applicant must be declared medically unfit to carry out such activity.\n- The applicant must not be a beneficiary availing financial assistance under Dayanand Social Security Scheme/Kala Sanman Scheme or under any other similar scheme of the Government where monthly allowance is paid in any name/form.\n\n_*Beneficiaries availing financial assistance under Griha Adhar Scheme shall be entitled for availing benefits under this Scheme subject to fulfillment of eligibility conditions laid under this Scheme._\n##### ***Criteria Regarding Proof of Activity***\n\n- The applicant having valid registration certificates from the competent authority of the traditional business activities being carried by him may apply under the Scheme.\n- In case the applicant is unable to submit documentary evidence from the concerned authorities regarding his/her traditional business activity, then he/she may submit an affidavit sworn before Executive Magistrate or Notary Public stating his/her nature of traditional activities being carried and since when, etc.\n\n<br>",
+  "_criteria_filled": 3
+}

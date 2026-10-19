@@ -1,0 +1,38 @@
+{
+  "id": "shubhshakti-yojana",
+  "name": "Shubhshakti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Receives a financial assistance of ₹55,000/-.\n- The amount is directly transferred to the beneficiary&#39;s bank account.\n- The funds can be used for various purposes, including:\n\n   1. Higher education\n   1. Vocational training\n   1. Starting a business\n   1. Skill development training\n   1. Marriage expenses",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-beneficiarys-registration-identity-card-bank-passbook-front-page-copy-ac",
+    "account-no",
+    "ifsc-code-aadhaar-card-or-copy-of-bhamashah-card-optional-beneficiarys-daughters"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/Scheme/LAB_/SSY/DOC_221_3508d3ec-1148-4bd3-a9c9-612934bad740.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbsky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. One parent (either father or mother or both) must be registered as a beneficiary/construction worker for at least one year in the board.\n1. A maximum of two daughters of the beneficiary or the female beneficiary and her one daughter will be given the incentive amount.\n1. The female beneficiary must be unmarried or the beneficiary&#39;s daughter must be at least 18 years old and unmarried.\n1. The daughter of the beneficiary/female beneficiary must have passed at least the 8th standard.\n1. There should be a savings bank account in the name of the daughter of the beneficiary/female beneficiary.\n1. If the beneficiary has his own house, there should be a toilet in the house.\n1. The beneficiary must have worked as a construction worker for at least 90 days during the year before the application date.\n1. The incentive amount will be payable only after physical verification of the beneficiary being a construction worker, which can be done by various authorities.\n1. The incentive amount can be used by the female beneficiary/daughter for further education, vocational training, starting her own business, or for her own marriage, with proper counseling.\n1. The application for the scheme must be submitted in the prescribed form by the beneficiary after completing one year as a registered beneficiary, and the beneficiary&#39;s identity card must be valid/active at the time of application.\n1. Girls who have already received assistance under the Board&#39;s Marriage Assistance Scheme earlier will not be eligible for assistance under this scheme.",
+  "_criteria_filled": 3
+}

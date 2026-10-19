@@ -1,0 +1,26 @@
+{
+  "id": "funeral-assistance-cbocwwb",
+  "name": "Funeral Assistance (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "Financial assistance of ₹5000/- shall be given to the legal heirs, in case of death of registered beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-copy-of-the-aadhaar-card-of-the-deceased-registered"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/facbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased worker should have been working at the establishment, registered under Punjab Labour Welfare Fund Act, 1965 and his contributions to the labour welfare fund should have been regularly received by the board.\n   1. Any legal heirs of the deceased worker would be eligible to avail the benefit of this scheme only if the deceased worker was a member of the Board for at least the last six months.\n   1. The financial assistance will be given on the production of the death certificate issued by the competent authority.\n   1. The applicant should apply for Funeral Assistance within three months from the date of death.",
+  "_criteria_filled": 1
+}

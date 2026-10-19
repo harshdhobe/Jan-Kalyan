@@ -1,0 +1,46 @@
+{
+  "id": "mahila-samriddhi-yojana-gtkvn",
+  "name": "Mahila Samriddhi Yojana (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Maximum Loan Amount:** Up to ₹60,000/-.- **Interest Rate:** 4% per annum.- **Loan Coverage:** Up to 100% of the loan will be given for the proposed business/trade.- **Repayment:** The loan amount will have to be repaid in 48 equal monthly installments (4 years) including interest.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-voter-id-passport-size-photos-business-address-proof-bi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gtkvn/Schemes/1450?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/msygtkdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a woman from Thakor or Koli caste. \n1. The applicant should be between 21 to 50 years of age at the time of application.\n1. The applicant’s annual family income should not exceed ₹3,00,000/-. \n1. The applicant should have relevant technical skills and experience in the proposed trade/business.\n1. The applicant will have to provide suitable collateral to get the loan.\n\n> **Note:** At least 50% of the total loan amount will be allocated for families with annual income up to ₹1,50,000/-.\n\n<br>",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "akhil-bharatiya-civil-services-pratiyogita",
+  "name": "Akhil Bharatiya Civil Services Pratiyogita",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "There is a provision to provide travel allowance, accommodation allowance, food allowance, sports kits, and other necessary support to all players and team members participating in the &amp;#39;Akhil Bharatiya Civil Services Pratiyogita&amp;#39;, in accordance with departmental standards.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-is-required-in-accordance-with-the-departments-guideline"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/abcsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an employee of a government department in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

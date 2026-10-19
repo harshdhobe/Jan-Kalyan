@@ -1,0 +1,41 @@
+{
+  "id": "incentive-scheme-for-sericulture-reelers",
+  "name": "Incentive Scheme for Sericulture Reelers",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "> **Financial Assistance:**\n\n- Silk reeling/spinning workers can receive a loan of up to ₹2,00,000/-, with 50% of the loan amount being provided as a subsidy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-applicant-minority-certificate-issued-by-the-competent-authority-in"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/isfsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the religious minority category of the state.\n1. The applicant should be a permanent resident of the state.\n1. The applicant&#39;s age should be between 18 to 55 years.\n1. The family income from all sources should not exceed more than ₹6,00,000/-\n1. No member of the applicant&#39;s family should be a State/Central Government employee.\n1. The applicant or his family members should not have availed of any loan/subsidy facility from the Corporation in the last 5 years except the Arivu education loan and Foreign Education Loan Scheme.\n1. The applicant should not be a sustainer of the corporation.",
+  "_criteria_filled": 4
+}

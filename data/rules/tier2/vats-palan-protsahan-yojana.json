@@ -1,0 +1,26 @@
+{
+  "id": "vats-palan-protsahan-yojana",
+  "name": "Vats Palan Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- One-time incentive of ₹5,000 for cows whose milk production is at least 30% higher than the breed average.\n- Monthly support of ₹500 per calf for feed and medicines, from 0–4 months up to two years of age.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-proof-livestock-ownership-proof-bank-account-passbook"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=210",
+  "source_url": "https://www.myscheme.gov.in/schemes/vppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh. \n1. The applicant must be a livestock farmer owning Indian high-yielding indigenous cows.\n1. The cow’s milk production must be at least 30% higher than the breed average.\n1. The calf must be born through artificial insemination or natural insemination using genetically superior Indian bulls.\n1. Both urban and rural farmers are eligible.\n1. Both male and female calves receive support up to two years of age.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "craftsman-training-scheme-maharashtra",
+  "name": "Craftsman Training Scheme - Maharashtra",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- **Stipend ₹500/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-income-certificate-ad"
+  ],
+  "apply_url": "https://mahadbt.maharashtra.gov.in/PDF/89.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cts-maharashtra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra state.\n1. The applicant should belong to Scheduled Castes, Scheduled Tribes, Freed Castes and Nomadic Tribes, Other Backward Classes, Special Backward Classes, Minority Communities and Open Category economically backward\n1. The annual income of parents should not exceed ₹8,00,000/-. \n1. Only two siblings within a family are eligible for this benefit.\n1. The trainee should maintain an average of 80% attendance.\n1. The trainee should be passing the first year to enroll in a 2-year trade.\n1. SC trainees with an annual income of less than ₹2,50,000/- are also eligible for the Post Matric Scholarship.\n1. Trainees suspended or found non-eligible for the All India Trade Test (AITT) will not qualify.\n1. Trainees who have left the GITI are not eligible from their date of departure.\n1. Trainees in PITI are ineligible for this scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

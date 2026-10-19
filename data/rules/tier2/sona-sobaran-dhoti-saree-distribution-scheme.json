@@ -1,0 +1,26 @@
+{
+  "id": "sona-sobaran-dhoti-saree-distribution-scheme",
+  "name": "Sona Sobaran Dhoti Saree Distribution Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. One dhoti or lungi and one saree are provided to eligible families.\n1. Items are distributed at subsidized rates to ensure affordability.\n1. Benefits are provided annually to NFSA and JSFSS beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-aadhaar-enrolment-identification-slip-bankpost-office-passbook-w"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D009DO003SD00625102023010425300",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssdsds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant should have a valid Antyodaya Anna Yojana (AAY) or Priority Household (PHH) card under NFSA, 2013.\n1. Green Card holders under the Jharkhand State Food Security Scheme (JSFSS) are eligible.\n1. The applicant must possess or apply for an Aadhaar number.",
+  "_criteria_filled": 1
+}

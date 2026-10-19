@@ -1,0 +1,27 @@
+{
+  "id": "empower-stsc-communities-using-ict-tools-through-it-knowledge-centre-itkc",
+  "name": "Empower ST/SC Communities using ICT Tools through IT Knowledge Centre (ITKC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Name of the Course: Certificate in Basic IT Skills; Duration (in Weeks): 4; Fees (in ₹) (excluding taxes): 1,000/-\n- Name of the Course: Certificate of Basic Internet; Duration (in Weeks): 3; Fees (in ₹) (excluding taxes): 750/-\n- Name of the Course: MS Word; Duration (in Weeks): 4; Fees (in ₹) (excluding taxes): 1,000/-\n- Name of the Course: MS Excel; Duration (in Weeks): 4; Fees (in ₹) (exclud",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "one-copy-of-the-application-form-as-prescribed-one-copy-of-passport-size-photogr",
+    "in-case-of-applicant-belonging-to-scst-communities-self-attested-copy-of-educati"
+  ],
+  "apply_url": "https://www.dit.goa.gov.in/assets/books/itkcform.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/estsccicttitkc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be from a Schedule Tribe (ST) or Schedule Caste (SC) Community.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "crop-cluster-development-programme",
+  "name": "Crop Cluster Development Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Improved access to inputs and services for farmers\nIncreased farmers' income and socio-economic security\nPromotion of sustainable agriculture-based livelihoods\nEnhancement of market linkages and organized marketing of horticultural products\nReduction of post-harvest losses\nCreation of employment opportunities in rural areas\nIncrease in horticultural crop area, productivity, and production",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "completed-project-proposal-form-registration-certificate-of-the-fpo-under-the-co"
+  ],
+  "apply_url": "https://roing.nic.in/agriculture/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ccdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only Farmer Producer Organizations (FPOs) registered under the Companies Act in Haryana are eligible to submit project proposals and avail assistance under the scheme.\n- FPOs must have a minimum of 150 shareholders with a financial strength of at least Rs. 10.00 lakh in their bank account.\n- The FPOs should have an area of at least 500 acres under horticulture crops, although this requirement may be flexible based on the project&#39;s viability.\n- FPOs must have a business plan with backward and forward linkages of their produce.\n- Disputed FPOs or those not meeting the eligibility criteria mentioned above will not be considered eligible.",
+  "_criteria_filled": 1
+}

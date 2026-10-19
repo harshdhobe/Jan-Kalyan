@@ -1,0 +1,26 @@
+{
+  "id": "varanasi-and-amritsar-yatra-scheme",
+  "name": "Varanasi and Amritsar Yatra Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Reimbursement of ₹1,000/- or the actual cost of a second-class train ticket (to and fro) per person, whichever is less, will be provided.\n\n**Note:** This facility will be given one time only.\n**Expected Time of Disbursement:** Reimbursement will be made after the journey on the submission of railway tickets.\n**Mode of Disbursement:** Payment will be made directly into the bank account of the ben",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-scheduled-castes-certificate-along-with-original-residence-proofration-c"
+  ],
+  "apply_url": "https://haryanascbc.gov.in/sites/default/files/2020-08/Scheme%20for%20Varanasi%20and%20Amritsar%20Yatra.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svayhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n1. The applicant should belong to the Scheduled Caste.\n1. This facility will be given one time only.\n\n<br>",
+  "_criteria_filled": 1
+}

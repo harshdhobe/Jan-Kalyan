@@ -1,0 +1,28 @@
+{
+  "id": "nirman-shramik-siksha-kaushal-vikas-yojana",
+  "name": "Nirman Shramik Siksha Kaushal Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **The following scholarships will be provided to the male and female students after taking admission in the upcoming class: -**\n\n<br>\n\nClassStudentStudent / Specially abledFrom class 6th to 8th₹ 8,000/- per year₹ 9,000/- per yearFrom class 9th to 12th₹ 9,000/- per year₹ 10,000/- per yearITI₹ 9,000/- per year₹ 10,000/- per yearDiploma₹ 10,000/- per year₹ 11,000/- per yearGraduation (General)₹ 13,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-registration-identity-card-of-the-beneficiary-2-copy-of-the-first",
+    "bank-account-number",
+    "and-ifsc-code-is-mentioned-3-copies-of-the-beneficiarys-aadhar-card-and-bhamasha"
+  ],
+  "apply_url": "https://jankalyan.rajasthan.gov.in/#/scheme/detail/222",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsskvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a registered construction worker in the board.\n1. Only the son/daughter/wife of the beneficiary will be eligible for the education assistance (scholarship) scheme.\n1. A maximum of two children of the beneficiary or one child and wife will be eligible to receive the scholarship. However, if both husband and wife are registered beneficiaries, then a maximum of two children of the husband and wife will be eligible for the scholarship. However, there will be no limit for meritorious students to receive cash awards.\n1. The student must be studying regularly in a government or private school or college recognized by the Central/State Government from class 6 to postgraduate level.\n1. The student must be studying regularly in a government or recognized private ITI and polytechnic course run in the state.\n1. To receive the cash award, meritorious students must have passed the class 8 to 12th examination with 75% marks or equivalent grade. Must have obtained/passed 60% or more marks or equivalent grade in diploma, graduation and postgraduate level examination (including medical, engineering or other professional examination).\n1. The age of the beneficiary&#39;s wife should not be more than 35 years for the eligibility of scholarship and she should be studying regularly in an educational institution.\n1. Scholarship will be payable only after passing the relevant examination for a year.\n1. The student will be eligible for the scholarship only after getting admission in the next class after the opening of the educational/training institution after the summer vacation. However, in case of passing the final examination of 12th class, diploma, graduation or postgraduate course, it will not be necessary to take admission in the next class.\n1. A beneficiary who does not deposit the contribution for a continuous period of one year will cease to be a beneficiary. Therefore, the son/daughter/wife of such a construction worker who fails to deposit the contribution will not be eligible for the scholarship under the scheme. However, the scholarship will be paid on restoration of the beneficiary under the proviso of the above section and rule.",
+  "_criteria_filled": 1
+}

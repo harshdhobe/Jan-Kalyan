@@ -1,0 +1,45 @@
+{
+  "id": "workers-in-case-of-permanent-disablement-jkbocwwb",
+  "name": "Workers In Case Of Permanent Disablement-JKBOCWWB",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "> Under the scheme, ₹2,00,000 is provided to registered BOC workers in case of partial permanent disablement.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "original-medical-certificate-issued-by-the-medical-board-or-competent-authority",
+    "or-a-cancelled-cheque-bearing-the-name-of-the-workernomineelegal-heir-and-ifsc-c",
+    "ration-card",
+    "utility-bill",
+    "etc-for-address-verification-photograph-of-the-worker-passport-size-income-certi"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/MediaGallery/Disability%20Assistance.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wicopdjkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n> **For the Application of the Welfare Scheme:**\n\n1. The worker must be a registered member of the Building and Other Construction Workers (BOC) Welfare Board.\n1. The scheme applies to workers who suffer from permanent disablement.",
+  "_criteria_filled": 4
+}

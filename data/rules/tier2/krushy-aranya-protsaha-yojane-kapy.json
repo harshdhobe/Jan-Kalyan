@@ -1,0 +1,29 @@
+{
+  "id": "krushy-aranya-protsaha-yojane-kapy",
+  "name": "Krushy Aranya Protsaha Yojane (kapy)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Increased forest and tree cover: The main benefit of the Krushi Aranya Protsaha Yojane (KAPY) scheme is the promotion of the cooperation of farmers and the general public in the task of increasing forest and tree cover.\nSubsidized seedlings: Under the scheme, farmers are provided seedlings at subsidized rates from the nearest nurseries of the Forest Department for planting in their lands.\nMonetary",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-passport-sized-photograph-of-the-applicant-pahani-of-the-la",
+    "number-of-seedlings",
+    "size-of-poly-bags",
+    "etc-details-of-the-applicants-bank-account"
+  ],
+  "apply_url": "https://aranya.gov.in/aranyacms/(S(ioxcli2kh1oqsf1rpfhsomas))/English/IndividualScheme.aspx?HkxuiBwcRAlH/nwkzKruPQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/kapy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme is open to farmers belonging to all communities.\n1. Applicant must have Pahani of the land where planting is being proposed.\n1. Registration should be done before the commencement of the rainy season (by the end of May).\n1. The following species of trees are not eligible for payment of incentive amount- Eucalyptus, Acacia, Silver Oak (if planted in coffee estate), Casuarina, Cassia siamea (Seemetangadi), Gliricidia, Sesbania, Erythrina, Rubber, Subabul, Coconut, Arecanut, Orange, all types of citrus species and grafted mango.\n1. The following documents are required while applying for this scheme - Copy of Aadhaar Card, Passport-sized photograph of the applicant, Pahani of the land where planting is being proposed, Hand-sketch of the land, Details of seedlings (species, number of seedlings, size of poly-bags, etc.), Details of the applicant&#39;s bank account.",
+  "_criteria_filled": 1
+}

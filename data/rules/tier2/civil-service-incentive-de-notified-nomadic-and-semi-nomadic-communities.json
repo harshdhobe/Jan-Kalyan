@@ -1,0 +1,28 @@
+{
+  "id": "civil-service-incentive-de-notified-nomadic-and-semi-nomadic-communities",
+  "name": "Civil Service Incentive (De-Notified, Nomadic and Semi-nomadic communities )",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**On Passing the Preliminary Examination:**\n\n- ₹20,000/- (Madhya Pradesh Public Service Commission)\n- ₹40,000/- (Union Public Service Commission)\n\n**On Passing the Main Examination:**\n\n- ₹30,000/- (Madhya Pradesh Public Service Commission)\n- ₹60,000/- (Union Public Service Commission)\n\n**On Passing the Interview:**\n\n- ₹25,000/- (Madhya Pradesh Public Service Commission)\n- ₹50,000/- (Union Public S",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam",
+    "main-exam",
+    "or-interview"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/glpsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from De-notified, Nomadic, or Semi-Nomadic communities.\n- The applicant should have passed one of the following stages of the MPPSC or UPSC Examination: Preliminary Exam, Main Exam, or Interview.",
+  "_criteria_filled": 1
+}

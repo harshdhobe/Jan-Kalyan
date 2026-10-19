@@ -1,0 +1,28 @@
+{
+  "id": "assistance-of-concentrate-feed-for-pregnant-animals-scheduled-caste-category",
+  "name": "Assistance of Concentrate Feed for Pregnant Animals (Scheduled Caste Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Name of Component****Standard of assistance****Remarks****Minimum Time Limit (in Years) for Reclaiming Benefits**Concentrate Feed 250 kg BIS type II Concentrate feed per beneficiary100% assistanceEvery year",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "barcoded-ration-card-government-approved-photo-id-aadhaar",
+    "voter-id",
+    "etc-certificate-of-natural-breeding-or-artificial-insemination-of-the-animal-ani"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=KQBjMeZAUYtrIgvpebJ01g==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/acfpasc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a livestock owner.\n1. The applicant must belong to the Scheduled Caste Category.\n1. The animal/ cattle should be in the last trimester of pregnancy.",
+  "_criteria_filled": 1
+}

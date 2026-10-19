@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-management-and-purchase-of-bulls-provided-for-breeding-of-state-gir-k",
+  "name": "Scheme for Management and Purchase of Bulls Provided for Breeding of State Gir/ Kankarej Breed",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **In Case the bull is provided by the Board:** ₹1,18,000/- in the first year.- **In Case the bull is purchased by the organization:** ₹1,43,000/- in the first year.- **Maintenance support:** ₹64,800/- for the second and third year.\n> **Note:** Assistance provided for three years per eligible organization.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-under-the-charity-act-for-gaushalas-estimation-document-vi"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=ZGBPasq5nKT5f3TEB66czQ==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/smpbpbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A Gram Panchayat or a Gaushala registered must be registered under the Charity Act.\n1. The Gram Panchayat or a Gaushala must have a minimum of 100 breedable cows.\n\n**Note:** If there is not sufficient number of breeding cows in a single village, then the breeding cows of the neighboring villages should be covered and a guarantee should be given.",
+  "_criteria_filled": 1
+}

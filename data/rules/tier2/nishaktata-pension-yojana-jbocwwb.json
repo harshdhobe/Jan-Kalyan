@@ -1,0 +1,41 @@
+{
+  "id": "nishaktata-pension-yojana-jbocwwb",
+  "name": "Nishaktata Pension Yojana (JBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "Disability Pension of ₹ 1,000/- per month.\nPayment of the grace amount (Anugraha Rashi) of ₹ 10,000/- in a lump sum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/npy-jbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be between 18-60 years of age.\n1. The applicant should be a Registered Worker with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be permanently disabled due to paralysis/leprosy/tuberculosis/accidents.",
+  "_criteria_filled": 4
+}

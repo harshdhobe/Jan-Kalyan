@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-yuva-annadoot-yojana",
+  "name": "Mukhyamantri Yuva Annadoot Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy/Grant:** A 3% interest subsidy/grant is provided for 7 years.- **CGTMSE Fee Refund:** A maximum refund of the Credit Guarantee Fund Trust for Micro and Small Enterprises fee of up to ₹1,25,000/- is provided.- **Maximum Vehicle Cost Covered:** The scheme supports the purchase of vehicles with an approximate cost of up to ₹25,00,000/-.- **Payment for Transportation:** Payment fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-during-applicationapplicants-latest-photograph-and-signature"
+  ],
+  "apply_url": "https://csmsmpscsc.mp.gov.in/csmsnew/cmyay/Doc/MMADY_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/myay-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native resident of the rural or urban local body of the concerned district of Madhya Pradesh.\n- The applicant must be aged between 18 and 45 years.\n- The applicant must have passed the 8th standard in educational qualification.\n- The applicant must possess a Heavy Motor Vehicle driving license to operate the vehicle.\n- The applicant must have clearance from the bank for obtaining the loan (defaulter status must be &#39;No&#39;).\n- The applicant must not be a Government servant or pensioner.\n- The applicant must not have annual family income exceeding ₹12,00,000/-.\n- The applicant must not be involved in any criminal activity or have a criminal background.\n- The applicant must not be currently benefiting from any other self-employment scheme.\n\n<br>",
+  "_criteria_filled": 4
+}

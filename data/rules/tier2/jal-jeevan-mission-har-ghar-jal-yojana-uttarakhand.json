@@ -1,0 +1,34 @@
+{
+  "id": "jal-jeevan-mission-har-ghar-jal-yojana-uttarakhand",
+  "name": "Jal Jeevan Mission (Har Ghar Jal Yojana) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, each household will receive pure drinking water through a domestic tap connection at the rate of 55 litres per person per day.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "100-non-judicial-stamp-paper-two-passport-size-photographs-self-attested-copy-of",
+    "voter-id-card",
+    "pan-card",
+    "ration-card-with-photograph",
+    "driving-licence",
+    "bank-passbook-with-photograph",
+    "passport-or-any-other-identity-document-issued-by-any-governmentsemi-government",
+    "local-body",
+    "or-gram-sabha-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jjmhgjyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "There is no eligibility criterion for providing connection/drinking water to rural drinking water consumers in Uttarakhand.\n<br>",
+  "_criteria_filled": 1
+}

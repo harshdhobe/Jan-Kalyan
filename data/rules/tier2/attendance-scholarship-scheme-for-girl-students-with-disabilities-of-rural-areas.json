@@ -1,0 +1,43 @@
+{
+  "id": "attendance-scholarship-scheme-for-girl-students-with-disabilities-of-rural-areas",
+  "name": "Attendance Scholarship Scheme for Girl Students with Disabilities of Rural Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "**Rate of Scholarship:**\n1. ₹2,500/- per annum to the girl students up to 10th standard.\n2. ₹3,000/- per annum to the girl students from 10+1 onwards upto higher education.\n**Note:** The Directorate shall credit the scholarship online in the bank account of the student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-disability-certificate-udid-showing-40-and-above-disability-2-income-certifica",
+    "000-pa-income-of-parents-3-copy-of-the-bank-account-details-4-any-other-document",
+    "as-required"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/attendance-scholarship-scheme-for-girl-students-with-disabilities-of-rural-areas",
+  "source_url": "https://www.myscheme.gov.in/schemes/assgsdra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All rural girl students of Punjab having 40 % and above disability (In any disability contained in the schedule of RPwD Act 2016).\n   1. The monthly income of the family/guardians of the girl student should not exceed ₹5,000/- per month.\n   1. The minimum attendance of the girl students should be 70%.\n   1. The scholarship will be provided to the girl students from 1st Standard onwards up to higher education.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,27 @@
+{
+  "id": "national-food-security-scheme-priority-households-white-ration-card-uttarakhand",
+  "name": "National Food Security Scheme (Priority Households - White Ration Card) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the scheme, 5 kg of food grains per person per month are provided, including 2 kg of wheat at ₹2.00 per kg and 3 kg of rice at ₹3.00 per kg.\nAt present, from 1 January 2023, food grains are being distributed free of cost.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-family-photograph-of-the-applicant-phone-number-bank-account",
+    "000-electricity-bill-eligibility-certificatedocument-as-applicable-declaration-s"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfssphwrc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. A household/person is eligible under the scheme if they meet any of the following criteria:\n\n  - A household with a monthly income of less than ₹15,000/- or not having an Antyodaya Ration Card.\n  - A tribal household residing in a tribal or border area/widow/single woman/person suffering from an incurable disease/person with a disability/person aged 60 years or above, who is the head of the family, with a monthly income of less than ₹15,000/-.\n  - A household whose total irrigated land, as per revenue records, is less than 2 hectares; or has less than 1 hectare irrigated and 2 hectares unirrigated; or has a total area of less than 4 hectares of unirrigated land.\n  - A person engaged in occupations such as rickshaw pulling, porter work, labor, rag picking, cobbling, blacksmithing, carpentry, rural artisanal work, domestic service, or sanitation work.\n  - A household that cultivates land belonging to another farmer.\n  - A household residing in a slum or hut in an urban area, living in Uttarakhand since or before the date specified in the relevant Government Order.\n  - A household whose annual income does not attract liability under the Income Tax Act.\n  - A person who is homeless and separated from their social class, residing in organizations or ashrams such as widows’ ashrams, child reform homes, beggars’ homes, leprosy ashrams, orphanages, ashrams for the mentally ill or handicapped, or old age homes.\n\nEligible households or persons, once identified according to the above criteria, will be selected in ascending order based on the lowest number in the BPL list prepared from surveys conducted by the Rural Development Department for rural areas.\n<br>",
+  "_criteria_filled": 1
+}

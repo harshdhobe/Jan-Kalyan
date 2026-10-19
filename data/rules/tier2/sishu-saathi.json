@@ -1,0 +1,33 @@
+{
+  "id": "sishu-saathi",
+  "name": "Sishu Saathi",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- **Health Screening in Schools:** Free health check-ups in government schools to detect heart ailments at an early stage among children.  - **Free Cardiac Surgeries:** Completely free cardiac surgeries for children up to 12 years of age who are diagnosed with heart ailments, ensuring no financial burden on families.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "childs-birth-certificate-or-age-proof-below-18-years-medical-records-or-diagnost",
+    "voter-id",
+    "etc-any-other-documents-as-required"
+  ],
+  "apply_url": "https://wb.gov.in/government-schemes-details-sishusaathi.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbsishusathi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All children from 0 to 18 years are eligible.\n  - Applicable to children residing in both rural and urban areas of West Bengal.\n  - There is no income criterion; the scheme is open to all children regardless of their family&amp;#39;s financial capacity.\n  - The child must be diagnosed with a cardiac ailment requiring surgical intervention.",
+  "_criteria_filled": 2
+}

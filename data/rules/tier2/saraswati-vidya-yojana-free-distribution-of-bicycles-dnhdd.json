@@ -1,0 +1,31 @@
+{
+  "id": "saraswati-vidya-yojana-free-distribution-of-bicycles-dnhdd",
+  "name": "Saraswati Vidya Yojana: Free Distribution of Bicycles - DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- The girl students of class VIII of Government Schools of this UT will be provided bicycle for free.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/04/202604271563230589.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svyfdb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl.\n   1. The applicant should be a student.\n   1. The applicant should be studying in class VIII(8) in Government School of the UT of Dadra &amp;amp; Nagar Haveli and Daman &amp;amp; Diu.\n\n<br>",
+  "_criteria_filled": 2
+}

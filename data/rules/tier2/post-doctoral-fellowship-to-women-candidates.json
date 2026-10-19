@@ -1,0 +1,35 @@
+{
+  "id": "post-doctoral-fellowship-to-women-candidates",
+  "name": "Post Doctoral Fellowship To Women Candidates",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "&gt; **The financial assistance available under the scheme is as follows:**\n\n   1. The fellowship under the scheme is @ ₹38,800/- per month for fresh candidates.\n   1. The fellowship under the scheme is @ ₹46,500/- per month after two years.\n   1. An annual contingency of ₹50,000/- will be given to the eligible student for five years.\n   1. Escorts/Reader assistance will be paid @ ₹2000/- per mont",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-card-2-passport-size-photograph-3-proof-of-age-4-mark-sheetsgr",
+    "if-applicable-6-disability-certificate",
+    "if-applicable-7-income-certificate",
+    "if-applicable-8-bank-account-details-9-nocundertaking-10-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://www.ugc.gov.in/pdfnews/7347918_pdfw.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdfwc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate should be unemployed.\n   1. The candidates must have been awarded the Ph.D. degree to be eligible to apply (Provisional Certificate may be accepted in case the degree is not awarded).\n   1. The candidate should be 55 years of age as of the last date of submission of the online application. There shall be age relaxation for SC/ST/OBC/PWD (Persons with Disabilities for 5 years.\n   1. In the case of the general category minimum of 55% of marks at the UG level and a minimum of 60% of marks at the PG level. For reserved categories (SC/ST/OBC/PWD), a minimum of 50% of marks at the UG level and a minimum of 55% of marks at the PG level.\n   1. Candidates applying for PDF must upload the No Objection Certificate from the proposed research centre duly signed by the HOD and Registrar/Principal/Director of the University/College/Institute.\n   1. Transgender candidates are eligible to apply under the scheme. The reservation shall be followed as per the Govt. of India norms.",
+  "_criteria_filled": 2
+}

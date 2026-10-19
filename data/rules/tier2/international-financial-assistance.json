@@ -1,0 +1,31 @@
+{
+  "id": "international-financial-assistance",
+  "name": "International Financial Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹75,000/- is provided to eligible sportspersons to cover expenses for boarding, lodging, travel (including air tickets), sports kits, and other related miscellaneous expenses.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "accounts-audited-by-ca-domicile-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a sportsperson representing Gujarat in any recognized international-level sports competition.\n  - The applicant should be a resident of Gujarat.\n  - The applicant should be male.\n\n<br>",
+  "_criteria_filled": 2
+}

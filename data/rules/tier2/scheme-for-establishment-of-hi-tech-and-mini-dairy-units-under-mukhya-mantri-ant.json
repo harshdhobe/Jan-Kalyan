@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-establishment-of-hi-tech-and-mini-dairy-units-under-mukhya-mantri-ant",
+  "name": "Scheme for Establishment of Hi-Tech and Mini Dairy Units under Mukhya Mantri Antyodaya Parivaar Utthan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "> **Financial Assistance under the Scheme:**\n\n**Dairy units of 2 milch animals:**\n\n  - 25 % subsidy on the cost of milch animals which has been availed as a loan for the purchase of these milch animals by the beneficiary for the establishment of dairy units of 2 milch animals;\n\n> **Financial Assistance for Insurance under the Scheme:**\n\n- Insurance assistance will be provided as per the available ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-privaar-pahchan-patra-ppp-id-2-copy-of-aadhaar-card-3-copy-of-pan-card-4-copy"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/seh-tmdummapuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be of 18 to 60 years of age and a resident of Haryana.\n   1. The applicant must be unemployed.\n   1. There would be no mandatory educational qualifications or training requirements.\n   1. The applicant can apply for a dairy unit of 2 Milch animals only.\n   1. The applicant should have space/shed for keeping milch animals.\n   1. The applicant would have to submit a Self-Declaration for being unemployed and for undertaking to abide by other conditions as required under the Scheme.",
+  "_criteria_filled": 3
+}

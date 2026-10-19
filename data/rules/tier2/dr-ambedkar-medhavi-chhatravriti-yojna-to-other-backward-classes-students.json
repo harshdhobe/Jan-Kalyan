@@ -1,0 +1,26 @@
+{
+  "id": "dr-ambedkar-medhavi-chhatravriti-yojna-to-other-backward-classes-students",
+  "name": "Dr. Ambedkar Medhavi Chhatravriti Yojna to Other Backward Classes Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this scholarship scheme, an amount of ₹18,000/- will be given to each eligible student per year for two successive years after matric.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photographs-2-copy-of-aadhaar-card-3-copy-of-himachali-bonafide"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Dr.%20Ambedkar%20medhavi%20Chhatrvriti%20%20Yojna%20for%20OBC%20Student_new_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/damcyobcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a permanent resident of Himachal Pradesh.\n   1. The student should belong to the Other Backward Classes Category declared as such by the Himachal Government.\n   1. The scholarship will be given in case the eligible students take admission to any professional/technical course after matric, in a recognized Institution within or outside the state.\n\n**Note 01:** The scholarship is limited for a maximum of two successive years after matric.\n**Note 02:** The renewal in 2nd year of the course will be subject to satisfactory performance in 1st year of the course.",
+  "_criteria_filled": 1
+}

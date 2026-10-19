@@ -1,0 +1,26 @@
+{
+  "id": "satat-jeevikoparjan-yojana-sjy",
+  "name": "Satat Jeevikoparjan Yojana (SJY)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "&gt; **Financial Assistance:**\n\n    - **Livelihood Gap Assistance:**  ₹1,000/- per month for the initial seven months to support basic needs.    - **Asset Transfers:**  Productive Asset (micro-enterprise, livestock, agriculture) transfer of an average value of ₹60,000/- is given in 2-3 tranches with a limit of ₹1,00,000/-.    - **Insurance Coverage:** Insurance premiums cover for each beneficiary ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-or-equivalent-proof-of-residence-social-and-econo"
+  ],
+  "apply_url": "https://brlps.in/sjywebinar/img/Jeevika-SJY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Bihar.\n   1. The applicant must belong to an ultra-poor household identified through participatory processes.\n   1. The applicant must belong to socially or economically vulnerable groups, such as SC/ST communities.\n   1. The applicant should not have significant alternative livelihood sources.",
+  "_criteria_filled": 1
+}

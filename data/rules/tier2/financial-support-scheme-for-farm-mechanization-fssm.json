@@ -1,0 +1,38 @@
+{
+  "id": "financial-support-scheme-for-farm-mechanization-fssm",
+  "name": "Financial Support Scheme for Farm Mechanization (FSSM)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "&gt; **Pattern Of Assistance:**\n\n  - Subsidy ranging from 50-60% of the indicative price of machinery subject to maximum ceiling of ₹3,00,000/- will be provided to the beneficiary.\n\n&gt; **Available Equipment:**\n\n  - An exhaustive list of different farm machinery with subsidy limits is provided in [Annexure-II](https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-epicvoter-id-card",
+    "aadhar-of-applicant-spouse-for-individual-application",
+    "bank-account-details-active",
+    "active-mobile-no",
+    "land-particulars",
+    "krishak-bandhu-id-no-visit-here-to-check-your-krishak-bandhu-id",
+    "name-of-machineryequipment-implement",
+    "name-of-manufacturer-etc-to-be-selected-from-the-departmental-portal"
+  ],
+  "apply_url": "https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1lDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6e05a52aaf58b7fbfa749a5d71be15309a5101ea/FMS_Operational%20Guidelines_2024_25.pdf?disposition=attachment",
+  "source_url": "https://www.myscheme.gov.in/schemes/fssm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individual farmers registered under Krishak Bandhu (New) Scheme.\n\nOr,\nGroups like SKUS/PACS/FPO/FPC/FIG/SHG duly graded /LAMPS etc. approved/recognized by any Govt Institution/Departments.\n\n- Minimum 0.5 (half) acre agricultural land (RoR) is required by the applicant for purchase of power tiller &amp; solar photo-voltaic water pumping system under FSSM.\n- The age of the beneficiary should be minimum 18 years at the time of application.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "scheme-for-pension-benefits-to-the-journalistsphotojournalists",
+  "name": "Scheme for Pension Benefits to the Journalists/Photojournalists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Pension of ₹10,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-birth-certificate-press-accreditation-card-issued",
+    "stating-the-date-of-birth-of-the-applicant"
+  ],
+  "apply_url": "https://ica.tripura.gov.in/sites/default/files/2022-11/pensionsceme_for_journalists.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfpbttjp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 years or older.\n1. The applicant retired from the job as an accredited journalist/photojournalist in Tripura.\n1. The applicant should have done 10 years of service in Tripura. \n1. The applicant should not have received a pension from other sources, except under the Employees Provident Fund (EPF).\n1. The beneficiary should be 60 years or older to receive the pension.\n\n<br>",
+  "_criteria_filled": 2
+}

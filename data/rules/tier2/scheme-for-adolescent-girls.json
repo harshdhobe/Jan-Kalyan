@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-adolescent-girls",
+  "name": "Scheme For Adolescent Girls",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Nutritional Benefits:**\n\n1. The applicant receives supplementary nutrition containing 600 calories, 18-20 grams of protein and micronutrients.\n1. The supplementary nutrition is provided in the form of Take Home Ration (THR).\n1. The benefit is provided for 300 days in a year.\n1. The Take Home Ration is prepared with fortified micronutrients as per nutritional standards.\n1. Age-specific processe",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-proof-of-age-dob"
+  ],
+  "apply_url": "https://wcdhry.gov.in/schemes-for-women/scheme-for-adolescent-girls/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an adolescent girl in the age group of 14-18 years.\n1. The applicant should be identified by the concerned State Government.\n1. The applicant should belong to the covered areas under the scheme, including Aspirational Districts of States, including Assam and North-Eastern States.\n1. The applicant should have an Aadhaar number to avail benefits under the scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

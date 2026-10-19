@@ -1,0 +1,26 @@
+{
+  "id": "bio-control-laboratory-and-pesticides-testing-laboratory-scheme",
+  "name": "Bio Control Laboratory and Pesticides Testing Laboratory Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Distributions of bio agents to farmers.\n\n> **Type of Assistance and Entitlement (If any):**\n\n- Free distribution to popularise the method.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=74",
+  "source_url": "https://www.myscheme.gov.in/schemes/bclptls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

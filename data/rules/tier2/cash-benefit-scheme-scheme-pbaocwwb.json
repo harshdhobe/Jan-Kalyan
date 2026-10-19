@@ -1,0 +1,26 @@
+{
+  "id": "cash-benefit-scheme-scheme-pbaocwwb",
+  "name": "Cash Benefit Scheme Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **State-Level Cash Benefit (Onetime Payment)**\n\na) First Prize: ₹1,00,000.\nb) Second Prize: ₹80,000.\nc) Third Prize: ₹60,000.\n<br>\n\n> **Region Wise Cash Benefit (Onetime Payment)**\n\na) First Prize: ₹60,000.\nb) Second Prize: ₹40,000.\nc) Third Prize: ₹20,000.\n<br>\n\n> **Annual Educational Assistance**\n\na) Degree Courses: ₹2,000.\nb) Post Graduate Courses: ₹4,000.\nc) Diploma courses: ₹2,000.\nd) Postg",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "last-subscription-bill-board-id-card-aadhaar-card-ration-card-bank-pass-book-cas"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cbs-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a Student.\n- The applicant should be a ward of a Construction Worker.\n- The Construction Worker should be registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The applicant should have secured 1st/2nd/3rd Rank at the State/Regional Level in the Higher Secondary course or its equivalent examination.",
+  "_criteria_filled": 1
+}

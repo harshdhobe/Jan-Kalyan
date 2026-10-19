@@ -1,0 +1,36 @@
+{
+  "id": "stipend-to-educated-unemployed",
+  "name": "Stipend to Educated Unemployed",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "- Stipend of ₹650/- per month to the educated unemployed individuals with disabilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-udiddisability-certificate-proof-of-bpl-status-family-r"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/page/stipend-to-educated-unemployed",
+  "source_url": "https://www.myscheme.gov.in/schemes/steu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Mizoram.\n1. The applicant should be a disabled person. \n1. The applicant should be an educated unemployed registered with an Employment Exchange for at least three years.\n1. The applicant should be from the Below Poverty Line (BPL) family.\n\n<br>",
+  "_criteria_filled": 3
+}

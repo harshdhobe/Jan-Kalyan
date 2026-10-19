@@ -1,0 +1,44 @@
+{
+  "id": "grant-of-incentive-for-marriage-between-differently-abled-person",
+  "name": "Grant of Incentive for Marriage Between Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "An Incentive of ₹ 2,00,000/- (₹ 40,000 in cash and ₹ 1,60,000/- in the form of NSC).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-both-bride-and-bridegroom-2-ration-card-both-bride-and-bridegroom",
+    "issued-by-the-competent-authority-14-recent-passport-size-photograph-15-bank-pas",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gimdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry.\n- The applicant should have an annual income not exceeding ₹75,000/- per annum.\n- The bride should be above 18 years of age.\n- The bridegroom should be above 21 years of age.\n- The disability of the bride and the bridegroom should be 40% and above.\n- The marriage should be the first marriage between the bride and the groom.\n- The marriage should have been registered.\n- The application should be submitted within 120 days after marriage.",
+  "_criteria_filled": 4
+}

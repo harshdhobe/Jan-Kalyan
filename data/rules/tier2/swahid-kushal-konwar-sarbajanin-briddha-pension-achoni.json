@@ -1,0 +1,31 @@
+{
+  "id": "swahid-kushal-konwar-sarbajanin-briddha-pension-achoni",
+  "name": "Swahid Kushal Konwar Sarbajanin Briddha Pension Achoni",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "The beneficiary will be granted a sum of ₹ 250/- per month through DBT. \nThe pension amount will be remitted on the first day of every month to the account of the beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-identity-proof-of-age-date-of-birth-domicileresidential-ce"
+  ],
+  "apply_url": "https://assam.gov.in/scheme-page/526",
+  "source_url": "https://www.myscheme.gov.in/schemes/skksbpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is meant for the residents of the State of Assam, who are 60 years or above in age.",
+  "_criteria_filled": 2
+}

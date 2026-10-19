@@ -1,0 +1,37 @@
+{
+  "id": "entrepreneurship-development-by-sc-st-women-in-science-technology-engineering-ma",
+  "name": "Entrepreneurship Development by SC & ST Women in Science Technology Engineering Mathematics",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Financial support will be for an amount of ₹20 Lakhs including institutional overheads for a period of one year.\n   1. The grant will cover Fellowship @ ₹35,000/- per month + 10% HRA (for M.Sc &amp;amp; M.Tech); ₹45,000/- per month + HRA (for Ph.D.); Capital Cost ≤ 25% of project cost (which includes minor equipment, infrastructure, rent ); Operational Cost ≤ 30% of project cost (consumables &a",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-applicant-technical-document-maximum-3-4-pages-only-biodata-of",
+    "if-the-application-submitted-to-kscste-is-by-nomination-by-the-head-of-instituti"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/ed-sc-st-wistem/",
+  "source_url": "https://www.myscheme.gov.in/schemes/edsc-st-wistem",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian citizen and SC &amp;amp; ST woman in the Science, Technology, Engineering &amp;amp; Mathematics (STEM) areas of Kerala State.\n   1. The upper age limit for financial support for the programme would be ≥50 years.\n   1. The applicant should hold a Ph.D. degree in Science or Technology or Engineering; or M.Sc. degree in Basic Science/Natural Science; or an M.Tech degree in Science/Technology /Engineering.\n   1. The applicant should initially identify the Institution and mentor. Alternatively, the application submission could be by nomination from the Head of S&amp;amp;T Institutions across Kerala.\n   1. The host institutions can be Academic Institutions (Central and state), University Departments, Colleges recognized with R&amp;amp;D facilities, DSIR-recognized institutions in Kerala, or Institutions with appropriate R&amp;amp;D facilities. The mentor should be a regular faculty of the host institute.\n   1. The application form along with required documents should be submitted in PDF format during the call opening period.\n   1. Co-mentorship for the program is encouraged. The Co-mentor of the host institution or other Organization must have an experience in enterprise creation.\n   1. The applicant selected for the programme should join the host institute within 15 days of receiving the initial grant from KSCSTE.",
+  "_criteria_filled": 3
+}

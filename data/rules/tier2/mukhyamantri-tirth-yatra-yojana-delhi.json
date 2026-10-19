@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-tirth-yatra-yojana-delhi",
+  "name": "Mukhyamantri Tirth Yatra Yojana - Delhi",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "Benefits\nFree travel for senior citizens who cannot bear to travel alone.\nDelhi Govt sent senior citizens living in Delhi’s old age homes on a trip.\nIn case of travelling with a spouse, the facility of only one attendant will be available.\nThe Delhi government bears all the expenses on the pilgrimage, including the travel, food and accommodation charges.\nFacilities like paramedical staff and atten",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-application-in-the-prescribed-form-along-with-sel",
+    "tirath-yaatra-vikas-samiti-gnct-of-delhi"
+  ],
+  "apply_url": "https://edistrict.delhigovt.nic.in/eDownload/Eligibility/Guideline_9095.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtyyd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The applicant/spouse must be a resident of the territorial jurisdiction of the NCT of Delhi.\n1. The applicant must have completed 60 years of age (As of 1st January of the year in which the Application for availing the Yojana is submitted).\n1. The applicant/spouse must NOT be employed with Central/State Government or Local/Autonomous bodies.\n1. The applicant/spouse must NOT have ever availed of the scheme in the past.\n1. The age of the attendant must be more than 21 years(In case opting for attendant).",
+  "_criteria_filled": 2
+}

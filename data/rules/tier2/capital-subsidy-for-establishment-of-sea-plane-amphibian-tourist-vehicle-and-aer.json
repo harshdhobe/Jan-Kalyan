@@ -1,0 +1,34 @@
+{
+  "id": "capital-subsidy-for-establishment-of-sea-plane-amphibian-tourist-vehicle-and-aer",
+  "name": "Capital Subsidy for Establishment of Sea Plane, Amphibian Tourist Vehicle and Aero Sports and Aero Sports Training Centre/Academy",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary will receive a capital investment subsidy equivalent to 25% of the approved fixed capital investment.\n- The maximum subsidy amount provided under this scheme is capped at ₹10,00,00,000/-.\n- For Aero Sports and Aero Sports Training Centres/Academies, the subsidy shall be given after one year from the date of operation.\n- For Sea Plane and Amphibian Tourist Vehicles, the subsidy wi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-memorandum-and-articles-of-association-if-publicprivate-limited-c",
+    "municipality",
+    "etc-total-capital-cost-certificate-certified-by-a-chartered-accountant-total-pro",
+    "catering-bill",
+    "or-service-bill-photographs-of-the-unitproject-from-3-different-angles-jpg-forma",
+    "max-500-kb-copy-of-pan-card-copy-of-photo-id-proof-aadhaar-card",
+    "voter-id",
+    "passport",
+    "etc-cancelled-cheque-of-the-firmcompany-debt-details-from-concerned-financial-in"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csespatvasastca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a tourism project falling under the category of Sea Plane, Amphibian Tourist Vehicle, Aero Sports, or Aero Sports Training Centre/Academy.\n- The applicant must incur a minimum capital expenditure of ₹1,00,00,000/- as approved by the department.\n- The applicant must ensure the project is established and operationalized during the operative tenure of the Tourism Policy 2025.\n- The applicant must register the unit with the Tourism Department to avail of the benefits.\n- The applicant must submit a self-declaration regarding the continuous operation of the unit on or before the 15th of April every year for at least three years from the date of availing the subsidy.\n- The applicant must ensure that if the unit is closed within specified timeframes (1 to 3 years) after receiving the subsidy, the applicable amount (80% to 50%) is refunded.\n\n<br>",
+  "_criteria_filled": 1
+}

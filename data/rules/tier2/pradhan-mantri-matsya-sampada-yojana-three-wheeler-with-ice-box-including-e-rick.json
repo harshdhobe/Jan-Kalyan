@@ -1,0 +1,28 @@
+{
+  "id": "pradhan-mantri-matsya-sampada-yojana-three-wheeler-with-ice-box-including-e-rick",
+  "name": "Pradhan Mantri Matsya Sampada Yojana: Three Wheeler with Ice Box Including E-rickshaws for Fish Vending - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Tangible Benefits:**\n\n- Project Cost: ₹3,00,000/- per unit (for purchasing a three-wheeler e-rickshaw equipped with an ice-box for selling fish.)\n- Subsidy will be limited to 40% of the project cost for the General Category of beneficiaries.\n- Subsidy will be limited to 60% of the project cost for Weaker sections/Scheduled Caste/Scheduled Tribe/Women and their co-operatives of beneficiaries.\n\n<b",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-agreement-deed-between-beneficiary-and-fisheries-department-date-of",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=wmes6T7wb1mV5Dt3BEW7EA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/twibierfv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n   1. The applicant should have a Parivar Pehchan Patra.\n   1. The applicant should ensure that the fish transport facility (e-rickshaw) is maintained in working condition.\n   1. The applicant is eligible to purchase only one new three-wheeler e-rickshaw with an ice box for fisheries activities under this scheme.\n   1. The applicant should agree that neither the Central Government nor the State Government shall be held responsible for any financial or operational losses incurred in the procurement, operation, maintenance, or management of the fish transport facilities.\n\n<br>",
+  "_criteria_filled": 1
+}

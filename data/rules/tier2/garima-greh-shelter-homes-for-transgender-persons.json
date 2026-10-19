@@ -1,0 +1,33 @@
+{
+  "id": "garima-greh-shelter-homes-for-transgender-persons",
+  "name": "Garima Greh Shelter Homes For Transgender Persons",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Provision of shelter for transgender persons facing social, psychological, and economic constraints.\n1. Basic amenities, including food, medical care, and recreational facilities.\n1. Legal care and psychological counselling for reintegration into families and society.\n1. Capacity-building and skill-development training for livelihood enhancement and economic independence.\n1. Assistance in obtai",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      }
+    ]
+  },
+  "documents": [
+    "the-transgender-certificate-identity-card-are-nationally-recognized-and-provided",
+    "the-certificate-is-a-mandatory-document-to-avail-the-welfare-measures-being-prov",
+    "then-they-will-have-to-get-a-certificate-from-the-hospital-authorities"
+  ],
+  "apply_url": "https://transgender.dosje.gov.in/docs/GarimaGrehGuidleines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smile",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **The following are the eligibility criteria of Transgender Person as a resident of Garima Greh:**\n\n- Transgenders certified issued through the National Portal for Transgender Persons, and preferably living below the poverty line. Persons having such a certificate from elsewhere may be persuaded to register on the National Portal.\n- Transgenders who are abandoned, aged between 18 and 60 years\n- Transgenders should not be engaged in sex work and beggary\n- Transgenders must be unemployed and not engaged in productive commercial activities\n\n> The person needs to register by filling in the admission form ([Annexure 2](https://transgender.dosje.gov.in/docs/GarimaGrehGuidleines.pdf)) and the personal affidavit as per the prescribed form [Annexure 3](https://transgender.dosje.gov.in/docs/GarimaGrehGuidleines.pdf) provided in the guidelines document.\n\n<br>",
+  "_criteria_filled": 2
+}

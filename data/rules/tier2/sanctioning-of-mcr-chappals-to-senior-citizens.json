@@ -1,0 +1,31 @@
+{
+  "id": "sanctioning-of-mcr-chappals-to-senior-citizens",
+  "name": "Sanctioning of M.C.R. Chappals to Senior Citizens",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "> **Distribution of Daisy Players.**\n\n- Category I: Parent/Guardian income up to ₹15,000/- per month – full cost covered.\n- Category II: Parent/Guardian income from ₹15,001 to ₹20,000/- per month – half of the cost covered.\n- Category III: Parent/Guardian income above ₹20,000/- per month – full cost to be borne by the beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-medical-recommendation-not-below-the-rank-of-assistant-civil"
+  ],
+  "apply_url": "https://apdascac.ap.gov.in/Schemes/schemedetails/8",
+  "source_url": "https://www.myscheme.gov.in/schemes/smcrcsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s age should be 60 years and above. \n1. The applicant should not have availed the benefit of this scheme earlier.",
+  "_criteria_filled": 2
+}

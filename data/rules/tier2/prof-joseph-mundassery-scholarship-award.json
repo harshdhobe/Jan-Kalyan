@@ -1,0 +1,36 @@
+{
+  "id": "prof-joseph-mundassery-scholarship-award",
+  "name": "Prof. Joseph Mundassery Scholarship Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "- The students who score an A+ in Secondary School Leaving Certificate (SSLC)/Plus Two (12) or Technical High School Leaving Certificate(THSL) will get ₹10,000/-.\n- The undergraduate students with 80% marks will get ₹15,000/-.\n- The postgraduate student with 75% marks will get ₹15,000/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicants-registration-form-academic-mark-sheetscertificates-first-page-of-bank"
+  ],
+  "apply_url": "https://scholarship.minoritywelfare.kerala.gov.in/shared_area/dmw/PJMS/instruction/51067_prof.joseph.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pjmskrl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent citizen of Kerala.\n- The applicant must belong to a minority community (Christian, Buddhist, Jain, Sikh, Muslim, or Parsi).\n- The applicant shall be from a below-poverty-line family.\n- The applicant shall be studying in any government school.\n- The annual income of the candidate’s family must be below ₹8,00,000/- per year.\n- The applicant pursuing SSLC, Plus Two, or Vocational Higher Secondary Education (VHSE) level must have a Full A+ grade to avail the scholarship.\n- The applicant pursuing undergraduate studies must have 80% marks to avail the scholarship.\n- The applicant pursuing postgraduate studies must have 75% marks to avail the scholarship.\n\n<br>",
+  "_criteria_filled": 3
+}

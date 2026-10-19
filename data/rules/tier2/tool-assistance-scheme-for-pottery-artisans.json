@@ -1,0 +1,36 @@
+{
+  "id": "tool-assistance-scheme-for-pottery-artisans",
+  "name": "Tool Assistance Scheme for Pottery Artisans",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Provision of tools such as an electric chalk and an electric footmill.\n- 75% subsidy on the cost of the tool.\n- The instrument assistance is to be used solely for the purpose for which it was given and for the potter&#39;s work.\n- The assistance will be given only in the form of instrumental assistance and not in cash.\n\n<br>\n\n_*The beneficiary must submit 25% of their contribution amount to the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationcertificate-of-competent-authority-for-the-purpose-of-doing-po"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=14",
+  "source_url": "https://www.myscheme.gov.in/schemes/taspa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be directly involved in the business of the Prajapati/Kumbhar caste.\n- The applicant should be directly involved in pottery work or pottery.\n- The applicant will have to give a certificate of competent authority for the purpose of doing pottery along with the application form.\n- The applicant can be another artisan associated with the pottery business who does pottery, provided they give a certificate of meaning along with the application form.\n- The applicant&#39;s age should be between 18 and 50 years.\n- The applicant must be the only person in their family applying for the benefit of resource support.\n\n<br>\n\n**Post-Selection Conditions**\n\n- The applicant shall have to use the instrument assistance for the purpose for which the instrument assistance has been given, only for that purpose and for the matter involving the potter&#39;s work.\n- The applicant must ensure the instrument assistance is used as intended; otherwise, the assistance amount will be withdrawn by the institution.\n\n<br>",
+  "_criteria_filled": 3
+}

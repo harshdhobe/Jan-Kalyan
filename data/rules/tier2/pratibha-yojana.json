@@ -1,0 +1,31 @@
+{
+  "id": "pratibha-yojana",
+  "name": "Pratibha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, eligible students are provided with the following incentives:\n\n  - A financial assistance of ₹50,000/- is provided to students whose annual parental income is up to ₹3,00,000/-.\n  - A financial assistance of ₹25,000/- is provided to students whose annual parental income exceeds ₹3,00,000/-.\n\n**Note:** The incentive amount is paid into the applicant’s bank account linked to Aadha",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://www.tribal.mp.gov.in/MPTAAS",
+  "source_url": "https://www.myscheme.gov.in/schemes/py",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The student should be a native of Madhya Pradesh.\n   1. The student should belong to the Scheduled Tribe category.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹6,00,000/-.\n   1. The student should have qualified in any of the National Competitive Examinations such as JEE, NEET, CLAT, AIIMS, or NDA.\n   1. The applicant should have been admitted to one of the following institutions:\n\n  - IIT/NIT through JEE\n  - Government colleges in Madhya Pradesh for NEET (MBBS only)\n  - AIIMS\n  - NLU through CLAT\n  - NDA through UPSC\n\n**Note 1:** The applicant&amp;#39;s Aadhaar must be linked to the bank account.\n**Note 2:** The applicant must have the receipt of admission to the institute.",
+  "_criteria_filled": 2
+}

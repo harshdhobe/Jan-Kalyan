@@ -1,0 +1,41 @@
+{
+  "id": "vishesh-yogyajan-sukhad-dampatya-jeevan-yojana",
+  "name": "Vishesh Yogyajan Sukhad Dampatya Jeevan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹50,000/- per couple is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-domicile-certificate-disability-certificate-issued-by-the-compete"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/sap_welfare_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdvay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a specially-abled individual (male or female).\n1. The applicant should possess a disability certificate with 40% or more disability, issued by a Medical Officer or Medical Board.\n1. The groom should be at least 21 years old, and the bride should be at least 18 years old.\n1. The applicant’s family income from all sources should not exceed ₹2,50,000/- per year.",
+  "_criteria_filled": 4
+}

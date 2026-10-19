@@ -1,0 +1,36 @@
+{
+  "id": "skiing-course",
+  "name": "Skiing Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The beneficiary will become a skiing trainer or competitor, upon completing the course.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-submit-the-necessary-documents-in-accordance-with-the"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skiinguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a youth from Uttarakhand.\n1. The applicant must be between 18 and 25 years of age.\n1. The applicant will be considered on a first-come, first-served basis.\n\n> The total number of 40 beneficiaries will be selected.\n\n<br>",
+  "_criteria_filled": 3
+}

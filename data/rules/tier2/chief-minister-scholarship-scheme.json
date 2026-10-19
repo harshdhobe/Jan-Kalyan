@@ -1,0 +1,33 @@
+{
+  "id": "chief-minister-scholarship-scheme",
+  "name": "Chief Minister Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Benefit Type****Details of Assistance****Number of Beneficiaries**Financial Assistance for Medical and Dental CoursesUp to ₹5,00,000/-250 StudentsFinancial Assistance for Engineering/Technology, Pharmacy Diploma to Degree, Ayurveda/Homeopathy, Nursing, Physiotherapy, Para-medical CoursesUp to ₹1,00,000/-1,130 StudentsFinancial Assistance for Diploma CoursesUp to ₹50,000/-120 StudentsFinanc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "class-10th12th-marksheet-diplomadegree-admission-proof-as-applicable-income-cert",
+    "50",
+    "000-proof-of-residence-aadhaar-cardvoter-idany-valid-government-id-bank-account"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n  - The applicant must be a student.\n  - The applicant must have passed the Class 10th or Class 12th examination.\n  - The applicant must have secured admission in a diploma course, a degree course after diploma, or a degree course after Class 12th.\n  - The applicant must be pursuing medical, dental, engineering, technology, pharmacy, Ayurveda, homeopathy, nursing, physiotherapy, para-medical, or higher education courses.\n  - The applicant must have a family annual income of less than or equal to ₹4,50,000/-.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scheme-for-assistance-for-research-development-activities-assistance-to-establis",
+  "name": "Scheme for assistance for Research & Development Activities: Assistance to Establish Research & Development/Product Development Centre",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to 30% of the investment in machinery, equipment, hardware, software, and related assets (excluding land and building costs) subject to a maximum up to ₹5,00,00,000/- for one or more activities.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-project-sanction-letter-issued-by-ic-office-copy-of-registration-of-the",
+    "outcomes-of-rd-proposed",
+    "details-of-asset-creation",
+    "benefit-to-the-society",
+    "benefit-to-the-industries",
+    "details-of-patent-filedgranted",
+    "details-of-internationalnational-publications",
+    "impact-analysis-of-the-rd",
+    "and-other-relevant-details-related-to-the-project-employment-details-of-technica"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2023/2.%20CLAIM%20APPLICATION%20FORM%20SCHEME%201.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sarderd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligible institution:**\n\n  - Institution/ Industrial Association / Professional Bodies which are recognized by CSIR / DSIR and legal entity such as company, partnership firm including LLP, society, trust, industrial co-operative society, or proprietary concern engaged or about to be engaged in the manufacture, production, processing or job work of articles.\n\n&lt;br&gt;\n\n&gt; **Eligible Activities:**\n\n  - Setting up / establishing an R&amp;amp;D Centre with the sole objective of undertaking scientific, industrial, and/or technological research and development.\n  - Setting up / establishing a Product Development Centre with the objective to improve the designs, process, working operations, etc.",
+  "_criteria_filled": 1
+}

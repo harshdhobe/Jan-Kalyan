@@ -1,0 +1,41 @@
+{
+  "id": "prosthetic-aid-scheme",
+  "name": "Prosthetic Aid Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "1. Prosthetic Aids and Artificial Appliances (Tricycles, Wheel Chairs, Crutches, Hearing Aids, Artificial Limbs, etc) are provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 4800
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-in-the-prescribed-form-by-the-surgeon-orthopedic-ent-spec",
+    "countersigned-by-the-superintendents-of-the-hospitals-district-medical-officers",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/welfareSchemes/provisionOfProstheticAids.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the State/UT of Jammu &amp; Kashmir.\n1. The applicant should be a Person with Disability (PwD) (e.g. blind, deaf, orthopedically or physically handicapped).\n1. The family income of the applicant should be less than ₹ 400/- per month.\n1. The applicant should not already be availing the benefits of the scheme.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vocational-training-to-the-dependents",
+  "name": "Vocational Training to the Dependents",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- Cost of training to each trainee ₹15,000/-.\n- Free boarding and lodging for trainees.\n- Placement-linked training, ensuring better job prospects.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-worker-registration-certificate-with-the-welfare-b"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/2016LETF_MS14.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/vtd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a dependent (spouse or adolescent child) of a registered construction worker.\n1. The worker should be registered with the A.P. Building &amp; Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-tool-kits-to-their-trained-workers",
+  "name": "Supply of Tool Kits to their Trained Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- **Free toolkits are provided to trained workers.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-worker-registration-certificate-with-the-welfare-board-bank"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/2016LETF_MS17.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/stkk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a registered construction worker under the Andhra Pradesh Building and Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

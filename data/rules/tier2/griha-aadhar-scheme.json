@@ -1,0 +1,52 @@
+{
+  "id": "griha-aadhar-scheme",
+  "name": "Griha Aadhar Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹ 1,500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-present-residential-address-election-photo-identity-card-o",
+    "issued-by-mamlatdar-of-the-taluka-concerned-if-the-applicant-is-a-native-of-outs",
+    "along-with-the-birth-certificate-of-self-provided-that-the-husband-is-of-goan-or",
+    "and-the-couple-are-settled-in-goa-for-a-period-of-one-year-income-certificate-is",
+    "village-panchayatchief-officer",
+    "municipal-council-a-self-declaration-in-form-duly-certified-and-attested-before",
+    "declaring-therein-that-the-annual-income-from-all-sources-does-not-exceed-3",
+    "00",
+    "000-and-also-that-the-applicant-or-her-husband-is-not-employed-in-any-of-the-ent",
+    "the-birth-certificate-of-the-child-indicating-the-name-of-the-beneficiary-as-the",
+    "village-panchayat-chief-officer",
+    "municipal-council-life-certificate-of-the-child-in-case-of-a-widow-who-has-a-chi"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/01/Laadli-Laxmi-Scheme-Griha-Aadhar-Schme-Amendment-Notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a married woman.\n1. The applicant should be above the age of 18 years.\n1. The applicant should be a resident of Goa for the last fifteen years.\n1. The gross income of the husband and wife, taken together should not exceed ₹ 3,00,000/- per annum.\n1. A widow with a minor child who is in receipt of benefits under the Dayanand Social Security Scheme (DSSS) rolled out by the Directorate of Social Welfare, Government of Goa shall be eligible for benefits under this scheme.",
+  "_criteria_filled": 4
+}

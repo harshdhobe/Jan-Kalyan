@@ -1,0 +1,31 @@
+{
+  "id": "goggles-by-welfare-of-differently-abled-persons-department",
+  "name": "Goggles by Welfare of Differently Abled Persons Department",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of goggles to visually impaired persons.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-any-other-documents-if-re"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gbwodapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a visually impaired person.",
+  "_criteria_filled": 2
+}

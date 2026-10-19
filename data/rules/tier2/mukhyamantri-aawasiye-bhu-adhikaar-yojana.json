@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-aawasiye-bhu-adhikaar-yojana",
+  "name": "Mukhyamantri Aawasiye Bhu-Adhikaar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Plot will be provided to all those families who do not have their own house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-proof-of-income-proof-of-age-identity-card-bank-accoun"
+  ],
+  "apply_url": "https://revenue.mp.gov.in/upload/files/094344313693.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mabay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant family does not have a residence to live independently.\n1. The applicant family has less than 5 acres of land.\n1. The applicant family holds the eligibility slip for obtaining ration from the Public Distribution System (PDS) shop.\n1. No member of the applicant family is income tax payer.\n1. No member of the applicant family is in government service.\n1. The name of the applicant is registered in the voter list till January 01, 2021 in the village where he wants residential plot.",
+  "_criteria_filled": 1
+}

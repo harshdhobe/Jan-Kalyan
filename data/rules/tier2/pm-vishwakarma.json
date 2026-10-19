@@ -1,0 +1,31 @@
+{
+  "id": "pm-vishwakarma",
+  "name": "PM Vishwakarma",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "&lt;br&gt;\n\n   1. **Recognition**: Recognition as Vishwakarma through Certificate and ID Card   1. **Skilling**:\n      1. Skill Verification followed by 5-7 days (40 hours) of Basic Training\n      1. Interested candidates can also enrol for 15 days (120 hours) of Advanced Training\n      1. Training Stipend: ₹500/- per day.\n\n   1. **Toolkit Incentive**: ₹15,000/- grant.   1. **Credit Support**:\n   ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "required-documents-or-information-aadhaar",
+    "mobile-number",
+    "bank-details",
+    "ration-card-mandatory-for-the-registration-note-1-in-case-of-a-beneficiary-not-h",
+    "they-would-be-required-to-produce-aadhaar-cards-of-all-family-members-note-2-if",
+    "they-will-be-first-required-to-open-a-bank-account-for-which-hand-holding-shall"
+  ],
+  "apply_url": "https://pmvishwakarma.gov.in/Home/EbookPdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an artisan or craftsperson working with hands and tools.\n  - The applicant should be engaged in an unorganized sector on a self-employment basis.\n  - The applicant should be engaged in one of the 18 family-based traditional trades mentioned in the scheme.\n  - On the date of registration for the scheme, the minimum age of the applicant should be 18 years.\n  - The applicant should be engaged in the concerned trade on the date of registration.\n  - The applicant should not have availed loans under similar credit-based schemes of the Central Government or State Government for self-employment/ business development, e.g. PMEGP, PM SVANidhi, Mudra, in the past 5 years.\n  - The registration and benefits under the Scheme shall be restricted to one member of the family.\n\n<br>",
+  "_criteria_filled": 1
+}

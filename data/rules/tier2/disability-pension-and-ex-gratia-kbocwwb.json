@@ -1,0 +1,41 @@
+{
+  "id": "disability-pension-and-ex-gratia-kbocwwb",
+  "name": "Disability Pension and Ex-Gratia (K.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- **Monthly Disability Pension:** ₹2,000/-.  - **Additional Ex-gratia Payment:** ₹2,00,000/- based on the percentage of disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeremployment-certificate90-days"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/disablePension",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpaexgkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka.\n  - The applicant should be partially disabled due to worksite accidents or diseases.\n  - The applicant should not have availed “Accident Benefits” for the same disability.\n  - The applicant must be below sixty (60) years of age.\n\n**Note:** The Disability Pension granted shall be discontinued once the beneficiary attains the age of sixty (60) years.",
+  "_criteria_filled": 4
+}

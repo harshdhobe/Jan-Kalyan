@@ -1,0 +1,26 @@
+{
+  "id": "sp-nautiyal-museum",
+  "name": "S.P. Nautiyal Museum",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Educational Insight:** Provides in-depth knowledge and understanding of the Great Himalayas through geo-scientific exhibits.  - **Awareness Generation:** Raises awareness about the geological and natural heritage of the Himalayan region.  - **Diverse Exhibits:** Offers a wide range of exhibits including maps, charts, models, and actual samples of rocks, minerals, and fossils.  - **Accessibilit",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-any-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spnmuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant can be any national/ international visitor, or a large group/ an institution seeking a guided tour.",
+  "_criteria_filled": 1
+}

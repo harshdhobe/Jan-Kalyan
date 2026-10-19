@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-patriotismnational-integrationcommunal-harmony-production-of-musica",
+  "name": "Promotion of Patriotism/National Integration/Communal Harmony - Production of Musical Programme or Tiatr",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Remuneration as fixed by Tiatr Academy of Goa will be provided to the applicant.\n- Reimbursement of actual charges of the hall/auditorium or payment of lump sum amount as fixed by Tiatr Academy of Goa if performance is held in makeshift pandal.\n- Video recording of the activity/programme will be done by Tiatr Academy of Goa.\n- One copy of the Digital Video Disc will be provided to the applicant.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-self-attested-copy-of-permanent-account-numbe"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppnich-pmpt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an individual/organization/educational institution/club.\n- The applicant must propose an activity that is a tiatr/musical programme on the theme of patriotism/national integration/communal harmony.\n- The applicant must ensure the duration of the musical programme or tiatr is not less than two hours.\n- The applicant must submit the application along with typed script/lyrics at least 30 days before the date of staging the programme.\n- The applicant must attach No Objection Certificate from the lyricist/writer/director concerned if they are not the lyricist/writer/director of the proposed activity.\n- The applicant must ensure scripts/lyrics do not contain any adverse remarks against any Governments/Individuals/Institutions or anything against caste, creed and religion.\n\n<br>",
+  "_criteria_filled": 1
+}

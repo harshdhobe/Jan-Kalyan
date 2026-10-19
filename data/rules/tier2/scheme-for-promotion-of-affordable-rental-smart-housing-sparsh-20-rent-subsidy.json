@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-promotion-of-affordable-rental-smart-housing-sparsh-20-rent-subsidy",
+  "name": "Scheme for Promotion of Affordable Rental Smart Housing (SPARSH 2.0): Rent Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "household",
+  "benefit": "Subsidising the stay of urban poor and labourers in housing complexes registered or constructed under the SPARSH 2.0 scheme, either by a private player under vertical 1 or 2 or by any PSUs, Autonomous bodies, etc., under vertical 3\n\n1. All EWS families staying in the housing complexes registered or constructed under the SPARSH 2.0 scheme shall be entitled to a rent subsidy of Rs. 500 per month per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-authorisation-letter-from-owner-if-applicable-construction-permissi"
+  ],
+  "apply_url": "https://ddd.gov.in/labour/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sparsh20rent",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Dadra And Nagar Haveli and Daman &amp; Diu.\n1. The applicant should be the owner or authorised representative of the housing complex.\n1. The housing complex should fulfil SPARSH 2.0 infrastructure norms.\n1. The housing complex should possess valid construction permission and/or an occupancy certificate.\n1. The applicant should agree to reserve at least 66% dwelling units for Economically Weaker Section beneficiaries.\n1. The applicant should agree to maintain the housing complex and waste management systems.\n\n<br>",
+  "_criteria_filled": 1
+}

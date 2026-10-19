@@ -1,0 +1,31 @@
+{
+  "id": "state-programme-for-rehabilitation-of-persons-with-disabilities",
+  "name": "State Programme For Rehabilitation Of Persons With Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "- Under this scheme, the state government will provide aids &amp;amp; appliances such as tricycles, wheelchairs, crutches, walking sticks, Blind sticks, Rollator, and Hearing Aids to persons with disabilities.\n- The state government will organize a Diagnostic Camp-cum-Free Distribution of Aids &amp;amp; appliances at the district level from time to time.\n- The state government also established a P",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disabled-persons-who-need-an-assistive-device-and-treatmenttherapy-may-be-requir"
+  ],
+  "apply_url": "https://ahvdd.arunachal.gov.in/pdf/eBook/Government%20Scheme%20Handbook.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sprpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tAn applicant with a 100% degree of disability is eligible to apply under the scheme.\n<br>",
+  "_criteria_filled": 2
+}

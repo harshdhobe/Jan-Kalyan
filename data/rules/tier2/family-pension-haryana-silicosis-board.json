@@ -1,0 +1,26 @@
+{
+  "id": "family-pension-haryana-silicosis-board",
+  "name": "Family Pension- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹3,500/- per month will be given after the death of the worker due to Silicosis.\n\n**Note 1:** If the deceased worker was married, assistance will be given to the widow or widower until he/she remains alive.\n**Note 2:** If the deceased worker was unmarried, financial assistance will be given to his/her living parents.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-deceased-worker-copy-of-aadhaar-card-of-applicant-passport-size"
+  ],
+  "apply_url": "https://hrylabour.gov.in/staticdocs/labourpolicies/Haryana%20Silicosis%20Rehabilitation%20Policy%20(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fp-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be either the spouse or one of the living parents of the deceased worker.\n   1. The deceased worker should have been suffering from silicosis as confirmed by the Silicosis Diagnosis Board, Haryana.\n   1. The death of the worker should have been due to silicosis.\n   1. The deceased worker should have been employed in a factory or at a construction site.",
+  "_criteria_filled": 1
+}

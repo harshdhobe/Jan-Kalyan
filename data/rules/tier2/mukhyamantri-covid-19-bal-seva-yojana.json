@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-covid-19-bal-seva-yojana",
+  "name": "Mukhyamantri Covid-19 Bal Seva Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> ***Financial Assistance:***\n\n- Each child beneficiary receives ₹5,000/- per month deposited in a joint account until they turn 18.\n- Guardian and child receive free monthly ration under National Food Security Act.\n\n> ***Education Assistance:***\n\n- School Education:\n\n   1. Free education in government schools.\n   1. Fees paid for RTE provision private schools.\n   1. RTE reimbursement limit for ot",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-the-deceased-person-birthage-certificate-of-beneficiary-chi"
+  ],
+  "apply_url": "http://covidbalkalyan.mp.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcbsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The affected family should be a local resident of Madhya Pradesh.\n1. The family should not be eligible to avail the benefits of Chief Minister Covid-19 Yodha Kalyan Yojana.\n1. The deceased parents of the child beneficiary should not have been government servants or employees of a government undertaking who were eligible to receive pension under the old pension scheme.\n1. Such boys/girls whose age is 21 years or less, but till the prescribed duration of graduation course, whichever is less and whose-\n\n  - Parent has died from COVID-19 or\n  - Parents have died earlier and their legal guardian has died due to Covid-19.\n  - One of the parents has died in the past and now the other has died of Covid-19.\n  - Only During from 01 March 2021 to 30 June 2021",
+  "_criteria_filled": 2
+}

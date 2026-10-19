@@ -1,0 +1,28 @@
+{
+  "id": "maintenance-allowance-to-backward-class-students-under-training-in-sainik-school",
+  "name": "Maintenance Allowance To Backward Class Students Under Training In Sainik Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1. The training fees ₹400/- to ₹2400/- (as per course) are paid to the concerned I.T.I. \n1. After completion of training, one Tool Kit of ₹1000/- is provided to the trainee through the concerned Govt. I.T.I.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-the-applicant-should-be-a-citizen-of-india-2-the-applicant-should-be-a-domicil",
+    "nomadic-tribes",
+    "or-special-backward-class-4-the-applicant-should-be-studying-in-classes-5th-to-1"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training",
+  "source_url": "https://www.myscheme.gov.in/schemes/mabcstss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tThe applicant should be a citizen of India.\n2)\tThe applicant should be a domicile / permanent resident of the state of Maharashtra.\n3)\tThe applicant should belong to Vimukta Jatis, Nomadic Tribes, or Special Backward Class.\n4)\tThe applicant should be studying in Classes 5th to 12th.\n5)\tThe applicant should be studying in a Sainik School recognized/approved by the Govt. of Maharashtra.\n6)\tThe applicant should not already be availing the benefits of the scheme.\n<br>",
+  "_criteria_filled": 1
+}

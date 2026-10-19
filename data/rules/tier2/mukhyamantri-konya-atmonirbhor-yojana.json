@@ -1,0 +1,33 @@
+{
+  "id": "mukhyamantri-konya-atmonirbhor-yojana",
+  "name": "Mukhyamantri Konya Atmonirbhor Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Each eligible student will receive a free Scooty. This Scooty is intended to be useful for them to travel to their College.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-12th-grade-high-school2-marksheet-passport-size-photo-birth-certifi",
+    "if-applicable-any-other-document",
+    "as-required"
+  ],
+  "apply_url": "https://highereducation.tripura.gov.in/DHE/sites/default/files/gtca.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura. \n1. The applicant should be a girl.    \n1. The applicant should be a student.\n1. The parents/guardians of the applicant should be natives of Tripura or have a continuous residence in Tripura for not less than 10 years.\n1. The applicant should be studying in the 1st semester of a course at the General Degree College in Tripura.\n<br>",
+  "_criteria_filled": 2
+}

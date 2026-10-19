@@ -1,0 +1,26 @@
+{
+  "id": "kscste-emeritus-scientist-scheme",
+  "name": "KSCSTE Emeritus Scientist Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "Selected candidates are eligible for:\n1.\tMonthly fellowship of ₹31,000/- for a maximum period of 3 years.\n2.\tAn annual Contingent grant of ₹1,00,000/- eligible for the entire project duration.\n3.\tTechnical Assistance in the form of a Project Fellow can be appointed to support research activity.\n4.\tFellowship will be given for a period not exceeding three years, (Maximum duration of the project - 3",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-photo-of-applicant-3-proof-of-permanent-residenc"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/wp-content/uploads/2019/06/ESS_DECLARATION.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kscste-ess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a Permanent Resident of Kerala.\n   1. Candidates should be retired scientists/academicians in Kerala by birth or domicile and should have worked as a scientist/academician in reputed institutions with commendable scientific achievements.\n   1. Candidate should apply within 5 years of superannuation.\n   1. The candidate should have published a minimum of 3 peer-reviewed research papers with SCI-indexed journals with an impact factor greater than 2.0 or should have filed at least one patent in the last 3 years of application.\n   1. Those who have availed Emeritus Scientist Fellowship earlier (from KSCSTE or elsewhere) are not eligible to apply.\n   1. The Research Centre selected for the proposed work should be the R&amp;amp;D Centres of KSCSTE.",
+  "_criteria_filled": 1
+}

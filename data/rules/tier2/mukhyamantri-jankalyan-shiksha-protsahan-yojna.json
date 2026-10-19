@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-jankalyan-shiksha-protsahan-yojna",
+  "name": "Mukhyamantri Jankalyan (Shiksha Protsahan Yojna)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. The tuition fees for all such students on admission to graduate, polytechnic, diploma and ITI courses will be borne by the state government.\n   1. For all these courses, the admission fee and actual fee will also be paid by the government as an expenditure.\n   1. Mess charges and caution money charges are not included in this.\n   1. Only that fee will be included under this scheme, which has be",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-proof-of-income-proof-of-age-passport-size-photograph"
+  ],
+  "apply_url": "http://www.scholarshipportal.mp.nic.in/SambalScholarship/Documents/pdf/Introduction%20of%20the%20scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mjspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n   1. The applicant&amp;#39;s mother/father should be registered as an unorganized worker in the Labor Department of the Madhya Pradesh Government.\n   1. The student will be given the benefit of this scheme on admission to the Diploma/Degree and Certificate courses in Government Medical College and Paramedical Science conducted under it.\n   1. All the government and grant-aided colleges and universities of the state government, in which all graduates and postgraduate courses under the State Higher Education Department, all diploma courses and ITIs conducted in polytechnic colleges, will be given the benefit of this scheme to the students.\n   1. The benefit of this scheme will be given even after getting admission in the graduation program and integrated post-graduation program conducted in all university institutions of the state government or government of India.\n   1. For engineering, in the case of fees coming under 1.5 lakh in JEE Mains, full fees will be given upon taking admission in government engineering college and 1.5 lakh rupees and actual tuition fee, whichever is less, will be provided upon admission in aided college.\n   1. If students have taken admission through the NEET entrance exam for medical studies in MBBS/VIDEO medical and dental college of Central or State Government or MBBS course of private medical located in the college, then the students are eligible to get the benefit of this scheme. are eligible.\n   1. The benefit of this scheme will also be given on getting admission to National Law University or Delhi University through the Common Law Admission Test for the study of law and the examination conducted by itself.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "meghalaya-sports-wellness-centre-scheme",
+  "name": "Meghalaya Sports & Wellness Centre Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Upfront subsidy up to 25% of total project cost (maximum ₹37.5 lakh for most applicantssemi_colon ₹75 lakh for top 5 promising entrepreneurs)\n1. Backend support up to 10% of project cost (maximum ₹12.5 lakhsemi_colon ₹25 lakh for top 5 promising entrepreneurs)\n1. 5% entrepreneur’s own contribution required, with remaining balance via bank loan (up to ₹2.1 crore for top 5semi_colon up to ₹1.05 c",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-evidence-of-financial-sustainability-a-valid-government-photo-identi",
+    "voter-id",
+    "passport-and-drivers-license-self-declaration-download-attach-any-relevant-docum",
+    "such-as-architectural-plans-financial-projections-land-ownership-or-notarized-le",
+    "such-as-architectural-plans-evidence-of-financial-sustainability-a-valid-governm",
+    "voter-id",
+    "passport-and-drivers-license-self-declaration-download"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX181Xhz%2FoP5oPQoQ0DWuOOAMTxX1sj%20%20Px%20ZYBvZfStvqkYGjjbzLZD%2FkQ0AvY%20WGSQhZSFLZTE9PNnk01NAf1lWV0W3Cl3y7YLLztsiijS5h7Vyu3kL92d8jJXyhdkFiPj%20Q1dZIjJJqqm6VxB1pHITicdT7q0mCSTQo6BPIii1hXUycDTPY7sW1HNY3pEZp%2F%20XBTrlNG0SNyLlPX57%20oJdxpARGrNtODshCGX2iTGLDyDrIUXS9Jnh=",
+  "source_url": "https://www.myscheme.gov.in/schemes/mswcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Individuals**\n\n1. The applicant must be a resident of Meghalaya and provide valid government ID proof.\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must possess land, either self-owned or on lease, verified by the competent authority.\n1. The entrepreneur must provide proof of relevant experience in the field through past projects, portfolios, certifications, or testimonials.\n\n**Registered Entities**\n\n1. The firm or company must be registered in Meghalaya, such as Pvt. Ltd., LLP, or Sole Proprietorship, and must operate as a “for-profit” organization.\n1. The organization must provide an Incorporation Certificate or registration certificate, whichever is applicable.\n1. The entity must ensure that at least two members possess a training certificate in the relevant sector from a recognized institution, preferably a government institute.\n1. The entity must possess land, either self-owned or on lease, verified by the competent authority.\n1. The entrepreneur must not be a credit defaulter with any bank.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

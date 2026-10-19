@@ -1,0 +1,28 @@
+{
+  "id": "providing-mini-tractor-and-its-sub-parts-to-the-self-help-group-of-scheduled-cas",
+  "name": "Providing Mini Tractor and its Sub Parts to the Self Help Group of Scheduled Castes",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Supply of mini tractors and essential sub-parts, including trolleys and rotators.\n- Each mini tractor, along with its sub-parts, is valued at ₹3,50,000/-.\n- Self Help Groups contribute 10% of the total cost, amounting to ₹35,000/-.\n- The remaining ₹ 3,15,000/- is provided as a subsidy by the government, making it financially accessible for the groups.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-valid-government-issued-id-aadhaar-card",
+    "voter-id",
+    "etc-for-all-members-of-the-self-help-group-domicile-certificate-proof-of-residen"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/economic-upliftment",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmtaispttshgosc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from Scheduled Caste or Nav-Buddhist.\n1. The applicant should be a domicile of Maharashtra.\n1. The Self Help Group should consist of at least 80% members from Scheduled Castes and Nav-Buddhist.\n1. The total cost of the mini tractor and its sub-parts is estimated at ₹3,50,000. The Self-Help Group must collect 10% of this amount, which is ₹35,000, while the government will provide a 90% subsidy of ₹3,15,000.",
+  "_criteria_filled": 1
+}

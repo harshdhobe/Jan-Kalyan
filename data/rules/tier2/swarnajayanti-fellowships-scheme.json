@@ -1,0 +1,34 @@
+{
+  "id": "swarnajayanti-fellowships-scheme",
+  "name": "Swarnajayanti Fellowships Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The award consists of a Fellowship of ₹25,000/- per month in addition to the salary drawn from the parent Institute for a period of 5 years.\n   1. The fellows selected along with their projects will be considered for funding by the Science &amp;amp; Engineering Research Board (SERB) as per SERB norms, for fellowship, recurring and non-recurring heads.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-aadhaar-card-2-passport-size-photograph-3-proof-of-age-4-edu",
+    "awards",
+    "fellowships-received-7-complete-list-of-publications-in-sci-journals-other-refer",
+    "as-required"
+  ],
+  "apply_url": "https://dst.gov.in/scientific-programmes/scientific-engineering-research/human-resource-development-and-nurturing-young-talent-swarnajayanti-fellowships-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The fellowship is open to Indian Nationals having a regular position in a recognized Indian academic/research organization.\n   1. The applicant should possess a Ph.D. in Science/Engineering/Medicine and should not be drawing Fellowship from any other Scheme of Government of India.\n   1. Scientists should be active in the frontier area of science and engineering with outstanding contributions in the form of research publications and/ or patents, peer recognition from the scientific community, awards, etc. in his/ her area of research.\n   1. The organization/institute should also undertake financial and other management responsibilities of the project throughout the five-year term in case a fellowship is awarded to the scientist.\n   1. The fellowship is open to scientists between 30 to 40 years of age.",
+  "_criteria_filled": 2
+}

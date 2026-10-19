@@ -1,0 +1,47 @@
+{
+  "id": "subhadra",
+  "name": "SUBHADRA",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "- **SUBHADRA Card:** All beneficiaries receive a SUBHADRA card (ATM-cum-debit card) to enhance identity and empowerment.  - **Financial Support:** Eligible beneficiaries receive a total of ₹50,000/- over 5 years (₹10,000/- annually between 2024-25 to 2028-29).  - **Digital Transactions Incentive:** Top 100 women in each Gram Panchayat/Urban Local Body with the highest number of digital transaction",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-a-mobile-number-linked-to-aadhaar",
+    "copy-of-bank-account-details-single-holder-aadhaar-enabled-and-dbt-enabled"
+  ],
+  "apply_url": "https://subhadra.odisha.gov.in/assets/website-assets/docs/Subhadra-Guideline-Eng.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/subhadra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Odisha.\n- The applicant should be covered under the National Food Security Act (NFSA)/ State Food Security Scheme (SFSS).\n- Applicant without an NFSA or SFSS Card can apply under SUBHADRA if her family income is not more than ₹2,50,000/-.\n- The applicant’s age should be 21 years or more and less than 60 years as on the qualifying date.\n- Applicants receiving financial assistance such as pension, scholarship etc. of ₹1,500/- per month or more or ₹18,000/- per annum or more under any State or Central Government Scheme would be ineligible.\n- The applicant should not be a current or former Member of Parliament (MP) or Member of the Legislative Assembly (MLA). \n- The applicant should not be an Income Tax Payee. \n- The applicant should not be an elected public representative in any Urban Local Body or Panchayati Raj Institution (excluding Ward Member / Councillor)\n- The applicant should not be Employed as a regular or contractual employee in State Government or Government of India or Public Sector Undertaking or Board or Local Body or Government Organization or is receiving pension after retirement. However, all workers receiving honorarium such as ASHA, Anganwadi Worker, Community Resource Person, Master Bookkeeper, etc. and all those engaged through outsourcing agencies would be considered, if otherwise eligible under this Scheme. \n- The applicant should not be an elected / nominated/ appointed representative in any Government Department or Undertaking or Board or Organization of Government of India or State Government. \n- An owner of a 4-wheeler Motor Vehicle except tractors, mini-trucks, small commercial vehicles and other similar light goods vehicles.\n\n> **Note:** \n\nFor 2024-25, if a woman attains the age of 21 years after 01.07.2024, she will get Rs.10,000 per year, only for the remaining years of the scheme period. In 2024-25, women who complete 60 years of age after 01.07.2024, will not receive the benefits for the remaining years of the scheme period.",
+  "_criteria_filled": 5
+}

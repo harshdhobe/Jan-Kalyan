@@ -1,0 +1,27 @@
+{
+  "id": "pradhan-mantri-uchchatar-shiksha-protsahan-yojana-central-sector-interest-subsid",
+  "name": "Pradhan Mantri Uchchatar Shiksha Protsahan Yojana: Central Sector Interest Subsidy Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Under the scheme, interest subsidy on education loans is provided for a maximum amount of ₹10 lakhs (Even sanctioned loan amount in excess of ₹10 lakhs would qualify for interest subsidy up to ₹10 lakhs only).\n   1. In the scheme, no collateral security or third-party guarantee is required for Education Loans sanctioned upto ₹7.5 lakhs. The lonee bank is to ensure that this part of the loan is ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-aadhaar-card-2-pan-card-3-income-proof-issued-by-competent-a",
+    "as-required"
+  ],
+  "apply_url": "https://www.education.gov.in/sites/upload_files/mhrd/files/upload_document/pmusp_csis.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-uspycsiss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Education Loans taken under the IBA Model Education Loan Scheme.\n   1. The benefit of the Scheme is applicable to students belonging to economically weaker sections having gross parental/ family income up to ₹4.5 lakhs per annum from all sources.\n   1. Students enrolled in professional/technical courses only from NAAC accredited Institutions or professional/technical programmes accredited by NBA or Institutions of National Importance or Central Funded Technical Institutions (CFTIs). Those Professional Institutions/programmes, which do not come under the ambit of NAAC or NBA, would require approval of the respective regulatory body.\n   1. Admissible only once either for Undergraduate or Post Graduate degree courses. This is also admissible for Integrated Courses (Graduate + Post Graduate).\n   1. Students availing any other Central /State Government Scholarship or Fee reimbursement shall not be eligible for availing benefits under the CSIS Scheme.\n   1. Interest Subsidy under this Scheme shall not be available to those students who discontinue their course midstream, or who are expelled from the Institution on disciplinary or academic grounds. However, the interest subsidy would be available only if discontinuation is due to medical grounds for which necessary documentation to the satisfaction of the Head of an educational institution needs to be provided.",
+  "_criteria_filled": 1
+}

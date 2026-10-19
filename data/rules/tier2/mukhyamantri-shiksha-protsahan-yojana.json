@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-shiksha-protsahan-yojana",
+  "name": "Mukhyamantri Shiksha Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- ₹2,500/- monthly stipends per student during the coaching period.\n- Free of cost coaching facility in reputed coaching institutes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "color-photograph-of-the-applicant-signature-of-the-student-students-aadhaar-card"
+  ],
+  "apply_url": "https://mukhyamantri.apphost.in/document/mukhyamantri_guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand state.\n1. The student should have passed class 10th from any recognized school in the state of Jharkhand **or** the student should possess a local residence certificate of Jharkhand. 1. The student must meet the exam&#39;s eligibility criteria for coaching under this scheme. For exams requiring Class 12th qualification, Class 11th students at the time of application are also eligible.\n1. The student&#39;s annual family income should be less than ₹8,00,000/- **or** the student should be covered under the National/State Food Security Scheme. 1. An applicant who has already received similar benefits from another department is not eligible for dual benefits.\n1. The student can avail the benefit only once under this scheme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-enhancement-of-technical-competence-and-manpower-skill-up-gradation-c",
+  "name": "Scheme for Enhancement of Technical Competence and Manpower: Skill Up-gradation Centers (SUCs)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Quantum of Assistance:** Support for the acquisition of machinery/equipment/ tools/ furniture &amp;amp; fixtures costing upto ₹1,00,00,000/- will be extended to each SUC in the following manner:\n\n  - 100% for GIDC Estates or Other Registered Estates.\n  - 75% for Industrial Parks/ SEZs/ Investment Regions.\n  - The machinery &amp;amp; equipment/tools/ furniture &amp;amp; fixtures will be purc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-in-the-prescribed-format-registration-detail-of-the-applicant-organi",
+    "annexure-c",
+    "annexure-d-proposed-training-center-infrastructure-photoslay-outmap-self-declara"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/setcmsuc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Organizations such as Industrial Parks, SEZs, GIDC Estates, Investment Regions, and other registered estates can apply.\n  - The applying entity must provide the land/building for the SUC.\n  - The training partner must have a minimum of 10 years of experience in skill training.\n  - The center must ensure the training of at least 180 candidates per year.\n  - Employment placement of trainees must meet the set percentage criteria (60% in the first two years and 75% in the last three years).",
+  "_criteria_filled": 1
+}

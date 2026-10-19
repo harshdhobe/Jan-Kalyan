@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-chhaatrvrtti-yojana",
+  "name": "Mukhyamantri Chhaatrvrtti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **Group Level:**\n\n  - For Senior Division/Senior Wing cadets: ₹2,400/-.\n  - For Junior Division/Junior Wing cadets: ₹1,200/-.\n\n> **Unit Level:**\n\n  - For Senior Division/Senior Wing cadets: ₹1,200/-.\n  - For Junior Division/Junior Wing cadets: ₹600/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "fully-filled-application-form-caste-certificate-issued-by-the-competent-authorit"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an NCC cadet.\n   1. The applicant must have passed the 10th or 12th class or an equivalent examination in the previous academic session.\n   1. The applicant must have completed two years of NCC training.\n   1. The applicant must have maintained a minimum of 80% attendance in each year of NCC training.\n   1. The applicant must be currently pursuing higher education.\n   1. The applicant must not be receiving any other general or special scholarship from the State Government.",
+  "_criteria_filled": 1
+}

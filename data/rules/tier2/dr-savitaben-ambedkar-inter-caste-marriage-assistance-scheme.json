@@ -1,0 +1,26 @@
+{
+  "id": "dr-savitaben-ambedkar-inter-caste-marriage-assistance-scheme",
+  "name": "Dr. Savitaben Ambedkar Inter Caste Marriage Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "The scale of assistance provided to the couple in the case of inter-caste marriage under the scheme is as follows:\n\n   1. An assistance of ₹1,00,000/- is provided to the couple for domestic expenses, for purchasing household appliances.\n   1. An assistance of ₹1,50,000/- is provided in the form of National Savings Certificates in the joint name of the married couple.\n   1. A total financial assist",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-documen"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1610?lang=Gujarati",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsaicmas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. One person of the inter-caste marriage couple should be a native of Gujarat.\n   1. One person of the inter-caste marriage couple should belong to Scheduled Caste Category.\n   1. Such marriages have to be registered and applications for assistance under the scheme have to be made within two years of the marriage.\n   1. The parents of the inter-caste marriage couple should have been residing in the state of Gujarat for five years.\n   1. Any person other than a Scheduled Caste who is a migrant shall be required to furnish a certificate to the effect that he is not an untouchable in that Province or State and that he practices the Hindu religion.\n   1. If a widower or a widow who does not have children remarries, assistance will be available under this scheme.\n   1. There is no income limit.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "reimbursement-of-the-ms-cit-course",
+  "name": "Reimbursement of the MS-CIT Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Reimbursement of the MS-CIT (Maharashtra State Certificate in Information Technology) course fees for up to two children of registered construction workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmscitc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children&#39;s parents/guardians should be registered construction workers.\n1. The construction worker should be registered under the MBOCWW. \n1. The applicant must be enrolled in a government-recognized MS-CIT course.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "madhu-babu-pension-yojana",
+  "name": "Madhu Babu Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. For the beneficiary who is between 60-79 years of age, the pension would be ₹ 500/- per month.\n   1. For the beneficiary who is 80 Years and Above in age, the pension would be ₹ 700/- per month.\n   1. The pension will be disbursed on the 15th of every month, on &amp;quot;JANA SEWA DlWAS&amp;quot; in the denomination of ₹ 100/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-scan-copy-three-identical-attested-copies-of-recent-passport-size-ph",
+    "except-wp-aids-dp-aids-disability-certificate-issued-by-the-competent-authority",
+    "such-for-the-applicants-of-pension-due-to-disabilityfor-dp-category-medical-cert"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-01/GUIDELINE%20ON%20MADHU%20BABU%20PENSION%20YOJANA%20%28MBPY%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant is a permanent resident/domicile of Odisha since 20 years.\n  - The applicant should not been convicted of any criminal offence involving moral turpitude.\n\n  - The applicant should qualify for one of the following - \n\n   1. The age of the applicant is 60 years and above.\n   1. The applicant is a widow.\n   1. The applicant is a leprosy patient with visible signs of deformity.\n   1. The applicant is a person of 5 years of age or, above and unable to do normal work due to his/her deformity or disability being blind or, orthopedically handicapped, mentally retarded, with cerebral palsy.\n   1. The applicant is the widow of an AIDS patient.\n   1. The applicant is an AIDS patient identified by the State / District AIDS Control Society (irrespective of income as under Rule 6 (b).\n\n  - The applicant is an unmarried woman belonging to BPL category.\n  - The applicant has family income from all sources not exceeding ₹ 24,000/- per annum.\n  - The applicant is not in receipt of any other pension from the union Government or the state government or any organization aided by either Government.",
+  "_criteria_filled": 2
+}

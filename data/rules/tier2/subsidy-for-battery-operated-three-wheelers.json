@@ -1,0 +1,26 @@
+{
+  "id": "subsidy-for-battery-operated-three-wheelers",
+  "name": "Subsidy For Battery Operated Three-Wheelers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Subsidy Assistance:** Subsidy of ₹48,000/- after the purchase of a battery-operated three-wheeler from GEDA-authorized manufacturers/dealers.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-of-license-identity-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfbothw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be an individual (such as rickshaw drivers, women entrepreneurs, startups, educated unemployed individuals) or an institution (such as cooperatives, NGOs, educational institutions, local bodies, yatras).\n   1. The applicant must purchase a battery-operated three-wheeler from a GEDA-authorized manufacturer or dealer.\n   1. The applicant must apply through authorized dealers linked with GEDA.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "family-counseling-under-grant-in-aid-to-pondicherry-state-social-welfare-board",
+  "name": "“Family Counseling\" under Grant-in-Aid to Pondicherry State Social Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- Counselling, rehabilitative and referral services are provided in the centres for the victims of social problems.\n- Psychological, Social, Educational and Economic issues of the individuals are also dealt with.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fc-giapswb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a Native/Resident of the Union Territory of Puducherry.",
+  "_criteria_filled": 1
+}

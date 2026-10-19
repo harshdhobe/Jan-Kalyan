@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-to-visually-challenged-teachers",
+  "name": "Financial Assistance To Visually Challenged Teachers",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "The scheme provides the following benefits to visually challenged permanent teachers:\n**1. Financial Support**\nAn allowance of **Rs. 36,000/- per annum** is provided to meet expenses related to teaching, learning and research.\n**2. Reader Support**\nProvision of funds for payment to a Reader, enabling the teacher to carry out academic duties effectively.\n**3. Access to Learning Materials** Funds ca",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-disability-certificate-a-certificate-from-a-government-hospital-to-establish-t",
+    "or-low-vision-2-readers-receipt-a-receipt-from-the-reader-with-revenue-stamp-ind"
+  ],
+  "apply_url": "https://www.sanskrit.nic.in/uploads/2025_09_08_FA_Visually_Disabled_Teachers.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/favct",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent teacher in a college. Temporary, contractual, or ad-hoc teachers are not covered under the scheme.\n2. The scheme covers teachers with the following nature of blindness:\n\n  - Fully Blind\n  - Low Vision\n\nA certificate from a Government Hospital is mandatory to establish the nature of visual impairment.\n3. The college where the teacher is employed must be recognized under:\n\n  - Section 2(f) of the UGC Act\n  - Section 12(B) of the UGC Act\n\n4. The eligible teacher&amp;#39;s details must be included in the consolidated list of visually challenged teachers submitted by the college to the UGC Regional Office/NRCB along with the Twelfth Plan General Development Grant proposal.\n<br>",
+  "_criteria_filled": 1
+}

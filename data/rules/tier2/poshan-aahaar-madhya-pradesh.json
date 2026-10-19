@@ -1,0 +1,26 @@
+{
+  "id": "poshan-aahaar-madhya-pradesh",
+  "name": "Poshan Aahaar- Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Through Aanganwadis children from 6 months to 6 Years, Pregnant Women, and Malnourished Children will be given nutrition as under:**\n\n  - **Children from 6 months to 3 years, Pregnant and Lactating Mothers:** Food items are being provided through MP Agro, State Rural Livelihood Mission, and other suppliers division-wise for 5 days a week on different days as per the following:-\n**Sl. No.****Name",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-samagra-id-birth-certificate-domicile-certificate-of-madhya-pradesh"
+  ],
+  "apply_url": "https://mpwcdmis.gov.in/ICDSSnpYojna.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pa-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. All children and mothers registered in the Anganwadi can take benefit of the scheme.\n   1. Children aged 6 months to 6 years, pregnant women, lactating mothers, and malnourished children are eligible under the scheme.",
+  "_criteria_filled": 1
+}

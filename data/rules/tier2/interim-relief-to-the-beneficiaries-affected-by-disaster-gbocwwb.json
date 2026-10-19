@@ -1,0 +1,27 @@
+{
+  "id": "interim-relief-to-the-beneficiaries-affected-by-disaster-gbocwwb",
+  "name": "Interim Relief to the Beneficiaries Affected by Disaster (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "An immediate relief of up to ₹10,00,000/-.\n_*The committee shall decide about the modalities regarding disbursement of such relief, quantum and procedure to be followed for such disbursement._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "beneficiary-card",
+    "issued-by-the-board"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-12-Interim-Relief-To-The-Beneficiaries-Affected-By-Disaster.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/irbad-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a beneficiary of a scheme of the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be affected by disaster/catastrophe/natural calamity.",
+  "_criteria_filled": 1
+}

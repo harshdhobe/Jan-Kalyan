@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-to-old-age-pensioner-suffering-from-tb-cancer",
+  "name": "Financial Assistance to Old Age Pensioner Suffering From TB/ Cancer",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹500/- per month in addition to the old age pension amount.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-certificate-from-the-revenue-department-income-certificat",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://wcd.py.gov.in/sites/default/files/oap-medical-treat-appl.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faoapstbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be 60 years or above in age.\n- The applicant should be a Old Age Pensioner or a Destitute Pensioner.\n- The applicant should be suffering from T.B./Cancer.",
+  "_criteria_filled": 2
+}

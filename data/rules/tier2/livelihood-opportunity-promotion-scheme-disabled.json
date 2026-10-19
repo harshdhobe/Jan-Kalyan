@@ -1,0 +1,46 @@
+{
+  "id": "livelihood-opportunity-promotion-scheme-disabled",
+  "name": "Livelihood Opportunity Promotion Scheme (Disabled)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Term Loan Scheme:**\n\n  - Project Cost: ₹75,000/-\n  - Grant: 20% or ₹10,000/-, whichever is less\n  - Term Loan: ₹65,000/- at 6% annual interest rate\n\n**Shop Construction Scheme:**\n\n  - Project Cost: ₹50,000/-\n  - Grant: 20% or ₹10,000/-, whichever is less\n  - Margin Money Loan: ₹40,000/- at 4% annual interest rate, repayable in 60 monthly installments\n\n**Margin Money Loan Scheme for Bank Supporte",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-voter-id-aadhaar-card-disability-certificate-caste-cert"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lopsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must possess a minimum of 40% disability. \n1. The applicant’s annual family income must not exceed ₹2,00,000 in urban areas and ₹1,60,000/- in rural areas.\n1. The applicant’s age must be between 18 and 50 years.",
+  "_criteria_filled": 5
+}

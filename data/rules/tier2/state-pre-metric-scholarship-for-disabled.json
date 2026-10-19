@@ -1,0 +1,36 @@
+{
+  "id": "state-pre-metric-scholarship-for-disabled",
+  "name": "State Pre-metric Scholarship For Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Class: 1st to 4th\nRate of Scholarship (₹ per month): 100/-\nClass: 5th to 7th\nRate of Scholarship (₹ per month): 150/-\nClass: 8th to 10th\nRate of Scholarship (₹ per month): 200/-\nClass: Mentally Retarded and Mentally Ill (up to the age of 18 years)\nRate of Scholarship (₹ per month): 150/-\nClass: For disabled trainees in the workshop\nRate of Scholarship (₹ per month): 300/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-residential-certificate-d",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-the-latest-educational-qualification-passing-certificate-or-markshe",
+    "etc-any-other-document-required-by-the-schoolcollege-or-the-district-social-welf"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/spremsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Maharashtra.\n1. The applicant should be a student admitted/enrolled in a school recognized by the Govt. of Maharashtra.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. The applicant should not have failed in the last qualifying examination.\n1. The applicant should be pursuing a pre-metric qualification, i.e. Class 1st to Class 10th.",
+  "_criteria_filled": 2
+}

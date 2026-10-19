@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-assistance-to-state-scheduled-castes-development-corporations",
+  "name": "Scheme of Assistance to State Scheduled Castes Development Corporations",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- Financial assistance in the form of margin money loans at low rate of interest.\n- Subsidy provision to reduce repayment liability of beneficiaries.\n- The quantum and ceiling of subsidy is the same as for schemes under Integrated Rural Development Programme.\n- Credit support facilitation through tie-ups with financial institutions, banks, National Scheduled Castes Finance and Development Corporat",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-income-certificate-bpl-certificate-identity-proof-address-proo"
+  ],
+  "apply_url": "https://socialjustice.gov.in/schemes/36",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasscdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to Scheduled Castes.\n- The applicant must be living below the poverty line.\n\n<br>",
+  "_criteria_filled": 1
+}

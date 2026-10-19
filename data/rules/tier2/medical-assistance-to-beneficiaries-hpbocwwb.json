@@ -1,0 +1,37 @@
+{
+  "id": "medical-assistance-to-beneficiaries-hpbocwwb",
+  "name": "Medical Assistance to Beneficiaries (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- ₹50,000 is provided annually for outdoor medical treatment.\n- ₹1,00,000 is available each year for indoor medical expenses.\n- ₹5,00,000 is granted yearly for critical illness treatment for the registered beneficiary and dependents, with valid medical bills.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-undertaking-a-copy-work-slip-proof-of-reside"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/PublicPages/schemedetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/matbhpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n1. The applicant should be a resident of Himachal Pradesh\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be aged between 18 and 60 years.\n1. The worker should have completed at least 90 days of building and other construction work in the last 12 months.\n1. The registration of the applicant should be renewed annually.\n\n<br>\n\n**For Application**\n\n1. The applicant must be engaged in building or construction work.\n1. The applicant must be registered under the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB).\n1. The worker’s membership with the Welfare Board must be active at the time of application.",
+  "_criteria_filled": 3
+}

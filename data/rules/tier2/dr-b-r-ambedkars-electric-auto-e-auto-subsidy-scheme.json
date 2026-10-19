@@ -1,0 +1,47 @@
+{
+  "id": "dr-b-r-ambedkars-electric-auto-e-auto-subsidy-scheme",
+  "name": "Dr. B. R. Ambedkar’s Electric Auto (e-Auto) Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- A subsidy of 75% of the total cost of the electric auto (e-Auto) or ₹3,00,000/- whichever is less will be paid.\n- This subsidy is paid after utilizing Central Government incentives under the Pradhan Mantri E-DRIVE Scheme (FAME-3), which provides a maximum subsidy of ₹50,000/-.\n- The total cost of the electric auto will be calculated excluding extra accessories.\n\n##### ***Disbursement***\n\n- **In ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-birth-certificate-age-proof-nativity-certificate-obtained-from-an-of",
+    "required-after-paying-25-initial-payment-to-the-dealer"
+  ],
+  "apply_url": "https://styandptg.py.gov.in/2025/JULY/EXTRAORDINARYPART-II/1/60-PART-II%20dated%2031-07-2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbraeass",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to the Union Territory of Puducherry either by virtue of birth or by virtue of continuous residence of not less than 5 years.\n- The applicant must be of the Scheduled Caste / Scheduled Tribe community recognized by the Union Territory of Puducherry.\n- The applicant must be a woman.\n- The total annual income of the applicant and her spouse must not exceed ₹2,00,000/-.\n- The applicant must be at least 18 years old on the date of application.\n- The applicant must not be more than 45 years old on the date of application.\n- The applicant must not be availing assistance under a prolonged disease.\n- The applicant must have a valid driving licence for operating the electric auto issued by a Competent Authority.\n- The applicant must not have availed of a similar subsidy under any other State / Central Scheme for the same purpose.\n- Only one person per family can avail the benefit once in their lifetime.\n\n_*Applicants shall be selected by seniority in age on a first-come-first-served basis._\n<br>",
+  "_criteria_filled": 5
+}

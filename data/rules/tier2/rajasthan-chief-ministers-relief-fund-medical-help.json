@@ -1,0 +1,26 @@
+{
+  "id": "rajasthan-chief-ministers-relief-fund-medical-help",
+  "name": "Rajasthan Chief Minister's Relief Fund - Medical Help",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Demand draft or Direct Bank Transfer to the beneficiary.\nCochlear Implant Surgery of Deaf and Dumb Children - In the state of Rajasthan, deaf and dumb children up to the age of 6 years, whose family income is up to Rs. 2.00 lakh annually,\nAssistance for Thalassemia Major Disease Treatment - 2 percent assistance is given from the Chief Minister's Assistance Fund up to Rs. 50.7 lakh\nFinancial assist",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-copy-address-proof-copy-rashan-card-treatment-estimate-by-doc"
+  ],
+  "apply_url": "https://jankalyan.rajasthan.gov.in/#/scheme/detail/434",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcmrf-mh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be Non BPL\n- The Annal Income of the Family should be greater than 2 LPA\n- Not be listed in ABMGRSBY (Ayushman Bharat Mahatma Gandhi Rajasthan Swasthya Bima Yojana)",
+  "_criteria_filled": 1
+}

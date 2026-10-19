@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-breakfast-scheme",
+  "name": "Chief Minister Breakfast Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**The following benefits will be provided to Students of Primary Schools under Tamil Nadu Chief Minister Breakfast Scheme:-**\n\n- Free Breakfast will be provided to all Primary School Students.\n- Breakfast has 13 Types of Food Items which will be distributed among Students.\n\n- Free Breakfast will be distributed daily from Monday to Friday on School Working Days.\n\n<br>\n\n**Days****Menu Type****Breakf",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "every-student-enrolled-in-tamil-nadu-government-schools-from-class-1st-to-class"
+  ],
+  "apply_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationsnutritious-meal-programme/chief-ministers-breakfast-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/tncmbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Benefit will be provided only to Students.\n- Students should be Studying in the Government of Tamil Nadu Schools.\n- Students of Class 1st to Class 5th will only be eligible.",
+  "_criteria_filled": 1
+}

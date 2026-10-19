@@ -1,0 +1,31 @@
+{
+  "id": "procedure-for-making-orphan-certificate-for-getting-horizontal-reservation-for-o",
+  "name": "Procedure for Making \"Orphan Certificate\" for Getting Horizontal Reservation for Orphan Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Through this certificate, a 5% horizontal reservation is provided in Government/Non-Government services to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-orphan-child-permanent-residence-certificate-death-certifica"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmochro",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a permanent resident of Uttarakhand.\n1. Children whose both biological or adoptive parents have died within 21 years from the child’s birth are eligible for reservation.\n1. Orphan children residing in voluntary or government-run homes within the state are also eligible for reservation.\n\n<br>",
+  "_criteria_filled": 2
+}

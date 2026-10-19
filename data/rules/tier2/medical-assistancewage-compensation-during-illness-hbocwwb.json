@@ -1,0 +1,27 @@
+{
+  "id": "medical-assistancewage-compensation-during-illness-hbocwwb",
+  "name": "Medical Assistance/Wage Compensation during Illness (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, wage compensation or financial assistance is provided to registered workers if they are admitted to any government or empanelled private hospital for treatment for a minimum of 4 days and a maximum of 30 days.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/116",
+  "source_url": "https://www.myscheme.gov.in/schemes/mawcihbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in any building or construction work.\n   1. The applicant should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year of regular membership.\n   1. The worker must have an active membership with the Board.\n   1. A worker who is admitted to a government or government-approved private hospital for treatment for 4 to 30 days due to an accident or illness is eligible for assistance.\n   1. The assistance shall be for a period not exceeding one month in a year.",
+  "_criteria_filled": 1
+}

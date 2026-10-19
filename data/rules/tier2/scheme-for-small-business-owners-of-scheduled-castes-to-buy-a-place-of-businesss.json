@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-small-business-owners-of-scheduled-castes-to-buy-a-place-of-businesss",
+  "name": "Scheme for Small Business Owners of Scheduled Castes to Buy a Place of Business/Shop",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a maximum loan of ₹10 lakhs will be available to the beneficiary belonging to the scheduled caste category to buy a business premises/shop in the urban area. The beneficiary will bear interest up to 4%, while any bank interest payable above 4% will be covered by the government as an interest subsidy for three years.\n   1. ₹15000/- is also given as subsidy assistance under the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-caste-certificate-issued-by-the-competent-authority-aad"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/app_form_241221_final_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssboscbpbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. There is no income limit.\n   1. Loan assistance is given to the beneficiary only for the purpose of shop or business at one place.\n   1. The subsidy will be paid after three months of shop opening.\n   1. The benefits of this scheme will be given first priority to educated unemployed, unemployed mill workers, persons with technical &amp;amp; professional experience and self-employed persons with qualifications.\n   1. Loans/assistance are also provided for shops/business premises allotted on long-term rent by the State Government or State Government owned Boards/Corporations, Urban Development Authorities, Local Self Government Bodies, or Gram/Nagar Panchayats. However, the shop/business premises will have to be mortgaged to the government till the loan amount for the allotted shop/business premises is repaid.\n   1. If the applicant constructs on his own land, he will have to submit proof that the title of his land is cleared, and the land is&amp;#39; uncultivated &amp;#39;.\n   1. Applicants desirous of availing the benefit of this scheme have to provide security of a maximum of two local persons having immovable property equal to the full amount of the loan.\n\n**Note 01:** The place of business/shop purchased with the loan assistance obtained under this scheme should be in accordance with the land rules and construction rules and if any defect is found in this regard, the amount of loan/assistance sanctioned will be recovered through revenue if necessary.\n**Note 02:** The loan/assistance sanctioned to the applicant can be used only for the purpose for which it was sanctioned, failing which the entire sanctioned amount along with the penal interest will be recovered.\n**Note 03:** The applicant shall be free to repay the loan installments and interest earlier than the due date.\n**Note 04:** Any type of illegal activity shall not be allowed in the business place/shop purchased by obtaining a loan/assistance under this scheme.\n**Note 05**: Loan and interest defaulters will be charged 2.5% more as penal interest and the outstanding loan amount can also be recovered as land revenue arrears.",
+  "_criteria_filled": 1
+}

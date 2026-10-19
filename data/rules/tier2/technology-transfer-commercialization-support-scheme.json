@@ -1,0 +1,32 @@
+{
+  "id": "technology-transfer-commercialization-support-scheme",
+  "name": "Technology Transfer & Commercialization Support Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. This scheme intends to support Technology License/Transfer Startups by providing funding support of a maximum of ₹10 Lakhs in the form of reimbursement for the startups, who have paid to the Research Institution. \n   1. The support is limited to 90% of the technology fee to be paid to the Research entity.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "original-hard-copy-of-invoice-receipt-with-authorized-seal-and-signature-from-th",
+    "moa",
+    "aoa",
+    "din-nos-undertaking-that-the-startup-has-not-so-far-claimed-and-will-not-claim-a",
+    "they-will-pay-twice-the-amount-to-ksum",
+    "which-is-reimbursed-through-the-technology-support-scheme-cancelled-cheque-of-th",
+    "ifsc-code-any-other-document-as-demanded-by-the-recommendingsanctioning-authorit"
+  ],
+  "apply_url": "https://startupmission.kerala.gov.in/schemes/technology-commercialisation",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttcss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The startup should be a registered company in Kerala as an LLP or Pvt. Ltd company and should have an active registration with KSUM at the time of application.\n   1. The startup company has DIPP registration and an ‘Active’/ ‘Active Compliant’ status with MCA. \n   1. The startups shall not have any other pending dues with any of the Government agencies, KSUM, or Other incubators in the state and shall not be blacklisted by any Govt. agency in India\n   1. The women co-founder should have a majority stake in the startup.\n   1. The Startup should be registered in Kerala.\n   1. License/Technology to be sourced from any Government research institution in India and a fee will be paid to the institution.\n\n**Note 01:** The license/technology purchased through this scheme shall be owned by the Startup or as per the terms specified by the research agency.\n**Note 02:** Kerala Startup Mission shall be given a 2% royalty for the product being commercialized, which shall be limited to the amount supported by the Kerala Startup Mission under the scheme.\n**Note 03**: The Startup is expected to commercialize the product for which the license /technology is purchased within a period of 2 years.\n**Note 04:** In case, the Startup is unable to commercialize the product within two years, then the startup will be liable to repay the contribution given by the Kerala Startup Mission.\n**Note 05:** The Startup will sign an agreement with the Kerala Startup Mission before availing of the benefit.",
+  "_criteria_filled": 1
+}

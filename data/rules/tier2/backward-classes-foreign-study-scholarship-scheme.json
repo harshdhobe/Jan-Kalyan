@@ -1,0 +1,31 @@
+{
+  "id": "backward-classes-foreign-study-scholarship-scheme",
+  "name": "Backward Classes Foreign Study Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "To provide financial assistance to students belonging to the backward class.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "marksheet-of-previous-examination-proof-of-admission-research-degree-phd-certifi"
+  ],
+  "apply_url": "https://bcwelfare.mp.nic.in/KnowledgeSharing/Public/AllSchemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/bcfsss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student with first class or 60% marks (or equivalent grade) in the previous examination.\n1. The applicant should be applying for a research degree (Ph.D.) or have at least 2 years of experience in the relevant field for research programs after completing a research degree.\n1. The applicant should be under 35 years of age on 1st January of the year of application.\n1. The applicant should be eligible for special relaxation of up to 10 years in certain cases as decided by the committee.\n1. The applicant should be from a family whose annual income does not exceed the income limit prescribed for the creamy layer.",
+  "_criteria_filled": 2
+}

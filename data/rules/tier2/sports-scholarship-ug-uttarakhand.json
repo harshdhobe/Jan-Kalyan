@@ -1,0 +1,26 @@
+{
+  "id": "sports-scholarship-ug-uttarakhand",
+  "name": "Sports Scholarship (UG) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Rate of Scholarship:** ₹800/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/khelchhatravritiuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be enrolled in the first year of an undergraduate course at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The applicant must be one of the six selected students eligible to receive this benefit.\n\n<br>",
+  "_criteria_filled": 1
+}

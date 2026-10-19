@@ -1,0 +1,26 @@
+{
+  "id": "generator-subsidy-tamil-nadu",
+  "name": "Generator Subsidy-Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Quantum of Assistance:** 25% subsidy or maximum ₹1,50,000/- on the cost of generator sets (up to 125 KVA capacity).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-purchase-or-installation-of-the-generator-set-invoice-and-receipt-of-th"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/19674",
+  "source_url": "https://www.myscheme.gov.in/schemes/gstn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Beneficiaries must be new and existing Micro, Small and Medium Manufacturing Enterprises.\n  - The generator set must have a capacity of up to 125 KVA.\n  - Subsidy claims must be made within six months from the date of purchase or installation.",
+  "_criteria_filled": 1
+}

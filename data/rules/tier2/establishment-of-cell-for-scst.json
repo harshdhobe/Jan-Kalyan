@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-cell-for-scst",
+  "name": "Establishment of Cell for SC/ST",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The project “Establishment of Cell for SC/ST” is being implemented by UCOST in collaboration with the Department of Science &amp;amp; Technology, Government of India. Benefits-\n\n  - To address the basic problems of all Scheduled Caste and Scheduled Tribe communities living in the 13 districts of Uttarakhand through scientific applications.\n  - To promote sustainable development among Scheduled Cas",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-to-be-submitted-as-per-the-guidelines-of-the-uttarakhand"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ecscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiaries must belong to a Scheduled Caste or Scheduled Tribe community residing in any of the 13 districts of the Kumaon and Garhwal divisions of Uttarakhand.\n\n(Mainly: more than 50% of the population)\n<br>",
+  "_criteria_filled": 1
+}

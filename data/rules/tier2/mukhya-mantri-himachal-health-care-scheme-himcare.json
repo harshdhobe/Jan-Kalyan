@@ -1,0 +1,27 @@
+{
+  "id": "mukhya-mantri-himachal-health-care-scheme-himcare",
+  "name": "Mukhya Mantri Himachal Health Care Scheme-HIMCARE",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. Cashless Treatment: The scheme provides cashless treatment coverage, allowing beneficiaries to receive medical services without upfront payment at empanelled hospitals.\n   1. Comprehensive Coverage: HIMCARE offers coverage up to ₹5,00,000/- per year per family, ensuring that families have access to quality healthcare services without financial burden.\n   1. Inclusion of Previously Uncovered Fam",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "the-following-documents-are-mandatory-for-enrollment-under-himcare-categorydocum",
+    "mcnpnac-within-previous-one-monthmnrega-workermnrega-job-card-and-online-mis-rep"
+  ],
+  "apply_url": "https://www.hpsbys.in/content/mmmn",
+  "source_url": "https://www.myscheme.gov.in/schemes/himcare",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Himachal Pradesh.\n   1. Families not covered under the Ayushman Bharat Yojana (Pradhan Mantri Jan Arogya Yojana) are eligible to apply for the HIMCARE scheme.\n   1. Applicant should be HIMCARE card holder. \n   1. The scheme is available to Below Poverty Line (BPL) families, Above Poverty Line (APL) families, Senior citizens and daily wage earners, widows, single women, and persons with disabilities.",
+  "_criteria_filled": 1
+}

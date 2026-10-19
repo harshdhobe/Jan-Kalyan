@@ -1,0 +1,26 @@
+{
+  "id": "cash-amount-for-encouraging-scheduled-tribe-sportsperson-students",
+  "name": "Cash Amount for Encouraging Scheduled Tribe Sportsperson Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Students who have secured top positions at national and international levels are rewarded with the following incentives as a form of encouragement:**\n\n- Cash Prize\n- Certificate of Appreciation\n- Memento",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-aadhar-card-domicile-certificate-proof-of-residence-in-a-sched"
+  ],
+  "apply_url": "https://department.rajasthan.gov.in/scheme/detail/538",
+  "source_url": "https://www.myscheme.gov.in/schemes/cifestss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be a resident of Scheduled Tribe area of Rajasthan.\n1. The applicant should belong to the Scheduled Tribe category.\n1. The applicant should participate in a national or international-level sports competition.\n1.  The applicant should have secured a top-three position at national or international level competition.",
+  "_criteria_filled": 1
+}

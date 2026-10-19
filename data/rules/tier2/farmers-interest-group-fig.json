@@ -1,0 +1,28 @@
+{
+  "id": "farmers-interest-group-fig",
+  "name": "Farmers Interest Group (FIG)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Office Equipment:** ₹5,000/- per group for purchasing office equipment, technical bulletins, and setting up a library.  - **Training and Skill Acquisition:** ₹4000/- per group for training and skill acquisition by farmer members.  - **ID Cards:** ₹400/- per group for issuing ID cards to members.  - **District-Level Meetings:** ₹20,000/- per group for conducting district-level meetings.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-group-registration-details-any-other-documents-if-re"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6850",
+  "source_url": "https://www.myscheme.gov.in/schemes/fig",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be part of a Farmer’s group of 15 farmers.",
+  "_criteria_filled": 1
+}

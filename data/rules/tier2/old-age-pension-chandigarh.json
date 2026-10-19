@@ -1,0 +1,38 @@
+{
+  "id": "old-age-pension-chandigarh",
+  "name": "Old Age Pension - Chandigarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "household",
+  "benefit": "> **Pension Amount-  ₹1000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-residence-proof-of-three-years-voter-card",
+    "ration-card",
+    "electricity-bill-etc-aadhar-card-mobile-number"
+  ],
+  "apply_url": "https://chdsw.gov.in/index.php/scheme/old-age-pension",
+  "source_url": "https://www.myscheme.gov.in/schemes/oapc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s family&#39;s annual income should not exceed ₹1,50,000/-\n1. The applicant resident should be at UT, Chandigarh for more than 3 years.\n1. The applicant&#39;s age should be 60 years and above.",
+  "_criteria_filled": 3
+}

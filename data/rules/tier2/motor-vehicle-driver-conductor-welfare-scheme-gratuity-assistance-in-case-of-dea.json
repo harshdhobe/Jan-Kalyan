@@ -1,0 +1,26 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-gratuity-assistance-in-case-of-dea",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Gratuity Assistance in case of Death",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **Gratuity Assistance in Case of Death**\n\n- A one-time gratuity assistance of ₹2,000 is provided for funeral and last rites.\n- The assistance is payable in case of accidental death of the registered driver or conductor and the family members. .\n\n> **Mode of Disbursement**\n\n- The assistance amount is disbursed immediately by the local body.\n- The local body later claims reimbursement from the Soc",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-death-certificate-accident-report-or-police-fir-in-case"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-gad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor under the scheme.\n1. The applicant should possess a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant’s name should be registered on the Samagra Portal.\n1. The death should have occurred due to an accident.\n1. The applicant should not be a government employee.\n1. The applicant’s family member should fall under the defined [family category](https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf) (**Page No. 3**) of the scheme.\n<br>",
+  "_criteria_filled": 1
+}

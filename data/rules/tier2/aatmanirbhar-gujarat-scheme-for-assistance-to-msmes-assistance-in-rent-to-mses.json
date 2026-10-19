@@ -1,0 +1,28 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-in-rent-to-mses",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance in Rent to MSEs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Reimbursement of Rent Paid:** Enterprises will receive assistance covering 65% of rent paid, with a maximum limit of ₹1,00,000/- per annum for a 5 years period.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promotersdirectorspartners",
+    "authorized-person-copy-of-gst-registration-if-applicable-copy-of-ca-certified-ba"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmearmse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only Micro and Small Enterprises (MSEs) involved in manufacturing activities are eligible.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. The enterprise should have a valid rent deed or lease agreement for the shed used for manufacturing activities.\n   1. The manufacturing activity should consume electricity/power for its operations.",
+  "_criteria_filled": 1
+}

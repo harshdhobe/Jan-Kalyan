@@ -1,0 +1,27 @@
+{
+  "id": "mukhiya-mantri-protsahan-yojna",
+  "name": "Mukhiya Mantri Protsahan Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a one-time incentive/award of ₹75000/- will be given to all the eligible students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photographs-2-copy-of-aadhaar-card-3-copy-of-himachali-bonafide",
+    "as-required"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Mukhya%20Mantri%20%20Protsahan%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a native of Himachal Pradesh.\n1. The student, who is selected and take admission for a degree course in any Indian Institute of Technology (IIT) or All India Institute of Medical Sciences (AIIMS) or for a Post Graduate Diploma Course in any Indian Institute of Management (IIM) or Indian School of Mines (ISM) Dhanbad or Indian Institute of Science (IISc), is eligible to apply for award under this scheme.",
+  "_criteria_filled": 1
+}

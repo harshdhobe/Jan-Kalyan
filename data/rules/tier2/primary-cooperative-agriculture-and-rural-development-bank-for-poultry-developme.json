@@ -1,0 +1,28 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-poultry-developme",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Poultry Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** \n\n   1. Up to ₹14,800/- for 200 birds (poultry).\n   1. Up to ₹17,000/- for 2 cows.\n\n  - **Interest Rate:** 14.5% to 16.5% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-poultry-farming-or-cattle-development-if-required-any"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme_details.php?id=MTI1MA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcardfpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a farmer.\n  - The beneficiary should be engaged in poultry farming or cattle development.\n  - The beneficiary should be interested to avail loan for poultry farming or cattle development.\n  - The beneficiary should have the intention to use the loan specifically for poultry farming or cattle development.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

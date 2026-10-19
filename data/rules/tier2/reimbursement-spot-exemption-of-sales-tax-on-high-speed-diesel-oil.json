@@ -1,0 +1,37 @@
+{
+  "id": "reimbursement-spot-exemption-of-sales-tax-on-high-speed-diesel-oil",
+  "name": "Reimbursement/ Spot Exemption of Sales Tax on High-Speed Diesel Oil",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "The prevailing sales tax on high-speed diesel oil consumed by a registered boat will be reimbursed/spot-exempted subject to a maximum of 15,000 liters per boat per annum, as may be revised by Government from time to time.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 23
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-card-election-photo-identity-card-for-proof-of",
+    "from-the-authorised-bunks-declaration-that-the-applicant-has-not-ventured-fishin"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/subsidies-application007.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsesthsdo-faascdmf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should either belong to the fishermen community or be one of those professionally engaged in fishing/fish trade occupation on a full-time basis/prospective entrepreneurs.\n- The applicant must have resided in the Union territory of Puducherry for a continuous period of not less than five years at the time of applying for extending subsidies/ grants. \n- The applicant must have been enrolled as a member of the Fishermen Co-operative Society and be above the age of 23 years and below 60 years.\n- The applicant must not have been a recipient of Old Age Pension, issued by the department. \n- The applicant should not be employed in Government/ Government Undertakings/Fishermen Co-operative Society. \n- The applicant must not have any dues to be paid to the Department/Fishermen Co-operative Societies at the time of making the application. \n- The applicant should possess a registered mechanized boat/motorized fishing craft and the same should have been renewed on annual basis, as the case may be. \n- The applicant should have renewed the diesel passbook on a monthly basis. \n- The applicant should submit bills as proof of having drawn diesel, from the authorised bunks. \n- The applicant should not have ventured fishing during notified fish ban periods.",
+  "_criteria_filled": 3
+}

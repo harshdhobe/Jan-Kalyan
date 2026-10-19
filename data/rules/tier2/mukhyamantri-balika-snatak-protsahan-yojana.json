@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-balika-snatak-protsahan-yojana",
+  "name": "Mukhyamantri Balika (Snatak) Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Financial Incentive:** ₹25,000/- as a one-time allowance.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-student-photo-size-should-be-less-than-50-kb-prescribed-size-200-x-230"
+  ],
+  "apply_url": "https://medhasoft.bih.nic.in/SnatakStudent/(S(dym3bdrzp51hjvjkft4hpem5))/pdf/Advt.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Bihar.\n   1. The applicant must have graduated or obtained an equivalent degree (including Alim or Shastri) after April 25, 2018, from a government-recognized or affiliated institution within Bihar.\n   1. The scheme applies to graduates from general, technical, or professional courses.\n   1. The applicant must have an account in any nationalized bank, recognized private bank or India Postal Payment Bank located in Bihar.",
+  "_criteria_filled": 2
+}

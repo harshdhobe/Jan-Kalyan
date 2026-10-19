@@ -1,0 +1,36 @@
+{
+  "id": "khiladi-protsahan-chhatravriti-yojana",
+  "name": "Khiladi Protsahan Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, players/sportspersons aged 14 to 23 years are selected annually based on the P-SAT (Physical and Sports Aptitude Test). \n  - A total of 100 boys and 100 girls are selected per district, and they are provided a scholarship of ₹2,000/- per month along with ₹10,000/- once a year for sports equipment.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 23
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-permanent-residence-certificate-bank-account-deta"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/piss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must be a boy or girl between 14 and 23 years of age.\n   1. The boy or girl who obtain the highest marks based on merit in the final district-level competition, conducted through various stages of the Physical and Sports Aptitude Test (P-SAT) assessing physical abilities such as strength, flexibility, endurance, speed, and coordination, will be eligible for the sports scholarship.\n   1. Scholarships are awarded on a priority basis in the following sports: (1) Athletics, (2) Badminton, (3) Boxing, (4) Taekwondo, (5) Kabaddi, (6) Football, (7) Volleyball, (8) Basketball, (9) Hockey, (10) Table Tennis, (11) Karate, and (12) Judo.\n\n<br>",
+  "_criteria_filled": 3
+}

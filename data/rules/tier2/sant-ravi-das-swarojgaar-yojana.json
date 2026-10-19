@@ -1,0 +1,41 @@
+{
+  "id": "sant-ravi-das-swarojgaar-yojana",
+  "name": "Sant Ravi Das Swarojgaar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "1. Scheduled Caste beneficiaries can receive a 5% annual interest subsidy on Term and Working Capital Loans for up to 7 years, including the moratorium period.\n1. The subsidy is provided on the condition of regular loan repayment as per the prescribed schedule.\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-identity-and-residence-caste-certificate-income-certificat"
+  ],
+  "apply_url": "https://govtpressmp.nic.in/pdf/extra/2022-05-13-Ex-249.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srdsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be between 18 and 40 years of age.\n1. The applicant should be belong to Scheduled Caste category.\n1. The applicant should have a minimum educational qualification of 12th class passed.\n1. The applicant&#39;s annual family income should not exceed ₹12.00 lakhs.\n1. The applicant should not be a defaulter of any bank or financial institution, including MFI, NBFC, SFB, or PACS.\n1. The applicant should not currently be a beneficiary of any other self-employment scheme of the state or central government.\n1. Family Definition:\n\n- If unmarried: The applicant and dependent parents.\n- If married: The applicant, spouse, and dependent children (no age bar for dependent, unmarried children).\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 4
+}

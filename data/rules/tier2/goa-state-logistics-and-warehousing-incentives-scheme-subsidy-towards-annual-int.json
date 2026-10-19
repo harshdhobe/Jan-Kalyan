@@ -1,0 +1,30 @@
+{
+  "id": "goa-state-logistics-and-warehousing-incentives-scheme-subsidy-towards-annual-int",
+  "name": "Goa State Logistics and Warehousing Incentives Scheme: Subsidy Towards Annual Interest Rate Payable On Loans",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Subsidy towards annual interest rate payable on loans.\n- The subsidy rate is 50% of the annual interest amount payable by the entity on loans taken for the construction of projects.\n- The entitlement per project shall not exceed an annual sum of ₹25,00,000/- (Indian Rupees Twenty-five Lakhs).\n\n<br>\n\n##### ***Period of Subsidy***\n\n- Standard projects are eligible for 03 consecutive years from the",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "ca-certified-details-of-shareholding-pattern-for-paid-up-capital-for-women-entre",
+    "self-attested-approved-project-cost-duly-certified-by-chartered-engineer-civil-i",
+    "start-of-construction",
+    "completion-of-infrastructure",
+    "and-commencement-of-commercial-operation-bank-proof-passbookcancelled-cheque-lea"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gslwis-stairpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be applicable only for non-mega industries.\n- The applicant must own a business unit in Goa and provide Logistics and Warehousing services in Goa.\n- The applicant must be a Logistics and Warehousing services provider.\n- The applicant must have Permanent Account Number (PAN) and must regularly file the Income Tax Returns in the name of the legal entity.\n- The applicant must be in continuous operations for a minimum period of six months post the date of notification of Logistics and Warehousing Policy 2023.\n- The applicant must have incurred the expenses (loan availed) post the date of launch of the Logistics and Warehousing Policy 2023.\n- The applicant must not have claimed similar benefit under any other scheme/program of State or Central Government.\n- The applicant must provide minimum 40% local employment (employees who are employed continuously during the claim year and are on the payroll of the unit for that year shall be considered).\n- The applicant must have availed the loan as term loan and/or working capital loan for conducting business of the unit claiming the benefit.\n- The applicant must have procured the loan from a nationalized bank, scheduled private bank, Co-operative Bank, Economic Development Corporation Limited (EDC Ltd.), or any Non-Banking Financial Institutions recognized by the Reserve Bank of India.\n- The applicant must ensure the relevant loan quantum for determining the subsidy is the aggregate amount borrowed for the construction of the project, including the cost of land acquisition and all construction-related expenses.\n- The applicant must ensure the loan is not covered under the Modified Interest Rebate Scheme 2012, or the interest paid is not under the Chief Minister Rojgar Yojana Scheme or any other employment generation scheme of the Government of India/Government of Goa.\n\n<br>\n\n##### ***Preference and Quantum Criteria***\n\n- The benefit is subject to a first come first serve basis, contingent upon the availability of funds in a particular fiscal year.\n- The quantum of benefit shall be defined by the proportion of Goan employees on payrolls:\n- 60% or above Goan employment results in 100% of the benefits.\n- More than 40% but less than 60% Goan employment results in 80% of the benefits.\n- Less than 40% Goan employment results in ineligibility.\n\n<br>\n\n##### ***Project Category and Minimum Land Area Requirements***\n_The project must be one of the following eight categories, subject to the minimum land area specified:_\n**Logistics Park (Multi-modal/Integrated), Inland Container Depot (ICD), Container Freight Stations (CFS)**\n\n- Standard Minimum Land Area: 1 Acre\n- Backward Talukas/SC/ST/Women Minimum Land Area: 1 Acre.\n\n**Air Freight Stations (AFS)**\n\n- Standard Minimum Land Area: 1,000 square meters\n- Backward Talukas/SC/ST/Women Minimum Land Area: 1,000 square meters.\n\n**Warehouses, Truck Terminals**\n\n- Standard Minimum Land Area: 1,000 square meters\n- Backward Talukas/SC/ST/Women Minimum Land Area: 500 square meters.\n\n**Cold Chain Unit, Testing Facilities**\n\n- Standard Minimum Land Area: 200 square meters\n- Backward Talukas/SC/ST/Women Minimum Land Area: 100 square meters.\n\n<br>",
+  "_criteria_filled": 1
+}

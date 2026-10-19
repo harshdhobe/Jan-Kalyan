@@ -1,0 +1,30 @@
+{
+  "id": "trainingcapacity-building-programmesresearch-work-on-remote-sensing-and-gis-appl",
+  "name": "Training/Capacity Building Programmes/Research work on Remote Sensing and GIS Applications",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Researchers are selected for scientific research projects funded by the Central and State Governments and trained in Remote Sensing and GIS applications. The training is provided free of cost. Selected researchers (JRFs/SRFs/Project Scientists) receive stipends (including HRA) as per the regulations of the respective funding organizations. Researchers are required to make their own arrangements ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificates-and-other-academic-documents-mobile-number",
+    "if-any-training-certificate",
+    "if-any-bank-account-details",
+    "caste-certificate",
+    "if-applicable-any-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcbprwrsgisa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following are eligible to participate in the Training and Capacity Building Programme:\n\n   1. Students who have passed a Postgraduate degree (preferably in the Science stream) with First Division from any recognized university in India.\n   1. Final semester/year postgraduate students (preferably from the Science stream) of any recognized university (private, state, or central) in India.\n   1. Personnel from the Central Government and various line departments of the State Government.\n   1. Graduate and higher-level students from government, private, and central universities or colleges within the state.\n\n<br>",
+  "_criteria_filled": 1
+}

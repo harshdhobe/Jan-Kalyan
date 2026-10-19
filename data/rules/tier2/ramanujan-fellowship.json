@@ -1,0 +1,29 @@
+{
+  "id": "ramanujan-fellowship",
+  "name": "Ramanujan Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The amount of the Fellowship will be ₹1,35,000/- per month (consolidated including HRA).\n   1. Each Fellow will, in addition, receive a research grant of ₹7.00 lakh per annum (for consumables, travel, research personnel &amp;amp; contingencies, etc.) and ₹60,000/- per annum as overhead charges.\n   1. The Ramanujan Fellows will be eligible to receive regular research grants through the extramura",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-proof-of-age-3-details-of-education-qualifications",
+    "granted-or-commercialized-7-nomination-letter-on-letter-head",
+    "duly-signed-and-stamped-8-cv-of-nominee-9-plagiarism-undertaking-10-any-other-do",
+    "as-required"
+  ],
+  "apply_url": "https://serb.gov.in/page/awards_fellowship#Ramanujan%20Fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/rf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The fellowship is open to brilliant Indian scientists and engineers from all over the world who are below the age of 40 years, who want to return to India from abroad.\n   1. The applicant should possess a higher degree or equivalent, such as a Ph.D. in Science/Engineering, Master in Engineering or Technology/MD in Medicine, etc., and have adequate professional experience.\n   1. These Fellowships are very selective and only those who have a proven/outstanding track record as evident from their research publications and recognitions would be eligible.\n   1. In case a fellow is offered a permanent position, he/she will be ineligible for the fellowship.\n   1. This fellowship is meant for working in new areas and laboratories in order to expand their research capabilities, other than the one, where the candidate has obtained his/her doctorate degree.\n   1. Nominations from the Ph.D. guides of the candidate and nominations from the same institute where they opted for their Ph.D, will not be considered.\n   1. The age of the candidate should not be more than 40 years.\n   1. The candidate should be working abroad at the time of his nomination for the fellowship.\n   1. The Fellowship is only for those scientists who are not holding any permanent/tenure track/contractual position in any Indian Institute/University.\n\n**Note:** In case the selected fellow gets any position such as permanent, tenure track, or contractual position, he/she, will become ineligible for receiving fellowship including a research grant and overhead under the fellowship, and has to relinquish the Ramanujan fellowship in total.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "free-books-scheme-for-scheduled-caste-students-pursuing-higher-education",
+  "name": "Free Books Scheme for Scheduled Caste Students Pursuing Higher Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Eligible students will receive ₹2,000/- per year for purchasing books.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/TrackApplication",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbsscsphe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should be a domicile of Haryana.\n1. The applicant should be studying in a government college in Haryana.\n1. The applicant should be pursuing higher education.",
+  "_criteria_filled": 1
+}

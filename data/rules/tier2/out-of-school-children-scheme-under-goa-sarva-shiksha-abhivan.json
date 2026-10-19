@@ -1,0 +1,36 @@
+{
+  "id": "out-of-school-children-scheme-under-goa-sarva-shiksha-abhivan",
+  "name": "Out of School Children scheme under Goa Sarva Shiksha Abhivan",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Sanctions are granted to the NGOs for providing special training in the centre as per the norms of Sarva Shiksha Abhiyan (SSA).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 14
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "survey-report-identifying-oosc-detailed-proposal-document-ngo-registration-certi"
+  ],
+  "apply_url": "https://education.goa.gov.in/sites/default/files/2020-11/schemes-gssa.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ooscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The child should not be enrolled in a school.\n- The child should be in the age group of 6 to 14 years.",
+  "_criteria_filled": 3
+}

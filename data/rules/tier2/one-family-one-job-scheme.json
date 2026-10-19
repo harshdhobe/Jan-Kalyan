@@ -1,0 +1,36 @@
+{
+  "id": "one-family-one-job-scheme",
+  "name": "One Family One Job Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Candidates registered under this scheme are eligible for all benefits provided by the Employment Department.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-family-id-ppp-document-2-eligibility-documents-ration-card-family-history-shee"
+  ],
+  "apply_url": "https://hrex.gov.in/api/downloadFile/pdf/ofoj.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ofojs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be between 18 and 35 years old (with a relaxation of up to 5 years for SC or BC applicants).\n   1. The applicant must be a resident of Haryana State.\n   1. No member of the applicant&amp;#39;s family should be employed in the public or private sector.\n   1. No member of the applicant&amp;#39;s family should be an income tax or sales taxpayer.\n   1. No member of the applicant&amp;#39;s family should be a current or former MP/MLA or a chairman of any board, corporation, or undertaking.",
+  "_criteria_filled": 3
+}

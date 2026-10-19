@@ -1,0 +1,26 @@
+{
+  "id": "funeral-assistance-scheme-pulws",
+  "name": "Funeral Assistance Scheme (PULWS)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹7,000/- to the nominee of the deceased member towards funeral expenses.\n- The amount is credited through Direct Benefit Transfer (DBT) into the bank account of the nominee.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-residentialdomicile-certificate-original-birth-cer"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fas-pulws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a nominee of the deceased. \n- The deceased, in his/her lifetime, should have been a resident of the Union Territory of Puducherry.\n- The deceased, in his/her lifetime, should have been an Unorganized Worker: Taxi and Auto Drivers, Workers Employed in Shops &amp; Catering Establishments, Carpenters, Nathaswara Vidwans, Hair Dressers, Tailors, Cycle Rickshaw Drivers, Cobblers, Washermans, Goldsmith, Blacksmith, Brass Vessel Makers, Sculptors, Loading and Unloading Workers, Tree Climbers, Pottery Workers, Coir Workers, Toddy Neera Tappers, Bullock Cart Drivers, Thatchers, Cooks, Hawkers, News Paper Vendors, Workers Engaged in Bricks and Tiles Manufacturing, One Hundred, Workers Engaged in Distribution of Liquid Petroleum Gas Cylinder, Domestic Workers, Light Music Instrument Players, Automobile Workshop Workers.\n- The deceased, in his/her lifetime, should have been enrolled with the Puducherry Unorganised Labourers&#39; Welfare Society.\n- The deceased, in his/her lifetime, should have been between 18 to 59 years of age.\n- The deceased, in his/her lifetime, should have been taking an Annual Subscription of ₹100/- every year.\n- The deceased, in his/her lifetime, should have been paying a Registration Fee of ₹25/-.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "agnipath-yojana",
+  "name": "Agnipath Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Agniveers will be given an attractive customized monthly package along with Risk and Hardship allowances as applicable in the three services. On completion of the engagement period of four years, Agniveers will be paid a one-time ‘SevaNidhi’ package which shall comprise their contribution including accrued interest thereon and a matching contribution from the Government equal to the accumulated am",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 17
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 23
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-ie-aadhaar-card-proof-of-address-proof-of-highest-educational",
+    "the-ministry-shall-release-the-complete-list-of-the-required-documents-in-the-pu"
+  ],
+  "apply_url": "https://www.mod.gov.in/sites/default/files/pr_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a citizen of India.\n   1. For the 2022 intake, the age of the applicant should be between 17.5 to 23 years. For the subsequent intakes, the age of the applicant should be between 17.5 to 21 years.\n   1. The applicant must fulfil the educational qualifications and physical and medical standards set by the Indian Army / Indian Navy / Indian Air Force.\n\n&gt; **Note 01:** The Agniveers will be enrolled in the Forces under respective Service Acts for a period of four years. They would form a distinct rank in the Armed Forces, different from any other existing ranks.\n\n&gt; **Note 02:** Upon the completion of four years of service, based on organizational requirements and policies promulgated by the Armed Forces from time to time, Agniveers will be offered an opportunity to apply for permanent enrolment in the Armed Forces.\n\n&gt; **Note 03:** The applications for permanent enrolment will be considered in a centralized manner based on objective criteria including performance during their four-year engagement period and up to 25% of each specific batch of Agniveers will be enrolled in the regular cadre of the Armed Forces. The selection will be the exclusive jurisdiction of the Armed Forces.\n\n&gt; **Note 04:** Agniveers will meet the medical eligibility conditions laid down for enrolment in the armed forces as applicable to respective categories/trades.\n\n&gt; **Note 05:** The educational qualification for Agniveers will remain as in vogue for enrollment in various categories.\n\n<br>",
+  "_criteria_filled": 2
+}

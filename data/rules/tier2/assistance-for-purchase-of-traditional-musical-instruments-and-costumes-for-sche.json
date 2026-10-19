@@ -1,0 +1,32 @@
+{
+  "id": "assistance-for-purchase-of-traditional-musical-instruments-and-costumes-for-sche",
+  "name": "Assistance for Purchase of Traditional Musical Instruments and Costumes for Scheduled Caste/Tribe Individuals",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Persons belonging to the Scheduled Castes or Scheduled Tribes, whose source of income is through their traditional art, and who do not possess musical instruments or costumes, are provided with traditional musical instruments (such as Dhol, Damaun, Masakbeen, Ransingha, Trumpet, Nagada, Shield, Sword, etc.) and costumes free of cost to help them sustain their livelihood.\n  - The instruments are ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-monthly-income-of-2",
+    "000-issued-by-the-tehsildar-certificate-of-artistinstrument-aadhaar-card-caste-c"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aptmicsct",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a folk artist.\n1. The applicant must belong to the Scheduled Caste or Scheduled Tribe community.\n1. The applicant&#39;s monthly income must not exceed ₹2,000/-.\n1. Only one set of musical instruments is provided per artist in a family under this scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

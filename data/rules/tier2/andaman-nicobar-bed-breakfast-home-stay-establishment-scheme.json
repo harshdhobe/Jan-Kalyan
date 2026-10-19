@@ -1,0 +1,27 @@
+{
+  "id": "andaman-nicobar-bed-breakfast-home-stay-establishment-scheme",
+  "name": "Andaman & Nicobar Bed & Breakfast / Home Stay Establishment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. The scheme will be on a bed-and-breakfast basis, and charges will have to be levied accordingly. The type of breakfast to be offered will have to be specified, the charges will have to be displayed, and the visitors will have to be informed in advance to avoid unnecessary disputes.\n1. Once an establishment applies for classification or reclassification, it will have to be ready at all times for",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "utilize-the-prescribed-application-form-available-within-the-official-notificati",
+    "sizes-ownership-or-lease-documentation"
+  ],
+  "apply_url": "https://www.andamantourism.gov.in/admin-pannel/docfile/23-Bed%20and%20Breakfast%20Notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/acbbhses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A person holding property in A &amp; N and willing to use a part of it to provide accommodation for Guests (Tourists) can Register the same under the Bed and Breakfast (B &amp; B) Scheme of A &amp; N Admin. \n1. The property can be either “Owned” or “Rented / leased”. For purpose of this scheme, the term “Owner” refers to both types mentioned above.\n\n<br>",
+  "_criteria_filled": 1
+}

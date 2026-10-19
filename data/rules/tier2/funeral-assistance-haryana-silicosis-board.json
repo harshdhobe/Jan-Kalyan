@@ -1,0 +1,26 @@
+{
+  "id": "funeral-assistance-haryana-silicosis-board",
+  "name": "Funeral Assistance- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹15,000/- is given to the dependent/nominee of the deceased worker for performing the funerary rituals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-of-applicant-identity-card-of-the-deceased-worker-death-cer"
+  ],
+  "apply_url": "https://hrylabour.gov.in/staticdocs/labourpolicies/Haryana%20Silicosis%20Rehabilitation%20Policy%20(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fa-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the dependent/nominee of the deceased worker.\n   1. The deceased worker should have been suffering from silicosis as confirmed by the Silicosis Diagnosis Board, Haryana.\n   1. The worker should have been employed in a factory or at a construction site.",
+  "_criteria_filled": 1
+}

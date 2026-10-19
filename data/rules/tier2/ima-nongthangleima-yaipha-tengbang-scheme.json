@@ -1,0 +1,37 @@
+{
+  "id": "ima-nongthangleima-yaipha-tengbang-scheme",
+  "name": "IMA Nongthangleima Yaipha Tengbang Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "- **Financial Assistance of ₹500/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhar-card-as-proof-of-identity-certification-that-the-appl",
+    "with-seal-and-signature-bank-passbook"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/35/14/3514a434-e860-4354-917a-b12237e79d18/cm_nongthang_leima-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/inyts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman. \n1. The applicant should be a resident of Manipur. \n1. The applicant&#39;s age should be 40 years and above. \n1. The applicant should not be a beneficiary of any existing government scheme for individual beneficiaries. \n1. The applicant should be living without any source of income/livelihood.\n1. The applicant should be any one of the following:\n\n  - Widows.\n  - Divorcees.\n  - Separated Women.\n  - Deprived and Marginalized Women such as ex-drug users, etc.\n  - Single Women.\n  - Single Transgender Women.\n  - Women belonging to low-income households and Other Marginalized Groups.",
+  "_criteria_filled": 3
+}

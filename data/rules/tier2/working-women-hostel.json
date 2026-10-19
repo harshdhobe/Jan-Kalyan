@@ -1,0 +1,31 @@
+{
+  "id": "working-women-hostel",
+  "name": "Working Women Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "&gt; **Rental Charges:**\n\n  - **Single Bedrooms:** Not exceeding 15% of total emoluments/gross salary.  - **Double Bedrooms:** Not exceeding 10% of total emoluments/gross salary.  - **Dormitories:** Not exceeding 7.5% of total emoluments/gross salary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-number-visitor-list-appointment-of-local-guardian-acceptan"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=aPONwSY9UyBChxMNMNTtAQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/wwhh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a woman.\n  - The applicant should be working individual.",
+  "_criteria_filled": 2
+}

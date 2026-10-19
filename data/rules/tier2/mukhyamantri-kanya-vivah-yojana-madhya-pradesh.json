@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-kanya-vivah-yojana-madhya-pradesh",
+  "name": "Mukhyamantri Kanya Vivah Yojana- Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, the following assistance is provided:\n\n  - Each eligible bride (including girls, widows, or abandoned women) participating in the mass marriage ceremony will receive a total of ₹49,000/- through an Account Payee Cheque, on the day of the mass marriage ceremony.\n  - The organizing body that conducts the mass marriage ceremony will receive ₹6,000/- per beneficiary.\n\n**Note:** A to",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-certificate-proving-that-the-bride-or-grooms-guardian-is-a-native-of-madhya-pr",
+    "it-will-be-provided-by-the-concerned-authority-where-the-applicant-resides-if-th",
+    "the-samagra-id-will-not-be-mandatory-3-photocopies-of-aadhaar-cards-for-both-the",
+    "the-death-certificate-of-the-husband-9-for-abandoned-women",
+    "the-court-order-for-legal-divorce-10-if-the-beneficiary-is-a-registered-laborer",
+    "a-photocopy-of-the-labor-registration-card-is-required-this-is-necessary-because"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=373",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmkvymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The parents of the bride/groom should be natives of Madhya Pradesh.\n   1. Financial assistance will be provided to girls, widows, and abandoned women from destitute or poor families in the state at the time of their marriage.\n   1. The bride should be at least 18 years old, and the groom should be at least 21 years old.\n   1. The applicant should belong to the General, Other Backward Class, Scheduled Caste, or Scheduled Tribe category.\n   1. There are no income restrictions for receiving assistance under the scheme.\n   1. The bride and groom should participate in the mass marriage ceremony organized on the prescribed dates.\n   1. The benefit of this scheme will not be available for single marriage ceremonies.\n\n**Note 1:** Abandoned women who have been legally divorced are only eligible under the scheme.\n**Note 2:** If the groom is from outside the state, the bride will still be eligible for the benefits of the scheme. However, if the parents of either the bride/groom are not natives of the state, the benefits under the scheme will not be available.\n**Note 3:** The bride should not have been previously married. This means that the marriage of the bride and groom must take place solely during a mass marriage ceremony organized under the scheme, and they should not have been married through a single or any other mass marriage ceremony before.\n**Note 4:** A mass marriage ceremony will be organized only if applications are received from a minimum of 5 couples.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deen-dayal-antyodaya-yojana-national-urban-livelihoods-mission-day-nulm-support",
+  "name": "Deen Dayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM): Support for Urban Homeless – Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "People living under the open sky are provided with benefits in night shelters.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-night-shelters-to-avail-of-the-ben"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/daynulmsuh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any person living under the open sky within the municipal areas of Uttarakhand is eligible to stay in a night shelter.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "icssr-post-doctoral-fellowship",
+  "name": "ICSSR Post-Doctoral Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1)\tMonthly Fellowship amount @ Rs.31,000 per month\n2)\tContingency Grant @ Rs.20,000 per annum\n3)\tAPI points as per the UGC Guidelines in force at the point of time\n4)\tInstitutional overhead (7.5%) – supports the hosting institution.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "the-list-of-documents-required-will-be-given-in-the-application-form-when-the-ca"
+  ],
+  "apply_url": "https://icssr.org/post-doctoral-fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/post-doctoral-fellowship",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tThe applicant must be an Indian citizen.\n2)\tMust be under 45 years of age (5-year relaxation for SC/ST/PwD).\n3)\t Must possess a Ph.D. in a social science discipline.\n4)\tMust have demonstrable research competence via publications.\n5)\tMust affiliate with a public-funded Indian institution approved for Ph.D.\n6)\t Must have a supervisor who is a serving faculty (Associate Professor or above).\n7)\tApplicant must not be a defaulter of any ICSSR grant/project/fellowship.",
+  "_criteria_filled": 1
+}

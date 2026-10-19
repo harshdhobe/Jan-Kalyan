@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-students-who-cleared-civil-services-prelims-conducted-by",
+  "name": "Financial Assistance to Students who Cleared Civil Services Prelims Conducted by UPSC/APSC",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "- Financial assistance to students belonging to the Tea Tribes and Adivasi Community who have cleared the Civil Services Preliminary Examination conducted by the Union Public Service Commission/Assam Public Service Commission during the current year.\n- The assistance is intended to support them in their preparation for the Mains Examination and succeed.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "valid-caste-certificate-which-is-duly-certifiedissued-by-the-district-commission"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasccspcua",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam and must belong to the Tea Tribes and Adivasi community.\n- The applicant must produce a valid Caste certificate which is duly certified/issued by the District Commissioner of the concerned district or his/her designated officer.\n- The applicant should have cleared the Civil Services Preliminary Examination conducted by the Union Public Service Commission/Assam Public Service Commission during the current year.\n- The applicant must produce his/her copy of the admit card and result of the Civil Services Preliminary Examination conducted by the Union Public Service Commission/Assam Public Service Commission.\n- The applicant should not be a Government service holder.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "national-family-benefit-scheme-for-bpl-families",
+  "name": "National Family Benefit Scheme for BPL Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **Monetary Benefit:** ₹20,000/- (one-time assistance).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "voter-id-ration-card-residence-certificate-of-the-deceased-death-certificate-app"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=5FvpaIM28ThhAUL1mBf2bg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsbpl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Haryana.\n  - The applicant&amp;#39;s name should be registered in the BPL list or classified as destitute.\n  - The applicant should be between 18 and 59 years of age.\n  - The applicant should not have any other source of income.\n  - If eligible, both husband and wife are entitled to receive the benefit individually.\n  - The applicant should not be receiving assistance or pension under any other government scheme.\n  - The application must be submitted within one year from the date of death of the breadwinner.\n  - The applicant must be the head of the family or a surviving family member considered the head after investigation.\n\n> **Note:**\n\n  - Benefit will be given to such surviving members in the family of the deceased, who after investigation, will be considered as the head of the family.\n  - The word family means husband/wife/minor children/unmarried daughters and dependent parents.\n  - If any woman&amp;#39;s parents are also living in house of her daughter and son-in-law, then that too will be considered part of the family.\n\n<br>",
+  "_criteria_filled": 4
+}

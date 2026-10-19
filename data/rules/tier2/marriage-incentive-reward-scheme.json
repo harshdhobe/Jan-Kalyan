@@ -1,0 +1,41 @@
+{
+  "id": "marriage-incentive-reward-scheme",
+  "name": "Marriage Incentive Reward Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "1. In the case of the young man with the disability: ₹15,000/- is provided. \n1. In the case of the girl with the disability ₹20,000/- is provided. \n1. In case of disability of both young man and girl ₹35,000/- is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-address-proof-photograph-disability-percent-proof-marriage-certificate"
+  ],
+  "apply_url": "http://divyangjan.upsdc.gov.in/DefaultMrgForm.aspx?Type=u5fH6rnyiuD38jR61vmRCQ%3d%3d&appid=9OYR9kUytIsLilKZieD5xg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mirs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Certificate of minimum 40% disability.\n1. The couple should be a permanent resident of Uttar Pradesh or its domicile for at least five years.\n1. None of the members of the couple has been convicted in any criminal case.\n1. The age of the girl child in the couple should not be less than 18 years and not more than 45 years at the time of marriage. \n1. The age of the man should not be less than 21 years and not more than 45 years  at the time of marriage\n1. No one from the couple is an income taxpayer.\n1. The marriage has been registered.",
+  "_criteria_filled": 4
+}

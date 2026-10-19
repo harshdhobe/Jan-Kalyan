@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-national-widow-pension-scheme-sikkim",
+  "name": "Indira Gandhi National Widow Pension Scheme - Sikkim",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "The beneficiary will get a monthly pension of ₹ 2000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-recent-passport-size-photographs-3-nos",
+    "2-attested-photocopy-of-sikkim-subject-certificate-certificate-of-identification",
+    "caste-certificate-3-attested-photocopy-of-below-poverty-line-certificate-4-birth"
+  ],
+  "apply_url": "http://sikkimsocialwelfare.gov.in/wp-content/uploads/2015/12/22.3.14-Rule-for-Sikkim-Social-Assistance-PEnsion-Scheme-2014.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignwps-sikkim",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the state of Sikkim.\n1. The applicant should be from Below Poverty Line (BPL) family.\n1. The applicant should have attained the age of 21 years and above.\n1. The applicant should not have any source of income i.e. applicant should not be a recipient of salary / pension / family pension from Central Government / other State Governments.\n1. The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”.\n\n<br>\n\n**Note 1:** If the beneficiary remarried, the pension shall be ceased to be drawn from the date of her re-marriage.\n<br>",
+  "_criteria_filled": 4
+}

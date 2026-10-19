@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-to-sc-students-for-pursuing-higher-studies-abroad",
+  "name": "Financial Assistance to SC Students for Pursuing Higher Studies Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹5,00,000/- per annum, up to a maximum of ₹20,00,000/- for Ph.D. (4 years) and ₹10,00,000/- for Masters (2 years).\n> **Funds are Disbursed in Installments**\n\n- First installment after admission confirmation.\n- Subsequent installments every six months/one year based on progress reports.\n\nCovers tuition and living expenses at accredited foreign universities.\n> **Conditions**\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "matriculation-certificate-degreediploma-mark-sheets-and-certificates-income-cert",
+    "course",
+    "expenses-aadhaar-card-undertakingself-declaration-annexure-i-for-employed-candid"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/abroad.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatssfshsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile of Delhi or a bonafide resident of Delhi for at least 5 years.\n1. The applicant should be the only child eligible under this scheme.\n1. Employed applicant should submit their application through their employer with a No Objection Certificate (NOC).\n1. The applicant should not have already completed the same level of education (Master’s/Ph.D.) in India or abroad.\n1. Applicants for the Ph.D. Course should have secured at least 55% marks or equivalent grade in relevant Master’s Degree.\n1. Applicants for the Master’s Degree Course should have secured at least 55% marks or an equivalent grade in a relevant Bachelor’s Degree.\n1. The applicant should be below 30 years old as of the cutoff date.\n1. The applicant’s total family income should not exceed ₹8,00,000/- per annum.",
+  "_criteria_filled": 3
+}

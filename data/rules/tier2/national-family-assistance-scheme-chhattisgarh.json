@@ -1,0 +1,31 @@
+{
+  "id": "national-family-assistance-scheme-chhattisgarh",
+  "name": "National Family Assistance Scheme- Chhattisgarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, the eligible family will receive a lump sum amount of ₹20,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-c"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfaschh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a family member of the deceased person.\n   1. The deceased person should have been the primary breadwinner on whom the family primarily depended for income.\n   1. The family should have lost the primary breadwinner due to natural, unnatural, or accidental death.\n   1. The family of the deceased primary breadwinner should be living Below Poverty Line (BPL).\n   1. At the time of death, the deceased primary breadwinner should have been between 18 and 59 years old.\n\n**Note 1:** The term &amp;quot;family&amp;quot; includes the husband, wife, minor children, unmarried daughters, and dependent parents.\n**Note 2:** If there is more than one earning member in the family, assistance will be provided only upon the death of the member whose income contributes the most to the family.",
+  "_criteria_filled": 2
+}

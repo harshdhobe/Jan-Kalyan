@@ -1,0 +1,42 @@
+{
+  "id": "credit-linked-subsidy-scheme-for-rural-entrepreneurs-to-set-up-custom-hiring-cen",
+  "name": "Credit Linked Subsidy Scheme for Rural Entrepreneurs to set up Custom Hiring Centres (CHC) of Farm Machinery",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "> **Pattern Of Assistance:**\n\n  - The maximum subsidy will be limited to 40% of the Total Financial Outlay(TFO) (TFO = indicative cost of machinery including transportation + AMC for 3 years + cost of open shed + insurance for 1 year).\n  - Minimum TFO would be ₹20,00,000/- and the maximum would be as per SMAM Guideline and SPMT recommendation. An individual entrepreneur shall avail subsidy amounti",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "proforma-application-form",
+    "properly-filled-in",
+    "proof-of-citizenship-epic",
+    "krishak-bandhu-id-no-visit-here-to-check-your-krishak-bandhu-id",
+    "copy-of-aadhaar-card",
+    "pan-card",
+    "self-authenticated-photocopy-of-updated-bank-pass-book",
+    "savings-bank-current-account-in-the-same-branch-where-subsidy-will-be-transferre",
+    "detailed-project-report",
+    "quotations",
+    "vetted-plan-estimate-for-shade-of-chc-etc",
+    "resolution-of-the-organization-regarding-authorization-of-signatory-in-the-appli"
+  ],
+  "apply_url": "https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1lDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6e05a52aaf58b7fbfa749a5d71be15309a5101ea/FMS_Operational%20Guidelines_2024_25.pdf?disposition=attachment",
+  "source_url": "https://www.myscheme.gov.in/schemes/chc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individual farmers registered under Krishak Bandhu (New) Scheme.\n\nOr,\nGroups like SKUS/PACS/FPO/FPC/FIG/SHG duly graded /LAMPS etc. approved/recognized by any Govt. Institutions/Departments are eligible to set up CHC.\n\n- The project cost/Total Financial Outlay (TFO) should be between minimum ₹20,00,000/-to maximum as per [SMAM Guideline](https://agrimachinery.nic.in/Files/Guidelines/smam.pdf) and SPMT recommendation.- The applicant should have sufficient land under his possession (own land/leased/hired) for setting up the CHC.\n- The land in question must belong to “commercial or bastu or viti” category.\n- The age of the beneficiary should be minimum 18 years at the time of application.",
+  "_criteria_filled": 2
+}

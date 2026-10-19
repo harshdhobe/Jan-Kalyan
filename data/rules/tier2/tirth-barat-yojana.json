@@ -1,0 +1,26 @@
+{
+  "id": "tirth-barat-yojana",
+  "name": "Tirth Barat Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Under the scheme, the state government provides an opportunity for senior citizens (60 years and above) and Persons with Disabilities (PwDs) to visit one or more designated pilgrimage sites outside the state.\n  - This assistance is available once in their lifetime.\n\n> **List of Pilgrimage Sites:**\n\n   1. Ujjain, Omkareshwar\n   1. Puri, Bhubaneswar\n   1. Haridwar, Rishikesh\n   1. Mathura, Vrindav",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-o"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/chhattisgarhgazette.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be either a senior citizen or a person with disabilities (including visual impairment, deaf-mute, hearing impairment, or locomotor disabilities).\n   1. Senior citizens should be 60 years of age or older.\n   1. Persons with disabilities must be 18 years of age or older.\n   1. The applicant should not have previously traveled under this scheme.\n   1. The applicant should not be an income taxpayer.\n   1. The applicant should be physically and mentally able to travel.\n   1. The applicant should not be suffering from any infectious diseases, such as tuberculosis, congestive cardiac or respiratory obstruction-related diseases, coronary insufficiency, coronary thrombosis, mental illness, leprosy, etc.\n\n&gt; **Groups of Pilgrims:**\n\n  - The journey will be conducted only in groups. The above groups will be determined by the government or the authority/agency authorized by the government. The journey to any pilgrimage place will be started only when the minimum number of passengers determined by the government is available. Mere selection under the scheme will not oblige the government to arrange a journey for any person.\n\n&gt; **Restrictions on other persons traveling:**\n\n  - Only the person selected to travel under this scheme is permitted to go on the journey. They should not bring any additional person with them, even if that person is willing to cover the journey expenses. Only the selected individuals are allowed to travel in trains and vehicles, and each seat/berth will be occupied by only one person.\n\n&gt; **Regarding additional expenses:**\n\n  - If anyone, during the journey, wants to avail of facilities in addition to the norms/facilities prescribed by the government, then he/she will have to pay for the same himself/herself.\n\n&gt; **Expectations from the pilgrims during the trip:**\n\n  - Pilgrims will not be able to carry any inflammable substance or intoxicating substance in any form.\n  - Pilgrims will not be able to take jewelry etc. with them.\n  - The pilgrims will behave as per the dignity of the pilgrimage so that the image of the state is not otherwise affected.\n  - Pilgrims will follow the instructions of their designated contact officer.",
+  "_criteria_filled": 1
+}

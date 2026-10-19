@@ -1,0 +1,28 @@
+{
+  "id": "best-book-award",
+  "name": "Best Book Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Monetary Benefits:**\n\n- **First Prize:** ₹11,000/-.- **Second Prize:** ₹7,000/-.- **Third Prize:** ₹5,000/-.\n> **Other Benefits:**\n\n- Certificate of Achievement\n- Commemorative Shield",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-published-book-authors-photograph-authors-identity-proof-aadhaar-car",
+    "voter-id",
+    "etc-any-other-documents-as-required"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/bba",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an author.\n  - The applicant’s book should have been published within the relevant calendar year.\n  - The applicant’s book should be written in a language recognised by the Gujarat Sahitya Academy.\n\n&gt; **Note:** \n\n  - Prizes are awarded to the best books in the respective language published by Cha Sahitya Academy every calendar year.\n  - The scheme is applicable to Gujarat as well as across the country.",
+  "_criteria_filled": 1
+}

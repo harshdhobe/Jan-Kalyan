@@ -1,0 +1,40 @@
+{
+  "id": "scheme-of-assistance-to-persons-with-disabilities-for-purchasefitting-of-aids-an",
+  "name": "Scheme Of Assistance To Persons With Disabilities For Purchase/Fitting Of Aids And Appliances",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "Financial Assistance for the Purchase/Fitting of Hearing Aids, Artificial Limbs, and Other Appliances.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-issued-by-the-concerned-revenue-officer",
+    "not-below-the-rank-of-sub-deputy-collector-in-respect-of-beneficiaries-staying-i",
+    "halfway-home",
+    "aged-homes",
+    "etc-aadhaar-card-voter-id-epic-disability-certificate-issued-by-the-competent-au"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/b4/0d/b40d053e-337a-433f-96ba-7a88f17fa992/artificial_aids.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sapwdpfaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the state of Manipur.\n1. The percentage of disability should be 40% and above.\n1. The applicant should not have received assistance during the last 3 years for the same purpose from any firm / approved organization. However, for children below 12 years of age, this limit would be one year.\n1. The monthly income of the applicant from all sources should not exceed ₹ 15,000/- per month.\n1. In the case of dependents, the income of parents/guardians should not exceed ₹ 15,000/- per month.",
+  "_criteria_filled": 3
+}

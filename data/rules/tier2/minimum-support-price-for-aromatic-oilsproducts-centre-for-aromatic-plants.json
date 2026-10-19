@@ -1,0 +1,26 @@
+{
+  "id": "minimum-support-price-for-aromatic-oilsproducts-centre-for-aromatic-plants",
+  "name": "Minimum Support Price for Aromatic Oils/Products - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Farmers can sell 25 varieties of aromatic oils/products at the prescribed price to the Centre for Aromatic Plants (CAP).\n  - Farmers are ensured a fair price and a guaranteed market for the aromatic oils they produce.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-photocopy-of-the-crop-registration-form-bank-statement-other-rele"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mspaopcap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The farmer must be engaged in the cultivation of aromatic plants.\n   1. The farmer must be registered with the Centre for Aromatic Plants (CAP), Selaqui, Dehradun.\n\n<br>",
+  "_criteria_filled": 1
+}

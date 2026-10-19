@@ -1,0 +1,37 @@
+{
+  "id": "financial-assistance-to-self-employment-for-trained-disabled-persons",
+  "name": "Financial Assistance To Self-Employment For Trained Disabled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "A Financial Assistance of ₹1,000/- for the Purchase of Tool Kits/Equipment to Start Their Own Business.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "a-proposal-along-with-the-proposed-project-cost-proof-reg-the-completion-of-voca",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasetdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have completed their Vocational Training in a Government or Government Recognized Institution.\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.",
+  "_criteria_filled": 2
+}

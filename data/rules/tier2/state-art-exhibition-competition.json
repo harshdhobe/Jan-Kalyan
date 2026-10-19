@@ -1,0 +1,26 @@
+{
+  "id": "state-art-exhibition-competition",
+  "name": "State Art Exhibition Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Artists Category:** 23 prizes totaling ₹1,74,500/-.  - **Art Institute Students Category:** 16 prizes totaling ₹48,000/-.  - **School Children Category:** 50 prizes totaling ₹25,000/-.  - **Scholarship:** Winning students in the art institution category are eligible for a monthly scholarship of ₹1,000/-.\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-cardschool-id-card-proof-of-residence-in-gujarat-bonaf"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/schemedetail.htm?32",
+  "source_url": "https://www.myscheme.gov.in/schemes/saec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Artists/ art institute students and school children in Gujarat are eligible under this scheme.\n  - Students should be studying in classes 1st to 10th in Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

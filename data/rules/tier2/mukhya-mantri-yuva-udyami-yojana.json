@@ -1,0 +1,36 @@
+{
+  "id": "mukhya-mantri-yuva-udyami-yojana",
+  "name": "Mukhya Mantri Yuva Udyami Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Financial assistance:**\n\n> **Margin money assistance**\n\n- 15% of the capital cost of the project for the general category. (Maximum ₹ 12,00,000.)\n\n- 20% of the capital cost of the project for BPL (Maximum ₹ 18,00,000)\n\n>  **Interest subsidy**\n\n- At the rate of 5% per annum on the capital cost of the project and at the rate of 6% per annum for women entrepreneurs, for a maximum of 7 years. (Max",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-madhya-pradesh-native-certificate-certificate-of-educati"
+  ],
+  "apply_url": "https://msme.mponline.gov.in/Quick%20Links/DCIE/DCIDocs/MYUY_Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/myuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Madhya Pradesh.\n- The applicant should have passed Class 10th.\n- The applicant’s age should be between 18 to 40 years.\n- The benefit of this scheme can be availed only once.",
+  "_criteria_filled": 3
+}

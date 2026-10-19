@@ -1,0 +1,38 @@
+{
+  "id": "jharkhand-sportsperson-pension-scheme",
+  "name": "Jharkhand Sportsperson Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Athletes receive a lifetime monthly pension of ₹10,000/-.\n- Dependents of deceased athletes (spouse and minor children) receive ₹5,000/- monthly.\n\n<br>\n\n**NOTE:** Pension payments are directly transferred to the beneficiary&#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "educational-qualification-certificates-for-literate-applicants-matriculation-cer",
+    "voter-id",
+    "or-similar-document-proof-of-date-of-birth-matriculation-certificate-for-literat",
+    "voter-id",
+    "etc",
+    "for-illiterate-applicants-other-documents-sports-achievements-certificates-certi",
+    "age",
+    "and-occupation-details-on-a-signed-sheet-certificates-issued-by-governmentnon-go"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/notification_docs/f63f2766Notification%20Regarding%20Khilari%20Pension%20Niyamawali.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant should be a sportsperson or dependent on the deceased sportsperson.\n1. The applicant must receive the Arjuna, Dronacharya, or Dhyan Chand awards, an Olympic participant, or a medalist in Commonwealth or Asian Games.\n1. The applicant should be retired from active sports.\n1. The applicant must be at least 40 years old (age relaxation up to 10 years for medically retired athletes).\n1. The applicant must not be employed in any government, PSU, or pension scheme.\n1. The applicant should have no criminal convictions.\n1. The applicant should not be receiving any pension from the Government of India or any other state government.\n\n<br>",
+  "_criteria_filled": 2
+}

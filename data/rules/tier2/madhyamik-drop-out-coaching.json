@@ -1,0 +1,28 @@
+{
+  "id": "madhyamik-drop-out-coaching",
+  "name": "Madhyamik Drop-out Coaching",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "> **Coaching Classes:****** Intensive coaching for Madhyamik failed Scheduled Tribe (ST) students to prepare them for the Madhyamik Examination.\n\n- **Duration:** Coaching commences from August 1st to February 28th (7 months) in an academic year.- **Class Duration:** Each class for a particular subject is 45 minutes daily.- **Daily Classes:** A minimum of 5 classes are conducted every day.- **Month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "for-ngogovernment-agenciesapplication-for-ngo-performance-report-of-applicant-ng",
+    "to-be-submitted-to-the-tw-department-through-the-concerned-sub-divisional-magist",
+    "tribal-welfare-through-the-sub-divisional-magistrate-and-dm-collector-for-office"
+  ],
+  "apply_url": "https://twd.tripura.gov.in/sites/default/files/Guidelines_7.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdoc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Criteria for Registered &amp; Reputed Voluntary Organizations (NGOs):**\n\n1. The NGO should have 50% and above performance (student pass%) and experience of at least 3 (three) years duration along with audit reports for running a Madhyamik Dropout Coaching Center.\n1. The NGO should be recognized by the Registrar of Co-operation Department, Government of Tripura.\n1. The NGO should have hostel and infrastructure facilities.\n1. Only one NGO may open one centre in a Sub-Division, and no second centre of the same NGO will be allowed to conduct coaching in the same Sub-Division.\n1. The Tribal Welfare Department reserves the right to cancel the center on violation of the guidelines of the Madhyamik dropout scheme by the NGO/Society.\n\n<br>\n\n> **Criteria for Students Selection:**\n\n1. The applicant must be a Madhyamik failed Scheduled Tribe (ST) student.\n1. The minimum number of ST candidates shall be enrolled is 40 students.\n1. The maximum number of ST candidates shall be enrolled is 50 students in each centre for coaching.\n\n**Preference/Priority/Reservation/Relaxation:**\n\n- The candidate from the interior Tribal Areas / BPL shall get preference in admission at such a coaching centre.\n\n<br>",
+  "_criteria_filled": 1
+}

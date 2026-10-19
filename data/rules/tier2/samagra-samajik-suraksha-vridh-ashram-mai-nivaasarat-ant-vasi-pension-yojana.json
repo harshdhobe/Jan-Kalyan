@@ -1,0 +1,31 @@
+{
+  "id": "samagra-samajik-suraksha-vridh-ashram-mai-nivaasarat-ant-vasi-pension-yojana",
+  "name": "Samagra Samajik Suraksha Vridh Ashram Mai Nivaasarat Ant-vasi Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Pension amount: ₹ 600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "three-photos-certificate-for-proof-of-age"
+  ],
+  "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssvamnapy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant is a native of Madhya Pradesh.\n1. The applicant Resident above 60 years of age residing in Vridvashram.\n1. The applicant&#39;s name is marked on the Samagra portal.",
+  "_criteria_filled": 2
+}

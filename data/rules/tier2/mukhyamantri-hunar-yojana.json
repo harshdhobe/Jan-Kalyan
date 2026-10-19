@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-hunar-yojana",
+  "name": "Mukhyamantri Hunar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, free training is provided along with an honorarium during the training period. The honorarium is paid as follows:\n\n  - ₹2,000/- for 100 hours of training,\n  - ₹2,500/- for 150 hours of training,\n  - ₹4,000/- for 250 hours of training,\n  - ₹4,500/- for 300 hours of training,\n\nThe training is conducted through implementing agencies, and the honorarium is disbursed based on attenda",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-residence-certificate-minority-certificate-income-certifi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhyu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n   1. The applicant must be a man or woman belonging to a minority community (Muslim, Sikh, Christian, Parsi, Buddhist, or Jain).\n   1. The age of the applicant should be between 18 and 45 years.\n   1. The applicant must have completed education either from a Government school or from a Madrasa.\n   1. For traditional training courses such as sewing, embroidery, plumbing, electronics, knitting, etc., the applicant must be at least Class 5 pass or literate.\n   1. For Information Technology courses (Computer Hardware, Software, Networking, Accounting, etc.), the applicant must have passed at least High School.\n   1. The annual family income should not exceed ₹3,50,000/- in rural areas and ₹4,50,000/- in urban areas.\n\n<br>",
+  "_criteria_filled": 4
+}

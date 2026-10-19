@@ -1,0 +1,26 @@
+{
+  "id": "allotment-of-canteens",
+  "name": "Allotment of Canteens",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The scheme facilitates the promotion of trade in tea and other food items by allotting canteens to eligible residents of Uttarakhand.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-to-be-submitted-as-per-the-requirements-specified-by-the-canteen-a"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/acuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

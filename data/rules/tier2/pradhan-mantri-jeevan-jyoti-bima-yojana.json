@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-jeevan-jyoti-bima-yojana",
+  "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. PMJJBY offers one- year term **life cover of ₹ 2.00 Lakh** to all the subscribers in the age group of 18-50 years.1. It covers death due to any reason.\n1. **Premium payable is ₹ 436/- per annum** per subscriber, to be auto debited from the subscriber’s bank/post office account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://jansuraksha.gov.in/Files/PMJJBY/English/Rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmjjby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant must be between 18 to 50 Years.\n1. The applicant must hold an individual bank / post office account.",
+  "_criteria_filled": 2
+}

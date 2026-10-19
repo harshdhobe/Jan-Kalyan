@@ -1,0 +1,26 @@
+{
+  "id": "integrated-horticulture-development-program-for-tribal-area-farmers-tasp-hrt-3",
+  "name": "Integrated Horticulture Development Program for Tribal Area Farmers (TASP) HRT-3",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Capacity Building &amp; Promotion:**\n\n- Assistance for publication and promotional materials related to horticultural crops.\n- Financial support for organizing and participating in exhibitions, competitions, and seminars.\n- Subsidy for organizing or participating in Krishi Melas and payment for stall rentals.\n\n> **Farm Mechanization Support:**\n\n- Subsidy for purchase of power tillers and mini ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihdptaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a farmer.\n  - The applicant should belong to the Scheduled Tribe (ST) category.\n  - The applicant should be practicing horticulture in tribal areas.\n\n<br>",
+  "_criteria_filled": 1
+}

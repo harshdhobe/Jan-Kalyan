@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-artesian-wells-in-scheduled-tribe-areas",
+  "name": "Construction of Artesian Wells in Scheduled Tribe Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under the scheme, free irrigation facilities will be made available to farmers. \n  - Artesian wells are established in areas dominated by Scheduled Tribes.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-departments-guidelines-prescribed-for-this-sch"
+  ],
+  "apply_url": "https://www.google.com/url?q=https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf&sa=D&source=docs&ust=1750927616357877&usg=AOvVaw04FwRQf8ZVw0xT2NNrjJSo",
+  "source_url": "https://www.myscheme.gov.in/schemes/cawista",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a farmer engaged in agricultural activities.\n   1. Collective irrigation projects will be constructed under the scheme.\n   1. The name of the proposed village must be included in the list of Scheduled Tribe-dominated villages issued by the Department of Social Welfare.\n   1. The project site must be suitable for the construction of artesian wells.\n   1. A sufficient irrigated area must be available for the project.\n   1. The project cost must not exceed ₹4.00 lakh per hectare, and the benefit-cost ratio must be greater than 1.0.\n\n<br>",
+  "_criteria_filled": 1
+}

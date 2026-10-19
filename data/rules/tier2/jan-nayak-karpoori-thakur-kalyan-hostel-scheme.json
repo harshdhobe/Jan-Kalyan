@@ -1,0 +1,26 @@
+{
+  "id": "jan-nayak-karpoori-thakur-kalyan-hostel-scheme",
+  "name": "Jan-Nayak Karpoori Thakur Kalyan Hostel Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- 9 kg rice and 6 kg wheat per student per month.\n- ₹1000/- monthly grant under the Chief Minister’s Hostel Grant Scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-marksheet-of-the-previous-examination-admission-certificate-fr"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/Content.html?links&page=Jananayak%20Karpuri%20Thakur,%20extremely%20backward%20class%20welfare%20hostel",
+  "source_url": "https://www.myscheme.gov.in/schemes/jnktkhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n1. The applicant should be studying in the current session in an educational institution nearest to the hostel.\n1. The applicant should belong to the Extremely Backward Class (EBC).\n1. The applicant should be studying in Class 10+2 or higher.",
+  "_criteria_filled": 1
+}

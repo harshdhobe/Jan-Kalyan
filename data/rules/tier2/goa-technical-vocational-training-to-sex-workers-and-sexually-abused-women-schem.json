@@ -1,0 +1,31 @@
+{
+  "id": "goa-technical-vocational-training-to-sex-workers-and-sexually-abused-women-schem",
+  "name": "Goa (Technical/ Vocational Training To Sex Workers And Sexually Abused Women) Scheme, 2013 (PRABHAT)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "_(For availing of the benefit under this scheme the victim has to reside in Goa)_\n<br>\n\n> **Financial Assistance**\n\nThe beneficiary (excluding victims housed in Protective Home) will be provided with a stipend of ₹ 2,500/- per month for a period of three months or till she joins a livelihood programme, whichever is earlier.\n<br>\n\n> **Technical/Vocational Training**\n\nBased on their literacy, skills",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-resident-certificate"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gtvtswsawwws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the Women and Children who are victims of Commercial Sexual Exploitation.\n1. The applicant should be either residing in Goa or be a native of Goa.\n\n**NOTE 1:** The place of commercial sexual exploitation is not a criterion for eligibility (women and girls from Goa being commercially sexually exploited outside Goa also qualify).",
+  "_criteria_filled": 2
+}

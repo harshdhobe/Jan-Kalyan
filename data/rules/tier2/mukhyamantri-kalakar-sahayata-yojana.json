@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-kalakar-sahayata-yojana",
+  "name": "Mukhyamantri Kalakar Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The financial assistance for an artist shall be ₹1200/- per month.\n\n**Note:** \n\n  - After the first payment is given in cash and the beneficiary is properly identified by the authority, the financial assistance will be deposited every month into the beneficiary&amp;#39;s Savings Bank account in any Nationalized Bank.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-copy-of-aadhaar-card",
+    "voter-id-2-proof-of-birth-certificate-3-proof-of-address-4-passport-size-photogr",
+    "as-required"
+  ],
+  "apply_url": "https://www.mksy.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mksyodisha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. An artist in order to be eligible for the assistance shall be of a minimum of 50 years of age in the case of males and 40 years and above in the case of female artists.\n   1. The annual income of the artist shall not exceed ₹50,000/- only for the artists belonging to the Rural Area and ₹60,000/- only for the artists belonging to the Urban Area or as may further be determined by the Government from time to time.\n   1. An artist covered under this scheme will not be eligible for similar benefits under any other scheme of the Government.\n\n**Note:** Each year in the month of April, the beneficiary shall furnish his/her Life Certificate in the prescribed Form signed by any Member of Parliament/Member of the Legislative Assembly/any Gazetted Government Officer /Chairman of ULBs/Chairman of any Panchayat Samiti.\n&gt; **Cancellation of Pension:**\n\n   1. On his/her death\n   1. On the satisfaction of the Government that information furnished to the District Level Selection Committee in pursuance was either erroneous, false or inconclusive (or)\n   1. On the determination by the Government that the beneficiary has indulged in activities prejudicial to the public interest or public order (or)\n   1. On his/her ceasing to have the eligibility\n   1. Non-submission of Life Certificate within the prescribed date line during each year.",
+  "_criteria_filled": 3
+}

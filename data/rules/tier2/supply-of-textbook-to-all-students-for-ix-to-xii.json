@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-textbook-to-all-students-for-ix-to-xii",
+  "name": "Supply of Textbook to all Students for IX to XII",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Ensures timely availability of prescribed textbooks to all students.\n2. Reduces the financial burden on parents by providing textbooks free of cost.\n3. Promotes equal learning opportunities for students from all socio-economic backgrounds.\n4. Enhances classroom participation, regular attendance, and overall academic performance.\n<br>\n\n\t\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "no-document-is-required"
+  ],
+  "apply_url": "https://ddd.gov.in/directorate-of-education/",
+  "source_url": "https://www.myscheme.gov.in/schemes/supply-of-textbook",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a student.\n2.\tThe applicant should be studying in class 9th to 12th.\n3.\tThe applicant should be studying in a government school in UT of Dadra &amp; Nagar Haveli and Daman &amp; Diu.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

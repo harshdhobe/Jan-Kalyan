@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-assistance-on-purchase-of-smartphone-by-the-farmers",
+  "name": "Scheme for Assistance on Purchase of Smartphone by the Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Scheme for assistance on Purchase of Smartphone by the farmers40% assistance on the purchase price of smartphone or ₹6,000/- whichever is lessonly once",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-8-a-record-bank-passbook-domicile-certific"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/picXjrkWac6JiCP%E2%9C%BFhnZI2Q%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/sapsf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "<br>\n\n- The applicant must be a farmer.\n- The applicant should own a land. \n- The applicant must belong to the Gujarat state.\n\n**Note:** \n\n  - Under this scheme, even if the tenant farmer has more than one account, the assistance will be availed only once.\n  - In case of joint account, the farmers will be entitled to benefit from only one of the tenants mentioned in 8-A of their land.",
+  "_criteria_filled": 1
+}

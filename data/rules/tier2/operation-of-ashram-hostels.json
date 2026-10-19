@@ -1,0 +1,26 @@
+{
+  "id": "operation-of-ashram-hostels",
+  "name": "Operation of Ashram Hostels",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Students are provided with the following annually and monthly benefits:**\n\n**Annually (per student):**\n\n- School uniform with stitching\n- Shoes, socks, towel, and warm sweater\n\n**Monthly (per student):**\n\n- Nutritious breakfast and meals\n- Hair oil\n- Bathing and washing soap\n- Hair cutting service\n- Laundry for bed linen (sheet, pillow cover, blanket)\n- Electricity and water facilities\n- Newsp",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-education-qualification-marksheetcertificate-income-certificat"
+  ],
+  "apply_url": "https://tad.rajasthan.gov.in/scheme/detail/533",
+  "source_url": "https://www.myscheme.gov.in/schemes/oahr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should belong to the Scheduled Tribe community.\n   1. Scheduled Tribe students are eligible if there is no primary school within 1.5 km, no upper primary school within 3 km, and no secondary/higher secondary school within 5 km of their residence.\n   1. The parents/guardians should not be an income tax payee.\n   1. The applicant&amp;#39;s family should not own more than 400 square yards of urban land.\n   1. The applicant&amp;#39;s family should not own more than 15 bighas of agricultural land.\n   1. The student should pass the current academic year to continue enrollment in the next year.\n   1. The student should be a resident of the same district in which the hostel application has been made.\n\n**Notes:**\n\n  - All new admissions will be made on the basis of merit.\n  - Admission to hostels in specific tribal areas will be given only to tribal students belonging to the same area.\n  - Re-admission in the next academic year will be granted only if the student passes the annual examination.",
+  "_criteria_filled": 1
+}

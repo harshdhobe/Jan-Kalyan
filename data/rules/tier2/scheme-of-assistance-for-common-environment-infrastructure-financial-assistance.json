@@ -1,0 +1,34 @@
+{
+  "id": "scheme-of-assistance-for-common-environment-infrastructure-financial-assistance",
+  "name": "Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **General Projects:** Up to 40% financial assistance, with a maximum limit of ₹50,00,00,000/-.  - **Government Projects:** Assistance up to 80% for Government Departments, Agencies, PSUs, and Boards, with a ₹50,00,00,000/-.  - **Co-Funding with GoI:** Total assistance from GoI + GoG is limited to 75%, with 25% contribution from the institution.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-legal-status-of-applicant-such-as-memorandum-and-article-of-association",
+    "and-list-of-directorsmembers-with-addresses-proof-that-land-for-project-is-in-po",
+    "like-land-allotment-letter-of-gidc-with-copies-of-712-utaara",
+    "na-permission",
+    "approved-plan",
+    "and-construction-permission-by-competent-authority-copy-of-gpcb-noccca-for-estab",
+    "then-give-justification-on-letterhead-copy-of-environment-clearance-if-not-appli",
+    "then-give-justification-on-letterhead-detailed-project-report-covering-all-detai",
+    "if-loan-is-sanctioned-affidavits-for-outstanding-government-dues-and-any-pending"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/12-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saceieif",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries association / Any Enterprise (except for captive use) or firm which is registered under Societies Act, Trust Act or under the Companies Act.; or GIDC/Board/ Corporations / Special Purpose Vehicle (SPV) / PSU / Municipal Corporation / Nagarpalika / Urban Development Authority etc.\n  - The project must comply with Ministry of Environment, Forest and Climate Change (MoEF) &amp;amp; Gujarat Pollution Control Board (GPCB) [regulations](https://gpcb.gujarat.gov.in/ViewFile?fileName=%E2%9C%BF84VtA%E2%9C%A45Y2S5am0gZge7C5DIhraFNMo2Ft55An9ZyFCK3Aq9K4dpmnxwVOuBnFXqslsR%E2%9C%A4PycTDCIhX4VZROM%E2%9C%BFi06yKqnt6WggtDpEP%E2%9C%A49qS%E2%9C%A4OqhmJOM%E2%9C%A4HY9NwlZsBW6x0te88%E2%9C%BF%E2%9C%BF0jyrttC7nRRU7AbQ%E2%99%AC%E2%99%AC).  - The project must remain operational for a minimum of 5 years post-completion.",
+  "_criteria_filled": 1
+}

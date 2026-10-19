@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-marriage-for-the-construction-worker",
+  "name": "Financial assistance for Marriage for the Construction Worker",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "null",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafmftcwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "null",
+  "_criteria_filled": 1
+}

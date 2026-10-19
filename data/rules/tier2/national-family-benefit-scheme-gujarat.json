@@ -1,0 +1,41 @@
+{
+  "id": "national-family-benefit-scheme-gujarat",
+  "name": "National Family Benefit Scheme - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. A one-time assistance payment of ₹20,000/- is provided to the family of the deceased, whether the death was natural or accidental.\n\n***Notes:***\n\n  - The payment is intended for the family, specifically going to the widow or unmarried daughter.\n  - The assistance would be given to every case of death of breadwinner in a family.\n  - Payment of the assistance is made through Direct Benefit Transf",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-family-being-on-the-bpl-list-death-certificate-of-primar"
+  ],
+  "apply_url": "https://patan.nic.in/scheme/national-family-benefit-scheme-nfbs-sankatmochan/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbsguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should be a family member of the deceased.\n1. The family should be listed in the Below Poverty Line (BPL) list as determined by the Government of India.\n1. The deceased (male or female) should have been the primary income earner of the family.\n1. The death of the primary income earner should have occurred due to natural or accidental causes.\n1. The age of the deceased at the time of death should have been between 18 and 60 years.\n1. The application should be submitted within two years from the date of death to be eligible under the scheme.\n\n<br>",
+  "_criteria_filled": 4
+}

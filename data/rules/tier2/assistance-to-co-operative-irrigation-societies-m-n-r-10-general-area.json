@@ -1,0 +1,33 @@
+{
+  "id": "assistance-to-co-operative-irrigation-societies-m-n-r-10-general-area",
+  "name": "Assistance to Co-operative Irrigation Societies M. N. R.-10 (General Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Monetary Benefit:** Financial assistance for setting up irrigation infrastructure (such as pumps and motors) for cooperative societies.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-application-of-the-association-for-getting-assistance-2-copy-of-registration-c",
+    "caste-general",
+    "scheduled-caste",
+    "scheduled-caste-of-the-association",
+    "land-holdings-and-members-casteunscheduled-caste-certificate-from-the-competent",
+    "canal",
+    "creek-to-obtain-a-copy-of-the-written-permission-order-of-the-governments-irriga",
+    "winter-and-summer-and-annual-report-of-assistance-available-on-the-basis-of-gros"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/atcisg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Cooperative irrigation societies formed by small and marginal farmers, or any other farmers, are eligible under this scheme.\n  - The society should be located within the state of Gujarat.\n  - The Scheme is applicable to the General category.\n\n<br>",
+  "_criteria_filled": 1
+}

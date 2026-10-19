@@ -1,0 +1,36 @@
+{
+  "id": "personal-interest-subsidy-scheme",
+  "name": "Personal Interest Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. The project is financed up to a maximum cost of ₹5,00,000 through bank support.\n1. The entrepreneur is required to bear 4% interest on the bank-financed amount.\n1. The Government bears up to 10% of the differential interest amount over and above what the entrepreneur pays.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-permanent-residence-certificate-photo-identity-proof-address"
+  ],
+  "apply_url": "http://www.ukvib.org/details.php?pgID=sb_9",
+  "source_url": "https://www.myscheme.gov.in/schemes/pissuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be between 18 and 45 years of age.\n1. The applicant should be a permanent resident of Uttarakhand.\n1. The applicant should be an educated unemployed youth who is no longer eligible for government service due to the age limit. Or, the applicant should be trained by an Industrial Training Institute (ITI) or a Polytechnic.\n1. The applicant should be a woman interested in self-employment.\n1. The applicant should have passed Vocational Education (10+2 level) with Village Industries as a subject.\n1. The applicant should establish the project in a rural area.",
+  "_criteria_filled": 3
+}

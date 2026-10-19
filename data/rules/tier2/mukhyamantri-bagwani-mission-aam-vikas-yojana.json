@@ -1,0 +1,27 @@
+{
+  "id": "mukhyamantri-bagwani-mission-aam-vikas-yojana",
+  "name": "Mukhyamantri Bagwani Mission: Aam Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "&gt; **Financial Support:** \n\n    - **First year:** ₹18,000/- per hectare.    - **Second and third year:** ₹6,000/- per hectare.\n\n&gt; **Plant Distribution:** \n\n    - Supply of high-quality plants.\n\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/AreaExpansionStateScheme/OnlineAppMangoState.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbyavy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a ryot farmer.\n   1. The applicant must have agricultural land minimum of 0.25 acres (0.1 ha) and a maximum of 10 acres (4 ha).\n   1. The applicant must be registered on the DBT portal.\n\n&amp;amp;amp;gt; **Note 1:  Beneficiary allocation:**\n\n    - General Category: 78.56%.\n    - Scheduled Castes: 20%.\n    - Scheduled Tribes: 1.44%.\n    - Women Participation: 30%.\n\n&amp;amp;amp;gt; **Note 2:** The benefits of this scheme can be taken by ryot farmers on the basis of land documents and non-ryot farmers on the basis of contract form.",
+  "_criteria_filled": 1
+}

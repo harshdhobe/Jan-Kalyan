@@ -1,0 +1,26 @@
+{
+  "id": "establishment-and-operation-of-stem-science-technology-engineering-mathematics-l",
+  "name": "Establishment and Operation of STEM (Science, Technology, Engineering, Mathematics) Laboratories",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this, 41 STEM laboratories have been established across the state to strengthen practical science education for secondary and higher secondary level students and to provide hands-on learning activities for students of classes 6 to 12, enabling them to conduct science-related experiments in these labs.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-per-the-guidelines-of-the-respective-schools-that-have-ste"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eosteml",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students must be studying in classes 6 to degree level in a school in Uttarakhand.\n1. Students from schools with a STEM laboratory, as well as those from nearby schools, are eligible to use the STEM laboratories.\n\n<br>",
+  "_criteria_filled": 1
+}

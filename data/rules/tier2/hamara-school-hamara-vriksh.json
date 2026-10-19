@@ -1,0 +1,26 @@
+{
+  "id": "hamara-school-hamara-vriksh",
+  "name": "Hamara School Hamara Vriksh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, free saplings are provided for tree plantation in all government and non-government schools, and after the plantation, certificates are issued to the schools by the Forest Department.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "details-of-trees-already-planted-or-existing-within-the-school-premises-details"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hshv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All government and non-government schools in Uttarakhand are eligible to avail the benefits under the scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

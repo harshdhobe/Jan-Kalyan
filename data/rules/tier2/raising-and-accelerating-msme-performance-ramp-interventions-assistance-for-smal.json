@@ -1,0 +1,26 @@
+{
+  "id": "raising-and-accelerating-msme-performance-ramp-interventions-assistance-for-smal",
+  "name": "Raising and Accelerating MSME Performance (RAMP) Interventions: Assistance for Small & Medium Enterprises (SME) To Raise Capital Through Small & Medium Enterprises (SME) Exchange - DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "Under the new guidelines of the Securities and Exchange Board of India (SEBI), Small and Medium Enterprises (SME) can raise equity capital through the SME exchange. To encourage SME to opt for this route, assistance will be provided under this intervention.\n> **Quantum of Assistance (SME Exchange):**\n\n1. One-time assistance of up to ₹15,00,000/- or the actual cost incurred for raising capital, whi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "constitution-of-the-enterprise-moa-aoa-board-resolution-for-authorised-signatory"
+  ],
+  "apply_url": "https://ddd.gov.in/district-industries-centre/",
+  "source_url": "https://www.myscheme.gov.in/schemes/rampasmerdnh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit must be Udyam registered with operations in the UT of DNH&amp;DD.\n1. Eligibility of MSME units in the Manufacturing or Service sector, upon commencement of commercial production or service operations, shall be governed by the duration of operation criteria as outlined in the relevant intervention of the scheme.\n1. Eligibility of the MSME unit shall be subject to the detailed conditions specified under the respective scheme provisions.\n\n<br>",
+  "_criteria_filled": 1
+}

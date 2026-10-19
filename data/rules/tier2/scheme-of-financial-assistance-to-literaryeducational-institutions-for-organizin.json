@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-financial-assistance-to-literaryeducational-institutions-for-organizin",
+  "name": "Scheme of Financial Assistance to Literary/Educational Institutions for Organizing Programs/Conferences",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Funding Assistance for Institutions:**  \n\n    -  Up to ₹50,000/- or 75% of the actual expenditure, whichever is lower, is provided for organizing approved literary or educational events.\n\n> **Honorarium for Speakers:** \n\n  - An honorarium of up to ₹2,000/- per speaker can be paid to invited speakers participating in the event.\n\n> **Note:** \n\n  - Any honorarium amount exceeding ₹2,000/- will",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "forwarding-letter-from-the-institution-approval-letter-from-gujarat-sahitya-acad"
+  ],
+  "apply_url": "https://gujaratsahityaacademy.com/assets/yojana_rules/1_Seminar_Niyamo202526.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfaleopc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A registered literary or educational institution shall be eligible.\n   1. Only 2 programs can organize per year by the institution.\n   1. The program must be related to literature, education, or cultural discourse.\n   1. The institution must use the Gujarati language in all materials (alongside any other language).\n   1. The event must clearly acknowledge Gujarat Sahitya Academy through logos and name placement.\n   1. The program must involve a minimum 5 speakers.\n   1. All payments above ₹5,000/- must be made through banking channels only (RTGS/NEFT/Cheque).\n\n<br>",
+  "_criteria_filled": 1
+}

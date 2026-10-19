@@ -1,0 +1,33 @@
+{
+  "id": "bharati-scheme-for-education-professional-education-course",
+  "name": "Bharati Scheme for Education - Professional Education Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- **Financial Assistance for the Professional Education Course: 20,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-parents-with-address-in-andhra-pradesh-white-ration",
+    "for-students-of-professional-education-courses-outside-andhra-pradesh",
+    "an-account-in-any-nationalized-bank-is-acceptable"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/bharathi2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bse-pec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his/her parents should belong to the Brahmin community.  \n1. The student should be studying in any recognized and reputed college anywhere in India for the academic year. \n1. The student&#39;s parents should be staying in Andhra Pradesh. \n1. The annual family income of parents/guardians should not exceed ₹3,00,000/-.\n1. The student should have cleared all the subjects of the previous year. \n1. The student should be enrolled in the Praja Sadhikara Survey (PSS). \n1. The student should not have availed himself/ herself of any amount under any other government scheme for the same purpose.  However, students benefitting from Archaka Welfare Trust are eligible under this scheme.",
+  "_criteria_filled": 2
+}

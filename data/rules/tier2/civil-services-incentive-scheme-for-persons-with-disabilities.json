@@ -1,0 +1,31 @@
+{
+  "id": "civil-services-incentive-scheme-for-persons-with-disabilities",
+  "name": "Civil Services Incentive Scheme for Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, eligible candidates will receive the following financial incentives:\n\n  - ₹20,000/- on passing the preliminary examination.\n  - ₹30,000/- on passing the main examination.\n  - ₹20,000/- on final selection. \n\n**Note:** The incentive amount is directly transferred to the applicant&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-dis"
+  ],
+  "apply_url": "https://cdn.nic.in/SJ/PDFFiles/form-civilprotsahan.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/csispwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should have a disability of 40% or more.\n   1. A disabled candidate who passes any stage (preliminary examination, main examination, or final selection) of the Civil Services Examination conducted by the Union Public Service Commission (UPSC), New Delhi, or the Madhya Pradesh Public Service Commission (MPPSC), Indore, is eligible for the scheme.\n   1. The application form should be submitted within 6 months of the exam result declaration.\n   1. The incentive amount is provided only once per candidate at each stage of the examination.\n\n**Note:** As per the definition mentioned in Section-2 of the Persons with Disabilities (Equal Opportunities, Protection of Rights and Full Participation) Act, 1995, the disability should be 40% or more.",
+  "_criteria_filled": 2
+}

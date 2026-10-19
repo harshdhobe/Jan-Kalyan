@@ -1,0 +1,26 @@
+{
+  "id": "konkani-song-music-awards-tiatr-kantaram",
+  "name": "Konkani Song & Music Awards (Tiatr Kantaram)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Male singer of the year (Solo): ₹10,000/-\n- Female singer of the year (Solo): ₹10,000/-\n- Child Male Singer of the year (Solo): ₹5,000/-\n- Child Female Singer of the year (Solo): ₹5,000/-\n- Duet of the year (Nature of lyrics should be interactive): ₹10,000/-\n- Duo of the year (Nature of lyrics should be interactive): ₹10,000/-\n- Trio of the year (Nature of lyrics should be interactive): ₹15,000/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stageself-attested-copy-of-aadhaar-card-self-attested-copy-of-per"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksma-tk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must produce Konkani Audio Compact Disc/Video Compact Disc/Digital Versatile Disc/Digital Albums between 1st January and 31st December of the year identified by Tiatr Academy of Goa.\n- The applicant must ensure the music director is compulsorily a Goan or of Goan origin.\n- The applicant must ensure singers in the Album are Goans whose mother tongue is Konkani.\n- The applicant must ensure the Album contains songs only in Konkani language and not in other languages like English, Hindi, Portuguese etc.\n- The applicant must ensure the songs in the Album are not old songs or remix of old songs.\n- The applicant must ensure the Audio Compact Disc/Video Compact Disc/Digital Versatile Disc/Digital Albums consists of minimum 8 Konkani kantaram.\n- The applicant must ensure there are no adverse remarks in any form against any Governments/Individuals/Institutions or against caste, creed and religion in the lyrics of songs/performances/speeches.\n\n***Competition Requirements***\n\n- The applicant must ensure there are minimum three entries in each category to participate in that particular category competition.\n- The applicant must ensure for Best Album award, the album has at least 5 kantaram from specified categories: one solo, one duet (interactive lyrics), one duo (interactive lyrics), one trio (interactive lyrics), one quartet/quintet (interactive lyrics), one choral song.\n\n***Child Singer Category***\n\n- The applicant must ensure child singers have not completed 16 years of age on or before 31st December of the year identified by Tiatr Academy of Goa.\n\n<br>",
+  "_criteria_filled": 1
+}

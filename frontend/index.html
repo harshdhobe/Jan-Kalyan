@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jan Kalyan • जन कल्याण — Welfare Scheme Eligibility Finder</title>
+  <meta name="description"
+    content="Discover Indian government welfare schemes, check eligibility in real-time with deterministic logic, filter by category, and get complete document checklists." />
+
+  <!-- Refined Typography: Inter, Instrument Serif, Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Slim 64px Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="#" class="brand" aria-label="Jan Kalyan • जन कल्याण">
+        <span class="wordmark">Jan Kalyan</span>
+        <span class="brand-sep" aria-hidden="true">|</span>
+        <span class="wordmark-sub">जन कल्याण</span>
+      </a>
+
+      <div class="header-controls">
+        <!-- Sample Personas Menu (No emoji, quiet styling) -->
+        <div class="persona-select-wrap">
+          <select id="persona-select" class="persona-select" aria-label="Try a sample profile">
+            <option value="">Try a sample profile...</option>
+          </select>
+          <span class="persona-arrow">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </div>
+
+        <!-- Reset Button (Quiet text button) -->
+        <button id="reset-btn" class="btn-text-quiet" type="button" aria-label="Reset all answers">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <polyline points="3 3 3 8 8 8"></polyline>
+          </svg>
+          <span>Reset</span>
+        </button>
+
+        <!-- Language Switcher (Segmented Control) -->
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button id="lang-en" class="lang-btn active" type="button" aria-label="Switch to English">English</button>
+          <button id="lang-hi" class="lang-btn" type="button" aria-label="हिंदी में बदलें">हिंदी</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fluid 3-Column Main Layout on Desktop -->
+  <main class="main-layout no-rail">
+
+    <!-- Left Column: Sticky Questionnaire & Profile Definition List -->
+    <aside class="sidebar-column custom-scroll">
+
+      <!-- Section 1: Check Your Eligibility (One question at a time) -->
+      <section class="panel-section">
+        <div class="panel-header">
+          <h2 class="panel-title" id="stepper-heading">Check Eligibility</h2>
+        </div>
+        <div id="question-box">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- Section 2: Active Profile Answers (Compact Definition List) -->
+      <section class="answers-section">
+        <div class="answers-header">
+          <h2 class="panel-title">
+            Your Answers <span id="facts-count" style="font-weight: 400; color: var(--text-faint);">(0)</span>
+          </h2>
+          <button id="catalog-toggle" class="link-quiet" type="button">
+            <span>Edit all</span>
+            <span class="toggle-icon"></span>
+          </button>
+        </div>
+
+        <div id="facts-list" class="definition-list">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+
+        <!-- Collapsible Drawer for 51 Catalog Fields -->
+        <div id="catalog-accordion">
+          <div id="catalog-content" class="catalog-drawer">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+    <!-- Centre Column: Search, Tabs, Summary, Selected Chips & Schemes List -->
+    <section class="results-column">
+
+      <!-- Search Field (Icon-in-input) -->
+      <div class="search-wrapper">
+        <span class="search-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+        <input type="text" id="search-input" class="search-field"
+          placeholder="Search schemes by name, keyword, or benefit..." aria-label="Search schemes" />
+      </div>
+
+      <!-- Tabs and Tablet/Mobile Filters Trigger Row -->
+      <div class="tabs-and-filters-row">
+        <nav class="tab-segmented-control" role="tablist" aria-label="Filter schemes by status">
+          <button id="tab-eligible" class="tab-nav-btn active" role="tab" aria-selected="true" type="button">
+            <span>Eligible</span>
+            <span id="count-eligible" class="tab-count">0</span>
+          </button>
+          <button id="tab-unknown" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span>Needs Info</span>
+            <span id="count-unknown" class="tab-count">0</span>
+          </button>
+          <button id="tab-ineligible" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span>Ineligible</span>
+            <span id="count-ineligible" class="tab-count">0</span>
+          </button>
+        </nav>
+
+        <!-- Filters Button on Tablet / Mobile -->
+        <div class="filters-toggle-wrap">
+          <button id="btn-filters-toggle" class="btn-filters-toggle" type="button" aria-label="Filter by category">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+            <span>Categories</span>
+            <span id="filters-badge" class="filters-badge" style="display: none;">0</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Results Meta Bar: Summary count line & Active category chips -->
+      <div class="results-meta-bar">
+        <div id="results-summary" class="results-summary" aria-live="polite">
+          <!-- Rendered dynamically by app.js: e.g. "42 schemes" or "42 of 685 schemes" -->
+        </div>
+        <div id="category-chips" class="category-chips-bar">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Single-Column Schemes Container (Divider-separated rows) -->
+      <div id="schemes-list" class="schemes-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+    </section>
+
+    <!-- Right Column: Category Rail (Desktop >=1200px) -->
+    <aside class="category-rail" id="category-rail" style="display: none;">
+      <!-- Category Filter Section -->
+      <div class="rail-section" id="cat-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="cat-rail-title">Filter by Category</h2>
+          <button id="btn-clear-categories" class="link-quiet" type="button" style="display: none;">Clear all</button>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Categories</legend>
+          <div id="category-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+
+      <!-- Scheme Level Filter Section (Separated by hairline and 24px) -->
+      <div class="rail-divider" id="rail-level-divider"></div>
+      <div class="rail-section" id="level-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="level-rail-title">Scheme Level</h2>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Scheme Level</legend>
+          <div id="level-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+
+      <!-- Scheme Scope / Beneficiary Filter Section (Separated by hairline and 24px) -->
+      <div class="rail-divider" id="rail-scope-divider"></div>
+      <div class="rail-section" id="scope-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="scope-rail-title">Beneficiary</h2>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Beneficiary</legend>
+          <div id="scope-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Mobile / Tablet Filters Bottom Sheet -->
+  <div id="filters-bottom-sheet" class="sheet-backdrop" role="dialog" aria-modal="true"
+    aria-labelledby="sheet-title-text">
+    <div class="sheet-drawer">
+      <div class="sheet-header">
+        <div style="display: flex; align-items: baseline; gap: 12px;">
+          <h2 class="sheet-title" id="sheet-title-text">Filters</h2>
+          <button id="btn-sheet-clear" class="link-quiet" type="button" style="display: none;">Clear all</button>
+        </div>
+        <button id="btn-sheet-close" class="sheet-close-btn" type="button" aria-label="Close filters">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="sheet-body custom-scroll" id="sheet-filters-body">
+        <!-- Scheme Level Section FIRST -->
+        <div class="sheet-section" id="sheet-level-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-level-title">Scheme Level</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Scheme Level</legend>
+            <div id="sheet-level-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="sheet-divider" id="sheet-level-divider"></div>
+
+        <!-- Scheme Scope / Beneficiary Section SECOND -->
+        <div class="sheet-section" id="sheet-scope-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-scope-title">Beneficiary</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Beneficiary</legend>
+            <div id="sheet-scope-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="sheet-divider" id="sheet-scope-divider"></div>
+
+        <!-- Categories Section THIRD -->
+        <div class="sheet-section" id="sheet-cat-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-cat-title">Filter by Category</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Categories</legend>
+            <div id="sheet-cat-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <button id="btn-sheet-apply" class="btn-sheet-apply" type="button">
+          Show schemes
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Editorial Quiet Footer -->
+  <footer class="app-footer">
+    <p>Jan Kalyan • Deterministic Welfare Eligibility Engine</p>
+    <p>Official guidelines sourced from MyScheme, NSAP, PM-KISAN, PMAY and State portals. Verification required before
+      final disbursement.</p>
+  </footer>
+
+  <!-- Scripts: Data & Engine Modules -->
+  <script src="data/rules.js"></script>
+  <script src="data/fields.js"></script>
+  <script src="data/personas.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

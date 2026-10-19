@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-fodder-minikit",
+  "name": "Supply of Fodder Minikit",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component**\t**Standard of Assistance**\t**Minimum Time Limit(In Year) for Reclaiming Benefits**\tSupply of Fodder Minikit under General People, Schedule Caste People and Schedule Tribe People.\tFree1 Year\t<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-and-8-a-certificate-scheduled-caste-and-scheduled-tribe-cast-certificate"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Bu2wc90IXRdJKrcfHJ/9ew==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sofmg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All farmers belonging to the General, Scheduled Caste (SC), and Scheduled Tribe (ST) categories are eligible.\n   1. The applicant must own agricultural land.",
+  "_criteria_filled": 1
+}

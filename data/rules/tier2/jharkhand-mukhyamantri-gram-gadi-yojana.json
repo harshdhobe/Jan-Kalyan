@@ -1,0 +1,26 @@
+{
+  "id": "jharkhand-mukhyamantri-gram-gadi-yojana",
+  "name": "Jharkhand Mukhyamantri Gram Gadi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Operators receive financial support per kilometer based on bus seating capacity\n  - 33 to 42 seats: ₹18 per km.\n  - 25 to 32 seats: ₹14.50 per km.\n  - 13 to 24 seats: ₹10.50 per km.\n  - 7 to 12 seats: ₹7.50 per km.\n\n- **Tax and Fee Waivers:** Exemption from road tax, permit fee (₹1), application fee (₹1), registration fee (₹1), and fitness inspection fee (₹1).- **Priori",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photographs-aadhaar-card-proof-of-identity-vehicle-registration-ce"
+  ],
+  "apply_url": "https://www.jhtransport.gov.in/pdf/Implementation%20of%20Jharkhand%20Chief%20Minister%20Gram%20Gaadi%20Yojana%202022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jmggy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a private bus operator registered in Jharkhand.\n1. The applicant must operate new light/medium commercial four-wheeled vehicles with seating capacities ranging from 7 to 42 (excluding the driver).\n1. The applicant must ensure the vehicles comply with the Motor Vehicles Act, 1988, and have either a Hard Top or Soft Top body.\n1. Preference will be given to vehicles connecting rural routes to block/district headquarters, schools, colleges, hospitals, and main roads.\n1. The applicant must agree to operate vehicles on approved routes and adhere to the fare structure prescribed by the government.\n1. Operators who have previously violated permit conditions may be excluded from the scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-krishi-utpadan-sanrakshan-yojana",
+  "name": "Mukhyamantri Krishi Utpadan Sanrakshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. **Sour Badhbandi (Solar Fencing):** Under this scheme, a subsidy of 85% is being provided if three or more farmers opt to install solar fencing, and if farmers opt to install solar fencing on individual land then an 80% subsidy is being provided.\n2. **Anti-Hail Net Structure:** Financial assistance maximum of up to 80% is being provided to the eligible farmer for an area coverage maximum of up ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-address-proof-bank-passbook-identity-card-mobile-number-pas"
+  ],
+  "apply_url": "https://agriculture.hp.gov.in/en/our-scheme/mukhya-mantri-krishi-utpadan-sanrakshan-yojna/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkusy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a permanent resident of Himachal Pradesh.\n1. All the farmers of the state of Himachal Pradesh.\n1. Priority will be given to small and marginal farmers for giving benefits of the scheme.",
+  "_criteria_filled": 1
+}

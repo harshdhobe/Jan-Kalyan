@@ -1,0 +1,36 @@
+{
+  "id": "scheme-of-death-benefit-for-weavers-artisans-of-west-bengal",
+  "name": "Scheme of Death Benefit for Weavers & Artisans of West Bengal",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "₹2,00,000/- only per deceased Weaver/ Artisan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-aadhar-card-any-other-documents-as-required"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/circularpdf/1710141998Scheme%20of%20Death%20Benefit%20for%20the%20Wavers%20&%20Artisans%20of%20West%20Bengal.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdbwaw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The age of the deceased artisan/weaver was between 18 to 60 years on the date of death.\n  - The artisan/weaver has expired on or after the Date of Notification (7th March, 2024).\n  - The claimant should have not availed any other death benefit scheme by the State Government.",
+  "_criteria_filled": 3
+}

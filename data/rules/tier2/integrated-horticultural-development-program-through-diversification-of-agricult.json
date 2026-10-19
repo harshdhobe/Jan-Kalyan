@@ -1,0 +1,28 @@
+{
+  "id": "integrated-horticultural-development-program-through-diversification-of-agricult",
+  "name": "Integrated Horticultural Development Program Through Diversification of Agriculture",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- Organic Manures for Coconut Palms @ 75% Subsidy.\n- Tools and Implements for Agricultural Purpose @ 50% Subsidy.\n- Mud Pots or Cement Pots @ 50% Subsidy.\n- Plant Protection Chemicals @ 50% Subsidy.  \n- Motor Pumpset for Irrigation Purpose@ 50% Subsidy.\n- Biogas Unit @50% Subsidy.  \n- Planting Materials and Vegetable Seeds @ 75% Subsidy.  \n- Compensation for Disease Affected/ Unproductive Palms @ ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "in-the-case-of-land-owners-cultivating-their-land",
+    "a-copy-of-the-farmer-identity-card-containing-the-details-of-survey-numbers-and",
+    "tenants-shall-produce-a-cultivation-certificate-from-the-land-owner-or-agricultu"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/pdf/Horti_Application_Coconut.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihdpda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All farmers are eligible.\n_*The Agricultural officer (Mahe) shall maintain a separate register in the prescribed format for the receipt of applications and conduct periodic field inspections to verify the progress of the cultivation._",
+  "_criteria_filled": 1
+}

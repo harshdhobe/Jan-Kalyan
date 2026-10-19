@@ -1,0 +1,27 @@
+{
+  "id": "weekly-iron-folic-acid-tablets-free-distribution-uttarakhand",
+  "name": "Weekly Iron Folic Acid Tablets Free Distribution - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, teachers distribute free iron and folic acid tablets every Monday to all students enrolled in government and government-aided schools across the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-directions-of-the-respective-schools",
+    "if-any"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wifatfd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All students enrolled in government and government-aided schools in Uttarakhand are eligible under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

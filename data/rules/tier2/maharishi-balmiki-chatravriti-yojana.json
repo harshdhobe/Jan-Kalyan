@@ -1,0 +1,31 @@
+{
+  "id": "maharishi-balmiki-chatravriti-yojana",
+  "name": "Maharishi Balmiki Chatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "Scholarship of ₹ 18,000 per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-unique-identification-number-enrollment-ide"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/MahrishBalmikiChhatervritiYojna-202324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbcy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.      The applicant should be a permanent resident of Himachal Pradesh.\n2.      The applicant should be a girl student.\n3.      The applicant should belong to the Valmiki Family engaged in Unclean Occupation.\n4.      The applicant should have been admitted to a matriculation course.",
+  "_criteria_filled": 2
+}

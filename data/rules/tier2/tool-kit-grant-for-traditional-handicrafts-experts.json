@@ -1,0 +1,39 @@
+{
+  "id": "tool-kit-grant-for-traditional-handicrafts-experts",
+  "name": "Tool Kit Grant for Traditional Handicrafts Experts",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1.\tThe training costs, stipend (if found necessary), and tool kit grant together shall be limited to ₹25000/-.\n2.\tThe training and stipend portion is limited to ₹5000/-.\n3.\tThe maximum period of training will be three months.\n**Note 01:** The focus will be on machinery and equipment.\n**Note 02:** The tools developed by reputed institutions will be encouraged amongst the craftsmen.\n**Note 03:** The",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-photo-of-the-applicant-caste-certificate-income-certificate-exper",
+    "kadco",
+    "etc-photograph-of-the-work-site-photocopy-of-bank-passbook-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/8-01.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tkgthe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of the Kerala State.\n2.\tThe applicant should belong to the State Backward Communities of Kerala State.\n3.\tThe applicant should be engaged in traditional craftwork/skilled work.\n4.\tThe upper age limit of the applicant should be 60 years.\n5.\tThe annual family income of the applicant should be ₹1,00,000/-.\n**Note 01:** Those having more than two girl children shall get preference.\n**Note 02:** The differently abled person shall get preference.\n**Note 03:** Those having more than 10 years of experience shall get preference.",
+  "_criteria_filled": 3
+}

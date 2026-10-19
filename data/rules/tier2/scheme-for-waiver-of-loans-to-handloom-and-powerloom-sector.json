@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-waiver-of-loans-to-handloom-and-powerloom-sector",
+  "name": "Scheme For Waiver Of Loans To Handloom And Powerloom Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "The scheme redeems the debt accrued by the farmers, Self-Help Groups, Weavers, etc., to the Scheduled Commercial Banks/Cooperative Banks, Urban Cooperative Banks, and RRBs, through their Branches/Institutions in the State of Andhra Pradesh.\nThe total amount eligible for redemption of loans taken for weaving purposes shall be limited to ₹ 1,00,000 for Individual Weaver.\nThe total amount eligible fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "domicileresidential-certificate-proof-of-address-income-certificate-aadhar-card"
+  ],
+  "apply_url": "https://www.aphandtex.gov.in/open_record.php?ID=142",
+  "source_url": "https://www.myscheme.gov.in/schemes/swlhps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The loans disbursed to Individual Weavers and Weaver Groups for weaving purposes that were outstanding on 31.03.2014 are eligible for coverage under the scheme. \n1. The total amount of loan for all eligible purposes from all banks taken together shall not exceed the ceiling fixed for individuals. \n1. The following categories of borrowers are eligible under the scheme:\n\n       a)  Individual Weavers who have directly availed loans for weaving purposes; \n       b)  Weaver Groups having availed loans for weaving purposes on a pro-rata basis as per the amount drawn by each member, the aggregate amount subject to the overall ceiling; \n       c)  Credit extended to holders of Weaver Credit Cards; \n       d)  Weavers having Power Loom Units below 5 HP capacity and who are availing of the existing 50% Power subsidy scheme.",
+  "_criteria_filled": 1
+}

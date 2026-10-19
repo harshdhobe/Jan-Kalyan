@@ -1,0 +1,31 @@
+{
+  "id": "agricultural-extension",
+  "name": "Agricultural Extension",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- To supplement efforts of public extension by necessarily providing extension and other services to the farmers on a payment basis or free of cost as per the business model of agri-preneur, local needs and affordability of the target group of farmers. \n- To support agricultural development\n- To create gainful self-employment opportunities for unemployed agricultural graduates, agricultural diplom",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-enrollment-id-slip-copy-of-request-for-aadhaar-enrolment-voter-identity-c"
+  ],
+  "apply_url": "https://www.iari.res.in/en/introduction.php?div_id=4",
+  "source_url": "https://www.myscheme.gov.in/schemes/ae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scheme is open to the following categories of candidates of the age group of 18 to 60 years.\n1. Graduates in agriculture and allied subjects like Horticulture, Sericulture, Dairy, Animal Husbandry, Fisheries, Home/ Community Sciences, Biotechnology, Agricultural Engineering, Forestry, Food Technology, Food Nutrition, and Dietetics, etc, from SAUs/ Central Agricultural Universities/ Universities and graduates in Environmental Science, Botany, Zoology and Chemistry recognized by ICAR/ UGC. Degrees in Agriculture and allied subjects offered by other agencies are also considered subject to the approval of the Department of Agriculture &amp; Cooperation, Government of India on the recommendation of the State Government.\n1. Diploma (with at least 50% marks)/ Post Graduate Diploma holders in Agriculture and allied subjects (as in para 3.1) from State Agricultural Universities, State Agriculture and Allied Departments and the State Department of Technical Education. Diplomas in Agriculture and allied subjects offered by other agencies (autonomous bodies, UGC affiliated universities, etc.) are also considered subject to the approval of the Department of Agriculture  &amp; Cooperation, Government of India on the recommendation of the State Government.\n1. Post Graduation in Agriculture &amp; allied subjects.\n1. Degree courses recognized by UGC have more than 60 percent of the course content in Agriculture and allied subjects 3.5. \n1. Diploma/ Post-graduate Diploma courses with more than 60 percent of course content in Agriculture and allied subjects after B.Sc. in Biological Sciences from  recognized  colleges  and universities,\n1.  Agriculture-related courses at the intermediate (i.e. plus two)  level, with at least 55% marks,  \n1. The scheme covers full financial support for training and handholding, provision of loans, and credit-linked back-ended composite subsidy. \n\n<br>",
+  "_criteria_filled": 2
+}

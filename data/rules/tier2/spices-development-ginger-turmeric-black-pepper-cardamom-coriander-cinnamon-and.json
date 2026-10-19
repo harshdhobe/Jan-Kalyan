@@ -1,0 +1,26 @@
+{
+  "id": "spices-development-ginger-turmeric-black-pepper-cardamom-coriander-cinnamon-and",
+  "name": "Spices Development Ginger, Turmeric, Black Pepper, Cardamom, Coriander, Cinnamon and Chillies",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nThe produce from the Government Farm, Umsning are sold directly to the growers through District Horticulture Officers / Implementing Officers at full rate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=101",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdgtbpcccc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture.\n   1. The applicant should possess their own or leased land of at least 0.2 (hectares) or more.\n\n**Note:****** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

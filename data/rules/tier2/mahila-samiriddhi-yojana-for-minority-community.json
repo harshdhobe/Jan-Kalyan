@@ -1,0 +1,46 @@
+{
+  "id": "mahila-samiriddhi-yojana-for-minority-community",
+  "name": "Mahila Samiriddhi Yojana for Minority Community",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, Nigam provides loans up to ₹1,00,000/- per beneficiary only to women entrepreneurs of the target group, either directly or through Self-Help Groups.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=hXG2KQjrwVuRQZQi0t5shQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/msymc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The age of the applicant should be between 16 to 45 years.\n   1. The applicant should be a woman.\n   1. The applicant should belong to Minority Community i.e. Muslims, Sikhs, Christians, Buddhists, Parsis, and Jains.\n   1. The annual family income of applicant should not exceed ₹98,000/- (Rural Area) and ₹1,20,000/- (Urban Area).\n   1. The applicant should have relevant educational/technical/vocational qualifications/experience and background to avail the loan benefits under this scheme.\n   1. The applicant should have Pariwar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 5
+}

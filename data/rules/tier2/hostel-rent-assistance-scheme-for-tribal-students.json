@@ -1,0 +1,26 @@
+{
+  "id": "hostel-rent-assistance-scheme-for-tribal-students",
+  "name": "Hostel Rent Assistance Scheme for Tribal Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Students receive the following rental assistance as a cash benefit:**\n\n**Sl. No****Location****Duration****Rate per month per student (₹)****Amount (for 10 months) (₹)**1Divisional HeadquartersUp to 10 months50050002District HeadquartersUp to 10 months40040003Other AreasUp to 10 months3003000> **Mode of Disbursement:**\n\n- The amount is transferred directly to the beneficiary&#39;s bank account",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "income-tax-non-assessee-declaration-certificate-certified-by-a-competent-authori"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/TAD/2022/Order/O_010321_ffad8e60-6d71-4300-9599-ca8501637cdb.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hrasfts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be studying regularly a undergraduate or postgraduate course in a government college.\n1. The student should belong to a Scheduled Tribe community residing in the Scheduled Areas of Rajasthan. \n1. The applicant should be a native of Rajasthan.\n1. The applicant should be studying in a government college.\n1. The applicant should not be residing in a government-run hostel.\n1. The applicant&#39;s parents/guardian/husband should not be an income tax payer.\n1. The applicant should not have any academic gap (break) after passing the last board examination.\n1. The applicant should possess a valid Bhamashah card and an Aadhaar card.",
+  "_criteria_filled": 1
+}

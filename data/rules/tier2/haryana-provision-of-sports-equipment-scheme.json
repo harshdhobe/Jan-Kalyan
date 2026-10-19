@@ -1,0 +1,27 @@
+{
+  "id": "haryana-provision-of-sports-equipment-scheme",
+  "name": "Haryana Provision of Sports Equipment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "<br>\n\n**Name of the Sport** **Eligible Equipment**VolleyballUp to 06 Balls and Net (if poles are installed)FootballUp to 06 Balls and Net (if poles are installed)BasketballUp to 06 Balls (if poles are installed)Handball  Up to 06 Balls and Net (if poles are installed)\nBoxingUp to 06 Punching Bags and 12 pairs of gloves.WrestlingMats size length 1 meter x width 2 meters &amp;amp;amp;amp; thickness ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "latest-photographs-of-the-field-of-play",
+    "mentioning-the-date-location-on-the-photograph"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3e069ea4c9c233d36ff9c7f329bc08ff1/uploads/2023/09/20230919191172889.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hposec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Municipal Body/Gram Panchayat of Haryana.\n1. Field of Play (FOP) should be available in the town/village for the expected play.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "yuvak-mangal-dal-and-mahila-mangal-dal-swavalamban-yojana",
+  "name": "Yuvak Mangal Dal and Mahila Mangal Dal Swavalamban Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of ₹14,268/- is provided to purchase essential materials for community use, aimed at making the Mangal Dals self-reliant.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-all-group-members-permanent-residence-certificates-of-all-group"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ymdwmdsrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a recognized Yuvak Mangal Dal or Mahila Mangal Dal in Uttarakhand, formally affiliated with the Department of Youth Welfare and PRD, Government of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

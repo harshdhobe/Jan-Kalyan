@@ -1,0 +1,27 @@
+{
+  "id": "pre-matric-scholarship-for-backward-class-students",
+  "name": "Pre-Matric Scholarship for Backward Class Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Classes 6th to 8th**\n\n- Boys: ₹20/- per month\n- Girls: ₹30/- per month\n\n**Classes 9th to 10th**\n\n- Boys: ₹30/- per month\n- Girls: ₹40/- per month\n\n**NOTE:****** The scheme is individual in nature, covering all of Madhya Pradesh. Scholarships are awarded for 10 months annually and paid in one installment on 30th September.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-income-certificate-land-ownership-proof-showing-less-than-10-a",
+    "birth-certificate-or-school-records-academic-records-if-applicable"
+  ],
+  "apply_url": "https://bcwelfare.mp.nic.in/Public/OBC/PreMatric.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsfbcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student of classes 6th to 10th.\n1. The parents/guardians of the applicant should not be income taxpayers.\n1. The parents/guardians of the applicant should not own more than 10 acres of land.",
+  "_criteria_filled": 1
+}

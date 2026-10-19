@@ -1,0 +1,32 @@
+{
+  "id": "disability-pension-for-registered-worker-hbocwwb",
+  "name": "Disability Pension For Registered Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. A pension of ₹3000/- per month is given to the worker in case of disability due to any infectious disease or accident at the workplace.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-undertaking-work-slip-proof-of-residence-rat"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/121",
+  "source_url": "https://www.myscheme.gov.in/schemes/dprw-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n1. The registered worker must have minimum three-year regular memberships.\n1. The registered worker who has become disabled due to any infectious disease or accident at the workplace during the course of employment is eligible to apply under the scheme.\n1. The percentage of permanent disability should be between 70% to 100%.\n1. The worker must not be taking a disability pension from any other Haryana Government Department/ Board/ Corporation.\n\n**Note 01:** It is necessary to upload the No Objection Certificate issued by the Department of Social Justice and Empowerment.\n**Note 02:** It is necessary to upload the declaration that the applicant is not receiving a pension from any other Government Department/Board/Corporation/institution while filling out the application form.\n**Step 03:** It is mandatory for the beneficiary to upload the life certificate and deposit the prescribed contribution every year in the month of November.",
+  "_criteria_filled": 2
+}

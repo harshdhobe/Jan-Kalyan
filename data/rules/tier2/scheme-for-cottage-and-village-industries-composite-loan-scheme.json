@@ -1,0 +1,49 @@
+{
+  "id": "scheme-for-cottage-and-village-industries-composite-loan-scheme",
+  "name": "Scheme for Cottage and Village Industries (Composite Loan Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance (Term Loan and/or Working Capital Loan) up to a maximum of ₹25,00,000/- per unit.\n- Loan proceeds may be used for assistance for fixed assets and/or working capital.\n- Loan proceeds may be considered for the purchase of new machinery/equipment and to meet the working capital requirement.\n- The maximum repayment period is 8 years, including a moratorium period of maximum 1 ye",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-filing-loan-application-up-to-25",
+    "00",
+    "000-loan-limitcopy-of-acknowledgement-of-micro",
+    "small",
+    "and-medium-enterprise-registration-certificate-obtained-from-industries-departme",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-copy-of-partnership-deed-and-acknow",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-mandatory-furnishing-of-details-asked-for-in-the-application",
+    "13",
+    "14",
+    "and-15-to-prepare-the-appraisal-report-consent-letter-from-bank-for-sanction-of",
+    "50-concession-has-to-be-paid-documents-to-be-submitted-either-during-processing",
+    "00",
+    "000-applicable-licence-copies",
+    "including-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance",
+    "etc-puducherry-planning-authority-approval-ppa-approval-required-for-loans-above",
+    "00",
+    "000-original-title-deed-antecedent-title-deeds-encumbrance-certificate-for-30-ye"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/scvi-cls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The promoter shall be a resident of Puducherry.\n2.  The applicant must belong to one of the following sectors - \n\n- Artisans Village and Cottage Industries sector.\n- Small Industries in the tiny sector.\n- Micro Enterprises projects.\n\n3.  The loan application purpose must be for assistance for fixed assets and/or working capital.\n4.  The cost of machinery must have a ceiling of ₹25,00,000/- per unit.\n<br>",
+  "_criteria_filled": 1
+}

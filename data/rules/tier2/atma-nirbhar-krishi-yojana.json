@@ -1,0 +1,32 @@
+{
+  "id": "atma-nirbhar-krishi-yojana",
+  "name": "Atma Nirbhar Krishi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Financial assistance for agricultural activities: The scheme provides financial support to farmers for activities like scientific land terracing, doubling cropping, farm mechanization, and apiculture.\nLoan without collateral: Farmers can avail loans up to Rs. 1.60 lakhs without the need for collateral, facilitating access to financial resources.\nEnhanced productivity: By implementing modern farmin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id-card",
+    "pan-card",
+    "etc-proof-of-address-ration-card",
+    "utility-bill",
+    "driving-license",
+    "etc-land-documents-ownership-proof-or-lease-agreement-bank-account-details-passp"
+  ],
+  "apply_url": "https://roing.nic.in/agriculture/",
+  "source_url": "https://www.myscheme.gov.in/schemes/anky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Arunachal Pradesh.\n- The farmer should possess the necessary land for agricultural activities.\n- Women farmers and members of self-help groups are also eligible to apply under the scheme.\n- The applicant must have a viable plan or proposal for the proposed agricultural activities.\n- Farmers must meet the specific criteria set by participating banks for loan eligibility.",
+  "_criteria_filled": 1
+}

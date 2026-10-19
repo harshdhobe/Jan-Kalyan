@@ -1,0 +1,32 @@
+{
+  "id": "award-of-scholarships-to-outstanding-ncc-cadets-of-the-ut-of-puducherry",
+  "name": "Award of Scholarships to Outstanding NCC Cadets of the UT of Puducherry",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Rate of Scholarships**\n\n- Senior Division Cadets: ₹500 per month.\n- Junior Division Cadets: ₹250 per month.\n\n> **Number of Scholarships**\n\n- 34 fresh scholarships are awarded every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativitycitizenshipresidential-certificate",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t",
+    "issued-by-the-ncc-unit-ncc-camp-attendance-record-character-certificate",
+    "issued-by-the-institutionncc-unit",
+    "stating-that-the-applicant-has-not-been-discharged-due-to-disciplinary-reasons-m",
+    "if-applying-under-senior-division-boys-up-to-graduation-or-senior-wing-girls-div",
+    "if-applying-under-junior-division-boys-up-to-12-standard-or-junior-wing-girls-di"
+  ],
+  "apply_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_ScholarshipoutNcc.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/asoncutp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should have attended 75% of parades in the year.\n- The applicant should have attended the eligible number of camps.\n- The applicant should not have been discharged from the Institution/NCC under disciplinary grounds.\n- The awards will be available in the following divisions: Senior Division Boys Up to graduation; Senior Wing Girls; Junior Division Boys Up to 12 Standard; and Junior Wing Girls.\n\n**NOTE:** Awardees cannot receive other regular scholarships or stipends but can enjoy fee concessions, if any, from their institutions.",
+  "_criteria_filled": 1
+}

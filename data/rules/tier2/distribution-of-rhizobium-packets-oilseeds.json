@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-rhizobium-packets-oilseeds",
+  "name": "Distribution of Rhizobium Packets-Oilseeds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Quantum of Assistance:** 50% on the cost of Rhizobium or ₹100/- per ha. whichever is less.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-certificate-of-seed-production-and-supply-to-the-dep"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7616",
+  "source_url": "https://www.myscheme.gov.in/schemes/dorpo",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should produce and supply Foundation and Certified Class seeds to the Department.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

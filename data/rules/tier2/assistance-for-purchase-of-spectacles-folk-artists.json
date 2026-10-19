@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-purchase-of-spectacles-folk-artists",
+  "name": "Assistance for Purchase of Spectacles - Folk Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial Assistance maximum of ₹500/-\n\n> **Note:** This assistance shall be given only once.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "registration-card-of-the-folk-artist-medical-prescription-from-a-registered-eye"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apsfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a registered folk artist.\n1. The applicant should not have any dues payable to the board.\n1. The applicant must not have availed similar benefits from any other government scheme.",
+  "_criteria_filled": 1
+}

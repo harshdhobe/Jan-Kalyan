@@ -1,0 +1,26 @@
+{
+  "id": "state-government-st-scholarship-class-1-to-8",
+  "name": "State Government ST Scholarship (Class 1 to 8)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, scholarships will be provided to the students belonging to Scheduled Tribes at the following rates:\n**For Classes 1 to 5:**\n\n  - ₹250/- per year (for 10 months) to all girls and boys belonging to special backward tribes (Baiga, Saharia, and Bharia).\n\n**For Classes 6 to 8:**\n\n  - ₹200/- per year (for 10 months) for boys.\n  - ₹600/- per year (for 10 months) for girls.\n\n**Note:** T",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=889",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgsts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The student should be a native of Madhya Pradesh.\n   1. The student should be enrolled in Classes 1 to 8.\n   1. The student should belong to any of the Special Backward Tribes, such as Baiga, Saharia, or Bharia.\n   1. There is no restriction on the students&amp;#39; annual family income.\n\n**Note 1:** The students will be eligible for scholarships even if they fail for 1 year.\n**Note 2:** Reapplication is not required for the renewal of the scholarship.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "self-employment-scheme",
+  "name": "Self Employment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Benefits\nUnder this scheme, a subsidy of 33% of the unit cost or a maximum of Rs. 1.00 Lakh will be given to  persons belonging to religious minority communities",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 103000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-online-application-beneficiarys-latest-2-passport"
+  ],
+  "apply_url": "https://kmdc.karnataka.gov.in/29/self-employment-scheme/en",
+  "source_url": "https://www.myscheme.gov.in/schemes/ses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. Applicants must belong to the State Religious Minority Community.\n1. The applicant must be a permanent resident of the State.\n1. The age limit of the applicant is between 18 to 55 years.\n1. Family annual income from all sources should not be more than Rs.81,000/- in a rural areas and Rs. 1,03,000 in urban areas.\n1. No member of the applicant&#39;s family shall be an employee of the State/Central/ Government PSU.\n1. Applicants should not have availed of a loan in KMDC earlier.",
+  "_criteria_filled": 4
+}

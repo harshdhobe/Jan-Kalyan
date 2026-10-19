@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-shehri-credit-card-yojana",
+  "name": "Indira Gandhi Shehri Credit Card Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Providing interest-free loan facility up to Rs.50,000/- (fifty thousand). \n1. To promote the development of small businesses in the informal sector. \n1. To encourage self-employment. \n1. To make available financial resources for day-to-day needs. \n1. Mitigating the impact of COVID-19 on the informal business sector.\n1. This scheme will pave the way for the development and promotion of the econo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-janadhar-card-aadhar-card-documents-related-to-current-resid",
+    "wedding-id-card",
+    "recommendation-letter-issued-by-municipal-body-registration-number-registered-at"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/LBD/IGSCCY/DOC_784_04d64203-feac-4d7f-9dfd-5e34ab8534a7.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igsccy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Rajasthan.\n1. The age of the applicant should be between 18 to 40 years.\n1. To get the benefit of this scheme, the monthly income of the applicant should be Rs 15,000/- or less.\n1. The monthly income of the applicant&#39;s family should be Rs. 50,000 or less.\n1. All those small traders who have been provided with a certificate or identity card by the urban body are also eligible for this scheme.\n1. Traders left out in the survey or beneficiary Wonder with a recommendation letter from Town Vending Committee will also be eligible for this scheme.\n1. The vendors selected during the survey will also be eligible for this scheme. (To whom a certificate or identity card has not been issued)",
+  "_criteria_filled": 4
+}

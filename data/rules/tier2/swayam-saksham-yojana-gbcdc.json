@@ -1,0 +1,41 @@
+{
+  "id": "swayam-saksham-yojana-gbcdc",
+  "name": "Swayam Saksham Yojana (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount:**\n\n- Up to ₹5,00,000/- per applicant.\n\n**Interest Rate:**\n\n- 6% per annum.\n\n**Loan Share:** Under the scheme, the loan will be distributed in a unit cost ratio where-\n\n- 85% will be covered by a national corporation\n- 10% by State Government\n- 5% contribution by the beneficiary\n\n**Repayment Terms:**\n\n- This loan will have to be repaid in 60 equal monthly installments including inter",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-passbookcancelled-cheque-business-address-proof-certificate-of"
+  ],
+  "apply_url": "https://www.digitalgujarat.gov.in/loginapp/CitizenLogin.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Socially and Educationally Backward Classes (SEBC).\n1. The applicant should be between 18 and 35 years of age on the date of application.\n1. The applicant should be unemployed but professionally educated (e.g., doctor, engineer, lawyer, CA, etc.).\n1. The total annual family income of the applicant should not exceed ₹3,00,000/-.\n1. The applicant should have completed a professional course (degree or diploma).\n1. The applicant should intend to start a professional business such as clinics, nursing homes, physiotherapy clinics, biomedical labs, legal offices, medical stores, architect offices, engineering units, C.A. offices, etc.\n\n<br>",
+  "_criteria_filled": 4
+}

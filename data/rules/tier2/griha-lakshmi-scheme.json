@@ -1,0 +1,32 @@
+{
+  "id": "griha-lakshmi-scheme",
+  "name": "Griha Lakshmi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- Financial Assistance of ₹2,000/- per month.\n- The amount is directly transferred to the beneficiary&#39;s bank account linked with Aadhaar (DBT) or through RTGS for non-Aadhaar linked accounts.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-ration-card-where-the-woman-is-listed-as-the-head-of-the-family-copy",
+    "if-applicable"
+  ],
+  "apply_url": "https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a woman.\n\n- The applicant should be listed as the head of the family on the ration card.\n- The applicant should be the head of the family as per the ration card (BPL or APL).\n- The family of the applicant should be a resident of Karnataka.\n\n**Preference/Priority/Reservation/Relaxation**\n\n- Women from BPL families are given priority.\n- In case of the death of the family head, the next eligible female member can be registered.",
+  "_criteria_filled": 2
+}

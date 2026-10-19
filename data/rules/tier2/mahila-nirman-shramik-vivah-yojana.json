@@ -1,0 +1,31 @@
+{
+  "id": "mahila-nirman-shramik-vivah-yojana",
+  "name": "Mahila Nirman Shramik Vivah Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "- **A one-time grant of ₹50,000/- is provided to meet the marriage expenses of the female registered construction worker and a maximum of two daughters of a registered construction worker.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-boc-worker-registration-card-bank-account-details-marriage-certificate-b"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/3435175.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnsvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female registered construction worker. \n1. The female construction worker should have been registered for at least one year continuously.\n1. The family of a registered construction worker can avail of this assistance only twice: however, there shall be only one claim in respect of a given marriage irrespective of the number of registered construction workers in the family.\n1. The registered construction workers should not have any dues payable to the Board.\n1. The registered construction worker&#39;s daughter should have attained the age prescribed by law for marriage for whose marriage the assistance is sought.  \n1. The registered construction worker&#39;s daughter should not be an employee in government or quasi-government.",
+  "_criteria_filled": 2
+}

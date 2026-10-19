@@ -1,0 +1,36 @@
+{
+  "id": "state-marriage-assistance-scheme-for-poor-girls",
+  "name": "State Marriage Assistance Scheme For Poor Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "The eligible beneficiary girl shall receive an amount of ₹50,000/- (rupees fifty thousand only) as one-time financial assistance before her marriage. \nThe financial assistance shall be directly transferred into the individual bank accounts of the beneficiaries (marriageable girls) through DBT mode.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-marriage-proof-of-age-aay-antyodaya-anna-yojana-ration-car"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/pdf/New%20Guidelines%20of%20SMAS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smaspg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a female.\n1. The applicant must be of marriageable age, i.e. 18 years or above (Legal Age for Marriage in India).\n1. The applicant must be from either AAY (Antyodaya Anna Yojana) or PHH (Priority Households) ration card holder families.\n1. The applicant must not have availed the financial benefit for the same purpose under any other UT/Centrally Sponsored Scheme, especially Ladli Beti Scheme. She can avail of benefits only once under the scheme.\n1. The applicant must have applied at least one month in advance (before the date of marriage) to the concerned District Social Welfare Officer along with proof of marriage, proof of age, copy of AAY or PHH ration card, and Aadhaar card.\n1. The minimum qualification of the beneficiary girl has to be 8th Pass or equivalent. However, in the case of school dropouts, the following guidelines shall apply:\n\na)    During the next three years i.e., from the financial year, 2022-2023 to 2024-2025 restructured guidelines shall be implemented irrespective of the education status of the beneficiary girl.\nb)    From 01-04-2025 onwards beneficiary girl has to compulsorily produce a certificate for having passed 8th Class or equivalent.",
+  "_criteria_filled": 3
+}

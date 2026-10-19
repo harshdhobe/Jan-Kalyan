@@ -1,0 +1,28 @@
+{
+  "id": "nashamukt-gram-panchayat-puraskar-yojana",
+  "name": "Nashamukt Gram Panchayat Puraskar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Cash Award:** ₹1,00,000/- per district per Panchayat.- **Certificate of Appreciation:** A certificate detailing the Gram Panchayat&#39;s outstanding work.- **Travel Expenses:** Coverage of coming and going travel expenses for the related Sarpanch (Head of the Gram Panchayat).\n##### ***Disbursement Conditions***\n\n- **Mode and Time:** The नगद पुरस्कार (Cash Award) must be provided to the related",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "the-following-list-of-documents-is-inferred-from-the-eligibility-criteria-and-ap",
+    "production",
+    "supply-and-distribution-act-2003-records-of-treatment-provided-to-habitual-addic"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/files/Nashmukt_gram_panchayat_purshkar1.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must represent a Gram Panchayat of Madhya Pradesh.\n- The applicant must submit their application based on work performed and achievements realized in the previous year.\n- The Gram Panchayat must have one hundred percent (100%) of its population living a drug-free life after giving up intoxication.\n- The Gram Panchayat must include all villages under its jurisdiction.\n- The Gram Panchayat must have taken action under the Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act 2003.\n- The Gram Panchayat must have provided treatment for habitual addicts by admitting them for medical care in De-addiction cum Rehabilitation Centers.\n- The Gram Panchayat must ensure that students studying in all schools operating within the Panchayat area are motivated against and resolved not to consume intoxicants.\n- A news item should have been published about the drug-free Gram Panchayat in daily newspapers or magazines.\n\n<br>",
+  "_criteria_filled": 1
+}

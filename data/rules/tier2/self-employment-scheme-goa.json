@@ -1,0 +1,53 @@
+{
+  "id": "self-employment-scheme-goa",
+  "name": "Self Employment Scheme - Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "1. Financial Support up to a maximum of ₹ 10,00,000 to individuals.\n1. Loan/ Financial Assistance up to a maximum of ₹ 10,00,000 to the Association / Societies / Partnership / Self-help groups (SHG) / Companies.\n1. The beneficiary is required to contribute a 10% margin money towards the cost of the project. (The BOD may relax this condition considering the merit in each case, but this relaxation s",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-agricultural-sector-loan1-st-certificate-self-attested-2-two-photographs-pas",
+    "00",
+    "000-issued-by-the-competent-authority-4-copy-of-ration-card-self-attested-5-age",
+    "1-photo-and-id-proof-of-surety-13-bank-mandate-form-of-supplierdealer-for-allied",
+    "00",
+    "000-issued-by-the-competent-authority-4-copy-of-ration-card-self-attested-5-age",
+    "security",
+    "electricity",
+    "14-water-etc-15-cost-of-machinery-invoice-16-estimated-amount-required-for-raw-m",
+    "1-photo-and-id-proof-of-surety-19-bank-mandate-form-of-supplierdealer-processing",
+    "sales-and-service1-st-certificate-self-attested-2-two-photographs-passport-size",
+    "00",
+    "000-issued-by-the-competent-authority-4-copy-of-ration-card-self-attested-5-age",
+    "stock-etc-13-salary-certificatelatest-payment-slip-of-the-surety-14-affidavit-of",
+    "1-photo-and-id-proof-of-surety-15-bank-mandate-form-of-supplierdealer-for-the-pu",
+    "00",
+    "000-issued-by-the-competent-authority-4-copy-of-ration-card-self-attested-5-age",
+    "1-photo-and-id-proof-of-surety-14-bank-mandate-form-of-dealer"
+  ],
+  "apply_url": "https://stcorporation.goa.gov.in/wp-content/uploads/2020/03/Self-Employment-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ses-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Individual / Association / Societies / Partnership / Self-help Group (SHG) / Company.\n1. The applicant should be from a Scheduled Tribe (ST) Community.\n1. The family income of the applicant/beneficiary should not be more than ₹ 1,00,000 per annum.\n1. The age of the applicant should not be more than 55 years. \n1. Financial support should only be given to undertake any self-employment activities.\n1. The applicant will have to provide two guarantors / Surety who is having a sound financial status. One Guarantor should necessarily be a Government Servant.\n\n**NOTE:** The eligibility criteria can be relaxed in deserving cases by the decision of the BOD.",
+  "_criteria_filled": 3
+}

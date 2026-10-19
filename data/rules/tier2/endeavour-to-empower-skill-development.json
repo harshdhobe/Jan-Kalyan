@@ -1,0 +1,26 @@
+{
+  "id": "endeavour-to-empower-skill-development",
+  "name": "Endeavour To Empower-Skill Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "- The trainings are given in focus sectors at Tourism, IT, handicrafts, Retail, Agriculture, construction, and other focus sectors of Jammu &amp;amp; Kashmir.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://www.missionyouth.jk.gov.in/scheme_pdf/empower.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eesd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Candidates must have passed the qualifying examination prescribed for a particular training programme/course;\n   1. Benefits under the scheme can be availed by a particular candidate only once irrespective of the sector/nature of training;\n   1. Candidates who have already completed Skilling Training in any trade under any Government scheme will not be eligible to get benefits under this scheme.\n   1. Students/Candidates covered under the scheme shall have to attend all mandatory training sessions as prescribed under any particular course. In the event of any candidate leaving the training midway, the entire expenditure incurred on the candidate will be recovered from the institute/candidate (conjointly) concerned.\n   1. 40% of the number of sanctioned slots shall be earmarked for female candidates. In case, a sufficient number of eligible female candidates are not available the remaining slots will be filled by male candidates.",
+  "_criteria_filled": 1
+}

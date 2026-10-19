@@ -1,0 +1,50 @@
+{
+  "id": "alpsankhyak-muslim-parityaqtatalaqshuda-mahila-sahayata-yojana",
+  "name": "Alpsankhyak Muslim Parityaqta/Talaqshuda Mahila Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under this scheme, the state government provides financial assistance of ₹25,000/- to minority Muslim abandoned/divorced women to strengthen their economic condition and make them self-reliant.\n\n**Note:** The grant amount will be directly transferred to the beneficiary’s bank accounts through RTGS/DBT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 400000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-proof-of-age-any-one-of-the-following-birt",
+    "matriculation-or-equivalent-certificate",
+    "voter-identity-card",
+    "passport",
+    "or-certificate-issued-by-an-executive-magistrate-community-certificate-certifica"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/42/Old%20Notice%20Board/Schemes%20for%20Minorities/pratiyakta_yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/amptmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a resident of Bihar.\n2.\tThe applicant should be a Muslim woman from a minority community.\n3.\tThe Muslim woman should fall under one of the following categories:\n•\tDivorced \n•\tAbandoned by her husband for more than 2 years \n•\tHusband is completely mentally handicapped \n4.\tThe applicant&amp;#39;s age should be between 18 and 50 years.\n5.\tThe applicant&amp;#39;s annual family income should be less than ₹4,00,000/-.\n6.\tThe woman should not have remarried.\n7.\tThe benefits of this scheme are available only once in a lifetime.\n8.\tWidow is not eligible for this scheme.",
+  "_criteria_filled": 5
+}

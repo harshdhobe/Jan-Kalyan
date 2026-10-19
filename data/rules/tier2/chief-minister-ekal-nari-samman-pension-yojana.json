@@ -1,0 +1,41 @@
+{
+  "id": "chief-minister-ekal-nari-samman-pension-yojana",
+  "name": "Chief Minister Ekal Nari Samman Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. From 18 to 55 years old: Rs. 500/- per month.\n1. From 55 to 60 years: Rs. 750/- per month.\n1. From 60 to 75 years: 1000/- per month.\n1. Above the age of 75 years: 1500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-ration-card-original-residence-certificate-bank-a"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/112",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmenspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s age should be 18 years or more.\n1. A native of the Rajasthan state.\n1. A widow/abandoned/divorced woman who does not have any source of regular income of her own for subsistence. (or)\n1. Annual income from all sources should be less than Rs. 48,000/-.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,29 @@
+{
+  "id": "production-incentive-back-ended-subsidy-for-cultivation-of-horticulture-crops",
+  "name": "Production Incentive / Back-Ended Subsidy for Cultivation of Horticulture Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "> **One Time Assistance**  \n\n- Mango: ₹ 12,250.\n- Guava: ₹ 5,830.                \n- Sapota: ₹ 2,300.\n- Other fruits (not covered under the NHM scheme): ₹ 25,000.\n\n<br>\n\n> **Bi‐annual Assistance (Two Seasons Per Year) - Thai and Aadi Pattams**\n\n- Hybrid vegetables: ₹ 5,000.\n- Country Vegetables: ₹ 12,500.\n- Winter Vegetables: ₹ 18,750.\n\n<br>\n\n> **Annual Assistance**\n\n- Coconut: ₹ 7,500.\n- Tapioca: ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-cultivable-land-details-own-lease-farmer-identity-card-fmb-field-ma",
+    "a-copy-of-the-farmer-identity-card-containing-the-details-of-survey-numbers-and",
+    "a-copy-of-the-land-document-sale-deed-partition-deed-gift-deed-or-will-needs-to",
+    "tenants-shall-produce-a-cultivation-certificate-from-the-land-owner-or-agricultu"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/forms/horticrop.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pibeschc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All categories of farmers with farmer&#39;s identity cards / authenticated land records/documents are eligible.\n_*The Agricultural Officers (Horticulture) shall conduct periodic field inspections to verify the progress of the cultivation in coordination with the Agricultural Officers of the respective Uzhavar Uthaviyagams._",
+  "_criteria_filled": 1
+}

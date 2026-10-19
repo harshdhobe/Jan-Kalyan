@@ -1,0 +1,50 @@
+{
+  "id": "scheme-for-acquisition-of-electro-medical-and-other-equipment-pipdic",
+  "name": "Scheme for Acquisition of Electro-Medical and Other Equipment (PIPDIC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance to registered Medical practitioners for acquisition and installation of Electro Medical and other related equipment.\n\n_*Cost of Equipment must not exceed ₹60,00,000/-._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "particulars-to-be-submitted-at-the-time-of-filing-loan-applicationcopy-of-acknow",
+    "small-and-medium-enterprises-registration-certificate-obtained-from-industries-d",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-copy-of-partnership-deed-and-acknow",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-detailed-project-report-on-the-project-details-asked-for-in-t",
+    "13",
+    "14",
+    "and-15-are-to-be-furnished-compulsorily-to-prepare-appraisal-report-consent-lett",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant",
+    "if-any-details-of-effluent-and-arrangement-proposed-for-treatment-and-disposal-o",
+    "puducherry-planning-authority-approvalinspector-of-factories-approval",
+    "municipalpanchayat-permission",
+    "pollution-clearance",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-thirty-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-factory-site-and-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/saemoe-pipdic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Registered Medical practitioners.\n- Cost of Equipment must not exceed ₹60,00,000/-.\n\n<br>",
+  "_criteria_filled": 1
+}

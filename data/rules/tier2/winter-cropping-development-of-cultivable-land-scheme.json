@@ -1,0 +1,26 @@
+{
+  "id": "winter-cropping-development-of-cultivable-land-scheme",
+  "name": "Winter Cropping & Development of Cultivable Land Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n  - Training, Extension, Technology Support, and Subsidy on Inputs.\n\n&gt; **Type of Assistance and Entitlement (If any):**\n\n  - Free distribution of Agril inputs i.e. High Yielding Varieties, Seeds, bio-pesticides/bio-fertilizers/fencing materials.\n  - Conduct of farmers&amp;#39; training/ awareness programme.\n  - Construction of water conservation structures i.e. che",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/wcdcls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

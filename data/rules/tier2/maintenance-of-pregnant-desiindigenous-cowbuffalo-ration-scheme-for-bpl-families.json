@@ -1,0 +1,31 @@
+{
+  "id": "maintenance-of-pregnant-desiindigenous-cowbuffalo-ration-scheme-for-bpl-families",
+  "name": "Maintenance Of Pregnant Desi/Indigenous Cow/Buffalo Ration Scheme For BPL Families Belonging To Scheduled Caste (SC) Category",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "1. **Ration:** 3 kg of balanced ration per day for a maximum of two animals for three months.   1. **Milk production:** Milk production increases by 2 liters per day after feeding the ration.   1. **Income:** If the farmer sells the milk at 30 rupees per liter during the 300-day lactation period, their income may increase by approximately 18,000 rupees per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-copy-of-bank-passbook-number-of-animals-along-with-their-ea"
+  ],
+  "apply_url": "https://hpahdbt.hp.gov.in/Home/cow_buffalo_ration_scheme_under_scsp#:~:text=Families%20belonging%20to%20BPL%20of,of%20pregnancy%20at%2050%25%20subsidy.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpdicbrsbfscc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a permanent resident of Himachal Pradesh.\n   1. Livestock owners belonging to BPL of Scheduled Caste category families rearing Desi/Indigenous/crossbred cows or buffaloes are eligible under the scheme.\n   1. The subsidy will be provided to each BPL of Scheduled Caste category families for a maximum of up to two Desi/Indigenous cows/their crosses or buffaloes.",
+  "_criteria_filled": 2
+}

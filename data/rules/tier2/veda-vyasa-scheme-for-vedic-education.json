@@ -1,0 +1,40 @@
+{
+  "id": "veda-vyasa-scheme-for-vedic-education",
+  "name": "Veda Vyasa Scheme for Vedic Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "**Course wise Financial Assistance:** \nSl. No.Approximate Age of the StudentCoursePeriod of StudyAnnual Financial Assistance1Between 8 &amp;amp;amp;amp; 19 YearsSmartham6 Years₹12,000/- 2Between 8 &amp;amp;amp;amp; 14 YearsMoolam6 Years₹12,000/- 3Between 13 &amp;amp;amp;amp; 16 YearsPadam3 Years ₹24,000/- 4Between 15 &amp;amp;amp;amp; 17 YearsKramam1 Year ₹30,000/- 5Between 16 &amp;amp;amp;amp; 18",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 8
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 19
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-student-parents-with-address-in-andhra-pradesh-caste-certific",
+    "where-the-student-is-pursuing-the-vedic-course-course-completion-certificate-in",
+    "padam",
+    "kramam",
+    "and-jata-issued-by-the-competent-authority-bank-passbook-note-bank-account-passb"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/vedavyasa2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vvsve",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his parents should belong to the Brahmin community.\n1. The parents of the student should reside in Andhra Pradesh. \n1. The student&#39;s age should be between 8 to 19 years. \n1. The student should be pursuing a full-time vedic course (Yajur Veda, Rig Veda, Sama Veda, Atharvana Veda, or Smartham) in any of the Veda Pathasala registered with Tirumala Tirupati Devasthanams (TTD) or Endowments Department of Govt. of Andhra Pradesh or enlisted by the A.P. Brahmin Welfare Corporation.  \n1. The student applying for Padam, Kramam, Jata, and Ghanam should have completed their previous course of study.  \n1. The student should be enrolled in the Praja Sadhikara Survey (PSS).  \n\n<br>",
+  "_criteria_filled": 3
+}

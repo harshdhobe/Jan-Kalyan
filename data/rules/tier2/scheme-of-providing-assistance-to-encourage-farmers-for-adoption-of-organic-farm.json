@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-providing-assistance-to-encourage-farmers-for-adoption-of-organic-farm",
+  "name": "Scheme of Providing Assistance to Encourage Farmers for Adoption of Organic Farming",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Registration/ CertificationAssistance for Certification/Registration fees 75% from GOPCA and 50% assistance in Certification fees with other certifying Body;  Upto Maximum  ₹2,000/- per HectareEvery yearInputInput subsidy of ₹5,000/- per Hectare for Certified farmEvery yearResidue testingPe",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbook-land-ownership-proof-organic-certification-documents"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/qOhKPiCdFQSM3zEzbNRkog%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/spafof",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Individual farmer or farmers group.\n  - The applicant should have an interest in practicing certified organic farming system.",
+  "_criteria_filled": 1
+}

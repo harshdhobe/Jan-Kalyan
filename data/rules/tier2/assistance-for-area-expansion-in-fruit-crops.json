@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-area-expansion-in-fruit-crops",
+  "name": "Assistance for Area Expansion in Fruit crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **High-Density and Ultra High-Density Plantations:** Farmers can receive assistance ranging from ₹30,000/- to ₹40,000/- per hectare for crops like mango, guava, lemon, and pomegranate, with a maximum limit of 4 hectares per beneficiary.  - **Tissue-Culture Banana Cultivation:** The assistance covers 40% of the expenditure incurred or ₹50,000/-, whichever is less, per beneficiary, with a limit of",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/afaefc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "junior-hostel-scheduled-tribes",
+  "name": "Junior Hostel (Scheduled Tribes)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Free Accommodation and Mess Facilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=896",
+  "source_url": "https://www.myscheme.gov.in/schemes/jhst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from the Scheduled Tribes (ST) category.\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be a student of class 6th to 8th.\n1. The applicant should be studying in a government or recognized school.\n1. The applicant should have passed the previous year&#39;s examination.",
+  "_criteria_filled": 1
+}

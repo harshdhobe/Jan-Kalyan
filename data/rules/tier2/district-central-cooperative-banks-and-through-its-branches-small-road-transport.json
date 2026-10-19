@@ -1,0 +1,28 @@
+{
+  "id": "district-central-cooperative-banks-and-through-its-branches-small-road-transport",
+  "name": "District Central Cooperative Banks and through its Branches: Small Road Transport Operators Loan (SRTO Loan)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Up to ₹10,00,000/-.  - **Interest Rate:** 13% (subject to change).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-being-a-small-road-transport-operator-if-applicable-a"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3573",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccbsrto",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a Small Road Transport Operator.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "integrated-social-security-scheme-women-in-distress",
+  "name": "Integrated Social Security Scheme - Women In Distress",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "A pension of ₹1,000 per pensioner per month is deposited directly into their Bank Account through DBT mode.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card-voter-card",
+    "etc-death-certificate-of-the-husband-in-case-of-widow-income-certificate-of-less",
+    "000-per-annum-or-bpl-category-copy-of-aadhaar-card-copy-of-bank-passbook-passpor"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/pdf/FORMISSS1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isss-wid",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a destitute widow/divorced/deserted woman.\n1. The income of the applicant should be less than ₹ 75,000/- per annum or the applicant should be from the &quot;Below Poverty Line (BPL)&quot; Category.\n1. The age of the applicant should be between 40 and 79 years.",
+  "_criteria_filled": 5
+}

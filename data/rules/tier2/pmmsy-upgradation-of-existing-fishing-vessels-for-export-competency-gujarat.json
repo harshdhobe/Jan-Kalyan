@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-upgradation-of-existing-fishing-vessels-for-export-competency-gujarat",
+  "name": "PMMSY: Upgradation of existing fishing vessels for export Competency - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Unit cost : ₹15,00,000/-.\n1. General category : 40% assistance, i.e., ₹6,00,000/-.\n1. Women, Scheduled Castes (SC), and Scheduled Tribes (ST) : 60% assistance, i.e., ₹9,00,000/-.\n1. The benefit will be available as per the target (category) allocated by the Government of India.\n\n<br>\n\n> **Remarks:** 60% contribution from Government of India and 40% contribution from State Governments is paid.\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-pass-bookcancelled-cheque-caste-certificate-copy-of-license-ide"
+  ],
+  "apply_url": "https://cof.gujarat.gov.in/Home/SchemesDetailsPage/o4rkgGvkhO9IQUTkb5zosA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyuefvecguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat state.\n1. The applicant should have a fishing boat registered under Real Craft software.\n1. The applicant should hold a fishing license.\n1. The applicant should complete the online registration on the [iKhedut Portal](https://ikhedut.gujarat.gov.in/site/).1. The applicant should obtain in-principle approval before purchase of the floor plan.\n1. The applicant should have his/her own bank account.\n\n> **Preference/Reservation/Relaxation:**\n\n  - Women, SC, and ST beneficiaries are eligible for 60% assistance of the unit cost.\n  - General category beneficiaries are eligible for 40% assistance of the unit cost.\n\n<br>",
+  "_criteria_filled": 1
+}

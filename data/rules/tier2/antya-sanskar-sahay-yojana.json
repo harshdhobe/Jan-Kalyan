@@ -1,0 +1,32 @@
+{
+  "id": "antya-sanskar-sahay-yojana",
+  "name": "Antya Sanskar Sahay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "The financial assistance under the scheme is up to ₹ 20,000/- or the actual cost whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-caste-certificate-issued-by-competent-authority-2-death-certificate-of-the-dec",
+    "marriage-certificate-etc-7-aadhar-card-8-vouchers-receipts-9-bank-passbook"
+  ],
+  "apply_url": "https://tribalwelfare.goa.gov.in/images/2023/Application_for_Antya_Sanskar_Sahay_Yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/assy-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased or the applicant should be from a Scheduled Tribe Family.\n1. The annual family income of the deceased or the applicant shall not exceed ₹ 3,00,000.\n\n<br>\n\n> **Special Case**\n\nIf the applicant is not from Scheduled Tribe, and the deceased is from Scheduled Tribe, then the applicant should establish the first relationship with the deceased person. The claim may be made within 12 months from the occurrence of death in the family of kin.",
+  "_criteria_filled": 2
+}

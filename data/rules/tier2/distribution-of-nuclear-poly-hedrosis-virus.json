@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-nuclear-poly-hedrosis-virus",
+  "name": "Distribution of Nuclear Poly Hedrosis Virus",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Quantum of Assistance:** 50% cost of input limited to ₹250/- per hectare.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-proof-of-pulses-crop-cultivation-caste-certificate-f"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7078",
+  "source_url": "https://www.myscheme.gov.in/schemes/donpv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should raise seed farms with Pulses crops.",
+  "_criteria_filled": 1
+}

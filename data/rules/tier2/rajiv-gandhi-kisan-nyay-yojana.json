@@ -1,0 +1,31 @@
+{
+  "id": "rajiv-gandhi-kisan-nyay-yojana",
+  "name": "Rajiv Gandhi Kisan Nyay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Maximum amount of 10000/- per acre will be paid to the farmers planting paddy and maize through debit in installments.\n- The fixed FRP amount for sugarcane crop will be paid through DBT to farmers at the rate of Rs. 93.75 /- quintal i.e. maximum amount of 355 /- per quintal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "loan-book-b-1-bank-passbook-aadhaar"
+  ],
+  "apply_url": "https://kisan.cg.nic.in/assets/files/FarmerRegistrationForm_UFP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgkny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Chhattisgarh state.\n1. The applicant should be a marginal farmer, small farmer or large farmer.\n1. The age of the applicant should be above 18 years.\n1. Farmers of all categories of landowners and forest lease holders are eligible to get the benefits of the scheme.",
+  "_criteria_filled": 2
+}

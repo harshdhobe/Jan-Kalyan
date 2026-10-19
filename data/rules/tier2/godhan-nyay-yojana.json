@@ -1,0 +1,31 @@
+{
+  "id": "godhan-nyay-yojana",
+  "name": "Godhan Nyay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "Cow dung and buffalo cattle breeders will be purchased by the government at the rate of Rs.2/- per kg.\nTo increase the income of cattle herders.\nProhibition on open grazing of livestock.\nCreation of new employment opportunities.\nPromotion of cow rearing and cow protection.\nPromoting the use of organic fertilizers by reducing the use of chemical fertilizers.\nMaking organic fertilizers easily availa",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-of-bank-passbook-identity-card-permanent-residence-certificate"
+  ],
+  "apply_url": "https://jansampark.cg.gov.in/library/Book/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A5%9D%20%E0%A4%97%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/Book_%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A5%9D%20%E0%A4%97%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The cattle rearer should be a resident of Chhattisgarh.\n1. The age of the cattle owner should be above 18 years.\n1.  It is mandatory for the cow dung collector to have an Aadhaar card.\n1. The cow dung collector should have his own bank account.\n1. The cow dung collector should have an identity card.\n1. The dung collector should have a mobile number.\n1. It is mandatory for the cow dung collector to register the number of his animals.",
+  "_criteria_filled": 2
+}

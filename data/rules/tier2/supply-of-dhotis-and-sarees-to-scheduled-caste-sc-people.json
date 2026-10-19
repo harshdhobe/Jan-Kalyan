@@ -1,0 +1,36 @@
+{
+  "id": "supply-of-dhotis-and-sarees-to-scheduled-caste-sc-people",
+  "name": "Supply of Dhotis and Sarees to Scheduled Caste (SC) People",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Each male member of the family is supplied with a lungi and shirt bit.\n- Each female member of the family is supplied with a saree and a blouse.\n- The benefits are provided annually.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-certificate-from-the-revenue-department-income-certificat"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/citizencharter-adidravidar.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdsscp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be 18 years or above in age.\n- The applicant should have his/her name included in the yellow/red ration card supplied by the Civil Supplies Department.\n- The applicant should have continuous residence in Puducherry for at least 5 years.\n- The annual income of the applicant should not exceed ₹ 24,000/-.",
+  "_criteria_filled": 3
+}

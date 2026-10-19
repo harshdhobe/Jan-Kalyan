@@ -1,0 +1,26 @@
+{
+  "id": "prime-minister-early-career-research-grant",
+  "name": "Prime Minister Early Career Research Grant",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "***Nature &amp; duration of support:***\n\n  - Research rant up to ₹60 lakh plus overheads for a period of three years.\n  - The measures for ease of doing research include flexibility to utilize resources under recurring head; flexibility in manpower recruitment; enhanced travel, contingency and overhead charges; and support for expenses related to open access publications and patent filing charges.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 42
+      }
+    ]
+  },
+  "documents": [
+    "biodata-under-user-profile-section-download-template-certificate-from-principal"
+  ],
+  "apply_url": "https://www.anrfonline.in/ANRF/ecrg_anrf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmecrg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian citizen.\n   1. Overseas Citizens of India (OCI) or Persons of Indian Origin (PIO) working as regular employees in any publicly funded and recognized R&amp;amp;D laboratories/institutions in India are eligible to apply as Principal Investigator (PI), in collaboration with an Indian Co-PI, provided they meet the eligibility criteria specified by ANRF (ANRF Funding Guidelines for PIO/OCI).\n   1. The applicant should hold a Ph.D. degree in Science or Engineering or an MD/MS/MDS/MVSc degree.\n   1. The applicant should be in a regular academic/research position at a recognized academic institution, national laboratory, or any other recognized R&amp;amp;D institution.\n   1. The applicant is eligible to apply within two years of joining the institution.\n   1. The upper age limit is 42 years, with a relaxation of three years for SC/ST/OBC/Physically Challenged and women candidates.\n   1. The applicant should not have received funding under YSS, ECR, SRG, CRG (erstwhile EMR), EMEQ, or any other project grant from the erstwhile SERB or ANRF.\n\n***Other conditions***\n\n  - An applicant is eligible to apply only one proposal during a call.\n  - Only a one-time career grant will be provided.\n  - Extension of the project tenure is not permitted under this programme.\n\n***Termination and transfer of the project:***\n\n   1. If any Principal Investigator (PI) wishes to terminate the project, they shall inform ANRF immediately with proper justifications. The implementing institute should not incur any expenditure from the date of termination of the project or the date of resignation of the PI. The institute must also arrange for the submission of relevant documents.\n   1. ANRF reserves the right to terminate the project at any stage if it is convinced that (i) appropriate progress is not being made (ii) the grant has not been utilized properly (iii) furnishing of false information or suppression of factual information.\n   1. Projects sanctioned under this programme cannot be transferred to any other person/s.\n   1. Transfer of approved/sanctioned PM ECRG project to another institution will be considered only in the following cases: (i) From private/public/government institution to any other public/government institution (ii) General administrative transfers in government or public funded institutions. Change of institute will not be considered in any other cases.",
+  "_criteria_filled": 1
+}

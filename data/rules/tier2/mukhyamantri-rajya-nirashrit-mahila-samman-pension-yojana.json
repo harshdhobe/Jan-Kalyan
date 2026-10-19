@@ -1,0 +1,40 @@
+{
+  "id": "mukhyamantri-rajya-nirashrit-mahila-samman-pension-yojana",
+  "name": "Mukhyamantri Rajya Nirashrit Mahila Samman Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Amount:** ₹ 1,000/- per month to the eligible beneficiary.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-death-certificate-of-husband-in-case",
+    "applicants-husband-has-died-or",
+    "proof-letterrecommendation-letter-from-the-office-of-the-bdosdomunicipality-in-c",
+    "applicant-is-an-abandoned-or-a-single-woman-copy-of-voter-id-card-in-case",
+    "applicants-age-is-18-years-or-more-copy-aadhar-card-in-case-the-applicant-does-n"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDocument?id=D031DO00628062023124410458",
+  "source_url": "https://www.myscheme.gov.in/schemes/mrnmspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Jharkhand.\n- The applicant should have attained the age of 18 years or more.\n- The applicant must belong to any of the following.\n\n1. A woman whose husband has died.\n1. An abandoned woman.\n1. Single Woman aged 45 years or more.\n\n- The applicant should have a Voter ID card and Aadhar Card.\n- The applicant should not be a beneficiary under any other Social Security pension scheme.\n- The applicant should not be retired or permanently employed in Central and State Government or in public sector undertakings.\n- The applicant or their spouse should not be a recipient of any family pension or pension from Central and State Government or from public sector undertakings.\n- Applicant’s family is not an income tax payee.\n\n<br>",
+  "_criteria_filled": 3
+}

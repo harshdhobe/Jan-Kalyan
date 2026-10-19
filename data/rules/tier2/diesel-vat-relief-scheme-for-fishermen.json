@@ -1,0 +1,28 @@
+{
+  "id": "diesel-vat-relief-scheme-for-fishermen",
+  "name": "Diesel VAT Relief Scheme for Fishermen",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Diesel VAT assistancePer litre maximum assistance up to ₹15/-Assistance is available as per fixed diesel quota throughout the year",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "valid-diesel-card-issued-by-the-government-boat-registration-certificate-identif",
+    "fishermen-id",
+    "etc-any-other-documents-as-required"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=v4lc2tu73R/9lWYKO76SRg==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/dvrsf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered diesel cardholder.\n  - The applicant must own a mechanized fishing boat.\n  - The boat should be less than 20 meters in length.\n\n<br>",
+  "_criteria_filled": 1
+}

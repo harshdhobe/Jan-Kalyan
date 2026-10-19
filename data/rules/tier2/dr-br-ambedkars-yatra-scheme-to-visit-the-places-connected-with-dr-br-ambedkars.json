@@ -1,0 +1,43 @@
+{
+  "id": "dr-br-ambedkars-yatra-scheme-to-visit-the-places-connected-with-dr-br-ambedkars",
+  "name": "Dr. B.R. Ambedkar’s Yatra Scheme to visit the places connected with Dr. B.R. Ambedkar’s life in India",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- Organizing a tour for a group of about 50 participants every year to four memorial places: Janam Bhoomi (Mhow, Madhya Pradesh), Deeksha Bhoomi (Nagpur, Maharashtra), Mahaparinivaran Bhoomi (Delhi), and Chaitya Bhoomi (Mumbai).\n- The total amount of expenses are fully borne by the Adi Dravidar Welfare and Scheduled Tribes Welfare Department.\n- The participants are entitled to free boarding and lo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-birthage-proof-certificate-issued-by-the-government-nativity",
+    "residence",
+    "caste-and-income-certificate-obtained-from-an-officer-of-the-revenue-department"
+  ],
+  "apply_url": "https://styandptg.py.gov.in/2025/APRIL/EXTRAORDINARYPART-II/1/34-PART-II%20dated%2009-04-2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbrasvpcdbrali",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be of the Scheduled Caste/Scheduled Tribe community recognized by the Union territory of Puducherry.\n- The applicant must belong to this Union Territory by virtue of birth or continuous residence of not less than 5 years.\n- The applicant must not be less than 18 years old on the date of application.\n- The applicant must not be more than 50 years old on the date of application.\n- The applicant must be free from any contagious/communicable diseases.\n- Only one person per family can participate in a year.\n- The applicant must not have previously participated in the tour programme in his/her lifetime.\n- The applicant must not be a person who is availing assistance under prolonged disease.\n- The total annual income of the family of the applicant should not exceed ₹2,00,000/-.\n\n##### ***Priority***\n\n- Applicants shall be selected by seniority in age on a first come first served basis.\n- The number of participants for each region shall be decided by the UT of Puducherry from time to time based on the ratio of the applications received: _Puducherry - 32; Karaikal - 12; Yanam - 4; Mahe - 2 (If no application is received, may be considered for Puducherry region)._\n<br>",
+  "_criteria_filled": 4
+}

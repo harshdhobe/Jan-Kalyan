@@ -1,0 +1,31 @@
+{
+  "id": "cash-award-to-women-players-of-the-state",
+  "name": "Cash Award to Women Players of the State",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **First Position (Individual &amp;amp; Team Sports at State Level/ National Representation):** ₹4,800/- per year  - **Second Position (Individual &amp;amp; Team Sports at State Level):** ₹3,600/- per year  - **Third Position (Individual Sports at State Level):** ₹2,400/- per year\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-certificate-marksheet-of-hsc-examination-certificate-of-p"
+  ],
+  "apply_url": "https://sportsauthority.gujarat.gov.in/scheme-for-award-to-women-players#",
+  "source_url": "https://www.myscheme.gov.in/schemes/cawpf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman.\n   1. The applicant should be a student.\n   1. The applicant should have passed the Higher Secondary Certificate (HSC) examination.\n   1. The applicant should be a resident of Gujarat.\n   1. The applicant should have secured first, second, or third position in individual or collective sports competitions held at the state level.\n   1. The applicant should have represented Gujarat state in national-level sports competitions.\n   1. The applicant’s accomplishment must have occurred within the respective financial year.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

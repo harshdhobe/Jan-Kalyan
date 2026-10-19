@@ -1,0 +1,47 @@
+{
+  "id": "marriage-assistance-to-daughters-of-differently-abled-parents-parinayam-i",
+  "name": "Marriage Assistance To Daughters Of Differently Abled Parents (Parinayam-I)",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. A one-time assistance of ₹30,000/- is provided to differently-abled parents for the marriage of their daughters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-birth-c",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12358.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/maddapp-i",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Kerala.\n2.\tThe differently abled parents for the marriage of their daughters should be eligible to apply under the scheme.\n3.\tWhile submitting the application for marriage assistance the bride should have completed 18 years of age.\n4.\tThe combined annual family income should not exceed ₹1,00,000/-.\n**Note 01:** Applications for assistance can be submitted for the marriage of two daughters.\n**Note 02:** The financial assistance for a second child&amp;#39;s marriage can be submitted only after 3 years after the initial grant of allowance.\n**Note 03:** After receiving the financial aid as per these terms, if the marriage has to be separated for any reason and the girl has to marry a second time, then the financial aid can be given for the second marriage. In such cases, the annual income of the family should be calculated taking into account the compensation received from the ex-husband.\n**Note 04:** If the applicant with disabilities dies before the marriage of the daughters, the said financial assistance can be given to the elder member of the family or any other member of the family who is responsible for conducting the marriage.\n**Note 05:** In case the applicant PWD dies after the marriage of his daughter but before receiving financial assistance, the senior member of the family or the married member or the individual can be given financial assistance on adequate security.",
+  "_criteria_filled": 5
+}

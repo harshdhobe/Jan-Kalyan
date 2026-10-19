@@ -1,0 +1,28 @@
+{
+  "id": "market-development-assistance-to-msmes-assistance-to-msme-manufacturing-sector-p",
+  "name": "Market Development Assistance to MSMEs: Assistance to MSME Manufacturing Sector Participation in the Exhibition (National and International)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&lt;br&gt;\n\n&lt;br&gt;\n\n**Exhibition Level**\t**Percentage****Maximum Assistance (Cost of Stall rent + Cost for product Literature and Display material cost)****Product Literature &amp;amp;amp;amp; Display Material Limit**State Level Exhibition75%₹50,000₹10,000/-National Level Exhibition75%₹1,00,000₹10,000/-International Level (Inside India)75%₹2,00,000₹20,000/-International Level (Outside India)60",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "msme-registration-certificate-udyam-registration-number-gst-registration-certifi",
+    "product-literature",
+    "and-display-materials-exhibition-participation-certificate-photographs-of-stall"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/5-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdameni",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The MSME unit should be engaged in the manufacturing sector.\n   1.  The MSME unit must be located in Gujarat.\n   1. The MSME unit must be in production during the scheme&amp;#39;s operative period.\n   1. MSMEs participating in Exhibitions/Trade fairs in India for State, National, and level Exhibition/Trade fairs organized by industry associations, federations, chamber of commerce and State Government (or its Agency) and / or outside India will be eligible under the scheme.\n   1. The MSME unit must apply within six months of exhibition participation.\n   1. International level exhibition must be approved by the Ministry of MSME, India Trade Promotion Organization (ITPO), Engineering Exports Promotion Council (EEPC), Federation of Indian Export Organization (FIEO) etc. and as approved by SLEC will be eligible under the scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "antyeshthi-sahay-yojana",
+  "name": "Antyeshthi Sahay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "A one-time financial assistance of ₹5,000/- is provided to the heirs of a senior citizen who was receiving old-age assistance at the time of their death. This assistance is intended to help with funeral expenses.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "old-age-assistance-sanction-orderonline-registered-pension-number-or-bank-accoun"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/asygsw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat. \n   1. The applicant must be the heir of a deceased senior citizen. \n   1. The deceased must have been a beneficiary of old-age assistance.\n\n<br>",
+  "_criteria_filled": 1
+}

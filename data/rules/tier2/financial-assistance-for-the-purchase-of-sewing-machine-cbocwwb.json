@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-the-purchase-of-sewing-machine-cbocwwb",
+  "name": "Financial Assistance for the Purchase of Sewing Machine (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "1. Financial assistance of ₹3500/- will be given to the spouse of a registered male construction worker or female construction worker for the purchase of a sewing machine, once in life time.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwwb1-passport-size-photograph-2-fi",
+    "if-any-5-copy-of-aadhaar-card-of-nominee-6-bank-details-7-receipt-of-payment-fil"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapsmcbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board.\n   1. Financial assistance will be given to the spouse of a registered male construction worker or female construction worker, once in a lifetime.\n   1. This financial assistance will be given on presenting original bills of purchase, duly verified by the employer.\n   1. The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.\n   1. The applicant should apply for financial assistance for the purchase of a sewing machine within one year.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "state-agriculture-thesis-grant-for-msc-agriculture",
+  "name": "State Agriculture Thesis Grant for M.Sc. Agriculture",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the Thesis Grant will be given to students according to the course/programme in which they are enrolled.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-pass-certificatemarksheet-of-msc-agricultu",
+    "if-applicable-indigenous-inhabitant-certificate-disability-certificate",
+    "if-applicable-copy-of-the-front-page-of-the-bank-passbook-or-bank-statement-clea",
+    "account-number",
+    "bank-branch",
+    "ifsc-code",
+    "link-with-aadhaar",
+    "etc"
+  ],
+  "apply_url": "https://agriculture.nagaland.gov.in/education-and-training/#:~:text=The%20State%20Department%20of%20Agriculture,%2C%20reimbursements%2C%20thesis%20grant%20etc.",
+  "source_url": "https://www.myscheme.gov.in/schemes/satgmsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "A student should fulfill the following criteria to be eligible for this Scholarship:\n\n   1. The State Agriculture Thesis Grant will be applicable for all the inhabitants of Nagaland who passed the M.Sc. Agriculture.\n   1. Applicants must be from an Institution which has a valid AISHE/UDISE code.\n   1. Applicants must not be a beneficiary of any other scholarship scheme.",
+  "_criteria_filled": 1
+}

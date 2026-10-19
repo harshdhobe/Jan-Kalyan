@@ -1,0 +1,27 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-raising-capit",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Raising Capital through SME Exchange",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 25% of the expenditure incurred in raising funds through the SME Exchange, with a maximum of ₹5,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "constitution-of-enterprise-memorandum-articles-of-association-board-resolution-r",
+    "and-authorised-signatory-undertaking-in-prescribed-format-copy-of-gpcb-approvals"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmesmee",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Micro/Small/Medium enterprises that raise equity capital through an SME Exchange are eligible for assistance under the scheme.\n   1. The scheme is open to MSMEs \n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. The enterprise must submit the application within one year of its listing date on the SME Exchange.",
+  "_criteria_filled": 1
+}

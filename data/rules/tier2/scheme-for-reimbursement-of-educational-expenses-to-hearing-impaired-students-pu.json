@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-reimbursement-of-educational-expenses-to-hearing-impaired-students-pu",
+  "name": "Scheme for Reimbursement of Educational Expenses to Hearing Impaired Students Pursuing Special Higher Education Courses Inside or Outside the Union Territory of Puducherry",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Reimbursement of entire fees from the first year of the course.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-applicants-photo-aadhaar-card-study-certificate-bonafide-cer"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sreehispshecioutp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant&#39;s annual income should be under ₹2,00,000.\n- The applicant should have a disability of 40% and above.\n- The applicant should be residing in the Union Territory of Puducherry since 5 years.\n- The applicant should be enrolled in a full-time special higher education course in a government-recognized institution.",
+  "_criteria_filled": 3
+}

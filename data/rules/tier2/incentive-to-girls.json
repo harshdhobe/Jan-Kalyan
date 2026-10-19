@@ -1,0 +1,31 @@
+{
+  "id": "incentive-to-girls",
+  "name": "Incentive To Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- ₹15,000/- per annum: To the girl students studying in senior secondary by taking agriculture subjects in 11th and 12th classes \n- ₹25,000/- per annum: To girl students studying in Agricultural graduate education like Horticulture, Dairy, Agricultural Engineering, Food Processing and Shri Karan Narendra Business Management College, Jobner in 4/5 years course\n- ₹25,000/- per annum: To the girl stu",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadhaar-applicant-photograph-age-and-address-proof-copy-of-education-qualifi"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/488",
+  "source_url": "https://www.myscheme.gov.in/schemes/itg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a native of Rajasthan.\n1. Schools, Colleges, and Universities are recognized by the state and state government.\n1. Girl Students should not have failed in the last year. \n1. The incentive amount is not payable to the girl students who leave school, college, or university in the middle of the class session.",
+  "_criteria_filled": 2
+}

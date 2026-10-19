@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-the-purchase-of-lifejackets-and-lifebuoys-for-fishermen",
+  "name": "Financial Assistance for the Purchase of Lifejackets and Lifebuoys for Fishermen",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- The support is extended up to ₹1,000/- per lifejacket and ₹1,500/- per lifebuoy.\n- For Canoe Fitted With OBM: 05 Life Jackets and 01 Lifebuoy.\n- For Mechanised Trawlers Engaged in Trawling Operations: 08 Life Jackets and 02 Lifebuoys.\n- For Mechanised Trawlers Engaged in Purse Seining Operation: 25 Life Jackets and 04 Lifebuoys.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "updated-fishing-license-certificatefishing-net-license-receipts-vessel-registrat"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/11/Application-form-Life-jacket-Life-Buoy.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapllf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The applicant should possess one of the following: a Canoe Fitted With OBM; Mechanised Trawlers Engaged in Trawling or Purse Seining Operations.",
+  "_criteria_filled": 1
+}

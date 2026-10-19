@@ -1,0 +1,28 @@
+{
+  "id": "nirman-shramik-jeevan-va-bhavishya-suraksha-yojana",
+  "name": "Nirman Shramik Jeevan va Bhavishya Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Pradhan Mantri Suraksha Bima Yojana (PMSBY)**\n\n- 100% reimbursement of annual premium amount (₹12)\n- Premium amount is fully reimbursed through electronic transfer\n- No partial reimbursement option is available\n- Beneficiary must show proof of premium deduction in bank passbook\n\n**Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)**\n\n- 50% reimbursement of the annual premium amount\n- Total premium",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-beneficiary-registration-identity-card-copy-of-bank-passbook-first-page",
+    "account-number",
+    "and-ifsc-code-copy-of-bank-passbook-page-showing-premiumcontribution-deduction-d"
+  ],
+  "apply_url": "https://labour.rajasthan.gov.in/Schemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsjbsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant must be registered as a beneficiary with the Building and Other Construction Workers Welfare Board.\n2.  The applicant must have a savings bank account in their name.\n3.  The applicant must be eligible for membership under the following schemes:\n\n- Pradhan Mantri Suraksha Bima Yojana (PMSBY)\n- Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)\n- Atal Pension Yojana (APY)\n\n4.  The applicant must provide consent to their bank for the deduction of premium/contribution from their savings account.\n5.  The applicant must have gotten the annual premium/contribution amount deducted from their savings account.",
+  "_criteria_filled": 1
+}

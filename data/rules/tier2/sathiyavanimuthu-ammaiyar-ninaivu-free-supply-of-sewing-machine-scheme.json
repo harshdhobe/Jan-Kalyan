@@ -1,0 +1,41 @@
+{
+  "id": "sathiyavanimuthu-ammaiyar-ninaivu-free-supply-of-sewing-machine-scheme",
+  "name": "Sathiyavanimuthu Ammaiyar Ninaivu Free Supply of Sewing Machine Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Sewing machines and accessories are provided at free of cost.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "destitutedesertedwidowdifferently-abled-certificate-family-income-certificate-ag"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sanfsosms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s annual income should not exceed ₹72,000/-.\n1. The age of the applicant should be between 20 to 40 years.\n1. The applicant should have knowledge of tailoring.\n1. The applicant should be ANY ONE of the following:\n\n- Destitute Woman.\n- Widow.\n- Deserted Woman.\n- Differently Abled Man.\n- Differently Abled Woman.\n- Socially Affected Woman.\n- Woman From Economically Weaker Sections.",
+  "_criteria_filled": 4
+}

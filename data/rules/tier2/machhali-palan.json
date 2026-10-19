@@ -1,0 +1,26 @@
+{
+  "id": "machhali-palan",
+  "name": "Machhali Palan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, the following compensation is provided to fishermen for the repair or replacement of damaged boats and nets:\n\n- ₹6,000/- for the repair of partially damaged boats\n- ₹3,000/- for the repair of partially damaged nets\n- ₹15,000/- for the repurchase of completely damaged boats\n- ₹4,000/- for the repurchase of completely damaged nets\n\nAn investment subsidy of ₹10,000/- per hectare is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "form-p-20-entry-confirmation-recorded-by-the-concerned-patwari-other-supporting"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fishfarminguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a fisherman from Uttarakhand.\n   1. Fishermen are provided assistance for the repair or replacement of damaged boats and for damaged or lost nets caused by natural disasters.\n\n<br>",
+  "_criteria_filled": 1
+}

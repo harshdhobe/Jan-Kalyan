@@ -1,0 +1,26 @@
+{
+  "id": "child-adoption-tamil-nadu",
+  "name": "Child Adoption - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Accommodation, food, and health care to the babies till they are given in adoption.\n- A family to the destitute child and a child to childless parents.\n\n> **Special concessions are given to female government employees to adopt children:**\n\n- Special adoption leave of 270 days is extended to female government servants of the state government who adopt a child below one year. The leave is eligible",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "pan-cardpassport-proof-of-residence-aadhaar-cardvoter-id-cardpassport-driving-li"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/catn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The parents must have at least two years of a stable marital relationship.\n1. The single prospective adoptive parents should be between 30-55 years of age. \n1. An unmarried/single male persons are not eligible to adopt a girl child.\n1. The parents should have adequate financial resources to upbring the child.\n1. Age Criteria:\n\n  - **For a child up to 4 years old:**\n\n   1. Maximum composite age of the Prospective Adoptive Parents: 90 years.\n   1. For a single Prospective Adoptive Parent: Minimum age 25 years, maximum age 45 years.\n\n  - **For a child above 4 years up to 8 years old:**\n\n   1. Maximum composite age of the Prospective Adoptive Parents: 100 years.\n   1. For a single Prospective Adoptive Parent: Minimum age 25 years, maximum age 50 years.\n\n  - **For a child above 8 years up to 18 years old:**\n\n   1. Maximum composite age of the Prospective Adoptive Parents: 110 years.\n   1. For a single Prospective Adoptive Parent: Minimum age 25 years, maximum age 55 years.\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

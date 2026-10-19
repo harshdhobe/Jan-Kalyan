@@ -1,0 +1,29 @@
+{
+  "id": "green-and-eco-friendly-measures-under-motivation-of-entrepreneurs-to-start-indus",
+  "name": "\"Green and Eco-Friendly Measures\" under “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises”",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Cash Award of ₹2,00,000/- and a Citation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "certification-from-the-department-of-science",
+    "technology-and-environment-dste",
+    "puducherry-for-zerominimum-effluent-discharge-entrepreneurs-memorandum-part-2-ua",
+    "as-required-by-the-award-committee"
+  ],
+  "apply_url": "https://industry.py.gov.in/sites/default/files/state-award-go.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gefm-mesifai-sa-msme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The industry should be green and eco-friendly as per the DSTE standards.\n- The unit should provide at least 60% of employment to the people of UT of Puducherry of the total employment strength of the industrial units.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "digital-jk-internship-scheme",
+  "name": "Digital J&K Internship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "**Stipend****:**\n\n- A token stipend of ₹10,000/- per month would be paid to an Intern, subject to satisfactory performance. \n\n<br>\n\n**Certificate of Internship****:**\n\n- The J&amp;K e-Governance Agency will issue certificates to the Interns upon the completion of the internship.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-applicant-signature-domicile-certificate-resume"
+  ],
+  "apply_url": "https://jakega.jk.gov.in/Resources/Notification_No_10_of_JaKeGA.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/djkis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be studying at recognized universities in India.\n1. The student should have secured at least 60% marks in the last held degree or pursuing B.E/B.Tech/M.E/M.Tech (Computer Science &amp; Engineering (CSE)/Computer Science (CS)/ IT/ Electronics &amp; Communications (EC)/) M.Sc. (CS/IT/) MCA/DOEACC ‘B’ level. \n1. Students in the last semester or the final year will be eligible to apply.",
+  "_criteria_filled": 1
+}

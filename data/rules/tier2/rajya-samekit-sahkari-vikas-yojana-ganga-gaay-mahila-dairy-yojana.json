@@ -1,0 +1,27 @@
+{
+  "id": "rajya-samekit-sahkari-vikas-yojana-ganga-gaay-mahila-dairy-yojana",
+  "name": "Rajya Samekit Sahkari Vikas Yojana - Ganga Gaay Mahila Dairy Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***The following benefits are provided to members of milk-producing cooperative societies for purchasing cows or buffaloes::***\n**For members of the general category:**\n\n- A grant of 50% and a loan of 40% is approved through the District Cooperative Bank for the establishment of a unit of 2, 3, and 5 dairy animals (including animal purchase, insurance, transportation expenses, cattle shed, milk va",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-caste-certificate-if-applicable-cooperative-so",
+    "if-any-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rssvyeggmdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a member of a milk-producing cooperative society. (Individuals who are not currently members can become eligible by joining a cooperative society.)\n1. The applicant must belong to the General, Scheduled Caste, Scheduled Tribe, or Women category.\n1. The applicant must intend to purchase cows (with a minimum milk yield of 12 liters per day) or buffaloes (with a minimum milk yield of 10 liters per day).\n1. The applicant must purchase animals from outside the state.\n1. The applicant must purchase a minimum of two (2) animals.\n1. To avail of the subsidy, it is mandatory to take a loan for the purchase of milch animals.\n\n<br>",
+  "_criteria_filled": 1
+}

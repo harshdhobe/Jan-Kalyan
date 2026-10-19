@@ -1,0 +1,31 @@
+{
+  "id": "goa-state-logistics-and-warehousing-incentives-scheme-subsidy-towards-skill-deve",
+  "name": "Goa State Logistics And Warehousing Incentives Scheme: Subsidy Towards Skill Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- The benefit is a reimbursement of 50% of the cost involved in skill upgradation and training manpower.\n- The reimbursement is limited to ₹5,000/- per person employed in the Entity.\n- Each entity is entitled to benefit from this scheme once per year.\n- The benefit is provided as a reimbursement.\n\n##### ***Conditions***\n\n- The scope of this incentive is limited to a maximum of 1,000 individuals tr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-of-proprietor-in-case-of-proprietorship-aadhaar-of-managing-director-in",
+    "company-limited-liability-partnership",
+    "co-operative-society",
+    "trust-authority-letterpower-of-attorney-for-availing-incentives-in-case-of-partn",
+    "2025",
+    "under-any-other-government-schemes-a-copy-of-payroll-of-the-unit-highlighting-th"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gslwis-stsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an entity that is a Logistics and Warehousing services provider.\n- The applicant must own a business unit in Goa.\n- The applicant must provide Logistics and Warehousing services in Goa.\n- The applicant must not be classified as a Mega Project, meaning projects with investment of ₹100,00,00,000/- or more and/or employment generation of 1,000 or more Goans.\n- The applicant must have a Permanent Account Number (PAN).\n- The applicant must regularly file Income Tax Returns in the name of the legal entity.\n- The applicant must be in continuous operations for a minimum period of six months post the date of notification of Logistics and Warehousing Policy 2023.\n- The applicant must have incurred the expenses for skill development post the date of launch of the Logistics and Warehousing Policy 2023.\n- The applicant must provide a minimum of 40% local employment (employees who are employed continuously during the claim year and are on the payroll of the unit for that year).\n- The applicant must not have claimed a similar benefit under any other scheme or program of the State Government or Central Government.\n- The skill enhancement and training must aim specifically at improving the abilities of personnel engaged solely in logistics and warehousing tasks.\n- The reimbursement is confined to expenses incurred for operational training pertinent to the logistics and warehousing sector.\n- The skill enhancement must involve assessment and certification by Government-approved (National or State level) institutes or institutes with international recognition and global accreditation.\n- The applicant must submit the claim in the prescribed application form (ANNEXURE-VII).\n- The applicant must submit the claim through the Goa Online Portal.\n\n_*Entities owned by Schedule Caste/Schedule Tribe/Women Entrepreneurs must explicitly state their category when applying for incentives under various schemes on the Goa Online Portal._\n##### ***Quantum of Benefit Condition***\n\n- The quantum of benefit shall be defined by the proportion of Goan employees on the payrolls.\n- If the quantum of Goan Employment on payrolls is 60% or above, the quantum of benefits is 100%.\n- If the quantum of Goan Employment on payrolls is more than 40% but less than 60%, the quantum of benefits is 80%.\n- If the quantum of Goan Employment on payrolls is less than 40%, the entity is Ineligible.\n\n##### ***Post-Selection Conditions***\n\n- The entity must allow and/or grant free access to any official authorized by the Directorate of Industries, Trade and Commerce (DITC) for conducting inspection/supervision of the unit or the registers or holding discussions with the employed employees for ensuring proper utilization of the financial incentives/subsidies granted by the State Government.\n- The entity must submit to the Directorate of Industries, Trade and Commerce all the necessary reports, information and documents specified under the scheme or as required or directed by the Directorate of Industries, Trade and Commerce, time to time or as and when required.\n- The applicant must undertake to refund 10 times the concessions claimed if found obtained by misrepresentation of facts or in case of misuse.\n\n<br>",
+  "_criteria_filled": 1
+}

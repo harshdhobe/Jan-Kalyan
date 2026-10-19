@@ -1,0 +1,27 @@
+{
+  "id": "haryana-state-merit-scholarship-scheme",
+  "name": "Haryana State Merit Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Name of the Examination based on which Scholarships are Awarded &amp; Scholarship Rates:**\n**Course Name****Rate of Scholarship****Duration**Metric₹150/-year in Prep/ Hr.Sec. II10+2₹300/-Minimum tenure is 3 academic years for B.A./B.Sc./B.Com./ B.Sc. Home Science Course (including Hon&amp;amp;amp;#39;s) School Course.Degree Level₹450/-Maximum tenure two academic years for M.A./M.Sc.Hons./M.Sc. /",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-to-establish-haryana-residency-mark-sheet-of-previous-quali",
+    "if-applicable-caste-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/smcsugpg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a citizen of India and a domiciled resident of Haryana.\n1. The applicant must have passed the qualifying examination from Punjab, Kurukshetra University, or any other recognized examining body.\n1. The applicant must be enrolled in a recognized course in a higher education institution in Haryana or Chandigarh.\n1. The applicant must have obtained at least a Second Division in the qualifying examination.\n1. For Rural Area Merit Scholarships, the applicant must have secured at least 40% marks in Matric/Higher Secondary (Final)/Pre-University Examinations.\n1. The applicant must not be receiving any other merit-based scholarship, except for need-based scholarships from specific welfare boards.\n\n> **Note:**\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n1. One Ph.D./M.Phil. scholarship is exclusively tenable at Jawaharlal Nehru University, New Delhi.\n1. Rural Area Merit Scholarships are limited to students whose parents permanently reside and earn their livelihood in rural areas.",
+  "_criteria_filled": 1
+}

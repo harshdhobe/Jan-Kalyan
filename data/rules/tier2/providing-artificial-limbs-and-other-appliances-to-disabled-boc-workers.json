@@ -1,0 +1,31 @@
+{
+  "id": "providing-artificial-limbs-and-other-appliances-to-disabled-boc-workers",
+  "name": "Providing Artificial Limbs and Other Appliances to Disabled BOC Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- **Free distribution of artificial limbs and other fabricated appliances.** \n- **Replacement of limbs every three years based on the workers&#39; needs.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-building-and-other-construction-workers-id-card-medical-reports-iss"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/G.o_15.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/paloadbocw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be registered under the Andhra Pradesh Building &amp; Other Construction Workers Welfare Board.\n1. The worker should be a disabled person.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,35 @@
+{
+  "id": "lifetime-contribution-to-khellkhell-tiatr-awards",
+  "name": "Lifetime Contribution to Khell/Khell-Tiatr Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Cash burse of ₹50,000/- awarded to selected artistes.\n- Prestigious recognition through shawl, memento, and citation.\n- Special honor ceremony held annually on 24th October on the Birth Anniversary of Rosario Rodrigues, &#39;Promoter of Khell-Tiatr&#39;.\n- Maximum 3 artistes are honored each year.\n\n_*The selected artistes must be compulsorily present in person to receive the award._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-recent-photograph-aadhaar-card-additional-documentsevidence-su",
+    "certificates",
+    "programs",
+    "reviews",
+    "or-other-supporting-materials"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lckkta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be not less than 60 years of age.\n- The applicant must have at least 10 years of contribution in the field of Khell-Tiatr.\n- The applicant must demonstrate excellence as an actor, script writer, director, singer, lyricist, set designer, or other theatrical role in Khell/Khell-Tiatr.\n- The applicant who is an actor/singer/stage manager/lights effects provider/make-up artist/costume designer/live music/background music provider must have performed in at least 10 khell-tiatrs.\n- The applicant who is a writer/director must have written/directed at least 10 khell-tiatrs.\n\n_*Award can only be received once in a lifetime across all related categories._\n##### ***Evaluation Considerations***\n\n- The applicant&#39;s innovative contributions to the presentation of Khell/Khell-Tiatr will be evaluated.\n- The applicant&#39;s work in other languages or films beyond Khell/Khell-Tiatr will be considered.\n- The applicant&#39;s published books of scripts/lyrics will be taken into account.\n- The applicant&#39;s previous awards in the field will be considered.\n\n##### ***Relaxation***\nAge limit may be relaxed if the health of the artiste is not well.\n<br>",
+  "_criteria_filled": 2
+}

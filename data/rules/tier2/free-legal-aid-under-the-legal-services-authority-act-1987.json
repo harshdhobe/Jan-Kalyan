@@ -1,0 +1,28 @@
+{
+  "id": "free-legal-aid-under-the-legal-services-authority-act-1987",
+  "name": "Free Legal Aid under the Legal Services Authority Act 1987",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, eligible persons who intend to file a case, have already filed a case, or need to defend a case shall be entitled to receive free legal services from the State Authority, the High Court Legal Services Committee, the District Legal Services Authority, or the Taluk Legal Services Committee, as the case may be under the Act.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-mobile-number-caste-certificate-if-belonging-to-scst-disability-cer",
+    "00",
+    "000-or-less"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/flalsac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand state.\n1. The following persons shall be eligible for free legal aid:\n\n- All citizens belonging to Scheduled Castes (SC) and Scheduled Tribes (ST).\n- Persons subjected to human trafficking, abuse, or forced labour, as defined under Article 23 of the Constitution of India.\n- All women and children.\n- All persons with disabilities and persons with mental illness.\n- Persons affected by natural calamities or disasters, including mass destruction, caste violence, caste atrocities, floods, earthquakes, industrial disasters, etc.\n- All workers employed in the industrial sector.\n- All persons detained in jail, prison, protection homes, juvenile homes, psychiatric hospitals, or nursing homes.\n- Ex-servicemen.\n- Persons belonging to the transgender community.\n- Senior citizens.\n- Persons infected with HIV/AIDS.\n- All other persons whose annual income from all sources is less than ₹3,00,000/-.\n\n> _Note: There is no income limit for persons mentioned in serial numbers 1 to 11._\n\n<br>",
+  "_criteria_filled": 1
+}

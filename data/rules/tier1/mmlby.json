@@ -1,0 +1,83 @@
+{
+  "id": "mmlby",
+  "name": "Mukhyamantri - Majhi Ladki Bahin Yojana",
+  "tier": 1,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Monthly financial assistance of Rs 1500 to eligible women in Maharashtra.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "has_aadhaar_linked_bank_account",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "any": [
+          {
+            "field": "marital_status",
+            "op": "in",
+            "value": [
+              "married",
+              "widowed",
+              "divorced",
+              "abandoned"
+            ]
+          },
+          {
+            "all": [
+              {
+                "field": "marital_status",
+                "op": "==",
+                "value": "unmarried"
+              },
+              {
+                "field": "is_only_unmarried_woman_in_family",
+                "op": "==",
+                "value": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "photo",
+    "aadhaar_card",
+    "domicile_certificate",
+    "income_certificate",
+    "bank_passbook"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/mmlby",
+    "apply": "https://ladlibahinstorage.s3.ap-south-1.amazonaws.com/site-pdf/Guideline.pdf"
+  },
+  "notes": "Scraped July 2026 - scheme rules may have changed. Verify on official page."
+}

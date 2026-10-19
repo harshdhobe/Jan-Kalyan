@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-the-recipients-of-the-service-medal-by-the-government-of",
+  "name": "Financial Assistance to the Recipients of the Service Medal by the Government of Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Financial assistance is provided to soldier medal awardees. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-copy-of-service-medal-award-certificate"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/farsmgmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must belong a soldier category.\n1. The applicant must be a service medal awardee. \n\n<br>",
+  "_criteria_filled": 1
+}

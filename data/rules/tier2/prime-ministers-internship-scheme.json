@@ -1,0 +1,36 @@
+{
+  "id": "prime-ministers-internship-scheme",
+  "name": "Prime Minister’s Internship Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- **Internship Duration &amp;amp; Exposure:** 12 months of real-life work experience in top companies across India.  - **Monthly Financial Assistance:** ₹4,500/- per month by Government of India and ₹500 per month by the industry partner.  - **One-time Grant:** ₹6,000/- provided to interns for incidental expenses.  - **Insurance Coverage:** Coverage under Pradhan Mantri Jeevan Jyoti Bima Yojana an",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 24
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificates-proof-of-age-bank-account-details-any-othe"
+  ],
+  "apply_url": "https://pminternship.mca.gov.in/mca-api/files/get-file-by-path?path=dmk6u3VpUsp6ikurW5RiDHvOeK%2FORrkviDSlob80fjUnkLIps2yEsK3t8HQ3X%2BCi5L3oDjNS71worg8RL%2B8I7SvOoHWDoY8Uxi9nbjdgdEiroaNA20hjxNmbfud6ms8nxsHquSlFMwPPQw%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The candidate belongs to Indian nationality.\n  - The candidate’s age should be between 21 to 24 years (as on the last date for submission of the application). \n  - The candidate should not be full-time employed.\n  - The candidate should not be engaged in full-time education.\n  - The candidate enrolled in online/distance learning programmes are eligible to apply.\n  - The candidate should be completed High School, Higher Secondary School, possess a certificate from an ITI, hold a diploma from a Polytechnic Institute, or are graduates with degrees such as BA, B.Sc, B.Com, BCA, BBA, B.Pharma, etc.\n  - The candidate family income should not exceed ₹8,00,000/-. \n\n<br>",
+  "_criteria_filled": 3
+}

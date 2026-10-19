@@ -1,0 +1,29 @@
+{
+  "id": "gayathri-scheme-for-academic-excellence",
+  "name": "Gayathri Scheme for Academic Excellence",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- SSC (10th): ₹7,500/-\n- Intermediate or equivalent (Polytechnic, ITI at the end of Final Year): ₹10,000/-\n- Graduation (at the end of Final Year): ₹15,000/-\n- Professional Education Course (at the end of Final Year): ₹ 20,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-student-with-address-in-andhra-pradesh-aadhar-card-of-the-stu",
+    "indicating-that-the-student-is-topper-of-the-school-college-institute-for-the-en",
+    "for-students-of-professional-education-course-outside-andhra-pradesh",
+    "account-in-any-nationalised-bank-is-acceptable"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/gayatri2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his/her parents should belong to the Brahmin community.\n1. The parents of the student should reside in Andhra Pradesh. \n1. The student must be a regular (Full Time) student of the course for the academic year 2018-19. \n1. The student should be the topper of the entire course (at the end of SSC/ Intermediate or equivalent /Graduation /Professional Edn. Course) in the School/ College/ Institute for the academic year 2018-19.\n1. The toppers of SSC/ Intermediate or equivalent and Graduation should have completed the course in Andhra Pradesh. However, toppers of Professional Education Course may have completed the course from anywhere in India but the parents should be residing in Andhra Pradesh.\n1. The student should not have availed himself/herself of any amount under any other government scheme for the same purpose. \n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-of-capital-investment-subsidy",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance of Capital Investment Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n**Category of Taluka****Quantum of Incentive** [Category 1](https://indextb.com/files/2020/11/a34fc914-6cdd-4fd6-8773-502017da4334_taluka%20category.pdf)30% of term loan amount upto ₹40,00,000/-; If the Eligible FCI is over 10,00,00,000/-, additional 10,00,000/- will be given.[Category 2](https://indextb.com/files/2020/11/a34fc914-6cdd-4fd6-8773-502017da4334_taluka%20c",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuycis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n  - The enterprise must be a manufacturing enterprise.\n  - Applications must be submitted online within one (1) year of the first loan disbursement date, the date of commercial production commencement, or the GR issue date, whichever is later, and before the scheme&amp;#39;s last operative date.\n  - The term loan should be sanctioned before the commencement of commercial production.\n  - The enterprise must have started commercial production to avail of the subsidy.\n  - If availing of a Central Government subsidy, the combined subsidy from the State and Central Governments should not exceed the total loan amount disbursed.\n\n&gt; **Note:** \n\n  - SC/ST Enterprise: SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "animal-husbandry-assistance-to-small-and-marginal-farmers",
+  "name": "Animal Husbandry: Assistance to Small and Marginal Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Replacement of Milk, Agricultural, and Transport Animals:**\n\n- **Milch animals:** ₹37,500/- per animal (Buffalo/Cow/Camel/Yak/Mithun) will be payable.- ₹4,000/- per animal (Sheep/Goat/Pig) will be payable.\n\n**Agricultural and Haulage Animals:** \n\n- ₹32,000/- per animal (Camel/Horse/Bullock) will be payable.\n\n- ₹20,000/- per animal (Calf/Donkey/Pony/Mule) will be payable.\n\n**Poultry Farming:**\n\n ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "form-p-20-entry-confirmation-recorded-by-the-concerned-patwari-other-supporting"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahsmfuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Small or Marginal Farmer from Uttarakhand who has lost their milk, agricultural, or haulage animals due to a notified natural disaster.\n\n<br>",
+  "_criteria_filled": 1
+}

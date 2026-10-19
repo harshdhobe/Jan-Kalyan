@@ -1,0 +1,26 @@
+{
+  "id": "manav-garima-yojna-nt-dnt",
+  "name": "Manav Garima Yojna (NT DNT)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The primary benefit is the provision of various business tool-kits to eligible beneficiaries so that they can engage in small business activities and become self-employed and financially self-sufficient.\n1. The tool kits are given under the scheme targeted at nomadic and de-notified castes.\n1. The annual income limit for eligibility is ₹6,00,000 (for the family) for most of the target groups.\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-caste-certificate-certificate-of-prof-course-identity-card-income-ce"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/manavgarimandguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must belong to the nomadic or de-notified caste.\n- The applicant’s family annual income should be ₹ 6,00,000/- or less in general.\n- In the case of Nomadic and Denotified Castes and backward castes among SEBC castes, the income limit has been removed.\n\n<br>",
+  "_criteria_filled": 1
+}

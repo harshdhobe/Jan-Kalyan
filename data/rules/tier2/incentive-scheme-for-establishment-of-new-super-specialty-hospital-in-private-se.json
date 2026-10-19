@@ -1,0 +1,27 @@
+{
+  "id": "incentive-scheme-for-establishment-of-new-super-specialty-hospital-in-private-se",
+  "name": "Incentive Scheme for Establishment of New Super Specialty Hospital in Private Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Capital Subsidy**\n\n- 10% of bank loans for medical equipment (max ₹10 crore).\n- Disbursed post-hospital operationalization.\n\n> **Interest Subvention**\n\n- 4% interest relief on loans up to ₹40 crore for 7 years.\n- Paid in 6 annual installments after a 1-year grace period.\n\n> **Electricity Duty Reimbursement**\n\n100% reimbursement for 5 years (quarterly claims).\n> **Employment Generation**\n\nManda",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "20",
+    "000-scrutiny-fee-demand-draft-bank-loan-sanction-letter-for-constructionequipmen"
+  ],
+  "apply_url": "https://gujhealth.gujarat.gov.in/images/pdf/Application-forms-for-Establishment-of-New-Super-Specialty-Hospital-new.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isensshps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **The Following Entities Are Eligible**\n\n- Registered Doctors (Gujarat Medical Council).\n- Partnership Firms, Companies, Trusts, Societies, Cooperatives.\n\n> **Hospital Requirements**\n\n- 50+ Total Beds,including 10+ Super Specialty Beds.\n- Covers Specialties Like Cardiology, Neurology, Oncology, etc. (List Expandable by Government).\n\n> **Loan Conditions**\n\n- Only Loans for Construction/Equipment (Excludes Land/Working Capital).\n\n<br>",
+  "_criteria_filled": 1
+}

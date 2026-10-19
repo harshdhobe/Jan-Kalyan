@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-bal-poshan-yojana",
+  "name": "Mukhyamantri Bal Poshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the scheme, pre-school children (aged 3 to 6 years) are provided with eggs twice a week and banana chips twice a week.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 3
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-child"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbpyu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n1. Children aged 3 to 6 years are eligible to receive nutritious food under this scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

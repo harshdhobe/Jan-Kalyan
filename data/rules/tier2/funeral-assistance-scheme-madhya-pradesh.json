@@ -1,0 +1,27 @@
+{
+  "id": "funeral-assistance-scheme-madhya-pradesh",
+  "name": "Funeral Assistance Scheme (Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "A financial assistance of ₹3,000/- is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-issued-by-the-place-of-cremationresting-placegraveyard-etc-of-the-de",
+    "quarrel-etc-fir-and-panchnama-in-case-of-unclaimed-dead-body-doctors-certificate"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/schemes/8__Antesthi_Sahayata_Yojna-2013(1)(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native of Madhya Pradesh.\n1. The deceased should have been a member of a family registered under the labour cadre schemes operated by the Government of Madhya Pradesh.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shahidvir-kinariwaala-student-security-group-insurance-scheme",
+  "name": "Shahidvir Kinariwaala Student Security Group Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Maximum financial assistance of ₹1,00,000/- is provided in case of accidental death or permanent disability. \n- Coverage includes accidental death, permanent total disability, loss of two limbs or two eyes, or one limb and one eye (100% coverage).\n- Partial disability such as loss of one limb or one eye may also be covered at 50%.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-affidavit-bonafide-certificate-death-certificate-in-case-of-death-i"
+  ],
+  "apply_url": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=nG6Gu+aIk0lVAAKJcD58Ow==",
+  "source_url": "https://www.myscheme.gov.in/schemes/skssgis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must be a student, guardian or heir of the student. \n1. The applicant must be studying in any university, government college, non-government college, Gram Vidyapeeth GBTC college, or technical education institute within Gujarat.\n1. The student should have died in an accident or permanent disable. \n1. The death must have been due to natural cause or suicide.\n\n<br>",
+  "_criteria_filled": 1
+}

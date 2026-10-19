@@ -1,0 +1,41 @@
+{
+  "id": "ganga-swarupa-pension-scheme",
+  "name": "Ganga Swarupa Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Monthly Pension:** Monthly financial assistance of ₹1,250/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-the-applicant-widowed-woman-copy-of-ration-card-school-leaving-certific"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=231",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n  - The applicant must be a widowed woman.\n  - The applicant must be aged 18 years or above.\n  - The applicant’s annual income must not exceed ₹1,20,000/- in rural areas and ₹1,50,000/- in urban areas.",
+  "_criteria_filled": 4
+}

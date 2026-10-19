@@ -1,0 +1,41 @@
+{
+  "id": "samajik-mukti",
+  "name": "Samajik Mukti",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "The benefits of this scheme include the following:\nProvident Fund is given to the unorganised worker to provide financial security and stability.\nCompensation in case of death or disability during work.\nThe government provides financial assistance to the children of beneficiaries who pursue higher studies (for the applicants registered for at least one year). Besides, they give training in safety ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 780000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "no-official-announcement-regarding-the-documents-needed-for-samajik-mukti-card-h"
+  ],
+  "apply_url": "https://wb.gov.in/government-schemes-details-samajikmukti.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unorganized workers who want to become members should be residing in West Bengal\n1. They should be between the age of 18 to 60 years.\n1. The family income should not exceed 65 thousand rupees per month. \n\n<br>\n\nNote: There is no income ceiling for construction workers and transport workers.\n<br>",
+  "_criteria_filled": 4
+}

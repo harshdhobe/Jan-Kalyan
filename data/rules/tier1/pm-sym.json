@@ -1,0 +1,54 @@
+{
+  "id": "pm-sym",
+  "name": "Pradhan Mantri Shram Yogi Maan-dhan",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Monthly pension of Rs 3000 after age 60 for unorganised sector workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "is_unorganised_worker",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "monthly_income",
+        "op": "<=",
+        "value": 15000
+      },
+      {
+        "field": "has_bank_account",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "has_mobile",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "bank_passbook",
+    "mobile_number",
+    "self_certification"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pm-sym",
+    "apply": "https://maandhan.in/"
+  },
+  "notes": "Official page may exclude people already in other pension/insurance schemes or taxpayers."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-for-children-of-deceaseddisabledretired-government-employees",
+  "name": "Scholarship for Children of Deceased/Disabled/Retired Government Employees",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, scholarships will be given at the following rates:-\n\n- **Class 1 to 5:**   ₹50/- per year for Boys and Girls students- **Class 6 to 8:**   ₹120/- per year for Boys and Girls students- **Class 9 to 12:**  ₹250/- per year for Boys and Girls students\n**Note:** The scholarship will be deposited directly into the student&#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-3-domicile-certificate-of-madhya-pradesh-4"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=408",
+  "source_url": "https://www.myscheme.gov.in/schemes/scddrge",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n   1. The student should be studying in Class 1 to Class 12.\n   1. The student should be studying at a government school in Madhya Pradesh.\n   1. The student should be the child of a deceased, disabled, or retired government employee.\n   1. The student should not be a beneficiary of any other scholarship.\n   1. The student must have passed the previous class.",
+  "_criteria_filled": 1
+}

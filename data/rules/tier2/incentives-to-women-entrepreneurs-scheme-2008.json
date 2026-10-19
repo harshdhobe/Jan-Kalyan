@@ -1,0 +1,31 @@
+{
+  "id": "incentives-to-women-entrepreneurs-scheme-2008",
+  "name": "Incentives to Women Entrepreneurs Scheme, 2008",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Interest Subsidy**\n\n- The interest subsidy was applicable from the interest of the quarter preceding the quarter of the first commercial production date.\n- The benefit under this scheme was for a period of 5 years (20 quarters) from the quarter of applicability.\n- The subsidy was limited to 1% of the total net turnover or 30% of the interest paid by the units, whichever was less, subject to a ce",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-issued-by-nationalized-banks-or-specified-financial-institutions-in"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iwes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only partnership and proprietary concerns were eligible, provided the ownership was with women to the extent of 100% in case of proprietary concerns and 51% in case of partnership firms.\n- In partnership firms, the balance share of 49% should not be entirely held by the husband, father, brother, or son, and there had to be at least one additional partner other than these relatives.\n- Units that had gone into commercial production or service on or after the date of publication of this scheme were eligible.\n- Women entrepreneurs were given preference under the Capital Contribution and Special Capital Contribution Schemes.",
+  "_criteria_filled": 2
+}

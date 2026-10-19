@@ -1,0 +1,26 @@
+{
+  "id": "welfare-services-for-children",
+  "name": "Welfare Services for Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "&gt; **Shelter &amp;amp; Care:**\n\n  - Establishment of homes for orphaned and abandoned children.\n  - Provision of food, shelter, and basic amenities.\n\n&gt; **Education &amp;amp; Training:**\n\n  - Formal and non-formal education support.\n  - Vocational training for skill development.\n\n&gt; **Health &amp;amp; Nutrition:**\n\n  - Nutritional support through daycare centres.\n  - Health programmes, inclu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "identity-details-if-available-age-proof-if-available-medical-records-if-applicab"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wsfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following individual types of applicants are eligible under this scheme:\n\n- Orphans and abandoned children\n- Street children\n- Children affected by HIV/AIDS\n- Child labourers\n- Juvenile delinquents\n\n<br>",
+  "_criteria_filled": 1
+}

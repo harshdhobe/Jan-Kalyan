@@ -1,0 +1,30 @@
+{
+  "id": "pmmsy-ice-plantcold-store-of-minimum-10-ton-capacity-haryana",
+  "name": "PMMSY: Ice Plant/Cold Store of minimum 10-ton capacity Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- The project cost is ₹40,00,000/-\n\n> **Subsidy Distribution :**\n\n1. A 40% subsidy is available for the General Category.\n1. A 60% subsidy is offered for SC (Scheduled Caste) and Women beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-certificate-voter-idbirth-certificateaadhaarmatriculation-certific",
+    "nakal-akshizra",
+    "fard",
+    "registered-patta-nama-with-clear-title-and-latest-records-gst-bills-photographs",
+    "000-as-per-e-wayincome-taxgst-rules-certificate-from-ca-with-the-bills-certifyin"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=HaFiBDBin6hH1X+qT4MbzQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfipcsomc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Haryana and possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant must submit an undertaking in the DPR agreeing to bear all operational, maintenance, and post-construction costs.\n1. The applicant must ensure that the ice plant/cold storage remains continuously operational.\n1. The applicant must ensure that the ice produced is supplied to fishers and fish farmers at affordable prices.\n1. The applicant must either own the land or have it on a long-term registered lease of at least 10 years.\n1. The applicant must note that central assistance will be provided based on actual costs, within the overall ceiling limits specified under PMMSY sub-components.\n1. The applicant must understand that, upon approval, the subsidy will be disbursed as per the procedure laid out under PMMSY.",
+  "_criteria_filled": 1
+}

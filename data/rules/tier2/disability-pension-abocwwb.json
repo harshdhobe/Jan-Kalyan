@@ -1,0 +1,31 @@
+{
+  "id": "disability-pension-abocwwb",
+  "name": "Disability Pension (A.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1. A monthly disability pension of ₹2,000/- plus ₹100/- per month for every completed year of service from the year of registration will be given to the eligible beneficiary.\n   1. In addition to this pension, the beneficiary will also be eligible for a one-time Ex-gratia payment of not more than ₹3.00 Lakhs depending upon the percentage of disability and subject to such conditions as fixed by the",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-abocwwb-passport-size-photograph-appli"
+  ],
+  "apply_url": "https://abocwwb.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpabocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Assam.\n   1. The applicant should be engaged in any building &amp;amp; other construction work.\n   1. The construction worker should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The applicant should have an active membership with the Board.\n   1. The construction worker who is permanently disabled due to paralysis leprosy, TB, accident, etc. is eligible to apply for the scheme.",
+  "_criteria_filled": 2
+}

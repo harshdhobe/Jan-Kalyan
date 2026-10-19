@@ -1,0 +1,31 @@
+{
+  "id": "girl-students-health-hygiene-scheme",
+  "name": "Girl Students Health & Hygiene Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. ₹50/- per student per month in all Govt. schools through DBT (all year amount is credited to the account of the beneficiary).",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-school-identity-card-admission-in-school-all-govt-schools-and-govt-aided-schoo"
+  ],
+  "apply_url": "https://education.arunachal.gov.in/schems.php#",
+  "source_url": "https://www.myscheme.gov.in/schemes/gshhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a girl student.\n1. The beneficiary must be studying in classes VI to XII.\n1. The beneficiary must be enrolled in a government or government-aided school.\n1. The beneficiary must be a resident of Arunachal Pradesh.",
+  "_criteria_filled": 2
+}

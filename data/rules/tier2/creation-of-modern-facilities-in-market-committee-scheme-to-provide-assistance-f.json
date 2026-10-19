@@ -1,0 +1,26 @@
+{
+  "id": "creation-of-modern-facilities-in-market-committee-scheme-to-provide-assistance-f",
+  "name": "Creation of Modern Facilities in Market Committee: Scheme to provide assistance foe setting up modern facilities in Market Committee",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance**1) Sales cum exhibition centre; 2) Shed/platform for farmers; 3) Demonstration farm for drip irrigation; 4) Information kiosk in vegetable market100% of project cost to all types of market committees up to a limit of ₹50,00,000/-5) Soil testing laboratory; 6) Water system like borewell, tube well, water cooler, water cooler with RO plant, ov",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "development-work-maps-and-cost-estimates-engineers-certification-from-the-approv"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=CE+zAcB7j/5xkcgxaozDZQ==&domain=Uxijm857oHjeSHuzZgXyAA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All Market Committees of Gujarat State shall be eligible for this scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "incentive-for-the-devadasi-childrens-marriage",
+  "name": "Incentive For The Devadasi Children’s Marriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Under this scheme, the Social Welfare Department, Government of Karnataka will give incentive to the Devadasi's Children's Married Couple.\nThe incentive will be provided only to those who have submitted applications within 1.5 years (18 months) of marriage. \nThe couple who are married on or after 01-04-2018 are eligible for a revised rate of incentive (i.e. 3.00 lakh for men, 5.00 lakh for women)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-rd-number-of-caste-certificate-rd-number-of-income-certificate-copy-of-t"
+  ],
+  "apply_url": "https://sw.kar.nic.in/swincentive/Documents/DevaDasichildrensmarriageApplicantManual.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/idcm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant should be a resident of Karnataka state.\n- Applicant should belong to the  SC community.\n- Family income from all sources should be within Rs. 5 lakh per annum.\n- The scheme is applicable within 18 months of marriage.\n\n<br>",
+  "_criteria_filled": 2
+}

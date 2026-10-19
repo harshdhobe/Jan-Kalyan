@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-for-renovation-and-special-repair-works-to-hindu-religious",
+  "name": "Financial Assistance For Renovation And Special Repair Works To Hindu Religious Institutions Situated In Economically Weaker Section Areas / Adi-Dravidar Colonies",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "One-time financial assistance to the tune of ₹2,50,000/- per temple towards the purchase of building materials for renovation and special repair works.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "application-stageplan-and-estimates-duly-prepared-by-a-registered-engineer-docum",
+    "including-patta-copy-certificate-obtained-from-the-concerned-taluk-office-indica",
+    "extent-of-the-land",
+    "titleownership",
+    "etc-if-ownership-document-is-not-available-no-objection-certificate-noc-to-that",
+    "hindu-religious-institutions",
+    "regarding-total-annual-income-from-all-sources-details-of-the-board-of-trusteesv",
+    "bricks",
+    "steel",
+    "etc",
+    "not-less-than-2",
+    "50",
+    "000-an-utilization-certificate-for-having-utilized-the-amount-for-the-purpose-so"
+  ],
+  "apply_url": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/farsrwhrisewsaadc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be the concerned temple authority.\n- The applicant must represent a temple that is not coming under the purview of the Department of Hindu Religious Institutions.\n- The applicant must represent a temple situated in Adi-Dravidar colonies or Economically Weaker Section Areas.\n\n<br>",
+  "_criteria_filled": 1
+}

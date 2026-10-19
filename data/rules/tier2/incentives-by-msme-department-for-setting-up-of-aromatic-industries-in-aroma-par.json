@@ -1,0 +1,26 @@
+{
+  "id": "incentives-by-msme-department-for-setting-up-of-aromatic-industries-in-aroma-par",
+  "name": "Incentives by MSME Department for Setting Up of Aromatic Industries in Aroma Park located at SIIDCUL, Kashipur - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, industries to be set up in Aroma Park are provided with investment promotion assistance, interest subsidy, reimbursement of SGST, exemption from stamp duty, exemption from market fees, and supply of electricity at concessional rates, as detailed in the table below:\n**Sr. No.****Criteria****Incentives for units to be set up**1Investment promotion assistance40% (maximum ₹40 lakh) ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-siidcul-guidelines-to-avail-the-benefits-of-the-sc"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/imsmesaiaplsk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Entrepreneurs/ individuals interested in setting up an aromatic industry in Aroma Park will be eligible under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

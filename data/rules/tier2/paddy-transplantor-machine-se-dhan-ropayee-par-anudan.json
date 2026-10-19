@@ -1,0 +1,26 @@
+{
+  "id": "paddy-transplantor-machine-se-dhan-ropayee-par-anudan",
+  "name": "Paddy Transplantor Machine se Dhan Ropayee par Anudan",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "**(A) Field Preparation Expenditure per Hectare:**\n\n- Field Ploughing (5 hours @ ₹700 per hour): ₹3,500/-\n- Field Weeding (6 hours with Rotavator @ ₹700 per hour): ₹4,200/-\n- Total Field Preparation Cost: ₹7,700/-\n\n**(B) Expenditure for Seedling Preparation per Hectare:**\n\n- Plastic Sheet for Nursery (15 Kg @ ₹100 per Kg): ₹1,500/-\n- Field Weeding (6 hours with Rotavator @ ₹500 per hour): ₹3,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "id-proof-agriculture-land-document-bank-account-detailsbank-passbook-other-neces"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/agridept/StateScheme/1.4%20Paddy%20transStateScheme%20.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptmsdrpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer residing in the Chhattisgarh.\n1. The applicant should be engaged in paddy cultivation.\n1. The applicant should be willing to use a paddy transplanter machine for transplantation.\n1. The applicant should be preparing a mat-type nursery for paddy transplantation.\n1. The applicant should have suitable land for ploughing and weeding.\n1. The applicant should have a cultivable area of up to 2 hectares to be eligible for the grant.",
+  "_criteria_filled": 1
+}

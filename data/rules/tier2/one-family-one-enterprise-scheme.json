@@ -1,0 +1,34 @@
+{
+  "id": "one-family-one-enterprise-scheme",
+  "name": "One Family One Enterprise Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The assistance provided under this scheme shall be in the form of an interest subvention on a reimbursement basis.\n   1. All new MSMEs engaged in manufacturing, service, and trading activities shall be eligible for interest subvention on the interest charged by the financial institution on an approved project for loan amounts up to ₹10 lakhs (for Term loan and/or working capital loan) for a per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-photo-identity-proof-of-the-promoter-promoters-copy-of-udyam-registratio",
+    "for-units-other-than-proprietary-resolution-towards-applying-for-this-assistance",
+    "loan-repayment-project-report-approved-by-financial-institution-in-case-units-ha",
+    "supporting-documents-to-substantiate-the-same-in-the-case-of-a-belated-applicati",
+    "request-for-condonation-for-the-delay-in-filing-the-application-copy-of-title-le",
+    "dp",
+    "etc-the-applicant-shall-provide-all-required-details",
+    "if-so-required-by-the-sanctioning-authority-to-assess-the-eligibility-of-the-app",
+    "the-unit-is-working-etc"
+  ],
+  "apply_url": "http://ofoe.industry.kerala.gov.in/public/index.php/family",
+  "source_url": "https://www.myscheme.gov.in/schemes/ofoe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All new micro, small, and medium enterprises in manufacturing, service, and trading activities, that availed of Term Loan and/or Working Capital Loan, shall be eligible for assistance under this scheme.\n   1. The MSME units, that commenced operation/production on or after 1/4/2022, are eligible for assistance under this scheme.\n   1. The unit shall have a valid Udyam Registration.\n   1. As of the date of submission of the claim, the loan accounts should not have been declared as NPA as per extant guidelines in force.\n   1. The unit shall be working as of the date of application.\n   1. The unit shall not have availed any grant assistance under any scheme of the Central Government/State Government/ Local Self Government Department.\n   1. Even though the scheme is for new units as item 1 above, an exemption is there for units supported by the Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. In order to dovetail this scheme with the PMFME scheme - existing enterprises supported under the PMFME scheme shall also be eligible for assistance under the &amp;quot;One Family One Enterprise (OFOE)&amp;quot; scheme provided the unit commenced production after expansion/ modernization/ diversification on or after 01/04/2022.\n   1. Even though the scheme is not eligible for units who have availed any grant assistance under any scheme of Central Government/State Government/ Local Self Government Department as item 6 above, an exemption is there for units supported by Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. Units that have availed/are availing assistance under the PMFME scheme shall be eligible for this assistance for the working capital portion alone up to a loan amount of ₹10 Lakh.\n\n&gt; **Obligation of an applicant:**\n\n   1. The applicant shall provide all required details and declare such information as to be true if so required by the recommending authority/sanctioning authority to assess the eligibility of the application.\n   1. The applicant shall provide clarifications of further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/ sanctioning authority.\n   1. Applicants shall produce loan remittance particulars and a bank certificate for the remittance of the loan.\n   1. The applicant shall execute the requisite legal agreement as and when the assistance is sanctioned.\n   1. The beneficiary shall produce the relevant documents submitted along with the application before the Recommending Authority.\n   1. The applicant should operate the unit as stipulated in the agreement in which the quantum of support received, failing which the assistance shall be resumed by restoring the provisions of Kerala Revenue Recovery Act, 1968 or in such other manner as the Government may deem fit.",
+  "_criteria_filled": 1
+}

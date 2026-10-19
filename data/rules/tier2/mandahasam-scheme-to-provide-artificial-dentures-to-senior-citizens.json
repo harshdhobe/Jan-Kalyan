@@ -1,0 +1,37 @@
+{
+  "id": "mandahasam-scheme-to-provide-artificial-dentures-to-senior-citizens",
+  "name": "Mandahasam Scheme To Provide Artificial Dentures To Senior Citizens",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, one beneficiary would get maximum financial assistance of ₹5,000/- for fixing the tooth.\n\n**Note:** The benefit of this scheme is not given for only partial replacement of teeth.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-proof-of-age-aadhaar-election-id-school-certificate-medical",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12424.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mspadsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The applicant’s age has to be 60 years or above.\n   1. The applicants should be from Below Poverty Line (BPL) category.\n   1. The persons who have completely lost their teeth or those who have partially lost their teeth and are in a position to have them extracted as they are unusable are eligible to apply under the scheme.\n   1. The persons who have been certified by a qualified dentist in the prescribed form as unfit for placing artificial teeth.\n\n**Note:** The priority will be given to the oldest person under the scheme.",
+  "_criteria_filled": 3
+}

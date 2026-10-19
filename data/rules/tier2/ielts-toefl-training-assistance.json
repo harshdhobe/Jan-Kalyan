@@ -1,0 +1,26 @@
+{
+  "id": "ielts-toefl-training-assistance",
+  "name": "IELTS & TOEFL Training Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Financial aid of ₹3,10,000/- per student to cover IELTS and TOEFL training expenses.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-professional-course-certificate-marksheet-passpor"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/itta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must be a student and must have passed class 12th (HSC).1. The applicant should be residing in a notified tribal area of Gujarat.\n1. The applicant must intend to pursue higher education abroad.\n1. The applicant must require IELTS or TOEFL training as part of their admission preparation.\n\n<br>",
+  "_criteria_filled": 1
+}

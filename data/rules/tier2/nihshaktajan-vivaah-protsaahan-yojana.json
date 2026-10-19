@@ -1,0 +1,38 @@
+{
+  "id": "nihshaktajan-vivaah-protsaahan-yojana",
+  "name": "Nihshaktajan Vivaah Protsaahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. In the case of a disabled youth marrying a normal girl and in the case of a disabled girl marrying a normal youth, the incentive amount is Rs. 2,00,000/- \n1. In case of disability of both the young man and the woman, jointly Rs. 1,00,000/- incentive amount is provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-a-competent-medical-practitioner-in-the-prescri",
+    "residence-certificate",
+    "marriage-certificate-two-passport-size-photographs-of-the-couple-along-with-the"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=367",
+  "source_url": "https://www.myscheme.gov.in/schemes/nvpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Applicants should have a disability of 40% or more. \n1. The applicant should be a native of Madhya Pradesh. \n1. The minimum age of male applicants should be 21 years and female applicants should be 18 years. \n1. The marriage should have been solemnized by religious custom/ social custom or legally prescribed by the competent court. \n1. The applicant should not be an income taxpayer. \n1. In order to get the benefits, one of the disabled couples will have to apply within a period of one year after the completion of the marriage, otherwise, they will not be eligible to get the benefits.",
+  "_criteria_filled": 3
+}

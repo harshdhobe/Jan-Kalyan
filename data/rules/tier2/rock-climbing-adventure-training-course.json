@@ -1,0 +1,36 @@
+{
+  "id": "rock-climbing-adventure-training-course",
+  "name": "Rock Climbing Adventure Training Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Training:** A 6-day rock climbing adventure course for 100 children aged 9 to 12 years, conducted at Mount Abu or Junagadh Center.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 9
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-date-of-birth-certificate-self-attested-copy-of-scheduled"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcatc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should belong to the Scheduled Tribe (ST) category.\n  - The applicant should be between 9 and 12 years.\n  - The applicant must be physically fit.\n\n<br>",
+  "_criteria_filled": 3
+}

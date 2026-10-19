@@ -1,0 +1,35 @@
+{
+  "id": "kalyanamastu-pathakam-scheme-andhra-pradesh",
+  "name": "Kalyanamastu Pathakam Scheme - Andhra Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹75,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-of-bride-and-bridegroom-aadhar-card-with-address-of-the-brid",
+    "caste-certificate-of-bride-and-bridegroom-issued-by-competent-authority",
+    "birth-certificate-of-bride-and-bridegroom-from-mee-seva-marriage-invitation-from",
+    "in-the-name-of-bride-notarized-affidavit-about-professional-activity-pourohityam",
+    "in-the-prescribed-format-original-to-be-submitted-a-good-quality-marriage-photo"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/kalyanamasthu2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kpsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Bride:**\n\n1. The applicant (Bride) should have completed 18 years of age at the time of marriage.\n1. The bride and her parents should belong to the Brahmin community. \n1. The bride should be enrolled in the Praja Sadhikara Survey (PSS). \n\n<br>\n\n> **Bridegroom:**\n\n1. The bridegroom should have completed 21 years at the time of marriage. \n1. The bridegroom should be a Brahmin resident of Andhra Pradesh and his livelihood should come from Pourohityam or Veda Parayanam or Archakatvam.  \n1. The bridegroom should not be a full-time employee/businessman/professional in other professions or an Industrialist. \n\n<br>",
+  "_criteria_filled": 2
+}

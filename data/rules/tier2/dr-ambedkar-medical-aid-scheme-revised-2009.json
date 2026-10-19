@@ -1,0 +1,35 @@
+{
+  "id": "dr-ambedkar-medical-aid-scheme-revised-2009",
+  "name": "Dr. Ambedkar Medical Aid Scheme (Revised – 2009)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- Under this scheme medical treatment facilities provide to the patients suffering from serious ailments of Scheduled Caste and Scheduled Tribe persons whose annual family income is less than ₹ 1,00,000/- p.a.\n- A patient having serious ailments requiring surgery of the Kidney, Heart, Liver, Cancer, Knee, Spinal and Brain, or any other life-threatening diseases may be given treatment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "original-estimated-cost-certificate-duly-signed-by-the-medical-superintendent-of",
+    "caste-certificate",
+    "and-ration-card-of-the-patient-the-application-should-be-recommended-and-forward",
+    "accompanied-with-the-application",
+    "should-contain-the-date-fixed-for-the-surgical-operation-as-far-as-possible-an-a"
+  ],
+  "apply_url": "http://haryanascbc.gov.in/dr-ambedkar-medical-aid-scheme-revised-2009",
+  "source_url": "https://www.myscheme.gov.in/schemes/amas-haryana",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant shall belong to Scheduled Caste and Scheduled Tribe Community.\n1. Annual family income shall not exceed ₹ 1,00,000/- per annum.\n1. Those who are suffering from major ailments which need surgery such as kidney, heart, liver, cancer, brain or any other life-threatening disease including knee surgery and spinal surgery.",
+  "_criteria_filled": 2
+}

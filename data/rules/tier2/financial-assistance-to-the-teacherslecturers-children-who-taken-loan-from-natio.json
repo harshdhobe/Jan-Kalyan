@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-the-teacherslecturers-children-who-taken-loan-from-natio",
+  "name": "Financial Assistance to the Teachers/Lecturers Children who taken loan from Nationalised Banks for studying Medical/Engineering Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **One-time financial assistance up to ₹50,000/- covers the interest component of educational loans availed from nationalized banks.**\n\n> Note: The sanctioned amount is directly transferred to the borrower&#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "certified-mark-sheets-of-all-yearssemesters-proof-of-educational-loan-availed-fr"
+  ],
+  "apply_url": "https://schooleducation.karnataka.gov.in/uploads/schooledu_pdfs/tbfpdfs/TBFProfCourseCircular_201819.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatlclnbsmec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant parent should be a teacher/lecturer working in a government or aided institution with life membership of the Welfare Fund. \n1. The student must have passed each year or semester of the course on the first attempt.\n1. The student should have studied from 1st to 10th standard in government or aided schools in Karnataka.1. The applicant should have availed educational loan from a nationalized bank for professional education in medicine or engineering.\n1. The educational loan should be taken for courses within India.\n1. Only one child per family can avail of the financial assistance.\n1. Assistance is only available for final-year students in vocational medical, engineering, or postgraduate programs.",
+  "_criteria_filled": 1
+}

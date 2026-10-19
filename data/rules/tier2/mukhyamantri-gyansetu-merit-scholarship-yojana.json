@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-gyansetu-merit-scholarship-yojana",
+  "name": "Mukhyamantri Gyansetu Merit Scholarship Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Government Schools and Government -aided Schools (Approved by Education Department):**\n\n  - For Class 6th to 8th: ₹5,000/- per year.\n  - For Class 9th to 10th: ₹6,000/- per year.\n  - For Class 11th to 12th: ₹7,000/- per year.\n\n> **Private (Selected) Schools:**\n\n  - For Class 6th to 8th: ₹20,000/- per year.\n  - For Class 9th to 10th: ₹22,000/- per year.\n  - For Class 11th to 12th: ₹25,000/- per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmgmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be a student.\n   1. The applicant must have studied Classes 1st to 5th in a Government/ Government-aided/ RTE-approved self-financed primary school in Gujarat.\n   1. The applicant must have passed the Common Entrance Test (CET) conducted by the State Examination Board and be listed in the merit list.\n   1. The applicant must have taken admission in Class 6th in a Government/ Government-aided/ RTE-approved self-financed primary school in Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

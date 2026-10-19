@@ -1,0 +1,28 @@
+{
+  "id": "compensation-for-loss-of-life-and-property-caused-by-wild-animals-in-and-around",
+  "name": "Compensation for Loss of Life and Property Caused by Wild Animals in and around Forest Areas: Assistance in case of Death/Injury/Disability due to Wild Animal Attack",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***The following compensation amounts are currently given in case of injury/death of a person due to wildlife attack:***\n**Type of Human Injury****Rates payable for ex-gratia amount as per Human Wildlife Conflict Relief Distribution Rules, 2024****As per Norms of State Disaster Response Fund (SDRF)****Source of Payment : Amount payable from State Disaster Response Fund (SDRF)****Source of Payment ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-victim-or-dependent-mobile-number-bank-account-details-medic",
+    "public-representative",
+    "and-forest-guard-verifying-the-incident-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/chwdfhl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant or their dependent must have suffered death, injury, or disability due to an attack by a wild animal such as:\n\n  - Tiger\n  - Leopard\n  - Snow Leopard\n  - Wild Elephant\n  - All three species of bear\n  - Hyena\n  - Wild Boar\n  - Crocodile / Gharial\n  - Snake\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "grant-in-aid-scheme-to-provide-financial-assistance-to-the-mahila-mandals",
+  "name": "Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Financial Assistance**\n\n- An annual grant of ₹5,000/- is provided to registered Mahila Mandals for successful functioning in Goa.\n- A financial assistance of ₹2,000/- is sanctioned per course for the purchase of raw materials to conduct self-employment activities.\n- Resource persons may be provided by the Directorate for each course of activity through CDPOs.\n\n**Conditions**\n\n- Financial assista",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-registration-certificate-last-two-years-statement-of-accounts-project-re"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/giaspfamm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Mahila Mandal must have valid registration with the competent authority.\n- The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years.\n- Each group must submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details.\n- There must be a minimum of 20 members for training/orientation.\n\n_*The government may relax any provision of the scheme at its discretion._\n_*No additional liability for house rent, electricity bills, or water bills will be borne by the government under the scheme._",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "government-food-science-training-centre",
+  "name": "Government Food Science Training Centre",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The state has two Food Department Training Centres that offer one-and-a-half-year diploma courses in Canning and Food Processing, Bakery and Confectionery, and Cookery.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-government-food-science-training-c"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfstc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. To seek admission in a diploma course, the candidate/student must be a resident of Uttarakhand.\n   1. For admission to the Canning and Food Processing course, the student must have passed Intermediate (Science/Agriculture) from an institute located in Uttarakhand.\n   1. For admission to other courses, the student must have passed Intermediate from an institute located in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

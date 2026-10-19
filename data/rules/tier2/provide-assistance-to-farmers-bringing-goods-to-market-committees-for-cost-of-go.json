@@ -1,0 +1,30 @@
+{
+  "id": "provide-assistance-to-farmers-bringing-goods-to-market-committees-for-cost-of-go",
+  "name": "Provide Assistance to Farmers Bringing Goods to Market Committees for Cost of Goods Transportation (Tribal)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** ₹500/- per tonne of agricultural produce transported. Assistance is available for up to 10 tonnes per farmer, which amounts to a maximum of ₹5,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id",
+    "etc-proof-of-residence-in-a-tribal-area-ration-card",
+    "domicile-certificate",
+    "etc-farmer-registration-certificate-or-proof-of-ownershipcultivation-market-comm"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spafbgmt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a tribal farmer.\n   1. The applicant should be residing in a tribal area of Gujarat.\n   1. The applicant should bring their agricultural produce to a registered market committee (APMC) located in the tribal area.\n   1. The applicant should be the owner or cultivator of the agricultural goods transported.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": "financial-assistance-to-orphan-children-of-ex-servicemen",
+  "name": "Financial Assistance to Orphan Children of Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1.\tUnder the scheme, financial assistance of ₹3,000/- per month is given to the orphan children of ex-servicemen, with an annual increase of ₹400/- w.e.f. 1.11.2017 every year in November.\n**Note:** Subject to the condition that application claim case of the orphan children is found in order. Financial Assistance to the orphan children of Ex-servicemen will be sanctioned with effect from the first",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-aadhaar-card-original",
+    "but-in-the-case-of-major-children",
+    "the-application-and-all-other-documents-will-be-signed-by-the-major-orphan-child",
+    "panch",
+    "or-chowkidar-only-shall-not-be-accepted-in-any-circumstances-note-6-the-original",
+    "financial-position-of-the-orphan-children-that-he-she-is-unmarried-and-unemploye",
+    "etc-note-8-every-applicant-shall-have-to-produce-a-certificate-issued-by-the-con"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=eyROwv6gwnsvupa++ExhNw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/faocesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide resident of Haryana.\n   1. The applicant should be an orphan child of an ex-serviceman.\n   1. The applicant should not be receiving any kind of financial assistance from any department of the Haryana Government.\n   1. The applicant&amp;#39;s age should be below 21 years.\n   1. The applicant should be unmarried.\n   1. The applicant should be unemployed.\n\n**Note 1:** The definition of Ex-Servicemen for the purpose of the eligibility of grant of Financial Assistance to shall be effective as adopted by the Ministry of Defence Government of India from time to time.\n**Note 2:** Details of orphan children of ESM along with their date of birth as issued by Unit Record Office of the Ex-servicemen will have to be submitted by the applicant while applying for Financial Assistance.\n**Note 3:** The orphan children of ESM who are in receipt of ordinary family pension from Govt. of India are also eligible for financial assistance under this scheme.\n**Note 4:** Old beneficiaries, (orphan children) whose cases for grant of Financial Assistance have already been sanctioned prior to issue of these guidelines shall continue to get the Financial Assistance at enhanced rates and they need not apply afresh.\n**Note 5:** The payment shall be discontinued with immediate effect to the orphan children on their attaining the age of 21, or till he/she gets employment or till he/she gets married whichever is earlier.\n**Note 6:** Payment of Financial Assistance to those beneficiaries shall be stopped immediately who fail to submit their survival verification proofs once every year from the revenue authorities in the month of April. Secretary, Zila Sainik Board shall be personally responsible for any lapse in this regards.\n**Note 7:** If any beneficiary, after the date of sanction of the Financial Assistance under this scheme is found drawing any type of Financial Assistance from any other Deptt. of Haryana Govt. He/she shall be permanently debarred from getting Financial Assistance under all schemes run by the Rajya and Zila Sainik Boards in Haryana.",
+  "_criteria_filled": 2
+}

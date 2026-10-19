@@ -1,0 +1,27 @@
+{
+  "id": "registration-for-crop-procurement",
+  "name": "Registration for Crop Procurement",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Enables farmers to sell their produce at government-approved procurement centers.\n\n- Ensures fair pricing through the Minimum Support Price (MSP) announced by the government.\n- Provides a transparent and digital platform for registration and sale.\n- Payment for the procured crop is made directly to the farmer’s bank account through online transfer.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "land-rights-book-loan-journal-part-1",
+    "2-bank-pass-book-mobile-number-aadhaar-card"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=111",
+  "source_url": "https://www.myscheme.gov.in/schemes/rfcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Madhya Pradesh.\n- The applicant should be a landholding farmer. \n- The applicant should intend to sell their crop at a government-designated procurement center.\n\n<br>",
+  "_criteria_filled": 1
+}

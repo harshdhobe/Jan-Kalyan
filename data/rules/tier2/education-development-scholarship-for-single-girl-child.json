@@ -1,0 +1,31 @@
+{
+  "id": "education-development-scholarship-for-single-girl-child",
+  "name": "Education Development Scholarship for Single Girl Child",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Under the scheme, a scholarship of ₹5,000/- per year is given to single girl child students.\n\n**Note:** The scholarship will be deposited directly into the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-sin"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=382",
+  "source_url": "https://www.myscheme.gov.in/schemes/edssgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n   1. The applicant should be the only girl child of her parents.\n   1. The girl student should be a permanent resident of Madhya Pradesh.\n   1. The girl student should have scored 60% or more marks in the 10th class examination under the curriculum of the Madhya Pradesh Secondary Education Board.\n   1. The girl should be studying in Class 11 or 12 at a recognized private school.\n   1. The school tuition fees should be less than ₹1,500/- per month.\n   1. The girl student should have passed the previous class.\n\n**Note 1:** If the parents are government employees, a certificate from the head of the office confirming the applicant is the only child or an attested copy of the family list in the ration card, is required.\n**Note 2:** If the parents are not government employees, an affidavit from a notary confirming the applicant is the only child, or an attested copy of the ration card, is required.",
+  "_criteria_filled": 2
+}

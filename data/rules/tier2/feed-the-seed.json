@@ -1,0 +1,26 @@
+{
+  "id": "feed-the-seed",
+  "name": "Feed The Seed",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "The \"Feed for Seed\" program in Telangana has several benefits for farmers and the agricultural sector in the state, including:\nAccess to high-quality seeds: The program provides farmers with high-quality seeds of various crops, which improves crop yield and quality, and reduces dependence on low-quality seeds available in the market.\nIncreased income for farmers: By producing their own seeds, farm",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-to-apply-copy-of-aadhar-card-copy-of-the-pattadar-passbook"
+  ],
+  "apply_url": "https://hyderabad.telangana.gov.in/scheme/feed-the-seed/",
+  "source_url": "https://www.myscheme.gov.in/schemes/feed-the-seed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers with livestock farming are eligible for seed production.\n1. In order to provide livestock seeds, farmers have to hit own land or leased land or public places to increase agricultural land with animal farming..\n1. Cattle, buffalo, cows, sheep Farmers have the right to take grass seeds.\n1. Grass seeds should be provided by the farmers in the area. Own land or lease land.",
+  "_criteria_filled": 1
+}

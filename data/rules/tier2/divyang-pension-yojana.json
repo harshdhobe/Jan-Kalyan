@@ -1,0 +1,46 @@
+{
+  "id": "divyang-pension-yojana",
+  "name": "Divyang Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "The Department of Empowerment of Persons with Disabilities provides a grant at the rate of Rs. 1,000/- per month per beneficiary",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 56460
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-colour-photograph-date-of-birthage-certificate-disability-certific"
+  ],
+  "apply_url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpyup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant should be 18 years or more.\n   1. Applicant must be a permanent resident of Uttar Pradesh.\n   1. Should have a minimum of 40 percent disability.\n   1. The person getting pension/grant/assistance under the applicant&amp;#39;s old age pension, widow pension, socialist pension or any other similar scheme and the person receiving free maintenance in government institutions/homes should not be eligible.\n   1. The annual income of the applicant or his family is within the definition of the poverty line (currently fixed at Rs. 46,080/- in rural areas and Rs. 56,460/- per family per year in urban areas) will be eligible for the grant.",
+  "_criteria_filled": 5
+}

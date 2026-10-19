@@ -1,0 +1,28 @@
+{
+  "id": "subsidy-for-battery-operated-2-wheelers",
+  "name": "Subsidy for Battery Operated 2-Wheelers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Subsidy Assistance:** Each eligible student receives a subsidy of ₹12,000/- for the purchase of a battery-operated two-wheeler.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-with-complete-details-in-duplicate-one-copy-to-be-kept-by-the-d",
+    "photograph",
+    "outward-no-date-self-certified-copy-of-the-students-aadhaar-card-note-applicatio"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfbotw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be studying in Class 9th to 12th in the state or be a college student.\n   1. The applicant must purchase a battery-operated two-wheeler only from GEDA-authorized manufacturers through registered dealers.\n\n<br>",
+  "_criteria_filled": 1
+}

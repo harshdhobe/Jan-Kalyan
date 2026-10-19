@@ -1,0 +1,26 @@
+{
+  "id": "pension-scheme-to-the-dependents-husbandwife-of-identified-state-agitators-other",
+  "name": "Pension Scheme to the Dependents (Husband/Wife) of Identified State Agitators, Other than those Who either went to Jail for 7 Days or were Injured During the Uttarakhand State Movement, after the Death of the Agitator",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Pension Amount:** ₹4,500/- per month\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-applicant-death-certificate-of-identified-agitator-other-docum"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/uksaptd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be the dependent (husband/wife) of a deceased identified state agitator.\n   1. The deceased agitator must not fall under the category of those who went to jail for 7 days or were injured during the Uttarakhand State Movement.\n   1. The deceased agitator must not have been receiving agitator pension or any other pension from a government source, nor employed in government service.\n\n<br>",
+  "_criteria_filled": 1
+}

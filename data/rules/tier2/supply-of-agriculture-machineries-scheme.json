@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-agriculture-machineries-scheme",
+  "name": "Supply of Agriculture Machineries Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\n- Subsidy on Power tillers, Reapers, Harvesters, etc.\n\n> **Type of Assistance and Entitlement (If Any):**\n\n- 50% subsidy sale.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=80",
+  "source_url": "https://www.myscheme.gov.in/schemes/sams",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

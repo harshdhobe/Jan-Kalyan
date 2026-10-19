@@ -1,0 +1,26 @@
+{
+  "id": "border-areas-scholarship",
+  "name": "Border Areas Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "- Financial assistance in the form of annual scholarships/subsidies.\n- Awarded year-wise based on promotion examination results.\n- Intended to support education up to the Degree level for students from notified border area villages.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-date-of-birth-certificate-residential-certificate-showing-residence"
+  ],
+  "apply_url": "https://meghalaya.gov.in/sites/default/files/forms/5border_area.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student residing in a village notified as a Border Area village by the Border Areas Department.\n   1. The applicant&amp;#39;s father and mother should have income derived entirely from the Border Area.\n   1. The applicant should pass year-wise promotion examinations to continue receiving the scholarship.\n   1. The applicant should maintain good conduct, regular attendance, and satisfactory academic progress.\n   1. The applicant should not leave studies before completing the course.\n\n<br>",
+  "_criteria_filled": 1
+}

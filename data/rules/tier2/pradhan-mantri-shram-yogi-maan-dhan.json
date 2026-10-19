@@ -1,0 +1,31 @@
+{
+  "id": "pradhan-mantri-shram-yogi-maan-dhan",
+  "name": "Pradhan Mantri Shram Yogi Maan-dhan",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- A **minimum assured pension of ₹3,000/- per month** is provided to the subscriber after attaining the age of 60 years.- A matching contribution is provided by the Central Government on a 50:50 basis, where an equal amount to the subscriber&#39;s age-specific contribution (ranging from ₹55/- to ₹200/-) is credited to the pension account.\n\n<br>\n\n****   During the receipt of the pension, if the sub",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-savings-bank-account-passbook-jan-dhan-account-passbook-mobile-numb"
+  ],
+  "apply_url": "https://maandhan.in/showfile.php?lang=1&level=1&ls_id=171&lid=260&page=101",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-sym",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an unorganised worker.\n1. The applicant must have an entry age between 18 and 40 years.\n1. The applicant must have a monthly income of ₹15,000/- or less.\n1. The applicant must possess a Savings Bank Account or Jan Dhan account number with an Indian Financial System Code.\n1. The applicant must possess a mobile phone.\n\n<br>",
+  "_criteria_filled": 2
+}

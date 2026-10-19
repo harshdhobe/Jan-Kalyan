@@ -1,0 +1,26 @@
+{
+  "id": "meritcummeans-scholarships-for-under-graduate-studies-in-various-branches-of-agr",
+  "name": "Merit·cum·Means Scholarships For Under Graduate Studies In Various Branches Of Agriculture And Animal Science Subjects",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "The value of the scholarships for undergraduate studies in Agriculture (including Agricultural Engineering &amp; Home Science) and Animal Science subjects will be ₹ 1,000/- per month per student. The scholarship will be tenable for the full duration of the degree course in the concerned subject.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-marksheets-of-previous-educational-qualification-aadhar-number"
+  ],
+  "apply_url": "https://www.icar.org.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcms-ugsvb-aass",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have domiciled in India.\n1. The applicant should be a student who meets the Means Test condition as defined in the scheme guidelines.\n1. The applicant should have secured at least 60% marks or equivalent grade points in the qualifying examination.\n1. The applicant should be considered on inter-se merit in case of a tie, with preference given to those with higher marks in science subjects.\n1. The applicant should pursue undergraduate studies in Agriculture, Agricultural Engineering, Home Science, Dairy, or Animal Husbandry.\n\n<br>\n\n**MEANS TEST**\n\n1. The applicant should be from a family whose parents&#39; annual income does not exceed ₹1,00,000 to be eligible for the scholarship.\n1. The applicant should note that there is no provision for a half scholarship under this scheme.\n1. The applicant should be aware that if their parents&#39; income exceeds ₹1,00,000 per annum, they will not be eligible for the scholarship but may receive a national prize of ₹500 and a certificate of merit.",
+  "_criteria_filled": 1
+}

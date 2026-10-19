@@ -1,0 +1,36 @@
+{
+  "id": "beti-hai-anmol-yojana",
+  "name": "Beti Hai Anmol Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "The following financial assistance will be provided under Himachal Pradesh Beti Hai Anmol Yojana :- \nStagesAmountAt the time of Birth₹ 21,000/-From Class 1st to 3rd₹450/- per yearIn Class 4th ₹750/- per yearIn Class 5th₹ 900/- per yearFrom Class 6th to 7th₹1050/- per yearIn Class 8th₹1200/- per yearFrom Class 9th to 10th₹1500/- per yearFrom Class 11th to 12th₹ 2250/- per yearB.A, B.Com, B.Sc, etc₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "supporting-documents-photocopy-of-bonafide-himachali-certificate-proof-of-bpl-ce"
+  ],
+  "apply_url": "https://himachal.nic.in/showfile.php?lang=1&dpt_id=176&level=1&lid=21360&sublinkid=21029",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The candidate must be a permanent resident of Himachal Pradesh\n1.  To the girls who are below the poverty line (BPL).\n1.  From each BPL family, only two girl children are eligible.\n1.  All BPL girls who are born after July 5, 2010, can get the benefits of studying till class 12.\n1. A beneficiary girl should not get married before completing 18 years.\n1. The girl who was born after July 5, 2010, will get benefit from this scheme.",
+  "_criteria_filled": 3
+}

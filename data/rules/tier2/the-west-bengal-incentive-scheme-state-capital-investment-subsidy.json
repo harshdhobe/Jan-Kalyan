@@ -1,0 +1,34 @@
+{
+  "id": "the-west-bengal-incentive-scheme-state-capital-investment-subsidy",
+  "name": "The West Bengal Incentive Scheme: State Capital Investment Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "Group A: 7.5%, subject to a limit of ₹ 1,00,00,000/-,\nGroup B: 10%, subject to a limit of ₹ 1,00,00,000/-,\nGroup C: 15%, subject to a limit of ₹ 1,20,00,000/-,\nGroup D: 20%, subject to a limit of ₹ 1,50,00,000/-.\nSpecial Area: 25%, subject to a limit of ₹ 1,75,00,000/-.\n**Note:** In no case, the amount of this subsidy to an eligible unit in respect of the building component will exceed 50% of the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-the-registration-and-eligibility-certificate-form-ia-copy",
+    "photocopy-of-sanction-letter-from-the-central-financial-institutionstate-financi",
+    "conversion-certificate",
+    "site-plan",
+    "clearance-from-ma-deptt-etc-all-applicable-clearance-from-govt-authorities-fores",
+    "crz",
+    "police",
+    "etc-sarai-registration-certificate-under-bengal-sarai-regulation-act-in-case-hot",
+    "registered-valuer-regarding-building-and-plant-machinery-a-certificate-from-a-ch"
+  ],
+  "apply_url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTIw/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MDRfd2Jpc18yMDIxLnBkZg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbisscis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Scheme shall be generally applicable to all eligible tourism projects/units and also to expansion projects of existing units set up on or after the effective date (i.e. 22nd February, 2021)  of this incentive scheme.\n\n       Or,\n\n  - Eligible Hotel Units who started their commercial operation on or after 7th January, 2015 to 31st December, 2020 but could not apply under previous scheme 2015 due to absence of a Bar in the Hotel.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n  - The project should be covered by a detailed feasibility report/project prepared for the purpose.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the West Bengal Tourism Development Corporation Limited on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

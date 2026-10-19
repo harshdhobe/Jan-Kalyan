@@ -1,0 +1,33 @@
+{
+  "id": "toposili-bandhu-old-age-pension-scheme",
+  "name": "Toposili Bandhu (Old Age Pension) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "Pension : ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-formal-caste-or-tribe-certificate-if-unavailable",
+    "a-castetribe-certificate-of-any-paternal-relative-is-acceptable-for-the-initial",
+    "the-applicant-must-procure-their-caste-certificate-later-and-submit-the-same-sub"
+  ],
+  "apply_url": "https://north24parganas.gov.in/sites/default/files/training_ppt_bsk.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/obs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of West Bengal.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should have attained the age of 60 years or more.\n1. The applicant should not be a beneficiary under any other Social Security pension scheme.\n1. The applicant should not be a recipient of Government pension or pension from any other organization.",
+  "_criteria_filled": 2
+}

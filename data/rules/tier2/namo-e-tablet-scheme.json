@@ -1,0 +1,26 @@
+{
+  "id": "namo-e-tablet-scheme",
+  "name": "NAMO E-Tablet Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefits\nTablets are provided to students studying in colleges and universities in the Gujarat state.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-domicile-certificate-address-proof-voter-id-card"
+  ],
+  "apply_url": "https://kcg.gujarat.gov.in/namo-e-tablet-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/nets",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n- The students should have passed the 12th examination from a recognized institution and board in Gujarat. \n- He or she must be in the first year of college. \n- Students who have taken up polytechnic are also eligible.",
+  "_criteria_filled": 1
+}

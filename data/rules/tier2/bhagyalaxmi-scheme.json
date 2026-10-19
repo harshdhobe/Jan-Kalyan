@@ -1,0 +1,37 @@
+{
+  "id": "bhagyalaxmi-scheme",
+  "name": "Bhagyalaxmi Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Benefits\nBeneficiary: Mother/Father/Natural guardian\nThe child gets health insurance coverage up to a maximum of Rs. 25,000 a year.\nThe annual scholarship of Rs. 300 to Rs. 1,000 up to the tenth standard is given to the girl\nTo Promote the birth of girl children in economically weaker families and to raise their status within the family and society.\nTo provide Financial assistance to the girl chil",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-application-form-of-the-bhagya-laxmi-scheme-certi",
+    "a-family-planning-certificate-is-to-be-submitted-along-with-all-the-above-docume"
+  ],
+  "apply_url": "https://kmea.karnataka.gov.in/storage/pdf-files/Reports%20and%20other%20docs/ToR%20Bhagyalakshmi.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bys",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. A girl’s birth must be registered within a year after her birth date.\n1. Girls shouldn’t engage in child labour.\n1. Benefits from the Bhagyalakshmi scheme are available to BPL families with up to 2 female children.\n1. Girls should have been immunized correctly in the health department’s program.\n1. Girl children must be born after 31 March 2006 in a BPL family.\n1. A girl must have completed the eighth grade to be eligible for the maturity amount\n1. She cannot have been married off before turning 18 years old.",
+  "_criteria_filled": 3
+}

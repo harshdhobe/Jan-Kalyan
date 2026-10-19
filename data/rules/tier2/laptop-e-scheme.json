@@ -1,0 +1,28 @@
+{
+  "id": "laptop-e-scheme",
+  "name": "Laptop-e Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Provision of one (1) entry-level portable computer system (Notebook or Laptop).\n##### ***Details of Equipment***\n\n- The system must be equipped with at least mid-level Processors.\n- The system must include a DVD-ROM Drive.\n- The system must include Wi-Fi connectivity.\n- The system must include multimedia speakers.\n- The system must have a 15-inch or more screen size.\n- The system must have a requi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stageaffidavit-of-the-parent-or-guardian-on-a-twenty-rupee-judici",
+    "as-decided-by-the-government",
+    "directorate-of-education-post-receipt-stagevalid-receipt-of-the-portable-compute"
+  ],
+  "apply_url": "https://education.goa.gov.in/wp-content/uploads/2024/11/schemes-planning.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/les-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student of 11th standard.\n- The applicant must be studying in a recognized Higher Secondary School in Goa.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "parwarish-yojana",
+  "name": "Parwarish Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- Under this scheme, financial assistance of ₹1,000/- per month is provided to eligible beneficiaries.\n\n**Note:** The amount is transferred directly every month to a joint savings account, opened with the parents of the children, through RTGS.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-the-relevant-section-of-the-published-bpl-list-if-the-applicants-na",
+    "a-photocopy-of-the-income-certificate-issued-by-the-competent-authority-must-be",
+    "a-death-certificate-of-both-parents-issued-by-the-competent-authority-is-require",
+    "a-certificate-from-the-panchayat-head-in-rural-areas-or-ward-councillor-in-urban",
+    "a-certificate-from-the-headmaster-of-the-concerned-school-is-also-valid-for-pare",
+    "a-grade-ii-certificate-issued-by-the-competent-authority-is-required-in-case-of",
+    "the-art-record-card-will-be-valid-photocopy-of-the-bank-passbook-if-the-applican",
+    "a-photocopy-of-the-ordercertificate-issued-by-the-competent-authority-child-welf"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Bal%20Sanrankshan%20Chatra%20Yojna/PARWARIS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pybihar",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following categories of children, aged 0-18 years, are eligible for the benefits of this scheme:\n\n   1. Orphaned and destitute children, or orphaned children living with their next of kin or relatives, whose annual income is less than ₹60,000/- or who are below the poverty line.\n   1. Children will also be considered orphaned and destitute if their mother or father has either passed away or become incapable of raising them due to mental disability, imprisonment, or any other judicial order. However, their eligibility will automatically end once the compelling situation is resolved.\n   1. Children suffering from HIV(+), AIDS, Visible Deformities Grade-II (Leprosy), or children of parents suffering from these diseases.\n\n**Note:** The benefits of this scheme will be granted for one year for the above categories of children aged 0-18 years, and will be automatically renewed each year until the child turns 18, provided no adverse report is received.",
+  "_criteria_filled": 2
+}

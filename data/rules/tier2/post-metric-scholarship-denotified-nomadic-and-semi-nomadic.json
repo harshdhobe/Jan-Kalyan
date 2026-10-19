@@ -1,0 +1,31 @@
+{
+  "id": "post-metric-scholarship-denotified-nomadic-and-semi-nomadic",
+  "name": "Post Metric Scholarship (Denotified, Nomadic and Semi-Nomadic)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Fee Reimbursement for Class 11th: Upto ₹210/-.\n- Fee Reimbursement for Class 12th: Upto ₹1,110/-.\n\n_*The sanctioning authority: determines the full/half fee reimbursement faculty-wise, based on eligibility within the maximum limit._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsdnnsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Denotified, Nomadic, or Semi-Nomadic Community.\n- The applicant should be from a family with an annual income of less than or equal to ₹2,50,000/-.\n- The applicant should be a Student.\n- The applicant should be enrolled in a government institution where the mandatory fees, including prescribed tuition and examination fees, are paid.\n- The applicant should not have failed in any academic year.",
+  "_criteria_filled": 2
+}

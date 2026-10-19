@@ -1,0 +1,36 @@
+{
+  "id": "honble-chief-ministers-merit-scholarship-scheme-sikkim",
+  "name": "Hon’ble Chief Minister’s Merit Scholarship Scheme-Sikkim",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "- **Free Education:** Full waiver of academic fees up to the Graduation level for selected students.- **School Admission:** Admission into reputed public schools empanelled by the HRD Department within and outside the state.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 11
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "school-transfer-certificate-from-class-5th-marksheet-of-5th-class-annual-examina"
+  ],
+  "apply_url": "https://sikkim.gov.in/departments/education-department/scholarships-section",
+  "source_url": "https://www.myscheme.gov.in/schemes/hcmmsss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a local student of Sikkim.\n1. The applicant should be between the ages of 11 to 12.5 years at the time of application.\n1. The applicant should have studied from class 1st to class 5th in a government school in Sikkim.1. The applicant should have secured the 1st rank in the class 5th annual examination.\n**Note:**\n\n- If the first-ranked student does not qualify, the next eligible student in rank will be considered.\n- The eligible candidates must appear for the Selection Test conducted by the Examination Section of HRD Department.",
+  "_criteria_filled": 3
+}

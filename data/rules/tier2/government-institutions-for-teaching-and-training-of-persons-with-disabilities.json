@@ -1,0 +1,41 @@
+{
+  "id": "government-institutions-for-teaching-and-training-of-persons-with-disabilities",
+  "name": "Government Institutions for Teaching and Training of Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Under the scheme, beneficiaries will receive education, pre-professional training, and free hostel facilities in the concerned government institutions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 10
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-certificate-of"
+  ],
+  "apply_url": "https://sw.cg.gov.in/government-institutions-teaching-disabilities",
+  "source_url": "https://www.myscheme.gov.in/schemes/gittpwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n   1. The applicant should have a disability of 40% or more.\n   1. The applicant&amp;#39;s age should be more than 6 years and less than 10 years.\n   1. The monthly income of the applicant&amp;#39;s parents/guardians should be less than ₹8,000/-.",
+  "_criteria_filled": 4
+}

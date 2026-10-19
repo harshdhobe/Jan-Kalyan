@@ -1,0 +1,31 @@
+{
+  "id": "incentive-scheme-in-civil-service-chhattisgarh",
+  "name": "Incentive Scheme in Civil Service (Chhattisgarh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- ₹20,000/- lump sum on passing the Preliminary Examination.\n- ₹30,000/- lump sum on passing the Mains Examination.\n- ₹50,000/- lump sum on selection in Union/Chhattisgarh Public Service Commission.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-disability-certificate-residence-proof-proof-of-passing"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/civil-seva.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isicsch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n1. The applicant should have a disability of 40% or above.\n1. The applicant should have passed the Union or Chhattisgarh Public Service Commission Competitive Examination.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kerala-stressed-msmes-revival-rehabilitation-scheme",
+  "name": "Kerala Stressed MSMEs Revival & Rehabilitation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1.\tEntitlement in the scheme shall be limited to an amount of ₹5 lakhs per applicant unit to be availed as one-time assistance only. \n2.\tAssistance/Relief Available from Government:\na)\t**Restructuring of existing loan account:** If the bank is willing to restructure the existing loan account and extend additional term loan/working capital loan based on the Revival Project recommendations of the Ex",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-em-part-iiuam-copy-of-revival-project-report-a-copy-of-the-sanction-lett",
+    "if-any-proof-of-new-investment",
+    "if-any-copy-of-photo-identity-proof-of-the-promoterpromoters-self-attested-copy",
+    "partnership-deedmemorandum-and-articles-of-associationbylaws-in-case-of-units-ot"
+  ],
+  "apply_url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksmsmerrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tA MSME unit/enterprise which satisfies the following conditions is eligible for the scheme:\n\n  - MSME in the manufacturing category and set up in Kerala state.\n  - Does not come under the Negative List.\n  - Must have filed EM Part-II/UAM.\n  - Must come under the definition of Sick Unit and\n  - Must be Potentially Viable to be revived or restructured based on a definite Revival Project Report.\n\n2.\tFor the purpose of this scheme, an industrial unit eligible for the assistance shall be an independent legal entity.\n&gt; **Obligation of the applicant unit:**\n\n1.\tThe applicant unit shall provide all required details in time and declare such information as to be true.\n2.\tThe applicant unit shall provide clarification if any sought by vyavasaya mithra.\n3.\tThe applicant unit shall utilize the amount received as assistance only in the manner agreed upon.\n4.\tThe applicant units thus revived shall restart within one month of the date of receipt of financial assistance and shall be under obligation to function continuously for a further period of 5 years. Otherwise, the assistance given shall be recovered under the Kerala Revenue Recovery Act.\n5.\tUnits becoming sick on account of willful mismanagement, willful default, unauthorized diversion of funds, dispute among Partners/Promoters, etc. should not be considered for rehabilitation.",
+  "_criteria_filled": 1
+}

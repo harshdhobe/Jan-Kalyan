@@ -1,0 +1,29 @@
+{
+  "id": "antarjatiye-vivah-protsahan-anudan-yojana",
+  "name": "Antarjatiye Vivah Protsahan Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a one-time grant of ₹1,00,000/-.\n\n**Note:** The grant will be provided to the bride.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-bride-groom-latest-photograph-of-the-married-coupl",
+    "voter-id-card",
+    "driving-license-etc-proof-of-age-marriage-certificate-disability-certificate",
+    "if-applicable-income-certificate-caste-certificates-residence-proof-bank-passboo"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/AVPAY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/avpay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bride and groom should be residents of Bihar.\n   1. The marriage should be an inter-caste marriage.\n   1. At the time of marriage, the bride should be at least 18 years old, and the groom should be at least 21 years old.\n   1. The bride and groom should belong to poor families.",
+  "_criteria_filled": 1
+}

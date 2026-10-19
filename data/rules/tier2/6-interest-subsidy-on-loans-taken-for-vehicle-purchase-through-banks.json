@@ -1,0 +1,26 @@
+{
+  "id": "6-interest-subsidy-on-loans-taken-for-vehicle-purchase-through-banks",
+  "name": "6% Interest Subsidy on Loans taken for Vehicle Purchase through Banks",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- 6% interest subsidy on bank loans for vehicle purchase.\n\n- Loan eligibility range: ₹5,00,000 to ₹20,00,000.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bill-of-vehicle-purchase-copy-of-rc-book-loan-approval-letter-bank"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/6isltvpb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of tribal areas in Gujarat.\n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must have taken a bank loan specifically for vehicle purchase.\n\n<br>",
+  "_criteria_filled": 1
+}

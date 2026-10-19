@@ -1,0 +1,29 @@
+{
+  "id": "scheme-for-goa-rajya-vidnyanik-puraskar",
+  "name": "Scheme for Goa Rajya Vidnyanik Puraskar",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Cash prize of ₹2,00,000/- per award.\n- Three awards are given in each financial year.\n- The awards are categorized as one each for Innovation, Environment, and Societal impact.\n- The cash prize shall be directly deposited in the beneficiary’s Bank Account.\n- The scheme is subject to provision in the Annual Budget of the Department of Science and Technology and Waste Management (DS&amp;T &amp; WM",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-applicationsubmission-stagecertificate-from-competent-authority-shall-have-to",
+    "societal-impact",
+    "scope-of-commercialization",
+    "and-ways-in-which-the-innovator-has-inspired-others-at-benefit-disbursal-stagepr"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2223/2223-33-SI-OG-0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgrvp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is designed for Students, Startups, Innovators, Research Faculty, and Scientists. The award is introduced to be given to Goan Innovators/Scientists.\n- The applicant must be a resident of Goa for the last 15 years.\n- The project must relate to hardware or software-based product innovation.\n- The applicant must be required to provide a Letter of Intent (LOI) in case the proposed idea/project is associated with the Industry or the Government.\n- The applicant must be registered under the Virtual Innovation Register (VIR) as a New Idea.\n- The applicant can avail of this scheme only once.\n- The proposals should preferably be in the following focus sectors: _Green technology, Clean energy, Industrially utilizable smart materials, Waste to Wealth, Affordable Healthcare, Water &amp; Sewage Management, Renewable Energy Sources, Electric Vehicles, Smart Cities, Agri-tech, Meditech, Health Care Tech and Digital media, ITES._\n<br>",
+  "_criteria_filled": 1
+}

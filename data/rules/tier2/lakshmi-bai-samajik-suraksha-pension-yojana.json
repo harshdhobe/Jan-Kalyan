@@ -1,0 +1,46 @@
+{
+  "id": "lakshmi-bai-samajik-suraksha-pension-yojana",
+  "name": "Lakshmi Bai Samajik Suraksha Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Financial Assistance of Rs. 300/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "female-aadhaar-card-address-proof-bpl-ration-card-age-certificate-income-certifi"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031763.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbsspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Widow woman must be a resident of Bihar.\n1. The woman should be a widow.\n1. The woman should be living below the poverty line.\n1. The annual income of the woman&#39;s family should be Rs. 60,000/- or less.\n1. The age of the woman should be 18 years or more.",
+  "_criteria_filled": 5
+}

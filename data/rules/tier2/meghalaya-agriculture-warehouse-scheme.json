@@ -1,0 +1,36 @@
+{
+  "id": "meghalaya-agriculture-warehouse-scheme",
+  "name": "Meghalaya Agriculture Warehouse Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "1. 5% of project cost to be contributed by the entrepreneur 75% of project cost provided upfront by Government of Meghalaya as margin money support to the bank remaining 20% via bank loan.\n1. Direct credit linkage with partner banks.\n1. Guidance and handholding in the application process through implementing agencies.\n1. Support in project realization for the warehouse venture.\n1. Training and cap",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-proof-of-address-of-applicant-voter-id-passport-if-available-ration"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%2FU8FbDEslA4NvIlUIvOPL1yfsHv4dP1zrOYJaIKmdl6Id3TtvU3pE7fzrSUjaTxUUEL%20aPTt3jidqc0LMexDXqbArhgvhUW5EpwnO99e51zMgelFra%20FuRgfx7paWD1slHRUltASCN3PjKWRYZg%2F8kkEkwJ7Q5LRjoBw10VacMSoWZ3SVZsy%205cA2xijxRglbTBajjaT57s6RIiLCCnMxiaUYHLEdgwPYWuu9OrmfwbtVB82tLLA64=",
+  "source_url": "https://www.myscheme.gov.in/schemes/maws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Individuals:**\n\n1. The applicant should be between 18 and 58 years of age.\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should have ownership of the land where the warehouse is proposed or leased land for at least the next 10 years.\n1. The applicant should not be a credit defaulter of any bank.\n\n**For Registered Entities:**\n\n1. The applicant should be based in the village where the program is being availed.\n1. The applicant should have an active bank account and submit the bank statement of the last six months.\n1. The applicant should have been in operation for at least two years.\n1. The applicant should possess land, either self-owned or leased, duly verified by the competent authority.\n1. The applicant should not be a credit defaulter of any bank.\n\n<br>",
+  "_criteria_filled": 3
+}

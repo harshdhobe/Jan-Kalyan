@@ -1,0 +1,31 @@
+{
+  "id": "swami-vivekananda-single-girl-child-fellowship-for-research-in-social-sciences",
+  "name": "Swami Vivekananda Single Girl Child Fellowship for Research in Social Sciences",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **Financial Assistance**\n\nThe financial assistance available under the scheme is as follows:\n1.  Fellowship @ ₹25,000/- per month for the Initial two years; @ ₹28,000/- per month for the remaining tenure.\n2.  Contingency @ ₹10,000/- per annum for initial two years; @ ₹20,500/- per annum for remaining tenure.\n3.  Escort Reader Assistance @ ₹2,000/- per month in case of PWD candidates.\n&gt; **Slot",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-identity-proof-of-age-birth-certificate-or-marksheet-of-cl"
+  ],
+  "apply_url": "https://www.ugc.gov.in/pdfnews/1555717_guidelines-SWAMI-Vivekananda.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svsgcfrss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any single girl child of her parents pursuing a Ph.D. in Social Sciences in Universities/Colleges/ Institutes is eligible to apply under the scheme. In a family, if one son and one daughter are available then the girl child will not be considered for fellowship under the scheme.\n2. The scheme is applicable to such a single girl child who has registered herself in regular, full-time Ph. D. program in Social Sciences in Indian Universities/Colleges/Institutes as indicated below:\n\n  - Universities/Colleges/Institutes included under section 2(f) and 12(b) of UGC Act, 1956.\n  - Deemed to be Universities under section 3 of the UGC Act 1956 which are eligible to receive grants in aid from UGC.\n  - Universities/Colleges/Institutes funded by Central/ State Govt.\n  - Institutes of National Importance.\n\n3. Admission to Ph.D. Course in Distance education mode is not covered under the scheme.\n4. Girl students up to the age of 40 years for the general category and 45 years for the reserved categories i.e. SC/ST/OBC and PWD (Persons with Disabilities) as on the last date of submission of online application are eligible.\n5. Transgender candidates are eligible to apply under the scheme as per the norms.",
+  "_criteria_filled": 2
+}

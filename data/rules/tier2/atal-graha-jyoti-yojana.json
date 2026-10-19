@@ -1,0 +1,26 @@
+{
+  "id": "atal-graha-jyoti-yojana",
+  "name": "Atal Graha Jyoti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Reduced Electricity Bills:** Consumers with a monthly consumption of up to 150 units receive a subsidized bill, minimizing their energy expenses.\n&gt; **Note:** The benefit is automatically applied through the billing system for eligible consumers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-address-electricity-bill"
+  ],
+  "apply_url": "https://dhar.nic.in/scheme/%E0%A4%87%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%BE-%E0%A4%97%E0%A5%83%E0%A4%B9-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/",
+  "source_url": "https://www.myscheme.gov.in/schemes/agjy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n  - The applicant must be a domestic consumer with a monthly electricity consumption of up to 150 units.\n  - The applicant must have an approved load of 1 kilowatt for their electricity connection.",
+  "_criteria_filled": 1
+}

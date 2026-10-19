@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-financial-assistance-to-the-publishers-for-publishing-books-of",
+  "name": "Scheme to Provide Financial Assistance to the Publishers for Publishing Books of Goan Authors",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Upto 300 books will be purchased, subject to the condition that the total amount should not exceed ₹ 50,000/-. \n\n**NOTE:** The publisher shall give a minimum 15% discount on the price of the book.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "three-copies-of-the-book-noc-of-the-writer-as-per-enclosed-format-printing-bill"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Goan-Authors-and-Publishers-Form-22-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spfappbga",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any Goan publisher is eligible for the scheme provided the writer of the book is Goan. \n1. The applicant should have substantial experience in publication. \n1. The applicant should publish a minimum of 500 copies of the book for which he wants to avail the financial assistance. \n1. The book could be published by the author himself or published by any other publishing unit provided NOC is issued by the author to the publisher. \n1. The book should contain 100% originality.\n1. The printing and paper of the book should be of good quality &amp; standard. \n\n**NOTE:** The person who has lived in Goa for a minimum of 10 years of his creative lifespan, will be treated as Goan for the purpose of this scheme.",
+  "_criteria_filled": 1
+}

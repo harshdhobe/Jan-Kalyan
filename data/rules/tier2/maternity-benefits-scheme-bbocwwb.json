@@ -1,0 +1,31 @@
+{
+  "id": "maternity-benefits-scheme-bbocwwb",
+  "name": "Maternity Benefits Scheme (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Financial assistance equivalent to 90 days of the minimum wages set by the State Government for unskilled workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-registered-worker-bank-account-details-birth-certificate-pr"
+  ],
+  "apply_url": "https://bocw.bihar.gov.in/Website/SchemeApply.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbsbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be female.\n- The applicant should be registered with the Bihar Building &amp; Other Construction Workers Welfare Board (BBOCWWB).\n- The applicant should have completed at least one year of membership with the Board.\n- The membership must be active at the time of application.\n- The benefits will be provided for the first two childbirths.",
+  "_criteria_filled": 2
+}

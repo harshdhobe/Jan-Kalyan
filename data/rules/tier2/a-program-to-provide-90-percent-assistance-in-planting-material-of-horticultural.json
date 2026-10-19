@@ -1,0 +1,26 @@
+{
+  "id": "a-program-to-provide-90-percent-assistance-in-planting-material-of-horticultural",
+  "name": "A Program to Provide 90 Percent Assistance in Planting Material of Horticultural Fruit Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Farmers receive up to 90% financial assistance on the cost of planting materials.\n> **Pre-fixed assistance rates per hectare for different crops:**\n\n<br>\n\nFruit Assistance Mango₹32,000/haSapota (Chiku)₹22,000/haPomegranate₹20,000/haGuava₹16,650/haAonla (Indian Gooseberry)₹5,560/haMandarin / Orange₹5,560/haBer₹2,780/haCoconut₹13,000/ha<br>\n\n> **Note:**\n\n- Only saplings costing up to ₹250/- per un",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-land-ownership-proof-aadhaar-card-bank-passbook-or-cancelled-che"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptpapmh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be a resident of Gujarat.\n   1. The applicant must purchase planting materials from approved/accredited sources.\n\n<br>",
+  "_criteria_filled": 1
+}

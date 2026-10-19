@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-jan-van-scheme",
+  "name": "Mukhyamantri Jan-Van Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "> **Incentive Amount Payable to Beneficiaries:**\n\n**If the beneficiary plants the trees themselves, they&#39;ll receive the following amount**\n**Plan Year****Incentive Payable Per Plant****Incentive Payable Per Plant****Wood Species****Fruitful**First Year (Two Parts)52.67 (1st Installments - 42.14 &amp;amp;amp;amp; 2nd Installments - 10.53)165.90 (1st Installments - 132.72 &amp;amp;amp;amp; 2nd I",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-cancel-cheque-land-ownership-proof-circle-officers-report-aa"
+  ],
+  "apply_url": "https://janvan.jharkhand.gov.in/doc/MUKHYAMANTRI-JAN-WAN-YOJNA14X21.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmjvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n1. The landowners with verifiable land records (minimum 0.5 acres, maximum 50 acres).\n1. Individual or joint farmers are eligible for this scheme. \n\n<br>",
+  "_criteria_filled": 1
+}

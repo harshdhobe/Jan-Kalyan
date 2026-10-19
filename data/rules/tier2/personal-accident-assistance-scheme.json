@@ -1,0 +1,34 @@
+{
+  "id": "personal-accident-assistance-scheme",
+  "name": "Personal Accident Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the Mandi Act of Uttarakhand, farmers, agricultural labourers, and Mandi labourers working in Mandi areas regulated by the state, who are engaged in agricultural activities or the operation of agricultural equipment such as power equipment, digging or deepening wells and ponds for irrigation, using tractors for threshing or transporting produce, or performing other fieldwork are covered unde",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "accident-report-claim-form-fully-completed-and-signed-by-the-applicant",
+    "including-thumbfingerprint-impression-as-applicable-certification-by-authorities",
+    "all-entriessignaturesthumb-impressions-must-be-certified-by-the-secretarychairma",
+    "if-applicable-medical-certificate-for-injury-or-accident-claims-two-color-photog"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/paas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be at least 18 years of age to be eligible to claim compensation.\n\n<br>",
+  "_criteria_filled": 2
+}

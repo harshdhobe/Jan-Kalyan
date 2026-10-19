@@ -1,0 +1,27 @@
+{
+  "id": "special-livestock-insurance-scheme",
+  "name": "Special Livestock Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. **Free Insurance Coverage:** For livestock owned by Scheduled Caste families, ensuring financial protection in case of animal loss.1. **Employment Support:** Covers livestock units established under the “Scheme for Providing Employment Opportunities to Scheduled Castes (SCSP).”1. **Wide Coverage:** Includes dairy, piggery, sheep, goat units, milch buffalo, cattle, pack animals, and camels.1. **",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-scheduled-caste-status-livestock-ownership-documents-eg",
+    "purchase-receipt-or-ownership-affidavit-health-certificate-issued-by-a-designate"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/sites/default/files/documents/Schemes_17-18/6%20Special%20Livestock%20Insurance%20Scheme%20(SCSP)%20for%20the%20year.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/slisc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from a Scheduled Caste family.\n1. The livestock of the applicant should include milch buffaloes, milch cattle, sheep, goats, pigs, pack animals, or camels.\n1. The animals must be owned by the applicant.\n1. The animals should be reared within the State.\n\n_*Livestock units established under the “Scheme for Providing Employment Opportunities to Scheduled Castes” are automatically eligible._",
+  "_criteria_filled": 1
+}

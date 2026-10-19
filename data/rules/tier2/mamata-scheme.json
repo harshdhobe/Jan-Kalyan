@@ -1,0 +1,38 @@
+{
+  "id": "mamata-scheme",
+  "name": "Mamata Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- Rs.3,000 shall be given during the third trimester of the pregnancy of the mother till delivery on completing the following 5 conditions:\n\n   1. Pregnancy registered at AWC/Mini AWC\n   1. Received at least 2 antenatal checkup (ANC)\n   1. Received IFA and calcium tablets.\n   1. Received at least 1 TT vaccination (out of optimal 2)\n   1. Received at least 1 counselling session at AWC/Village Healt",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-any-1-of-the-following-aadhar-card-voter-id-passport-pan-card",
+    "water",
+    "gas-rent-agreement-or-property-tax-receipt-proof-of-pregnancy-medical-certificat"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/sites/default/files/2022-09/Mamata%20Guidelines-English.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mamata",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Odisha.\n   1. The scheme is primarily aimed at pregnant women. \n   1. Pregnant &amp;amp; Lactating women of 19 years of age and above for the first two live births, except all Government/Public Sector Undertakings (Central and State) employees and their wives will be covered.",
+  "_criteria_filled": 3
+}

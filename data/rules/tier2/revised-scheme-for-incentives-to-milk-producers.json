@@ -1,0 +1,31 @@
+{
+  "id": "revised-scheme-for-incentives-to-milk-producers",
+  "name": "Revised Scheme For Incentives To Milk Producers",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- A composite subsidy amounting to 40% (forty percent) of the proceeds of milk supplied to the Dairy Co-operative Society/Bachat Gat/Self Help Group.\n- Incentive on milk: 32.28% (thirty-two point two eight percent).\n- Incentive on cattle feed: 7.72% (seven point seven two percent).\n- The scheme is linked to the cattle feed subsidy scheme.\n\n##### ***Disbursement***\n\n- Monthly disbursement of benefi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "unique-identification-uid-card-evidence-of-membership-to-a-registered-dairy-co-o",
+    "as-an-agriculturist-under-the-agricultural-database-proof-of-bona-fide-residency",
+    "state-of-lactation",
+    "milk-yield",
+    "date-of-calving",
+    "and-address-of-cowshed-where-located"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2020/07/Revised-Schemes-For-Incentives-To-Milk-Producers.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsimp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a farmer from Goa.\nThe applicant must be a bona fide resident of Goa for at least the preceding five years.\nThe applicant must be a member of the Dairy Co-operative Society/Bachat Gat/Self Help Group registered with the Department of Animal Husbandry &amp; Veterinary Services.\nThe applicant must register their Dairy Farm with the Department of Animal Husbandry &amp; Veterinary Services through the respective Veterinary Dispensary/Hospital.\nThe applicant must own a cattle shed with milch animals.\nThe applicant must produce their own milk (and not procure milk from others then pour it to the group/society in their name).\nThe applicant must be mandatorily registered with the Agricultural Department, as an Agriculturist under the Agricultural Database.\n<br>",
+  "_criteria_filled": 1
+}

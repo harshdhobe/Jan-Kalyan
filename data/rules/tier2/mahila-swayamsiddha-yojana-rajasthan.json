@@ -1,0 +1,26 @@
+{
+  "id": "mahila-swayamsiddha-yojana-rajasthan",
+  "name": "Mahila Swayamsiddha Yojana Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "***The non-governmental organization provides grant funds by the state government as per the regulations:***\n**S.NO.****Details of Position/Expense****Number of Positions****Monthly Expenses****Annual Expenses**1 (A)Doctor (part-time)01₹3,000/-₹36,000/-2 (A)Craft Teacher02₹10,000/-₹1,20,000/-**Total (A)****₹13,000/-****₹1,56,000/-**1 (B)Other Recurring Expenses                       For the purcha",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-organization-inspection-report-from-the-concerne"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=344",
+  "source_url": "https://www.myscheme.gov.in/schemes/msyr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered voluntary organization, trust, or NGO.\n1. The organization must be operational for at least three years before applying.\n1. The organization should be non-profit and focused on women’s welfare.\n1. The organization must have a formally structured administrative and management committee.\n1. The organization should not be blacklisted or penalized by any government department.",
+  "_criteria_filled": 1
+}

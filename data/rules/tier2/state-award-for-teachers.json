@@ -1,0 +1,33 @@
+{
+  "id": "state-award-for-teachers",
+  "name": "State Award for Teachers",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Monetary Award**\n\n- Amount: ₹100,000 per awardee\n- Total awards: 10\n\n**Additional Benefits**\nCitation\n<br>\n\n**Distribution of Awards**\n\n- Primary Teachers: 2 awards (one per district)\n- Secondary Teachers: 4 awards (two per district)\n- High School Headmasters: 2 awards (one per district)\n- Higher Secondary Teachers: 1 award (state-level)\n- Higher Secondary Principal: 1 award (state-level)\n\n<br>\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-portfolio-the-portfolio-shall-include-relevant-supporting-material",
+    "tools",
+    "reports-of-activities",
+    "field-visits",
+    "photographs",
+    "audio",
+    "videos",
+    "etc-qualification-certificates-official-id-address-proof-experience-certificates"
+  ],
+  "apply_url": "https://education.goa.gov.in/sites/default/files/2021-10/State-Awards-to-Teachers-2021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. School teachers, special educators, and Heads of Schools working in recognized government or aided primary/middle/high, and secondary schools. In-service teachers shall have to fulfil the required academic and professional qualifications as per cadre for the State Award to Teachers.\n1. The retired Teachers are not eligible for State awards. In-service teachers shall have to complete at least 5 years of regular teaching service as of 30th June 2019 after probation in the State of Goa only and are eligible for the State Award to Teachers.\n1. Those teachers who are due for retirement for the year to which the State Awards relate are not eligible for State Awards to Teachers.\n1. In case, no sufficient, suitable and eligible teacher/ Head of the Institution/Special Educator is available in that particular category, then it shall not be binding on the government to grant an award.\n1. The teacher/Head of School should not have indulged in tuition.\n1. Only regular Teachers and Heads of Schools will be eligible.\n1. Contractual Teachers, Para teachers, part-time instructors and NSQF instructors will not be eligible.\n1. There shall be no vigilance /criminal case pending against the applicant.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "meghalaya-agriculture-response-vehicle-scheme",
+  "name": "Meghalaya Agriculture Response Vehicle Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "1. 50% of project cost supported (5% by applicant, 45% by Government of Meghalaya)\n   1. 5% EMI co-payment support for 12 months\n   1. Credit linkage through partnered banks (MRB, MCAB, SBI, SCUB)\n   1. Additional 3% annual interest subvention on reefer trucks with Aadhaar linkage\n   1. Pre-fitted GPS device with 5-year warranty\n   1. Branding cost of vehicle borne by the Government\n   1. Capacity",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-latest-bank-statement-last-1-year-commercial-driving-license-proof-o"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%2FiDI2ToJ0uf83IWobtncN0yh2FINBAsc96B%2FgfN6Lwlhck1pRa5XC5HiDjpXYK3j%2FU5FnvfTVLoaTQp90e28mflewai0Y5itrPdjBW5w1EqK4myrgbNSWb5kqa%20KIxMuHB39AuslSHJawbSGQmomdR3NCYbLaRbmXkegfTo7w96BlS5KyNbOhKXHL8SgHwoNWqXWssn%2F65I%20xerWKuWHHlYv%2Fb%2F4J94jN87ME2KI%20F%20aE%20g2hG3z5n=",
+  "source_url": "https://www.myscheme.gov.in/schemes/marvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Individuals**\n\n   1. The applicant must be between 18 and 58 years of age.\n   1. The applicant must have a valid commercial driving license.\n   1. The applicant must be a permanent resident of Meghalaya.\n   1. The applicant must be involved in the agriculture sector for at least two years.\n   1. A certification letter from the Block Development Officer (BDO) is required as proof of agricultural involvement.\n   1. The applicant should not be a loan defaulter with any bank.\n\n**Registered Entities**\n\n   1. The applicant must be a registered entity such as a Cooperative, Farmer Producer Company (FPC), or Farmer Producer Organisation (FPO) under the Government of Meghalaya.\n   1. The entity must be engaged in the agriculture sector for at least two years.\n   1. A certification letter from the Block Development Officer (BDO) must be provided as proof of agricultural involvement.\n   1. The entity should not have availed benefits under the first phase of the PRIME Agriculture Response Vehicle Scheme.\n   1. The applicant must submit an Incorporation Certificate or Registration Certificate, as applicable.\n   1. At least two members of the entity must have a training certificate in the relevant sector from a recognized institution (preferably a government institute).\n   1. The entity should not be a loan defaulter with any bank.\n\n**Unregistered Entities**\n\n   1. Any unregistered entity such as village organizations, self-help groups, producer groups, or other traditional institutions based in Meghalaya can apply.\n   1. The entity must be involved in the agriculture sector for at least two years.\n   1. A certification letter from the Block Development Officer (BDO) must be provided as proof.\n   1. The entity should not be a defaulter with any financial institution.\n   1. The entity should not have availed benefits under the first phase of the PRIME Agriculture Response Vehicle Scheme.\n\n<br>",
+  "_criteria_filled": 3
+}

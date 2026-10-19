@@ -1,0 +1,36 @@
+{
+  "id": "swahid-dayal-das-panika-swaniyojan-achoni",
+  "name": "Swahid Dayal Das Panika Swaniyojan Achoni",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- Financial assistance to the self-employed youths belonging to the Tea Tribes and Adivasi community in Assam.\n- The financial assistance is intended to encourage and initiate self-employment activities and enhance the capabilities of the beneficiaries.\n\n***Conditions***\n\n- _The applicant must not have availed such benefit during the last three years._\n- _Only one applicant per family shall be sel",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-maximum-50-kb-in-jpgjpeg-format-signature-maximum-20-kb-in-j"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sddpsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to Tea Tribes and Adivasi community.\n- The applicant shall be between 20 to 35 years of age, as on 1st January of the year of application.\n- The applicant must be a self-employed youth.\n- The applicant must have less than 10 bighas of land in the name of his family.\n\n##### ***Preference***\n\n- Candidates who have successfully completed at least 3 months skills training in the trade shall be given preference.\n- Physically Handicapped candidates may also apply and shall be given due weight-age as per Government norms.\n\n<br>",
+  "_criteria_filled": 3
+}

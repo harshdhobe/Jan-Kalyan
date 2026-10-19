@@ -1,0 +1,47 @@
+{
+  "id": "old-age-samman-allowance",
+  "name": "Old Age Samman Allowance",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Pension of ₹3,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-any-one-of-the-followingbirth-certificate-issued-by-municipal-committe",
+    "8th-class",
+    "or-10th-class-voter-card-issued-by-election-department",
+    "haryana-name-of-the-applicant-in-the-voters-list-showing-a-photograph-issued-by",
+    "haryana-note-if-none-of-the-above-documents-are-available",
+    "the-applicant-must-visit-the-district-social-welfare-officer-dswo-office-and-wri",
+    "issued-prior-to-15-yearsration-card-issued-by-food-supplies-department",
+    "haryana-voter-card-issued-by-election-department",
+    "haryana-name-of-the-applicant-in-the-voters-list-showing-a-photograph-issued-by",
+    "haryana-if-none-of-the-above-documents-are-available",
+    "the-applicant-must-provide-a-self-declaration-document-along-with-any-other-docu",
+    "which-will-be-verified-by-the-district-social-welfare-officer-other-documentsaad"
+  ],
+  "apply_url": "https://pension.socialjusticehry.gov.in/form_and_proc",
+  "source_url": "https://www.myscheme.gov.in/schemes/oasas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 60 years or above in age.\n1. The applicant should be domiciled in and a resident of Haryana. \n1. The income of the applicant, from all sources, including that of their spouse, should not exceed ₹3,00,000/- per annum.",
+  "_criteria_filled": 3
+}

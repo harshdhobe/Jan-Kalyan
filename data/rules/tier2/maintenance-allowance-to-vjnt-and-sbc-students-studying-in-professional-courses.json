@@ -1,0 +1,27 @@
+{
+  "id": "maintenance-allowance-to-vjnt-and-sbc-students-studying-in-professional-courses",
+  "name": "Maintenance Allowance To VJNT And SBC Students Studying In Professional Courses And Living In Hostel Attached To Professional Colleges",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1. Professional courses are divided into A, B, and C categories and accordingly, maintenance allowance is given to the students through the concerned Principal of the college.\n1. For 4 to 5 years course (Medical, Engineering, Agriculture, etc.) Rs. 700/- per month, for 2 to 3 years course (Engineering Dip., M.B.A, M.S.W, etc.) Rs. 500/- and for 2 years and lesser duration courses (B.Ed., D.Ed.) Rs",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-domicile-certificate-of-maharashtra-caste-certificate-vjnt-or-sbc",
+    "not-below-the-rank-of-tehsildar-family-income-certificate-marksheet-of-the-lates"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=1",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmavssspc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students should belong to VJNT or SBC category.\n1. Students should be studying in professional courses such as Medical, Engineering, Animal Husbandry, etc.\n1. Students should submit an Application form for admission in Govt. Hostel.\n1. Students should have been admitted to the hostels attached to professional colleges or approved private hostels.",
+  "_criteria_filled": 1
+}

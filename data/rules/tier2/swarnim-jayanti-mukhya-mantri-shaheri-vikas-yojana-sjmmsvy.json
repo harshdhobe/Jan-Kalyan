@@ -1,0 +1,26 @@
+{
+  "id": "swarnim-jayanti-mukhya-mantri-shaheri-vikas-yojana-sjmmsvy",
+  "name": "Swarnim Jayanti Mukhya Mantri Shaheri Vikas Yojana (SJMMSVY)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Daily Access to Clean Drinking Water:** Ensures households receive potable water through the &amp;quot;Nal Se Jal&amp;quot; initiative.  - **Efficient Waste Management:** Provides safe disposal of wastewater through underground drainage systems.  - **Enhanced Urban Sanitation:** Establishes Sewage Treatment Plants (STPs) to improve environmental hygiene.  - **Promotion of Renewable Energy:** R",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "project-proposal-documents-for-municipalitiescorporations-budget-estimates-and-f"
+  ],
+  "apply_url": "https://gudm.gujarat.gov.in/sjmmsvy-state-funded.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjmmsvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a recognized municipality, municipal corporation, or urban/area development authority within Gujarat.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

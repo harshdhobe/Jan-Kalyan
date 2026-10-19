@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-funeral-and-other-activities-in-case-of-death-of-a-work",
+  "name": "Financial Assistance for funeral and other activities in case of death of a worker's - Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Financial assistance of ₹15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-employer-certificate-employee-wages-slip-previous-month-death-cer",
+    "and-earlier-heshe-has-not-availed-of-the-said-scheme-bank-account-details-any-ot"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=yC+jK2Ks/HzUCGSq8jBy9w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafoahr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be fully dependent on the deceased worker.\n1. The deceased worker should have been registered with the Haryana Labour Welfare Board.\n1. The deceased worker should have had an active membership under the Haryana Labour Welfare Board at the time of death.\n1. The applicant should not have previously availed benefits under this scheme.\n1. There is no minimum service period or ceiling required under this scheme.\n1. The application should be submitted within two years from the date of the worker’s death.",
+  "_criteria_filled": 1
+}

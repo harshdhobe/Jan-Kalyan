@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-kaushal-unnayan-and-vaishvik-rojgar-yojana",
+  "name": "Mukhyamantri Kaushal Unnayan and Vaishvik Rojgar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, youth of Uttarakhand are provided with skill upgradation training in various domains such as language, culture, work ethics, nursing, and hospitality, along with country-specific training. \n  - The training is provided as per the demand of foreign employers to enable the youth to secure suitable service and job opportunities abroad.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-permanent-residence-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkuevry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a youth of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

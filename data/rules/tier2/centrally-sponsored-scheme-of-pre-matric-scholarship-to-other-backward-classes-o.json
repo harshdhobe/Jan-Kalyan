@@ -1,0 +1,26 @@
+{
+  "id": "centrally-sponsored-scheme-of-pre-matric-scholarship-to-other-backward-classes-o",
+  "name": "Centrally Sponsored Scheme of Pre-matric Scholarship to Other Backward Classes (OBC) for Studies in India",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Scholarship**\n\n1. Hostellers: Class 3rd to 10th: ₹ 500/- per month for 10 months.\n1. Day Scholars: Class 1st to 10th: ₹ 100/- per month for 10 months.\n\n> **Ad-Hoc Grant**\n\n1. An ad-hoc grant of ₹ 500/- per student per annum to all students i.e. hostlers as well as day scholars will also be given.\n\n<br>\n\nThe scholarship amount will be payable from the date of joining to the date of leaving the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-number-proof-of-educational-qualification-bona"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/dadra_Pre-Matric%20Scholarship%20for%20OBC%20students.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csspremsobcsi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scholarship award will be sanctioned in the case of students whose parents/guardians&#39; income from all sources does not exceed ₹ 2,50,000/- per annum.\n1. The scholarship will be tenable only in such institutions and for such pre-matriculation courses, which have been duly recognized by the concerned State Government and Union Territory Administrations.\n1. Regular attendance records of not less than 60% in the previous year should be a pre-requisite for availing scholarship.\n1. The scholar obtaining benefits under this scheme shall not be allowed to avail of benefits under any other pre-matric scholarship scheme.\n\n<br>\n\n**Reservation/ Relaxation/ Preference/ Priority**\n\n1. 30% of the beneficiaries should be reserved for girl students.\n1. At least 5% of students with disabilities should be covered by grants or scholarships.",
+  "_criteria_filled": 1
+}

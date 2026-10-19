@@ -1,0 +1,30 @@
+{
+  "id": "technology-fellowship-and-patent-promotion-scheme",
+  "name": "Technology Fellowship and Patent Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A technology fellowship program will run to identify technology educators in technical educational institutes in Goa who are keen to further their expertise in the following areas: Internet of Things, Artificial Intelligence, Machine Learning, Interaction Design, Big Data Analytics, Robotics, 3-D Printing, Data Science, Drones, Virtual Reality/Augmented Reality/Merged Reality, Others (subject to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-cv-of-the-applicant-comprising-of-publication-details",
+    "working-paper-details",
+    "award-details",
+    "grant-details-2-acceptance-letter-to-the-program-3-research-proposal-with-market",
+    "copy-of-certificate-of-registration-9-bond-annexure-2"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tfapps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a technology educator in a technical educational institute in Goa.",
+  "_criteria_filled": 1
+}

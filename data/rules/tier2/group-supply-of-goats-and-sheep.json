@@ -1,0 +1,31 @@
+{
+  "id": "group-supply-of-goats-and-sheep",
+  "name": "Group Supply Of Goats And Sheep",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "1.\tUnder this scheme, a group of 10 goats and 1 buck are provided to tribal beneficiaries on 50 percent subsidy. The price of the group is decided according to the prevailing rates of NABARD.\n2.\tSupply of goat Units:- Under this scheme To increase the income source\n& to create employment in tribal areas to farmers/ beneficiaries. The goat\nunits are provided to them. In year 2018-19 under this sche",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-caste-certificate-3-income-certificate"
+  ],
+  "apply_url": "https://tribal.maharashtra.gov.in/1028/Schemes-and-Programs?MenuID=1107",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsgos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tBeneficiary should belong to Scheduled Tribe.\n2.\tBeneficiary should be below poverty line.",
+  "_criteria_filled": 2
+}

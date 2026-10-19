@@ -1,0 +1,35 @@
+{
+  "id": "bharati-scheme-for-masters-degree-overseas",
+  "name": "Bharati Scheme for Master’s Degree Overseas",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- Any course being pursued abroad with a duration of 11 to 18 months: ₹5,00,000/-.\n- Master’s Degree Programme being pursued abroad with a minimum of 18 months duration: ₹10,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-cards-of-the-student-caste-certificate-of-the-student-income-certificate",
+    "in-case-of-final-year-pec-course-abroad-passport",
+    "visa",
+    "air-ticket",
+    "and-form-i20-or-equivalent-in-one-pdf"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/overseast2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsmdo",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student and his/her parents should belong to the Brahmin community.  \n1. The student&#39;s parents should reside in Andhra Pradesh. \n1. The annual income of parents/guardians should not exceed ₹6,00,000/-.\n1. The student should have been admitted in any master&#39;s degree course overseas (at least 12 months duration) in a reputed institution, during the years 2019-20 Or should be pursuing the final year of the PEC course overseas, in collaboration with the Indian university/institute.  \n1. The student who has already availed benefit earlier will not be eligible. \n1. The student should not have availed himself/ herself of any amount from any other government scheme for the same purpose.",
+  "_criteria_filled": 2
+}

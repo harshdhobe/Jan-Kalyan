@@ -1,0 +1,39 @@
+{
+  "id": "pension-plan-mbocwwb",
+  "name": "Pension Plan (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the registered worker who has been working as a building worker for not less than one year shall receive an amount of ₹1,000/- per mensem as pension.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "enclosures-required-for-new-registration-under-mbocwwbphotograph-of-the-worker-i",
+    "ration-card",
+    "drivers-license",
+    "aadhaar-card",
+    "passport-are-acceptable-employer-certificateself-certification-issued-either-by",
+    "if-any-age-proof-of-concerned-building-workerapplicant-ie-school-certificate",
+    "certificate-from-the-registrar-of-birth-and-deaths",
+    "certificate-from-the-medical-officer-not-below-the-rank-of-an-assistant-surgeon",
+    "electoral-photo-identity-card-nomination-form-duly-signed-by-the-applicant-self"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppmbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe beneficiary should be a resident of Meghalaya.\n2.\tThe beneficiary should be engaged in a building or other construction work.\n3.\tThe beneficiary should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n4.\tThe registered workers who have been working as building workers for not less than one year shall be eligible to receive pension benefits under the scheme.\n5.\tThe registered worker shall become eligible to avail pension benefits upon attaining the age of 60 years.",
+  "_criteria_filled": 2
+}

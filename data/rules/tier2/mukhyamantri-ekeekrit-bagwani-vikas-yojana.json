@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-ekeekrit-bagwani-vikas-yojana",
+  "name": "Mukhyamantri Ekeekrit Bagwani Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, the following assistance is provided:\n\n  - 50% subsidy on the cost of fruit plants, open-field vegetable seeds, spice seeds, and flower seeds. No direct monetary assistance is provided; the seeds and plants are supplied at a subsidized rate.\n  - 60% subsidy on the cost of pesticides and other plant protection chemicals. No direct cash is given; the medicines are provided at a su",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-related-documents-such-as-khasra-and-khatauni-lease-certificate-for-leased"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mebvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer and hold a valid Udhyan Card.\n1. The farmer must either own agricultural land or have land on lease.\n\n<br>",
+  "_criteria_filled": 1
+}

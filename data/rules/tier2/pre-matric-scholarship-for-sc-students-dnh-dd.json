@@ -1,0 +1,31 @@
+{
+  "id": "pre-matric-scholarship-for-sc-students-dnh-dd",
+  "name": "Pre Matric Scholarship for SC students- DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. Financial support for SC students studying in Std. IX and X.\n1. ₹3,500/- per annum assistance for day scholars.\n1. ₹7,000/- per annum assistance for hostellers.\n1. Additional 10% allowance for Divyang students.\n1. Encourages continuation of education among economically weaker students.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-scheduled-caste-certificate-income-certificate-domicile-certificate"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/premsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Union Territory of Dadra &amp; Nagar Haveli and Daman &amp; Diu.\n1. The applicant should be studying in Class IX or Class X.\n1. The applicant should belong to the Scheduled Caste category.\n1. The applicant&#39;s parents&#39; or guardian&#39;s annual income from all sources should not exceed ₹2,50,000/-.\n1. The applicant should possess a UT domicile certificate.\n1. The applicant must study in a recognised school with a valid UDISE code.\n1. The applicant must be divyang students are eligible for an additional 10% allowance.\n\n<br>",
+  "_criteria_filled": 2
+}

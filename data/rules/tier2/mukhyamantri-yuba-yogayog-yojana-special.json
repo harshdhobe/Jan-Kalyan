@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-yuba-yogayog-yojana-special",
+  "name": "Mukhyamantri Yuba Yogayog Yojana-Special",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "1. Eligible students receive a grant of ₹5,000/- or the cost of the phone, whichever is lower, for the purchase of a smartphone.\n\n<br>\n\n> **Mode of Disbursement:** The grant is credited directly to the eligible applicant&#39;s registered bank account using the Direct Benefit Transfer (DBT) mode.\n\n> **Expected Time of Disbursement:** The payment processing by the State Level Authority is expected t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "applicant-photograph-image-format",
+    "up-to-2-mb-valid-gst-invoice-of-the-mobile-phone-invoice-date-must-not-be-before",
+    "2022-final-yearsemester-marksheet-pdf-format",
+    "up-to-2-mb-applicant-bank-passbook-or-bank-account-document-pdf-format",
+    "up-to-2-mb-ration-card-pdf-format",
+    "up-to-2-mb"
+  ],
+  "apply_url": "https://www.nita.ac.in/Student_Notifications/Scholarship/MYYY_Special_AY2022-2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/myyyt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to Tripura and be registered in a Tripura Ration Card.\n1. The applicant must have pursued a final year undergraduate degree course during the academic year 2022-23.\n1. The course must have been from a Government College/Institute/University in Tripura.\n1. The phone must be purchased on or after July 1, 2022.\n1. The phone must be purchased in the name of the applicant or their parents.\n1. The applicant must have passed the previous academic year or semester before the final year.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation-assistance-for-skill-development",
+  "name": "Scheme for assistance for Start Ups/ Innovation: Assistance for Skill Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Startups can receive up to ₹1,00,000/- for skill development training programs on a reimbursement basis.  - **Skill Enhancement:** Focused training to improve soft skills, managerial skills, marketing skills, and financing skills.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "informative-document-of-the-training-program-brochure",
+    "leaflet",
+    "letter-from-host-organization-etc-receipt-of-fees-paid-for-participating-in-the",
+    "clearly-indicating-name-of-the-participants-founderco-founders-of-startup-undert"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/13-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfasisd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n  - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n&gt; **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.",
+  "_criteria_filled": 1
+}

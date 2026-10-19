@@ -1,0 +1,26 @@
+{
+  "id": "grant-for-incubation-centers-within-educational-institutes-scheme",
+  "name": "Grant for Incubation Centers within Educational Institutes Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. All educational institutes in Goa, affiliated with a recognized public university, can avail of a one-time grant of up to ₹ 10,00,000 towards capital expenses, for setting up of an incubator within their institute campuses. \n1. The educational institutes with existing incubation facilities can also avail of the grant for capital expenses for further expansion of incubation facilities. \n1. The m",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-plan-expenditure-of-proposed-expenses-2-the-form-and-documents-as-ment"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/giceis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All the educational institutes in Goa, affiliated with a recognized public university are eligible to apply for this scheme.",
+  "_criteria_filled": 1
+}

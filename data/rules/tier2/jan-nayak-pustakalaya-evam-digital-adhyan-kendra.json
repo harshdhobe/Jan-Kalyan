@@ -1,0 +1,29 @@
+{
+  "id": "jan-nayak-pustakalaya-evam-digital-adhyan-kendra",
+  "name": "Jan Nayak Pustakalaya evam Digital Adhyan Kendra",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "The scheme provides students with access to quality study materials, digital learning, and expert guidance to enhance their academic and competitive exam preparation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "since-the-scheme-jan-nayak-pustakalaya-digital-learning-centre-by-the-bc-ebc-wel",
+    "government-of-bihar",
+    "does-not-require-any-formal-registration-or-application-process",
+    "no-documents-are-required-to-be-submitted-by-the-student"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/cache/41/08-Apr-25/SHOW_DOCS/New%20Booklet.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jnpedak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n1. The applicant should belong to the Other Backward Class (OBC) or Extremely Backward Class (EBC) category.\n1. The applicant should be residing in a Jannayak Karpoori Thakur Hostel or other OBC/EBC welfare hostel in Bihar.",
+  "_criteria_filled": 1
+}

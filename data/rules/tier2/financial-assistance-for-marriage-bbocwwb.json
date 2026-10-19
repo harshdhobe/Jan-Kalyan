@@ -1,0 +1,30 @@
+{
+  "id": "financial-assistance-for-marriage-bbocwwb",
+  "name": "Financial Assistance for Marriage (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, registered male or female workers receive financial assistance of ₹50,000/- for the marriage of their two adult daughters and for the marriage of the female member herself.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-worker-ie-aadhaar-card-identity-proof-of-daughter",
+    "in-case-marriage-of-daughter-photo-of-the-daughter-along-with-the-applicant-or-p",
+    "in-case-marriage-of-the-daughter-proof-of-marriage-photo",
+    "invitation-card",
+    "certificate-issued-by-the-registrar-etc-proof-of-residence-ration-card-bank-acco"
+  ],
+  "apply_url": "https://bocw.bihar.gov.in/Website/SchemeApply.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fambbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in building or construction work.\n   1. The worker should be registered with the Bihar Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The worker should have maintained continuous membership with the Board for at least three years.\n   1. The worker&amp;#39;s membership should be active at the time of application.\n   1. Both male and female registered workers can avail benefits for the marriage of their two adult daughters, while female workers are also eligible for assistance for their own marriage.\n   1. Workers who remarry are not eligible for this scheme.\n\nNote: This financial assistance is in addition to benefits provided under the “Antarjatiye Vivah Protsahan Anudan Yojana”.",
+  "_criteria_filled": 1
+}

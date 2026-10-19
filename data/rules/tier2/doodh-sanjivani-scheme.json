@@ -1,0 +1,29 @@
+{
+  "id": "doodh-sanjivani-scheme",
+  "name": "Doodh Sanjivani Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Nutritional Support for Children:** 100 ml of fortified flavored milk is provided 5 days a week to children aged 6 months to 6 years.  - **Nutritional Support for Mothers:** 200 ml of fortified flavored milk is provided 2 days a week to pregnant and lactating mothers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "birth-proof-for-child-identity-proof-eg",
+    "aadhaar-card",
+    "ration-card-pregnancy-proof-for-pregnant-mothers-eg",
+    "medical-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=237",
+  "source_url": "https://www.myscheme.gov.in/schemes/dssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a child aged 6 months to 6 years or a pregnant or lactating mother.\n  - The applicant must be registered at an Anganwadi center.\n\n<br>",
+  "_criteria_filled": 1
+}

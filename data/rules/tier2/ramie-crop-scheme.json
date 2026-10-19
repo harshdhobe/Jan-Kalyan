@@ -1,0 +1,26 @@
+{
+  "id": "ramie-crop-scheme",
+  "name": "Ramie Crop Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\n- To provide planting materials, degumming, and decorticating machines to the farmers.\n\n> **Type of Assistance And Entitlement (If any):**\n\n- Quality planting materials, organic manure, bio-pesticides at subsidised rate and farmers&#39; training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-documents-proof-of-having-sufficient-ava"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=78",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.",
+  "_criteria_filled": 1
+}

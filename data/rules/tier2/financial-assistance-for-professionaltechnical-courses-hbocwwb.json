@@ -1,0 +1,34 @@
+{
+  "id": "financial-assistance-for-professionaltechnical-courses-hbocwwb",
+  "name": "Financial Assistance for Professional/Technical Courses (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, the full educational expenses of the children of registered workers in professional/technical courses are reimbursed by the Board in the following manner:\n**Sl. No.****Professional/Technical Courses****Amount to be paid**1Degree/Diploma viz. Medicine, Engineering, Management, MCA, Law, Fashion Designing, etc. in all Government/Private Institutions/ Colleges/Universities etc.    ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r",
+    "assistant-labor-commissioner",
+    "tehsildar",
+    "naib-tehsildar",
+    "deeo",
+    "deo",
+    "beeo",
+    "beo"
+  ],
+  "apply_url": "https://hrylabour.gov.in/login/bocw",
+  "source_url": "https://www.myscheme.gov.in/schemes/faptchbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/worker should be engaged in building or construction work.\n   1. The applicant/worker should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker should have a minimum of one year of regular membership.\n   1. The worker should have an active membership with the Board.\n   1. The children of registered workers who are pursuing regular technical/professional courses are eligible for benefits under this scheme.\n   1. Financial assistance for education will be available for up to three children per worker.",
+  "_criteria_filled": 1
+}

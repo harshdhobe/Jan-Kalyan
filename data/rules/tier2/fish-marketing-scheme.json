@@ -1,0 +1,26 @@
+{
+  "id": "fish-marketing-scheme",
+  "name": "Fish Marketing Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- A 60% subsidy or up to ₹3,60,000/- for purchasing four-wheeler transport vans for fisheries cooperative societies.\n- Up to ₹1,00,000/- subsidy for setting up aquarium shops with necessary equipment.\n\n<br>\n\n**NOTE:** Assistance provided through DBT (Direct Benefit Transfer) into the beneficiary&#39;s Escrow Account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "membership-proof-of-fisheries-cooperative-society-training-certificate-for-aquar"
+  ],
+  "apply_url": "https://jharkhandfisheries.org/orders/2023/Rajyadesh-%20Matsya%20Vipanan%20Yojana-%20letter%20no.%2011%20RA%20(VI)%20dated%2016.06.2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a member of a registered fisheries cooperative society.\n1. The applicant should be involved in fish marketing or seed transportation.\n1. The applicant should contribute their share of the vehicle cost.\n1. For aquarium shop setup, the applicant should be trained in ornamental fish farming.\n1. Preference is given to women trained under fishery research and training programs.\n1. Persons with disabilities (PwD) trained in ornamental fish farming receive top priority.",
+  "_criteria_filled": 1
+}

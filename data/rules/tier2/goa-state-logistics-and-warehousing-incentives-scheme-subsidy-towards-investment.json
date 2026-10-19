@@ -1,0 +1,41 @@
+{
+  "id": "goa-state-logistics-and-warehousing-incentives-scheme-subsidy-towards-investment",
+  "name": "Goa State Logistics and Warehousing Incentives Scheme: Subsidy towards Investment of Fixed Capital",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### **Standard Projects**\n\n- Eligible entities (Logistics Parks (Multi-modal/Integrated), Inland Container Depots, Container Freight Stations, Air Freight Stations, Warehouses, Cold Chain Units, Testing Facilities, Truck Terminals) are entitled to 10% of fixed capital invested in Fixed Assets.\n- **Maximum Amount:** Capped at ₹25,00,000/- per unit per year.\n##### **Special Category Projects**\n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "stage-general-applicationeligibility-common-application-form-annexure-iaadhaar-o",
+    "managing-director-in-case-of-partnership-firm",
+    "company-limited-liability-partnership",
+    "co-operative-society",
+    "trust-authority-letterpower-of-attorney-for-availing-incentives-in-case-of-partn",
+    "2025",
+    "under-any-other-government-schemes-a-copy-of-payroll-of-the-unit-highlighting-th",
+    "start-of-construction-of-infrastructure",
+    "completion-of-infrastructure",
+    "placing-order-for-plant",
+    "machinery-and-equipment-list-for-every-item",
+    "installationacquisition-of-plant",
+    "machinery-and-equipment-list-for-every-item",
+    "commencement-of-commercial-operation-stage-specific-application-financial-detail",
+    "machinery-and-equipment-envisaged-duly-certified-by-chartered-engineer-mechanica",
+    "machinery-and-equipment-etc-required-for-the-project"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-27-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gslwi-sifc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must not be classified as a Mega Project.\n- The applicant must own a business unit in Goa.\n- The applicant must provide Logistics and Warehousing services in Goa.\n- The applicant must be a Logistics and Warehousing services provider, as the categories of business activities listed in Annexure-XI are exhaustive.\n- The applicant must have a Permanent Account Number (PAN).\n- The applicant must regularly file Income Tax Returns in the name of the legal entity.\n- The applicant must be in continuous operations for a minimum period of six months post the date of notification of Logistics and Warehousing Policy 2023.\n- The applicant must have incurred the expenses post the date of launch of the Logistics and Warehousing Policy 2023.\n- The applicant must provide a minimum of 40% local employment.\n- The applicant must submit claims in the prescribed application form (ANNEXURE-II) through the Goa Online Portal.\n- The applicant must ensure that the unit was not set up with second-hand machinery.\n- The applicant must ensure that the value of plant, machinery, and equipment procured has not previously enjoyed any incentives under any earlier incentive schemes.\n\n##### ***Minimum Land Area Requirements (Must be met at time of application/claim)***\n\n- The applicant must have a minimum land area of 1 Acre for Logistics Park, Inland Container Depot, or Container Freight Stations.\n- The applicant must have a minimum land area of 1,000 square meters for Air Freight Stations, Warehouses, or Truck Terminals.\n- The applicant must have a minimum land area of 200 square meters for Cold Storage or Testing Facilities.\n\n##### ***Minimum Land Area Requirements (For Special Categories)***\n\n- The applicant must have a minimum land area of 1 Acre for Logistics Park, Inland Container Depot, or Container Freight Stations if constructed in Backward Talukas OR owned by Women Entrepreneurs/Entrepreneurs belonging to Schedule Caste/Schedule Tribe Communities.\n- The applicant must have a minimum land area of 1,000 square meters for Air Freight Stations if constructed in Backward Talukas OR owned by Women Entrepreneurs/Entrepreneurs belonging to Schedule Caste/Schedule Tribe Communities.\n- The applicant must have a minimum land area of 500 square meters for Warehouses or Truck Terminals if constructed in Backward Talukas OR owned by Women Entrepreneurs/Entrepreneurs belonging to Schedule Caste/Schedule Tribe Communities.\n- The applicant must have a minimum land area of 100 square meters for Cold Storage or Testing Facilities if constructed in Backward Talukas OR owned by Women Entrepreneurs/Entrepreneurs belonging to Schedule Caste/Schedule Tribe Communities.\n\n<br>",
+  "_criteria_filled": 1
+}

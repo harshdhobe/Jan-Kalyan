@@ -1,0 +1,36 @@
+{
+  "id": "grant-of-subsidy-for-procurement-of-vehicle",
+  "name": "Grant of Subsidy for Procurement of Vehicle",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 50% subsidy for the purchase of auto goods carrier up to 1-ton capacity (maximum subsidy of ₹75,000).\n- 50% subsidy for the purchase of a mini truck with 1-3 ton capacity (maximum subsidy of ₹1,50,000).\n- 50% subsidy for the purchase of a mini lorry with 3-5 ton capacity (maximum subsidy of ₹3,50,000).\n- 50% subsidy for the purchase of an insulated fish van with 5-10 ton capacity (maximum subsid",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "loan-sanction-order-from-the-bank-quotation-from-the-dealer-for-the-vehicle-driv"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/subsidies-application007.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to the fishermen&#39;s community and must be a resident of the Union Territory of Puducherry by domicile or birth.\n- The applicant&#39;s age should not be less than 18 years old or more than 50 years of age.\n- The applicant should not have availed the benefit of a loan/subsidy under the scheme earlier for the purpose for which the subsidy is sought.\n- The applicant should be a member of a Fishermen Cooperative Society and should not have any overdue with the society/department.\n- The applicant should possess a driving license issued by the Transport Authority for driving a moped/auto goods carrier or transport vehicle.\n- The applicant should not be employed in Government/Government undertakings/Societies either on a regular/part-time or temporary basis.",
+  "_criteria_filled": 3
+}

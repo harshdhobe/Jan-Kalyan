@@ -1,0 +1,26 @@
+{
+  "id": "assistance-of-concentrate-feed-after-parturition-general-category",
+  "name": "Assistance of Concentrate Feed After Parturition (General Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Name of Component****Standard of assistance****Remarks****Minimum Time Limit (in Years) for Reclaiming Benefits**Concentrate Feed 150 kg BIS type II Concentrate feed per beneficiary100% assistanceEvery year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "barcoded-ration-card-government-approved-photo-id-aadhaarvoter-card-certificate"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=v4lc2tu73R/9lWYKO76SRg==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/acfapgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a livestock owner.\n1. The applicant must belong to the General Category.\n1. The animal must have recently calved (given birth).",
+  "_criteria_filled": 1
+}

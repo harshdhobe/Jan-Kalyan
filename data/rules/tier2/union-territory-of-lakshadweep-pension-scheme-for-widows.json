@@ -1,0 +1,36 @@
+{
+  "id": "union-territory-of-lakshadweep-pension-scheme-for-widows",
+  "name": "Union Territory of Lakshadweep Pension Scheme for Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Lakshadweep",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- Eligible beneficiaries receive a pension of ₹1,500/- per month (₹18,000 per annum).\n\n**Mode of Disbursement:**\n\n- Direct Benefit Transfer (DBT) to the beneficiary&#39;s bank account.\n\n**Frequency of Disbursement:**\n\n- The pension is disbursed on a monthly basis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 18000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Lakshadweep"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-widowhooddeath-certificate-of-husband-proof-of-age-proof"
+  ],
+  "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/wspsl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Lakshadweep.\n1. The applicant should be a widow.\n1. The applicant should not have remarried.\n1. The applicant should have only nominal income, not exceeding ₹1,500/- per month (₹18,000/- per annum).\n1. The applicant should not be a beneficiary of any other similar pension scheme provided by the government.",
+  "_criteria_filled": 3
+}

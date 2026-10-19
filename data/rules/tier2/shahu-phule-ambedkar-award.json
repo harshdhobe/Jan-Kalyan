@@ -1,0 +1,30 @@
+{
+  "id": "shahu-phule-ambedkar-award",
+  "name": "Shahu, Phule, Ambedkar Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The institute will be given ₹15,00,000/- as a prize along with a Memento and a Silver Krol Citation.\nA total of 7 awards will be given for 7 regions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-as-a-organizationinstitute-issued-by-the-authorized-office",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/awards",
+  "source_url": "https://www.myscheme.gov.in/schemes/spaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Institute/Organization should be located within the state of Maharashtra.\n1. The Institute/Organization should have done work in the field of Social Justice in the state of Maharashtra.\n1. The period of the Social Service should be 15 years &amp; above in the state of Maharashtra.",
+  "_criteria_filled": 1
+}

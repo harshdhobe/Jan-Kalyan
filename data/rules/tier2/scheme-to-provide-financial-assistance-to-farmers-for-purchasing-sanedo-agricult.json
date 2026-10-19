@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-financial-assistance-to-farmers-for-purchasing-sanedo-agricult",
+  "name": "Scheme to Provide Financial Assistance to Farmers for Purchasing Sanedo Agricultural Equipment",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**“Sanedo” agricultural equipmentAssistance of 25 % or ₹25,000/- of total cost whichever is less; (Ride on Type Self Propelled Tool Bar) (Sanedo) or (Ride on Type Self Propelled Multipurpose Tool Bar)(Sanedo) tested by the Government of India approved testing centre and which has valid test r",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-bank-passbook-copy-recent-passport-size-ph"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/gliVwGX8Ej94zJwViawMjA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/spfasae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a landholding farmer.\n- The applicant must belong to the Gujarat state.",
+  "_criteria_filled": 1
+}

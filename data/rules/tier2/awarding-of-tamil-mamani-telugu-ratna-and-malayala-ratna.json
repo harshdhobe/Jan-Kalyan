@@ -1,0 +1,31 @@
+{
+  "id": "awarding-of-tamil-mamani-telugu-ratna-and-malayala-ratna",
+  "name": "Awarding of Tamil Mamani, Telugu Ratna and Malayala Ratna",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Award amount:**\n\n- Cash award : ₹75,000/-. \n\n<br>\n\n> **Number of Awards:**\n\n- Tamil Mamani - 6 awards.\n- Malayala Ratna - 4 awards.\n- Telugu Ratna - 4 awards.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-birth-certificate-residence-certificate-issued-by-reven"
+  ],
+  "apply_url": "https://art.py.gov.in/sites/default/files/app100523.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atmtrmr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an author/writer.\n1. The applicant&#39;s age should be 60 years or above. \n1. The author/writer should have published books of high repute in poetry, prose, and research articles in literature and grammar in their respective languages. \n1. The applicant should participate in literary and research.\n1. The applicant should not have been given any such award by other Government and Organisations like Universities etc.\n1. The applicant should be a native of Puducherry or residence in Puducherry continuously for a period of 5 years.",
+  "_criteria_filled": 2
+}

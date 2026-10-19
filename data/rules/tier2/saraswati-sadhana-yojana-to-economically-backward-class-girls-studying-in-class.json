@@ -1,0 +1,36 @@
+{
+  "id": "saraswati-sadhana-yojana-to-economically-backward-class-girls-studying-in-class",
+  "name": "Saraswati Sadhana Yojana to Economically Backward Class Girls studying in Class 9",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Free bicycle provided to each eligible girl student.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-caste-certificate-identity-card-income-certificat"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssyebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Gujarat.\n  - The applicant must be a female student.\n  - The applicant must be studying in Class 9.\n  - The applicant must be enrolled in a government or grant-in-aided school in Gujarat.\n  - The applicant must belong to the Economically Weaker Section (EWS).\n  - The applicant&amp;#39;s family income must not exceed ₹6,00,000 per annum.",
+  "_criteria_filled": 3
+}

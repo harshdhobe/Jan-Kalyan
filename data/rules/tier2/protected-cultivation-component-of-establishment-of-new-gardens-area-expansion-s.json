@@ -1,0 +1,27 @@
+{
+  "id": "protected-cultivation-component-of-establishment-of-new-gardens-area-expansion-s",
+  "name": "\"Protected Cultivation\" Component of \"Establishment of New Gardens (Area Expansion)\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- **Poly House:** Naturally Ventilated system (Tubular structure) – Subsidized Cost of ₹467.50/- per square meter.- **Shade Net House (Tubular Structure):** Subsidized Cost of ₹355/- per square meter. Maximum of 4000 square meters per beneficiary.- **Plastic Mulching:** ₹10,000/- per hectare as a subsidy (maximum of 2 hectares per beneficiary).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-farmer-identity-card-2-family-food-ration-card-3-voter-id-card-4-residence-cum",
+    "issued-by-the-revenue-department-5-detailed-project-statement-6-soil-and-water-t"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/pdf/Application_Shade_Net.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pccengaes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident/native of Puducherry.\n- The applicant should be a Farmer.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skill-upgradation-program-karnataka",
+  "name": "Skill Upgradation Program Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Course Sponsorship:** The corporation covers the entire cost of the course for selected artisans.- **Stipend:** A stipend is provided during the course duration to support the participants",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 30000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-caste-certificate-with-rd-number-valid-income-certificate-ration-car"
+  ],
+  "apply_url": "https://schemes.lidkar.com/schemes/training-programs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/supk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leather artisans.\n1. The applicant should belongs to sub-castes Arundathiyar, Chammadiya, Chamar, Chambar, Chamagar, Madar, Madig, Madiga, Mini Madig, Jambavalu, Haralayya, Machigar, Mochigar, Mochi, muchi, Telugu Mochi, kamaati mocha, Rohidas, Dhor, kakkayya, Kankayya, Samagara, Samagar, Aadhi Anddra, Aadhi Dravida, Aadhi Karnataka among schedule castes.\n1. The applicant should have passed a Secondary School Leaving Certificate (SSLC)/Pre-University Courses (PUC)/Degree to apply for the program.\n1. The age of the applicant should be 18 years.\n1. The applicant&#39;s annual family income should not exceed ₹30,000/- in rural areas and ₹25,000/- in urban areas.\n1. The applicant or their family members must not have received benefits from other schemes, except training programs.\n1. The applicant&#39;s family members should not be employed in government or semi-government organizations.",
+  "_criteria_filled": 3
+}

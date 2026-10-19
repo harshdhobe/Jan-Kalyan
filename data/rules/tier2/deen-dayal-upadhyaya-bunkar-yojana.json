@@ -1,0 +1,35 @@
+{
+  "id": "deen-dayal-upadhyaya-bunkar-yojana",
+  "name": "Deen Dayal Upadhyaya Bunkar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "7% interest subvention on short-term loans and working capital requirements.\nAccess to affordable credit for women weavers.\nEncouragement of entrepreneurship and sustainable livelihoods.\nFinancial support for working capital needs.\nInclusion of all categories of women weavers, regardless of unit size or number of looms.\nIntegration with the Pradhan Mantri Mudra Yojana.\nPromotion of timely loan rep",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "completed-application-form-proof-of-identity-such-as-aadhaar-card",
+    "voter-id",
+    "or-pan-card-proof-of-address-such-as-ration-card",
+    "utility-bill",
+    "or-driving-license-proof-of-ownership-or-possession-of-working-looms-certified-b"
+  ],
+  "apply_url": "https://westkameng.nic.in/scheme/deen-dayal-upadhyaya-bunkar-yojana/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dduby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Gender: The scheme is exclusively for women weavers.\n- Weaving Activity: Applicants should be engaged in weaving activities as their primary occupation.\n- Ownership of Working Loom(s): Applicants must possess or have ownership of a working loom(s).\n- Individual or Group: Both individual women weavers and groups of women weavers are eligible to apply. Companies and partnership firms are not eligible.\n- Unit Size and Number of Looms: There is no restriction based on unit size or the number of looms. Weavers of all categories and scales are eligible to apply.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarship-for-class-11th-12th-and-college",
+  "name": "Post Matric Scholarship for Class 11th 12th And College",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "This scholarship is provided to Scheduled Tribe students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=26",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be from the Scheduled Tribe category.\n1. The applicant should be studying in class 11th, 12th, college, PhD, or professional courses.\n1. The applicant should be studying in a government or government self-financed educational institution (income limit restriction has been abolished for these institutions).\n1. The parents/guardians of the applicant should have an annual income of up to ₹6.00 lakh if the student is studying in a non-government institution (non-professional courses).\n1. The applicant should be eligible for the payment of half the non-refundable compulsory fees, including tuition fees, at prescribed rates for government-related courses.",
+  "_criteria_filled": 2
+}

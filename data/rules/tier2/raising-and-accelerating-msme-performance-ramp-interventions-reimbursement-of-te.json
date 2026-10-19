@@ -1,0 +1,28 @@
+{
+  "id": "raising-and-accelerating-msme-performance-ramp-interventions-reimbursement-of-te",
+  "name": "Raising and Accelerating MSME Performance (RAMP) Interventions: Reimbursement of Testing and Certification Cost in Wire Cable Industry- DNH&DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "This intervention aims to enhance the quality standards and global competitiveness of MSMEs in the Wire &amp; Cable industry operating within the Union Territory of Dadra and Nagar Haveli and Daman and Diu, thereby improving their access to domestic and international markets. Under this intervention, the UT Administration will provide financial assistance in the form of reimbursement of costs incu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "udyam-registration-certificate-registration-documents-partnership-deed",
+    "incorporation-certificate",
+    "etc-gst-registration-pan-card-certificatereport-issued-by-the-agency-against-whi"
+  ],
+  "apply_url": "https://ddd.gov.in/district-industries-centre/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ramprtcwci",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit must be Udyam registered with operations in the UT of DNH&amp;DD.\n1. Eligibility of MSME units in the Manufacturing or Service sector, upon commencement of commercial production or service operations, shall be governed by the duration of operation criteria as outlined in the relevant intervention of the scheme.\n1. Eligibility of the MSME unit shall be subject to the detailed conditions specified under the respective scheme provisions.\n\n<br>",
+  "_criteria_filled": 1
+}

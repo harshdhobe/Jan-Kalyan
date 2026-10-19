@@ -1,0 +1,26 @@
+{
+  "id": "nagaland-state-merit-scholarship",
+  "name": "Nagaland State Merit Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "1. Nagaland State Merit Scholarship will provide social security provisions to the students of Nagaland state.\n1. This will proven to be an amazing opportunity.\n1. Students of post-matric classes will be able to secure their scholarship rights.\n1. Students will be given the scholarship amount either on a monthly basis or a yearly basis.\n1. The only selection criteria will be that the student will ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-document-aadhar-card-dob-certificate-educational-certificat"
+  ],
+  "apply_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be a permanent resident or citizen of Nagaland state.\n1. The applicant must be a student in a Post-matric class.\n1. The student must secure 70% or 80% marks in the last year’s exam for getting a scholarship renewal.\n1. Students in the ST category will also be given scholarship enrollment.\n\n**Note:** To apply as a Fresh candidate, the student must be enrolled in the first year of the course. Renewal is applicable only to beneficiaries of this Scheme from the previous year.\n<br>",
+  "_criteria_filled": 1
+}

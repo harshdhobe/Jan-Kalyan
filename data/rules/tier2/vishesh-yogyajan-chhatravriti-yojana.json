@@ -1,0 +1,36 @@
+{
+  "id": "vishesh-yogyajan-chhatravriti-yojana",
+  "name": "Vishesh Yogyajan Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Scholarship Grant:**\n\n- Financial assistance is provided as a scholarship to the students.\n\n**Tuition Fee Reimbursement:**\n\n- The scheme covers the tuition fee expenses for students studying in government-recognized institutions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-domicile-certificate-disability-certificate-income-certificate-ma"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=124",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssfsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a student. \n1. The applicant should have at least 40% disability. \n1. The applicant should be a regular student in a government or recognized educational institution.\n1. The applicant’s family annual income should not exceed ₹2,00,000/-.\n1. The applicant should have passed the previous academic year.\n1. The applicant should not be a recipient of any other state government or NGO/trust-provided scholarship or allowance.",
+  "_criteria_filled": 3
+}

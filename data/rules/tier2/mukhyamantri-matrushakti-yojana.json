@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-matrushakti-yojana",
+  "name": "Mukhyamantri Matrushakti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Commodities:** The nutrition kit includes 1 Litre of Groundnut oil, 1 Kg Tuver Dal, &amp; 2 Kg Chana.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-proof-of-pregnancy-or-first-childbirth-any-other-document-if-requ"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=292",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must be a woman who is conceiving for the first time.\n1. The applicant must be a mother with her first child who is under the age of 2 years.",
+  "_criteria_filled": 2
+}

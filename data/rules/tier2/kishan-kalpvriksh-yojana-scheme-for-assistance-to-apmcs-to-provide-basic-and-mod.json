@@ -1,0 +1,26 @@
+{
+  "id": "kishan-kalpvriksh-yojana-scheme-for-assistance-to-apmcs-to-provide-basic-and-mod",
+  "name": "Kishan Kalpvriksh Yojana (Scheme for Assistance to APMCs to Provide Basic and Modern Facilities) (Tribal)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance for Modernization:** The scheme provides financial help for the modernization of Agricultural Produce Market Committees (APMCs).  - **Support for Basic Facility Creation:** Assistance is offered for the creation of essential and modern facilities within these market committees.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "permission-letter-for-building-construction-quotations"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkyaabmt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Co-operative Agricultural Produce Market Committees  (APMC) shall be eligible under this scheme.\n  - The applicant APMC must be located in designated tribal areas within Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

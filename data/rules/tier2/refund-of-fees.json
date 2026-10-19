@@ -1,0 +1,26 @@
+{
+  "id": "refund-of-fees",
+  "name": "Refund of Fees",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Refund of remaining fees (after deducting ₹100) if the student leaves",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=52",
+  "source_url": "https://www.myscheme.gov.in/schemes/rof",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be admitted to a college.\n1. The applicant should be a native of Madhya Pradesh.",
+  "_criteria_filled": 1
+}

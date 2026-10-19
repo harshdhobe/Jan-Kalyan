@@ -1,0 +1,57 @@
+{
+  "id": "nandaa-gaura-yojana",
+  "name": "Nandaa Gaura Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, financial assistance is provided to two girls of an eligible family in two installments for each girl child:\n\n  - ₹11,000/- at the time of birth.\n  - ₹51,000/- when the girl passes Class 12.\n\nFor the first installment, the application must be submitted within six months of the girl’s birth, and the child must be born in a hospital/ANM center.\nFor the second installment, the appl",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "for-claiming-benefits-at-the-birth-of-a-girl-child",
+    "the-following-documents-are-required-maternal-child-immunizationmcp-vaccination",
+    "pan-card",
+    "bank-account-linked-with-aadhaar-mobile-number-permanent-residence-certificate-f",
+    "the-applicant-must-submit-latest-passport-size-photograph",
+    "signature-aadhaar-card",
+    "pan-card-bank-account-linked-with-aadhaar-permanent-residence-certificate-high-s",
+    "mark-sheet-and-certificate-of-passing-class-12th",
+    "or-a-self-attested-mark-sheet-in-case-of-passing-from-national-open-school-or-ot",
+    "a-copy-of-the-admission-record-in-higher-education-if-available-and-a-certificat",
+    "the-following-documents-are-necessary-for-availing-benefits-under-both-installme",
+    "income-certificate-or-bpl-certificate",
+    "house-tax-receipt-issued-by-the-urbanrural-local-body-or",
+    "in-the-absence-of-a-house-tax-receipt",
+    "a-certificate-issued-by-the-village-headmancouncilor",
+    "documents-of-rent-agreement-if-applicable",
+    "copy-of-bank-passbook-or-one-year-bank-statement-of-all-family-members",
+    "family-status-assessment-from-the-socio-economic-and-caste-census-secc",
+    "affidavit",
+    "other-relevant-documents",
+    "copies-of-the-last-three-electricity-bills-of-the-family",
+    "and-the-latest-water-bill-or-mention-in-the-affidavit-if-no-connection-exists"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant family must be permanent residents of Uttarakhand.\n2. The family’s monthly income should not exceed ₹6,000/-, or the family should belong to the BPL category to be eligible.\n3. The benefit is applicable for up to two girls per family.\n4. It is mandatory for the mother/father/guardian to submit an affidavit regarding availing or not availing the benefit of the scheme for other girl children in the family in the past. The affidavit must include the following declarations:\n\n  - All information regarding movable and immovable properties and other details sought by me have been provided correctly.\n  - I certify that this benefit is being availed for my first/second daughter.\n  - No facts have been concealed by me.\n  - I have provided the details of all family bank accounts along with bank statements for the last one year.\n  - In the case of applying after passing Class 12, I confirm that my daughter is unmarried.\n\n5. Girls living in Nari Niketan, Balika Niketan, orphanages, or other state government-aided homes will be exempted from the requirement of birth certificate, permanent residence certificate, income certificate, or parent’s name to avail the benefit after passing Class 12.\n<br>",
+  "_criteria_filled": 3
+}

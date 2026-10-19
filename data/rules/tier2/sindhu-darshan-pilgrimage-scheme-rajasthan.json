@@ -1,0 +1,37 @@
+{
+  "id": "sindhu-darshan-pilgrimage-scheme-rajasthan",
+  "name": "Sindhu Darshan Pilgrimage Scheme - Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Reimbursement of 50% of actual travel expenses, up to a maximum of ₹10,000 per pilgrim.\n\n> **Note:**\n\nPayment is made via online bank transfer or through account payee cheque or demand draft, depending on departmental conditions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "certified-photocopy-of-rajasthan-domicile-certificate-photocopy-of-janadhaar-car",
+    "bills",
+    "etc-verified-certificate-of-travel-from-a-recognized-government-department",
+    "registered-trust",
+    "or-constituted-committee-photograph-of-the-applicant-at-snigdh-darshan-ghat",
+    "sindhu-river-photocopy-of-inner-line-permit-for-khanpurana-pass-note-if-the-jana",
+    "a-separate-domicile-or-birth-certificate-is-not-required-the-department-may-cons"
+  ],
+  "apply_url": "https://devasthan.rajasthan.gov.in/Files/sindhu_darshan_2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdpsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant&#39;s age should be 21 years or above.\n1. The applicant should not be a person who subsists on alms.\n1. The applicant should not be an income tax payer.\n1. The applicant should not be a retired employee/officer of the Central Government/State Government/Central &amp; State Government Undertakings/Local Body.\n1. Only one-time assistance per lifetime is permitted.\n\n**Note:** Only the person selected by the Devasthan Department, Rajasthan is eligible to get the benefit of the scheme.",
+  "_criteria_filled": 2
+}

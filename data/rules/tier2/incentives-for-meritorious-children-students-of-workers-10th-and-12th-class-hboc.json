@@ -1,0 +1,27 @@
+{
+  "id": "incentives-for-meritorious-children-students-of-workers-10th-and-12th-class-hboc",
+  "name": "Incentives for Meritorious Children (Students) of Workers (10th and 12th Class) (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, the scholarship (prize money) in the form of a fixed deposit will be provided to meritorious children of construction workers who have achieved academic excellence in the Class X/XII examination as per the following:\n**Sl. No.****Marks Obtained in 10th/12th Examination****Amount**190% and above  ₹51,000/-280% and above ₹41,000/-370% and above ₹31,000/-460% and above ₹21,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/login/bocw",
+  "source_url": "https://www.myscheme.gov.in/schemes/imcsw1012chbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year of regular membership.\n   1. The worker must have an active membership with the Board.\n   1. The scholarship (prize money) will be provided to meritorious children of construction workers who have achieved academic excellence in the Class X/XII examination.\n   1. The incentive amount will be payable for up to three children.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-kanya-vivaah-nikaah-yojana",
+  "name": "Mukhyamantri Kanya Vivaah / Nikaah Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- To the Bride\n\n   1. Account Payee Check : Rs: 11,000/-\n   1. Marriage Gift : Rs. 38,000/-\n\n- Amount: Rs.6,000/- per girl, to the mass marriage organizing body.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-voter-id-card-passport-size-photo-mobile-number"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=373",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkvymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The guardian of the bride/groom should be a native of Madhya Pradesh.\n1. The bride has completed the prescribed age for marriage (At present, the minimum legal age for marriage for a girl is 18 years and the minimum legal age for a man is 21 years).\n1. Abandoned women who have been legally divorced.\n1. There will be no restriction on income for the beneficiary to get assistance under the scheme, but it will be necessary that the beneficiary should get his marriage done only by participating in the group marriage program to be organized on the scheduled dates. In case of a single marriage, the benefit of the scheme will not be available.",
+  "_criteria_filled": 3
+}

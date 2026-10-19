@@ -1,0 +1,33 @@
+{
+  "id": "gaushala-vikas-yojana",
+  "name": "Gaushala Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Financial aid of up to ₹10,00,000/- for infrastructure development.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "estimate-approved-by-competent-level-for-getting-the-construction-work-done-copy",
+    "1958",
+    "or-rajasthan-gaushala-act",
+    "1960-name",
+    "branch",
+    "address",
+    "account-number",
+    "and-ifsc-code-number-of-the-gaushala-verified-by-the-bank"
+  ],
+  "apply_url": "https://gopalan.rajasthan.gov.in/scheme/detail/573",
+  "source_url": "https://www.myscheme.gov.in/schemes/gvyr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Gaushalas with ownership or leased land (minimum of 20 years) approved by a competent authority are eligible.\n1. Gaushalas must have consistently maintained at least 100 cows for the past two years to qualify for infrastructure construction.\n1. Gaushalas should not have any pending cases of financial irregularity or embezzlement.\n1. Gaushalas committed to developing their own resources to achieve self-reliance and self-sufficiency are encouraged to apply.\n1. Gaushalas willing to share information and cooperate on relevant initiatives are eligible.\n1. Basic infrastructure required under the scheme should not have been previously constructed in the Gaushala. However, if existing infrastructure is insufficient based on the number of cattle, the Gaushala will be eligible for additional construction work as per requirements.\n1. Gaushalas registered under the Rajasthan Gaushala Act, 1960, Rajasthan Society Registration Act, 1958, or Lalsamay Pravat Law are eligible.\n1. Institutions recommended or approved by the District-Level Gaushala Committee in exceptional circumstances are also eligible.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "disability-pension-west-bengal",
+  "name": "Disability Pension - West Bengal",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "Financial Assistance",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-self-attested-copy-of-ration-card-copy-of-voter-id-copy-of-disab"
+  ],
+  "apply_url": "https://wbswpension.gov.in/readwrite/miscellaneous/form-P.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a disable person with 40% of disability. \n1. The disabled person must be declared unsuitable for physical work by the respective Medical officer with following disabilities :\n\n  - Deaf and Dumb. \n  - Blind. \n  - Orthopedically handicapped.\n  - Mentally retarded \n  - Permanently incapacitated.\n\n1. The disabled person is declared unsuitable for physical work by the respective Medical officer.\n1. His / Her family income, if any, must not exceed ₹ 1,000/- per month.\n1. Residency Duration\n\n  - The applicant must be a citizen of India and a resident of West Bengal. **(OR)**\n\n  - The disabled person should have been a resident of the state of West Bengal for at least 10 years at the time of applying for the pension. **(OR)**  - For disabled persons below 10 years old, the period of residence will be limited to the time span covered by the date of birth and the date of submission of the application.",
+  "_criteria_filled": 3
+}

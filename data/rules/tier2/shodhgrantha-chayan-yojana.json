@@ -1,0 +1,26 @@
+{
+  "id": "shodhgrantha-chayan-yojana",
+  "name": "Shodhgrantha Chayan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "For the research paper, the author receives an honorarium of ₹151/- per page, and 25 copies of the published book are provided free of cost.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "three-3-copies-of-the-research-manuscript-an-affidavit-declaring-the-originality"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Authentic and socially relevant research books related to Sanskrit literature in the context of Uttarakhand are invited for publication.\n   1. Scholars from any state of the country (who write research papers within the scope of research methodology) will be eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "kscste-research-fellowship",
+  "name": "KSCSTE Research Fellowship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. The Fellowship carries a monthly stipend of ₹31,000/- for the first two years (JRF) and ₹35,000/- per month in the third year (SRF).\n   1. There is an annual contingency grant of ₹20,000/-.\n   1. All Research Fellows shall be allowed hostel accommodation wherever available and those residing in a hostel provided by the University/Institute shall not be eligible for HRA. Reimbursement of hostel ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-passport-size-photographs-3-pg-marks-sheet-degre",
+    "as-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/kscste-research-fellowship/",
+  "source_url": "https://www.myscheme.gov.in/schemes/kscsterf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Candidates, who have qualified for the post-graduate degree, shall have three consecutive chances to apply for the Fellowship programme. Thus, a candidate who has passed the examination in the current year can apply in this year, the next year, and the year after next.\n   1. The candidates (General and OBC candidates) should have a minimum of 70% marks or equivalent CGPA in their PG examination and 65% for SC/ST and differently-abled candidates.\n   1. Only candidates who have their qualifying degree (PG) from any of the Universities in Kerala are eligible to apply.\n   1. Upper age limit: Maximum 35 years (Should not exceed 35 years as of the 1st of the month of the advertisement published on the website) for all applicants.",
+  "_criteria_filled": 2
+}

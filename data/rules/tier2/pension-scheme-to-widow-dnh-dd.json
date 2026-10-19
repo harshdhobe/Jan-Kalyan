@@ -1,0 +1,47 @@
+{
+  "id": "pension-scheme-to-widow-dnh-dd",
+  "name": "Pension Scheme to Widow- DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- Under this scheme, widows receive financial assistance of ₹1,000/- per month.\n\n**Note:** The mode of fund transfer shall be Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-in-case-of-non-availability-of-age-proof",
+    "the-beneficiary-shall-be-referred-to-medical-board-government-hospital-of-concer"
+  ],
+  "apply_url": "https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the Dadra &amp;amp; Nagar Haveli and Daman &amp;amp; Diu.\n   1. The applicant should be a widow.\n   1. The applicant should be between 18 and 59 years of age.\n   1. The benefit will be discontinued if the applicant remarries or enters a live-in relationship.\n   1. The applicant&amp;#39;s annual income should not exceed ₹1.5 lakh.\n   1. The applicant should not be receiving financial assistance under any other widow pension scheme.\n\n&lt;br&gt;\n\n**Special/General Conditions:** In case of non-availability of age proof the beneficiary shall be referred to Medical Board (Government Hospital) of the concerned district for verification of age. After attaining age of 60 years, the beneficiary shall be transferred to the Pension Scheme to Old Age Persons (Senior Citizen).\n<br>",
+  "_criteria_filled": 5
+}

@@ -1,0 +1,42 @@
+{
+  "id": "skilled-youth-startup-scheme",
+  "name": "Skilled Youth Startup Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "1. Financial support through bank loans with back-ended subsidy of 35% or 50%.\n   1. Maximum admissible project cost varies by category, up to ₹20 lakhs.\n   1. Mandatory Entrepreneur Development Training (3 days) provided before loan disbursement.\n   1. Preference for Persons with Disabilities (PwDs) with 50% subsidy eligibility.\n   1. Support for a wide range of sectors including:\n\n    - Dairy, p",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "two-recent-passport-sized-photographs-sikkim-subject-certificatecoiresidential-c",
+    "if-applicable-relevant-trade-license-or-permit-at-the-time-of-loan-sanction-bpl"
+  ],
+  "apply_url": "https://industries.sikkim.gov.in/schemedoc/dcKnMRZtT1BAFaojSbxG110KbPQdHieY25oRlwJr.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/syss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must possess a Certificate of Identification (COI) or Sikkim Subject Certificate / Residential Certificate (for urban areas).\n   1. Applicant must be unemployed and have completed at least Class V from a recognized school.\n   1. For technical, manufacturing, or service-based projects, the applicant should have a valid certificate from a recognized technical institute.\n   1. Applicant must be between 18 to 45 years of age at the time of application.\n   1. Only one member per family is eligible to apply under the scheme.\n   1. Applicant&amp;amp;#39;s family income must not exceed ₹8 lakhs per annum.\n\n    - For married applicants: family includes self, spouse, and children.\n    - For unmarried applicants: family includes parents and unmarried siblings.\n\n   1. If the applicant is a child of a Government employee, only children of Group ‘C’ or ‘D’ employees are eligible.\n   1. Applicant must contribute 5–15% of the project cost, as per bank norms.\n   1. Applicant must not be a defaulter with any nationalized bank, financial institution, or co-operative bank.\n   1. Applicant must not have availed subsidy under CMSS or PMEGP schemes earlier.\n   1. Applicant must possess a valid trade license for the proposed business or project.\n   1. Applicants under the Persons with Disabilities (PWD) category will be given priority and are eligible for a 50% loan subsidy.",
+  "_criteria_filled": 4
+}

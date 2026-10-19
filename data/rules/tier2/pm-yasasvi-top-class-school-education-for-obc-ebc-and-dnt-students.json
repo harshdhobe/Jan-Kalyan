@@ -1,0 +1,27 @@
+{
+  "id": "pm-yasasvi-top-class-school-education-for-obc-ebc-and-dnt-students",
+  "name": "PM-YASASVI: Top Class School Education for OBC, EBC and DNT Students",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- The grants will be provided for tuition fee, hostel fee, and other charges as required by the school, subject to a maximum of ₹75,000/- per annum per student of Class 9 and 10 and ₹1,25,000/- per annum per student of Class 11 and 12.\n\n**Note 01:** The release of funds will be directly into the account of beneficiaries through DBT mode.\n**Note 02:** Payment shall be made in installments to be rel",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-passport-size-photograph-3-educational-qualification-marksheets",
+    "if-applicable-8-bank-account-details-9-any-other-documents-as-required"
+  ],
+  "apply_url": "https://socialjustice.gov.in/public/ckeditor/upload/65661651839791.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-yasasvitcseobcebcdnts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the OBC, EBC, and DNT students studying in the Top Class Schools identified as per the modalities of the scheme with a household annual income of less than ₹2.5 lakhs would be eligible for the scheme.\n   1. The meritorious students studying from Class 9 onwards till they complete Class 12 can avail of the benefits of the scheme.\n\n&gt; **Other Conditions:**\n\n  - The students must have a Bank Account and while applying under the scheme should provide all necessary details.\n  - The shortlisted School should have an Aadhaar-Based Attendance System that can be integrated into a central portal if required.\n  - Students studying in schools assisted under this Scheme shall not be eligible for assistance under any other scheme of the Government for the items/purposes already covered under this Scheme.",
+  "_criteria_filled": 1
+}

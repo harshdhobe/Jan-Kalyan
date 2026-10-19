@@ -1,0 +1,27 @@
+{
+  "id": "relief-during-natural-calamities-such-as-cyclone-flood-or-fire-sainik-welfare",
+  "name": "Relief During Natural Calamities Such as Cyclone, Flood or Fire (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The actual cost of damage or a maximum of ₹40,000/- is provided as a relief during natural calamities such as cyclone, flood or fire.\n- The amount, as decided by the Management Committee, is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-esm-discharge-certificate-of-ex-serviceman-pro",
+    "flood-or-fire-declaration-by-the-esm-widow-of-esm"
+  ],
+  "apply_url": "https://sainik.py.gov.in/assistance-affd-fund",
+  "source_url": "https://www.myscheme.gov.in/schemes/rdnccff-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen)/Widow of an Ex-serviceman/Dependent of an Ex-serviceman.- The applicant should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.\n\n- The applicant should have suffered from natural calamities such as cyclone, flood or fire.",
+  "_criteria_filled": 1
+}

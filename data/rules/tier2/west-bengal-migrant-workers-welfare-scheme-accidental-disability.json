@@ -1,0 +1,44 @@
+{
+  "id": "west-bengal-migrant-workers-welfare-scheme-accidental-disability",
+  "name": "West Bengal Migrant Workers’ Welfare Scheme: Accidental Disability",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- ₹ 50,000/- in case of 40% to 80 % disability.\n- ₹ 1,00,000/- in case of more than 80% disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photo-max-size-50-kb",
+    "jpg-or-jpeg-file-only-aadhaar-card-both-sides-of-the-document-to-be-uploaded-as",
+    "pdf-file-only-first-page-of-bank-account-particulars-max-size-150-kb",
+    "pdf-file-only-employment-certificate-disability-certificate-issued-by-any-govern"
+  ],
+  "apply_url": "https://karmasathips.wblabour.gov.in/sites/default/files/static/migrant_worker_scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbmwwsad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For registration as a Migrant Worker:**\n\n  - The applicant must be a resident of West Bengal.\n  - The applicant’s age should be between 18 and 60 years.\n  - The applicant must be ordinarily a worker who is employed/ likely to be employed in any State/Union Territories other than the state of West Bengal/ Outside India.\n\n> **For the application of Welfare Scheme:**\n\n- The applicant should be a migrant worker.\n- The applicant should be registered with the West Bengal Migrant Workers’ Welfare Board, Labour Dept, Govt of West Bengal.\n- The migrant worker should have a disability of 40%.\n- The disability should have been caused due to an accident during work.\n- The disability should be certified by a Government Hospital.",
+  "_criteria_filled": 4
+}

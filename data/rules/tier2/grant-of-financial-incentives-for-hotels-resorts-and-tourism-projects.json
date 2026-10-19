@@ -1,0 +1,37 @@
+{
+  "id": "grant-of-financial-incentives-for-hotels-resorts-and-tourism-projects",
+  "name": "Grant of Financial Incentives for Hotels, Resorts, and Tourism Projects",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Capital Grant for Star-Classified Hotels**\n\n- ₹2,00,000/- per room, subject to a maximum of ₹30,00,000/- for one-star hotels.\n- ₹3,00,000/- per room, subject to a maximum of ₹75,00,000/- for two-star hotels.\n- ₹3,00,000/- per room, subject to a maximum of ₹1,00,00,000/- for three-star hotels.\n\n> **Capital Grant for Heritage Hotels**\n\n- ₹3,00,000/- per room, subject to a maximum of ₹75,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-in-english-about-the-infrastructure",
+    "including-ownership",
+    "structural-designs",
+    "financial-model",
+    "detailed-estimates",
+    "audited-balance-sheet",
+    "and-profit-and-loss-statements-from-its-commencement",
+    "income-tax-returns",
+    "and-other-relevant-particulars-approval-and-occupancy-certificate-issued-by-the",
+    "municipalitypublic-works",
+    "and-electricity-certification-of-star-classificationheritage-classification-from",
+    "government-of-india-undertaking-as-per-the-format-on-50-stamp-paper"
+  ],
+  "apply_url": "https://styandptg.py.gov.in/2010/February/EXTRAORDINARYPART-II/1/005-PART-II%20No.%20005%20dated%201-2-2010.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfihrtp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme applies to star-classified hotels/resorts, heritage hotels, and other tourism projects completed and commissioned from 2005 onwards.\n- The project must be in continuous commercial operation.\n- The applicant must have financially invested in the property and developed the project.\n- The hotel/resort must have star classification or heritage classification approved by the Ministry of Tourism, Government of India.\n- The project must not have availed any other capital subsidy/incentive from the Government of Puducherry or the Government of India.\n- The project must continue in the same name and style for eight years from the date of release of the incentive.",
+  "_criteria_filled": 1
+}

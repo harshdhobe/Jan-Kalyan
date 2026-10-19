@@ -1,0 +1,20 @@
+{
+  "id": "one-nation-one-ration-card",
+  "name": "One Nation One Ration Card",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- It will benefit approximately 81 crores beneficiaries by digitizing Ration Cards.\n- This system allows all NFSA beneficiaries, particularly migrant beneficiaries, to claim either full or part food grains from any Fair Price Shop (FPS) in the country through an existing ration card with biometric/Aadhaar authentication in a seamless manner. \n- With the ONORC, all the beneficiaries in one state ca",
+  "criteria": {
+    "all": []
+  },
+  "documents": [
+    "ration-card-aadhar-card"
+  ],
+  "apply_url": "https://dfpd.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/onorc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is eligible to all ration cardholders or beneficiaries covered under the National Food Security Act (NFSA), 2013 with Aadhaar Card numbers seeded.",
+  "_criteria_filled": 0
+}

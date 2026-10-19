@@ -1,0 +1,36 @@
+{
+  "id": "retired-sportsperson-pension-scheme",
+  "name": "Retired Sportsperson Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** A Pension of ₹3,000/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "affidavit-domicile-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a male.\n  - The applicant should be a sportsperson.\n  - The applicant should be aged above 50 years at the time of application.\n  - The applicant should have won medals in national-level sports competitions representing the state.\n\n<br>",
+  "_criteria_filled": 3
+}

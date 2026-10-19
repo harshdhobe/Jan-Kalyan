@@ -1,0 +1,26 @@
+{
+  "id": "providing-scholarships-to-children-of-boc-workers",
+  "name": "Providing Scholarships to Children of BOC Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- **9****th** **to 12****th** **Grade or ITI: ₹1,200/- per year**- **Professional Courses at the Graduation Level: ₹5,000/- per year**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-worker-and-their-child-bocw-id-card-age-proof-certificate-st"
+  ],
+  "apply_url": "https://apbocwwb.ap.nic.in/APBOCWW3/2018LETF_MS14.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be registered with the AP Building &amp; Other Construction Workers Welfare Board.\n1. The children of workers not enrolled under Chandranna Bima are eligible.\n1. The student should have enrolled in 9th to 12th grade or ITI/ Professional Courses (Graduation Level).\n1. Each family can receive scholarships for a maximum of two children.",
+  "_criteria_filled": 1
+}

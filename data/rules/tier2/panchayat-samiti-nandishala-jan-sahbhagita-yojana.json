@@ -1,0 +1,26 @@
+{
+  "id": "panchayat-samiti-nandishala-jan-sahbhagita-yojana",
+  "name": "Panchayat Samiti Nandishala Jan Sahbhagita Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- One-time assistance of 90% of the total construction cost.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-organizations-registration-and-existence-for-at-least-3-years-land-owne"
+  ],
+  "apply_url": "https://gopalan.rajasthan.gov.in/scheme/detail/973",
+  "source_url": "https://www.myscheme.gov.in/schemes/psnjsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Eligible entities include local bodies, Panchayati Raj institutions, registered trusts, NGOs, and government-recognized institutions.\n   1. The organization must have been operational for at least 3 years.\n   1. Ownership of 20 bighas of private land to sustain 250 male cattle.\n   1. Minimum of 3 years of experience in operating a cattle shelter or similar activities.\n   1. Availability of 10% contribution towards the project cost.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "boarding-house-stipend-scheme-tripura-govt",
+  "name": "Boarding House Stipend Scheme (Tripura Govt.)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- Boarding House Stipend at ₹ 65/- per day per student, covering LPG subsidy, and sweeping/cleaning at ₹ 1/- per day.\n- Provided for 322 days per academic year (approximately 10 months) in an academic year to the students from Class-I to Class-XII who are given accommodation in government-run hostels and approved NGO run Boarding Houses.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-ration-number-aadhaar-number-parents-mobile-number-school-admi"
+  ],
+  "apply_url": "https://twd.tripura.gov.in/educational-sector",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhsstg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant’s residence must be the resident of Tripura.\n1. The applicant should be an ST student studying in classes I to XII.\n1. The applicant’s residence must be beyond 3 km from the school.\n1. The applicant must be accommodated in a Government-run hostel or an approved NGO-run boarding house.\n\n<br>",
+  "_criteria_filled": 1
+}

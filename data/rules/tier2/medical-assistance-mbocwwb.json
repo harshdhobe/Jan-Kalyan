@@ -1,0 +1,34 @@
+{
+  "id": "medical-assistance-mbocwwb",
+  "name": "Medical Assistance (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. The financial assistance shall be ₹200/- for first 5 days and ₹20/- each for the remaining days subject to a minimum ₹1,000/-.\n   1. This assistance shall also be given to the beneficiary who meets with an accident and is put in plaster at the residence.\n   1. If disability resulted due to an accident, the worker shall be eligible for financial assistance upto a maximum ₹5,000/- depending upon ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "enclosures-required-for-new-registration-under-mbocwwbphotograph-of-the-worker-i",
+    "ration-card",
+    "drivers-license",
+    "aadhaar-card",
+    "passport-are-acceptable-employer-certificateself-certification-issued-either-by",
+    "if-any-age-proof-of-concerned-building-workerapplicant-ie-school-certificate",
+    "certificate-from-the-registrar-of-birth-and-deaths",
+    "certificate-from-the-medical-officer-not-below-the-rank-of-an-assistant-surgeon",
+    "electoral-photo-identity-card-nomination-form-duly-signed-by-the-applicant-self"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/mambocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of Meghalaya.\n   1. The beneficiary should be engaged in a building or other construction work.\n   1. The beneficiary should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. The registered construction workers who are hospitalized for five or more days due to an accident or any disease are eligible to apply under the scheme.",
+  "_criteria_filled": 1
+}

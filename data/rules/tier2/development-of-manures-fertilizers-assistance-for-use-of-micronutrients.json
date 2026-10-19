@@ -1,0 +1,26 @@
+{
+  "id": "development-of-manures-fertilizers-assistance-for-use-of-micronutrients",
+  "name": "Development of Manures & Fertilizers: Assistance for use of Micronutrients",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "***Assistance for the use of Micronutrients***\n\n- Micronutrients like Zinc, Boron, Magnesium Sulphate, and other notified micronutrients would be provided a 75% subsidy limited to Rs. 7,500/-per ha for all categories of farmers and a maximum of 4 ha per farmer. \n- The subsidy would be released after the micronutrients are purchased and used by farmers.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "krishi-card-abstract-soil-health-card-cash-invoice"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-22-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmf-bp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any farmer carrying out agricultural activities in the State of Goa and having a Krishi card.\n- The farmer should be cultivating a minimum of 0.1 ha in general. \n- Institutions and private limited companies involved in agricultural activities and having a Krishi card will also be assisted under this scheme.\n- Farmer should possess a Soil Health Card not older than a 2-year period, or a certificate to that extent may be furnished by the Assistant Chemist of Soil Testing Laboratory (North/South).\n\n<br>",
+  "_criteria_filled": 1
+}

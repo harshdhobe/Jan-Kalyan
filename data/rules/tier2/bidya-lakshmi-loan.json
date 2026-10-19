@@ -1,0 +1,27 @@
+{
+  "id": "bidya-lakshmi-loan",
+  "name": "Bidya Lakshmi Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "- The State Government provides a loan of ₹5,00,000/- to ₹10,00,000/- at an interest rate of 4%.\n- Employees with an annual salary income exceeding ₹4,50,000/- can avail up to ₹10,00,000/- at 4% interest after State Government interest subvention.\n- Employees with annual income up to ₹4,50,000/- are eligible under the Credit Linked Subsidy Scheme (CLSS), with 100% subsidy during the moratorium per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "to-be-submitted-by-the-student-passport-size-photograph-3-copies-copy-of-pan-car",
+    "aadhar-card-driving-license-passport-address-proof-copy-of-bank-passbook-or-bank"
+  ],
+  "apply_url": "https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bll",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For the Parent**\n\n- The parent should be a regular, in-service State Government Employee of Assam.\n- The parent should have at least 5 years of residual pensionable service.\n- The employees with annual income exceeding ₹4,50,000/- can avail up to ₹10,00,000/-.\n- The employees with annual income up to ₹4,50,000/- are eligible under CLSS.\n- The employee must have a salary account with check-off facility (for EMI deductions).\n- The employee must be a co-borrower in the loan application. The employee’s name must be included in the loan application alongside the child (the student).\n\n> **For the Child**\n\n- The child must be admitted to a technical/higher educational institution recognized by UGC (University Grants Commission)/ AICTE (All India Council for Technical Education)/ Government-approved colleges/universities in Assam or anywhere in India/ Premier institutions (for studies abroad).\n\n- The child must be pursuing one of the following approved courses:\n\n**In India:** Engineering, Medical, Agriculture, Veterinary, Law, Dental, Management, Computer Science, Chartered Accountancy (CA), Cost and Management Accountancy (ICWA), Chartered Financial Analyst (CFA), Master of Computer Applications (MCA), Master of Science (MS), Graduation in professional/technical courses, Doctorate (PhD).\n**Abroad:** Courses conducted by premier institutions like CIMA (Chartered Institute of Management Accountants, London) or CPA (Certified Public Accountant, USA).\n\n- The child must be a co-borrower in the loan application. The child’s name must be included in the loan application alongside the parent (government employee).",
+  "_criteria_filled": 1
+}

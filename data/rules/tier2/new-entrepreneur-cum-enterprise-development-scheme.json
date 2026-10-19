@@ -1,0 +1,37 @@
+{
+  "id": "new-entrepreneur-cum-enterprise-development-scheme",
+  "name": "New Entrepreneur-cum-enterprise Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "1. Under the scheme, subsidy assistance will be provided by the State Government up to 25% of the project cost (Subject to a maximum limit of ₹75 Lakhs).\n   1. Interest subvention provided at the rate of 3%, throughout the period of repayment.\n   1. Priority in allotment in Small Industries Development Corporation (SIDCO) industrial estates.\n   1. An additional capital subsidy is provided for 10% ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-copy-of-election-id-card-aadhaar-card-copy-of-pan-card-passpor",
+    "if-required"
+  ],
+  "apply_url": "https://msmeonline.tn.gov.in/needs/needs_go.php?id=G.O%20&%20Guidelines#",
+  "source_url": "https://www.myscheme.gov.in/schemes/needs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tamil Nadu State for not less than 3 years.\n   1. The applicant should be a first-generation entrepreneur.\n   1. The age of the applicant should be between 21 to 35 years in general and for special (Women/BC/MBC/SC/ST/Ex-servicemen/Transgender/Differently abled), age relaxation is up to 45 years.\n   1. The applicant should possess a minimum 12th std./diploma/ Industrial Training Institutes (ITI) or vocational training from a recognized Institution, aspiring to become entrepreneurs would be eligible for assistance under the scheme.\n   1. There will be no income ceiling for assistance in setting up projects under this scheme.\n   1. Assistance under the Scheme is available only for new projects sanctioned specifically under the NEEDS.\n   1. Entrepreneurs who have already availed assistance under Prime Minister’s Rozgar Yojana (PMRY), Rural Employment Generation Programme (REGP), Prime Minister’s Employment Generation Programme (PMEGP), Unemployed Youth Employment Generation Programme (UYEGP), Tamil Nadu Adi Dravidar Housing and Development Corporation Limited (TAHDCO) or any other scheme of Government of India or State Government will not be eligible for assistance under the NEEDS.\n   1. Any applicant/entrepreneur who has availed loan for economic activity under Self Help Group/other group activity will also be not eligible.\n   1. The applicant should not be a defaulter to any Commercial Bank / Tamil Nadu Industrial Investment Corporation Limited (TIIC).\n   1. Entrepreneurs availing assistance under this scheme will not be eligible to avail of capital subsidy under any other State Government schemes.\n   1. Project cost should be above ₹10 lakh, and below ₹5 crore.\n   1. The applicant&amp;#39;s contribution should be 10% of the project cost for the General category; and 5% for the Special category.\n   1. Entrepreneurship Development Programme (EDP) training is mandatory.\n\n**Note 01:** Subject to satisfying the eligibility criteria by all the partners, partnership concerns may be considered for assistance under the scheme. However, EDP training will be provided to only one of the partners authorized by other partners in such cases.\n**Note 02:** The value of the land may be considered as the promoter’s contribution, either in part or in full, as per guideline value or market value, prevailing as on the date of filing of the loan application, whichever is lower, subject to the condition that the title of the land is in the name of the entrepreneur/enterprise proposed to be established.",
+  "_criteria_filled": 3
+}

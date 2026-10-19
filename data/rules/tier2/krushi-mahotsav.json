@@ -1,0 +1,26 @@
+{
+  "id": "krushi-mahotsav",
+  "name": "Krushi Mahotsav",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Benefits\nAgriculture Scientists and officers are provided guidance to farmers about Scientific farming, Organic farming, Farm mechanization, Micro Irrigation, Crop Value addition and Agriculture related information as well as provided knowledge of Government Schemes.\nIn addition, to provide free kit distribution to small farmers during Krushi Mahotsav.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-no-documents-are-required-land-documents-to-get-m"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/krushi-mahotsav.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/km",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n   1. All farmers and Female farmers of the state.\n   1. The scheme is available to all farmers in the state of Gujarat.\n   1. There are no restrictions based on caste, religion, or gender.\n   1. Farmers who are interested in learning about the latest agricultural practices and improving their crop yields are encouraged to participate.",
+  "_criteria_filled": 1
+}

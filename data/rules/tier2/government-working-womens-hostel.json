@@ -1,0 +1,31 @@
+{
+  "id": "government-working-womens-hostel",
+  "name": "Government Working Women’s Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Affordable Monthly Rent: ₹300/- per month in Chennai and ₹200/- per month in other Districts. \n- Safe accommodation, food, and electricity charges on a dividing basis.\n- The women can stay for 3 years in the hostel.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "certificates-issued-by-the-employer-income-certificate-certificate-showing-that"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/forms/social_welfare_form6.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gwwh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a working woman. \n1. If the applicant is in Chennai, the income of the applicant should not exceed ₹25000/- per month.\n1. If the applicant is in a district other than Chennai, the income of the applicant should not exceed ₹15000/- per month.",
+  "_criteria_filled": 2
+}

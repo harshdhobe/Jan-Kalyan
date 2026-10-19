@@ -1,0 +1,41 @@
+{
+  "id": "bankable-scheme",
+  "name": "Bankable Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Loan assistance up to ₹2,00,000/- for businesses, industries, and service activities.\n- Maximum loan of ₹1,00,000/- for business and ₹1,00,000/- for the industry/service sector individually.\n- Subsidy of 50% of the loan amount or up to ₹50,000/-, whichever is lower.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbookcancelled-cheque-income-certificate-passport-size-photo-ration-card"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/gscdc/bankebal-scheme?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be from a scheduled caste.\n1. The applicant must be a permanent resident of Gujarat.\n1. The applicant&#39;s age must be between 18 to 60 years.\n1. The applicant must be unemployed.\n1. The applicant must be capable of undertaking business activity**.**1. The applicant must not be a defaulter of any financial institution.\n1. The applicant&#39;s annual income must not exceed ₹1,50,000/- (if residing in urban area) and ₹1,20,000/- (if residing in rural area).\n\n<br>",
+  "_criteria_filled": 4
+}

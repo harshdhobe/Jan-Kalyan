@@ -1,0 +1,33 @@
+{
+  "id": "journalists-medical-welfare-scheme-assam",
+  "name": "Journalist's Medical Welfare Scheme - Assam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "Under this Scheme, one-time financial assistance is to be provided to the Accredited and Recognized Journalist of Assam for treatment.\nThis scheme will also include Recognised Journalists.\nThe Scheme also covers dependent family members of the journalist.\nDepending upon the nature and severity of the ailments/ disease, after taking into consideration all relevant medical records, etc., the Committ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "attested-or-self-attested-copy-of-identity-card-dipr",
+    "identity-card-of-present-organization",
+    "bank-details-like-passbook-front-page-cancelled-cheque-medical-documents-like-ad",
+    "discharge-certificates",
+    "prescriptions",
+    "billsvouchers",
+    "clinical-reports",
+    "etc-a-copy-of-hisher-pan-cardaadhar-card-other-certificates-and-evidence-regardi"
+  ],
+  "apply_url": "https://dipr.assam.gov.in/portlet-innerpage/journalists-medical-welfare-scheme-0",
+  "source_url": "https://www.myscheme.gov.in/schemes/jmws-assam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be an ordinary resident of Assam.\n1. The applicant must be a journalist who is formally accredited / recognised by the DIPR and fulfil all the norms required for the said accreditation/ recognition.\n\n<br>\n\n**General Note:** Grant of financial assistance to any working journalist is not a matter of right. Assistance would be extended depending on the Committees satisfaction as to the eligibility/ merits of the cases and the availability of the financial resources for the purpose. The Committee reserves the right to reject or accept any application without assigning any reasons thereof.\n<br>",
+  "_criteria_filled": 1
+}

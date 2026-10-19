@@ -1,0 +1,46 @@
+{
+  "id": "integrated-social-security-scheme-pension-to-physically-challenged-persons",
+  "name": "Integrated Social Security Scheme: Pension to Physically Challenged Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Ladakh",
+  "scope": "person",
+  "benefit": "**Amount of pension:**  ₹1,000/- per month per beneficiary",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Ladakh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-ie-aadhaar-card-3-proof-of-age-4-pro"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2023/06/2023060595.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isssppcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Union Territory of Ladakh.\n   1. The applicant should be a physically challenged person with a disability of 40% or more (including Blind, Deaf, Dumb).\n   1. The applicant should belong to the Below Poverty Line (BPL) category.\n   1. The applicant&amp;#39;s age should be between 18 and 79 years.\n   1. The applicant should have no source of income.",
+  "_criteria_filled": 5
+}

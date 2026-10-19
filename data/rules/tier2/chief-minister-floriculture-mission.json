@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-floriculture-mission",
+  "name": "Chief Minister Floriculture Mission",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- Govt. will provide planting materials, required quantity of shade net and one garden tool kit as Govt. share.\n\n- The beneficiaries will have to erect the bamboo/steel structure themselves under observation of departmental officers as beneficiary’s share.\n\n- The cost of bed preparation, fertilizer etc. will have to be borne by the beneficiaries.\n\n- Departmental officers will provide complete tech",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-card-a-valid-bank-account-cultivation-of-tc-gerbera-in-agro-s"
+  ],
+  "apply_url": "https://dirhorti.assam.gov.in/sites/default/files/swf_utility_folder/departments/horticulture_medhassu_in_oid_5/menu/schemes/3.1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The component will be implemented in rural and urban areas.\n- The beneficiaries should be of small and marginal category.\n- Women SHGs and unemployed youths should get preference.\n- The beneficiaries should have their own land in their premises or rented land on long term lease.\n- Modern cultivation technology will disseminated by the concerning departmental officers through training and skill teaching.\n- One beneficiary can avail only one unit é›200 sqm.\n- Proper representation from SC and ST farmers should be ensured.\n- Beneficiary selection will be finalized by the District Level Beneficiaries Selection Committee through wide publicity in mass media.\n- The District Level Beneficiaries Selection Committee will monitor the program time to time and DAO/DNO will report the progress of work to HQ every fortnight.",
+  "_criteria_filled": 1
+}

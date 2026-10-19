@@ -1,0 +1,26 @@
+{
+  "id": "bakri-palan-yojana",
+  "name": "Bakri Palan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Self-employment in goat rearing is facilitated by providing beneficiaries with a goat unit comprising 10 female goats and 1 male goat for a period of 10 to 14 months. \n  - The total cost of the unit is ₹70,000/-, of which 90% (₹63,000/-) is funded by the State Government, and the remaining 10% (₹7,000/-) is contributed by the beneficiary.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-caste-certificate-other-supporting-documents-a"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must belong to the General, Scheduled Caste, or Scheduled Tribe category.\n1. The applicant must be included in the SECC (Socio-Economic and Caste Census) category.\n1. The applicant should have an interest in goat rearing.\n\n<br>",
+  "_criteria_filled": 1
+}

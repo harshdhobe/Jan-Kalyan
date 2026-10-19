@@ -1,0 +1,47 @@
+{
+  "id": "interest-help-scheme-for-graduate-doctor-lawyer-technical-graduate",
+  "name": "Interest Help Scheme For Graduate Doctor-Lawyer-Technical Graduate",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Quantum of Subsidy:** 5% interest subsidy on loans up to ₹10,00,000/- taken from a bank.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-identity-and-residence-educational-qualification-certifica",
+    "llb",
+    "or-technical-degree-proof-of-business-registration-as-per-rules-bank-loan-sancti",
+    "aadhaar",
+    "or-any-valid-id-category-certificate-for-non-reserved-category-proof-address-pro",
+    "aadhaar",
+    "or-utility-bill-any-other-documents-if-required"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/Interest-Help-Scheme-for-Graduate-Doctor-Lawyer-Technical-Graduate.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihsfg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must belong to the non-reserved category.\n   1. The applicant&amp;#39;s age must be between 18 and 50 years.\n   1. The business must have the necessary registration as per the rules.\n   1. The applicant must be a doctor/ lawyer/ technical graduate and have an interest in opening their own clinic/ laboratory/ radiology/ clinic or office.\n   1. The applicant must have taken a bank loan for their business.\n   1. The applicant&amp;#39;s annual family income must be ₹6,00,000/- or less.",
+  "_criteria_filled": 4
+}

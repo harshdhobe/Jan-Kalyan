@@ -1,0 +1,28 @@
+{
+  "id": "bhargava-matching-scheme",
+  "name": "Bhargava Matching Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Provides matching funds to double the community&#39;s financial contributions.- **Community Development:** Enhances the overall development and strengthening of the Brahmin community by creating essential facilities.- **Encourages Philanthropy:** Fosters a culture of giving within the Brahmin community.- **Permanent Assets Creation:** Supports the construction of long-term",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "for-asset-constructionpassport-size-photo-of-a-representative-of-the-societytrus",
+    "possession-certificate",
+    "and-photo-of-the-land-project-report-along-with-cost-estimation-statement-for-th"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/bhargava/bhargava.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Individuals, groups of individuals, associations, or organizations representing the Brahmin community can participate in this scheme.\n1. The society/trust must prepare cost estimates for construction projects or a detailed project report for socially relevant activities.\n1. The society/trust must open a separate bank account and deposit 50% of the estimated project cost.",
+  "_criteria_filled": 1
+}

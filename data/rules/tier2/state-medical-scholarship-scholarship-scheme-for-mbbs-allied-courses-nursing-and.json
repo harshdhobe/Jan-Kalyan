@@ -1,0 +1,28 @@
+{
+  "id": "state-medical-scholarship-scholarship-scheme-for-mbbs-allied-courses-nursing-and",
+  "name": "State Medical Scholarship (Scholarship Scheme for MBBS & Allied Courses, Nursing and Paramedical Students)",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "household",
+  "benefit": "- Under the scheme, financial assistance/scholarships will be provided to students according to the course/programme in which they are enrolled.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-forwarding-letter-from-the-concerned-insti",
+    "if-applicable-disability-certificate",
+    "if-applicable-note-01-all-the-documents-should-be-self-attest-submission-of-unat"
+  ],
+  "apply_url": "https://scholarship.nagaland.gov.in/storage/Guidelines//8_Guidelines",
+  "source_url": "https://www.myscheme.gov.in/schemes/smsssmbbsacnps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "A student should fulfill the following criteria to be eligible for this Scholarship:\n\n   1. The applicant/student should be an inhabitant of Nagaland.\n   1. Students selected through NEET/NSEE/State Departmental Examination only and undergoing medical, nursing and paramedical courses shall be eligible to apply.\n   1. Students failing to complete their curriculum within the specified duration of the course (repeaters) shall not be entitled to an additional stipend.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "police-internship-scheme",
+  "name": "Police Internship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Professional Exposure:**\nInterns gain firsthand experience of police administration, law enforcement, investigation procedures, and public dealing.\n**Research Opportunity:**\nEach intern submits an analytical research paper of 3,000 words on an approved topic related to policing.\n**Certification:**\nA Police Internship Certificate is awarded upon successful completion by the respective unit head (",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 26
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-educational-qualification-certificates-previous-interns"
+  ],
+  "apply_url": "https://www.mppolice.gov.in/sites/default/files/2018-05/Police%20Internship%20Plan.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh. \n1. The applicant should be a student enrolled in a recognized educational institution.\n1. The applicant must be between 21 and 26 years of age as of May 1 of the application year.\n1. The applicant should be pursuing one of the following courses:\n\n- Five-Year Integrated Law Course\n- B.E. / B.Tech.\n- Master’s or Postgraduate Program from any UGC-recognized institution\n- MCA / BCA / PGDCA\n- CA / CS\n- Diploma in Police-Related Subjects (e.g., Human Rights, Criminology)\n- Ph.D. or Research in Police-Related Subjects\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

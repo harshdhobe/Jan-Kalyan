@@ -1,0 +1,27 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-for-power-connection-charges",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance for Power Connection Charges",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** 50% of charges paid to distribution licenses for LT (Low Tension)/HT (High Tension) service line, maximum limit up to ₹5,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspartnersdirectors-and-authorized-signatory-estimates-of-power-distribut"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyapcc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. The enterprise must be located outside Gujarat Industrial Development Corporation (GIDC) areas or any approved industrial park.\n   1. The enterprise shall have to apply for reimbursement within one year from the date of payment of charges to the Distribution Licensee for the service line. \n   1. The enterprise must have paid charges to the distribution licensee for any of the following:\n\n    - A new power connection.\n    - Additional load in case of business expansion.\n    - Shifting of connection or service line to a different location.\n\n&amp;gt; **Note:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

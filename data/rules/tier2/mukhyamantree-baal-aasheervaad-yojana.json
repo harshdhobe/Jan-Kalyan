@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantree-baal-aasheervaad-yojana",
+  "name": "Mukhyamantree Baal Aasheervaad Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Assistance under the scheme will be of two types -**\n\n   1. **AfterCare**\n&amp;gt; **Internship** - \n\n&amp;gt; Internships, employment will be provided according to the qualification of the person. Rs. 5,000/- per month will be given during the internship period, which will be payable till the end of the internship period or one year, whichever is less, but in any case it will not be for a perio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-id-card-birth-certificate-death-certificate-of-the-parents-of"
+  ],
+  "apply_url": "https://scps.mp.gov.in/Home/AftercareScheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For After Care**\n\n1. Children residing in childcare institutions continuously for 05 years including the year of release date.\n1. In the case of an orphan, abandoned child, an exemption will be given in the eligibility related to the period required for residence in the childcare institution.\n1. If the child is not getting the benefit of adoption, foster care, but the child is rehabilitated in the child care institution and the period of adoption and foster care will also be counted in the eligibility period.\n1. Financial assistance, internship, vocational training, and education will be given for the prescribed time period or till the age of 24 years, whichever is earlier.\n\n<br>\n\n**For Sponsorship:**\n\n- Children should be below 18 years of age.\n- The child&#39;s parents have died. \n- The child should be living with their relative or guardian \n- Relative/guardian should not come under eligibility under Mukhyamantri covid 19 Bal Seva Yojana,",
+  "_criteria_filled": 1
+}

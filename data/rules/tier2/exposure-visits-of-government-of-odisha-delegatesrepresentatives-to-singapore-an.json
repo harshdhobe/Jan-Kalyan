@@ -1,0 +1,32 @@
+{
+  "id": "exposure-visits-of-government-of-odisha-delegatesrepresentatives-to-singapore-an",
+  "name": "Exposure Visits of Government of Odisha Delegates/Representatives to Singapore and Dubai",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The exposure visits under this scheme offer a unique opportunity for government officials / selected delegates/representatives of Odisha to build their capacity by gaining invaluable experience, expanding their knowledge, and fostering partnerships with international entities. The scheme as such contributes to the overall growth and development of the state in tourism and other fields.\n   1. Th",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-card-2-passport-details-3-pan-card-4-passport-size-photograph",
+    "as-required"
+  ],
+  "apply_url": "https://dot.odisha.gov.in/sites/default/files/2023-12/9303%20Operational%20Guidelines%202023%20for%20Singapore%20and%20Dubai%20Exposure%20Visits.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/evgodrsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The delegate should have completed 18 years of age on the date of travel.\n   1. The delegate should have the requisite physical fitness to undertake the journey, and should not be suffering from any communicable disease as of the date of travel.\n   1. The delegate should be duly nominated by a Department of Government of Odisha.\n\n&gt; **Role and Responsibilities of the Delegates:**\n\n   1. The delegates shall provide correct and true details and documents as may be required by the concerned nominating departments, the Department of Tourism, OTDC, passport authorities, and the visa granting authorities.\n   1. The delegates shall be personally responsible for abiding by the law of the country they will be traveling to under this scheme.\n   1. The delegates shall be personally responsible in case of theft of their belongings during the trip.\n   1. The delegates shall be personally responsible for abiding by the customs and immigration rules of India as well as UAE and Singapore, whichever may be applicable.\n   1. The delegates shall follow the travel advisory issued by the Department of Tourism in letter and spirit and conduct themselves during the trip in a manner that will not tarnish the image of the State of Odisha in a foreign country.",
+  "_criteria_filled": 2
+}

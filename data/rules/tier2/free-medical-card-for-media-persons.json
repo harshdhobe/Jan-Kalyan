@@ -1,0 +1,29 @@
+{
+  "id": "free-medical-card-for-media-persons",
+  "name": "Free Medical Card for Media Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Identification Cards/Certificates will be issued to the eligible media persons for availing the following facilities - \n\n- Free medical facilities to the press correspondents and members of their families in Government hospitals /institutions under the control of the Administration. \n- Free treatment in the Government hospitals /institutions of Puducherry with entitlement of &#39;A-Class&#39; Spec",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativity-and-nationality-certificate-form-ii",
+    "from-an-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-tahsild",
+    "issued-by-the-directorate-of-information-and-publicity",
+    "puducherry-two-passport-size-photographs"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/citizens-charterinfopublicity.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmcmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be a Press Correspondent.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-purchase-of-spectacles-denture-hearing-aid-cbocwwb",
+  "name": "Financial Assistance for Purchase of Spectacles, Denture, Hearing Aid (CBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "person",
+  "benefit": "**Financial Assistance for Purchase of Spectacles, Denture &amp; Hearing Aid:**\n**Sr. No****Name of article****Amount**1Spectacle₹1500/-2Denture₹5000/-3Hearing Aid₹4000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-cbocwpassport-size-photograph-filled-i",
+    "if-any-copy-of-aadhaar-card-of-nominee-bank-details-receipt-of-payment-file-any"
+  ],
+  "apply_url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapsdhacbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards the labour welfare fund should regularly been received by the Board.\n   1. The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.\n   1. The financial assistance will be given on the prescription of the Government Medical Officer/Chief Medical Officer/Principal Medical Officer of any Government Institute in tri-city and once in a lifetime.\n   1. The beneficiary should apply for the benefit of this scheme within one year, with all required documents. \n   1. The financial assistance for the purchase of spectacles, Denture, and hearing aid shall not be given to those beneficiaries who are covered under ESIC.",
+  "_criteria_filled": 1
+}

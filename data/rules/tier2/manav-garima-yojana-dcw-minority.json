@@ -1,0 +1,31 @@
+{
+  "id": "manav-garima-yojana-dcw-minority",
+  "name": "Manav Garima Yojana DCW (Minority)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The primary benefit is the provision of various business tool-kits to eligible beneficiaries so that they can engage in small business activities and become self-employed and financially self-sufficient.\n1. The tool kits are given under the scheme targeted at the minority community.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-certificate-of-prof-course-identity-card-income-c"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/manavgarimaminorityguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must belong to the minority community.\n- The applicant’s family annual income should be ₹ 6,00,000/- or less in general.\n\n<br>",
+  "_criteria_filled": 2
+}

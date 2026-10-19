@@ -1,0 +1,27 @@
+{
+  "id": "pension-scheme-hbocwwb",
+  "name": "Pension Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a registered construction worker is given a pension of ₹3,250/- per month after the age of 60 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pshbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of three years of regular membership before completing the age of 60 years.\n   1. The registered worker should not be availing the pension benefits from any other Department/Board/Corporation of the Haryana Government.\n\n**Note 01:** It is necessary to mention the payment of the registration fee and contribution on the identity card of the registered worker.\n**Note 02:** At the time of registration, it is necessary to attach a copy of the document submitted regarding proof of age.\n**Note 03:** It is necessary to attach the No Objection Certificate issued by the Department of Social Justice and Empowerment.\n**Note 04:** It is mandatory to submit/upload a life certificate every year in the month of November, otherwise, the board will be unable to give a pension.",
+  "_criteria_filled": 1
+}

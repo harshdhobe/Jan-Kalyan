@@ -1,0 +1,26 @@
+{
+  "id": "sindhu-dharshan-yatra-scheme-2016",
+  "name": "Sindhu Dharshan Yatra Scheme 2016",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. The financial assistance will be provided up to the extent of ₹10,000/- or 50% of the actual expenditure per person whichever is less.\n   1. Financial assistance shall be provided to a maximum of 50 (fifty) numbers of pilgrims.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-passport-size-photographs-resident-proofaddress-proof-attested-co"
+  ],
+  "apply_url": "https://haryanatourism.gov.in/News/sindhu-dharshan-yatra-scheme-2016",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdys2016",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the Haryana State.\n   1. The applicant/pilgrim should complete the Yatra through the State Govt./Central Govt./Society and the completion certificate in this regard must be submitted by the State/Central Govt./Society.\n   1. The financial assistance shall be given only once to a pilgrim.",
+  "_criteria_filled": 1
+}

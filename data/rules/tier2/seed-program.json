@@ -1,0 +1,31 @@
+{
+  "id": "seed-program",
+  "name": "Seed Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Free Seed Distribution:** Seed packets containing seeds of bottle gourd, ladyfinger, beans, bitter gourd, ridge gourd, spinach, and cowpea worth ₹50/- are provided free of cost to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-bpl-certificate-any-other-documents-as-r"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/sp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Below the Poverty Line (BPL) category.\n\n<br>",
+  "_criteria_filled": 2
+}

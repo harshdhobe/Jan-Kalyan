@@ -1,0 +1,36 @@
+{
+  "id": "vivah-sahayata-yojana",
+  "name": "Vivah Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "The scheme provides financial assistance of ₹ 30,000/- (Rupees Thirty Thousand Only) rupees for the marriage of two children / female members of the family.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-registered-worker-aadhaar-card-of-the-bride-and-the-groom-re"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be a Worker registered with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.The applicant should be between 18-60 years of age.\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The registered worker should have made continuous contributions for five years. \n1. The bride should be at least 18 years of age. \n1. The groom should be at least 21 years of age.\n1. The scheme is applicable for up to two children / female members of the family.",
+  "_criteria_filled": 3
+}

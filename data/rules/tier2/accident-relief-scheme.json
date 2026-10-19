@@ -1,0 +1,31 @@
+{
+  "id": "accident-relief-scheme",
+  "name": "Accident Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹20,000/- is given to the legal heirs of the household below poverty line.\n\n**NOTE:** Depending upon the nature of the injury sustained and the degree of physical impairment, relief of ₹5,000 to ₹15,000 is given.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ration-card-copy-of-aadhaar-card-first-information-report-fir-death-cert"
+  ],
+  "apply_url": "https://www.tnsocialwelfare.tn.gov.in/website-345/sites/default/files/2022-01/citizen_chart_2017_18.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ars",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The breadwinner of the family, whether male or female, must be an earning member.\n1. The breadwinner&#39;s death was caused by an accident.\n1. The family should belong to the BPL category. \n1. Legal heirs of the deceased primary breadwinner of the family.\n1. The family members engaged in the [44 categories (Page No. 139)](https://www.tn.gov.in/rti/proactive/swnmp/citizen_social_welfare.pdf) of notified employment.",
+  "_criteria_filled": 2
+}

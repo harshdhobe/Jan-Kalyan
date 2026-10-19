@@ -1,0 +1,36 @@
+{
+  "id": "insurance-scheme-for-artisans-component-of-the-development-of-handicrafts-scheme",
+  "name": "Insurance Scheme For Artisans Component of the Development of Handicrafts Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Assistance in the case of Natural Death: ₹20,000/-.\n- Assistance in the case of Death Due to Accident: ₹50,000/-.\n- Assistance in the case of Permanent Total Disability Due to Accident (Loss of Two Eyes or Two Limbs): ₹50,000/-.\n- Assistance in the case of Permanent Partial Disability (Loss of One Eye or One Limb Due to Accident): ₹25,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-age-proof-occupation-proof-conditions-compliance-documen"
+  ],
+  "apply_url": "https://dic.py.gov.in/development-of-handicrafts",
+  "source_url": "https://www.myscheme.gov.in/schemes/isa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a handicraft artisan.\n- The applicant should be a resident of the Union Territory of Puducherry.\n- The applicant should be aged between 18 to 60 years.\n- The applicant should comply with the conditions stipulated under the insurance policy.",
+  "_criteria_filled": 3
+}

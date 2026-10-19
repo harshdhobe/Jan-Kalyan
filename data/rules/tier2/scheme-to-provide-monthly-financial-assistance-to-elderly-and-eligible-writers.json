@@ -1,0 +1,36 @@
+{
+  "id": "scheme-to-provide-monthly-financial-assistance-to-elderly-and-eligible-writers",
+  "name": "Scheme to Provide Monthly Financial Assistance to Elderly and Eligible Writers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Monthly Financial Support:** Eligible elderly writers receive monthly financial assistance as specified by the authority.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-copy-of-aadhaar-card-copy-of-ration-card-first-page-of-cancel"
+  ],
+  "apply_url": "https://gujaratsahityaacademy.com/assets/yojana_rules/6_Vrudha_Arthik_Sahay_Niyamo202526.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spmfaeew",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be 60 years or older.\n  - The applicant must have made a significant literary contribution (e.g., authored books, received awards, or provided literary service).\n  - The applicant must belong to one of the recognized language academies: Gujarati, Hindi, Sanskrit, Sindhi, Urdu, or Kutchi.\n  - The applicant’s annual family income must be below ₹1,20,000 in rural areas and below ₹1,50,000 in urban areas, certified by the Mamlatdar.\n  - The applicant must not be receiving any pension.\n  - The applicant must not already be receiving financial support under similar schemes.",
+  "_criteria_filled": 3
+}

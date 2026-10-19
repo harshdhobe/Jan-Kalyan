@@ -1,0 +1,34 @@
+{
+  "id": "disability-pension-bbocwwb",
+  "name": "Disability Pension (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Eligible registered construction workers under this scheme will receive the following financial assistance:\n\n  - A monthly financial assistance of ₹1,000/- is given to workers with permanent disabilities caused by conditions such as paralysis, leprosy, tuberculosis, or accidents.\n  - A one-time assistance of ₹75,000/- is given to workers in case of permanent total disability.\n  - A one-time assist",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-registration-number-of-worker-passport-size-photograph-proof-of-res",
+    "date-of-admission-and-certificate-related-to-discharge",
+    "if-applicable-medical-bill-countersigned-by-the-doctor",
+    "if-applicable-undertakingdeclaration-any-other-documents-as-required"
+  ],
+  "apply_url": "https://bocwscheme.bihar.gov.in/worker_login",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in building or construction work.\n   1. The worker should be registered with the Bihar Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The worker&amp;#39;s membership with the Board should be active.\n   1. The worker should have a permanent total or partial disability caused by illness or an accident to be eligible for the scheme.",
+  "_criteria_filled": 2
+}

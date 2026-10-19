@@ -1,0 +1,43 @@
+{
+  "id": "disability-pension-hpbocwwb",
+  "name": "Disability Pension (HPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- A pension of ₹500/- month.\n- Additional ₹50,000/- in case the disability is more than 50%.\n- Additional ₹25,000/- in case the disability is less than 50%.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-bank-account-details-copy-of-bank-passbook-age-proof-labour-card-disa",
+    "countersigned-by-the-doctor-if-applicable"
+  ],
+  "apply_url": "https://bocw.hp.nic.in/pdf/pension3539_A1b.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dphpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***For Registration***\n\n1. The applicant should be a resident of Himachal Pradesh.\n1. The applicant should be a Building or Construction Worker.\n1. The age of the applicant should be between 18 and 60 years.\n1. The applicant should have worked in building or construction activities for at least 90 days in the preceding 12 months.\n\n_*The registration should be renewed annually._\n**For Application**\n\n1. The worker should be engaged in building or construction work.\n1. The worker should be registered under the Himachal Pradesh Building and Other Construction Workers Welfare Board (HPBOCWWB).\n1. The worker should have an active membership with the Board.\n1. The worker should be a Person with Disability (PwD).\n1. The disability should have been caused due to an accident or an illness.",
+  "_criteria_filled": 4
+}

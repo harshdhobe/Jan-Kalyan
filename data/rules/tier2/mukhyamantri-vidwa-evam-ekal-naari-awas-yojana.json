@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-vidwa-evam-ekal-naari-awas-yojana",
+  "name": "Mukhyamantri Vidwa Evam Ekal Naari Awas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "- **An assistance amount of ₹1,50,000/- will be given for the construction of the house.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "widowsingle-women-certificate-issued-by-an-authorized-officer-annual-income-cert"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/PDF/Scheme%20Mukhyamantri%20Vidwa%20Evam%20Ekal%20Naari%20Awas%20Yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmvenay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A widow or a single woman should be a permanent resident of Himachal Pradesh.\n1. The single woman&#39;s age should be 40 years or above. \n1. The applicant should not have a private residence or house in a dilapidated condition.\n1. The applicant&#39;s annual family income from all sources does not exceed ₹3,00,000/-. \n1. The applicant should have at least 02 Biswa of land registered in the revenue records for construction of house or in whose favor land has been made available by the government.\n1. The applicant&#39;s family should not receive government assistance for the construction of a house, or the accommodation has not been approved under any other scheme. \n1. The grant amount will be approved only once in 10 years provided that the house has not been destroyed due to a natural disaster.\n1. Preference will be given to widows and single women on the basis of the following preference: -\n\n  - Whose houses were destroyed due to natural calamities like fire, flood, earthquake, etc\n  - Suffers from more than 40 percent disability. \n  - All other eligible candidates.\n\n<br>",
+  "_criteria_filled": 4
+}

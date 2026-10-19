@@ -1,0 +1,31 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-maternity-assistance",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Maternity Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Financial assistance equivalent to 45 days of wages at the Collector Rate is provided to the registered woman driver or conductor.\n- In case the registered beneficiary is male, financial assistance equivalent to 45 days of wages at the Collector Rate is provided to his wife.\n- An additional amount equivalent to 15 days of wages at the Collector Rate is provided as paternity leave compensation to",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-family-identification-number-samagra-member-ide"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-m",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **General Eligibility:**\n\n1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor.\n1. The applicant should hold a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant’s name should be registered on the Samagra Portal.\n\n> **Maternity-Specific Eligibility:**\n\n1. The applicant should be a registered female driver or conductor or the wife of a registered male driver or conductor.\n1. The applicant should be applying for maternity assistance for not more than 2 deliveries.\n1. The applicant should comply with the norms prescribed under the Janani Suraksha Yojana for delivery-related benefits.\n\n<br>",
+  "_criteria_filled": 2
+}

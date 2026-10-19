@@ -1,0 +1,31 @@
+{
+  "id": "assistance-to-persons-with-disabilities-for-purchasefitting-of-artificial-limbsa",
+  "name": "Assistance to Persons with Disabilities for Purchase/Fitting of Artificial Limbs/Appliances",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Financial assistance of up to ₹10,000/- for purchasing artificial limbs/equipment to overcome physical disabilities.\n1. Covers aids like tricycles, crutches, wheelchairs, calipers, hearing aids, blind sticks, smartphones, Jaipur Foot/Shoes/Palm pads, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-domicile-certificate-disability-certificate-aadhaar-card-family-i"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/sap_welfare_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apafale",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a disabled person.\n1. The applicant should be suffering from 40% disability.\n1. The applicant’s family should not be an income tax payer.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "a-scheme-to-provide-assistance-for-building-e-market-facilities-in-market-commit",
+  "name": "A Scheme to Provide Assistance for Building E-Market Facilities in Market Committees",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹1,00,000/- (One Lakh Rupees) per eligible market committee.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-cooperative-market-committee-registration-details-of-the-proposed-e-mar"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/spabem",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Co-operative Market Committees shall be eligible under this scheme.\n   1. The committee must operate within Gujarat.",
+  "_criteria_filled": 1
+}

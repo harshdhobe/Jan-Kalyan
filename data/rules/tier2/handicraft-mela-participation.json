@@ -1,0 +1,27 @@
+{
+  "id": "handicraft-mela-participation",
+  "name": "Handicraft Mela Participation",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Stall Allocation:** Free or subsidized stalls at designated melas.\n**Promotional Support:** Marketing and branding assistance for participants.\n**Sales Platform:** Direct access to customers and bulk buyers.\n**Logistical Aid:** Basic infrastructure (tables, signage) provided at mela venues.\n**Financial Incentives:** Priority for artisans from SC/ST/SEBC/EWS categories.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "artisan-id-card-for-individuals-aadhaar-card-proof-of-residence-caste-certificat",
+    "if-requested-audit-reports-for-organizations"
+  ],
+  "apply_url": "https://craftofgujarat.gujarat.gov.in/Documents/SubDeal__2025-2-13_96.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Individual Artisans**\n\n- The applicant must be a resident of Gujarat.\n- The applicant must possess a valid Artisan ID Card issued by Indext-C or a recognized authority.\n- The applicant must specialize in a traditional handicraft listed under the scheme (e.g., embroidery, pottery, woodwork).\n\n<br>\n\n**For Organizations/SHGs**\n\n- The applicant must be a registered cluster/cooperative society/NGO.\n- The applicant must have a minimum of 10 artisans affiliated with the organization.\n- The applicant must submit audit reports and registration certificates.",
+  "_criteria_filled": 1
+}

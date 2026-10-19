@@ -1,0 +1,41 @@
+{
+  "id": "micro-finance-scheme-credit-line-1-for-minority-community",
+  "name": "Micro Finance Scheme- Credit Line 1 for Minority Community",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under the scheme, small loans of ₹1,00,000/- per beneficiary are provided to members of Self-Help Groups (SHGs), either directly or through the SHGs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=tzJZRI86VQ0gSuPVjduoDA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfs-cl1mc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The age of the applicant should be between 18 and 55 years.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹98,000/- (Rural Area) and ₹1,20,000/- (Urban Area).\n   1. The applicant should belong to a minority community, i.e., Muslims, Sikhs, Christians, Buddhists, Parsis, and Jains.\n   1. In an SHG 75% of members can be from Minority Communities and the remaining 25% members may be from other weaker sections like SC/Handicapped/Minorities etc. in very exceptional cases, groups with up to 60% members belonging to Minority Communities will also be eligible.\n   1. The applicant should have a Parivar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 4
+}

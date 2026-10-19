@@ -1,0 +1,31 @@
+{
+  "id": "widow-bed-scheme-rajasthan",
+  "name": "Widow B.Ed Scheme-Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Financial Assistance : ₹17,880 (Fee Reimbursement).",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-address-proof-copy-bank-passbook-copy-divorce-certificate-copy"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/College_Education/widow/DOC_175_e0b64382-045a-4562-9c5a-437cf9e694d3.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbedrj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. It is mandatory for the candidate to be of Rajasthan origin. \n1. Only women taking B.Ed training will be made beneficiaries.\n1. Applicants must be regular students of the B.Ed training program from any government and recognized private institute in Rajasthan.\n1. It is necessary for the beneficiary woman to be divorced and abandoned.\n1. Women who have obtained a B.Ed degree earlier by taking admission in B.Ed course will be ineligible.\n1. 75 percent attendance of women in the concerned institute will be mandatory.\n1. The female candidate should not be a beneficiary of any other scholarship or equivalent scheme of the Government.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "smile-comprehensive-rehabilitation-for-welfare-of-transgender-persons-skill-deve",
+  "name": "SMILE - Comprehensive Rehabilitation For Welfare Of Transgender Persons – Skill Development And Training",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Free of cost training is provided to trainees. \nStipend at Rs. 1000 per month per trainee in case of Non-residential training \nPost placement assistance is also provided to the transgender candidate based on achievement of 80% attendance in the skill training programme.\nTrainees shall also be provided assistance/facilitated for wage/self-employment by the Training Institutions.\nNoteEach candidate ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "transgender-identity-certificate-issued-through-national-portal-for-transgender"
+  ],
+  "apply_url": "https://transgender.dosje.gov.in/Applicant/Registration/DisplayForm3",
+  "source_url": "https://www.myscheme.gov.in/schemes/smile-skill-and-training",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The Transgender persons will be selected as per criteria indicated below:-\n<br>\n\n-  Transgender persons having a valid Transgender certificate &amp; Identity card issued by the National portal for Transgender persons would be automatically eligible to attend the skill development training of their choice on priority.\n-  The beneficiaries should belong to the Transgender community as notified by the Government of India.\n-  The Beneficiary shall mandatorily hold a Transgender Certificate issued by the National Portal for Transgender Persons, Ministry of Social Justice &amp; Empowerment. [https://transgender.dosje.gov.in/](https://transgender.dosje.gov.in/)-  The beneficiaries should not be receiving such benefits from any other Centre/ State scheme.\n-  There is no income criterion for selection in the skill development programme.\n-  Transgender persons between the ages of 18-45 years are eligible for undergoing skill development training programmes.\n-  The skill development training programmes for the target group are free of cost.\n\n<br>\n\n#### Note\nCandidates Are Eligible To Undergo Training Under Skill Development Training Programme Only Once And Can Participate Only In One Skill Development Training Programme.",
+  "_criteria_filled": 2
+}

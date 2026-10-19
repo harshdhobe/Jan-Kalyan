@@ -1,0 +1,26 @@
+{
+  "id": "natural-death-and-funeral-assistance",
+  "name": "Natural Death and Funeral Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Financial Assistance:**\n\n- For Funeral ₹2,000/- \n- For Natural Death ₹15,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "original-registration-card-of-the-folk-artist-death-certificate-of-the-folk-arti"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ndafa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the Nominee of the registered folk artist.\n1. The registered folk artist should have died a natural death.",
+  "_criteria_filled": 1
+}

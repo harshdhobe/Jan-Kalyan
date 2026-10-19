@@ -1,0 +1,28 @@
+{
+  "id": "incentives-to-encourage-purchases-from-local-suppliers-scheme",
+  "name": "Incentives To Encourage Purchases From Local Suppliers Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement to the extent of 2% of the cost of local purchases consumed by the eligible unit.\n- The maximum reimbursement is limited to ₹5,00,000/- per year.\n\n##### ***Intended Use/Definition of Purchase***\n\n- The local purchases mean every industrial input, including consumables, purchased from Goa (whether manufactured in Goa or not) except service.\n- The value excluding Goods and Services T",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "a-self-attested-copy-of-registration-under-umbrella-scheme-affidavitself-declara",
+    "that-the-purchases-are-made-locally-within-goa-and-have-been-used-as-raw-materia",
+    "memorandum-of-association-articles-of-association-as-the-case-may-be-copy-of-res"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/07/Incentives-to-encourage-purchases-from-local-supplies-scheme-2017.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ieplss-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The industrial unit must be under the white, green, or orange category.\n- The industrial unit must be a micro/small or medium manufacturing unit.\n- The applicant must purchase a minimum 50% (in value) of its raw material/ component/ tools etc. (input requirement for production) from local sources/ manufacturers.\n- The applicant must be registered under the Umbrella Scheme (Goa State Incentives to Encourage Investments Scheme).\n- The applicant must not have claimed similar benefit under any other scheme/program of the Government of Goa.\n\n<br>",
+  "_criteria_filled": 1
+}

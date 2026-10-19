@@ -1,0 +1,26 @@
+{
+  "id": "mushroom-kit-vitaran",
+  "name": "Mushroom Kit Vitaran",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Subsidized Mushroom Kits:** Kits provided at ₹60/- each with a 90% subsidy.  - **High-Quality Materials:** Kits weigh 5 kg and include 100 grams of superior mushroom spawn.  - **Training Support:** 2-days group training is provided, with a daily allowance of ₹1000/- per farmer.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HORTMIS/InputBasedStateScheme/OnlineAppMushroomKitState.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkvb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n1. The applicant should be a farmer.\n1. The applicant must be registered on the DBT portal.\n1. Farmers who have taken advantage of the scheme in the last three years (202-22, 2022-23 and 2023-24) will not be given the benefit of the scheme this year.\n\n<br>\n\n> **Note:**  \n\n1. The benefit of this scheme will be given only once to one member of the family.\n1. Beneficiaries will be selected on first come first serve basis.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

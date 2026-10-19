@@ -1,0 +1,41 @@
+{
+  "id": "vehicle-loan-scheme-gtkvn",
+  "name": "Vehicle Loan Scheme (GTKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Under this scheme, beneficiaries can avail of a loan of up to ₹4,00,000/- for the purchase of commercial vehicles such as auto-rickshaws, loading rickshaws, Maruti Eeco, etc.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-income-certificate-passport-size-phot"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsgtkvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to Thakor or Koli community.\n1. The applicant&#39;s age should be between 21 to 50 years. \n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should intend to purchase an approved transport vehicle for commercial use.\n\n<br>",
+  "_criteria_filled": 4
+}

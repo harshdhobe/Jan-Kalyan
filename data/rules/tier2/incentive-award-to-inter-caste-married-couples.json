@@ -1,0 +1,28 @@
+{
+  "id": "incentive-award-to-inter-caste-married-couples",
+  "name": "Incentive Award to Inter-Caste Married Couples",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "An award with a value of ₹ 50,000/- (₹ 20,000/ - in cash, and ₹ 30,000/- in the form of a National Saving Certificate).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-of-the-bride-aadhaar-card-of-the",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/iaicmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The bride and groom should be citizens of India.\n- The marriage should be performed between Scheduled Caste and other communities. \n- The marriage should be registered.\n- The marriage should be taking place for the first time between the bride and groom.\n- Both bride and groom or either of them should be a native of Puducherry.\n- The application should be submitted within 60 days from the date of performance of marriage.",
+  "_criteria_filled": 1
+}

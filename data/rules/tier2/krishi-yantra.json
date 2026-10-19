@@ -1,0 +1,28 @@
+{
+  "id": "krishi-yantra",
+  "name": "Krishi Yantra",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Grant Details :** Details of grant payable scheme-wise and category-wise of instruments\n\n<br>\n\nS. No.Mechanization (Tractor/Power Operated Equipment)Horsepower RangeSC/ST/small/marginal and women farmersOther category farmers1Seed drill/seed cum fertilizer drill20 B.H.P. With a capacity of less than 35 B.H.P. to a capacity of more than50 percent of the price or maximum ₹15,000-₹28,000 whicheve",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-jan-aadhar-card",
+    "caste-certificate",
+    "copy-of-tractor-registration-certificate-rc-mandatory-for-tractor-driven-equipme"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/ky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Own agricultural land in his/her own name.\n1. In case of undivided family, the applicant&#39;s name must be in the revenue record.\n1. For tractor-operated agricultural implements, the tractor must be registered in the applicant&#39;s name.\n1. Not have received a grant for the same type of agricultural implement in the last three years.\n1. Not have received a grant for more than 3 different types of agricultural implements in a financial year.",
+  "_criteria_filled": 1
+}

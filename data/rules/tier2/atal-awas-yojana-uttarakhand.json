@@ -1,0 +1,31 @@
+{
+  "id": "atal-awas-yojana-uttarakhand",
+  "name": "Atal Awas Yojana - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "**Financial Assistance**\n\n- ₹1,30,000/- for hilly areas\n- ₹1,20,000/- for plain areas\n\n> **Note:** The amount is disbursed in 3 installments to construct a house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-caste-certificate-income-certificate-aadhaar-card-cbs-l"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aayu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Uttarakhand.\n1. The applicant should belong to a Scheduled Caste family.\n1. The applicant should belong to the Below Poverty Line (BPL) category or have an annual income not exceeding ₹48,000/-.\n1. The applicant should not have their own house.\n1. The applicant should have their own land for constructing a house.",
+  "_criteria_filled": 2
+}

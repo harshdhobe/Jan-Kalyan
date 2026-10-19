@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-scheme-uttarakhand-agricultural-production-marketing-board-uttarakha",
+  "name": "scholarship scheme - Uttarakhand Agricultural Production & Marketing Board, Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Students pursuing courses in Agriculture, Forestry, Fisheries, Horticulture and other related fields at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar; R.M.P. (P.G.) College, Gurukul Narsan, Haridwar; V.C.S.G. Uttarakhand University of Horticulture and Forestry, Bharsar, Pauri Garhwal; and the College of Horticulture, V.C.S.G. Uttarakhand University of Horticulture and For",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-enrollment-in-an-eligible-college-certificate-from-the-concerned-mandi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a student.\n1. The applicant must be the son or daughter of a small or marginal farmer, agricultural laborer, or mandi worker, or their dependent.\n1. The applicant’s total annual family income must not exceed ₹3,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

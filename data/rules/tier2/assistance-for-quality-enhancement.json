@@ -1,0 +1,27 @@
+{
+  "id": "assistance-for-quality-enhancement",
+  "name": "Assistance for Quality Enhancement",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**One-Time Financial Assistance:**\n\n- Reimbursement of up to 50% of the total cost incurred for obtaining quality certifications (e.g., BIS, FSSAI), system certifications (e.g., ISO, ZED), and Intellectual Property Rights (IPRs), subject to a maximum of ₹3,00,000/- per unit.\n\n**Note:** Micro and Small Enterprises may acquire such certifications from any government agency or an agency authorized by",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-certificate-of-incorporationpartnership-d",
+    "recent-sale-bill-bank-account-details-cancelled-cheque-and-pan-card-undertakingd"
+  ],
+  "apply_url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afqe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All Micro and Small Enterprises existing anywhere in Rajasthan will be required to comply with the following conditions to avail benefits under the scheme:\n\n   1. The enterprise will be required to have Udyam Registration Certificate (URC) as per MSME Development Act 2006.\n   1. The enterprise should apply for the one-time reimbursement within 12 months of obtaining the quality certification/(s).\n   1. Cost of certification will include documentation, testing, accreditation fee, consultation fee, and calibration charges (till the enterprise obtain the certificate), application fee, license fee and other relevant fees.\n   1. Certification should be related to the product or process of the enterprise.\n   1. The enterprise should be in commercial production at the time of disbursement and the assistance shall not be released to the closed unit.\n   1. One MSME enterprise can apply only once under the scheme.",
+  "_criteria_filled": 1
+}

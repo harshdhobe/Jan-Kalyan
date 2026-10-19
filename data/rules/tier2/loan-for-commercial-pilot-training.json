@@ -1,0 +1,26 @@
+{
+  "id": "loan-for-commercial-pilot-training",
+  "name": "Loan For Commercial Pilot Training",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Monetary Benefit**\n\n- Loan of up to ₹25,00,000 or the actual cost of training, whichever is lower.\n\n**Interest Rate**\n\n- 4% per annum.\n\n**Penalty Interest**\n\n- 2.5% per annum on delayed repayments.\n\n**Beneficiary Contribution**\n\n- No contribution is required from the applicant.\n\n**Repayment Terms**\n\n- Repayment begins 1 year after the loan disbursement date.\n- Repayment period is 144 monthly ins",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-affidavit-birth-certificate-certificate-of-professional-course-r"
+  ],
+  "apply_url": "https://adijatinigam.gujarat.gov.in/assets/downloads/SchemesDetailsofGTDC08102024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lfcpt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must be a student.\n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must have passed Matriculation, Higher Secondary, Indian School Certificate, or an equivalent examination.\n1. The applicant must have secured admission to a recognized commercial pilot training institute.\n1. The applicant should have passed Higher Secondary Certificate (HSC).\n\n<br>",
+  "_criteria_filled": 1
+}

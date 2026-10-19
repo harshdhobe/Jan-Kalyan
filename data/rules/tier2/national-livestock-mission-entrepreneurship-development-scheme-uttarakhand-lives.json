@@ -1,0 +1,26 @@
+{
+  "id": "national-livestock-mission-entrepreneurship-development-scheme-uttarakhand-lives",
+  "name": "National Livestock Mission: Entrepreneurship Development Scheme - Uttarakhand Livestock Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, employment generation is promoted through entrepreneurship development in the small ruminants, poultry, piggery, and the fodder sector.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-must-submit-all-necessary-documents-as-per-the-guidelines-specified-b"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nlmeds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must belong to one of the following eligible categories:\n\n  - Individual Entrepreneur\n  - Self Help Group (SHG)\n  - Farmer Producer Organization (FPO)\n  - Farmers Cooperative (FCO)\n  - Joint Liability Group (JLG)\n  - Section 8 Company\n\n<br>",
+  "_criteria_filled": 1
+}

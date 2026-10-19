@@ -1,0 +1,26 @@
+{
+  "id": "male-pig-distribution-scheme",
+  "name": "Male Pig Distribution Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "90% of the unit cost (purchase price) or a maximum subsidy of ₹3,500/-, whichever is lower (for Scheduled Caste (SC) and Scheduled Tribe (ST)  category).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "id-proof-bank-account-details-caste-certificate-any-other-documents-if-required"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/ahd/state_schemes/3_anudan_par_nar_sukar_vitran.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste / Scheduled Tribe category.\n1. The applicant should be a resident of Chhattisgarh.\n1. The beneficiary should purchase a male pig of the improved breed (Middle White Yorkshire).\n1. The pig should be between the 6th months the 1st year of age.\n1. The purchase should be made from a Government-rearing project or a local authorized source.",
+  "_criteria_filled": 1
+}

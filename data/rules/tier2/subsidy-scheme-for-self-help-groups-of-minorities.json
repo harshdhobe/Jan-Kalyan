@@ -1,0 +1,46 @@
+{
+  "id": "subsidy-scheme-for-self-help-groups-of-minorities",
+  "name": "Subsidy Scheme for Self-help Groups of Minorities",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Subsidy Amount:** 50% of the unit cost or a maximum of ₹2,00,000/- to the self-help groups.\n<br>\n\n**NOTE:** \n\n- The subsidy will be adjusted against the repayment of the loan taken by the SHG from recognized financial institutions.\n- SHGs focusing on good internal loan repayment will be given higher priority for the subsidy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-of-each-member-of-the-shg-minority-certificate-of"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssshgm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The women in the Self-Help Groups (SHGs) should belong to the minority community.\n1. All SHG members must be permanent residents of Karnataka.\n1. The number of women in the Self-Help Group should be between 10 and 20.\n1. Only one member per family is allowed in a women’s Self-Help Group.\n1. The family income of the members of the women’s Self-Help Group should not exceed ₹6,00,000/-.\n1. The age of the members of the women’s Self-Help Group should be between 18 and 55 years.\n1. The women’s Self-Help Group must be registered with the Deputy Registrar.\n1. Members of the Self-Help Group or their family members should not be employees of the State/Central Government.\n1. Members of the Self-Help Group or their family members should not have availed of any loan or subsidy from the corporation in the last 5 years, except for the Arivu or foreign education loan schemes.\n1. Members of Self-Help Groups should not be receiving support from the corporation.\n1. The women’s Self-Help Group should hold regular meetings, with at least one meeting per month.\n1. Self-Help Groups must be operational for at least 6 months to qualify for a corporation subsidy.\n1. Self-Help Groups should maintain adequate bookkeeping records.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 5
+}

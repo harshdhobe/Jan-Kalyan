@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-thrust-area-industries-under-motivation-of-entreprene",
+  "name": "Capital Investment Subsidy: Thrust Area Industries\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Subsidy on the Investments on Plant and Machinery**\n\n- 20% subject to a maximum of ₹20,00,000/- for the large and medium enterprises.\n- 35% subject to a maximum of ₹30,00,000/- for the small and micro enterprises.\n\n<br>\n\n> **Number of Installments**\n\nThe subsidy shall be disbursed in a single instalment.\n**NOTE:** Where due to paucity of funds in a particular financial year or for such other r",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsentrepreneurs-memorandum-part-2-uam-pmt-registration-commenceme",
+    "an-affidavit-stating-that-the-subsidy-has-not-been-availed-of-from-the-central-g"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cistai-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be a Thrust Area Industry (Electronic Industries, Bio-technology Industries, Food Processing Industries, Agro Processing Industries Including Marine Products, Leather Products and Footwear Industries, Light Engineering Industries Including Auto Components, Textiles Industries Including Garments, New thrust area industries which have started production on or after 3rd April 2003).",
+  "_criteria_filled": 1
+}

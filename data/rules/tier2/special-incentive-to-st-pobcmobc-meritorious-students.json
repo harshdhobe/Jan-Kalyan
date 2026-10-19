@@ -1,0 +1,26 @@
+{
+  "id": "special-incentive-to-st-pobcmobc-meritorious-students",
+  "name": "Special Incentive to ST (P)/OBC/MOBC Meritorious Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "> **Financial Assistance**\n\n- ₹10,000/- for students passing Matriculation (Class X) with 80% or above.\n- ₹15,000/- for students passing 10+2 with 75% or above.\n- ₹20,000/- for Graduation students with 70% or above.\n- ₹25,000/- for Post Graduation students with 65% or above.\n\n<br>\n\n> **Disbursement Conditions**\n\n- Benefits are granted on a first-come, first-served basis, subject to fund availabili",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-marksheet-of-matriculation102graduationpost-graduation-bank-ac"
+  ],
+  "apply_url": "https://directorwptbc.assam.gov.in/sites/default/files/swf_utility_folder/departments/directorate_wpt_uneecopscloud_com_oid_4/menu/document/application_form_degree_p.g_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sistpomms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant must belong to the Scheduled Tribe (Plain) / Other Backward Class / More Other Backward Class community of Assam.\n2.  The applicant must qualify as one of the following:\n\n- Secured 80% or above in Matriculation (Class 10th).\n- Secured 75% or above in 10+2 examination.\n- Secured 70% or above in Graduation.\n- Secured 65% or above in Post Graduation.\n\n_*The applicant cannot claim the benefit as a right; approval depends on fund availability and Selection Committee discretion._",
+  "_criteria_filled": 1
+}

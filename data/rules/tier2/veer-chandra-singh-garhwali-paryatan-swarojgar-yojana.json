@@ -1,0 +1,26 @@
+{
+  "id": "veer-chandra-singh-garhwali-paryatan-swarojgar-yojana",
+  "name": "Veer Chandra Singh Garhwali Paryatan Swarojgar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, both vehicle items (ordinary bus, taxi, max, electric bus) and non-vehicle items (hotel/paying guest scheme, construction of motor garage/workshop, establishment of fast food centres, establishment of Sadhna Kutir Yoga Meditation centres, adventure activities, establishment of modern tourist information centres with P.C.O. facility, development of tented residential facilities, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-aadhaar-linked-mobile-number-permanent-residence-certificate-recent"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vcsgpsyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. To avail the benefits of this scheme, the applicant must be a native or permanent resident of Uttarakhand.\n   1. If land is required for implementing the scheme, the applicant must either be the owner of the land or, if the land is in the name of a close relative, the mortgage of the land will be acceptable as priority security. If the landowner becomes a partner with the applicant as a co-borrower or guarantor, the grant amount will be payable only to the applicant. \n   1. The applicant can also avail the benefits of the scheme on leased land, provided the lease period exceeds the loan repayment period and the applicant is not a defaulter of any bank or financial institution.\n   1. Definition of Unemployed - an unemployed person is one who is not currently engaged in any business, enterprise, or profession.\n\n<br>",
+  "_criteria_filled": 1
+}

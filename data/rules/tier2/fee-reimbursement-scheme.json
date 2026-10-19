@@ -1,0 +1,31 @@
+{
+  "id": "fee-reimbursement-scheme",
+  "name": "Fee Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "**Course group-wise maximum amount payable for fee reimbursement**\n\n  - **In Group -1**, the maximum payable annual fee reimbursement is Rs. 50,000/- under the following course :\n\nDegree and Master Degree Courses, M. Fil.-Ph.D., Courses of all medical therapies, Technology, Engineering, Planning, Architecture, Design, Fashion Technology, Agriculture, Animal Husbandry, Allied Sciences, Business Fin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-caste-certificate-previous-course-certificate-applicant-photograph-annua"
+  ],
+  "apply_url": "https://www.backwardwelfareup.gov.in/en/page/prematric",
+  "source_url": "https://www.myscheme.gov.in/schemes/frs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Native and under study in Uttar Pradesh.\n   1. The annual income of the parents/guardians of the student is up to Rs. 2 Lakh.\n   1. Students belonging to Other Backward Classes studying in all the government schools, aided and recognized educational institutes of the state, based on the Cut-Off merit of marks percentage of last year (up to the budget availability), are eligible.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,33 @@
+{
+  "id": "intensive-fisheries-development-programme-subsidy-on-insurance-premium-for-shrim",
+  "name": "Intensive Fisheries Development Programme - Subsidy on Insurance Premium for Shrimp Crop Insurance",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- 50% subsidy on the insurance premium paid for shrimp crop insurance.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-agreement-deed-between-fish-farmer-and-fisheries-department-date-of",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-gst-billsreceiptsvouchers"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=53qw4NEGJqrtC0USZo3ijw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/soipfsci",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should be a farmer and involved in shrimp farming.\n1. The applicant should possess a valid Parivar Pehchan Patra (PPP ID).\n1. The applicant should be at least 18 years of age.\n\n<br>",
+  "_criteria_filled": 2
+}

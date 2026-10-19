@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-to-purchase-outboard-motor-of-2hp-to-5-hp-for-fitting-to-th",
+  "name": "Financial Assistance to Purchase Outboard Motor of 2HP to 5 HP for Fitting to the Fishing Canoe",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **For General Category**\n\n50% subsidy, limited to ₹30,000 on a unit cost of ₹60,000 (excluding GST).\n> **For SC/ST/Woman Category**\n\n60% subsidy, limited to ₹36,000 on a unit cost of ₹60,000 (excluding GST).\n**NOTE 1:** The financial assistance is provided for only 01 Outboard Motor for fitting to the fishing canoe of below 26 feet.\n**NOTE 2:** The beneficiary can avail of the scheme every 5 yea",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "vessel-registration-certificate-vrc-issued-by-the-captain-of-ports-or-the-direct",
+    "government-of-goa",
+    "duly-incorporating-the-details-of-the-outboard-motor-purchased-river-gill-net-re"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2023/07/CitizenCharter-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatpomo2t5ffttfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a traditional fisherman by birth or profession.\n- The applicant should be a resident of Goa.\n- The applicant&#39;s Fishing Canoe should be registered with the Department of Captain of Ports, Government of Goa.",
+  "_criteria_filled": 1
+}

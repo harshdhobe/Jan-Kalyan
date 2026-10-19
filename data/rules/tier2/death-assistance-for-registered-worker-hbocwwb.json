@@ -1,0 +1,26 @@
+{
+  "id": "death-assistance-for-registered-worker-hbocwwb",
+  "name": "Death Assistance For Registered Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. The financial assistance of ₹2,00,000/- will be given to the nominee/legal heir/dependent family members of the registered worker on his natural death.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-nomineelegal-heirs-passport-size-photograph-proof"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/97",
+  "source_url": "https://www.myscheme.gov.in/schemes/darw-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased construction worker should have been registered with the Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The deceased construction worker should have held an active regular membership.\n   1. The only person who is a legal heir/dependent family member of the deceased registered worker is eligible to apply under the scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pension-scheme-for-grade-ii-deformed-leprosy-patients",
+  "name": "Pension Scheme for Grade II Deformed Leprosy Patients",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Pension of ₹2,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-income-certificate",
+    "issued-by-the-local-dcmsdm-not-applicable-for-bpl-family-passport-size-photograp"
+  ],
+  "apply_url": "https://slsa.tripura.gov.in/sites/default/files/SW%20%26%20SE_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psfgdlp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura. \n1. The applicant should be affected with Leprosy Grade II.",
+  "_criteria_filled": 1
+}

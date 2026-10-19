@@ -1,0 +1,32 @@
+{
+  "id": "simon-sing-horo-special-post-matric-scholarship",
+  "name": "Simon Sing Horo Special Post-Matric Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "The benefit is a one-time incentive of ₹10,000/- each.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-maximum-50-kb-in-jpegjpgpng-format-signature-maximum-20-kb-i",
+    "maximum-100-kb-in-jpegjpgpng-format-to-be-submitted-by-parentguardian-admissionf"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sshspms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi Community.\n- The applicant must have passed one of the following examinations - \n\n         (a)   High School Leaving Certificate (HSLC) examinations from the Board of Secondary Education (SEBA) or an equivalent educational board recognized by the Government of Assam during the current year.\n         (b)   The applicant must have passed the Higher Secondary School Leaving Certificate (HSSLC) examinations in any stream from the Assam Higher Secondary Education Council (AHSEC) or an equivalent educational board recognized by the Government of Assam during the current year.\n\n- The applicant&#39;s family income must not exceed ₹5,00,000/- per annum.\n\n****The applicant applying for this incentive scheme shall also be eligible for the normal Post-Matric Scholarship, Financial Assistance for Higher Studies, and Financial Assistance for Auxiliary Nurse Midwife (ANM)/General Nursing and Midwifery (GNM)/Technical Courses, if eligible, in the same year.***\n<br>",
+  "_criteria_filled": 2
+}

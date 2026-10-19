@@ -1,0 +1,28 @@
+{
+  "id": "doodh-sanjeevani-yojana",
+  "name": "Doodh Sanjeevani Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> ***For the Students (Education Department)***\n\n    ◦ The scheme aims to provide nutritious food to the students.\n    ◦ The students get 200 milliliters of flavoured milk per day.\n    ◦ The milk provided is fortified with added 3% fat, 24 grams carbohydrate, 7 grams protein, Vitamin A 500 International Units, and Vitamin D 40 International Units.\n    ◦ This provision is served five days in a week",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "the-benefits-fortified",
+    "flavored-milk-are-provided-directly-at-the-premises-schools-or-anganwadi-centers",
+    "therefore-any-formal-submission-of-supporting-documents-is-not-required"
+  ],
+  "apply_url": "https://tribal.gujarat.gov.in/doodh-sanjeevani-yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsy-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "For the Students\n    ◦ The student must be studying in an elementary school.\n    ◦ The student must be studying in a Balvatika or in Standard 1st to 8th.\n    ◦ The student must be a studying in a Government, Grant-in-Aid, or Primary School located in one of the 28 talukas of the developing tribal areas of Gujarat.\n<br>\n\nFor Women &amp; their Child\n    ◦ The applicant must be a child registered at an Anganwadi center between 6 months and 6 years of age.\n    ◦ The applicant must be a pregnant mother/lactating mother registered at an Anganwadi center.\n<br>",
+  "_criteria_filled": 1
+}

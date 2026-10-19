@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-women-and-girl-acid-attack-victims",
+  "name": "Financial Assistance To Women And Girl Acid Attack Victims",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "The Financial Assistance will be in the multiples of the monthly pension under the &quot;Divyang Pension&quot; scheme of the Govt. of Haryana:\n\n- 2.5 times the monthly Pension, if the Percentage of Disability is between 40% and 50%.\n- 3.5 times the monthly Pension, if the Percentage of Disability is between 51% and 60%.\n- 4.5 times the monthly Pension, if the Percentage of Disability is greater th",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-issued-by-the-medical-board-at-the-district-level-where-the"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032276-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawgav",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Haryana.\n- The applicant should be a woman/ girl.\n- The applicant should have suffered disfigurement of a part of her body or should have become disabled due to an attack by acid or a similar corrosive substance.\n- The acid attack should have happened on or after 2nd May 2011.\n- The applicant should have been residing in Haryana for at least 3 years since the acid attack.",
+  "_criteria_filled": 2
+}

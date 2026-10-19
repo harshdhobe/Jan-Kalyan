@@ -1,0 +1,31 @@
+{
+  "id": "supply-free-laptops-to-visually-impaired-students-pursuing-higher-education",
+  "name": "Supply Free Laptops to Visually Impaired Students Pursuing Higher Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The Director, SSEPD shall distribute the laptops to the students on proper identification in camps organized in different regions of the State in presences of public representatives and Government Officers.\n   1. The JAWS Software for visually impaired students will be installed in the laptops.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-aadhar-scan-copy-scan-copy-applicant-photo-recommendation"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-01/GUIDELINE%20ON%20FREE%20LAPTOP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sflvisgpg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Odisha state.\n   1. The applicant must have a disability of 40% and above. \n   1. The applicant must be pursuing 1st year and above of the professional courses after +2, Under Graduate or Post Graduate course including M.Phill, Phd, Law, Management, Medicine and other Technical courses.",
+  "_criteria_filled": 2
+}

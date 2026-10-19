@@ -1,0 +1,32 @@
+{
+  "id": "pension-scheme-bbocwwb",
+  "name": "Pension Scheme (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, registered construction workers receive a monthly pension of ₹1,000/- after attaining the age of 60 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-bbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://bocwscheme.bihar.gov.in/worker_login",
+  "source_url": "https://www.myscheme.gov.in/schemes/psbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in building or construction work.\n   1. The worker should be registered with the Bihar Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The worker should have maintained continuous membership with the Board for a minimum of five years.\n   1. The worker should be 60 years of age or older.\n   1. The worker should not be receiving pension benefits under any other social security scheme.",
+  "_criteria_filled": 2
+}

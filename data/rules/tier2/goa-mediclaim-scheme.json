@@ -1,0 +1,39 @@
+{
+  "id": "goa-mediclaim-scheme",
+  "name": "Goa Mediclaim Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**The Nature of Sickness along with its Permitted Ceiling Limit for the Super-Specialty Treatment is given below -** \n\n- Continuous Ambulatory Peritoneal Dialysis (CAPD) Treatment: ₹15,000/- per month\n- Dialysis: ₹15,600/- per month @ ₹1,300/- per dialysis for 12 dialysis\n- Plastic Surgery: ₹1,50,000/-\n- Intensive Care Unit (ICU), Neonatal Intensive Care Unit (NICU), Pediatric Intensive Care Unit ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-from-a-treating-doctor-either-from-the-goa-medical-college",
+    "bambolim",
+    "or-hospicio-hospital",
+    "margao",
+    "or-asilo-hospital",
+    "mapusa-either-the-income-certificate-in-the-prescribed-form-b-from-the-concerned",
+    "goa-medical-college",
+    "bambolim-along-with-photocopy-passport-size-recent-photograph-of-the-patient-dec",
+    "a-photocopy-of-the-election-card-of-either-parent-deen-dayal-swasthya-seva-yojan"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/05/Goa-Mediclaim-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Goa.\n- The applicant should be residing in Goa for 15 years, figuring in the voters&#39; list and holding a permanent ration card. \n- The income of the applicant should be less than ₹1,50,000/- per annum. However, retired state government employees are eligible irrespective of their income.\n- The applicant should require a facility that is not available in a Government Hospital of Goa (including Goa Medical College, Bambolim and District Hospitals). However, for NICU, Ventilatory Support and Kidney Dialysis, the patient may opt for any empanelled hospital even if the facilities are available in a Government hospital.\n- The applicant should be suffering from a sickness/ailment that requires one of the following treatments - Continuous Ambulatory Peritoneal Dialysis (CAPD), Dialysis, Plastic Surgery, Intensive Care Unit (ICU), Neonatal Intensive Care Unit (NICU), Pediatric Intensive Care Unit (PICU), Trauma Care, Coronary Artery Bypass Grafting (CABG) / Percutaneous Transluminal Coronary Angioplasty (PTCA) (Angiography &amp; Angioplasty), Open Heart Surgery (Valve Replacement, Mitral Valve Replacement (MVR), Ventricular Septal Defect (VSD), Atrial Septal Defect (ASD)), Kidney Transplantation, Neuro Surgery, Radiotherapy / Chemotherapy (Cancer), Cochlear Implant, Spastic Child, Cerebral Palsy, Skeletal Deformities, and Bone Marrow Transplant.",
+  "_criteria_filled": 2
+}

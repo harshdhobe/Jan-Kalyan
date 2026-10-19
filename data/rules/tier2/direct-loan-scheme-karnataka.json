@@ -1,0 +1,36 @@
+{
+  "id": "direct-loan-scheme-karnataka",
+  "name": "Direct Loan Scheme Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- Financial assistance with a 50% subsidy and 50% loan.\n- Total unit cost is ₹1,00,000/-.\n- Loan repayment in 24 equal installments with a 4% interest rate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 30000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-with-rd-number-annual-income-certificate-ration-c"
+  ],
+  "apply_url": "https://schemes.lidkar.com/schemes/self-employment-programs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dlsk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leather artisans.\n1. The applicant should belongs to sub-castes Arundathiyar, Chammadiya, Chamar, Chambar, Chamagar, Madar, Madig, Madiga, Mini Madig, Jambavalu, Haralayya, Machigar, Mochigar, Mochi, muchi, Telugu Mochi, kamaati mocha, Rohidas, Dhor, kakkayya, Kankayya, Samagara, Samagar, Aadhi Anddra, Aadhi Dravida, Aadhi Karnataka among scheduled castes.\n1. The age of the applicant should be 18 years.\n1. The applicant&#39;s annual family income should not exceed ₹30,000/- in rural areas and ₹25,000/- in urban areas.\n1. The applicant or their family members must not have received benefits from other schemes, except training programs.\n1. The applicant&#39;s family members should not be employed in government or semi-government organizations.",
+  "_criteria_filled": 3
+}

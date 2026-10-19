@@ -1,0 +1,31 @@
+{
+  "id": "green-passage-scheme",
+  "name": "Green Passage Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "> **Exemption of Fees:**\n\n1. The fees like application fees, admission/readmission fees, tuition fees, examination fees, hostel admission fees, laboratory fees, library fees, college development fees, etc. will be exempted. \n1. The institutions will also provide free accommodation and food to such students.\n1. In the case of Government Institutions, fees will be exempted at the time of admission o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-residential-certificate-bank-account-passbook-passport-size-photogra"
+  ],
+  "apply_url": "https://dhe.odisha.gov.in/sites/default/files/2021-06/GREEN%20PASSAGE-4-10.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The child must qualify as any one of the following:\n    a)  The child should be without biological/adoptive parents OR\n    b)  The child should have lost both parents OR\n    c)  The child should have lost a single bread-earning parent OR\n    d)  The child should be residing in a Child Care Institution, OR under foster care OR the care of a guardian OR any fit person/ surviving parent.\n2.  The annual income of the guardian/ fit person/ surviving parent (from all sources) does not exceed ₹ 8,00,000/-.\n3.  The student should be pursuing higher education in any Government or Non-Government Higher Education Institution (i.e., College &amp; University). Here, &quot;higher education&quot; would mean general/professional/ technical education of at least 1 year&#39;s duration after Class-12.\n<br>",
+  "_criteria_filled": 2
+}

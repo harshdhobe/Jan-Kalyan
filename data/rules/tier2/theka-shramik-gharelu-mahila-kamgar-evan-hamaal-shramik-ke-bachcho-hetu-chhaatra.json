@@ -1,0 +1,26 @@
+{
+  "id": "theka-shramik-gharelu-mahila-kamgar-evan-hamaal-shramik-ke-bachcho-hetu-chhaatra",
+  "name": "Theka Shramik, Gharelu Mahila Kamgar Evan Hamaal Shramik Ke Bachcho Hetu Chhaatravrtti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Financial assistance provided according to the below table\n\nClassesBoy Students  (Annual Scholarship amount)Girl Students (Annual Scholarship amount)Class I to V₹500/-₹750/-Class VI to VIII₹750/-₹1,000/-Class IX to XII₹1,000/-₹1,500/-Graduation ( BA, BSe, BCom)₹1,500/-₹2,000/-Post Graduation (MA , MSe, M.Com, Diploma)₹2,500/-₹3,000/-Pursuing graduate level professional course₹3,000/-₹4,000/-Stud",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-scholarship-application-form-students-birth"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/theka%20gharelu%20mahila%20kamagar%20evam%20hamal%20shramik%20ke%20bachho%20hetu%20chatravrti%20yojn.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tshmcy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s father/mother must be a registered sanitation worker in the state of Chhattisgarh.\n1. Benefits will be provided only up to two children. \n1. Scholarship recipients must study for at least one year and cannot stop studying. If they do, they must return the scholarship.\n1. Students cannot receive benefits from two government scholarship schemes simultaneously.",
+  "_criteria_filled": 1
+}

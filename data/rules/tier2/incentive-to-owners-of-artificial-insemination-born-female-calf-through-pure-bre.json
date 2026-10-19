@@ -1,0 +1,26 @@
+{
+  "id": "incentive-to-owners-of-artificial-insemination-born-female-calf-through-pure-bre",
+  "name": "Incentive To Owners Of Artificial Insemination Born Female Calf Through Pure Breeding In Indigenous Cow",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1.\tThe incentive of ₹3,000/- will be given to owners of a female calf born through Artificial Insemination by pure breeding in indigenous cows.\n2.\tThe incentive/assistance shall be given once per year for one calf per beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "government-approved-photo-id-if-applicable-ie-aadhaar-card-canceled-bank-cheque"
+  ],
+  "apply_url": "https://doah.gujarat.gov.in/intensive-cattle-development-programme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/ioaibfcpbic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Gujarat State.\n   1. The applicant should be the owner of a female calf born through artificial insemination by pure breeding in indigenous cows.\n   1. The age of the calf should not be more than 11 months as of the date of the online application.\n   1. The benefit of this scheme is eligible once per year for a maximum of one calf per beneficiary.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-for-raising-capital-through-sm",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance for Raising Capital through SME Exchange",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** MSMEs can receive up to 30% of the total expenditure incurred for raising capital through SME Exchange with a maximum up to ₹5,00,000/-.  - **Support from GVFL:** Gujarat Venture Finance Limited (GVFL) may take equity in enterprises registered with the SME Exchange.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "constitution-of-enterprise-memorandum-articles-of-association-board-resolution-r",
+    "and-authorised-signatory-undertaking-in-prescribed-format-copy-of-gpcb-approvals"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuysme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. The enterprise must have successfully raised equity capital through an SME Exchange.\n   1. Enterprise shall have to apply within one year from the listing date in SME Exchange.\n\n&amp;gt; **Note:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

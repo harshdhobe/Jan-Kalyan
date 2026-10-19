@@ -1,0 +1,38 @@
+{
+  "id": "west-bengal-student-credit-card-scheme",
+  "name": "West Bengal Student Credit Card Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "**Points**\n\n1. The Scheme provides a maximum loan of ₹10,00,000/- at a 4% simple annual interest rate after interest subvention.\n1. The interest rate for loans up to ₹10,00,000/- is set at the prevailing 3-year MCLR of State Bank of India plus 1%, fixed at the time of sanction.\n1. Students can access the loan at any point during their course of study.\n1. Both the student and the parent/legal guard",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "colored-photograph-of-the-applicant-should-be-injpeg-jpg-between-50-kb-and-20-kb",
+    "between-50-kb-and-20-kb-signature-of-the-student-should-be-in-jpeg-jpg-format",
+    "between-50-kb-and-10-kb-co-borrower-guardians-signature-should-be-in-jpeg-jpg",
+    "format",
+    "between-50-kb-and-10-kb-students-aadhar-card-should-be-in-pdf-format",
+    "between-400-kb-and-50-kb-age-proof-of-the-applicant-should-be-in-pdf-format-betw",
+    "examination-fee",
+    "hostel-charges-etc-are-mentioned-should-be-in-pdf-format-between-400-kb-and-50-k"
+  ],
+  "apply_url": "https://wbscc.wb.gov.in/assets/SCC_Schme_Gazette_Notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbsccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Indian citizen &amp; resident of West Bengal for 10 years (self-declaration).\n1. Applicant should not be aged more than 40 years at application time.\n1. Applicant should enrolled in higher education programs within or outside the country in schools, madrasahs, colleges, universities, IITs, IIMs, IISc, IIESTs, ISIs, NLUs, AIIMSs, NITs, XLRI, BITS, SPA, NID, IIFTs, ICFAI Business School, etc. or studying in coaching institutes for various competitive exams such as Engineering, Medical, Law, IAS, IPS, WBCS, SSC, etc.\n\n<br>\n\n**Note:** Students upload progress reports after each semester/year.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "smt-bimla-rani-memorial-award-bsc-ag-bvsc-ah-bhsc-bfsc",
+  "name": "Smt. Bimla Rani Memorial Award (B.Sc. Ag., B.V.Sc. & A.H., B.H.Sc. & B.F.Sc.)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Award Amount:** ₹12,000/- per year. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bimlaranimemorialawarduk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be enrolled in the Bachelor of Science in Agriculture (B.Sc. Ag.), Bachelor of Veterinary Science and Animal Husbandry (B.V.Sc. &amp;amp; A.H.), Bachelor of Home Science (B.H.Sc.), or Bachelor of Fisheries Science (B.F.Sc.) course at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The award amount is granted for a duration of one year only.\n\n<br>",
+  "_criteria_filled": 1
+}

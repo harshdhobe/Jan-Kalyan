@@ -1,0 +1,26 @@
+{
+  "id": "matsya-pokhari-yojana",
+  "name": "Matsya Pokhari Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "***The following tank model/ models shall be executed by the beneficiary:***\n**Model****Specification of Tank/Pond****Unit Cost (₹)****Subsidy Assistance (₹) General (40%)****Subsidy Assistance (₹) SC/ST/Women (50%)**A.Capital Cost1.New tank of excavated area of 0.20 ha having 6 Feet depth₹1,40,000/-₹56,000/-₹70,000/-2.New tank of excavated area of 0.30 ha having 6 Feet depth₹2,10,000/-₹84,000/-₹1",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-land-document-aadhaar-card-passbook-photograph-1st-page-cast"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/sites/default/files/2023-03/07.%20Excavation%20of%20New%20Ponds%20under%20Machha%20Chasa%20Pain%20Nua%20Pokhari%20Khola%20Yojana%20%28Matsya%20Pokhari%20Yojana%29%20Guideline%202022-23.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpy-mcpnpky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Odisha.  \n1. The applicant should possess identity and residential proof including an Aadhar card.\n1. The applicant should have a bank account in his/her name in the State of Odisha.\n1. The applicant should have requisite land free from all encumbrances. \n1. The pond area must be between 0.2 to 2.00 hectares with a minimum water depth of 6 feet.\n1. Previous beneficiaries of similar subsidies are eligible for additional subsidies up to a total of 2 hectares.",
+  "_criteria_filled": 1
+}

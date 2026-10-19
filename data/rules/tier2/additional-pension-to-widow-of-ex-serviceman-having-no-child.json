@@ -1,0 +1,31 @@
+{
+  "id": "additional-pension-to-widow-of-ex-serviceman-having-no-child",
+  "name": "Additional Pension to Widow of Ex-Serviceman having No Child",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. An additional amount of ₹100/- per month is given to the widow of an ex-serviceman, irrespective of his rank, until her death or remarriage.\n\n**Mode of Payment:**\nEach Secretary of District Sainik Board will make payment of additional pension on a quarterly basis by money order or in cash, as may be convenient.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-ex-servicemen-widow-of-ex-servicemen-identity-card-2-parivar-pehchan-p"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=cXdgTRUHEKzvcHb09M5Ylg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/apwesmnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow of an ex-serviceman. A ‘widow’ means the widow of a member of the Armed Forces whose death has taken place while in service but not in any battle.\n   1. The widow should be a resident of Haryana.\n   1. The benefit is provided only to the widows of Ex-Servicemen who have no children, irrespective of the rank of ex-serviceman, until her death or remarriage.",
+  "_criteria_filled": 2
+}

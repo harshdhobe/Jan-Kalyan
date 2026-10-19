@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-education-of-children-of-registered-construction-worker",
+  "name": "Financial Assistance for Education of Children of Registered Construction Worker",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "**Pre-Matric Courses:**\n\n- Class 1st to 5th:    ₹1,800/- per year- Class 6th to 8th:    ₹2,400/- per year- Class 9th to 10th:  ₹4,000/- per year\n<br>\n\n**Non-Degree Post-Matric Courses:**\n\n- Courses with entrance qualification as High School (Class 10th) (e.g., senior secondary, ITI courses, 3-year diplomas in Polytechnics): ₹4,000/- per year\n<br>\n\n**Post-Matric Scholarships:**\n\n- **Group 1:  ₹20,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-details-copy-of-boc-worker-registration-card-student-marksheet-cert",
+    "college-university-stating-that-the-student-is-reading-in-which-class-during-the"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/6640322.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faecrcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children&#39;s parents or guardians must be registered construction workers under the Building &amp; Other Construction Workers’ Welfare Board\n1. The scholarships are awarded for all recognized Pre-Matric and Post-Matric courses in recognized institutions, except courses of 6 months or less.\n1. The students studying in the same stage of education in different subjects (e.g., Class XI Arts after Class XI Science) are not eligible.\n1. The student who completed one professional stream and is pursuing another (e.g., LLB after B.Ed.) is not eligible. The students will be allowed to take up only one professional stream.\n1. The scholarship shall be tenable for the prescribed duration of a course. A candidate who receives the scholarship but fails to pass in a particular year shall not receive further scholarship till he/she passes the specific year of the course.\n1. The student should maintain 50% of the annual attendance in the class.\n1. Only two children of the same parents/guardians are eligible for scholarships.\n1. The registered construction workers must have no dues payable to the Board.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-to-youth-groups",
+  "name": "Financial Assistance to Youth Groups",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Financial support for starting one of the 18 Identified Business Activities for Starting Employment-Oriented Projects/Businesses in Uttarakhand State:**\n\n- Dairy Production – ₹1,00,000/-\n- Tent Utensil Rental – ₹50,000/-\n- Sound System Rental – ₹50,000/-\n- Flour Mill Setup – ₹50,000/-\n- Photocopy/Fax/Lamination Machine – ₹1,00,000/-\n- Mushroom/Vegetable/Flower Cultivation – ₹50,000/-\n- Handloom/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "group-photograph-of-all-members-project-proposalbusiness-plan-availability-proof",
+    "if-applicable-details-of-the-familys-monthly-income-from-all-sources"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Mangal Dal affiliated with the Youth Welfare and PRD Department of Uttarakhand.\n1. The members of Mangal Dal must be permanent residents of Uttarakhand.\n1. The applicant (Mangal Dal) must not have benefited previously under the scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

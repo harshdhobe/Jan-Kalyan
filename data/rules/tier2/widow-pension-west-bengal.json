@@ -1,0 +1,41 @@
+{
+  "id": "widow-pension-west-bengal",
+  "name": "Widow Pension-West Bengal",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- Financials assistance of ₹1,000/- per Month through DBT mode to the beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-self-attested-copy-of-ration-card-copy-of-voter-id-copy-of-disab"
+  ],
+  "apply_url": "https://wbswpension.gov.in/readwrite/miscellaneous/form-P.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wpwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be widow girl/woman.\n1. The beneficiary should attain the age of 60 years or more.\n1. The beneficiary must be a citizen of India and a resident of West Bengal.\n1. The beneficiary family income must not exceed ₹ 1,000/- per month.\n1. The beneficiary must not be maintained by any of her relative.\n1. The beneficiary must have been a resident of West Bengal for at least ten years on the date of making the application.\n1. Professional beggars and mendicants are not eligible for the pension.",
+  "_criteria_filled": 4
+}

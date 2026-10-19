@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-interest-subvention-to-nano-household-enterprises",
+  "name": "Scheme for Interest Subvention to Nano Household Enterprises",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The unit will be eligible for interest subvention to an extent of 6% per annum for the term loan availed by the unit on a reimbursement basis for three years.\n2. For women and SC/ST enterprises, the interest subvention will be 8% for three years.\n3. The assistance shall be limited to the fixed percentage of the composite investment upon\n(a) plant &amp; machinery,\n(b) other fixed assets includin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-identity-proof-of-the-applicant-2-statement-from-bank-3-bank-statement"
+  ],
+  "apply_url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sisnhe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "A unit/enterprise which satisfies the following conditions is eligible for the scheme:\n1.\tThe fixed capital investment is 10 lakh or less.\n2.\tEngaged in manufacturing, services, or job work.\n3.\tIn the white and the green category as per pollution control norms.\n4.\tConnected load is 5 HP or less.\n> **Obligations of the applicant entrepreneurs:**\n\n1.\tThe applicant shall provide all required details and declare such information as to be true.\n2.\tThe applicant shall provide clarifications of further details sought by the recommending/sanctioning authority.\n3.\tThe applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/sanctioning authority.\n4.\tThe applicant shall produce originals of any important documents if so required by the Recommending/ sanctioning Authority for verification.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "kotwar-cycle-evam-torch-sahayata-yojana",
+  "name": "Kotwar Cycle Evam Torch Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> 1. Financial Assistance of ₹ 3,000/- per person for bicycle or the rate fixed by CSIDC for bicycle which will be lower \n\n> 2. Financial Assistance of ₹. 750/- per person for torch.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-bank-account-details-registration-ca"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20kotavaar,%20saayakal%20evam%20taarch%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksetsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered as an unorganized worker in any district of the state.\n1. Applicant must be between the ages of 18 and 60.\n1. Applicant should not have received a cycle or torch under the cycle assistance scheme implemented by the board or any other scheme implemented by other departments of the state government.",
+  "_criteria_filled": 3
+}

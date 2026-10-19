@@ -1,0 +1,28 @@
+{
+  "id": "subsidy-for-fund-raising-from-sme-exchange",
+  "name": "Subsidy for Fund Raising from SME Exchange",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Assistance with a maximum of ₹ 30,00,000, subject to 50% of the total expenditure incurred on SME IPO.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-attested-copy-of-tangedco-meter-card-if-t",
+    "duly-signed-by-the-applicant-if-the-enterprise-is-functioning-in-a-leased-landbu",
+    "for-a-minimum-period-of-11-months-from-the-date-of-commencement-of-commercial-pr"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/sme_exc.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/sffrfse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All new Micro and Small enterprises set up in declared 254 industrially backward blocks are eligible\n- The applicant should be qualified for listing, in line with the norms prescribed by the National Stock Exchange/ Bombay Stock Exchange.\n- Only Merchant Banker Fees, Due Diligence Fees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and Listing Charges Are Eligible for Reimbursement.\n\n<br>\n\nKnow Your Eligibility for this scheme [here](https://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php)",
+  "_criteria_filled": 1
+}

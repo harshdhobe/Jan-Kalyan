@@ -1,0 +1,36 @@
+{
+  "id": "educational-assistance-scheme-for-the-pre-matric-and-post-matric-scholarship-to",
+  "name": "Educational Assistance (Scheme for the Pre-Matric and Post-Matric Scholarship to Children of Construction Workers Registered with the MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "&gt; **Value of the Scholarship:**\n\n1.\tThe rate of the scholarship for different courses/subjects is as follows:\nSl. No.Level of StudyStipend (Per Month)1Degree₹800/-2Diploma₹600/-3Certificate course₹600/-4Class XI &amp;amp;amp;amp; XII₹600/-5Class VIII to X₹500/-6Class V to VII₹400/-**2.** **Reader’s charges for Blind students (Blind Scholars):** Blind Students/Scholars will be given an additiona",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "enclosures-required-for-new-registration-under-mbocwwbphotograph-of-the-worker-i",
+    "ration-card",
+    "drivers-license",
+    "aadhaar-card",
+    "passport-are-acceptable-employer-certificateself-certification-issued-either-by",
+    "if-any-age-proof-of-concerned-building-workerapplicant-ie-school-certificate",
+    "certificate-from-the-registrar-of-birth-and-deaths",
+    "certificate-from-the-medical-officer-not-below-the-rank-of-an-assistant-surgeon",
+    "electoral-photo-identity-card-nomination-form-duly-signed-by-the-applicant-self",
+    "if-the-student-was-in-receipt-of-a-scholarship-under-this-scheme-in-the-precedin",
+    "if-any-clearance-certificate-by-the-head-of-the-institution-verificationinformat"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/easppsccwrmbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of Meghalaya.\n   1. The beneficiary should be engaged in a building or other construction work.\n   1. The beneficiary should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. The children of beneficiary/registered workers should be enrolled in any grade from Class I to Degree Course.\n   1. The children of workers must not be in receipt of any other financial assistance from any other source.\n   1. Only two children of the same parents/ guardians will be entitled to receive scholarships. This restriction will apply to girls also.\n\n**Note 01:** These scholarships will be awarded for the study of all recognized Pre-Matric and Post-Matric courses pursued in recognized institutions, with the exception of courses with a duration of 6 (months) or less.\n**Note 02:** The children of workers applying for Post-Matric scholarships should possess the relevant qualification from any recognized institution. An original certificate from the institution of study must be produced by the children of workers.\n**Note 03:** The scholarship shall be tenable for the prescribed duration of a course. A student who is in receipt of the scholarship, but failing to pass in a particular year shall not receive further scholarship till he/ she passes the specific year of the course. The institution shall certify to that effect.\n**Note 04:** Special provision is provided for exceptionally meritorious students.\n**Note 05:** Special relaxation for physically handicapped children in cut-off mark obtained.\n&gt; **Renewal of Awards:**\n\nThe children of workers will have to apply afresh for renewal of the scholarship from year to year, provided that the student secures promotion to the next higher class irrespective of that fact whether such examination was conducted by the institution.\n&gt; **Other Conditions:**\n\n   1. If a student is found to have obtained a scholarship by misrepresentation, his/her scholarship will be cancelled forthwith and the amount of the scholarship paid will be recovered, at the discretion of the Building &amp;amp; Other Construction Workers Welfare Board.\n   1. A scholarship awarded may be cancelled if the student changes the subject of the course of study for which the scholarship was originally awarded or changes the institution of study without prior approval of the Building &amp;amp; Other Construction Workers Welfare Board.\n   1. A student may have to refund the scholarship amount at the discretion of the Building &amp;amp; Other Construction Workers&amp;#39; Welfare Board if during the course of the year, the studies for which the scholarship has been awarded, are discontinued by him/her.\n   1. The Rules &amp;amp; Regulations of the Scheme can be also altered/modified at any time at the discretion of the Building &amp;amp; Other Construction Workers&amp;#39; Welfare Board.",
+  "_criteria_filled": 1
+}

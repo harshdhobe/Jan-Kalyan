@@ -1,0 +1,26 @@
+{
+  "id": "chief-minister-drought-relief-scheme",
+  "name": "Chief Minister Drought Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Financial assistance of ₹3,500/- per affected farmer family.**\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbook-voter-id-land-receipt"
+  ],
+  "apply_url": "https://msry.jharkhand.gov.in/LetterPDF/Drought_Notification_No_1291_Dated_31_10_2022_11082022230530.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmdrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n1. The farmer’s crops should be damaged due to drought. \n1. The families should be residing officially declared drought-hit areas.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

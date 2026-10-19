@@ -1,0 +1,31 @@
+{
+  "id": "disability-due-to-accident-or-other-reason-scheme-haryana-labour-welfare-board",
+  "name": "Disability (Due to Accident or Other Reason) Scheme- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹1,00,000/- on minor disability (upto 50% injury).\n- Financial assistance of ₹1,50,000/- on major disability (above 50% injury).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/82",
+  "source_url": "https://www.myscheme.gov.in/schemes/daors-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/worker should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the worker is not fixed under this scheme.\n   1. Workers who have become disabled due to an accident or other reasons, whether inside or outside the workplace, are eligible to apply under this scheme.\n   1. The worker should apply within one year after issuing of disability certificate.\n   1. The worker should not have earlier received benefits under this scheme.",
+  "_criteria_filled": 2
+}

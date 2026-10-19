@@ -1,0 +1,36 @@
+{
+  "id": "national-family-benefit-scheme",
+  "name": "National Family Benefit Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**₹ 20000/** - will be given as a lump sum assistance to such surviving member of the household of the deceased poor, who after local inquiry, is found to be the head of the household.\n**The assistance would be given to every case of death of breadwinner in a family.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-related-to-the-deceased-breadwinner-death-certificate-proof-of-identit"
+  ],
+  "apply_url": "https://nsap.nic.in/Guidelines/nsap_guidelines_oct2014.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a citizen of India.\n1. The family of the applicant must be living Below Poverty Line (BPL).\n1. The primary breadwinner of the applicant&#39;s family must have been deceased.\n1. The age of the deceased breadwinner must have been more than 18 years and less than 60 years.\n1. The applicant must be the succeeding primary breadwinner of the family.",
+  "_criteria_filled": 3
+}

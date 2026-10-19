@@ -1,0 +1,32 @@
+{
+  "id": "goa-state-cultural-award",
+  "name": "Goa State Cultural Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "The awardee shall be honoured with a shawl, a sriphal, a certificate of appreciation and a financial purse to the extent of **₹ 1,00,000/- per individual** and monthly financial assistance as provided under the scheme of Kala Samman. \n<br>\n\n> **Number of Awards**\n\nEvery year maximum of 12 (twelve) persons are awarded in the following fields - \n1. Music\n2. Dance\n3. Drama/Theatre including Tiatr\n4. ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-recommender-recommendation-letter-from-individual-institution-copy-of-id-pro",
+    "documentary-proof-is-to-be-attached-copy-of-1st-page-of-the-bank-passbook-or-can"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Goa%20State%20Cultural%20Award%202023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The applicant should have completed 60 years of age.\n1. The applicant should have given extraordinary contributions to the field of art &amp; culture at large and in his/her respective field of art in particular.\n1. The applicant should have contributed in his/her respective field of art in Goa for a minimum of 10 years out of his/her entire career as a practising artist.\n1. No award will be presented posthumously. However, during the selection process if the death of any artist occurs after the recommendation of his name then Task Force The committee may consider his name for the award, in such circumstances award will be presented posthumously.",
+  "_criteria_filled": 2
+}

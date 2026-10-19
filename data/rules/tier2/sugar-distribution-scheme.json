@@ -1,0 +1,26 @@
+{
+  "id": "sugar-distribution-scheme",
+  "name": "Sugar Distribution Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Subsidized Sugar Distribution:** Eligible households receive sugar at reduced prices to improve affordability and accessibility.- **Targeted Beneficiaries:** Focus on households under the Antyodaya Anna Yojana (AAY) for effective support to vulnerable sections.- **Disbursement:** Monthly distribution ensures consistent support to beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-aadhaar-enrolment-id-slip-bank-or-post-office-passbook-with-phot"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D009DO003SD00625102023010317649",
+  "source_url": "https://www.myscheme.gov.in/schemes/sds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant must belong to a household holding an Antyodaya Anna Yojana (AAY) ration card under the NFSA.\n1. The applicant should provide Aadhaar authentication or an Aadhaar number for identity verification.",
+  "_criteria_filled": 1
+}

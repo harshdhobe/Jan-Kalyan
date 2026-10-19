@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-funeral-assistance-in-case-of-death-of-registered-construction-worker",
+  "name": "Scheme for Funeral Assistance in Case of Death of Registered Construction Worker",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- **A one-time grant of ₹10,000/- is provided for the expenses of the funeral ceremony.**\n\n**NOTE:** The amount of benefit payable by the BOARD shall be paid through DBT mode.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "original-bocw-registration-card-bank-account-details-of-the-nominee-death-certif"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/5109061.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfacdrcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a nominee, spouse, or dependent of the deceased registered worker. \n1. The registered construction workers should not have any dues payable to the Board.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "asangathit-karmakar-prasuti-sahayata-yojana",
+  "name": "Asangathit Karmakar Prasuti Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> Financial Assistance of ₹ 20,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-of-the-child-a-scanned-copy-of-the-registration-certificate-mo",
+    "anm-or-mitanin"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/asangathit%20karmakaar%20prasuti%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/akpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered unorganized worker.\n1. Applicant can be male or female.\n1. Applicant will be not eligible if he/she is contract workers, female domestic workers, porters and sanitation workers.",
+  "_criteria_filled": 1
+}

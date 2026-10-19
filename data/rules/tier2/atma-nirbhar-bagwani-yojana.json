@@ -1,0 +1,26 @@
+{
+  "id": "atma-nirbhar-bagwani-yojana",
+  "name": "Atma Nirbhar Bagwani Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "- Atmanirbhar Bagwani Yojna is basically meant for the cultivation of fruits like apples, walnut, orange, kiwi, and persimmon. \n  - The line of credit will be provided by the State Bank Of India, Arunachal Pradesh Rural Bank, and Arunachal Pradesh Cooperative Apex Bank. \n  - 45 percent will be given by the government subsidy, 45 percent as bank loan and 10 percent will be contributed by the farmer",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-card-residential-certificate-a-valid-bank-account"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s36c29793a140a811d0c45ce03c1c93a28/uploads/2021/09/2021091539.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/anby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a resident and farmer of Arunachal Pradesh.\n<br>",
+  "_criteria_filled": 1
+}

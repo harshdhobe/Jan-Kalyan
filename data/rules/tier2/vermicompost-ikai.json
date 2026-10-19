@@ -1,0 +1,26 @@
+{
+  "id": "vermicompost-ikai",
+  "name": "Vermicompost Ikai",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Vermicomposting Unit with RCC Construction\n\n   1. Size: 30 feet X 8 feet X 2.5 feet\n   1. Cost: 50% of the installation cost, up to a maximum of ₹50,000/- per unit\n   1. Subsidy is proportional to the size of the unit\n\n1. HDPE Vermibed Unit\n\n   1. Size: 12 feet X 4 feet X 2 feet\n   1. Cost: 50% of the installation cost, up to a maximum of ₹8,000/- per unit\n   1. Subsidy is proportional to the s",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-copy-of"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/vi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The Applicants must Cultivate horticultural crops on a minimum of 0.4 hectares of own land.\n1. The farmer must have livestock, water, and fossils available.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "reimbursement-of-college-fees-for-scheduled-caste-students-in-professional-colle",
+  "name": "Reimbursement of College Fees for Scheduled Caste Students in Professional Colleges (Top 20)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Reimbursement of Tuition Fees and Examination Fees.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-aadhaar-card-b",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/reimbursement-college-fees-deserving-scheduled-caste-students-studying-professional-colleges-top-20",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcfscspc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry.\n- The applicant should be from a Scheduled Caste.\n- The applicant should be a Student.\n- The applicant should have secured a place in the &#39;Top 20&#39; Rank.\n- The applicant should have secured above 75% in the Higher Secondary Course Examination.\n- The applicant should be pursuing a professional education.\n- The applicant should have been selected through &#39;CENTAC&#39; for admission to a professional college.",
+  "_criteria_filled": 1
+}

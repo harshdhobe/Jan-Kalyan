@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-national-widow-pension-scheme",
+  "name": "Indira Gandhi National Widow Pension Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "A pension of ₹ 300/- per month is provided to Widows between 40 years and 79 years.  For persons who are 80 years and above, the pension is ₹ 500/- per month. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-husband-with-the-name-of-the-surviving-wifewidow-bpl-card-a",
+    "the-birth-certificate-or-school-certificate-may-be-relied-on-in-their-absence-ra",
+    "any-medical-officer-of-any-government-hospital-may-be-authorized-to-issue-the-ag"
+  ],
+  "apply_url": "https://nsap.dord.gov.in/Guidelines/wps.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The eligibility criteria under Indira Gandhi National Widow Pension Scheme (IGNWPS) is:\n\n- The applicant must be a widow in the age group of 40-79 years.\n- The applicant should belong to a household living below the poverty line according to the criteria prescribed by the Govt. of India\n\n<br>",
+  "_criteria_filled": 4
+}

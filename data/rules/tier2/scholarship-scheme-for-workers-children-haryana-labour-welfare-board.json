@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-scheme-for-workers-children-haryana-labour-welfare-board",
+  "name": "Scholarship Scheme for Worker's Children- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, the following scholarship amounts are provided for different classes:\n**Sl. No.****Class/Course (For Continuing Education)****Scholarship Amount (Per Year)**19th to 10th Class₹10,000/-2ITI Diploma₹10,000/-311th to 12th Class₹12,000/-4All Types of Bachelor&amp;amp;amp;#39;s Degrees₹15,000/-5Polytechnic Diploma, C.A.D. Pharmacy, A.N.M., G.N.M. and Other Undergraduate Diploma Cours",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/73",
+  "source_url": "https://www.myscheme.gov.in/schemes/sswc-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the worker is fixed for one year.\n   1. The worker or the worker&amp;#39;s children studying in 9th grade or above are eligible for the scheme&amp;#39;s benefits.\n   1. The scheme benefits are available to three girls and two boys per worker.\n\n**Note 01:** The last date for submission of the application form for the benefit of this scheme has been fixed as 31st December. Application submitted on a date after December 31 will not be considered.\n**Note 02:** If the child of the worker is taking a scholarship from any other institution, then he/she can also avail the benefit of the scheme.\n**Note 03:** If a student receives a scholarship by giving a false certificate, he/she will never be given a scholarship in the future and the amount of the scholarship given will be taken back.\n**Note 04:** The children of workers who drop out for some reason and continue their studies again will also get the benefit of this scheme. The children of workers who are continuing their education outside the state of Haryana will also be given the benefit of this scheme.",
+  "_criteria_filled": 1
+}

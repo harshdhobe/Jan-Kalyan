@@ -1,0 +1,33 @@
+{
+  "id": "aahar-anudan-yojana",
+  "name": "Aahar Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-ration-card-optional-bank-account-details",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-age-certificate-any-other"
+  ],
+  "apply_url": "https://aiggpa.mp.gov.in/uploads/project/Study_Report_Beena.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aaymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be a woman.\n1. The applicant should be from the Baiga, Bharia or Saharia tribe.\n1. The applicant or any member of the applicant&#39;s family should not be in government service.\n1. The applicant or any member of the applicant&#39;s family should not be an income tax payee.",
+  "_criteria_filled": 2
+}

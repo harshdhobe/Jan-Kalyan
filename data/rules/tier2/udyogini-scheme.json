@@ -1,0 +1,48 @@
+{
+  "id": "udyogini-scheme",
+  "name": "Udyogini Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "For women belonging to the Scheduled caste and Scheduled tribe, the unit cost is a minimum ₹ 1,00,000 to a maximum of ₹ 3,00,000.  The subsidy is 50% of the loan amount, income limit of the family should be below ₹ 2,00,000 per year.\nFor women belonging to the special category and general category maximum unit cost is ₹ 3,00,000.  Subsidy for special category women and for general category women i",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "three-passport-size-photographs-of-the-applicant-certificate-regarding-traininge",
+    "equipment",
+    "and-other-capital-expenses"
+  ],
+  "apply_url": "https://kswdc.karnataka.gov.in/21/udyogini/en",
+  "source_url": "https://www.myscheme.gov.in/schemes/us",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman.\n1. The family income of the applicant should be less than ₹ 1,50,000/- for women belonging to general and special categories. No limit on family income for widowed or disabled women.\n1. The age of the applicant should be between 18 to 55 years for all categories.\n1. The applicant should be a permanent resident of Karnataka.\n1. The applicant should not have defaulted on any past loan with any financial institution.\n\n<br>\n\n**Reservation / Preference / Priority**\n\n1. Preference must be given to the extremely poor, destitute, widow, and physically challenged. \n1. In addition, preference may be given to candidates who have undergone prior skill development training or vocational training conducted by any KSWDC or any other department. \n1. About 10% of the allocated target has been earmarked to benefit applicants of members of World Bank-assisted Swashakthi or Stree Shakthi groups.",
+  "_criteria_filled": 5
+}

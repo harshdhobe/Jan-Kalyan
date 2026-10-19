@@ -1,0 +1,31 @@
+{
+  "id": "paternity-benefit-scheme-bbocwwb",
+  "name": "Paternity Benefit Scheme (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹6,000/- per childbirth for upto two childbirths.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-registered-worker-bank-account-details-birth-certificate-pr"
+  ],
+  "apply_url": "https://bocwscheme.bihar.gov.in/worker_reg",
+  "source_url": "https://www.myscheme.gov.in/schemes/pbsbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a worker.\n- The applicant should be a male.\n\n- The applicant should be engaged in building or construction work.\n- The applicant should be registered with the &quot;Bihar Building &amp; Other Construction Workers Welfare Board&quot;.\n- The applicant&#39;s membership with the Welfare Board must be active at the time of application.\n- The applicant should have at least one year of membership with the Board.\n- The wife of the applicant should not be registered with the Board.\n- The benefits will be applicable for the first two childbirths.",
+  "_criteria_filled": 2
+}

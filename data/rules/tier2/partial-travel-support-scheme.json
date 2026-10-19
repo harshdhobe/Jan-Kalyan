@@ -1,0 +1,31 @@
+{
+  "id": "partial-travel-support-scheme",
+  "name": "Partial Travel Support Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Partial Coverage: The scheme provides support for a portion of the total travel expenses incurred by the beneficiaries.\nFinancial Assistance: For international travel, the scheme offers support up to a maximum of Rs. 60,000/- or 60% of the total travel expenses, whichever is lower. This financial assistance helps offset a significant portion of the travel costs for international trips.\nIn-Country ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "one-copy-of-completed-application-form-and-bio-data-degree-certificate-eligibili"
+  ],
+  "apply_url": "https://himcoste.hp.gov.in/RnD_Website/pdf/PATSS%202018-19-I.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/patss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Educational Qualification: The applicant should have passed at least M.Sc./B.E./B.Tech/MBBS or an equivalent degree from a recognized University/Institute.\n1. Age Limit: The applicant&#39;s age should not exceed 40 years on the date of commencement of the Conference/Seminar/Symposium/Workshop.\n1. Paper Acceptance: The applicant&#39;s paper should have been accepted for presentation. The application must include a copy of the full paper, an abstract, the schedule of the conference, and an acceptance letter from the organizer.\n1. Previous Travel Support: Scientists and Research Scholars who have not received travel support under PATSS in the previous three years are eligible for consideration.\n1. International Reputation: The Conference/Seminar/Symposium/Workshop should have an international character and repute. Applications to attend annual meetings of professional societies will not be considered.\n1. Publication Requirement: Scientists and Research Scholars must have published at least one paper in a refereed journal to be eligible for consideration.\n1. Forwarding of Application: The application, along with all necessary documents, should be forwarded through the proper channel from the Head of the Institution.\n1. Application Deadline: Complete applications should reach the office one month before the event takes place.\n1. Research Paper Reprint: The Scientist/Research scholar sanctioned travel grant under the scheme is required to provide one reprint of the research paper presented at the Conference/Seminar/Symposium/Workshop after its publication.\n1. Notification of Selection: The applicants recommended by the Committee/Experts will be informed of their selection via email or post, using the email ID provided by the candidate.",
+  "_criteria_filled": 2
+}

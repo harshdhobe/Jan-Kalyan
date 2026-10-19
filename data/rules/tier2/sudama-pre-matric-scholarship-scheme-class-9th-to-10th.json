@@ -1,0 +1,36 @@
+{
+  "id": "sudama-pre-matric-scholarship-scheme-class-9th-to-10th",
+  "name": "Sudama Pre-Matric Scholarship Scheme (Class 9th to 10th)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Under this scheme, the girl student will get a scholarship of ₹400/- and boy student will get a scholarship of ₹300/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-domicile-certificate-of-madhya-pradesh-bpl-cate"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=421",
+  "source_url": "https://www.myscheme.gov.in/schemes/spmssc910",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be studying in Class 9 or Class 10.\n   1. The student should be enrolled in a government school.\n   1. The applicant should belong to the Below Poverty Line (BPL) category.\n   1. The applicant&amp;#39;s family income from all sources should be less than ₹1,00,000/- per year.\n   1. The applicant should have passed the previous year&amp;#39;s class.",
+  "_criteria_filled": 3
+}

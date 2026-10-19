@@ -1,0 +1,140 @@
+{
+  "id": "sgngs",
+  "name": "Sanjay Gandhi Niradhar Grant Scheme",
+  "tier": 1,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Monthly grant to destitute / vulnerable persons in Maharashtra.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "any": [
+          {
+            "field": "household.bpl",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "household.income",
+            "op": "<=",
+            "value": 21000
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "field": "is_destitute",
+                "op": "==",
+                "value": true
+              },
+              {
+                "field": "age",
+                "op": "<",
+                "value": 65
+              }
+            ]
+          },
+          {
+            "field": "is_orphan",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "has_disability",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "has_serious_disease",
+            "op": "==",
+            "value": true
+          },
+          {
+            "all": [
+              {
+                "field": "marital_status",
+                "op": "==",
+                "value": "widowed"
+              },
+              {
+                "field": "is_destitute",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          {
+            "field": "is_divorced_without_alimony",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "is_transgender",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "is_devadasi",
+            "op": "==",
+            "value": true
+          },
+          {
+            "all": [
+              {
+                "field": "gender",
+                "op": "==",
+                "value": "female"
+              },
+              {
+                "field": "marital_status",
+                "op": "==",
+                "value": "unmarried"
+              },
+              {
+                "field": "age",
+                "op": ">",
+                "value": 35
+              }
+            ]
+          },
+          {
+            "field": "is_prisoner_spouse",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "has_sickle_cell",
+            "op": "==",
+            "value": true
+          },
+          {
+            "field": "is_rescued_trafficking_survivor",
+            "op": "==",
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "photo",
+    "domicile_certificate",
+    "bank_details",
+    "medical_or_incapacity_certificate"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/sgngs",
+    "apply": "https://sjsa.maharashtra.gov.in/"
+  },
+  "notes": "12 vulnerability categories. 'Unmarried woman above 35' uses age > 35 - verify exact wording."
+}

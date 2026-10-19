@@ -1,0 +1,26 @@
+{
+  "id": "sanskrit-chhaatr-pratiyogita",
+  "name": "Sanskrit Chhaatr Pratiyogita",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Separate six Sanskrit competitions for junior and senior categories are organized at every level. The prize distribution is as follows:\n**Development Block Level**\n\n- **Team Events:** Minimum prize of ₹300/- and maximum prize of ₹800/-- **Individual Competition:** Minimum prize of ₹300/- and maximum prize of ₹500/-\n**District Level**\n\n- **Team Events:** Minimum prize of ₹400/- and maximum prize of",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-in-accordance-with-the-competition-guidelines"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scpdsddsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The institutional students studying in the junior classes (Class 6 to 10) and senior classes (Class 11 to post-graduation) of any government, private, or non-governmental school/college in Uttarakhand are eligible to participate.\n   1. The students pursuing B.Ed., Ph.D., or Diploma courses are not eligible for participation.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "excellent-work-award-scheme-for-social-worker-of-de-notified-communities",
+  "name": "Excellent Work Award Scheme for Social Worker of De-Notified Communities",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Award of ₹1,00,000/- to a social worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-sam"
+  ],
+  "apply_url": "https://samarth.mp.gov.in/Public/Pages/SchemeDetail?ID=3",
+  "source_url": "https://www.myscheme.gov.in/schemes/ewasfswodnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a member of the De-notified, Nomadic, or Semi-Nomadic communities.\n1. The applicant should be a social worker actively engaged in the all-round development, educational advancement, social service, economic development, and eradication of social evils within the De-notified, Nomadic, and Semi-Nomadic communities.\n1. The applicant should be an original resident of Madhya Pradesh to qualify for the award.",
+  "_criteria_filled": 1
+}

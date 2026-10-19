@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-for-procuring-mobility-equipment-to-disabled-ex-servicemen",
+  "name": "Financial Assistance For Procuring Mobility Equipment To Disabled Ex-Servicemen (All Ranks)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Maximum Financial Assistance:** Financial assistance of up to ₹1,00,000/- is provided for the purchase of eligible mobility equipment.- **Re-Application Provision:** The beneficiary may apply for new mobility equipment after the completion of 10 years from the date of purchase of the previous equipment.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copies-of-the-following-documents-duly-attested-by-concerned-zswocomplete-discha",
+    "indicating-nature-of-disability-and-recommended-procurement-of-mobility-equipmen",
+    "make-and-specifications-of-the-mobility-equipment-details-of-bank-ac-no-in-pnbsb"
+  ],
+  "apply_url": "https://ksb.gov.in/writereaddata/DownLoad/M-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/affdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Ex-Serviceman.\n- The applicant should be disabled after retirement from the service.\n- The percentage of the disability should be 50% or more.\n- The applicant should not be covered under a similar scheme of the Army/Navy/Air Force.\n- The application of the applicant should be recommended by the respective Zila Sainik Board (ZSB).\n- The applicant should be capable of personally utilizing the mobility equipment provided.\n\n<br>",
+  "_criteria_filled": 1
+}

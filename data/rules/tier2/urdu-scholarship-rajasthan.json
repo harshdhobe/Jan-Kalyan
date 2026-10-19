@@ -1,0 +1,30 @@
+{
+  "id": "urdu-scholarship-rajasthan",
+  "name": "Urdu Scholarship- Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- A monthly scholarship of ₹100/- for students studying Urdu at the undergraduate level.\n- A monthly scholarship of ₹150/- for students studying Urdu at the postgraduate level.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-secondary-examination-marksheetbirth-certificate-self-attest",
+    "if-applicable-photocopy-of-the-bank-passbook-indicating-students-name",
+    "account-number",
+    "ifsc-code",
+    "and-bank-details"
+  ],
+  "apply_url": "https://hte.rajasthan.gov.in/files/uploads/offline-forms.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/usr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. At graduation level, only female students are eligible.\n   1. At post-graduation level, both male and female students are eligible.\n   1. The applicant should be studying Urdu as an optional subject at the graduation or post-graduation level.\n   1. For graduation level applicants, a minimum of 50% marks in the previous qualifying examination is required.\n   1. For post-graduation level applicants, the student should have passed graduation/post-graduation with at least second division.\n   1. It is mandatory to study Urdu as a subject to receive the scholarship.\n   1. The scholarship is applicable only for those who are regularly enrolled in recognized colleges/universities.",
+  "_criteria_filled": 1
+}

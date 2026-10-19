@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-assistance-for-management-of-stray-cattle",
+  "name": "Scheme of Assistance for Management of Stray Cattle",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Component****Name Support Standard**\t**Minimum Time Limit (in Years) for Reclaiming Constituent Benefits**Management of stray cattle\t₹4000/- maintenance assistance will be payable once for each stray cattle1 year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-under-the-public-charity-act-signature-stamp-of-the-loc"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Qo0mbBU171dNP2ROt7cS6g==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Panjrapole (animal shelter) must be registered under the Charity Act.\n   1. The Panjrapole must accept and maintain stray cattle in their facility.",
+  "_criteria_filled": 1
+}

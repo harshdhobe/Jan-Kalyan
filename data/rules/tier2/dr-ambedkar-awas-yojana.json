@@ -1,0 +1,37 @@
+{
+  "id": "dr-ambedkar-awas-yojana",
+  "name": "Dr. Ambedkar Awas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under the scheme, individuals belonging to the scheduled caste category are provided with ₹1,20,000/- assistance for the construction of houses in both urban and rural areas.\n   1. The assistance will be paid in three instalments, first instalment is ₹40,000/- (with order of administrative sanction), the second instalment is ₹60,000/- (after reaching the lintel level), and the third instalment ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-issued",
+    "a-copy-of-the-map-showing-the-area-of-the-land-on-which-the-house-is-to-be-const"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1594",
+  "source_url": "https://www.myscheme.gov.in/schemes/daay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. Economically weaker Scheduled Caste individuals, especially those below the poverty line are eligible to receive benefits under the scheme.\n   1. The beneficiary should not own a residential home, possess an old rough residential home, or have their own plot for residence.\n   1. The applicant or any other family members of the applicant should not have already received benefits under any other housing scheme implemented by the Government.\n   1. The annual income should not exceed ₹6,00,000/- in rural area and ₹6,00,000/- in urban area.\n   1. Those who are eligible for ₹12,000 assistance for toilets will be eligible for it separately as per the rules of the scheme. However, if the beneficiary is not eligible for assistance for a toilet, he/she will have to construct a toilet out which is mandatory for assistance of ₹1,20,000/-.\n   1. On the house built under this scheme, the beneficiary will have to put a plaque as per “State Government&amp;#39;s Ambedkar Awas Yojana”.\n   1. The upper limit on construction of houses will be ₹10,00,000/- for urban areas and ₹7,00,000/- for rural areas. The ceiling limit will not apply to the assistance provided under the Affordable Housing Scheme in urban areas.\n   1. The construction of the house has to be completed within 2 years from the payment of the first installment of the housing assistance.\n   1. The age of the beneficiary will be at least 21 years.\n   1. A scheduled caste beneficiary can also be given the benefit under this scheme if his adult sons or brother builds a house on the first floor of the person whose name currently has a house on the ground floor to build his own house with the consent of the house owner/landlord. \n   1. If the entire construction of the house cannot be completed with the assistance received under the &amp;quot;Dr. Ambedkar Awas Yojana,&amp;quot; the beneficiary will need to contribute the remaining amount to ensure the completion of the construction of the house.",
+  "_criteria_filled": 3
+}

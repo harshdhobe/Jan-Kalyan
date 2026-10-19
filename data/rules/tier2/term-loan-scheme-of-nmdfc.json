@@ -1,0 +1,39 @@
+{
+  "id": "term-loan-scheme-of-nmdfc",
+  "name": "Term Loan Scheme of NMDFC",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- Concessional Credit to the beneficiaries among minority communities.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "duly-filled-loan-application-form-as-prescribed-by-scabank-recent-passport-size",
+    "voter-id",
+    "ration-card",
+    "or-utility-bill-identity-proof-aadhaar-cardpan-card-project-report-or-business-p",
+    "cost",
+    "and-financial-viability-bank-account-proof-cancelled-cheque-or-first-page-of-pas",
+    "equipment",
+    "or-raw-materials-as-applicable-no-dues-certificate-from-other-financial-institut",
+    "otherwise-post-sanction"
+  ],
+  "apply_url": "https://www.nmdfc.org/lendingpolicy",
+  "source_url": "https://www.myscheme.gov.in/schemes/tls-nmdfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "a) The applicant must be Indian and belong to one of the six notified minority communities: Muslim, Christian, Sikh, Buddhist, Parsi, or Jain.\nb) The annual family income should not exceed:\nRs. 3.00 lakh per annum under Credit Line–1.\nRs. 8.00 lakh per annum under Credit Line–2.\nc) The applicant must be 18 years or above and capable of undertaking self-employment activity.\nd) The applicant should not have any outstanding loan or default under any Central/State Government financing scheme.\ne) The project proposal should be economically viable and technically feasible.\nf) The applicant must have a valid Aadhaar-linked bank account, residence proof, income certificate, and minority community certificate issued by a competent authority.\ng) Preference shall be given to women, youth, and occupational groups belonging to the minority communities.\nh) Insurance of the borrower and assets financed is mandatory under NMDFC guidelines.\n<br>",
+  "_criteria_filled": 2
+}

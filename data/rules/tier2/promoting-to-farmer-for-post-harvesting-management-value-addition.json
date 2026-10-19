@@ -1,0 +1,26 @@
+{
+  "id": "promoting-to-farmer-for-post-harvesting-management-value-addition",
+  "name": "Promoting to Farmer for Post Harvesting & Management (Value Addition)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance**\t**Minimum Time Limit (in Years) for Reclaiming  Benefits**Project Based Processing Unit50% of the cost or ₹10,00,000/- whichever is less10 Year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-bank-account-details-project-proposal-docu"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/ZGBPasq5nKT5f3TEB66czQ%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfphmva",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligible entities:**\n\n- Farmers Interest Group\n- Farmers Producer Group\n- Farmer Producer Companies\n- Self-Help Groups (SHGs) and Sakhi Mandals of Women farmers\n- Co-operative society at village level\n\n> **Eligible Individuals with relevant agricultural education:**\n\n- Diploma in Agriculture\n- Graduate in Agriculture\n- Postgraduate in Agriculture\n- Bachelor of Rural Studies (B.R.S.)",
+  "_criteria_filled": 1
+}

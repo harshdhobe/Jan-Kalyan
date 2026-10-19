@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-atyant-pichhda-varg-medhavriti-yojana",
+  "name": "Mukhyamantri Atyant Pichhda Varg Medhavriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- A one-time scholarship of ₹10,000/- is provided per student.\n\n**Note:** Payment will be made via Direct Benefit Transfer (DBT) into the beneficiary’s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "student-provides-document-to-the-school-caste-certificate-residence-certificate"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/cache/41/03-Apr-25/SHOW_DOCS/LTR-03.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mapvmy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n1. The applicant should be a student. \n1. The applicant should belong to the Extremely Backward Class (BC-I) category.\n1. The applicant should have passed the 10th class (Matric) examination in the first division from the Bihar School Examination Board, Patna.",
+  "_criteria_filled": 1
+}

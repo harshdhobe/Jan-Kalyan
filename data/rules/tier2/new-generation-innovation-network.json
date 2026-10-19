@@ -1,0 +1,27 @@
+{
+  "id": "new-generation-innovation-network",
+  "name": "New Generation Innovation Network",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "1. The host institute will be provided a one-time grant of ₹10 lakhs to set up the required infrastructure for the implementation of the scheme and also provide the following expenses:\n\n&gt; **Operational Expenses:**\n\n  - Each Educational Institute will get funding of ₹5 Lakhs per year to be used towards operating expenditure for maintenance.\n  - Operational Expenses Grant of ₹5 lakhs per annum (r",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "1-details-of-the-principal-of-the-institute-2-listdetails-of-management-committe",
+    "as-required"
+  ],
+  "apply_url": "https://dit.tripura.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngin",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a technical institute, polytechnic institute, or a government general degree college in Tripura.\n\n**The host institute will be selected based on its infrastructure, quality of faculty, and excellence in education by a state-level committee.**\n&gt; **Infrastructure:** The following minimum specified infrastructure to be made available in the Educational institutions:\n\n   1. Minimum 1000 sq. ft. carpet area in a location that is appropriate to host an incubation centre on a college/ institution campus.\n   1. 10 computers with the latest configuration. (Minimum configurations Core i5 / i7; 5th Gen; 1Tb hard disk, 4GB / 6GB Ram, 3GHz. Monitor at least 21 inches).\n   1. Workspaces to accommodate up to 5 start projects/teams/start-ups simultaneously.\n   1. Well-furnished incubation room with furniture, AC, and interior decoration.\n   1. Independent high-speed dedicated internet connection, uninterrupted power backup and Projection facility, Discussion, and meeting room to be made available on the college/institution campus.\n\n&gt; **Manpower:**\n\n1.\tOne dedicated manpower will need to be appointed as a Start-up coordinator with the following qualifications.\n**Minimum Qualification:** Technical/Management graduate with at least 5 years of working experience in the industry in sales/Marketing.\n2.\tSelection of a minimum of two mentors in specific areas of technology/specialization from the Faculty of the Host institute.\n**Note:** The Host Institution should open a separate bank account in any nationalised bank to receive grants.\n<br>",
+  "_criteria_filled": 1
+}

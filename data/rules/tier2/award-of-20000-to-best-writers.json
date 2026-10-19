@@ -1,0 +1,26 @@
+{
+  "id": "award-of-20000-to-best-writers",
+  "name": "Award of ₹20,000/- to Best Writers",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Cash Prize:** ₹20,000/- to each of the selected writers (10 from Adi Dravidar/Tribal communities and one from other communities).  - **Recognition:** Selected writers receive state recognition for their literary contributions.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83092",
+  "source_url": "https://www.myscheme.gov.in/schemes/atbw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be an unemployed writer.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal/ Adi Dravidar converted to Christian community.",
+  "_criteria_filled": 1
+}

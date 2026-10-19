@@ -1,0 +1,26 @@
+{
+  "id": "fal-podharopan-yojana",
+  "name": "Fal Podharopan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "40% to 50% of grant-in-aid is payable in the ratio of 60:20:20 in three years.\n<br>\n\nSr. No.ConstituentPercentage of grant-in-aidPer Hectare Unit Cost for Dripless IrrigationGrant-in-Aid for Driplessrrigation (60:20:20)Per Hectare Unit Cost for Drip IrrigationGrant-in-Aid for  for Drip Irrigation (60:20:20)1.Normal Distance40% to 50%60,00030,0001,00,00040,0002.High Density40%1,00,00040,0001,50,000",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-land-ownership-forest-rights-certificate-if-applicable-ban"
+  ],
+  "apply_url": "https://www.mphorticulture.gov.in/sites/default/files/%E0%A4%AB%E0%A4%B2%20%E0%A4%AA%E0%A5%8C%E0%A4%A7%20%E0%A4%B0%E0%A5%8B%E0%A4%AA%E0%A4%A3%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should own private land.\n1. The land area should be at least 0.25 hectares.\n1. The land area should not exceed 4 hectares.\n1. The applicant should have adequate means of irrigation to support fruit plantation.\n1. The applicant should be interested in growing fruit crops.\n1. The applicant should have a strong interest in plantation activities.\n1. The applicant should be from one of the following social categories - General, Scheduled Tribe, Scheduled Caste.",
+  "_criteria_filled": 1
+}

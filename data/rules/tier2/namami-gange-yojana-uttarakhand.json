@@ -1,0 +1,26 @@
+{
+  "id": "namami-gange-yojana-uttarakhand",
+  "name": "Namami Gange Yojana- Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the scheme, farmers are provided assistance to adopt organic farming through the formation of clusters.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-council-to-avail-the-benefit"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngy-uk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers residing in villages located along the banks of the Ganga and its tributaries in Uttarakhand are eligible for assistance under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

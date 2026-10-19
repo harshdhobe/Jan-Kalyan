@@ -1,0 +1,41 @@
+{
+  "id": "snehayanam-scheme-for-mothers-of-persons-with-special-needs",
+  "name": "Snehayanam Scheme For Mothers Of Persons With Special Needs",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, Electric Auto Rickshaws will be provided free of cost to mothers of persons with disabilities who suffer financially.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-proof-of-identity-of-applicant-passport-size-photo-copy-of-ratio"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/34272.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssmpsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. Widowed/legally divorced/ wives abandoned by husbands are eligible to apply under this scheme.\n   1. The mothers of PwDs covered under the National Trust Act (NTA) will be eligible to apply under this scheme.\n   1. The applicants should belong to Below Poverty Line (BPL) category and do not have a source of steady income.\n   1. The beneficiaries must possess a valid 3-wheeler license.\n   1. The age limit of the applicant has to be 55 years or below.\n\n**Note 01:** The tax and insurance for the vehicles will have to be borne by the beneficiary.\n**Note 02:** The vehicle must be registered solely in the name of the beneficiary and the vehicle ownership cannot be transferred or sold.",
+  "_criteria_filled": 4
+}

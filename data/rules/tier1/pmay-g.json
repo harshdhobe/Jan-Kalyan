@@ -1,0 +1,63 @@
+{
+  "id": "pmay-g",
+  "name": "Pradhan Mantri Awaas Yojana - Gramin",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Financial assistance to construct a pucca house for rural homeless/kutcha-house families.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.area_type",
+        "op": "==",
+        "value": "rural"
+      },
+      {
+        "field": "household.owns_pucca_house",
+        "op": "==",
+        "value": false
+      },
+      {
+        "any": [
+          {
+            "field": "household.house_type",
+            "op": "==",
+            "value": "none"
+          },
+          {
+            "field": "household.special_vulnerable_group",
+            "op": "==",
+            "value": true
+          },
+          {
+            "all": [
+              {
+                "field": "household.house_type",
+                "op": "==",
+                "value": "kutcha"
+              },
+              {
+                "field": "household.rooms",
+                "op": "<=",
+                "value": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "mgnrega_job_card",
+    "bank_account",
+    "sbm_number",
+    "no_pucca_house_affidavit"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmay-g",
+    "apply": "https://pmayg.dord.gov.in/"
+  },
+  "notes": "Selection from government priority list. Match means 'likely eligible', not confirmed."
+}

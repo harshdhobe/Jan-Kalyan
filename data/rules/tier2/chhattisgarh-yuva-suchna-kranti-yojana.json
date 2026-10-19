@@ -1,0 +1,26 @@
+{
+  "id": "chhattisgarh-yuva-suchna-kranti-yojana",
+  "name": "Chhattisgarh Yuva Suchna Kranti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Free laptops are provided to eligible final-year undergraduate and postgraduate students of engineering colleges, medical colleges, and other identified technical higher education institutions.\n- Free tablets are provided to eligible final-year undergraduate and postgraduate students in universities, colleges, and higher education institutions, specifically those in commerce, arts, and science s",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-students-studying-in-various-faculties-to-be-provided-by-the-institution"
+  ],
+  "apply_url": "https://cgdteraipur.cgstate.gov.in/sites/default/files/Notification-of-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cysky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student.\n- The applicant must be a native resident of Chhattisgarh.\n- The applicant must be studying in the final year of a graduate or postgraduate degree program.\n- The applicant must be pursuing the program from an institution in Chhattisgarh.\n- For laptop, the applicant must be studying in a recognised engineering college, medical college, or other identified technical higher education institution in Chhattisgarh.\n- For tablet, the applicant must be studying in a recognised university, college, or higher education institution in Chhattisgarh, in a commerce, arts, or science stream.",
+  "_criteria_filled": 1
+}

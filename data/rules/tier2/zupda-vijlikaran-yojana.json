@@ -1,0 +1,31 @@
+{
+  "id": "zupda-vijlikaran-yojana",
+  "name": "Zupda Vijlikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Free electricity household connection is provided to BPL/Lower income group beneficiary.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "allotment-order-of-landready-made-house-received-under-any-poverty-housing-schem"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/zvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to a Below Poverty Line (BPL) or low-income family.\n1. The applicant&#39;s family annual income should not exceed ₹1,50,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

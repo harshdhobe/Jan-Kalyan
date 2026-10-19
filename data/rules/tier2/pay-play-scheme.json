@@ -1,0 +1,26 @@
+{
+  "id": "pay-play-scheme",
+  "name": "Pay & Play Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Training in 11 diverse sports disciplines: athletics, badminton, lawn tennis, table tennis, shooting, gymnastics, basketball, taekwondo, volleyball, wrestling, and swimming under professional supervision.\n- Free registration and membership for school students (up to Class 10th) with the principal’s recommendation.- Free registration and membership for international/national participants and meda",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photo-identity-proof-birth-certificate-proof-indicates-that-th"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pandps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand.  \n1. The applicant should be a sportsperson.\n1. The applicant should actively participate in state-level sports.\n1. The students up to class 10th with a recommendation from the school principal and National/international participants or medalists are eligible to apply.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "go-green-three-wheelers-scheme-gbocwwb",
+  "name": "Go-Green Three Wheelers Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a one-time subsidy will be available to the extent of 50% of the Ex-Showroom Price or ₹48,000/- whichever is less.\n   1. The assistance will also be available for the amount of Registration Fee and Road Tax paid for the first time of the new Three-Wheeler. (RTO Tax and Road Tax would be reimbursed as well.)\n\n**Note 01:** The cost of the motor vehicle tax amount of the new thr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-e-nirman-card-rto-of-the-registered-construction-worker-copy-of-val"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggtwsgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers should be registered with the Gujarat Building and Other Construction Worker’s Welfare Board.\n   1. The registered construction workers who become disabled or incapacitated due to an accident while working at a construction site will be eligible to get the benefit of this scheme.\n   1. The registered construction disabled worker (Shramyogi) should have purchased a lithium-ion battery-operated vehicle in his own name.\n   1. The registered construction disabled worker (Shramyogi) should hold a tri-cycle license to operate a tri-cycle.\n   1. The benefit of this scheme will be available once per registered construction disabled worker.",
+  "_criteria_filled": 2
+}

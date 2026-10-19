@@ -1,0 +1,26 @@
+{
+  "id": "assistance-program-for-expansion-of-fruit-crop-cultivation",
+  "name": "Assistance Program for Expansion of Fruit Crop Cultivation",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **For Intensive and Ultra-Intensive Farming of Mango, Guava, Pomegranate, Lemon, etc.:**\n\n- Assistance of ₹30,000/- to ₹40,000/- per hectare.\n- Maximum up to 4 hectares per beneficiary.\n\n<br>\n\n> **For New Plantation of Banana Tissue Culture Crop:**\n\n- 40% of the incurred cost or maximum ₹50,000/- per hectare.\n- Maximum up to 4 hectares per beneficiary.\n\n<br>\n\n> **For New Plantation of Papaya Cro",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/apfefcc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be a resident of Gujarat.\n   1. The applicant must be engaged in horticultural or fruit crop cultivation.",
+  "_criteria_filled": 1
+}

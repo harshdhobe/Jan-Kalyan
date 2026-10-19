@@ -1,0 +1,27 @@
+{
+  "id": "sastraposhini-scheme",
+  "name": "Sastraposhini Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. A total of ₹8 lakhs is spent to establish Sastraposhini laboratories (Physics, Chemistry, and Biology) in one school with a fair share from KSCSTE.\n   1. Training will be provided to selected teachers from Sastraposhini schools by eminent scholars/ academicians from different disciplines.\n   1. Laboratory manuals and visual experimental aids and models will be provided to the selected schools.\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-details-of-school-2-name-and-details-of-the-teacher-to-be-nominated-as-in-char",
+    "if-any-4-details-of-the-nearest-sastraposhini-school-5-official-bank-account-det"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/wp-content/uploads/2019/06/Application_Sastraposhini22.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sskerala",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only government high schools in the State with sufficient facilities (three rooms to establish Physics, Chemistry, and Biology laboratories), and qualified faculty in science are eligible.\n   1. The schools applying for the scheme shall have the following basic requirements:\n\n  - Sufficient space to establish Sastraposhini laboratories (separate rooms for physics, chemistry, and biology laboratories).\n  - Qualified teachers in three subject areas (physics, chemistry, and biology).\n  - Sufficient number of students in the high school section.\n  - Extend of administrative support from the Headmaster/Principal/Management for the smooth implementation of the scheme.",
+  "_criteria_filled": 1
+}

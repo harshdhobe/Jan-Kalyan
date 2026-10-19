@@ -1,0 +1,31 @@
+{
+  "id": "the-post-matric-scholarship-for-scheduled-tribes-students",
+  "name": "The Post-Matric Scholarship For Scheduled Tribes Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "1. Financial assistance for post-matric education.\n   1. Support for ST students pursuing recognized professional, technical, non-professional, non-technical, and correspondence courses.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-self-account-income-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Tribes community.\n1. The applicant should be permanently settled in the state of Mizoram.\n1. The applicant should be pursuing studies from Class XI up to a Post-Doctoral Fellowship.\n1. The applicant’s parents’/guardians’ income from all sources should not exceed ₹2,50,000 (Rupees Two Lakh Fifty Thousand only) per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

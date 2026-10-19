@@ -1,0 +1,31 @@
+{
+  "id": "aapki-beti-hamari-beti",
+  "name": "Aapki Beti Hamari Beti",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Keeping in view the aims of the Scheme, the Government will provide benefits/financial assistance to each girl child beneficiary. This will be provided in the following manner:**\n\n   1. All Scheduled Caste families whose first girl child is born on or after 22nd January 2015 shall be eligible to receive a one-time grant of ₹21,000/- only.\n   1. All Below Poverty Line (BPL) families whose first g",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-girlsparentsguardian-residence-proof-caste-certificate-self-atteste"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s34c144c47ecba6f8318128703ca9e2601/uploads/2020/10/2020102864.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/abhb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following will be the eligibility criteria for beneficiaries under the scheme:-\n\n   1. All Scheduled Caste families whose first girl child is born on or after 22nd January 2015 shall be eligible to receive a one-time grant.\n   1. All Below Poverty Line (BPL) families whose first girl child is born on or after 22nd January 2015 shall be eligible to receive a one-time grant.\n   1. All families whose second girl child is born on or after 22nd January 2015, will receive a one-time grant irrespective of their caste, creed, religion, income, and number of sons.\n   1. In cases, twin/multiple girls born on or after 22nd January 2015, will receive a one-time grant per girl child in any family satisfying the eligibility conditions.\n   1. All families whose second girl child is born on or before 21st January 2015, will receive a one-time grant per girl child per annum for five years irrespective of their caste, creed, religion, income, and number of sons. **(This is applicable for those cases who are eligible for benefit under the Ladli scheme).**   1. In cases, when twin/multiple girls are born on or before 21st January 2015 will receive a one-time grant per girl child per annum for five years irrespective of their caste, creed, religion, income, and number of sons in any family of the State of Haryana satisfying the eligibility conditions. **(This is applicable for those cases who are eligible for benefit under Ladli scheme).**   1. All parents resident of Haryana or having a Haryana domicile and at least one of the parents along with the girl child should be residing in Haryana.\n   1. The pregnant women should be registered at the nearest Anganwadi Centre or with the Health Department.\n   1. The birth of all girl children shall be registered.\n   1. The girl child shall have an Aadhaar number. However, at the time of enrolment, the Aadhaar number of the parents is also accepted.\n   1. The parents should ensure proper and timely immunization of the girl children and immunization records (as per age of the girl children) should be attached with the application form.\n   1. Beneficiaries should be enrolled in Anganwadi Centre as per their age.\n\n**Change of address:** It shall be obligatory for the parents/guardian of the girl children to intimate any change of address to the Women and Child Development Project Officer/ District Programme Officer and Civil Surgeon concerned.\n**Eligibility to encash Membership Certificate:**\nIn order to obtain the maturity value of the investment in the Membership Certificate at the time of applying the beneficiary girl must be:\n\n- 18 years of age\n- Unmarried",
+  "_criteria_filled": 2
+}

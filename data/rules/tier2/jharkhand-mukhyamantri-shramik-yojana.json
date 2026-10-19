@@ -1,0 +1,31 @@
+{
+  "id": "jharkhand-mukhyamantri-shramik-yojana",
+  "name": "Jharkhand Mukhyamantri Shramik Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Guaranteed wage employment for a maximum of 100 days per financial year.\n- Improvement in living standards of urban poor families.\n- Employment opportunities in urban development projects like housing, sanitation, and road construction.\n- Ensuring social security for urban workers.\n- Contribution to urban cleanliness and green city initiatives.\n\n<br>\n\n***Job Card Issuance:***\n\n- Job cards can be",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-id-driving-license-electricity-bill-bank-passbook-copy-reside"
+  ],
+  "apply_url": "https://msy.jharkhand.gov.in/sop",
+  "source_url": "https://www.myscheme.gov.in/schemes/jmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an unskilled worker willing to work in urban areas.\n1. The applicant must be a resident of Jharkhand and living in an urban local body (own/rented/slum) since before April 1, 2015.\n1. The applicant should be 18 years or older.\n1. The disabled person, women in special circumstances, and senior citizens above 65 years are also eligible to apply.",
+  "_criteria_filled": 2
+}

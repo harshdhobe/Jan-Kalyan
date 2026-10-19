@@ -1,0 +1,37 @@
+{
+  "id": "livelihood-support-to-marine-fishermen-during-fishing-ban-period",
+  "name": "Livelihood Support To Marine Fishermen During Fishing Ban Period",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. Only one member of the affected families shall be assisted with ₹15,000/- annually under the scheme.\n   1. The amount shall be paid to the beneficiaries between November and March of a financial year in one Installment.\n   1. The assistance amount shall be released to the beneficiaries through Direct Benefit Transfer.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "photocopy-of-aadhaar-card-photocopy-of-voter-i-card-photocopy-of-ration-card-pho",
+    "while-working-as-a-crew-memberother-activities-photocopy-of-1st-page-of-bank-pas"
+  ],
+  "apply_url": "https://fard.odisha.gov.in/sites/default/files/2023-10/14.%20Livelihood%20Support%20to%20Marine%20Fishermen%20during%20Fishing%20Ban%20Period.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsmfdfbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The following are the eligibility criteria for the beneficiary:**\n\n   1. The beneficiary must be an active Marine fisherman.\n   1. The assistance will be provided to only one member of a family on behalf of the family.\n   1. The beneficiary must be in the age group of 18-70 years.\n   1. The beneficiary must be a permanent resident of Odisha and must possess identity and residential proof including an Aadhaar card.\n   1. The beneficiary must have a bank account in his/her name in the state of Odisha.\n   1. The beneficiary must be a boat owner (Motorized Boat)/ a crew member of a Motorized Boat / Fish trader/ engaged in sorting, and grading Fish, and other ancillary activities.\n   1. The Fishers should preferably belong to the BPL Category i.e. covered under the National Food Security Act (NFSA) and not belong to the automatically excluded household under the socio-economic and caste census (SECC)-2011.\n   1. If the fisherman is a Boat Owner, he must have valid registration (Real Craft) and a valid fishing license.\n   1. If the fisherman is a crew member, he must work in a registered fishing boat with a valid date fishing license and will produce a certificate from the boat owner in this respect.\n   1. If the fisherman is a Fish trader / engaged in sorting, grading of Fish, and other ancillary activities he must produce a certificate from a registered boat owner in this respect.\n\n**Note:**\nPreference of selection of beneficiaries shall be undertaken in the order of:\n\n   1. Boat Owner.\n   1. Crew member of a fishing boat.\n   1. workers engaged in sorting, grading, and other ancillary activities.",
+  "_criteria_filled": 3
+}

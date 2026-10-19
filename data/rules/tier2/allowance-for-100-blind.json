@@ -1,0 +1,42 @@
+{
+  "id": "allowance-for-100-blind",
+  "name": "Allowance for 100% Blind",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "Pension of ₹2,000/- per month.\n_*The existing beneficiaries who are on receipt of benefits under the scheme can continue to do so._",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-income-certificate",
+    "issued-by-the-local-dcmsdm-not-applicable-for-bpl-family-passport-size-photograp"
+  ],
+  "apply_url": "https://slsa.tripura.gov.in/sites/default/files/SW%20%26%20SE_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tpsftbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The applicant should be 100% visually handicapped.\n1. The applicant&#39;s age should be 10 years and above. \n1. The annual income of the applicant&#39;s family should be up to ₹ 1,00,000/-.",
+  "_criteria_filled": 4
+}

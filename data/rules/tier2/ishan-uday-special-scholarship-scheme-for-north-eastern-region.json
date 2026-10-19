@@ -1,0 +1,27 @@
+{
+  "id": "ishan-uday-special-scholarship-scheme-for-north-eastern-region",
+  "name": "“Ishan Uday” Special Scholarship Scheme For North Eastern Region",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. UGC will award 10,000 (ten thousand) fresh scholarships per year.\n1. ₹5,400/- per month for general degree courses and ₹7,800/- per month for technical/medical/professional/paramedical courses.\n1. The scholar would be awarded from the date of joining the course, as certified by the University/Institution/ College.\n1. Scholarship (as certified by the institutions identified under this scheme) wi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-to-be-issued-by-the-competent-authority-proof-of-annual-inc",
+    "the-annual-progress-report-and-continuation-of-studies-will-be-required-to-be-up"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/ISHAN_UDAY_GUIDELINE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iu-sss-ner",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a domicile of NER.\n1. The parental annual income of the applicant should not exceed ₹4,50,000/- per annum from all sources.\n1. The applicant should have passed Class 12th or equivalent in the preceding year of study for applications called for the present year.\n1. The applicant should have secured admission in the first year of any degree course, either a general degree course of\n1. The scholarship shall only be provided for general degree courses, and technical and professional courses, including medical and paramedical courses, as certified by the Registrar/ Principal/ Director of University/ College/ Institute in any of the following universities/colleges/institutes:\n\n- Universities/Institutions/Colleges included under Section 2(f) and 12 (B) of the UGC Act.\n- Deemed to be Universities included under Section 3 of the UGC Act, 1956 and eligible to receive grants-in-aid from UGC.\n- Universities/Institutions/Colleges funded by the Central / State Government.\n- Institutes of National Importance.\n- Institutions recognised by other Statutory councils within as well as outside.\n- The admission should have been made to a University/ Institution/ College with the AISHE code.\n\n> **Renewals:**\n\n- Scholarship granted under the scheme will be renewed during the period of the first degree course, subject to good conduct and maintenance of prescribed attendance.\n- The scholarship will be renewed for the next year of study on receipt of an annual progress report to be granted by the administrative head of the University/ Institution/College.(E.g. Registrar of a University/ Director of the Institution/ Principal of the College or any other officer designated by them).\n- Students failing to get promoted to the next class/ level would forfeit the scholarship.\n- Change in course of study will not be permitted. If the awardee changes the course of study, the scholarship will stand forfeited from the date of such a change.\n- The Scheme will be implemented and monitored by the UGC.\n- The awardees of previous years will continue to follow the UGC pattern of assistance through the designated bank branches of Canara Bank.\n\n> **Note:**\n\n- For students of integrated degree courses, the scholarship will be tenable for the complete duration of the course.\n- For dual degree courses, the scholarship will only be tenable for the tenure of the first degree.\n- Transgender candidates are eligible to apply under the scheme. The reservation shall be followed as per the Government of India norms.\n- Distribution of slots amongst the states of NER will be done on the basis of population census(last).\n- If slots in a particular state remain vacant due to the non-availability of eligible candidates, the unfilled slots will be distributed equitably amongst other states.\n- Reservation for Persons with Disability (PwD) will be made as per the Government of India norms.\n\n<br>",
+  "_criteria_filled": 1
+}

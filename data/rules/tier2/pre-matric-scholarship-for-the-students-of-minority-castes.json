@@ -1,0 +1,31 @@
+{
+  "id": "pre-matric-scholarship-for-the-students-of-minority-castes",
+  "name": "Pre-Matric Scholarship for the Students of Minority Castes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Scholarship Amounts:**\n\n- Boys (Class 1st to 8th): ₹750/- per year- Boys (Class 9th to 10th): ₹1,000/- per year- Girls (Class 1st to 5th): ₹500/- per year- Girls (Class 6th to 10th): ₹1,000/- per year\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-income-certificate-10th12th-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to a minority caste.\n1. The applicant must be studying in a government or aided primary/secondary school.\n1. The applicant must be studying in class 1st to 10th.1. There is no income limit for applicants in standard 1st to 8th.1. The applicant’s annual family income must not exceed ₹6,00,000/- for standard 9th to 10th.\n<br>",
+  "_criteria_filled": 2
+}

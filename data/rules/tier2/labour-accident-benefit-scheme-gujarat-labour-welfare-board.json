@@ -1,0 +1,31 @@
+{
+  "id": "labour-accident-benefit-scheme-gujarat-labour-welfare-board",
+  "name": "Labour Accident benefit Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, workers with disabilities ranging from 40% to 70% will receive financial assistance of ₹25,000/-.\n   1. Workers with disabilities exceeding 70% will receive financial assistance of ₹50,000/-.\n\n**Note:** The organization has to pay ₹12,500/- for disabilities ranging from 40% to 70%, and for disabilities exceeding 70%, the benefit amount is ₹25,000/-. Additionally, any amount to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-a-copy-of-the-identity-card-issued-by-the-contracto"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/labour-acc-benifite-scheme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/labs-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Workers who have become disabled during their duty period due to an accident or any other reason at the working premises of the establishment can avail of the benefits under the scheme.\n   1. Only those workers (Shramyogis) whose organization/unit has regularly paid their Labour Welfare Fund for the last one year will be eligible.\n\n**Note 01:** Application must be made within 2 years of the accident. Applications received after the deadline will be processed at the office.\n**Note 02:** The worker has to submit proof of payment of said amount by the organization.\n**Note 03:** The decision of the Welfare Commissioner will be final and the jurisdiction will be Ahmedabad.",
+  "_criteria_filled": 2
+}

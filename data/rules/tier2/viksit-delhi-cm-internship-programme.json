@@ -1,0 +1,36 @@
+{
+  "id": "viksit-delhi-cm-internship-programme",
+  "name": "Viksit Delhi CM Internship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "1. Interns will be eligible for 5 days&amp;#39; leave during the entire duration of the internship.\n   1. Each intern shall be paid an amount of ₹20,000/- per month, i.e. ₹60,000/- for a complete term, subject to attendance.\n   1. At the end of the internship, interns will submit their report to the HODs of the concerned department.\n   1. Interns who successfully complete the programme will receiv",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "student-id-card-residence-proof-12th-marks-certificate-aadhaar-card-address-proo"
+  ],
+  "apply_url": "https://viksitdelhiyuva.org/",
+  "source_url": "https://www.myscheme.gov.in/schemes/vdcmip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be pursuing a graduation or post-graduation course.\n1. The applicant must be enrolled in the electoral roll of Delhi or have any residential proof in Delhi.\n1. The applicant must have scored 70% or above marks in the Class 12th examination.\n1. The applicant must be between 18 and 30 years of age as on the date of application.\n\n**Reservation/Relaxation:** \n\n- Reservation for Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), Economically Weaker Section (EWS), and Physically Disabled candidates is applicable as per Delhi and Central Government rules.\n\n<br>",
+  "_criteria_filled": 3
+}

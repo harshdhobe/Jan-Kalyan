@@ -1,0 +1,26 @@
+{
+  "id": "free-electricity-supply-scheme",
+  "name": "Free Electricity Supply Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Free Electricity Supply:** Scheduled Caste and Scheduled Tribe farmers having agricultural pumps up to 5 horsepower and landholding up to 1 hectare receive free electricity.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-land-ownership-document-pump-detailsconnection-certificate-aad"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/fess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Scheduled Caste (SC) or the Scheduled Tribe (ST) category.\n  - The applicant must be a farmer owning agricultural land up to 1 hectare.\n  - The applicant must have an agricultural pump of capacity up to 5 Horsepower (HP).\n\n<br>",
+  "_criteria_filled": 1
+}

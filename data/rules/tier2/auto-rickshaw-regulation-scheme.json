@@ -1,0 +1,26 @@
+{
+  "id": "auto-rickshaw-regulation-scheme",
+  "name": "Auto Rickshaw Regulation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Benefits:**\n\n- Regulated operation of auto rickshaws across Madhya Pradesh.\n- Improved road safety through speed governors limited to 40 kilometers per hour.\n- A mandatory vehicle tracking device is integrated with the Transport Department’s central server.\n- Uniform permit system with defined validity periods.\n- Organized route allocation and auto stand identification.\n- Inclusive applicabili",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-as-per-madhya-pradesh-motor-vehicle-rules-registration-certific"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/2021-03-27-Ex-175.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/arrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**General Eligibility** \n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be an auto rickshaw owner or operator.\n1. The applicant should possess a valid driving license suitable for operating an auto rickshaw.\n1. The applicant’s auto rickshaw should not be more than 10 years old from the manufacturing year if petrol or diesel operated.\n1. The applicant should apply for a permit or renewal under the Madhya Pradesh Motor Vehicle Rules, 1994.\n1. The applicant should comply with prescribed safety, speed, and tracking requirements.\n1. The applicant may be a person with disability, provided all statutory driving and vehicle fitness conditions are fulfilled.\n1. The applicant must not have any major traffic violations or criminal offences under motor vehicle laws in the previous year.\n\n**For Auto Rickshaw / E-Cart / E-Rickshaw Owners:**\n\n1. The vehicle must adhere to color-coding regulations as prescribed by the Regional Transport Authority.\n1. The vehicle must have the route number and auto-stand details clearly displayed on a visible white circular background with red letters.\n1. The owner must ensure the vehicle carries all valid documents, including registration certificate, fitness certificate, insurance, permit, pollution control certificate, and motor vehicle tax receipt.\n1. The owner must ensure the vehicle is not modified, including installation of music systems or unauthorized alterations; violation may result in permit cancellation.\n1. The owner is responsible for compliance with all conditions imposed on the permit by the authorities.\n\n**For Drivers:**\n\n1. The driver must wear the prescribed uniform while operating the vehicle.\n1. The driver must have no repeated traffic violations, such as jumping red lights, violating lane discipline, overspeeding, or committing offenses under motor vehicle laws.\n1. The driver must not operate the vehicle under the influence of alcohol or drugs.\n1. The driver must not use a mobile phone or smoke while driving.\n1. The driver must not overload the vehicle beyond the permitted passenger capacity; violations will result in fines of ₹1,000 for the first offense and permit cancellation for repeated offenses.\n1. The driver must carry all vehicle documents while driving, as required by law.\n\n<br>",
+  "_criteria_filled": 1
+}

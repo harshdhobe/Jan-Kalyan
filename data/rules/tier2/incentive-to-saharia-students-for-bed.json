@@ -1,0 +1,26 @@
+{
+  "id": "incentive-to-saharia-students-for-bed",
+  "name": "Incentive To Saharia Students For B.Ed",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "Saharia tribe students who are taking regular B.Ed training are given Rs.30,000 in the first year and Rs.30,000 in the second year. \nDetails are given below :\n\n1. Rs. 26,000/- for college fees and purchase of books.\n1. Rs. 32,000/- for house rent and food.\n1. Rs. 2,000/- for clothes.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-copy-aadhar-card-copy-education-qualification-marksheet-certif"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/400",
+  "source_url": "https://www.myscheme.gov.in/schemes/issfb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a native of Rajasthan.\n1. The student should belong to Saharia class, a tribe of the Baran district of Rajasthan.\n1. The student should be a regular trainee in the government / non-government BEd training institute.\n1. The student&#39;s mother/father/guardian/guardian should not be a taxpayer.\n1. The student who is studying while living in the hostel is run by the government. They will not be entitled to benefit under the said scheme.\n1. Students should have a Vaidya Bhamashah card and Aadhaar.",
+  "_criteria_filled": 1
+}

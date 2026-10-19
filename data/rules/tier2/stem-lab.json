@@ -1,0 +1,26 @@
+{
+  "id": "stem-lab",
+  "name": "STEM Lab",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "STEM labs are being established in all the blocks of the state, through which students and teachers will be provided with information about experiments in science, technology, engineering, and mathematics.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-must-be-submitted-in-accordance-with-the-guidelines-of-the-respective"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/steml",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student enrolled in a school located in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

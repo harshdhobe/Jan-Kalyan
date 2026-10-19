@@ -1,0 +1,26 @@
+{
+  "id": "high-altitude-guide-course",
+  "name": "High Altitude Guide Course",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The beneficiary will become a certified high-altitude guide upon completing the course.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-submit-the-necessary-documents-in-accordance-with-the"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/highaltitudeuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a youth from Uttarakhand.\n- The applicant must have completed a Low Altitude Guide Course from a recognized institution.\n\n> The total number of 41 beneficiaries will be selected.\n\n<br>",
+  "_criteria_filled": 1
+}

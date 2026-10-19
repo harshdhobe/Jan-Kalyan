@@ -1,0 +1,26 @@
+{
+  "id": "new-charkha-loom-scheme",
+  "name": "New Charkha-Loom Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Subsidy for Equipment**\n\n- Amber Charkha: 65% of ₹13,000/- (₹8,450/- subsidy).\n- Looms: 65% of ₹30,000/- (₹19,500/- subsidy).\n\n<br>\n\n**Disbursement Mode**\nCredited to the beneficiary’s account post-verification.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "khadipolyvastra-certification-proof-of-registration-khadi-institutionorganizatio"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/IncentiveDetails/11_Incentives_for_Cottage_and_Rural_Industries.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ncls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered Khadi/Polyvastra spinner or weaver.\n- The applicant’s organization must hold a valid Khadi certification.\n- Equipment must be purchased for active Khadi production.",
+  "_criteria_filled": 1
+}

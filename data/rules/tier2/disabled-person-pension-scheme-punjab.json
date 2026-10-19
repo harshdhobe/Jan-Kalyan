@@ -1,0 +1,36 @@
+{
+  "id": "disabled-person-pension-scheme-punjab",
+  "name": "Disabled Person Pension Scheme - Punjab",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "beneficiary-photo-id-cum-residence-proof-of-the-parent-guardian-driving-license"
+  ],
+  "apply_url": "https://punjab.gov.in/wp-content/uploads/2023/08/Disabled-person-pension-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a Permanent Resident of Punjab.\n1. Applicant should be Disabled and the Disability Percentage should be more than 50%.\n1. The Annual Income of Family should not be more than Rs. 60,000/- per Year.\n1. People with mental disabilities are eligible regardless of their specific disability.",
+  "_criteria_filled": 3
+}

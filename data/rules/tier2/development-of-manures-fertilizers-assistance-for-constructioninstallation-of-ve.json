@@ -1,0 +1,26 @@
+{
+  "id": "development-of-manures-fertilizers-assistance-for-constructioninstallation-of-ve",
+  "name": "Development of Manures & Fertilizers: Assistance for Construction/Installation of Vermi-Compost Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Construction/Installation of Vermi-compost unit would be provided 75% subsidy limited to Rs.1,950/- per cu.mt for Vermi-compost units for all categories of farmers. \n- The Standard cost for Vermi-compost unit would be Rs. 2600/- per cubic meter which includes 90% cost on construction/installation including mason cost and 10% will be the cost of earthworms, etc. \n- The unit can have one or more p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "krishi-card-abstract-soil-health-card-cash-invoice-design-and-estimates-of-appro"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-22-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/copy-of-dmf-acivcu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any farmer carrying out agricultural activities in the State of Goa and having a Krishi card.\n- Institutions and private limited companies involved in agricultural activities and having a Krishi card will also be assisted under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

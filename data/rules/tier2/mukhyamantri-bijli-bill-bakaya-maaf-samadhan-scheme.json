@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-bijli-bill-bakaya-maaf-samadhan-scheme",
+  "name": "Mukhyamantri Bijli Bill Bakaya Maaf Samadhan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Waiver of Outstanding Dues:** Complete waiver of surcharge amount and 50% waiver of the principal outstanding amount as of the date of implementation of the scheme.  - **Benefit to Consumers:** The entire surcharge and 50% of the principal amount are borne by the concerned distribution companies.  - **State Government Support:** The remaining 50% of the principal amount is borne by the State G",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbbbmss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a registered worker under the &quot;Mukhyamantri Mazdoor Kalyan (Sambal) Yojana&quot;.\nThe applicant must be a construction worker or a Below Poverty Line (BPL) consumer.\n<br>",
+  "_criteria_filled": 1
+}

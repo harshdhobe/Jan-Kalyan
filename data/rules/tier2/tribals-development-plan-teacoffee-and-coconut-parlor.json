@@ -1,0 +1,31 @@
+{
+  "id": "tribals-development-plan-teacoffee-and-coconut-parlor",
+  "name": "Tribals Development Plan: Tea/Coffee And Coconut Parlor",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Provision of the entire project financing for establishing a Tea/Coffee and Coconut Parlor, with a project cost of about ₹25,000/- to ₹30,000/-.\n- The beneficiary will be rewarded with the entire amount deposited if they successfully deposit the aforesaid amount.\n\n***Conditions***\n_*The beneficiary has to deposit 50% of the total project cost to the Department._\n_*The deposit must be paid in 36 ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-caste-certificate-proof-of-residence"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/0607/0607-45-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tdp-tccp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Goa.\n- The applicant must belong to one of the Scheduled Tribe (ST) communities notified in Goa, i.e. Gawda, Velip, or Kunbi.\n- The applicant must be part of a tribal household identified under the Tribals Development Plan.\n- The applicant’s family must fall under either:\n\n(a) the Below Poverty Line (BPL) category, or\n(b) the non-BPL category with annual income &lt; ₹1,20,000/-.\n<br>",
+  "_criteria_filled": 2
+}

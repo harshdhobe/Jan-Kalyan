@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-financial-assistance-for-dance-and-drama-troupesassociations",
+  "name": "Scheme of Financial Assistance for Dance and Drama Troupes/Associations",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Grant of ₹2,000/- given to the dance and drama troupes/associations.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-cultural-body-in-the-territory-domicile-certificate-copy-o"
+  ],
+  "apply_url": "https://art.py.gov.in/sites/default/files/application-10.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfaddta",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The dance and drama troupes should be presenting new classical or folk dance programs or for staging new dramas, enacted by any cultural body registered in the territory.\n1. The troupe/association or body should have a standing at least 2 years.\n1. The theme of the dance or the story and dialogue of the drama must be new and original, created by an artist who is a native of the territory by birth or domicile.",
+  "_criteria_filled": 1
+}

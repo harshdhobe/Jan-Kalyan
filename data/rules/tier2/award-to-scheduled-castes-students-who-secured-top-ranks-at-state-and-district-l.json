@@ -1,0 +1,26 @@
+{
+  "id": "award-to-scheduled-castes-students-who-secured-top-ranks-at-state-and-district-l",
+  "name": "Award to Scheduled Castes Students Who Secured Top Ranks at State and District Level in Standard X & XII (Sahuji Maharaj Assistance)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Award/Cash Prizes Details at State Level:**\n\n**Sl. No.****Student’s Rank****Award for Standard X****Award for Standard XII (For All Stream)**1First₹41,000/-₹31,000/-2Second₹21,000/-₹21,000/-3Third₹11,000/-₹11,000/-**Award/Cash Prizes Details at District Level:**\n**Sl. No.****Student&amp;amp;amp;#39;s Rank****Award for Standard X****Award for Standard XII (For All Stream)**1First ₹6,000/-6,000/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-caste-certificate-from-the-co"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1483?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascswstrsdlsxxiisma",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students should belong to the Scheduled Castes Category of Gujarat.\n   1. The students who have Secured Top Ranks at the State and District Levels in Gujarat in Standard X &amp;amp; Standard XII across all streams are eligible for cash prizes.\n   1. There is no income limit.",
+  "_criteria_filled": 1
+}

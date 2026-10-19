@@ -1,0 +1,26 @@
+{
+  "id": "shri-varun-panwar-memorial-award-for-bsc-agriculture-2nd-year-3rd-year-and-4th-y",
+  "name": "Shri Varun Panwar Memorial Award for B.Sc. Agriculture (2nd Year, 3rd Year, and 4th Year) Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. Award Amount: ₹10,000/- per year\n1. Number of Awards: One award for each class\n\n- 2nd Year: 1 student\n- 3rd Year: 1 student\n- 4th Year: 1 student\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vpmawardsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n   1. The applicant must be enrolled in the B.Sc. Agriculture program and be in their 2nd, 3rd, or 4th year of study at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The award is granted for a duration of one year only.\n\n<br>",
+  "_criteria_filled": 1
+}

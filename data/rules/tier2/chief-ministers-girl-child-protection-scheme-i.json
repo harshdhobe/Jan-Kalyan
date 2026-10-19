@@ -1,0 +1,38 @@
+{
+  "id": "chief-ministers-girl-child-protection-scheme-i",
+  "name": "Chief Minister’s Girl Child Protection Scheme-I",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- A fixed deposit (FD) of ₹50,000/- in the name of the girl child (A copy of the FD receipt is given to the family).\n- Renewal of FD after five years.\n- An annual incentive of ₹1,800/- from the 6th year of the FD.\n- The amount deposited along with accrued interest is given to the girl child when she attains 18 years of age.\n\n**NOTE:** The matured amount will be given to the girl child only if she ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 72000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-issued-by-corporationtaluk-office-municipality-office-parents",
+    "rural-welfare-officer",
+    "or-supervisor-taluk-office-chennai-district-only-residential-certificate-issued"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmgcpsi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The assistance is provided only for one girl child of the family.\n- The annual income of the parents of the girl child should not exceed ₹72,000/-.\n- One of the parents must have undergone sterilization before turning 40 years old.\n- The family should have only one female child and no male child. In the future, no male child should be adopted.\n- The parents/grandparents should be a native of Tamil Nadu by birth or continuous residence of not less than ten years at the time of applying to this scheme.\n- The scheme is also applicable to the girl children of Sri Lankan Tamil Refugees in the Refugee Camps in Tamil Nadu.",
+  "_criteria_filled": 3
+}

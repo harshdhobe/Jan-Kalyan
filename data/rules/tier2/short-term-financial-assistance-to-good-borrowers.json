@@ -1,0 +1,43 @@
+{
+  "id": "short-term-financial-assistance-to-good-borrowers",
+  "name": "Short Term Financial Assistance To Good Borrowers",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The minimum loan limit available is ₹5,00,000/-.\n- The maximum loan limit available is ₹50,00,000/-.\n- The intended use of the funds is to meet short term financial requirements. This includes meeting the requirements of executing specific orders, seasonal increase in fund requirements, and firm export orders.\n\n##### ***Disbursement***\n100% of the loan amount shall be released immediately after ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-submitted-at-the-time-of-filing-loan-applicationcopy-of-acknowledgemen",
+    "small",
+    "and-medium-enterprise-registration-certificate-obtained-from-industries-departme",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-for-all-promoters-bio-data-of-all-the-promoters-duly-filled-i",
+    "00",
+    "000-details-required-in-the-application-at-page-numbers-12",
+    "13",
+    "14",
+    "and-15-to-be-furnished-compulsorily-to-prepare-the-appraisal-report-track-record",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant-if-any-required-for-l",
+    "00",
+    "000-or-group-concerns-details-of-effluent-and-arrangement-proposed-for-treatment",
+    "00",
+    "000-documents-submitted-either-during-processing-time-or-after-sanction-of-loan"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/stfagb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Existing units of MSI and SSI classified as A and B Category.\n- Existing Good Borrowers who have repaid 30% of the Principal amount. Units assisted by other financial institutions / Banks. Group concerns of the Clients of the Corporation, with an excellent track record of 4 years and operating on Profitable lines.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "self-employment-scheme-nana-vyavasay-mate-loan-yojana",
+  "name": "Self-Employment Scheme: Nana Vyavasay Mate Loan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Loan up to ₹10,00,000/- or actual expenditure, whichever is lower.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-the-prescribed-format-for-self-employment-bank-statement-non"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/self-employment-scheme-2.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/sesnvmly",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must belong to the unreserved category.\n   1. The applicant&amp;#39;s age should be between 18 years and 50 years.\n   1. The small business will have to be started within three months of obtaining the loan.\n   1. The applicant must be willing to repay the loan in equal monthly installments over 5 years after three months of starting the business.\n   1. The annual income limit of the family should be ₹6,00,000/- or less.\n\n&lt;br&gt;\n\n**Note:** \n\n   1. The interest rate on the loan will be 5 percent simple interest per annum and 4 percent for women.\n   1. The simple interest will be calculated based on the amount of the loan given per year.\n   1. Only 1 person from a family can avail of the scheme benefits.\n   1. A maximum of 5 beneficiaries per village will be selected.",
+  "_criteria_filled": 4
+}

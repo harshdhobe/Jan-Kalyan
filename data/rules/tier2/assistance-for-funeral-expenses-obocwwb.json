@@ -1,0 +1,45 @@
+{
+  "id": "assistance-for-funeral-expenses-obocwwb",
+  "name": "Assistance for Funeral Expenses (O.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** ₹5,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeraadhaar-linked-bank-passbook-f",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-passport-size-photo-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-aadhaar-card-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-signature-of-applicant-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-employment-certificate-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-for-the-application-of-the-welfare-schemeregis",
+    "the-applicant-is-required-to-submit-an-affidavit-of-other-nominees-towards-payme"
+  ],
+  "apply_url": "https://labdirodisha.gov.in/?q=node/15%27%3B",
+  "source_url": "https://www.myscheme.gov.in/schemes/affeobocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of Odisha.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a nominee of a deceased registered member Under the Building and Other Construction Workers Welfare Board of Odisha.\n  - The member should have lost his/her life due to death.",
+  "_criteria_filled": 3
+}

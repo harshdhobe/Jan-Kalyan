@@ -1,0 +1,28 @@
+{
+  "id": "large-sized-multi-purpose-coop-society-medium-term-loan-to-tribal-members",
+  "name": "Large Sized Multi-Purpose Coop. Society: Medium Term Loan to Tribal Members",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Loan up to ₹60,000/-.  - **Interest Rate:** No interest.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-caste-certificate-proof-of-employment-or-income-certificate-if"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3611",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsmpcltt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Tribal category.\n  - The beneficiary should be a member of a Large Sized Multi Purpose Cooperative Society.\n  - The beneficiary should be interested in availing Medium Term Loan from the Large Sized Multi Purpose Cooperative Society.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

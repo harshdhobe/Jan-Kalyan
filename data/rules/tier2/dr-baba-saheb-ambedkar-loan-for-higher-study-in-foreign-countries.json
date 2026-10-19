@@ -1,0 +1,26 @@
+{
+  "id": "dr-baba-saheb-ambedkar-loan-for-higher-study-in-foreign-countries",
+  "name": "Dr. Baba Saheb Ambedkar Loan for Higher Study in Foreign Countries",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Under this scheme, a loan of ₹15 lakhs is provided at an interest rate of 4% to the eligible students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-proof-of-residence-ratio"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/app_from_2222_301020210.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbsalhsifc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be native of Gujarat state.\n   1. The applicant should belong to the Scheduled Caste Category of Gujarat State.\n   1. Loans for post graduate, Ph.D., higher level research and computer courses to those who have secured 50% or more marks in graduation.\n   1. Loans for technical and professional courses abroad after 12th Standard.\n   1. Loan can be given to maximum two persons of the same family.\n   1. There is no income limit.\n   1. The institution of the foreign country in which the student is studying must be recognized by that government and the degree obtained must be accepted in that country.\n   1. Approval will only be processed once the visa and air ticket have been issued.\n   1. Scheduled caste students of the state who are admitted to study abroad based on the syllabus of class-12 or above should have 50% or more marks. Also they offer Diploma, Graduate, Post Graduate, Post Graduate Diploma, Ph.D. Also eligible for loans for other courses of more than one year duration in all fields.\n\n**Note 01:** Loan repayment starts after 6 months after the completion of the student&amp;#39;s course. But the recovery of the loan has to be completed within 10 years. After the repayment of the principal amount, the interest also has to be recovered accordingly.\n**Note 02:** The beneficiary will have to furnish a valid surety.\n**Note 03:** The student can apply for a loan within six months of moving abroad.\n**Note 04:** Students who have passed Class-10 and have completed a recognized ITI course of two years or more duration and have passed the NCVT or GCVT examination for the same according to their choice, Gujarat Secondary and Higher Secondary Education Board. 12th or Gujarat Open School Examination in English subject, those students will be treated as equivalent to 12th for the purpose of admission to higher secondary education courses.\n**Note 05:** A student who has completed a three-year diploma course at a Polytechnic will be treated as equivalent to Class 12 for college admission.\n**Note 06:** If the student settles abroad, change of place of work-residence, contact number, e-mail id, notification of movement to India &amp;quot;till the loan is repaid&amp;quot; will be mandatory.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mukhyamantri-vidyarthi-pratibha-yojna",
+  "name": "Mukhyamantri Vidyarthi Pratibha Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "Amount of Assistance:\n\n   1. IX to X Class : ₹ 5,000/- Per annum\n   1. XI to XII Class :₹ 10,000/- Per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "for-scstobc-students",
+    "a-caste-certificate-is-issued-by-the-concerned-office-of-the-district-magistrate",
+    "gnct-of-delhi-annual-family-income-certificate-issued-by-the-revenue-department",
+    "gnct-of-delhi-proof-of-studying-in-classes-9th-to-12th-in-the-schools-in-delhi-m"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/mvpvy.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of GNCT of Delhi.\n   1. There is a Minimum of 50% marks required for IX to X and 60% marks required for XI to XII Classes.\n   1. Annual Income Limit – Criteria for annual family income ₹ 8 Lacs at par annum with the EWS income limit, subject to exclusions notified by the Government of India. If the student scores 75% and above marks in the previous class, no income limit is applicable for SC/ST/OBC category.\n   1. The applicant should upload a Caste Certificate (SC/ST/OBC) issued in the name of the student or his father’s name issued by the SDM/Deputy Commissioner (Revenue), GNCTD. However, the Domicile Certificate of Delhi from the Revenue Deptt. Will be entertained for the SC beneficiary only, if the caste certificate is issued by the outside state authority instead of the competent authority of Govt. of NCT of Delhi.\n   1. Repeaters in a particular class will not be eligible for this scheme.\n   1. Bank Account should be in the name of the student (a Joint Bank Account with parent/Guardian is also permissible), active and seeded with the Aadhaar no of the student.\n\n<br>",
+  "_criteria_filled": 2
+}

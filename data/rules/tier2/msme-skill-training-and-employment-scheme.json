@@ -1,0 +1,38 @@
+{
+  "id": "msme-skill-training-and-employment-scheme",
+  "name": "Msme Skill Training And Employment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the subsidy will be provided to the MSMEs for training; subject to a maximum of ₹2000/- per month per candidate for a maximum of 6 months.\n   1. Certificates will be provided by the National Skill Development Corporation (NSDC), after the assessment of acquired skills by the trained candidates.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-uam-acknowledgement-details-of-infrastructure-f",
+    "facility-for-theoretical-training",
+    "etc-for-imparting-training-self-certified-affidavit-by-the-trainees-in-the-presc"
+  ],
+  "apply_url": "https://www.msmetamilnadu.tn.gov.in/skill-development.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/msme-stes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an MSME unit in the state who has the requisite infrastructure.\n1. Only in respect of vocation/trade in which MSMEs have expertise will be encouraged, MSME units should have experience, expertise, and running business.\n1. The trainees selected by the applicant (MSME) shall be between 18 to 25 years of age.\n1. The trainees selected by the applicant shall have an engineering degree, a polytechnic diploma, or an Industrial Training Institute (ITI) certificate, or qualification as prescribed by the respective sector skill council.\n1. The applicant shall provide the trainee with a stipend of ₹5000/- per month, for a maximum of 6 months.\n1. The applicant, MSME Unit, should not have been blacklisted at any point in time by any Government Norms/Rules/Acts. \n\n**Note:** The scheme is funded by Tamil Nadu Skill Development Corporation (TNSDC)",
+  "_criteria_filled": 3
+}

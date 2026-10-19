@@ -1,0 +1,26 @@
+{
+  "id": "grant-of-financial-assistance-for-the-funeral-expenses-of-old-age-destitute-pens",
+  "name": "Grant Of Financial Assistance For The Funeral Expenses Of Old Age/ Destitute Pensioner",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "1. ₹ Rs.500/- pm in addition to the old age pension amount.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-residential-certificate-medical-certificate-from-the-medical-authori"
+  ],
+  "apply_url": "https://oaps.py.gov.in/Home/MedicalAllowace.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfaffeoadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Old Age and Destitute pensioners suffering from T.B./Cancer.",
+  "_criteria_filled": 1
+}

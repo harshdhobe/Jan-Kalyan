@@ -1,0 +1,36 @@
+{
+  "id": "saksham-jharkhand-kaushal-vikas-yojana",
+  "name": "Saksham Jharkhand Kaushal Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "Payment terms and schedule are guided by the Common Norms notified by the Ministry of Skill Development and Entrepreneurship (MSDE). \n\n- **Training Cost per Hour:**\n\n   1. Category I Sectors/Trades: ₹49/- per hour.\n   1. Category II Sectors/Trades: ₹42/- per hour.\n   1. Category III Sectors/Trades: ₹35/- per hour.\n\n<br>\n\n- **Boarding and Lodging Costs:** For residential training or trainees who ne",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificate-residential-certificate-passport-sized-phot"
+  ],
+  "apply_url": "https://jsdm.jharkhand.gov.in/jsdm/cms/en/sjkvy/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjkvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant&#39;s age should be 18-35 years.\n1. The applicant must belong to one of the priority groups (SC/ST, women, PwD, transgender).",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,27 @@
+{
+  "id": "integrated-dairy-development-project-iddp",
+  "name": "Integrated Dairy Development Project (IDDP)",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "<br>\n\n<br>\n\n**Sr. No.****Activity****Cost (₹)****UT Subsidy Admin (₹)****Under DEDS – Subsidy Beneficiary Gets**1Cost of 2 milch cows of the Indigenous “Gir” breed, including transportation cost (@ ₹60,000/- per animal)₹1,20,000/-₹30,000/- (@25% of purchase cost subject to a maximum of ₹30,000/-)Beneficiary will get back-ended subsidy from NABARD @ 25% for General and 33.33% for SC/ST, i.e. ₹30,00",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-as-prescribed-by-the-department-proof-of-category-scst-certific",
+    "if-applicable-bank-loan-documents-for-nabard-linked-subsidy-insurance-policy-doc"
+  ],
+  "apply_url": "https://www.daman.nic.in/websites/veterinary_office_daman/documents/2017/374-26-10-2017.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iddpdaman",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of the Union Territory of Daman and Diu and Dadra and Nagar Haveli.\n1. The applicant should purchase only the Indigenous Gir breed milch cows.\n1. The applicant should utilise the grant only for the purpose for which it is sanctioned and within the stipulated period.\n1. The applicant should maintain all required records and registers as per the General Financial Rules, 1963.\n1. The applicant should submit utilisation certificates, audited accounts, and achievement reports as prescribed by the Department of Animal Husbandry &amp; Veterinary Services.\n\n> **Preference / Reservation:**\n\n- A higher subsidy rate is applicable for Scheduled Caste and Scheduled Tribe applicants.\n\n<br>",
+  "_criteria_filled": 1
+}

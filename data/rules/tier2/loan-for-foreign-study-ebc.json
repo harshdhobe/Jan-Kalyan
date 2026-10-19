@@ -1,0 +1,31 @@
+{
+  "id": "loan-for-foreign-study-ebc",
+  "name": "Loan For Foreign Study (E.B.C.)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "##### ***Financial Assistance***\n\n- A maximum Foreign Study Loan of ₹15,00,000/- is provided for higher education abroad.\n- The loan is offered at a simple annual interest rate of 4%.\n- The loan covers costs such as air tickets, registration fees, tuition fees, education fees, hostel fees, books, and other expenses associated with the first year of the course abroad.\n\n##### ***Disbursement Conditi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1000000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "during-application-caste-certificate-family-income-certificate-income-tax-return"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/lfs-ebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Educationally Backward Class (S.E.B.C.).\n- The applicant&#39;s family annual income must be less than ₹10,00,000/-.\n- The applicant must have secured a minimum of 60% or more marks in 12th standard.\n- The applicant must have secured a minimum of 50% marks if they belong to Notified Tribes/De-notified Tribes (NT/DNT), More Backward, or Extremely Backward categories.\n- The applicant must be pursuing higher education abroad.\n- The applicant must be pursuing a Diploma, Graduate, Post Graduate, Post Graduate Diploma, Doctor of Philosophy (Ph.D.), or higher-level courses in any field.\n- The course must be for a minimum duration of 1 (one) academic year or more, or at least two semesters.\n- The applicant must apply before traveling abroad or within six months of arriving abroad.\n- The applicant must submit one solvent guarantor.\n\n<br>",
+  "_criteria_filled": 2
+}

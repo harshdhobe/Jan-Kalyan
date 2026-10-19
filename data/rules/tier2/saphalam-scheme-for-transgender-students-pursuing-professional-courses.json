@@ -1,0 +1,28 @@
+{
+  "id": "saphalam-scheme-for-transgender-students-pursuing-professional-courses",
+  "name": "Saphalam Scheme For Transgender Students Pursuing Professional Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "Under the scheme, financial assistance up to ₹1,00,000/- per year will be provided to transgender students for pursuing professional courses at the degree/diploma level.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card",
+    "election-id-voter-id-transgender-students-above-18-years-of-age-should-submit-a",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/31398.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sstsppc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be Transgender.\n   1. The applicant should be a resident of Kerala.\n   1. Transgender students who have secured admission in merit seats in Government, Aided/Self-financing colleges are eligible under this scheme.\n   1. Transgender students who secure admission for courses MBBS, Bachelor of Veterinary Science (BVSc), and BSc Agriculture in Government colleges are eligible.\n   1. Transgender students pursuing Diploma level government-accredited courses are also eligible.\n   1. Transgender students who have completed 18 years must submit a copy of their Transgender ID card.\n   1. Those Transgender students who are below 18 years must submit a self-declaration statement duly certified by the Head of Institution/Parent.",
+  "_criteria_filled": 1
+}

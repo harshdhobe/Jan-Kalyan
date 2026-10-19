@@ -1,0 +1,31 @@
+{
+  "id": "marriage-grant-for-the-marriage-of-daughters-of-widows-of-ex-servicemen-other-th",
+  "name": "Marriage Grant for the Marriage of Daughters of Widows of Ex-servicemen (other than War Widows)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Financial assistance of ₹11,000/- is given to the widows of ex-servicemen (other than war widows) for the marriage of their daughters.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-widow-of-ex-serviceman-parivar-pehchan-patra-original-discharg"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=MciCAGC0ON6C0+2LU31oxg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgmdwesmww",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Haryana.\n   1. The applicant should be the widow of an ex-serviceman who did not die in the war (other than a war widow).\n   1. The daughter should be at least 18 years old.\n   1. The widow can receive the benefit for up to two of her daughters.\n   1. The widow should not have remarried. If remarried, she should only have married the real brother of her late husband.\n\n**Note:** The entire verification of claimants will be carried out at the level of the Secretaries of Zila Sainik Boards as hither-to-fore.",
+  "_criteria_filled": 2
+}

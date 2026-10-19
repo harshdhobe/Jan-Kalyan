@@ -1,0 +1,31 @@
+{
+  "id": "ved-vyas-housing-construction-scheme",
+  "name": "Ved-Vyas Housing Construction Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Financial assistance of ₹1,20,000/- for housing construction.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photograph-kutcha-house-photograph-caste-certificate-residential-cert"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s30fcbc61acd0479dc77e3cccc0f5ffca7/uploads/2023/10/2023102792.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/v-vhcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an active or traditional fish farmer. \n1. The applicant should be living in kutcha or thatched houses.\n1. The applicant&#39;s family belongs to the below poverty line.\n1. The applicant must not have previously benefited from the departmental fishermen housing scheme or Indira Awas or equivalent housing scheme of the Central/State Government\n1. The applicant must own land for house construction.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kisan-vaigyanik-sangoshthi",
+  "name": "Kisan-Vaigyanik Sangoshthi",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Through Kisan-Vaigyanik Sangoshthi, the Council provides technical guidance from subject matter experts to the state’s farmers, helping to address challenges in biotechnology-based agriculture and animal husbandry. The Council also continuously works to improve farmers’ livelihoods and promote self-employment by sharing technical knowledge on hydroponics, soilless farming, kiwifruit cultivation, f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-uttarakhand-council-for-biot"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/f-ss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a youth, a farmer, a member of a self-help group, or a livestock farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

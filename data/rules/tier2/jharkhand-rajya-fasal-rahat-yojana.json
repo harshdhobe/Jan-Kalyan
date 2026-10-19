@@ -1,0 +1,31 @@
+{
+  "id": "jharkhand-rajya-fasal-rahat-yojana",
+  "name": "Jharkhand Rajya Fasal Rahat Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. Under this scheme, assured financial assistance is provided to eligible farmers in the event of crop loss occurring due to natural calamity.\n   1. In the event of 30-50% loss: ₹3,000/- per acre maximum upto 5 acres\n   1. In the event of &amp;gt;50% loss: ₹4,000/- per acre maximum upto 5 acres\n\n**Note 1:** Both Kharif (Paddy &amp;amp; Maize) and Rabi (Wheat, Mustard, Gram, and Potato) season cro",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-proof-of-age-bank-account-detailsbank-pass"
+  ],
+  "apply_url": "https://jrfry.jharkhand.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/jrfry",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Jharkhand.\n   1. The applicant should be a small or marginal farmer.\n   1. The applicant should be a ‘Raiyat’ or ‘Bataidaar’ farmer.\n   1. The age of the farmer should be at least 18 years.\n   1. The farmer should have a valid Aadhaar Number.\n   1. Farmers cultivating on government or non-majorua land with lease or settlement documents from the Revenue Department are also eligible.\n   1. The farmer should possess requisite land papers (LPC/Land Receipts).\n   1. Farmers can avail benefits for agricultural land ranging from a minimum of 10 decimals to a maximum of 5 acres under the scheme.\n   1. Crop assistance will be provided to farmers only in case of crop loss of at least 20%.\n   1. This scheme will be voluntary for all farmers.\n\n**Note:** Under the scheme, special efforts will be made to ensure maximum coverage of SC/ST/Women/Paharia Tribe/Primitive Tribe farmers.",
+  "_criteria_filled": 2
+}

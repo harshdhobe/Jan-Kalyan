@@ -1,0 +1,26 @@
+{
+  "id": "west-bengal-handloom-and-khadi-weavers-financial-benefit-scheme-2024-support-for",
+  "name": "West Bengal Handloom and Khadi Weavers Financial Benefit Scheme 2024: Support for One Time Settlement (OTS) of NPA Accounts of PWCS",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- 100% of the overdue principal +25% of the overdue interest on NPA accounts of viable PWCS as of 31/03/2024.\n- The remaining 75% of overdue interest and any penal interest will be written off by the West Bengal State Cooperative Bank Ltd./District Central Cooperative Bank Ltd.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-aadhar-card-proof-of-being-a-handloom-khadi-weaver-any-other-documents-as"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/circularpdf/1709829549NOTIFICATION%20No.%201001-MSMET%20dt.%207.3.2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otsnpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following categories of weavers are eligible under this Scheme:\n\n  - Handloom Weavers (Entrepreneur Weavers, so called Master Weavers/Individual Weavers/ Allied Workers Associated with Handloom Weaving/Cooperative fold Weavers/ Weavers associated with Handloom Clusters etc.),\n  -  Khadi Weavers.",
+  "_criteria_filled": 1
+}

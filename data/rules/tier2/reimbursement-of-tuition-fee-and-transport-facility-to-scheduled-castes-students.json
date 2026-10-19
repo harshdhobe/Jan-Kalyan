@@ -1,0 +1,31 @@
+{
+  "id": "reimbursement-of-tuition-fee-and-transport-facility-to-scheduled-castes-students",
+  "name": "Reimbursement of Tuition Fee and Transport Facility to Scheduled Castes Students Studying in Technical Institutions in Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Tuition Fee Reimbursement:**\n\n  - The reimbursement covers the actual tuition fee of ₹20,000/- for diploma courses and ₹40,000/- for degree courses, whichever is lower.\n\n**Transport Facility Reimbursement:**\n\n  - The reimbursement covers the actual amount of state transport facilities (train pass/bus pass).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 350000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-numberuid-number-of-the-candidate-proof-of-admission-through-centralized"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Reimbursement%20of%20Tuition%20Fee%20and%20Transport%20Facility.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rttsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Scheduled Caste student of Haryana.\n   1. The student should be enrolled in an AICTE-approved Diploma, Undergraduate, or Postgraduate technical course, including Diploma from Polytechnics, D-Pharmacy, B-Pharmacy, B.Tech., M.E., M.Tech., Ph.D. in Engineering subjects, MBA, or MCA.\n   1. The applicant should be pursuing an AICTE-approved course in a government, private, or aided technical institution approved by the Technical Education Department, Haryana.\n   1. The applicant should be admitted through centralized counselling.\n   1. The applicant’s annual parental income should be between ₹2.5 lakh and ₹3.5 lakh for tuition fee reimbursement.\n   1. The applicant should not be residing in a campus hostel to be eligible for transport facility reimbursement.",
+  "_criteria_filled": 2
+}

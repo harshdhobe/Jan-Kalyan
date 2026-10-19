@@ -1,0 +1,36 @@
+{
+  "id": "skill-development-training-karnataka",
+  "name": "Skill Development Training Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "> **Post-Training Support:**\n\n- Provide leather stitching machines and toolkits\n- Stipend of ₹6,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 30000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-with-rd-number-valid-income-certificate-ration-ca"
+  ],
+  "apply_url": "https://schemes.lidkar.com/schemes/training-programs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdtk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leather artisans.\n1. The applicant should belongs to sub-castes Arundathiyar, Chammadiya, Chamar, Chambar, Chamagar, Madar, Madig, Madiga, Mini Madig, Jambavalu, Haralayya, Machigar, Mochigar, Mochi, muchi, Telugu Mochi, kamaati mocha, Rohidas, Dhor, kakkayya, Kankayya, Samagara, Samagar, Aadhi Anddra, Aadhi Dravida, Aadhi Karnataka among schedule castes.\n1. The age of the applicant should be 18 years.\n1. The applicant&#39;s annual family income should not exceed ₹30,000/- in rural areas and ₹25,000/- in urban areas.\n1. The applicant or their family members must not have received benefits from other schemes, except training programs.\n1. The applicant&#39;s family members should not be employed in government or semi-government organizations.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

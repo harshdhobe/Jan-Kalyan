@@ -1,0 +1,26 @@
+{
+  "id": "academic-scholarship-scheme-labor-welfare-board-madhya-pradesh",
+  "name": "Academic Scholarship Scheme (Labor Welfare Board Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Class-wise Scholarship Amount:**\n\n- Class 5th to 8th – ₹2,000/-\n- Class 9th &amp; 10th – ₹4,450/-\n- Class 11th &amp; 12th – ₹4,700/-\n- ITI (Certificate Course) – ₹5,000/-\n- Polytechnic (Diploma Course) – ₹5,000/-\n- General Graduate (BA, B.Com, B.Sc, BBA) – ₹7,700/-\n- Engineering (BE/B.Tech) – ₹10,000/-\n- MBBS/BDS – ₹12,500/-\n- Pharmacy, Ayurvedic, Homeopathic (UG, PG, Diploma), Paramedical, Nurs",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "mark-shee-photograph-aadhaar-card-bank-passbook-parentguardian-id"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=rLL1X7ZhSn8=",
+  "source_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a child of a worker employed in an industrial institution/establishment covered under the M.P. Labour Welfare Fund Act 1982.\n1. The applicant should be studying as a regular student in an educational institution in Madhya Pradesh.\n1. The applicant should have passed the previous class.\n1. The applicant should not be receiving a scholarship from any other department.\n1. The applicant should be studying in Class 5th to 12th, ITI, Polytechnic, General Graduate, Engineering, MBBS, BDS, Pharmacy, Paramedical, Nursing, Law, PG Courses, M.E./M.Tech, PGDM, or other management diploma courses.",
+  "_criteria_filled": 1
+}

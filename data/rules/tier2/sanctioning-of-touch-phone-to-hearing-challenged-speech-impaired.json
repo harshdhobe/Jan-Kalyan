@@ -1,0 +1,36 @@
+{
+  "id": "sanctioning-of-touch-phone-to-hearing-challenged-speech-impaired",
+  "name": "Sanctioning of Touch Phone to Hearing Challenged – Speech Impaired",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "> **Distribution of Touch Phones.** \n\n- Category I: Parent/Guardian income up to ₹15,000/- per month – full cost covered.\n- Category II: Parent/Guardian income from ₹15,001 to ₹20,000/- per month – half of the cost covered.\n- Category III: Parent/Guardian income above ₹20,000/- per month – full cost to be borne by the beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "self-declaration-never-received-the-touch-phone-in-any-other-district-income-cer"
+  ],
+  "apply_url": "https://apdascac.ap.gov.in/Schemes/touch-phones/",
+  "source_url": "https://www.myscheme.gov.in/schemes/stphcsi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s age should be 18 years and above. \n1. The applicant should be hearing challenged and speech impaired. \n1. The applicant should know the sign language (can communicate directly with each other i.e., two persons).\n1. The applicant must be able to use video relay service (VRS) to facilitate communication with non-signing individuals, with an interpreter at VRS acting as the intermediary.\n1. The applicant should be any one of the following:\n\n  - Student.\n  - Self-Employed\n  - Un-Employed.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,26 @@
+{
+  "id": "integrated-farming-in-micro-watershed-scheme",
+  "name": "Integrated Farming in Micro Watershed Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Type of Assistance and Entitlement:**\n\n- Training, Awareness program, Extension, Technology support, and Subsidy on inputs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifmws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n1. The applicant should possess their own land or leased land of at least 0.025 hectares or more.",
+  "_criteria_filled": 1
+}

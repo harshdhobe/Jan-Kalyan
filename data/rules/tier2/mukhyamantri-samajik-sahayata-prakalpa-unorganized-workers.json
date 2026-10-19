@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-samajik-sahayata-prakalpa-unorganized-workers",
+  "name": "Mukhyamantri Samajik Sahayata Prakalpa - Unorganized Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "- A pension amount of ₹2,000/- per month.\n\n> **Mode of Disbursal:**\n\nThe sanctioned grant will be transferred directly to the individual bank account of the applicant.\n> **Beneficiary List:**\n\nThe list of beneficiaries will be made available on the [official website](https://socialwelfare.tripura.gov.in/) of the Social Welfare &amp; Social Education Department, Govt. of Tripura.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationincome-certificate-from-sdm-sub-divisional-magistrate-age-proo",
+    "issued-by-the-food-civil-supplies-department-permanent-resident-of-tripura-certi",
+    "issued-by-the-sub-divisional-administration-professional-certificate-from-gram-p"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssp-uw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The annual income of the family of the applicant should not exceed ₹1,00,000/-.\n1. The age of the applicant should be 55 years and above (except for ‘Greha Sahayika’).\n1. In the case of ‘Greha Shahayika’ (Female Domestic Worker), the age of the applicant should be between 23 to 59 years.\n1. If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura.\n\n<br>\n\n**NOTE:** The assistance under this scheme will be stopped immediately in the following cases:\n1.   Death of Beneficiary.\n2.   Fulfillment of any exclusion criteria during the lifetime of a beneficiary:\n\n- Remarriage of a widow.\n- A member of the family of the beneficiary getting a Government Job.\n- The annual family income of the beneficiary exceeding ₹1,00,000/-, etc.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

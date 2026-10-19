@@ -1,0 +1,30 @@
+{
+  "id": "scheme-to-provide-special-financial-assistance-for-organizing-cultural-events",
+  "name": "Scheme to Provide Special Financial Assistance for Organizing Cultural Events",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Financial grant maximum upto **₹  5,00,000 or 80% of the expenditure** incurred for organizing the cultural events, whichever is less, based on the nature of the cultural events. 1. However, in the case where the Directorate of Art &amp; Culture suo-moto identifies any institution or group or individual person to organize any Cultural Event/Programme/Exhibition/Festival/Camp &amp; Workshop for ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-registration-certificate",
+    "if-applicable-copy-of-detail-estimated-expenditure-of-the-said-event-affidavit-t",
+    "an-original-copy-of-the-audited-utilization-certificate-and-income-and-expenditu",
+    "paper-cuttings-etc-bank-details-only-nationalised-or-scheduled-bank-with-the-can",
+    "in-case-of-individual-applicants-note-all-the-enclosures-are-to-be-submitted-by"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Application%20form%20SPECIAL%20FINANCIAL%20ASStt.%20(GRANTS)%20FOR%20ORGANIZING%20CULTURAL%20EVENTS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spsfaoce",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual or a cultural group/organization/institution, registered or unregistered.\n1. The applicant should have experience organizing cultural events/programmes/ exhibitions/festivals.\n1. The applicant should not be a defaulter of the Directorate of Art &amp; Culture for non-submission of utilization certificate or statement of accounts for any other grant received by the applicant. \n\n**NOTE:** The Directorate of Art &amp; Culture, may also suo-moto identify any institution/cultural group or individual person to organize any Cultural Event/Programme/Exhibitions/Festival/Camp/Workshop for the Department of Art &amp; Culture.\n<br>\n\n> **Reservation / Preference / Priority**\n\nPreference will be given to registered institutions/organizations.",
+  "_criteria_filled": 1
+}

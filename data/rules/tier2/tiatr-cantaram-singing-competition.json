@@ -1,0 +1,26 @@
+{
+  "id": "tiatr-cantaram-singing-competition",
+  "name": "Tiatr Cantaram Singing Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A common music band is provided by Kala Academy free of cost for practice and competition.\n- Each participant gets ₹150/- as travel and daily allowance.\n- Winners receive cash prizes in different categories.\n\n<br>\n\n**Solo Singing [Male &amp; Female]:** 1st Prize: ₹2,000/-, 2nd Prize: ₹1,500/-, 3rd Prize: ₹1,000/-\n**Duet Singing:** 1st Prize: ₹4,000/-, 2nd Prize: ₹3,000/-, 3rd Prize: ₹2,000/-\n**D",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "four-typed-copies-of-the-song-lyrics-no-objection-certificate-noc-from-the-origi"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Kala%20Academy%20Goa%20Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The Competition is open to all Goan artists.",
+  "_criteria_filled": 1
+}

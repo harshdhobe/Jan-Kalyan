@@ -1,0 +1,37 @@
+{
+  "id": "incentive-for-purchase-of-electric-scooter-for-the-daughter-of-a-registered-cons",
+  "name": "Incentive for Purchase of Electric Scooter for the Daughter of a Registered Construction Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, a maximum benefit of ₹50,000/- or the actual ex-showroom price of an electric scooter, whichever is lower, will be provided to the daughter of a registered construction worker in the form of e-RUPI.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/153",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipesdrcwhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in any building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year&amp;#39;s regular membership.\n   1. The worker must have an active membership with the Board.\n   1. Only those girl students who are daughters of construction workers and studying in any higher education institute/college of the state of Haryana will be eligible for this incentive assistance.\n   1. The age of the daughter of the worker should be 18 years or more and should not be married.\n   1. The daughter of the worker should have a valid license to drive a two-wheeler. (If applicable)\n   1. The percentage of marks in the 12th class passed by the girl student should be 60% or more.\n   1. The incentive assistance under this scheme is limited to the purchase of one electric scooter in a family.\n\n**Note:** The applicant will upload the bill of purchase of the electric scooter online within a period of one month from receiving the incentive amount otherwise he/she will not be eligible for any benefit under any welfare scheme in the future.",
+  "_criteria_filled": 3
+}

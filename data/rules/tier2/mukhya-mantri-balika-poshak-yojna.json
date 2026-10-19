@@ -1,0 +1,31 @@
+{
+  "id": "mukhya-mantri-balika-poshak-yojna",
+  "name": "Mukhya Mantri Balika Poshak Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- A pair of school uniforms to girls in Classes VI to VII.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-or-school-admission-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://state.bihar.gov.in/educationbihar/Content.html?links&page=FACTS_SCHEMES",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmbpybb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Bihar.\n  - The applicant must be a girl student.\n  - She should be enrolled in Classes VI or VII.\n  - Enrollment must be in a government school within the state.",
+  "_criteria_filled": 2
+}

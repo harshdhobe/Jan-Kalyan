@@ -1,0 +1,26 @@
+{
+  "id": "spectacles-scheme-haryana-labour-welfare-board",
+  "name": "Spectacles Scheme- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of up to ₹1,500/- is provided to worker or his/her dependents for the purchase of spectacles in case of visual impairment. Additionally, if the price of the spectacles is less than ₹1,500/-, then the actual price of the spectacles will be provided.\n\n**Note:** The worker will be provided with a one-time financial assistance in a block of 5 years to purchas",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/79",
+  "source_url": "https://www.myscheme.gov.in/schemes/sshlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a worker employed in industrial or commercial establishment in Haryana.\n2.\tThe worker should be registered with the Haryana Labour Welfare Board.\n3.\tThe monthly salary of the worker should not exceed ₹25,000/-.\n4.\tThe service period of the worker is fixed for one year.\n5.\tThe worker will get the benefit after every five years in whole service period.\n6.\tAfter doctor&#39;s prescription, application will have to be submitted within three months from the date of bill for purchasing spectacles.\n7.\tThe benefit of this scheme will be available only once for each beneficiary.",
+  "_criteria_filled": 1
+}

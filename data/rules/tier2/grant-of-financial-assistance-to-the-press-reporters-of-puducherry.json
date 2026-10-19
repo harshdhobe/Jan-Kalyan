@@ -1,0 +1,28 @@
+{
+  "id": "grant-of-financial-assistance-to-the-press-reporters-of-puducherry",
+  "name": "Grant of Financial Assistance to the Press Reporters of Puducherry",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹25,000/-.- **Mode of Disbursal:** The Director, Department of Information &amp; Publicity, Puducherry will transmit the cheque to the applicant after obtaining the necessary receipt thereof from the applicant in the [prescribed format](https://py.gov.in/sites/default/files/citizens-charterinfopublicity.pdf).- **Time Limit:** Three weeks from the date of application.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativity-and-nationality-certificate-form-ii",
+    "from-an-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-tahsild",
+    "puducherry"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/citizens-charterinfopublicity.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfaprp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be a Press Reporter.\n- The applicant should have served in a Newspaper/Magazine.\n- The Newspaper/Magazine should be duly registered with the &quot;Registrar of Newspapers, Government of India, New Delhi&quot;.\n- The Newspaper/Magazine should be registered continuously for not less than 10 years.",
+  "_criteria_filled": 1
+}

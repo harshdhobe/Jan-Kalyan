@@ -1,0 +1,27 @@
+{
+  "id": "west-bengal-textile-incentive-scheme-subsidy-for-water-conservation-environment",
+  "name": "West Bengal Textile Incentive Scheme: Subsidy for Water conservation/ Environment Compliance",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- A reimbursement of 25%  subject to a maximum of ₹ 1,50,00,000/-.\n- For a cluster of units with a minimum of 5 units with an investment of minimum Rs. 200 crores, the state Govt. in the MSMET department will set up a Common Effluent Treatment Plants (CETP) to be run by an Special Purpose Vehicle (SPV) of the clustered units and the running cost will be borne by those units.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copies-of-relevant-bills",
+    "money-receipts-for-expenditure-incurred-towards-cost-of-captive-effluent-water-t"
+  ],
+  "apply_url": "https://textiles.wb.gov.in/assets/New_PUBLICATION_OF_WBTIS_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtisswcec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries in the manufacturing and processing of textiles, apparel and technical textiles products.\n  - The unit should have started production on or after 1st April 2022.\n  - The units may be in the private sector, co-operative sector, joint sector as also companies/undertakings owned or managed by the State Government.\n  - Shall not be applicable to the industrial units/enterprises.\n  - The project should have been approved and sanctioned by a Central Financial Institution or Commercial Banks or State Financial Institutions.\n  - The unit should hold an Registration Certificate, Date of Commencement Certificate and Eligibility Certificate issued by the Directorate of Textiles on satisfaction of arrangement.",
+  "_criteria_filled": 1
+}

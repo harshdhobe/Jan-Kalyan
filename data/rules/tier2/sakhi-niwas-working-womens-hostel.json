@@ -1,0 +1,31 @@
+{
+  "id": "sakhi-niwas-working-womens-hostel",
+  "name": "Sakhi Niwas - Working Women's Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, hostels have been arranged for women to stay in urban areas by paying a nominal fee.\n- Facilities include: Accommodation, Mess, Library, Gym, TV Hall, Creche, and more.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-details-of-family-members"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/snwwh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand.\n- The applicant must be a woman pursuing higher education or professional training, or a working woman.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,35 @@
+{
+  "id": "banglashree-for-micro-small-and-medium-enterprises-state-capital-investment-subs",
+  "name": "Banglashree for Micro, Small and Medium Enterprises: State Capital Investment Subsidy (CIS)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "The enterprise will be provided a subsidy as a percentage of the fixed capital Investment (FCA) for its approved project as follows:\n***Micro Enterprise:*** 25% for Zone C; 40% for Zone D; 60% for Zone E.\n**Small Enterprise:** 15% for Zone C; 30% for Zone D; 40% for Zone E.\n\n  - An additional subsidy of 20% on State Capital Investment Subsidy normally admissible will be provided to all eligible mi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-memorandum-of-association-and-articles-of-association-authenticated",
+    "as-applicable-copy-of-approved-project-report-a-copy-of-loan-sanctions-letter-an",
+    "wherever-applicable-a-list-of-plants-and-machinery-with-original-value",
+    "along-with-copies-of-the-bills",
+    "and-money-receipts-existing-manufacturing-activities-in-west-bengal-stating-item",
+    "annually-approved-capacity",
+    "annual-production-during-the-last-three-years-in-quantity-and-value-in-rs-lakh",
+    "if-applicable-copy-of-the-land-deed-wherever-applicable-in-the-case-of-rented-le",
+    "a-copy-of-the-rent-agreement-and-receipt-lease-agreement-copy-of-mutation-conver",
+    "if-necessary-self-declaration-as-per-para-71vi-of-the-scheme-self-certification"
+  ],
+  "apply_url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTU5/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MDFfMTU0M19tc21ldF8xODAxMV8yMjA3MjAyMF9jb21wcmVzc2VkLnBkZg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/cis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The business/organization should be a Micro/ Small/ Medium Enterprise.\n  - The business/organization should belong to the manufacturing sector.\n  - The business/organization should have started production on or after 1st April 2019.\n  - The business/organization should be in the private sector/ cooperative sector/ joint sector undertaking or should be a company/ undertaking owned and managed by the State Government or the Industrial SHGs.\n  - The Date of Commencement of Commercial Production (DOCCP) should be between 1st April 2020 to 31st March 2025.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": "financial-incentive-for-inter-caste-marriages-under-protection-of-civil-rights-a",
+  "name": "Financial Incentive For Inter-Caste Marriages Under Protection Of Civil Rights Act 1955 And Scheduled Castes And Scheduled Tribes (Prevention Of Atrocities) Act 1989 In Assam",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "- A one-time financial assistance of ₹2,50,000/- is provided to the eligible inter-caste marriage couple.\n- The financial assistance is granted directly in the form of a fixed deposit.\n- The fixed deposit is opened jointly in the name of the couple in a Government or Nationalized bank.\n\n***Conditions***\n_*The opening of joint accounts for the eligible inter-caste marriage couple will be initiated ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-digital-caste-certificate-of-the-husband-or-wife-issued-by-the-dep",
+    "driving-licence",
+    "or-ration-card-as-residence-proof-of-the-couple-self-attested-joint-photograph-o"
+  ],
+  "apply_url": "https://directorwsc.assam.gov.in/sites/default/files/public_utility/INTER%20CASTE%20MARRIAGE%20APPLICATION%284%29%20%284%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a spouse in an inter-caste marriage.\n- The applicant must ensure that one spouse of the inter-caste marriage belongs to the Scheduled Caste.\n- The applicant must ensure that the other spouse of the inter-caste marriage belongs to the General Caste Hindu.\n- The applicant must have had their marriage officially performed between 1st January 2025 and 31st January 2025.\n- The applicant must be applying for their first marriage, as there will be no incentive provided for a second or subsequent marriage.\n- The applicant must have a combined annual income of the couple from all sources of income of ₹5,00,000/- and below.\n\n<br>",
+  "_criteria_filled": 2
+}

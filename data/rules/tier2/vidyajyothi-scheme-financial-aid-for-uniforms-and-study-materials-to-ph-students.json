@@ -1,0 +1,32 @@
+{
+  "id": "vidyajyothi-scheme-financial-aid-for-uniforms-and-study-materials-to-ph-students",
+  "name": "Vidyajyothi Scheme- Financial Aid For Uniforms And Study Materials To PH Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "Financial assistance is being provided to students whose disability percentage is 40% or above for the purchase of study materials and uniforms on the following basis:\n**Sl. No.****Course/Class****Assistance for Study materials****Assistance for Uniform**19th to 10th Standard@ ₹1000/- each (50 children from each district)@ ₹1500/- (30 children from each district)2+1, +2, ITI, Polytechnic, VHSC@ ₹2",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/14610.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vs-fausmphs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Kerala.\n1. The applicant should be a student.\n1. The applicant should be studying in Government / Aided Institution in Kerala.\n1. The financial assistance will be given to the students who are studying in Class 9th to Post-Graduation.\n1. The applicant who has 40% or more disability is eligible to apply under the scheme.\n1. The applicant’s annual family income is not applicable under this scheme.\n\n**Note:** The preference will be given to the students of Below Poverty Line (BPL) category.",
+  "_criteria_filled": 2
+}

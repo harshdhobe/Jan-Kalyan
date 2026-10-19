@@ -1,0 +1,26 @@
+{
+  "id": "pre-examination-coaching-scheme",
+  "name": "Pre-Examination Coaching Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Free Coaching:**\n\n- Provided for competitive exams such as IAS, PCS, Engineering, Medical, Nursing, NDA, Group ‘C’, and others.\n\n**Monthly Scholarship:**\n\n- ₹1,500/- per month for external (non-local) students.\n- ₹750/- per month for local students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-educational-qualification-certificates-bank-acc"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Tribe community.\n   1. The applicant should be a student. \n   1. The applicant should be preparing for competitive examinations such as IAS, PCS, Engineering, Medical, Nursing, NDA, or Group ‘C’ exams.\n   1. The applicant should have passed High School, Intermediate, or Graduation.",
+  "_criteria_filled": 1
+}

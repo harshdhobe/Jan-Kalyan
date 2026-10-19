@@ -1,0 +1,34 @@
+{
+  "id": "namo-shetkari-mahasanman-nidhi-yojana",
+  "name": "Namo Shetkari Mahasanman Nidhi Yojana",
+  "tier": 1,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "Rs 6000/year supplementary to PM-KISAN for Maharashtra farmers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "household.owns_cultivable_land",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "land_record_7_12",
+    "land_record_8a",
+    "ration_card"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/namo-shetkari-mahasanman-nidhi-yojana",
+    "apply": "https://fw.pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf"
+  },
+  "notes": "Linked to PM-KISAN eligibility (land held on 01.02.2019)."
+}

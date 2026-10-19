@@ -1,0 +1,26 @@
+{
+  "id": "financial-grant-for-sports-associations",
+  "name": "Financial Grant for Sports Associations",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Financial grants are provided to recognized state-level sports associations for organizing sports competitions and training camps.\n- Assistance is offered for conducting training camps before national-level competitions for selected players.\n\n<br>\n\n**NOTE:** \n\n- The grant includes coverage for competition organization costs, training camp expenses, and administrative support.\n- The funds are dis",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-from-the-jharkhand-state-registration-department-affili"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/notification_docs/3bf42e92Notification%20Regarding%20Grants%20to%20Sports%20Associations.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fgfsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The association should be a recognized state sports association registered under the Jharkhand State Registration Department.\n1. The association must be affiliated with the Jharkhand Olympic Association and the relevant National Sports Federation.\n1. The association association should have district-level units functioning in at least 18 districts of the state.\n1. Para-sports associations or associations related to sports included in the Olympics, Asian Games, or Commonwealth Games are eligible. Associations for other sports require at least 15 affiliated districts.\n\n<br>",
+  "_criteria_filled": 1
+}

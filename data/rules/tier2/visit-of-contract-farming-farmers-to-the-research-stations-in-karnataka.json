@@ -1,0 +1,27 @@
+{
+  "id": "visit-of-contract-farming-farmers-to-the-research-stations-in-karnataka",
+  "name": "Visit of Contract Farming Farmers to the Research Stations in Karnataka",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** ₹1,12,500/- per batch of 50 farmers for 3 days.- **Learning Program:** Exposure to the latest agricultural research and innovations.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-caste-certificate-for-scst"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6858",
+  "source_url": "https://www.myscheme.gov.in/schemes/vcfrsk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.",
+  "_criteria_filled": 1
+}

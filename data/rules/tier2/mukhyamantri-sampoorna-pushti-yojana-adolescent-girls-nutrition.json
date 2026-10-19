@@ -1,0 +1,42 @@
+{
+  "id": "mukhyamantri-sampoorna-pushti-yojana-adolescent-girls-nutrition",
+  "name": "Mukhyamantri Sampoorna Pushti Yojana: Adolescent Girls Nutrition",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **Supplementary Nutrition:** Since adolescence is a period of growth spurt, nutritional requirement during the period is at its peak. Nutritional interventions at this stage would help in ensuring proper growth, addressing anaemia and ensure better outcomes during pregnancy and childbirth at a later stage.  - **Daily Ration Cost:** ₹9.50/- per beneficiary per day for 300 days a year.  - **Weekly",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "etc-date-of-birth-certificate-any-other-documents-as-per-requirement"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/en/ICDS/mukhymantri-samproona-pushti-yojana-mspy",
+  "source_url": "https://www.myscheme.gov.in/schemes/samproonapushtiagn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Odisha.\n   1. The beneficiary must be an adolescent girl.\n   1. In the 10 Aspirational districts (Bolangir, Dhenkanal, Gajapati, Kalahandi, Kandhamal, Koraput, Malkangiri, Nabarangpur, Nuapada, Rayagada), girls aged 18-19 years shall be included under the MSPY scheme as the adolescent girls in the 14 -18 years category are enrolled in the Scheme for Adolescent Girls (SAG) of Government of India.\n   1. In the Non-Aspirational districts, all Adolescent Girls (15 -19 years) in the service area of the Anganwadi Centres (AWCs) shall be provided with Take Home Ration under MSPY.\n   1. Anganwadi Workers (AWWs) will prepare a line listing of the Adolescent girls (15 -19 years) in the service area and enroll the girls under the Programme.\n\n<br>",
+  "_criteria_filled": 4
+}

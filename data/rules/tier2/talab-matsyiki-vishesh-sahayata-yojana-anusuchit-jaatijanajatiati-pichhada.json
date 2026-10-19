@@ -1,0 +1,30 @@
+{
+  "id": "talab-matsyiki-vishesh-sahayata-yojana-anusuchit-jaatijanajatiati-pichhada",
+  "name": "Talab Matsyiki Vishesh Sahayata Yojana (Anusuchit Jaati/Janajati/Ati Pichhada)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "> **Assistance**\n\n- Offers a 70% subsidy on the total cost, reducing the financial burden on beneficiaries.\n\n<br>\n\n> **Subsidy Payment:**\n\n- Subsidy payments are made in two installments: 60% after pond construction and 40% after installation of related units and purchase of inputs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "completed-application-form-photograph-of-proposed-land-bank-details-branch-name",
+    "account-number",
+    "ifsc-code-attested-copies-of-training-certificate-aadhar-card",
+    "ration-card",
+    "voter-id-land-map-caste-certificate-land-ownership-certificaterevenue-receipt-fo"
+  ],
+  "apply_url": "https://fisheries.bihar.gov.in/docs/Specialpackage2425.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmvsy-ajjap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Scheduled Castes, Tribes, or Most Backward Classes.\n1. The applicant should have private or leased land available for pond construction.\n\n<br>",
+  "_criteria_filled": 1
+}

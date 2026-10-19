@@ -1,0 +1,32 @@
+{
+  "id": "personal-accident-relief-for-differently-abled-persons",
+  "name": "Personal Accident Relief for Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "1. Relief to the Legal Heir in the event of death of the differently-abled person: ₹1,00,000/-.\n1. Relief in the case of Loss of both legs &amp; both hands/ one leg &amp; one hand/ loss of sight in both eyes: Upto ₹1,00,000/-.\n1. Relief in the case of Loss of one hand/ one leg/ loss of sight in one eye: ₹50,000/-.\n1. Relief in the case of Total disablement not covered in Sl. no.2 and 3 above: ₹25,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-original-national-identity-card-of-the-differently-abled-per",
+    "issued-by-the-welfare-board-for-the-differently-abled"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/parfdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The person should have died or should have become differently-abled in an accident.\n2. The disability should be one of the following:\n\n- Loss of Both Legs and Both Hands.\n- Loss of One Hand and One Leg.\n- Loss of Sight in Both Eyes.\n- Loss of One Hand.\n- Loss of One Leg.\n- Loss of Sight in One Eye.\n\n3. The person should be/ should have been a registered member of the &quot;Welfare Board for the Differently-Abled&quot;.",
+  "_criteria_filled": 2
+}

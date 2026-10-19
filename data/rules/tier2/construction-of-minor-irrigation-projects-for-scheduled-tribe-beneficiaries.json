@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-minor-irrigation-projects-for-scheduled-tribe-beneficiaries",
+  "name": "Construction of Minor Irrigation Projects for Scheduled Tribe Beneficiaries",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, farmers will be provided with free irrigation facilities. The following projects are constructed for collective irrigation in Scheduled Tribe-dominated areas:\n\n  - Hauz (Water Storage Tank)\n  - Construction of Pipelines / Water Channels (Gool)\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-departments-guidelines-prescribed-for-this-sch"
+  ],
+  "apply_url": "https://www.google.com/url?q=https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf&sa=D&source=docs&ust=1750927616357877&usg=AOvVaw04FwRQf8ZVw0xT2NNrjJSo",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmipstb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a farmer engaged in agricultural activities.\n   1. The beneficiary must belong to the Scheduled Tribe category.\n   1. Collective irrigation projects will be constructed under the scheme.\n   1. The name of the proposed village must be included in the list of Scheduled Tribe-dominated villages issued by the Department of Social Welfare.\n   1. Sufficient irrigated area must be available for the project.\n   1. The cost of the project must not exceed ₹4.00 lakh per hectare, and the benefit-cost ratio must be greater than 1.0.\n\n<br>",
+  "_criteria_filled": 1
+}

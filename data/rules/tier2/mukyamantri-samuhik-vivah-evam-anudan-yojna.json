@@ -1,0 +1,26 @@
+{
+  "id": "mukyamantri-samuhik-vivah-evam-anudan-yojna",
+  "name": "Mukyamantri Samuhik Vivah Evam Anudan Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Total Grand : ₹25,000/- will be provided as\n\n   1. To the bride : ₹21,000/- is given\n   1. To Marriage Organizer : ₹4,000/- through IFMS.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "photo-of-bride-and-groom-couple-aadhaar-card-or-voter-id-card-of-the-couple-brid"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/W_CD/samuhik/DOC_260_5f944a6b-9262-4a8f-93fb-c8a28f53f757.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msveay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bride/groom should be a native of Rajasthan\n1. The bride&#39;s age should be above 18 years and the groom&#39;s age should be above 21 years.\n1. Both bride and groom should be unmarried\n1. Marriages should be registered as per rules.",
+  "_criteria_filled": 1
+}

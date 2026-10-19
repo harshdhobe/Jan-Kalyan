@@ -1,0 +1,31 @@
+{
+  "id": "free-coaching-for-students-with-disabilities",
+  "name": "Free Coaching for Students with Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. It provides free coaching to students with disabilities for competitive examinations.\n1. It helps students with disabilities to improve their academic performance and to compete effectively in competitive examinations.\n1. It increases the chances of students with disabilities getting admission in higher educational institutions and finding jobs.\n1. It helps to empower students with disabilities",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-mark-sheets-of-the-previous-qualifying-examination-income"
+  ],
+  "apply_url": "http://andssw1.and.nic.in/socialwelfare/pdf/FC_disabilities.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fcfswd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Students**:\n\n1. The student must have a minimum of 40% disability.\n1. The student must be preparing for competitive examinations conducted by the Union Public Service Commission (UPSC), Staff Selection Commission (SSC), various Railway Recruitment Boards (RRBs) for Group &#39;A&#39; and &#39;B&#39; posts, State Public Service Commissions for Group &#39;A&#39; and &#39;B&#39; posts, and other competitive examinations for admission in higher educational institutions and jobs.\n1. Student family income should not be more than ₹ 6,00,000/- per annum. \n1. Student can avail the benefits only at once. \n1. Student should not avail any other similar scheme benefits from Central Government. \n\n> **Voluntary organizations:**\n\n1. The voluntary organization must be registered under the Societies Registration Act, 1860, or relevant Act of the State/Union Territory.\n1. The voluntary organization must have been in existence for at least three years.\n1. The voluntary organization must have the necessary infrastructure and experience to provide coaching to students with disabilities.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-insulated-vehicles-haryana",
+  "name": "PMMSY: Insulated Vehicles - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Financial Assistance:**\n\n- Financial grant of up to ₹20,00,000/- per unit for the purchase of an insulated (reefer) vehicle.\n\n**Grant Limits:**\n\n- 40% of the unit cost for general category beneficiaries.\n- 60% of the unit cost for Scheduled Caste (SC) and women beneficiaries.\n\n> **Note**\n\n- Subsidy is applicable for one vehicle per beneficiary only.\n- Central assistance is released only after in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-agreement-deed-between-the-beneficiary-and-the-fisheries-department",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photogra"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=WHrs2r1tk91IrSn5jpL8DQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ivs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fish farmer.\n1. The applicant must possess a Family Identity Card (Parivar Pehchan Patra).\n1. The applicant must ensure that the fish transportation facility is maintained in working condition.\n1. The applicant must not have availed a grant for a similar insulated (reefer) vehicle earlier.\n\n<br>",
+  "_criteria_filled": 1
+}

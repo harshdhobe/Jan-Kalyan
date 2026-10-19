@@ -1,0 +1,28 @@
+{
+  "id": "shilp-guru-award",
+  "name": "Shilp Guru Award",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**Award Contents:**\n\n  - Cash Prize of ₹2,00,000/-\n  - One Mounted Gold Coin\n  - One Shawl\n  - One Tamrapatra\n\n**Note:** In addtion, appropriate financial assistance will be given to each selected Shilp Guru to innovate and create new products of high level of excellence, high aesthetic value and high quality befitting the stature of the Guru. This assistance will be give as per parameters contain",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-and-citizenship-certificates-of-national-or-state-awards-if-ap",
+    "awards",
+    "and-contributions-photographsvideography-evidence-of-craftsmanship-stages-proof"
+  ],
+  "apply_url": "https://www.handicrafts.gov.in/Pdf/dc_hc_shilpguru_award_guidelines_2015.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sga",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be an Indian citizen.\n2.\tThe applicant should be a master craftsperson who is either:\n•\tA National Awardee or a State Awardee of exceptional standing, or\n•\tA master craftsperson with extraordinary skills and immense contribution to the handicrafts sector.\n3.\tThe applicant should be at least 55 years old.\n4.\tThe master craftsperson should have a minimum of 20 years of experience in the field as of December 31st of the previous year.\n5.\tThe applicant should have made significant contributions to the welfare and development of the craft and the craft community.\n**Note:** A maximum of 10 Shilp Guru Awards will be conferred each year.\n**Criteria for Selection:**\nThe following are the main criteria which are to be kept in view for selection of craftsmen-\n\n   1. Excellence of craftsmanship (this can be judged from samples received along with the samples at least 4 photographs of each stage of processing of exhibits/other evidences or videography of the process of exhibits with may be submitted.\n   1. Related achievements (this may be judged from bio-data and other materials submitted by the craftsman/sponsoring organisations).\n   1. Special consideration may also be given while selecting the craftsman and the crafts to the following:\n\n  - If the craft practiced is a languishing craft.\n  - If there has been a noteworthy effort in term of reviving a languishing craft by way of product diversification or application to contemporary use. In other words, efforts made in order to achieve a breakthrough in the development of craft should be given due consideration.\n  - Design innovation by the craftsmen.\n  - Photographs of processing of others exhibits of different stages produced by the applicant.",
+  "_criteria_filled": 1
+}

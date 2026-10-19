@@ -1,0 +1,37 @@
+{
+  "id": "advance-for-purchase-or-construction-of-house-gbocwwb",
+  "name": "Advance for Purchase or Construction of House (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "₹50,000/- is sanctioned as advance and shall be recovered in equal instalments as may be fixed by the Board.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "4-for-maintenance-application-ownership-of-the-building-for-maintenance-only-ter"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-3-Advance-For-Purchase-Or-Construction-Of-House.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apch-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Worker registered with the Goa Building and Other Construction Workers Welfare Board.\n- The worker should be between 18 to 60 years of age.\n- The worker should have completed ninety days of service as a registered worker in the year.\n- The applicant should have had membership in the Fund continuously for five years.\n- The applicant should have fifteen years of service for superannuation.",
+  "_criteria_filled": 3
+}

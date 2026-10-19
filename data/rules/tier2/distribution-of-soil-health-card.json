@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-soil-health-card",
+  "name": "Distribution of Soil Health Card",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Soil Health Cards to farmers.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-proof-of-soil-sample-submission-and-payment-any-othe"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6849",
+  "source_url": "https://www.myscheme.gov.in/schemes/doshc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should have provided soil samples for testing.\n  -  The beneficiary should have paid the prescribed fee ₹5/- each for Macro and Micronutrient testing.",
+  "_criteria_filled": 1
+}

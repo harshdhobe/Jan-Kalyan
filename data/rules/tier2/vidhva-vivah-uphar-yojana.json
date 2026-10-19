@@ -1,0 +1,41 @@
+{
+  "id": "vidhva-vivah-uphar-yojana",
+  "name": "Vidhva Vivah Uphar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> Financial Assistance/Gift amount ₹51,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "the-applicant-must-have-the-following-documents-to-apply-for-widow-marriage-gift"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/SJED/WRGS/DOC_127_ce05b729-3a99-44fd-b802-be312cee404c.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vvuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a widow women from Rajasthan State.\n1. Applicant must be resident of Rajasthan or living in Rajasthan for 3 years before re-marriage.\n1. Applicant should be entitled to pension as per widow pension rules.\n1. Applicant age should be between 18-50 years.\n1. If the applicant has remarried before this scheme then he/she will not be eligible.",
+  "_criteria_filled": 4
+}

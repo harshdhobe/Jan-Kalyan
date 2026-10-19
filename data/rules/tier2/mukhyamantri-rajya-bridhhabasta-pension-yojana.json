@@ -1,0 +1,32 @@
+{
+  "id": "mukhyamantri-rajya-bridhhabasta-pension-yojana",
+  "name": "Mukhyamantri Rajya Bridhhabasta Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- **Amount**: ₹ 1,000/- per month to the eligible beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-voter-id-card-in-case",
+    "applicants-age-is-18-years-or-more-copy-aadhar-card-in-case-the-applicant-does-n"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDocument?id=D031DO00628062023124410458",
+  "source_url": "https://www.myscheme.gov.in/schemes/mrbpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Jharkhand.\n   1. The applicant should have attained the age of 60 years or more.\n   1. The applicant should have a Voter ID card and Aadhar Card.\n   1. The applicant should not be a beneficiary under any other Social Security pension scheme.\n   1. The applicant or their spouse should not be a Retired or permanently employed in Central and State Government or in public sector undertakings.\n   1. The applicant or their spouse should not be a recipient of Government pension or pension from Central and State Government or from public sector undertakings.\n   1. Applicant’s family is not an income tax payee.",
+  "_criteria_filled": 2
+}

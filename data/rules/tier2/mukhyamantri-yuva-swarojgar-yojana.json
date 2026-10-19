@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-yuva-swarojgar-yojana",
+  "name": "Mukhyamantri Yuva Swarojgar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "Loans from Banks / Financial Institutions\nUnder this scheme, loans will be provided to eligible youth for construction, service and business through banks / financial institutions, the limit of which will be as follows:-\nManufacturing Enterprises - Project cost up to Rs.25.00 Lakhs.\nService Industry - Project cost up to Rs.10.00 Lakhs.\nBusiness - Project cost max Rs.2.00 lakh.\nGuarantee Fee / Annu",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residental-certificate-caste-certificate-educational-quali"
+  ],
+  "apply_url": "https://industries.cg.gov.in/pdf/mmysy/mmysy.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mysyc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh state.\n   1. Applicant must have passed minimum 8th class.\n   1. The age of the applicant should be between 18 to 35 years as of the date of application. (5 years relaxation in maximum age limit for SC/ST/OBC/Women/PWD entrepreneurs/Naxalite affected family members/Retired soldiers)\n   1. The applicant should not be a defaulter of any nationalized bank / financial institution / cooperative bank.\n   1. Only one person from a family will be able to apply.\n   1. The annual income of the applicant&amp;#39;s family is Rs. 3,00,000/- (In the definition of family, the applicant&amp;#39;s husband/wife and children will be included (In case the applicant is unmarried, the income of the applicant&amp;#39;s parents, unmarried siblings will also be included)\n   1. Applicants who have taken benefit of grant under PMRYO, PMROSRIKA or any other scheme of the Government of India / State Government will not be eligible.",
+  "_criteria_filled": 4
+}

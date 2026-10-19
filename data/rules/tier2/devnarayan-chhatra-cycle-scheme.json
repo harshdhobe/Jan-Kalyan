@@ -1,0 +1,31 @@
+{
+  "id": "devnarayan-chhatra-cycle-scheme",
+  "name": "Devnarayan Chhatra Cycle Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Free distribution of cycles to girl students**.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "rajasthan-domicile-certificate-sbc-caste-certificate-income-certificate-aadhaar"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=87",
+  "source_url": "https://www.myscheme.gov.in/schemes/dccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n1. The applicant should be a native of Rajasthan.\n1. The applicant should be enrolled in class 9th in a government school of Rajasthan.1. The applicant must belong to one of the following Special Backward Class (SBC) communities:\n\n- Banjara, Baldia, Labana\n- Gadiya Lohar, Gadolia\n- Gujar, Gurjar\n- Raika, Rebari (Debasi)\n- Gadaria (Gadri, Gyari)",
+  "_criteria_filled": 2
+}

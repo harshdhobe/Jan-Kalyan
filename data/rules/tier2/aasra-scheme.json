@@ -1,0 +1,31 @@
+{
+  "id": "aasra-scheme",
+  "name": "AASRA Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "- Under this scheme, Social Security cover is provided to widows, Destitute, Below Poverty Line (BPL) families, and breadwinners of such families whose annual income is less than ₹75000/-.\n- The Government of Union Territory will bear the premium of two policies (PMSBY &amp;amp; PMJJBY) for a period of five year.\n- Under this scheme, the government will cover the entire segment of the destitute an",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-of-the-ut-of-jammu-kashmir-proof-of-identity-proof-of-age-inc"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/rulesRegulations/Operational%20guidelines%20%20for%20Aasra.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aasra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of the Union Territory of Jammu &amp;amp; Kashmir.\n- All breadwinners of families whose total annual income is less than ₹75000/- are eligible under the scheme.\n- All widows and destitute residing in the Union Territory are eligible under the scheme.\n- All breadwinners of Below Poverty Line (BPL) families are eligible under the scheme.\n- The intending family must establish that he/she has no source of income quantified as per the prescribed income certificate.\n- The life/accident cover under the scheme will be paid only to the prescribed nominee in case of the death of the beneficiary as per the guideline outlined in the scheme.",
+  "_criteria_filled": 2
+}

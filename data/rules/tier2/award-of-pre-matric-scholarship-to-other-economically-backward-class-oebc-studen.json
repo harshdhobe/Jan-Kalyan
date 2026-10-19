@@ -1,0 +1,32 @@
+{
+  "id": "award-of-pre-matric-scholarship-to-other-economically-backward-class-oebc-studen",
+  "name": "Award of Pre-Matric Scholarship to Other Economically Backward Class (OEBC) Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "> **Rate of Scholarship**\n\n- For standards 6 to 8: ₹50 per month per student (₹500 per year per student).\n- For standards 9 &amp; 10: ₹75 per month per student (₹750 per year per student).\n\n_* For ten months in an academic year._\n> **Mode of Disbursement**\n\nThe amount is disbursed directly into the Aadhaar-seeded bank account of the applicant through Direct Benefit Transfer (DBT) and Public Financ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "nativitycitizenshipresidential-certificate",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t"
+  ],
+  "apply_url": "https://schooledn.py.gov.in/download/forms/oebc.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apmsoebcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be studying from standard 6 to 10 and should have secured promotion to the next higher class.\n- The applicant should belong to the Other Economically Backward Class (OEBC).\n- The family income of the applicant should not exceed ₹75,000 per annum.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "grants-to-patients-suffering-from-tuberculosiscancer-and-other-major-diseases",
+  "name": "Grants To Patients Suffering From Tuberculosis/Cancer And Other Major Diseases",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "Financial assistance (one-time grant) to patients undergoing medical treatment.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-jpgjpeg-format-maximum-50kb-signature-jpgjpeg-format-maximum",
+    "confirming-the-disease-of-the-patient"
+  ],
+  "apply_url": "https://sirishassam.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpstbcomd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi community.\n- The applicant&#39;s family income must not exceed ₹5,00,000/- per annum.\n- The applicant should not be a Government Service holder.\n\n- The applicant must be a patient undergoing medical treatment for specified diseases such as Eye Diseases, Tuberculosis, Eye Cataract, Accident, Auto Immune Diseases, Liver Diseases, Nerve Disorder, Cancer, Kidney Diseases, Dialysis, Major Operations, Bone Diseases like Rheumatoid Arthritis, Bone Fractures, Elephantiasis, Heart Diseases, and Strokes.\n- The applicant must not hold any position under Government/Semi Government Authorities/Boards.\n- The applicant must not be a member of Panchayati Raj Institutions.\n\n_*Preference should be given to widow/aged/unmarried women/physically handicapped/Below Poverty Line (BPL) families._\n<br>",
+  "_criteria_filled": 2
+}

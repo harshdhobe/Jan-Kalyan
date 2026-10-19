@@ -1,0 +1,26 @@
+{
+  "id": "mukhmantri-sehat-bima-yojana",
+  "name": "Mukhmantri Sehat Bima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "- A cashless health insurance  cover of ₹5,00,000/- rupees per family per year for secondary and tertiary care hospitalization (in-patient services) for treatment of listed diseases and medical conditions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-family-declaration-if-no-ration-card-income-certificate"
+  ],
+  "apply_url": "https://sha.punjab.gov.in/shapunjab/index.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Residents of Punjab. \n1. Applicants should be from the following categories\n\n  - SECC 2011 data families, \n  - Smart Ration Card holder families, \n  - J-Form holder farmers, \n  - Small traders registered with Excise &amp; Taxation Department, \n  - Small &amp; Marginal Farmers, \n  - Accredited &amp; Yellow Card Journalist and Construction workers registered with Punjab Building &amp; Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

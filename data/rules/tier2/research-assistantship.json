@@ -1,0 +1,26 @@
+{
+  "id": "research-assistantship",
+  "name": "Research Assistantship",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance is provided to undergraduate and postgraduate researchers in the form of research assistantships.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-university-guidelines-prescribed-f"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rau",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a graduate or postgraduate research scholar pursuing research at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n\n<br>",
+  "_criteria_filled": 1
+}

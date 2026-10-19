@@ -1,0 +1,31 @@
+{
+  "id": "pension-scheme-for-elderly-destitute-artists-litterateurs-and-writers-of-uttarak",
+  "name": "Pension Scheme for Elderly, Destitute Artists, Litterateurs and Writers of Uttarakhand State",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The department provides a monthly pension of ₹3,000/- to the beneficiaries under this scheme.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-permanent-residence-certificate-of-uttarakhand-pan-card-bank-accoun"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psedawa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an elderly, destitute artist, litterateur, or writer from Uttarakhand.\n1. The applicant must have dedicated their life to the development of art, culture, and literature.\n1. The applicant must have made significant and distinguished contributions in their field.\n1. The applicant must be at least 60 years of age.\n1. The applicant must be a native or permanent resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 2
+}

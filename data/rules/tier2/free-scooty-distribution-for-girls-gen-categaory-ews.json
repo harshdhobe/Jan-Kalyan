@@ -1,0 +1,36 @@
+{
+  "id": "free-scooty-distribution-for-girls-gen-categaory-ews",
+  "name": "Free Scooty Distribution for Girls (GEN-CATEGAORY-EWS)",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Under this scheme, Eligible girl students will receive a scooty, a helmet, and 2 liters of petrol.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-a-seal-on-the-verified-photo-of-the-student-by-the-school-pr"
+  ],
+  "apply_url": "https://evaluation.rajasthan.gov.in/scheme/detail/337",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsdfg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a girl student. \n1. The applicant should belong to the Economically Weaker Section (EWS) of General Category. \n1. The applicant&#39;s family annual income should not exceed ₹2,50,000/-.\n1. The applicant should have studied in a government or private school in Rajasthan.\n1. The applicant should have secured at least 85% marks in class 10th or 12th.",
+  "_criteria_filled": 3
+}

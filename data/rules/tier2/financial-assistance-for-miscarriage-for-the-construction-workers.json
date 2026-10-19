@@ -1,0 +1,41 @@
+{
+  "id": "financial-assistance-for-miscarriage-for-the-construction-workers",
+  "name": "Financial Assistance for Miscarriage for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- An amount of ₹3,000/- as financial assistance in case of miscarriage to the female member or wife of a male member of the fund.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "in-case-in-hospitalmiscarriage-certificate-issued-by-medical-authority-in-case-a"
+  ],
+  "apply_url": "https://bocw.delhi.gov.in/bocw/welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/famcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration:**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n> **For Application:**\n\n- The applicant should be a registered women member Under the Delhi Building and Other Construction Workers Welfare Board.\n\nOr,\nThe applicant should be a wife of registered male member Under the Delhi Building and Other Construction Workers Welfare Board.\n\n- The applicant should have suffered a miscarriage during the delivery.\n\n<br>",
+  "_criteria_filled": 4
+}

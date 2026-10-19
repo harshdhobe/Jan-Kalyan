@@ -1,0 +1,27 @@
+{
+  "id": "training-of-motor-driving-to-vjnt-sbs-obc",
+  "name": "Training Of Motor Driving To VJNT, SBS & OBC",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "1)\tIf the trainee is not living at headquarters during the training period, the institution should pay Rs.300/-  for Driver and Rs.150/- for the Conductor trainee as a stipend.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-proof-of-identity-proof-of-age-birth-certificate-proof-of-address",
+    "not-below-the-rank-of-tehsildar-marksheet-of-the-latest-educational-qualificatio"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/sites/default/files/vjntscheme/eng/2-20.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmdvso",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  Applicant should belong to VJNT, OBC or SBC Category. \n1. Applicant should fulfil all the conditions of Age, Education, and fitness as per the Motor Vehicle Act. \n1. During the training period payment for reaching &amp; coming back from the training institute, Medical checkups, photographs, learning and permanent licence, travelling licence, batch and provision of lodging and boarding are provided by the training institution.",
+  "_criteria_filled": 1
+}

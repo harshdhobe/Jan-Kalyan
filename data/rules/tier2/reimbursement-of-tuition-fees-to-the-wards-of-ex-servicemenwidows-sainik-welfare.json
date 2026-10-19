@@ -1,0 +1,29 @@
+{
+  "id": "reimbursement-of-tuition-fees-to-the-wards-of-ex-servicemenwidows-sainik-welfare",
+  "name": "Reimbursement of Tuition Fees to the Wards of Ex-Servicemen/Widows (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Monthly Stipend (in ₹) According to the Level of Qualification**\n\n- School: 1,000.\n- Military/Sainik Schools: 2,000.\n- School for Special Children: 2,000.\n- Diploma in Polytechnic: 800.\n- NDA/IMA (National Defence Academy/Indian Military Academy): 2,000.\n- Bachelor Degree: 1,000.\n- Master Degree: 1,500.\n- Professional Course (MBBS/BE/BTech) (Bachelor of Medicine and Bachelor of Surgery / Bache",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-the-esm-discharge-certificate-of-the-esm-proof",
+    "a-certificate-from-the-institute-details-of-fees-paid-original-receipt-where-the",
+    "a-certificate-showing-the-breakdown-of-fees-indicating-the-category",
+    "signed-by-the-head-of-the-institution-declaration-birth-certificate-of-the-ward"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/uniformandbookallowance202223.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtfwesw-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Ward of an Unemployed ESM / Ward of the Widow of an ESM.\n- The applicant should be registered with the Department of Sainik Welfare, Puducherry.\n- The Ward should be studying in a Government-recognized Institution.\n- The scheme is applicable for upto two wards of the Unemployed ESM / Widow of an ESM.",
+  "_criteria_filled": 1
+}

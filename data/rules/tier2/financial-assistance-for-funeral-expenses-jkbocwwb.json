@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-funeral-expenses-jkbocwwb",
+  "name": "Financial Assistance for Funeral Expenses (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "₹5,000/- is provided as funeral assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-deceased-worker-identity-proof-of-the-nomineelegal-heir-cer"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/downloads/circ.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafejkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be the nominee or legal heir of the deceased worker.\n   1. The deceased worker must have been registered with the Jammu and Kashmir Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The deceased worker must have been an active member of the Board at the time of death.\n   1. The scheme can be applied for only once.",
+  "_criteria_filled": 1
+}

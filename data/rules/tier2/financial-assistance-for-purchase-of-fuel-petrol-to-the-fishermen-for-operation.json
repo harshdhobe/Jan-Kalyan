@@ -1,0 +1,34 @@
+{
+  "id": "financial-assistance-for-purchase-of-fuel-petrol-to-the-fishermen-for-operation",
+  "name": "Financial Assistance for Purchase of Fuel (Petrol) to the Fishermen for Operation of Out Board Motors",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Subsidy of ₹ 30 per Litre on a maximum consumption of 1000 Litre of Petrol.\n- For SC/ST, a Subsidy of ₹ 30 per Litre on a maximum consumption of 1100 Litre of Petrol.\n\n- The benefits can be availed every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-vessel-registration",
+    "with-obm-out-board-motors-incorporated-on-it",
+    "issued-by-the-directorate-of-fisheries",
+    "government-of-goa",
+    "under-the-merchant-shipping-act-1958-fishing-vessel-license-certificate",
+    "issued-under-the-goa",
+    "daman-diu-marine-fishing-regulation-rules-1982-fishing-net-license-certificate",
+    "issued-under-the-goa-fisheries-rule-1981-caste-certificate",
+    "if-applicable-aadhaar-card-ecs-mandate-form-self-declaration-original-bill-may-b"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/11/Applications-Forms-5-Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapfpfoobm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a traditional fisherman by birth or profession.\n1. The applicant should be a resident of Goa.\n1. The applicant&#39;s fishing canoe should be registered under the Merchant Shipping Act, of 1958 and the rules framed there under.\n1. The applicant should be a member of the Registered Fisheries Co-operative Societies/ Association or Individual.\n1. The applicant should not be a defaulter of the Directorate of Fisheries.\n1. The applicant should not be a violator of the Goa Daman &amp; Diu Marine Fishing Regulation Act,1980 (Act No.3 of 1981).\n1. Petrol OBM (Out Board Motors) having 10HP or below should be incorporated on the Fishing Vessel/Canoe.",
+  "_criteria_filled": 1
+}

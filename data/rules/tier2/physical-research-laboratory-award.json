@@ -1,0 +1,28 @@
+{
+  "id": "physical-research-laboratory-award",
+  "name": "Physical Research Laboratory Award",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Cash Prize:** An amount of ₹50,000/- and a medal.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "nomination-proforma-significant-contributions-to-the-area-of-specialization-by-t",
+    "basic-andor-applied-specific-contributions-for-which-the-nomination-is-being-mad",
+    "of-which-five-should-preferably-be-from-the-last-five-years-a-separate-listing-o"
+  ],
+  "apply_url": "https://www.prl.res.in/prl-eng/opportunities/aabprl/prlaward",
+  "source_url": "https://www.myscheme.gov.in/schemes/prla",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Indian citizen.\n  - The applicant should be a scientist. \n  - The applicant&amp;#39;s age below 45 years as of 1st January 2021 (born on or after 02.01.1976) \n  - The applicant&amp;#39;s contribution to Earth and Planetary Systems, Oceanography, Atmospheric Sciences, or Meteorology.\n\n> **Note:**\n\nNominations may be made by the Head of Academic &amp; Research Institutions/ Vice-Chancellors/ Deans of Universities/ Fellows of the Indian Academies of Science and Engineering/ and past recipients of these awards. \n<br>",
+  "_criteria_filled": 1
+}

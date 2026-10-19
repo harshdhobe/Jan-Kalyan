@@ -1,0 +1,38 @@
+{
+  "id": "chief-ministers-overseas-scholarship-scheme-for-minorities",
+  "name": "Chief Minister's Overseas Scholarship Scheme for Minorities",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "1.\tFees: Fees shall be payable in two installments as follows:\n•\tInstalment-I: An amount of ₹10.00 Lakhs or the actual fee (whichever is less) shall be payable to the Students upon production of the landing permit/1-94 Card (Immigration Card);\n•\tInstalment-II: An amount of ₹10.00 Lakhs of the actual fee (whichever is less) shall be payable to the Students upon production of the 1st Semester Result",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "1-caste-certificate-2-income-certificate-3-birth-certificate-4-aadhaar-card-5-e",
+    "letter-of-admission-or-equivalent-12-copy-of-the-latest-tax-assessment-13-copy-o",
+    "if-required"
+  ],
+  "apply_url": "https://telanganaepass.cgg.gov.in/downloads/MInority_AOVN_GO.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmossm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Telangana.\n   1. The applicant should belong to the minority community.\n   1. The qualifying upper age limit for applicants for the scheme should not exceed 35 years as of 1st July of the year.\n   1. Only one child from a family is eligible.\n   1. The awardee cannot be considered for the second or subsequent times as the individual can be awarded only once in a lifetime.\n   1. The applicant should have a valid TOEFL/IELTS &amp;amp; GRE/GMAT.\n   1. The applicant should have obtained admission to an accredited Foreign University.\n   1. The applicant should possess a valid Passport.\n   1. Family income should be less than ₹5 lakhs per annum from all sources.\n\n&gt; **Qualification Criteria:**\n\n   1. For Post Graduate Course: 60% marks or equivalent grade in foundation Degree in Engineering/ Management/Pure Sciences/Agriculture Sciences/Medicine and Nursing/Social Sciences/Humanities.\n   1. For Ph.D. Courses: 60% marks or equivalent grade in P.G. course in Engineering/Management/Pure Sciences/Agriculture Sciences/Medicine/Social Sciences/Humanities.\n\n&gt; **Countries Eligible:**\n\nUSA, UK, Australia, Canada, Singapore, Germany, New Zealand, Japan, France and South Korea.\n**Note 01:** The selected candidate has to join the concerned university within one year of communication of selection. On the expiry of this specified period of time, the award will be automatically cancelled and come to an end. No request for an extension of time for availing the award is permissible under the scheme.\n**Note 02:** The candidate shall not change the course of study or research for which the scholarship has been sanctioned.\n**Note 03:** It will be the responsibility of the candidate to obtain the appropriate visa for a country wherein one intends to study further under an award from the scheme and the Visa issuing authorities may kindly see that only such type of visa be issued which only permits the candidate to pursue a specified course abroad and thereafter the candidate returns to India.\n**Note 04:** The candidates are required to make their own efforts in seeking admission to an accredited University/Institution abroad.\n**Note 05:** 33% of the awards shall be earmarked for Women candidates (if adequate number of eligible women candidates are not available then male candidates may be selected against this 33%).\n**Note 06:** Not more than one child of the same parents/guardians will be eligible and to this effect, a self-certification will be required from the candidate.",
+  "_criteria_filled": 3
+}

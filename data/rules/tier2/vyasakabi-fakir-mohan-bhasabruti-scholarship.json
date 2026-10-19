@@ -1,0 +1,26 @@
+{
+  "id": "vyasakabi-fakir-mohan-bhasabruti-scholarship",
+  "name": "Vyasakabi Fakir Mohan Bhasabruti Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. This is a one-time scholarship of ₹ 20,000/- per student.\n1. There are 1500 scholarships awarded every year out of which 1200 are for the &quot;Students studying UG with Odia Honours&quot; Category, and 300 are for the &quot;Students studying PG in Odia&quot; Category.\n1. A student availing of other scholarships is also eligible for this Bhasabruti.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-residence-certificate-of-the-student-passbook-of-ban"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/Admin/getAfile/eyJpdiI6IjdsRkt1UVNiZmtCMVBCRStzdHR1dkE9PSIsInZhbHVlIjoiU3NZSlRjbytCNWdReDlnXC9kdk5cL01nNlBETnR6QXlJdFZmd1NLa1wvM0RnK2lYR3FmcnV5bGRHRTdlSkFJUm5zMVhsc0xXeDVwaGFcL3lXUlwvcnc4T29LZz09IiwibWFjIjoiMTJkYjZmMTYxZWVhNjgwOTE2ZWM4ZjhmY2ZmYmJhMDBlZjlhMGYzODFiMGM5ZjA5ZDRlYzBjNGJjYWM0ZGRlNCJ9",
+  "source_url": "https://www.myscheme.gov.in/schemes/vfmbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students who have been admitted in +3 Arts with Odia as Honours subject (1St Year) in Degree Colleges / Autonomous Colleges/ State Universities of Odisha or other states after passing +2 Examination with 60% marks aggregate conducted by CHSE, Odisha will be eligible for applying for this Scholarship at U.G. level. \n   1. The students who have taken admitted to M.A. (Odia) in any of the State Universities/ Degree Colleges and Autonomous Colleges in Odisha after securing 60% marks in Odia Honours subject will also be eligible for this Scholarship at the P.G. level.\n   1. A student availing of other scholarships is also eligible for this Bhasabruti.\n   1. The students will be selected on the basis of marks secured in the qualifying examination, i.e., students pursuing +3 Arts having Odia as an Honours subject will be selected on the basis of their overall marks in the +2 examination conducted by CHSE, Odisha. \n   1. The students pursuing M.A. (Odia) will be selected on the basis of the marks secured in Odia Honours in the +3 Arts final examinations. Basing on the common merit list for both categories the targeted beneficiaries will be selected (if the number of eligible applicants is more than the target).\n\n&lt;br&gt;\n\n**NOTE:** Students pursuing their higher studies through distance learning/ correspondence courses are not eligible for such scholarships.",
+  "_criteria_filled": 1
+}

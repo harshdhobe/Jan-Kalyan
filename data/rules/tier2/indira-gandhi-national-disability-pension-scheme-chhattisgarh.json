@@ -1,0 +1,53 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme-chhattisgarh",
+  "name": "Indira Gandhi National Disability Pension Scheme- Chhattisgarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a monthly pension of ₹500/-, (Central contribution- ₹300/-, State Contribution- ₹200/-).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 79
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-passport-size-photograph-identity-proof-domicile-c",
+    "sarpanch-or-councillor-disability-certificate-issued-as-per-the-provision-of-per",
+    "birth-certificate",
+    "certificate-issued-by-an-administrator",
+    "sarpanch",
+    "or-mayor",
+    "school-certificate",
+    "etc-below-poverty-line-bpl-cardrelated-documents-address-proof-bank-passbookpost"
+  ],
+  "apply_url": "https://edistrict.cgstate.gov.in/PACE/instructionPageHome.do?serviceId=32&OWASP_CSRFTOKEN=MBBG-XSU7-1ZCP-7YL4-QQYO-TPAR-YY9U-0URK",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndpschh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a person with multiple disabilities.\n   1. The applicant should have severe disabilities (with a disability percentage of 80% or above).\n   1. The applicant’s age should be between 18 and 79 years.\n   1. The applicant&amp;#39;s name should be included in the list of families living Below Poverty Line.\n   1. The applicant should not be receiving pension benefits from any other Central or State Government pension scheme.\n\n**Note 1:** Severe disability means any one type of disability which is more than 80%.\n**Note 2:** Multiple disabilities means more than one type of disability.",
+  "_criteria_filled": 5
+}

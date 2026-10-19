@@ -1,0 +1,26 @@
+{
+  "id": "krishi-input-anudan-yojana",
+  "name": "Krishi Input Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "&gt; **Subsidy Amounts per Hectare:**\n\n      1. Non-irrigated (year-dependent) crop areas: ₹8,500/-.\n      1. Irrigated crop areas: ₹17,000/-.\n      1. Perpetual/ perennial crops: ₹22,500/-.\n\n&gt; **Minimum Subsidy Amounts to Farmers:**\n\n      1. Non-irrigated (year-dependent) crop areas: ₹1,000/-.\n      1. Irrigated crop areas: ₹2,000/-.\n      1. Perpetual/ perennial crops: ₹2,500/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number"
+  ],
+  "apply_url": "https://dbtagriculture.bihar.gov.in/Instructions/4657(Revised%20Guideline%20of%20Flood%202024).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kiay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n   1. The applicant should belong to the reported Panchayats of the identified blocks in the specified districts.\n   1. The applicant must be registered on the DBT portal.\n   1. Applicant&amp;#39;s bank account must be linked with the Aadhaar number,\n\n&gt; Note: Farmers cultivating on others&amp;#39; land will be identified and verified as &amp;quot;actual cultivators&amp;quot; through joint certification by the Agriculture Coordinator and Farmer Advisor. This process ensures that only genuine cultivators receive subsidy benefits.",
+  "_criteria_filled": 1
+}

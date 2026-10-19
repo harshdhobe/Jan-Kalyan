@@ -1,0 +1,26 @@
+{
+  "id": "nirman-shramikon-ke-bacchon-hetu-nishulk-ganvesh-evam-pustak-copy-hetu-sahaayata",
+  "name": "Nirman Shramikon Ke Bacchon Hetu Nishulk Ganvesh Evam Pustak Copy Hetu Sahaayata Raashi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "The proposed assistance amount for school uniform and book copy will be payable in lump sum as mentioned below:\nClassesAmountClass 1 to 8₹ 1,000/-Class 9 to 12₹ 2,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-construction-workers-certificate-of-children-of-work"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/194987_18_01_2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nskbgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a registered construction worker under the Chhattisgarh Building and Other Construction Workers Welfare Board.\n1. Applicant&#39;s children must be studying in classes 1 to 12 in any recognized school in Chhattisgarh.",
+  "_criteria_filled": 1
+}

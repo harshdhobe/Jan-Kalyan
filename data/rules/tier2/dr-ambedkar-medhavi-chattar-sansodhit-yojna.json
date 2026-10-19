@@ -1,0 +1,26 @@
+{
+  "id": "dr-ambedkar-medhavi-chattar-sansodhit-yojna",
+  "name": "Dr. Ambedkar Medhavi Chattar Sansodhit Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "For Students of Backward Classes, Scheduled Castes, Nomadic, DNTs, Semi-Nomadic, Vimukt Jati, and Tapriwas Jaati, scholarship ranging from Rs. 8000/- to 12000/- is awarded for Metric/10th,10+ and Graduation.\nFor Students of Backward Classes Block ‘A’, scholarship of amount Rs 8000 is awarded for metric qualified students.\nFor Students of Backward Classes Block ‘B’, scholarship of amount Rs 8000 is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-caste-certificate-academic-marksheet-of-the-qualifying-exam-p"
+  ],
+  "apply_url": "http://haryanascbc.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/amcsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- **For Students of Backward Classes, Scheduled Castes, Nomadic, DNTs, Semi-Nomadic, Vimukt Jati, and Tapriwas Jaati** - matric-(Urban 70%) (Rural 60%).,10+2-(Urban 75%) (Rural 70%) , Graduation-Urban 65%) (Rural 60%)- **For Students of Backward Classes Block ‘A’** -Metric-(Urban 70%) (Rural 60%)- **For Students of Backward Classes Block ‘B’-** Metric-(Urban 80%) (Rural 75%)- **For Meritorious students of other social classes to be given scholarship at par with Students of Backward Classes Block ‘B’ -** Metric-(Urban 80%) (Rural 75%)",
+  "_criteria_filled": 1
+}

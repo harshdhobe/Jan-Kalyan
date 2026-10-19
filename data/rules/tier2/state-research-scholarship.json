@@ -1,0 +1,26 @@
+{
+  "id": "state-research-scholarship",
+  "name": "State Research Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Nagaland",
+  "scope": "person",
+  "benefit": "1. Under the Nagaland State Research Scholarship beneficiaries will get financial aid to complete their studies.\n1. This scholarship is specially designed for students who are pursuing research work. Under the scheme, beneficiaries will get cash awards to conduct their research work.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Nagaland"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-need-to-upload-their-aadhaar-card-and-the-front-page-of-bank-passbook"
+  ],
+  "apply_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/RESEARCH-guidelines2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicable for Scheduled Tribe and Indigenous students of Nagaland who are pursuing Ph.D/D.Litt. course from recognized Universities within India.\n1. Scholars who have availed this Scholarship three times are no longer eligible.\n1. Applicant must not be a beneficiary of any other Fellowship/Scholarship scheme.\n1. Applicant must not be an employee of any government/semi-government establishment.\n\nNote: To apply as a Fresh candidate, the student must be enrolled in the first year of the course. Renewal is applicable only to beneficiaries of this Scheme from the previous year.\n<br>",
+  "_criteria_filled": 1
+}

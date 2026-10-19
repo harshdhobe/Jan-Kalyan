@@ -1,0 +1,38 @@
+{
+  "id": "janani-sahayogi-yojana",
+  "name": "Janani Sahayogi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Free delivery services (both normal and cesarean) for pregnant women belonging to BPL families.\n- Free maternal and newborn healthcare, including antenatal, delivery, postnatal, and neonatal services.\n- Free abortion and emergency obstetric care when medically required.\n- Free medicines, diagnostics, and hospitalization at government or accredited private hospitals.\n- Linkage with Janani Suraksh",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-below-poverty-line-card-or-antyodaya",
+    "blue",
+    "or-yellow-health-card-any-other-document-if-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=281",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Madhya Pradesh.\n1. The applicant must be a pregnant woman. \n1. The applicant must belong to a Below Poverty Line (BPL) family.\n1. The applicant must present a valid BPL Health Card such as Blue, Yellow, or Antyodaya Card.\n\n<br>",
+  "_criteria_filled": 3
+}

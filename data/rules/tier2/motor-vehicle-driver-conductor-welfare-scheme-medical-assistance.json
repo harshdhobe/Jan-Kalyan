@@ -1,0 +1,26 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-medical-assistance",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Medical Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Medical treatment benefits are provided under [Deendayal Antyodaya Upchar Yojana](https://www.mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=eVTeefDvS1Q=) through the Public Health and Family Welfare Department.- Financial assistance for serious or life-threatening diseases may be provided under the State Illness Assistance Fund, subject to eligibility and approval.\n- The benefit covers the r",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-id-commercial-driver-or-conductor-license-proof"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-mda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should hold a valid commercial driver or conductor license issued in Madhya Pradesh.\n1. The applicant should be registered on the Samagra Portal.\n1. The applicant should be a registered transport vehicle driver or conductor under the scheme.\n1. The applicant or eligible family member should require medical treatment as per scheme provisions.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mahila-samman-savings-certificate",
+  "name": "Mahila Samman Savings Certificate",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Investment Options:** Provide attractive and secure investment options for girls and women.  - **Interest Rate:** Offers fixed interest of 7.5% per annum, compounded quarterly.  - **Investment Limit:** The maximum investment ceiling is ₹2,00,000 with flexible investment options.  - **Tenure:** The scheme has a duration of 2 years.\n\n  - **Interest Credit:** Interest is compounded quarterly and ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-proof-of-age",
+    "ie-birth-certificate-3-aadhaar-card-4-pan-card-5-pay-in-slip-along-with-deposit"
+  ],
+  "apply_url": "https://dea.gov.in/files/budget_division_documents/MSSC.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicants must have Indian citizenship.\n  - This scheme is only for women and girl children.\n  - Any Individual Woman can apply under the scheme.\n  - The minor account can also be opened by the guardian.\n  - There is no upper age limit, and women of all ages can avail the benefits of this scheme.\n\n**Note:** An account opened under this Scheme shall be a single-holder type account.\n&gt; **Deposits:**\n\n  - An individual may open any number of accounts subject to the maximum limit for deposit and a time gap of three months shall be maintained between the existing account and the opening of other accounts.\n  - A minimum of ₹1000/- and any sum in multiples of one hundred rupees may be deposited in an account and no subsequent deposit shall be allowed in that account.\n  - A maximum limit of ₹2,00,000/- shall be deposited in an account or accounts held by an account holder.\n\n&gt; **Payment on maturity:**\n\n  - The deposit shall mature on completion of two years from the date of the deposit and the Eligible Balance may be paid to the account holder on maturity.\n  - In calculating the maturity value, any amount in fraction of a rupee shall be rounded off to the nearest rupee, and for this purpose; any amount of fifty paisa or more shall be treated as one rupee, and any amount less than fifty paisa shall be ignored.\n\n&gt; **Withdrawal from account:**\n\n  - The account holder shall be eligible to withdraw a maximum of up to 40% of the Eligible Balance once after the expiry of one year from the date of opening of the account but before the maturity of the account.\n  - In case of an account opened on behalf of a minor girl, the guardian may apply for the withdrawal for the benefit of the minor girl by submitting the specified certificate to the accounts office.\n  - In calculating the withdrawal from the account, any amount in fraction of a rupee shall be rounded off to the nearest rupee, and for this purpose; any amount of fifty paisa or more shall be treated as one rupee, and any amount less than fifty paisa shall be ignored.\n\n<br>",
+  "_criteria_filled": 1
+}

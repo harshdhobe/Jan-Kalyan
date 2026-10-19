@@ -1,0 +1,46 @@
+{
+  "id": "rajiv-gandhi-social-security-scheme-for-poor-families-2012",
+  "name": "Rajiv Gandhi Social Security Scheme For Poor Families - 2012",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "**The following financial assistance is provided to the members covered under this scheme:**\nNatural death₹30,000/-Unnatural death₹75,000/-Permanent Total Disability (PTD) due to an accident₹75,000/-Partial Permanent Total Disability due to accident₹37,500/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "attested-photocopy-of-the-bpl-family-ration-card-original-income-certificate-of"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3b4288d9c0ec0a1841b3b3728321e7088/uploads/2017/05/2018040532.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgssspf-2012",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased/disabled person for whom the claim is made shall be a member of the Below Poverty Line (BPL) family.\n1. The age of the applicant/member should be between 18-60 years.\n1. The applicant should be a permanent resident of the Union Territory of Puducherry.\n1. The annual family income of the applicant shall not be more than ₹75,000/-.\n\n**Note 01:** A beneficiary under this scheme is not eligible to avail any other benefit in a scheme (if any) operated by the Government of India/ Government of Puducherry/Local Bodies of Puducherry Government to cease/misuse the double claim at the present time or in future under any circumstance.\n**Note 02;** In case the financial assistance has been sanctioned on the basis of false/wrong information given by the beneficiary/member/ any official of the Government, the entire amount paid is liable to be recovered under the Pondicherry Revenue Recovery Act. The individual is also liable to be prosecuted for deliberately furnishing false/wrong information.",
+  "_criteria_filled": 5
+}

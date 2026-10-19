@@ -1,0 +1,26 @@
+{
+  "id": "rani-durgavati-and-shankarshah-puraskar-scheme-reward-scheme-for-meritorious-stu",
+  "name": "Rani Durgavati and Shankarshah Puraskar Scheme (Reward Scheme for Meritorious Students)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Awards for Regular Students of 10th Standard**\n\n- Position: 1st, Award: ₹51,000/-\n- Position: 2nd, Award: ₹40,000/-\n- Position: 3rd, Award: ₹30,000/-\n- Position: 4th, Award: ₹15,000/-\n- Position: 5th, Award: ₹10,000/-\n- Position: 6th, Award: ₹10,000/-\n\n> **Awards for Regular Students of 12th Standard**\n\n- Position: 1st, Award: ₹51,000/-\n- Position: 2nd, Award: ₹40,000/-\n- Position: 3rd, Award:",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-mar"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=38",
+  "source_url": "https://www.myscheme.gov.in/schemes/atpipordasspsrsfms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a Student.\n1. The applicant should be from a Scheduled Tribe (ST), or Scheduled Caste (SC) category.\n1. The applicant should be enrolled in Class 10th or 12th.\n1. The applicant should be selected based on the merit list of the 10th and 12th board examinations conducted by the Board of Secondary Education, Madhya Pradesh.",
+  "_criteria_filled": 1
+}

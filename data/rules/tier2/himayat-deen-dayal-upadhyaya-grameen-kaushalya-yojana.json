@@ -1,0 +1,36 @@
+{
+  "id": "himayat-deen-dayal-upadhyaya-grameen-kaushalya-yojana",
+  "name": "HIMAYAT- Deen Dayal Upadhyaya-Grameen Kaushalya Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "1. The Himayat shall be implemented in partnership with Project Implementing Agencies (PIAs) empaneled under; and who qualify as per the guidelines of DDU-GKY, MoRD, and GoI.\n1. The Himayat programme aims to train 1,49,180 youth with placement assurance (at least 70%) of trained youth.\n1. The Programme is 100 percent funded by the Government of India as a special provision under the DDU-GKY progra",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "2-passport-size-photographs-attested-a-photocopy-of-id-proof-attested-photocopy"
+  ],
+  "apply_url": "https://www.himayat.org.in/AboutUs.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/himayat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have passed Class 8th.\n1. The age of the applicant should be between 18 and 35 years. \n1. The upper age limit for women candidates, and candidates belonging to PVTGs, PwDs, transgender people, and other special groups, etc shall be 45 years.\n1. The applicant should be a permanent resident of the state of Jammu &amp; Kashmir.",
+  "_criteria_filled": 3
+}

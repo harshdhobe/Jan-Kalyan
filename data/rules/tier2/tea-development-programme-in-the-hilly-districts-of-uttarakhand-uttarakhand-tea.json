@@ -1,0 +1,26 @@
+{
+  "id": "tea-development-programme-in-the-hilly-districts-of-uttarakhand-uttarakhand-tea",
+  "name": "Tea Development Programme in the Hilly Districts of Uttarakhand - Uttarakhand Tea Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Due to large-scale migration of local people in the mountainous areas of Uttarakhand, most of the farmers’ land remains unused or barren, which can be put to good use through tea development programmes.\n  - The Tea Development Scheme, run by the Board, is an employment-oriented initiative under which the Board provides year-round employment to tea garden cultivators and workers for seven years a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-uttarakhand-tea-development-board"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tdphduk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must have his own measured land available.\n   1. Within the identified area, at least 60 hectares of land should be available for tea plantation within a radius of 20 km.\n   1. There should be adequate availability of water around the identified land for setting up tea plant nursery at the initial stage.\n\n<br>",
+  "_criteria_filled": 1
+}

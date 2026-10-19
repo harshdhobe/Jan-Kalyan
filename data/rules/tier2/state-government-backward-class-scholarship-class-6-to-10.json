@@ -1,0 +1,26 @@
+{
+  "id": "state-government-backward-class-scholarship-class-6-to-10",
+  "name": "State Government Backward Class Scholarship (Class 6 to 10)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, scholarships are provided to Backward Classes students at the following rates:\n\n  - **Class 6 to 8:** ₹200/- per year (for boys) and ₹300/- per year (for girls)  - **Class 9 to 10:** ₹300/- per year (for boys) and ₹400/- per year (for girls)\n**Note:** The scholarship will be transferred directly into the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-caste-certificate-domicile-certificate-of"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=411",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgbcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The student should be a permanent resident of Madhya Pradesh.\n   1. The student should belong to the Backward Classes or Minorities community.\n   1. Students from Class 6 to 10 are eligible for the benefits under this scheme.\n   1. The parents or guardians should not be income taxpayers or own more than 10 acres of land.\n\n**Note:** There should not have been any increase in the income of the parents or guardians in the past year.",
+  "_criteria_filled": 1
+}

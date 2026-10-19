@@ -1,0 +1,28 @@
+{
+  "id": "large-sized-multi-purpose-coop-society-for-interest-free-loan",
+  "name": "Large Sized Multi Purpose Coop. Society For Interest Free Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Loan up to ₹45,000/-.  - **Interest Rate:** No interest.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-employment-or-income-certificate-if-applicable-any-ot"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3610",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsmpcifl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a member of a Large Sized Multi Purpose Cooperative Society.\n  - The beneficiary should be interested in availing loan from the Large Sized Multi Purpose Cooperative Society.",
+  "_criteria_filled": 1
+}

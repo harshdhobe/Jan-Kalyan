@@ -1,0 +1,29 @@
+{
+  "id": "ambedkar-dbt-voucher-scheme",
+  "name": "Ambedkar DBT Voucher Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** \n\n- ₹2,000/- per month for a maximum of 10 months per academic year.\n\n**Note:** Students will be paid on monthly/monthly basis.\n**Duration of Benefit:** \n\n- Maximum 5 years per student.\n\n**Total Number of Beneficiaries:** \n\n- 5,000 students annually.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate-issued-by-a-competent-authority-caste-certificate-issued-by",
+    "account-number",
+    "ifsc-code",
+    "branch-name-certificate-of-regular-enrollment-in-a-government-college-self-certi"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202107061604065219.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/adbtvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should belong to Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), Most Backward Class (MBC) or Economically Weaker Section (EWS) category.\n1. The applicant should be studying in a government college at the district level for the academic course.\n1. The student should be regularly enrolled in an undergraduate or postgraduate course at a government college.\n1. The student should be pursuing an academic course in a government college located at the district level.\n1. The student should not be a resident of the Municipal Corporation, Municipal Council, or Municipality of the district where they are studying.\n1. The student whose parent/guardian owns a house in the city or town where they are studying is not eligible for benefits under this scheme.\n1. The student who is residing in government-run hostel will not be eligible for benefits under the scheme.\n1. The benefit of the scheme will be available to the student for a maximum of five years.\n1. The annual income of the applicant’s family should not exceed:\n\n- SC/ST/MBC: ₹2,50,000/-\n- OBC: ₹1,50,000/-\n- EWS: ₹1,00,000/-",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mukhya-mantri-gyandeep-yojna",
+  "name": "Mukhya Mantri Gyandeep Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this Scheme, Interest subsidy is admissible from any bank on an education loan availed up to the maximum of ₹10 lakhs.\n   1. Interest subsidy to the extent of 4% per annum on education loans will be allowed.\n\n**Note:** Interest subsidy will be provided on interest charged on eligible education loan accounts during the repayment/ holiday/ moratorium period i.e. course period plus moratoriu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photographs-2-copy-of-aadhaar-card-3-copy-of-pan-card-4-copy-of",
+    "as-required"
+  ],
+  "apply_url": "https://govtschemes.in/sites/default/files/2023-01/Mukhyamantri%20Gyandeep%20Yojana%20Guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmgy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be a Bonafide Himachali.\n   1. The students of the State who avail of educational loans from any Bank for pursuing professional/technical courses and higher education courses from recognized Institutions in India are eligible to apply under this scheme.\n   1. The interest subsidy shall be available to eligible students only if no other interest subsidy on education Loans is availed under any other scheme of the State Government/Government of India.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-purchase-or-construction-of-house-ukbocwwb",
+  "name": "Financial Assistance for Purchase or Construction of House (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. Under the scheme, registered construction workers are eligible to receive an advance loan amount of up to ₹50,000/- for the purchase or construction of a house, subject to the conditions specified by the Board.\n   1. Interest of at least 5% per annum is applicable on this loan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "labour-card-aadhaar-card-bank-account-details-a-handwritten-self-declaration-cer"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hasukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board.\n   1. To avail an advance loan for the purchase or construction of a house, the worker must have been a member of the fund for at least five years and should have a minimum of 15 years remaining until superannuation/retirement age.\n\n<br>",
+  "_criteria_filled": 1
+}

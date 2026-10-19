@@ -1,0 +1,26 @@
+{
+  "id": "nanaji-deshmukh-krishi-sanjivani-prakalp",
+  "name": "Nanaji Deshmukh Krishi Sanjivani Prakalp",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "1)\tBack ended financial subsidies for Farmers to adopt climate resilient agricultural initiatives in their farms\n2)\tFinancial assistance available for protected cultivation techniques such as Poly House, Poly Tunnels, etc.\n3)\tSubsidy also available for on farm water conservation activities such as Drip, Sprinklers, Farm Pond, Farm Pond linings, etc.\n4)\tClimate Resilient seed production also covere",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-number-2-land-details-8a-712-extract-3-cast-certificate-for-applicants"
+  ],
+  "apply_url": "https://dbt.mahapocra.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/pocra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tFarmers producer companies under the project in the district, registered farmer groups/self-help groups in the project village.\n2)\tIn the project, FPC’s registered with a minimum of 100 members from the district will be eligible to avail benefits under the agribusiness components.\n3)\tFor the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister&amp;#39;s Farmer Scheme, based on the family&amp;#39;s eligibility criteria (husband, wife, and dependent children over 18 years of age). The explanation of the family&amp;#39;s composition from different families within the group, with a minimum of 11 members in each family, is necessary. The benefits of the agribusiness components should not be directed solely towards one family; attention should be paid to this aspect.\n4)\tThe financial condition of applicant farmers&amp;#39; producer companies/registered farmers/self help groups is proposed to be capable enough to establish and operate agricultural input service centers/industries.\n5)\tThe project mandates that loans sanctioned to farmers&amp;#39; producer companies/registered banks/financial institutions for projects exceeding Rs. 20.00 lakhs must be approved. The approved amount of the existing loan should be at least 1.25 times the minimum grant aid.\n6)\tThe proposal of Rs. 20.00 lakhs will be funded through self-financing. In such proposals, assurance should be given that the required funds are available in the registered bank account of the group/company or will be raised from the members (include this decision in the company/group resolution). While providing financial assistance under the project, the expenditure incurred for the project from the bank account of the group/company will be considered eligible for reimbursement.\n7)\tIf there&amp;#39;s a loan involved, it&amp;#39;s essential for the farmers&amp;#39; producer company and registered farmers/self help groups to enter into a tripartite agreement with the registered bank/financial institution and the relevant project management authority.\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

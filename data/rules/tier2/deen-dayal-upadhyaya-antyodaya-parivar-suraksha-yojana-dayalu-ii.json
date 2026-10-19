@@ -1,0 +1,30 @@
+{
+  "id": "deen-dayal-upadhyaya-antyodaya-parivar-suraksha-yojana-dayalu-ii",
+  "name": "Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU-II)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "The scheme provides financial assistance based on the age of the beneficiary at the time of accidental death or permanent disability:\n**Sr. No.****Age****Assistance**1Upto 12 years₹ 1 Lakh2Above 12 years and upto 18 years₹ 2 Lakh3Above 18 years and upto 25 years₹ 3 Lakh4Above 25 years and upto 40 years₹ 5 Lakh5Above 40 years₹ 2 Lakh**Mode of Disbursement:**\nThe assistance amount will be directly t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "in-case-of-death-death-certificate-copy-of-firddr-indicating-death-due-to-an-acc",
+    "animal",
+    "or-dog-bite-family-idparivar-pehchan-patra-ppp-number-proof-of-age-domicile-proo",
+    "animal",
+    "or-dog-bite-family-idparivar-pehchan-patra-ppp-number-proof-of-age-domicile-proo"
+  ],
+  "apply_url": "https://dapsy.finhry.gov.in/get-family-id",
+  "source_url": "https://www.myscheme.gov.in/schemes/dayalu-ii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The benefits of assistance under the scheme shall be made available to the beneficiary if:\n1. The applicant should be a resident of Haryana.\n2. The applicant refers to either:\n•\tThe beneficiary (in case of permanent disability), or\n•\tAn eligible relative (in case of the beneficiary’s death) applying for financial assistance.\n3. The applicant should possess a Family ID/Parivar Pehchaan Patra (PPP) number.\n4. The applicant should have suffered accidental death or permanent disability (70% or above) due to a stray cattle/animal bite (such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely.)\n5. The claim should be filed within three months of the accident.\n6. The scheme is effective from 24th May 2023, as per the official gazette notification. Claims for deaths or permanent disabilities occurring before this date will not be entertained.\n7. Financial assistance will be provided only for cases of death or permanent disability caused by stray cattle/animal/dog bites.\n> **In case of death, the assistance amount shall be paid**\n\n1. In case Member of family is deceased then assistance will be given\n•\tHead of the Family (HOF) below the age of 60 years\n•\tIn case HOF is above 60 years then eldest of the family member below the age of 60 years.\n•\tIn case no elder family member/HOF is below 60 years then the family member immediate above the age of 60 years.\n2. In case Head of Family is deceased then assistance will be given\n•\tEldest of the family below the age of 60 years.\n•\tIn case no elder family member is below the age of 60 years then the family member immediate above the age of 60 years.\n3. In case no family member is alive after the death in the family then no assistance will be paid.\n4. In case the alive family member are below the age of 18 years then the assistance will be paid only at the time of any member attaining the age above 18 years.\n5. In case assistance is sanctioned by suppressing true information or making wrong claim or on the basis of wrong information given by the claimant in the claim form then the assistance amount would be recovered alongwith interest @ 12% per annum.",
+  "_criteria_filled": 1
+}

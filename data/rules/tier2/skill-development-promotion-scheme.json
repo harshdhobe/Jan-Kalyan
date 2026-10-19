@@ -1,0 +1,26 @@
+{
+  "id": "skill-development-promotion-scheme",
+  "name": "Skill Development Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1.   The retail educational institutes that impart programming and technical skills will be encouraged to establish learning centres in Goa. Institutes listed by the start-up promotion cell and providing courses at pre-fixed rates will be provided following benefits:\n        a)    Internet subsidy (up to ₹ 5,00,000 per year) for two years\n        b)    Power subsidy (up to ₹ 1,00,000 per year) for",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-relevant-employees-contract-of-employment-of-employees-salary-sl"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an educational institute listed by the Start-up Promotion Cell (SPC).\n1. The applicant should have a valid Startup Cell Registration Number.\n1. The applicant institute/offered course must have at least one established learning centre in Goa and be recognized by an authorized Government body such as AICTE, UGC, NBA, etc. as applicable.\n\n**NOTE:** Only expenditures incurred from one year before the notification of the Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally would be considered for reimbursement under this scheme. If digital payments are not possible then it shall be up to the decision of SPC as per its due diligence to admit the expenditure.\n<br>\n\n> **Relaxation / Preference / Priority**\n\nPreference will be given to institutes with tie-ups with OEMs.",
+  "_criteria_filled": 1
+}

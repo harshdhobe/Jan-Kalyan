@@ -1,0 +1,26 @@
+{
+  "id": "immediate-assistance-in-case-of-accident-to-the-beneficiary",
+  "name": "Immediate Assistance in Case of Accident to the Beneficiary",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "> ***Financial assistance for hospitalization:***\n\n- ₹5,000/- for the first 5 days \n- ₹500/- per day for the remaining days subject to a maximum of ₹15,000/-\n\n<br>\n\n> ***Financial assistance for disability caused by accident:***\n\n- ₹25,000/- for upto 25% disability.\n\n- ₹50,000/- for upto 50% disability.\n- ₹1,00,000/- for disability above 50%.\n\n<br>\n\n> ***Financial assistance for Death:***\n\n- ₹1,00",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-calculation"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=immediate+assistance+in+case+of+accident+to+the+beneficiary",
+  "source_url": "https://www.myscheme.gov.in/schemes/iacab",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> ***For Accidental Case:***\n\n1. The construction worker should be registered under the Manipur Building and Other Construction Workers&#39; Welfare Board. \n1. The construction worker should not be covered by the Group Insurance Scheme undertaken by the Board.\n\n<br>\n\n> ***For Accidental Death:***\n\n1. The applicant should be the nominee/dependent of the deceased construction worker.\n1. The deceased construction worker should be registered with the Manipur Building and Other Construction Workers&#39; Welfare Board.\n1. The deceased construction worker should not be covered by the Group Insurance Scheme undertaken by the Board.\n\n> ***For Disability:***\n\n1. The construction worker should be registered under the Manipur Building and Other Construction Workers&#39; Welfare Board. \n1. The construction worker should be disabled due to an accident. \n1. The deceased construction worker should not be covered by the Group Insurance Scheme undertaken by the Board.",
+  "_criteria_filled": 1
+}

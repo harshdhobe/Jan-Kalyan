@@ -1,0 +1,26 @@
+{
+  "id": "employment-incentive-under-motivation-of-entrepreneurs-to-start-industries-and-f",
+  "name": "\"Employment Incentive\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Wage/Employment Subsidy of 20% wage/salary up to a maximum of ₹5,00,000/- per annum for the workers who are covered under the Provident Fund (PF) (if applicable). \n- &quot;Employment Incentives&quot;, granted only if the unit has provided at least 60% of the employment to the people of UT of Puducherry.\n\n*Wage/Salary would be limited by the minimum wages prescribed by the Government from time to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/ei-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The new units which commence production on or after 2-8-2004 would alone be eligible for this incentive for 5 years from the date of commencement of production.\n- The unit should provide direct employment to at least 10 persons.\n- The &quot;employment incentive&quot; will be granted if the unit has provided at least 60% of the employment to the people of UT of Puducherry.",
+  "_criteria_filled": 1
+}

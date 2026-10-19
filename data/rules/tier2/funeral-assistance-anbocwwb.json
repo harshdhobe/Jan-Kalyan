@@ -1,0 +1,27 @@
+{
+  "id": "funeral-assistance-anbocwwb",
+  "name": "Funeral Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. Under the scheme, an amount of ₹5,000/- may be given to the nominees/dependents of deceased registered workers, towards funeral expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-death-certificate-copy-of-the-nominationlegal-heir-certificate-regis",
+    "if-any-address-proof-bank-details-of-nominee-any-other-document-as-required"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/faanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal nominee or dependent of the deceased worker.\n   1. The deceased worker should have been a resident of the Union Territory of Andaman &amp;amp; Nicobar Islands.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The deceased worker should have been registered under the Andaman &amp;amp; Nicobar Islands Building and Other Construction Workers Welfare Board.\n   1. The deceased worker should have had an active membership with the Board.",
+  "_criteria_filled": 1
+}

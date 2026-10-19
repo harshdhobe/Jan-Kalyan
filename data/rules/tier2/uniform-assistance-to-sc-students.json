@@ -1,0 +1,33 @@
+{
+  "id": "uniform-assistance-to-sc-students",
+  "name": "Uniform Assistance To SC Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Rs.900/- assistance for three pairs of uniforms.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhar-card",
+    "voter-id",
+    "college-id",
+    "etc-residence-proof-pan-card",
+    "residence-certificate",
+    "etc-income-proof-aadhar-card-passport-size-photograph-academics-certificates-ban",
+    "ifsc",
+    "micr-code-other-documents-may-be-required-caste-certificate"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1544?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/uascs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should be of Scheduled Caste.\n1. Students should be studying in classes 1 to 8.\n1. No Income Limit.",
+  "_criteria_filled": 1
+}

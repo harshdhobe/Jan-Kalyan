@@ -1,0 +1,26 @@
+{
+  "id": "assistance-in-trellise-mandap-for-cultivation-of-vegetable-crops",
+  "name": "Assistance in Trellise Mandap for Cultivation of Vegetable Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Monetary Assistance:**\n\n- **General Farmers:** 50% of unit cost or ₹80,000/- per hectare- **SC/ST Farmers:** 75% of unit cost or ₹1,20,000/- per hectare- **Devipoojak Farmers:** 90% of cost or ₹46,800/- per hectare\n> **Input Support:**\n\n- **Wood/Bamboo Supports:** 1,600 units per hectare- **GI Wire (12–18 gauge) or Plastic Wire:** 400 kg per hectare- **Recommended Plant Spacing:** 2.5 x 2.5 me",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/atmfcvc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer\n  -  The applicant should be a resident of Gujarat.\n  - The applicant should be engaged in vegetable cultivation.\n  - The applicant should be willing to construct trellis mandaps.\n\n<br>",
+  "_criteria_filled": 1
+}

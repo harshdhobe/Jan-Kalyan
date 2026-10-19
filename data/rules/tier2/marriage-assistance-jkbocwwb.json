@@ -1,0 +1,50 @@
+{
+  "id": "marriage-assistance-jkbocwwb",
+  "name": "Marriage Assistance (JKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "- Marriage Assistance of ₹25,000/- is provided to a registered construction worker for the marriage of their dependent (sons, daughters, siblings, or themselves).\n\n**NOTE:** Up to three marriages can be covered under the scheme for the worker&#39;s dependents or for the worker themselves.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-passport-size-photograph-proof-of-age-eg",
+    "birth-certificate",
+    "school-certificate-identity-proof-eg",
+    "aadhaar-card-details-of-epf-employees-provident-fund",
+    "if-applicable-proof-of-address-eg",
+    "utility-bill",
+    "voter-id-90-days-work-duration-certificate-issued-by-the-competent-authority-ban",
+    "copy-of-bank-passbook-any-other-document-as-required-for-application-nikkah-nama",
+    "attested-by-a-gazetted-officer-marriage-certificate-from-mpmlamlc",
+    "sarpanch",
+    "municipal-councillor",
+    "or-tehsildar-photo-of-bride-and-groom-one-photo-together",
+    "either-at-the-time-of-marriage-or-later-original-marriage-invitation-card-marria",
+    "issued-by-naib-tehsildartehsildar",
+    "confirming-dependency-and-avoiding-fraud"
+  ],
+  "apply_url": "https://www.jkbocw.gov.in/downloads/circ.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/majkbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration as a Building/ Construction Worker**\n\n1. The applicant should be a resident of Jammu &amp; Kashmir.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n> **For Application to the Scheme**\n\n1. The applicant should be a registered member under the Building and Other Construction Workers Welfare Board of Jammu &amp; Kashmir.\n1. The assistance is available for up to three marriages of the worker&#39;s dependent sons, daughters, siblings, or the worker themselves.\n1. The worker&#39;s membership must be active at the time of applying for the scheme.\n1. The applicant must provide proof of the dependent relationship for sons, daughters, siblings, or self.",
+  "_criteria_filled": 3
+}

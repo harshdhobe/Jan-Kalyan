@@ -1,0 +1,37 @@
+{
+  "id": "supply-of-radio-to-the-blind-persons",
+  "name": "Supply of Radio to the Blind Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "A radio is provided to the blind person for recreation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/supply-radio-blind-persons",
+  "source_url": "https://www.myscheme.gov.in/schemes/srbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The applicant should be blind.\n- The applicant should have disability of 40% or above.\n- The annual income of the applicant should not exceed ₹ 75,000/-.",
+  "_criteria_filled": 3
+}

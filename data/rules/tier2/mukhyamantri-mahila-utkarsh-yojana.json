@@ -1,0 +1,43 @@
+{
+  "id": "mukhyamantri-mahila-utkarsh-yojana",
+  "name": "Mukhyamantri Mahila Utkarsh Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefits\nInterest-Free Loans: Women entrepreneurs can avail of interest-free loans of up to Rs. 1 lakh to start or expand their businesses. The loans are provided without any collateral security.\nSubsidy: The government also provides a subsidy of 6% per annum to women entrepreneurs who repay their loans on time.\nNo Processing Fee: The scheme does not charge any processing fee for the loan applicat",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-the-applicant-should-have-a-valid-aadhaar-card-any-go",
+    "driving-license",
+    "or-pan-card-any-government-issued-address-proof-such-as-voter-id",
+    "driving-license",
+    "or-passport-the-applicant-should-provide-a-certificate-of-having-passed-at-least",
+    "including-the-type-of-business",
+    "the-investment-required",
+    "and-expected-revenue-the-applicant-should-provide-the-bank-account-details-for-t"
+  ],
+  "apply_url": "null",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmuy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. The applicant should be a woman who is a permanent resident of Gujarat.\n1. The applicant should be 18 years of age or above.\n1. The applicant should have passed at least the 8th standard.\n1. The applicant should have a valid Aadhaar card.",
+  "_criteria_filled": 3
+}

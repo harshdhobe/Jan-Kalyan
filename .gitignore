@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+*.log
+
+# Excluded documentation and notes
+docs/
+AGENTS.md
+REVIEW.md
+README.md

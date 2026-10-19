@@ -1,0 +1,31 @@
+{
+  "id": "food-bill-assistance-to-sc-students",
+  "name": "Food Bill Assistance to SC Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- The food bill assistance @ ₹1,500/- per month (Up to 10 Months) will be granted to the Scheduled Caste (SC) students admitted in college affiliated hostels.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-caste-certificate-from-the-co"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1527?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbascs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe student should belong to the Scheduled Caste of Gujarat.\n2.\tThe students should reside in the hostel, affiliated to the college.\n3.\tThe annual family income of the student should be up to ₹6 lakhs.",
+  "_criteria_filled": 2
+}

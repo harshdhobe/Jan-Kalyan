@@ -1,0 +1,26 @@
+{
+  "id": "allotment-of-shops-in-kisan-bazaar",
+  "name": "Allotment of Shops in Kisan Bazaar",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "The scheme facilitates trade in products other than agricultural produce by allotting shops in the Kisan Bazaars to eligible residents of Uttarakhand.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-shop-allotment-committeetender-gui"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/asfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

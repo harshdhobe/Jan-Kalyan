@@ -1,0 +1,31 @@
+{
+  "id": "kalia-scholarship",
+  "name": "KALIA Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. The tuition fees, annual fees, one-time fees, hostel charges, and any other fees deposited by the student in the colleges/universities/institutions except the caution money/any other refundable money as admissible shall be released to the concerned student Account directly through DBT.\n   1. The mess /hostel charges of ₹1200/- per month &amp;amp; ₹1000/- per month for ten months shall be provid",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-applicants-photograph-proof-of-age-mark-sheetsgrade-cards-d",
+    "if-applicable-disability-certificate-if-any-income-certificate",
+    "if-applicable-matriculation-certificate-except-in-case-of-non-matriculate-iti-co",
+    "if-required-note-01-the-students-must-have-an-active-and-valid-account-in-any-of",
+    "savings-bank-account-number",
+    "and-ifsc-code-very-carefully-to-ensure-a-smooth-transfer-of-the-scholarship-amou"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/Admin/getAfile/eyJpdiI6IlAwWEZmN1NreWtQV2NmamFxbzhiRWc9PSIsInZhbHVlIjoidWFBaEZBUFhPTzhIdW4yUFwvK2tldEpVcjJqbDBPVThMRmNteFBMMGNnV2RaVmJnd2RYYmYza3l0NG82SWthTitCeGNsTTlOTjJEXC90a0p4QXN4aDZlUT09IiwibWFjIjoiYjdjMzI5ZmQ4NTMxNjMyNTFmZjRlZTlhYzVhMTMzNDliZWVlOWEwNzk3MDZjN2MyODBlZDAxYTU5YmFjM2IwNyJ9",
+  "source_url": "https://www.myscheme.gov.in/schemes/kalias",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligibility criteria for KALIA Scholarship:**\n\n   1. The children of all the eligible beneficiaries under the KALIA scheme under the two different components, namely Support to Cultivators for Cultivation and Livelihood Support to Landless Agricultural Households are eligible for the scholarship.\n   1. The parent of the student must be eligible under KALIA during verification at the Chief District Agriculture Officer (CDAO) level.\n   1. The student must have obtained admission in a Government institution of the State on a merit basis. \n   1. The student will not be eligible to get any other scholarship or if he/she is in receipt of another scholarship, he/she will need to shift from the existing scholarship scheme to the KALIA Scholarship, if they so choose. Only one scholarship can be availed.\n   1. The students can get KALIA scholarship for one professional course only &amp;amp; shall not be eligible for getting the scholarship for a second professional course.\n\n**Note:** Government Institutions means an organization set up by the State Government to execute its programme is called Government Institution. The institutions set up by the Central Government and Private Institutions or the State Govt. aided Private Institutions shall not come under the Government Institutions.\n&gt; **Subjects &amp;amp; Courses eligible for the KALIA Scholarship**\n\n   1. The Professional or Technical graduation courses like M.B.B.S, BDS, BHMS, BAMS, B.Pharma, B.Sc. (Nursing), PBBSc, B.Sc (Agriculture), BVSc &amp;amp; AH, B.Sc (Horticulture), B.Sc. (Forestry), B.Sc (Fisheries Science), B.Sc. (Community Science), B.Tech (Agril. Engg), B.Tech/B.E in Government Institutes of the State is included under the KALIA Scholarship.\n   1. Similarly, Diploma courses like D. Pharma, DMLT, DMRT, Ophthalmic Assistance/Surgical OPTH Assistance, GNM, ANM, Psychiatric Nursing, Polytechnic &amp;amp; Agri Polytechnic in Government Institutes of the State are included under the KALIA Scholarship.\n   1. Further, courses of different trades in Government ITI&amp;#39;s are included under the KALIA Scholarship scheme.\n\n**Note:** The list of courses may be modified if needed by Government approval.",
+  "_criteria_filled": 1
+}

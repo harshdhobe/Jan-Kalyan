@@ -1,0 +1,31 @@
+{
+  "id": "multimedia-training-tamil-nadu",
+  "name": "Multimedia Training - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Multimedia training is given to locomotor and hearing-impaired persons at the National Institute of Film Development Corporation, Regional centre in Chennai.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-8th-pass-certificate"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtbwodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a hearing impaired and locomotor differently abled person. \n1. The applicant should have passed the 8th standard.",
+  "_criteria_filled": 2
+}

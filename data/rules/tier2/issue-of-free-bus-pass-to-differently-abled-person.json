@@ -1,0 +1,37 @@
+{
+  "id": "issue-of-free-bus-pass-to-differently-abled-person",
+  "name": "Issue of Free Bus Pass to Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Free Bus Passes in Buses Run by the Government and Non Governmental Organizations, Within the Union Territory of Puducherry.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/free-bus-pass-differently-abled-persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifbpdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The annual income of the applicant should not exceed ₹ 75,000/-.\n- The applicant should have a disability of 40% or above.",
+  "_criteria_filled": 3
+}

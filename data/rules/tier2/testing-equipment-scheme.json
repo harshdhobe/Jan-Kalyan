@@ -1,0 +1,28 @@
+{
+  "id": "testing-equipment-scheme",
+  "name": "Testing Equipment Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. **50% Subsidy on Purchase of Testing Equipment :** \n\n  - Financial support of 50% of the cost, limited to a maximum of ₹5 lakh per year, for purchase of new testing equipment.\n\n1. **Support for Quality Enhancement**\n\n  - Assists Micro and Small Enterprises in establishing testing facilities for raw materials and end products to ensure zero defect and global competitiveness.\n\n1. **Encouragement ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-certificate-urc-and-haryana-udhyam-memorandum-hum-cer",
+    "if-applicable-list-of-existing-testing-equipments",
+    "if-any-copy-gst-returnaudited-balanced-sheet-for-last-financial-year"
+  ],
+  "apply_url": "https://investharyana.in/content/pdfs/Testing_equipment_assistance_Scheme-2015.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit should have filed Udyam Registration Certificate (URC) and Haryana Udhyam Memorandum (HUM) on the portal for the statistical purpose, at any stage.\n1. The unit should not have been placed in the restrictive list as notified by the State Government from time to time.\n1. The unit should have obtained NOC/CLU from competent Authority if applicable.\n1. The unit should be in commercial production.\n1. The unit should be in regular production at the time of disbursement and the subsidy shall not be released to a closed unit.\n1. No subsidy shall be admissible on the secondhand Testing Equipment and the equipment shall not be disposed of for 05 years from the date of purchase without approval of Competent Authority. The Joint Director/ Deputy Director, District MSME Centre shall conduct annual inspection of the unit to ensure that Testing Equipment is intact.\n1. The Scheme shall commence with effect from 01.01.2021 for the Testing Equipment Assistance and shall remain in operation for a period of 05 years. The assistance shall be admissible on the purchase of testing equipment on or after 01.01.2021 and before 31.12.2025.\n\n<br>",
+  "_criteria_filled": 1
+}

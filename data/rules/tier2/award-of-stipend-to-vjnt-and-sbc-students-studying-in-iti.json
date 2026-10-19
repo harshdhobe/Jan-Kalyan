@@ -1,0 +1,31 @@
+{
+  "id": "award-of-stipend-to-vjnt-and-sbc-students-studying-in-iti",
+  "name": "Award Of Stipend To VJNT And SBC Students Studying In ITI",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Maintenance Allowance from Rs.40/- to Rs.100/- per month for 10 months is provided through the concerned I.T.I.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 65290
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-domicile-certificate-residence-proof-aadhar-card-bank-details"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training",
+  "source_url": "https://www.myscheme.gov.in/schemes/awvsssi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students should belong to V.J.N.T. or S.B.C category.\n1. Students should be trainees of approved I.T.I.\n1. The parent/Guardian&#39;s income should be up to ₹ 65290/- per year.\n1. The selection process is completed by the Principal of the concerned ITI. \n\n<br>",
+  "_criteria_filled": 2
+}

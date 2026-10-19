@@ -1,0 +1,26 @@
+{
+  "id": "yatra-anudan",
+  "name": "Yatra Anudan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- The Council provides travel grants to researchers and scientists to participate in international scientific workshops and other similar programs. \n  - Under this scheme, 50% of the travel expenses (up to a maximum of ₹25,000/-) are provided to researchers and scientists of the state.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-to-be-submitted-as-per-the-guidelines-of-the-uttarakhand"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand. \n1. The applicant must be a researcher or scientist.\n\n<br>",
+  "_criteria_filled": 1
+}

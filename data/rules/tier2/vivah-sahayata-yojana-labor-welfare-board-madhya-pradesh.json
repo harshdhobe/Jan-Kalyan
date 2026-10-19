@@ -1,0 +1,36 @@
+{
+  "id": "vivah-sahayata-yojana-labor-welfare-board-madhya-pradesh",
+  "name": "Vivah Sahayata Yojana (Labor Welfare Board Madhya Pradesh)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** ₹15,000/- per case for the marriage of a worker&#39;s daughter.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-marriage-invitation-card-aadhaar-card-samagra-id-bank-passbook-work"
+  ],
+  "apply_url": "https://shramkalyanmandal.mponline.gov.in/Images/pdf/ApplicationForm/VIVAH%20SAHAYATA%20YOJANA.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vsylwbmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n1. The applicant should be working in an industrial establishment covered under the Madhya Pradesh Labour Welfare Fund Act 1982.\n1. The applicant should be employed in the establishment for at least one year.\n1. The applicant should be from an establishment that regularly contributes to the Board.\n1. The applicant should be submitting the application form 15 days before or within 60 days after the wedding.\n1. The bride should be at least 18 years old, and the groom should be at least 21 years old.\n1. The applicant should not have availed marriage assistance under any other scheme.\n\n**For Application**\n\n1. The applicant should be a daughter of a worker/employee in a covered institution.\n1. The applicant daughter should be above 18 years of age.\n1. The worker or institution should be covered under the Madhya Pradesh Labor Welfare Fund Act, 1982.\n\n<br>",
+  "_criteria_filled": 3
+}

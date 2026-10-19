@@ -1,0 +1,31 @@
+{
+  "id": "eklavya-prashikshan-yojana",
+  "name": "Eklavya Prashikshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- ₹2,500/- monthly stipends per student during the coaching period.\n- Coaching will be provided by nationally reputed institutions within Jharkhand.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "color-photograph-of-the-student-signature-of-the-student-students-aadhaar-card-c"
+  ],
+  "apply_url": "https://eklavya.apphost.in/document/eklavya_guideline.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/epy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand state.\n1. The student should have passed 10th and 12th from any recognized school in the state of Jharkhand or should possess a local residence certificate of Jharkhand. 1. The applicant must know the local customs, language, and culture knowledge.\n1. The student&#39;s annual family income should be less than ₹8,00,000/- or should be covered under the National/State Food Security Scheme. \n1. The applicant must fulfil the eligibility criteria of the examination for which he/she is applying for coaching under the scheme.\n1. The applicant received similar benefits from any other department not be eligible for dual benefit under this scheme.\n1. The student can avail the benefit only once under this scheme.",
+  "_criteria_filled": 2
+}

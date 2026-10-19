@@ -1,0 +1,26 @@
+{
+  "id": "planting-assistance-program-for-hybrid-seeds-of-vegetable-crops",
+  "name": "Planting Assistance Program for Hybrid Seeds of Vegetable Crops",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Financial support of 40% of the cost incurred for the hybrid seed plantation, ₹50,000/- per hectare unit cost.\n1. Maximum assistance of ₹20,000/- per hectare under both components:\n\n  - Hybrid Seed Plantation.\n  - Promotion of Natural Farming in Vegetable Crops.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-land-ownership-proof-aadhaar-card-bank-passbook-or-cancelled-che"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/paphsvc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. For natural farming component, the farmer must be listed by the district ATMA office or be part of a FIG practicing natural farming.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dental-care-scheme-haryana-labour-welfare-board",
+  "name": "Dental Care Scheme- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, workers and their dependents are entitled to receive financial assistance of up to ₹4,000/- or the actual expenditure, whichever is less, for dental care.\n   1. Financial assistance of up to ₹10,000/- or the actual amount of expenditure, whichever is less, is provided for fixation of full dentures to workers and their dependents.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa",
+    "the-dentists-prescription-and-expense-bill-from-the-dentist-will-have-to-be-clea"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/83",
+  "source_url": "https://www.myscheme.gov.in/schemes/dcs-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a worker employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly income/salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the worker is fixed for one year.\n   1. The application should be submitted within three months of the date of the dentist&amp;#39;s prescription or bill for dental care or jaw implants.\n   1. The beneficiary should not have availed of the benefit of this scheme earlier.",
+  "_criteria_filled": 1
+}

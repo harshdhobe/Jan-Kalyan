@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-godown-for-grain-storage",
+  "name": "Construction of Godown for Grain Storage",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Construction of modern and scientific food grain storage facilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "plan-of-the-proposed-structure-land-swamitva-document"
+  ],
+  "apply_url": "https://mppanchayatdarpan.gov.in/Public/Online_Services/BuildingConstruction/Pages/ApplicationForBuildingConstructionPermission.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cogfgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be located in a rural area of Madhya Pradesh.\n1. The applicant should be engaged in activities related to grain storage or agriculture.\n1. The applicant should have access to one acre of land or the land required as per the circumstances, allotted by the Cooperative Department.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-for-working-women-workers-or-wives-of-male-workers-for-mate",
+  "name": "Financial Assistance for Working Women Workers or Wives of Male Workers for Maternity- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of ₹10,000/- is provided to women workers and wives of male workers working in industrial and commercial establishments of Haryana state for the delivery of up to two children (three girls or two boys).",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-board-aadha"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/81",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawwwwmwmhlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be employed in an industrial or commercial establishment in Haryana.\n- The applicant should be registered with the Haryana Labour Welfare Board.\n- The monthly salary of the applicant should not exceed ₹25,000/-.\n- The service period of the workers is fixed for one year.\n- Application has to be made within 1 year from the date of birth of the child.\n- The benefit is provided to women workers and wives of male workers for the delivery of up to two children (three girls or two boys).",
+  "_criteria_filled": 2
+}

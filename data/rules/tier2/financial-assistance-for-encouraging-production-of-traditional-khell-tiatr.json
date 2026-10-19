@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-for-encouraging-production-of-traditional-khell-tiatr",
+  "name": "Financial Assistance for encouraging production of Traditional Khell-Tiatr",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Financial Assistance for Staging Performances***\n\n- Financial assistance (as fixed by Tiatr Academy of Goa) is provided for staging four shows.\n- Payment will be made directly to the applicant after a statement of expenditure enclosing all original bills (with stamped receipts if the amount exceeds ₹5,000/-) is submitted to the Tiatr Academy of Goa.\n\n##### ***Infrastructure Support***\n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copies-of-aadhaar-card-self-attested-copies-of-permanent-account-n",
+    "000-photographs-of-the-function-5-copies",
+    "two-of-which-should-show-the-tiatr-academy-of-goas-banner-during-performance-lis"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faeptkt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a dramatic troupe or an individual producing Khell-Tiatrs.\n- The Khell-Tiatr produced by the applicant should be a new or old script.\n- The Khell-Tiatr produced by the applicant must conform to the traditional format of the Khell-Tiatr.\n- The Khell-Tiatr produced by the applicant must be one in which just one-story flows from beginning to end with an interval of 10 to 15 minutes.\n- The Khell-Tiatr produced by the applicant must have 12 to 14 cantos which are related to the theme of the play.\n- Out of these cantos, at least 7 must be of an interactive nature.\n- The band for the Khell-Tiatr produced by the applicant should include at least two blowing instruments, one keyboard, one bass guitar, and a drum set.\n- The applicant must not have any adverse remark made in any form, either written or verbal, against any Government/Individual/Institution, etc.\n- The applicant must not have anything against one’s caste, creed, and religion which may lead to hurting of religious sentiments of anybody.\n\n<br>",
+  "_criteria_filled": 1
+}

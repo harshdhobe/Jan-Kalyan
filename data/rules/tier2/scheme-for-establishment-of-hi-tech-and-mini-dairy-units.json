@@ -1,0 +1,36 @@
+{
+  "id": "scheme-for-establishment-of-hi-tech-and-mini-dairy-units",
+  "name": "Scheme for Establishment of Hi-Tech and Mini Dairy Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "&gt; **Financial Assistance for Interest Subvention under the Scheme:**\n\n**Dairy units of 4 and 10 milch animals:**\n\n  - 25% subsidy on the cost of milch animals can be availed as a loan for the purchase of these milch animals by the beneficiary for the establishment of dairy units of 4 and 10 milch animals;\n  - The subsidy will be provided three months after the purchase/tagging of Milch animals ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "privaar-pahchan-patra-ppp-id-copy-of-aadhaar-card-copy-of-pan-card-copy-of-bank"
+  ],
+  "apply_url": "https://pashudhanharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sehtmdu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 to 55 years of age and a resident of Haryana.\n   1. The applicant must be unemployed (employment even in the private sector will bar an applicant from availing assistance under the Scheme).\n   1. There would be no mandatory educational qualifications or training requirements.\n   1. The applicant should have space/shed for keeping milch animals.\n   1. The applicant will have to submit a Self-Declaration for being unemployed and for undertaking to abide by other conditions as required under the Scheme.\n   1. The applicant applying for 20 and 50 animal dairy units must have 2-acre and 5-acre agricultural land for green fodder production respectively by way of ownership or long lease.\n   1. Any applicant who has earlier availed benefits under any Departmental Scheme for the establishment of livestock units will not be eligible for availing benefits under the Scheme.\n\n**Note 1:** Any applicant who has earlier availed the benefit of the Departmental Scheme for the establishment of a dairy unit below 20 milch animals that applicant will also be eligible for availing of benefit under the Scheme of Dairy unit of 20 and 50 mulch animals only.\n**Note 2:** In case an applicant lives at a place other than where the animals are kept or intended to be kept, than the jurisdiction area Government Veterinary Hospital will be the place where animals are kept or intended to be kept (Within state of Haryana only).\n&gt;  **Margin Money for 4 and 10 Milch Animal dairy Units only (25 % Subsidy):**\n\nThe beneficiary will have to arrange margin money, as per bank requirements, rest of the amount will have to be arranged as a loan from banks.\n&gt; **Margin Money for 20 and 50 Milch Animal dairy Units only (Interest Subvention):**\n\nThe beneficiary will have to arrange margin money, which will be 25% of the Unit Cost ( Livestock Cost only) and the rest of the amount will have to be arranged as a loan from banks.",
+  "_criteria_filled": 3
+}

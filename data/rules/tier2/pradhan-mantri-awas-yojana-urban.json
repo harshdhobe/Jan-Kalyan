@@ -1,0 +1,28 @@
+{
+  "id": "pradhan-mantri-awas-yojana-urban",
+  "name": "Pradhan Mantri Awas Yojana - Urban",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "&lt;br&gt;\n\n**States/UTs****BLC &amp;amp;amp;amp; AHP****ARH****ISS**Assam, Arunachal Pradesh, Meghalaya, Manipur, Mizoram, Nagaland, Tripura, Sikkim, Himachal Pradesh, Uttarakhand, UTs of Jammu and Kashmir, Puducherry, and DelhiCentral Govt. - ₹2.25 lakh/Unit;   State Govt. - Min. ₹0.25 lakh/UnitTechnology Innovation Grant Central Govt. - ₹3,000/sqm per unit State Govt.- ₹2,000/sqm per unit Home ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1800000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-or-aadhaar-aadhaar-enrolment-id-self-certificate-affidavit-as-pro",
+    "voter-id",
+    "driving-license-proof-of-minority-community-if-the-applicant-belongs-to-a-minori"
+  ],
+  "apply_url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmay-u",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The family identifies as one of the following -\na)    Economically Weaker Section (EWS): households with annual income up to ₹3,00,000.\nb)    Low Income Group (LIG): households with annual income between ₹3,00,001 and ₹6,00,000.\nc)    Middle Income Group-1 (MIG-1): households with annual income between ₹6,00,001 and ₹12,00,000.\nd)    Middle Income Group-2 (MIG-2): households with annual income between ₹12,00,001 and ₹18,00,000.\n2. The applicant or his/her family members must not own a pucca house in any part of the country.\n3. The family must comprise of husband/wife and unmarried children.\n4. The town/city in which the family resides must be covered under the scheme.\n5. The family MUST NOT have previously availed the benefits of any housing-related schemes set up by the Government of India.\n<br>",
+  "_criteria_filled": 1
+}

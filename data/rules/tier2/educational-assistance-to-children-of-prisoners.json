@@ -1,0 +1,32 @@
+{
+  "id": "educational-assistance-to-children-of-prisoners",
+  "name": "Educational Assistance To Children Of Prisoners",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, scholarship/financial assistance will be provided to the children of prisoners for their expenses like food, clothing, school fees, etc. as under:\n\n**Sl. No.****Classes/Courses****Amount of Scholarship/Financial Assistance**11st Std. to 5th Std.₹500/- per month26th Std. to 10th Std.₹750/- per month3+1 (Plus one) &amp;amp;amp;amp; +2 (Plus two)₹1000/- per month4Degree/Professio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of-ration-c",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12323.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a native and resident of Kerala State.\n2.\tThe applicants should be from Below Poverty Line (BPL) category.\n3.\tThe applicants should be studying in Class- I to Degree/Professional Course.\n4.\tThe applicants (Children of Prisoners) whose parents are in jail are eligible to apply under the scheme.\n**Note:** Financial aid can be provided to the children even though the relatives, who are liable to protect them and falls under the Above Poverty Line (APL) category, provided both the parents are in jail, for that an inquiry report of the District Probation Officer is essential.",
+  "_criteria_filled": 2
+}

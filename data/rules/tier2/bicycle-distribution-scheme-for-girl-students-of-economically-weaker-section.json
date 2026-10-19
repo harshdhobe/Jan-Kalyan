@@ -1,0 +1,36 @@
+{
+  "id": "bicycle-distribution-scheme-for-girl-students-of-economically-weaker-section",
+  "name": "Bicycle Distribution Scheme for Girl Students of Economically Weaker Section",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "Under this scheme, free bicycles will be distributed to girl students from the EWS category.\n***Number of beneficiaries:***\n\n1. Total: 5,800 beneficiaries\n1. Number of Beneficiaries Class-wise:\n\n- Class 6th: 1,933- Class 7th: 1,933- Class 8th: 1,934",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-jan-aadhaar-card-of-the-student-ews-certificate-income-certifica"
+  ],
+  "apply_url": "https://rajshaladarpan.rajasthan.gov.in/SD2/BSP/Home/ShowFile.aspx?oid=63d105de12a7f949a0e67697",
+  "source_url": "https://www.myscheme.gov.in/schemes/akvkckcvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be a girl student.\n1. The applicant should be studying in Class 6, 7, or 8 in a government school in Rajasthan.\n1. The applicant should belong to the Economically Weaker Section (EWS) category.\n1. The annual income of the applicant’s parents/guardian should be less than ₹1,00,000/-.\n1. The applicant should have secured at least 60% marks in the previous examination.\n\n**Note:** Preference will be given based on merit (marks obtained).",
+  "_criteria_filled": 3
+}

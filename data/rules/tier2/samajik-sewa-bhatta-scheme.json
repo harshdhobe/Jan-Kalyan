@@ -1,0 +1,28 @@
+{
+  "id": "samajik-sewa-bhatta-scheme",
+  "name": "Samajik Sewa Bhatta Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "person",
+  "benefit": "- A monthly pension of ₹1,500/- is provided to traditional faith healers such as Dhami, Jhakri, Bijjuwa, Bhungthing, Mangpa, Phedengba, Paw, Baidang, Janapa, Yeba, Yema, Sambas, and Pheriwala.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-from-gram-panchayatward-councillor-for-rural-applicants-police-verif",
+    "aadhaar-card",
+    "voter-id-card-two-passport-size-photographs-attested-copy-of-bank-passbook-showi"
+  ],
+  "apply_url": "https://culture.sikkim.gov.in/storage/notification/notificationdoc-AkSjW3iGha7GGIkWbx8CWsveCAOHR006VDBsWRR2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Sikkim.\n   1. The applicant should be a traditional faith healer such as Dhami, Jhakri, Bijjuwa, Bhungthing, Mangpa, Phedengba, Paw, Baidang, Janapa, Yeba, Yema, Sambas, or Pheriwala.",
+  "_criteria_filled": 1
+}

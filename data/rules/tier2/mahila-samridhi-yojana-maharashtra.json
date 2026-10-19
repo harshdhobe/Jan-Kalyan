@@ -1,0 +1,46 @@
+{
+  "id": "mahila-samridhi-yojana-maharashtra",
+  "name": "Mahila Samridhi Yojana (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Loan ranging from ₹25,000/- to ₹50,000/- is provided at a low interest rate of 4% per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "the-applicant-must-provide-an-income-and-caste-certificate-issued-by-an-authoriz"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/employment",
+  "source_url": "https://www.myscheme.gov.in/schemes/msym",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female.\n1. The applicant should belong to the Charmakar Community.\n1. The applicant&#39;s age should be between 18 and 50 years.\n1. The applicant should be a permanent resident of Maharashtra.\n1. The applicant must have knowledge of the business for which the loan is being applied.\n1. For the 50% Subsidy Scheme and Margin Money, the applicant&#39;s annual income must be below the poverty line.\n1. For the NSFDC Scheme, the applicant&#39;s annual income should be below ₹98,000 for rural areas and ₹1,20,000 for urban areas.\n\n**Relaxation/Preference/Priority**\nWidows and divorcees are given priority.",
+  "_criteria_filled": 5
+}

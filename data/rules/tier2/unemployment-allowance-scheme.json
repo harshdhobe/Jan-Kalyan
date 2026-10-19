@@ -1,0 +1,44 @@
+{
+  "id": "unemployment-allowance-scheme",
+  "name": "Unemployment Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "Allowance shall be payable to each educated unemployed applicant for a maximum period of two years; subject to fulfilling eligibility criteria &amp;amp; timely submission of attested copies of 8th/matriculation marks sheet/certificate to ascertain age and educational qualification and Affidavit/Self Declaration as per form ‘C’, at the following rates:\n\n   1. For Physically Challenged person who ha",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-employment-registration-card-x-10-is-attached-attested-copy-of",
+    "its-agencies",
+    "public-sector-undertaking",
+    "bodies-etc-self-certified-declaration-declaring-that-shehe-is-unemployed-as-per"
+  ],
+  "apply_url": "https://himachal.nic.in/WriteReadData/l892s/14_l892s/1610600919.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/uas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Subject to the provisions of this Scheme, an educated unemployed applicant shall be eligible for the grant of Unemployment Allowance, who fulfills the following criteria: \n\n   1. She/he should be unemployed (should not be employed in Govt. sector nor in PSU or in private sector nor self employed) and should be a Bonafide Himachali. \n   1. She/he should have passed minimum 10+2 from any Board/University/Institution recognized by H.P. Govt. \n   1. She/he should be registered with any Employment Exchange in Himachal Pradesh as on the date of application since 1 year. \n   1. Her/his annual family income for the Financial Year immediately preceding date of application, from all sources including that of spouse should be less than ₹2 Lakh.\n   1. She/he should be above 20 years and below 35 years of age, as on the date of application. \n   1. She/he should not be self-employed. \n   1. She/he should not be a dismissed Govt. employee. \n   1. She/he should not be convicted of any offence resulting in imprisonment for a period of 48 hours or more. \n   1. She/he should not be a regular student pursuing any course. \n   1. **She/he should not be availing Skill Development Allowance.**",
+  "_criteria_filled": 4
+}

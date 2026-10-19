@@ -1,0 +1,31 @@
+{
+  "id": "kala-gaurav-puraskar",
+  "name": "Kala Gaurav Puraskar",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. The awardee shall be felicitated with a shawl, shrifal, a certificate of appreciation and a financial purse to the extent of ₹ 25,000/- per individual.\n1. Every year maximum of 30 cases shall be considered as per the availability of funds.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-the-nominatorid-proof-of-recommender-recommendation-letter-for-the-nomineepa"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Kala-Gaurav-Puraskar-2022-23-Online-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kgp-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual artist.\n1. The applicant should be 60 years of age.\n1. The applicant should have given a substantial contribution in his/her respective field of art.\n1. The applicant should have contributed in his/her respective field of art in Goa for a minimum of 10 years out of his/her entire career as a practising artist.",
+  "_criteria_filled": 2
+}

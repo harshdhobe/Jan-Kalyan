@@ -1,0 +1,26 @@
+{
+  "id": "scholarship-for-children-of-ex-servicemen-for-vocational-and-technical-education",
+  "name": "Scholarship for Children of Ex-Servicemen for Vocational and Technical Education",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- An scholarship of ₹15,000/- per year per student.\n\n**Mode of Disbursement:**\n\n- Scholarship is disbursed through online payment to the beneficiary’s bank account.\n\n**Note 1:** Only 50 students are selected each year based on merit.\n**Note 2:** Scholarship will be payable in the passing year i.e. scholarship of first year will be payable in the second year. Similarly, s",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "discharge-book-or-service-certificate-of-the-ex-serviceman-parent-ex-servicemanw"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Technical%20Education.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sseces",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be an ex-serviceman of the rank of Havildar or below, or his widow/dependent.\n1. The applicant should be pursuing a vocational or technical education course included in the [Prime Minister Scholarship Scheme](https://www.ksb.gov.in/writereaddata/DownLoad/List_of_Authorised_professional_degree_courses_under_PMSS.pdf) (PMSS). 1. The applicant should not be receiving benefits under the Prime Minister’s Scholarship Scheme or any other scholarship scheme.\n1. This scholarship is not admissible in cases of Battle Casualty/Disability and Physical Casualty (attributable cases), as in such cases, scholarships are already provided by the Army Headquarters.\n1. The applicant must have passed the previous academic year successfully; failure to pass results in the discontinuation of the scholarship.\n1. The scholarship will not be payable to more than two children of an ex-serviceman.\n\n**Notes:**\n\n- Once selected, the scholarship will continue for the remaining duration of the course, subject to annual renewal.\n- In case of failure in any year, the scholarship will be cancelled for the entire course.",
+  "_criteria_filled": 1
+}

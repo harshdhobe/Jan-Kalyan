@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-hunar-vikas-yojana-self-employmentbusiness",
+  "name": "Mukhyamantri Hunar Vikas Yojana- Self-Employment/Business",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n- Financial assistance up to ₹50,000 or the actual/estimated cost, whichever is lower, to establish self-employment/business.\n\n> **Payment Disbursed in Two Installments**\n\n- First Installment: 60% for establishing the necessary shop/location or purchasing equipment, raw materials, etc.\n- Second Installment: After establishing, the remaining 40% amount will be paid base",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-copy-of-jan-aadhaar-card-certificate-of-educational-qualific"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202402231257087804.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mhvs-sebs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a beneficiary under the Palanhar Scheme of Rajasthan.\n1. The applicant should have completed skill training under the scheme.\n1. The applicant’s age should be 21 years or above.\n1. The applicant should be registered their business through Udyam Aadhaar Portal is required for self-employment assistance.",
+  "_criteria_filled": 2
+}

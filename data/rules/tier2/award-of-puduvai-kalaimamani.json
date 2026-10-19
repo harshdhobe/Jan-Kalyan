@@ -1,0 +1,31 @@
+{
+  "id": "award-of-puduvai-kalaimamani",
+  "name": "Award of Puduvai Kalaimamani",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹50,000/-. \n- No. of Awards: 30",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-residence-certificate-birth-certificate-education-certi"
+  ],
+  "apply_url": "https://art.py.gov.in/sites/default/files/kalaimamani22456.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aopk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist or author/writer.\n1. The applicant&#39;s age should be 30 years or above. \n1. The applicant should be performed in the field of literature, music, dance, drama, painting and sculpture, and folk arts. \n1. The author/writer should have published books of high repute in poetry, prose, and research articles in literature and grammar in their respective languages. \n1. The applicant should participate in literary and research.\n1. The applicant should not have been given any such award by other Government and Organisations like Universities etc.\n1. The applicant should be a native of Puducherry or residence in Puducherry continuously for a period of 5 years.",
+  "_criteria_filled": 2
+}

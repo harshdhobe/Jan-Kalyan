@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-to-indigent-artistes",
+  "name": "Financial Assistance to Indigent Artistes",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Financial Assistance of ₹1,000/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-proof-of-age-domicile-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://art.py.gov.in//sites/default/files/ecit1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an indigent artist. \n1. The applicant&#39;s age should be 50 years and above. \n1. The annual income is less than ₹24,000/-. \n1. The applicant should contribute to music, dance, drama, folk, painting, and sculpture. \n1. The applicant should not be the recipient of any other assistance from any other Organizations.\n1. The applicant should be a resident of the Union Territory of Puducherry either by birth or by domicile.\n1. The applicant’s wife/children shall be eligible to receive assistance after the death of the indigent artist.",
+  "_criteria_filled": 3
+}

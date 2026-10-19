@@ -1,0 +1,26 @@
+{
+  "id": "rent-subsidy-under-motivation-of-entrepreneurs-to-start-industries-and-fiscal-as",
+  "name": "\"Rent Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Subsidy for the first five years from the date of commencement of commercial production on a tapering basis as below:\n\n- For the First Two Years: 50% of the Rent.\n- For the Third Year: 40% of the Rent.\n- For the Fourth and Fifth Year: 25% of the Rent.\n\n*The claims will be entertained and granted only in respect of units in operation. \n* The subsidy is subject to a ceiling of ₹5,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-productio"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/rs-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an Entrepreneur.\n- The applicant should be a Woman or should be from a Scheduled Caste/ Scheduled Tribe.\n- The applicant should have started production on or after 27th March 2002.\n- The applicant should have started production in a rented building.",
+  "_criteria_filled": 1
+}

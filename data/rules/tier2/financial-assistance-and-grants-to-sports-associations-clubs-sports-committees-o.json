@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-and-grants-to-sports-associations-clubs-sports-committees-o",
+  "name": "Financial Assistance and Grants to Sports Associations/ Clubs/ Sports Committees of Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Recognized associations, clubs, and sports committees will receive financial assistance as follows:\n\n- National-level competitions: ₹3.50 lakh\n- State-level competitions: ₹2.50 lakh\n- District-level competitions: ₹1.00 lakh\n\nAdditionally, there is a provision to provide ₹2.50 lakh to players selected to represent at the international level.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-is-required-in-accordance-with-the-departments-guideline"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasaccu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The recognized Sports Associations, Clubs, and Sports Committees in Uttarakhand are eligible to receive financial assistance or grants under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

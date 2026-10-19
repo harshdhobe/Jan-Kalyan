@@ -1,0 +1,46 @@
+{
+  "id": "subsidized-scheme-for-widows-haryana-women-development-corporation",
+  "name": "Subsidized Scheme for Widows: Haryana Women Development Corporation",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. A 25% flat subsidy, subject to a maximum of ₹50,000/-, will be provided on the total loan (not as a capital subsidy).\n1. The beneficiary&#39;s share is 10% of the total loan.\n1. The maximum loan limit is ₹3,00,000/-.\n1. The scheme will be covered under without collateral security by the bank.\n1. The balance amount will be covered from commercial/nationalised banks.\n\n<br>\n\n> **Mode of Disburseme",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-statement-family-idppp-parivar-pahchan-patra-domicile-certificateha"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sswhrwcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Haryana-domiciled widow, divorced, or a legally separated Woman.\n1. The applicant&#39;s annual income should not exceed ₹3,00,000/- per annum.\n1. The age of the prospective beneficiary should be between 18 and 55 years at the time of applying for the loan.\n\n<br>",
+  "_criteria_filled": 5
+}

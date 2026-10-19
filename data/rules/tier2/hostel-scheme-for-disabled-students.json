@@ -1,0 +1,36 @@
+{
+  "id": "hostel-scheme-for-disabled-students",
+  "name": "Hostel Scheme for Disabled Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under the scheme, the following benefits are provided to the eligible students who are not getting hostel facility from schools/colleges:\n\n  - **Rental Assistance:** Beneficiaries receive ₹750/- per month for renting a student home, the District Officer or Social Justice will approve.  - **Utility Support:** Students are given ₹1,000/- per month to cover electricity and water charges for the stude",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 96000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-birth-certificate-domicile-certificate-of"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/schemes/view/eWl6N3NIUFc2bzQ3Tjl1UUNyRmRCQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/hsds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be a person with a disability, with a disability percentage of 40 or more.\n   1. The applicant should be studying in Class 11 or higher at any recognized government or private educational institution.\n   1. The student should be enrolled as a regular student in a minimum two-year diploma course at a Government Higher Secondary School, College, or Polytechnic College.\n   1. The annual income of the applicant&amp;#39;s parents or guardians must not exceed ₹96,000/-.\n\n**Note 1**: To avail of student home facilities, there must be at least 5 girls or 5 boys students.\n**Note 2:** Hostels for boys and girls will be in separate buildings.\n**Note 3:** Disability above 40% as defined in Section-2 of the Persons with Disabilities (Equal Opportunities, Protection of Rights and Full Participation) Act, 1995.\n**Note 4:** Principals of Government/Non-Government Institutions will be competent to grant admission.\n**Note 5:** Students eligible for or already receiving a post-matriculation scholarship, who have an excellent character and are committed to fulfilling the scheme’s requirements, will receive the post-matriculation scholarship at the hostel rate only.\n**Note 6:** The students of the hostel are not eligible for any state scholarship.",
+  "_criteria_filled": 3
+}

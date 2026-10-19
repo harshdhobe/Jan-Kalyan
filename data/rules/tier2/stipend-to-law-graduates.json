@@ -1,0 +1,36 @@
+{
+  "id": "stipend-to-law-graduates",
+  "name": "Stipend To Law Graduates",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Under this scheme, Monthly stipend of Rs 5000 will be given for a period of 4 years.\nSome training courses will also be organized under the Senior Advocates.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-rd-number-of-caste-certificate-rd-number-of-income-certificate-copy"
+  ],
+  "apply_url": "https://sw.kar.nic.in/swincentive/LAW/LAWHome.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/slg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should be a resident of Karnataka state.\n1. Applicant should belong to the  SC/ST Community.\n1. Family income from all sources should be within Rs. 2 lakhs per annum.\n1. Maximum age limit allowed is 40 years.\n1. Law degree holder from any State/Central Government recognized University/Institution\n1. Duration of the Law Course should be either 3 years or 5 years\n\n<br>",
+  "_criteria_filled": 3
+}

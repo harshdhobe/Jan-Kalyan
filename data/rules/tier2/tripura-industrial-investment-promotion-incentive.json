@@ -1,0 +1,37 @@
+{
+  "id": "tripura-industrial-investment-promotion-incentive",
+  "name": "Tripura Industrial Investment Promotion Incentive",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Capital investment subsidies to reduce the financial burden on industries\nInterest subsidies to encourage borrowing for industrial projects\nPower tariff subsidies to lower operational costs\nSkill development support to enhance the employability of the local workforce\nAssistance for land acquisition to facilitate establishment of industries\nSector-specific incentives for IT, agro-based industries, ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "duly-filled-application-form-detailed-project-report-outlining-the-projects-obje",
+    "feasibility",
+    "and-financial-projections-proof-of-identity-such-as-aadhaar-card",
+    "passport",
+    "or-voter-id-proof-of-address-such-as-electricity-bill",
+    "telephone-bill",
+    "or-lease-agreement-copy-of-the-memorandum-of-association-moa-and-articles-of-ass",
+    "including-balance-sheets",
+    "profit-and-loss-statements",
+    "and-cash-flow-statements-for-the-previous-three-years-income-tax-returns-filed-b",
+    "if-applicable-noc-no-objection-certificate-from-the-local-authority-for-land-acq",
+    "if-required"
+  ],
+  "apply_url": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://thc.nic.in/Tripura%20State%20Lagislation%20Schemes/Tripura%20-%20Industrial%20Investment%20Scheme%202012.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tipii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The proposed project should be located within the state of Tripura.\n- The industry should comply with all relevant legal and environmental regulations.\n- The investment should be in sectors specified under the scheme.\n- The business should have a clear plan for employment generation and contribute to the socio-economic development of the state.\n- The applicant should have a sound financial track record and demonstrate the ability to implement the project successfully.",
+  "_criteria_filled": 1
+}

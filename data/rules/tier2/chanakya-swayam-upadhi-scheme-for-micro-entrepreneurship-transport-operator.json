@@ -1,0 +1,41 @@
+{
+  "id": "chanakya-swayam-upadhi-scheme-for-micro-entrepreneurship-transport-operator",
+  "name": "Chanakya Swayam Upadhi Scheme for Micro Entrepreneurship - Transport Operator",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "**Following are the subsidy/funding patterns:**\n<br>\n\nS. No.ParticularsTaxi (Swift Dezire Tour) in ₹ PetrolDezire Tour S(O) CNG BS – VI in ₹ CNG &amp;amp;amp;amp; Petrol1Approximate Unit (Vehicle) Cost ₹7,25,000/-₹8,25,000/-2Corporation’s backend subsidy (25% of the vehicle cost)Not more than ₹2,00,000/-Not more than ₹2,00,000/-3Beneficiary Contribution (min. of 10% of the vehicle cost)₹72,500/-₹8",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-of-the-applicant-caste-certificate-of-the-applicant-issued-by-the-co"
+  ],
+  "apply_url": "https://andhrabrahmin.ap.gov.in/eGuide/Chanakya2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csusme-to",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Brahmin Community and reside in Andhra Pradesh only. \n1. The applicant should be a member of the AP Brahmin Welfare Cooperative Credit Society.   \n1. The applicant should be aged between 21 to 50 years as of 01.04.2022. \n1. The applicant should have passed the 10th class. \n1. The present annual income of the applicant and his family from all sources should not exceed ₹1,00,000/-  \n1. The applicant should not possess any three/four-wheeler in his/her name.  \n1. The applicant should possess a valid permanent driving license as of the date of application. \n1. The applicant should have a valid badge No./valid proof of identity as driver proof as of the date of the application. \n1. The applicant should not have availed himself/herself of any financial assistance under other government schemes/programs for the same purpose. \n1. The applicant and his/ her family members who have availed financial assistance under Chanakya Swayam Upadhi Schemes earlier from AP Brahmin Welfare Corporation are not eligible under this scheme.",
+  "_criteria_filled": 4
+}

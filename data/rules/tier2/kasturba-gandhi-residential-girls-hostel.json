@@ -1,0 +1,31 @@
+{
+  "id": "kasturba-gandhi-residential-girls-hostel",
+  "name": "Kasturba Gandhi Residential Girls’ Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Girls from various disadvantaged groups such as socially disadvantaged classes (Scheduled Castes, Scheduled Tribes, Minorities, and Backward Classes), economically weaker sections, and girls with special needs are identified and enrolled in the hostels at the upper primary and secondary levels (Classes 6 to 12).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "school-leaving-certificate-certificate-of-never-having-attended-school-affidavit"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kgbvrghuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant (girl student) must be a resident of Uttarakhand.\n   1. The applicant should be a studying at the upper primary or secondary level (Class 6 to Class 12).\n   1. In line with the target group of the scheme, 75% of the seats in KGBVs are reserved for girls from SC, ST, OBC, and minority communities, while the remaining 25% are reserved for girls from families living Below Poverty Line (BPL).\n   1. In addition, girls from economically weaker families (with an annual income of less than ₹55,000/-) or those who have lost both parents or one parent will also be eligible for admission.\n\n<br>",
+  "_criteria_filled": 2
+}

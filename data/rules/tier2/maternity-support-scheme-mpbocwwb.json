@@ -1,0 +1,46 @@
+{
+  "id": "maternity-support-scheme-mpbocwwb",
+  "name": "Maternity Support Scheme (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. **First Installment:** ₹4,000 for registration of pregnancy in the first trimester.1. **Second Installment:** ₹12,000 for:\n\n- Delivery in government or authorized non-government hospitals under the Ayushman Bharat &quot;Niramayam&quot; program for pregnancy and delivery-related high-risk packages.\n- Registration of newborns after institutional birth.\n- Early breastfeeding of babies.\n- BCG, OPV,",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-as-a-buildingconstruction-worker-identity-pr",
+    "aadhaar-card-passport-size-photograph-skill-upgradation-training-certificate-pro",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/PrasutiSahayta.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssmpbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n**For the Application of the Welfare Scheme:**\n\n1. The applicant should be registered Under the Building and Other Construction Workers Welfare Board of Madhya Pradesh.\n1. The applicant should be pregnant.\n1. The worker&#39;s membership with the Welfare Board must be active at the time of application.\n\n**NOTE:** Assistance is limited to a maximum of three children.\n<br>",
+  "_criteria_filled": 4
+}

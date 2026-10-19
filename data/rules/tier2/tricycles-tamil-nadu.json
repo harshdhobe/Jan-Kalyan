@@ -1,0 +1,36 @@
+{
+  "id": "tricycles-tamil-nadu",
+  "name": "Tricycles - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of tricycles.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 12
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person-any-other-documents-if-re"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tbwodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be affected by both lower limbs and upper limbs should be normal. \n1. The applicant should be a resident of the district/area of Tamil Nadu. \n1. The applicant&#39;s age should be 12 years or above.",
+  "_criteria_filled": 3
+}

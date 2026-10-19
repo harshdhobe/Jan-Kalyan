@@ -1,0 +1,31 @@
+{
+  "id": "admission-process-in-all-government-and-non-government-schools-of-the-state",
+  "name": "Admission Process in All Government and Non-Government Schools of the State",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "After admission in all Government and Non-Government schools of the state, children from Class 1 to 8 receive free education, meals, books, and shoe-bags.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "record-from-the-childs-hospitalanm-auxiliary-nurse-midwife-register-anganwadi-re"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apiaguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant (child) must be 6 years old to get admission in Class 1.\n1. The applicant (student) must be currently registered in Anganwadi Bal Vatika to be eligible for admission to Class 1.\n\n<br>",
+  "_criteria_filled": 2
+}

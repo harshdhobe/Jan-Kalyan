@@ -1,0 +1,32 @@
+{
+  "id": "financial-incentives-to-mothers-who-deliver-a-girl-child-mamta",
+  "name": "Financial Incentives To Mothers Who Deliver A Girl Child (Mamta)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. ₹ 10,000/- as a one-time financial incentive (at the birth of the child).\n1. Those beneficiaries who had applied for the 1st Installment of ₹ 5,000/- (as on the date of this Amended Scheme published in the Official Gazette) shall be eligible for ₹ 10,000/- as per the amended scheme.\n\n<br>\n\n**NOTE 1:** Those beneficiaries who were paid the 1st Installment of ₹ 5,000/- under the existing scheme s",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certifiedself-attested-copy-of-aadhaar-card-certifiedself-attested-copy-of-birth",
+    "and-residential-certificate-of-husband-pre-receipt-in-duplicate-annexure-2-for-n"
+  ],
+  "apply_url": "https://dwcd.goa.gov.in/wp-content/uploads/2017/07/MAMTA-FORM-2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fimdgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a mother who has delivered a live Girl Child in a registered medical institution.\n1. The applicant should be a resident of Goa for at least three years. OR\n1. The applicant should be married to a resident of Goa.\n1. The application for the scheme should have been made within 45 days of the delivery.\n\n**NOTE:** The scheme is available to all mothers, irrespective of their social/economic status.",
+  "_criteria_filled": 2
+}

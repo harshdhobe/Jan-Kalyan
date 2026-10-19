@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-asangathit-karmakar-ijjat-monthly-season-ticket-card-yojana",
+  "name": "Mukhyamantri Asangathit Karmakar Ijjat Monthly Season Ticket Card Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> Train pass for daily travel up to a maximum of 150 kilometers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-aadhar-card-address-proof-mobile-number"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20asangathit%20karmakaar%20ijjat%20manthalee%20seejan%20tikat%20kaard%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/makimstc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Unorganized workers must be registered with the board.\n1. If the Unorganized workers already received benefits from any other similar scheme of the state government, they will not be eligible for the benefits of this scheme.",
+  "_criteria_filled": 1
+}

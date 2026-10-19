@@ -1,0 +1,43 @@
+{
+  "id": "janta-juth-accidental-insurance-scheme",
+  "name": "Janta Juth Accidental Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "In case of accidental death or permanent disability 100% assistance of ₹ 2,00,000.\nIn case of accidental loss of two eyes / two limbs / hand and leg / one eye and one hand or leg 100% assistance of ₹ 2,00,000 (100% full sight loss in case of eye, In case of hand- loss of upper part of the wrist and in case of the leg- totally cut off from the knee).\nIn case of accidental loss of one eye or one lim",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-in-prescribed-form-annexure-1",
+    "2",
+    "3",
+    "3a",
+    "4",
+    "5-712",
+    "8-a",
+    "form-no-6-certified-extract-after-death-date-post-mortem-report-fir-spot-panchna"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Portal/Document/12_4318_3_KKVY_FORM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jjais",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Deceased or the Person with Permanent Disability Should Be a Registered Farmer (Have Individual or Joint Name Land) or Child of a Registered Farmer (Son or Daughter) or the Husband/ Wife.\n1. The Death or Permanent Disability Must Be Due to an Accident.\n1. The Deceased or the Person with Permanent Disability should be between the age of 5 to 70 years.\n1. The Application Should Be Made Within 150 Days to the Office of the Concerned District Agriculture Officer.\n\n<br>\n\n**The sequence of the beneficiary under the scheme in chronological order:**\n\n1. Husband/Wife: In his/her absence\n1. Children Son/Daughter: In their absence\n1. Parent Father/Mother: In their absence\n1. Grandson/Grandaughter: In the absence of 1, 2, 3\n1. Unmarried/ Widow/ Exiled Sister who is dependent and living with the beneficiary\n1. Any heirs declared under the Heirs Act applied to the beneficiary involved in other than above mentioned cases and controversial case\n\n<br>\n\n**Note:** Suicide or Natural Death Are Not Covered in This Scheme.",
+  "_criteria_filled": 3
+}

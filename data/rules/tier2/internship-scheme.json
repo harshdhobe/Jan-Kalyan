@@ -1,0 +1,31 @@
+{
+  "id": "internship-scheme",
+  "name": "Internship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "**Experience Certificate:**\n\n  - At the end of the successful completion of the internship, the interns will be awarded a &amp;quot;Certificate” along with a grading based on the performance of the intern.\n\n**Logistics &amp;amp; Support:**\n\n  - Facilities like transportation to the work site, printing of study material, etc. required for successful completion of the internship shall be provided by",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-passport-size-photograph-proof-of-age-proof-of-identity-statement-of"
+  ],
+  "apply_url": "https://internship.eforest.delhi.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/isdelhi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The internship training is open only to students who are studying at recognized schools, institutions, and universities.\n   1. Preference will be given to those with a clear Statement of Purpose of internship.\n   1. The student should have attained 18 years of age.\n\n**Educational Qualifications: Students with the following qualifications will be considered on a merit basis:**\n1.\tPursuing Science, Forestry, Ecology, Computer Science, Electronic Engineering And Related Courses:\n\n  - Second year and above of Bachelor&amp;#39;s Degree and Integrated 5-year Course in Science, Forestry, Ecology and Related Courses.\n  - Higher Secondary in Science Stream.\n\n2.\tPursuing Commerce, Economics And Management Courses as Under:\n\n  - BA/B. Sc /MA/M. Sc. (Eco.)\n  - Students of 5 Years Integrated Degree Programme in Economics.\n  - MBA\n\n3.\tPursuing Law as under:\n\n  - Second and third year of Bachelor&amp;#39;s Degree in Law or\n  - Second year and above of the Integrated Five-Year Course in Law.\n  - LLM\n\n4.\tHigher Secondary:\n\n  - Higher Secondary in Science and Commerce Stream. \n\n**Note 1:** Interns must clearly indicate the area of interest.\n**Note 2:** The interns shall have the option to apply in a maximum 3 (three) disciplines only.\n**Note 3:** Applicants are required to submit a Statement of purpose (SoP) for applying for an internship in not more than 1000 words. The SoP should broadly cover reasons for interest in the field, the relevance of their skill set in the selected domain, and expected contribution in the domain selected by them.\n**Note 4:** The final topic of internship and domain shall be decided as per requirement of the Department by Research Advisory Committee.\n**Note 5:** The applicant shall be required to submit the supporting document of qualification and/or enrolment in Educational institutes. They may also submit document to support additional skill sets for supporting their application.\n&gt; **Terms and Conditions of Selection:**\n\n   1. The interns shall be required to write a paper/detailed account of work done on management of natural resources related themes/issues and of the relevance of their work to the Department.\n   1. The interns if required may be asked to participate in related activities like training and research in the Department.\n   1. The intern will submit a draft report of the assignment to the designated officer (Guide) before the conclusion of the internship.\n   1. The intern may be required to make a presentation before the Department at the end of the internship, after clearance by the respective Guide.\n   1. The intern shall work within the premises of the Department and move outside only after due permission from the Guide during working hours. The Department shall provide all support to the intern as the case may be for the successful completion of the internship.\n   1. The final product of the internship shall be the intellectual property of the Department and the intern shall not use it without prior approval of the Department.\n   1. Interns shall be under the discipline of the Department during the period of internship.\n   1. It may be strictly observed that the conduct of the interns and their access to data shall be the sole responsibility of the concerned Guide only. Prior permission is required from the Guide before accessing any information from the Department.\n   1. The internship may be discontinued at any time if the performance of the intern is not found satisfactory.\n   1. The students will not have any claim for a job in the Department of Forests and Wildlife, GNCTD.",
+  "_criteria_filled": 2
+}

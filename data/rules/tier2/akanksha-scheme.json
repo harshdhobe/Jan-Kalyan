@@ -1,0 +1,31 @@
+{
+  "id": "akanksha-scheme",
+  "name": "Akanksha Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Coaching to the scheduled tribe students of the state for the preparation of national entrance examination (JEE, NEET / AIIMS, CLET) from reputed coaching institutes in division headquarters Bhopal, Indore, Jabalpur and Gwalior while studying in class 11th and 12th.\n100 students will be coached for engineering, 50 for medical and 50 for class at each coaching center. In the coming year, continuous",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-residential-proof-school-leaving-certificate-caste-certificate"
+  ],
+  "apply_url": "https://www.tribal.mp.gov.in/CMS/Uploaded%20Document/Schemes/AkankshaYojnaUserManual.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aks",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Prescribed Qualification:-\n\n- The applicant will have to register his profile in the website www.tribal.mp.gov.in/MPTAAS of the Sarvapatham Department.\n- The applicant should be a native of Madhya Pradesh and a member of scheduled tribe.\n- The annual income of the applicant&#39;s parents/ guardians/ self from all sources is Rs. Not more than 6.00 lakh.\n- The student should be eligible to take admission in class 10th by passing class 11th.\n- The student will be selected for coaching on the basis of merit obtained through the entrance examination conducted by the coaching institute.\nRequired Conditions:\n\n- It is mandatory to link bank account with Aadhaar number.\n- The applicant must have a digital caste certificate.\n- The result of the student&#39;s class 10th examination should be more than 60 percent or 60 percent.",
+  "_criteria_filled": 2
+}

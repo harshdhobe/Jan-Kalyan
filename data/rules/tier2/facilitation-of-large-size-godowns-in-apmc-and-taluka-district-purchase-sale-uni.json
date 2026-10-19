@@ -1,0 +1,30 @@
+{
+  "id": "facilitation-of-large-size-godowns-in-apmc-and-taluka-district-purchase-sale-uni",
+  "name": "Facilitation of Large Size Godowns in APMC and Taluka-District Purchase Sale Union (General)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Provides crucial capital assistance for the construction of large-sized godowns.  - **Infrastructure Development:** Supports the development of essential infrastructure for agricultural activities like processing, grading, cleaning, washing, shortening, packaging, and branding.  - **Enhanced Marketing Capabilities:** Enables unions to strengthen their marketing and sell",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-cooperative-society-project-proposal-detailing-i",
+    "processing",
+    "packaging",
+    "branding",
+    "or-marketing-financial-estimates-and-cost-breakdown-of-proposed-project-resoluti"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/flsgdpsug",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Cooperative institutions operating at the taluka or district level within the state of Gujarat are eligible under this scheme.\n  - The institution should be registered under the appropriate cooperative society laws.\n  - The institution should have plans for setting up or expanding facilities like storage godowns, processing units, grading and packaging infrastructure, or branding and marketing systems.\n\n<br>",
+  "_criteria_filled": 1
+}

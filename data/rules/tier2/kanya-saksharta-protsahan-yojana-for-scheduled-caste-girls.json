@@ -1,0 +1,31 @@
+{
+  "id": "kanya-saksharta-protsahan-yojana-for-scheduled-caste-girls",
+  "name": "Kanya Saksharta Protsahan Yojana (For Scheduled Caste Girls)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this scheme, all Scheduled Caste girl students who have passed Class 10 and are entering Class 11 will receive an incentive of ₹3,000/- per year.\n\n**Note:** The incentive amount will be paid into the bank accounts of the girl students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-passport-size-photograph-3-samagra-id-4-caste-certificate-5-ban"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/kspyscg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n   1. The girl student should be a native of Madhya Pradesh.\n   1. The girl student should belong to the Scheduled Caste category.\n   1. All Scheduled Caste girl students who have passed Class 10 and are entering Class 11 are eligible for the scheme.\n   1. The parents or guardians of the applicant should not be income taxpayers.\n   1. The girl student should be pursuing her education continuously.\n   1. The girl student should be enrolled in a government or recognized government school/institution and attend regularly.",
+  "_criteria_filled": 2
+}

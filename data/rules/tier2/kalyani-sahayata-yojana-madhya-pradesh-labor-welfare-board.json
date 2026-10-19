@@ -1,0 +1,32 @@
+{
+  "id": "kalyani-sahayata-yojana-madhya-pradesh-labor-welfare-board",
+  "name": "Kalyani Sahayata Yojana (Madhya Pradesh Labor Welfare Board)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Under this scheme, eligible widows of deceased workers receive financial assistance of ₹6,000/- every six months, in June and December. This amounts to a total of ₹12,000/- per year.\n\n**Time limit:** The assistance amount will be paid to the concerned within 30 days of receipt of the application in the designated office for one year from the date of death of worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade",
+    "it-is-necessary-for-the-widow-kalyani-to-submit-a-certificate-that-she-is-alive"
+  ],
+  "apply_url": "https://shramkalyanmandal.mponline.gov.in/Images/pdf/ApplicationForm/KALYANI%20SAHAYATA%20YOJANA.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksymplwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n   1. The applicant should be the widow of the deceased worker.\n   1. The deceased worker should have been employed in an industrial institution or establishment covered by the Madhya Pradesh Labor Welfare Fund Act, 1982, for at least one year prior to his death.\n   1. The deceased worker should have been registered with the Madhya Pradesh Labour Welfare Board.\n   1. The widow should not have remarried.\n   1. The widow should not be receiving financial assistance from any other government department.\n\n**Note:** The Board must have received regular contributions from the industrial institution or establishment for the deceased worker, in accordance with the rules.",
+  "_criteria_filled": 2
+}

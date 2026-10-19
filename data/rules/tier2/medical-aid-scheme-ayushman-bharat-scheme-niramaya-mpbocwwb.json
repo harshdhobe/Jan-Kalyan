@@ -1,0 +1,41 @@
+{
+  "id": "medical-aid-scheme-ayushman-bharat-scheme-niramaya-mpbocwwb",
+  "name": "Medical Aid Scheme (Ayushman Bharat Scheme 'Niramaya') (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Free medical treatment up to ₹5,00,000/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-proof-of-residence-eg",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/ChikitsaSahayta.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/masabsn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The registration of the applicant should be renewed annually.\n\n**For Application**\n\n1. The applicant should be a female construction worker with a valid identity card, in case of maternity.\n1. The applicant should be a male construction worker with a valid identity card, in case of his wife&#39;s delivery.",
+  "_criteria_filled": 3
+}

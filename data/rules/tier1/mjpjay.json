@@ -1,0 +1,47 @@
+{
+  "id": "mjpjay",
+  "name": "Mahatma Jyotirao Phule Jan Arogya Yojana",
+  "tier": 1,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "Cashless hospitalisation up to Rs 1.5 lakh per year for Maharashtra residents.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "any": [
+          {
+            "field": "household.ration_card_type",
+            "op": "in",
+            "value": [
+              "yellow",
+              "aay",
+              "annapurna",
+              "orange",
+              "white"
+            ]
+          },
+          {
+            "field": "household.has_domicile_certificate",
+            "op": "==",
+            "value": true
+          }
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card_or_photo_id",
+    "ration_card_or_domicile"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/mjpjay",
+    "apply": "https://www.jeevandayee.gov.in/"
+  },
+  "notes": "Only Categories A & B modelled. Categories C-E (ashram students, journalists, accident victims, border villages) are excluded."
+}

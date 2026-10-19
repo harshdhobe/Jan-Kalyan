@@ -1,0 +1,31 @@
+{
+  "id": "e-rickshaw-kalyan-yojana",
+  "name": "E-Rickshaw Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, loans are provided to unemployed youth for the purchase of e-rickshaws at an annual interest rate of 9%. Additionally, under the Pradhan Mantri Suraksha Bima Yojana, savings account holders receive an insurance cover of ₹2.00 lakh for an annual premium of ₹12/-. \n  - Beneficiaries aged between 18 and 50 can also avail benefits under the Pradhan Mantri Jeevan Jyoti Bima Yojana ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "dealers-quotation-for-the-e-rickshaw-details-of-two-guarantors-permanent-residen"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/erky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Uttarakhand.\n- The applicant should be currently unemployed.\n- The applicant must possess a valid driving license.\n- The applicant must not be more than 55 years of age.\n\n<br>",
+  "_criteria_filled": 2
+}

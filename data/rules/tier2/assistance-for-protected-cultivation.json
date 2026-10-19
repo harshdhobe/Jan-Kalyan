@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-protected-cultivation",
+  "name": "Assistance for Protected Cultivation",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Plastic Cover (Mulching):**\n\n  - **General Area:** ₹32,000/- per hectare.  - **Hilly Area:** ₹36,800/- per hectare.  - 50% of the expenditure incurred, limited to 1 hectare per beneficiary.\n  - **Self-Employment Oriented Horticulture Nursery Development Programme:**\n  - **Nursery Structure:** ₹3,50,000/- per unit   - ₹3,00,000/- per unit for 500 sq.m. area\n  - **Starter Kit:** ₹50,000/- per un",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/afpc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should be a farmer.\n\n<br>",
+  "_criteria_filled": 1
+}

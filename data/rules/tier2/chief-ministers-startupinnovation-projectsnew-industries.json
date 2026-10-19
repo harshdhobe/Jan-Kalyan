@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-startupinnovation-projectsnew-industries",
+  "name": "Chief Minister’s Startup/innovation Projects/new Industries",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Benefits\nRs. 25,000/- per month will be provided to the innovation projects as sustenance allowance for one year whose project is recommended by the Host Institution and approved by the Empowered Committee.\nThe incubation center will provide support to the startups and innovation projects by providing mentoring services, and access to their labs, facilities, etc. on a free-of-cost (FOC) basis.\nMar",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "all-the-innovation-enterprises-would-be-required-to-submit-only-self-certified-d"
+  ],
+  "apply_url": "https://startuphimachal.hp.gov.in/assets/frontend/uploads/Startup_Official_policy.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/chsipni",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Definitions**\n\n   1. Startup/New Industries means any entity, Proprietor, Limited Company, registered partnership firm under Indian Partnership Act 1932, or Limited Liability Partnership, proposing to set up an enterprise in a micro or small scale category in the services sector relating to the focus areas.\n   1. Innovation Project: Innovation is the process of introducing new or making changes with updated technology, large and small radical and incremental, to products, processes, and services that result in the introduction of some new and innovative products.\n   1. Incubator: An incubator is any organization designed to accelerate the growth and success of entrepreneurial ventures i.e. startups, through an array of business support resources and services like physical space, capital, coaching and mentoring, common services, and providing networking connections.\n   1. Host Institutes: Host Institutes (HIs) are reputed technology, management, and R &amp;amp; D institutes of the state and other institutions and organizations focused on entrepreneurial development and promotion to set up Incubators to galvanize the startup ecosystems in the State\n\n&lt;br&gt;\n\n**Eligibility**\n\n  - All Startups/ new industries/Innovation Projects as defined in above points 1, 2, 3, and 4 of the scheme would be eligible for availing applicable incentives for components covered under this scheme. The same incentives cannot be availed on the same component under State and Central Scheme.",
+  "_criteria_filled": 1
+}

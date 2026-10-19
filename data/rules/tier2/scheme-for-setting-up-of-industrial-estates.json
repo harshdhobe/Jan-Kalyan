@@ -1,0 +1,47 @@
+{
+  "id": "scheme-for-setting-up-of-industrial-estates",
+  "name": "Scheme for Setting Up of Industrial Estates",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Need-based loan for setting up of industrial estates for exclusive allotment of sheds/plots to SSI units.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationcopy-of-acknowledgement-of-micro",
+    "small-and-medium-enterprises-msme-registration-certificate-obtained-from-industr",
+    "proof-for-sale-price-of-end-product-from-the-existing-manufacturer-or-dealer-qu",
+    "existing-competitions",
+    "major-consumers-details-and-tie-up-letters-for-marketing-the-product-copy-of-par",
+    "voters-identity",
+    "ration-card",
+    "aadhar-card-and-bank-pass-book-detailed-project-report-on-the-project-to-prepare",
+    "13",
+    "14-15-are-to-be-furnished-compulsorily-consent-letter-from-bank-for-sanction-of",
+    "track-record",
+    "name-and-address-of-concerns-and-type-of-consultancy-service-rendered-by-the-con",
+    "if-any-details-of-effluent-and-arrangement-proposed-for-treatment-and-disposal-o",
+    "puducherry-planning-authority-ppa-approval",
+    "inspector-of-factories-approval",
+    "municipal-or-panchayat-permission",
+    "pollution-clearance-etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-fmb-copy",
+    "patta-copy-and-legal-opinion-report-for-factory-site-and-collateral-security-pro"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssuie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to all Forms of organisations, such as the following:\n\n- Public Limited Companies\n- Private Limited Companies\n- Partnerships\n- Sole Proprietary\n\n- Municipalities\n\n<br>",
+  "_criteria_filled": 1
+}

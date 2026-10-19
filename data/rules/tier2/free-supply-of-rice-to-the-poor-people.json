@@ -1,0 +1,32 @@
+{
+  "id": "free-supply-of-rice-to-the-poor-people",
+  "name": "Free Supply of Rice to the Poor People",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "10 kg of free rice is supplied through fair-price shops during natural calamities and on two important festive occasions every year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-ration-card-by-the-civil-supplies-department",
+    "pondicherry"
+  ],
+  "apply_url": "https://py.gov.in/sites/default/files/womenrtimanual.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsrpp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years.\n- The applicant should belong to the &#39;Below Poverty Line&#39; category.",
+  "_criteria_filled": 2
+}

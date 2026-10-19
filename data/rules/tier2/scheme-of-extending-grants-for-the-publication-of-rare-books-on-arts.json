@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-extending-grants-for-the-publication-of-rare-books-on-arts",
+  "name": "Scheme of Extending Grants for the Publication of Rare Books on Arts",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "60% of the total cost of the printing charges of 1000 copies or ₹15,000/- whichever is less is sanctioned as a grant.\n> **Number of Installments**\n\nThe grant amount is disbursed in two instalments: \n\n- **First Installment:** 50% upon selection of the book by the Expert Committee.  - **Second Installment:** 50% after the author submits 100 printed copies of the book along with an expenditure statem",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "3-copies-manuscript-of-the-book-to-be-published-quotations-for-printing-from-thr"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soegftporboa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Author/Writer.\n1. The applicant should lack sufficient financial resources to cover the publishing expenses of the rare books.\n1. The book should have been considered rare for the development of arts\n1. The submitted book should not have been published before.",
+  "_criteria_filled": 1
+}

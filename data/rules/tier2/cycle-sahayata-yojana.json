@@ -1,0 +1,41 @@
+{
+  "id": "cycle-sahayata-yojana",
+  "name": "Cycle Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "Bicycles are provided to the women workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csy-j",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be domiciled in the state of Jharkhand.\n1. The applicant should be a woman.\n1. The applicant should be in the age group of 18-60 years.\n1. The applicant should be a Registered Worker with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The applicant should have worked for at least 90 days.\n1. The applicant should not already have availed of the benefits of this scheme.",
+  "_criteria_filled": 4
+}

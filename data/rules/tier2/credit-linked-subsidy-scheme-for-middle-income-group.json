@@ -1,0 +1,27 @@
+{
+  "id": "credit-linked-subsidy-scheme-for-middle-income-group",
+  "name": "Credit Linked Subsidy Scheme for Middle Income Group",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Scheme will support the acquisition/construction of houses (including repurchase) of 160 sq. mts. (For MIG I) and 200 sq. mts. (For MIG II) carpet area as per income eligibility with basic civic infrastructure like water, toilet, sanitation, sewerage, road, electricity, etc.\n   1. Beneficiaries of MIG will be eligible for an interest subsidy with the following features:\n\n**Particulars****MIG I*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1800000
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-aadhaar-card-2-copy-of-pan-card-3-residence-proof-4-proof-of-income-5",
+    "as-required"
+  ],
+  "apply_url": "https://pmay-urban.gov.in/credit-linked-subsidy-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/clssmig",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary family should not own a pucca house (an all-weather dwelling unit) either in his/her name or in the name of any member of his/her family in any part of India. In in case of a married couple, either of the spouses or both together in joint ownership will be eligible for a single house, subject to the income eligibility of the household under the Scheme.\n  - A beneficiary family should not have availed of central assistance under any housing scheme from the Government of India.\n  - Middle Income Group-I (MIG-I) - annual household income exceeding ₹6 lakhs and up to ₹12 lakhs seeking housing loans from Banks, Housing Finance Companies (HFCs), and other such institutions for acquiring/ constructing houses.\n  - Middle Income Group-II (MIG-II) - annual household income exceeding ₹12 lakhs and up to ₹18 lakhs seeking housing loans from Banks, Housing Finance Companies (HFCs), and other such institutions for acquiring/ constructing houses.\n\n**Note:** Preference from MIG segments, may be given to women (with overriding preference to widows, and single working women), persons belonging to Scheduled Castes/Scheduled Tribes/Other Backward Classes, persons with disabilities, and Transgender.\n<br>",
+  "_criteria_filled": 1
+}

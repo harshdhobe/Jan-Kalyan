@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-major-ailments-karmika-chikitsa-bhagya-kbocwwb",
+  "name": "Assistance For Major Ailments (Karmika Chikitsa Bhagya) (K.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹2,00,000/- for major ailment treatments.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeremployment-certificate90-days"
+  ],
+  "apply_url": "https://kbocwwb.karnataka.gov.in/ailments",
+  "source_url": "https://www.myscheme.gov.in/schemes/amakcbkassistance-for-major-ailments-karmika-chikitsa-bhagya-kbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The beneficiary should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka or his/her dependents.\n  - The worker or their dependents must suffer from a major ailment specified in the scheme.",
+  "_criteria_filled": 2
+}

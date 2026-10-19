@@ -1,0 +1,26 @@
+{
+  "id": "development-of-industrie-training-scheme",
+  "name": "Development of Industrie-Training Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**The pattern of assistance:**\n\n- For Trainees-Stipend\n\n(i) SSLC/ITI/H.S.C. – Rs.1,500 /- per month.\n(ii) Graduate in Arts and Science/ Diploma in Engineering or equivalent – Rs. 2,500 /- per month.\n(iii) Degree in Engineering &amp; PG – Rs.3,000 /- per month  (the stipend will be paid based on the minimum qualification fixed for the trades concerned).\nTo the Training Institutions :\n\n- For Industr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-proof-should-be-a-native-of-puducherry-union-territory-orshould-be-a-c"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3ddb30680a691d157187ee1cf9e896d03/uploads/2021/07/2021073089.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/doits",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Residence should be the native of Puducherry Union Territory (or) should have a continuous residence of 3 years in the U.T. of Puducherry.  \n- Proof: Birth certificate/Education certificate/Residence certificate.\n- Already trained candidates in various Govt. Schemes are not eligible to apply.",
+  "_criteria_filled": 1
+}

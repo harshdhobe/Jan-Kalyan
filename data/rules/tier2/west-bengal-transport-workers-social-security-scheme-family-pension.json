@@ -1,0 +1,41 @@
+{
+  "id": "west-bengal-transport-workers-social-security-scheme-family-pension",
+  "name": "West Bengal Transport Workers’ Social Security Scheme: Family Pension",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- **Monthly Family Pension:** 50% of the amount last drawn by the beneficiary.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-new-registrationcertification-by-prescribed-authority-in-the-prescribed-form",
+    "passport-size-photo-self-and-for-each-dependent-member-age-proof-document-drivin",
+    "voter-id",
+    "etc-age-proof-document-birth-certificate",
+    "aadhaar",
+    "etc"
+  ],
+  "apply_url": "https://edistrict.wb.gov.in/portal/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbtwssfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be between 18 and 60 years of age at the time of enrolment.\n   1. The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n   1. The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n\n&gt; **Note:** A nominee/ dependent of a beneficiary shall be entitled for the benefits.\n\n&lt;br&gt;",
+  "_criteria_filled": 3
+}

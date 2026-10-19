@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-giving-awards-to-senior-artists-in-contemporary-art-field",
+  "name": "Scheme for Giving Awards to Senior Artists in Contemporary Art Field",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Prize Money of ₹15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-of-the-artist-age-proof"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfgatsaicaf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of Tamil Nadu.\n1. The applicant should be an artist.\n1. The applicant&#39;s age should be 30 years or above.",
+  "_criteria_filled": 2
+}

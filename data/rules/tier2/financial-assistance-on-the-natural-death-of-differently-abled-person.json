@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-on-the-natural-death-of-differently-abled-person",
+  "name": "Financial Assistance on the Natural Death of Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹15,000/- to the legal heir.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-legal-heir-certificate-differently-abled-person-original-natio"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faotndodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the legal heir of the differently abled person.\n1. The differently-abled person should have died a natural death.\n1. The differently abled person should have been a registered member of the &quot;Welfare Board for the Differently-abled&quot;.",
+  "_criteria_filled": 2
+}

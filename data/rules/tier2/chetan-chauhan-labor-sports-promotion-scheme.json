@@ -1,0 +1,29 @@
+{
+  "id": "chetan-chauhan-labor-sports-promotion-scheme",
+  "name": "Chetan Chauhan Labor Sports Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "Provide financial assistance who have been selected in district, state, national and international sports.\n\n1. District level : ₹25,000/- per son/daughter in lump sum once.\n1. State level : ₹50,000/- per son/daughter in lump sum.\n1. National level : ₹75,000/- lump sum per son/daughter.\n1. International level : ₹1,00,000/- lump sum per son/daughter.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-online-application-form-filled-in-relation-to-the-scheme-se",
+    "family-register-or-other-government-record-in-confirmation-of-the-relationship-o",
+    "state",
+    "national-and-international-games"
+  ],
+  "apply_url": "https://skpuplabour.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ccskpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be working in an establishment registered under the Factories Act, 1948.\n1. The monthly salary (basic salary + dearness allowance) of the worker should not exceed ₹15,000/-.\n1. The worker must have worked continuously for at least six months in the establishment/factory and must be in service at the time of applying.\n1. The benefit will be admissible to the worker or his two daughters only.\n1. The benefit will be admissible to the worker or his two children only.\n1. Only those players will be eligible who have been selected on or after March 23, 2021.\n1. In case of the female worker herself being a player, she will be given the benefit.",
+  "_criteria_filled": 1
+}

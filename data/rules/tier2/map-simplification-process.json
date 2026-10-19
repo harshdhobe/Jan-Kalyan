@@ -1,0 +1,26 @@
+{
+  "id": "map-simplification-process",
+  "name": "Map Simplification Process",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Approval of residential maps is being provided within 15 days, and approval of commercial maps within 30 days.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "the-required-documents-must-be-submitted-as-per-the-guidelines-of-the-haridwar-r"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All landowners in the Haridwar district of Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

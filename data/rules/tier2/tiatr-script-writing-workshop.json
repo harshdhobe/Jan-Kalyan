@@ -1,0 +1,26 @@
+{
+  "id": "tiatr-script-writing-workshop",
+  "name": "Tiatr Script Writing Workshop",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A hall with infrastructural facilities made available free of charge. \n- Experts are paid honorarium and travelling expenses per Kala Academy&#39;s norms / as decided by Kala Academy. \n- Lunch and refreshments for all participants are provided by Kala Academy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "documents-supporting-the-particulars-and-details-of-the-institution-relevant-to"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/Kala%20Academy%20Goa%20Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsww",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All the Goan tiatr playwrights, artistes and institution representatives, besides experts invited by Kala Academy, are eligible.",
+  "_criteria_filled": 1
+}

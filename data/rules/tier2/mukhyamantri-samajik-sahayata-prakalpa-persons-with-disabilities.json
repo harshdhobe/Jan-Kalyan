@@ -1,0 +1,43 @@
+{
+  "id": "mukhyamantri-samajik-sahayata-prakalpa-persons-with-disabilities",
+  "name": "Mukhyamantri Samajik Sahayata Prakalpa - Persons with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "A pension amount of ₹2000/- per month, transferred directly to the bank account of the applicant.\n**NOTE:** The list of beneficiaries will be made available on the [official website](https://socialwelfare.tripura.gov.in/) of the Social Welfare &amp; Social Education Department, Govt. of Tripura.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "income-certificate-from-the-sub-divisional-magistrate-sdm-age-proof-certificate",
+    "issued-by-the-food-civil-supplies-department-aadhaar-card-permanent-resident-of",
+    "are-to-be-submitted-to-the-cdpo-during-november-each-year"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssp-pws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The applicant should be a Person with Disability.\n1. The annual income of the family of the applicant should not exceed ₹1,00,000/-\n1. The age of the applicant should be 10 years and above.\n1. If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura. \n1. The disability of the applicant should be one of the following:\n\n_Blindness, Low-Vision, Leprosy-cured persons, Hearing Impairment (deaf &amp; Hard of hearing), Locomotor Disability, Dwarfism, Intellectual Disability, Mental Illness, Autism Spectrum Disorder, Cerebral Palsy, Muscular Dystrophy, Chronic Neurological Condition, Specific Learning Disabilities, Multiple Sclerosis, Speech and Language disability, Thalassemia, Hemophilia, Sickle Cell Disease, Multiple Disabilities including deaf-blindness, Acid attack Victim, Parkinson&#39;s Disease._\n<br>\n\n**NOTE:** The assistance under this scheme will be stopped immediately in the following cases:\n\n1. Death of Beneficiary.\n1. Fulfillment of any exclusion criteria during the lifetime of a beneficiary, such as\n\n- Remarriage of a widow.\n- A member of the family of the beneficiary getting a Government Job.\n- The annual family income of the beneficiary exceeds ₹1,00,000/-, etc.",
+  "_criteria_filled": 4
+}

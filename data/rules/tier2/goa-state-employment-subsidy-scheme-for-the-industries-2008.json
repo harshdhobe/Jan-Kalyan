@@ -1,0 +1,27 @@
+{
+  "id": "goa-state-employment-subsidy-scheme-for-the-industries-2008",
+  "name": "Goa State Employment Subsidy Scheme for the Industries, 2008",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Additional Benefits**\n\n- 5% additional benefit under the Local Employment Subsidy Scheme.\n- Preference in Capital Contribution and under Special Capital Contribution Schemes.\n- Increased interest subsidy limit from 1% to 2% of turnover, with 35% of interest paid (up from 30%), subject to an overall ceiling of ₹8,00,000/-.\n\n> **Subsidy Quantum**\n\n- For new units in developed talukas: 25% subsid",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "registration-details-with-the-directorate-of-industries",
+    "trade-and-commerce-proof-of-commercial-production-date-half-yearly-salary-detail"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsessi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only manufacturing units were eligible.\n- New and existing Micro and Small Enterprises registered with the Directorate of Industries, Trade and Commerce.\n- Medium and large units approved by the High-Powered Coordination Committee after 1st April 2008.\n- Units had to employ 80% local manpower (contract/temporary/daily wage employees not considered).\n- Units had to fall under &quot;Green&quot;, &quot;Orange&quot;, or specified &quot;Orange&quot; categories.\n\n_*Proprietor, partner, promoters, directors, or their relatives (spouse, father, mother, son/daughter, grandparent, son-in-law, daughter-in-law, brother, sister, first cousin) were not considered employees for subsidy claims._\n> **Preference/Priority**\n\nWomen-owned proprietary concerns (100% ownership) and partnership firms (51% ownership by women, with at least one additional partner other than husband, father, brother, or son).",
+  "_criteria_filled": 1
+}

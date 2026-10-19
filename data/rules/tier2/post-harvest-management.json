@@ -1,0 +1,30 @@
+{
+  "id": "post-harvest-management",
+  "name": "Post-Harvest Management",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "For setting up units such as Pack Houses (9 m / 6 m), Pre-Cooling Units (6 MT capacity), Mobile Pre-Cooling Units (5 MT capacity), Cold Rooms (30 MT capacity), Cold Storage Units, Refer Vans/Containers (6 MT capacity), and Ripening Chambers (300 MT capacity), a subsidy of 35% to 50% is provided through a bank-linked, loan-based subsidy mechanism.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-related-documents",
+    "such-as-khasra-and-khatauni",
+    "lease-certificate-for-leased-land-aadhaar-card-pan-card-bank-account-details-acc",
+    "branch",
+    "etc-mobile-number-training-certificate-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/phm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be an interested entrepreneur or farmer.\n1. The applicant must either own the land or have it on lease for a period of 25 to 30 years.\n\n<br>",
+  "_criteria_filled": 1
+}

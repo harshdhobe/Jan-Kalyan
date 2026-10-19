@@ -1,0 +1,31 @@
+{
+  "id": "maternity-financial-assistance-ukbocwwb",
+  "name": "Maternity Financial Assistance (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "₹6,000/- per child (limited to a maximum of two children).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "labour-card-anc-card-certificate-issued-by-the-medical-officer-regarding-deliver"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbsukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a woman construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board.\n   1. Financial assistance is admissible only for the birth of up to two children.\n\n<br>",
+  "_criteria_filled": 2
+}

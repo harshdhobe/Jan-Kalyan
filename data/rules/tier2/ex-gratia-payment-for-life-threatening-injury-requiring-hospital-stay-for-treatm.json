@@ -1,0 +1,26 @@
+{
+  "id": "ex-gratia-payment-for-life-threatening-injury-requiring-hospital-stay-for-treatm",
+  "name": "Ex-Gratia Payment for Life-Threatening Injury Requiring Hospital Stay for Treatment",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, an ex-gratia grant of ₹16,000/- per person is provided in case of a hospital stay for more than one week, and ₹5,400/- per person in case of a hospital stay for less than one week.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "form-p-20-entry-confirmation-recorded-by-the-concerned-patwari-other-supporting"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atltjrhuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a person admitted to a government or non-government hospital due to an injury caused by a disaster, including those engaged in relief or disaster preparedness activities who sustained injuries during such work.\n\n<br>",
+  "_criteria_filled": 1
+}

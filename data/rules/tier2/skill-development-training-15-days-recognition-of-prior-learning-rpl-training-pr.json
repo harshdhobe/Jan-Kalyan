@@ -1,0 +1,36 @@
+{
+  "id": "skill-development-training-15-days-recognition-of-prior-learning-rpl-training-pr",
+  "name": "Skill Development Training - 15 Days Recognition of Prior Learning (RPL) Training Programme at Work Site",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "> **Stipend:** \n\n- ₹35/- per hour per trainee.\n\n<br>\n\n> **Duration:** \n\n- 120 hours spread over 15 days.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-boc-id-card-ration-card-aadhaar-card-1st-page-of-bank-a"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2016LETF_MS63.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdt-15drpltpws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be registered with the Telangana Building &amp; Other Construction Workers Welfare Board.\n1. The worker&#39;s age should be between 18-45 years old.\n1. The worker should have knowledge of Telugu, Hindi, and English language. \n1. The worker should be engaged in the respective trades: Masonry, Bar Bending, Plumbing &amp; Sanitation, Electrical House Wiring, Painting, Welding, Dry wall &amp; False ceiling, Building Carpentry, and Formwork carpentry.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,27 @@
+{
+  "id": "free-travelling-facility-hbocwwb",
+  "name": "Free Travelling Facility (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, free travelling facility is provided to the registered construction workers along with 4 family members to visit religious/historical places once in four years.\n   1. The actual fare incurred by the beneficiary is paid at the rates prescribed by Haryana Roadways (ordinary fare) or actual railway fare (Second Class).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ftfhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. Registered workers must have a minimum of two year’s regular membership.\n   1. Workers must have an active membership with the Board.\n   1. Registered construction workers, along with four family members, are eligible to avail benefits under the scheme on a visit to religious or historical places once every four years.\n   1. The duration of visiting religious and historical places should not exceed 10 days.",
+  "_criteria_filled": 1
+}

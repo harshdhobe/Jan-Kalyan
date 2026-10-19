@@ -1,0 +1,32 @@
+{
+  "id": "vijayamritham-scheme-cash-award-for-meritorious-children-with-disabilities",
+  "name": "Vijayamritham Scheme - Cash Award For Meritorious Children With Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. The amount of the award is as under:\n\n**Sl. No.****Category****Eligibility****Amount of Award****No. of students per district**1Degree / Equivalent courses60% marks for Arts subjects, 80% marks for Science subject₹8000/-10 students2Post-Graduation &amp;amp;amp;amp; Professional Courses60 % and above₹10,000/-5 students2. As a token of appreciation, certificates, and mementos will also be present",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-disabil",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/30696.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vs-camcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a differently abled student.\n   1. The applicant should have a 40% disability or more.\n   1. The applicant must complete their studies in the educational institutions within the State of Kerala.\n   1. The differently abled students who have secured high marks in Degree/ Equivalent courses, Post Graduate &amp;amp; Professional courses are eligible to apply under the scheme.\n   1. The students who have secured 60% marks for Arts subjects, 80% marks for Science subject and 60 % &amp;amp; above for Post-Graduation &amp;amp; Professional Courses.\n   1. The applicants must have passed the courses from Government / Aided Colleges/ Other Affiliated Institutions (Parallel Colleges, Distance Education Centers).\n   1. The applicants must have passed the examination in the first attempt. \n\n**Note:** If two or more students have the same eligibility then priority must be given to a student with a higher disability percentage.",
+  "_criteria_filled": 2
+}

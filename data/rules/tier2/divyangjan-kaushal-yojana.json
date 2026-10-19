@@ -1,0 +1,27 @@
+{
+  "id": "divyangjan-kaushal-yojana",
+  "name": "Divyangjan Kaushal Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Customized and industry-relevant training specific to the needs of each &#39;divyang&#39; group.\n- Skill development in high-growth sectors, including Information Technology, Animation, Visual Effects, Gaming and Comics (AVGC), Hospitality, and Food and Beverages.\n- Access to task-oriented and process-driven job roles suitable for Persons with Disabilities.\n- Support for securing dignified livel",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-proof-of-being-a-person-with-disability-identity-proof-eg",
+    "aadhaar-card-address-proof-educational-qualification-documents-to-determine-suit"
+  ],
+  "apply_url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2221850&reg=6&lang=1#:~:text=At%20present%20ALIMCO%20operates%20100,the%20journey%20towards%20Viksit%20Bharat.",
+  "source_url": "https://www.myscheme.gov.in/schemes/dky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Person with Disability (Divyangjan).\n- The applicant must be eligible for skill training aimed at livelihood opportunities.\n\n<br>",
+  "_criteria_filled": 1
+}

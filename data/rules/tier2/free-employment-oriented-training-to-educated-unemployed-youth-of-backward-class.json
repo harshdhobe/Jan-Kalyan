@@ -1,0 +1,26 @@
+{
+  "id": "free-employment-oriented-training-to-educated-unemployed-youth-of-backward-class",
+  "name": "Free Employment Oriented Training to Educated Unemployed Youth of Backward Class and Minority Class",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Free coaching for employment-oriented competitive examinations.\n\n- Stipend support during the training period.\n- Access to well-equipped coaching facilities.\n- Ideal academic environment for exam preparation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=871",
+  "source_url": "https://www.myscheme.gov.in/schemes/feotteuyobcamc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Madhya Pradesh.\n- The applicant should belong to Other Backward Classes (OBC) or Minorities.\n- The applicant&#39;s family income should not exceed the creamy layer limit.\n- The applicant should be selected by the training institution approved by the government.",
+  "_criteria_filled": 1
+}

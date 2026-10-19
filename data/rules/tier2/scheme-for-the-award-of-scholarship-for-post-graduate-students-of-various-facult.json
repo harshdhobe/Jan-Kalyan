@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-the-award-of-scholarship-for-post-graduate-students-of-various-facult",
+  "name": "Scheme for the Award of Scholarship for Post Graduate Students of Various Faculties of Junagadh Agricultural University",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Master’s degree students:** ₹2,000/- per month for 2 years.  - **Ph.D. degree students:** ₹3,000/- per month for 3 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-copy-of-post-graduate-marksheet-copy-of-graduation-level-mar"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sapgjau",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be domiciled in Gujarat.\n  - Applicant must have obtained a minimum first-class or equivalent grade/OGPA in UG (for Master’s) or Master’s (for Ph.D.).\n  - Applicant must be newly admitted (fresh) to the Postgraduate program at JAU.\n  - Applicant must have a basic degree in Agriculture or allied sciences.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

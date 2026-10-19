@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-insulated-boxes",
+  "name": "Supply of Insulated Boxes",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **For the Beneficiary Engaged in Selling/Marketing Fish**\n\nOne insulated box of 50 liters capacity will be entitled to a subsidy to the extent of 75% of the cost limited to ₹ 1,500/-.\n> **For the Beneficiary Engaged in Fishing at Sea With a Canoe**\n\nOne insulated box of 100 liters and one box of 220 liters capacity and subsidy to the extent of 75% of the cost limited to ₹ 7,000/- respectively.\n>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-400-220-litres-capacity-insulated-boxes-for-fishing-vessels-a-copy-of-vrc-ve"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/wp-content/uploads/2020/11/Application-form-for-Insulated-box.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sib",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should be one of the following - \n\n- A fisherman engaged in selling and marketing fish.\n- A fisherman engaged in fishing at sea with a canoe.\n- A fisherman engaged in fishing at sea with a mechanized fishing vessel with up to 6-cylinder engines.",
+  "_criteria_filled": 1
+}

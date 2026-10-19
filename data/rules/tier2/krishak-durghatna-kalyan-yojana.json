@@ -1,0 +1,38 @@
+{
+  "id": "krishak-durghatna-kalyan-yojana",
+  "name": "Krishak Durghatna Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "In this scheme, the Uttar Pradesh government will provide the following amount / financial assistance or compensation amount to the farmers if they are victims of the accident –\n\n1. Compensation for loss of both hands and legs of the farmer – Rs 5 lakh. \n1. In case of loss of 1 hand and 1 foot – Rs.5 lakh. \n1. In case of disability of one leg and one hand – financial assistance ranges from 2 to 3 ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "a-attested-copy-of-khatauni",
+    "or-b-attested-copy-of-the-registered-lease-for-the-registered-private-lessee-c-a",
+    "the-certificate-is-given-by-the-village-head-and-regional-accountant-with-his-si"
+  ],
+  "apply_url": "https://bor.up.nic.in/pdf/0aaf0062-9da1-4124-9433-027bb1b23c24---050320075949PM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kdky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. After September 14, 2019,  the families of the farmers who were victims of the accident can also get the benefit of the scheme.\n1. The age of the applicant farmer should be between 18 to 70 years.\n1. After the death of the applicant farmer in the accident, the parents, wife, daughter-in-law, son, daughter, grandson and granddaughter of his family will be provided financial assistance by the government.\n1. Those farmers of the state who do not have their own agricultural land and do the work of farming on share or rent.\n1. The benefit of UP Chief Minister Farmer Accident Welfare Scheme will be given to the farmer suffering from 60 percent or more disability.",
+  "_criteria_filled": 3
+}

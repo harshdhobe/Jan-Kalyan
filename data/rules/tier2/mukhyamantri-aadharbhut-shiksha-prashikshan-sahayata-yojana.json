@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-aadharbhut-shiksha-prashikshan-sahayata-yojana",
+  "name": "Mukhyamantri Aadharbhut Shiksha Prashikshan Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Free coaching assistance to get the admission for 6th and 9th classes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "beneficiarys-surviving-labor-registration-identity-card-beneficiarys-aadhar-card"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/197638_05_04_2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/maspsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. It is necessary for a registered worker to have regular membership of one year in the board.\n1. The benefit of the scheme will be provided only to the first two children of the registered worker.\n1. The first two children of a registered construction worker possessing the minimum qualification prescribed for the respective competitive examination will be eligible under the scheme.",
+  "_criteria_filled": 1
+}

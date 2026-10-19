@@ -1,0 +1,49 @@
+{
+  "id": "new-swarnima-gopalak-nigam",
+  "name": "NEW SWARNIMA (Gopalak Nigam)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **100% loan** assistance provided to eligible women- Loan amount up to **₹2.00 lakh**- Interest rate fixed at **5% per annum**- Loan can be used to **start a business** of the beneficiary’s choice- Meant for **economically backward women** of specific castes- **Encourages entrepreneurship and self-reliance**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "residencedomicile-certificate-of-gujarat-caste-certificate-rabari-or-bharwad-inc",
+    "voter-id",
+    "birth-certificate",
+    "etc-bank-passbook-or-cancelled-cheque-basic-business-proposal-if-required"
+  ],
+  "apply_url": "https://daadconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nssggvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Be a permanent **resident of Gujarat**1. Be a **woman**1. Belong to the **Rabari or Bharwad caste**1. Belong to a **socially and educationally backward class** as recognized by the Government of Gujarat1. Be between **21 to 45 years** of age1. Have a **total annual family** income not exceeding **₹3.00 lakh**1. Intend to start your **own business or self-employment** venture using the loan",
+  "_criteria_filled": 5
+}

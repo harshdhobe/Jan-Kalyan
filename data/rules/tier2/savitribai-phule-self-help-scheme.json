@@ -1,0 +1,46 @@
+{
+  "id": "savitribai-phule-self-help-scheme",
+  "name": "Savitribai Phule Self-Help Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Margin Money Assistance:** Provides financial support covering 50% of the project cost, up to a maximum of ₹15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-address-age-proof-18-55-years-caste-certificate-sc-li"
+  ],
+  "apply_url": "https://khargone.nic.in/en/scheme/savitribai-phule-self-help-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/spshs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman.\n  -  The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Scheduled Caste (SC) category.\n  - The applicant’s age should be between 18 to 55 years.\n  - The applicant must be literate.\n  - The applicant should be currently unemployed.\n  - The applicant must fall under the Below Poverty Line (BPL) category.\n  - The applicant should not have any outstanding defaults with any nationalized bank, cooperative bank, or other financial institution.",
+  "_criteria_filled": 5
+}

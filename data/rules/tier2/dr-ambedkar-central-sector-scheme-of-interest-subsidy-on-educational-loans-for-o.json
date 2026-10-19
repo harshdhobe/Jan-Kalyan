@@ -1,0 +1,27 @@
+{
+  "id": "dr-ambedkar-central-sector-scheme-of-interest-subsidy-on-educational-loans-for-o",
+  "name": "Dr Ambedkar Central Sector Scheme of Interest Subsidy on Educational Loans for Overseas Studies for Other Backward Classes (OBCs) and Economically Backward Classes (EBCs)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Under the scheme, interest payable by the students availing the education loans of the IBA for the period of moratorium (i.e. course period, plus one year or six months after getting a job, whichever is earlier) as prescribed under the Education Loan Scheme of the IBA, shall be borne by the Government of India.\n1. For a student, the eligible loan component shall be the actual loan taken subject",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-number-proof-of-educational-qualification-bona",
+    "the-obc-caste-certificate-in-the-prescribed-performa-issued-by-the-competent-aut"
+  ],
+  "apply_url": "https://socialjustice.gov.in/writereaddata/UploadFile/Guidelines%20ISEL%20Scheme%20(wef%2001%20Oct%202017).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dacssiselosobcebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Student.\n1. The student should have secured admission in the approved course at Masters, M.Phil or PhD levels abroad for the [listed courses](https://socialjustice.gov.in/writereaddata/UploadFile/Guidelines%20ISEL%20Scheme%20(wef%2001%20Oct%202017).pdf).1. The applicant should have availed loan from a scheduled bank under the Education Loan Scheme of the Indian Banks Association (IBA) for the purpose.\n1. The total income of the applicant (from all sources) shall not exceed ₹ 8,00,000 per annum.\n\n<br>\n\n> **Reservation/ Relaxation/ Preference/ Priority**\n\nOut of the total outlay in a year, a minimum of 50% amount will be earmarked for Interest Subsidy to the girl candidates.",
+  "_criteria_filled": 1
+}

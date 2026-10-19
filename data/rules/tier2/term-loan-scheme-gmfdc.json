@@ -1,0 +1,48 @@
+{
+  "id": "term-loan-scheme-gmfdc",
+  "name": "Term Loan Scheme (GMFDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. **Financial Assistance for Business:** Loans ranging from ₹1,00,000/- to ₹20,00,000/- are provided businesses/trades in various sectors listed below:\n  - Agriculture and allied businesses, such as animal husbandry, fisheries, etc.\n  - Technical &amp; Skilled self-employment businesses.\n  - Service-oriented businesses such as provision stores, ready-made garment shops, cyber cafés, cold drink pa",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id",
+    "pan-card",
+    "etc-proof-of-address-utility-bill",
+    "aadhaar-card",
+    "etc-proof-of-age-birth-certificate",
+    "school-leaving-certificate",
+    "etc-minority-community-certificate-income-certificate-educational-qualification"
+  ],
+  "apply_url": "https://gmfdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/tlsgmfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to a minority religious community (Muslim, Christian, Sikh, Jain, Buddhist, Parsi, or Jewish) or a linguistic community (Sindhi, Marathi, or Urdu) in the state of Gujarat.\n1. The applicant, or any member of their family, should not have obtained a loan from Gujarat Minority Finance and Development Corporation Limited, Gujarat Backwards Class Development Corporation, Gandhinagar, including any other corporation/institution or bank of the Central or State Government.\n1. The annual income of the applicant&#39;s family should be:\n\n  - ₹98,000/- for rural areas.\n  - ₹1,20,000/- for urban areas.\n  - However, families with income exceeding ₹1,20,000/- and up to ₹8,00,000/- are also eligible, albeit with different interest rates.\n\n1. The applicant&#39;s age should be between 21 and 45 years.\n\n<br>",
+  "_criteria_filled": 4
+}

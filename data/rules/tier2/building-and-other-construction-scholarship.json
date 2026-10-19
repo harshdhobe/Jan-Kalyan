@@ -1,0 +1,26 @@
+{
+  "id": "building-and-other-construction-scholarship",
+  "name": "Building And Other Construction Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "This scholarship offers various opportunities to SC-category students across the world. Under this scheme, the selected students will receive variable financial support from the Odisha government. Under the BOC scholarship, no living costs of the students are covered.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-student-caste-certificate-of-the-student-copy-of-passbook-of-ban"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/website/scholarship-details",
+  "source_url": "https://www.myscheme.gov.in/schemes/bocs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be a permanent resident of Odisha. \n1. The student must belong to the SC category. \n1. The applicant must be pursuing technical education or ITI/Polytechnic courses.\n\n<br>",
+  "_criteria_filled": 1
+}

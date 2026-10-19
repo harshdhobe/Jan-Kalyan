@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-physically-handicapped-persons-ex-servicemen-under-mo",
+  "name": "\"Capital Investment Subsidy: Physically Handicapped Persons/ Ex-Servicemen\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "A capital investment subsidy at the rate of 25% thereon subject to a maximum of ₹25,00,000/- for the micro and small manufacturing enterprises for the investments made on land, building and plant and machinery.\n<br>\n\n> **Number of Installments**\n\nThe subsidy shall be disbursed in a single instalment.\n**NOTE:** Where due to paucity of funds in a particular financial year or for such other reasons a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsentrepreneurs-memorandum-part-2-uam-pmt-registration-commenceme",
+    "an-affidavit-stating-that-the-subsidy-has-not-been-availed-of-from-the-central-g"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisphpes-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is applicable to the new industrial units which started production on or after 5th August 2009 by physically handicapped entrepreneurs and Ex-Servicemen.\n- The subsidy for Physically Handicapped (PH) persons will be admissible only for those who suffer from not less than 40% incapacity under relevant category.",
+  "_criteria_filled": 1
+}

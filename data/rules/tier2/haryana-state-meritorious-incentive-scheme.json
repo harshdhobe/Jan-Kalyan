@@ -1,0 +1,27 @@
+{
+  "id": "haryana-state-meritorious-incentive-scheme",
+  "name": "Haryana State Meritorious Incentive Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Monetary Incentive**\n\n- ₹5,000/- per annum for students securing the first position in their stream.\n- ₹3,000/- per annum for students securing the second position in their stream.\n- ₹2,000/- per annum for students securing the third position in their stream.\n\n**Mode of Disbursement**\nPayment is made through Direct Benefit Transfer (DBT).\n**Validity**\nThe incentive is applicable only for the aca",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate",
+    "bpl-certificate-if-applicable-fathers-death-certificate-if-applicable"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Haryana%20State%20Meritorious%20Incentive%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hsmis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme will be college-specific and three meritorious students in each stream who stood first, second and third in the annual university examination will be given this incentive.\n1. The award will be given only to students pursuing general courses in the Government Colleges. \n1. Candidates from Non-Government Colleges and those who pursue their studies through correspondence courses/open universities will not be eligible for the award.\n\n**NOTE**\n\n- The merit list will be prepared separately for the Boys (General Category), Girls (General Category) and Scheduled Caste students (Combined list of girls and boys).\n- If Scheduled Caste students qualify for the general list, his/her name will be considered in the general list and an extra award will be given (on a merit basis only) to the students of the Scheduled Caste category.\n- The award holder under this scheme will hold any other scholarship/stipend from the State Government or any other source.",
+  "_criteria_filled": 1
+}

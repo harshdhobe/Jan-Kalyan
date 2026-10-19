@@ -1,0 +1,28 @@
+{
+  "id": "mukhyamantri-abua-swasthya-suraksha-yojana",
+  "name": "Mukhyamantri Abua Swasthya Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. Health insurance cover of ₹15,00,000/- per family per year.\n1. Coverage includes expenses for both general treatments and critical illnesses listed under the scheme.\n1. Beneficiaries can access services at empaneled public and private hospitals.\n1. Includes treatment costs for diabetes, blood pressure, and dialysis, with free medicines provided at government hospitals.\n1. Beneficiaries also gai",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-linked-with-ration-card-ration-card-pink",
+    "yellow",
+    "or-green"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D011DO003SD00302072024050748252",
+  "source_url": "https://www.myscheme.gov.in/schemes/massy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand.\n1. The applicant’s family should possess a ration card under the National Food Security Act (NFSA) or Jharkhand State Food Security Act.\n1. The applicant&#39;s have pink, yellow, and green ration cards are eligible under the scheme.",
+  "_criteria_filled": 1
+}

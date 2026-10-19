@@ -1,0 +1,26 @@
+{
+  "id": "procedure-for-admission-in-government-child-care-institution-government-communic",
+  "name": "Procedure for Admission in Government Child Care Institution, Government Communication Home and Open Shelter Home",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "In the institutions and homes, children are provided with free facilities such as clothing, food, accommodation, medical care, counselling, entertainment, training, and education. Along with these facilities, children are also provided day care facility based on their needs.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicationreferral-order-from-child-welfare-committee-or-juvenile-justice-board"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pagccigchosh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. In Government Child Care Institutions, orphaned/destitute children, abandoned children, surrendered children, exploited and neglected children, and victimized children are admitted.\n   1. In Government Communication Homes, children who are in conflict with the law or have violated the law are admitted.\n   1. In Open Shelter Homes, destitute children living on the roadside, beggars, ragpickers, and children from slums who do not attend school are admitted.\n\n<br>",
+  "_criteria_filled": 1
+}

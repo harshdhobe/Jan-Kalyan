@@ -1,0 +1,36 @@
+{
+  "id": "devnarayan-scooty-distribution-and-incentive-scheme",
+  "name": "Devnarayan Scooty Distribution And Incentive Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. 1500 scooties will be distributed free of cost every year according to the merit list of marks obtained in the 12th examination.\n1. Those are studying regularly in government colleges, state-funded universities, 12th (Senior Secondary) (girls who are not in the priority list of scooty acceptance) 10,000/- per annum in the first year, second year and third year.\n1. For Postgraduate first-year (P",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "applicant-domicile-certificate-copy-collage-fee-receipt-caste-certificate-copy-i"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/339",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsdais",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl students should be from extremely backward classes of Rajasthan origin.\n1. Students have secured 50% or more marks in the 12th (C.S.) \n1. The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan. \n1. Applicants should be studying regularly after being admitted in the first year of their bachelor&#39;s degree. \n1. The annual income of the student&#39;s parent/guardian/guardian/husband should be less than Rs.2.50 lakh.\n1. The benefit of the Devnarayan Higher Education Financial Assistance Scheme / other financial assistance scheme will not be payable to the student who gets the benefit in this scheme.",
+  "_criteria_filled": 3
+}

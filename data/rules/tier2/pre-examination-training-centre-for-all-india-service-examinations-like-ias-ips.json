@@ -1,0 +1,26 @@
+{
+  "id": "pre-examination-training-centre-for-all-india-service-examinations-like-ias-ips",
+  "name": "Pre Examination Training Centre For All India Service Examinations Like I.A.S., I.P.S., I.R.S., Etc.",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Coaching:** Free coaching for All India Service Examinations (IAS, IPS, IRS, etc.).  - **Boarding:** Free boarding and lodging for candidates.\n&gt; **Note:** Mess Charges ₹1,200/- per month should be paid by the students whose parental income is above ₹1,00,000/- per annum.\n\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/26799",
+  "source_url": "https://www.myscheme.gov.in/schemes/petalse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/Tribal community.",
+  "_criteria_filled": 1
+}

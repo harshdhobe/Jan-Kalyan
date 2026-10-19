@@ -1,0 +1,37 @@
+{
+  "id": "interest-subvention-scheme-for-housing-loan-for-regular-state-government-employe",
+  "name": "Interest Subvention Scheme For Housing Loan For Regular State Government Employee Under APUN GHAR",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1)\tThe State Government has decided to provide a subvention of interest @3.5 % and after applying this interest subvention, the employees would get housing loans upto ₹ 15.00 lakh@ 5.0% (for women) and @ 5.05 %(for men)\n<br>\n\n2)\tOn the basis of the SBI Proposal, the state government has decided to provide a loan repayment schedule to the State Government employees with pensionable service beyond t",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-5-copies-2-proof-of-identification",
+    "any-one-of-the-pan-cardvoter-ididentity-cardetc-3-proof-of-residence-any-one-of"
+  ],
+  "apply_url": "https://finance.assam.gov.in/sites/default/files/INTEREST%20SUBVENTION%20SCHEME%20FOR%20HOUSING%20LOAN%20FOR%20REGULAR%20STATE%20GOVERNMENT%20EMPLOYEES%20UNDER%20APUN%20GHAR%2C%20FILENO.%20FM.45.2016.157%2C%20DTD.21.03.2017_1.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/apun-ghar",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Permanent Employees of State Government of Assam with at least 5 years residual service will be eligible for the scheme once in his/her service tenure.\n1. Minimum 21 years and at least 5 years residual service to be eligible for the loan and maximum of 70 years for employees with pensionable service and maximum of 60 year for non-Pensionable service \n1. The benefits of interest subvention will be available to the eligible employees who apply for housing loan within 2 (two) years from the date of issuance of the Government Office Memorandum/Notification\n1. Employees not having salary account with SBI or having salary account for less than 1 Year should submit a ‘No Dues’ certificate from his existing/previous Banker.\n1. However, an employee can avail more than ₹ 15 Lacs but the Assam Government Interest Subvention Scheme will be available on loan up to the prescribed limit under the scheme.\n1. Close relatives can avail the Loan jointly if all are government employees of Assam. In such cases Assam Government Interest Subvention scheme will be available on loan clubbing together the prescribed limit under the scheme.\n1. Those who already benefited under Apun Ghar scheme are not eligible.\n1. Purchase of an ancestral plot of land from any close relative like Parents/Spouse/Siblings/Children is not covered by the scheme under any circumstances.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

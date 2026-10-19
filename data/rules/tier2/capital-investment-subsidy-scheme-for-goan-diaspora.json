@@ -1,0 +1,29 @@
+{
+  "id": "capital-investment-subsidy-scheme-for-goan-diaspora",
+  "name": "Capital Investment Subsidy Scheme for Goan Diaspora",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. A capital investment subsidy of up to 20% on the capital investments made during the tenure of the Scheme.\n2. An additional 10% subsidy on capital investments in case of establishment of Mega Business Units. \n3. All Existing Units, which qualify as Mega Units are also eligible for capital investment subsidy up to 20% of the capital investment incurred in the last 3 years before the date of noti",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar-and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-first-bil",
+    "purchase-orders",
+    "and-other-supporting-documents-for-capital-investment-made-10-receipts-or-other"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/cissgd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a New/Existing Unit.\n2. The applicant should have their operations in Goa.\n3. The applicant should be one of the following:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n4. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n5. For a said office space, any IT company can avail of capital investment subsidy only if the unit has operated from the said office space for a period of more than one year.\n6. The company/ firms should be registered in Goa.\n7. The company/ firms&#39; CEO / Head or the Majority Stakeholder(s) should be Goan Diaspora. \n8. The company/ firm should hire minimum 15 employees and minimum 60% of those employees should be of Goan Origin. \n9. The employees should be on the rolls of the company for a minimum period of one year.\n**NOTE:** Units will be subject to evaluation at the end of Fiscal Year to verify eligibility for continuing to receive subsidy under this scheme.",
+  "_criteria_filled": 1
+}

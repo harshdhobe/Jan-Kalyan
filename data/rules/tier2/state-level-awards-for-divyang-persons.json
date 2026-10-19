@@ -1,0 +1,31 @@
+{
+  "id": "state-level-awards-for-divyang-persons",
+  "name": "State Level Awards for Divyang Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Award Details:**\n\n- An amount of ₹8000/- is given as a cash prize. \n- Medal and Certificate of Appreciation.\n\n**Mode of Disbursement:**\n\n- The amount disbursed through the cheque or bank draft at the award ceremony.\n\n**Expected Time of Disbursement:**\n\n- Awarded annually on December 3 (World Disability Day).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-photographs-disability-certificate-detailed-description-of-achiev"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/slafpwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Uttarakhand.\n1. The applicant should be a person with a disability.\n1. The applicant should have verifiable records of achievements or work.\n1. The applicant should be in any one of the following categories:\n\n- Differently-abled (Divyang) employee\n- Outstanding Sportsperson\n- Best Self-Employed Service Provider",
+  "_criteria_filled": 2
+}

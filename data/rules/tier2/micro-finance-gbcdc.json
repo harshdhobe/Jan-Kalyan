@@ -1,0 +1,41 @@
+{
+  "id": "micro-finance-gbcdc",
+  "name": "Micro Finance (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The maximum loan limit under this scheme is up to ₹1,25,000/-.\n1. The interest rate in these schemes is 5 percent per annum.\n1. In these schemes, 90 per cent of the unit cost will be provided as a loan, with 90 per cent from the national corporation, 5 per cent from the state government, and 5 per cent from the beneficiary contribution.\n1. This loan is to be repaid in 48 equal monthly instalmen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-caste-certificate-income-certificate-bank-account-p"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to a socially and educationally backwards class.\n1. The total annual income of the applicant&#39;s family should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 and 45 years as on the date of application.\n1. The applicant must have experience in a business requiring technical and other skills.\n\n<br>",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,28 @@
+{
+  "id": "goat-unit-scheme-on-grants-and-bank-loans",
+  "name": "Goat Unit Scheme On Grants And Bank Loans",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** 40% subsidy for General beneficiaries and 60% for SC/ST beneficiaries.  - **Economic Gains:** Earn income from the sale of goat milk and meat products.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "voter-id-address-proof-ration-card",
+    "electricity-bill-caste-certificate-for-scst-applicants-land-ownership-proof-if-r"
+  ],
+  "apply_url": "https://khargone.nic.in/en/scheme/goat-unit-scheme-on-grants-and-bank-loans/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gusgbl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n  - The applicant must be a landless laborer/ marginal farmer/ small farmer.\n  - The applicant should have prior experience in goat farming.",
+  "_criteria_filled": 1
+}

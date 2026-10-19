@@ -1,0 +1,43 @@
+{
+  "id": "annapurna-yojana",
+  "name": "Annapurna Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Monthly Financial Assistance:** Eligible women receive ₹3,000/- per month.\n&gt; **Note:**\n\n  - **Mode of Disbursement:** The financial assistance is transferred through Direct Benefit Transfer (DBT).  - **Bank Account Requirement:** The amount is credited to the Aadhaar-linked bank account of the beneficiary.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-file-type-jpgjpegpdfpng",
+    "file-size-50kb-200kb-epic-cardvoter-id-card-file-type-jpgjpegpdfpng",
+    "file-size-50kb-200kb-ration-card-details-if-available-pan-card-of-family-members"
+  ],
+  "apply_url": "https://wcdsw.wb.gov.in/notice_pdf/view/TVRVdw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/aywb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman.\n  - The applicant must be aged between 25 to 60 years,\n  - The applicant must not be in any permanent government employment getting regular salary/ pension under the union or this state government, any statutory body, government undertaking, panchayat, municipal body, local body; teaching or non-teaching employment under this state government&amp;#39;s aided educational institution, etc.\n  - The applicant must not be paying any Income Tax.\n\n&gt; **Notes:**\n\n- All the existing beneficiaries of the &quot;Lakshmir Bhandar&quot; Scheme shall be migrated to the &quot;Annapurna Yojana&quot; except dead, shifted, deleted, and absentee electors identified during SIR-2026, deletion in the 2™ list after publication of draft list, deleted after adjudication, ASDD found during voter slip distribution.\n- Beneficiaries who have filed an appeal before the SIR Tribunal/applications under the Citizenship (Amendment) Act shall get financial assistance under the New Scheme till disposal of their applications. Likewise, names of dead and shifted beneficiaries will be deleted in the future on a regular basis. \n\n<br>",
+  "_criteria_filled": 4
+}

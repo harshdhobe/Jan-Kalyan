@@ -1,0 +1,36 @@
+{
+  "id": "lifetime-contribution-to-tiatr-awards-commercial",
+  "name": "Lifetime Contribution to Tiatr Awards (Commercial)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Award Components:** Shawl, memento, citation, and cash award as fixed by Tiatr Academy of Goa\n**Special Recognition Ceremony:** Honored at a special function organized on 14th December every year on the occasion of the Birth Anniversary of Joao Agostinho Fernandes, &#39;The Father of Tiatr&#39;\n**Annual Limit:** Not more than 5 artistes from the field will be conferred with awards every year\n**E",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-birth-certificate-copy-of-aadhaar-card-recent-photograph-additional-docu",
+    "address",
+    "contact-number",
+    "brief-details-documentary-evidence-for-contribution-claimslist-of-tiatrs-written",
+    "cds",
+    "dvds-produced-if-applicable-list-of-films-acted-in-if-applicable-list-of-books-w"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lctac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be not less than 60 years of age.\n- The applicant must have at least 20 years of contribution in the field of tiatr.\n- The applicant, if an actor/singer/Stage Manager/Lights provider/Make-up artist/Costume designer/Live Music/Background music provider/organizer/contractor, must have performed in at least 30 tiatrs.\n- The applicant, if a writer/director, must have written/directed at least 20 tiatrs.\n- *The age limit of 60 years may be relaxed if the health of the artist is not well.\n\n##### ***Assessment Criteria***\nThe applicant&#39;s excellence as an actor, script writer, director, singer, lyricist, set designer will be considered.\nThe applicant&#39;s receipt of any awards in their field will be evaluated.\nThe applicant&#39;s innovations on the tiatr stage will be assessed.\nThe applicant&#39;s songs (kantaram) recorded on records, cassettes, CDs/DVDs or online will be considered (if singer/musician).\nThe applicant&#39;s work in dramas in other languages or films besides tiatr will be evaluated.\nThe applicant&#39;s published books of scripts/lyrics will be considered (if script writer or lyricist).\n##### ***Post-Selection Conditions***\nThe applicant must be compulsorily present in person to receive the award.\n<br>",
+  "_criteria_filled": 2
+}

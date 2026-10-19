@@ -1,0 +1,31 @@
+{
+  "id": "mahila-nursery-yojana",
+  "name": "Mahila Nursery Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, women’s groups are enabled to establish nurseries. High-quality seeds are procured from Silvahill or Silvasal, and the resources required for nursery operations are provided through a fixed grant. Technical support and training are also provided. \n  - Department purchases the plants grown by women in these nurseries on a contract basis.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "group-registration-certificate-from-divisional-forest-officer-khatauni-of-propos"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Women Self-Help Group, Mahila Mangal Dal, or a Local Women’s Group from Uttarakhand.\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-for-the-treatment-of-blind-disabled-deaf-dumb-or-mentally-c",
+  "name": "Financial Assistance for the Treatment of Blind, Disabled, Deaf, Dumb, or Mentally Challenged Ex-Servicemen and their Dependents (Wife and Children)",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**Financial Assistance:**\n**S. No.****Percentage of Disability****Financial Assistance****Priority**180% and above₹3,000/- per monthFirst Priority260% but less than 80%₹2,000/- per monthSecond Priority340% but less than 60%₹1,000/- per monthThird Priority**Note:**\n\n- The assistance is provided for three years. After that, the applicant will re-apply for renewal.\n- The financial aid is disbursed on",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "discharge-bookservice-particulars-disability-certificate-issued-by-a-competent-m",
+    "if-applicable-death-certificate-in-case-of-deceased-ex-serviceman-or-widow-aadha"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Medical%20Assistance.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faafbdmmresf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should either be an ex-serviceman as defined by the Government of India or a dependent family member (excluding parents) of ex-serviceman.\n   1. Only an ex-serviceman holding the rank of Havildar or below, or their family members, are eligible to apply.\n   1. The ex-serviceman or their dependent should have a disability of 40% or more.\n   1. Both pensioner and non-pensioner are eligible. However, ex-serviceman who is already receiving a disability pension from the Army cannot apply for financial assistance for himself based on their disability. He may apply on behalf of a disabled family member with 40% or more disability.\n   1. Under this scheme, the family members do not include parents. Only wife/widow, son/daughter are included.\n   1. The ex-serviceman’s disability will be considered valid regardless of whether it occurred during military service or after retirement.\n   1. The name of the disabled wife, son, or daughter should be recorded in the discharge book or Part II Order of the ex-serviceman.\n   1. Assistance will not be provided to more than two members of the same family, including the ex-serviceman.\n   1. A valid recommendation from the District Sainik Welfare Officer (DSWO) is mandatory.",
+  "_criteria_filled": 2
+}

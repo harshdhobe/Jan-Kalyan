@@ -1,0 +1,32 @@
+{
+  "id": "mukhya-mantri-shahri-ajeevika-guarantee-yojna",
+  "name": "Mukhya Mantri Shahri Ajeevika Guarantee Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "> **Guaranteed Employment:**\n\n  - The scheme provides guaranteed 120 days of employment to eligible beneficiaries in urban local bodies to ensure livelihood security.\n  - The ULBs shall not employ an eligible beneficiary for more than 120 days in any financial year.\n  - Employment will be given to the eligible beneficiary within 15 days of registration, failing which an unemployment allowance of ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-passport-size-photograph-front-page-of-bank-passbookindia-p",
+    "as-required"
+  ],
+  "apply_url": "http://www.ud.hp.gov.in/mukhya-mantri-shahri-ajeevika-guarantee-yojna-mmsagy",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsagy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tAll adult members of the household who register under this scheme will be eligible to work. To register they have to be:\n\n  - Local resident of the Urban Local Body. (Meaning thereby they should be residing within the jurisdiction of the Urban Local Body either in their own house or on rent).\n  - Willing to do unskilled work at projects being executed or in Sanitation Services being provided by the Urban Local Bodies.\n\n2.\tThe household will comprise of husband, wife, and their minor children. However, only adult members of the household shall be eligible to work.\n3.\tThe upper age limit for providing work shall be 65 years.\n&gt; **Permissible Activities:**\n\n1.\tAll eligible beneficiaries will be employed in the following permissible activities in ULBs:\n\n  - In any ongoing or new admissible work under any Govt. of H.P./Govt. of India scheme for which funds are available with ULB.\n  - In any admissible work under the 15th Finance Commission or 5ffi State Finance Commission for which grant-in-aid is provided to the ULBs.\n  - Sanitation Works/Services as admissible under Solid Waste Management Rules, 2016 and Swachh Bharat Mission. The sanitation works/services may include activities like street sweeping, garbage collection, processing/removal of legacy waste, waste segregation, cleaning of garbage from hill slopes or other litter points, cleaning and maintaining municipal parks, and cleaning of municipal parking.\n\n2. The Urban Local Bodies shall not start any muster-roll linked work/activity under this scheme and shall get eligible beneficiaries employed only in the works specified above (a).\n3. The Urban Local Bodies shall make enabling provisions in all new contracts to be awarded for engaging eligible beneficiaries under MMSAGY as unskilled workers by the implementing agency. For the works already awarded, the Urban Local Bodies will coordinate with the implementing agency to which the work has been awarded for engaging the registered eligible beneficiaries under MMSAGY.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-farmers-in-purchasing-nano-fertilizers-under-the-agricultural-assi",
+  "name": "Assistance to Farmers in Purchasing Nano Fertilizers Under the Agricultural Assistance Program for Farmers Other than Scheduled Castes and Scheduled Tribes",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Up to 50% of the purchased price per hectare or ₹750/- (within a maximum limit of 4 hectares per account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apnfuscst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must belong to the General category (i.e., not SC or ST).\n  - The applicant must be a resident of Gujarat.",
+  "_criteria_filled": 1
+}

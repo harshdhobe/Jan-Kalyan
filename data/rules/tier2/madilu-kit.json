@@ -1,0 +1,32 @@
+{
+  "id": "madilu-kit",
+  "name": "Madilu Kit",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "Empowerment of rural communities through skill development and entrepreneurship.\nCreation of sustainable livelihoods and reduction of poverty.\nEnhancement of social and economic well-being in rural areas.\nIncreased income-generating opportunities for participants.\nAccess to micro-financing options and market linkages.\nPromotion of gender equality and social inclusion.\nStrengthening of rural econom",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "completed-application-form-obtained-from-the-madilu-programme-website-or-rural-d",
+    "aadhaar-card",
+    "passport",
+    "or-voter-id-proof-of-residence-eg",
+    "utility-bill",
+    "ration-card",
+    "or-land-ownership-document-educational-certificates-or-qualifications-if-applica"
+  ],
+  "apply_url": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kmea.karnataka.gov.in/storage/pdf-files/Reports%20and%20other%20docs/Madilu%20Tor.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/madilu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individuals residing in rural areas are eligible to participate.\n- Participants should have a willingness to learn and engage in skill development activities.\n- There is no age restriction for participation in the program.\n- Both men and women are encouraged to apply.\n- Participants should demonstrate an interest in entrepreneurship and improving their livelihoods",
+  "_criteria_filled": 1
+}

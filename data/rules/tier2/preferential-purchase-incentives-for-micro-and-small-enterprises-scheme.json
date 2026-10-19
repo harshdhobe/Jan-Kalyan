@@ -1,0 +1,30 @@
+{
+  "id": "preferential-purchase-incentives-for-micro-and-small-enterprises-scheme",
+  "name": "Preferential Purchase Incentives for Micro and Small Enterprises Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Micro and Small Enterprises shall be allowed to match the lowest tender price floated by non-Small Scale Units provided its quoted price is within 15% of the lowest quoted price floated by Non-Micro and Small Enterprises.\n1. In case of more than one Micro or Small Enterprises falling within the range, the lowest one shall be preferred.\n1. In case of contractual tenders for installation, commiss",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-registration-or-acknowledgment-with-entrepreneurs-memorandum-ii-from-t",
+    "trade-and-commerce-proof-of-turnover-not-exceeding-6",
+    "00",
+    "00",
+    "000-per-annum-for-the-last-preceding-3-financial-years"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppimses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme applies to Micro and Small Scale Enterprises.\n- The enterprise should have a turnover not exceeding ₹6,00,00,000/- per annum for the preceding 3 financial years.\n- The enterprise should be permanently registered or acknowledged with Entrepreneurs Memorandum II by the Directorate of Industries, Trade and Commerce.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "stipend-to-scheduled-caste-trainees-in-technical-training-institutions",
+  "name": "Stipend to Scheduled Caste Trainees in Technical Training Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "1.\tUnder this scheme, a stipend is paid at the rate of ₹170/- per month per trainee for the whole period of training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-ie-aadhaar-card-2-passport-size-photograph-3-educational-docume",
+    "as-required"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/stipend-sc-trainees-technical-training-institutions",
+  "source_url": "https://www.myscheme.gov.in/schemes/sscttti",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidates/trainees who are undergoing training in the Government Technical Training Institutions of the Union Territory of Puducherry are eligible to apply under the scheme.\n   1. The candidate should belong to the Scheduled Caste community.\n   1. There is no income limit to apply under the scheme.",
+  "_criteria_filled": 1
+}

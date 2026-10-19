@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-assistance-to-micro-small-and-medium-enterprises-msme-financial-suppo",
+  "name": "Scheme for Assistance to Micro, Small and Medium Enterprises (MSME): Financial Support to MSMEs in ZED Certification",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** MSMEs receive a subsidy of 50% of certification charges, up to a maximum of ₹50,000/-.  - **Quality Enhancement:** Encourages MSMEs to improve product quality and adopt advanced manufacturing techniques.  - **Energy Efficiency:** Promotes the use of energy-efficient manufacturing processes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspartnersdirectors",
+    "and-authorized-signatory-copy-of-gst-registration-if-applicable-copy-of-ca-certi"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmezed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must be in the manufacturing sector.\n   1. The MSME should apply for ZED certification under the scheme.\n   1. The MSME must comply with government environmental and quality regulations.",
+  "_criteria_filled": 1
+}

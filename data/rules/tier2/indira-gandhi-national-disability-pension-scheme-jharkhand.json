@@ -1,0 +1,41 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme-jharkhand",
+  "name": "Indira Gandhi National Disability Pension Scheme - Jharkhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a monthly pension of ₹1000/- (Central contribution- ₹300/-, State Contribution- ₹700/-). \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-self-declaration-if-an-aadhaar-card-is-not-available-voter-id-ca"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO00628062023123755029",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndpsj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the applicant should be 18 years or above.\n1. The applicant&#39;s name should be included in the list of families living Below Poverty Line.\n1. The applicant should be suffering from severe or multiple disabilities [(Rights of Persons with Disabilities Act, 2016 &amp; Section-2.](https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO00628062023123755029)1. The applicant should not be receiving pension benefits from any other Central or State Government pension scheme (Chief Minister State Widow Honor Pension Scheme (formerly State Widow Honor Pension Scheme), Chief Minister State HIV/AIDS Affected Person Sahayataarth Pension Scheme (formerly State Security Pension Scheme for HIV/AIDS Affected Persons) and Swami Vivekanand Disabled Self-Reliance Promotion Scheme).",
+  "_criteria_filled": 4
+}

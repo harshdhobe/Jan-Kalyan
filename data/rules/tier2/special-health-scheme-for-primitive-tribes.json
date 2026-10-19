@@ -1,0 +1,26 @@
+{
+  "id": "special-health-scheme-for-primitive-tribes",
+  "name": "Special Health Scheme for Primitive Tribes",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Focused healthcare services for primitive tribal communities.\n- Distribution of funds to districts such as Dumka, Sahebganj, Pakur, and Godda.\n- Utilization for better medical facilities, treatments, and preventive care programs.\n- Priority to regions with high tribal populations and pressing health needs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-cardvoter-iddriving-license-proof-of-residence-ration"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D030DO004SD001115012019054624647",
+  "source_url": "https://www.myscheme.gov.in/schemes/shspt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to a primitive tribal community.\n1. The applicant should reside in districts covered under the scheme, including Dumka, Sahebganj, Pakur, and Godda.",
+  "_criteria_filled": 1
+}

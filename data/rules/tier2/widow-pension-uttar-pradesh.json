@@ -1,0 +1,41 @@
+{
+  "id": "widow-pension-uttar-pradesh",
+  "name": "Widow Pension - Uttar Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "Financial Assistance : ₹1,000/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "colored-passport-size-photo-age-related-certificate-educational-recordsprovided"
+  ],
+  "apply_url": "https://sspy-up.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/wpup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Uttar Pradesh state.\n1. The applicant&#39;s husband has died.\n1. The age of the applicant should not be less than 18 years.\n1. The annual income of the applicant and her family from all sources should not exceed  ₹ 2,00,000/-",
+  "_criteria_filled": 4
+}

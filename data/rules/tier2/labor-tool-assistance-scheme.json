@@ -1,0 +1,31 @@
+{
+  "id": "labor-tool-assistance-scheme",
+  "name": "Labor Tool Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Tool kit",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "training-certificate-registration-card-bank-passbook-photo-copy"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3d395771085aab05244a4fb8fd91bf4ee/uploads/2018/05/2018051923.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ltas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. &#39;This scheme will be provided to construction workers who are registered in any district of the state.\n1. The age of the registered worker should not be less than 18 years.\n1. A worker registered under the scheme can avail the help of tools of only one trade.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": "financial-aid-for-providing-hostel-facility-to-transgender-students",
+  "name": "Financial Aid For Providing Hostel Facility To Transgender Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "Under the scheme, financial assistance of ₹4,000/- per month will be provided to Transgender students as rent for finding hostel facilities/accommodation during the course.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card",
+    "election-id-voter-id-transgender-id-card-transgender-students-who-have-not-compl",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/27306.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/faphfts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be Transgender.\n2.\tThe applicant should be a resident of Kerala.\n3.\tTransgender students pursuing courses in Government / Aided /Un-aided / Self-financing institutions can apply under this scheme.\n**Note:** During the commencement of each academic year the students have to submit a new application for getting the benefit of this scheme.",
+  "_criteria_filled": 1
+}

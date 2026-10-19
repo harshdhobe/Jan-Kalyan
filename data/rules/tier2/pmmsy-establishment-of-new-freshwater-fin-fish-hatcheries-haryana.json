@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-establishment-of-new-freshwater-fin-fish-hatcheries-haryana",
+  "name": "PMMSY: Establishment of New Freshwater Fin Fish Hatcheries-Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "> The project cost for one unit is ₹25,00,000/-.\n\n  - The subsidy will be limited to 40% of the project cost for beneficiaries belonging to the General Category.\n  - The subsidy will be limited to 60% of the project cost for beneficiaries belonging to the Scheduled Caste (SC) category or women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-the-beneficiary-and-the-fisheries-department-date-of-birt",
+    "nakal-akshizra",
+    "farad-or-registered-lease-deed-of-minimum-10-years-billsreceiptsvouchers-photogr"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=85G6ALRl37CQaeh9zdXMlw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/enffhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchan Patra (PPP).\n1. The freshwater finfish hatchery should have a minimum capacity of 15 million fry per year per unit or 6.00 crore spawn per year per unit.\n1. The hatchery should have a minimum area of 0.50 hectares.\n1. The fish hatchery should be managed by qualified technical staff.\n1. The applicant will ensure the supply of seed produced from the centrally assisted hatcheries to farmers at an affordable and reasonable price.\n1. The fish hatchery will include a brooder pond, nursery ponds, rearing tanks, a small laboratory, water and electric supply, and required infrastructure facilities.\n1. The cost of accreditation of the hatchery must be mandatorily included in the project estimates.\n1. The projects having land on long-term registered lease will also be considered for Central financial assistance under the scheme.\n1. The lease period or agreement shall not be less than a minimum period of 10 years.\n1. The applicant, having their own land, must furnish revenue records with a clear land title.",
+  "_criteria_filled": 1
+}

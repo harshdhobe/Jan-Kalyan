@@ -1,0 +1,31 @@
+{
+  "id": "mukhya-mantrir-nijut-moina-aasoni",
+  "name": "Mukhya Mantrir Nijut Moina Aasoni",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "> **Financial Assistance**\n\n- Higher Secondary (Class 11-12): ₹1,000 per month for maximum 10 months totaling ₹10,000 per year.\n- Graduation (Bachelor of Arts/Bachelor of Science/Bachelor of Commerce): ₹1,250 per month for maximum 10 months totaling ₹12,500 per year.\n- Post-Graduation (Master of Arts/Master of Science/Master of Commerce/Bachelor of Education): ₹2,500 per month for maximum 10 month",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "at-time-of-applicationidentity-card-government-issued-identity-proof-original-an"
+  ],
+  "apply_url": "https://assamadmission.samarth.ac.in/index.php/site/index",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmnm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a girl student domiciled in Assam irrespective of economic status.\n- The applicant must be enrolled in government and venture educational institutions for Higher Secondary, Graduation (Bachelor of Arts/Bachelor of Science/Bachelor of Commerce), or Post-Graduation (Master of Arts/Master of Science/Master of Commerce/Bachelor of Education) courses.\n- The applicant must be a regular student (no correspondence or part-time students).\n- The applicant must be unmarried except for those enrolled in Post-Graduation and Bachelor of Education categories.\n- The applicant must maintain institutional discipline and adhere to all rules and regulations.\n- The applicant must attend classes regularly and maintain 75% attendance for existing beneficiaries.\n\n<br>",
+  "_criteria_filled": 2
+}

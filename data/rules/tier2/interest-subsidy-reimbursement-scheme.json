@@ -1,0 +1,26 @@
+{
+  "id": "interest-subsidy-reimbursement-scheme",
+  "name": "Interest Subsidy Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. Up to 3 projects that show immense promise and potential, as recommended by the Startup Promotion Cell, will be eligible for a grant of 30% of the loan interest amount, for the purpose of repayment of the interest component of a loan availed, up to ₹ 5,00,000 per annum, for an initial period of two years only. \n1. Other Startups shall be eligible for an interest repayment grant of 10% of the in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-the-aadhaar-card-of-the-director-ceo-2-copy-of-bank-loan-statement-sho"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All the Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number are eligible to apply for this scheme.\n**NOTE:** Only expenditures incurred after notification of Goa Start-up Policy 2017 within the validity of this policy and paid for digitally would be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the decision of SPC as per its due diligence to admit the expenditure.",
+  "_criteria_filled": 1
+}

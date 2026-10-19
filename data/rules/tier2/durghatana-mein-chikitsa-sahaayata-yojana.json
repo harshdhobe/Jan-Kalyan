@@ -1,0 +1,26 @@
+{
+  "id": "durghatana-mein-chikitsa-sahaayata-yojana",
+  "name": "Durghatana Mein Chikitsa Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- To the registered beneficiaries, medical assistance of ₹ 20,000/- or the actual expenditure incurred on the treatment, whichever is less, will be provided.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-bank-account-details-hospital-certif"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/ApplicationSchemes.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmcsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Chhattisgarh state.\n1. It is mandatory for construction workers to be registered in any district.\n1. Must have completed 90 days as a laborer in the board.",
+  "_criteria_filled": 1
+}

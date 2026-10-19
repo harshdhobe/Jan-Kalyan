@@ -1,0 +1,64 @@
+{
+  "id": "transport-loan-scheme",
+  "name": "Transport Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "The scheme provides **term loans up to ₹5,00,000/-** for the purchase of Light Motor Vehicles (LMVs).\n_*The loan is recovered in 60 monthly installments over a period of five years, with six months as a moratorium period._\n_*Loans are disbursed subject to the completion of pre and post-sanction formalities._",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "a-pre-sanctionwith-application-05-passport-size-photographs-of-the-applicant-cop",
+    "an-affidavit-indicating-the-castereligion-is-required-however",
+    "for-safai-karamchari-category",
+    "the-following-persons-are-considered-eligible-for-availing-financial-assistance",
+    "head-of-the-government-departments-ie",
+    "schools",
+    "colleges",
+    "forest",
+    "health",
+    "education",
+    "animal-husbandry-having-rank-not-less-than-gazetted-officer",
+    "elected-members-of-municipal-body",
+    "pradhan-of-gram-panchayats",
+    "and-regional-managers-of-regional-rural-banks-rrbsnationalized-banks-however",
+    "under-the-manual-scavengers-act",
+    "2013",
+    "a-person-identified-as-a-manual-scavenger-in-a-survey-need-not-provide-any-certi",
+    "nand-nagari-mangol-puri-of-the-corporation-however",
+    "the-same-can-be-downloaded-from-the-official-website-of-the-corporation-ie-httpd",
+    "00",
+    "000-electronic-clearing-service-ecs-mandate-form-duly-filled-in-the-prescribed-f",
+    "guarantors",
+    "witnesses",
+    "and-scheme-in-charge-dealing-assistant"
+  ],
+  "apply_url": "https://dsfdc.delhi.gov.in/sites/default/files/tpt_app_prof_1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tls-delhi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis.\n- The applicant should be a permanent resident of Delhi.\n- The applicant’s age should be between 18 to 45 years.\n- The annual family income of the applicants (under Scheduled Caste, Other Backward Classes &amp; Minority category) from all sources should not exceed ₹1,20,000/- per annum.\n- For the creamy layer of the Minority category, the maximum income ceiling is ₹6,00,000/- per annum. \n- There is no income limit prescribed under the Safai Karamchari category.\n- Bonafide valid commercial driving licence &amp; badge required (Light Motor Vehicle).\n- The applicant should have not been declared as a defaulter under any scheme of DSFDC, Nationalized Bank, Financial Institution, or Co-operative Bank etc.",
+  "_criteria_filled": 4
+}

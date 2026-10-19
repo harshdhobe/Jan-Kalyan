@@ -1,0 +1,62 @@
+{
+  "id": "scheme-for-financial-assistance-for-veteran-artists",
+  "name": "Scheme For Financial Assistance For Veteran Artists",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Under the scheme, a total allowance of ₹6000/- per month will be given to an eligible beneficiary.\n   1. In case of the death of a beneficiary getting an artist pension, the financial assistance may be transferred, at the discretion of the Central Government, in the name of the spouse of the beneficiary till life.\n\n**Note 01:** The monthly allowance contributed by the State Government/UT Admini",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      }
+    ]
+  },
+  "documents": [
+    "a-recent-not-older-than-six-months-clear-colored-passport-size-photograph-of-the",
+    "self-attested-copy-of-any-one-document-from-the-following-listed-documents-for-a",
+    "electors-photo-identity-card",
+    "passport",
+    "driving-license",
+    "electricity-bill",
+    "landline-telephone-or-broadband-connection-bill",
+    "water-bill",
+    "consumer-gas-connection-card-or-book-or-piped-gas-bill",
+    "bank-account-statement",
+    "domicile-certificate-issued-by-the-government",
+    "passport-of-the-spouse",
+    "post-office-passbook-having-an-address-of-the-applicant",
+    "property-registration-document-self-attested-copy-of-any-one-document-from-the-f",
+    "pan-card",
+    "electors-photo-identity-card",
+    "passport",
+    "driving-license",
+    "birth-certificate-issued-by-the-municipal-authority-or-any-office-authorized-to",
+    "marriage-certificate-issued-by-registrar-of-marriages",
+    "matriculation10th-class-certificate-or-mark-sheet-of-recognized-board",
+    "domicile-certificate-issued-by-the-government-self-attested-copy-of-aadhaar-card",
+    "culture",
+    "etc",
+    "or-awards",
+    "recognition",
+    "or-distinction-received-by-the-applicant-from-centralstate-governmentunion-terri",
+    "documentary-proof-to-support-that-the-late-beneficiary-was-getting-artistes-pens",
+    "legal-heir-certificate-in-the-prescribed-proforma-issued-by-the-competent-author",
+    "self-attested-copy-of-the-digital-life-certificate-dlc-of-the-spouse-processed-t",
+    "self-attested-copy-of-aadhaar-card-of-spouse-issued-by-uidai",
+    "self-attested-copy-of-any-document-in-support-of-address-proof-of-the-spouse-an"
+  ],
+  "apply_url": "https://indiaculture.gov.in/sites/default/files/Schemes/Application_for_Scheme_for_Financial_Assistance_for_Veteran_Artists_09112022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfava",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. To be eligible for assistance under the Scheme, a person&amp;#39;s contribution to art and letters, etc. must be of significance.\n   1. Traditional scholars who have made significant contributions in their fields would also be eligible notwithstanding the absence of any published works.\n   1. The personal income of the applicant (including the income of the spouse) must not exceed ₹4,000/- per month or an annual income of ₹48,000/-. [This excludes artiste pension assistance amount already getting by a beneficiary from the Government (i.e. concerned State Govt./UT Administration and/or Ministry of Culture)]\n   1. The applicant should not be less than 60 (sixty) years of age (This does not apply in the case of a spouse).\n   1. The applicant artiste is getting a pension of at least ₹500/- per month from the concerned State Government/UT Administration or is recommended by the Zonal Cultural Centres, Ministry of Culture, for the artists of their Members State where State Pension is not there.\n   1. The applicant artists should not be getting financial assistance under other Schemes of the Ministry viz. Repertory Grant etc.",
+  "_criteria_filled": 2
+}

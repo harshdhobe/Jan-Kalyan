@@ -1,0 +1,41 @@
+{
+  "id": "indira-gandhi-national-disability-pension-scheme-punjab",
+  "name": "Indira Gandhi National Disability Pension Scheme (Punjab)",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "- Pension is Rs. 300/- per month (age 18-79 year)\n- Pension is Rs. 500/- per month (age 80 and above year)",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 80
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-voter-id-card-driving-license-disability-certificate-proof-of-age"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/indira-gandhi-national-disability-pension-scheme-igndps-0",
+  "source_url": "https://www.myscheme.gov.in/schemes/igndpsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Punjab.\n   1. The applicant should be a person with a disability.\n   1. The percentage of the disability should be 80% or more.\n   1. The applicant’s age should be between 18 and 80 years.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,41 @@
+{
+  "id": "divyang-shiksha-protsahan-yojana",
+  "name": "Divyang Shiksha Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> Financial assistance : ₹ 600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "three-photos-certificate-to-confirm-age-certificate-of-disability-9-digit-compos"
+  ],
+  "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should Be a native of Madhya Pradesh.\n1. Disabled persons aged between 6 years to 18 years.\n1. The applicant&#39;s percentage of disability is 40 or more.\n1. The name should be mentioned on the Samagra portal and verified on the Sparsh portal.",
+  "_criteria_filled": 4
+}

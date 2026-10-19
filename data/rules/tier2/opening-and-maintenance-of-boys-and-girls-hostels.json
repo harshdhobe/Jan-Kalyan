@@ -1,0 +1,29 @@
+{
+  "id": "opening-and-maintenance-of-boys-and-girls-hostels",
+  "name": "Opening and Maintenance of Boys and Girls Hostels",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Free Lodging.\n- Free Boarding.\n- Cash Payment in Lieu of 2 Pairs of Clothing.\n- Conveyance Charges for 6 Times (3 Down and 3 Up) in a Year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-caste-certificate-recent-passport-size-photogr",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ombgh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be from a Scheduled Caste.\n1. The applicant should be a Student.\n1. The applicant should be a Native/Resident of the Union Territory of Puducherry for not less than 5 years.\n1. For Other Economically Backward Classes, the Income of the parent/guardian should not exceed ₹ 75,000/-.\n1. The Parent/Guardian of the applicant should not be living within a radius of 5 km from the hostel.",
+  "_criteria_filled": 1
+}

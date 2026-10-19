@@ -1,0 +1,32 @@
+{
+  "id": "fishing-ban-period-assistance-under-welfare-and-relief-for-fishermen-during-lean",
+  "name": "\"Fishing Ban Period Assistance\" under \"Welfare and Relief for Fishermen During Lean Seasons and Natural Calamities Scheme\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "100 kgs. of rice and a cash dole at ₹ 750/- per fishermen&#39;s family during the period of ban on fishing during the year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-of-the-first-page-of-the-passbook-of-the-bank-account-red-ratio",
+    "puducherry-identity-card-issued-by-the-director-of-fisheries-and-fishermen-welfa"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/ban-relief-application003.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wrflsncs-fbps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an ordinarily resident of the Union territory of Puducherry.\n- The applicant should be a fisherman.\n- The applicant should belong to a group designated to be &quot;Below Poverty Line&quot;.\n- *Beneficiary shall also be considered based on the decisions taken periodically by the Governing Body of the Pondicherry Fishermen Welfare and Distress Relief Society.\n- The applicant should not be ordinarily residing in any foreign nation during the natural calamity, lean season, or ban on the fishing period for which relief assistance is issued.\n- The beneficiary or any other members of the ration card should not be in regular service in the Government/Quasi Government/Government undertakings/Retired Government Pensioner.\n\n*** The benefit under this scheme shall not be denied only on the ground that the head of the family or family member is a recipient of Old Age Pension (OAP);**\n*** The benefit under this scheme shall not be restricted on the ground that the fisherman is in possession of mechanized or motorized or traditional fishing boats or is not in possession of the said fishing boats.**",
+  "_criteria_filled": 2
+}

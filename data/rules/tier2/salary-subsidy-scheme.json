@@ -1,0 +1,27 @@
+{
+  "id": "salary-subsidy-scheme",
+  "name": "Salary Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "The subsidy would be provided as a matching grant to the salary paid to Freshers up to ₹ 10,000 per Fresher per month (₹ 12,500 for Female Freshers) for 2 continuous years of operation post the notification of this policy. \n**NOTE 1:** The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar-and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-first-bil"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/sss-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the new and existing units must have their operations in Goa.\n2. The applicant must be one of the below:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n3. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n4. The bank accounts of Freshers should be linked to Aadhaar.\n5. The subsidy is valid for Freshers who have been employed for a minimum period of one year.\n6. For the purpose of implementation of this incentive, individuals who have worked for more than two years before pursuing post-graduation are not considered freshers. \n7. In instances where the individual has less than two years of experience prior to the Post graduation, the individual is considered as a fresher, however, the time duration for the individual is considered as a fresher is calculated on a prorate basis.",
+  "_criteria_filled": 1
+}

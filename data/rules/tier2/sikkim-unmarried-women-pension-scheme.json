@@ -1,0 +1,47 @@
+{
+  "id": "sikkim-unmarried-women-pension-scheme",
+  "name": "Sikkim Unmarried Women Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "A monthly pension of ₹ 2,000/- per beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 45
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photographs-3-number-attested-photocopy-of-sikkim-subject-c",
+    "caste-certificate-attested-photocopy-of-the-below-poverty-line-certificate-birth"
+  ],
+  "apply_url": "https://pensionscheme.sikkim.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/suwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of the state of Sikkim.\n1. The applicant should be a woman.\n1. The applicant should be unmarried.\n1. The applicant should be from Below Poverty Line (BPL) family.\n1. The applicant should be in the 45-59 years age group.\n1. The applicant should not have any source of income.",
+  "_criteria_filled": 5
+}

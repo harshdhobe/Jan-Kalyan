@@ -1,0 +1,35 @@
+{
+  "id": "punjab-farm-tourism-scheme",
+  "name": "Punjab Farm Tourism Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "The Farm Stay Scheme will provide the following benefits to the registered owners of the property:\n\n   1. A useful source of additional income to the farm owners of the registered Farm Stay units.\n   1. Registered Farm stay units shall be allowed to use Punjab Tourism Logo on their sign boards. \n   1. The benefit in terms of support from the Department of Tourism (DoT)/Punjab Heritage and Tourism ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "checklist-of-facilities-duly-filled-annexure-ii-signed-declaration-annexure-iii",
+    "if-any-annexure-iv-coloured-photographs-of-the-property-and-the-rooms-proposed-t",
+    "driving-license",
+    "voter-card",
+    "ration-card",
+    "pan-card",
+    "identity-card-issued-by-centrestate-governmentpsu-in-case-of-government-employee",
+    "pensioners-card",
+    "freedom-fighter-card-any-one-of-these",
+    "proof-of-ownership-noc-self-attested-proof-of-having-paid-the-necessary-fee"
+  ],
+  "apply_url": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=RIsxLjrZ3Z&message=Successfully+logged+out&OWASP_CSRFTOKEN=5RH4-0KQF-9ZM5-MNHP-87A2-R662-KB75-2Y8Y",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The registration of the Farm Stay units shall be done in two categories:** ***Gold Category &amp;amp; Silver Category***\n&gt; **Eligibility for Gold category:**\n\nThe Farm stay units having:\n\n   1. An area of more than 5 acres with comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per standards prescribed in A[nnexure-II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme guidelines.   1. Facility for providing cooked meals for the tourists.\n   1. Facility for hygienic storage of the food.\n   1. Facility can be managed by a Manager also.\n\n&gt; **Eligibility for Silver Category:**\n\nThe Farm Stay units having:\n\n   1. An area up to 5 acres having comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per the standards prescribed in [Annexure - II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme guidelines.   1. Facility for provision of cooked meals for the tourists.\n   1. Facility for hygienic storage of the food.\n   1. Facility to be operated by owner only.\n   1. The unit can be run in any existing house in a village also. \n\n&gt; **Other General Conditions:**\n\n   1. Tariffs charged under the scheme shall be at the discretion of the Registered Farm stay unit owner. The registered owner shall specify the rates for stay, food, and other activities, that he may be providing.\n   1. Every registered unit must be furnished and decorated to a high standard of comfort suitable for international and domestic tourists.\n   1. Every bedroom must have a neat &amp;amp; clean attached bathroom, 24-hour hot and cold running water facility, Western-style toilet, and adequate arrangements for power supply and backup, ventilation, and lighting facility.\n   1. The building should be structurally safe and in good condition and should also meet high standards of hygiene, cleanliness, and safety.\n   1. The tourists should also be allowed to venture out in the fields during their stay in the unit.\n\n&gt; **Compliance by the registered Farm Stay units:**\n\n   1. The registered Farm Stay unit will be required to maintain. The standards as prescribed in [Annexure -II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme at all times. The Chief Executive Officer, PHTPB, or any other officer authorized by the Government can conduct a surprise inspection of the unit at any time between 9.00 am to 5.00 pm without any prior notice.   1. Any change in the facilities of the Farm stay unit will have to be informed to the Chief Executive Officer within 30 days of such change.\n   1. The owner of the Registered Farm stay shall be responsible for providing due assistance to the visitor for transport and medical help in case of any medical emergency. In case of any loss, sustained by the guests or tourists due to the negligence of the farm stay owner or his staff, he/they will be compensated by the farm owners.\n   1. The registered Farm stay owner shall be responsible for strictly adhering to the rules and regulations of the other departments/ agencies of the Government, as may be applicable.",
+  "_criteria_filled": 1
+}

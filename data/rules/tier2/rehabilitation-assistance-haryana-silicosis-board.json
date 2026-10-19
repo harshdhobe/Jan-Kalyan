@@ -1,0 +1,32 @@
+{
+  "id": "rehabilitation-assistance-haryana-silicosis-board",
+  "name": "Rehabilitation Assistance- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a one-time assistance of ₹5,00,000/- will be given to silicosis-affected workers upon confirmation by the Silicosis Diagnosis Board.\n   1. In case of the death of a worker before receiving the rehabilitation assistance after confirmation of Silicosis, the assistance shall be payable to:\n\n  - Widow/ widower if the worker was married or\n  - To one of the living parents if the w",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-silicosis-board-aadhaar-ca",
+    "ct-scan",
+    "medical-prescription",
+    "any-other-general-document-esi-card",
+    "any-other-work-experience-document-proof-of-residence-ration-card-bank-account-d",
+    "in-case-of-death-of-silicosis-affected-worker-before-receiving-the-said-assistan",
+    "in-case-of-death-of-silicosis-affected-worker-copy-of-bank-pass-book-medical-rec"
+  ],
+  "apply_url": "https://hrylabour.gov.in/login/silicosis",
+  "source_url": "https://www.myscheme.gov.in/schemes/ra-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any worker confirmed by the Silicosis Diagnosis Board, Haryana as suffering from silicosis shall be eligible for assistance under the scheme.\n   1. If the worker dies before receiving the rehabilitation assistance after confirmation of silicosis, the assistance shall be payable to the widow or widower if the worker was married, or to one of the living parents if the worker was unmarried.\n   1. The worker should be registered with the Haryana Silicosis Board.\n   1. The worker should be employed in a factory or at a construction site.\n\n**Note:** Any worker suffering from Silicosis and confirmed by the Silicosis Diagnosis Board shall be issued an Identity Card by the Haryana Labour Welfare Board.",
+  "_criteria_filled": 1
+}

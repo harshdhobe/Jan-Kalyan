@@ -1,0 +1,41 @@
+{
+  "id": "indira-mahila-shakti-prashikshan-evam-kaushal-sanvardhan-yojna-rs-cit",
+  "name": "Indira Mahila Shakti Prashikshan Evam Kaushal Sanvardhan Yojna -RS-CIT",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Free basic computer training for women and girls, general information about MS Word, MS Excel, MS PowerPoint, email, etc. is given. Training will be given through RKCL ( Rajasthan Knowledge Corporation Limited).**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-identity-card-income-certificate-age-certificate-address-proof-class"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/W_CD/RSCIT/DOC_696_6e94af70-f6f5-4882-bcee-af379e75a7ac.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/imspeksyrc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant is a native citizen of Rajasthan.\n   1. Only women of the state will be considered eligible for the scheme.\n   1. Only girls and women between the ages of 16 years to 40 years will be considered eligible for the scheme.\n   1. Widow/divorced/abandoned women suffering from violence be given priority.\n   1. The applicant trainees who have passed class 10th from a government school and are graduates.\n   1. The applicant  Anganwadi worker must be a Graduate.",
+  "_criteria_filled": 4
+}

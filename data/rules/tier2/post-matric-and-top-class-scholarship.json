@@ -1,0 +1,36 @@
+{
+  "id": "post-matric-and-top-class-scholarship",
+  "name": "Post Matric and Top Class Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Hostel students receive a subsistence allowance of ₹1,200 per month.\n1. Non-hostel residents are provided with a subsistence allowance of ₹650 per month.\n\n> **Reimbursement of mandatory and non-refundable fees.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bank-account-statement-mark-sheet-address-proof-proof-of-income-proo"
+  ],
+  "apply_url": "https://highereducation.mp.gov.in/?page=PIK13eM0ZDUED%2BjPLO%2B%2Fog%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmatcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant Should be studying in graduate/post-graduate courses.\n1. The maximum annual income of the guardian should be ₹2,50,00/- for post-matric and ₹6,00,000/- for top class.\n1. The applicant has 40 percent or more disability.",
+  "_criteria_filled": 3
+}

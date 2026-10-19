@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-assistance-to-msmes-for-market-development",
+  "name": "Scheme for Assistance to MSMEs for Market Development",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial assistance for participation in fairs/exhibitions:**\n**S. No.****Type of Event****Financial Assistance**1Participation in National/International Fairs/Exhibitions in Rajasthan₹37,500/- or 75% of the stall rent per event, whichever is less, for a maximum of 3 events in a financial year.                      (Actual Fare of 3-AC Class Train or AC Bus for 2 persons)2Participation in Natio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-business-registration-udyam-registration-event-brochureinvitation-lette"
+  ],
+  "apply_url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmemd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**All MSMEs existing anywhere in Rajasthan will be required to comply with the following conditions to avail benefits under the scheme:**\n\n   1. The enterprise will be required to have Udyam Registration Certificate (URC) as per MSME Development Act 2006\n   1. The selection of MSME units would be done by Department of Industries and Commerce as per display product profile, theme of the fair and its relevance.\n   1. Participation in Government/ Government agency/(ies) sponsored/ approved Fairs/Exhibitions as well as Fairs/ Exhibitions approved by Export Promotion Councils (under Ministry of Commerce &amp;amp; Industry, GoI) will be eligible for the claim to be made under the scheme.\n\nNote: Preference shall be given to participants/units who have not availed of the benefits under this scheme.",
+  "_criteria_filled": 1
+}

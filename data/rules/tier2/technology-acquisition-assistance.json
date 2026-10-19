@@ -1,0 +1,26 @@
+{
+  "id": "technology-acquisition-assistance",
+  "name": "Technology Acquisition Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**One-time Reimbursement Assistance:**\n\n- Up to 50% of the cost incurred for technology/software acquisition.\n- Maximum assistance limit: ₹5,00,000/- per unit.\n\n**MSEs may acquire technology/software from premier national institutes like:**\n\n- Indian Institute of Science (IISc)\n- Indian Institutes of Technology (IITs)\n- National Institutes of Technology (NITs)\n- National Institutes of Design (NIDs",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-ur-certificate-certificate-of-incorporationpartnershi"
+  ],
+  "apply_url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/taa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**All Micro and Small Enterprises existing anywhere in Rajasthan will be required to comply with the following conditions to avail benefits under the scheme:**\n\n   1. The enterprise will be required to have Udyam Registration Certificate (URC) as per MSME Development Act 2006.\n   1. The acquisition of technology can be in any form, including purchase of drawing and design/ plant/ machinery/ software etc.\n   1. Acquired technology should be related to the production/ manufacturing process of the enterprise.\n   1. The applicant should clearly demonstrate improvement in performance due to technology acquisition. Mere purchase of machinery and technology will not be considered as technology acquisition.\n   1. The enterprise should be in commercial production at the time of disbursement and the assistance shall not be released to the closed unit.\n   1. Acquisition of multiple machines of similar nature will not be entertained under the scheme. Only one machine will be eligible for the assistance under the scheme in such cases.\n   1. The improvement in performance due to technology acquisition can be demonstrated as follows:\n\n  - An increase of at least 10% in Production Rate (Number of units produced/Total time taken); or\n  - A decrease of at least 5% in Cycle Time (Net Production Time/ Number of Units Produced); or\n  - A decrease of at least 2.5% in Rejection Rate (Number of units rejected/ Total number of units produced); or\n  - A decrease of at least 10% in waste generation (Quantity of waste generated/ Quantity of relevant raw material used)\n\n**Note 1:** Improvement in performance to be certified by Chartered Engineer.\n**Note 2:** The average values of the above-mentioned indicators calculated three (3) months prior to technology acquisition will be compared with the average values calculated three (3) months post the deployment &amp;amp; commissioning of technology to demonstrate the performance improvement.",
+  "_criteria_filled": 1
+}

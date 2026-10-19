@@ -1,0 +1,36 @@
+{
+  "id": "advanced-training-in-handicrafts-component-of-the-development-of-handicrafts-sch",
+  "name": "\"Advanced Training in Handicrafts\" Component of the \"Development of Handicrafts\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Course Fee:** as Prescribed by the Training Institution.- **Stipend:** ₹2,500/- Per Month Per Trainee.- **Accommodation Charges:** ₹500/- Per Month Per Trainee.- **Travelling Allowance:** Restricted to to-and-fro 2nd Class (Berth) Train Fare.- **Period of Training:** As Prescribed by the Training Unit/institution.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-residential-certificate-proof-of-age-educational-certificatesm"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/atihcdohs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be between 18 and 35 years of age.\n- The applicant should be a native of the Union Territory of Puducherry or a continuous resident for the past three years.\n- The applicant should possess the education qualification as required by the Training Unit/Institution.",
+  "_criteria_filled": 3
+}

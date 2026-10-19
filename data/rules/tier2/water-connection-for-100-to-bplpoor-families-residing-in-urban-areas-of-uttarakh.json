@@ -1,0 +1,26 @@
+{
+  "id": "water-connection-for-100-to-bplpoor-families-residing-in-urban-areas-of-uttarakh",
+  "name": "Water Connection for ₹100 to BPL/Poor Families Residing in Urban Areas of Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, a water connection is provided for a nominal fee of ₹100/- to eligible beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bpl-certificate-or-income-certificate-proof-of-ownership-or-constru"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wcbplpfruauk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of an urban area in Uttarakhand.\n   1. The applicant’s family must belong to a BPL (Below Poverty Line) or economically weaker category.\n   1. The applicant must own a plot of land measuring up to 100 square meters and have constructed, be constructing, or plan to construct a building on the same plot; such applicants will be eligible for a water connection at ₹100/-.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "kanyadaan-scheme-hbocwwb",
+  "name": "Kanyadaan Scheme (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, registered workers are being provided financial assistance of ₹51,000/- as Kanyadaan on the marriage of their daughters.\n\n**Note:** Financial assistance of ₹50,000/- is also provided by the Board for arranging the marriage of the daughter of a registered worker, for which a separate online application is mandatory. Hence, ₹51,000/- (Kanyadaan Scheme) + ₹50,000/- on the marria",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/kshbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be registered under the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year’s regular membership.\n   1. The registered member must have worked for 90 days as a Building and Other Construction Worker during the preceding twelve months.\n   1. The worker must have paid up-to-date contributions.\n   1. The benefit is payable upto the marriage of three daughters only.\n   1. The applicant should submit all the documents within one year after the marriage.\n   1. The applicant should not avail of this assistance from any other government department/board/corporation.\n\n**Note 01:** The worker has to produce a work experience certificate duly verified by the prescribed authorities.\n**Note 02:** The worker has to upload the Marriage Certificate of the daughter.\n**Note 03:** The worker/applicant shall submit the undertaking prescribed by the Board.",
+  "_criteria_filled": 1
+}

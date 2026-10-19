@@ -1,0 +1,31 @@
+{
+  "id": "commemoration-of-jubileesbirth-anniversaries-of-tiatr-artistes-of-yesteryears",
+  "name": "Commemoration of Jubilees/Birth Anniversaries of Tiatr Artistes of Yesteryears",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** An amount as fixed by the Tiatr Academy of Goa.- **Auditorium/Hall Provision:** Provision of an auditorium or hall by the Tiatr Academy of Goa to stage the programme.- **Additional Financial Assistance for Village Programmes:** An additional amount as fixed by the Tiatr Academy of Goa for hall charges or stage erection charges if the programme is held in a village.- **P",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "application-stage-no-objection-certificate-from-nearest-family-members-of-the-de",
+    "lyrics",
+    "and-names-of-artistes-aadhaar-card-self-attested-copy-permanent-account-number-c",
+    "stamped-receipt-if-amount-exceeds-5",
+    "000-photographs-of-the-function-5-copies",
+    "two-showing-tiatr-academy-of-goas-banner"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cjbatay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an organizing institution or an individual.\n- The applicant must propose a programme to celebrate jubilee/birth anniversaries of artistes of yesteryears who are no longer living.\n- The applicant must ensure the programme aims to make the younger generation aware of the contribution and sacrifices of these Tiatr artistes.\n- The applicant must ensure the programme includes the narration of the history of the life of the late artiste to whom the programme is dedicated.\n- The applicant must ensure the family members of the deceased artiste are compulsorily invited for the function.\n- The applicant must give the proposal well in advance, providing all details of the programme, including typed script and lyrics to be presented, and the names of the artistes.\n- The applicant must insert/publish/announce &quot;This programme is held in collaboration with Tiatr Academy of Goa&quot; in all advertisements, whether oral, print, or electronic media, and on banners.\n- The applicant must display the Tiatr Academy of Goa’s banner on the front side wing of the stage if it is a Tiatr, and return it after all shows.\n- The applicant must display a banner of minimum size 6ft.x10 ft. carrying the Tiatr Academy of Goa’s logo as a back drop if it is a Musical Show.\n- The applicant must discuss with the Tiatr Academy of Goa and decide about the Chief Guest/Guest of Honour well in advance.\n- The applicant must ensure the President/Vice President of the Tiatr Academy of Goa will either be the Chief Guest or Guest of Honour at the function.\n- The applicant must ensure the duration of the programme is at least 2 hours.\n- The applicant must ensure there are no adverse remarks made in any form, either written or verbal, against any Government/Individual/Institution, etc., or anything against one’s caste, creed, and religion which may lead to hurting religious sentiments.\n\n<br>",
+  "_criteria_filled": 1
+}

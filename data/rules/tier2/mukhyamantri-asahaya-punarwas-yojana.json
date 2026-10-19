@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-asahaya-punarwas-yojana",
+  "name": "Mukhyamantri Asahaya Punarwas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **One-Time Financial Assistance:**\n\n- Under this scheme, eligible women and men receive a one-time financial assistance of up to ₹2,000/-.\n\n> **Admission to Day-Care Centers and Old-Age Homes:**\n\n- Admission into day-care centers and old-age homes run by the Social Justice and Empowerment Department and funded by the state and central government.\n\n> **Provision for Pension Approval:**\n\n- If the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-any-valid-identity-proof-proof-of-residence-any-other-document-i"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=111",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmdrsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of the Rajasthan.\n1. The applicant should belong to one of the following categories:\n\n- Destitute individual with no one to care for them.\n- Individual abandoned by their parents.\n- Orphaned, destitute or completely dependent individual.\n\n**Note:** The applicant should not already be receiving benefits under pension schemes (for financial aid support).",
+  "_criteria_filled": 1
+}

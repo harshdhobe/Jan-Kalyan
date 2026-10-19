@@ -1,0 +1,31 @@
+{
+  "id": "khadi-gramodyog-vikas-yojana-gramodyog-vikas-yojana",
+  "name": "Khadi Gramodyog Vikas Yojana: Gramodyog Vikas Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "***Assistance provided under different components of Scheme:***\n***Agarbatti Programme under Wellness and Cosmetics Industries (WCI):***\n\n- Training Programme in Agarbatti industry.\n- Distribution of Pedal operated / Automatic Agarbatti Machinery to trained artisans.\n\n***Leather Footwear Activity under Handmade Paper Leather &amp; Plastic Industry (HMPLPI):***\n\n- Training on designing and manufact",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-other-government-issued-identity-proof-age-proof-document-khadi"
+  ],
+  "apply_url": "https://www.dcmsme.gov.in/ebook/MSMESchemebooklet2025-26.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gvyoj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Khadi artisan or Khadi Institution registered with KVIC or KVIB.\n1. The applicant must be between 18 to 55 years of age.\n1. The applicant must have a valid Aadhaar card or government-issued ID.\n1. One person per family is eligible under the scheme.\n1. The applicant should not have availed benefits from any other government scheme for the same purpose.\n1. Preference is given to SC/ST, women, unemployed youth, and BPL category applicants.\n1. The beneficiaries may be identified by KVIC, KVIBs, NGOs, DICs, FPOs, or Khadi Institutions.\n\n<br>",
+  "_criteria_filled": 2
+}

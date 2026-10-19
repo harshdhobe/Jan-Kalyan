@@ -1,0 +1,26 @@
+{
+  "id": "gomant-vibhushan-award",
+  "name": "Gomant Vibhushan Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "A Memento, citation and financial purse to the extent of **₹ 5,00,000/-**.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-id-proof-of-recommender-person-who-is-recommending-recommendee-biodata-p"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/sites/default/files/GOMANT%20VIBHUSHAN%20AWARD%202023-24%20ONLINE%20FORM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gva",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should possess distinguished and exceptional achievements/services in fields of activities/disciplines such as art &amp; culture, literature &amp; education, sports, medicine, social work, civil services, public affairs, trade, science &amp; engineering, industry, economics, philosophy, politics, or any other field at national &amp; international level.\n1. The applicant should be of Goan origin.\n1. No award will be presented posthumously under this scheme. However, during the process of selection if the death of such an artist occurs after the recommendation of the name, then the Task Force Committee may consider his name for an “award”, in such circumstances award will be presented posthumously.",
+  "_criteria_filled": 1
+}

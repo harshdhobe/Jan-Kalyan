@@ -1,0 +1,41 @@
+{
+  "id": "grant-of-subsidy-for-purchase-of-mangalyam-to-the-bridegroom-of-weaker-section",
+  "name": "Grant of Subsidy for Purchase of Mangalyam to the Bridegroom of Weaker Section",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹ 2,500/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-of-the-bridegroom-from-the-revenue-depart"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspmbws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The bridegroom should be above 21 years of age.\n- The bride should be above 18 years of age.\n- The bridegroom should be a native of the UT of Pondicherry.\n- The annual income of the bridegroom and his parents should be less than ₹ 24,000/­.\n- The application should be submitted 15 days before the date of marriage.",
+  "_criteria_filled": 4
+}

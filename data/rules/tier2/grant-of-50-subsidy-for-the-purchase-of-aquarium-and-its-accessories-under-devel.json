@@ -1,0 +1,31 @@
+{
+  "id": "grant-of-50-subsidy-for-the-purchase-of-aquarium-and-its-accessories-under-devel",
+  "name": "Grant of 50% Subsidy for the Purchase of Aquarium and Its Accessories under \"Development of Freshwater Aquaculture and Setting up of Aquarium, Ornamental Fish Breeding Centre\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- The department has assessed the unit cost for the aquarium and its accessories at ₹ 7,000 per unit. \n- The aquarium proposed to be issued to the beneficiaries consists of one aquarium/moulded aquarium, one stand, one power filter, one air pump, two numbers of 1’ tube lights, 10 kgs. of gravel, 9 numbers of gold fishes, 1 number of 100 grams fish food pocket and one number of scoop net.\n\n<br>\n\n> ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-identity-card-and-smart-card-resident-certificate-of-union-territory-of-p"
+  ],
+  "apply_url": "https://fisheries.py.gov.in/sites/default/files/aquarium20subsidy20notification.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspaa-dfwasaofbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of the Union territory of Puducherry by domicile or by birth.\n- The applicant should have attained 18 years of age.\n- The applicant or their family member should not have benefited under the scheme previously. \n- The applicant should possess a pucca house/commercial place to keep an aquarium.",
+  "_criteria_filled": 2
+}

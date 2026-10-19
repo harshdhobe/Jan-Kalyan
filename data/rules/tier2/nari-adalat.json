@@ -1,0 +1,26 @@
+{
+  "id": "nari-adalat",
+  "name": "Nari Adalat",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Grievance Redressal Support:**\n\n- Provides an alternative dispute resolution platform at the local level.\n- Addresses cases related to harassment, domestic violence, property disputes, and social issues.\n\n> **Counselling and Mediation:**\n\n- Offers counselling, negotiation, and mediation services.\n- Ensures resolution through mutual consent and evidence-based approach.\n\n> **Awareness Generation",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "as-requireddirected-by-the-authority"
+  ],
+  "apply_url": "https://missionshakti.wcd.gov.in/public/documents/whatsnew/SOP_for_Nari_Adalat.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nari-adalat",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Beneficiaries:**\n\n- The applicant should be a woman or girl seeking assistance.\n- The applicant should be facing issues such as harassment, violence, or denial of rights.\n- The applicant should belong to the local community within the Gram Panchayat jurisdiction.\n\n> **For Members (Nyaya Sakhis):**\n\n  - The applicant should be a woman resident of the concerned Gram Panchayat.\n  - The applicant should be socially respected and active in community work.\n  - The applicant should preferably be an Elected Women Representative, Self-Help Group member, or professional (teacher, doctor, lawyer, social worker).\n\n<br>",
+  "_criteria_filled": 1
+}

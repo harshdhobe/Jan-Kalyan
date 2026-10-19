@@ -1,0 +1,32 @@
+{
+  "id": "disability-assistance-anbocwwb",
+  "name": "Disability Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. Under this scheme, the Board may sanction an amount not exceeding 25% of the total amount of compensation due, as calculated under the Employees Compensation Act 1923 on the production of a certificate from competent medical authorities in respect of the percentage of disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-an-islands-building-other-construction",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/daanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in any building &amp;amp; other construction work.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. Construction workers who become disabled due to an accident during the course of their employment are eligible to apply under the scheme.",
+  "_criteria_filled": 2
+}

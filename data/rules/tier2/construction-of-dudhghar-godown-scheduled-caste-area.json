@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-dudhghar-godown-scheduled-caste-area",
+  "name": "Construction of Dudhghar/ Godown (Scheduled Caste Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Name of the Component****Standard of assistance****Remarks****Minimum Time Limit (in Years) for Reclaiming Benefits**Dudhghar/ GodownUnit price (₹10,00,000/-)or actual expenditure occurs for construction, out of that 50% of whichever is less.Maximum ₹5,00,000/-Once in lifetime",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-bank-passbook-or-cancelled-cheque-proof-of-own-land-for-construction-of"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=mS3Bu6DbxKaTxdKVWXY5zA==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/cdgsca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Society must not already own a Dudhghar or Godown.\n   1. The Society must have its own land available for the construction of the Dudhghar or Godown.\n   1. The Society must not have availed of the benefit earlier under this or any other scheme for a similar purpose.",
+  "_criteria_filled": 1
+}

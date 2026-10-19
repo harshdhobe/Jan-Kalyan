@@ -1,0 +1,33 @@
+{
+  "id": "admission-of-adi-dravidartribal-students-in-plus-one-at-reputed-schools",
+  "name": "Admission of Adi Dravidar/Tribal Students in Plus One at Reputed Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Admission Assistance:** Free admission into reputed private schools for Plus One.  - **Financial Coverage:** ₹28,000/- per year, including boarding charges.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "00",
+    "000-marksheet-of-class-x-admission-registration-slip-any-other-documents-if-requ"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/26796",
+  "source_url": "https://www.myscheme.gov.in/schemes/aadtsrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Student.\n  - The beneficiary should be currently enrolled in school.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/Tribal community.\n  - The beneficiary must have secured the highest marks in Class X from Government/Corporation/Municipal/Adi Dravidar and Tribal Welfare schools.\n  - Beneficiary’s annual family income should be less than ₹1,00,000/-.",
+  "_criteria_filled": 2
+}

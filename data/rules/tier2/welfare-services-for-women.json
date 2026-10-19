@@ -1,0 +1,31 @@
+{
+  "id": "welfare-services-for-women",
+  "name": "Welfare Services for Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "> **Shelter &amp; Protection:**\n\n- Establishment of Working Women Hostels.\n- Short Stay Homes for women and girls.\n\n> **Financial Support:**\n\n- Assistance to widows without income.\n- Support for women in distress.\n\n> **Skill Development &amp; Livelihood:**\n\n  - Vocational training programmes.\n  - Training-cum-production centres.\n  - Support for self-employment.\n\n> **Support Services:**\n\n- Legal ai",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-income-certificate-proof-of-condition-widow-certificate-medical-r"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wsfw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following individual types of applicants are eligible under this scheme:\n\n- Widows without family or financial support\n- Women facing domestic violence\n- Trafficked or rescued women/girls\n- Women affected by natural disasters\n- Women with HIV/AIDS\n- Economically backward women\n- Women labourers, including domestic workers\n\n<br>",
+  "_criteria_filled": 2
+}

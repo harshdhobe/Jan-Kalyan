@@ -1,0 +1,31 @@
+{
+  "id": "disability-relief-allowance-scheme",
+  "name": "Disability Relief Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "Following is the assistance provided:\n\n   1. Pensioners with 40-69% disability ₹1150/- per month \n   1. Pensioners with 70% disability or more ₹1700/- per month \n   1. Pensioners with disability aged 70 years or more ₹1500/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "domicile-proof-disability-certificate-income-certificate-recommendation-from-the"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/?q=hi/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%AA%E0%A5%88%E0%A4%82%E0%A4%B6%E0%A4%A8",
+  "source_url": "https://www.myscheme.gov.in/schemes/sara",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Himachal Pradesh.\n   1. The applicant must have a minimum of 40% disability.\n   1. The applicant must not receive any other pension or allowance from the state or central government.\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

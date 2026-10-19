@@ -1,0 +1,31 @@
+{
+  "id": "research-phd-scholarship-for-scst-students",
+  "name": "Research (PhD) Scholarship for SC/ST Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Under this scheme, SC/ST students registered for research (PhD) work at any university in India, following an interview with the Research Degree Committee, will receive a monthly scholarship of ₹16,000/-, totaling ₹1,92,000/- per year.\n  - The scholarship is provided for a maximum period of 3 years, subject to meeting the prescribed eligibility criteria.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://highereducation.mp.gov.in/?page=EFvrYr53pqPMQ6r7isFV9Q%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/rphdsscsts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should be registered for PhD research at a recognized university in India, having, following an interview with the Research Degree Committee.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe category. \n   1. The applicant should have obtained the minimum qualifying marks in their postgraduate degree as prescribed for SC/ST students by the University Grants Commission.\n   1. The annual income of the applicant’s parents or guardians should not exceed ₹3,00,000/-, as set by the Madhya Pradesh Government&amp;#39;s Tribal Welfare Department.\n   1. Each year, a quota of 100 scholarships is allocated for Scheduled Castes and 56 scholarships for Scheduled Tribes.",
+  "_criteria_filled": 2
+}

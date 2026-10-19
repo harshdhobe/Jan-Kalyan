@@ -1,0 +1,31 @@
+{
+  "id": "pension-yojana-jbocwwb",
+  "name": "Pension Yojana (JBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "The scheme provides pension of ₹ 1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/py-jbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should have been a Worker registered with the Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board).\n1. The applicant should be between 18-60 years of age.\n1. The applicant should be at least 60 years of age in order to receive the pension.\n1. The applicant should have engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The registered worker should have made continuous contributions for 30 years.",
+  "_criteria_filled": 2
+}

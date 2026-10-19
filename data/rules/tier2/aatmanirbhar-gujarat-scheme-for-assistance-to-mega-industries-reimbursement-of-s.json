@@ -1,0 +1,27 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-mega-industries-reimbursement-of-s",
+  "name": "Aatmanirbhar Gujarat Scheme for Assistance to Mega Industries: Reimbursement of Stamp Duty and Registration Fees",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Reimbursement:** Eligible units can claim 100% reimbursement of stamp duty and registration charges paid to the Government of Gujarat for the purchase and/or lease of land meant for the project.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "provisional-eligibility-certificate-issued-under-the-scheme-if-applicable-final",
+    "directors-partners-owner-authorised-person-should-be-any-directorpartnerat-least"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agsmrsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The mega industry must operate as a manufacturing unit.\n   1. The unit must have a minimum investment of ₹2,500/- crore in plant and machinery.\n   1. The unit must provide direct employment to at least 2,500 persons.\n   1. The unit must belong to one of the thrust sectors as defined in the [Guidelines](https://cmogujarat.gov.in/sites/default/files/2023-01/AatmaNirbhar-Gujarat_Industrial-Policy_0.pdf) (Refer Page No. 9).   1. The land must be purchased or leased during the eligible investment period.\n   1. The unit must have commenced commercial production.",
+  "_criteria_filled": 1
+}

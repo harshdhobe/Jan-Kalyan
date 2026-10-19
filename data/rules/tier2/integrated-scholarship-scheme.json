@@ -1,0 +1,31 @@
+{
+  "id": "integrated-scholarship-scheme",
+  "name": "Integrated Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The scholarships are provided at the following rates:\n**Sl. No.****Type of scholarship****Amount per month** **Quota**1PhD₹600/- 182M.Phil.₹500/- 143Postgraduate (Merit based only)₹500/- 734Postgraduate (Merit cum means based)₹500/- 735Sports₹300/-226Graduation (Merit based only)₹300/-1467Graduation (Merit cum means based)₹300/-146**Note:** The scholarship is provided for 10 months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 54000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://highereducation.mp.gov.in/?page=k%2F1MNJyDoyS4k1yDLiNa%2BQ%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D",
+  "source_url": "https://www.myscheme.gov.in/schemes/issmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a native of Madhya Pradesh.\n2.\tThe applicant should be studying in a government/aided private college.\n3.\tThe annual income of parents/guardians of the applicant should not exceed ₹54,000/-.\n4.\tThe other qualifications of the applicant:\n\n  - **Ph.D:** 55% marks in post-graduation.   - **Postgraduate:** 55% marks in graduation.   - **Graduation (qualification cum means):** 55% marks in the examination of the Board of Secondary Education.  - 60% marks in Graduation (qualifying) examination of Board of Secondary Education.\n  - **Sports:** The applicant should be a member of the national sports team in the school team of Madhya Pradesh, or should be a member of the adult team of the state or should have been in any of the first three places in the state level competition.",
+  "_criteria_filled": 2
+}

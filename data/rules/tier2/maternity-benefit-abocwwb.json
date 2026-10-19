@@ -1,0 +1,31 @@
+{
+  "id": "maternity-benefit-abocwwb",
+  "name": "Maternity Benefit (A.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "The registered woman beneficiary shall be given ₹20,000/- each as maternity benefit during the period of maternity.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-abocwwb-1-passport-size-photograph-app"
+  ],
+  "apply_url": "https://abocwwb.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbabocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Assam.\n   1. The applicant should be a woman worker.\n   1. The applicant should be engaged in any building &amp;amp; other construction work.\n   1. The construction worker should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The applicant should have an active membership with the Board.\n   1. The benefit under this scheme shall be given for the birth of two children only.",
+  "_criteria_filled": 2
+}

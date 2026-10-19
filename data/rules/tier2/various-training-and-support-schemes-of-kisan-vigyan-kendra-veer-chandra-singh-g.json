@@ -1,0 +1,26 @@
+{
+  "id": "various-training-and-support-schemes-of-kisan-vigyan-kendra-veer-chandra-singh-g",
+  "name": "Various Training and Support Schemes of Kisan Vigyan Kendra - Veer Chandra Singh Garhwali Uttarakhand University of Horticulture and Forestry",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Kisan Vigyan Kendra provides farmers with the latest technical training in agriculture, forestry, and horticulture, along with improved seeds and plant varieties.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-krishi-vigyan-kendra-guidelines-to"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vtsskvk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All farmers in Uttarakhand are eligible to receive the benefits.\n\n<br>",
+  "_criteria_filled": 1
+}

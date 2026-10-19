@@ -1,0 +1,26 @@
+{
+  "id": "sales-rebate-under-marketing-and-publicity",
+  "name": "Sales Rebate under 'Marketing And Publicity'",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "15% as a rebate on the sales, subject to a maximum of ₹15,00,000/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-of-sales-emporiashowroom-proof-of-unit-establishment-in-pu"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/srmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Sales Emporia/Showroom.\n- The applicant should have its units in Puducherry.\n- The applicant should be recognized by the UT of Puducherry for the sale of handicrafts, and products of micro and small enterprises.",
+  "_criteria_filled": 1
+}

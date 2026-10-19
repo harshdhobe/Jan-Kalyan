@@ -1,0 +1,36 @@
+{
+  "id": "government-special-school-for-the-visually-handicapped-and-the-hearing-impaired",
+  "name": "Government Special School for the Visually Handicapped and the Hearing Impaired",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Free boarding and lodging facilities for the children admitted.\n- Free academic education within the campus, along with training in vocal/instrumental music by specially appointed teachers.\n- Free supply of two sets of uniform dress per year for all school inmates.\n- Free distribution of text books, note books, and other educational necessities.\n- Free supply of daily living needs.\n- Free supply",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "adhaar-card-voter-id-address-proof-ration-card-age-proof-disabilitymedical-certi"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gssvhhi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a child who has completed 5 years of age.\n- The child must be visually impaired and hearing impaired.",
+  "_criteria_filled": 3
+}

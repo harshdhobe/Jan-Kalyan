@@ -1,0 +1,27 @@
+{
+  "id": "construction-of-water-storage-tanks-for-drip-irrigation",
+  "name": "Construction of Water Storage Tanks for Drip Irrigation",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Unit cost of construction:** ₹1,00,000/- per tank.  - **For General category farmers:** 50% subsidy, up to ₹50,000/-.  - **For SC/ST farmers:** 75% subsidy, up to ₹75,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque-note-for-reasonablen",
+    "a-certificate-regarding-the-cost-of-the-tank-from-the-government-valuertaluka-su"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cwsdi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1.  The applicant must be a resident of Gujarat.\n   1. The applicant must plan to construct a cemented water storage tank of at least 25.50 cubic meters capacity.\n\n&gt; **Note:** Cemented mature water tanks, drip set mandatory.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "solo-drama-competition",
+  "name": "Solo Drama Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- First prize winner receives ₹2,000/-.\n- Second prize winner receives ₹1,500/-.\n- Original Drama category winner receives ₹500/-.\n- Best Director receives ₹500/-.\n- Best Writer receives ₹500/-.\n- Best Scene Composition receives ₹500/-.\n\n_*The benefits are disbursed as one-time cash prizes awarded after the competition results are declared._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card",
+    "aadhar-card",
+    "voter-identity-card",
+    "or-any-other-government-issued-identity-document-identity-proof-aadhar-card",
+    "passport",
+    "driving-license",
+    "or-voter-identity-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be willing to participate in a solo drama competition.\n- The applicant must perform a solo theatrical act as per the competition requirements.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-in-rent-to-mses",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance in Rent to MSEs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** 70 % of rent paid by the enterprise with a maximum limit of ₹1,00,000/- per annum for 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promotersdirectorspartners",
+    "authorized-person-copy-of-gst-registration-if-applicable-copy-of-ca-certified-ba"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyarmse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. The applicant must be a Micro or Small Enterprise (MSE) engaged in manufacturing activities.\n   1. The enterprise must be operating from a legally rented/leased shed.\n   1. The rented/leased shed’s owner must have legal ownership and possession of the property.\n   1. The manufacturing unit must be consuming electricity/power for production activities.\n\n&amp;gt; **Note****:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

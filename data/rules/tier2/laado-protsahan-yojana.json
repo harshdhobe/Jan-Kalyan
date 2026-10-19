@@ -1,0 +1,31 @@
+{
+  "id": "laado-protsahan-yojana",
+  "name": "Laado Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Monetary Benefit:**\n\n- **Total financial benefit of ₹1,50,000/- disbursed in 7 installments:**\n\n**Installment****Description****Amount (₹)**1Girl&amp;amp;amp;#39;s birth in eligible medical institutions2500/-2Girl completes one year of age and all vaccinations2500/-3Girl&amp;amp;amp;#39;s admission to Class 1st in a government/government-recognized private school4000/-4Girl&amp;amp;amp;#39;s a",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-resident-certificate-of-rajasthan-marriage-registration-certificate-ba"
+  ],
+  "apply_url": "https://ojspm.rajasthan.gov.in/Public/lpy.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman who is a native of Rajasthan.\n1. The applicant should deliver the girl child in a government medical institution or a private medical institution authorized under the Janani Suraksha Yojana (JSY).\n1. The applicant should ensure full immunization of the child (for second installment).\n1. The applicant&#39;s child should be enrolled in a recognized school or institution for subsequent installments.\n1. The applicant’s daughter should graduate from a recognized higher education institution and attain the age of 21 to receive the final installment.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "merit-based-scholarship-scheme-for-dhangar-students",
+  "name": "Merit Based Scholarship Scheme for Dhangar Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**Financial Award**\n\n- First 5 Rank Holders from SSC: ₹20,000 each\n- First 5 Rank Holders from HSSC (Science Stream): ₹20,000/- each\n- First 5 Rank Holders from HSSC (Commerce Stream): ₹20,000/- each\n- First 5 Rank Holders from HSSC (Arts Stream): ₹20,000/- each\n- First 5 Rank Holders from HSSC (Vocational Stream): ₹20,000/- each\n- Certificate of Appreciation\n- Felicitation in a Public Ceremony\n\n<",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-social-status-certificate-attested-income-certificate-educational-q"
+  ],
+  "apply_url": "https://cmscholarship.goa.gov.in/SchemesDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbssds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Rank Holders Category**\n\n- The applicant must belong to the Dhangar community.\n- The applicant must be among the top 5 rank holders in their respective examination (SSC or HSSC).\n- The applicant has no income ceiling restrictions.\n\n**For Merit-based Awards**\n\n- The applicant must belong to the Dhangar community.\n- The applicant&#39;s annual family income should be less than ₹2,00,000/-.\n- The applicant must achieve the minimum qualifying percentage as per the benefit slabs.",
+  "_criteria_filled": 1
+}

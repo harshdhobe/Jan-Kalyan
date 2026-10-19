@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-war-widows-of-defence-forces",
+  "name": "Financial Assistance to War Widows of Defence Forces",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,000/- per month is given to the widow of an ex-serviceman whose husband died in action during the declared wars of 1962, 1965, and 1971, with an annual increase of ₹400/- w.e.f. 01.11.2017 every year in November.\n\n**Note:** This financial assistance is provided in addition to the family pension already getting from the Government of India.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-serviceman-identity-card-parivar-pehchan-patra-aadhaar-card-original"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=RMrBNRfJbVTRKZ9wsr54YA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawwdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a bona fide resident of Haryana.\n   1. The applicant must be the widow of Defence Force personnel (Army, Navy, or Air Force) who was killed in action during the declared wars of 1962, 1965, or 1971.",
+  "_criteria_filled": 2
+}

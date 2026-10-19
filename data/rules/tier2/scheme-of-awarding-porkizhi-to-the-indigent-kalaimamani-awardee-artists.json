@@ -1,0 +1,37 @@
+{
+  "id": "scheme-of-awarding-porkizhi-to-the-indigent-kalaimamani-awardee-artists",
+  "name": "Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 12000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "age-proofcertificate-income-certificate-proof-of-receiving-the-kalaimamani-award",
+    "if-required"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soapttikaa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The applicant should have received the Kalaimamani Award.\n1. The applicant should be living under indigent circumstances. \n1. The age of the applicant should be 58 years or above.\n1. The annual income of the applicant should not exceed ₹12,000/-.",
+  "_criteria_filled": 3
+}

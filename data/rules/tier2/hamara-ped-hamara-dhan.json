@@ -1,0 +1,26 @@
+{
+  "id": "hamara-ped-hamara-dhan",
+  "name": "Hamara Ped Hamara Dhan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, as an incentive for planting fuelwood, fodder, fruit, and timber species on private land, a Fixed Deposit Receipt (FDR) will be created at the rate of ₹300/- per plant and mortgaged to the Divisional Forest Officer. \n  - Based on the survival and success of the plants, the concerned beneficiary will receive the secured amount in the form of an FDR after three years.\n  - A maxi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-land-ownership-documents-details-of-plant-species-i"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otows",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must have either their own private land or a joint landholding suitable for plantation.\n1. There is no minimum land area requirement to avail the benefits under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

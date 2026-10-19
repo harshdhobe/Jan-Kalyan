@@ -1,0 +1,31 @@
+{
+  "id": "indira-gandhi-matritva-poshan-yojana",
+  "name": "Indira Gandhi Matritva Poshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n- A financial assistance of ₹6,000/- is provided in five conditional installments to the beneficiary.\n\n**Installment****Conditions**AmountFirst InstallmentOn pregnancy registration at Anganwadi Centre and health check-up within 120 days (4 months) of pregnancy.₹1000Second InstallmentAfter completion of second antenatal check-up during the 6th month of pregnancy.₹1000Se",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "pregnancy-registration-slip-issued-by-anganwadi-centre-bank-passbook-copy-linked"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICDS/2023/Guidelines/O_080523_fc05cbde-7230-44ca-9586-d869ed11e277.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igmpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a married woman.\n2.\tThe applicant should be a permanent resident of one of the five tribal districts of Rajasthan: Pratapgarh, Dungarpur, Banswara, Udaipur, or Baran.\n3.\tWoman will be eligible if they meet either of the following conditions:\n\n  - She become pregnant with her second child on or after 1st November 2020.\n  - She has registered her first antenatal check-up (ANC) for the second child after 1st November 2020.\n\n4.\tPregnant or lactating woman working as Anganwadi worker, Anganwadi helper, Asha Sahayogi, or Saathin will also be eligible under the scheme, subject to fulfillment of the scheme’s conditions.\n5.\tIn the event of abortion or stillbirth, the beneficiary woman will remain eligible for the scheme if she conceives again in the future.\n6. The applicant should deliver her child at a government health facility or an empanelled private health institution.\n7. The applicant should not have more than two living children.\n&gt; **Notes:**\n\n  - Eligible beneficiaries will receive cash assistance in addition to benefits from other central and state government schemes such as Janani Suraksha Yojana (JSY) and Rajshree Yojana.\n  - The date of pregnancy will be calculated based on the last menstrual period (LMP) recorded in the Pregnancy and Child Tracking System (PCTS) online portal maintained by the Medical and Health Department.\n  - If a beneficiary does not comply with any phase of the scheme, the payment for that phase will be withheld. However, if the beneficiary meets the conditions of subsequent phases, the payment for those phases will be disbursed accordingly.\n  - The applicant must complete all health milestones and ensure the child&amp;#39;s immunizations are done as per the schedule.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "incentive-for-the-sc-widow-re-marriage",
+  "name": "Incentive for the SC Widow Re-Marriage",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "- If a widow from the Scheduled Caste community remarries a male from another caste, she will receive an incentive of ₹3 lakh.\n- If the beneficiary has already received an incentive under the simple marriage, she will be eligible for ₹2.50 lakh under this scheme.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-rd-number-of-caste-certificate-3-present-marriage-registration"
+  ],
+  "apply_url": "https://sw.kar.nic.in/swincentive/Documents/ApplicantManualWRM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iscwr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Karnataka.\n   1. The applicant should be a widow.\n   1. The widow should belong to the Scheduled Caste community.\n   1. There is no annual income limit for this scheme.\n   1. Incentives will be provided only to those who submit their application within one year of marriage.\n   1. There are no caste/religion restrictions for the spouse.\n\n**Note:** The couple should reside in Karnataka.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pmay-u",
+  "name": "Pradhan Mantri Awas Yojana - Urban",
+  "tier": 1,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "Subsidy on home loan / direct benefit transfer for urban first-time house buyers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.area_type",
+        "op": "==",
+        "value": "urban"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1800000
+      },
+      {
+        "field": "household.owns_pucca_house",
+        "op": "==",
+        "value": false
+      },
+      {
+        "field": "household.used_housing_scheme_before",
+        "op": "==",
+        "value": false
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar_card",
+    "income_proof",
+    "identity_residence_proof",
+    "ewslig_certificate"
+  ],
+  "links": {
+    "info": "https://www.myscheme.gov.in/schemes/pmay-u",
+    "apply": "https://pmay-urban.gov.in/"
+  },
+  "notes": "Income bands (EWS/LIG/MIG) determine benefit level. Town must be covered under the scheme."
+}

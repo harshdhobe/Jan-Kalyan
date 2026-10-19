@@ -1,0 +1,31 @@
+{
+  "id": "suraksha-laghu-evan-simant-vriddhajan-krishak-samman-pension-yojana",
+  "name": "Suraksha Laghu Evan Simant Vriddhajan Krishak Samman Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. To a pensioner below 75 years of age : ₹750/- per month\n1. To pensioners aged 75 years and above : ₹1,000/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-jan-aadharbhamashah-card-copy-bank-account-details-applicant-pa"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/SJED/KOAPS/DOC_115_d0afbc58-6686-465e-95a8-7492d0343f05.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/slesvkspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan State.\n1. The applicant should be a farmer.\n1. The female applicant&#39;s age should be more than 55 years and the male more than 58 years.",
+  "_criteria_filled": 2
+}

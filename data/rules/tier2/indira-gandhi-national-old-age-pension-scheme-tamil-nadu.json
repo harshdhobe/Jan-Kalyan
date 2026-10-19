@@ -1,0 +1,39 @@
+{
+  "id": "indira-gandhi-national-old-age-pension-scheme-tamil-nadu",
+  "name": "Indira Gandhi National Old Age Pension Scheme -Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free dhoti to a male pensioner.\n- One free saree to a female pensioner.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meal.\n- 4kg/month to those who are not taking nutritious meal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicant-photo-aadhaar-card-proof-of-age-aadhaar-consent-form-smart-ration-card",
+    "passport",
+    "pan-card",
+    "driving-license-bank-passbook-bpl-card-number"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be destitute.\n1. The applicant&#39;s age should be 60 years and above.\n1. The applicant should belong to the &quot;Below Poverty Line&quot; category.",
+  "_criteria_filled": 3
+}

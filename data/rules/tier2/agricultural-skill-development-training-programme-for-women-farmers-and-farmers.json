@@ -1,0 +1,27 @@
+{
+  "id": "agricultural-skill-development-training-programme-for-women-farmers-and-farmers",
+  "name": "Agricultural Skill Development Training Programme For Women Farmers And Farmers",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Selected women farmers, male farmers, and youth have been trained-n-guided in agricultural and allied aspects of the scientific method.\n1. The latest information on agricultural aspects will be provided to the selected applicant under this scheme.\n1. The selected applicants have informed the developing scheme of the state and central levels.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "government-approved-photo-id-ie-aadhaar-card",
+    "voter-id-card-passport-size-photograph-caste-certificate-if-applicable"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/agricultural-skill-development-program.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/asdtpwff",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Gujarat State.\n1. The farm families of women farmers, male farmers, and youth are eligible to apply.",
+  "_criteria_filled": 1
+}

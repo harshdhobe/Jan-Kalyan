@@ -1,0 +1,52 @@
+{
+  "id": "direct-lending-scheme",
+  "name": "Direct Lending Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "Loan Amount: The loanees are eligible for a subsidy of special Central Assistance @ 50% of the loan amount or ₹ 10,000/- (whichever is less).\nSources of Funds: Share Capital Funds\nRepayment Period: The period varies according to the kind of project with monthly, bimonthly, quarterly, or half-yearly installments with a maximum period of repayment of 15 years for land purchase cases.\nRate of Interes",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "application-form-duly-attested-by-competent-authority-residential-certificate-do",
+    "salary-certificate",
+    "and-surety-bond-in-the-case-of-service-surety-aadhaar-card-details-of-the-bank-a",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-proof-of-age-income-certificate"
+  ],
+  "apply_url": "https://pbscfc.punjab.gov.in/sites/default/files/bank_tieup_scheme_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dls-punjab",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Punjab.\n1. The applicant should be from Below Poverty Line (BPL).\n1. The applicant should be from the Scheduled Caste category OR the applicant should be a Person with Disability (PwD)\n1. The age of the applicant should be between 18 to 55 years.\n1. (At the time of considering the loan case of the applicant) The annual family income of the applicant (from all sources) should be less than or equal to ₹ 1,00,000/- (In case the applicant is unemployed, and intends to start his/her own business, his/her family income may not be taken into consideration).\n1. The applicant should not already be availing the benefits of the scheme.",
+  "_criteria_filled": 5
+}

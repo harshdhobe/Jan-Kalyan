@@ -1,0 +1,26 @@
+{
+  "id": "training-classes-in-vedadevaram",
+  "name": "Training Classes In Veda/Devaram",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Provision of training classes in Veda, Devaram, and Nalayira Divya Prabantham, which are required for divine worship/Poojas.\n- Instructing pandits are provided an honorarium of ₹1,000/- per month.\n- The honorarium is given once every three months.\n- The honorarium is disbursed upon the pandits furnishing attendance particulars of the students who attended the Veda classes.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-recommendation-from-two-responsible-persons-of-the-applica"
+  ],
+  "apply_url": "https://hri.py.gov.in/resources/docs/Forms/5.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcvd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an eligible candidate to receive the training.\n- The applicant must be a resident of Puducherry.\n- The applicant must know how to read, write, and speak Tamil fluently.\n- The applicant must be interested in receiving specialized training classes in Veda, Devaram, and Nalayira Divya Prabantham.\n\n<br>",
+  "_criteria_filled": 1
+}

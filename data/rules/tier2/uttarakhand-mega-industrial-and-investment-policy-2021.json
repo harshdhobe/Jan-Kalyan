@@ -1,0 +1,26 @@
+{
+  "id": "uttarakhand-mega-industrial-and-investment-policy-2021",
+  "name": "Uttarakhand Mega Industrial and Investment Policy - 2021",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***Classification of Projects Based on Fixed Capital Investment:***\n\n  - **Large Projects** – ₹50 crore to ₹75 crore.  - **Mega Projects** – Projects with a capital investment of more than ₹75 crore and up to ₹200 crore.   - **Ultra Mega Projects** – Projects with a capital investment of more than ₹200 crore and up to ₹400 crore in plant and machinery.   - **Super Ultra Mega Projects** – Projects ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "details-of-the-required-documents-are-available-on-the-official-website"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ukmiip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any person who wishes to invest in Uttarakhand under the &amp;quot;Mega Industry and Investment Policy&amp;quot; is eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

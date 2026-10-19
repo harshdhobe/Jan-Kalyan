@@ -1,0 +1,39 @@
+{
+  "id": "assistance-to-scheduled-caste-farmers-for-installation-of-submersible-centrifuga",
+  "name": "Assistance to Scheduled Caste Farmers for Installation of Submersible / Centrifugal Motor Pumpsets With Accessories",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- 90% subsidy towards the installation of suitable Submersible / Centrifugal motor pump sets with accessories, subject to a maximum of ₹60,000/‐ per tubewell per individual.\n\n**NOTE:** The subsidy amount shall be released through the Electronic Clearing System (ECS) if the applicant has undertaken the construction with his/her funds. In case, he/she has availed himself/herself loan from the Nation",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "the-nationality",
+    "nativity",
+    "caste-certificate-and-a-certificate-issued-by-an-officer-not-below-the-rank-of-t",
+    "not-below-the-rank-of-deputy-tahsildar-the-copy-of-the-registration-certificate",
+    "permit-and-energisation-certificate-issued-by-the-pondicherry-ground-water-autho",
+    "puducherry-original-bills-for-the-expenses-incurred-towards-the-construction-of",
+    "attested-copy-of-the-original-bills",
+    "and-certificate-from-the-bank-to-that-effect-copy-of-the-aadhaar-card",
+    "farmers-identity-card",
+    "and-bank-passbook-front-page-upon-selection",
+    "the-beneficiaries-should-submit-an-affidavit-signed-before-a-notary-public-to-th",
+    "heshe-will-not-sell",
+    "mortgage-or-transfer-the-lands-to-any-other-person-for-10-years-and-that-heshe-w",
+    "heshe-will-be-liable-for-such-course-of-legal-action-by-the-government-for-breac"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/schemes/SC%20Sub%20Pump%20SOP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascfiscmpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from the Scheduled Caste Category.\n- The applicant should be a farmer in the Union Territory of Puducherry.\n- The tubewell in which the submersible/centrifugal motor pump sets is going to be erect and should have been registered in Pondicherry Ground Water Authority, Puducherry.\n- The applicant should hold a minimum of 1.5 acres of land under the command area of the tubewell to be constructed and the applicant should have ownership of the land at least for 2 years and should have a clear ownership title deed in his/her name. The eligible land holding of 1.5 acres should be in favour of the applicant farmer or in favour of the spouse or favour of the member of a joint/undivided family.\n- The farmers who have already availed themselves of the subsidy for the said purpose within 5 years are not entitled to any benefit under this scheme.\n- The applicant should not convert the lands for a maximum period of 10 years from the date of construction of the tubewell/filter point to any purpose other than agriculture and should execute a bond accordingly.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-to-pensioners-suffering-from-hiv-and-aids",
+  "name": "Financial Assistance to Pensioners Suffering From HIV and AIDS",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "Amount: ₹ 1,000/- per month to the eligible beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "medical-proof-of-receiving-antiretroviral-therapy-artantiretroviral-drugs-ard-an",
+    "applicants-age-is-18-years-or-more-copy-aadhar-card-in-case",
+    "the-applicant-does-not-have-an-aadhar-card-they-need-to-submit-a-self-declaratio"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDocument?id=D031DO00628062023124410458",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatpsfha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Jharkhand.\n  - The applicant should be suffering from HIV/AIDS.\n  - The applicant should receive Antiretroviral Therapy (ART)/Antiretroviral Drugs (ARD) and its benefits from the District AIDS Control Society.\n  - The applicant should have a Voter ID card and Aadhar Card (For applicants aged 18 years and above)\n  - The applicant or their spouse should not be a beneficiary under any other Social Security pension scheme.\n  - The applicant or their spouse should not be retired or permanently employed in Central and State Government or in public sector undertakings.\n  - The applicant or their spouse should not be a recipient of any family pension or pension from Central and State Government or from public sector undertakings.\n  - Applicant’s family is not an income tax payee.\n\n&lt;br&gt;\n\n<br>",
+  "_criteria_filled": 1
+}

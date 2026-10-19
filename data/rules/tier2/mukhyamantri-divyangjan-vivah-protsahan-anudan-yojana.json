@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-divyangjan-vivah-protsahan-anudan-yojana",
+  "name": "Mukhyamantri Divyangjan Vivah Protsahan Anudan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a grant of ₹1,00,000/-.\n\n**Note 1:** The financial grant is provided to disabled individuals in a couple, and if both spouses are disabled, both are eligible for the grant.\n**Note 2:** If a disabled person marries inter-caste, they are entitled to both the disabled marriage grant and the inter-caste marriage grant. For example, if both the h",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-bride-groom-latest-photograph-of-the-married-coupl",
+    "voter-id-card",
+    "driving-license-etc-proof-of-age-marriage-certificate-disability-certificates-in"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/MDVPAY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mdvpay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. At least one individual in the couple (either the bride or groom) should have a disability.\n   1. The minimum age requirement at the time of marriage is 18 years for the bride and 21 years for the groom.\n   1. The bride and groom should belong to poor families.",
+  "_criteria_filled": 3
+}

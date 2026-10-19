@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-chiranjeevi-swasthya-beema-yojana",
+  "name": "Mukhyamantri Chiranjeevi Swasthya Beema Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Cashless treatment facility up to Rs. 25,00,000/- will be provided to each family of Rajasthan.\n1. National Food Security Act, the insurance premium of families eligible for Socio-Economic Census, small and marginal farmers and contract workers will be borne by the state government.\n1. Other families will have to pay a premium of Rs. 850/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadhar-card-jan-aadhar-card-number-jan-aadhar-card-registration-receipt-numb"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/775",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcsby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Under the scheme, eligible families have been divided into two categories-\n\n   1. **Category receiving free benefits:-** 100 percent of the premium of the eligible families of such category determined by the state government is paid by the government. Presently eligible families under Food Security Act, eligible families of Socio-Economic Census (SECC) 2011, contract workers working in state government departments/boards/corporations/government companies, small marginal farmers and those who received Covid-19 ex-gratia last year destitute and helpless families are included in the free category.   1. **Category receiving benefits by paying Rs.850/- per family per year:-** The families of the state who do not come under the category of free eligible families and are not government employees/pensioners and are not taking benefits under the Medical Attendance Rules They can avail the benefits of the scheme by paying 50% of the fixed premium Rs. 850/- per family per year. The remaining 50 percent of the premium will be borne by the government.   1. **All EWS** families are also proposed to be given the benefit of Chiranjeevi Yojana free of cost.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": "delhi-lakhpati-bitiya-scheme",
+  "name": "Delhi Lakhpati Bitiya Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "> **Financial Assistance (Stage-wise Detailed Structure)**\n\n**At Birth**\n\n- ₹11,000 deposited with milestone ‘B’, redeemable at 18 or 21 years\n\n**School Education Milestones**\n\n- ₹5,000 at admission in Class I (Milestone ‘O’)\n- ₹5,000 at admission in Class VI (Milestone ‘S’)\n- ₹5,000 at admission in Class IX (Milestone ‘N’)\n- ₹5,000 at admission in Class XI or Polytechnic/ITI after Class X (Milest",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card-voter-identity-card-other-valid-proof-showing-3-y",
+    "attested-by-district-education-officer-immunization-certificate-as-per-governmen"
+  ],
+  "apply_url": "https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/271457.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dlbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl child born in Delhi.\n1. The applicant should possess a birth certificate issued by the Registrar (Births and Deaths) of Delhi.\n1. The applicant should be a bonafide resident of Delhi for at least 3 years preceding the application.\n1. The applicant’s family annual income should not exceed ₹1,20,000.\n1. The benefit is limited to two girl children per family. \n1. The applicant should be studying in a Government, Municipal Corporation of Delhi (MCD), New Delhi Municipal Council (NDMC), or government-recognized school in Delhi.\n1. The applicant should apply within 1 year of birth or within 90 days of admission at the applicable stages.\n1. The girl child can be registered under the scheme within one year of birth or at the time of admission in Class 1st, 6th, 9th, 11th or after passing class 10th upon admission to Polytechnic/ITI courses (anywhere in India); or upon admission to Graduation/Diploma courses after passing 12th.1. The applicant must be pursuing a professional diploma in any Government-recognised or affiliated university, college, or institution, or under any other Government body (State/Central), anywhere in India.\n1. The applicant must be pursuing graduation in any university, college, or institution affiliated with or recognised by the UGC or any other Government body, anywhere in India.\n1. The applicant should remain unmarried until attaining 18 years of age.\n1. The applicant should fulfill immunization requirements as per the government norms. \n\n> **For girl child residing in any Government run and Licensed Child Care Institutions (CCIs) located in Delhi, where guardian is the State:**\n\n1. The incharge of the institution will be the guardian of the girl child. \n1. The conditions of the family residing in Delhi for three years and family income limit shall be exempted in such cases. \n1. The birth place of the girl child shall also be exempted. \n1. The Aadhar card of girl child and the Aadhaar card of the incharge (at the time of registration) of the CCI being guardian shall be considered under required documents. \n1. This is applicable to only long term cases (residents) who are school going.\n\n<br>",
+  "_criteria_filled": 3
+}

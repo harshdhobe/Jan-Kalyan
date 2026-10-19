@@ -1,0 +1,26 @@
+{
+  "id": "bhraman-darshan-yojana",
+  "name": "Bhraman - Darshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- Awareness of latest fisheries techniques.\n- Inspiration to adopt modern technologies.\n- Increase in fish production and productivity.\n- Creation of new employment opportunities.\n- Increase in the annual income of fish farmers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-cardvoter-id-educational-certificate-pre-training-ce"
+  ],
+  "apply_url": "https://fisheries.bihar.gov.in/docs/Bharmandarchan2425.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bdy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The fish farmer should be a resident of Bihar.\n1. The fish farmer should work in private, leased, or government ponds/watersheds.\n1. The fish farmer should be an active member of Block Level Fishermen Cooperation Committees.\n1. The progressive fish farmers who have successfully undergone training under departmental schemes are eligible.\n1. The fish farmer wants to do fish farming and have adequate fish resources available.\n1. The fish farmer can avail the benefit of this scheme only once.",
+  "_criteria_filled": 1
+}

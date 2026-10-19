@@ -1,0 +1,26 @@
+{
+  "id": "assistance-towards-sugarcane-supplied-by-the-sugarcane-growers",
+  "name": "Assistance Towards Sugarcane Supplied By The Sugarcane Growers",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Financial assistance is provided based on the Fair &amp; Remunerative Price (FRP) fixed by the National Federation of Co-operative Sugar Factories Limited, New Delhi, from time to time.\n- Farmers will be paid based on the actual tonnage of canes weighed at the Sugar factory weighbridge.\n\n> ***Conditions***\n\n- The farmers must harvest and supply the sugarcane on their own to Sanjivani Sahakari Sa",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "valid-krishi-card-issued-by-the-directorate-of-agriculture-area-certificate-issu"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-7-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/atsssg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n- The applicant must be cultivating sugarcane in Goa.\n- The applicant must possess a valid Krishi Card issued by the Directorate of Agriculture.\n- The applicant must ensure the sugarcane area is verified by the representatives of the Zonal Agriculture Office of the respective Taluka, along with the Fieldman of Sanjivani Sahakari Sakhar Karkhana (SSSKL).\n- The applicant must be issued an area certificate following verification of the sugarcane area.\n- The applicant must be present for the inspection of the harvested cane by the Fieldman of Sanjivani Sahakari Sakhar Karkhana (SSSKL) or any representative of the Agriculture Department.\n\n<br>",
+  "_criteria_filled": 1
+}

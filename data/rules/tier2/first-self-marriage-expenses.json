@@ -1,0 +1,26 @@
+{
+  "id": "first-self-marriage-expenses",
+  "name": "First Self Marriage Expenses",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹30,000/- provided to registered construction worker for first marriage expenses.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in building or construction work.\n1. The applicant should be registered under the Maharashtra Building and Other Construction Workers Welfare Board. \n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

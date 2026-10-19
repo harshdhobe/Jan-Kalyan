@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-literature-on-art-culture-of-local-authors-organization",
+  "name": "Promotion of Literature on Art & Culture of Local Authors/ Organization",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Nature and Quantum of Assistance**\n\n1. The entire expenditure on printing and publishing the book is borne by the Government by keeping the copyright of the publication. \n1. Every year two year or more books are published depending upon the availability of funds. \n1. About 1,000 copies are printed and supplied to Educational institutions, libraries, Cultural Institutions etc. \n1. The authors a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "details-of-the-author-a-handwritten-script-a-copy-of-the-residence-certificate-o"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/placlao",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an author from Goa.\n1. Only the literature concerned with the cultural traditions of the state of Goa shall be published.\n\n<br>\n\n**NOTE:** Authors who have already availed the benefit shall not be considered for a second time.",
+  "_criteria_filled": 1
+}

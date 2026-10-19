@@ -1,0 +1,29 @@
+{
+  "id": "40-subsidy-on-hank-yarn-dyes-chemicals-scheme",
+  "name": "40% Subsidy On Hank Yarn, Dyes & Chemicals Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "person",
+  "benefit": "40% subsidy on the purchases / procurements of Hank Yarn, Dyes & Chemicals from NHDC & APCO.\nThe 75% amount will be credited directly to the members bank account of the concerned primary weavers cooperative societies as production bonus basing on the wages earned by them.\nThe remaining 25% amount may be utilized by the societies for giving rebate on sales or any other production related purpose.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "certification-that-subsidy-has-been-claimed-only-on-the-hank-yarn-and-dyes-chemi",
+    "its-depots-and-apco-the-abstract-duly-attested-by-the-concerned-assistant-direct",
+    "stock-register",
+    "cash-book-and-other-relevant-records-as-required-by-the-assistant-director-ht"
+  ],
+  "apply_url": "https://www.aphandtex.gov.in/open_record.php?ID=136",
+  "source_url": "https://www.myscheme.gov.in/schemes/40shydcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The subsidy will be available only on purchase / procurement of yarn from NHDC, Yarn Deports sanctioned by NHDC and APCO for self-consumption of Handloom Weaver Cooperative Societies for providing work to weaver members.\n1. The subsidy will be allowed only on the Hank yarn purchased from the APCO &amp; NHDC and its depots and utilized for the production on Societies, account during the quarter.\n1. The claims for subsidy shall be submitted by the Weavers Cooperative Societies in the prescribed proforma on quarterly basis during the financial year with in 15 days from the end of the respective quarter.\n1. The claims for subsidy in complete shape should reach Head Office with in 30 days from the end of the Quarter.\n\n<br>\n\n<br>\n\n**NOTE 1:** The Weavers Coop Societies shall NOT claim any subsidy on the Yarn, Dyes and Chemicals purchased from private yarn dealers, Mills etc.\n**NOTE 2:** The Weavers Coop. Societies should NOT claim any subsidy on Yarn, Dyes &amp; Chemicals even if purchased from APCO or NHDC, but not utilized for production of cloth by way of issue of yarn and sold to non-members. \n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

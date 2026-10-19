@@ -1,0 +1,30 @@
+{
+  "id": "focus-scheme-farmers-collectivization-for-upscaling-production-and-marketing-sys",
+  "name": "FOCUS Scheme (Farmers Collectivization For Upscaling Production and Marketing System)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "1. The subsidy is disbursed through approved financing partners.\n1. Loans are provided by selected partner banks with a repayment period of up to 15 years.\n1. There are no pre-closure penalties on the loan.\n1. The Government of Meghalaya pays 80% of the total project cost upfront.\n1. The remaining 20% is provided as a bank loan (5% paid by the entrepreneur and 75% by the government).\n1. Agricultur",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "focus-pg-details-pg-name",
+    "members-name",
+    "designation-family-id-citizen-id-download-bank-account-details-of-the-pg-bank-na",
+    "ifsc",
+    "branch-and-bank-account-number-memorandum-of-association-download"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX1%2Fw5XWkzs2lYokmppxo6I18tFm6qR9v8cRs%20i8wMtUFGBYQPXe8qySN6lajfBPocg9EgTSE0mIRVfFYOcBbcLY8XK51wURiZq5v6pKpjHGSACeXalwOT%20yc2wJl13I9M0M2ZbMCkAlGscHMaj8DI4A8zRuLSWkQWVn22286uMwRyZchwrDXfQ5Ah8pDnQ3vrqPPpJAeTJb5sY8pCU%2Fi6Y0BpuyQlYK6YKY4s8A%20%2FZD%20uWpTbRtwZPQa=",
+  "source_url": "https://www.myscheme.gov.in/schemes/focuss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Producer Group must consist of 10 to 20 producers from the same village.\n1. The members must be engaged in the same or similar agricultural or allied activities with high income-generation potential.\n1. The group must formally form a Producer Group (PG) under the scheme.\n1. Each member must hold a valid Family ID/Citizen ID of Meghalaya.\n1. All members must belong to different households.\n1. Each member must have a separate and unique Family ID of Meghalaya.\n\n<br>",
+  "_criteria_filled": 1
+}

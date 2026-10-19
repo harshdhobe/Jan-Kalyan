@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-asangathit-mazdoor-yojana",
+  "name": "Mukhyamantri Asangathit Mazdoor Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The old electricity bills of the laborers will be frozen.\n- Electricity will be available to them at a flat rate of ₹200/- per month.\n- E-rickshaws will be provided to cycle rickshaw drivers.\n- The remuneration for laborers engaged in Tendu leaf plucking work will be increased from ₹1,200/- per standard sack to ₹2,000/- per standard sack.\n- A seasonal bonus will be given to Tendu leaf pluckers.\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-identity-proof-copy-of-address-proof-copy-of-income-certificate-copy-of"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=255",
+  "source_url": "https://www.myscheme.gov.in/schemes/mamy-mp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an unorganised worker.\n- The applicant must not be in any type of government service.\n- The applicant must not be a taxpayer.\n- The applicant must not possess agricultural land.\n\n<br>",
+  "_criteria_filled": 1
+}

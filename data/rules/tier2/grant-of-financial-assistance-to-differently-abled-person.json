@@ -1,0 +1,39 @@
+{
+  "id": "grant-of-financial-assistance-to-differently-abled-person",
+  "name": "Grant of Financial Assistance to Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Disability Range - 40% to 65%: ₹ 2000/- per month.\n- Disability Range - 66% to 85%: ₹ 2500/- per month.\n- Disability Range - 86% to 100%: ₹ 3500/- per month.\n- Age Range - 60 to 79 years: ₹ 2700/- per month.\n- Age Range - 80 years and above: ₹ 3800/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-birth-certificate-disability-certificate-income-certifi",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/financial-assistance-differently-abled-persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfadap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The applicant should have an annual income not exceeding ₹75,000/- per annum.\n- For Orthopaedic/Deaf/Dumb/Blind, the disability of the applicant should be 40% and above.\n- For the Mentally Retarded, the Intelligence Quotient (IQ) of the applicant should be below 69.",
+  "_criteria_filled": 3
+}

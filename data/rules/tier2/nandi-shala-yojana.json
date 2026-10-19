@@ -1,0 +1,26 @@
+{
+  "id": "nandi-shala-yojana",
+  "name": "Nandi Shala Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **Cost and Subsidy**\n\n- For bulls procured from outside Madhya Pradesh: ₹25,720/- per unit.\n- For bulls procured from within Madhya Pradesh: ₹18,260/- per unit.\n- Subsidy: 75% of the cost.\n- Beneficiary contribution: 25% of the cost.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residenceaddress-proof-land-document-bank-details"
+  ],
+  "apply_url": "https://mpdah.gov.in/schemes/view/RDFQVlRiaE01TE1xZnQ5QitjeTlIQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a livestock farmer.\n1. The applicant should be residing in a rural area of Madhya Pradesh.\n1. The applicant should have a minimum of 5 cattle along with sufficient agricultural land.\n1. If the applicant does not have agricultural land, they should have at least 20 cattle.\n1. The applicant should be willing to maintain and use the distributed bull for community natural insemination purposes.\n\n<br>",
+  "_criteria_filled": 1
+}

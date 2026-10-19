@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-to-traditional-artisans-panchavrutthi-scheme",
+  "name": "Financial Assistance to Traditional Artisans (Panchavrutthi Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Loan Amount:** Up to ₹80,000/- at an interest rate of 4% per annum.- **Subsidy Amount:** Up to ₹20,000/-.- **Total Assistance:** ₹1,00,000/- (Loan + Subsidy).- **Repayment Period:** The loan is repayable in 34 equal installments over three years, with a grace period of 2 months.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-ration-card-income-certificate-issued-by-t"
+  ],
+  "apply_url": "https://kvcdcl.karnataka.gov.in/storage/pdf-files/Panchavrutti.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fataps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Vishwakarma community.\n1. The applicant should be a permanent resident of Karnataka.\n1. The applicant&#39;s age should be between 18 to 55 years.\n1. The applicant must be engaged in one of the traditional Vishwakarma occupations, including Gold &amp; Silver work, Sculpture, Blacksmith, Woodwork &amp; Handicrafts, or Metallurgy.\n1. The applicant or their family members should not have availed of any loan facility from the KVCDC in the previous years.",
+  "_criteria_filled": 3
+}

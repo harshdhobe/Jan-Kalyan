@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-medhavi-chhatra-protsahan-scholarship-scheme-secondary-level",
+  "name": "Mukhyamantri Medhavi Chhatra Protsahan Scholarship Scheme (Secondary Level)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Rate of Scholarship:\n\n- **For Class 9th Students:** ₹900/- per month for 1 year.- **For Class 10th Students:** ₹900/- per month for 1 year.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-class-8-passing-mark-certificate-admission"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmmsisuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must have passed Class 8 (institutional) from a Government School or Government-aided private school of the state (excluding Central and Residential schools) and must be studying in Class 9.\n   1. The applicant must qualify in the competitive examination conducted by SCERT, Uttarakhand.\n   1. The selected student must maintain a minimum of 75% attendance and secure at least 60% marks in Class 9.  For SC/ST students, a relaxation of 5% is provided in both marks and attendance requirements.\n   1. Based on the examination results, a student securing a position in the top 10% of the total participants will be eligible to avail the benefits of this scheme.\n   1. There is no income criterion for the parents/guardians of the student under this scholarship.\n   1. A student cannot avail double benefits under multiple state scholarship schemes.\n\n<br>",
+  "_criteria_filled": 1
+}

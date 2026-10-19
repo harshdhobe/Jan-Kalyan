@@ -1,0 +1,27 @@
+{
+  "id": "skill-development-assistance-anbocwwb",
+  "name": "Skill Development Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the financial assistance of ₹10,000/- shall be provided by the Board to registered construction workers or their two children for the purchase of tool kits.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-an-islands-building-other-construction",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdaanbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in any building &amp;amp; other construction work.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. Registered construction workers, either for themselves or for their two children, can avail the benefits under the scheme for the purchase of tool kits.\n   1. The registered construction workers or their children must possess a successful course/trade completion certificate from the Government Industrial Training Institute or Vocational Training Centre to apply under the scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kisan-samriddhi-yojana-chhattisgarh",
+  "name": "Kisan Samriddhi Yojana - Chhattisgarh",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "**Mining Grant:**\n**S. No.****Farmer Category****Grant Eligibility**1GeneralActual Cost of mining (Including casing pipe) or Rs. 10,000/- whichever is less2SC/ST Actual Cost of mining (Including casing pipe) or Rs. 18,000/- whichever is less<br>\n\n**Subsidy on pump installation:**\n**S. No.****Farmer Category****Grant Eligibility**1GeneralCost of pump and accessories or Rs. 20,000/- whichever is les",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-paper-photograph-bill-invoice"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/agridept/StateScheme/2%20kisansamriddhi.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksych",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Farmers of all categories of districts will be benefited.\n1. Preference will be given to small and marginal farmers\n1. The farmers who have received the benefit of tube well mining grant in the past under any other scheme run by the department or under this scheme will not be eligible.",
+  "_criteria_filled": 1
+}

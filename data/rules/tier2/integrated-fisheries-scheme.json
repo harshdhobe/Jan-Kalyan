@@ -1,0 +1,26 @@
+{
+  "id": "integrated-fisheries-scheme",
+  "name": "Integrated Fisheries Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "- Financial assistance of up to ₹1,22,680 for SC/ST/women beneficiaries. \n- Financial assistance of  ₹1,07,345 for other beneficiaries.\n- Financial assistance is provided in three installments:\n\n1. The first installment is released after approval.\n1. The second after verification of project setup. \n1. The third upon successful implementation and monitoring of the fish-duck farming unit.\n\n<br>\n\n**N",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-or-lease-agreement-minimum-three-years-bank-account-details-caste"
+  ],
+  "apply_url": "https://jharkhandfisheries.org/orders/2023/Rajyadesh-letter-no.-04-RA-(VI)-dated-08.05.2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ifs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fish farmer.\n1. The proposed site should be near a population center.\n1. The applicant should own or lease a pond (minimum one acre) for at least three years.\n1. Preference is given to applicants closer to district headquarters for better monitoring.\n1. The applicant near RFF (Resource Fisheries Facilities) should have an active bank account and be part of a functional beneficiary group.\n1. Applicants who were selected in 2022-23 but did not receive grants will be prioritized.",
+  "_criteria_filled": 1
+}

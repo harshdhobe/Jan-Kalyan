@@ -1,0 +1,26 @@
+{
+  "id": "toolkit-assistance-ukbocwwb",
+  "name": "Toolkit Assistance (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, registered construction workers are provided with a toolkit worth up to ₹10,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "a-self-attested-photocopy-of-the-shramik-card-aadhaar-card-self-declaration-cert"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tksukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board.\n\n<br>",
+  "_criteria_filled": 1
+}

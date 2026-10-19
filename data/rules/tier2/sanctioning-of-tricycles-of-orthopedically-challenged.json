@@ -1,0 +1,36 @@
+{
+  "id": "sanctioning-of-tricycles-of-orthopedically-challenged",
+  "name": "Sanctioning of Tricycles of Orthopedically Challenged",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- Eligible beneficiaries receive a free tricycle to improve their mobility and independence. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-aadhaar-card-caste-certificate-in-case-of-scstbc-passport"
+  ],
+  "apply_url": "https://apdascac.ap.gov.in/Schemes/tricycles/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sotooc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have 40% or above disability and meet the eligibility criteria as specified in the [RPwD Act, 2016](https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2023/10/202310161053958942.pdf).1. The applicant should be eligible for sanction only once in three years.\n1. The applicant&#39;s family annual income should not exceed ₹3,00,000/-.\n\n<br>",
+  "_criteria_filled": 3
+}

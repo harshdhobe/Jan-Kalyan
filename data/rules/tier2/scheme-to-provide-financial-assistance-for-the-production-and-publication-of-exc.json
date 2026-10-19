@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-financial-assistance-for-the-production-and-publication-of-exc",
+  "name": "Scheme to Provide Financial Assistance for the Production and Publication of Excellent Original Children's Literature",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n- **For books up to 64 pages:** Up to ₹5,000/-.- **For books exceeding 64 pages:** Up to ₹10,000/-.\n> **Printing Size Guidelines:**\n\n- **For “Demy” size:** ₹2,300/- (paperback).- **For “Double Crown” size:** ₹2,500/- (paperback), ₹2,700/- (hardcover).\n> **Note:** Whichever is lower between actual expense and ceiling will be granted.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "first-page-of-cancelled-chequepassbook-for-bank-account-details"
+  ],
+  "apply_url": "https://gujaratsahityaacademy.com/assets/yojana_rules/4_Balsahity_Niyamo202526.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stpfapcl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be the original author of a children&amp;#39;s book manuscript written in Gujarati.\n  - The book must be unpublished, original, and appropriate for children’s literature in terms of content and presentation.\n  - Authors who have received five grants or more under any Sahitya Academy schemes are not eligible.\n  - Only one application per financial year is allowed.\n  - Manuscript must be typed, bound, paginated, and submitted in two copies by the deadline.",
+  "_criteria_filled": 1
+}

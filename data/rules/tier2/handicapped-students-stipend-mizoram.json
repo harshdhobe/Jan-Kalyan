@@ -1,0 +1,36 @@
+{
+  "id": "handicapped-students-stipend-mizoram",
+  "name": "Handicapped Students Stipend Mizoram",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "- Upto Class 4th - ₹30/- per month per student (360/- per annum) \n- Class 5th to Class 7th - ₹40/- per month per student (480/- per annum) \n- Class 8th to  Class 12th - ₹85/- per month per student (1020/- per annum)\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-udiddisability-certificate-proof-of-bpl-status-family-r"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/page/handicapped-students-stipend",
+  "source_url": "https://www.myscheme.gov.in/schemes/hssm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Mizoram.\n1. The applicant should be a disabled person. \n1. The applicant should be a student enrolled in government or private school.\n1. The applicant should be from the Below Poverty Line (BPL) family.\n\n<br>\n\n<br>",
+  "_criteria_filled": 3
+}

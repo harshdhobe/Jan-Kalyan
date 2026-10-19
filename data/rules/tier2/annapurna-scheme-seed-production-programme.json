@@ -1,0 +1,26 @@
+{
+  "id": "annapurna-scheme-seed-production-programme",
+  "name": "Annapurna Scheme: Seed Production Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Provision of Foundation or Certified Grade I seeds of improved varieties of high-yielding food grain crops for seed production.\n- Eligibility for a 75% subsidy on the actual cost of the Foundation or Certified seed up to a maximum area of 1 hectare.\n- Payment for registration (application fee, registration fee, inspection fee, and sample fee) with the Seed Certification Agency will be covered fr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationselectioncaste-certificate-land-holding-document-showi"
+  ],
+  "apply_url": "https://mpkrishi.mp.gov.in/hindisite_New/pdfs/Annapurna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/as-spp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Caste or Scheduled Tribe.\n\n- The applicant must be a small or marginal farmer.\n- The applicant must be willing to participate in the “Seed Production Programme”.\n- The applicant must operate within the 10-kilometer periphery of the selected Government agricultural farms.\n- The applicant must conduct the program on a minimum area of 0.2 hectares (1/2 acre).\n- The applicant must be eligible for a maximum grant up to 1 hectare.\n- The applicant must mandatorily register with the Seed Certification Agency.\n- The plan includes the food grain crops Paddy (Dhan), Jowar, Bajra, Maize, Kodo, Kutki, Ragi (for Kharif), and Wheat (Gehu), Barley (Jau) (for Rabi).\n\n****Preference should be given to the names listed first in the approved list.***\n****The waiting list will remain valid only until the crop season.***\n<br>\n\n***Implementation Area*** \nThe Seed Production Programme will be implemented within the 10-kilometer periphery of the following Government agricultural farms:\n_Gohad (Bhind), Mahuakheda (Gwalior), Indergarh (Datia), Gazaura (Shivpuri), Rannod (Shivpuri), Gariyaband (Raipur), Khairibilari (Raipur), Mohgaon (Durg), Surgi (Rajnandgaon), Bhavarmara (Rajnandgaon), Amethi (Raigarh), Ragja (Janjgir), Lakhanpur (Korba), Gehwara (Satna), Samda (Sidhi), Jabera (Damoh), Naogaon (Chhatarpur), Ajaygarh (Panna), Bhomakhatiya (Seoni), Kinhi (Balaghat), Delakhedi (Chhindwara), Narsinghpur (Narsinghpur), Pirprod (Katni), Manpur (Umariya), Bhikangaon (Khargone), Chandrakeshar (Dewas), Girwar (Shajapur), Panched (Ratlam), Patan (Mandsaur), Phanda (Bhopal), Rehthi (Sehore), Silwani (Raisen), Gundgaon (Betul), Sarangpur (Rajgarh), Keralapal (Jagdalpur), Kanker (Kanker), Pankhajor (Kanker), Chalta (Sitapur Surguja), Lohari (Koriya), Ori (Mandla), Biridodogari (Mandla), Birhuliya (Shahdol), Nogaon (Dhar), Jobat (Jhabua), Alirajpur (Jhabua), Garhi (Balaghat)._\n<br>",
+  "_criteria_filled": 1
+}

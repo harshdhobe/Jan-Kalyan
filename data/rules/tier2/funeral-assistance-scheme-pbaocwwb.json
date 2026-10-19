@@ -1,0 +1,27 @@
+{
+  "id": "funeral-assistance-scheme-pbaocwwb",
+  "name": "Funeral Assistance Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹7,000/- credited within 7 days through DBT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration1-duly-filled-and-signed-application-form-2-birth-certificatetra",
+    "serving-as-evidence-of-being-a-construction-worker-4-details-related-to-construc"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fas-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be the nominee/dependent of the deceased Construction Worker.\n- The Construction Worker should have been a citizen of India.\n- The deceased, in his/her lifetime, should have been registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The deceased, in his/her lifetime, should have completed the age of 18 years.\n- The deceased, in his/her lifetime, should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The deceased, in his/her lifetime, should have contributed regularly to the fund.\n- The deceased, in his/her lifetime, should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.",
+  "_criteria_filled": 1
+}

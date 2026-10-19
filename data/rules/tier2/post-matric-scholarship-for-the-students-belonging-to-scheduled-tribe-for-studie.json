@@ -1,0 +1,37 @@
+{
+  "id": "post-matric-scholarship-for-the-students-belonging-to-scheduled-tribe-for-studie",
+  "name": "Post-Matric Scholarship for the Students Belonging to Scheduled Tribe for Studies in India",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "##### ***Fee Component***\n\n- The scheme covers the payment of compulsory non-refundable fees for the recognized post-matriculation or post-secondary course pursued by the student.\n- There is a fee ceiling of ₹2,50,000/- per annum per student for Engineering courses in private sector institutes.\n- There is a fee ceiling of ₹6,00,000/- per annum per student for Bachelor of Medicine, Bachelor of Surg",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "during-application-phasepassport-size-photograph-of-the-applicant-aadhaar-card-o",
+    "block-development-officer",
+    "mouzadar",
+    "employer",
+    "or-income-tax-officer-income-declaration-form-signed-by-the-parents",
+    "guardian",
+    "or-husband-scanned-copy-of-certificates-and-mark-sheets-of-all-examinations-pass"
+  ],
+  "apply_url": "https://directoratetribalaffairsplain.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssbstsi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Scheduled Tribe, Other Backward Classes, or More Other Backward Classes as specified in relation to the State or Union Territory to which they actually belong.\n- The applicant must have successfully passed the Matriculation or Higher Secondary or any higher examination of a recognized University or Board of Secondary Education.\n- The applicant must take admission in recognized post-matriculation or post-secondary courses pursued in government, government-aided, or approved private institutions.\n- The applicant must possess a valid, active bank account in a Scheduled Bank.\n- The applicant must link their bank account securely with their Aadhaar number and their active mobile number.\n- The applicant should preferably continue using the identical mobile number linked with the bank account for the entire duration of the course.\n\n<br>\n\n***Income Criteria***\n\n- The applicant must belong to a family whose total gross income from all sources does not exceed ₹2,50,000/- per annum without any exemption or deductions.\n- The applicant must calculate the combined income of both parents from all sources if both the father and mother are currently working.\n- The applicant must compute the income of only one parent if only one parent is alive and supporting the family.\n- The applicant must not include the income of siblings or other earning members of the family while computing the total family income.\n- The applicant must be fully exempt from the family income criteria if they are an orphan supported by a guardian.\n\n<br>",
+  "_criteria_filled": 2
+}

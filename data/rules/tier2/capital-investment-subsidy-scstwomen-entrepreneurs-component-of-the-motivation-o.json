@@ -1,0 +1,27 @@
+{
+  "id": "capital-investment-subsidy-scstwomen-entrepreneurs-component-of-the-motivation-o",
+  "name": "\"Capital Investment Subsidy: SC/ST/Women Entrepreneurs\" Component of the \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **For Scheduled Caste/ Scheduled Tribe/ Women Entrepreneurs**\n\nSubsidy for the investments made on land, building, plant &amp; machinery @ 25% thereof subject to a maximum of ₹25,00,000/-.\n> **For Scheduled Caste and Scheduled Tribe Entrepreneurs**\n\nSubsidy at the rate of 25% on the land, building and plant &amp; machinery subject to a cumulative maximum of ₹50,00,000/-.\n<br>\n\n> **Number of Inst",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "general-documentsentrepreneurs-memorandum-part-2-uam-pmt-registration-commenceme",
+    "an-affidavit-stating-that-the-subsidy-has-not-been-availed-of-from-the-central-g"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisscstwe-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Scheduled Caste/ Scheduled Tribe/ Woman Entrepreneur.\n- In the case of indigenous second-hand machinery, the initial purchase value with depreciation, or the second-hand purchase value, or value assessed by the Chartered Engineer, whichever is less, will be taken as an investment.\n- If two or more industrial undertakings are set up by the same person as proprietor, common partners, or common board of directors/shareholders, such units are eligible for subsidy as separate entities provided the location, products and licences/clearances/registrations are obtained separately.\n\n> **For Scheduled Caste/ Scheduled Tribe/ Women Entrepreneurs**\n\n- The subsidy for the investments made on land, building, plant &amp; machinery will be applicable for the small and micro manufacturing enterprises which started production on or after 27-3-2002. \n\n> **For Scheduled Caste and Scheduled Tribe Entrepreneurs**\n\n- The subsidy to Scheduled Caste and Scheduled Tribe Entrepreneurs on the land, building and plant &amp; machinery will be applicable on the investment made on or after 24-8-2011. The unit should commence production/complete expansion as the case may be on or after 24-8-2011.\n- Second-hand machinery shall be eligible provided it is imported by the unit directly or through an agent, and the claim is supported with required import documents.",
+  "_criteria_filled": 1
+}

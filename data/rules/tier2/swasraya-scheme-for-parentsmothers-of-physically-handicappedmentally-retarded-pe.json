@@ -1,0 +1,37 @@
+{
+  "id": "swasraya-scheme-for-parentsmothers-of-physically-handicappedmentally-retarded-pe",
+  "name": "Swasraya Scheme For Parents/Mothers Of Physically Handicapped/Mentally Retarded Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, a one-time financial assistance of ₹35,000/- will be provided to women of BPL families to find self-employment, whose husbands have died/abandoned, and who have to take care of their sons/children with severe physical and mental challenges.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-of-person-with-disability-mobile-number-email-id-passport-s",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/21257.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sspmphmrp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The applicant should be from Below Poverty Line (BPL) family.\n   1. The parents (mothers) with children having 70% or more disability / mental retardation are eligible to apply under the scheme.\n   1. Single/Unwed mothers/Wives abandoned by husbands/Legally divorced women/Separated women are eligible to apply under this scheme.\n   1. Close relatives (women- as mentioned in the above category) who act as caretakers of severely disabled/mentally challenged patients can also apply.\n\n**Note 01:** Mothers of severely disabled/mentally challenged bedridden patients will be given priority.\n**Note 02:** Beneficiaries of the “Aswasakiranam Scheme” can also apply under the scheme.",
+  "_criteria_filled": 3
+}

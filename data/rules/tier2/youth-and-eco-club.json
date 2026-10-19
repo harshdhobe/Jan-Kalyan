@@ -1,0 +1,26 @@
+{
+  "id": "youth-and-eco-club",
+  "name": "Youth and Eco Club",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the Youth and Eco Club in schools, awareness programmes, competitions, and activities were organized on plastic reduction, kitchen gardening, tree plantation, environmental protection, waste management, cleanliness, and water conservation, etc.\n\n  - Bagless Day and Environment Friendly Awareness.\n  - Awareness Through Skits and Plays.\n  - Poster makings, Paintings, Slogan writing etc. Compet",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-in-accordance-with-the-guidelines-under-the-youth-and-eco-clu"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All primary, upper primary, and secondary government schools in Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

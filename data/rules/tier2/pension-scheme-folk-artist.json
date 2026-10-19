@@ -1,0 +1,32 @@
+{
+  "id": "pension-scheme-folk-artist",
+  "name": "Pension Scheme - Folk Artist",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Pension of ₹300/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photograph-original-registration-card-of-the-folk-artist-origi",
+    "not-below-the-rank-of-civil-surgeon-under-his-name-and-seal-should-be-enclosed-i"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psfa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a registered folk artist.\n1. The applicant&#39;s age should be 60 years or above. \n1. The artist must have worked continuously in their profession for at least five years.\n1. Disabled folk artists (sick and unable to work) who are under 60 but have been registered with the board for five continuous years are eligible for a pension.",
+  "_criteria_filled": 2
+}

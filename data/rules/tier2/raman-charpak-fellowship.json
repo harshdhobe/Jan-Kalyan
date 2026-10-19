@@ -1,0 +1,31 @@
+{
+  "id": "raman-charpak-fellowship",
+  "name": "Raman-Charpak Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. To and fro air ticket in economy class between India and France.\n   1. Insurance coverage (travel &amp;amp; health) wherever is required &amp;amp; Carte de Sejour (if any).\n   1. Any administrative costs for Visa and Registration (if any).\n   1. Support for attending conferences/seminars/workshops during the stay.\n\n&gt; **Value of Fellowship for Indian Fellow:**\n\n   1. Fellowship Support of 150",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      }
+    ]
+  },
+  "documents": [
+    "a-cv-maximum-up-to-2-pages-with-a-recent-photograph-including-a-summary-of-achie",
+    "a-list-of-relevant-publications-maximum-5-most-important-ones",
+    "etc-a-letter-of-recommendation-from-the-phd-supervisor-head-of-the-program-lette",
+    "the-title-and-the-research-work-plan",
+    "an-explanation-of-the-expected-benefit-from-hisher-stay-in-the-proposed-research",
+    "etc"
+  ],
+  "apply_url": "https://www.cefipra.org/Docs/RCF-GLine-2025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/r-cf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants from India must be Indian citizens residing in India and have registered for a PhD in a recognized university or research institution in India.\n   1. Applicants from France must be residing in France and have registered for a PhD/Master’s Degree in a recognized university or research institution in France.\n   1. Maximum age 30 years as of 1st April of the call year.\n   1. Students once supported by CEFIPRA and students who have a permanent position in institutions/universities are not eligible.\n   1. Pre-authorization or prior consent from his/her Institute/University to apply for a foreign fellowship program.",
+  "_criteria_filled": 1
+}

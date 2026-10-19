@@ -1,0 +1,26 @@
+{
+  "id": "state-government-st-scholarship-class-9-to-10",
+  "name": "State Government ST Scholarship (Class 9 to 10)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, scholarships will be provided to Scheduled Tribe students at the following rates:\n\n  - For Classes 9 to 10: ₹600/- per year for boys and ₹1,300/- per year for girls.\n\n**Note:** The scholarship amount will be transferred directly into the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=891",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgstsc9t10",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The student should be a native of Madhya Pradesh.\n   1. The student should be studying in Class 9 or Class 10.\n   1. The student should belong to the Scheduled Tribe category.\n   1. There is no restriction on the students&amp;#39; annual family income.\n\n**Note 1:** The students will be eligible for scholarships even if they fail for 1 year.\n**Note 2:** Reapplication is not required for the renewal of the scholarship.",
+  "_criteria_filled": 1
+}

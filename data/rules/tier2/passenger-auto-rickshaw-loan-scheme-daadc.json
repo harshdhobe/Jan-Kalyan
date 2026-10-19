@@ -1,0 +1,31 @@
+{
+  "id": "passenger-auto-rickshaw-loan-scheme-daadc",
+  "name": "Passenger Auto Rickshaw Loan Scheme (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial assistance in the form of a loan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-ration-card-copy-of-first-page-of-passbook-income-certificate-caste"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/parls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Applicant must be a permanent resident of Gujarat.\n  - The Applicant must belong to a Scheduled Caste (SC) community.\n  - The Applicant must be from an Antyodaya family.\n  - The Applicant’s family income must not exceed ₹3,00,000/- per annum.\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

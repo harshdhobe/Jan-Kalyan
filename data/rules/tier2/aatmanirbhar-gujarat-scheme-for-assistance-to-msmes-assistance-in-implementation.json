@@ -1,0 +1,28 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-in-implementation",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance in Implementation of Information and Communication Technology",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Capital Expenditure Support:**\n\n   1. Up to 65% of the capital expenditure related to ICT facilities is eligible for reimbursement.\n   1. Maximum assistance is up to ₹5,00,000/- during the operative period of the scheme.\n\n&gt; **Coverage for Previous Expenditure:**\n\n   1. Enterprises opting for the scheme can also receive assistance for expenses incurred during the previous scheme’s operati",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamlemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspromotersdirectors",
+    "and-authorized-signatory-copy-of-gst-registration-if-applicable-copy-of-audited"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmeict",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.\n   1. The scheme is available to all eligible enterprises that plan to implement ICT solutions, such as hardware for cloud computing and networking.",
+  "_criteria_filled": 1
+}

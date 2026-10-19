@@ -1,0 +1,26 @@
+{
+  "id": "monetary-relief-to-the-victim-of-atrocities-haryana",
+  "name": "Monetary Relief to the Victim of Atrocities- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under this scheme, financial assistance ranging from ₹85,000/- to ₹8,25,000/- is provided to the members of Scheduled Caste who becomes victims of atrocity by Non-Scheduled Caste persons for various acts like damage and loss of properties, grievous hurt, temporary/permanent incapacitation, Murder, death, rape, gang rape, kidnapping, the outrage of modesty, etc. \n\n**Note:** Financial Assistance ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-citizenship-proof-any-one-of-the-following-ration-card-domicile-certi"
+  ],
+  "apply_url": "https://haryanascbc.gov.in/monetary-relief-to-the-victim-of-atrocities-5050",
+  "source_url": "https://www.myscheme.gov.in/schemes/mrvah",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Haryana.\n   1. The applicant must be a victim, or a family member/dependent of a victim, of an atrocity committed by non-Scheduled Caste persons.\n   1. The applicant must belong to the Scheduled Caste or Scheduled Tribe community.\n   1. An FIR must be lodged under the SC/ST Prevention of Atrocities Act, 1989.",
+  "_criteria_filled": 1
+}

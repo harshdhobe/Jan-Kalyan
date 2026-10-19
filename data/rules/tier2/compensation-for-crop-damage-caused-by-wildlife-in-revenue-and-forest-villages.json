@@ -1,0 +1,27 @@
+{
+  "id": "compensation-for-crop-damage-caused-by-wildlife-in-revenue-and-forest-villages",
+  "name": "Compensation for Crop Damage Caused by Wildlife (in Revenue and Forest Villages)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Financial Benefits**\n\n- Compensation is provided to farmers whose crops are damaged by wild animals.\n- Loss assessment is conducted as per Madhya Pradesh Revenue Book Circular, Volume 6, Clause 4.\n- The compensation amount depends on the extent of damage assessed by the designated authority.\n\n**Mode of Disbursement**\n\n- Payment is made through e-payment directly into the farmer’s bank account.\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-account-passbook-any-other-document",
+    "if-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=962",
+  "source_url": "https://www.myscheme.gov.in/schemes/rccdcwrfv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh. \n- The applicant must be a farmer whose crops have been damaged.\n- The damage must be caused by wild animals and not by domestic or stray animals.\n\n<br>",
+  "_criteria_filled": 1
+}

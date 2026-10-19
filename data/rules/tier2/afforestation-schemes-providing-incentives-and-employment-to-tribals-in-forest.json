@@ -1,0 +1,27 @@
+{
+  "id": "afforestation-schemes-providing-incentives-and-employment-to-tribals-in-forest",
+  "name": "Afforestation Schemes Providing Incentives And Employment To Tribals In Forest",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Incentive:** Financial grants for afforestation activities.  - **Employment:** Employment opportunities in forest management.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority",
+    "voter-id-proof-of-residence-in-the-tribalforest-area-unemployment-certificate-if"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83087",
+  "source_url": "https://www.myscheme.gov.in/schemes/aspie",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should belong to the Tribal community.\n- The beneficiary should be Unemployed.",
+  "_criteria_filled": 1
+}

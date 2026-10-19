@@ -1,0 +1,26 @@
+{
+  "id": "very-dense-apple-plantation-scheme",
+  "name": "Very Dense Apple Plantation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, farmers will be provided with a 60% subsidy for establishing orchards of the latest apple varieties. The subsidy is structured as follows: 900 saplings per acre (₹12.36 lakh) for M-9, 540 saplings per acre (₹7.86 lakh) for MM-111, and 440 saplings per acre (₹3.34 lakh) for seedlings.\nThe subsidy will be calculated on a pro-rata basis according to the number of very dense apple o",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "land-related-documents-such-as-khasra-and-khatauni-aadhaar-card-pan-card-udhyan"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vdaps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. For setting up very dense/seedling apple plantations, the minimum area of 2 Nali (0.04 ha) and the maximum area of 100 Nali (2 ha) will be eligible per beneficiary or group.\n\n<br>",
+  "_criteria_filled": 1
+}

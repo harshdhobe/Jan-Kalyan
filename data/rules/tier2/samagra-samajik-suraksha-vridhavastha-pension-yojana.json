@@ -1,0 +1,31 @@
+{
+  "id": "samagra-samajik-suraksha-vridhavastha-pension-yojana",
+  "name": "Samagra Samajik Suraksha Vridhavastha Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> Pension amount: ₹ 600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "three-photos-of-beneficiary-destitute-certificate-certificate-to-confirm-age-9-d"
+  ],
+  "apply_url": "https://socialsecurity.mp.gov.in/PensionManagement/Public/Online_Request_For_pension.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssvpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant age should be more than 60 years.\n1. The name should be mentioned on the Samagra portal.",
+  "_criteria_filled": 2
+}

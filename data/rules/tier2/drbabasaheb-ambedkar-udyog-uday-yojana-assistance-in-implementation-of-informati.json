@@ -1,0 +1,28 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-in-implementation-of-informati",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance in Implementation of Information and Communication Technology (ICT)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Covers up to 75% of the capital expenditure for ICT facilities maximum upto ₹5,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamlemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspromotersdirectors",
+    "and-authorized-signatory-copy-of-gst-registration-if-applicable-copy-of-audited"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyict",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n1. The scheme is available to all eligible enterprises that plan to implement ICT solutions, such as hardware for cloud computing and networking.\n\n&amp;gt; **Note:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

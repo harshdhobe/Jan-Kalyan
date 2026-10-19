@@ -1,0 +1,27 @@
+{
+  "id": "annual-medical-assistance-scheme-bbocwwb",
+  "name": "Annual Medical Assistance Scheme (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹3,000/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-bank-account-details-proof-of-age-identity-card-of-the-registered-wor"
+  ],
+  "apply_url": "https://bocw.bihar.gov.in/WebLink/NotificationDoc/00001240_Doc.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/amapbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a worker.\n- The worker should be engaged in building or construction work.\n- The worker should be registered with the &quot;Bihar Building &amp; Other Construction Workers Welfare Board&quot;.\n- The worker&#39;s membership with the Welfare Board must be active at the time of application.\n- The worker should have at least one year of membership with the Board.",
+  "_criteria_filled": 1
+}

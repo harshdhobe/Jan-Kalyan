@@ -1,0 +1,42 @@
+{
+  "id": "intensive-fisheries-development-programme-subsidy-on-solar-system-for-fishshrimp",
+  "name": "Intensive Fisheries Development Programme - Subsidy on Solar System for fish/shrimp culture",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. A subsidy of 60% on the total project cost amounting to ₹50,000 per kilowatt (KW) or a subsidy amount of ₹30,000 per KW, whichever is less, is provided.\n1. The maximum limit for this subsidy is 30 KW for shrimp farmers.\n1. The maximum limit for this subsidy is 10 KW for fish farmers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-fish-farmer-and-fisheries-department-agreement-1-date-of",
+    "matriculation-certificate",
+    "permanent-account-number-pan-card",
+    "voter-card",
+    "or-driving-license-identity-proof-ration-card",
+    "aadhaar-card",
+    "pan-card",
+    "or-voter-card-training-certificate-fisheries-training-from-any-government-instit",
+    "including-own-land-jamabandi",
+    "nakal-akshizra",
+    "farad",
+    "or-registered-lease-deed-of-minimum-7-years-goods-and-services-tax-gst-billsrece"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=03HBeefkD2f5ZmmyjW6BSg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssfschr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchaan Patra (PPP).\n1. The applicant should be a permanent resident of Haryana.\n1. The applicant&#39;s age should be a minimum of 18 years.\n1. The applicant should not be a government or semi-government employee.\n1. A minimum of 2.5-acre area is required for fish/shrimp culture. \n\n> **Note:** The benefit/subsidy will be provided only once to a beneficiary on a single unit.",
+  "_criteria_filled": 2
+}

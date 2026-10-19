@@ -1,0 +1,26 @@
+{
+  "id": "mukhya-mantri-vidyarthi-kalyan-yojana",
+  "name": "Mukhya Mantri Vidyarthi Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "> **Rates of Scholarship (per annum)**\n\n- Class 9th &amp; 10th: Boys: ₹ 300/-, Girls: ₹ 600/-.\n- Class 11th &amp; 12th: Boys: ₹ 800/-, Girls: ₹ 800/-.\n- College/University (Day Scholar):  Boys: ₹ 1,200/-, Girls: ₹ 1,200/-.\n- College/University (Hostelers): Boys: ₹ 2,400/-, Girls: ₹ 2,400/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-unique-identification-number-enrolment-iden"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/IRDP_2324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a bonafide of Himachal Pradesh.\n\n- The applicant should be a Student.\n- The applicant should belong to an Integrated Rural Development Program (IRDP) Family.\n- The applicant should be studying at the 9th to University Level.\n- The applicant should be pursuing their study in Government / Government Aided Institutions in Himachal Pradesh.\n- The applicant should have a Bank Account.\n\n<br>",
+  "_criteria_filled": 1
+}

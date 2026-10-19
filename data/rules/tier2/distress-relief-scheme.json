@@ -1,0 +1,36 @@
+{
+  "id": "distress-relief-scheme",
+  "name": "Distress Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "Financial Assistance of ₹20,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ration-card-copy-of-aadhaar-card-breadwinner-death-certificate-attested"
+  ],
+  "apply_url": "https://www.tnsocialwelfare.tn.gov.in/website-345/sites/default/files/2022-01/citizen_chart_2017_18.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/drs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The applicant should be the legal heir of the deceased primary breadwinner.\n2.  The family of the applicant should be solely dependent on agriculture (agricultural labourers/ small and marginal farmers).\nOR\nThe annual income of the family should not exceed ₹24,000/-.\n3.  The family should be from the &quot;Below Poverty Line&quot; category.",
+  "_criteria_filled": 3
+}

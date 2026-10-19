@@ -1,0 +1,43 @@
+{
+  "id": "kulavilakku",
+  "name": "KULAVILAKKU",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹500/- financial assistance during pregnancy.\n*** The benefit will be provided for upto two pregnancies only.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-card-residence-certificate-from-the-revenue-de",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://wcd.py.gov.in/sites/default/files/kulavilakku-appl-tamil.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/k-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n\n- The applicant should be a native of the Union Territory of Pondicherry by birth or by continuous residence of not less than 5 years.\n\n- The applicant should be a woman.\n- The applicant should be pregnant.\n- The applicant should have attained the age of 18 years.\n- The applicant should have crossed seven months of pregnancy.\n- The annual income of the applicant should not exceed ₹24,000/- per annum.\n- The benefit will be provided for upto two pregnancies only.",
+  "_criteria_filled": 4
+}

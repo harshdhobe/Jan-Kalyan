@@ -1,0 +1,27 @@
+{
+  "id": "safety-audit",
+  "name": "Safety Audit",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. 75% reimbursement of expenses incurred for conducting safety audits, up to ₹1,00,000/-.\n1. 50% subsidy on cost of capital equipment required for safety measures, up to ₹5,00,000/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "acknowledgement-of-em-part-iiudyog-aadhaar-certificate-of-incorporation-partners",
+    "if-applicable-copy-of-first-sale-bill-copy-of-safety-audit-certification-ca-cert"
+  ],
+  "apply_url": "https://investharyana.in/content/pdfs/Safety_Audit_Scheme-2015.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/sa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Micro, Small, or Medium Enterprise (MSME), either newly established or existing.\n1. The enterprise must be registered with the appropriate authority (e.g., Udyog Aadhaar / EM Part-II).\n1. The safety audit must be conducted by auditors from a recognized ISO-certified agency.\n1. The industrial units must also comply with the following conditions:\n\n  - The item of manufacture should not fall in the restrictive list as notified by the State Government from time to time.\n  - Investments in new plant, machinery and equipments focussed towards enhancing safety shall only be eligible for subsidy under this scheme.\n  - The units should have obtained NOC/CLU from competent authority, if applicable.\n  - The units should be in commercial production.\n  - The units should be in regular production at the time of disbursement and the assistance shall not be released to the closed unit.\n\n<br>",
+  "_criteria_filled": 1
+}

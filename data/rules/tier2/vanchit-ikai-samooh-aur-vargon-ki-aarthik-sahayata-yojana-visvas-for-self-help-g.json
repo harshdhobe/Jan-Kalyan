@@ -1,0 +1,26 @@
+{
+  "id": "vanchit-ikai-samooh-aur-vargon-ki-aarthik-sahayata-yojana-visvas-for-self-help-g",
+  "name": "Vanchit Ikai Samooh aur Vargon ki Aarthik Sahayata Yojana (VISVAS) for Self-Help Groups",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **Interest Subvention**\n\n- Interest subvention of up to 5% per annum on eligible loans.\n\n> **Loan Limits**\n\n- Self-Help Groups (SHGs): Loans/Cash Credit Limits up to ₹10,00,000.\n\n> **Mode of Payment**\n\n- The interest subvention amount is transferred directly into the beneficiary&#39;s bank account through Direct Benefit Transfer (DBT).\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-details-of-members-as-applicable-shg-registration-certificate-declaratio"
+  ],
+  "apply_url": "https://www.nskfdc.nic.in/en/system/files/VISVAS%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/visvas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The SHG must have at least 70% members belonging to SCs, OBCs, or Safai Karamcharis (including identified Manual Scavengers, Waste Pickers, and their dependents).\n1. The SHG must have a standard loan account.\n1. The SHG must not have received interest subvention on the same loan under any other scheme.\n1. The annual family income of SC/OBC members should generally be up to ₹3,00,000/-.\n\n> **NOTE:** No income ceiling for Safai Karamcharis, including identified Manual Scavengers, Waste Pickers, and their dependents.\n\n<br>",
+  "_criteria_filled": 1
+}

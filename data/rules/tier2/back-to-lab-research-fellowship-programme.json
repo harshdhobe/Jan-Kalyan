@@ -1,0 +1,36 @@
+{
+  "id": "back-to-lab-research-fellowship-programme",
+  "name": "Back-to-Lab Research Fellowship Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Monthly Research Fellowship of ₹22,000/- + 10 % HRA in the first two years and ₹25,000/- + 10 % HRA per month in the third year, along with an annual contingent grant of ₹20,000/-.\n   1. Duration of the Fellowship is 3 years or till the date of submission of Ph.D Thesis, whichever is earlier.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-proof-of-kerala-nativity-3-proof-of-date-of-birt"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/back-to-lab/",
+  "source_url": "https://www.myscheme.gov.in/schemes/btlrfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only women candidates are eligible to apply.\n   1. Applicant should be of Kerala origin and unemployed.\n   1. Age limit: 45 years\n   1. Applicant should have qualified post-graduation with a minimum of 60% marks.\n   1. Applicant should have a valid Ph.D registration in an institution of academic/ research excellence in Kerala including R&amp;amp;D institutions, University Departments, Govt. Aided colleges, in any of the streams; Science, Technology, Engineering, Agriculture or Medicine (STEAM).\n   1. Applicant should have completed Ph.D coursework.\n   1. Only those research scholars who are under (undergone) a career break spanning a minimum period of 6 months during the course of their Ph.D. programme due to maternity or other valid reasons are eligible to apply.\n   1. Applicant should not have completed 4 years as on the date of Ph.D registration.\n   1. Applicant should not be receiving any fellowship or grant from any other source for the Ph.D. programme.",
+  "_criteria_filled": 3
+}

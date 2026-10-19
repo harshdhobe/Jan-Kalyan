@@ -1,0 +1,26 @@
+{
+  "id": "scholarships-to-meritorious-students-of-sanskrit-schools",
+  "name": "Scholarships to Meritorious Students of Sanskrit Schools",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. Meritorious students of Prathmik Madhyama (Class 10) are awarded a scholarship of ₹500 per month for 20 months.\n1. Three meritorious students of Uttar Madhyama (Class 12) are awarded cash prizes:\n\n- **First Position:** ₹20,000/-- **Second Position:** ₹15,000/-- **Third Position:** ₹10,000/-\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-merit-list-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/svmvc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student of a recognized Sanskrit school under the Uttarakhand Sanskrit Shiksha Parishad.\n   1. The applicant must have secured a place in the top 10 in the class 10th merit list or in the top 3 in the class 12th merit list from the Board Examination of Sanskrit School.   1. The applicant must be currently studying in class 11th or 12th after clearing class 10th.\n&lt;br&gt;\n\n<br>",
+  "_criteria_filled": 1
+}

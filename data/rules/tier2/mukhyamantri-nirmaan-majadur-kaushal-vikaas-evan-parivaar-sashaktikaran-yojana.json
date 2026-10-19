@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-nirmaan-majadur-kaushal-vikaas-evan-parivaar-sashaktikaran-yojana",
+  "name": "Mukhyamantri Nirmaan Majadur Kaushal vikaas evan Parivaar Sashaktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "1. Registered construction workers will be given training for skill upgradation.\n1. Registered construction workers will be provided certificates of their work trade.\n1. Family members of registered construction workers will be given training in various trades as per their interest.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "labor-registration-card-ration-card-residential-proof-bank-account-details"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/193786_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnmkvpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Chhattisgarh state.\n1. It is necessary for construction workers to be registered with the board.\n1. Age limit should be between 18 to 50 years.\n1. If a person parallelly getting the benefits from state Government, that will not be eligible for this scheme benefits.",
+  "_criteria_filled": 3
+}

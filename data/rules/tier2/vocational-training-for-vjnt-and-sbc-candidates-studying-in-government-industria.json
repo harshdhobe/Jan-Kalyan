@@ -1,0 +1,26 @@
+{
+  "id": "vocational-training-for-vjnt-and-sbc-candidates-studying-in-government-industria",
+  "name": "Vocational Training For VJNT And SBC Candidates Studying In Government Industrial Training Institute",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The training fees ₹ 400/- to ₹ 2400/- (as per course) are paid to the concerned I.T.I. After completion of training, one Tool Kit of ₹ 1000/- is provided to the trainee through the concerned Govt. I.T.I.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-caste-certificate-income-certificate-of-parents-domicile-certificate"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training",
+  "source_url": "https://www.myscheme.gov.in/schemes/vtvscsgit",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Students should belong to VJNT or SBC Category.\n1. The selection of students for training under this scheme is made by the Principal of the concerned Govt. I.T.I. &amp; concerned Asstt.\n1. Commissioner of Social Welfare.",
+  "_criteria_filled": 1
+}

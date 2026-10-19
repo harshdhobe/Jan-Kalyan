@@ -1,0 +1,43 @@
+{
+  "id": "indira-gandhi-national-widow-pension-scheme-jammu-and-kashmir",
+  "name": "Indira Gandhi National Widow Pension Scheme (Jammu and Kashmir)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "The widow will receive a monthly pension of ₹1,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-eg",
+    "voter-id-card",
+    "driving-license-proof-of-age-below-poverty-line-bpl-card-ration-card-caste-certi"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3f4b9ec30ad9f68f89b29639786cb62ef/uploads/2018/01/2018112294.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignwpsjak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jammu and Kashmir.\n1. The applicant should be a widow.\n1. The widow&#39;s age should be 40 years or older.\n1. The widow should belong to a Below Poverty Line (BPL) family.\n1. The applicant should not be receiving pension benefits under any other social security scheme.",
+  "_criteria_filled": 4
+}

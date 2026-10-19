@@ -1,0 +1,36 @@
+{
+  "id": "jharkhand-nirman-karmakar-mrityudurghatana-sahayata-yojana",
+  "name": "Jharkhand Nirman Karmakar Mrityu/Durghatana Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "In case of death in an accident, ₹ 5,00,000/-.\nIn case of complete disability in an accident, ₹ 3,00,000/-.\nIn case of partial disability in an accident, ₹ 2,00,000/-.\nIn case of normal death, ₹ 1,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-death-certificate-in-t"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jnkmdsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be a registered Construction Worker (Nirman Shramik / Nirman Karmakar).\n1. The applicant should be in the age group of 18-60 years.\n1. The applicant should have worked for at least 90 days.",
+  "_criteria_filled": 3
+}

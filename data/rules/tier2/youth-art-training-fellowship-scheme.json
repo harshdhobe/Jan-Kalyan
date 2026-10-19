@@ -1,0 +1,36 @@
+{
+  "id": "youth-art-training-fellowship-scheme",
+  "name": "Youth Art Training Fellowship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Monthly training fellowship of ₹10,000 per selected participant.\n- Professional art training at [government-recognized art and music institutions (Page No. 3)](https://www.culturemp.in/pdfs/fellowship-2023.pdf).- Certification after successful completion of training.\n- Opportunity to receive structured guidance in classical, tribal, and folk art forms.\n- The fellowship is valid only for the appr",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "biodata-of-the-applicant-proof-of-date-of-birth-proof-of-permanent-address-aadha"
+  ],
+  "apply_url": "https://www.culturemp.in/pdfs/fellowship-2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/yatfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be interested in training in one art discipline such as singing, instrumental music, dance, theatre, painting, or crafts.\n1. The applicant should be between 18 and 35 years of age.\n\n<br>",
+  "_criteria_filled": 3
+}

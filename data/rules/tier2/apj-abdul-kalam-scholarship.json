@@ -1,0 +1,35 @@
+{
+  "id": "apj-abdul-kalam-scholarship",
+  "name": "APJ Abdul Kalam Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Financial support of ₹6,000/- per annum for selected scholars.\n1. The scholarship is intended for students pursuing three-year diploma courses in government, aided, or government-approved self-financing polytechnic institutions.\n\n<br>\n\n> **Frequency of Disbursement:**\n\n> The scholarship is a one-time benefit.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-registration-printout-sslc-secondary-school-leaving-certificate",
+    "plus-twovhse-vocational-higher-secondary-education-mark-list-copy-allotment-memo",
+    "account-number",
+    "branch-code",
+    "and-branch-address-aadhaar-card-copy-or-npr-national-population-register-card-co"
+  ],
+  "apply_url": "https://www.scholarship.minoritywelfare.kerala.gov.in/dmw_ma/dmw_ind.php#dialog",
+  "source_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Kerala.\n1. The applicant must be a regular/scheduled student.\n1. The applicant should belong to a religious minority community (Muslim, Christian (all denominations), Sikh, Buddhist, Jain, Parsi).\n1. The applicant must be studying a three-year diploma course in a government, aided, or government-approved self-financing polytechnic institution.\n1. The applicant must have secured admission in a merit seat in a government-approved self-financing polytechnic institution.\n1. The applicant&#39;s family annual income should not exceed ₹8,00,000/- if from the APL (Above Poverty Line) category.\n1. The applicant can be a second-year or third-year student.\n1. The applicant must have an account in their own name in any nationalised bank or scheduled bank.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n  - BPL (Below Poverty Line) category applicants will be given preference.\n  - 30% of the scholarships are reserved for girls. If the specified percentage of girls is not met, eligible boys will also be considered for the scholarship.\n  - The selection of minority students is based on family annual income and marks, proportionate to the population.\n\n<br>",
+  "_criteria_filled": 2
+}

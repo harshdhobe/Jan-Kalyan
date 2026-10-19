@@ -1,0 +1,36 @@
+{
+  "id": "e-thela-sahaayata-yojana",
+  "name": "E-Thela Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "1. Registered unorganized labor individuals will need to cover the expenses of ₹ 10,000 for scheme execution.\n1. A grant of ₹ 30,000/- will be provided by the Chhattisgarh Unorganized Worker State Social Security Board.\n1. The remaining sum will be extended to the Rikshaw/Auto Driver as a bank loan, with the beneficiary responsible for repaying it within a specified timeframe and at the interest r",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-permanent-residence-certificate-copy-of-ration-card-bank-account-det"
+  ],
+  "apply_url": "https://cglabour.nic.in/UOW/ethela.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/etsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Unorganized workers registered under the State Social Security Board and running hand carts are eligible for the scheme.\n1. Registered workers must be between the ages of 18 and 50.\n1. Commercial vehicle drivers must have a health certificate from the RTO.\n1. Registered workers must be registered with the Chhattisgarh Unorganized Workers State Social Security Board for at least 90 days.\n1. Each worker is only eligible for the scheme once.",
+  "_criteria_filled": 3
+}

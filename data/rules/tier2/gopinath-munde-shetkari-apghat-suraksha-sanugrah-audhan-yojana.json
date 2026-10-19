@@ -1,0 +1,37 @@
+{
+  "id": "gopinath-munde-shetkari-apghat-suraksha-sanugrah-audhan-yojana",
+  "name": "Gopinath Munde Shetkari Apghat Suraksha Sanugrah Audhan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "The benefits in the form of compensation provided:\n<br>\n\n\tI)Death - Rs. 2 lakhs\n\tII) Disablement - Rs. 1 lakh /- or 2 lakhs\n\t\ta) Loss of one limb or one Eye - Rs. 1 Lakhs\n\t\tb) Loss of two limbs or two Eyes- Rs. 2 lakhs\n\t\tc) Loss of one limb and one Eye\t - Rs. 2 lakhs\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 75
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "1-person-registered-as-farmer-in-maharashtra-as-evidenced-by-712-extract-2-villa",
+    "etc-5-death-certificate-6-first-investigation-report-fir-7-inquest-report-panchn"
+  ],
+  "apply_url": "https://krishi.maharashtra.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gopinath-munde-shetkari-apghat-suraksha-sanugrah-audhan-yojana",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1) Registered farmer in the age group of 10 -75 years.\n2) Person registered as farmer in Maharashtra as evidenced by 7/12 extract.\n3) All 1.52 crore farmers of the state and one family member   from their family.\n<br>",
+  "_criteria_filled": 3
+}

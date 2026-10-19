@@ -1,0 +1,37 @@
+{
+  "id": "foreign-study-loan",
+  "name": "Foreign Study Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount:** Up to ₹15,00,000/- for overseas study.\n**Interest Rate:** Simple interest at 4% per annum.\n**Repayment Grace Period:** 1 year after completion of study before repayment begins.\n**Flexible Repayment:** Borrower can repay the loan before the stipulated time limit.\n<br>\n\n**Repayment Schedule**\n\n- For loans up to ₹5,00,000/-: Equal monthly installments over 5 years.\n- For loans above ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "class-12th-mark-sheet-showing-60-or-more-marks-family-income-certificate-showing",
+    "00",
+    "000-or-less-property-documents-for-loans-up-to-7",
+    "50",
+    "000-property-worth-one-and-a-half-times-the-loan-amount-immovable-property-docum",
+    "50",
+    "000-for-mortgage-in-favor-of-the-corporation-five-post-dated-cheques-signed-in-f"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/Documents/how-to-apply/Videsh-Abhyas-Loan.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the non-reserved category.\n- The applicant must be pursuing higher studies abroad.\n- The applicant must be enrolled in Bachelor of Medicine, Bachelor of Surgery, post-graduation courses (valid even if obtained after diploma), post-graduation diploma, or equivalent courses after Class 12th.\n- The applicant must have scored 60% or more in Class 12th.\n- The applicant must belong to a family with an annual income of ₹6,00,000/- or less.\n\n<br>",
+  "_criteria_filled": 2
+}

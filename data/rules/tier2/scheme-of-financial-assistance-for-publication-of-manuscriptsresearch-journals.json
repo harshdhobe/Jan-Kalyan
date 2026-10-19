@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-financial-assistance-for-publication-of-manuscriptsresearch-journals",
+  "name": "Scheme of Financial Assistance for Publication of Manuscripts/Research Journals",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Financial Assistance of ₹10,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "summary-of-the-book-or-journal-sample-of-the-research-work-any-other-document-if"
+  ],
+  "apply_url": "https://art.py.gov.in//sites/default/files/ecit1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfapmrj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s proposed book or journal for publication must pertain to one or more cultural subjects such as language, literature, philosophy, religion, history, music, dance, drama, and other fine arts.\n1. The applicant should be using language Tamil/Malayalam/Telugu/English/French.\n1. The applicant&#39;s work should be a thesis, dissertation, or original research based on personal study and critical analysis, provided it is not intended for obtaining any degree.\n1. Fictional works are not eligible for financial assistance under this scheme.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,43 @@
+{
+  "id": "nirmaan-shramik-mrtyu-evan-divyaang-sahaayata-yojana",
+  "name": "Nirmaan Shramik Mrtyu Evan Divyaang Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "<br>\n\nSituationFinancial HelpOn Normal Death₹ 1,00,000/-Death on work location₹ 5,00,000/-Permanent disability on work location₹ 2,50,000/-<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate",
+    "aadhar-card",
+    "bank-passbook",
+    "nominees-aadhar-card",
+    "address-proof",
+    "mobile-number",
+    "death-certificate-and-in-case-of-permanent-disability",
+    "permanent-disability-certificate-issues-by-the-doctor"
+  ],
+  "apply_url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/191714_10_05_2019.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsmedsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Construction workers between 18 to 60 years of age will be eligible.\n1. The construction worker should be registered as a beneficiary under Section 12 of the Building and Other Construction Workers (Regulation of Employment and Service Conditions) Act, 1996.\n1. Death caused by suicide or consumption of drugs, substances or by committing a crime or death caused by physical violence committed with intent in violation of law and death due to riots, assistance amount was not provided.\n1. The benefit of the scheme will be given only on the death of the registered worker and not on the death of the family member.\n1. Beneficiaries benefited under the Financial Assistance and Rehabilitation Assistance Scheme for construction workers suffering from silicosis run by the Board will not be eligible for this scheme, because a separate  scheme is run for them.",
+  "_criteria_filled": 3
+}

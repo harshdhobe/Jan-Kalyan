@@ -1,0 +1,31 @@
+{
+  "id": "old-age-home-sahara",
+  "name": "Old Age Home (Sahara)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "1. Construction and operation of old age home &amp;quot;Sahara&amp;quot;\n   1. These old age homes also include housing, clothes, food, medical facilities etc. \n   1. Facilities will be available for qualitative improvement in the standard of living, cooperation and proper care of destitute and poor old people of the state.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-income-proof-document-bpl-card-if-applicable-two-passport-size-photogr"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Vrihad%20Sahayata%20Chhatra%20Yojana/Old%20Age%20Home(%20SAHARA).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oah",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicants should come under the below poverty line ( BPL) category (or)\n- Annual Income should be below Rs. 60,000/-",
+  "_criteria_filled": 2
+}

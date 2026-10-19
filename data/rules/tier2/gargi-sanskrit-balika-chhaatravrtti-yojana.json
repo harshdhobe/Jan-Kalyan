@@ -1,0 +1,31 @@
+{
+  "id": "gargi-sanskrit-balika-chhaatravrtti-yojana",
+  "name": "Gargi Sanskrit Balika Chhaatravrtti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Scholarship Amount:** \n\n  - Girl students from classes 6 to 12 are provided ₹251/0 per month, at the rate of ₹3,012/- annually.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-any-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsgssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a girl student of any category.\n1. The girl student must be studying from class 6 to class 12 in a Sanskrit school of Uttarakhand.\n1. A total of 175 enrolled girl students will be eligible.\n\n<br>",
+  "_criteria_filled": 2
+}

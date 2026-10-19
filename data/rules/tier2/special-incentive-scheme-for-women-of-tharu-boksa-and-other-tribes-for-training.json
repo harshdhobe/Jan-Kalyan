@@ -1,0 +1,31 @@
+{
+  "id": "special-incentive-scheme-for-women-of-tharu-boksa-and-other-tribes-for-training",
+  "name": "Special Incentive Scheme for Women of Tharu, Boksa and Other Tribes (For Training and Marketing)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***Training Incentives:***\n\n  - Training is provided in various crafts based on market demand, along with popular crafts traditionally practiced by Tharu, Boxa, and other tribal women.\n  - The duration of the training program is two months, with a maximum of 25 training days per month. Each participant undergoes 5 hours of training per day, making a total of 250 training hours for the entire progr",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-copy-of-passbook-mobile-number-caste-certifica"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/siswtbottm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Women artisans belonging to the Tharu, Boksa, and other tribes engaged in the craft sector in Uttarakhand will be eligible for training and marketing support.\n\n<br>",
+  "_criteria_filled": 2
+}

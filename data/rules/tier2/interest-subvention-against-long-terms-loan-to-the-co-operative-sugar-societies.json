@@ -1,0 +1,26 @@
+{
+  "id": "interest-subvention-against-long-terms-loan-to-the-co-operative-sugar-societies",
+  "name": "Interest Subvention against long terms loan to the Co-operative sugar societies (Normal Area) (Tribal Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component**\t**Standard of Assistance**\t**Minimum Time Limit (in Years) for Reclaiming Benefits**Interest Subvention against long terms loan to the Co-operative sugar societies\tInterest actually paid on the bank loan amount taken by the Sugar Cooperative or 7% or whichever is less for a maximum period of 4 (four) years or interest concession on loan repayment (whichever is earli",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "loan-sanction-letter-from-the-bank-proof-of-loan-utilization-for-sugarcane-arrea"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=zziRlXhnC5iwFvjYX3k+rA==&domain=XWitJVnGypIBbPyRipp0WA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/isaltlcss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Sugar Co-operative Societies which have availed loan for payment of sugarcane arrears for the year 2018-19 for the respective sugarcane prices will be eligible for this scheme.",
+  "_criteria_filled": 1
+}

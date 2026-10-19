@@ -1,0 +1,26 @@
+{
+  "id": "interest-subsidy-under-motivation-of-entrepreneurs-to-start-industries-and-fisca",
+  "name": "\"Interest Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **For industry set up by SC/ST/Women entrepreneurs, that commenced production on or after 2-8-2004**\n\n- An interest incentive to an extent of 25% of the annual interest amount paid for five years which shall be admissible from the date of commencement of commercial production.\n- The maximum amount of interest incentive admissible to each industry shall not exceed ₹75,000/- in any financial year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/is-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The industry should be set up by SC/ST/Women/ Entrepreneur OR The industry should be a &quot;Thrust Area Industry&quot; or an &quot;IT Sector Industry&quot;.\n- The industrial unit should have availed of a loan from a financial institution towards the creation of fixed assets and working capital.\n- The industry should have commenced production on or after 2-8-2004.\n\nOR\n\n- The industry should be set up by SC/ST/Women/Physically Handicapped/Ex-Servicemen Entrepreneur OR The industry should be a &quot;Thrust Area Industry&quot; or an &quot;IT Sector Industry&quot;.\n- The industry should have availed the loan on or after 24-8-2011 from a financial institution towards the creation of fixed assets and working capital.\n- The industry should have commenced production on or after 24-8-2011.\n\n*The &quot;Financial Institution&quot; mean and includes PIPDIC, or any other Government Corporation, Scheduled Banks including Co-operative Banks and Government Co-operative Societies.",
+  "_criteria_filled": 1
+}

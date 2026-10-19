@@ -1,0 +1,31 @@
+{
+  "id": "kali-bai-bheel-medhavi-chhatra-scooty-scheme",
+  "name": "Kali Bai Bheel Medhavi Chhatra Scooty Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Scooty distribution to girl students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-address-proof-copy-bank-passbook-copy-birth-certificate-copy-do"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/173",
+  "source_url": "https://www.myscheme.gov.in/schemes/kbbmcss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Girl students who have passed class 12th with a minimum of 65% marks in Rajasthan Board of Secondary Education and passed class 12th with a minimum of 75% marks in Central Board of Secondary Education who are studying in any school in Rajasthan.\n1. Graduation degree from any Rajasthan-based college like (B.A.BED/ B.SC.BED/ B.COM.BED/BE / B.TECH/ B.ARCH / MBBS / IIT / BBA / BBM / BCA / BDS / BHMS / BAMS / LAW/ etc.) and studying as a regular student.\n1. The benefit of the scheme will not be payable if there is a gap of one year from the year of passing the 12th class in the admission of a bachelor&#39;s degree.\n1. Girl students getting financial assistance in any other scheme will also be benefited from this scheme. Girl students receiving financial aid/scholarships in any other scheme will not be deprived of this scheme.\n1. The girl students who have got the benefit of scooty in any scheme of the state government on the basis of their marks in any class before the implementation of the said scheme, those girl students will not be eligible to get scooty in this scheme. \n1. In the past, on the basis of 10th class results from the TAD Department, School Education Department, if a girl child has received scooty on the basis of 10th result, then that girl student will get a lump sum amount of Rs 40,000 if she is eligible on the basis of 12th result.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "parivahan-scheme-gbcdc",
+  "name": "Parivahan Scheme (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The applicant can avail a loan of up to ₹2,00,000/- for purchasing vehicles such as auto-rickshaws, loading vehicles, and other transport vehicles.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-caste-certificate-income-certificate-passport-size-photographs"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/psgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Socially and Educationally Backward Classes (SEBC) category.\n1. The applicant can be of any gender.\n1. The applicant should be unemployed.\n1. The applicant should have any level of education.\n1. The applicant should have an individual and family annual income up to ₹3,00,000/-.\n1. The applicant should hold a valid Driving Licence for the type of vehicle intended for purchase (specifically for passenger vehicles).\n\n<br>",
+  "_criteria_filled": 2
+}

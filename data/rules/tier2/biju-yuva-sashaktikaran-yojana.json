@@ -1,0 +1,26 @@
+{
+  "id": "biju-yuva-sashaktikaran-yojana",
+  "name": "Biju Yuva Sashaktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. An amount of ₹30,000/- per student is transferred directly to the bank accounts of 15,000 meritorious +2 students through Direct Benefit Transfer (DBT) for the purchase of laptop.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-residence-certificate-of-the-student-caste-certifica"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/Admin/getAfile/eyJpdiI6ImMrYWNPa3lxM1NLWW9WRVpkZFdnaFE9PSIsInZhbHVlIjoieXFRTTR1aElvYStcL3RKVmZIK09FVWR2ZlZjTkFMREpDMDR4N2J2dFlmcG9pek1QQlwveGtaNmhEc0puV1JYSFwvVU96bnhIQkh1ckNuRXBBanhQa0dLc2c9PSIsIm1hYyI6ImVjYWRjZmI2ZjNjMWViNzI2NjlmNmYwYjM3ODFiOWZjNDBjNDc5NmJmOWE2NWQwZTA5M2I4ZWJhY2U3ODBlYTAifQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/bysy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident/domiciliary of the state of Odisha.\n1. The application must be a +2 Passout from the Council of Higher Secondary Education, Odisha.\n1. The students clearing the Upshastri Exam from Shree Jagannath Sanskrit University, Puri, are also eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

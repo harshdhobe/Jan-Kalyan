@@ -1,0 +1,41 @@
+{
+  "id": "vocational-training-of-destitute-women-and-adolescent-girls",
+  "name": "Vocational Training Of Destitute Women And Adolescent Girls",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "A 6-months training is provided in the Trades such as Tailoring & Cutting, Embroidery, and Computer.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 38
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "residential-domicile-certificate-of-the-state-of-manipur-details-of-the-bank-acc"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/cb/30/cb3036bc-ad25-412f-98db-28654bfcbbfc/20220513121956.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vtdwag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the state of Manipur.\n1. The applicant should be a Destitute Woman or an Adolescent Girl.\n1. The applicant should be in the 18 to 38 years age group.\n1. The Minimum Educational qualification for Computer Course is 12th Pass.",
+  "_criteria_filled": 4
+}

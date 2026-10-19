@@ -1,0 +1,31 @@
+{
+  "id": "funeral-assistance-scheme-for-unorganized-workers-except-construction-workers",
+  "name": "Funeral Assistance Scheme for Unorganized Workers (Except Construction Workers)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n₹10,000/- paid to one heir of the deceased unorganized worker, to assist with funeral expenses and last rites (funeral ceremonies).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-e-shram-card-ration-card-copy-of-caste-certificate-scheduled-tribeother"
+  ],
+  "apply_url": "https://grwwb.gujarat.gov.in/mobile/chronic-serious-diseases-guj.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasuw-ecw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an heir of a deceased e-Shram card holder from the unorganized sector.\n- The applicant must be a resident of Gujarat.\n- The applicant must apply within 3 (three) months from the date of death of the deceased worker.\n- The deceased worker must have between 16 to 70 years of age at the time of death.\n- The applicant must have an annual income not exceeding ₹1,20,000/- (One Lakh Twenty Thousand Rupees), if residing in rural areas.\n- The applicant must have an annual income not exceeding ₹1,50,000/- (One Lakh Fifty Thousand Rupees), if residing in urban areas.\n- Only one heir per deceased worker is eligible to receive the assistance.\n\n<br>\n\n> **Priority Order for Heirs**\n\nThe legal heirs of the deceased shall be considered in the following order of priority:\n\n1. Husband or Wife.\n1. Children (Son/Daughter) - in absence of spouse.\n1. Parents - in absence of spouse and children.\n1. Grandchildren (Grandson/Granddaughter) - in absence of spouse, children and parents.\n1. Unmarried, widowed or abandoned sisters - in absence of spouse, children, parents and grandchildren.\n1. Other heirs declared under Indian Succession Act, 1925 - in absence of all above categories.\n\n<br>",
+  "_criteria_filled": 2
+}

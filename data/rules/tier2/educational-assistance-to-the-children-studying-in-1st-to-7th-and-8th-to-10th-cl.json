@@ -1,0 +1,26 @@
+{
+  "id": "educational-assistance-to-the-children-studying-in-1st-to-7th-and-8th-to-10th-cl",
+  "name": "Educational Assistance to the Children Studying in 1st to 7th and 8th to 10th Class",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "**Financial Assistance:**\n\n- 1st to 7th Class: ₹2,500/-- 8th to 10th Class: ₹5,000/-\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eacs1t7a8t10",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in a building or other construction work.\n1. The worker should be registered under the Maharashtra Building &amp; Other Construction Workers Welfare Board.\n1. The children or a registered male worker&#39;s wife should be enrolled in any grade from Class 1st to 10th.\n1. Only two children or a registered male worker&#39;s wife will be entitled to scholarships.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

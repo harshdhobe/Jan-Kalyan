@@ -1,0 +1,26 @@
+{
+  "id": "exhibition-component-of-the-development-of-handicrafts-scheme",
+  "name": "\"Exhibition\" Component of the \"Development Of Handicrafts\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Travelling allowance to-and-fro 2nd class (berth) train fare.\n- For participation in A1 cities&#39; exhibitions: Daily allowance of ₹300 per day per crafts person.\n- For participation in non-A1 cities&#39; exhibitions: Daily allowance of ₹200 per day per crafts person.\n- For participation in local exhibitions: Daily allowance of ₹150 per day per crafts person.\n- Reimbursement of actual expenditu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-occupation-proof-proof-of-ownership-of-a-handicraft-unit"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/ecdhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of the Union Territory of Puducherry.\n- The scheme is open to all craftspersons with handicraft units.",
+  "_criteria_filled": 1
+}

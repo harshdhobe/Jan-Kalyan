@@ -1,0 +1,31 @@
+{
+  "id": "coaching-sahay-for-the-preparation-of-neet-jee-gujcet-examination-to-both-social",
+  "name": "Coaching Sahay for the Preparation of NEET, JEE, GUJCET Examination to both Socially and Educationally Backward Class Trainees/Students and Female Students and Economically Backward Class Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** \n\n- ₹20,000/- or actual coaching fee paid, whichever is lower.\n\n**Applicable Exams:** \n\n- NEET (National Eligibility cum Entrance Test) \n- JEE (Joint Entrance Examination)\n- GUJCET (Gujarat Common Entrance Test)\n\n**Mode of Disbursement:**\n\n- Amount is credited via Direct Benefit Transfer (DBT) into the student’s bank account.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-income-certificate-receipt-of-fee-pa"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cspnjgesebcebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant must be from the SEBC or Economically Backward Class category.\n1. The applicant must be a resident of Gujarat.\n1. The applicant must have passed the Secondary School Certificate (SSC/Class 10).\n1. The applicant must be enrolled in or preparing for NEET, JEE, or GUJCET.\n1. The applicant must have paid a coaching fee and be able to submit a valid receipt.\n1. The applicant’s annual family income must not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

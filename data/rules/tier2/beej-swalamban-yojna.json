@@ -1,0 +1,26 @@
+{
+  "id": "beej-swalamban-yojna",
+  "name": "Beej Swalamban Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- The seeds produced by the group of farmers will be used by the rest of the farmers for production in the next year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-copy-of-bank-passbook"
+  ],
+  "apply_url": "https://dipr.rajasthan.gov.in/scheme/detail/319",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsyrj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Farmers, who are interested in progressive and crop-specific farming.",
+  "_criteria_filled": 1
+}

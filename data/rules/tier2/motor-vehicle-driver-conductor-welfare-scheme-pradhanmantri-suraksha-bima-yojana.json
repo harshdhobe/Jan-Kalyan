@@ -1,0 +1,36 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-pradhanmantri-suraksha-bima-yojana",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Pradhanmantri Suraksha Bima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Accident Insurance Coverage**\n\n- ₹2,00,000 is payable in case of accidental death.\n- ₹2,00,000 is payable in case of total and irreversible loss of both eyes, both hands, both feet, or loss of one eye and one limb.\n- ₹1,00,000 is payable in case of total and irreversible loss of one eye or one limb.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-id-valid-commercial-driving-license-or-conducto"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-pmsby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant&#39;s age should be between 18 to 70 years. \n1. The applicant should be a registered transport vehicle driver or conductor in Madhya Pradesh.\n1. The applicant should possess a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant should be registered on the Samagra Portal.\n\n<br>",
+  "_criteria_filled": 3
+}

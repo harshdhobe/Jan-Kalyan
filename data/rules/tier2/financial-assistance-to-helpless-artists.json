@@ -1,0 +1,41 @@
+{
+  "id": "financial-assistance-to-helpless-artists",
+  "name": "Financial Assistance to Helpless Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance is provided to artists to help them sustain themselves in old age or in case of disability.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 7200
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-income-certificate-ration-card-age-proof-identity"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must be an artist who has made significant contributions in the field of art and literature.\n   1. The applicant must be 60 years of age or above.\n   1. The applicant must have a monthly income of less than ₹600/- (₹7,200/- annually).\n   1. The applicant must be physically disabled.\n   1. The applicant must be in poor economic condition.\n\n<br>",
+  "_criteria_filled": 4
+}

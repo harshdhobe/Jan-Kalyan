@@ -1,0 +1,31 @@
+{
+  "id": "stipends-to-trainees-in-industrial-training-institute",
+  "name": "Stipends To Trainees In Industrial Training Institute",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "₹60/- per month will be given to student residing in the hostel of the organization Department of Technical Education.\n₹ 40/- per month will be given by the Social welfare department to student residing in the hostel of the organization Department of Technical Education.\n₹100/- per month will be given by the social welfare department to those student who do not get anything from the organization's",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 65290
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhar-card-caste-certificate-fathers-income-certificate-bank"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/stiti",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Maharashtra.\n1. The student should belong to Scheduled Caste (SC) category.\n1. It is mandatory for the student should take training in a recognized Industrial Training Institute.\n1. The annual income of the applicant’s father should not be more than ₹ 65290/-.",
+  "_criteria_filled": 2
+}

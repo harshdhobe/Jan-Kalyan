@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-to-visually-impaired-advocates",
+  "name": "Financial Assistance To Visually Impaired Advocates",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, the Visually Impaired Advocates shall be eligible for an exgratia non-recurring grant of ₹3500/- for the purchase of books, provisional suits, etc.\n1. The Visually Impaired Advocates are also being paid a reader&#39;s allowance @ ₹5000/- per month for a period of 10 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-medical",
+    "to-the-effect-that-the-applicant-is-practicing-as-an-advocate-in-the-court-centr",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/scheme-info.php?scheme_id=NzVzVjh1cVIjdnk=#",
+  "source_url": "https://www.myscheme.gov.in/schemes/favia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a native and resident of Kerala State.\n2.\tThe applicant should be a visually impaired Advocate.\n3.\tThe applicant should be an advocate practicing in any one or more Courts in Kerala.\n4.\tThe combined annual income of the applicant and his/her family from all sources shall not exceed ₹1,00,000/-.\n**Note:** A person who becomes a reading assistant to advocates should at least pass the S.S.L.C. examination.",
+  "_criteria_filled": 3
+}

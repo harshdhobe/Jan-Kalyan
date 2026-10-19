@@ -1,0 +1,36 @@
+{
+  "id": "retrofitted-petrol-scooters-tamil-nadu",
+  "name": "Retrofitted Petrol Scooters - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Free distribution of retrofitted petrol scooters.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-person"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rpsbwodapd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an orthopedically differently abled person. \n1. The applicant&#39;s age should be 18 years or above. \n1. The applicant should be a resident of the district/area of Tamil Nadu.\n1. The applicant should be any one of the following:\n\n  - Student.\n  - Employed (working in private organizations).\n  - Self-employed.",
+  "_criteria_filled": 3
+}

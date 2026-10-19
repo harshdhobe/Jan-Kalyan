@@ -1,0 +1,26 @@
+{
+  "id": "tablet-assistance-to-scheduled-caste-students-of-12th-standard",
+  "name": "Tablet Assistance to Scheduled Caste Students of 12th Standard",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Under the scheme, students in the 12th standard belonging to the Scheduled Caste category will receive a tablet by paying a token fee of ₹1,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-caste-certificate-from-the-co"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/2227?lang=Gujarati",
+  "source_url": "https://www.myscheme.gov.in/schemes/tascs12s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste of Gujarat.\n   1. The student should be studying in 12th Standard.\n   1. There is no income limit.\n\n**Note**: The students should have received a tablet from the education department by paying a token fee of ₹1,000/-",
+  "_criteria_filled": 1
+}

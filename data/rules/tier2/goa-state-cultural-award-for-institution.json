@@ -1,0 +1,26 @@
+{
+  "id": "goa-state-cultural-award-for-institution",
+  "name": "Goa State Cultural Award for Institution",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "A Memento and a Financial Purse to the extent of **₹ 3,00,000.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "recommendation-letter-from-institution-individual-registration-certificate-of-in"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/State-Cultural-Institution-Award-Online-Form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gscai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Goan institution (or institution working for Goan artists) working in the field of Art and culture. \n1. The institution should have completed 15 years.\n1. The institution should have given extraordinary contributions to the field of Art and culture.\n1. The institution should have a properly constituted managing body with its powers and duties clearly defined in its constitution.\n1. The institution should have a good reputation in the local community.\n1. The cultural institutions that are financed by the Central Government Corporations, and Municipalities are also eligible.\n\n<br>\n\n> **Reservation / Preference / Priority**\n\nPreference will be given to the institutions involved in Cultural Education i.e. imparting Training in Music, Dance, Drama, Fine Arts etc.",
+  "_criteria_filled": 1
+}

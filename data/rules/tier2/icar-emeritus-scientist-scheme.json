@@ -1,0 +1,27 @@
+{
+  "id": "icar-emeritus-scientist-scheme",
+  "name": "ICAR Emeritus Scientist Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Honorarium:**\n\n- ₹50,000/- per month honorarium in addition to pension.\n- Subject to provisions of the Income Tax Act.\n\n> **Contingency Grant:**\n\n- Up to ₹2,00,000/- per annum per scientist.\n- Used for chemicals, glassware, books, stationery, laboratory assistance, and ministerial help.\n- May be enhanced with approval based on the nature of research work.\n- Can be used for domestic travel rela",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 65
+      }
+    ]
+  },
+  "documents": [
+    "the-following-details-should-be-furnished-with-the-application-date-of-superannu",
+    "if-any"
+  ],
+  "apply_url": "https://icar.org.in/sites/default/files/Circulars/Guidelines%20for%20ICAR-Emeritus%20Scientist%20scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icar-es",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a scientist of repute from the National Agricultural Research System (NARS).\n  - The applicant must hold or have held the position of Principal Scientist, Professor, or above in an eligible institution.\n  - The applicant must be retiring within the next 12 months or must have retired within 1 year from the last working day of the notification month.\n  - The applicant must not be more than 65 years of age at the time of application.\n  - The applicant must have at least 5 research papers published in refereed journals during the last 5 years, or must have received a national/international award or recognition.\n  - In the case of teachers, the applicant must have received a teaching excellence award or appreciation for outstanding teaching performance.\n  - The applicant must submit a project of national importance that is a continuation of his/her previous work.\n  - The applicant must demonstrate that an equally competent regular scientist is not available in the institution to undertake the proposed work.\n  - The applicant must be willing to devote full time to the approved project and must not accept any other remunerative employment during the tenure.\n  - The applicant must not receive financial assistance for the same work from any other source while availing benefits under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

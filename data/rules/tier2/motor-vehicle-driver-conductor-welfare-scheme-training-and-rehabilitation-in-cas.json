@@ -1,0 +1,31 @@
+{
+  "id": "motor-vehicle-driver-conductor-welfare-scheme-training-and-rehabilitation-in-cas",
+  "name": "Motor Vehicle Driver-Conductor Welfare Scheme- Training and Rehabilitation in Case of Permanent Disability due to Accident",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Nature of Benefit**\n\n- Skill development training for alternative employment.\n- Rehabilitation support based on aptitude and interest assessment.\n- Training services are provided through Skill Development Mission–approved institutions.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-samagra-member-id-commercial-driving-license-conductor"
+  ],
+  "apply_url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvdcws-trpda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should be a registered transport vehicle driver or conductor.\n1. The applicant should possess a valid commercial driving or conductor license issued in Madhya Pradesh.\n1. The applicant should be registered on the Samagra Portal.\n1. The applicant should have suffered permanent disability due to an accident.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,33 @@
+{
+  "id": "niramaya-health-insurance-scheme",
+  "name": "Niramaya Health Insurance Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Health insurance coverage:** Up to ₹1,00,000/- for various expenses.1. **Outpatient department (OPD) treatment:** Covers medicines, pathology, diagnostic tests, etc.1. **Regular medical checkups:** For non-ailing individuals with disabilities.1. **Dental care:** Preventive dentistry services.1. **Surgery:** To prevent further disability worsening or for existing disabilities (including congen",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "enrollment-processfor-bpl-enrolment-fee-250-disability-certificate-self-attested",
+    "000-per-month-enrolment-fee-250-disability-certificate-issued-from-the-district",
+    "000-per-month-enrolment-fee-550-disability-certificate-self-attested-issued-by-t",
+    "000-per-month-renewal-fee-250-address-proof-in-case-of-change-of-address-income",
+    "000-per-month-renewal-fee-500-proof-of-payment-address-proof-in-case-of-change-o",
+    "x-ray",
+    "ultrasounds-etc-original-documents-are-required-including-the-film-for-settling",
+    "and-related-bills-will-be-acceptable-doctor-who-prescribes-the-prescription-shou"
+  ],
+  "apply_url": "https://nationaltrust.nic.in/niramaya/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nhis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All the disable person who have at least one of the disabilities under the [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf) with valid disability certificate.",
+  "_criteria_filled": 1
+}

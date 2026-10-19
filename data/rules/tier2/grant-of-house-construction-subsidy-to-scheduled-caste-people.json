@@ -1,0 +1,31 @@
+{
+  "id": "grant-of-house-construction-subsidy-to-scheduled-caste-people",
+  "name": "Grant of House Construction Subsidy to Scheduled Caste People",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The subsidy amount of ₹4,00,000/- is granted in 3 Instalments as follows:\n\n                       1st Installment of ₹1,50,000/- on possession of vacant house site.\n                       2nd Installment of ₹1,50,000/-.\n                       3rd Installment of ₹1,00,000/-.\n\n- The building materials worth ₹1,00,000/- will also be provided.\n\n*** The number of beneficiaries to be covered every yea",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhar-card-bank-pass-book-caste-certificate"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/sites/default/files/house-construction-subsidy-app.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ghcsscp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be a native or a permanent resident of the Union Territory of Pondicherry.\n- The applicant should not possess a house.\n- The applicant should be from Scheduled Caste or from Other Economically Backward Class.\n\n<br>\n\n> **For Scheduled Caste**\n\n- The applicant should have a house site of an area of 450 sq.ft to build the house.\n- The annual income of the applicant should not exceed ₹2,00,000/-.\n\n<br>\n\n> **For Other Economically Backward Class**\n\n- The applicant should have a house site granted by Adi Dravidar Welfare Department.\n- The annual income of the applicant should not exceed ₹24,000/-.",
+  "_criteria_filled": 2
+}

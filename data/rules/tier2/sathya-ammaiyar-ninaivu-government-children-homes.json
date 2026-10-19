@@ -1,0 +1,31 @@
+{
+  "id": "sathya-ammaiyar-ninaivu-government-children-homes",
+  "name": "Sathya Ammaiyar Ninaivu Government Children Homes",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Food, accommodation, education, uniform, free textbook and notebooks, medical facilities, chappals, and bedding.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-income-certificate-birth-certificate-any-other-document-if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/whatsnew/socialwelfare.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sangch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be destitute, deserted, and abandoned children.\n1. The applicant&#39;s family income should not exceed ₹24,000/- per annum.\n1. The boys are eligible up to the 5th Standard.\n1. The girl child&#39;s age should be 5 to18 years, in case girls without father and mother are admitted up to 21 years for their higher studies\n1. The children without parents or with single parent, children of ailing parents and prisoners, children whose parents are alive but not able to be looked after by them since father/mother is severely differently abled and taken care of by mother/father are eligible. \n\n<br>",
+  "_criteria_filled": 2
+}

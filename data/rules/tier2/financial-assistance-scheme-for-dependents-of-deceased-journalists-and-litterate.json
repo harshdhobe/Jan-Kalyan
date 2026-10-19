@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-scheme-for-dependents-of-deceased-journalists-and-litterate",
+  "name": "Financial Assistance Scheme for Dependents of Deceased Journalists and Litterateurs - Rajasthan",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Monetary Assistance for Medical Treatment:**\n\n  - Up to ₹1,00,000/- for treatment of critical diseases (e.g., cancer, bypass surgery, kidney transplant, brain stroke, etc.).\n  - In special cases, the committee may approve up to ₹2,00,000/-.\n\n&gt; **Monthly Financial Assistance:**\n\n  - ₹1,000/- to ₹2,500/- per month for a maximum of one year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-medical-reports-and-prescription-if-applicable-proof-of-income-ba"
+  ],
+  "apply_url": "https://www.tourism.rajasthan.gov.in/content/dam/dipr/Downloads/forms/Arthik%20Shitiya%20Format%20Sansodhan.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasfjd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a dependent of a deceased journalist or litterateur.\n1. The deceased journalist or litterateur should have been a resident of Rajasthan.\n1. The applicant should fall under one of the following categories:\n\n- Widow of the deceased journalist or litterateur with no other source of income.\n- Unemployed son below 28 years of age.\n- Unmarried daughter.\n- Father or mother of the deceased, provided they have no other source of income.\n\n**Note:** Financial assistance will be given to only one person at a time.",
+  "_criteria_filled": 1
+}

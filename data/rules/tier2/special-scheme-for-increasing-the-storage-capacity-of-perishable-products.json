@@ -1,0 +1,26 @@
+{
+  "id": "special-scheme-for-increasing-the-storage-capacity-of-perishable-products",
+  "name": "Special Scheme for Increasing the Storage Capacity of Perishable Products",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Grant Assistance: A grant of 50% of the project cost up to a maximum of ₹2,00,00,000/- for cold storage facilities up to 5,000 metric tons capacity.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssiscpp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

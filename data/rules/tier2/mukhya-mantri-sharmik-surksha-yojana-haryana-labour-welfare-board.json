@@ -1,0 +1,26 @@
+{
+  "id": "mukhya-mantri-sharmik-surksha-yojana-haryana-labour-welfare-board",
+  "name": "Mukhya Mantri Sharmik Surksha Yojana- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹5,00,000/- will be provided to the widows/dependents of workers in the event of the worker&amp;#39;s death while working at the workplace.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "smart-card-office-id-proof-of-worker-employee-certificate-employer-certificate-e"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/93",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmssy-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow/dependent of the deceased worker.\n   1. The deceased worker should have been employed in an industrial or commercial establishment in Haryana.\n   1. There is no fixed service period required for the worker.\n   1. There is no fixed monthly salary requirement for the worker.\n   1. Applications must be submitted within two years from the date of the worker&amp;#39;s death.\n   1. Financial assistance is provided under this scheme for the death of a worker primarily caused by workplace incidents within the organization&amp;#39;s premises or on the way to the hospital for treatment. This also covers deaths resulting from other causes such as natural disasters, heart attacks, snake or other poisonous creature bites, fire, or building collapses within the organization.\n   1. Assistance is also provided to widows/dependents of unregistered workers who die or become disabled due to incidents like fire, building collapse, etc. within the establishment.",
+  "_criteria_filled": 1
+}

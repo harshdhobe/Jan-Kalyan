@@ -1,0 +1,26 @@
+{
+  "id": "research-fellowship-scheme-for-scheduled-tribe-candidates",
+  "name": "Research Fellowship Scheme for Scheduled Tribe Candidates",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "***Financial Assistance:***\n\n  - The selected scholar shall be paid @ ₹15,000/- per month.\n  - A contingency grant of ₹40,000/- shall be given to the candidate for meeting the recurring expenditure viz. books/ Journals/Traveling/Stationery etc.\n\n***Tenure:***\nThe tenure of the scholarship shall be for a period of maximum five years from the date of sanction from the Tribal Research Institute or co",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-copy-domicile-certificate-copy-income-certificate-copy-bank-pa"
+  ],
+  "apply_url": "https://tad.rajasthan.gov.in/scheme/detail/383",
+  "source_url": "https://www.myscheme.gov.in/schemes/rfsstc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should belong to the Scheduled Tribe community.\n   1. The applicant should be a resident of Scheduled Area of Rajasthan or a resident of Shahbad and Kishanganj tehsils of Baran district (Saheria Project Area).\n   1. The applicant should have completed Post-graduation with at least 50% marks from a recognized university.\n   1. The applicant should be registered in a recognized Central/State/Deemed/Private University in India for pursuing a Ph.D. programme.",
+  "_criteria_filled": 1
+}

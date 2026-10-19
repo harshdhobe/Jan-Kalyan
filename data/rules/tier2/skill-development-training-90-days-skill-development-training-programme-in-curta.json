@@ -1,0 +1,36 @@
+{
+  "id": "skill-development-training-90-days-skill-development-training-programme-in-curta",
+  "name": "Skill Development Training - 90 Days Skill Development Training Programme in Curtain & Garment Stitching",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "> **Skill Development:** \n\n- Gain hands-on experience and technical skills in curtain and garment stitching (tailoring).\n\n<br>\n\n> **Domestic Sewing Machine:** \n\n- Each participant receives a domestic sewing machine upon completion of the training, included in the training fee.\n\n<br>\n\n> **Duration:**\n\n- The programme lasts 90 days, with a total of 600 hours of training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-boc-id-card-ration-card-aadhaar-card-proof-of-education"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2016LETF_MS63.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdt-90dsdtpcgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a woman.\n1. The applicant should be a dependent of the registered construction worker.\n1. The applicant&#39;s age should be 18 years or above. \n1. The applicant must have completed at least the 5th class.\n1. The applicant should have knowledge of Telugu, Hindi, and English language.\n1. The applicant should be any one of the following:\n\n  - Unemployed Girls\n  - Widowed\n  - Divorced and \n  - Deserted Daughters \n  - Spouse",
+  "_criteria_filled": 3
+}

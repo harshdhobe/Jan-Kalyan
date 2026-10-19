@@ -1,0 +1,26 @@
+{
+  "id": "sardar-patel-agriculture-research-award",
+  "name": "Sardar Patel Agriculture Research Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- In this scheme every year ₹51000/- is awarded with the shawl and certificate to the farmer who gains the first position in each category and also first five farmers from each category are appreciated with the shawl &amp;amp; certificate.\n- In addition to this, farmers as in the form of encouragement are appreciated by giving shawls &amp;amp; certificates for the special work done in the field of",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-passport-size-photographs-bank-details-ie-copy-of-bank-pass"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/sardar-patel-agriculrure-research-award.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/spara",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The farmer should be a permanent resident of Gujarat State.\n1. The farmers either Male or Female who possesses Agriculture land in Gujarat are eligible to apply for this scheme.",
+  "_criteria_filled": 1
+}

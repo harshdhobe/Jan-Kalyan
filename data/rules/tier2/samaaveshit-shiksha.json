@@ -1,0 +1,41 @@
+{
+  "id": "samaaveshit-shiksha",
+  "name": "Samaaveshit Shiksha",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Escort facility, home-based education, sports activities, exposure visits, stipend for girls, and free equipment are provided to all children with special needs studying in government schools from Classes 1 to 12. \n  - Marking and equipment distribution camps are also organized for such children, where assistive devices are provided free of cost as per the requirement of disabled children.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-proof-of-age-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssyuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a child with a disability, aged 6 to 18 years, eligible for all facilities approved by the Government of India under the ‘Samaveshit Shiksha’ scheme.\n   1. The applicant must be studying in government schools from Classes 1 to 12.\n\n<br>",
+  "_criteria_filled": 4
+}

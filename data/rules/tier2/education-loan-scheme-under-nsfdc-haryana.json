@@ -1,0 +1,43 @@
+{
+  "id": "education-loan-scheme-under-nsfdc-haryana",
+  "name": "Education Loan Scheme under NSFDC- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "&gt; **Maximum Loan Limit:**\n\n  - For studies within India: **Up to ₹10,00,000/-**  - For studies abroad: **Up to ₹30,00,000/-**\n&gt; **Recovery:**\n\n  - Recovery (Principal &amp;amp; Interest) will commence after 6 months of completion of the course or getting employment, whichever is earlier. The loan will be repaid in 20 quarterly installments in 5 years from the date of first disbursement.\n  - ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "a-certificate-from-the-indian-embassy-consulate-on-confirmation-of-admission-giv",
+    "00",
+    "000-copy-of-admission-confirmation-from-an-educational-institute-with-fee-and-ot"
+  ],
+  "apply_url": "https://hscfdc.org.in/#accordionExample",
+  "source_url": "https://www.myscheme.gov.in/schemes/elsnsfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should belong to the Scheduled Caste Community.\n   1. The applicant&amp;#39;s age should be between 18 and 45 years.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹3,00,000/-.\n   1. These loans are available to students pursuing regular full-time recognized professional/technical courses in India or abroad.\n   1. The education loan for a particular student shall be made admissible only once either at Diploma/Graduation or Post Graduation Diploma/Post Graduation level. However, an Educational Loan shall be offered to a student who secures admission in any integrated course of a longer duration covering both levels.\n\n**Note 1:** 50% of the beneficiaries having annual family income up to ₹1,50,000/- and balance 50% of the beneficiaries have annual family income above ₹1,50,000/- and upto ₹3,00,000/-.\n**Note 2:** NSFDC`s Educational  Loan shall also be admissible for students of the target group who have secured admission to technical /professional courses prior to 1.12.2009 subject to the condition that they have not availed Educational Loan from any other institution.",
+  "_criteria_filled": 4
+}

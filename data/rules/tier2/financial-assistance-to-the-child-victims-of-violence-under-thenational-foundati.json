@@ -1,0 +1,40 @@
+{
+  "id": "financial-assistance-to-the-child-victims-of-violence-under-thenational-foundati",
+  "name": "Financial Assistance To The Child Victims Of Violence Under TheNational Foundation For Communal Harmony",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "> **General Education:**\n\n1. Children in Class A &amp; B cities receive ₹ 800/- per month until they reach the age of 18 years.\n1. Children in other places receive ₹ 750/- per month until they reach the age of 18 years.\n\n<br>\n\n> **Training / Vocational Education:**\n\n1. ₹ 150/- per month per child in addition to assistance for general education.\n\n<br>\n\n> **Group Personal Accident Insurance for Chil",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-domicile-certificate-of-the-ut-of-jammu-kashmir-3-passpo",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://jksabwdobcs.com/pdf/gov_schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/facvv-nfch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the Union Territory of Jammu &amp; Kashmir.\n1. The applicant should be a child less than 18 years of age. In exceptional cases, it can be extended up to the age of 21 years.\n1. The applicant should be an Orphan or Destitute.\n1. The applicant&#39;s main bread earner should have either been killed or permanently incapacitated in communal, caste, ethnic, or terrorist violence. \n1. \fThe applicant&#39;s family should be &#39;Below Poverty Line&#39; (BPL).\n1. The applicant should not be receiving any assistance on a regular basis from any other source.\n\n**NOTE:** The one-time financial assistance provided by the State Government / Union Territory Administration for such a victim is not considered &#39;another source of assistance&#39; for this purpose.",
+  "_criteria_filled": 3
+}

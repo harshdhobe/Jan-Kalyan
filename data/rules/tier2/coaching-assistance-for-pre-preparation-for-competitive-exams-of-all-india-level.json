@@ -1,0 +1,31 @@
+{
+  "id": "coaching-assistance-for-pre-preparation-for-competitive-exams-of-all-india-level",
+  "name": "Coaching Assistance for Pre-preparation for Competitive Exams of ALL INDIA level like IIM, CEPT, NIFT, NLU and IELTS, TOFEL, GRE for going Foreign",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** \n\n  - ₹20,000/- or actual coaching fee paid (whichever is lower) for pre-preparation of one competitive exam (IIM, CEPT, NIFT, NLU, IELTS, TOEFL, GRE)\n\n**Mode of Disbursement:**\n\n  - Direct Benefit Transfer (DBT) to trainee’s bank account.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-income-certificate-receipt-of-fee-pa"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/capceailf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant must belong to the SEBC or Economically Backward Class category.\n1. The applicant must be a permanent resident of Gujarat.\n1. The applicant must have passed Class 10 or Class 12 (SSC or HSC).\n1. The applicant must be preparing for one of the eligible competitive exams (IIM, CEPT, NIFT, NLU, IELTS, TOEFL, GRE).\n1. The applicant must have paid tuition/coaching fees for the exam preparation.\n1. The annual family income of the applicant must not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

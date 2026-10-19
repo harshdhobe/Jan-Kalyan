@@ -1,0 +1,28 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-horticulture",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Horticulture",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** From Rs.25,000/- to 2,00,000/- per 0.4 hectare.  - **Interest Rate:** From 11% to 12.5%, (subject to change).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-agricultural-occupation-for-horticulture-activities-i"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3550",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcaardfh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a farmer.\n  - The beneficiary should be engaged in horticultural activities.\n  - The beneficiary should be interested in availing loan for horticultural activities.\n  - The beneficiary should have the intention to use the loan specifically for horticultural activities.",
+  "_criteria_filled": 1
+}

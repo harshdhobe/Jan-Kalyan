@@ -1,0 +1,36 @@
+{
+  "id": "chief-ministers-covid-19-affected-livelihood-support-scheme",
+  "name": "Chief Minister's COVID-19 Affected Livelihood Support Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "Direct Cash Transfer of ₹ 5,000/- in 2 (two) equal installments (₹ 2,500/- per installment) to every identified family.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-details-aadhaar-card-in-the-case-of-street-vendorswomen-vendors-str",
+    "cycle-rickshaw",
+    "tata-magic",
+    "winger",
+    "bus-permit-for-public-transport-issued-by-transport-deptmunicipalitiesdistrict-c",
+    "etc-issued-by-the-relevant-department-in-connection-with-the-above-professionocc",
+    "name-details-of-the-bank",
+    "and-name-of-the-account-holder-note-1-in-case-the-applicant-does-not-have-an-aad",
+    "then-the-deputy-commissioner-must-certify-the-claim-and-allow-other-documents-to",
+    "mgnrega-job-card",
+    "etc-note-2-aadhaar-enrolment-is-a-must-before-the-release-of-the-2nd-installment"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/51/fd/51fda9bf-5542-4796-ad45-0bcfa0bb6bda/application_form_-_10__final-cmcalss__1-merged.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmcalss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be domiciled in the state of Manipur.\n1. The livelihood of the applicant should have been adversely affected by the COVID-19 pandemic, leading to an inability to maintain a basic minimum standard of living. \n1. The applicant should be the only applicant from the family.\n1. The applicant should be the main bread earner. \n1. The applicant should be employed in the informal sector. \n\n<br>\n\n<br>\n\nThe applicants will include, but not be limited, to the following occupations:\n(a)\tStreet Vendor.\n(b)\tFarmer (includes Agriculture, Fisheries, Horticulture, and Animal Husbandry).\n(c)\tDaily-Wage Worker and Labourer.\n(d)\tConstruction-Site Worker.\n(e)\tPublic Transport Driver (Auto, Winger, Bus, Rickshaw, etc).\n(f)\t    School Van Driver.\n(g)\tShop Assistant.\n(h)\tArtisan.\n(i)     Weaver.\n(j)     Performing Artist\n(k)    Home-Based Business etc.\n<br>\n\nInclusion Criteria (subject to exclusion criteria fulfillment):\n(a)\tRation Card Holder.\n(b)\tMGNREGA Card Holder.\n(c)\tPM-KISAN Beneficiary.\n(d)\tCMHT/ PMJAY Beneficiary.\n(e)\tPMUY Beneficiary.\n(f)\t    PM SVANidhi Beneficiary.\n(g)\tCMST/ CMAT Beneficiary.\n(h)\tPMAY (G) or PMAY (U) Beneficiary.\n(i)\t    SBM (G) or SBM (U) Beneficiary.\n(j)\t    Person in Vendor List of Municipalities or District Councils.\n(k)\tPerson with a permit for public transport/ school van in Municipalities or District Councils.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "employees-cooperative-societies-surety-loan",
+  "name": "Employees Cooperative Societies Surety Loan",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Surety loans up to ₹1,50,000/-.  - **Interest Rate:** 14% (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-employment-or-income-certificate-if-applicable-any-ot"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3616",
+  "source_url": "https://www.myscheme.gov.in/schemes/ecssl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a member of an Employees Cooperative Society.\n  - The beneficiary should be interested in availing Employees Cooperative Societies Surety loan.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

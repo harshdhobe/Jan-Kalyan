@@ -1,0 +1,28 @@
+{
+  "id": "additional-subsidy-to-establish-tourism-projects-in-distant-and-new-ulterior-are",
+  "name": "Additional Subsidy to Establish Tourism Projects in Distant and New Ulterior Areas",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Additional Subsidy:** An additional 5% Capital Investment Subsidy is provided on top of the standard subsidy percentage applicable to the project.- **No Cap on Subsidy:** There is no upper limit (ceiling) on the maximum amount of capital subsidy that can be claimed under this scheme.- **Reduced Investment Requirement:** The minimum capital investment limit required to be eligible is reduced to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "company-registration-documentsmemorandum-and-articles-of-association-if-publicpr",
+    "catering-bill",
+    "or-bill-of-service-coloured-photographs-of-unitproject-from-03-different-angles"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/asetpdnua",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a Tourism Project (e.g., Hotel, Resort, etc.) as defined in the Tourism Policy.\n- The applicant must locate the project in an area classified as &quot;distant&quot; or &quot;new ulterior&quot; by the Government of Madhya Pradesh, Tourism Department.\n- The applicant must meet a minimum investment limit of at least 50% of the prescribed limit mentioned in the standard Tourism Policy for that project category.\n- The applicant must ensure the project meets at least 50% of the room capacity ceiling prescribed in the standard Tourism Policy.\n- The applicant must ensure the project is established and operationalized during the operative tenure of the Tourism Policy.\n\n<br>",
+  "_criteria_filled": 1
+}

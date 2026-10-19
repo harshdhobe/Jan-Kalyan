@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-to-scheduled-castes-for-funeral-rites",
+  "name": "Financial Assistance to Scheduled Castes for Funeral Rites",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹ 10,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-of-the-deceased-aadhaar-card-of",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fascfr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The deceased should be from a Scheduled Caste.\n- The applicant should be from a Scheduled Caste.\n- The applicant should be a close relative of the deceased.\n- The annual family income should be less than ₹ 2,00,000/-.\n- The family members of the deceased should belong to the Union Territory of Puducherry by virtue of nativity or continuous residence of 3 years.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,30 @@
+{
+  "id": "financial-assistance-for-education-haryana-silicosis-board",
+  "name": "Financial Assistance for Education- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance for education will be given to the children of workers at the following rates:\n\n**Sl. No.****Class/Course****Amount of Assistance (Per year)**1Class 1-5₹5,000/-2Class 6-8₹6,000/-3Class 9-10₹8,000/-4Class 11-12 ₹10,000/-5ITI Diploma/Graduation/Post-Graduation₹12,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-silicosis-boardaadhaar-car",
+    "ct-scan",
+    "medical-prescription",
+    "any-other-general-document-esi-card",
+    "any-other-work-experience-document-proof-of-residence-ration-card-bank-account-d"
+  ],
+  "apply_url": "https://hrylabour.gov.in/staticdocs/labourpolicies/Haryana%20Silicosis%20Rehabilitation%20Policy%20(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fae-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/worker should be employed in a factory or at a construction site.\n   1. The worker who is suffering from silicosis as confirmed by the Silicosis Diagnosis Board, Haryana are eligible to apply under this scheme for their children.\n   1. The worker should be registered with the Haryana Silicosis Board.\n   1. The children of workers should be studying in a class ranging from Class I to Master’s Degree.\n   1. Assistance will be available for up to two boys and up to three girls of affected workers, regardless of the order of birth of the children.",
+  "_criteria_filled": 1
+}

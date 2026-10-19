@@ -1,0 +1,26 @@
+{
+  "id": "education-loan-scheme-nsfdc",
+  "name": "Education Loan Scheme (NSFDC)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**Maximum Loan Limit:**\n\n  - **Up to ₹30,00,000/-** (for studies in India) and **upto ₹40,00,000/-** (for studies abroad) or 90% of course fee, whichever is less.\n**Rate of Interest:**\n\n  - **For studies in India:** NSFDC shall charge interest @ 2% per annum from the SCAs, which in turn, shall charge 6% per annum from the beneficiaries. In case of women beneficiaries, an interest rebate of 0.5% is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-income-certificate-caste-certificate-resid"
+  ],
+  "apply_url": "https://nsfdc.nic.in/UploadedFiles/other/2023-10-09/els%20loan%20format.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/els-nsfdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student pursuing regular full-time Professional or Technical courses in a recognized institution in India or abroad.\n   1. The applicant should belong to a Scheduled Caste community.\n   1. The applicant&amp;#39;s annual family income should be less than ₹3,00,000/-, both in rural and urban areas.\n   1. The education loan assistance will be provided as a one-time assistance.",
+  "_criteria_filled": 1
+}

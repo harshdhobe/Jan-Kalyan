@@ -1,0 +1,39 @@
+{
+  "id": "jyoti-gramodyog-vikas-yojana",
+  "name": "Jyoti Gramodyog Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Margin Money Subsidy**\n\n**For General Category**\n\n- 25% for projects up to ₹10,00,000/-.\n- 25% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-).\n\n**For SC/ST/Women/Physically Handicapped**\n\n- 30% for projects up to ₹10,00,000/-.\n- 30% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-).\n\n<br>\n\n> **Project Cost Coverage**\n\n- Includes machinery, raw materials, an",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-cardvoter-id-class-10th-marksheet-training-certificates-or-employment-re",
+    "with-cost-estimates",
+    "machinery-quotations-bank-details",
+    "for-subsidy-disbursement"
+  ],
+  "apply_url": "https://cottage.gujarat.gov.in/FileExplorer/JGVY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jgvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be aged between 25 to 50 years. \n- The applicant must have passed at least Class 10 from a recognized educational board. \n- The applicant must possess at least one year of experience in the proposed business activity or relevant training from a recognized institution. \n- The applicant must be either an individual artisan/entrepreneur or part of a Grade-II active Self Help Group engaged in small-scale production. The applicant&#39;s proposed project must be located in a rural area with a population not exceeding 20,000. \n- The applicant must not represent a partnership firm, private limited company, joint venture, HUF, or similar commercial entity. \n- For SC/ST, women, and physically handicapped applicants, additional benefits are provided as specified in the benefits section.",
+  "_criteria_filled": 3
+}

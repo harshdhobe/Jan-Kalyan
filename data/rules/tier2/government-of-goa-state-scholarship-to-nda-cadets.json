@@ -1,0 +1,31 @@
+{
+  "id": "government-of-goa-state-scholarship-to-nda-cadets",
+  "name": "Government of Goa State Scholarship to NDA Cadets",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. **Scholarship of ₹ 1,000/- per month** during the period of training (subject to a maximum of 24 months or duration of the course whichever is less).1. **One Time Outfit Allowance of ₹ 12,000/-.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-id-proof-of-national-defence-academy-nda-birth-certifi"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggssnc-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The cadet should have been born in Goa and/or domiciled in Goa for a period of at least 15 years.\n1. The income limit of the cadet’s parents/ guardians shall not exceed ₹ 15,000/- per month (₹ 1,80,000 per annum).\n1. In case the cadet is SC/ST/OBC, the income limit of the cadet’s parents/ guardians shall not exceed ₹ 37,500/- per month (₹ 4,50,000 per annum).\n1. The cadet should not be receiving financial assistance/scholarship/freeship from any other source.",
+  "_criteria_filled": 2
+}

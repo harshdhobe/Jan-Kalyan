@@ -1,0 +1,41 @@
+{
+  "id": "indira-gandhi-national-vidhva-pension-yojana",
+  "name": "Indira Gandhi National Vidhva Pension yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- Women who are more than 40 to less than 75 years old monthly pension of ₹ 1000/-.\n- Women who are more than 75 years old monthly pension of ₹ 1500/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photos-of-applicant-husbands-death-certificate-bpl-card-certificate-to-confirm-a"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/109",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignvpyrr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a domicile in the state of Rajasthan.\n1. The applicant should be from a Below Poverty Line (BPL) family.\n1. The application should be aged 40 years.",
+  "_criteria_filled": 4
+}

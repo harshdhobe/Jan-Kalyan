@@ -1,0 +1,28 @@
+{
+  "id": "medical-assistance-apbocwwb",
+  "name": "Medical Assistance (APB&OCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "₹ 2000/- only for the first five days.\n₹100/- each for the remaining days subject to a maximum of ₹15,000/- if disability occurs due to accident.\nAdditional benefits up to a maximum of ₹25,000/- depending upon the percentage of disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-original-copy-of-registration-card-membership-card-of-the-board-application"
+  ],
+  "apply_url": "https://tawang.nic.in/labour-welfare-board/",
+  "source_url": "https://www.myscheme.gov.in/schemes/maapbandocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tThe applicant must be employed in the Building and Other Construction works.\n3.\tThe applicant should be registered with Labour Welfare Board (APB&amp;OCWWB).\n4.\tThe applicant’s membership must be active at the time of application.\n5.\tThe applicant must have a disease or had an accident for which he/she should be hospitalised or put in plaster at his/her residence.",
+  "_criteria_filled": 1
+}

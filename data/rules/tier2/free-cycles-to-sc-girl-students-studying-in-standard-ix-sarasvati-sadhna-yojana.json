@@ -1,0 +1,36 @@
+{
+  "id": "free-cycles-to-sc-girl-students-studying-in-standard-ix-sarasvati-sadhna-yojana",
+  "name": "Free Cycles to SC Girl Students Studying in Standard IX (Sarasvati Sadhna Yojana)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Under this scheme, free cycles are given to scheduled caste girl students who are studying in Standard IX.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-identity-proof-ie-aadhaar-card-3-caste-certificate-from"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/Dscw/scheme/555?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/fcscgsssixssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n   1. The girl student should belong to the Scheduled Caste Category of Gujarat.\n   1. The student should be studying in the 9th Standard.\n   1. The annual family income of the student should not be more than ₹6,00,000/- (for both Rural Areas &amp;amp; Urban Areas).",
+  "_criteria_filled": 3
+}

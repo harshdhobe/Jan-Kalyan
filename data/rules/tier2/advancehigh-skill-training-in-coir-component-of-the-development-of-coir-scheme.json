@@ -1,0 +1,36 @@
+{
+  "id": "advancehigh-skill-training-in-coir-component-of-the-development-of-coir-scheme",
+  "name": "\"Advance/High Skill Training in Coir\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Trainees receive a stipend of ₹2,500 per month.\n- Accommodation charges for trainees are ₹500 per month.\n- Travelling allowance covers to-and-fro 2nd class sleeper train fare.\n- Full course fees are paid to the training units/institutions as prescribed.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificateeducation-certificateresidence-certificate-age-proof-educationa"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/coir.doc",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahstc-dc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must either be a native of Puducherry or have been a continuous resident for the past 3 years.\n- The age limit for applicants is between 18 to 35 years.\n- Educational qualifications should meet the standards specified by the Training Units/Institutions.\n- Candidates who have already undergone this training are not eligible to apply.",
+  "_criteria_filled": 3
+}

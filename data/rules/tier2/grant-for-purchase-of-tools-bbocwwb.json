@@ -1,0 +1,26 @@
+{
+  "id": "grant-for-purchase-of-tools-bbocwwb",
+  "name": "Grant for Purchase of Tools (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of upto ₹15,000/- is provided to registered construction workers for purchasing trade-related tools upon completing skill upgradation training.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-worker-ie-aadhaar-card-2-passport-size-photograph-3-skill-upgra"
+  ],
+  "apply_url": "https://bocwscheme.bihar.gov.in/worker_login",
+  "source_url": "https://www.myscheme.gov.in/schemes/gptbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be engaged in building or construction work.\n   1. The worker should be registered with the Bihar Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The worker&amp;#39;s membership with the Welfare Board should be active at the time of application.\n   1. Only registered workers who have completed any skill upgradation training are eligible to avail benefits under the scheme.",
+  "_criteria_filled": 1
+}

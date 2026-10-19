@@ -1,0 +1,42 @@
+{
+  "id": "ladies-vocational-centres",
+  "name": "Ladies Vocational Centres",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "- The training is provided in the trades like Cutting and Tailoring, Leather-work, Machine Embroidery, Stenography, and Croshia work.\n- The stipend @₹100/- per month is given to the candidates under training.\n- The training is also provided under the Cottage Industry Centre in the trade of Carpentry, Leather-work, and Weaving.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 14
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-educational-certificate-proof-of-age-passport-size-photos-bank-det"
+  ],
+  "apply_url": "https://jksocialwelfare.nic.in/schemes/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lvc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of the Union Territory, Jammu &amp;amp; Kashmir.\n2. The applicant should be a woman/girl.\n3.\tThe women &amp;amp; girls are all eligible between the ages 14-40 years with a Middle pass for Craft.\n4.\tThe women &amp;amp; girls are all eligible between the ages 16-25 years with a 10+2 class pass for Stenography.\n**Note 01:** The duration of the training will be 11 months.\n**Note 02:** The intake capacity of the “Ladies Vocational Centre” located at Chand Nagar Jammu is 75 trainees and 25 trainees in each Social Welfare Centre.",
+  "_criteria_filled": 4
+}

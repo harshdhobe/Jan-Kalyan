@@ -1,0 +1,35 @@
+{
+  "id": "tanariri-music-awards-festival-and-awards-national-level",
+  "name": "Tanariri Music Awards Festival and Awards (National Level)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Cash Prize:** Each of the two selected female artists is awarded a cash prize of ₹5,00,000/-.- **Other Benefit:** In addition to the monetary award, recipients receive a shawl and a certificate recognizing their contribution.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card",
+    "voter-id",
+    "etc-proof-of-residence-utility-bill",
+    "domicile-certificate",
+    "etc-recent-photograph-resume-or-portfolio-detailing-musical-achievements-any-oth"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/tmafa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of India.\n  - The applicant must be a female artiste in the field of Indian classical music.\n  - The applicant must have made notable contributions to classical music and demonstrated a distinguished record of achievement.\n\n<br>",
+  "_criteria_filled": 2
+}

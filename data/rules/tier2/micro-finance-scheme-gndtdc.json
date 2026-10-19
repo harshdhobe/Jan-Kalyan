@@ -1,0 +1,41 @@
+{
+  "id": "micro-finance-scheme-gndtdc",
+  "name": "Micro Finance Scheme (GNDTDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan Amount Details:**\n\n- **Loan Amount:** Up to ₹1,25,000/-.- **Interest Rate:** 5% per annum.\n\n- **Loan Contribution:** 90% will be from the National Corporation, 5% from the State Government, 5% from the beneficiary.- **Repayment:** The loan amount will have to be repaid in 48 equal monthly installments, including interest.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-income-certificate-age-proof-experience-certifi"
+  ],
+  "apply_url": "https://gndcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfgntdnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Nomadic Tribe or Denotified Tribe.\n1. The applicant&#39;s family&#39;s annual income should not exceed ₹3,00,000/-.\n1. The applicant&#39;s age should be between 21 to 50 years on the date of application.\n1. The applicant should have experience &amp; technical skill in the proposed trade/business.\n1. The applicant will have to provide suitable collateral to get the loan.\n\n**Note:** At least 50% of the total loan amount under this scheme will be specifically allocated to families with an annual income of up to ₹1,50,000/-.\n<br>",
+  "_criteria_filled": 4
+}

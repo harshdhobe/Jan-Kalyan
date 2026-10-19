@@ -1,0 +1,28 @@
+{
+  "id": "advance-for-purchase-or-construction-of-house-apbocwwb",
+  "name": "Advance For Purchase Or Construction Of House (APB&OCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Under this scheme, cash assistance of ₹1.00 lakh is to be given to the registered workers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-xerox-copy-of-the-registration-card-of-the-worker-building-plan-for-construc"
+  ],
+  "apply_url": "https://tawang.nic.in/labour-welfare-board/",
+  "source_url": "https://www.myscheme.gov.in/schemes/apchapbandocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tThe applicant must be employed in the Building and Other Construction works.\n3.\tThe applicant should be registered with Labour Welfare Board (APB&amp;amp;OCWWB).\n4.\tThe applicant should be an active registered worker with a membership for at least 5 years.\n5.\tThe applicant should have at least 15 years of service before superannuation/ retirement.\n6.\tThe applicant must be able to repay the principal amount of the loan with a minimum interest rate or with interest in equal installments as may be fixed by the board.",
+  "_criteria_filled": 1
+}

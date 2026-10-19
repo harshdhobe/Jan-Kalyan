@@ -1,0 +1,34 @@
+{
+  "id": "scheme-for-assistance-for-research-development-activities-assistance-to-industri",
+  "name": "Scheme for Assistance for Research & Development Activities: Assistance to Industrial Association for Establishment of R&D Laboratories",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 60% of the project cost for Machinery and Equipment, Hardware &amp;amp; Software required for research and related assets required for the R&amp;amp;D activities subject to a maximum of  ₹5,00,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-project-sanction-letter-issued-by-ic-office-copy-of-registration-of-the",
+    "outcomes-of-rd-proposed",
+    "details-of-asset-creation",
+    "benefit-to-the-society",
+    "benefit-to-the-industries",
+    "details-of-patent-filedgranted",
+    "details-of-internationalnational-publications",
+    "impact-analysis-of-the-rd",
+    "and-other-relevant-details-related-to-the-project-employment-details-of-technica"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2023/2.%20CLAIM%20APPLICATION%20FORM%20SCHEME%204.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sardaia",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&amp;gt; **Eligible institution:**\n\n  - Research and Development laboratories recognized by the Council of Scientific and Industrial Research (CSIR) / Department of Scientific and Industrial Research (DSIR) \n  - The laboratories should be set up by an Industrial Association.\n  - The Industrial association should be registered under applicable act. \n\n&amp;lt;br&amp;gt;\n\n&amp;gt; **Eligible Activities:**\n\n  - Setting up of new R&amp;amp;amp;D laboratory with all necessary infrastructures and facilities.\n\n&amp;lt;br&amp;gt;\n\n&amp;gt; **Note****:** Provisional approval of CSIR/DSIR shall have to be obtained.",
+  "_criteria_filled": 1
+}

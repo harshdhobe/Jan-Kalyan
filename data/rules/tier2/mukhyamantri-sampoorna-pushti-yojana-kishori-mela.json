@@ -1,0 +1,41 @@
+{
+  "id": "mukhyamantri-sampoorna-pushti-yojana-kishori-mela",
+  "name": "Mukhyamantri Sampoorna Pushti Yojana: Kishori Mela",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "**The following activities may be undertaken during the event:**\n\n  - Administration of weekly IFA tablet and egg.\n  - Screening of nutritionally at-risk adolescent girls (BMI checkup).\n  - Screening for anaemia status (haemoglobin testing).\n  - Counselling and referrals. The One Stop Centre Counsellors &amp;amp; State Social Welfare Board Counsellors maybe roped in for the purpose alongwith Healt",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "the-following-information-may-be-collected-during-kishori-mela-from-all-adolesce"
+  ],
+  "apply_url": "https://wcd.odisha.gov.in/en/ICDS/mukhymantri-samproona-pushti-yojana-mspy",
+  "source_url": "https://www.myscheme.gov.in/schemes/mspykm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Odisha.\n   1. The beneficiary must be an adolescent girl aged between 15 and 19 years.\n\n<br>",
+  "_criteria_filled": 4
+}

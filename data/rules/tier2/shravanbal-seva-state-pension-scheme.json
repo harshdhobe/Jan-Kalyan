@@ -1,0 +1,40 @@
+{
+  "id": "shravanbal-seva-state-pension-scheme",
+  "name": "Shravanbal Seva State Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "₹ 600/- per month is given to each beneficiary.\nGroup (A): The destitute men and women who are 65 years or above in age, and whose family is listed as \"Below Poverty Line\", are provided a monthly pension of ₹ 600/-. In this pension, ₹ 200/- per month is provided under Indira Gandhi Old Age Pension Scheme (Central Govt.), and ₹ 400/- per month under Shravan Bal State Pension Scheme.\nGroup (B): The ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 21000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-2-passport-sized-photograph-signed-across-proof-of-age-income-certi",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/mr/schemes-page?scheme_nature=37",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbssps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Maharashtra for at least 15 years.\n1. The applicant should be destitute.\n1. The applicant should be 65 years or above in age.\n1. The name of the applicant should be in the list of Below Poverty Line (BPL) families OR the annual income of the family should be less than or equal to ₹ 21,000/-.",
+  "_criteria_filled": 3
+}

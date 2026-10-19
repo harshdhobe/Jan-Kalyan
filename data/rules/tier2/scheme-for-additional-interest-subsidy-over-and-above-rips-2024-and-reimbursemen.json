@@ -1,0 +1,28 @@
+{
+  "id": "scheme-for-additional-interest-subsidy-over-and-above-rips-2024-and-reimbursemen",
+  "name": "Scheme for Additional Interest Subsidy over and above RIPS 2024 and Reimbursement of Annual Credit Guarantee Fee",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Additional Interest Subsidy support over and above RIPS 2024 will be provided to eligible projects for establishment of new MSMEs or for expansion/ diversification/ modernization of existing MSMEs as per below:**\n**Loan Amount for plant and machinery/equipment or apparatus****Interest Subvention as per RIPS 2024****Additional Interest Subvention under the scheme**Up to INR 5 crores6%2%INR 5 cror",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "board-resolutionpower-of-attorney-in-the-name-of-authorized-signatory-udyam-regi",
+    "repayment-schedules",
+    "and-disbursal-schedule-till-date-of-production-from-lending-institutionbanks-cer"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICOM/2025/Guidelines/O_030325_26f50adb-f7b4-4eb5-b94d-1e5e45451a85.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saisoarracgf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Following type of beneficiaries would be eligible for additional interest subsidy as per the scheme:**\n\n1. Interest subvention subsidy should have been approved for the applicant under RIPS 2024; and\n1. Beneficiary enterprise should fall under any of the following categories:\n\n- One District One Product (ODOP) enterprises in respective districts.\n- Enterprises owned by Scheduled Caste (SC)/Scheduled Tribe (ST) or women entrepreneurs.\n- Young entrepreneurs in the state in the age group of 18 to 45 years for starting their new enterprise for a maximum loan amount of up to ₹10 crore. \n- Establishment of new MSMEs or expansion/ diversification/ modernization of existing MSMEs in Area Category 3 as defined in RIPS 2024.",
+  "_criteria_filled": 1
+}

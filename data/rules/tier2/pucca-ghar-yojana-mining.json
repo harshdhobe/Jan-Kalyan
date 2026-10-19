@@ -1,0 +1,26 @@
+{
+  "id": "pucca-ghar-yojana-mining",
+  "name": "Pucca Ghar Yojana (Mining)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. The unit cost under the Pucca Ghar Yojana (Mining) for the construction of a new Pucca house is ₹ 1,20,000/- for non-IAP Districts and ₹ 1,30,000/- for IAP Districts. This can be revised by the State Government from time to time.\n1. The beneficiary of Pucca Ghar Yojana will get a wage component for 90 person days and 95 person days in non-IAP and IAP Districts respectively, under MGNREGS, which",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-passport-size-photograph-ration-card-residence-certificate-income-ce"
+  ],
+  "apply_url": "https://rhodisha.gov.in/home/img/guidelines/PGY(Minning)_guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pgy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All kutcha households in mining-affected blocks, as mentioned in the below table, will be assisted with the construction of Pucca houses on saturation mode, except for the households belonging to the following categories;\n\n- Households, that have been sanctioned house earlier under any of the RH Schemes. \n- Households who live in Pucca house.\n\n2. The Scheme applies to 36 Blocks of 9 mining-affected districts, as mentioned below:\n<br>\n\n**SI. No.****District****Block****1****Angul**AthamalikBanarpalChhendipadaKanihaKishorenagarTalcher**2****Dhenkanal**Kankadahad**3****Jajpur**Sukhinda**4****Jharsuguda**JharsugudaTakhanour**5****Keonjhar**BansapalChampuaHarichandanpurHatadihiJhumpuraJodaKeonjhar Sadar<br>\n\n**6****Koraput**DasamantpurKoraputPottangiLaxmipurNarayanpatnaSemilicuda**7****Mayurbhanj**JoshipurKusumiRairangpurTiring**8****Rayagada**Kashipur**9****Sundergarh**GurundiaHemgiriKoiraKauramundaKutraLahuniparaNuagoanRaigangpur",
+  "_criteria_filled": 1
+}

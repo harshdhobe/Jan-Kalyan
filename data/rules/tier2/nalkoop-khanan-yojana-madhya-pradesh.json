@@ -1,0 +1,26 @@
+{
+  "id": "nalkoop-khanan-yojana-madhya-pradesh",
+  "name": "Nalkoop Khanan Yojana- Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "&gt; **Subsidy for Tube Well Digging:**\n\n  - A grant of 75% of the unit cost (up to a maximum of ₹25,000/-), is provided for digging a tube well.\n  - Applicable for both successful and unsuccessful digging.\n\n&gt; **Subsidy for Submersible Pump Installation:**\n\n  - A grant of 75% of the unit cost (up to a maximum of ₹15,000/-), is provided for the successful installation of a submersible pump on a ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-certificate-of"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=941",
+  "source_url": "https://www.myscheme.gov.in/schemes/nkymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should be a farmer.\n   1. Farmers from Shajapur and Indore districts of Madhya Pradesh are excluded from this scheme.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe category.\n   1. The applicant should own agricultural land within the state.",
+  "_criteria_filled": 1
+}

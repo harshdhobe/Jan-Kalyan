@@ -1,0 +1,28 @@
+{
+  "id": "incentive-for-inter-caste-marriage-scheme",
+  "name": "Incentive for Inter-Caste Marriage Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "**Financial Incentive:** One-time payment of ₹50,000/- per eligible couple.\n**Mode of Disbursement:** Through the concerned Deputy Commissioner (DC) as authorized by the Secretary (DSCST).\n**Conditions for Disbursement:** The couple should provide proof of living together at the time of disbursement of benefits.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "marriage-registration-certificate",
+    "issued-by-the-registrar-of-marriages-caste-certificate",
+    "issued-by-the-deputy-commissioners-office-residence-proof-age-proof-of-groom-age"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/scstwelfare/annexure-ll",
+  "source_url": "https://www.myscheme.gov.in/schemes/ificms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The couple should have married legally.\n- The couple should have had their marriage registered at the Office of the Registrar, Marriages.\n- The marriage should have been between a Scheduled Caste (SC) and a Non-SC spouse.\n- At least one of the spouses should be a permanent resident of NCT of Delhi.\n- If the non-SC spouse belongs to another state, their parents must have resided in NCT of Delhi for at least five years.\n- The non-SC spouse should provide proof that their caste is not listed under untouchability in their home state and that they follow the Hindu religion.\n- After marriage, the couple should be residing in the NCT of Delhi.\n- The couple should provide proof of living together at the time of fund disbursement.\n\n_*A widow of up to 35 years of age with no children can avail of the incentive upon inter-caste remarriage._",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "national-family-benefit-scheme-sikkim",
+  "name": "National Family Benefit Scheme - Sikkim",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "household",
+  "benefit": "The beneficiary will receive a one-time grant of ₹ 30,000/- as financial assistance.\nThe assistance would be given to every case of death of a breadwinner in a family of the Below Poverty Line (BPL) category.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photographs-3-number-attested-photocopy-of-sikkim-subject-c",
+    "caste-certificate-attested-photocopy-of-the-below-poverty-line-certificate-birth"
+  ],
+  "apply_url": "https://pensionscheme.sikkim.gov.in",
+  "source_url": "https://www.myscheme.gov.in/schemes/nfbs-sikkim",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of the state of Sikkim.\n   1. The applicant should be from Below Poverty Line (BPL) family.\n   1. In the event of the death of the breadwinner of a family, the family will become eligible to apply for the scheme.\n   1. The financial assistance will be paid to the household (includes spouse, minor children, unmarried daughters, and dependent parents) of the deceased person.\n   1. The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”.\n\n&lt;br&gt;\n\n**Note:** A woman in the family, who is a homemaker, is also considered as a &amp;quot;Breadwinner&amp;quot;.\n<br>",
+  "_criteria_filled": 2
+}

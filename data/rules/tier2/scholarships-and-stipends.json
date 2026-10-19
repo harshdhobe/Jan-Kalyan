@@ -1,0 +1,31 @@
+{
+  "id": "scholarships-and-stipends",
+  "name": "Scholarships and Stipends",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Scholarships:** ₹2,500/- per player is awarded to athletes who have won medals at the national level.  - **Stipends:** ₹2,000/- per player is awarded to athletes who have participated at the national level, irrespective of winning.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "national-level-medal-certificate-for-scholarship-eligibility-aadhar-card-recent"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasgj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n  - The applicant should be a male.\n  - The applicant should have participated in a national-level sports event.\n  - The applicant should have won a medal at the national level to be eligible for the scholarship.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

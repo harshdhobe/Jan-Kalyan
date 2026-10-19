@@ -1,0 +1,31 @@
+{
+  "id": "state-fisheries-input-scheme",
+  "name": "State Fisheries Input Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Fish farmers who are already engaged in fish farming are provided a 50% subsidy on the total cost of essential fishery inputs such as fish feed, medicines, etc.\n\n  - A subsidy of 1 quintal of fish feed is provided for a 100 square meter pond, and 6 quintals of fish feed for ponds ranging from 500 to 2000 square meters.\n  - A grant of 7 quintals of fish feed is provided for RAS/Biofloc systems.\n  -",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-records-proof-of-pond-ownership-or-lease-copy-of-khasra-khaton",
+    "location",
+    "and-ownership-status-original-billsinvoices-of-procured-items-feed",
+    "medicines",
+    "hand-nets",
+    "etc-any-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must be currently engaged in fish farming.\n1. The applicant may belong to any caste category, including General, Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or be a woman.\n\n<br>",
+  "_criteria_filled": 1
+}

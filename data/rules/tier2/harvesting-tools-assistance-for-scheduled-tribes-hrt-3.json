@@ -1,0 +1,33 @@
+{
+  "id": "harvesting-tools-assistance-for-scheduled-tribes-hrt-3",
+  "name": "Harvesting Tools Assistance for Scheduled Tribes (HRT-3)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The Scheduled Tribes farmers will be eligible for assistance up to 50% of the cost of the harvesting tool or ₹1,00,000/-, whichever is less.\n   1. FPO/FPC/FIG/SHG/ Cooperative Society will be eligible for assistance of 75% of the cost of the harvesting tool or ₹1,50,000/-, whichever is less.\n\n**Note:** Unit Cost of harvesting tool should be up to ₹2,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "scheduled-tribes-certificate-issued-by-competent-authority-disability-certificat",
+    "co-operative-society",
+    "documents-relating-to-registration-purpose",
+    "activities",
+    "constitution",
+    "members",
+    "etc",
+    "and-audit-report-of-the-last-one-year-of-the-auditable-entity-if-applicable-any"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/iKhedutPublicScheme/Public/frm_Public_IndividualGhatakDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/htasthrt3",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a permanent resident of Gujarat.\n   1. The beneficiary should belong to the Scheduled Tribe category.\n   1. The individual farmer or FPO/FPC/FIG/SHG/Co-operative society is eligible to avail of benefits under the scheme.\n   1. The assistance will be available once in five years.\n   1. Equipment certified by ISO/BIS/ISI/Government-Recognized organizations should be purchased through an authorized dealer of that company or imported equipment.",
+  "_criteria_filled": 1
+}

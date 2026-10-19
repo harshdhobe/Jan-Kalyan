@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-obm-boat-owner-fishermen-on-purchase-of-kerosenepetrol",
+  "name": "Assistance to OBM Boat Owner Fishermen on Purchase of Kerosene/Petrol",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Assistance under the scheme:**\n**Name of Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Assistance on the purchase of Kerosene/Petrol Maximum assistance of ₹50/- per literBenefits are available as per the prescribed quota throughout the year.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "kerosenepetrol-card-issued-by-the-government-original-purchase-bills-of-kerosene"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=eoZIK/kWnJDjPMJYN54MWw==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/aobofpk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must be a fisherman.\n1. The applicant must be a Kerosene Card holder.\n1. The applicant must own a small boat operated by an Outboard Motor (OBM).\n\n<br>",
+  "_criteria_filled": 1
+}

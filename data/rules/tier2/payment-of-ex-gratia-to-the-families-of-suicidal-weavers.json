@@ -1,0 +1,30 @@
+{
+  "id": "payment-of-ex-gratia-to-the-families-of-suicidal-weavers",
+  "name": "Payment of Ex-Gratia to the Families of Suicidal Weavers",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "> **Financial Assistance**\n\n- An ex-gratia payment of ₹ 1,00,000/- to the family/next of kin of the deceased weaver.\n- Loan settlement up to a ceiling of ₹ 50,000/- to the creditors as a one-time settlement.\n- The ex-gratia amount will be deposited in a joint bank account of the Assistant Director (H&amp;T) of the concerned district and the legal heir, operated by the officer concerned.\n- The loan",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "a-committee-comprising-the-rdosub-collector",
+    "deputy-superintendent-of-police",
+    "and-assistant-director-ht-of-the-district-will-verify-and-certify-the-event-of-s",
+    "economic-distress",
+    "and-social-humiliation-leading-to-suicide"
+  ],
+  "apply_url": "https://handlooms.ap.gov.in/documents/Suicidal_G.O._140.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/pegfsw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The benefits apply to families of weavers who committed suicide due to weaving-related economic distress, such as:\n\n- Indebtedness.\n- Lack of employment in weaving/processing.\n- Harassment by fellow villagers related to handlooms or delivery of finished cloth.\n- Failure to provide livelihood to family members, leading to despair.\n\n2.  The suicide must have occurred on or after 1st April 1997.\n3.  The family should not have received any relief or family assistance earlier.",
+  "_criteria_filled": 1
+}

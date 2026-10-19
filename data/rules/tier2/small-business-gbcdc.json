@@ -1,0 +1,31 @@
+{
+  "id": "small-business-gbcdc",
+  "name": "Small Business (GBCDC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Financial assistance in the form of a loan up to ₹2,00,000/-.\n1. The loan can be utilised for starting small businesses such as grocery stores, dairy parlours, animal fodder sales centres, mobile and computer repairing shops, etc.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-age-proof-bank-pass-bookcancelled-cheque-birth-certificate-business"
+  ],
+  "apply_url": "https://gbcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mfsgbcdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to a socially and educationally backward class.\n1. The applicant&#39;s total annual individual/family income should not exceed ₹3,00,000/-.\n1. The applicant should be a resident of Gujarat.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-paryatan-siksha-yojana",
+  "name": "Chief Minister’s Paryatan Siksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Sponsorship to study and take up courses in the field of tourism.\n   1. The local youths may enroll in courses such as B.Sc. (Hospitality and Catering) and Diploma/PGD courses (Food Production, Food &amp;amp; Beverage Service, Front Office, Housekeeping, Bakery &amp;amp; Confectionaries).\n   1. 8 students of the State will be sponsored to take up B. Sc. (H&amp;amp;C) for 3 years degree course i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-2-number-of-recent-passport-size-photographs-clas"
+  ],
+  "apply_url": "https://changlang.nic.in/notice/chief-minister-paryatan-siksha-yojana-ii-govt-sponsored-diploma-course/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any Arunachal Pradesh domicile can apply to avail of the benefit of this scheme.\n   1. The candidate must have passed Class XII in any stream or equivalent for a B.Sc. in Hospitality and Hotel Administration at the Institute of Hotel Management.\n   1. The candidate must have passed Class X or XII in any stream or equivalent for Diploma Course in tourism or hospitality related subject i.e. Food Production, Food &amp;amp; Beverage Service, Front Office, Housekeeping,  Bakery &amp;amp; Confectionaries.\n   1. The candidate must be graduated in any stream for Post Graduate Diploma in tourism or hospitality related subject.\n   1. The merit list will be drawn on the basis of the percentage of marks obtained under the criteria.\n   1. The sponsorship is only for the student of the Scheduled Tribe of Arunachal Pradesh.\n\n&lt;br&gt;\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

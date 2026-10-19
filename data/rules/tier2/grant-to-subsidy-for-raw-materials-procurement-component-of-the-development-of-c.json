@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-subsidy-for-raw-materials-procurement-component-of-the-development-of-c",
+  "name": "\"Grant to Subsidy for Raw Materials Procurement\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 15% subsidy on annual raw materials procurement.\n- Maximum subsidy capped at ₹5,00,000 per annum per unit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-unit-establishment-in-puducherry-annual-procurement-records-any-other-d"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsrmp-dc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant should possess a Coir Industry Unit in Puducherry.",
+  "_criteria_filled": 1
+}

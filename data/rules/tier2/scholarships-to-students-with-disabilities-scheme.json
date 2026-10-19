@@ -1,0 +1,37 @@
+{
+  "id": "scholarships-to-students-with-disabilities-scheme",
+  "name": "Scholarships to Students with Disabilities Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "household",
+  "benefit": "1.\tUnder this scheme, scholarship @ ₹200/- per month per Student with Disability for education for class 1st to 8th.\n2.\tScholarship @₹300/- per month per the student with Disability for education/training from 9th Class onwards.\n**Note:** The Directorate shall credit the scholarship online in the bank account of the student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-disability-certificate-udid-showing-40-and-above-disability-2-income-certifica",
+    "000-per-year-income-of-parents-3-copy-of-the-bank-account-details"
+  ],
+  "apply_url": "https://sswcd.punjab.gov.in/en/scholarships-to-students-with-disabilities-divyang",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssds-punjab",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All students of Punjab having 40 % and above disability (In any disability contained in the schedule of RPwD Act 2016) certificate.\n   1. The monthly income of family/guardians should not exceed ₹5,000/- per month.\n   1. The candidate should have secured at least 40% marks in the previous annual examination.\n   1. The scholarship will be provided to each student with disability from 1st class onwards.",
+  "_criteria_filled": 3
+}

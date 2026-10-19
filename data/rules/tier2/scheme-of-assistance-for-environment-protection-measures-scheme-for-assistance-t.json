@@ -1,0 +1,31 @@
+{
+  "id": "scheme-of-assistance-for-environment-protection-measures-scheme-for-assistance-t",
+  "name": "Scheme of Assistance for Environment Protection Measures: Scheme for assistance to encouraging Green Practices and Environmental Audit to MSMEs",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Eligible Activity****Quantum of Assistance per Project** Periodic Environmental AuditsUp to 75% of fees with a ceiling of ₹50,000/- per audit.Installation of Monitoring SystemsUp to 25% of fees with a ceiling of ₹5,00,000/- per audit.Green Building CertificationUp to 50% of fees with a ceiling of ₹2,50,000/- per audit.Environmental Management SystemsUp to 50% of fees with a ceiling of ₹10,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-for-the-project-chartered-accountant-certificate-for-the",
+    "water",
+    "energy-consumption",
+    "or-waste-generation-by-maintaining-the-log-sheet-slec-or-gpcb-approved-independe",
+    "otherwise-justification-for-not-applicable-copy-of-the-constitutionestablishment",
+    "then-give-undertaking-undertaking-for-outstanding-government-dues-and-any-pendin"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/Application-form%20for%20Scheme-2%20assistance%20to%20encouraging%20Green%20Practices%20and%20environmental%20audit%20to%20MSMEs.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saepegp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The industry/unit must be registered under relevant industrial laws in Gujarat.\n   1. The industry/unit must comply with existing environmental regulations and standards.\n   1. The industry/unit must be engaged in manufacturing or production activities.\n   1. The industry/unit must undertake projects focused on environmental protection measures.\n   1. The industry/unit must adopt green practices as specified in the scheme.",
+  "_criteria_filled": 1
+}

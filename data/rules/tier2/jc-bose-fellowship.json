@@ -1,0 +1,28 @@
+{
+  "id": "jc-bose-fellowship",
+  "name": "J.C. Bose Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. The fellowship amount is ₹25,000/- per month in addition to regular income.\n1. Research grant of ₹15 lakhs per annum.\n1. Overhead of ₹1.00 lakh per annum to the host institute.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 68
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-proof-of-age-details-of-research-contributions-details",
+    "granted-or-commercialized-recommendation-letter-any-other-document",
+    "as-required"
+  ],
+  "apply_url": "http://serbonline.com/",
+  "source_url": "https://www.myscheme.gov.in/schemes/jcbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The candidate should be an active scientist with a record of outstanding performance apparent from the award of the SS Bhatnagar prize and/or fellowship of science academies (including engineering, agriculture, and medicine).\n   1. The scientist should be in service at the time of nomination to this fellowship.\n   1. The nominee should be an Indian national working in institutions/Universities in India.\n   1. The fellowship can be availed up to 68 years of age. \n   1. The nominee is not availing of any other fellowship including personal fellowship amount and research grant (part of the fellowship) from any Government sources.",
+  "_criteria_filled": 1
+}

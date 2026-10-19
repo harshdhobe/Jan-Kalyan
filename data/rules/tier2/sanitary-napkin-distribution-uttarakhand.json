@@ -1,0 +1,41 @@
+{
+  "id": "sanitary-napkin-distribution-uttarakhand",
+  "name": "Sanitary Napkin Distribution - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, to prevent reproductive tract infections and inculcate menstrual hygiene habits, sanitary napkins are provided to adolescent girls by ASHA workers at a nominal cost of ₹6/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-to-avail-the-benefits-of-this-scheme"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/snduk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All girls aged between 10 to 19 years residing in Uttarakhand are eligible under this scheme.\n\n<br>",
+  "_criteria_filled": 4
+}

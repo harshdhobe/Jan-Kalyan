@@ -1,0 +1,26 @@
+{
+  "id": "sarvajan-pension-yojana",
+  "name": "Sarvajan Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- **A pension of ₹1,000/- per month.**\n\n<br>\n\n> Note: Timely pension disbursal by the 5th of every month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "voter-id-disability-certificate-if-applicable-hivaids-medical-certificate-if-app"
+  ],
+  "apply_url": "https://cm.jharkhand.gov.in/node/13224",
+  "source_url": "https://www.myscheme.gov.in/schemes/spy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicants should be elderly, widows, destitute women, differently-abled, primitive tribes and people suffering from HIV/AIDS. \n1. The senior citizen&#39;s age should be 60 years or above.\n1. The destitute women&#39;s age should be 18 years or above \n1. The differently-abled age should be 5 years or above.",
+  "_criteria_filled": 1
+}

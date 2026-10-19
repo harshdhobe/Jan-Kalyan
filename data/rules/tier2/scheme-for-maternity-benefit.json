@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-maternity-benefit",
+  "name": "Scheme for Maternity Benefit",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "**Financial Assistance for Delivery:**\n\n- Amount ₹8,000/- to female registered construction workers after delivery or the wife of a male registered construction worker.\n- Maximum twice in a lifetime.\n\n**Financial Assistance for Miscarriage:**\n\n- Amount ₹4,000/- to female registered construction workers or the wife of registered construction workers.\n- Maximum twice in a lifetime.\n\n<br>\n\n**Maternit",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "bank-account-details-copy-of-boc-worker-registration-card-birth-certificate-of-c"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/8217255.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfmb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a female registered construction worker or wife of a male construction worker. \n1. The registered construction worker must be a beneficiary for not less than one year continuously to get a maternity benefit and paid maternity leave.\n1. The registered construction worker can get this assistance only twice. \n1. The registered construction workers should not have any dues payable to the Board.\n1. The registered women construction workers or wife of male construction worker already have two children are not eligible to get assistance. \n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

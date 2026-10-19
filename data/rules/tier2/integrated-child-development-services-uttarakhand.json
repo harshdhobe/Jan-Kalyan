@@ -1,0 +1,26 @@
+{
+  "id": "integrated-child-development-services-uttarakhand",
+  "name": "Integrated Child Development Services- Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**The following services are provided free of cost through Anganwadi Centres:**\n\n- Supplementary nutrition, immunisation/vaccination, and related services for children between 6 months and 3 years.\n- Immunisation/vaccination, pre-school education, and related services for children aged 3 to 6 years.\n- Immunisation/vaccination, health check-ups, nutrition, and health education services for pregnant",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-of-the-pregnantlactating-woman-or-child-birth-certificate-o"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icdsuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. All children between 6 months and 6 years, as well as pregnant women and lactating mothers, are eligible to avail benefits under this scheme.\n   1. There is no income limit for availing the benefits of this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

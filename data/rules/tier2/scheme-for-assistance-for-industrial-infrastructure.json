@@ -1,0 +1,47 @@
+{
+  "id": "scheme-for-assistance-for-industrial-infrastructure",
+  "name": "Scheme for Assistance for Industrial Infrastructure",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **General Assistance:** Up to 80% of the eligible project cost or ₹25,00,00,000/- per project, whichever is less.- **Supplementary Assistance:** If assistance from a Government of India scheme is less than 80% of the project cost, the remaining amount (up to 80% collectively) will be covered under this scheme.- **Assistance for MSE Clusters:** Up to 90% of the total project cost.- **Funding for ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-duly-signed-and-stamped-please-print-your-online-application-an",
+    "measurement-sheet",
+    "rate-analysis-for-non-sor-items-if-machinery-and-equipment-are-involved-in-the-p",
+    "submit-detailed-estimates-with-rate-analysis-and-technical-specification-means-o",
+    "no-objection-certificates-of-the-competent-authority-of-the-concerned-officeinst",
+    "as-applicable-in-the-project-layout-map-of-the-project-prepared-by-work-estimati",
+    "mention-it-separately-undertaking-in-prescribed-format-executive-summary-of-the",
+    "then-submit-confirmationsanction-letter-of-the-institutionbankother-source-autho",
+    "name-and-address-of-industry",
+    "type-of-industry-microsmallmediumlarge",
+    "establishment-year-of-industry",
+    "items-of-manufacture",
+    "investment",
+    "employment-submit-a-list-of-projects-of-the-concerned-industrial-estatearea-for",
+    "name-of-project",
+    "project-cost",
+    "name-of-government-scheme",
+    "assistance-sanctioned",
+    "assistance-sanctioned-year",
+    "assistance-disbursed",
+    "current-status-of-the-project-whether-completed-or-under-implementation",
+    "completion-year-of-the-project-any-other-document-pertaining-to-the-project-the"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/10-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfafii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligible Institution:**\n\n  - Eligible institution means any Industries Association, Chamber of Commerce and industry or SPV of industries (which are registered under Societies Act, Trust Act or the Companies Act) or any Large Project/Group of Industries are eligible.\n  - Any Government Department, Govt. Agency or Authority, State and Central Govt. PSUs, Board, Corporation, Municipal Corporations will be considered as eligible Institution.\n\n&gt; **Eligible Activities:**\n\n  - Common Infrastructure facilities as may be required in an existing industrial estates/Industry clusters or industrial area such as:\n\n   1. Approach road from industrial estate/area to District road/ State highway/ National highway/Port.\n   1. Over bridge on road/railway connecting Industrial area.\n   1. Up gradation of existing roads/widening of roads.\n   1. Construction of bypass roads.\n   1. Setting up of Earth station/Communication facilities.\n   1. Water/ Gas/electficity/energy distribution network.\n   1. Setting up of common warehousing facilities Common Facilities Centre, Incubation Centre, Product Development Centre, Training Center, Convention Centre, Exhibition Centre, Business Support Center, Testing laboratory.\n   1. Fire Stations.\n   1. Water Desalination Plant.\n   1. Transport Nagar / Common Transport facilities.\n   1. Water Augmentation Facility.\n   1. Networking Facility.\n   1. Primary Health Centre, Trauma/Emergency Centre.\n   1. Common Alternative Energy source project.\n   1. SWD, Sewage and drainage network. \n\n  - Any other infrastructure facilities as approved by SLEC.\n  - Link infrastructure facilities and last mile connectivity to Large/Mega project, Central and State Industrial PSUS, \n  - Dormitory housing facility for industrial workers developed by Industrial Association / SPV of industries / Large projects.\n\n&gt; **Eligible Investment:**\n\n  - Fixed capital investment in the project of industrial infrastructure (excluding land cost) as approved by the SLEC will is eligible.\n  - Cost of preparation of work estimates, cost of technical sanction and cost of third party Inspection for Quality assurance will be eligible limited to 5% of the project cost or ₹20,00,000/-, whichever is less.\n  - In case of up gradation of any infrastructure facilities in existing estate/industrial area will be eligible, only if, the said infrastructure facility has been established before 7 years or more.",
+  "_criteria_filled": 1
+}

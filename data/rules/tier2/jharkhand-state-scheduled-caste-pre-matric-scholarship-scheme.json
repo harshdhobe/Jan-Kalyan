@@ -1,0 +1,31 @@
+{
+  "id": "jharkhand-state-scheduled-caste-pre-matric-scholarship-scheme",
+  "name": "Jharkhand State Scheduled Caste Pre-Matric Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "> **Financial assistance to cover educational expenses:**\n\n**S.NO****Class****Rate for Hostel (For 10 months)****Rate for Daylight (For 10 months)**11st to 5th₹1,500/-₹1,500/-26th to 8th₹2,000/-₹2,500/-39th to 10th₹4,500/-₹4,500/-<br>\n\n**NOTE:** \n\n- Direct transfer of scholarships to beneficiaries’ bank accounts via PFMS.\n- Residential students receive higher scholarship amounts compared to non-re",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-mandatory-for-authentication-caste-certificate-income-certificate-f"
+  ],
+  "apply_url": "https://ekalyan.cgg.gov.in/downloads/Pre_Matric_Scholarship_sankalp_2022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsscpmss-1",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/parents/guardians should be a native of Jharkhand.\n1. The applicant should be a student.\n1. The applicant must belong to the Scheduled Caste Jharkhand.\n1. The applicant must be enrolled in a state government-recognized school.\n1. There is no income limit for students from Class 1st to 8th.1. The applicant&#39;s annual family income should not exceed ₹2,50,000/- for Class 9th and 10th.",
+  "_criteria_filled": 2
+}

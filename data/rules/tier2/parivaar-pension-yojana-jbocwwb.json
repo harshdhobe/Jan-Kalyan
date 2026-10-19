@@ -1,0 +1,26 @@
+{
+  "id": "parivaar-pension-yojana-jbocwwb",
+  "name": "Parivaar Pension Yojana (JBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "The scheme provides 50% of the pension amount or a maximum of ₹ 500/- to the family members of the deceased pensioner.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-identity-proo"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ppy-jbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a family member or dependent of the deceased pensioner.\n   1. The deceased pensioner should have been a resident of Jharkhand.\n   1. The deceased pensioner should have been receiving a pension from the Jharkhand Building and Other Construction Worker Welfare Board at the time of their death.",
+  "_criteria_filled": 1
+}

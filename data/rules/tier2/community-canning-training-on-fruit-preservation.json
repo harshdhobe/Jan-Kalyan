@@ -1,0 +1,26 @@
+{
+  "id": "community-canning-training-on-fruit-preservation",
+  "name": "Community Canning & Training On Fruit Preservation",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1. To forward facilities to the public, in particular to ladies and housewives, throughout the state, for preservation of fruits and vegetables.\n1. Home scale preservation and canning of seasonal fruits and vegetables under expert technical supervision and guidance for consumption in lean periods.\n1. To encourage the preparation of value added produce such as Jam, Jelly, Squash, Juice, Sauce, Chut",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-voter-card-pan-card-a-valid-bank-account-and-rests-as-per-own-distr"
+  ],
+  "apply_url": "https://dirhorti.assam.gov.in/schemes/detail/community-canning-training-on-fruit-preservation",
+  "source_url": "https://www.myscheme.gov.in/schemes/cctofp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- To impart training on home scale preservation of fruits and vegetables for 1 days, 3 days and 6 days to the ladies, housewives through various organization like Mahila samity, SHG, College girls etc. specially in rural areas (Dairly processing comes under 1 day training). \n- To train personals to start small scale cottage industries in fruits and vegetables for self employment. The duration of these training will be of 7 to 15 days. \n- To provide certificates to the trained personals so that they can start their own enterprise.",
+  "_criteria_filled": 1
+}

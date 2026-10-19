@@ -1,0 +1,26 @@
+{
+  "id": "compensation-in-animal-death",
+  "name": "Compensation in Animal Death",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Details of Animal****Compensation Per Animal****Compensation Limit For One Family**Large Dairy animals (Cow/Buffalo/Camel)₹37,500/-maximum for 3 animalsSmall Dairy animals (Sheep/Goat)₹4,000/-maximum for 30 animalsLarge Non-milch Animals (Horse, Camel, Bullock)₹32,000/-maximum for 3 animalsSmall non-milch animals (Calf, Buffalo calf, Heifer, Donkey) ₹20,000/-maximum for 3 animalsPoultry-Du",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-other-identity-proof-of-the-applicant-bank-account-details-for-d"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=VxDfHxqoZD+rj49hgDNCyg==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ciad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered livestock owner or breeder.\n  - The animal’s death must be due to natural disasters such as floods, droughts, earthquakes, or cyclones; diseases like anthrax and bird flu; poisoning, including food poisoning, snake bites, and chemical poisoning.",
+  "_criteria_filled": 1
+}

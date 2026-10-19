@@ -1,0 +1,26 @@
+{
+  "id": "weather-based-crop-insurance-scheme",
+  "name": "Weather Based Crop Insurance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Insurance Coverage for Crops:** Provides protection to crops against losses caused by adverse weather conditions such as high or low temperatures, excess or deficient rainfall, and wind speed.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbcism",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shramik-basera-yojana-gbocwwb",
+  "name": "Shramik Basera Yojana (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under this scheme, accommodation facilities will be provided to the laborers/workers at the rate of ₹5/- per day.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-e-nirman-card"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbygbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers registered with the Gujarat Building and Other Construction Worker’s Welfare Board and their families will be eligible to get the benefit of this scheme.\n   1. The registered worker has to present the identity card/smart card (e-Nirman card) as a construction worker to get assistance and the identity card/smart card should be renewed on time.",
+  "_criteria_filled": 1
+}

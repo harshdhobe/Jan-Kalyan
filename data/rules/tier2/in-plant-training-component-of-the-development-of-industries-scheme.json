@@ -1,0 +1,37 @@
+{
+  "id": "in-plant-training-component-of-the-development-of-industries-scheme",
+  "name": "\"In-Plant Training\" Component of the \"Development of Industries\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Stipend**\n\n- Higher Secondary / ITI and below: ₹ 1,500/-.\n- Any Graduate or 3 years Diploma in Engg. Or equivalent: ₹ 2,500/-.\n- Degree in Engineering or Post Graduate in Arts &amp; Science or equivalent: ₹ 3,000/-.\n\n* Trainees having postgraduate qualification in a trade which requires under graduation as minimum qualification will be paid ₹ 3,000/- per month.\n* During the period of training,",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-applicants-passport-sized-photo-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-age-proof-educational-certificatesmarksheets"
+  ],
+  "apply_url": "https://dic.py.gov.in/sites/default/files/inplant.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be between 18 and 35 years of age.\n- The applicant should be unemployed.\n- The applicant should have passed Class 10th (SSLC).\n- The applicant should be a native of the Union Territory of Puducherry (or) a continuous resident of the area for the past three years.",
+  "_criteria_filled": 3
+}

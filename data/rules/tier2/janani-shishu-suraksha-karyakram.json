@@ -1,0 +1,26 @@
+{
+  "id": "janani-shishu-suraksha-karyakram",
+  "name": "Janani Shishu Suraksha Karyakram",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **For Pregnant Women:**\n\n- Free and zero expense Delivery and Caesarean Section\n- Free Drugs and Consumables\n- Free Essential Diagnostics (Blood, Urine tests and Ultra-sonography etc)\n- Free Diet during stay in the health institutions (up to 3 days for normal\n- delivery &amp; 7 days for caesarean section)\n- Free Provision of Blood\n- Free Transport from Home to Health Institutions\n- Free Transpor",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-address-proof-domicile-certificate-ration-card-janani-suraksha-ca"
+  ],
+  "apply_url": "http://nhm.gov.in/showlink.php?id=474",
+  "source_url": "https://www.myscheme.gov.in/schemes/jssk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a pregnant woman.\n- The applicant must be admitted to a government health facility.\n\n<br>",
+  "_criteria_filled": 1
+}

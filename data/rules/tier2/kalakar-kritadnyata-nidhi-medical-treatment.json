@@ -1,0 +1,39 @@
+{
+  "id": "kalakar-kritadnyata-nidhi-medical-treatment",
+  "name": "Kalakar Kritadnyata Nidhi: Medical Treatment",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "##### ***Financial Assistance***\n\n- Financial assistance shall be sanctioned to meet the expenses towards major or minor surgical treatment in local or outstation hospitals.\n- Financial assistance shall be provided to meet the expenses towards travelling and accommodation outside the state for treatment for self and or wholly dependent family members.\n- The maximum financial assistance under this ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationbirth-certificate-marriage-certificate-if-applicable-for-famil",
+    "in-case-of-treatment-availed-or-to-be-availed-on-emergency-basis",
+    "the-estimate-shall-be-submitted-subsequently-recognition-certificate-from-the-di",
+    "government-of-goa-after-treatmentdetails-of-the-expenditure-incurred-along-with"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkn-mt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be any Goan aged needy artist, born and brought up in the state of Goa.\n- The applicant must be recognized by the Directorate of Art &amp; Culture, Government of Goa.\n- The applicant must have an annual family income from all sources not exceeding ₹2,00,000/- per annum.\n- The applicant must be not less than 50 years of age.\n\n**Relaxation**\nThe Government may relax the age criteria for deserving cases under special circumstances.\n<br>",
+  "_criteria_filled": 3
+}

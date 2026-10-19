@@ -1,0 +1,31 @@
+{
+  "id": "deendayal-antyodaya-upchar-yojana",
+  "name": "Deendayal Antyodaya Upchar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "**Card Benefits**\n\n- Free issuance of the Deendayal Antyodaya Upchar Yojana Card.\n- Enables access to government-funded medical treatment schemes.\n- Inclusive coverage for persons with disabilities belonging to BPL families.\n- No administrative fee is charged by the department.\n\n**Mode of Disbursement**\n\n- Physical card issued through designated health officers or Lok Seva Kendra.\n- Card issued wi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "bpl-ration-card-or-bpl-certificate-with-family-list-passport-size-colour-photogr"
+  ],
+  "apply_url": "https://www.mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=eVTeefDvS1Q=",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddauy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should belong to a below-poverty-line family. \n1. The applicant should be a resident of the same district or area where the application is submitted.\n1. The applicant should be the head of the family.\n1. The applicant’s family may include persons with disabilities, without exclusion.\n\n<br>",
+  "_criteria_filled": 2
+}

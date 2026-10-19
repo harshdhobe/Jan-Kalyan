@@ -1,0 +1,26 @@
+{
+  "id": "bicycle-scheme-haryana-labour-welfare-board",
+  "name": "Bicycle Scheme- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹5,000/- is provided to the workers for the purchase of a new bicycle once in every five years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-board1-aadh"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/78",
+  "source_url": "https://www.myscheme.gov.in/schemes/bs-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹18,000/-.\n   1. The service period of the worker is fixed for 2 years.\n   1. The worker will get the benefit after every five years in the whole service period.",
+  "_criteria_filled": 1
+}

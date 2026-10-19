@@ -1,0 +1,55 @@
+{
+  "id": "assistance-in-case-of-accidents-obocwwb",
+  "name": "Assistance in Case of Accidents (O.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **Permanent total disability due to accident:** ₹1,50,000/-  - **Loss of one limb/ eye:** ₹80,000/-  - **Permanent disability without loss of two limbs/ eyes:** ₹40,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workeraadhaar-linked-bank-passbook-f",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-passport-size-photo-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-aadhaar-card-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-signature-of-applicant-allowed-type-png",
+    "jpg-allowed-size-less-than-500-kb-employment-certificate-allowed-file-types-png",
+    "jpg",
+    "pdf-allowed-size-less-than-500-kb-for-the-application-of-the-welfare-schemexerox",
+    "laboratory-tests",
+    "investigations",
+    "no-doctors-visit-etc-whether-the-construction-workers-have-been-covered-under-th",
+    "if-applicable-copy-of-the-first-page-of-bank-pass-book-indicating-bank-name",
+    "ifsc-code-and-applicants-account-number-clearly-visible-and-verified-by-concerne",
+    "photocopies-duly-signed-by-medical-authority-would-be-entertained-subject-to-sub"
+  ],
+  "apply_url": "https://labdirodisha.gov.in/?q=node/15%27%3B",
+  "source_url": "https://www.myscheme.gov.in/schemes/acaobocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of Odisha.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a nominee of a deceased registered member Under the Building and Other Construction Workers Welfare Board of Odisha.\n  - The member should have permanent disability/ lost one limb or eye/ permanent disability without the loss of two limbs or eyes due to an accident.",
+  "_criteria_filled": 4
+}

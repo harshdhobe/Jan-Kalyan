@@ -1,0 +1,28 @@
+{
+  "id": "saur-sujala-yojana",
+  "name": "Saur Sujala Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "The category-wise details of the contribution amount payable by the beneficiary for the installation of the solar pump under the Saur Sujala Yojana are as follows:\nS NoDescription of Pump Capacity / TypeSC/ST Beneficiary's contributionOther backward classes Beneficiary's contributionGeneral  Beneficiary's contribution103 HP/ AC/DC Surface/submersible70001200018000205 HP/AC/DC Surface/submersible10",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "it-is-mandatory-for-the-beneficiary-to-have-agricultural-land-and-water-source-b",
+    "well",
+    "riverstream-etc-in-his-own-name-application-form-attested-photocopy-of-address-p"
+  ],
+  "apply_url": "http://www.creda.in/credaapp/download_link/form.pdf?1684141320",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssyc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Small/medium/large-scale farmers are eligible to apply for this scheme.\n1. The farmer should be a resident of Chhattisgarh State.",
+  "_criteria_filled": 1
+}

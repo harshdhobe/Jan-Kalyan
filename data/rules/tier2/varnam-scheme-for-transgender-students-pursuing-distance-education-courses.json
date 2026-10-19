@@ -1,0 +1,29 @@
+{
+  "id": "varnam-scheme-for-transgender-students-pursuing-distance-education-courses",
+  "name": "Varnam Scheme For Transgender Students Pursuing Distance Education Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a maximum amount of ₹24,000/- will be provided annually to each eligible Transgender student.\n   1. For students pursuing PG courses the assistance will be provided for 2 years and for Under Graduate students the assistance will be given for 3 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photo-copy-of-transgender-identity",
+    "tuition-fees",
+    "study-materials",
+    "and-examination-fees-have-to-be-duly-certified-by-district-social-justice-office"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/35461.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vstspdec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The applicant should be Transgender.\n   1. Transgender students pursuing Degree/Diploma/ PG courses from Open universities, Distance education, or Private registration are eligible to apply under the scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

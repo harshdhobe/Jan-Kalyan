@@ -1,0 +1,41 @@
+{
+  "id": "fitter-training-to-hearing-impaired-persons",
+  "name": "Fitter Training to Hearing Impaired Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Fitter training is given to the hearing-impaired candidates at the ITI, Guindy for 2 years. \n- A stipend of ₹300/- per month is given to the trainees.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-educational-certificate-community-certificate-transfer-ce"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ftthip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a hearing-impaired person.\n1. The applicant should pass the 10th standard.\n1. The applicant should be between 18 and 25 years of age.",
+  "_criteria_filled": 4
+}

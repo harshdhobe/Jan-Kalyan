@@ -1,0 +1,27 @@
+{
+  "id": "raising-the-standard-of-tiatr",
+  "name": "Raising the Standard of Tiatr",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Reimbursement of the value of ticket(s) for witnessing high-standard dramas.\n- To cover the cost incurred by artists for purchasing tickets to watch high-standard plays, thereby encouraging them to improve their performance quality.\n\n_*The value of the ticket(s) will be reimbursed by the Tiatr Academy of Goa after a brief report about the drama seen and the counter-foils of tickets are submitted",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-counter-foils-of-tickets-to-be-attached-with",
+    "highlighting-positive-and-negative-points"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtsot",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a director, script writer, artist, or backstage artist.\n- The applicant must submit a self-attested copy of their Aadhaar Card along with the application.\n\n<br>",
+  "_criteria_filled": 1
+}

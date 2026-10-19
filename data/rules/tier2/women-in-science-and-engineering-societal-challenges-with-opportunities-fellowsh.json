@@ -1,0 +1,36 @@
+{
+  "id": "women-in-science-and-engineering-societal-challenges-with-opportunities-fellowsh",
+  "name": "Women In Science and Engineering-Societal Challenges with Opportunities Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Monthly Fellowship:** Eligible candidates will receive a fellowship amount of ₹55,000/- per month along with HRA as per norms.  - **Research Grant:** Selected fellows will be provided a research grant of ₹2.00 Lakhs per year for project-related activities.  - **Field Demonstration Support:** Financial assistance of ₹1,00,000/- will be provided for field demonstration during the project tenure.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 27
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "1-cv-of-mentor-2-conflict-of-interest-policy-document-3-endorsement-from-the-hea"
+  ],
+  "apply_url": "https://dst.gov.in/callforproposals/call-proposals-under-wise-scope-fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/wise-scope-fellowship",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Employment:**\n\n  - Candidates in regular employment are not eligible for WISE-SCOPE.\n\n**Note 01:** The women scientists who are temporarily employed in research or academics may apply to this program but they have to leave earlier assignments, if, selected for the WISE-SCOPE program.\n**Note 02:** The position of the applicant in any project, as Post-Doctoral Fellow, Research Associate, etc. will be considered a temporary assignment.\n&gt; **Age:**\n\n  - The minimum age to apply is 27 years and the maximum is 60 years as of the date of submission.\n\n&gt; **Educational Qualification:**\n\n  - Women Scientists who have completed a Ph.D. in Basic or Applied Sciences or have equivalent degrees like MD/MS/MDS are eligible for the WISE-SCOPE fellowship.",
+  "_criteria_filled": 3
+}

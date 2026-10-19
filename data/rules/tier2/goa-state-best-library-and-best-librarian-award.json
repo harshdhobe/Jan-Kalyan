@@ -1,0 +1,26 @@
+{
+  "id": "goa-state-best-library-and-best-librarian-award",
+  "name": "Goa State Best Library and Best Librarian Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Nature and Quantum of Assistance**\n\n<br>\n\n**Goa State Best Library Award**\nA cash prize of ₹ 50,000/-, a Memento, a Citation and a Certificate. \n<br>\n\n**Goa State Best Librarian Award**\nA cash prize of ₹ 25,000/-, a Memento, a Citation and a Certificate. \n<br>\n\n> **Number of Awards**\n\nEvery year one Library and one Librarian will be selected for the award.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "for-libraryphotograph-of-library-front-view-collection-details-of-library-librar"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/07/Form-for-Best-Library-Award.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsblbla",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Library**\n\n1. The library should be in existence for a minimum period of 15 years. \n1. The library should have a minimum of 100 registered members for the last 5 years. \n1. The library should have in possession a minimum of 2500 books, periodicals etc., in readable condition. \n1. The library should have a proper infrastructure with retrieval facilities. \n1. The library should be spacious, having a minimum area of 40 sq. mts. and with proper ventilation. \n1. The library should have conducted regular programmes etc. for the members/public to enhance \n1. their reading habits and knowledge. \n1. The library should have maintained all the library records properly and up to date. \n1. The award shall be conferred to only one well-stacked library from the State of Goa.\n\n<br>\n\n> **For Librarian**\n\n1. The Librarian should be born in the State of Goa or should be a resident of the State of Goa for a minimum period of 15 years. \n1. The Librarian should have a minimum of 10 years of continuous service as a Librarian/Section-In-Charge of a reputed library from the State of Goa.\n1. The Librarian should have taken up initiatives for library development/inculcating reading culture in his/her area of work.\n1. The award shall not be conferred posthumously. However, in the event of death of the individual after recommendation of his/her name for the award by the Award Committee, the award shall be conferred posthumously. Further, any illustrious service of any individual in the field of library movement shall also be recognized and considered for the award not beyond one year of death or retirement of the individual.\n1. The award shall be conferred on one meritorious librarian i.e. serving in any Government, Government-aided Libraries in the State of Goa which include the Public/Academic/Special/Research Libraries etc.\n\n<br>\n\n**NOTE:** In the event of no suitable person of the desired standard being found, no award shall be conferred for that year.",
+  "_criteria_filled": 1
+}

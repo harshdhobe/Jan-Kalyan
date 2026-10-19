@@ -1,0 +1,41 @@
+{
+  "id": "scheme-for-assistance-for-research-development-activities-assistance-to-rd-insti",
+  "name": "Scheme for Assistance for Research & Development Activities: Assistance to R&D Institutions/ Laboratories set up by the State Government or by Government of India",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Setting Up New Facilities:** Assistance to R&amp;amp;D institutions/ laboratories set up by the State Government or Government of India including setting up of new R&amp;amp;D institutions / laboratories shall be provided as per requirement.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-project-sanction-letter-issued-by-ic-office-copy-of-government-resolutio",
+    "engineering-drawings",
+    "etc",
+    "of-the-project-if-applicable-technical-sanction-letter-from-rb-department-or-con",
+    "etc",
+    "with-approved-estimate-copy-of-tender-notice-along-with-proof-of-its-publication",
+    "tender-copy",
+    "and-board-resolution-copy-of-appointment-letter-of-third-party-quality-assurance",
+    "outcomes-of-rd-proposed",
+    "details-of-asset-creation",
+    "benefit-to-the-society",
+    "benefit-to-the-industries",
+    "details-of-patent-filed-granted",
+    "details-of-international-national-publications",
+    "impact-analysis-of-the-rd",
+    "and-other-relevant-details-related-to-the-project-certificate-and-statement-of-e"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2023/2.%20CLAIM%20APPLICATION%20FORM%20SCHEME%203.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sardardl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligible institution:**\n\n  - All Research and Development Institutions recognized by the Council of Scientific and Industrial Research (CSIR) / Department of Scientific and Industrial Research (DSIR) and set up by the Government of Gujarat (GoG) / Government of India (Gol).\n\n&lt;br&gt;\n\n&gt; **Eligible Activities:**\n\n  - Setting up of new laboratory as well as strengthening of existing laboratory. \n  - Strengthening, modernization, and addition / up-gradation of existing facilities of the eligible Institutions.",
+  "_criteria_filled": 1
+}

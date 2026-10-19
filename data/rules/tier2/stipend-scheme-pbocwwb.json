@@ -1,0 +1,42 @@
+{
+  "id": "stipend-scheme-pbocwwb",
+  "name": "Stipend Scheme (P.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "<br>\n\n**Class****Boys****Girls**1st class to 5th class₹ 3,000/-₹ 4,000/-6th class to 8th class₹ 5,000/-₹ 7,000/-9th and 10th class₹ 10,000/-₹ 13,000/-11th and 12th class₹ 20,000/-₹ 25,000/-College Students (All types of graduation/ Post Graduation) technical or other professional studying I.T.I/ Polytechnic₹ 25,000/- (₹ 40,000/- in case of living in hostel)₹ 30,000/- (₹ 45,000/- in case of living ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerage-proof-if-no-age-proof-is-a",
+    "account-no-and-ifsc-rtgs-number-detail-of-dependents-employers-certificate-form"
+  ],
+  "apply_url": "https://bocw.punjab.gov.in/userfiles/file/Scheme%20Forms/BOCW%20Schemes%20in%20English%20Final2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sspboceeb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a resident of Punjab.\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should have a monthly income of ₹15,000/- or below.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n  - The applicant should not have membership of the Employees&amp;#39; Provident Fund (EPF)/ National Pension System (NPS)/ Employees&amp;#39; State Insurance Corporation (ESIC).\n  - The applicant should not be an income tax payer.\n\n&gt; ***For the Application of the Welfare Scheme:***\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Punjab or the child of a registered construction worker.\n  - The applicant should be enrolled in an approved institute or university.\n  - The applicant should be studying/ pursuing course in any of the following:\n\n   1. Primary Education: 1st class to 5th class\n   1. Middle School: 6th class to 8th class\n   1. High School: 9th and 10th class\n   1. Senior Secondary: 11th and 12th class\n   1. College Students: All types of graduation/Post-Graduation, including technical or professional studies\n   1. Vocational Training: ITI/Polytechnic\n   1. Professional Courses: Medical/Engineering (All types of Medical/Engineering studies).",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,31 @@
+{
+  "id": "himachal-pradesh-patrakar-kalyan-yojana",
+  "name": "Himachal Pradesh Patrakar Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "**Financial assistance to serving accredited journalist:-**\nIn case of permanent incapacitation for further service while performing field duties as a journalist₹ 1,00,000/-In case of death while performing field Duties₹ 2,00,000/-In case of death during attack or any untoward incidence of violence  ₹ 3,00,000/-In case of medical emergency or cancerUpto ₹ 50,000/- (as per emergent need for major d",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-certificate-aadhaar-cardvoter-id-cardpan-cardration-card-income-certifi"
+  ],
+  "apply_url": "http://www.himachalpr.gov.in/index.aspx?Data=111&AspxAutoDetectCookieSupport=1#:~:text=25%2C000%2F%2D%20(Rupees%20Twenty%20five,certificate%2C%20illness%20or%20accident%20etc.",
+  "source_url": "https://www.myscheme.gov.in/schemes/hppky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a legal heir (spouse, his/her dependent, children) of the deceased journalist. \n1. The deceased serving/retired accredited journalist is unmarried or single the financial assistance will be released in favour of his or her dependent father or mother.\n1. The medical emergency or any other adverse situation assistance will be released to the serving/retired accredited journalists. \n1. The serving/retired accredited journalist&#39;s family annual income is less than ₹1,80,000/-. \n1. The retired journalist should serve of at least twenty years as accredited journalist with the Government of Himachal Pradesh and not taken other gainful employment besides journalism.\n1. The retired accredited journalist&#39;s age should be 58 years. \n\n**NOTE:** Himachal Pradesh Journalists Welfare Fund Scheme will be replaced by new H.P. Patrakar Kalyan Yojana, 2017 hence who are already subscribers of Himachal Pradesh Journalists Welfare Fund Scheme, 2006 will now be considered as member under this new Scheme.\n<br>",
+  "_criteria_filled": 2
+}

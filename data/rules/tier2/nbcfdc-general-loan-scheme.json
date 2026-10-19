@@ -1,0 +1,29 @@
+{
+  "id": "nbcfdc-general-loan-scheme",
+  "name": "NBCFDC General Loan Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. Loan assistance of up to ₹15,00,000/- for income-generating activities such as agriculture and allied activities, small business, artisan and traditional occupations, transport sector, service sector, and technical/professional trades or courses.\n1. NBCFDC finances 85% of the project cost, while 15% is contributed by the Channel Partner and/or beneficiary.\n1. Concessional interest rates ranging",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-relevant-caste-certificate-to-be-issued-by-the-re",
+    "self-certification-assessed-and-endorsed-by-the-branch-manager-can-be-used-for-p",
+    "marginalized-farmers-those-with-up-to-one-hectare-land-holding-and-small-farmers",
+    "as-assessed-by-the-banks-through-their-standard-processes-and-belonging-to-the-b"
+  ],
+  "apply_url": "https://nbcfdc.gov.in/nbcfdc/web/general-loan",
+  "source_url": "https://www.myscheme.gov.in/schemes/nbcfdc-gls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an Entrepreneur\n1. The applicant should be a member of the Backwards Classes, as notified by the Central Government or the State Government from time to time.\n1. The applicant&#39;s annual family income should be up to ₹3,00,000/-.\n\n<br>",
+  "_criteria_filled": 1
+}

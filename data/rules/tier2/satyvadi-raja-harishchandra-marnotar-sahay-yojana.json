@@ -1,0 +1,31 @@
+{
+  "id": "satyvadi-raja-harishchandra-marnotar-sahay-yojana",
+  "name": "Satyvadi Raja Harishchandra Marnotar Sahay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under the scheme, scheduled caste families receive financial assistance of ₹5,000/- at the time of a family member&amp;#39;s death to cover funeral expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-caste-certificate-issued-by-competent-authority-proof-o"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/app_form_7_14102021_415446.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srhmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The deceased person as well as the applicant should be a native of Gujarat.\n   1. The deceased person as well as the applicant applying should belong to Scheduled Castes only.\n   1. The annual income limit of the applicant should be more than ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas.\n   1. The application must be made within a time limit of six months of the death. \n   1. The death registration certificate of the deceased person must be produced. \n   1. Only one person in the family of the deceased can take the benefit at that time.",
+  "_criteria_filled": 2
+}

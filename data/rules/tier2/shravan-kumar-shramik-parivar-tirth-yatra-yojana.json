@@ -1,0 +1,27 @@
+{
+  "id": "shravan-kumar-shramik-parivar-tirth-yatra-yojana",
+  "name": "Shravan Kumar Shramik Parivar Tirth Yatra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "- A maximum lump sum assistance of ₹12,000/- will be provided for the travel expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-copy-of-the-online-application-form-filled-in-relation-to-the-scheme-se",
+    "family-register-or-other-government-record-in-confirmation-of-the-relationship-o"
+  ],
+  "apply_url": "https://skpuplabour.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sksptyy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be working in an establishment registered under the Factories Act, 1948.\n1. The monthly salary (basic salary + dearness allowance) of the worker should not exceed ₹15,000/-.\n1. The worker must have completed at least six months of continuous service in the establishment/factory and must be in service at the time of application.\n1. Where both the worker and his wife are working as workers in factories/establishments, then only one of them will be eligible for this facility.\n1. The worker and his dependents (dependents include wife, maximum 2 unmarried children, parents of the worker, mother-in-law and father-in-law in case of female worker) but the total number of members including the worker will be maximum 6. Only two children of the worker&#39;s family and dependent mother/father can be included.\n1. The worker will be able to avail this facility once in his entire service period.\n1. In case more application forms are received than the budget provisioned in the financial year under the scheme, the workers with the maximum age will be selected for the benefit on the basis of priority.\n1. The last date for receiving applications in each financial year will be 30th September of the respective year.",
+  "_criteria_filled": 1
+}

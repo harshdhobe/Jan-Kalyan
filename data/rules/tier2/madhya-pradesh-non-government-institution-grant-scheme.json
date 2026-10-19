@@ -1,0 +1,26 @@
+{
+  "id": "madhya-pradesh-non-government-institution-grant-scheme",
+  "name": "Madhya Pradesh Non-Government Institution Grant Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Types of Financial Assistance**\n\n**Maintenance Grant**\n\n- Provided for training activities and art performances.\n- Annual recurring grant.\n- Maximum assistance up to 90% of the approved project or activity cost.\n\n**Equipment Grant**\n\n- Provided for the purchase of books, musical instruments, audio-visual equipment, electrical equipment, furniture, cameras, record players, and workshop tools.\n-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "society-registration-certificate-valid-at-the-time-of-application-memorandum-of"
+  ],
+  "apply_url": "https://www.culturemp.in/pdfs/Anudan-2025-26.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpngigs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a non-governmental cultural institution.\n1. The institution should be registered under the Madhya Pradesh Society Registration Act, 1973, or other applicable law.\n1. The institution should be continuously active for at least 3 years prior to the application year.\n1. The institution should be engaged in art, culture, literature, training, research, or performances.\n1. The institution should have cultural and literary objectives clearly mentioned in its registered constitution.\n1. The institution should be operating within Madhya Pradesh.\n\n<br>",
+  "_criteria_filled": 1
+}

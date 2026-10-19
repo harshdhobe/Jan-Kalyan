@@ -1,0 +1,28 @@
+{
+  "id": "mukhyamantri-swasthya-sahayata-yojana-jharkhand",
+  "name": "Mukhyamantri Swasthya Sahayata Yojana Jharkhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "***The grant under the scheme will be given in the following manner:***\nIf the beneficiary is an adult, then in this case the grant under the scheme\n**S.No****Illness****Criteria****Grant Amount**1Any kind of illness or surgeryIf the duration of treatment in the hospital/clinic is less than 7 days₹3,000/-If the duration of treatment in the hospital/clinic is more than 7 days₹5,000/-2COVID-19If the",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "ration-card-copy-priority-household",
+    "antyodaya",
+    "or-green-card-caste-certificate-issued-online-birth-certificate-for-age-verifica"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO003SD00305072022014649904",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmssyj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant must belong to the Scheduled Tribe, Scheduled Caste, or Backward Class categories.\n1. The applicant must be suffering from the illness or surgery.\n1. Applicants already availing financial assistance from other government schemes are ineligible.\n1. The applicant must be a holder of one of the following ration cards:\n\n  - Priority Household Ration Card (PHH)\n  - Antyodaya Ration Card\n  - Green Card",
+  "_criteria_filled": 1
+}

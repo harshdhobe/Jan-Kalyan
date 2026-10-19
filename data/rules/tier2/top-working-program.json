@@ -1,0 +1,26 @@
+{
+  "id": "top-working-program",
+  "name": "Top Working Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Training Benefit:** Provision of 20-day training on top working techniques to rural unemployed youth.  - **Tool Kit Distribution:** Each trainee is provided with a tool kit worth up to ₹400/- during the training period.  - **Financial Incentive for Successful Grafting:** A payment of ₹10/- per successfully grafted tree is provided once the branches reach approximately 2 feet in length.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-age-proof-any-other-documents-as-require"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/twp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to rural area.\n  - The applicant must be an unemployed youth.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "jharkhand-state-food-security-scheme",
+  "name": "Jharkhand State Food Security Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "1. Subsidized/free rice is provided to Green Card holders beneficiaries under JSFSS.\n1. Benefits are delivered directly through the Directorate of Food and Consumer Affairs.\n\n<br>\n\n**NOTE****:** Priority is given to individuals from economically weaker sections.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-or-aadhaar-enrolment-identification-slip-bank-or-post-office-passbo",
+    "1988-certificate-of-identity-with-a-photo-issued-by-a-gazetted-officer-or-tehsil"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D009DO003SD00625102023010457574",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsfss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Jharkhand.\n1. The applicant must possess a Green Card issued under JSFSS.",
+  "_criteria_filled": 1
+}

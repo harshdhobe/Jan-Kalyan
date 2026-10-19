@@ -1,0 +1,29 @@
+{
+  "id": "skill-development-programme-uttarakhand",
+  "name": "Skill Development Programme- Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Training programs are organized to promote self-employment under the Skill Development in Critical Areas of Biotechnology. These programs range in duration from 30/45 to 90 days for undergraduate and postgraduate students, and 180 days (Dissertation Program) for postgraduate students.\nDuring the training period, selected students conduct their research and practical training in the Council’s moder",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-high-school",
+    "intermediate",
+    "graduation",
+    "and-post-graduation-certificates-and-mark-sheets-as-well-as-any-other-equivalent"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdpuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a graduate or postgraduate student, researcher, or farmer from subjects such as Biotechnology, Microbiology, Molecular and Genetic Biology, Environmental Biology, B.Tech in Biotechnology, or related fields.\n\n<br>",
+  "_criteria_filled": 1
+}

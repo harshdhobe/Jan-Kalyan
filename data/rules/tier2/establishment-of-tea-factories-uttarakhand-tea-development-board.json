@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-tea-factories-uttarakhand-tea-development-board",
+  "name": "Establishment of Tea Factories - Uttarakhand Tea Development Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "In the fiscal year 2023-24, the Uttarakhand Tea Development Board processed 5.92 lakh kilograms of green tea leaves and produced approximately 1.25 lakh cups of tea.\nAt present, the Board has established its own tea factories in the following districts:\n\n   1. Tea Factory, Ghorakhal (Nainital) – Organic\n   1. Tea Factory, Champawat – Organic\n   1. Tea Factory, Bhatoli (Chamoli) – Organic\n   1. Tea",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-in-accordance-with-the-uttarakhand-tea-development-board"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/etfuktdb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "It is proposed to operate the above tea factories established by the Board in Public-Private Partnership (PPP) mode/private sector in the future, for which the eligibility criteria and policy are being prepared.\n<br>",
+  "_criteria_filled": 1
+}

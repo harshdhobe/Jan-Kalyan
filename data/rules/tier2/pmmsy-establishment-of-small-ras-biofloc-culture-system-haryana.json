@@ -1,0 +1,30 @@
+{
+  "id": "pmmsy-establishment-of-small-ras-biofloc-culture-system-haryana",
+  "name": "PMMSY: Establishment of small RAS /Biofloc culture system - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is ₹7,50,000/-\n\n> **Subsidy Distribution:**\n\n- A 40% subsidy is available for the General Category.\n- A 60% subsidy is offered for SC (Scheduled Caste) and Women beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-ppp-agreement-deed-with-fisheries-department-date-of-birth",
+    "voter-id",
+    "birth-certificate",
+    "matric-certificate-caste-certificate-from-tehsildar",
+    "if-applicable-training-certificate-land-records-jamabandifarad-or-10-year-regist"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=M1mBCkYtdwAoIOESDxAyrA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/eos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Haryana and possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant must own land or have a registered lease of at least 10 years, free from legal encumbrances.\n1. The applicant must have access to a water source such as a canal, well, tube well, or similar.\n1. The applicant must be trained in aquaculture or fisheries and hold a valid certification.\n1. The applicant must be willing to maintain and operate the system at their own cost post-installation.\n1. The applicant must submit a Detailed Project Report (DPR) or a Self-Contained Proposal (SCP).\n1. The applicant must sign an agreement with the Fisheries Department to be eligible under the scheme.",
+  "_criteria_filled": 1
+}

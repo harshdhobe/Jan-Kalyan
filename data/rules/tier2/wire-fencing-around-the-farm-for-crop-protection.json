@@ -1,0 +1,26 @@
+{
+  "id": "wire-fencing-around-the-farm-for-crop-protection",
+  "name": "Wire Fencing Around the Farm for Crop Protection",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Wire FencingPer Running Meter ₹200/- or 50% of the actual expenditure incurred, whichever is less\tOnce in lifetime<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-proof-8-a-land-record-aadhaar-card-bank-account-details-consent-l"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=jyiVmEe2hbXtFere99frwg==&domain=KQBjMeZAUYtrIgvpebJ01g==",
+  "source_url": "https://www.myscheme.gov.in/schemes/wfafcp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a landholding farmer or a farmer group \nThe applicant must have a minimum of 2 hectares (ha) of land in a cluster.\n> **Note:** \n\n- Only one of the holders mentioned in 8-A land records per account is eligible for benefits with the consent of other holders.\n- A farmer is eligible for assistance for a maximum of one account.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

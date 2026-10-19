@@ -1,0 +1,26 @@
+{
+  "id": "organization-of-sports-competitions-and-training-programs",
+  "name": "Organization of Sports Competitions and Training Programs",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Organizing Khel Mahakumbh Competitions – Various sports competitions are organized for the age groups Under-14, Under-17, and Under-21.\n  - Prizes are awarded for first, second, and third places as follows:\n\n**Sl. No.****Level****1****st** **Rank (Cash Prize ₹)****2****nd** **Rank (Cash Prize ₹)****3****rd** **Rank (Cash Prize ₹)**1Gram Panchayat₹300/-₹200/-₹150/-2Block Development ₹500/-₹400/-₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "photo-identity-card-birth-certificate-bank-account-details-permanent-residence-c"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/osctp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must be a youth (boy or girl).\n\n<br>",
+  "_criteria_filled": 1
+}

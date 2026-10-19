@@ -1,0 +1,38 @@
+{
+  "id": "mukhyamantri-vriddhjan-samman-pension-yojana",
+  "name": "Mukhyamantri Vriddhjan Samman Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **Pension amount : ₹1,000/- per month**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-jan-aadharbhamashah-card-copy-bank-passbook-front-page-copy-acc",
+    "account-no",
+    "ifsc-code-passport-size-photo-income-certificate-disability-certificate"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/111",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan and living in Rajasthan,\n1. The female applicant should be 55 years or older.\n1.  The male applicant should be aged 58 years or older\n1. The total annual income of the wife/husband from all sources should be less than ₹48,000/-\n1. People belonging to BPL/Antyodaya/Aastha Card holding families/Sahariya/Kathauri, Khairwa castes have been exempted from the income-related condition.",
+  "_criteria_filled": 3
+}

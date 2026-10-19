@@ -1,0 +1,27 @@
+{
+  "id": "mukhyamantri-bhagyalaxmi-bond-scheme-gbocwwb",
+  "name": "Mukhyamantri Bhagyalaxmi Bond Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a bond of ₹25,000/- or of the amount as resolved from time to time, with maturity at 18 year of the age of the girl child, upto one girl is given to the registered Building and other Construction workers.\n   1. The amount can be withdrawn by the daughter after completing 18 years of age.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-e-nirman-card-under-the-gbocwwbphotograph-of-the-worker-a",
+    "if-applicable-proof-of-age-birth-certificatedriving-licencepan-cardvoter-id-card"
+  ],
+  "apply_url": "https://sanman.gujarat.gov.in/ApplicationForm/BOCW/BPSY/ApplicationForm.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbbsgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers registered with the Gujarat Building and Other Construction Worker’s Welfare Board will be eligible to get the benefit of this scheme.\n   1. The construction workers are eligible to avail the benefits of the scheme in the event of the birth of a girl child.\n   1. The benefit of the scheme is given upto one girl child.\n   1. The application form should be made within 12 months from birth.",
+  "_criteria_filled": 1
+}

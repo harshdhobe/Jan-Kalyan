@@ -1,0 +1,26 @@
+{
+  "id": "6-interest-subsidy-on-loans-taken-through-banks-for-study-abroad",
+  "name": "6% Interest Subsidy on Loans taken through Banks for Study Abroad",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Interest subsidy of 6% per annum on loans taken through banks for foreign education.\n\n- Maximum subsidy of ₹1,50,000 for 3 years.\n- Applicable on loans up to ₹25,00,000.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-certificate-of-professional-course-identity-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/6islbsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat’s tribal areas.\n1. The applicant must belong to the Scheduled Tribe category.\n1. The applicant must have passed Higher Secondary Certificate (HSC) or equivalent examination.\n1. The applicant must have secured admission in a recognized foreign university for higher studies.\n\n<br>",
+  "_criteria_filled": 1
+}

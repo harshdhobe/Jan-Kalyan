@@ -1,0 +1,26 @@
+{
+  "id": "own-transformer-scheme",
+  "name": "Own Transformer Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- **Provision for Installing Own Transformer:** Farmers can install transformers at their own expense according to prescribed standards.  - **Group Installation Option:** Farmers have the option to install transformers collectively as a group.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/ots",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n\n- The applicant should be willing to install the transformer at their own expense.\n\n<br>",
+  "_criteria_filled": 1
+}

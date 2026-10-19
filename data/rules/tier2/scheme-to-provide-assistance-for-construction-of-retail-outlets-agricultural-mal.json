@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-assistance-for-construction-of-retail-outlets-agricultural-mal",
+  "name": "Scheme to Provide Assistance for Construction of Retail Outlets/ Agricultural Malls in State Market Committees",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of the Component****Standard of Assistance**For Retail Outlet /Krishi MallAny one market committee of the &amp;amp;amp;quot;C&amp;amp;amp;quot; and &amp;amp;amp;quot;D&amp;amp;amp;quot; category of the state will be eligible for assistance to the extent of 90% of the total project cost and a maximum of ₹2,00,00,000/-\t<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "development-work-maps-and-cost-estimates-engineers-certification-from-the-approv"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=3zUPePaUEc3IqbkZY0tCRg==&domain=Uxijm857oHjeSHuzZgXyAA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/spacroam",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Market Committees of all Areas of “C” and “D” Class of Gujarat State shall be eligible for this scheme.",
+  "_criteria_filled": 1
+}

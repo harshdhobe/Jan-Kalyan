@@ -1,0 +1,28 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-financial-support-to-msmes-in-zed-certifi",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Financial Support to MSMEs in ZED Certification",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** MSMEs receive a subsidy of up to ₹50,000/- for ZED certification.  - **Quality Improvement:** Encourages MSMEs to enhance product and process quality through ZED principles.  - **Energy Efficiency:** Supports the adoption of energy-efficient and eco-friendly manufacturing practices.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-copy-of-the-constitution-of-the-ent",
+    "promoterspartnersdirectors",
+    "and-authorized-signatory-copy-of-gst-registration-if-applicable-copy-of-ca-certi"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyzed",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.The enterprise must be a manufacturing enterprise.\n- The enterprise should be involved in manufacturing activities.\n- The MSME should apply for ZED certification under the official program.\n- The enterprise must not have availed full financial support from any other government scheme for the same certification.\n- The MSME should comply with environmental and quality norms as per ZED standards.",
+  "_criteria_filled": 1
+}

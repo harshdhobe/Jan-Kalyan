@@ -1,0 +1,32 @@
+{
+  "id": "sweekruti-assistance-to-parents-of-transgender-children",
+  "name": "Sweekruti: Assistance to Parents of Transgender Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "- **Financial assistance:** ₹1,500/- per transgender child per month.\n> **Note:** \n\n- Assistance is provided until the child reaches the age of 18 years.\n- In case of death of the parent, supportive money will be made available to the guardian subject to production of the relevant Certificate of guardianship obtained from Competent Authority. \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "affidavit-certifying-the-childs-gender-non-conforming-behavior-birth-certificate",
+    "a-certificate-of-guardianship-from-a-competent-authority-note-parents-must-certi"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20Sweekruti.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/satptc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant should be the parents/ guardian of the transgender child.\n- The child must be under 18 years of age.\n- The child should have gender non-conforming behavior.\n\n<br>",
+  "_criteria_filled": 2
+}

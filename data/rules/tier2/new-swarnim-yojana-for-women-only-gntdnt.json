@@ -1,0 +1,46 @@
+{
+  "id": "new-swarnim-yojana-for-women-only-gntdnt",
+  "name": "New Swarnim Yojana (for women only) GNTDNT",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. The maximum loan limit is up to ₹2,00,000/-.\n1. The interest rate will be 5% per annum.\n1. Under this scheme, 100% loan of the business/occupation amount is provided.\n1. The loan amount will consist of 95% National Corporation contribution, 5% State Government contribution and zero beneficiary contribution.\n\n<br>\n\n> **Repayment:** The loan amount, including interest, will have to be repaid in 6",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-domicile-certificate-caste-certificate-passport-size-ph"
+  ],
+  "apply_url": "https://gndcdconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsywgntdnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a woman from a nomadic or denotified caste.\n1. The applicant&#39;s family annual income limit for income eligibility will be up to ₹3,00,000/- (with effect from 1/4/2018).\n1. The applicant&#39;s age should be at least 21 years and not more than 50 years as on the date of application.\n1. The applicant must have experience in a technical and skilled trade/business.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n> At least 50% of the total loan amount will be allocated for families having an annual income of up to ₹1,50,000/-.\n\n<br>",
+  "_criteria_filled": 5
+}

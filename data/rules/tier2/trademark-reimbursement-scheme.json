@@ -1,0 +1,26 @@
+{
+  "id": "trademark-reimbursement-scheme",
+  "name": "Trademark Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Reimbursement**\n\nFor start-ups that have successfully entered the production/service delivery phase, and want to trademark their company name and logo, 50% of the cost of trade-mark registration of their company name and logo will be reimbursed up to ₹ 25,000/-.\n> **Number of Slots**\n\nThe benefits of this scheme can be availed by up to 200 applicants per year who shall be selected by the SPC a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-trademark-certificate-2-the-form-and-documents-as-mentioned-in-annexur"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/trs-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a startup certified by the Startup Promotion Cell (SPC).\n1. The applicant should have a valid start-up certificate number.\n1. The startup must have successfully registered its trademark.\n\n**NOTE:** Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally would be considered for reimbursement under this scheme. If digital payments are not possible then it shall be up to the decision of SPC based on its due diligence to admit the expenditure.",
+  "_criteria_filled": 1
+}

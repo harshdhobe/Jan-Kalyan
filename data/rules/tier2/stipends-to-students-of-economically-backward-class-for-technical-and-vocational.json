@@ -1,0 +1,31 @@
+{
+  "id": "stipends-to-students-of-economically-backward-class-for-technical-and-vocational",
+  "name": "Stipends to Students of Economically Backward Class for Technical and Vocational Courses after SSC",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Stipend:** A monthly stipend of ₹400/- is given to socially and economically backward class students for one year of recognized professional and Government ITI courses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-pass-bookcancelled-cheque-caste-certificate-income-certificate-other-mark-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssebctv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to Economically Weaker Section category.\n1. The applicant should be a student who has passed the Secondary School Certificate (SSC) examination.\n1. The applicant should be enrolled in a recognized professional or Government Industrial Training Institute (ITI) course.\n1. The applicant’s individual and family income should not exceed ₹6,00,000/- per annum.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": "virasat-loan-scheme-of-nmdfc",
+  "name": "Virasat Loan Scheme of NMDFC",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- Concessional Credit to the beneficiaries among minority communities.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "filled-application-form-individual-artisan-recent-photograph-of-the-applicant-pr",
+    "voter-id",
+    "ration-card",
+    "or-similar-identity-proof-aadhaar-cardpan-card-proof-of-occupationskill-artisan",
+    "machinery",
+    "raw-materials",
+    "etc-quotationestimate-from-suppliers-bank-account-proof-aadhaar-linked-bank-pass"
+  ],
+  "apply_url": "https://www.nmdfc.org/lendingpolicy",
+  "source_url": "https://www.myscheme.gov.in/schemes/vls-nmdfc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "a) The applicant must be Indian and belong to one of the six notified minority communities: Muslim, Christian, Sikh, Buddhist, Parsi, or Jain.\nb) The annual family income of the applicant shall not exceed:\nRs. 3.00 lakh per annum under Credit Line–1.\nRs. 8.00 lakh per annum under Credit Line–2.\nc) The applicant must be an artisan or craftsperson engaged in a traditional occupation (such as handloom, handicraft, metalwork, leatherwork, embroidery, pottery, etc.).\nd) The applicant should have basic skills or certification in the relevant craft or trade, verified by a competent authority or local body.\ne) The loan shall be used for procurement of tools, equipment, raw materials, or working capital to enhance production and market linkage.\nf) Preference shall be given to women artisans and occupational clusters in minority-dominated areas.\ng) The applicant should not be a beneficiary of any other similar artisan financing scheme at the time of application.\nh) The beneficiary must possess a valid Aadhaar-linked bank account and minority certificate.\n<br>",
+  "_criteria_filled": 1
+}

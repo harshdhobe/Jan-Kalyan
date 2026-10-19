@@ -1,0 +1,56 @@
+{
+  "id": "scheme-for-development-maintenance-and-construction-of-roads",
+  "name": "Scheme for Development Maintenance and Construction of Roads",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Need-based loan for acquisition of capital goods equipments required for the activity.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationregistration-and-constitution-documents-co",
+    "income",
+    "and-expenditure-details-for-loans-up-to-10",
+    "00",
+    "000-detailed-project-report-on-the-project-for-loans-above-25",
+    "00",
+    "000-property-and-premises-documents-copy-of-lease-deed-for-the-work-premises-on",
+    "00",
+    "000-copy-of-sale-deed-for-the-work-premises-in-case-the-premises-is-owned-by-the",
+    "00",
+    "000-machinery-and-equipment-documents-quotation-from-selected-supplier-for-all-m",
+    "00",
+    "000-selected-machinery-suppliers-client-list-with-detailed-postal-address-copy-o",
+    "00",
+    "000-operational-documents-proof-for-sale-price-of-end-product-and-quotations-for",
+    "00",
+    "000-manufacturing-process-details-with-flow-chart-for-loans-above-10",
+    "00",
+    "000-statistics-for-demand-and-supply-position-of-product-with-proof",
+    "existing-competitions",
+    "and-major-consumers-details-for-loans-above-10",
+    "00",
+    "000-details-of-effluent-and-arrangement-proposed-for-treatment-and-disposal-of-e",
+    "00",
+    "000-consent-letters-consent-letter-to-offer-collateral-security-to-the-extent-re",
+    "00",
+    "000-during-processing-time-or-after-sanction-of-loanlicense-approvals-applicable",
+    "municipal-or-panchayat-permission",
+    "and-pollution-clearance-ppa-approval-for-loans-above-10",
+    "00",
+    "000-collateral-security-documents-original-title-deed-antecedent-title-deeds-enc"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdmcr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to existing SSI units engaged in the activity, which have been in operation for at least 3 years, with profits in the last 2 years.\n<br>",
+  "_criteria_filled": 1
+}

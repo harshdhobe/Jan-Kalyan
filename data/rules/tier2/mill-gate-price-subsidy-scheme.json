@@ -1,0 +1,26 @@
+{
+  "id": "mill-gate-price-subsidy-scheme",
+  "name": "Mill Gate Price Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Yarn Purchase Subsidy**\n15% subsidy on yarn bought from NHDC-recognized depots.\n<br>\n\n**Freight Reimbursement**\n\n- Non-Silk/Jute Yarn: Plain Area: 1.00%, Hills/Remote: 1.75%, North-East: 3.00%\n- Silk Yarn: Plain Area: 1.00%, Hills/Remote: 1.25%, North-East: 1.50%\n- Jute/Jute Blended Yarn: Plain Area: 7.00%, Hills/Remote: 8.00%, North-East: 8.50%\n\n_*Additional 2.5% depot operating charges._\n<br>\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "purchase-invoices-from-nhdc-recognized-depots-proof-of-registration-for-cooperat"
+  ],
+  "apply_url": "https://cottage.gujarat.gov.in/Home-214079242566-282472214079-282472214079-282472214079",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a handloom cooperative society, NGO, or development center.\n- The applicant must purchase yarn from NHDC-recognized depots (e.g., Gujarat State Handloom &amp; Handicrafts Development Corporation).",
+  "_criteria_filled": 1
+}

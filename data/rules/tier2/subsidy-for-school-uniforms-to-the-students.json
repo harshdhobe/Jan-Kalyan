@@ -1,0 +1,26 @@
+{
+  "id": "subsidy-for-school-uniforms-to-the-students",
+  "name": "Subsidy for School Uniforms to the Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "> **Cash Subsidy Amounts**\n\n- Nursery to Class 5th: ₹1,100/- per annum.\n- Class 6th to 8th: ₹1,400/- per annum.\n- Class 9th to 12th: ₹1,500/- per annum.\n\n> **Disbursement**\n\n**Mode:** Direct cash subsidy, disbursed annually to students or their guardians.\n**Validity:** Applicable for the academic year in which the subsidy is disbursed.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "school-admissionenrollment-proof-fee-receipt-or-school-id-card-class-wise-enroll"
+  ],
+  "apply_url": "https://lancersconvent.ac.in/pdf/scholarship/Welfare%20Schemes%20Of%20DoE.2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsutts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a student enrolled in a government or aided school in Delhi.\n- The applicant should be studying in any class from Nursery to 12th Standard.",
+  "_criteria_filled": 1
+}

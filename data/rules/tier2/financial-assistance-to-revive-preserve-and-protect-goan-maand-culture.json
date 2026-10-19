@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-revive-preserve-and-protect-goan-maand-culture",
+  "name": "Financial Assistance to Revive, Preserve and Protect Goan Maand Culture",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Nature and Quantum of Assistance**\n\n<br>\n\n1. The honorarium to Maand Guru/Trainer shall be ₹ 9,000/- per month. \n1. The honorarium to the Assistant shall be ₹ 6,000/- per month. \n1. The stipend to trainees shall be ₹ 1,500/- per month. (Each Maand group may consist of at least thirty artists/trainees). \n1. Financial assistance of ₹ 50,000/- will be provided to purchase folk instruments (a list",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "an-undertaking-whether-their-village-maand-is-still-in-existence-or-not-no-objec",
+    "an-original-copy-of-the-utilization-certificate-may-be-submitted-bank-details-on"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Goan-Maand-Culture-Application-form-Online.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/farppgmc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Maand group should have a legacy of practising folk art forms for at least the past thirty years at such a traditional Maand place. \n1. The applicants who desire to join training under this scheme shall not be less than 10 years of age. Whereas any old age folk artist in the course of training could share their experience and guide the new generation with kind co-operation from Maand Guru. \n\n<br>\n\n> **Relaxation / Preference / Priority**\n\nPreference will be given to those Goan Maand culture which are on the verge of extinction.\n<br>",
+  "_criteria_filled": 2
+}

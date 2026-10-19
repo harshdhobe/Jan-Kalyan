@@ -1,0 +1,31 @@
+{
+  "id": "transgender-utthan-kosh-training-programme-for-transgender",
+  "name": "Transgender Utthan Kosh - Training Programme for Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "***Skill Development:***\n\n  - Vocational/technical training will be provided to transgender persons through the Rajasthan Skill and Livelihood Development Corporation (RSLDC), Rajasthan Knowledge Corporation Limited (RKCL), Jan Shikshan Sansthan, Industrial Training Institutes (ITIs), or training providers recognized by the State or Central Government.\n\n***Financial Assistance:***\n\n- After receivi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-aadhar-card-copy-income-certificate-of-parentguardian-original-res"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110051259226370.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tuk-tpt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n   1. The applicant should be a transgender person.\n   1. The gross annual income of applicant should not exceed ₹8,00,000/-.\n   1. A maximum of two training courses can be availed under this scheme.\n\n**Note 1:** The applicant must meet the minimum age and educational qualification criteria set by the respective training institution.\n**Note 2:** The State Government will reimburse the prescribed fees and other expenses to the training providing institute for the concerned programme.\n**Note 3:** The fees will be made available directly to the concerned training institute after the transgender person is admitted to the respective programme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "madhya-pradesh-kalakar-evam-sahityakar-kalyan-kosh-niyam-death-assistance",
+  "name": "Madhya Pradesh Kalakar Evam Sahityakar Kalyan Kosh Niyam- Death Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- One-time ex-gratia financial assistance of up to ₹1,00,000 paid to the legal heir of the deceased artist or litterateur.\n\n> **NOTE:**\n\n- Preference is given to the spouse of the deceased.\n- Assistance may continue to other dependents until marriage, employment, or attainment of 21 years of age, whichever is earlier.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 240000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-proof-of-residence-age-proof-self-declaration-affidavit-iden"
+  ],
+  "apply_url": "https://www.culturemp.in/pdfs/arthik-sahayata-yojna-2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpkskkn-da",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the legal heir or dependent of the deceased artist or litterateur.\n1. The deceased should have been an artist or litterateur of Madhya Pradesh.\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant’s (husband/wife) monthly income should not exceed ₹10,000/-.\n1. The family’s monthly income should not exceed ₹20,000/-.\n1. Families of government employees are not eligible.\n\n<br>",
+  "_criteria_filled": 2
+}

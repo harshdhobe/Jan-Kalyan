@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-college-scholarship-scheduled-caste",
+  "name": "Post Matric College Scholarship (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Post-matric students are provided with scholarships.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-income-certificate-bank-account-details-passport"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=7",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmcssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n1. The student should belong to the Scheduled Caste category.\n1. The student must come from a family with an income limit of up to ₹6.00 lakh to qualify.\n\n<br>\n\n**Note:** One-third of the subsistence allowance will be payable to students residing in departmental hostels who are provided with free lodging/boarding facilities.\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,38 @@
+{
+  "id": "indira-gandhi-national-vrdhavastha-pension-yojana",
+  "name": "Indira Gandhi National Vrdhavastha Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> Pension amount: ₹ 1000 /- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-jan-aadharbhamashah-card-copy-passport-size-photo-bank-passbook",
+    "account-no",
+    "ifsc-code"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/108",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignvpyr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The age of the applicant (male or female) is 60 years or more.\n1. The applicant should belong to a family living below the poverty line as per the criteria set by the Government of India.",
+  "_criteria_filled": 3
+}

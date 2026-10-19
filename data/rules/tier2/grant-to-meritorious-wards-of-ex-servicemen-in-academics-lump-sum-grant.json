@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-meritorious-wards-of-ex-servicemen-in-academics-lump-sum-grant",
+  "name": "Grant to Meritorious Wards of Ex-Servicemen in Academics (Lump Sum Grant)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Grant as per the Merit and the Level of Education**\n\n**10th (Central Board of Secondary Education / Metric / Secondary School Leaving Certificate)**\n\n- 1st Rank: ₹15,000.\n- 2nd Rank: ₹13,000.\n- 3rd Rank: ₹11,000.\n\n**12th (Central Board of Secondary Education / Higher Secondary Certificate)**\n\n- 1st Rank: ₹18,000.\n- 2nd Rank: ₹16,000.\n- 3rd Rank: ₹14,000.\n\n**Undergraduate / Postgraduate**\n\n- Un",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-the-esm-discharge-certificate-of-the-esm-mark"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/incentive_for_meritorious.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmwesma-lsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Ward of an ESM / Ward of the Widow of an ESM.\n- The applicant should have secured 1st/2nd/3rd Rank in Class 10th/12th in a Government-recognized Institution, or should have secured gold medal in Graduation/Postgraduation in a Government-recognized University.",
+  "_criteria_filled": 1
+}

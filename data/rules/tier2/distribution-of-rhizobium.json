@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-rhizobium",
+  "name": "Distribution of Rhizobium",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Quantum of Assistance:** 50% on the cost of Rhizobium or ₹100/- per ha. whichever is less.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-proof-of-pulses-crop-cultivation-caste-certificate-f"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/7053",
+  "source_url": "https://www.myscheme.gov.in/schemes/dor",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should raise seed farms with Pulses crops.",
+  "_criteria_filled": 1
+}

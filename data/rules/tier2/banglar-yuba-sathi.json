@@ -1,0 +1,50 @@
+{
+  "id": "banglar-yuba-sathi",
+  "name": "Banglar Yuba Sathi",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹1,500/- per month.  - **Mode of Disbursement:** Financial Assistance under the scheme will be credited by Direct Bank Transfer (DBT) to an AADHAR Linked Bank Account held solely by the eligible unemployed youth.  - **Frequency of Disbursement:** The benefit is disbursed monthly or at regular intervals.  - **Validity of Benefit:** The benefit is valid for a maximum peri",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-offline-applicationself-attested-copies-of-the-following-documents-must-be-s",
+    "account-number",
+    "bank-address",
+    "ifs-code-and-micr-no-cancelled-cheque-bank-account-should-be-single-bank-account",
+    "if-any-heshe-will-inform-the-authority-if-heshe-gets-an-employment-or-enrolled-i",
+    "2016-regulations-framed-thereunder-for-seeding-hisher-aadhaar-number-for-matters",
+    "file-size-max-300-kb-madhyamik-or-equivalent-mark-sheetcertificate-of-educationa",
+    "file-size-max-300-kb-copy-of-aadhaar-card-pdf-only",
+    "file-size-max-300-kb-copy-of-voter-card-pdf-only",
+    "file-size-max-300-kb-first-page-of-passbook-pdf-only",
+    "file-size-max-300-kb-copy-of-scstobc-certificate",
+    "if-scstobc-pdf-only",
+    "file-size-max-300-kb-recent-passport-size-photo-jpg-or-png-only",
+    "size-max-50-kb-signature-of-the-applicant-jpg-or-png-only",
+    "size-max-50-kb-a-valid-mobile-number-is-required-an-otp-secrect-pin-shall-be-sen"
+  ],
+  "apply_url": "https://sportsandyouth.wb.gov.in/api/preview?filePath=/storage/uploads/sports/news-scroll/rWmKdV6cZy1771055861-Banglar%20Yuba%20Sathi.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/byswb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of West Bengal.\n  - The applicant must be aged between 21 and 40 years as on 01.04.2026.\n  - The applicant must be unemployed.\n  - The applicant must have passed the Madhyamik or equivalent examination.\n\n> **Notes:**\n\n- **Yearly verification of live status of the beneficiary of the scheme:** Once a year, the status of the beneficiary, whether alive or not will be verified.\n\n- **Stopping or withholding of financial assistance:** The Government may, after giving the beneficiary of the scheme an opportunity of being heard, stop or withhold financial assistance if:\n\n1. The Financial Assistance has been found to be sanctioned on mistaken grounds.\n1. The eligibility condition for the granting of financial assistance no longer exists.\n\n<br>",
+  "_criteria_filled": 3
+}

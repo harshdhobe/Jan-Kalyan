@@ -1,0 +1,26 @@
+{
+  "id": "laptop-supply-scheme",
+  "name": "Laptop Supply Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "An amount of ₹25,000/- is provided for purchasing a laptop.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-passing-certificate-marksheet-bank-account"
+  ],
+  "apply_url": "https://khargone.nic.in/en/scheme/laptop-supply-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/tsis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The applicant should be a permanent resident of Madhya Pradesh.\n   1. The applicant should have passed the 12th Standard with 80% or above marks.",
+  "_criteria_filled": 1
+}

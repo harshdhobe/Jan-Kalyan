@@ -1,0 +1,26 @@
+{
+  "id": "natural-death-relief-telangana",
+  "name": "Natural Death Relief - Telangana",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "- **The relief amount ₹1,00,000/- provided to the nominee, dependants, or legal heirs.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-registration-card-under-the-bocw-act-attested-copy-hous"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2018LETF_MS29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ndr-tbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the nominee, dependent, or legal heir of the deceased construction worker.\n1. The deceased should be a registered building and other construction workers with the Telangana Building and Other Construction Workers Welfare Board.\n1. The death of the deceased worker must be due to natural death.",
+  "_criteria_filled": 1
+}

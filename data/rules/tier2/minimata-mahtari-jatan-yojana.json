@@ -1,0 +1,31 @@
+{
+  "id": "minimata-mahtari-jatan-yojana",
+  "name": "Minimata Mahtari Jatan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> A lump sum amount of ₹20,000/- will be provided to the registered female construction worker after the birth of the child.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-issued-by-self-or-maternal-and-child-card-issued-by-anm-bank-passboo"
+  ],
+  "apply_url": "https://cglabour.nic.in/userlogin.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Chhattisgarh.\n1. The applicant should be a woman worker.\n1. The applicant should be registered  Building &amp; Other Construction Workers Welfare Board.\n1. The benefit will only be provided for only first two children.\n1. The applicant should be registered as a construction worker 90 days in advance.\n\n<br>\n\n**Note:** In case of the death of the beneficiary female worker during delivery, the payment of the Assistance Scheme will be payable to her husband (full amount).",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "samuhik-kanya-vivah-sahayata-yojana-ukbocwwb",
+  "name": "Samuhik Kanya Vivah Sahayata Yojana (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- ₹61,000/- will be provided as financial assistance to registered construction workers for the marriage of their daughters.\n  - ₹10,000/- per couple will be paid to the organizer to cover expenses incurred in organizing the mass marriage.\n  - ₹5,000/- will be provided to each bride and groom for purchasing their wedding attire.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-daughter-mandatory-for-aadhaar-authentication-proof-of-age-b",
+    "any-one-self-attested-copy-of-the-marriage-card-a-certificate-issued-by-the-loca"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skvsyukbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a registered construction worker.\n   1. In the case of a mass marriage, registration must be completed at least 15 days prior to the scheduled date of the marriage.\n\n<br>",
+  "_criteria_filled": 1
+}

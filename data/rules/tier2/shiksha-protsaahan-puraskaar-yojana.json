@@ -1,0 +1,30 @@
+{
+  "id": "shiksha-protsaahan-puraskaar-yojana",
+  "name": "Shiksha Protsaahan Puraskaar yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. General Graduate (B.A., B.Com, B.Sc., B.B.A.) : ₹10,000/-\n1.  Engineering (B.E./B.Tech.) : ₹15,000/-\n1.  M.B.B.S./ B.D.S. : ₹25,000/-\n1.  Pharmacy, Ayurvedic, Homeopathic (U.G., P.G. Diploma) : ₹12,500/-\n1.  Law Courses : ₹10,000/- \n1. General P.G. Courses (M.A, M.Com, M.Sc, MBA) : ₹10,000/- \n1. M.E/M.Tech : ₹11,500/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "original-copy-of-the-prescribed-application-form-filled-by-the-student-including",
+    "declaration-form-by-student",
+    "and-authentication-by-college-photocopy-of-the-self-attested-mark-sheet-of-the-c",
+    "bank-account-number",
+    "and-ifsc-code-photocopy-of-the-applicants-studentstudents-overall-family-card-ph"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=VjvyknSyTUM=",
+  "source_url": "https://www.myscheme.gov.in/schemes/sppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be employed in an industrial unit or establishment located within the jurisdiction of the Madhya Pradesh Shram Kalyan Mandal.\n1. Up to two children of such workers who have studied in educational institutions of Madhya Pradesh are eligible for the award.\n1. The children must have secured at least 70% marks in their graduation, post-graduation, and BE examinations.\n1. For MBBS students, the minimum required marks is 60% in their previous year&#39;s examination.\n\n<br>",
+  "_criteria_filled": 1
+}

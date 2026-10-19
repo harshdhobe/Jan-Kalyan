@@ -1,0 +1,26 @@
+{
+  "id": "hp-swaran-jayanti-middle-merit-scholarship-scheme",
+  "name": "H.P. Swaran Jayanti Middle Merit Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "The selected students may be eligible for the scholarship as given below:\nScholarship Amount ₹4000/- per month (for 12 months, in 6th class)Scholarship Amount ₹5000/- per month (for 12 months, in 7th class)Scholarship Amount ₹6000/- per month (for 12 months, in 8th class)**Note:** The period of the scholarship shall be for three years (Class 6th to Class 8th).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-school-id-card-etc-caste-certificate-if-applicable-disability"
+  ],
+  "apply_url": "https://himachalservices.nic.in/scert/pdf/SJMMSE_2023-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpsjmmssgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the students studying in Class 5th as regular students in the Government Schools are eligible to apply for the State Level examination to be conducted by the SCERT, Solan (H.P.).\n\n**Note 01:** The student must continue to study in the Government School of H.P. Govt. without repeating any class for continuity of scholarship.\n**Note 02:** It would be mandatory for the student to have at least 75% attendance during the session for which he/she is to be awarded the Scholarship.\n**Note 03**: In genuine cases of acute illness or any medical exigency, subject to verification by the Medical Board, a condition of 75% attendance will not be applicable.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "term-loan-under-nskfdc-haryana",
+  "name": "Term Loan under NSKFDC- Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Project Cost Ceiling:**\n\n  - The Corporation (HSFDC), in collaboration with NSKFDC, provides loans of up to ₹15,00,000/- per beneficiary for various self-employment income-generating activities.\n  - The beneficiaries can avail loans ranging from ₹10,000 to ₹15,00,000/-.\n\n**Note:** The income-generating activities include auto repair and spare parts shops, electrical goods workshops, leather foot",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-adequate-qualification-and-experience-documents-3-project-repor",
+    "00",
+    "000-4-ration-card-5-safai-karamchari-or-dependent-of-safai-karamchari-certificat"
+  ],
+  "apply_url": "http://hsfdc.org.in/detail.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/tlnskfdch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant&amp;#39;s age should be between 18 and 55 years.\n   1. There is no income limit.\n   1. The applicant should be either Safai Karamchari or his/her dependent.\n\n**Note 1:** Permanent Safai Karamchari means a person engaged in, or employed for any sanitation work and includes his/her dependents.\n**Note 2:** The applicant shall have to produce a Certificate of Safai Karamchari or dependent of Safai Karamchari from the Head of the Government Departments (i.e. School, Colleges, Forest, Health, Education, Animal Husbandry having rank not less than Gazetted Officer), elected members of Municipal Body/ Corporation and Pradhan of Gram Panchayats, Local Revenue Officer or an Officer of Local Municipal Office, or Cantonment Executive Officer of the Cantonment or an officer of the Railways not below the rank of gazette officer.",
+  "_criteria_filled": 3
+}

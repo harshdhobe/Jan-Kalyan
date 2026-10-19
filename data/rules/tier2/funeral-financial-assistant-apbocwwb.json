@@ -1,0 +1,28 @@
+{
+  "id": "funeral-financial-assistant-apbocwwb",
+  "name": "Funeral Financial Assistant (APB&OCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "1. Cash assistance of ₹1000/- only to the nominee of the deceased worker at the time of sanctioning the death benefit amount.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-original-copy-of-the-registration-card-of-the-worker-death-certificate-appli"
+  ],
+  "apply_url": "https://tawang.nic.in/labour-welfare-board/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ffaapbandocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tThe applicant should be a family member of a deceased worker who was employed in the Building and Other Construction works.\n3.\tThe deceased worker should be registered with Labour Welfare Board (APB&amp;OCWWB).\n4.\tThe deceased worker should have an active membership at the time of death.\n5.\tThe name of the nominee/ dependent should be recorded on his/her registration card before death.",
+  "_criteria_filled": 1
+}

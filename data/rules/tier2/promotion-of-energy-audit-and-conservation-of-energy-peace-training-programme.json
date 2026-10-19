@@ -1,0 +1,31 @@
+{
+  "id": "promotion-of-energy-audit-and-conservation-of-energy-peace-training-programme",
+  "name": "Promotion of Energy Audit and Conservation of Energy (PEACE): Training Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "> **Programme Content**\n\n- The participants will be exposed to how an effective Energy Management System (EnMS) can help their organization improve energy efficiency, reduce costs, and lower greenhouse gas emissions.\n- A tailor-made training program conforming to the requirements of MSMEs/ clusters must be designed. Programs could especially be fashioned around utilities and systems that a particu",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-copy-of-udyam-certificate-certificate-of-regist",
+    "eb-meter-cardonline-statement-if-an-alternate-source-of-energy-other-than-electr",
+    "proof-for-the-usage-documents-for-engagement-of-energy-auditorletter-of-acceptan",
+    "or-partner-or-director-of-a-firmco",
+    "then-proof-for-the-same-copy-of-accreditation-of-energy-auditor-by-bureau-of-ene",
+    "etc-copy-of-the-detailed-energy-audit-report-the-file-type-should-be-pdf-pdf-the"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/dea_sub.php?id=New%20Application",
+  "source_url": "https://www.myscheme.gov.in/schemes/peacetp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The target group of participants for the training programme is Employees, Engineers, and executives of MSMEs, that are willing to undertake the energy audit.\n- The ideal batch size will be 20 - 25.\n- In the case of organizing cluster/ sector-focused programs, MSMEs from neighboring districts may also be included.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "adi-dravidar-and-tribal-welfare-department-stationary-text-books",
+  "name": "Adi Dravidar and Tribal Welfare Department: Stationary-Text Books",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Textbooks:** Free textbooks for students from 1st to 12th standard.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83086",
+  "source_url": "https://www.myscheme.gov.in/schemes/adtwstb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be enrolled in Adi Dravidar and Tribal welfare schools.\n  - The beneficiary must be studying in any class between 1st to 12th standard.",
+  "_criteria_filled": 1
+}

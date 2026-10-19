@@ -1,0 +1,41 @@
+{
+  "id": "pradhan-mantri-matru-vandana-yojana",
+  "name": "Pradhan Mantri Matru Vandana Yojana",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "The cash incentives is provided in two instalments for the first child as per the schedule provided in\ntable below:\n\n- **Scheme Condition for First Child**\n\n**Instalment** **Conditions****Amount (in Rs.)****First Instalment**On registration of pregnancy and at least one Antenatal checkup within six months from last menstrual period date at the Anganwadi Centre or approved Health facilities may be ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "beneficiaries-need-documents-such-as-aadhaar-card",
+    "aadhaar-mapped-bankpost-office",
+    "bank-account-details",
+    "eligibility-proof",
+    "mcprchi-card",
+    "lmp-date",
+    "anc-date",
+    "child-birth-certificate",
+    "child-immunization-details-etc-mentioned-below-a-list-of-documents-which-require",
+    "2013-all-the-mandatory-provisions-like-aadhaar",
+    "aadhaar-based-payment-etc-will-be-checked-at-the-time-of-registration-for-smooth"
+  ],
+  "apply_url": "https://wcd.delhi.gov.in/wcd/pradhan-mantri-matru-vandana-yojana-pmmvy",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be of at least 19 years old and a pregnant women.\n   1. The applicant should be employed and experiencing wage-loss due to the pregnancy.\n   1. The scheme is applicable only for the first live birth.\n   1. Eligible beneficiary can apply for the benefit under PMMVY scheme within 270 days from the child birth. \n   1. If a beneficiary delivers twins/ triplets/ quadruplets in her second pregnancy, with one or more children being girl, she will receive incentive for second girl child as per the PMMVY 2.0 norms.\n\n**Criteria for determining socially and economically disadvantaged sections of society are the following:**\n\n   1. Women belonging to scheduled castes and scheduled tribes\n   1. Women who are partially (40%) or fully disabled (Divyang Jan)\n   1. Women holder of BPL Ration Card\n   1. Women Beneficiaries under Pradhan Mantri Jan Aarogya Yojana (PMJAY) under Ayushman Bharat.\n   1. Women holding e-Shram card\n   1. Women farmers who are beneficiaries under Kisan Samman Nidhi\n   1. Women holding MGNREGA Job Card\n   1. Women whose net family income is less than Rs. 8 Lakh per annum\n   1. Pregnant and Lactating AWWs/ AWHs/ ASHAs\n   1. Women holding Ration Card under NFSA Act 2013.\n   1. Any other category as may be prescribed by the Central Government",
+  "_criteria_filled": 2
+}

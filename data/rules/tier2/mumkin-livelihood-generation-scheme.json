@@ -1,0 +1,36 @@
+{
+  "id": "mumkin-livelihood-generation-scheme",
+  "name": "Mumkin - Livelihood Generation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "- Up to ₹80,000 subsidy (or 10% of on-road price, whichever is lower) per beneficiary from Mission Youth.\n- Matching subsidy from the vehicle manufacturer (equal to Mission Youth&#39;s contribution).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "driver-photograph-domicile-certificateration-card-birth-certificate-applicant-dr"
+  ],
+  "apply_url": "https://www.jk.gov.in/jkeservices/home",
+  "source_url": "https://www.myscheme.gov.in/schemes/mlgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be domicile of Jammu and Kashmir.\n1. The age of the applicant should be between 18 to 35 years.\n1. Applicant must be unemployed.\n1. Applicant must have commercial driving license \n\n  - In case, renting a vehicle to someone else : Affidavit required to be submit with his/her commercial driving license \n\n1. Applicant must not be received any financial assistance or subsidy from government organization for self employment. \n1. Applicant can get the scheme benefit only at once.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,30 @@
+{
+  "id": "silicosis-rehabilitation-pension-haryana-silicosis-board",
+  "name": "Silicosis Rehabilitation Pension- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, a monthly pension of ₹4,000/- is given to the Silicosis-affected worker categorized as category (A, B, or C) according to the ILO Classification, until he/she remains alive.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-silicosis-boardaadhaar-car",
+    "ct-scan",
+    "medical-prescription",
+    "any-other-general-document-esi-card",
+    "any-other-work-experience-document-proof-of-residence-ration-card-bank-account-d"
+  ],
+  "apply_url": "https://hrylabour.gov.in/staticdocs/labourpolicies/Haryana%20Silicosis%20Rehabilitation%20Policy%20(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srp-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Only workers who are confirmed to be suffering from Silicosis by the Silicosis Diagnosis Board, Haryana, will be eligible for the assistance.\n   1. The Silicosis-affected worker should be categorized as either category A, B, or C according to the ILO Classification.\n   1. The worker should have been registered with the Haryana Silicosis Board.\n   1. The worker should have been employed in a factory or at a construction site.",
+  "_criteria_filled": 1
+}

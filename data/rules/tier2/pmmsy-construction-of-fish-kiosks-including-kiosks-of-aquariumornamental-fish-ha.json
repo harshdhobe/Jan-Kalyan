@@ -1,0 +1,28 @@
+{
+  "id": "pmmsy-construction-of-fish-kiosks-including-kiosks-of-aquariumornamental-fish-ha",
+  "name": "PMMSY: Construction of Fish Kiosks Including Kiosks of Aquarium/Ornamental Fish-Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "The project cost is ₹10,00,000/- per unit. Subsidy of 40% of the project cost for General Category beneficiaries. Subsidy of 60% of the project cost for SC/Women beneficiaries.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-agreement-deed-between-fish-kiosk-owner-and-fisheries-department-dat",
+    "nakal-akshizra-farad",
+    "or-registered-lease-deed-billsreceiptsvouchers-photographs-of-the-fish-kiosk-wit"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=xBljkD5D0p%2fixQd49u8dFQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/scfkikaofhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchan Patra (PPP).\n1. The applicant should submit an undertaking in the Detailed Project Report (DPR)/Self Contained Proposal (SCP) to the effect that all operational, maintenance, and post-construction management costs of the infrastructure facilities shall be borne by them.\n1. The applicant should ensure the fish kiosk will be kept in operational condition for 10 years.\n1. The applicant should display a board permanently at the infrastructure facilities to the effect that the fish kiosk is constructed with Central Assistance under the Pradhan Mantri Matasya Sampada Yojana (PMMSY).\n1. The applicant can only avail of central assistance for one unit.\n1. The projects having land on long-term registered lease shall also be considered for Central financial assistance under the scheme. However, the lease period/ agreement shall not be less than a minimum period of 10 (ten) years.",
+  "_criteria_filled": 1
+}

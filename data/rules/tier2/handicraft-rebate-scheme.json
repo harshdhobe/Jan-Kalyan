@@ -1,0 +1,26 @@
+{
+  "id": "handicraft-rebate-scheme",
+  "name": "Handicraft Rebate Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Permanent Rebate:**\n\n- 5% on retail sales of handicraft.\n- 15% for women-led cooperatives.\n\n**Special Festival Rebate:**\n\n- Additional 10% (total 15% for general cooperatives, 20% for women-led groups) for 120 days during festivals.\n\n**Targeted Support:**\n\n- Enhanced rebates for Scheduled Castes/Tribes and BPL artisans.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-proof-of-cooperativeinstitution-sales-invoices-with-product-details"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=7",
+  "source_url": "https://www.myscheme.gov.in/schemes/hrs-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a registered cooperative society, apex institution, or women-led group.\n- The applicant must produce handicrafts.\n- The applicant must obtain prior rebate certification from the Commissionerate.\n\n<br>",
+  "_criteria_filled": 1
+}

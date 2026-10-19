@@ -1,0 +1,26 @@
+{
+  "id": "diwali-gift-benefit-scheme-pbaocwwb",
+  "name": "Diwali Gift Benefit Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹ 2,000/- credited as Direct Benefit Transfer (DBT) into the bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "last-subscription-bill-board-id-card-aadhaar-card-ration-card-bank-pass-book"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dgbs-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The Construction Worker should have been registered for at least six months with the &#39;Puducherry Building and Other Construction Workers Welfare Board&#39;.\n- The beneficiary should be contributing to the Board&#39;s Fund.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "trainning-scheme-for-horticulture-skill-development-to-landless-farm-labour-at-c",
+  "name": "Trainning Scheme for Horticulture Skill Development to Landless farm labour at Centre of Excelence of Department",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Stipend:** ₹250/- per trainee.- **Other Facilities:** Dining facility, training literature kit, experiential education tour, trainee kit, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-ration-card"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tshsdfl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be any of the following:\n\n   1. All Farmers.\n   1. Farm Labourer.\n   1. Horticulturists.\n   1. Landless Agricultural Labourers.\n\n  - The applicant must be a resident of Gujarat.",
+  "_criteria_filled": 1
+}

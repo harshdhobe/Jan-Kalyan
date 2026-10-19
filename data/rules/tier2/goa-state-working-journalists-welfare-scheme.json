@@ -1,0 +1,30 @@
+{
+  "id": "goa-state-working-journalists-welfare-scheme",
+  "name": "Goa State Working Journalists Welfare Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "> **MONTHLY WELFARE FUND**\n\n- **Amount &amp; Intended Use:** ₹ 7,500/- per month, for the welfare of eligible working journalists retired after working in Goa.- **Disbursement Frequency &amp; Mode:** By cheque by the Director of Information and Publicity, after the sixth of every month. Generally, from the succeeding month of retirement.- **Expected Time of Disbursement:** From the first day of th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "statement-issued-by-the-newspaper-concerned-annexure-iii-showing-name-of-the-est",
+    "work-of-the-applicant",
+    "date-of-joining-service",
+    "and-date-of-birth-as-per-official-records-required-for-registration-attested-cop",
+    "or-employment-certificate-from-the-president-or-secretary-of-the-goa-union-of-wo"
+  ],
+  "apply_url": "https://dip.goa.gov.in/wp-content/uploads/2021/03/Jour-wel-fund.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gswjws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**All working journalists who fall under the categories mentioned below will be eligible for welfare under the scheme -** \n\n- Those who retire after fifteen years of service, not below 50 years of age in Goa, continuous or with intervals, and who have contributed for a period of 180 months under this scheme only after attaining the age of 58 or after he or she retire from service.\n- Those who register under the Scheme within 6 months of the implementation and whose contribution falls less than 180 months, they will be governed by the [Registration clause](https://dip.goa.gov.in/wp-content/uploads/2021/03/Jour-wel-fund.pdf). However, a relaxation could be granted if the working journalist concerned is afflicted and is undergoing treatment for any serious ailment. Such a relaxation could be granted only after the governing body ratifies such a request from the working journalist concerned.- Any member who attains 58 years of age, or completes 50 years after becoming a member of the scheme, whichever is earlier, will be entitled to welfare under the scheme.\n- Any journalist who is covered under the Working Journalists Act will be eligible under the Scheme for welfare.\n- Any journalist who has retired after continuous service for 15 years or with intervals and who is a member of the welfare scheme.\n\n_*A relaxation could be granted to working journalists registering within six months of implementation with less than 180 months of contribution, if afflicted with a serious ailment and undergoing treatment, subject to Governing Body ratification._",
+  "_criteria_filled": 1
+}

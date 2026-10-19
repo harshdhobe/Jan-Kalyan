@@ -1,0 +1,36 @@
+{
+  "id": "allowance-to-dwarf",
+  "name": "Allowance To Dwarf",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Benefits\nThe allowance is Rs. 2500/- per month, effective from 01.04.2021.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-the-applicant-will-have-to-give-a-certificate-of"
+  ],
+  "apply_url": "https://socialjusticehry.gov.in/allowance-to-dwarfs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/atd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility Criteria**\n\n   1. The applicant should be a Domicile of Haryana State and should have been residing in Haryana State for the last year at the time of submission of the application.\n   1. The age of the applicant shall not be less than 18 years.\n   1. The applicant must submit a certificate from the Civil Surgeon in support of his/her being a Dwarf.\n\n&lt;br&gt;",
+  "_criteria_filled": 3
+}

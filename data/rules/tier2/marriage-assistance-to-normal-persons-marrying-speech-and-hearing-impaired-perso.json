@@ -1,0 +1,31 @@
+{
+  "id": "marriage-assistance-to-normal-persons-marrying-speech-and-hearing-impaired-perso",
+  "name": "Marriage Assistance to Normal Persons Marrying Speech and Hearing Impaired Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "1. Marriage assistance amount: ₹25,000/- as\n\n  -  ₹12,500/- National Savings Certificate.\n  -  ₹12,500/- cheque/Demand Draft for marriage expenses.\n\n1. Additional benefit if either spouse has a degree/diploma: Increased amount to ₹50,000/-\n\n  -  ₹25,000/- National Savings Certificate.\n  -  ₹25,000/- cheque/Demand Draft.\n\n1. Other Benefits:\n\n  - Certificate of appreciation.\n  - 8 gram gold coin for",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-bride-and-groom-marriage-certifi"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/matnpmsahip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. A normal person should marry a speech and hearing-impaired person.\n1. The age of the couple (both) should be above 18 years. \n\n<br>\n\n> **Additional Eligibility:**\n\n1. The normal person and speech and hearing-impaired person individuals holding a degree or diploma are eligible to receive increased assistance.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kantedar-tarbandi-yojana",
+  "name": "Kantedar Tarbandi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Subsidy amount:\n\n  - Small and marginal farmers: 60% of the total cost, capped at ₹48,000/-.\n  - Other farmers: 50% of the total cost, capped at ₹40,000/-.\n  - Community application (group of 10+ farmers with min. 5 hectares collectively): 70% of the total cost, capped at ₹56,000/- per farmer .\n\n1. Land covered: \n\n  - Up to 400 meters of fencing per farmer.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-identity-card-land-related-documents-ration-card-mobil"
+  ],
+  "apply_url": "https://familyid.in/wp-content/uploads/2023/12/guideline_subsidy_for_barbed_wire_fencing.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. This scheme is available to all categories of farmers.\n1. For individual farmers and farmer groups, the applicant must possess a minimum of 1.5 hectares of land at a single location.\n1. In Scheduled Tribe areas, a minimum of 0.5 hectares of land at one location is required.\n1. For community applications, a group comprising 10 or more farmers must collectively own a minimum of 5 hectares of land.\n1. Additionally, the boundaries of the group&#39;s land must fall within the specified perimeter.",
+  "_criteria_filled": 1
+}

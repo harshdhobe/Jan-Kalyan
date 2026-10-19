@@ -1,0 +1,26 @@
+{
+  "id": "sanskrit-shodh-chhaatravrtti-yojana",
+  "name": "Sanskrit Shodh Chhaatravrtti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- A research scholarship of ₹40,000/- per year is awarded to 20 students registered for a Ph.D. in Sanskrit at universities across Uttarakhand.\n  - The scholarship is provided for a period of three years at ₹40,000/- per year and must be renewed by submitting an application each year/semester.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-net-examination-marksheet-academic-certificates-phd-registration-ce"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/srss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a student registered for a Ph.D. in Sanskrit at any university in Uttarakhand.\n1. The applicant must belong to the General, Scheduled Caste, Scheduled Tribe, and Economically Weaker Section. \n1. A total of 20 research scholars are eligible for the scholarship, including 10 from the General category, 5 from Scheduled Castes and Scheduled Tribes, and 5 from Economically Weaker Section (EWS) certificate holders.\n1. Selection will be based on the highest marks obtained in the NET examination.\n\n<br>",
+  "_criteria_filled": 1
+}

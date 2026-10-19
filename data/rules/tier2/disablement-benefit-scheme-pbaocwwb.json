@@ -1,0 +1,42 @@
+{
+  "id": "disablement-benefit-scheme-pbaocwwb",
+  "name": "Disablement Benefit Scheme (PBAOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹75,000/-.- **Time of Disbursal:** Within 1 month of the application.- **Mode of Disbursal:** Direct Benefit Transfer (DBT) into the bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "last-subscription-bill-board-id-card-aadhaar-card-bank-pass-book-fir-medical-rep",
+    "competent-authority"
+  ],
+  "apply_url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbs-pbaocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should be registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The applicant should be a &#39;Person with Disability (PwD)&#39;.\n- The applicant should have completed the age of 18 years.\n- The applicant should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The beneficiary should be contributing to the Board&#39;s Fund.\n- The applicant should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.",
+  "_criteria_filled": 4
+}

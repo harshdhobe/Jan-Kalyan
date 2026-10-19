@@ -1,0 +1,39 @@
+{
+  "id": "differently-abled-pension-scheme",
+  "name": "Differently Abled Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free dhoti to a male pensioner.\n- One free saree to a female pensioner.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meal.\n- 4kg/month to those who are not taking nutritious meal.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-aadhaar-card-proof-of-age-aadhaar-consent-form-smart-ration-car",
+    "passport",
+    "pan-card",
+    "driving-license-optional-bank-passbook-differently-abled-id-card"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/daps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be 18 years or above in age.\n1. The applicant should have a disability of 40% or above.\n1. The applicant should not be employed in government or government-affiliated organizations.\n1. If the applicant is employed permanently in the private sector institutions and drawing monthly salaries, OR if the applicant is self-employed, his/her income should not exceed ₹ 3,00,000/- per annum.",
+  "_criteria_filled": 3
+}

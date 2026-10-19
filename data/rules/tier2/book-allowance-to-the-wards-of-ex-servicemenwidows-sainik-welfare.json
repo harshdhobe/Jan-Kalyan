@@ -1,0 +1,29 @@
+{
+  "id": "book-allowance-to-the-wards-of-ex-servicemenwidows-sainik-welfare",
+  "name": "Book Allowance to the Wards of Ex-Servicemen/Widows (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Book Allowance (in ₹ per annum) as per the Level of Education**\n\n- School / School for Special Children / Diploma in Polytechnic: 2,000\n- Bachelor Degree: 3,000\n- Master Degree: 4,000\n- Professional Course (MBBS/BE/BTech) (Bachelor of Medicine and Bachelor of Surgery / Bachelor of Engineering / Bachelor of Technology): 4,000\n\n_*The rate listed above or the actual cost of the fee, whichever is ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-the-esm-discharge-certificate-of-the-esm-proof",
+    "a-certificate-from-the-institute-details-of-fees-paid-original-receipt-where-the",
+    "a-certificate-showing-the-breakdown-of-fees-indicating-the-category",
+    "signed-by-the-head-of-the-institution-declaration-birth-certificate-of-the-ward"
+  ],
+  "apply_url": "https://sainik.py.gov.in/sites/default/files/uniformandbookallowance202223.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bawesmw-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Ward of an Unemployed ESM / Ward of the Widow of an ESM.\n- The applicant should be registered with the Department of Sainik Welfare, Puducherry.\n- The Ward should be studying in a Government-recognized Institution.\n- The scheme is applicable for upto two wards of the Unemployed ESM / Widow of an ESM.",
+  "_criteria_filled": 1
+}

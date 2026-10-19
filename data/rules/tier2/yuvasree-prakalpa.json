@@ -1,0 +1,36 @@
+{
+  "id": "yuvasree-prakalpa",
+  "name": "Yuvasree Prakalpa",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "- **Cash Benefits:** Subject to fulfillment of the aforesaid eligibility criteria an individual may receive unemployment assistance under the scheme ₹ 1500/- per month.- **Job Seeking:** By registering in Employment Bank, beneficiaries can search and apply for jobs per their skills.- **Training Program:** The recipient can upgrade his/her skill subsequently under any of the Skill Development progr",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "annexure-i-application-form-annexure-ii-unemployment-certificate-from-a-group-a"
+  ],
+  "apply_url": "https://www.employmentbankwb.gov.in/force_download.php?file=V1hWMllWOVZkSE5oYUdGZlVISmhhMkZzY0dGZk1qQXhNeTV3WkdZPQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/yuvasree",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of West Bengal.\n1. The applicant must be unemployed.\n1. The applicant should be enrolled with the Employment Bank as a ‘job seeker’.\n1. The applicant should be class 8th pass and above.\n1. The applicant should be between 18-45 years of age on the 1st day of April of the year in which he/she is considered under the scheme.\n1. The applicant had not to availed financial assistance /loan under any state/central government sponsored Self-Employment scheme.\n1. Only one member of a family is eligible to receive assistance under the scheme.",
+  "_criteria_filled": 3
+}

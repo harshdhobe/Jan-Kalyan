@@ -1,0 +1,35 @@
+{
+  "id": "post-matric-scholarship-scheme-uttar-pradesh",
+  "name": "Post-matric Scholarship Scheme- Uttar Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- Course group-wise determined rates for scholarship\n\nS No.GroupCourseHostel Rates (Rs/month)Day scholar Rates (Rs/month)1Group -1Degree and Master Degree Courses, M. Fil.-Ph.D., Courses of all medical therapies, Technology, Engineering, Planning, Architecture, Design, Fashion Technology, Agriculture, Animal Husbandry, Allied Sciences, Business Finance, Management Administration, Computer Science ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "up-residential-proof-students-can-upload-any-of-the-following-documents-ration-c",
+    "aadhaar-card",
+    "voter-id",
+    "driving-license",
+    "or-pan-card-student-caste-certificate-family-income-certificate-student-id-proof"
+  ],
+  "apply_url": "https://www.backwardwelfareup.gov.in/en/page/postmatric",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Native and under study in Uttar Pradesh.\n   1. The annual income of parents/guardian of the student is upto Rs. 2 Lakh.\n   1. Students from Other Backwards Classes study in all government-aided and recognized state educational institutes (subject to budget availability).",
+  "_criteria_filled": 2
+}

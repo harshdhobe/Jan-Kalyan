@@ -1,0 +1,28 @@
+{
+  "id": "short-term-loan-scheme",
+  "name": "Short Term Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Short Term Loan of up to ₹ 1,00,000/- as an advance to meet the Financial requirement urgently for Business/ Education/ Medical Purposes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "scheduled-tribe-st-certificate",
+    "issued-by-the-competent-authority-of-the-state-of-goa-bank-passbook-photograph-s",
+    "one-photo-and-id-proof-of-surety-aadhar-card-affidavit-of-the-applicant-on-50-st"
+  ],
+  "apply_url": "https://stcorporation.goa.gov.in/wp-content/uploads/2020/03/Short-Term-Loan-Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual from the Scheduled Tribe (ST) Community of the State of Goa.\n1. The applicant can reapply under the said scheme provided he has cleared earlier loans availed under the scheme.",
+  "_criteria_filled": 1
+}

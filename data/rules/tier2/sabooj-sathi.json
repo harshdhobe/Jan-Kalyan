@@ -1,0 +1,41 @@
+{
+  "id": "sabooj-sathi",
+  "name": "Sabooj Sathi",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "***Here are some of the benefits of the SABOOJ SATHI Scheme:***\n<br>\n\n**Encourages Education:** SABOOJ SATHI Scheme encourages education by providing bicycles to students, which helps them in attending school regularly.\n**Health Benefits:** Cycling is a form of exercise, and the scheme encourages students to adopt a healthy lifestyle and remain physically fit.\n**Saves Time and Money:** The scheme ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 13
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-school-identity-card-issued-by-a-governmentgovernmen"
+  ],
+  "apply_url": "https://saboojsathi.webstep.in/v2/",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbsaboojsathi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The SABOOJ SATHI Scheme is a government initiative launched by the West Bengal government to provide bicycles to students studying in government-run and government-aided schools from class IX to XII. \n<br>\n\n***The eligibility criteria for the SABOOJ SATHI Scheme are as follows:***\n<br>\n\n1. **Age Limit:** The student must be between 13 to 18 years of age.1. **Schooling:** The student must be studying in a government-run or government-aided school in West Bengal.1. **Residency:** The student must be a permanent resident of West Bengal.1. **Family Income:** The family income of the student should not exceed Rs. 2 lakh per annum.1. **Distance:** The student should live at least 2 km away from their school.1. **Attendance:** The student must have at least 60% attendance in the last academic year.1. **Ownership:** The student should not already own a bicycle.1. **Class:** The student must be studying in class IX to XII.\n<br>\n\n_It is important to note that the eligibility criteria may vary depending on the specific guidelines of the scheme in each state or region. Additionally, the application process and required documents may differ depending on the government&#39;s instructions._",
+  "_criteria_filled": 4
+}

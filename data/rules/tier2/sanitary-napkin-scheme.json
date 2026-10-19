@@ -1,0 +1,31 @@
+{
+  "id": "sanitary-napkin-scheme",
+  "name": "Sanitary Napkin Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Sanitary napkins are distributed to adolescent girls/women at a cost of ₹6/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-note-beneficiaries-can-directly-approach-their-nearest"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/snsu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All adolescent girls and women are eligible to purchase sanitary napkins at subsidized rates from Anganwadi centres.\n<br>",
+  "_criteria_filled": 2
+}

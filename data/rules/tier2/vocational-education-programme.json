@@ -1,0 +1,26 @@
+{
+  "id": "vocational-education-programme",
+  "name": "Vocational Education Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the programme, 08 sectors approved by the Government of India are being implemented under NSQF to provide vocational education alongside academic education for students of classes 9 to 12 in selected schools, where they receive both vocational education and training.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-for-selecting-vocational-education-as-a-subject"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vep",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be studying in classes 9 to 12 in one of the 200 selected government secondary schools of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

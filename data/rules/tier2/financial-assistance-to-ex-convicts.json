@@ -1,0 +1,32 @@
+{
+  "id": "financial-assistance-to-ex-convicts",
+  "name": "Financial Assistance To Ex-Convicts",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the maximum amount of financial assistance is ₹15,000/- per person will be provided to the eligible beneficiary as one-time assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of-ration-c",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/22166.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fae-c",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n1. The applicant should be Ex-Convict (released from jail from poor economic conditions).\n1. The applicant should belong to Below Poverty Line (BPL) category.",
+  "_criteria_filled": 2
+}

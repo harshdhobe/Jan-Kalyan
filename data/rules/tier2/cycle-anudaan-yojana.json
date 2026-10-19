@@ -1,0 +1,27 @@
+{
+  "id": "cycle-anudaan-yojana",
+  "name": "Cycle Anudaan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Financial Assistance :** 90 percent of actual expenditure or ₹4,000/- whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "prescribed-application-form",
+    "labor-registration-cardcopy-cycle-purchase-bill-copy"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=775",
+  "source_url": "https://www.myscheme.gov.in/schemes/say",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a registered construction worker of the division with a valid identity card.\n1. Applicant can get the scheme benefits only at once.\n1. Applicant must working as registered construction workers for 3 consecutive years.\n1. Bicycle purchased on a grant will be prohibited from sale for 3 years.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "family-planning-indemnity-scheme",
+  "name": "Family Planning Indemnity Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**Section A:** Death following sterilization (inclusive of death during sterilization operation) in hospital or within 7 days from discharge - ₹4,00,000/-.\n**Section B:** Death following sterilization within 8-30 days from discharge - ₹1,00,000/-.\n**Section C:** Failure of sterilization - ₹60,000/-.\n**Section D:** Cost of treatment in hospital and up to 60 days arising out of complications followi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "failure-of-sterilization-operation-documents-with-original-and-one-set-of-photoc",
+    "receipts",
+    "and-prescriptions-for-complication-treatment-costs-document-format-requirementso"
+  ],
+  "apply_url": "https://dhs.goa.gov.in/cms-gov-be/public/uploads/cms_admin_files/1738151005_CITIZEN-CHARTER-2021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***For Beneficiary (Person who underwent Sterilization)***\n\n- The applicant must be a person who has undergone sterilization operation under family planning program.\n- The applicant must have undergone sterilization operation at an authorized health facility.\n- The applicant must be able to provide documentary evidence of the sterilization procedure.\n\n##### ***For Claimant (Family Member or Legal Representative)***\n\n- The applicant must be a legal claimant or family member of the person who underwent sterilization (in case of death or incapacitation).\n- The applicant should have legal authority to represent the beneficiary in case of death or inability to claim.\n\n> ***Conditions***\n\n_*The applicant must report complications, failure, or death within the specified timeframes as per scheme guidelines._\n_*The applicant must submit the claim through proper medical channels with certification from authorized medical officers._\n<br>",
+  "_criteria_filled": 1
+}

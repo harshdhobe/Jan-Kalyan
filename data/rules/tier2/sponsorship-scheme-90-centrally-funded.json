@@ -1,0 +1,40 @@
+{
+  "id": "sponsorship-scheme-90-centrally-funded",
+  "name": "Sponsorship Scheme (90% Centrally Funded)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Beneficiaries are provided assistance of ₹4,000/- per month till the age of 18 years, directly deposited into their bank account.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 96000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "childs-aadhaar-card-bank-account-details-for-a-minor-child",
+    "the-bank-account-of-the-guardian-death-certificates-of-both-parents",
+    "in-case-of-parental-death-medical-certificate",
+    "in-case-of-critical-illness-or-disability-of-the-parents-aadhaar-card-of-the-gua",
+    "as-applicable"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ss90cf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The child/beneficiary must be a resident of Uttarakhand.\n   1. Children up to 18 years of age belonging to families with an annual income of up to ₹72,000/- in rural areas and ₹96,000/- in urban areas.\n   1. Children who have lost both parents/guardians.\n   1. Children covered under the PM CARES scheme,  children belonging to families that have lost their primary breadwinner.\n   1. Children in conflict with the law (CCL).\n   1. Child labor victims, child trafficking victims, children affected by child marriage, POCSO victims, children registered on the Bal Swaraj Portal, as well as other children in need of care and protection.\n\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,27 @@
+{
+  "id": "housing-subsidy-scheme-gbocwwb",
+  "name": "Housing Subsidy Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, the assistance of ₹1,50,000/- will be provided to registered construction workers for a duration of 5 years, with ₹30,000/- disbursed annually subject to the terms of assistance.\n   1. The construction workers who have taken a loan up to a maximum of ₹15 lakhs to buy their house will be provided ₹30,000/- per year for the five years as per plan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-e-nirman-card-under-the-gbocwwbphotograph-of-the-worker-a",
+    "if-applicable-proof-of-age-birth-certificatedriving-licencepan-cardvoter-id-card"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/hssgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers registered with the Gujarat Building and Other Construction Worker’s Welfare Board will be eligible to get the benefit of this scheme.\n   1. At the time of applying for the benefits of this scheme, it will be mandatory to have at least the last 2 years of registration with the construction worker&amp;#39;s board.\n   1. To avail the benefit of this scheme the construction worker should have documented the building after the date of resolution of the scheme (29/06/2020). The application has to be made within one year from the date of the document mentioned in the house purchase document.\n   1. The loan taken for a house purchased by a registered construction worker should not exceed ₹15 lakhs and the loan tenure should be 10 years or more.\n   1. The registered construction worker benefiting from this scheme should not own any house or property in the joint name of the worker or his wife or joint, which guarantee has to be given by the worker in an affidavit as per the prescribed format herein.\n   1. The registered construction worker has to submit the bank loan interest certificate/bank loan statement after the completion of the financial year to avail the assistance under the Housing Subsidy Scheme.\n   1. The registered construction worker receiving benefits under this scheme has to submit a written proposal every year at the district office of the concerned board to get the remaining four years of assistance after receiving the assistance for the first time along with a copy of the in-principle approval letter and the annual statement of interest.",
+  "_criteria_filled": 1
+}

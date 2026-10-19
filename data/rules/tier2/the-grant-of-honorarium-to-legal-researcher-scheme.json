@@ -1,0 +1,32 @@
+{
+  "id": "the-grant-of-honorarium-to-legal-researcher-scheme",
+  "name": "The Grant of Honorarium to Legal Researcher Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Research Assistant shall be paid ₹25,000/- per month (Rupees twenty-five thousand only) as honorarium, for their assignment.\n- The assignment will be initially for a period of two years from the date of engagement.\n- The assignment can be extended for a further period of not exceeding one more year, subject to the approval of the Secretary to Government (Law).\n- Research Assistants are permitted",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residential-address-proof-to-be-enclosed-copy-of-aadhaar-number-copy-to",
+    "for-blllb-and-mlllm-qualifications-copy-of-the-all-india-bar-examination-certifi"
+  ],
+  "apply_url": "https://law.py.gov.in/docs/Scheme_legal_reseracher_appl_invited-age%2032.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ghlrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a citizen of India.\n- The applicant must be a resident of Puducherry.\n- The applicant must be a Postgraduate in Law (2 years programme) from the recognized Universities in the Indian Union.\n- The applicant must not be pursuing Postgraduate Degree in Law or any other Degrees or Programmes requiring their compulsory attendance elsewhere.\n- The applicant must not have attained the age of 30 years as on 1st January or 1st July, preceding the last date fixed for submission of applications.\n- The applicant must not have attained the age of 32 years as on 1st January, 2023, if applying under the one-time age relaxation granted by the Honorable Lieutenant Governor of Puducherry.\n\n****The educational qualifications and other eligibility criteria may be relaxed in case of exceptionally outstanding and deserving candidates by the Government.***\n<br>",
+  "_criteria_filled": 2
+}

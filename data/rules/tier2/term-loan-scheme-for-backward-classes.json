@@ -1,0 +1,41 @@
+{
+  "id": "term-loan-scheme-for-backward-classes",
+  "name": "Term Loan Scheme for Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under the scheme, Nigam provides loans of up to ₹15,00,000/- at an annual interest rate of 6% to 8% to individuals from the Backward Classes to enhance their employability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=0xaoajvXsza%2fY5ALyvrFbA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/tlsbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be between 18 and 55 years old.\n   1. The applicant should belong to the Backward Classes category.\n   1. The annual family income of the applicant should not exceed ₹3,00,000/- in both rural and urban areas.\n   1. The applicant should have a Parivar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 4
+}

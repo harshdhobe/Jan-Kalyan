@@ -1,0 +1,34 @@
+{
+  "id": "artificial-limbs-and-assistive-devices-supply-scheme",
+  "name": "Artificial Limbs and Assistive Devices Supply Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, various assistive devices such as tricycles, baishakhi, hearing aids, Braille kits, wheelchairs, tape recorders, calipers, white canes, and other artificial limbs are provided to persons with disabilities.\n\n**Note 1:** Artificial limbs/assistive devices are provided free of cost to individuals with disabilities if their or their parent&amp;#39;s or guardian&amp;#39;s monthly i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-ie-aadhaar-card-domicile-of-chhattisgarh",
+    "if-applicable-bpl-card",
+    "if-applicable-a-recommendation-letter",
+    "if-applicable-any-other-documents-as-required"
+  ],
+  "apply_url": "https://sw.cg.gov.in/en/artificial-limbs-and-accessories-delivery-plans",
+  "source_url": "https://www.myscheme.gov.in/schemes/aladss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh.\n   1. The applicant should have a disability.\n   1. The applicant&amp;#39;s disability should be 40% or more.\n   1. The applicant should possess a Disability Certificate or a UDID Card.\n   1. The applicant should either be a member of a BPL family or have a recommendation from the Collector or Sub-Divisional Officer (Revenue).\n   1. The monthly income of the applicant or their parents/guardian must not exceed ₹8,000/-.",
+  "_criteria_filled": 2
+}

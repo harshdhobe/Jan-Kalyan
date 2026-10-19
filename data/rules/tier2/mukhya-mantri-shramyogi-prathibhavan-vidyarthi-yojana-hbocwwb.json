@@ -1,0 +1,27 @@
+{
+  "id": "mukhya-mantri-shramyogi-prathibhavan-vidyarthi-yojana-hbocwwb",
+  "name": "Mukhya Mantri Shramyogi Prathibhavan Vidyarthi Yojana (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, children of registered construction workers receive assistance for various purposes:\n\n   1. An amount of ₹5,000/- per year per student will be payable for purchasing books and stationery.\n   1. An amount of ₹49,000/- per student will be payable only once during the course for purchasing a laptop/computer.\n   1. Up to ₹72,000/- per student will be payable for hostel fees.\n   1. R",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-hbocwwbidentity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-attested-work-experience-document-proof-of-r"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/157",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmspvyhbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year’s regular membership.\n   1. The worker must have an active membership with the Board.\n   1. The worker&amp;#39;s child must have scored 85% in the senior secondary (10+2) board examination or 75% or more in the bachelor&amp;#39;s degree course and is continuing studies as a regular student in the next class or course.\n   1. For students pursuing commercial pilot training courses and type renting courses, all institutions approved by the Director General of Civil Aviation (DGCA) are also eligible for reimbursement under the scheme.\n   1. Applicants under this Scheme will not be eligible for benefits under already approved financial assistance, higher education, technical and professional courses, or any other similar scheme of the Board.\n   1. This financial assistance will be payable up to the first three children of the worker.\n   1. The worker has neither applied again for the same class of his/her son/daughter nor received similar benefits/financial assistance from any other government department/board/corporation, nor have they made any application for the same.\n\n**Note 01:** Under this scheme all IIMs/IITs/IIITs/AIIMS/NITs/NIFT/NID/Indian Institute of Hotel Management, National Law University, and other institutions of Central Government, approved by statutory bodies i.e. UGC, AICTE, PCI, MCI etc. Institutions/Universities are eligible to participate in this scheme.\n**Note 02:** Only institutions established within India are eligible to participate in this scheme.",
+  "_criteria_filled": 1
+}

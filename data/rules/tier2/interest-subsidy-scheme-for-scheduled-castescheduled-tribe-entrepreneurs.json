@@ -1,0 +1,26 @@
+{
+  "id": "interest-subsidy-scheme-for-scheduled-castescheduled-tribe-entrepreneurs",
+  "name": "Interest Subsidy Scheme for Scheduled Caste/Scheduled Tribe Entrepreneurs",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "**Loan Amount:**\n\n  - Minimum loan amount under the scheme is ₹20.00 lakhs.\n  - Maximum loan amount under the scheme is ₹1,000.00 lakhs which includes term loan and one time working capital term loan based on the project proposal but working capital term loan is restricted to maximum of ₹50.00 lakhs. However, repetition of working capital term loan sanction is not allowed.\n  - The loan can be avai",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-proof-of-scst-status-of-the-entrepreneurs-bio-data-net"
+  ],
+  "apply_url": "https://ksfc.karnataka.gov.in/storage/pdf-files/SCHEMES/KSFC%20Scheme%20for%20SC%20-%20ST%20K%20&%20E-pages-deleted%20(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/issscste",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit shall be fully owned by SC / ST entrepreneurs i.e., all promoters in proprietary / partnership / company shall belong to SC/ST community only.\n   1. The ownership / share holdings of units even in part by other than SC/STs are not eligible for interest subsidy.\n   1. Entrepreneurs either can be SCs / STs or both.\n\n**Others terms &amp;amp; conditions:**\n\n   1. The units which have availed the interest subsidy under any other scheme of Government of Karnataka/Government of India are not eligible for interest subsidy under this scheme.\n   1. To be eligible for interest concession under the scheme, the units should not be in default in repayment to KSFC.\n   1. KSFC is at liberty to consider any amount of project cost. However, the interest subsidy is restricted to ₹1,000.00 lakhs of the loan. Interest amount on the balance loan amount beyond ₹1,000.00 lakhs is required to be borne by the entrepreneurs.\n   1. KSFC may sanction loans with normal applicable rate of interest, the effective interest rate to be paid by the beneficiary / borrower will be 4%. The difference between the normal lending rate of KSFC and effective interest rate of 4% will be reimbursed by Government of Karnataka.",
+  "_criteria_filled": 1
+}

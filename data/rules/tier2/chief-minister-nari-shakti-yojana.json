@@ -1,0 +1,31 @@
+{
+  "id": "chief-minister-nari-shakti-yojana",
+  "name": "Chief Minister Nari Shakti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "**Related to the development of women**\n\n   1. Under social empowerment: Women&amp;#39;s helpline, short stay home, defense home, working women&amp;#39;s hostel, child care home.\n   1. Under cultural empowerment: Women cultural fairs and award scheme to self-help groups for innovative work.\n   1. Under economic empowerment: Training of women in employable vocational courses in service sector and e",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-ration-card-photo-copy-of-bank-passbook-caste-certific"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Mahila%20Shashaktikaran%20Chatra%20Yojna/Mukhyamantri%20Nari%20Shakti%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmnsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Adolescent girls and women will be eligible under Mukhyamantri Nari Shakti Yojana.\n1. The benefit of Chief Minister Nari Shakti Yojana will be provided only to women.\n1. The applicant should be a permanent resident of the state of Bihar.\n1. The benefit of this scheme will be provided equally to both rural and urban women.\n1. It is necessary for the applicants to have the necessary documents.",
+  "_criteria_filled": 2
+}

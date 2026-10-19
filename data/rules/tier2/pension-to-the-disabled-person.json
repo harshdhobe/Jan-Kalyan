@@ -1,0 +1,38 @@
+{
+  "id": "pension-to-the-disabled-person",
+  "name": "Pension To The Disabled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Chandigarh",
+  "scope": "household",
+  "benefit": "- The pension payable to each person shall be ₹1000/- per annum to those persons having 40% to 70% of disability.\n- ₹2000/-per annum to those persons having more than 70% of disability.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chandigarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-certificate-of-disability-having-percentage-of-dis",
+    "ration-card",
+    "electricity-bill-etc"
+  ],
+  "apply_url": "https://chdsw.gov.in/uploads/media/1682922758-Form_Disabled_pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/disabled-pension",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s disability must be to the extent of 40% or above then they will be eligible to avail the benefit of same. \n1. The applicant must be a resident of UT Chandigarh for more than 3 years. \n1. The family income of the applicant should not exceed  ₹1.50 lacs annually.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,36 @@
+{
+  "id": "namo-shree-scheme",
+  "name": "NAMO Shree Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Financial Assistance Amount**\n\nEligible women beneficiaries receive ₹12,000/- from conception to delivery of the child for their first two live children, distributed in phases.\n<br>\n\n> **Disbursal for First Pregnancy**\n\n- ₹5,000/- at the time of registration (₹2,000/- from State Government and ₹3,000/- from Central Government)\n- ₹2,000/- after six months of pregnancy (from the State Government",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationaadhaar-card-details-of-bank-account-mobile-number-mam"
+  ],
+  "apply_url": "https://cmogujarat.gov.in/en/latest-news/cm-shri-bhupendra-patel-marks-three-years-good-governance",
+  "source_url": "https://www.myscheme.gov.in/schemes/nss-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be from Gujarat.\n2. The applicant must be a pregnant woman or a lactating mother.\n3. The applicant must belong to one of the following categories:\n\n- Scheduled Tribe\n- Scheduled Caste\n- Beneficiary of the National Food Security Act\n- Pradhan Mantri Jan Arogya Yojana Beneficiary\n- Below Poverty Line families\n- E Shram Card holder women beneficiary\n- Women who are farmers\n- Mahatma Gandhi National Rural Employment Guarantee Act beneficiary\n\n4. The applicant&#39;s family income must not be more than ₹8,00,000/- per year.\n5. The applicant must deliver the child in any government or private hospital.\n6. The applicant must register at the time of the first antenatal check-up.\n<br>",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,42 @@
+{
+  "id": "prime-small-enterprise-empowerment-and-developmentseed-scheme",
+  "name": "Prime Small Enterprise Empowerment and Development(SEED) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. 50% of total project cost supported as upfront subsidy by Government of Meghalaya (₹50,000 max)\n1. 5% of total project cost to be contributed by entrepreneur as own share\n1. Remaining 45% of project cost eligible for bank loan\n1. Loan tenure of 2 years with a 3-month moratorium period before EMI begins\n1. Financial support strictly for asset creation (machinery, equipment), operational or worki",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "individuals-latest-bank-statement-last-6-months-proof-of-identity-of-applicant-v",
+    "photos",
+    "testimonials",
+    "etc-pan-card-ration-card-of-applicant-quotation-for-equipment-to-be-purchased-mu",
+    "photos",
+    "testimonials",
+    "etc-pan-card-ration-card-of-applicant-quotation-for-equipment-to-be-purchased-mu"
+  ],
+  "apply_url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19%2FvYLmWwCXyOMeLiXd0bwWjzuqTkqZ5bx1HKapcgsy4pw1JIgstaIOITwcHuBvpPPD6iN7YkGifWRLykQ%200ZpLCa5FhaPU%20kuxtRhQpo5ZggqbPdkkv0f1z%2052%20rpcSGeuAx57HGC%2FOxlCK4PbBMvhoHuADggCCipI8KuD3PY8zCmChr3VkNgyf4qhN%20WQ1eVlm0p3C0FD09Ujw3UIvK6%20KETJBc1ELANs6lfeiSgbwtGc7hNZ55mx=",
+  "source_url": "https://www.myscheme.gov.in/schemes/pseeads",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Individuals:**\n\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must be a permanent resident of Meghalaya.\n1. The applicant must provide proof of relevant experience in the field related to the proposed project.\n1. The applicant must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman.\n1. The applicant shall not be a credit defaulter with any bank or financial institution.\n1. The applicant without demonstrated relevant experience will not be considered.\n\n**For Unregistered Entities:**\n\n1. The unregistered entity must be based in Meghalaya.\n1. The unregistered entity may include village organizations, self-help groups, traditional communities, or similar groups.\n1. The unregistered entity must provide proof of relevant experience in the field related to the proposed project.\n1. The unregistered entity must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman.\n1. The unregistered entity shall not be a credit defaulter with any bank or financial institution.\n1. The unregistered entity without demonstrated relevant experience will not be considered.\n\n<br>",
+  "_criteria_filled": 3
+}

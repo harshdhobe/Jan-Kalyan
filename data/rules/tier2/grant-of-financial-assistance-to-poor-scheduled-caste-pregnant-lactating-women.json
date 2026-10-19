@@ -1,0 +1,37 @@
+{
+  "id": "grant-of-financial-assistance-to-poor-scheduled-caste-pregnant-lactating-women",
+  "name": "Grant of Financial Assistance to Poor Scheduled Caste Pregnant & Lactating Women",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹12,000/- as follows:\n\n- The pre-natal assistance shall be ₹ 2,000 in cash per month for three months prior to the month of delivery.\n- The post-natal assistance shall be ₹ 2,000 in cash per month for three months following delivery. \n\n**** The grant of financial assistance is made available only for 2 deliveries.***",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "residence-cum-nativity-certificate-aadhaar-card-caste-certificate-recent-passpor",
+    "sub-centre-or-any-other-peripheral-maternityhealth-centre-of-the-union-territory"
+  ],
+  "apply_url": "https://adwelfare.py.gov.in/sites/default/files/104-10-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfapscplw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a citizen of India.\n- The applicant should belong to the Union Territory of Pondicherry by virtue of birth or continuous residence of not less than 3 years.\n- The applicant should be from Scheduled Caste.\n- The applicant should be a woman.\n- The applicant should be pregnant.\n- The applicant should apply from 6 months of pregnancy and within 3 months from the date of delivery.\n- The annual income of the applicant and spouse should not exceed ₹ 2,00,000/-.\n- The grant of financial assistance is made available only for 2 deliveries.",
+  "_criteria_filled": 3
+}

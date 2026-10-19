@@ -1,0 +1,26 @@
+{
+  "id": "chhatrawas-scheduled-caste",
+  "name": "Chhatrawas (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Financial Support:** Students receive ₹1460/- to ₹1500/- per month.\n**Additional Facilities:** Food, Hostel, Material Assistance, Scholarship, Free Food and Accommodation, Sports Equipment, Cosmetic Kit and Library Facility.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-identity-proof-scheduled-caste-certificate-proof-of-re"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=5",
+  "source_url": "https://www.myscheme.gov.in/schemes/csc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to the Scheduled Caste category.\n1. The applicant should be a student.\n1. The student should be a native of Madhya Pradesh.\n1. The student should be enrolled in a recognized educational institution.\n1. The student should be a regular student, attending classes in the institution.\n1. The student should require residential facilities in the Scheduled Caste hostels.",
+  "_criteria_filled": 1
+}

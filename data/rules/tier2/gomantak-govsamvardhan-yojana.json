@@ -1,0 +1,28 @@
+{
+  "id": "gomantak-govsamvardhan-yojana",
+  "name": "Gomantak Govsamvardhan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹80/- per animal per day.\n- This assistance covers the cost of maintenance of Local Breed Cattle, which includes feed, fodder, and other miscellaneous costs, bundled together in one component.\n- Microchipping or ear tagging of the cattle will be done by the area Assistant Director, Veterinary Officer, or Veterinary Assistant of the Veterinary Hospital/Dispensary sub-centr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "required-at-the-time-of-applicationresidence-certificate",
+    "from-the-competent-authority-duly-filled-in-consent-form-for-seeding-and-authent",
+    "duly-certified-by-the-area-assistant-directorarea-veterinary-officer-notarized-a"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2425/2425-24-SI-OG-0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggy-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Dairy Farmer or an Individual of the State of Goa.\n- The applicant must be a bonafide resident of Goa for at least the preceding 15 years.\n- The applicant must own non-descript cattle or Shwet Kapila cattle.\n- The applicant must have an adequate cattle shed as per the Bureau of Indian Standard.\n- The scheme shall be applicable to rural areas and Class C and B Municipalities.\n- The applicant must be responsible for fulfilling the Pollution Control Board norms if the number of cattle reared exceeds 25 in number.\n\n_*If the number of applications received for rearing are more than 250 cattle per district, priority can be decided based on the grazing area of the beneficiary._\n##### ***Reservation***\n\n- Out of the 250 cattle per district, 12% shall be reserved for the Scheduled Tribes (ST).\n- Out of the 250 cattle per district, 2% shall be reserved for the Scheduled Castes (SC) respectively.\n- In case there is no demand in the reserved categories, the demand shall be booked under the general component.\n\n<br>",
+  "_criteria_filled": 1
+}

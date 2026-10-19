@@ -1,0 +1,37 @@
+{
+  "id": "caicwa-cma-cs-scholarship",
+  "name": "CA/ICWA CMA /CS Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. The scholarship amount of ₹15,000/- is provided.\n1. The scholarship is provided to students from minority religious communities.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-registration-printout-copy-of-mark-list-of-sslc-copy-of-mark-list-of",
+    "tuition-fee-receipt",
+    "id-card",
+    "etc-copy-of-the-first-page-of-applicants-bank-passbook-including-name",
+    "account-number",
+    "branch-code",
+    "and-branch-address-copy-of-aadhaar-card-or-copy-of-npr-card-copy-of-nativity-cer"
+  ],
+  "apply_url": "https://scholarship.minoritywelfare.kerala.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/caicwacs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Kerala.\n1. The applicant must belong to Muslim, Christian, Sikh, Buddhist, Parsi, or Jain religious communities.\n1. The applicant&#39;s annual family income should be below ₹8,00,000/-.\n1. The applicant must be appearing for intermediate or final year examinations of Chartered Accounts, Cost &amp; Management Accounts, or Company Secretaryship courses.\n1. The applicant must have secured 60% marks in Plus Two/B.Com or other degrees.\n1. The applicant should have an account in any nationalised bank in their own name.\n\n<br>\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n  - Preference will be given to applicants belonging to the Below Poverty Line (BPL) category.\n  - In the absence of BPL applicants, applicants from minority religious communities with an annual income up to ₹8,00,000/- in the Above Poverty Line (APL) category will be considered.\n  - Selection will be based on merit and income.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,47 @@
+{
+  "id": "pension-scheme-to-disabled-persons-divyangjan-dnh-dd",
+  "name": "Pension Scheme to Disabled Persons (Divyangjan)- DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries receive financial assistance of ₹1,000/- per month.\n\n**Note:** The mode of fund transfer shall be Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-birth-certificateschool-leaving-certificate-in-case-of-non-availabilit",
+    "the-beneficiary-shall-be-referred-to-the-medical-board-government-hospital-of-th"
+  ],
+  "apply_url": "https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the districts of Dadra &amp;amp; Nagar Haveli and Daman &amp;amp; Diu.\n   1. The applicant should be a person with a disability (Divyangjan).\n   1. The applicant should have a disability of 80% or above.\n   1. The age of the applicant should be between 18 and 59 years.\n   1. The applicant&amp;#39;s family income should not exceed ₹1.5 lakhs per annum.\n   1. The applicant should not be availing financial assistance under any other Divyang Pension schemes.\n\n&lt;br&gt;\n\n**Special/General Conditions:** In case of non-availability of age proof the beneficiary shall be referred to Medical Board (Government Hospital) of the concerned district for verification of age. After attaining age of 60 years the beneficiary shall be transferred to scheme “Pension Scheme to Old Age Persons (Senior Citizen)”.\n<br>",
+  "_criteria_filled": 5
+}

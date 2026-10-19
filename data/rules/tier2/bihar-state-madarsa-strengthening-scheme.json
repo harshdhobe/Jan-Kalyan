@@ -1,0 +1,26 @@
+{
+  "id": "bihar-state-madarsa-strengthening-scheme",
+  "name": "Bihar State Madarsa Strengthening Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "Under this scheme, basic facilities and infrastructure will be provided to madrasas recognized by the Bihar State Madarsa Board and other government madarsas to enhance educational quality. The support includes:\n\n  - Construction of buildings, office rooms, multipurpose halls, hostels, and vocational training halls.\n  - Establishment of computer and science labs, additional classrooms, and librari",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "approval-letter-received-from-madrasa-board-original-copy-of-lpc-of-the-land-bel"
+  ],
+  "apply_url": "https://www.bsmeb.org/downloads/proforma/BSMEB_REINFORCEMENT_PLAN_ywlvy6.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsmssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Madarsa should be located in Bihar.\n   1. The Madarsa should be recognized by the Bihar State Madarsa Board or other Government-Recognized Madarsas.\n   1. The Madarsa Management Committee should not have been subject to any disciplinary actions in the past three years.\n   1. The Madarsa should possess sufficient land, which should be legally owned and free from disputes.\n   1. The Madarsa should have an enrollment of more than 70 students.\n   1. The Madarsa should have been recognized for at least two years.\n   1. The Madarsa should adhere to all relevant state regulations and guidelines for educational institutions.",
+  "_criteria_filled": 1
+}

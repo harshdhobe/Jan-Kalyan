@@ -1,0 +1,26 @@
+{
+  "id": "women-helpline",
+  "name": "Women Helpline",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Emergency assistance.\n- Non-emergency assistance.\n- Information about government schemes and services.\n- Referral services.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-to-avail-assistance-under-the-scheme"
+  ],
+  "apply_url": "https://missionshakti.wcd.gov.in/public/documents/whatsnew/Mission_Shakti_Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/whl-181",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any woman in distress seeking emergency/non- emergency services or information or any other individual on her behalf can connect with the Women Helpline by calling the toll free 181.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-take-up-value-addition-to-seafood",
+  "name": "Financial Assistance to Take up Value Addition to Seafood",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Financial Assistance for Construction or Renovation of the Unit**\n\n50% subsidy of the cost, limited to ₹5,00,000 per unit.\n> **Financial Assistance for Purchase of Equipment**\n\n50% subsidy of the cost, limited to ₹2,00,000 per unit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "detailed-project-report-proof-of-availability-of-landownership-documents-proof-o"
+  ],
+  "apply_url": "https://fisheries.goa.gov.in/schemes-services/",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatuvas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an individual interested in setting up a unit for value-added fisheries products. \n- The applicant should be a resident of Goa for the last 15 years.\n\n> **Reservation/ Relaxation/ Preference/ Priority**\n\nPreference will be given to self-help groups, women entrepreneurs, and youth (who have completed fishermen training courses/short-term training programs conducted by the Directorate of Fisheries).",
+  "_criteria_filled": 1
+}

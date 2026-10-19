@@ -1,0 +1,41 @@
+{
+  "id": "subsidy-for-disabled-young-professionals",
+  "name": "Subsidy for Disabled Young Professionals",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loans up to ₹25,00,000/- are provided to professionally educated unemployed disabled youth who fall under the OH, VH, HH, or MR categories.\n   1. The loan is available at different interest rates ranging from 4.5% to 8% per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-identitycitizenship-proof-any-one-of-the-following-aadhaar-card-2-age-proof-an"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=tYMmpL55%2f9ZI5sc2wB6uFw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdyp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The applicant&amp;#39;s age should be between 18 and 45 years.\n   1. The applicant should have obtained a professional degree from a recognized Institute.\n   1. The scheme is for professionally educated unemployed disabled youth.\n   1. The activity proposed should be directly relevant to the professional degree of the applicant.",
+  "_criteria_filled": 4
+}

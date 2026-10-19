@@ -1,0 +1,31 @@
+{
+  "id": "passenger-vehicleloading-vehicle-loan-scheme-daadc",
+  "name": "Passenger Vehicle/Loading Vehicle Loan Scheme (DAADC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Financial assistance in the form of a loan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-ration-card-copy-of-first-page-of-bank-passbook-income-certificate-c"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pvlvls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must belong to the Scheduled Caste (SC) category.\n- The applicant must be unemployed.\n- The applicant must belong to an Antyodaya family.\n- The applicant must have a family income not exceeding ₹3,00,000/- per annum.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,27 @@
+{
+  "id": "scheme-of-post-matric-scholarship-to-lower-income-group-student-for-studies-in-i",
+  "name": "Scheme of Post Matric Scholarship to Lower Income Group Student for Studies in India",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Maintenance Allowances**\n\n- ₹75/month for hostel residents and ₹60/month for day scholars pursuing degree courses in engineering, technology, medicine, architecture, and similar disciplines.\n- ₹65/month for hostel residents and ₹50/month for day scholars pursuing diploma/certificate courses in engineering, technology, or medicine.\n- ₹60/month for postgraduate courses in agriculture or community ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate",
+    "bpl-certificate-if-applicable-fathers-death-certificate-if-applicable"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/Lower%20Income%20Group%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmslig",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a national of India.\n1. The applicant should permanently reside in Haryana.\n1. The applicant should belong to the lower-income group as defined under the scheme guidelines.\n1. The applicant should have passed the matriculation or equivalent examination from a recognized board or university.\n1. The applicant should be enrolled in a recognized post-matriculation course, such as:\n\n- National Fire Service College, Nagpur.\n- Aircraft Maintenance Engineer&#39;s Course.\n- Courses at Training Ship Dufferin or Military College, Dehradun.\n- Pre-examination training courses for IAS/IPS, etc.\n\n_*Students in Class XI/XII under continuous school courses are ineligible unless the 10th class is equivalent to matriculation._\n<br>",
+  "_criteria_filled": 1
+}

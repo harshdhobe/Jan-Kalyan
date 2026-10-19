@@ -1,0 +1,31 @@
+{
+  "id": "rehabilitation-of-cured-leprosy-persons-marriage-incentives-support",
+  "name": "Rehabilitation of Cured Leprosy Persons: Marriage Incentives & Support",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "**Financial Support:** A one-time grant of up to ₹50,000/- for the marriage of daughters of Cured Leprosy Persons.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-permanent-domicile-in-odisha-aadhaar-number-of-parents-in-case-the-guar"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20An%20umbrella%20scheme%20for%20Rehabilitation%20of%20Cured%20Leprosy%20Persons.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rclpmis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant is a bonafide resident of Odisha.\n- The applicant should be a Cured Leprosy Person.\n- The applicant’s daughter should be unmarried.",
+  "_criteria_filled": 2
+}

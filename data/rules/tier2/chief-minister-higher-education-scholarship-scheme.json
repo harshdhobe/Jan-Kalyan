@@ -1,0 +1,31 @@
+{
+  "id": "chief-minister-higher-education-scholarship-scheme",
+  "name": "Chief Minister Higher Education Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "Under this scheme, eligible students will receive the following financial assistance::\n\n  - The students will receive ₹500/- per month for a maximum of 10 months, totaling up to ₹5,000/- annually.\n  - The students with a disability of 40% or more will receive ₹1,000/- per month for up to 10 months, totaling a maximum of ₹10,000/- annually.\n\n**Note:** The benefits under this scheme are available fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-or-aadhaar-registration-number-passport-size-photograph-receipt-w"
+  ],
+  "apply_url": "https://sso.rajasthan.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n   1. The applicant should be a regular student.\n   1. The student should be studying at a government or recognized non-government higher or technical institute in Rajasthan.\n   1. Students should have passed the 12th examination from the Rajasthan Board of Secondary Education, Ajmer, in the current year with a minimum of 60% marks and secured a position within the top one lakh of the board&amp;#39;s merit list.\n   1. Disabled students should have a disability of 40% or more.\n   1. The total annual income of the applicant&amp;#39;s parents or guardians should not exceed ₹2,50,000/-.\n   1. The student should not be receiving benefits from any other scholarship or equivalent scheme provided by the Government of India or the State Government.\n   1. The student should have a savings account in a nationalized bank.\n   1. The applicant should possess a valid Aadhaar card.\n   1. The student should have a Jan Aadhaar Card (Bhamashah Card).",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mukhyamantri-mahalakshmi-kit-yojana",
+  "name": "Mukhyamantri Mahalakshmi Kit Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "In the state, after the institutional delivery of a pregnant woman, the following benefits will be provided:\n\n- The woman will receive one Mahalakshmi kit for the birth of each of her first two girl children.\n- In the case of twins, the woman will be given one Mahalakshmi kit, and each child will receive a separate Mahalakshmi kit.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-beneficiary-delivery-related-medical-reportsdocuments"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmkyu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a pregnant woman registered with an Anganwadi Centre and eligible to receive a Mahalakshmi Kit after delivery.\n   1. The beneficiary must not be an income tax payer.\n\n<br>",
+  "_criteria_filled": 2
+}

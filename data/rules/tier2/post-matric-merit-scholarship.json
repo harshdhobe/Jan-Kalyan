@@ -1,0 +1,26 @@
+{
+  "id": "post-matric-merit-scholarship",
+  "name": "Post Matric Merit Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "- Tuition fees\n- Maintenance allowance (for boarding and lodging expenses)\n- Other related expenses like books, stationery, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-bank-account-self-account-3-previous-year-examination-mark-shee"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bonafide permanent resident of Mizoram, or the child/ward of a bonafide permanent resident of Mizoram.\n   1. The applicant should be pursuing regular studies in a recognized post-matric institution in India.\n   1. The applicant should have secured at least 60% marks or a first division/class in the last Board or University examination.\n   1. The applicant pursuing postgraduate courses in Medicine will be eligible only if they are not allowed to practice during the course duration.\n\n<br>",
+  "_criteria_filled": 1
+}

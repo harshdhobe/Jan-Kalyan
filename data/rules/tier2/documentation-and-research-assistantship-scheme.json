@@ -1,0 +1,26 @@
+{
+  "id": "documentation-and-research-assistantship-scheme",
+  "name": "Documentation And Research Assistantship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- One-time Incentive: A reasonable amount as decided by Tiatr Academy of Goa will be paid to the holder for converting materials into electronic formats.\n- Hourly Honorarium: Documentation assistants will be paid an honorarium on clock-hour basis as determined by Tiatr Academy of Goa.\n- Reimbursement: Tiatr Academy of Goa will reimburse costs incurred towards conversion according to rates determin",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/daris",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> ***For Material Holders***\n\n- The applicant must be a possessor of materials related to Tiatr such as manuscripts, photos, handbills, advertisements, newspaper or magazine clippings, video and audio recordings.\n- The applicant must indicate willingness to permit and facilitate documentation and organization tasks.\n\n> ***For Documentation Assistants***\n\n- The applicant must be willing to serve as Documentation Assistant.\n- The applicant must be capable of performing tasks including compilation and organisation of materials, typing or word-processing of textual materials, scanning and converting by Optical Character Recognition, conversion of images by scanning or photographing with digital camera, and converting video or audio recordings from analogue to digital format.\n\n<br>",
+  "_criteria_filled": 1
+}

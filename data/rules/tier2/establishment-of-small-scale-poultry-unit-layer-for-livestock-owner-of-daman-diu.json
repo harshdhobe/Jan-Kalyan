@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-small-scale-poultry-unit-layer-for-livestock-owner-of-daman-diu",
+  "name": "Establishment of Small Scale Poultry Unit (Layer) for livestock owner of Daman & Diu",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "household",
+  "benefit": "&gt; **Financial Assistance In The Form Of Subsidy**\n\n   1. Financial assistance in the form of a subsidy shall be provided to the individual beneficiary on the following items:\n\n    - Construction of poultry shed.\n    - Purchase cost of reared pullets up to the age of 18-21 weeks old.\n    - Poultry equipments.\n    - Purchase cost of feed for the period of 4 months (till the beneficiary starts ear",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "completion-certificate-for-small-scale-poultry-unit-completion-certificate-issue"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2020/10/2020100231.pdf#:~:text=Scheme,interested%20person%20of%20the%20urban",
+  "source_url": "https://www.myscheme.gov.in/schemes/esspulodd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant shall belong to SC/ST, SMF, and BPL Families.\n   1. The applicant must have the back ground of poultry farming, or in other cases, the participants must undergo practical training.\n   1. The applicant must operate the units on the scientific lines as per the technical guidance and services provided by the Department of Animal Husbandry &amp;amp; Veterinary Services, Daman &amp;amp; Diu.\n   1. The applicant must operate the unit for at least for the minimum period of two years.\n   1. The applicant shall have to maintain the prescribed records and furnish the prescribed information to the Veterinary Officer, Daman &amp;amp; Diu, from time to time.\n   1. The applicant shall have to follow the Instructions issued by the Department of Animal Husbandry &amp;amp; Veterinary Services, Daman &amp;amp; Diu.\n   1. The applicant shall have to execute a bond to the effect that the aforesaid terms and conditions are acceptable and he/it will abide by all of them, failing which he will be liable to be prosecuted as per the existing rules of the Administration.\n   1. The applicant has to compulsorily sale/supply the surplus eggs to the nearby school under the scheme of Mid-Day Meals.\n\n<br>",
+  "_criteria_filled": 1
+}

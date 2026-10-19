@@ -1,0 +1,37 @@
+{
+  "id": "scheme-for-providing-assistive-devices-to-differently-abled-persons",
+  "name": "Scheme For Providing Assistive Devices To Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "Under the scheme, the following assistive devices will be provided to differently-abled persons:\n\n   1. Joy stick-operated Wheelchair\n   1. Smart Phone with Screen Reader\n   1. Daisy Player\n   1. CP Wheel Chair\n   1. Talking Calculator, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-copy-of",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/14022.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spaddap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a native and resident of Kerala State.\n- Disabled persons with 40% or more disability are eligible to apply under the scheme.\n- The combined annual family income should not exceed ₹1,00,000/-.\n- The Medical Board should certify that the applicant is capable to use the assistive device.",
+  "_criteria_filled": 3
+}

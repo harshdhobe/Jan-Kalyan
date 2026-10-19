@@ -1,0 +1,26 @@
+{
+  "id": "contribution-to-state-agriculture-marketing-board-development-fund-general",
+  "name": "Contribution to State Agriculture Marketing Board Development Fund (General)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Monetary Benefits:** The scheme ensures a mandatory financial contribution from the State Government, amounting to not less than 5% of the total deposits made by the Market Committees into the Development Fund.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-co-operative-institution-registration-financial-deposit-records-from-ma"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfcsambdg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Co-operative institutions are eligible under this scheme.\n   1. The scheme is applicable across the entire state.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "aswasakiranam",
+  "name": "Aswasakiranam",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "Benefits\nThrough this scheme financial assistance of Rs 600 per month is provided to those caregivers who look after their physically and mentally bedridden patients.\nAll those citizens who have been providing caregiving services to the patients since 2nd August 2010 will be provided monthly assistance.\nThis financial assistance will be apart from the pension given to the patients.\nNow the caregiv",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-medical-certificate-attested-by-govt-vayomithram"
+  ],
+  "apply_url": "https://socialsecuritymission.gov.in/appln_info.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/ak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1. One who is totally bedridden and at home with a debilitating disability (physical, functional or mental).\n1. One can not take care of himself/herself for any day-to-day activity without the support of another person.\n1. One who belongs to a family, Below Poverty Line as per the BPL list and as per the ration card.",
+  "_criteria_filled": 3
+}

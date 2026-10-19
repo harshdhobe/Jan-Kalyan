@@ -1,0 +1,26 @@
+{
+  "id": "seemant-parvatiya-janpad-baal-vigyan-mahotsav",
+  "name": "Seemant Parvatiya Janpad Baal Vigyan Mahotsav",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this, special opportunities are provided to child scientists from the border hill districts to participate in various state-level science competitions and to promote scientific awareness through activities in remote border areas.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-science-competition-vigyan-m"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhdcsf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student from classes 6 to 12, studying in a government or non-government school in any of the six border districts of the state: Uttarkashi, Chamoli, Rudraprayag, Champawat, Bageshwar, or Pithoragarh.\n\n<br>",
+  "_criteria_filled": 1
+}

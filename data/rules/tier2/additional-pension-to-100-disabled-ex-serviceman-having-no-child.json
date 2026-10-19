@@ -1,0 +1,31 @@
+{
+  "id": "additional-pension-to-100-disabled-ex-serviceman-having-no-child",
+  "name": "Additional Pension to 100% Disabled Ex-Serviceman having No Child",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. An additional amount of ₹100 per month is given to 100% disabled ex-servicemen, irrespective of rank, until death.\n\n**Mode of Payment:**\nEach Secretary of District Sainik Board will make payment of additional pension on a quarterly basis by money order or in cash, as may be convenient.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-original-discharge-boo"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=7kDaGn2G0FAwOp1V%2ff8Jxg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/apdemnc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be an Ex-serviceman. An ex-serviceman means a member of the Armed Forces who is released from service due to 100% disability or permanent incapacity to work and the disability or incapacity is attributable to service.\n   1. The applicant should have 100% disability.\n   1. The benefit is provided only to those Ex-Servicemen who have no children, irrespective of rank, until death.",
+  "_criteria_filled": 2
+}

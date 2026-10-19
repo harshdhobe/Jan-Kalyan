@@ -1,0 +1,26 @@
+{
+  "id": "self-employment-scheme-gujarat",
+  "name": "Self Employment Scheme Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Monetary Benefit:** Loan assistance between ₹50,000 and ₹5,00,000, depending on the chosen business activity.- **Interest Rate:** 4% per annum.- **Coverage:** Applicable for 85 different types of businesses as identified by the department.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-affidavit-artisan-identity-card-business-address-proof-identity"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sesg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must belong to the Scheduled Tribe (ST) category.\n- The applicant must be unemployed at the time of applying.\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

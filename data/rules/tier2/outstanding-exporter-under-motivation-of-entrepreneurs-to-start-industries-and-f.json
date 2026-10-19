@@ -1,0 +1,27 @@
+{
+  "id": "outstanding-exporter-under-motivation-of-entrepreneurs-to-start-industries-and-f",
+  "name": "\"Outstanding Exporter\" under “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - State Awards to Micro, Small and Medium Enterprises”",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Cash Award of ₹2,00,000/- and a Citation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-profitable-exports-proof-of-being-a-direct-manufacture-exporter-entrepr",
+    "as-required-by-the-award-committee"
+  ],
+  "apply_url": "https://industry.py.gov.in/sites/default/files/state-award-go.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oexp-mesifai-sa-msme",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The unit should be functioning profitably and exporting for 3 years.\n- The exporting industry should be a direct manufacture exporter.\n- The unit should provide at least 60% of employment to the people of UT of Puducherry of the total employment strength of the industrial units.",
+  "_criteria_filled": 1
+}

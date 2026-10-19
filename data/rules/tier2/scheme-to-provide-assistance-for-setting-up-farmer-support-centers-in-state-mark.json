@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-assistance-for-setting-up-farmer-support-centers-in-state-mark",
+  "name": "Scheme to Provide Assistance for Setting Up Farmer Support Centers in State Market Committees and for Computerization of All Market Committees",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance**To create farmer support center50% of the cost incurred including manpower (employee salaries) or a maximum of ₹2,00,000/-, whichever is less.To computerize the state market committeesCentral software will be developed by the state government.For necessary hardware/software for computerization of State Market Committees\tFor the necessary hardware/",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proposal-document-from-the-market-committee-budget-estimation-and-cost-details-m"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=cuul3IDjBT04vsTxpbv10A==&domain=Uxijm857oHjeSHuzZgXyAA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/spafsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Market Committees of all areas of Gujarat State shall be eligible for this scheme.",
+  "_criteria_filled": 1
+}

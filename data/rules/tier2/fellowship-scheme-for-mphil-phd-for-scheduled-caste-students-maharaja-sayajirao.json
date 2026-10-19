@@ -1,0 +1,31 @@
+{
+  "id": "fellowship-scheme-for-mphil-phd-for-scheduled-caste-students-maharaja-sayajirao",
+  "name": "Fellowship Scheme for M.Phil & Ph.D for Scheduled Caste Students (Maharaja Sayajirao Gayakvad Scholarship)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Scholarship rate per student:**\n\n- For M.Phil: ₹2,500/Per Month (For 10 Months)\n- For PhD:  ₹10,000/Per Month (For 10 Months)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-income-certificate-competent"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/schemes/1529?lang=English",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsmpscsmsgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the Scheduled Caste of Gujarat.\n   1. The student should be enrolled in either an M.Phil or Ph.D. program.\n   1. The annual family income of the student should be up to ₹6,00,000/-.\n   1. This assistance is paid on the condition that the student submits a thesis.",
+  "_criteria_filled": 2
+}

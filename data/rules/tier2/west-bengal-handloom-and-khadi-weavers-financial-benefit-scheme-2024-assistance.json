@@ -1,0 +1,26 @@
+{
+  "id": "west-bengal-handloom-and-khadi-weavers-financial-benefit-scheme-2024-assistance",
+  "name": "West Bengal Handloom and Khadi Weavers Financial Benefit Scheme 2024: Assistance to Viable and Potentially Viable PWCS",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "₹1,00,000/ to ₹10,00,000/- depending on the extent of activity of the PWCS.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-aadhar-card-proof-of-being-a-handloom-khadi-weaver-any-other-documents-as"
+  ],
+  "apply_url": "https://wbmsme.gov.in/sites/default/files/cms/circularpdf/1709829549NOTIFICATION%20No.%201001-MSMET%20dt.%207.3.2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/avpv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following categories of weavers are eligible under this Scheme: \n\n  - Handloom Weavers (Entrepreneur Weavers, so called Master Weavers/Individual Weavers/ Allied Workers Associated with Handloom Weaving/Cooperative fold Weavers/ Weavers associated with Handloom Clusters etc.),\n  -  Khadi Weavers.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conducting-outreach-programmes-in-various-fields",
+  "name": "Conducting Outreach Programmes in Various Fields",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "In order to make the benefits of science education and research accessible to every individual in the state, information regarding the development of scientific consciousness and the dissemination of scientific knowledge among students, teachers, and the general public through online and offline mediums is disseminated through various social media sites, USERC Science Awareness Centres (currently ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-conducted-outreach-programme"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/copvf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student or a person (general public) from Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

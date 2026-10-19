@@ -1,0 +1,28 @@
+{
+  "id": "investment-promotion-scheme-ips-2022-for-thrust-sectors-scheme-for-vaccine-manuf",
+  "name": "Investment Promotion Scheme (IPS) 2022- for Thrust Sectors: Scheme For Vaccine Manufacturing Units",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "Credit Linked Interest Subsidy for Vaccine Manufacturing Units @ 70% of interest charged by Bank with upper ceiling up to Rs.60 Lakhs per annum for 5 years OR for the period of repayment of loan whichever is earlier and Capital investment Subsidy @ 15% of the investment upto a maximum of 10 crores. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipsftsvmu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  The Scheme is applicable to New Enterprises and Existing Enterprises who had started commercial production during the operative period of the Scheme. \n   1. Only Gross Fixed Capital Investment (GFCI) made in New Building, New Plant &amp;amp; Machinery / Equipment and Machineries excluding land will be eligible for incentives for manufacturing. \n   1. Enterprise shall have to furnish information regarding production, sales, turnover, and employment etc. annually to concerned DIC before end of September each year. \n   1. Enterprise will have to observe pollution Control measures as prescribed by PCC or other competent authority. \n   1. Enterprise will have to remain in production for 5 years from the date of commercial production and if it fails to continue production for 5 years, the amount of Capital Investment Subsidy disbursed will be recovered as arrears of land revenue. \n   1. Out of Diversification and Expansion, only one activity once will be eligible for subsidy during the policy period. \n   1. Existing or New Enterprise carrying out an activity of Expansion or Diversification with an investment more than 50% (out of which minimum 60% investment should be in Plant &amp;amp; machinery) of GFCI will be eligible. \n   1. The Enterprise shall furnish Chartered Accountant certified bills. \n   1.  Loan Sanctioned by Bank or Financial Institution as per RBI guidelines for the industry located in U.T. will be eligible for subsidy under this Scheme. \n   1. The Enterprise will not be eligible for Interest Subsidy under this Scheme if, term loan is sanctioned after one year from the date of commencement of commercial production. \n   1. Enterprise shall have to apply at online portal within one year from the date of first disbursement of loan or on or before the date of commencement of commercial production, whichever is later. \n   1. Interest subsidy will be eligible either from the date of first disbursement of loan or from the date of commencement of commercial production whichever is later. \n   1. Reimbursement of interest subsidy will be made only after commencement of commercial production of the enterprise. \n   1. If the Enterprise becomes defaulter in payment of interest or instalment of term loan to Bank/Financial institution as per guidelines of RBI and as mentioned in certificate of Bank/Financial institution such default period will be deducted. \n   1. The interest subsidy will be available only on interest levied by the financial institution/banks. \n   1. Interest Subsidy will not be available for penal interest or any other bank charges. \n   1. The eligible Enterprise shall have to bear a minimum of 2% interest levied on term loan by any Bank / Financial institution. The Enterprise shall submit details and undertaking in this regard. \n   1. The interest subsidy will be directly credited to Bank / Financial institution.\n\n<br>",
+  "_criteria_filled": 1
+}

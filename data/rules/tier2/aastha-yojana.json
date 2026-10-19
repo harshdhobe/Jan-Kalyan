@@ -1,0 +1,36 @@
+{
+  "id": "aastha-yojana",
+  "name": "Aastha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- Aastha cardholder families receive benefits similar to BPL families, including free medical treatment and ration supplies.\n\n**Note:** Aastha cardholders are entitled to benefits from all BPL-related schemes run by different state government departments.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-domicile-certificate-disability-certificate-aadhaar-card-any-othe"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=114",
+  "source_url": "https://www.myscheme.gov.in/schemes/asr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The two or more members should be specially abled from the same family.\n1. The applicant must have a disability of 40%.\n1. The annual family income should not exceed ₹1,20,000/-.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,29 @@
+{
+  "id": "promotion-of-tribal-culture",
+  "name": "Promotion of Tribal Culture",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Financial Grant:** Maximum of ₹3,00,000/- per organization for tribal culture promotion initiatives (e.g., heritage, literature, local brews).\n**Disbursement:** Subject to Selection Committee approval and fund availability.\n_*Financial assistance is not a right; approval depends on eligibility and fund availability._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "registration-document-of-ngotrustvoluntary-organization-valid-till-201718-detail",
+    "including-plan",
+    "estimate",
+    "and-budget-background-certification-of-the-organization-from-the-concerned-distr"
+  ],
+  "apply_url": "https://directoratetribalaffairsplain.assam.gov.in/sites/default/files/swf_utility_folder/departments/directorate_wpt_uneecopscloud_com_oid_4/how_do_i/level_1/promotion_of_tribal_culture_form.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Registered NGO/Trust/Voluntary Organization under the Societies Registration Act, 1980, or equivalent.\n- The applicant must have a demonstrated background in promoting tribal culture.\n\n_*Priority is given to organizations with ST(P) members._",
+  "_criteria_filled": 1
+}

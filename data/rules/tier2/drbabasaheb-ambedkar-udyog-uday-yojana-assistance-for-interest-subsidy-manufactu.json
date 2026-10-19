@@ -1,0 +1,36 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-for-interest-subsidy-manufactu",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance for Interest Subsidy (Manufacturing Sector)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n**Category of Taluka** **Quantum of Incentive**  [Category I](https://indextb.com/files/2020/11/a34fc914-6cdd-4fd6-8773-502017da4334_taluka%20category.pdf)8% on Term Loan with a maximum amount of ₹35,00,000/- per annum for a period of 7 years[Category II](https://indextb.com/files/2020/11/a34fc914-6cdd-4fd6-8773-502017da4334_taluka%20category.pdf)7% on Term Loan with a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuyisms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n  - The enterprise must be a manufacturing enterprise.\n  - The enterprise must be engaged in the manufacturing sector.\n  - The term loan should be availed from a recognized bank or financial institution.\n  - The loan must be sanctioned before the enterprise starts commercial production.\n  - If the enterprise installs a solar/renewable energy plant, it must be for captive consumption.\n  - The enterprise must bear a minimum of 2% interest on the term loan.\n  - The application must be submitted within the prescribed timeline.\n\n&amp;amp;gt; **Note:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

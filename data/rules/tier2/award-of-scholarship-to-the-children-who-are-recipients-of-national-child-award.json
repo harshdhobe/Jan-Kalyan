@@ -1,0 +1,28 @@
+{
+  "id": "award-of-scholarship-to-the-children-who-are-recipients-of-national-child-award",
+  "name": "Award of Scholarship to the Children who are Recipients of National Child Award for Exceptional Achievements and Other National / International Merit Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "> **Scholarship**\n\n₹6,000/- per annum per student.\n> **Mode of Disbursal**\n\nThe amount is disbursed directly into the Aadhaar-seeded viable bank account by Direct Benefit Transfer (DBT) through the Electronic Clearance System (ECS).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "stamp-sized-photograph-aadhaar-card-testimonials-of-the-awards-relevant-certific",
+    "issued-by-the-officer-of-the-revenue-department-not-below-the-rank-of-a-deputy-t",
+    "countersigned-by-the-competent-educational-authority-of-the-respective-stateut"
+  ],
+  "apply_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_National%20Child%20Award.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/ascrncaeaonima",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be domiciled in the Union Territory of Puducherry.\n- The applicant should be a recipient of the National Child Award for Exceptional Achievements and Other National / International Merit Awards\n- The applicant should study in an educational institution run by any State Government/ Central Government/ Private School recognized by the respective State/Central Government.",
+  "_criteria_filled": 1
+}

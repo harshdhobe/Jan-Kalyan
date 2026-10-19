@@ -1,0 +1,31 @@
+{
+  "id": "janani-suraksha-yojana-jsy",
+  "name": "Janani Suraksha Yojana (JSY)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **One-Time Cash Assistance for Institutional Delivery (Mother&#39;s Package):**\n\n- **In Low Performing States (LPS):** ₹1,400/- for rural areas and ₹1,000/- for urban areas.- **In High Performing States (HPS):** ₹700/- for rural areas and ₹600/- for urban areas.- **For North-Eastern States (except Assam) and Rural areas of tribal districts of other states:** ₹700/- (Mother&#39;s package).\n> ***N",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationbelow-poverty-line-certificate-required-in-all-high-performing",
+    "and-for-home-deliveries-in-all-states-scheduled-caste-certificate-for-women-in-a",
+    "forms-part-of-janani-suraksha-yojana-registration-card-during-benefit-disburseme",
+    "to-be-carried-by-the-beneficiary-for-accredited-private-institutions-and-for-det",
+    "for-encashment-at-the-hospitals-cash-counter-at-discharge-vouchers-issued-by-the",
+    "to-be-provided-monthly-to-the-auxiliary-nurse-midwife-statement-of-janani-suraks"
+  ],
+  "apply_url": "https://nhm.gov.in/WriteReadData/l892s/97827133331523438951.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsy1",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Institutional Delivery (General):**\n\n- The applicant must deliver in a government health centre, such as a Sub-centre (specifically approved for institutional delivery by the state), Primary Health Centre, Community Health Centre, First Referral Unit, or the general wards of District and State Hospitals.\n- The applicant may deliver in an accredited private health institution.\n\n> **Eligibility Specific to Low Performing States (LPS):**\n\n- The applicant must be a pregnant woman.\n- The applicant does not need any marriage or Below Poverty Line (BPL) certification if delivering in a Government or accredited private health institution.\n- For Above Poverty Line (APL) women in LPS: The applicant is extended benefits if availing institutional delivery care in government health centres (Sub-centre, Primary Health Centre, Community Health Centre, First Referral Unit, and general wards of District and State Hospitals).\n\n> **Eligibility Specific to High Performing States (HPS):**\n\n- The applicant must be from a Below Poverty Line (BPL) household.\n- The applicant must be a Scheduled Caste (SC)/Scheduled Tribe (ST) woman.\n\n> **For Accredited Private Institutions (LPS &amp; HPS):**\n\nThe applicant must be from a Below Poverty Line (BPL) household.\n\n- The applicant must be a Scheduled Caste (SC)/Scheduled Tribe (ST) woman.\n- The applicant must produce a proper Below Poverty Line or a Scheduled Caste/Scheduled Tribe certificate.\n- The applicant should carry a referral slip from the Accredited Social Health Activist/Auxiliary Nurse Midwife/Medical Officer and the Maternal and Child Health - Janani Suraksha Yojana (JSY) card.\n\n> **For Home Delivery (All States/Union Territories):**\n\n- The applicant must be from a Below Poverty Line (BPL) household.\n- The applicant must have a Below Poverty Line certificate to access benefits.\n\n<br>",
+  "_criteria_filled": 1
+}

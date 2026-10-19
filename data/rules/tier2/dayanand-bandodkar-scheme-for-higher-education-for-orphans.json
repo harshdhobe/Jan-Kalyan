@@ -1,0 +1,26 @@
+{
+  "id": "dayanand-bandodkar-scheme-for-higher-education-for-orphans",
+  "name": "Dayanand Bandodkar Scheme For Higher Education For Orphans",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. A full waiver of the fees that were supposed to have been paid by the beneficiary in the Institutions where they have sought the admissions. \n1. The amount of fee waiver shall consist of Tuition fees, Library fees, Laboratory fees and Development fees, if any plus other charges payable to Institution like Lodging/Boarding, Food (Hostel charges) or Transport, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-death-certificate-of-father-and-mother-proof-of-educational-qu"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/Dayanand-Bandodkar-Scheme-for-Orphans.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbsheo",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have been born in Goa or have resided in Goa for at least the last fifteen (15) years.\n1. The applicant should have passed his/her qualifying examination from any of the Institutions located in Goa.\n1. The applicant should be an Orphan.\n1. The applicant should be enrolled for the First Year of their Degree/PG Courses.",
+  "_criteria_filled": 1
+}

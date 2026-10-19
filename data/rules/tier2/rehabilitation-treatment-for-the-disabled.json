@@ -1,0 +1,33 @@
+{
+  "id": "rehabilitation-treatment-for-the-disabled",
+  "name": "Rehabilitation Treatment For The Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "Medical treatment: The scheme provides medical treatment to persons with disabilities, including surgeries and therapies.\nAssistive devices: The scheme provides assistive devices such as hearing aids, wheelchairs, crutches, and prosthetic limbs.\nRehabilitation services: The scheme provides rehabilitation services such as physiotherapy, occupational therapy, and speech therapy.\nTraining and educati",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-a-registered-medical-practitioner-proof-of-resi",
+    "voter-id-card",
+    "or-ration-card-identity-proof-such-as-an-aadhaar-card-or-voter-id-card-bank-acco"
+  ],
+  "apply_url": "https://meghalaya.gov.in/schemes/content/15649",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtfd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The person must be a resident of Meghalaya.\n1. The person must have a disability certificate issued by a registered medical practitioner.\n1. The disability percentage should be more than 40%.",
+  "_criteria_filled": 2
+}

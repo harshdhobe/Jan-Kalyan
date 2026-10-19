@@ -1,0 +1,33 @@
+{
+  "id": "integrated-social-security-scheme-pension-for-transgender",
+  "name": "Integrated Social Security Scheme - Pension For Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "A pension of ₹1000 per pensioner per month is deposited directly into their Bank Account through DBT mode.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-ration-card-voter-card",
+    "etc-income-certificate-of-less-than-rs-75",
+    "000-per-annum-or-bpl-category-copy-of-aadhaar-card-copy-of-bank-passbook-certifi"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/pdf/FORMISSS1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/isss-pot",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be Transgender.\n1. The income of the applicant should be less than Rs. 75,000/- per annum or the applicant should be from the &quot;Below Poverty Line (BPL)&quot; Category.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,36 @@
+{
+  "id": "chief-minister-housing-assistance-programme",
+  "name": "Chief Minister Housing Assistance Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "1. Three bundles of 9-foot-long GCI sheets (roofing material) for EWS households as an outright grant.\n1. Construction of a durable house with a carpet area of a minimum of 19.20 sqm (207 sq. ft) with at least 2 rooms for LIG households as a credit-linked subsidy.\n1. Financial assistance up to ₹75,000 under the Credit Linked Subsidy Scheme for LIG houses.\n1. Additional cost to be borne by benefici",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "election-photo-identity-card-epic-or-residence-proof-document-income-certificate"
+  ],
+  "apply_url": "https://meghalaya.gov.in/schemes/content/37229",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmhap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bona fide resident of the State of Meghalaya.\n1. The applicant should belong to the Economically Weaker Section (annual income up to ₹1,00,000) or the Low Income Group (income between ₹1,00,001 and ₹2,00,000).\n1. The applicant should be 18 years of age or above.\n1. The applicant should not have any other member from the same family living under the same roof as a beneficiary under the same scheme.\n1. The applicant should not own a pucca house in their or any family member&#39;s name.\n1. The applicant should possess their own land (for construction in case of a dwelling house).\n1. The applicant should submit the EPIC (Electors&#39; Photo Identity Card) or any other valid document as proof of residence.\n1. The applicant should not have received any previous housing loan or financial aid from any other government source in their or their spouse’s name.\n1. The applicant should construct the house personally and not through a contractor.\n\n<br>",
+  "_criteria_filled": 3
+}

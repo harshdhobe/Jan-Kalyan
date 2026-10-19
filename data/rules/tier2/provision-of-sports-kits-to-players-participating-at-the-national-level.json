@@ -1,0 +1,26 @@
+{
+  "id": "provision-of-sports-kits-to-players-participating-at-the-national-level",
+  "name": "Provision of Sports Kits to Players Participating at the National Level",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, sports kits are provided through sports associations to players and team members participating in various sports disciplines at the national level across different age groups. \n  - Approximately 1,000 players benefit from the scheme annually.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-as-required-by-the-respective-sports-federations"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pskppnl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a player or a member of a team representing Uttarakhand.\n   1. The applicant or their team must be participating in national-level sports competitions.\n\n<br>",
+  "_criteria_filled": 1
+}

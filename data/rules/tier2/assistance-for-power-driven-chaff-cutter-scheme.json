@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-power-driven-chaff-cutter-scheme",
+  "name": "Assistance for Power Driven Chaff Cutter scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component**\t**Standard of Assistance**\t**Minimum Time Limit(In Year) for Reclaiming Benefits**\tAssistance for Power Driven Chaff Cutter scheme under General People, Schedule Caste People and Schedule Tribe People.\tAssistance up to 75% of the purchase cost or ₹18,000/- whichever is less is given to beneficiary.5 Year\t<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbook-copy-or-cancelled-cheque-ration-card-having-bar-code-aadhaar-card"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=wiB0mG2hjcblY52frAvd0g==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/afpdccs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The scheme is applicable to General, Scheduled Caste (SC), and Scheduled Tribe (ST) individuals.\n\n- The applicant must be engaged in dairy farming.\n\n<br>",
+  "_criteria_filled": 1
+}

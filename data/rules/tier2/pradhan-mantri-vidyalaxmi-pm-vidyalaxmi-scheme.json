@@ -1,0 +1,28 @@
+{
+  "id": "pradhan-mantri-vidyalaxmi-pm-vidyalaxmi-scheme",
+  "name": "Pradhan Mantri Vidyalaxmi (PM-Vidyalaxmi) Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "- A special loan product of collateral-free and guarantor-free education loans for students admitted to QHEIs.\n\n- The loan amount depends on the course fee and other associated expenses (mess, hostel fee, refundable and non-refundable fees, laptop, living expenses) with no upper limit.\n- 75% credit guarantee by the Government of India for loan amounts up to ₹7,50,000, irrespective of family income",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-pan-card-address-proof-previous-qualifying-marksheets-self-attested",
+    "along-with-the-fee-structure-income-certificate-from-the-designated-public-autho",
+    "the-student-should-submit-a-certificate-from-the-qhei-regarding-the-same-proform"
+  ],
+  "apply_url": "https://pmvidyalaxmi.co.in/img/UserManual-Student.pdf?csrt=17538697394644098652",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Students**\n\n- The applicant must be an Indian citizen.\n- The applicant must get merit-based admission to one of the 860 designated Quality Higher Educational Institutions (QHEIs) in India.\n- The applicant must not be admitted through the management quota or a similar quota.\n- The applicant must have an annual family income of up to ₹8,00,000 to qualify for 3% interest subvention.\n- The applicant must not be receiving any other Central/State Government Scholarship or interest subvention scheme or fee reimbursement.\n- The applicant must not discontinue the course midstream or be expelled from the institution on disciplinary or academic grounds.\n- The applicant must maintain satisfactory academic performance to receive interest subvention from the 2nd year onwards.\n- The applicant can avail interest subvention and credit guarantee benefits only once, either for an undergraduate or postgraduate or integrated course.\n\n**For Quality Higher Education Institutions (QHEIs)**\nThe following institutions are eligible - \n\n- Top 100 ranked HEIs in the overall/category-specific and/or domainspecific rankings in latest list of NIRF published by the Ministry of Education.\n- Top 200 ranked HEIs under the governance of state/UT governments in the latest list of NIRF published by the Ministry of Education. \n- All remaining HEIs under the governance of the Government of India. \n\n_*Indian campuses of foreign education institutions, foreign campuses of Indian education institutions and foreign education institutions will not be covered._ \n<br>",
+  "_criteria_filled": 1
+}

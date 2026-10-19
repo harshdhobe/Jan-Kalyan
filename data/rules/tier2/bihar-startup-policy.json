@@ -1,0 +1,26 @@
+{
+  "id": "bihar-startup-policy",
+  "name": "Bihar Startup Policy",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "1. Bihar’s startup policy was launched in Bihar in the month August 2022 to boost entrepreneurship in the state.\n1. Young Bihar entrepreneurs would get a loan of 10 lacks without interest for ten years. This sum will be allocated as seed money under the Bihar Startup Policy.\n1. Enhanced incentives of 5 per cent for female entrepreneurs, in addition to a grant of 3 lakh rupees for businesses that p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "valid-email-id-the-email-should-be-valid-for-at-least-1-year-mobile-no-linked-wi"
+  ],
+  "apply_url": "https://startup.bihar.gov.in/static/media/Bihar%20Start%20Up%20Policy%202022%20-%20English.819a44b43dd8fb4ddf0d.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Up to a period of ten years from the date of incorporation/ registration, if it is incorporated as a private limited company (as defined in the Companies Act, 2013) or registered as a partnership firm (registered under section 59 of the Partnership Act, 1932) or a limited liability partnership (under the Limited Liability Partnership Act, 2008).\n   1. Turnover of the entity for any of the financial years since incorporation/ registration has not exceeded one hundred crore rupees.\n   1. The entity is working towards innovation, development or improvement of products or processes or services, or it is a scalable business model with a high potential for employment generation or wealth creation.\n   1. Provided that an entity formed by splitting up or reconstruction of an existing business shall not be considered a ‘Start-up’.\n   1. Provided Start-up must be incorporated or registered in Bihar and have an office in Bihar.\n   1. Provided further applicable taxes from the operations of the company are payable in Bihar.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-college-students-rehabilitation-scheme-cmcsrs",
+  "name": "Chief Minister’s College Students Rehabilitation Scheme (CMCSRS)",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "**Component 1:** _Directly Affected Students_\n\n1. Transfer to a new college (as per request).\n1. Free admission for 2023-24 (Admission amount ranging from ₹5,000 to ₹9,000 as per the stream/subjects offered).\n1. One-time rehabilitation grant of ₹10,000/- (₹5,000/- as book/stationery grant and ₹2,000/- for uniform and ₹3,000 for miscellaneous expenditure)\n1. Free Smart Phones under CMCMESS.\n1. Prov",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-college-identity-card-bank-details-certifi"
+  ],
+  "apply_url": "https://highereducationmanipur.gov.in/wp-content/uploads/2023/07/CMCSRS2023-Flyer.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmcsrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant should be studying in an Undergraduate Programme.\n1. The applicant should be studying in a Government or Government Aided College.\n1. The college should be located in the state of Manipur.",
+  "_criteria_filled": 1
+}

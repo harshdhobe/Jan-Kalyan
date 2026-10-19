@@ -1,0 +1,37 @@
+{
+  "id": "national-overseas-scholarship-for-students-with-disabilities",
+  "name": "National Overseas Scholarship For Students With Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Annual Maintenance Allowance:** For United States of America (USA) &amp; other countries except UK: $15400 (US Dollars); For United Kingdom (UK): 9900 GBP (Great Britain Pounds)1. **Contingency Allowance:** For United States of America (USA) &amp; other countries except UK: $1500 (US Dollars); For United Kingdom (UK): 1100 GBP (Great Britain Pounds)1. **Equipment Allowance:** 1500 INR1. **Tui",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "duly-completed-pro-forma-in-duplicate-certificate-of-proof-of-date-of-birth-birt",
+    "if-the-address-mentioned-in-the-application-is-different-from-the-address-mentio"
+  ],
+  "apply_url": "http://disabilityaffairs.gov.in/upload/uploadfiles/files/scholarship2(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nos-swd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n1. The applicant must be Admitted into (or received an unconditional offer of admission) Masters&#39;s level courses and Ph.D. courses abroad in institutions/universities accredited by the Government/authorized body of that country.\n1. The Disability Percentage of the applicant must be 40% &amp; above.\n1. The applicant must be 35 years or lesser in age, as on the first day of the month of advertisement of the scheme.\n1. The Total Family Income of the applicant (from all sources) must not exceed ₹ 6 lakh per annum.",
+  "_criteria_filled": 3
+}

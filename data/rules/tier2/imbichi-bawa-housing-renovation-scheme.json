@@ -1,0 +1,38 @@
+{
+  "id": "imbichi-bawa-housing-renovation-scheme",
+  "name": "Imbichi Bawa Housing Renovation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "- A non-refundable grant of ₹50,000/- is provided for the repair of a house.\n- This financial assistance is intended for improving basic amenities in houses that lack proper windows, doors, roofing, flooring, finishing, plumbing, sanitation, or electrification.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-application-form-ration-card-copy-land-tax-receipt-copy-for-the-20",
+    "in-the-name-of-the-applicant-or-spouse-permanent-residence-certificate-from-the",
+    "kidney-problems",
+    "heart-disease",
+    "liver-cirrhosis",
+    "paralysis",
+    "or-other-serious-illnesses",
+    "if-applicable-certificate-confirming-name-consistency-if-there-is-a-difference-b"
+  ],
+  "apply_url": "https://minoritywelfare.kerala.gov.in/pdfnewsflash/imbichi.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ibhrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to one of the following minority religious communities: Muslim, Christian, Buddhist, Sikh, Parsi, or Jain.\n- The applicant must be a widow, divorced woman, or abandoned woman.\n- The house, owned by the applicant or her spouse, should not exceed 1200 square feet in area.\n- The applicant must be the sole breadwinner of the family.\n- The house should lack basic facilities such as proper windows, doors, roofing, flooring, finishing, plumbing, sanitation, or electrification.\n\n> **Preference/Priority/Reservation/Relaxation**\n\n_*Preference is given to Below Poverty Line (BPL) families._\n_*Preference is given to applicants whose children face physical or mental challenges._\n_*Preference is given to applicants who have only daughters._\n_*Preference is given to applicants who do not have children._\n<br>",
+  "_criteria_filled": 2
+}

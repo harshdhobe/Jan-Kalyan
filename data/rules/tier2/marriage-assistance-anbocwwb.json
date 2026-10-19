@@ -1,0 +1,27 @@
+{
+  "id": "marriage-assistance-anbocwwb",
+  "name": "Marriage Assistance (ANBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andaman And Nicobar Islands",
+  "scope": "person",
+  "benefit": "1. Under this scheme, registered construction workers will receive financial assistance of ₹20,000/- to cover either their own marriage expenses or those of their two dependent children.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andaman And Nicobar Islands"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registrationpassport-size-photograph-proof-of-age-identit",
+    "if-any-proof-of-address-90-days-work-duration-certificate-issued-by-the-competen"
+  ],
+  "apply_url": "https://serviceonline.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ma-anbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of the Union territory of Andaman &amp;amp; Nicobar Islands.\n   1. The beneficiary should be engaged in any building &amp;amp; other construction work.\n   1. The beneficiary should be registered under the A&amp;amp;N Islands Building and Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. The assistance shall be given to meet the marriage expenses of the worker or his/her two dependent children.\n\n**Note:** Marriage assistance is limited for two children only.",
+  "_criteria_filled": 1
+}

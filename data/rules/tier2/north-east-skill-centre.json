@@ -1,0 +1,38 @@
+{
+  "id": "north-east-skill-centre",
+  "name": "North East Skill Centre",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "NESC will produce 400 trained candidates annually and offer a **one-year certification** program in \n\n- Hospitality - Food &amp; Beverage Service - 100 Nos\n- Hospitality – Housekeeping - 100 Nos\n- Retail Service - 100 Nos \n- Beauty &amp; Wellness - 100 Nos\n\n<br>\n\n1. **International Certification**: Graduate with a globally recognized 1-year certificate developed in collaboration with ITE Education",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 17
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-with-date-of-birth-102-passing-certificate-medical-fitness-certif",
+    "in-case-the-seats-reserved-for-the-domiciles-of-assam-remain-vacant",
+    "then-the-vacant-seats-may-be-allotted-to-students-of-other-states"
+  ],
+  "apply_url": "https://skillmissionassam.org/course/scheme/10",
+  "source_url": "https://www.myscheme.gov.in/schemes/nesc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. **Educational Qualification &amp; Age Limit:** 12th Pass and age between 17 and 25.1. **Domicile Reservation:** 80% seats are reserved for domiciles of Assam. If reserved seats remain vacant, they may be allotted to students from other states.1. **Physical Fitness Requirement:** All the Candidates shall be required to submit a Medical Fitness Certificate from a Registered Medical Practitioner at the time of admission.\n<br>",
+  "_criteria_filled": 3
+}

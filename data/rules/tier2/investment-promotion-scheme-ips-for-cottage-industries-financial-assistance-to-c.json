@@ -1,0 +1,33 @@
+{
+  "id": "investment-promotion-scheme-ips-for-cottage-industries-financial-assistance-to-c",
+  "name": "Investment Promotion Scheme (IPS) For Cottage Industries: Financial Assistance To Cottage Industries",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "- **Rate of Capital Subsidy:** 25% of the term loan amount for setting up of the Cottage Industry up to a maximum of ₹5,00,000/-.\n\n  - **Rate of Interest Subsidy:** 50% of the Interest charged by Bank or NBFC or Cooperative Bank shall be reimbursed up to a period of 5 years from the date of commencement of Production.\n**Note:**\n\n  - 10% additional capital subsidy shall be provided to Scheduled Cas",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "corporate-identification-number-cin-document-taxpayer-identification-number-tin",
+    "as-applicable-copy-of-partnership-deed-and-firm-registration-certificate-in-case",
+    "dnh-dd-as-applicable-for-notification-no-pccdmn13part-vi2020-21448-dated-2501202"
+  ],
+  "apply_url": "https://swp.dddgov.in/assets/pdf/Notification_IPS_2022_DNH_DD.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipsfaci",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be associated with Cottage Industry.\n  - The applicant should be above 18 years of age.\n  - The applicant should have passed minimum standard Four (IV).\n  - The applicant should have undergone training for minimum one month from Government of India recognized Institutes, in the area of the proposed business.\n\nOr,\nThe applicant should have experience of minimum 1 year in the same activity\nOr\nThe applicant should be hereditary craftsperson.",
+  "_criteria_filled": 2
+}

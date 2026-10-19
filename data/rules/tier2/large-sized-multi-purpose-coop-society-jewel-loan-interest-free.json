@@ -1,0 +1,28 @@
+{
+  "id": "large-sized-multi-purpose-coop-society-jewel-loan-interest-free",
+  "name": "Large Sized Multi Purpose Coop. Society: Jewel Loan (Interest Free)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Access to Loan:** Loan up to ₹1,00,000/-.  - **Interest Rate:** No interest.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-jewelry-valuation-certificate-proof-of-employment-or-income-ce"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3614",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsmpcjl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a member of a Large Sized Multi Purpose Cooperative Society.\n  - The beneficiary should be interested to avail Jewel Loan from the Large Sized Multi Purpose Cooperative Society.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

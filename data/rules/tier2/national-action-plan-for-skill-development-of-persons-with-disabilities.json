@@ -1,0 +1,36 @@
+{
+  "id": "national-action-plan-for-skill-development-of-persons-with-disabilities",
+  "name": "National Action Plan for Skill Development of Persons with Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Vocational/skill training (both short-term and long-term) is provided through a network of skill training partners. These partners include the government, the public sector, training institutions such as VRCs, private training institutions, and non-governmental organizations.\n   1. A cluster delivers partners&amp;#39; training nationwide, known for its successful track record in providing skill",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "udid-card-number-or-udid-enrolment-number-aadhar-number-or-aadhar-enrolment-numb"
+  ],
+  "apply_url": "https://disabilityaffairs.gov.in/upload/uploadfiles/files/NAP%20SDP%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nap-sdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Trainees**\n\n1. The applicant should be a citizen of India.\n1. The applicant should have a disability of not less than 40%, as defined under the Rights of Persons with Disabilities Act, 2016, and any relevant legal statute.\n1. The applicant should be between 15 and 59 years of age at the commencement of the course.\n1. The applicant should not have undergone any other skill training course sponsored under the National Action Plan for Skill Development of PwDs of the Department during the one year preceding the last application date for the applied course.\n1. The applicant should enroll in courses approved by NCVET and adhere to age, qualification, and disability type specified in the QP file.",
+  "_criteria_filled": 3
+}

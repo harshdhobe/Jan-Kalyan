@@ -1,0 +1,29 @@
+{
+  "id": "cash-prize-to-players-and-their-coaches-for-winning-medals-in-national-and-inter",
+  "name": "Cash Prize to Players and their Coaches for Winning Medals in National and International Competitions",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Under this scheme, athletes who achieve significant success at the national and international levels, along with their coaches, are awarded cash prizes. \n  - There is a provision to award prize money ranging from a minimum of ₹10,000/- to a maximum of ₹2 crore.  - Detailed information about the awards is available on the department&amp;#39;s website: [https://sports.uk.gov.in](https://sports.uk.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "document-for-players-aadhaar-card-of-the-player-bank-account-details-passport-si",
+    "world-all-india-university-competition-championship-medal-winners-by-the-higher",
+    "khelo-india",
+    "indian-rural-sports-competition-national-women-sports-festival-medal-winners-by"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cpmpcwmnic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Players and their coaches from Uttarakhand who have achieved remarkable success at the national and international levels in the field of sports are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

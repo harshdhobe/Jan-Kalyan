@@ -1,0 +1,27 @@
+{
+  "id": "akanksha-housing-scheme",
+  "name": "Akanksha Housing Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "Housing for serving State Government employees of West Bengal on a transparent lottery basis. The houses so built are based on the following categories based on the grade pay of the employees:\n1. ELEGANT for employees with grade pay of ₹8900/- & above, built-up area is 1434 sq. feet. It consists of three bedrooms, one drawing cum Dining, one kitchen, two balconies, two toilets, two water closets &",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-identity-card-online-application-with-deposit-amount-of-25",
+    "000-as-application-money-in-any-branch-of-bank-of-baroda-by-generating-challan-t"
+  ],
+  "apply_url": "https://wbhousing.gov.in/general-terms-condition",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "All serving State Govt. employees as defined in West Bengal Service Rules, except those State Govt. employees who have their own housing scheme such as `Pratyasha’ for Policemen or similar housing schemes under Government of West Bengal stated in Memorandum No. FD-647 dated 29th August, 2014 of the Finance Department of Govt. of West Bengal may apply for New Town Project under `AKANKSHA HOUSING SCHEME’ (AHS).",
+  "_criteria_filled": 1
+}

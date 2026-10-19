@@ -1,0 +1,49 @@
+{
+  "id": "gharaunda-group-home-for-adults-scheme",
+  "name": "Gharaunda-Group Home for Adults Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. An assured home and minimum quality of care services throughout the life of the PwD.\n1. Adequate and quality care service with acceptable living standards including provision of basic medical care from professional doctors.\n1. Vocational activities, pre-vocational activities and assistance for further training.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "enrolment-of-the-pwd-enrolment-form-birth-certificate-or-date-of-birth-proof-of",
+    "or-lg-certificate",
+    "if-pwd18-years-of-age-and-parents-are-not-the-guardians-enrolment-of-the-registe",
+    "title-deedownership-certificatelease-deed-bank-details-specifying-the-bank-accou",
+    "name-of-the-account-holder",
+    "name-of-the-bank",
+    "name-of-the-branch-and-ifsc-code-etc-date-of-issue-and-date-of-expiry-of-registr",
+    "therapists",
+    "caregivers",
+    "support-staff-2-months-infrastructure-activity-rooms",
+    "vocational-rooms",
+    "recreation-rooms",
+    "medical-rooms",
+    "lodging",
+    "kitchen",
+    "office-1-month-disability-provisions-accessible-premises",
+    "toilets",
+    "furniture",
+    "fixtures"
+  ],
+  "apply_url": "https://nationaltrust.nic.in/gharaunda-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/gghas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility criteria for the PwD:**\n\n1. PwD should be more than 18 years of age.\n1. PwD should have one of the disabilities under the [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf), which are Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities.\n**Eligibility criteria for Registered Organization:**\n\n1. Applicant should be registered with the National Trust.\n1. Applicant should have a valid registration under the PwD Act 1995, at the time of enrolment.\n1. The group home land should either be owned by RO or should have lease of at least 10 years with provision of renewal.\n1. RO should have minimum 2 years of experience of working with Persons with Disabilities (PwD) with at least one year experience in one of the four disabilities under the National Trust Act.\n1. RO should not be blacklisted by the National Trust or any other Government Organization on the date of submission of scheme enrolment form.\n\n<br>",
+  "_criteria_filled": 2
+}

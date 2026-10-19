@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-to-son-and-daughter-of-differently-abled-persons",
+  "name": "Scholarship To Son And Daughter Of Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "The scheme provides financial assistance in the form of scholarships to eligible students. The exact amount and duration of the scholarship may vary based on the level of education and the government&#39;s guidelines.\nScholarships given to the Son/Daughter of persons with disabilities are as follows: \n\n1. The daughter studying/Passing in 10th Standard will get Rs.1,000.\n1. The Son who has passed i",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "medical-certificate-with-national-disabled-identity-card-and-disability-welfare"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2021/06/2021060112.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssddap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Children of any Differently Abled persons holding the identity card issued by the welfare board for the Differently Abled. \n1. This scholarship is applicable for students studying from Standard 11th to the Postgraduate level, which includes ITI/Polytechnic diploma courses and other higher education programs.",
+  "_criteria_filled": 2
+}

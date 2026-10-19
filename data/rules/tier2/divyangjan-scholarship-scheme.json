@@ -1,0 +1,35 @@
+{
+  "id": "divyangjan-scholarship-scheme",
+  "name": "Divyangjan Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- ₹150/- per month for the Students of 1st to 5th Standard\n- ₹170/- per month for the Students of 6th to 8th Standard\n- ₹190/- per month for the Students of 9th to 12th Standard",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-residence-proof-aadhaar-card",
+    "ration-card",
+    "or-any-government-issued-id-income-certificate-bonafide-certificate-from-the-sch",
+    "college",
+    "or-technical-institution-previous-academic-marksheet-bank-account-details"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/divyangscholarshipscheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dssmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Chhattisgarh.\n- The applicant should be a Student.\n- The applicant should be differently-abled.\n- The applicant should have a disability of 40% or above.\n- The applicant should be a regular student in a college/technical school.",
+  "_criteria_filled": 2
+}

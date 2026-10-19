@@ -1,0 +1,32 @@
+{
+  "id": "pradhan-mantri-dakshta-aur-kushalta-sampann-hitgrahi-pm-daksh",
+  "name": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH)",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "##### **Key benefits:**\n\n  - Training free of cost for the trainees, 100% grants by Government.\n  - Stipend will be given to trainees during the period of training.\n  - Trained candidates will be provided certification after successful completion of training and assessment.\n  - Trained candidates will be provided placement after assessment and certification.\n\n##### **Category of Skilling Programme",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photograph-castecommunity-certifica",
+    "if-applicable-proof-of-age-residence-proof-educational-qualification-certificate"
+  ],
+  "apply_url": "https://socialjustice.gov.in/schemes/100",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-daksh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be an Indian national with valid proof of nationality.\n- Applicant must be aged between 18 and 45 years.\n- Applicant must belong to one of the following groups: \n\n   1. Scheduled Castes (SC); \n   1. Other Backward Classes (OBC);\n   1. Economically Weaker Sections (EWS); \n   1. Denotified &amp;amp; Nomadic Tribes (DNT0, or \n   1. Safai Mitras (including Waste Pickers).\n\n- Applicant from OBC or EWS must have an annual family income below ₹3,00,000/- .\n- Applicant from SC, DNT, or Safai Mitras (including Waste Pickers) has no income limit.\n- Applicant must possess a valid Aadhaar card (exemption for the candidates of such States which have not implemented Aadhaar completely).\n- Applicant must have an Aadhaar-linked bank account.\n- Applicant must register on the Skill India Digital Hub (SIDH).\n&gt; **Target Groups:**\n\n  - ***Up-skilling/Re-skilling under Recognition of Prior Learning (RPL):*** Up-skilling / Re-skilling under Recognition of Prior Learning (RPL) will only be applicable to Safai Mitras including waster pickers who constitute the bottom of the pyramid.  - **Short-Term Courses (focus on wage/self-employment):** Most disempowered groups belonging to SC/OBC/EWS/DNT and Sanitation Workers including Waste Pickers and their dependents having aspirations to be employed in sectors having good demand in job market with suitable wage.  - **Entrepreneurial Development Programmes(EDP):** SCs, EWSs, OBCs and DNTs youth who are having an entrepreneurial bent of mind.\n&gt; **Note:**\n\n  - **Attendance:**\n\n   1. Compulsory AEBAS-based attendance of assessors and candidates during assessment.\n   1. More than 70% of biometric attendance is required for each candidate to appear in the assessment in all types of training.\n\n  - **On the Job Training (OJT):** \n\n   1. The establishments offering OJT will give a certificate at the end of OJT indicating the duration and attendance of the candidate.\n   1. It will be the responsibility of the Training Provider to ensure the attendance of the candidates.\n   1. The final assessment of the candidates will be carried out after completion of OJT, and it shall be the responsibility of the training provider to ensure the presence of all eligible candidates for the assessment after completion of OJT. \n   1. In districts where facilities for OJT are not available, special exemptions will be given by PAC. In these districts, candidates may carry out project work.",
+  "_criteria_filled": 2
+}

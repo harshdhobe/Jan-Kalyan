@@ -1,0 +1,26 @@
+{
+  "id": "solar-water-heater-yojana-uttarakhand-renewable-energy-development-agency",
+  "name": "Solar Water Heater Yojana - Uttarakhand Renewable Energy Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "1. Under the Solar Water Heater Scheme, the power supply to electricity consumers in the state is often maintained by purchasing electricity at high rates by the DISCOM during peak hours, which directly impacts both consumers and the state government. The installation of solar water heaters will reduce consumers&amp;#39; dependence on grid power and promote solar energy projects across the state. ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-electricity-bill-billinvoice-of-the-installed-solar-water-heater-pl"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/swhyureda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must have a valid electricity connection with Uttarakhand Power Corporation Limited (UPCL).\n1. The applicant must be the owner of the residential property where the solar water heater is proposed to be installed.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "incentive-award-for-marriage-with-disabled-person",
+  "name": "Incentive Award For Marriage With Disabled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "₹ 15,000/- in the case of a girl marries a young man with a disability.\n₹ 20,000/- in the case of a young man mairres a girl with a disability.\n₹ 35,000/- in the case a girl with a disability marries a young man with a disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-number-passport-size-photographs-proof-of-identity-proof-of-age-proof-of",
+    "government-of-manipur-disability-certificate-issued-by-the-competent-authority",
+    "a-certificate-from-the-concerned-district-social-welfare-officer",
+    "manipur-to-the-effect-that-both-the-husband-and-wife-are-living-together-at-the",
+    "a-declaration-to-be-jointly-signed-by-both-the-parties-that-day-will-not-resort"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/95/a0/95a06957-f9f8-4488-9ca2-72199ebe2a9a/merriage_incentive.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iamdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile of the state of Manipur.\n1. The applicant should be of legal marriage age.\n1. The applicant should be marrying a Person with a Disability of legal marriage age. The age of the girl in the couple should not be less than 18 years and not more than 45 years at the time of marriage.\n1. The percentage of disability should be 40% and above.\n1. The applicant should not be an income taxpayer.\n1. The marriage should take place in Manipur and both the husband and wife should be living together at the time of applying this scheme.\n1. The marriage should be registered with the Registrar of Marriage and it shall fulfill the following conditions, namely: -\n\na)   neither party has a spouse living at the time of marriage;\nb)   at the time of marriage, neither party - \n                i.   is incapable of giving valid consent to it in consequence of unsoundness of mind; or\n                ii.  though capable of giving valid consent, has been suffering from a mental disorder of such a kind or to such an extent as to be unfit for marriage and the procreation of children; or\n                iii. has been subject to recurrent attacks of insanity or epilepsy;\nc)   The bridegroom has completed the age of 21 (twenty-one) years and the bride the age of 18 (eighteen) years at the time of marriage.\nd)   The parties are not within the degrees of prohibited relationship unless the custom or\nusage governing each of them permits marriage between the two;\ne)   Neither of the party is an idiot or lunatic.\n<br>\n\n**NOTE:** In the event of divorce or dissolution of the marriage taking place within the period 3 (three) years to 5 (five) years calculated from the date of receipt of the first installment of the incentive (i.e. 10% of the incentive), the spouse (either husband or wife) without disability, shall be liable to refund 50% of the total amount as an arrear of land revenue within one year of the occurrence failing which the principal amount with annual the interest of 6.5% will be charged to him/her.",
+  "_criteria_filled": 1
+}

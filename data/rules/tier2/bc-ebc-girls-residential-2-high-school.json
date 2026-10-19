@@ -1,0 +1,46 @@
+{
+  "id": "bc-ebc-girls-residential-2-high-school",
+  "name": "BC & EBC Girls Residential +2 High School",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- Free enrolment\n- Free accommodation\n- Free food and sacks (as per menu)\n- The amount for clothes, books, medicine, cleaning etc. is paid to the girl students through DBT\n- Laboratory with modern facilities\n- Vocational training, skill development, horticulture etc\n- Facility of quality study and guidance through Jananayak Library and Digital Study Centre.\n- Free competitive, and high quality boo",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 11
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 16
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-caste-certificate-income-certificate-residence-certificate-educat"
+  ],
+  "apply_url": "https://bcebconline.bihar.gov.in/schoolmis/Default.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/bcebcgrhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl student.\n1. The applicant should be a resident of Bihar.\n1. The applicant should belong to the Backward Class (BC) or Extremely Backward Class (EBC).\n1. The benefits under this scheme are available to girl students from Class 6 to Class 12.\n1. Selection of girl students for Classes VI, VII, VIII, and IX will be based on an entrance examination.\n1. The annual income of the applicant&#39;s parents/guardians should not exceed ₹3,00,000/-.\n1. The applicant’s age limit for enrolment:\n\n- 11-13 years for Class 6th- 12-14 years for Class 7th- 13-15 years for Class 8th- 14-16 years for Class 9th",
+  "_criteria_filled": 5
+}

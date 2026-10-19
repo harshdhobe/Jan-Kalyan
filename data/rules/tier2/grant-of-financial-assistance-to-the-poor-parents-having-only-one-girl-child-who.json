@@ -1,0 +1,38 @@
+{
+  "id": "grant-of-financial-assistance-to-the-poor-parents-having-only-one-girl-child-who",
+  "name": "Grant of Financial Assistance to the Poor Parents Having Only One Girl Child Who is Studying 8th to 10th Standard",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- ₹ 25,000/- will be deposited in a fixed deposit in the Post Office in the form of a National Savings Certificate in the name of the Girl Child.\n- The maturity amount will be released when the girl child attains the age of eighteen years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-residence-certificate-from-the-revenue-department-3-income-cert",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfapphoogcws81s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a native of Puducherry by virtue of birth or continuous residence of not less than five years.\n1. The applicant should have an annual income not exceeding ₹75,000/-.\n1. The applicant should have only one living girl child and no other issue.",
+  "_criteria_filled": 3
+}

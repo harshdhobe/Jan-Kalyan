@@ -1,0 +1,26 @@
+{
+  "id": "diggy",
+  "name": "Diggy",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "- The farmer must purchase a permanent container with a minimum filling capacity of 4 lakh liters and above.\n- The state government will provide a 75% to 85% subsidy.\n- Farmer will be provided a grant amount of up to ₹ 3,00,000/- to ₹ 3,40,000/- by the government for making a dig in fields.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-identity-card-land-related-documents-ration-card-mobil"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/dr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a native of Rajasthan.\n1. The applicant should be a farmer.\n1. A farmer must have at least 0.5 (half) hectares of irrigated agricultural land.",
+  "_criteria_filled": 1
+}

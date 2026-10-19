@@ -1,0 +1,31 @@
+{
+  "id": "kaidi-sahay-yojana",
+  "name": "Kaidi Sahay Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** A one-time assistance of ₹25,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-income-certificate-ration-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksygsw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be a family member of a prisoner currently serving sentence in a state jail in Gujarat.\n  - The prisoner should be the sole or main earner of the family.\n  - The prisoner&amp;#39;s family must be economically dependent on the prisoner.\n  - The total family income should not exceed ₹1,50,000/- per annum.\n  - The family should not be fragmented (i.e., should be living together and dependent on the prisoner).\n\n<br>",
+  "_criteria_filled": 2
+}

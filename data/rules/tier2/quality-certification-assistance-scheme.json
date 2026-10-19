@@ -1,0 +1,27 @@
+{
+  "id": "quality-certification-assistance-scheme",
+  "name": "Quality Certification Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "The scheme offers 75% reimbursement of the cost, up to a maximum of ₹1,00,000/- for certifications approved by the Quality Council of India. These include ISO, HACCP, BSI, WHO-GMP, ZED, TS, and Hallmark certifications. The financial assistance is over and above the support already provided by the Government of India.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "acknowledgement-of-em-part-iiuam-registration-certificate-of-incorporation-partn",
+    "if-applicable-undertakingdeclaration-on-non-judicial-stamp-paperannexure-ii-ca-c"
+  ],
+  "apply_url": "https://haryanaindustries.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/qcas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The unit should not have been placed in the restrictive list as notified by the State government from time to time.\n1. The unit should have obtained NOC/CLU from competent Authority if applicable.\n1. The unit should be in commercial production.\n1. The unit should be in regular production at the time of disbursement and the subsidy shall not be released to the closed unit.",
+  "_criteria_filled": 1
+}

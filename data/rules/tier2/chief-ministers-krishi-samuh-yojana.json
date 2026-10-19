@@ -1,0 +1,37 @@
+{
+  "id": "chief-ministers-krishi-samuh-yojana",
+  "name": "Chief Minister’s Krishi Samuh Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "1.\tUnder this scheme, ₹4.00 lakhs as a revolving fund to each FPOs, society, etc. is to be provided.\n2.\tFinancial Assistance of ₹2.50 lakhs per FPO will be provided as under:\n    a.\tMobilisation of FIG/ FPO – ₹1.00 lakh\n    b.\tTraining and Management of Governing body – ₹0.90 lakh\n    c.\tFPO Registration Cost – ₹0.20 lakh\n    d.\tFPO Office Set-up – ₹0.40 lakh",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card-etc-permanent-resident-certificate-registration-certificate-of-fpo",
+    "cooperative-society-act",
+    "or-companys-act-bank-details-of-fpos-for",
+    "existing-fpo",
+    "fpc",
+    "and-registered-farmer-society",
+    "if-formed-prior-to-the-scheme",
+    "having-requisite-members",
+    "they-must-submit-one-year-audited-statement-to-be-certified-by-a-ca-business-pla",
+    "fpc",
+    "fpos-etc-note-01-fpos-should-have-an-active-bank-account-for-a-minimum-of-6-mont"
+  ],
+  "apply_url": "https://westsiang.nic.in/scheme/chief-ministers-krishi-samuh-yojana-cm-ksy/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Arunachal Pradesh.\n2.\tAll categories of farmers (Marginal, Small, Medium, and Large farmers) are eligible to apply under the scheme.\n3.\t50 FPOs either as societies or companies in the State are eligible to apply under this scheme.\n4.\tFPO should be a registered body (Opened under Societies Act, Cooperative Society Act, or Company’s Act).\n5.\tFPOs should have an active bank account for a minimum of 6 months.\n6.\tResolution of the FPO board/ Governing Council to seek revolving fund\n**Note:** Revolving funds should be used only for the purpose for which the FPO was formed viz-a-viz production, growth, and marketing.\n<br>",
+  "_criteria_filled": 1
+}

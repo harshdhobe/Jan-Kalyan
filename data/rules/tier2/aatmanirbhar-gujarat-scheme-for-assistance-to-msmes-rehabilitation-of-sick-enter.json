@@ -1,0 +1,27 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-rehabilitation-of-sick-enter",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Rehabilitation of Sick Enterprise",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Cost Reimbursement:**\n\n  - **Reimbursement:** 50% of the cost for preparing the Draft Rehabilitation Scheme.  - **Financial Assistance:** ₹1,00,000/- during the scheme&amp;#39;s operative period.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-general-purpose-registrationapplication-form-in-prescribed-format-copy-of-co",
+    "roc-certificate-etc-copy-of-em-part-ii-registration-or-udhyog-aadhar-last-three"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmerse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. The enterprise must be a new manufacturing enterprises or existing enterprises undertaking expansion or diversification. \n   1. The enterprises should have commenced commercial production during the operative period (October 5, 2022, to October 4, 2027).\n   1. The enterprise must be an MSME classified as a sick industrial enterprise per RBI guidelines.\n   1. Diagnostic reports must be prepared by an expert or expert agency.\n   1. The application must be submitted during the scheme&amp;amp;#39;s operative period.",
+  "_criteria_filled": 1
+}

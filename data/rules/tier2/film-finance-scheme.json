@@ -1,0 +1,31 @@
+{
+  "id": "film-finance-scheme",
+  "name": "Film Finance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "•\tFinancial assistance at different stages of film production, including script development, pre-production, production, post-production, marketing, and distribution.\n•\tSupport for both feature films and documentaries.\n•\tAccess to professional guidance and expertise.\n•\tOpportunities for exposure and recognition within the industry.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-project-proposal-script-budget-plan-financial-statements-produc",
+    "there-may-be-additional-documents-needed-these-can-include-identification-proof",
+    "address-proof",
+    "certificates-of-registration-with-film-associations-or-bodies",
+    "noc-no-objection-certificate-from-relevant-authorities",
+    "or-any-other-specific-documents-mentioned-in-the-scheme-guidelines"
+  ],
+  "apply_url": "https://filmfinance.assam.gov.in/portlets/film-finance",
+  "source_url": "https://www.myscheme.gov.in/schemes/fss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "•\tApplicants must be Indian citizens and residents of Assam.\n•\tThe film project should be in the Assamese language or any other recognized regional language of Assam.\n•\tFilmmakers must have a valid registration with the appropriate film bodies or associations.\n•\tThe applicant should have a bank account in a recognized Indian bank.\n•\tThe film project should have a well-developed script and a compelling storyline.\n•\tThe applicant must demonstrate the feasibility and commercial viability of the project.\n•\tThe project should have a clear budget and financial plan.\n•\tFilmmakers may be required to fulfill specific reporting and documentation requirements as per the scheme&#39;s guidelines.\n<br>",
+  "_criteria_filled": 1
+}

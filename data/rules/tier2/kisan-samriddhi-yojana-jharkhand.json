@@ -1,0 +1,31 @@
+{
+  "id": "kisan-samriddhi-yojana-jharkhand",
+  "name": "Kisan Samriddhi Yojana Jharkhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "1. Farmers receive a 90% subsidy on solar-powered irrigation units, reducing their agricultural costs.\n1. Two types of solar units are available: 5 HP fixed and 2 HP portable, catering to varied irrigation needs.\n1. Solar units eliminate the need for electricity or diesel, ensuring year-round irrigation.\n1. The portable 2 HP unit is mobile, making it suitable for multi-location usage.\n1. Reduced m",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-aadhaar-linked-proof-of-ownershipaccess-to-land-and-wat"
+  ],
+  "apply_url": "https://ksy.jharkhand.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ksyj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer, self-help group, cooperative, or farmer producer organization registered in Jharkhand.\n1. The applicant must have a valid Aadhaar card and Aadhaar-linked mobile number.\n1. A registered office of the group/organization must be located in Jharkhand.\n1. The applicant must own or have access to land near a water source.\n1. Only one member per family is eligible for benefits.\n1. The applicant should be aged 18 years or above.",
+  "_criteria_filled": 2
+}

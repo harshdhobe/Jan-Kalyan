@@ -1,0 +1,32 @@
+{
+  "id": "scheme-for-assistance-to-micro-small-and-medium-enterprises-msme-assistance-for",
+  "name": "Scheme for Assistance to Micro, Small and Medium Enterprises (MSME): Assistance for Technology Acquisition",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. **Financial Support:** 65% of the technology acquisition cost, up to ₹50,00,000/-, is covered.1. **Royalty Payment Assistance:** Includes support for royalty payments for the first 2 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-constitution-of-enterprise-memorand",
+    "partnership-deed",
+    "etc-power-of-attorney-board-resolution-of-authorized-signatoryconsent-letter-cop",
+    "outcomeresult-after-adoption-of-technology-on-letterhead-audited-report-with-bal",
+    "if-applicable-project-reporttechnical-presentation-regarding-technology-term-loa",
+    "promotersdirectorspartners",
+    "and-authorized-signatory-gst-registration-certificate-if-applicable-technology-p"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmeata",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The technology must be acquired from a recognized institution or technology provider.\n   1. The applicant must obtain prior approval from the MSME Commissionerate within one year of signing the MoU.\n   1. The technology should be related to product or process improvement.",
+  "_criteria_filled": 1
+}

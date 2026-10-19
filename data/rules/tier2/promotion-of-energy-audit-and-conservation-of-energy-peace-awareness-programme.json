@@ -1,0 +1,31 @@
+{
+  "id": "promotion-of-energy-audit-and-conservation-of-energy-peace-awareness-programme",
+  "name": "Promotion of Energy Audit and Conservation of Energy (PEACE): Awareness Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "> **Objective**\n\nThe program will make the MSMEs understand that the energy audit and conserving energy is a critical issue that is of great importance to the financial performance and competitiveness of their enterprise.\n<br>\n\n> **Schedule**\n\nThe program, designed for one day, will be based on the needs and requirements of MSMEs. The training content will be standardized by the Industries Commiss",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyog-aadhaar-memorandum-copy-of-udyam-certificate-certificate-of-regist",
+    "eb-meter-cardonline-statement-if-alternate-source-of-energy-other-than-electrici",
+    "proof-for-the-usage-documents-for-engagement-of-energy-auditorletter-of-acceptan",
+    "or-partner-or-director-of-a-firmco",
+    "then-proof-for-the-same-copy-of-accreditation-of-energy-auditor-by-bureau-of-ene",
+    "etc-copy-of-the-detailed-energy-audit-report-the-file-type-should-be-pdf-pdf-the"
+  ],
+  "apply_url": "https://www.msmeonline.tn.gov.in/incentives/dea_sub.php?id=New%20Application",
+  "source_url": "https://www.myscheme.gov.in/schemes/peaceap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The target audience includes executives, employees, and workers of MSMEs, as well as cluster members.\n- The ideal size for the awareness program is 40-50 participants, although in industrially backward districts, the batch size may be smaller.",
+  "_criteria_filled": 1
+}

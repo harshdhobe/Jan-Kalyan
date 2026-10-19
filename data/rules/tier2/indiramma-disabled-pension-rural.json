@@ -1,0 +1,41 @@
+{
+  "id": "indiramma-disabled-pension-rural",
+  "name": "INDIRAMMA Disabled Pension (Rural)",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "**Pension Amount:** The scale of benefit under the pension will be notified by the Government of Andhra Pradesh.\n**Mode of Disbursement:** The Panchayat Secretary disburses the pension to the eligible citizens, in the presence of Sarpanch, Gram Panchayat Members and the Office Bearers of Village Organization.\n**Time of Disbursement:** The pension is disbursed on the first date of every month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-domicile-certificate-below-poverty-line-bpl-certificate-proof-of-di"
+  ],
+  "apply_url": "https://handlooms.ap.gov.in/documents/old_age_pensions_(Rural)_GO.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/idp-andhra",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from a Below Poverty Line (BPL) family.\n- The applicant should be a local resident of the district.\n- The applicant should be from a rural area.\n- The applicant should not be covered under any other Pension Scheme.\n- The applicant should have a disability of 40% or above.\n- The applicant should be 18 years or above in age.\n\n_* The eligible citizens will be identified by their respective Gram Sabhas. The register containing the list of eligible citizens will be shared by the Panchayat Secretary with the Mandal Parishad Development Officer (MPDO)._",
+  "_criteria_filled": 4
+}

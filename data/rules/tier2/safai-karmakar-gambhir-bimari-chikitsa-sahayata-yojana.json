@@ -1,0 +1,36 @@
+{
+  "id": "safai-karmakar-gambhir-bimari-chikitsa-sahayata-yojana",
+  "name": "Safai Karmakar Gambhir Bimari Chikitsa Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "1. Registered unorganized workers who are suffering from serious illness will be provided medical assistance of ₹ 50,000/- for their treatment.\n1. Serious diseases will include kidney, cancer, sickle cell anemia, heart disease, AIDS and paralysis.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-registration-card-disease-details-by-vikas-khand-adhikari-surgeon-c"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20asangathit%20karmakaar%20gambheer%20beemaari%20chikitsa%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/skgbcsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. To receive the benefits of this scheme, unorganized workers must be registered with the State Board for at least 90 days.\n1. This scheme is open to unorganized workers between the ages of 18 and 60.\n1. The unorganized worker must be registered as a beneficiary under Section 10 of the Act.\n1. Each unorganized worker can only receive the benefits of this scheme once.\n1. If the unorganized worker is receiving benefits under another parallel scheme of the State Government, they will not be eligible for the benefits of this scheme",
+  "_criteria_filled": 3
+}

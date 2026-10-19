@@ -1,0 +1,26 @@
+{
+  "id": "akhil-bhartiya-sanskrit-kavi-sammelan",
+  "name": "Akhil Bhartiya Sanskrit Kavi Sammelan",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "An honorarium of ₹2501/- is given to each invited poet.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-specified-by-the-uttarakhand-sanskrit-academy-for-the-kavi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/asksy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The fifteen Sanskrit poets from Uttarakhand and other states, who compose and recite poetry in Sanskrit, are invited.\n\n<br>",
+  "_criteria_filled": 1
+}

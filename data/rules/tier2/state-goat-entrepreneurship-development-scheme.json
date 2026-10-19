@@ -1,0 +1,28 @@
+{
+  "id": "state-goat-entrepreneurship-development-scheme",
+  "name": "State Goat Entrepreneurship Development Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "**Financial Assistance Under the State Goat Entrepreneurship Development Scheme**\n\n- **Total finance cost:** ₹1,00,000/- per goat unit (30 goats + 2 improved breed goats).- **For general category beneficiaries:** 25% subsidy on the total cost, up to a maximum of ₹₹25,000/-- **For SC/ST beneficiaries:** 33.3% subsidy on the total cost, up to a maximum of ₹33,300/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card",
+    "voter-id",
+    "etc-residence-proof-chhattisgarh-domicile-certificate-caste-certificate-bank-acc"
+  ],
+  "apply_url": "https://agriportal.cg.nic.in/ahd/state_schemes/2_Rajya_Bakri_Udhyamita_Vikas_Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgeds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Chhattisgarh for at least five years.\n1. The applicant should be linked to a loan from a Nationalized, Cooperative, or Regional Rural Bank.\n1. The applicant should be willing to sign a contract with the department to operate the unit for at least three years.\n1. The applicant should be eligible for the grant only after obtaining the Unit Establishment Verification Certificate, a demand letter from the bank, and submitting necessary documents.\n1. The applicant should be the only person from a joint family applying for the grant.\n1. The applicant should be aware that a joint family receiving benefits under the scheme cannot reapply for the next five years.",
+  "_criteria_filled": 1
+}

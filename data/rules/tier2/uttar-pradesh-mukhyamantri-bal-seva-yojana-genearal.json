@@ -1,0 +1,43 @@
+{
+  "id": "uttar-pradesh-mukhyamantri-bal-seva-yojana-genearal",
+  "name": "Uttar Pradesh Mukhyamantri Bal Seva Yojana (Genearal)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "> Financial Assistance :  ₹ 2,500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 23
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "for-non-institutional-category-income-certificate-of-the-family-not-applicable-i",
+    "by-which-the-child-has-been-placed-under-institutional-care-age-certificate-of-t",
+    "copy-of-the-family-register-or-copy-of-any-government-document-in-which-age-is-m",
+    "university-or-technical-institute",
+    "certificate-of-passing-national-and-state-level-competitive-examinations-like-ne",
+    "jee",
+    "clat",
+    "etc"
+  ],
+  "apply_url": "https://balvikas.missionvatsalyaup.in/public/pdf/UPMBSY%20GO%20General%2007-Sep-2021%201067%20(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/upmbsyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Non-Institutional Children:**\n\n1. Children under 18 who have lost both parents or one parent due to non-Covid reasons.\n1. Adolescents 18-23 who lost both or one parent due to Covid or any reason, and are pursuing higher education after completing 12th grade.\n1. Children of divorced/abandoned mothers.\n1. Children whose parents/guardian are imprisoned.\n1. Children rescued from child labor, begging, or prostitution.\n1. Children of families involved in begging/prostitution.\n1. An assistance will be provided to maximum two children of the family.\n1. The annual income of the family of all the categories of children should be less than  ₹3,00,000/- but the condition of income limit will not apply to those where both mother and father have died.\n\n<br>\n\n**Institutional Children:**\n\n1. Under the age group of 0-18, previously lived in children&#39;s homes and reintegrated back into families or residing in child care institutions.\n1. Support: Receives financial assistance and family/aftercare services for readjustment.",
+  "_criteria_filled": 3
+}

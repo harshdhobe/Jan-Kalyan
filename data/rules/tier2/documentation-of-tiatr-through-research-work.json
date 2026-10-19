@@ -1,0 +1,26 @@
+{
+  "id": "documentation-of-tiatr-through-research-work",
+  "name": "Documentation of Tiatr through Research Work",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> ***Publication Benefits***\n\n- TAG will publish the research work in book form after thorough research on the subject.\n- The publication may be in English or Konkani (Roman Script).\n- TAG will print a minimum of 500 copies of the book.\n- 100 copies will be given to the writer.\n- The remaining copies will be used by TAG for various purposes.\n\n> ***Financial Benefits***\n\nThe author/researcher will ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stageself-attested-copy-of-permanent-account-number-card-self-att"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dttrw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a researcher interested in writing books on tiatr after doing thorough research on the subject.\n- Preference will be given to any researcher who has already done research on any aspect of Tiatr, its Song &amp; Music.\n\n<br>",
+  "_criteria_filled": 1
+}

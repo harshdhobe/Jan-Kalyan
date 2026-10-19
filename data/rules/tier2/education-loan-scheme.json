@@ -1,0 +1,27 @@
+{
+  "id": "education-loan-scheme",
+  "name": "Education Loan Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "1. **Maximum Loan Limit:** Up to ₹30 lakhs (for studies in India) and upto ₹40 lakhs (for studies abroad) or 90% of course fee, whichever is less.   1. **Rate of Interest:**\n\n  - For studies in India, upto ₹30 lakhs or 90% of course fee, whichever is less. The rate of interest for male candidates is 6% whereas for female candidates it is 5.5%. The repayment period must be within 10 years for loan ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-passport-sized-photograph-proof-of-educational-qu",
+    "self-certification-assessed-and-endorsed-by-the-branch-manager-can-be-treated-as"
+  ],
+  "apply_url": "https://nbcfdc.gov.in/loan-scheme-description/4/en",
+  "source_url": "https://www.myscheme.gov.in/schemes/els",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary (ies) should be from the Scheduled Caste Community.\n   1. Individuals, Partnership Firms, and Co-operative Societies can undertake income-generating activities.\n   1. The annual family income of each member/applicant should not exceed Rs.3.00 lakh.\n   1. Applicants must apply for financial assistance from NSFDC through the concerned State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). \n   1. Annual family income of the applicants should be within Rs.3.00 lakhs (for both rural and urban areas w.e.f. 08.03.2018) under Credit Based Schemes. \n   1. There is no income criterion under Skill Development Training Programmes.",
+  "_criteria_filled": 1
+}

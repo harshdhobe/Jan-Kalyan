@@ -1,0 +1,29 @@
+{
+  "id": "pmmsy-construction-of-new-grow-out-ponds-haryana",
+  "name": "PMMSY: Construction of New Grow Out Ponds - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The scheme provides financial assistance for the Construction of the New Grow-out Ponds. The project cost is ₹7,00,000/- per Hectare.\n- The subsidy will be limited to 40% of the project cost for beneficiaries falling under the General Category.\n- The subsidy will be limited to 60% of the project cost for beneficiaries who are Scheduled Caste (SC) or Women.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-beneficiary-and-fisheries-department-date-of-birth-certif",
+    "tehsildar-training-certificate-of-beneficiary-land-record-from-tehsil-own-land-j",
+    "nakal-akshizra-farad-or-registered-lease-deed-of-minimum-7-years-billsreceiptsvo",
+    "etc-with-beneficiary-details-of-bank-account-and-pan-card-detailed-project-repor"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=cfg049ravLw4JTG0xhHtgg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/cngophr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must have a Parivar Pehchan Patra (PPP).\n1. The construction of new grow-out ponds subsidy will be provided by the State Government for the expansion of fisheries in various urban/semi-urban areas only under the construction of new grow-out ponds under the Pradhan Mantri Matasya Sampada Yojana (PMMSY) scheme.\n1. Central financial assistance for the construction of new grow-out ponds will be provided only for the ponds prepared for fisheries.\n1. The applicant should have own land with clear title or having land on a long-term registered lease, not less than a minimum of 7 years.",
+  "_criteria_filled": 1
+}

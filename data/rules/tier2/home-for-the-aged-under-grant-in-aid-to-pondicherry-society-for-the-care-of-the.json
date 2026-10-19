@@ -1,0 +1,32 @@
+{
+  "id": "home-for-the-aged-under-grant-in-aid-to-pondicherry-society-for-the-care-of-the",
+  "name": "“Home for the Aged\" under Grant-in-Aid to Pondicherry Society for the Care of the Aged (PONCARE)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Stay at Subsidiary Rate of ₹1200/- for the Inmates.\n- Food (Both Vegetarian and Non-vegetarian).\n- Routine Health Check Up by Doctors Thrice in a Week.\n- Newspapers and Television for Entertainment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-birth-certificate-age-proof-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photographbank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hfta-giapsca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be 60 years or above in age.\n- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "netaji-subhash-chandra-bose-boys-residential-hostel-scheme-classes-1-to-8",
+  "name": "Netaji Subhash Chandra Bose Boys Residential Hostel Scheme (Classes 1 to 8)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. These hostels admit orphans, homeless children, single parents, destitute child laborers, rag pickers, children living on railway station platforms and bus stands and provide them with residential facilities to complete their primary education. \n1. Provide educational opportunities to children from educationally disadvantaged groups through residential schools. \n1. Bridging the educational gap ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "it-should-be-provided-as-per-the-guidelines-of-the-district-project-coordinators"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=430",
+  "source_url": "https://www.myscheme.gov.in/schemes/nscbbr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Boys who have dropped out of school because a middle school is not available within a 3 km radius or a high school/higher secondary school is not available within a 5 km radius of their village.\n1. Boys who are identified as (Classes 1-8):\n\n  - School Dropouts\n  - Out-of-School/Non-enrolled\n  - Destitute/Homeless\n  - Orphans\n  - Single-Parent Children\n  - Divyang (Physically disabled/Orthopedically handicapped)\n\n1. Boys identified as school dropouts and out-of-school shall be admitted to the Netaji Subhash Chandra Bose Residential Hostel.\n1. Children from Scheduled Caste (SC) and Scheduled Tribe (ST) Ashram Schools that are at the primary level may also be admitted to the hostel.\n1. Local resident boys shall not be admitted to the hostel.\n\n<br>",
+  "_criteria_filled": 2
+}

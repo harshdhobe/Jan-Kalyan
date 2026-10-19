@@ -1,0 +1,31 @@
+{
+  "id": "assistance-scheme-for-handloom-spinning-weaving-women-workers",
+  "name": "Assistance Scheme for Handloom Spinning-Weaving Women Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme, for providing handloom / pantloom / frameloom and other related tools and equipment to selected women workers, 90% of the total cost (up to a maximum of ₹25,000/-) will be borne by the department, while the remaining 10% will be contributed by the beneficiary herself.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhaar-card-bank-account-details-passbook-or-statement-relevant-registr"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ashswwwuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a woman worker who belong to a family whose ancestral occupation is weaving, spinning, knitting, or allied handloom activities.\n   1. Preference will be given to women workers who have experience in the handloom sector but are unable to carry out weaving work due to the unavailability of a loom.\n   1. The woman worker must be registered with the Government of India or Government of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 2
+}

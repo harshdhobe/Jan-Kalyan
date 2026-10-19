@@ -1,0 +1,31 @@
+{
+  "id": "transgender-utthan-kosh-financial-assistance-for-studying-bisexual-children",
+  "name": "Transgender Utthan Kosh - Financial Assistance for Studying Bisexual Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹6,000/- per month for up to 12 months to support transgender students living away from their homes for education.\n\n**NOTE:**\n\n- Assistance is provided directly to the student&#39;s bank account.\n- Students must submit a rental receipt each month to continue receiving assistance.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "transgender-identity-proof-proof-of-enrollment-in-class-6-or-higher-residence-pr"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110051259226370.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tuk-fasbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should belong to transgender community. \n1. The applicant should be studying in class 6th or higher class.\n1. The applicant should be residing away from their home for study purpose.\n1. The gross annual income of applicant should be up to ₹8.00 lakh.",
+  "_criteria_filled": 2
+}

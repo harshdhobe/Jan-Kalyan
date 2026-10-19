@@ -1,0 +1,36 @@
+{
+  "id": "award-for-success-in-state-public-service-commission-union-public-service-commis",
+  "name": "Award for Success in State Public Service Commission, Union Public Service Commission Examination (MPBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Incentives Upon Selection in &quot;Madhya Pradesh Public Service Commission&quot; Exam**\n\n- Preliminary Exam: ₹15,000/-\n- Main Exam: ₹25,000/-\n\n**Incentives Upon Selection in &quot;Union Public Service Commission&quot; Exam**\n\n- Preliminary Exam: ₹25,000/-\n- Main Exam: ₹50,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-eg",
+    "aadhaar-card-passport-size-photograph-proof-of-residence-eg",
+    "utility-bill",
+    "voter-id",
+    "etc-ration-card-optional-bank-account-details-eg",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-undertakingdeclaration-age"
+  ],
+  "apply_url": "https://labour.mp.gov.in/Public/Pages/Schemes/RajyaLokSevaAyog.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/afsispscupsce",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Registration**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The registration of the applicant should be renewed annually.\n\n**For Application**\n\n1. The applicant should be a son or daughter of a registered Building/ Construction Worker.\n1. The applicant should be up to 45 years of age.\n1. The applicant should be in possession of a valid identity card issued by the Labour Department.\n1. The applicant should be selected at Preliminary or Main Level of either the &quot;State Public Service Commission Examination&quot; or the &quot;Union Public Service Commission Examination&quot;.",
+  "_criteria_filled": 2
+}

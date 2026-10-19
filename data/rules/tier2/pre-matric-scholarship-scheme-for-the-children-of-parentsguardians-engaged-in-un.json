@@ -1,0 +1,26 @@
+{
+  "id": "pre-matric-scholarship-scheme-for-the-children-of-parentsguardians-engaged-in-un",
+  "name": "Pre-Matric Scholarship Scheme for the Children of Parents/Guardians Engaged in Unclean and Hazardous Occupations - Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "***Assistance:***\nWith effect from 2022-23, the students shall be given a consolidated academic allowance, as follows:\n\n- Day Scholar: ₹3,500/- per annum\n- Hosteller: ₹8,000/- per annum (For Class III-X)\n\n**Note:** In addition, a 10% extra allowance shall be given to Divyang (Disabled) students. The disability as defined under the relevant Section of Right of the persons with Disability Act, 2016.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-aadhar-card-passport-size-photographs-certificate-from-the-employer-atte"
+  ],
+  "apply_url": "https://cmscholarship.goa.gov.in/UserGuid.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsscpgeuho",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n2.\tThe applicant should be a resident of Goa.\n3.\tThe applicant’s parents/guardians should be engaged in an unclean or hazardous occupation.\n4.\tThe student should be studying in Class I to X on a full-time basis.\n5.\tScholarship will be admissible to the children/wards of parents/guardians who, irrespective of their caste/religion belong to one of the following categories:\n\n  - Persons who are Manual Scavengers as defined under section 2(I) (g) of Manual Scavengers Act 2013\n  - Tanners &amp;amp; Flayers;\n  - Waste pickers and\n  - Persons engaged in hazardous cleaning as defined in Section 2(1) (d) of [Manual Scavengers Act 2013](https://www.indiacode.nic.in/bitstream/123456789/8868/1/a2013-25msact.pdf). For the purpose of classification in this category, the eligible candidates will be required to submit a certificate from District Social Welfare officer/ identified officer of Local body/ Civic Agency/any such authority as designated by the State Government.\n6.\tThere is no family income ceiling under this component of the Scheme.\n7.\tA scholarship holder under this scheme will not hold any other educational scholarship for the purpose of studying in class I to X. If awarded any other educational scholarship for studying in classes I to X, the students can avail of either of the two scholarships as per his/her choice and should inform the awarding authority to the Head of the Institution about the option made.",
+  "_criteria_filled": 1
+}

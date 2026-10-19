@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-janakalyaan-sambal-20-yojana-asangathit-karmakaar-manda",
+  "name": "Mukh‍yamantri Janakal‍yaan (Sambal 2.0) Yojana (Asangathit Karmakaar Man‍da)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. Funeral Grant Amount : ₹5,000/-  Ex-gratia\n1. On accidental death : ₹4,00,000/-\n1. General Death Benefit : ₹2,00,000/-\n1. Permanent Disability Benefit : ₹2,00,000/-\n1. Partial Permanent Disability Benefit : ₹1,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-samagra-id-bank-account"
+  ],
+  "apply_url": "https://sambal.mp.gov.in/Public/Survey/ShramikRegApplicationeKYC.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mjsyakm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a Unorganized worker.\n1. Applicant have a &quot;Samagra ID&quot; and &quot;Pariwar ID&quot;.\n1. Applicant should not have other social security cover like Provident Fund, Employees&#39; State Insurance Scheme, Gratuity etc\n1. Applicant or his wife/husband (as the case may be) should not follow below categories\n\n   1. Should not have more than 01 hectare of agricultural land,\n   1. Should not be in government service\n   1. Should not an income tax payer.\n   1. Should not have other social security cover like Provident Fund, Employees&#39; State Insurance Scheme, Gratuity etc\n\n<br>",
+  "_criteria_filled": 1
+}

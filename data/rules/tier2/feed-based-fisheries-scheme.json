@@ -1,0 +1,26 @@
+{
+  "id": "feed-based-fisheries-scheme",
+  "name": "Feed Based Fisheries Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "household",
+  "benefit": "**Floating Fish Feed Subsidy:** \nFish farmers receive a grant of 50% of the cost or a maximum of ₹22 per kg for fish feed with a minimum 24% protein content.\n**Support for Cage Fish Farmers:** \nFish farmers using cage systems, Recirculatory Aquaculture Systems (RAS), or Biofloc tanks are eligible for feed subsidies.\n**Support for Biofloc Pond Farmers:** \nFarmers utilizing Biofloc ponds receive sub",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-address-proof-bank-account-details-gst-billinvoice-for-feed-purch"
+  ],
+  "apply_url": "https://jharkhandfisheries.org/orders/2023/Rajyadesh-Feed%20Based%20Fisheries-%20letter%20no.%2007%20RA%20(VI)%20dated%2013.06.2023.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fbfs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a fisherman. \n1. The applicant must be an active fish farmer involved in cage fish farming, Recirculatory Aquaculture Systems (RAS), or Biofloc systems.\n1. The applicant should have at least one year of previous crop records.\n1. The applicant should not be enrolled in other overlapping schemes for the same purpose.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "haryana-gaurav-samman-scheme-for-padma-awardees",
+  "name": "Haryana Gaurav Samman Scheme for Padma Awardees",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. **Monthly Honorarium:** Eligible Padma Awardees will receive a monthly honorarium of ₹10,000/-.1. **Free Travel:** Beneficiaries will be entitled to free travel in all Haryana Roadways buses, including air-conditioned buses.1. **Mode of Disbursement:** The honorarium will be transferred directly to the beneficiary’s bank account through the Public Financial Management System (PFMS).1. **Frequen",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-parivar-pehchan-patra-ppp-id-proof-of-residence-padma-award-certi",
+    "padma-bhushan",
+    "or-padma-shri-certificate-bank-details-any-other-documents-as-required"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2023/08/202308221963399155.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hgsspa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**A person eligible for honorarium under the scheme shall be:-**\n\n   1. The applicant should be a citizen of India and a resident of Haryana.\n   1. The applicant should possess a Parivar Pehchan Patra (PPP) number issued by the Citizen Resource Information Department (CRID).\n   1. The applicant must be the recipient of any of the Padma Awards namely Padma Vibhushan, Padma Bhushan &amp;amp; Padma Shri from the Government of India for outstanding contributions and achievements in their respective fields.\n\n**Stoppage of monthly honorarium:**\n\n   1. **Demise of Awardee:** The honorarium will cease upon the death of the awardee and the payments will not be extended to any other family member or heir. However, the honorarium will be payable for the month of death of the beneficiary to his nominee.   1. **Ceases to be a Padma Awardee:** In case, the award is taken back by Government of India or the award has been returned by the awardee, then the payment of honorarium will be stopped.   1. **Violation of Conditions of the Scheme:** Individuals, found to be in violation of any conditions or eligibility criteria of the scheme, shall become ineligible for the honorarium.",
+  "_criteria_filled": 1
+}

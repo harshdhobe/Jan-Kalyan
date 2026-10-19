@@ -1,0 +1,26 @@
+{
+  "id": "integrated-hostel-scheme",
+  "name": "Integrated Hostel Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The hostel provides free residential facilities, including accommodation, electricity, water, meals, furniture, bedding, library, coaching, and basic amenities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=811",
+  "source_url": "https://www.myscheme.gov.in/schemes/ihs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should belong to the Other Backward Castes, Scheduled Castes, Scheduled Tribes category.\n1. The applicant should be studying in a government school in Madhya Pradesh.\n1. The applicant should be studying in class 1 to 12 or college-level classes.\n1. The applicant should reside in a remote rural area (priority given).\n1. The applicant&#39;s school should be within a maximum distance of 3 km for girls or 8 km for boys.\n1. The applicant should not have any income restrictions.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rajiv-gandhi-scholarship-for-academic-excellence",
+  "name": "Rajiv Gandhi Scholarship For Academic Excellence",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "1. **E1: Family gross annual income less than 8 Lakh**\n(i). Tuition Fees and Bench fee: Max 50 lakh\n(ii). Living Expenses: 12 Lakh Rupees.\n(iii). One-time advance of Rs 3 Lakh to candidates who will start their course after application on the portal (adjusted against living expenses).\n1. **E2: Family gross annual income 8 – 25 Lakh**\n(i). Tuition Fees and Bench fee: Max 50 lakh\n(ii). Living Expens",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadhar-number-offer-letter-of-the-applicable-foreign-university-bonafide-dom",
+    "mark-sheetcertificate-of-last-passed-exam-self-declaration-for-scholarships-fina",
+    "if-any-visa",
+    "if-any-aadhar-number"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/981",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgsfsae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Bonafide Resident of Rajasthan. \n1. Less than 35 years of age on 1st July 2023\n1. Admitted / Obtained offer letter in top 150 World QS ranked Universities as of 1st April, 2023\n1. All disciplines for UG, PG, PhD and Post Doc courses.\n1. Maximum 7.5 % seats ( 37 ) for Engineering, Architecture, Medical, Dentistry courses at UG level",
+  "_criteria_filled": 2
+}

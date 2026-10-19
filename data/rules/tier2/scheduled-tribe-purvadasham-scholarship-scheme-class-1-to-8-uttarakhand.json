@@ -1,0 +1,26 @@
+{
+  "id": "scheduled-tribe-purvadasham-scholarship-scheme-class-1-to-8-uttarakhand",
+  "name": "Scheduled Tribe Purvadasham Scholarship Scheme (Class 1 to 8) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***Rate of Scholarship:***\n\n- Class 1 to 5: ₹600/-\n- Class 6 to 8: ₹960/-\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-caste-certificate-of-the-applicant-mobile-number-o"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/stpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must possess a valid caste certificate.\n1. The applicant must be enrolled in a recognized school in Uttarakhand.\n1. The applicant must be studying in a Class 1 to 8.\n1. The scholarship will be available for one year only for studying in any class.\n1. The applicant should not be receiving benefits under any other government scholarship scheme.\n1. There is no income limit for this scholarship.\n\n<br>",
+  "_criteria_filled": 1
+}

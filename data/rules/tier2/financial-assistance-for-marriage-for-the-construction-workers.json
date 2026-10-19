@@ -1,0 +1,45 @@
+{
+  "id": "financial-assistance-for-marriage-for-the-construction-workers",
+  "name": "Financial Assistance for Marriage for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- Marriage of female registered member: ₹51,000/-.\n- Marriage of male registered member: ₹35,000/-.\n- Marriage of daughter of registered members: ₹51,000/-.\n- Marriage of son of registered members : ₹35,000/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-of-groom",
+    "age-proof-of-bride",
+    "marriage-card-original",
+    "marriage-photograph-of-applicant-with-spousebride-and-groom",
+    "marriage-certificate"
+  ],
+  "apply_url": "https://dbocwwb.delhi.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/famtw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration**\n\n  - The applicant should be a resident of Delhi.\n  - The applicant should be a Building/Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have served the Board for at least 90 days in a given year.\n\n&gt; **For Application**\n\n  - Registered women member Under the Delhi Building and Other Construction Workers Welfare Board.\n\nOr,\nWives of registered male members Under the Delhi Building and Other Construction Workers Welfare Board.\n&lt;br&gt;\n\n<br>",
+  "_criteria_filled": 4
+}

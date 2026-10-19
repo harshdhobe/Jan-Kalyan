@@ -1,0 +1,27 @@
+{
+  "id": "production-of-tiatr-in-villagesurban-areaseducational-institutions",
+  "name": "Production of Tiatr in Villages/Urban Areas/Educational Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Tiatr Academy of Goa will provide financial support to the extent as fixed by Tiatr Academy of Goa towards various aspects: Direction, Live Band (with at least 2 blowing instruments), Outside Artistes, Stage Setting, Background Music, Costumes, Make-up, Light Effects.- **Technical Guidance:** Provision of director from Tiatr Academy of Goa&#39;s Panel of Directors who will",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-time-of-applicationself-attested-copy-of-aadhaar-card-self-attested-copy-of-p",
+    "000-5-photographs-of-the-performance-for-records-two-photographs-should-display"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptvuaei",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Educational Institution, Cultural Association, Dramatic Troupe, or Individual.\n- The applicant must be interested in promoting Tiatr culture in the village.\n- The applicant must be from the particular village/urban area/parish (in case of Mumbai, Sindhudurg and other parts of the country).\n- The participating artistes must be from the particular village/urban area/parish (Educational Institutions only).\n- A maximum of 3 artistes from outside the village/urban areas/parish must be allowed to act as well as sing in the tiatr.\n- The tiatr must be produced in its original format including 6 or 7 acts (podd&#39;dde) with at least 4 &#39;cantos&#39; and comedy linked to the story of the play.\n- The tiatr must include at least 14 &#39;Kantaram&#39; which includes at least 2 Duets, 1 Duo, 2 Trios, 1 Quartet/Quintet, 2 Choral Songs and Solos.\n- The applicant must not make any adverse remark in any form either written or verbal against any Governments/Individuals/Institutions or anything against caste, creed and religion in the scripts/lyrics of songs/performances/speeches which may hurt the sentiments of anybody.\n- The applicant must communicate the schedule of practices to Tiatr Academy of Goa well in advance.\n- The applicant must discuss with Tiatr Academy of Goa and decide who will be the Chief Guest/Guest of Honour at the performance well in advance.\n- The applicant must ensure this is the first performance of the tiatr for which financial assistance is sought from Tiatr Academy of Goa.\n\n<br>\n\n***Script and Performance Requirements***\n\n- The script and songs may be written/composed by anyone from within the village or elsewhere but acting and singing must be done by the artistes from the particular village/urban area/parish.\n- Musicians may be from anywhere and not necessarily from the village.\n- Advertising Requirements: In all advertisements, oral, or print or electronic media, banners, etc. the following must be inserted/published/announced &#39;This Tiatr is organized in collaboration with Tiatr Academy of Goa&#39;.\n\n<br>",
+  "_criteria_filled": 1
+}

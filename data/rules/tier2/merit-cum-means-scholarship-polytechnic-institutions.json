@@ -1,0 +1,31 @@
+{
+  "id": "merit-cum-means-scholarship-polytechnic-institutions",
+  "name": "Merit cum Means Scholarship: Polytechnic Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "Scholarship of ₹600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-of-chhattisgarh-mark-sheet-of-the-qualifying-examination"
+  ],
+  "apply_url": "https://cgdteraipur.cgstate.gov.in/sites/default/files/notification-of-merit-scholarship-2016-17-598083916f1b8.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcmpi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native resident of Chhattisgarh.\n- The applicant must be a Student.\n- The applicant must be currently studying in a recognised Polytechnic Institution in Chhattisgarh.\n- The applicant must have passed the 10+2 examination or the 10th/12th examination from any recognised institution located in Chhattisgarh with a minimum of 45% marks.\n- The total annual income of the student&#39;s father/guardian should not exceed ₹ 2,50,000/-.\n\n<br>\n\n**OTHER CONDITIONS**\n\n- Without special approval from the government, no student will receive more than one scholarship at the same time. However, if the institution where he is studying has given him any fee concession, then he will be entitled to continue receiving it.\n- If any scholarship becomes vacant during its duration, then the approving authority can give such scholarships for its unexpired period to the next eligible and deserving candidate from the merit list.\n- Only those students will be eligible to receive scholarships who have passed the qualifying examination from any testing body of Chhattisgarh. But children of such permanent government employees of Chhattisgarh can be exempted from this condition who are on deputation to the Government of India or any other state government.\n- Such students will not be eligible to receive scholarships who are in full-time employment. In this regard, only one concession can be given that any such student who is regularly studying in a recognised institution and is receiving any scholarship can be allowed to do part-time work.\n- In special cases not covered under the provisions of these rules, the government will provide special scholarships to eligible students at the rate prescribed for each course of study, based on poverty and merit. The total annual expenditure incurred in this regard will not exceed the budget limit.",
+  "_criteria_filled": 2
+}

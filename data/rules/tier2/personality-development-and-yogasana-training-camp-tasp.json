@@ -1,0 +1,26 @@
+{
+  "id": "personality-development-and-yogasana-training-camp-tasp",
+  "name": "Personality Development and Yogasana Training Camp (TASP)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Training and Development:** The scheme offers a seven-day residential training camp focused on personality development and yogasana. The training covers aspects of physical fitness, mental well-being, and spiritual awareness.\n&gt; **Note:** A total of 50 tribal youths (both male and female) are selected from each of the 17 targeted districts.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pdytcst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Gujarat.\n\n  - The applicant should belong to the Scheduled Tribe (ST) category.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "maternity-benefit-mbocwwb",
+  "name": "Maternity Benefit (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. The registered women construction workers shall receive financial assistance of ₹1,000/- as maternity benefits during their maternity period.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "enclosures-required-for-new-registration-under-mbocwwbphotograph-of-the-worker-i",
+    "ration-card",
+    "drivers-license",
+    "aadhaar-card",
+    "passport-are-acceptable-employer-certificateself-certification-issued-either-by",
+    "if-any-age-proof-of-concerned-building-workerapplicant-ie-school-certificate",
+    "certificate-from-the-registrar-of-birth-and-deaths",
+    "certificate-from-the-medical-officer-not-below-the-rank-of-an-assistant-surgeon",
+    "electoral-photo-identity-card-nomination-form-duly-signed-by-the-applicant-self"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbmbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Meghalaya.\n   1. The applicant should be a woman engaged in building or other construction works.\n   1. The applicant should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The applicant should have an active membership of the Board.\n   1. Women workers are eligible to avail of maternity benefits during their maternity period.\n   1. This benefit shall not be allowed for more than twice.",
+  "_criteria_filled": 2
+}

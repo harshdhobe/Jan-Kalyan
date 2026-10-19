@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-nidan-yojana",
+  "name": "Mukhyamantri Nidan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Primary Benefits**\n\n- Free Laboratory Testing Services: All essential pathology, biochemistry, hematology, and microbiology tests provided without any charge.\n- Diagnostic Facilities: X-ray, sonography, and Electrocardiography services at Community Health Centers\n- Comprehensive Healthcare Coverage: Testing for communicable and non-communicable diseases, maternal and child health conditions.\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "medical-prescription-from-qualified-government-medical-officer-original-patient"
+  ],
+  "apply_url": "https://gmscl.gujarat.gov.in/Images/pdf/MIntroduction.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mny-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be seeking healthcare services at any government health facility in Gujarat.\n- The applicant must require diagnostic testing as prescribed by a qualified medical officer.\n- The applicant must visit designated government healthcare institutions including Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals, or Medical College hospitals.\n\n<br>",
+  "_criteria_filled": 1
+}

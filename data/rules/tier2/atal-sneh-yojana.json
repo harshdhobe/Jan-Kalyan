@@ -1,0 +1,31 @@
+{
+  "id": "atal-sneh-yojana",
+  "name": "Atal Sneh Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Benefit \nIn this scenario, the newborn children will be referred to a doctor. If the case is not very serious, then they will be referred to a local facility for treatment.\nChildren who are ill or born with some genetic diseases will receive proper treatment from experts. They will also receive follow-ups after their treatment from family health workers.\nThe newborn babies will get a thorough heal",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 0
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-birth-certificate-parentsguardian-aadhar-card-oth"
+  ],
+  "apply_url": "https://gujaratindia.gov.in/media/news.htm?NewsID=ZWXVG9lqjK+b27raI+MBRQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/asyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n   1. All Newborn children are eligible.\n   1. Age should be up to two months after their birth.",
+  "_criteria_filled": 2
+}

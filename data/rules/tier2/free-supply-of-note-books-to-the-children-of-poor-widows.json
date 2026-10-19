@@ -1,0 +1,31 @@
+{
+  "id": "free-supply-of-note-books-to-the-children-of-poor-widows",
+  "name": "Free Supply of Note Books to the Children of Poor Widows",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "**Note Books are supplied free of cost as mentioned below:**\n\n- 1st to 2nd Standard – Books worth ₹50/- (per child per annum).\n- 3rd to 5th Standard - Books worth ₹125/- (per child per annum).\n- 6th to 8th Standard - Books worth 175/- (per child per annum).\n- 9th to 10th Standard - Books worth ₹300/- (per child per annum).\n- 11th to 12th Standard - Books worth ₹600/- (per child per annum).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "widow-certificate-necessary-certificate-from-the-government-childrens-home-servi"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/whatsnew/socialwelfare.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsnbcpw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a child of a poor widow.\n1. The applicant should be a student.\n1. The applicant should be studying in higher secondary. \n1. The applicant&#39;s family income should not exceed ₹24,000/- per annum.",
+  "_criteria_filled": 2
+}

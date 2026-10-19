@@ -1,0 +1,36 @@
+{
+  "id": "dr-babu-jagjivan-ram-living-cum-work-shed-construction-scheme",
+  "name": "Dr. Babu Jagjivan Ram Living cum work shed Construction Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** ₹2,50,000/- for construction.- **Subsidy Amount:** ₹2,20,000/- provided by the government.- **Beneficiary Contribution:** ₹30,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 87600
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-of-the-applicant-and-spouse-aadhaar-card-caste-certific"
+  ],
+  "apply_url": "https://schemes.lidkar.com/schemes/infrastructure-development-programs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbjrlcwscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be leather artisans.\n1. The applicant should belongs to sub-castes Arundathiyar, Chammadiya, Chamar, Chambar, Chamagar, Madar, Madig, Madiga, Mini Madig, Jambavalu, Haralayya, Machigar, Mochigar, Mochi, muchi, Telugu Mochi, kamaati mocha, Rohidas, Dhor, kakkayya, Kankayya, Samagara, Samagar, Aadhi Anddra, Aadhi Dravida, Aadhi Karnataka among schedule castes.\n1. The age of the applicant should be 18 years.\n1. The applicant&#39;s annual income should not exceed ₹32,000/- in rural areas and ₹87,600/- in urban areas.\n1. The applicant or their family members must not have received benefits from other schemes, except Training/Paaduke kuteera schemes.\n1. The applicant&#39;s family members should not be employed in government or semi-government organizations.",
+  "_criteria_filled": 3
+}

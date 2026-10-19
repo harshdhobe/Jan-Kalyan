@@ -1,0 +1,33 @@
+{
+  "id": "mukhyamantri-matrupushti-uphar",
+  "name": "Mukhyamantri Matrupushti Uphar",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "₹500/- is transferred into the bank account through DBT, after each antenatal check-up, up to four times.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "health-card",
+    "issued-by-the-health-facility",
+    "mentioning-the-date-of-antenatal-check-up-bank-passbook-address-proof"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhamantri%20Matrupushti%20Uphar_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmus",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a pregnant woman.\n1. The applicant should have undertaken antenatal check-ups at any health facility.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

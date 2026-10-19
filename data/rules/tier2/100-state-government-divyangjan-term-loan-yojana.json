@@ -1,0 +1,31 @@
+{
+  "id": "100-state-government-divyangjan-term-loan-yojana",
+  "name": "100% State Government Divyangjan Term Loan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Loans ranging from ₹50,000/- to ₹1,00,000/- are disbursed at an annual rate of 6% for a period of 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-birth-certificate-identity-card-physi"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgdtly",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n- The applicant must be differently abled.\n- The percentage of the disability must be 40% or above.\n- The disability and its percentage must be certified by a civil surgeon.",
+  "_criteria_filled": 2
+}

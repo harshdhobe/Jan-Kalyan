@@ -1,0 +1,36 @@
+{
+  "id": "sudama-shishyavritti-scheme-class-11th-and-12th",
+  "name": "Sudama Shishyavritti Scheme (Class 11th and 12th)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, the girl student will get a scholarship of ₹5250/- and boy student will get a scholarship of ₹5000/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-domicile-certificate-of-madhya-pradesh-bpl-cate"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=422",
+  "source_url": "https://www.myscheme.gov.in/schemes/scymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The student should be a resident of Madhya Pradesh.\n1. The student should have passed the Class 10th board exam with a first division and be currently enrolled in 11th or 12th grade, residing in a hostel.\n1. The student should be studying in a government school located at the district or development block headquarters within the state.\n1. The applicant should belong to the Below Poverty Line (BPL) category.\n1. The applicant&#39;s family income from all sources should be less than ₹1,00,000/- per year.\n1. The applicant should have passed the previous year&#39;s class with first division.",
+  "_criteria_filled": 3
+}

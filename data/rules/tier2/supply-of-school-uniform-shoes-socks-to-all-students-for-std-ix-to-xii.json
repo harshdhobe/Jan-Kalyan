@@ -1,0 +1,26 @@
+{
+  "id": "supply-of-school-uniform-shoes-socks-to-all-students-for-std-ix-to-xii",
+  "name": "Supply of School Uniform , Shoes Socks to all Students for Std IX to XII",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "<br>\n\n1. Fosters a sense of identity, equality and discipline among students.\n2. Significantly reduces school absenteeism and improves performance by eliminating the financial barrier of purchasing clothes.\n3. Providing shoes and socks promotes better foot health and hygiene for students commuting to school.\n4. Promotes regular school attendance by supporting foundational needs\n\t\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-required"
+  ],
+  "apply_url": "https://ddd.gov.in/directorate-of-education/",
+  "source_url": "https://www.myscheme.gov.in/schemes/supply-of-uniform",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a student.\n2.\tThe applicant should be studying in class 9th to 12th.\n3.\tThe applicant should be studying in a government school in UT of Dadra &amp; Nagar Haveli and Daman &amp; Diu.\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

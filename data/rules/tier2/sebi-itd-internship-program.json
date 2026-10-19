@@ -1,0 +1,26 @@
+{
+  "id": "sebi-itd-internship-program",
+  "name": "SEBI ITD Internship Program",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Stipend (₹)**\n\n1. For interns working 3 days in a week: 25,000\n1. For interns working 4 days in a week: 30,000\n\n<br>\n\n> **Leaves**\n\n1. For interns working 3 days in a week: 9\n1. For interns working 4 days in a week: 12\n\n<br>\n\n> **Accommodation**\n\nUnfurnished shared accommodation only for outstation candidates, subject to availability\n<br>\n\n> **Certificate**\n\nA certificate of completion of inte",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      }
+    ]
+  },
+  "documents": [
+    "profile-of-the-interested-eligible-candidates-in-the-prescribed-format-annexure"
+  ],
+  "apply_url": "https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sebiitdip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student pursuing a full-time MBA/MCA or equivalent degree or diploma of a duration of two years from an eligible institute.\n1. The applicant should hold a full-time graduate degree in engineering or a BCA degree.\n1. The applicant should have a strong aptitude for computer programming and data analytics. \n1. The applicant should have a minimum 60% aggregate marks at graduate level or equivalent CGPA\n1. The age of the applicant should not be more than 30 years as on 1st January of the respective year.\n1. The applicant should be an Indian citizen.\n\n**NOTE:** A basic understanding of financial markets is desirable but not mandatory.",
+  "_criteria_filled": 1
+}

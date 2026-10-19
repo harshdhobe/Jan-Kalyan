@@ -1,0 +1,26 @@
+{
+  "id": "generator-subsidy-under-motivation-of-entrepreneurs-to-start-industries-and-fisc",
+  "name": "\"Generator Subsidy\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "50% subsidy with a cap of ₹5,00,000/- per industrial unit.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/gs-mesifai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a micro/ small/ medium industrial unit.\n- The unit should be from the manufacturing sector or service sector.\n- The unit should have made investment on generator sets.\n- The unit should have made investment on or after 5th March 2009.",
+  "_criteria_filled": 1
+}

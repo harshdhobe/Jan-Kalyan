@@ -1,0 +1,31 @@
+{
+  "id": "intensive-fisheries-development-programme-subsidy-on-purchase-of-fishing-nets-sc",
+  "name": "Intensive Fisheries Development Programme - Subsidy on Purchase of Fishing Nets (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Financial Assistance is provided to Fish Farmers under the scheme:** \n\n- Financial assistance of 60% subsidy on the purchase of fishing nets of amounting to ₹40,000/-.\n- The maximum subsidy amount is ₹24,000/-.\n\n> **Note:** Subsidy is available only once in two years per beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-letter-1-agreement-letter-between-the-farmer-and-the-department-for-fi"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=cnYpPJWOdD+B7VjJNyVnMA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/safpofn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should be at least 18 years old.\n1. The applicant should present a GST-paid bill for the purchase of fishing nets.\n1. The applicant can apply only once in two years for this subsidy.",
+  "_criteria_filled": 2
+}

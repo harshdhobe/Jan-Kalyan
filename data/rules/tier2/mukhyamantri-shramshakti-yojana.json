@@ -1,0 +1,43 @@
+{
+  "id": "mukhyamantri-shramshakti-yojana",
+  "name": "Mukhyamantri Shramshakti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "This scheme offers the following benefits:\n\n  - **Self-Employment and Employment Opportunities:** Men and women from minority communities will receive training to enhance their chances of self-employment and job opportunities.  - **Easy Loans for Self-Employment:** Candidates can avail loans at simple interest rates through the &amp;quot;Mukhyamantri Alpsankhyak Rozgar Rinn Yojana&amp;quot; after ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar-card-passport-size-photograph-proof-of-age-educational-qu",
+    "account-number",
+    "and-ifsc-code-castecommunity-certificate-income-certificate-residence-certificat"
+  ],
+  "apply_url": "https://applybsmfc.org/msytra/Login.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Bihar.\n   1. The applicant should belong to a minority community.\n   1. The applicant&amp;#39;s age should be between 18 and 45 years.\n   1. The applicant’s annual family income should be less than ₹4,50,000/-.\n\n**Note 1:** Minimum educational qualification for most training courses is 8th/10th pass. The minimum educational qualification required for various training programs will be determined by the Bihar State Minorities Financial Corporation Limited, depending on the course syllabus.\n**Note 2:** There is a 30% reservation for women and 3% reservation for disabled.\n**Note 3:** If the reserved seats for women or disabled persons are not filled, they will be allocated to applicants from other minority categories.",
+  "_criteria_filled": 4
+}

@@ -1,0 +1,26 @@
+{
+  "id": "atma-nirbhar-pashu-palan-yojana",
+  "name": "Atma Nirbhar Pashu Palan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, financial assistance in the form of credit-linked support is provided to eligible beneficiaries for livestock rearing and allied activities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "st-certificate-domicile-certificatepermanent-resident-certificate-prc-photocopy"
+  ],
+  "apply_url": "https://agri.arunachal.gov.in/atmanirbhar_yojana/",
+  "source_url": "https://www.myscheme.gov.in/schemes/anppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The following beneficiaries are eligible under this scheme:\n\n  - Arunachal State Rural Livelihoods Mission (ArSRLM) promoted Self-Help Groups (SHGs), individuals, Farmers&amp;#39; Clubs, Registered Cooperative Societies, and Dairy Cooperative Societies (DCS) will be eligible.\n  - Individuals should belong to the Arunachal Pradesh Scheduled Tribe (APST) category and be unemployed.",
+  "_criteria_filled": 1
+}

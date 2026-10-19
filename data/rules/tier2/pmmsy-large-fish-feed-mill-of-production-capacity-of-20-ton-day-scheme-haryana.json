@@ -1,0 +1,30 @@
+{
+  "id": "pmmsy-large-fish-feed-mill-of-production-capacity-of-20-ton-day-scheme-haryana",
+  "name": "PMMSY: Large Fish Feed Mill of Production Capacity of 20 Ton /Day Scheme - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Monetary Assistance:**\n\n- Grant of ₹20,00,000/- per unit for establishing a fish feed mill with 20-ton/day capacity.\n\n**Subsidy Provisions:**\n\n- 40% subsidy on unit cost for General Category beneficiaries.\n- 60% subsidy on unit cost for Scheduled Caste and women beneficiaries.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-certificate-voting-cardbirth-certificateaadhar-cardmatriculation-c",
+    "nakal-akshizrafardregistered-patta-nama-and-the-land-title-should-be-clear-addit",
+    "the-latest-jamabandifard-akshizra-should-be-attached-gst-bills-photographs-of-fi",
+    "000-should-be-as-per-e-wayincome-taxgst-rules-certificate-from-the-ca-with-the-b",
+    "certifying-that-the-payments-for-the-goods-purchased-by-the-beneficiary-comply-w"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=i2aFJZXJMVBYpg7XJvcNEQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/lffmpc20td",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary must have Parivar Pehchan Patra (PPP).\n1. The Beneficiaries will submit an undertaking in the DPR to the effect that all operational, maintenance and post construction management costs of the infrastructure facilities will be borne by them and the Fish Feed Plant will be kept in operational condition.\n1. Central assistance for Fish Feed Mill will be as per actual cost within the overall ceiling indicated in the respective sub-components/activities under PMMSY.\n1. The Beneficiary will ensure supply of feed produced from the government assisted Fish Feed Plant to the fishers and fish farmers at affordable price.\n1. The projects having land on long term registered lease shall also be considered for Central financial assistance under the scheme. However, the registered lease period/agreement shall not be less than a minimum period of 10 (ten) years.\n\n<br>",
+  "_criteria_filled": 1
+}

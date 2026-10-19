@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-widowdependent-in-case-of-death-of-a-worker-haryana-labo",
+  "name": "Financial Assistance to Widow/Dependent in case of Death of a Worker- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹2,00,000/- is given to the widow or dependent of the deceased worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-id-proof-of-the-worker-issued-by-the-organizationsmart-card-office-id-proof-2"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/91",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawddwhlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow or dependent of a deceased worker.\n   1. The deceased worker should have been employed in an industrial or commercial establishment in Haryana.\n   1. The deceased worker should have been registered with the Haryana Labour Welfare Board.\n   1. There is no maximum limit set for the monthly salary of the worker.\n   1. There is no fixed service period requirement for the worker.\n   1. The application should be submitted within two years from the date of death of the worker.",
+  "_criteria_filled": 1
+}

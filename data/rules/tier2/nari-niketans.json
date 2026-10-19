@@ -1,0 +1,35 @@
+{
+  "id": "nari-niketans",
+  "name": "Nari Niketans",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "person",
+  "benefit": "The inmates are provided care and protection in the institutions. \nBesides food, shelter, bedding & clothing are also provided. \nFor school-going destitute girls free education is provided in addition to other facilities. \nThe children accompanying the mothers will be entitled to admission subject to the condition that male children after they attain the age of 8 years shall be transferred to Bal ",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "3-passport-sized-photograph-signed-across-residential-certificate-domicile-certi",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-of-self-or-of-the-guardian-any-other-document-required-by-the-district-socia"
+  ],
+  "apply_url": "https://jkdswdj.jk.gov.in/welfareSchemes/NARI%20NIKETANS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Jammu &amp; Kashmir.\n1. The applicant should be a Female.\n1. The applicant should be deserted /destitute / widow.\n1. The applicant should not have any means of livelihood.\n1. The children accompanying the mothers will also be entitled to admission subject to the condition that male children after they attain the age of 8 years shall be transferred to Bal Ashrams.",
+  "_criteria_filled": 2
+}

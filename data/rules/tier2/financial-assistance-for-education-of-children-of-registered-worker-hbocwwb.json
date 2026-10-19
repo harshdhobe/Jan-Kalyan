@@ -1,0 +1,28 @@
+{
+  "id": "financial-assistance-for-education-of-children-of-registered-worker-hbocwwb",
+  "name": "Financial Assistance For Education Of Children Of Registered Worker (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1**.** The class-wise amount given under the scheme is as follows:\n**Sl. No.****Category Name****Amount to be paid**1Elementary Education (1st to 8th grade)₹8000/- per annum    2Secondary Education (9th to 12th Class)/ITI Course₹10,000/- per annum     3Higher education (first year to final year of bachelor&amp;amp;amp;#39;s degree)₹15,000/- per annum4Postgraduate (from first year to final year of ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-of-construction-worker-under-hbocwwb1-identi",
+    "voter-card-2-passport-size-photograph-3-a-copy-of-undertaking-4-a-copy-work-slip",
+    "if-applicable-9-proof-of-age-documents-required-for-availing-the-benefits-of-the"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/142",
+  "source_url": "https://www.myscheme.gov.in/schemes/faecrw-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n   1. The registered worker should have a minimum of one-year regular membership.\n   1. The children of registered workers studying in Class-I to Postgraduate are eligible to apply under the scheme. \n   1. Only those students who are studying in any institution/school/college of Haryana state will be eligible for this financial assistance.\n   1. The students who are self-employed or employed will not be eligible for benefits under this scheme.\n\n**Note 01:** Financial assistance will not be given again for the same class in case of failure of the student.\n**Note 02:** It is mandatory to upload the certificate issued by the head of the school/institution that the student is continuing regular studies in the school/institution.\n**Note 03:** The financial assistance for pursuing professional courses shall be paid directly to the Government Institutions except for the reimbursement of admission fees.\n**Note 04:** The claim application of the students studying in private institutions shall be verified by any one of the officers i.e. Deputy Labour Commissioners, Assistant Labour Commissioner, Tehsildars, Naib Tehsildars DEEOs, DEOs, BEEOs, and BEOs.\n**Note 05:** The financial assistance for education will be given up to three children only i.e. three female or two male children.",
+  "_criteria_filled": 1
+}

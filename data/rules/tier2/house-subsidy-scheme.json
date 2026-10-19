@@ -1,0 +1,31 @@
+{
+  "id": "house-subsidy-scheme",
+  "name": "House Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1.\tThe scheme provides a subsidy of Rs. 1,30,000/- for the construction of a house.\n2.\tIndividuals from marginalized sections, including Scheduled Castes, Other Backward Classes, Minority Community, Single Women, or handicapped, can apply for this scheme.Communities\n3.\tThis scheme aims to improve the living conditions and overall quality of life of individuals from these sections.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "bonafide-himachali-certificate-of-the-couple-scheduled-castother-backward-classe"
+  ],
+  "apply_url": "https://hpshimla.nic.in/dwo-shimla/",
+  "source_url": "https://www.myscheme.gov.in/schemes/hs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a resident of Himachal Pradesh.\n2.\tThe applicant should belong to Scheduled Cast, Other Backward Classes, Minority Community, Single Women, or Handicapped.\n3.\tThe applicant&#39;s annual income should be less than Rs. 3.00 lakhs.\n4.\tThe applicant should not have availed of any such subsidy earlier.\n5.\tThe applicant should have a bonafide Himachali certificate of the couple.\n6.\tThe applicant should possess a Scheduled Cast/Other Backward Classes/Minority Community/Single Women or Handicapped Certificate.\n7.\tThe applicant should have income and revenue papers (Record of Right – Parcha &amp; Tatima).\n8.\tThe applicant should have a recommendation from the concerned Gram Panchayat.\n9.\tLatest photographs of the present house are required.\n<br>",
+  "_criteria_filled": 2
+}

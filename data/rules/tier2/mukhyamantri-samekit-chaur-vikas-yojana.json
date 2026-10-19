@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-samekit-chaur-vikas-yojana",
+  "name": "Mukhyamantri Samekit Chaur Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "> **Beneficiary-based subsidy:**\n\n- 50% for other categories.\n- 70% for Most Backward Castes, Scheduled Castes, and Scheduled Tribes.\n- 40% Entrepreneur-based subsidy.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photographs-aadhaar-card-caste-certificate-land-ownership-certific"
+  ],
+  "apply_url": "https://fisheries.bihar.gov.in/docs/chaur23-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmscvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual, family, group beneficiary, or entrepreneur.\n1. The applicant should be a private landowner or lessee in Chaur-dominated districts.",
+  "_criteria_filled": 1
+}

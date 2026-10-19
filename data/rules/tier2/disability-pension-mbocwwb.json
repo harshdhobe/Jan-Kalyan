@@ -1,0 +1,39 @@
+{
+  "id": "disability-pension-mbocwwb",
+  "name": "Disability Pension (MBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "1. The financial assistance of ₹150/- per month as disability pension shall be given to a beneficiary who is permanently disabled due to paralysis, leprosy, tuberculosis (T.B.), accidents, etc.\n   1. In addition to this pension, the worker will also be eligible for an exgratia payment of not more than ₹5,000/- depending upon the percentage of disability and subject to such conditions as may fixed ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "enclosures-required-for-new-registration-under-mbocwwbphotograph-of-the-worker-i",
+    "ration-card",
+    "drivers-license",
+    "aadhaar-card",
+    "passport-are-acceptable-employer-certificateself-certification-issued-either-by",
+    "if-any-age-proof-of-concerned-building-workerapplicant-ie-school-certificate",
+    "certificate-from-the-registrar-of-birth-and-deaths",
+    "certificate-from-the-medical-officer-not-below-the-rank-of-an-assistant-surgeon",
+    "electoral-photo-identity-card-nomination-form-duly-signed-by-the-applicant-self"
+  ],
+  "apply_url": "https://megbocwwb.gov.in/bocw_services/login.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpmbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a resident of Meghalaya.\n   1. The beneficiary should be engaged in a building or other construction work.\n   1. The beneficiary should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The beneficiary should have an active membership of the Board.\n   1. Registered construction workers who have become permanently disabled due to conditions such as paralysis, leprosy, tuberculosis (T.B.), accidents, etc., are eligible to avail of the benefits under the scheme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,37 @@
+{
+  "id": "merit-awards",
+  "name": "Merit Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "The quantum of the award is ₹1,000/- cash amount, certificate. \nThe beneficiary is also provided travel expenses to attend the place of the award, and felicitation up to an amount ₹100/- per student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-reg-the-latest-educational-qualification-proof-of-securing-1st",
+    "2nd",
+    "and-3rd-among-disabled-students-in-the-secondary-school-certificate-ssc-and-high",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/ma-maha",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The applicant should have ranked 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education.",
+  "_criteria_filled": 2
+}

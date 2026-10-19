@@ -1,0 +1,28 @@
+{
+  "id": "one-time-grant-money-to-soldiers-conferred-with-vishisht-seva-medal-award",
+  "name": "One-Time Grant Money to Soldiers Conferred with Vishisht Seva Medal Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- A one-time grant ranging from a minimum of ₹75,000/- to a maximum of ₹2,00,000/- is given to serving soldiers and ex-servicemen of the state.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-applicant-pan-card-photocopy-of-bank-passbook-and-cancelled",
+    "and-will-not-receive-in-the-future",
+    "the-one-time-grantannuity-payable-on-the-gallantry-medal-from-any-other-state-ph"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/otgmscvs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a serving soldier or an ex-serviceman of the state who has been conferred with the &amp;#39;Vishisht Seva Medal Award&amp;#39;.\n\n<br>",
+  "_criteria_filled": 1
+}

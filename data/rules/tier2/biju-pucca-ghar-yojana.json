@@ -1,0 +1,26 @@
+{
+  "id": "biju-pucca-ghar-yojana",
+  "name": "Biju Pucca Ghar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "**Biju Pucca Ghar Yojana (Normal):** \n1. Incentive to the beneficiaries, officials, &amp; CBOs/NGOs involved in the implementation of Biju Pucca Ghar Yojana, Pradhan Mantri Awaas Yojana (Gramin), or any other State-funded Rural Housing Schemes for early completion of houses.\n\n- For completion of the house and IHHL within 4 months of receipt of the 1&quot; instalment, the incentive of ₹ 20,000/- wi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-required-documents-aadhaar-card-bonafide-certificate-voter-id-card-resid"
+  ],
+  "apply_url": "https://rhodisha.gov.in/home/img/guidelines/BPGY_guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpgy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n1.  The applicant must be a permanent resident of Odisha state.\n1.  An application must belong to an economically weaker section.\n1.  The applicant must be living in a kutcha house.\n1.  The application should not own any pucca house in the state.\n1. Beneficiary allotted a house under any Scheme whose house was washed away/ fully damaged/has fully collapsed due to landslide/elephant menace/earthquake/flood or cyclone will also get a house under the Scheme.\n\n<br>\n\nThe Scheme is applicable to 36 Blocks of 9 mining-affected districts as mentioned below. \n<br>\n\nS NoDistrictBlock1AngulAthamalik2AngulBanarpal3AngulChhendipada4AngulKaniha5AngulKishorenagar6AngulTalcher7DhenkanalKankadahad8JajpurSukinda9JharsugudaJharsuguda10JharsugudaLakhanpur11KeonjharBansapal12KeonjharChampua13KeonjharHarichandanpur14KeonjharHatadihi15KeonjharJhumpura16KeonjharJoda17KeonjharKeonjhar Sadar18KoraputDasamantpur19KoraputKoraput20KoraputPottangi21KoraputLaxmipur22KoraputNarayanpatna23KoraputSemiliguda24MayurbhanjJoshipur25MayurbhanjKusumi26MayurbhanjRairangpur27MayurbhanjTiring28RayagadaKashipur29SundergarhGurundia30SundergarhHemgiri31SundergarhKoira32SundergarhKauramunda33SundergarhKutra34SundergarhLahunipara35SundergarhNuagoan36SundergarhRajgangpur<br>\n\nAll kutcha households in mining-affected Blocks as mentioned above will be assisted for the construction of Pucca houses on saturation mode except for the households belonging to the following categories :\n<br>\n\n1. HH, who has been sanctioned house earlier under any of the RH Schemes.\n1. HH, who lives in Pucca house.",
+  "_criteria_filled": 1
+}

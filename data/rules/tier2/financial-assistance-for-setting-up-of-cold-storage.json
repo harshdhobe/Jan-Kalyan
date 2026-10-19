@@ -1,0 +1,38 @@
+{
+  "id": "financial-assistance-for-setting-up-of-cold-storage",
+  "name": "Financial Assistance for Setting Up of Cold Storage",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** Minimum of ₹2,50,00,000/- and maximum as applicable to term loans.\n**Loan Purpose:** For setting up of Cold Storage facilities.\n**Repayment:** 8 years including moratorium period of 2 years.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-filing-loan-applicationcopy-of-acknowledgement-of-msme-registrati",
+    "existing-competitions",
+    "major-consumers-details-and-tie-up-letters-for-marketing-the-product-copy-of-par",
+    "voters-identity",
+    "ration-card",
+    "aadhar-card-and-bank-pass-book-detailed-project-report-on-the-project-consent-le",
+    "name-and-address-of-concerns-and-type-of-consultancy-service-rendered-by-the-con",
+    "for-30-years-or-20-years-certified-copy-or-original-encumbrance-certificate-for",
+    "tamil-nadu-for-tamil-nadu-property-in-case-of-properties-in-the-name-of-deceased",
+    "puducherry-power-feasibility-certificate-from-electricity-department",
+    "puducherry-a-copy-of-permission-letter-obtained-from-the-electricity-department",
+    "puducherry-for-captive-generation-of-power-in-case-generator-is-required-for-the",
+    "technology-and-environment-from-pollution-angle"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasucs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to the Proprietary/Partnership Concerns, Public/Private Limited Companies, Co-operative Societies, Market Committees, Boards, and Agro Industries Corporations.\n<br>",
+  "_criteria_filled": 1
+}

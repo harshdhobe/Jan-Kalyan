@@ -1,0 +1,31 @@
+{
+  "id": "girl-education-promotion-bicycle-scheme",
+  "name": "Girl Education Promotion (Bicycle Scheme)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- Each eligible girl student in class 9 receives ₹2,850/-.\n- The benefit includes a bicycle for plain areas and an FD (Fixed Deposit) worth ₹2,850/- for hilly areas.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-documents-are-required-for-this-scheme"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pgcecycleuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a girl student studying in Class 9.\n   1. The applicant must be enrolled in a government or government-aided non-government secondary school under the Uttarakhand Board.\n\n<br>",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mahila-kamgar-kaushal-unnayan-evan-theka-shramik-hamaal-tatha-ghareloo-mahila-ka",
+  "name": "Mahila Kamgar Kaushal Unnayan Evan Theka Shramik, Hamaal Tatha Ghareloo Mahila Kamgaar Parivar Sashaktikaran Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "The scheme provides the following benefits:\n\n1. Skill development training in below identified trades \n\n   1. Beautician (Beautician)\n   1. Nutritionist (Nutrition)\n   1. Dietitian\n   1. Cooking\n   1. Hospitality\n   1. House Hold (Making Badi, Papad, Pickle Etc.)\n   1. Nursing\n   1. Tailoring\n\n1. Financial assistance for training\n1. Family empowerment activities such as health education, financial",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-educational-qualification-of-the-applicant-a"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/gharelu%20mahila%20kamagar%20kaushal%20unnayan%20yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkku",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Female domestic workers, Contract workers and Hamal to be registered with the Board.\n1. Benefits from this scheme are not available to individuals who are already receiving benefits from another comparable scheme offered by the State Government.\n1. The age limit for the scheme should be above 18.",
+  "_criteria_filled": 3
+}

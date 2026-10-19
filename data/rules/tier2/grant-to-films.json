@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-films",
+  "name": "Grant to Films",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the provisions of the Uttarakhand Film Policy–2024, grants are provided as follows:\n\n   1. For films made in regional languages and dialects, a grant of 50% of the amount spent in the state or up to ₹2 crore, whichever is lower, will be provided.\n   1. For films made in Hindi or in the languages listed in the 8th Schedule of the Indian Constitution, a grant of 30% of the amount spent in the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "film-censor-certificate-details-of-all-expenditures-related-to-film-production-c"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a film producer.\n\n<br>",
+  "_criteria_filled": 1
+}

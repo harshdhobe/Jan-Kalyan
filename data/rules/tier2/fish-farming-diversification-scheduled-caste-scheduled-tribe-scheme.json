@@ -1,0 +1,28 @@
+{
+  "id": "fish-farming-diversification-scheduled-caste-scheduled-tribe-scheme",
+  "name": "Fish Farming Diversification (Scheduled Caste / Scheduled Tribe) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme:\n\n  - Fishermen who already own ponds are provided a 60% subsidy for repairing or improving their ponds, or for undertaking duck/poultry farming and other integrated activities.\n  - To connect landless individuals with fish processing and marketing businesses, a 60% subsidy of ₹1,50,000/- is provided against the cost of a mobile fish stall amounting to ₹2,50,000/-.\n  - A 60% subs",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "for-pond-improvement-or-integrated-fisheries",
+    "the-application-must-include-the-following-documents-aadhaar-card-land-documents",
+    "the-application-must-include-aadhaar-card-permanent-residence-certificate-caste"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ffds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Uttarakhand.\n   1. The applicant should belong to the Scheduled Caste or Scheduled Tribe community.\n   1. The applicant should be engaged in fish production and possess a pond or be landless and interested in engaging in fish processing or marketing businesses to be eligible.",
+  "_criteria_filled": 1
+}

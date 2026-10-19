@@ -1,0 +1,29 @@
+{
+  "id": "primary-cooperative-agriculture-and-rural-development-bank-for-fishing-boats-cat",
+  "name": "Primary Cooperative Agriculture and Rural Development Bank: For Fishing Boats (Catamarans)",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Access to Loan:** Ranges from ₹15,000/- to ₹60,000/- for purchasing fishing boats.  - **Interest Rate:** As per the bank policy (subject to change).\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-aadhaar",
+    "pan-card",
+    "etc-address-proof-proof-of-agricultural-occupation-eg",
+    "proof-of-being-a-fisherman-or-fishing-license-if-applicable-fishing-license-if-a"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/3568",
+  "source_url": "https://www.myscheme.gov.in/schemes/pcardbfb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be a farmer.\n  - The beneficiary should be engaged in fishing activities.\n  - The beneficiary should be interested in availing loan for Fishing Boats (Catamarans) from the Primary Cooperative Agriculture and Rural Development Bank.\n  - The beneficiary should have the intention to use the loan specifically for purchasing a fishing boat (Catamaran).\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scheme-of-assistance-for-common-environment-infrastructure-scheme-for-developmen",
+  "name": "Scheme of Assistance for Common Environment Infrastructure: Scheme for Development of Green Estate",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Activity****Assistance**Assistance for preparation of site master plan for relocation /retrofitting of existing polluting industrial units into Green Industrial estate as per the direction of GPCB/MoEF by recognized Science &amp;amp;amp;amp; Engineering Colleges of the State, IITs, NITs, Scientific and R &amp;amp;amp;amp; D institutions, GEMI, GCPC etc.75% assistance maximum ₹80,00,000/-.A",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-legal-status-of-applicant-such-as-memorandum-and-article-of-association",
+    "and-list-of-directorsmembers-with-addresses-proof-that-land-for-project-is-in-po",
+    "like-land-allotment-letter-of-gidc-with-copies-of-712-utaara",
+    "na-permission",
+    "approved-plan",
+    "and-construction-permission-by-competent-authority-copy-of-gpcb-noccca-for-estab",
+    "then-give-justification-on-letterhead-copy-of-environment-clearance-if-not-appli",
+    "then-give-justification-on-letterhead-detailed-project-report-covering-all-detai",
+    "if-loan-is-sanctioned-affidavits-for-outstanding-government-dues-and-any-pending"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/12-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saceidge",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Industries Commissioner, based on GPCB’s recommendation, will appoint a professional agency for assessing relocation needs.\n  - The professional agency will evaluate pollution load, effluent quality, and overall environmental benefits.\n  - The study report must be approved by the SLEC committee before project execution.\n  - Any institution or group of industries with polluting industrial units recommended for relocation or retrofitting by GPCB is eligible.\n  - Infrastructure expenditures for internal roads, power distribution, communication, water supply, sewage, effluent treatment, and other approved facilities are eligible for financial support.",
+  "_criteria_filled": 1
+}

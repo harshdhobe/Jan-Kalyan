@@ -1,0 +1,26 @@
+{
+  "id": "kisan-credit-card-scheme-for-fisheries-chief-minister-fishermen-prosperity-schem",
+  "name": "Kisan Credit Card Scheme for Fisheries- Chief Minister Fishermen Prosperity Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Short-term working capital loans for fisheries activities under the Kisan Credit Card (KCC) facility.\n- Fish farmers receive interest subvention, enabling access to zero-percent interest loans through cooperative banks.\n- The loan amount is determined as per bank norms and scheme provisions, based on the financial requirement of the fish farmer.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-bank-passbook-proof-of-fisheries-activity-caste-certificate-any-o"
+  ],
+  "apply_url": "https://mpfisheries.gov.in/hi/yaojanaaen/maukhayamantarai-machaua-samardadhai-yaojanaa",
+  "source_url": "https://www.myscheme.gov.in/schemes/kccsf-cmfps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a landholding farmer, marginal farmer, small farmer, fish farmer, livestock owner, BPL beneficiary, unorganized worker card holder, or registered worker. \n1. The applicant must be engaged in fisheries activities.\n\n<br>",
+  "_criteria_filled": 1
+}

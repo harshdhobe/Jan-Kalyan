@@ -1,0 +1,26 @@
+{
+  "id": "fatal-accident-relief-telangana",
+  "name": "Fatal Accident Relief - Telangana",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "- **A relief amount of ₹6,00,000/- is provided to the nominee, dependents, or legal heirs of the deceased registered worker.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-of-the-applicant-registration-card-under-bocw-act-original-r"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2016LETF_MS29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/far-tbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the nominee/dependant / legal heir of the deceased registered worker. \n1. The deceased must have been a registered building or construction worker with the Telangana Building and Other Construction Workers Welfare Board.\n1. The construction worker should have died on the spot or due to the injuries caused by an accident that occurred either in the work place or anywhere else.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-on-marriage-of-sons-haryana-silicosis-board",
+  "name": "Financial Assistance on Marriage of Sons- Haryana Silicosis Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹11,000/- is provided to workers suffering from silicosis for the marriage of up to two sons.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-silicosis-boardaadhaar-car",
+    "ct-scan",
+    "medical-prescription",
+    "any-other-general-document-esi-card",
+    "any-other-work-experience-document-proof-of-residence-ration-card-bank-account-d",
+    "if-the-worker-is-not-alive-date-of-birth-proof-of-son-getting-married-copy-of-ba"
+  ],
+  "apply_url": "https://hrylabour.gov.in/staticdocs/labourpolicies/Haryana%20Silicosis%20Rehabilitation%20Policy%20(English).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fams-hsb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/worker should be employed in a factory or at a construction site.\n   1. The worker who is suffering from silicosis as confirmed by the Silicosis Diagnosis Board, Haryana can avail the benefits under this scheme for the marriage of their sons.\n   1. The worker should be registered with the Haryana Silicosis Board.\n   1. The assistance is available for the marriage of up to two sons of the worker only.",
+  "_criteria_filled": 1
+}

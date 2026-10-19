@@ -1,0 +1,26 @@
+{
+  "id": "regional-centre-for-training-and-production-of-mushroom",
+  "name": "Regional Centre for Training and Production of Mushroom",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nSupply of spawns at 50% subsidy and compost at 50% subsidy.\n> **Type of Assistance and Entitlement (If any):**\n\n**Sl. No.****Entitlement****Owantum of Assistance**1Sale of Button, Oyster spawns, and compost to Mushroom growers at Mushroom Development Centre.50% subsidy sale to the growers.2Construction of compost shed under Assistant Director of Horticulture, Mushroom",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-bank-passbookaccount-details-documents-p"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=107",
+  "source_url": "https://www.myscheme.gov.in/schemes/rctpm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture, possessing own or leased land of at least 0.2 (hectares) or more.\n\n**Note:** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

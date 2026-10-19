@@ -1,0 +1,33 @@
+{
+  "id": "financial-assistance-for-artificial-limbs-to-workers-and-their-dependents-haryan",
+  "name": "Financial Assistance for Artificial Limbs to Workers and their Dependents- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance up to the rates fixed by the Saket Hospital Chandimandir (Panchkula) will be provided to the workers/dependents if they lose important limbs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "smart-card-office-id-proof-employee-certificate-employer-certificate-employee-sa",
+    "in-case-of-dependent",
+    "is-required-to-submit-proof-of-document-that-the-person-for-whom-he-is-applying"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/84",
+  "source_url": "https://www.myscheme.gov.in/schemes/faalwd-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹20,000/-.\n   1. The service period of the worker is fixed for one year.\n   1. The application is to be submitted within one year from the date of purchase of artificial limbs.\n   1. The assistance is available to workers and their dependents, who become disabled due to the loss of vital organs in an accident.",
+  "_criteria_filled": 2
+}

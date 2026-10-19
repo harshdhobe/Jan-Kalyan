@@ -1,0 +1,26 @@
+{
+  "id": "development-of-brackish-water-aquaculture",
+  "name": "Development of Brackish Water Aquaculture",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component****Standard of Assistance****Remarks****Minimum Time Limit (in Years) for Reclaiming Benefits**Subsidy on purchase of  Aerator50% subsidy on unit cost of Rs.50, 000/- or 50% of  the actual cost incurred whichever is less will have to be sanctioned.\tSubsidy is given to Shrimp Farm owner\tOnce in 3 yearsSubsidy on Construction of New shrimp farm\t50% subsidy on unit cost of R",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-proof-shrimp-farm-registration-certificate-or-application-receipt"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=qO9v1Yt1qFTmoiKMRXBpiA==&domain=qO9v1Yt1qFTmoiKMRXBpiA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbwa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have own land or government-allotted land for shrimp farming.\n- Shrimp Farm of the Beneficiary should have been registered with coastal aquaculture authority or beneficiary should have been applied for it.\n- The beneficiary must have his own bank account.\n- The applicant must provide valid identity proof (Voter ID, Aadhaar Card, Ration Card, or Passport).",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "lifetime-contribution-to-konkani-cinema-award",
+  "name": "Lifetime Contribution to Konkani Cinema Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Cash Award:** ₹50,000/- as fixed by Tiatr Academy of Goa.\n**Honorary Items:** Shawl, memento, and citation presented to the awardee.\n**Recognition Ceremony:** Special function held on 24th April every year on the anniversary of the first Konkani film.\n_*The awardee must be present in person to receive the award at the ceremony._\n_*The award ceremony attendance is mandatory - no proxy or represen",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-proof-of-contribution-to-the-konkani-cinema"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lckca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be not less than 60 years of age.\n- The applicant must have contributed to Konkani Cinema development.\n\n**Relaxation**\n\n- The age limit of 60 years may be relaxed if the health of the artiste is not well.\n\n**Selection Considerations**\n\n- The applicant should demonstrate excellence as an actor, script writer, director, playback singer, lyricist, producer, or composer.\n- The applicant may have received awards in their respective field.\n- The applicant should have done innovation on the Konkani Cinema front.\n- The applicant, if a singer/musician, should have songs recorded on vinyl records, Compact Discs, Digital Versatile Discs, online platforms, or brought out in video format.\n- The applicant may have worked in films of other languages in various capacities including acting, directing, singing, composing music, composing lyrics, designing sets, providing background music, or designing light effects.\n- The applicant, if a script writer or lyricist, may have published books of their scripts or lyrics.\n\n<br>",
+  "_criteria_filled": 2
+}

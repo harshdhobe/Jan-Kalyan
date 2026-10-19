@@ -1,0 +1,40 @@
+{
+  "id": "scholarshipmerit-scholarship-schools-scstobcmin-studying-in-collegetechnical-pro",
+  "name": "Scholarship/Merit Scholarship Schools SC/ST/OBC/Min (Studying in College/Technical/ Professional Institutions)",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "> **Course of Study Group-A**\n\n- Degree courses in medical/engineering/B.Sc. (Agri)/Veterinary Science/Forensic Science/Higher Technical and professional studies, and degree-level courses in Indian medicine (B.A.M.S. and comparable courses in Ayurvedic, Unani/Tibbia, and Homeopathy systems of Medicine): Hostellers: ₹1,620/- per month for 12 months; Day Scholars: ₹900/- per month for 12 months.\n- F",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "common-documents-income-certificate-issued-by-competent-authorities-of-gnctd-for",
+    "in-the-case-of-a-gap-in-education-up-to-3-years-only-for-scstobc-students-caste",
+    "gnctd",
+    "in-the-name-of-the-student-or-father-domicile-certificate-of-delhi-if-the-caste",
+    "epic-card",
+    "aadhaar-number",
+    "ration-card",
+    "mtnl-landline-bill",
+    "driving-license",
+    "or-domicile-certificate-declaration-by-parentguardian-affirming-the-students-min"
+  ],
+  "apply_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/circulars-orders/merge_file.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smssssictpi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Delhi.\n- The applicant should belong to the SC/ST/OBC/Minority category.\n- The applicant should be enrolled in a recognized school, college, or institution in India.\n- The applicant should be a student.\n- The applicant should have secured a 60% or above marks in the previous examination.\n- If the applicant is from OBC/Minority Community, his/her annual family income should not exceed ₹2,00,000/-.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,55 @@
+{
+  "id": "social-security-pension-scheme",
+  "name": "Social Security Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "- Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month.\n\n**Note:** The pension amount will be directly transferred to the applicant&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-identity-proof-eg",
+    "aadhaar-card-domicile-certificate-of-chhattisgarh-proof-of-age-eg",
+    "birth-certificate",
+    "marksheet",
+    "passport",
+    "or-driving-license-if-none-of-these-documents-are-available",
+    "age-must-be-certified-by-the-sarpanch-in-rural-areas",
+    "or-by-the-mayor",
+    "administrator",
+    "or-chairman-of-the-municipal-corporation",
+    "municipality",
+    "or-nagar-panchayat-in-urban-areas-disability-certificate-for-disabled-children-a",
+    "a-certificate-regarding-being-a-student-by-the-principalhead-teacher-of-the-conc",
+    "a-certificate-from-an-authorized-doctor-bank-passbook-or-bank-account-details-an",
+    "the-applicant-will-have-to-open-his-own-savings-account-in-the-bank-immediately"
+  ],
+  "apply_url": "https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be either a person with a disability or a dwarf person.\n   1. Children with disabilities (CwDs) aged 6-17 years are eligible, the CwDs in the age group of 6-14 should be school-going.\n   1. Persons with disabilities who are 18 years or older and have a disability of 40% or above are eligible for the scheme.\n   1. The applicant should not be receiving pension benefits from any other central or state government pension scheme.\n   1. The applicant&amp;#39;s name should be included in the list of families living the Below Poverty Line.\n\n**Note:** Disabled children aged 6-14 years who are not attending school are not eligible.",
+  "_criteria_filled": 4
+}

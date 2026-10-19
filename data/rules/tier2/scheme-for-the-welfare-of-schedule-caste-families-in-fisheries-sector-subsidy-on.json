@@ -1,0 +1,31 @@
+{
+  "id": "scheme-for-the-welfare-of-schedule-caste-families-in-fisheries-sector-subsidy-on",
+  "name": "Scheme for the Welfare of Schedule Caste Families in Fisheries Sector: Subsidy on Annual Auction of Notified Waters",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- 50% subsidy of the actual auctioned amount with maximum limit of ₹5,00,000/- per auction, whichever is less.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-registered-agreement-between-contractorlicensee-and-department-date"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=WZjABl%2fpxTlgj43kqRHWQw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/faotaaonw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should possess a valid Family ID Card (Parivar Pehchan Patra).\n1. The applicant should belong to a Scheduled Caste category.\n1. The applicant&#39;s age should be 18 years or above.\n\n<br>",
+  "_criteria_filled": 2
+}

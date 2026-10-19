@@ -1,0 +1,32 @@
+{
+  "id": "dr-bhimrao-ambedkar-kamdhenu-yojana",
+  "name": "Dr. Bhimrao Ambedkar Kamdhenu Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "> **Loan will be disbursed in four stages (Amount in Lakhs)**\n\nStages of PaymentTime PeriodComponent DescriptionIndigenous Breed (₹ in Lakh)Crossbred/Hybrid/ Buffalo (₹ in Lakh)First installment1st MonthShed Construction11,00,00011,40,000Second installment4th MonthAnimal Purchase + Insurance + Transport9,00,00011,00,000Third installment10th MonthAnimal Purchase + Insurance + Transport8,00,0009,80,",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-residence-proof-land-records-training-certificate-bank-account-de",
+    "if-required"
+  ],
+  "apply_url": "https://dbaky.mp.gov.in/IndexAboutScheme.aspx?csrt=8196877104242795588",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbaky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n- The applicant must be at least 21 years of age.\n- The applicant must be a livestock farmer.\n- The applicant belongs to all categories: SC, ST, and others are eligible to apply.\n- The applicant must possess a minimum of 3.5 acres of agricultural land per unit (25 cattle).\n- The applicant can apply for up to 8 units, with land requirement increasing proportionately.\n- The applicant’s family’s collective landholding can be considered; in such cases, there will be co-borrowers.\n- For scattered landholdings, at least half an acre must be in one location.\n- The applicant must hold a training certificate from a reputed institute/organization in dairy management.\n\n<br>",
+  "_criteria_filled": 2
+}

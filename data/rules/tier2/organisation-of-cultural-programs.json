@@ -1,0 +1,26 @@
+{
+  "id": "organisation-of-cultural-programs",
+  "name": "Organisation of Cultural Programs",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "After the presentation of cultural programmes by groups/folk singers enlisted with the Culture Department on the occasion of traditional fairs, festivals, celebrations, and national festivals organized within or outside the state, the following honorarium and allowances are payable:\n\n   1. Group Leader: Honorarium of ₹1,000/- and travelling allowance of ₹500/-.\n   1. Other Artists: Honorarium of ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "registration-certificate-of-the-organization-copy-of-the-organizations-bylaws-de"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ocpr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a cultural group or an artist registered with the Department of Culture, Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

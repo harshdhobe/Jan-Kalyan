@@ -1,0 +1,27 @@
+{
+  "id": "scheme-for-upliftment-of-utsavi-rangabhumi-of-goa",
+  "name": "Scheme for Upliftment of Utsavi Rangabhumi of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Nature and Quantum of Assistance**\n\n1. Financial assistance for the production of prose play will be a maximum of ₹ 20,000/- or 75% of the actual cost, whichever is less. However, the same could be decided by the selection committee from time to time depending upon the type of the play. \n1. Financial assistance for the production of the Sangeet play will be a maximum of ₹ 30,000/- or 75% of th",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-registration-certificate-if-registered-copy-of-detail-estimate-expenditu",
+    "an-originalcopy-of-the-utilization-certificate-may-be-submitted-bank-details-onl"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/suurg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be traditional village festive theatre groups/amateur theatre groups. \n1. The group should have traditions of performing their plays during the village deity festival through devasthan or village institutions. \n1. There has to be a tradition of performing the plays at least for 25 years.\n1. The theatre group has to perform all the roles including that of the female in the drama from the same village. No professional artist will be allowed.\n1. Traditional theatre group from the same village has to perform the play as the tradition may be and the devasthan or village committee may certify the same.\n1. There should be a Bank Account of the group in the Nationalized/ Scheduled Bank in order to release payment.",
+  "_criteria_filled": 1
+}

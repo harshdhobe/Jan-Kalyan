@@ -1,0 +1,42 @@
+{
+  "id": "unemployed-youth-employment-generation-programme",
+  "name": "Unemployed Youth Employment Generation Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "1. Under the scheme, subsidy assistance will be provided by the State Government up to 25% of the project cost (Maximum to a limit of ₹2.50 Lakhs) for setting up Manufacturing/ Service / Business enterprises.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-copy-of-election-id-card-aadhaar-card-etc-copy-of-pan-card-pas",
+    "a-nativity-certificate-from-the-thasildhar-aadhar-card-xerox-election-voters-ide"
+  ],
+  "apply_url": "https://msmeonline.tn.gov.in/uyegp/uyegp_desc.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/uyegp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a permanent resident of Tamil Nadu.\n2.\tThe applicant should be a minimum of 18 years of age; and\n     (a) **for the General category:** maximum of 35 years of age.\n  (b) **for Special category (SC/ ST/MBC/ BC/ Minorities/ Ex-Servicemen/ Differently abled/ Transgender):** maximum of 45 years of age.\n3.\tThe applicant should have passed the 8th standard.\n4.\tThe family income of the applicant should not exceed ₹5 lakhs per annum.\n5.\tThe applicant&amp;#39;s contribution should be 10% of the project cost for the General category; or 5% for the Special category.\n6.\tEntrepreneurship Development Programme (EDP) training is mandatory.\n7.\tProject cost should not be more than ₹15 lakhs for manufacturing, and ₹5 lakhs for Trading / Service projects.",
+  "_criteria_filled": 4
+}

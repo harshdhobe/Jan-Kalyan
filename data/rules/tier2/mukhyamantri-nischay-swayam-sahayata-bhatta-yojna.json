@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-nischay-swayam-sahayata-bhatta-yojna",
+  "name": "Mukhyamantri Nischay Swayam Sahayata Bhatta Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "The amount of self-help allowance will be paid to the eligible applicant at the rate of Rs.1000 per month for a maximum period of two years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 20
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-xth-passing-certificate-xiith-passing-certificate-resident-certifica"
+  ],
+  "apply_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in/resources/Process_Flow_for_SHA.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mnssby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. From the age group of 20 to 25 years, unemployed young men/women who are not studying and are looking for employment and whose educational qualification is inter (12th) passed from a government-recognized institution located in the state but Have not received higher education.\n   1. The applicant should be a permanent resident of the district of Bihar state, where he is submitting the application in the district registration centre.\n   1. The applicant should not have received any kind of allowance/scholarship/student credit card/education loan or any kind of assistance from any other source.\n   1. The applicant should not get any type of government or non-government employment (contract/permanent/ temporary).\n   1. The applicant should not be self-employed.\n   1. The day the applicant gets permanent/temporary employment or self-employment, his eligibility for allowance given under this scheme will end and accordingly, the payment of allowance will be stopped as soon as information is received from him.\n   1. Unemployed youth/women applying for the amount of self-help allowance will have to compulsorily get training in language communication and basic computer knowledge (skilled youth program) conducted by Labor Resources Department and they will get a total amount of self-help allowance for the last 5 months will not be released until they successfully surrender the certificate of the said training.",
+  "_criteria_filled": 3
+}

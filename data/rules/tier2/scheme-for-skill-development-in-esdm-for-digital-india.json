@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-skill-development-in-esdm-for-digital-india",
+  "name": "Scheme for ‘Skill Development in ESDM for Digital India’",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "**1. Financial Assistance for Course Fee:**\n\n- General Category:\n\n  - 75% of course fee reimbursed by MeitY after certification and placement.\n  - Remaining 25% payable by the candidate (may be shared/borne by the Training Partner).\n\n- Reserved Category (SC/ST/EWS):\n\n  - 100% of the course fee reimbursed by MeitY.\n\n**2. Course Fee Structure (Upper Ceiling):**\nLevelManufacturing Courses (₹)Service ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 17
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-aadhaar-enrolment-id-identity-proof-any-one-voter-id-card-pan-card"
+  ],
+  "apply_url": "https://www.meity.gov.in/static/uploads/2024/03/ESDM_SkillDev_Guidelines_Scheme2_v2.0_05Nov2018.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdesdm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be studying in Class 9 or Class 10 onwards; or the applicant should be a school dropout from 8th pass onwards; or the applicant should be an ITI certificate holder, a diploma holder, an undergraduate, a graduate, or registered in employment exchanges.\n1. The applicant should be eligible to enrol in any of the 5 NSQF levels (Level 1 to Level 5), subject to meeting the minimum eligibility criteria of the respective course.\n1. The applicant should have a valid Aadhaar Number, or an Aadhaar Enrolment ID (EID) may also be considered.\n1. The applicant should provide consent for Aadhaar authentication or the e-KYC process.\n1. The applicant should not have been a beneficiary of any Government of India-aided skilling course in the ESDM field, sponsored by the Central or State Government.\n1. The applicant should submit an undertaking declaring non-availment of any such scheme at the time of enrolment.\n1. The applicant should have attained a minimum age of 17 years at the time of registration/enrolment.\n1. The applicant should be willing to get employed or self-employed and submit an undertaking to this effect at the time of enrolment.\n1. The applicant should undergo training for the prescribed duration and appear for an assessment conducted by the respective Key Implementing Agency (KIA).\n1. The applicant should maintain at least 70% attendance to be eligible to appear for the assessment.\n1. The applicant can avail the benefit under the scheme only once; however, for manufacturing job roles, the applicant may be allowed to undergo two courses at successive NSQF levels.\n\n> **Reservation / Preference:**\n\n- 60% seats: General Category\n- 40% seats: Reserved Categories\n\n  - SC: 15%\n  - ST: 7.5%\n  - EWS: 17.5%\n\n- EWS Criteria:\n\n  - The applicant’s family income should not exceed ₹2,00,000/- annually.\n\n<br>",
+  "_criteria_filled": 1
+}

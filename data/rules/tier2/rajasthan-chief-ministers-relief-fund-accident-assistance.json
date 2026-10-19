@@ -1,0 +1,28 @@
+{
+  "id": "rajasthan-chief-ministers-relief-fund-accident-assistance",
+  "name": "Rajasthan Chief Minister's Relief Fund - Accident Assistance",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "In case of death due to accident, ₹ 1,00,000 is provided to the dependent of the deceased. \nIn case of serious injury, assistance should be approved up to ₹ 20,000, keeping in view the seriousness of the injury to the ordinary injured. \nA revolving fund of ₹20,00,000 each has been made available to all district collectors. \nThe assistance is \"one-time full-support\" and is sanctioned by the concern",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-proof-of-identity-of-the-applicant-and-of-the-deceased",
+    "if-applicable-residential-proof-domicile-certificate-medical-report-of-the-injur",
+    "the-satisfaction-certificate-of-the-inquest-officer-mandatory-fir-report-mandato"
+  ],
+  "apply_url": "https://jankalyan.rajasthan.gov.in/#/scheme/detail/435",
+  "source_url": "https://www.myscheme.gov.in/schemes/rcmrf-aa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The victim should be a resident of the state of Rajasthan.\n1. The victim should have suffered serious injury / death.\n1. In case of death, the assistance is payable only to the dependent parents/husband-wife/son-daughter of the deceased in the accident. \n1. Under special circumstances, assistance can be given to grandparents/dependent siblings with the consent of the Chief Minister&#39;s Office. \n1. In cases of murder and rape, action should be taken to give compensation under the Rajasthan Victim Compensation (Amended) Scheme-2015 under the provision of providing assistance in cases of murder and rape.\n1. The applicant must apply within a maximum period of 6 months from the date of accident.",
+  "_criteria_filled": 1
+}

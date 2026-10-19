@@ -1,0 +1,29 @@
+{
+  "id": "capital-investment-subsidy-to-establish-a-new-deluxethree-star-or-higher-categor",
+  "name": "Capital Investment Subsidy to Establish a New Deluxe/Three Star or Higher Category New Hotel and Resort",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- The beneficiary is entitled to a Capital Investment Subsidy of 15% against the Fixed Capital Investment.\n- The maximum ceiling of the subsidy provided is ₹5,00,00,000/-.\n\n##### ***Disbursal Conditions***\n\n- _The unit must be operational for at least three years from the date of availing the subsidy._\n- _The unit must submit a self-declaration regarding continuous operation on or before the 15th ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-copies-of-land-records-ownership-documents-such-as-certified-khas",
+    "municipality-etc-copy-of-the-building-permission-granted-by-the-appropriate-auth",
+    "catering-bill",
+    "or-service-bill-photographs-of-the-unitproject-from-3-different-angles-jpg-forma"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisendtshcnhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish a new Hotel or Resort that falls under the &quot;Deluxe/Three Star or Higher&quot; category.\n- The applicant must incur a minimum capital expenditure of ₹10,00,00,000/-, as approved by the department.\n- The applicant must ensure the facility has a minimum of 50 lettable air-conditioned rooms available.\n- The applicant must be a private investor, as the policy aims to promote private investment.\n- The applicant must submit the application for the capital subsidy within 1 year from the date of commencement of operation.\n- The applicant must not have claimed Investment Promotion Assistance for the same unit, as units claiming that assistance are not entitled to capital subsidy.\n\n<br>",
+  "_criteria_filled": 1
+}

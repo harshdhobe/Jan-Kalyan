@@ -1,0 +1,26 @@
+{
+  "id": "madhya-pradesh-professional-talent-examination-award-scheme",
+  "name": "Madhya Pradesh Professional Talent Examination Award Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Prize Money**\n\n- First Position: ₹1,00,000/-\n- Second Position: ₹50,000/-\n- Third Position: ₹25,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=870",
+  "source_url": "https://www.myscheme.gov.in/schemes/mppteas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Madhya Pradesh.\n- The applicant should belong to Other Backward Classes (OBC) as per the list declared by the Government of Madhya Pradesh.\n- The applicant should have appeared and secured first, second, or third position in entrance examinations (PET, PPT, or MCA) conducted by the Professional Examination Board.\n- The applicant should be pursuing technical and vocational subjects.",
+  "_criteria_filled": 1
+}

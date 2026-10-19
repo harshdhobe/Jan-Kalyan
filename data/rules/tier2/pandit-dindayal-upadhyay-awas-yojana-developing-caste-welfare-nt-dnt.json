@@ -1,0 +1,31 @@
+{
+  "id": "pandit-dindayal-upadhyay-awas-yojana-developing-caste-welfare-nt-dnt",
+  "name": "Pandit Dindayal Upadhyay Awas Yojana (Developing Caste Welfare) (NT-DNT)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** Up to ₹1,20,000/- for house construction.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-the-map-showing-the-area-of-the-land-on-which-the-building-is-to-be-co"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pduayntdnt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant must be a resident of Gujarat.\n  - Applicant must belong to the [Nomadic Tribe (NT)/ Denotified Tribe (DNT)](https://socialjustice.gov.in/writereaddata/UploadFile/Draft%20List%20of%20Denotified%20Tribes%20for%20Mail.pdf).  - Applicant’s annual family income must not exceed ₹6,00,000/-.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,43 @@
+{
+  "id": "livelihood-opportunity-promotion-scheme-scheduled-caste",
+  "name": "Livelihood Opportunity Promotion Scheme (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **Financial Assistance:**\n\n  - Project Cost Limit: ₹50,000/- to ₹2,00,000/-\n  - Bank Loan: 60% of the project cost\n  - Margin Money: 30% of the project cost (payable with applicable interest over 60 monthly installments)\n  - Grant: Maximum of ₹10,000/-\n\n> **Beneficiary Contribution:**\n\n  - No contribution for project cost up to ₹1,00,000/-\n  - 10% contribution for project cost between ₹1,01,000/",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 129840
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-address-proof-aadhaar-card",
+    "voter-id-ration-card-driving-license-caste-residence-verification-caste-certific",
+    "domicile-certificate-or-valid-residential-proof-income-proof-and-financial-docum"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lopssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must belong to the Scheduled Caste category.\n1. The applicant’s age must be between 18 and 50 years.\n1. The applicant’s annual income must not exceed ₹1,05,600/- for rural areas and ₹1,29,840/- for urban areas.",
+  "_criteria_filled": 4
+}

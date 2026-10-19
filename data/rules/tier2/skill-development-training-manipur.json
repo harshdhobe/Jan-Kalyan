@@ -1,0 +1,26 @@
+{
+  "id": "skill-development-training-manipur",
+  "name": "Skill Development Training Manipur",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "- Financial assistance covering course training fees.\n- The financial assistance for boarding and lodging upto ₹150/- per day. \n- Stipends or compensation for loss of daily wages during the training period.\n- Training courses leading to certifications or degrees recognized by the government.\n- Upgradation of training infrastructure through grants for eligible training providers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-of-construction-worker-payment-receipt-of-the-last-c"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=skill+development+training",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdtm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> ***For Construction Worker:***\n\n- The applicant should be registered construction worker under the Manipur Building and Other Construction Workers&#39; Welfare Board****** \n<br>\n\n> ***For Dependent:***\n\n- The applicant should be a spouse, dependent siblings, and children of the registered construction worker.\n\n<br>",
+  "_criteria_filled": 1
+}

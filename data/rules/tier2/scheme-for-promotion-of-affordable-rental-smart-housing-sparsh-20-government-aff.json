@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-promotion-of-affordable-rental-smart-housing-sparsh-20-government-aff",
+  "name": "Scheme for Promotion of Affordable Rental Smart Housing (SPARSH 2.0): Government Affordable Rental Housing Development Support",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "1. All municipalities, District Panchayats, PSUs, and Autonomous bodies within UT of DNH-DD shall be obliged to identify lands in their respective jurisdictions with the help of concerned revenue departments, and to construct at least one SPARSH 2.0 housing or to run at least one SPARSH 2.0 housing on houses already under their possession in their respective jurisdictions\n1. Such municipalities, D",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-government-approval-documents-project-prop"
+  ],
+  "apply_url": "https://ddd.gov.in/labour/",
+  "source_url": "https://www.myscheme.gov.in/schemes/sparsh20gov",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Dadra And Nagar Haveli and Daman &amp; Diu.\n1. The applicant should be the owner or authorised representative of the housing complex.\n1. The housing complex should fulfil SPARSH 2.0 infrastructure norms.\n1. The housing complex should possess a valid construction permission and/or occupancy certificate.\n1. The applicant should agree to reserve at least 66% dwelling units for Economically Weaker Section beneficiaries.\n1. The applicant should agree to maintain the housing complex and waste management systems.\n\n<br>",
+  "_criteria_filled": 1
+}

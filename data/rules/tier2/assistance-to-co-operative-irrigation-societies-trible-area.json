@@ -1,0 +1,29 @@
+{
+  "id": "assistance-to-co-operative-irrigation-societies-trible-area",
+  "name": "Assistance to Co-operative Irrigation Societies (Trible Area)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Monetary Support:** Financial help is provided for the installation of electric motors and pumps on wells and agar creeks to enhance irrigation facilities.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-co-operative-society-registration-proof-of-st-category-caste-certificat",
+    "rent-agreement",
+    "etc-identity-proof-of-applicant-members-aadhaar-card",
+    "voter-id-land-ownership-or-usage-proof-for-wellagar-creek-installation-project-p"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/atcista",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Cooperative irrigation societies formed by small and marginal farmers, or any other farmers, are eligible under this scheme.\n  - The society should be located within the state of Gujarat.\n  - The Scheme is applicable to the Scheduled Tribe (ST) category.\n\n<br>",
+  "_criteria_filled": 1
+}

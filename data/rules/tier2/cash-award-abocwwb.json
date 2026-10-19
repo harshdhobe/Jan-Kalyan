@@ -1,0 +1,26 @@
+{
+  "id": "cash-award-abocwwb",
+  "name": "Cash Award (A.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "1. The cash awards shall be given to the children of the beneficiaries who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark @ ₹5,000/-, ₹4,000/- and ₹3,500/- respectively in HSLC, AHM, and H.S. examinations.\n   1. The Board offers cash awards to three male and three female children of the beneficiaries in each district.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-abocwwb-id-card-2-applicants-photo-3-signature-of-the-parent-4-signature-of-th"
+  ],
+  "apply_url": "https://abocwwb.assam.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/caabocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant student should be a permanent resident of Assam.\n   1. The applicant’s parent should be engaged in any building &amp;amp; other construction work.\n   1. The applicant’s parent should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The parent of the applicant should have an active membership with the Board.\n   1. To avail of the benefits of the scheme, students must have obtained a minimum of 55% or above in the HSLC, AHM, and H.S. examinations.",
+  "_criteria_filled": 1
+}

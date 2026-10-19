@@ -1,0 +1,41 @@
+{
+  "id": "small-scale-lending-scheme-microfinance",
+  "name": "Small Scale Lending Scheme (Microfinance)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Loan Amount:** Maximum loan limit of ₹1,25,000/-.\n**Interest Rate:** Subsidized interest rate of 5% per annum.\n**Loan Coverage:** 95% of the project cost is covered through a loan.\n**Beneficiary Contribution:** Only 5% contribution is required from the beneficiary.\n**Target Group Support:** Specifically designed for small entrepreneurs from the Rabari and Bharwad communities.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-caste-certificate-income-certificate-age-proof-identity"
+  ],
+  "apply_url": "https://daadconline.gujarat.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssls-m",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to the Rabari and Bharwad castes among the socially and educationally backward classes.\n- The applicant must be aged between 21 to 45 years.\n- The applicant must have an annual income of less than or equal to ₹3,00,000/-.\n\n<br>",
+  "_criteria_filled": 4
+}

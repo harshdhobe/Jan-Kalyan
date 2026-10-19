@@ -1,0 +1,31 @@
+{
+  "id": "pmmsy-ice-plantcold-storage-of-minimum-50-ton-capacity-haryana",
+  "name": "PMMSY: Ice Plant/Cold Storage of Minimum 50-Ton Capacity - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- The project cost is ₹150,00,000/-\n\n****   **Subsidy Distribution:**\n\n1. A 40% subsidy is available for the General Category.\n1. A 60% subsidy is offered for SC (Scheduled Caste) and Women beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "date-of-birth-proof-voter-id",
+    "aadhaar",
+    "matriculation-certificate-caste-certificate-scwomen-applicants-issued-by-tehsild",
+    "fard",
+    "registered-patta-with-clear-title-gst-bills-for-constructionequipment-photograph",
+    "000-must-follow-gstite-way-bill-norms-clearance-certificates-clunocfirepollution"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=tiy33FA0paulTXf7xQr/pg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfipcsom",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Haryana and possess a valid Parivar Pehchan Patra (PPP).\n1. The applicant must own land or hold a registered lease for a minimum period of 10 years.\n1. The applicant must submit an undertaking within the DPR/SCP, accepting full responsibility for operating and maintaining the unit.\n1. The applicant must provide ice at affordable prices to fishers.\n1. The applicant must submit a Detailed Project Report (DPR) or Self-Contained Proposal (SCP) in accordance with PMMSY guidelines.\n1. The applicant must hold a valid training certificate in ice plant or cold storage operation and maintenance.\n1. The applicant must ensure the land is free from legal issues and must provide a valid land title.",
+  "_criteria_filled": 1
+}

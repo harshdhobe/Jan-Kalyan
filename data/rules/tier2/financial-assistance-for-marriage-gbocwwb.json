@@ -1,0 +1,27 @@
+{
+  "id": "financial-assistance-for-marriage-gbocwwb",
+  "name": "Financial Assistance for Marriage (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹4,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "containing-the-date-and-the-address-of-the-authority-who-has-issued-the-certific"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-9-Financial-Assistance-For-Marriage-Pension-Benefit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fam-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Worker registered with the Goa Building and Other Construction Workers Welfare Board.\n- The worker should have a continuous membership with the Board for 3 years.\n- The scheme also applies to the female beneficiary for her own marriage.",
+  "_criteria_filled": 1
+}

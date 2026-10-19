@@ -1,0 +1,27 @@
+{
+  "id": "haj-pilgrimage-to-saudi-arabia",
+  "name": "Haj Pilgrimage to Saudi Arabia",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Air fare of ₹24,000/- is given as subsidy for each pilgrim.\n- Free medical facility is provided at Mecca.\n- Subsidy is distributed towards airfare to each and every pilgrim when he applies through the State Haj Committee.\n- The pilgrim should comply with the requisites stipulated for eligibility and application procedure.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-medical-fitness-certificate-declaration-by-the-applicant-cert",
+    "puducherry-haj-committee"
+  ],
+  "apply_url": "https://hri.py.gov.in/resources/docs/rti/11.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Indian citizen.\n- The applicant must have sound health.\n- The applicant must not have performed Haj for the preceding five years.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-sports-development-scheme-unemployed-young-professional-sportsperso",
+  "name": "Mukhyamantri Sports Development Scheme - Unemployed Young Professional Sportsperson",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Fixed Remuneration of ₹20,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-passport-size-photo-permanent-resident-certificate-of-tripura-prtc"
+  ],
+  "apply_url": "https://yas.tripura.gov.in/sites/default/files/2024-02/ADVERTISEMENT.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/msdsuyps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Tripura.\n- The applicant should be a young sportsperson.\n- The applicant should be an experienced professional.\n- The age of the applicant should be between 18 to 40 years (a relaxation of 5 years in the upper age limit for ST/SC candidates).\n\n<br>",
+  "_criteria_filled": 3
+}

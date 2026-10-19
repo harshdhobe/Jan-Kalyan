@@ -1,0 +1,37 @@
+{
+  "id": "mukhya-mantri-sahara-yojana",
+  "name": "Mukhya Mantri Sahara Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1.\tThe eligible beneficiaries will receive financial assistance of Rs. 3,000 per month under the scheme.\n2.\tFinancial assistance will be provided to mitigate the hardships faced during prolonged treatment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-residence-proof-the-applicant-must-provide-a-document-that-verifies-their-resi",
+    "such-as-a-voter-id-card",
+    "ration-card",
+    "aadhaar-card",
+    "or-a-valid-passport-2-income-certificate-the-applicant-must-provide-an-income-ce",
+    "malignant-cancer",
+    "paralysis",
+    "muscular-dystrophy",
+    "hemophilia",
+    "and-thalassemia",
+    "or-chronic-renal-failure-or-any-other-disease-that-renders-a-person-permanently",
+    "the-authorities-may-require-additional-documents"
+  ],
+  "apply_url": "https://sahara.hpsbys.in/Home/Default",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant must be a resident of Himachal Pradesh.\n2.\tThe applicant must belong to the economically weaker section of society.\n3.\tThe applicant must be suffering from specified diseases such as Parkinson&#39;s disease, Malignant Cancer, Paralysis, Muscular Dystrophy, Hemophilia, and Thalassemia, or chronic renal failure or any other disease that renders a person permanently incapacitated.\n4.\tThe applicant must not be a beneficiary of any other government-sponsored pension scheme.\n<br>",
+  "_criteria_filled": 1
+}

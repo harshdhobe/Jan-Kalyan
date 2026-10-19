@@ -1,0 +1,26 @@
+{
+  "id": "icssr-doctoral-fellowship",
+  "name": "ICSSR Doctoral Fellowship",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1)\tMonthly Fellowship amount @ Rs.20,000 per month\n2)\tContingency Grant @ Rs.20,000 per annum",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      }
+    ]
+  },
+  "documents": [
+    "the-list-of-documents-required-will-be-given-in-the-application-form-when-the-ca"
+  ],
+  "apply_url": "https://icssr.org/doctoral-fellowship",
+  "source_url": "https://www.myscheme.gov.in/schemes/doctoral-fellowship",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1)\tApplicant must be an Indian citizen.\n2)\tMust be a full-time bonafide Ph.D. scholar in a social science discipline in a UGC-recognized university, deemed-to-be university, institute of national importance, ICSSR Research Institute, or college with approved Ph.D. programme.\n3)\tThe Ph.D. topic must have been confirmed by the DRC/authorised statutory body of the institution on or before the last date of call for applications.\n4)\tAge must be below 40 years as on the last date of application.\n5)\tAge relaxation of 5 years allowed for SC/ST/OBC-(NCL) candidates and Persons with Benchmark Disabilities (PwD).\n6)\tMust have secured a minimum of 55% marks in post-graduation, with 5% relaxation for reserved categories (SC/ST/OBC-(NCL)/PwD).",
+  "_criteria_filled": 1
+}

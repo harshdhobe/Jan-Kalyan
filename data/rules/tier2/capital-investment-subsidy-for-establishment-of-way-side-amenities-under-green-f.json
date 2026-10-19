@@ -1,0 +1,32 @@
+{
+  "id": "capital-investment-subsidy-for-establishment-of-way-side-amenities-under-green-f",
+  "name": "Capital Investment Subsidy for Establishment of Way Side Amenities Under Green Field or Franchise Model",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Capital Subsidy:** The beneficiary is entitled to a subsidy of 15% of the fixed capital investment.- **Maximum Ceiling:** The maximum subsidy amount is capped at ₹50,00,000/-.- **Availability:** This benefit is available for units established under the Green Field or Franchise Model.\n##### ***Conditions***\n\n- _The unit must be established and operationalized during the operative tenure of the ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-proof-of-identity-aadhaar-card",
+    "voter-id",
+    "or-passport-copy-of-pan-card-photographs-of-the-unit-jpg-format",
+    "not-more-than-500-kb",
+    "from-3-different-angles-proof-of-legal-entity-statusmemorandum-and-articles-of-a",
+    "municipality",
+    "etc-copy-of-certificate-from-town-and-country-planning-tncp-completion-certifica"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisewsagffm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an investor or entrepreneur establishing a &quot;Way Side Amenity&quot; project.\n- The applicant must incur a minimum capital expenditure of ₹25,00,000/- as approved by the department.\n- The applicant must establish the unit under either a Green Field Model or a Franchise Model.\n- The applicant must locate the project at a site identified by the department or at a site explicitly approved by the Managing Director, M.P. Tourism Board.\n- The applicant must ensure the unit is established and operated in accordance with the definitions and standards laid out in the Department&#39;s &quot;Way Side Amenities Policy 2016&quot;.\n- The applicant must submit the application for the capital subsidy within one year from the date of commencement of operation.\n\n<br>",
+  "_criteria_filled": 1
+}

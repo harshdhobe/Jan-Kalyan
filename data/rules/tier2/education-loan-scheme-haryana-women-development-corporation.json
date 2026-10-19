@@ -1,0 +1,31 @@
+{
+  "id": "education-loan-scheme-haryana-women-development-corporation",
+  "name": "Education Loan Scheme: Haryana Women Development Corporation",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. **Financial Assistance:** Provided to female students under a Bank tie-up Education Scheme.1. **Interest Subsidy:** The Corporation will provide an interest subsidy of 5% per annum to the banks.1. **Reduced Interest Burden:** The scheme aims to reduce the interest burden on the student/guardian.1. **Specific Interest Subsidy Condition:** The Haryana Women Development Corporation (HWDC) will pay",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificateharyana-residence-certificate-bank-sanction-letter-education"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/elshrwcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Haryana domicile girl.\n1. The applicant can be a child of a Haryana Government employee.\n1. The applicant can pursue higher education, professional/technical diploma/graduate/postgraduate, doctoral/post-doctoral level in the country and abroad.\n1. There are no preconditions for income.\n1. There are no preconditions of caste.\n1. There are no preconditions for religion.\n1. The scheme is applicable for studies in India and abroad.\n\n<br>",
+  "_criteria_filled": 2
+}

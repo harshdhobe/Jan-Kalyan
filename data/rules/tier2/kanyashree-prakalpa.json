@@ -1,0 +1,52 @@
+{
+  "id": "kanyashree-prakalpa",
+  "name": "Kanyashree Prakalpa",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "Kanyashree Prakalpa offers two types of benefits:\n\n1. **Annual Scholarship (K1):** A cash benefit of ₹1,000/- is paid annually to the girls in the age group 13 to 18 years (studying in Class VIII equivalent or above for every year that they remain in education, provided they are unmarried at the time.1. **One-Time Grant (K2):** A grant of ₹25,000/- is paid after a girl turns 18, provided that she ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 13
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 19
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-mandatory-for-k2",
+    "for-k1",
+    "school-record-certification-allowed-if-unavailable-initially-unmarried-status-de",
+    "if-applicable-death-certificates-of-parents-if-both-parents-are-deceased",
+    "along-with-guardians-statement-juvenile-justice-act-home-residence-proof-if-appl",
+    "account-number",
+    "and-address"
+  ],
+  "apply_url": "https://www.wbkanyashree.gov.in/kp_4.0/kp_objectives.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbkanyashree",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of West Bengal.\n1. The applicant should be enrolled and regularly attending an educational institution.\n1. The applicant should be unmarried.\n1. The applicant should be from a family where the total income is not more than ₹1,20,000/- per year.\n1. The applicant for the Annual Scholarship (K1) should be between the ages of 13 and 18 years.\n1. The applicant for the One-Time Grant (K2) should be between the ages of 18 and 19 years.\n1. The applicant should have a bank account opened in their own name, and the name on the application form must match the name on the bank account.\n1. The educational institution that the applicant is studying in must be registered in West Bengal and recognized by the government.\n\n<br>\n\n> **Educational Institution Type Eligibility:****** The applicant will be eligible for Kanyashree&#39;s Annual Scholarship or the One-Time Grant if they are studying in any of the following:\n\n- In Class VIII or above in a school, madrassah, or equivalent open school course.\n- In a college or an equivalent open university course.\n- A Vocational Training Centre, Technical Training Centre, or Industrial Training Centre.\n- Girls enrolled in Sports Institutes may apply for the One-Time Grant; however, they cannot apply for the Annual Scholarship.\n\n> **Relaxations:** Girls who are specially-abled (with a disability of 40% or more), or are living in a Home registered under the Juvenile Justice Act, 2000, or have lost both parents, may apply for Kanyashree even if their family&#39;s income is more than ₹1,20,000/- per year.\n\n<br>",
+  "_criteria_filled": 5
+}

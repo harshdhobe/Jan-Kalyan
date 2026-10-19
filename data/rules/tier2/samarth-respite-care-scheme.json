@@ -1,0 +1,28 @@
+{
+  "id": "samarth-respite-care-scheme",
+  "name": "Samarth-Respite Care Scheme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. **Group Home:** Registered Orgaisations(RO) should provide group home facilities for all age groups with adequate and quality care service with acceptable living standards including provision of basic medical care from professional doctors.1. **Vocational Activities:** Samarth Centre should provide age specific vocational activities, pre-vocational activities and assistance for training or scho",
+  "criteria": {
+    "all": [
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "enrolment-form-birth-certificate-or-date-of-birth-proof-of-the-pwd-disability-ce",
+    "lg-certificate",
+    "if-pwd-18-years-of-age-and-parents-are-not-the-guardians"
+  ],
+  "apply_url": "https://nationaltrust.nic.in/samarth-scheme/",
+  "source_url": "https://www.myscheme.gov.in/schemes/srcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Applicant should have one of the disabilities under the [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf), which are Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities.\n<br>",
+  "_criteria_filled": 1
+}

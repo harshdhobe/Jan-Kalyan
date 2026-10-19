@@ -1,0 +1,27 @@
+{
+  "id": "scheme-for-supportive-money-to-the-parents-of-transgender-children",
+  "name": "Scheme for Supportive Money to the Parents of Transgender Children",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- **Financial assistance of ₹1,000/- per transgender parent per child per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "affidavit-certifying-the-childs-gender-non-conforming-behavior-bankpost-office-a",
+    "a-guardianship-certificate-from-a-competent-authority-if-applicable-any-other-do"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/scan0001-74363681.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfsmttpotc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The Parents must certify on an affidavit that they have a child exhibiting gender non-conforming behavior.\n- The child&#39;s age should be less than 18 years.",
+  "_criteria_filled": 1
+}

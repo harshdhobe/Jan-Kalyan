@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-financial-assistance-in-case-of-death",
+  "name": "Scheme for Financial Assistance in Case of Death",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "- One time grant in case of natural death : ₹2,00,000/-\n- One time grant, if the death is due to accident during the course of employment: ₹4,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "original-bocw-registration-card-nominees-bank-account-details-death-certificate"
+  ],
+  "apply_url": "https://tbocwwb.tripura.gov.in/news_announcements/7539721.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfacd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a nominee, spouse, or dependent of the deceased registered worker. \n1. The registered construction workers should not have any dues payable to the Board.\n1. Application shall be submitted within 1 year of death.\n1. If the registered beneficiary is covered under Group Life Insurance scheme, is taken by the Board, death benefit as envisaged in this scheme will not apply.",
+  "_criteria_filled": 1
+}

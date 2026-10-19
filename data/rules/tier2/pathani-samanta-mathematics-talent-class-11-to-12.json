@@ -1,0 +1,39 @@
+{
+  "id": "pathani-samanta-mathematics-talent-class-11-to-12",
+  "name": "Pathani Samanta Mathematics Talent (Class - 11 To 12)",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "1. The students of Class XI and XII fulfilling the eligibility criteria will receive ₹5,000/- per month for 10 months in a year.\n1. A student may enjoy more than one scholarship at a time, including PSMTS.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-concerned-copy-of-passbook-of-bank-account-with-acco",
+    "while-in-the-absence-of-the-same",
+    "the-student-may-provide-admission-receiptlibrary-cardletter-of-undertaking-from",
+    "namely-a-if-he-has-enrolled",
+    "his-aadhaar-enrolment-id-slip",
+    "or-copy-of-his-request-made-for-aadhaar-enrolment-b-i-the-voter-identity-card-is",
+    "or-iii-the-driving-licence-issued-by-licensing-authority-under-the-motor-vehicle",
+    "or-iv-the-certificate-of-identity-having-a-photo-of-such-member-issued-by-a-gaze",
+    "or-v-pan-card",
+    "or-vi-any-other-document-specified-by-the-competent-authority-note-03-in-case-of",
+    "please-contact-through-principal-concerned-within-the-given-dateline-for-login-d",
+    "students-must-enter-their-bankbranch-name",
+    "savings-bank-account-number",
+    "ifsc-code-very-carefully-to-ensure-a-smooth-transfer-of-the-scholarship-amount"
+  ],
+  "apply_url": "https://scholarship.odisha.gov.in/website/scholarship-details",
+  "source_url": "https://www.myscheme.gov.in/schemes/psmts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student pursuing his/her studies in Class XI and XII in Higher Secondary Schools affiliated to Council of Higher Secondary Education, Odisha.\n1. The students have proficiency in Mathematics.\n1. The candidate must belong to the General, SC, ST, OBC/SEBC &amp; EBC categories.\n1. The scheme is applicable to students reading in Odia Medium Higher Secondary Schools affiliated to CHSE(O).\n1. There shall be no income criteria for the award of this scholarship.",
+  "_criteria_filled": 1
+}

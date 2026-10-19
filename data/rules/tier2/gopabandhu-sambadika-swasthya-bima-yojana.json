@@ -1,0 +1,26 @@
+{
+  "id": "gopabandhu-sambadika-swasthya-bima-yojana",
+  "name": "Gopabandhu Sambadika Swasthya Bima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "***The scheme provides health insurance coverage to all the working Journalists of the state and their families:***\n\n   1. ₹4,00,000/- is provided to the legal heir of the working journalist in case of his/her death.  \n   1. ₹2,00,000/- in case of permanent incapacitation.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "odisha-based-journalist1-birth-certificate-matric-certificate-voter-card-pan-car"
+  ],
+  "apply_url": "https://owjws.odisha.gov.in/about-us",
+  "source_url": "https://www.myscheme.gov.in/schemes/gssby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Journalist.\n   1. The applicant should be an Odisha-based journalist working either in Odisha or New Delhi for an Odisha-based newspaper.\n   1. The Journalist should be working for a media house registered with the I&amp;amp;PR department, Odisha, New Delhi.\n   1. A newspaper hawker also eligible to apply for this scheme.",
+  "_criteria_filled": 1
+}

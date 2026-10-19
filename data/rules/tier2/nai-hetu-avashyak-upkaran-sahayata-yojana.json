@@ -1,0 +1,36 @@
+{
+  "id": "nai-hetu-avashyak-upkaran-sahayata-yojana",
+  "name": "Nai Hetu Avashyak Upkaran Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> Registered barbers will be provided barber kit including scissors, straight razor, comb, hair cutting cape, water spray bottle and shaving brush.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-labor-registration-card-permanent-residence-certificate-copy-of-rati"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/naai%20hetu%20aavashyak%20upakaran%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngausy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered Unorganized worker of State Social Security Board. \n1. Applicant age must be between 18 to 60 years. \n1. Applicant must not receiving any other parallel scheme of the state government",
+  "_criteria_filled": 3
+}

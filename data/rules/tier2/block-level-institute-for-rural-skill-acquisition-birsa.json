@@ -1,0 +1,36 @@
+{
+  "id": "block-level-institute-for-rural-skill-acquisition-birsa",
+  "name": "Block Level Institute for Rural Skill Acquisition (BIRSA)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "1. **Localized Training:** Skill development centers set up at block levels ensure easy accessibility.1. **Free Materials:** Beneficiaries receive handbooks and essential materials at no cost.1. **Diverse Training Trades:** Candidates can choose trades based on interest with proper counseling.1. **Employment Opportunities:** Post-training support for jobs and self-employment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-educational-certificate-residential-certificate-passport-sized-phot"
+  ],
+  "apply_url": "https://jsdm.jharkhand.gov.in/jsdm/cms/en/birsa/",
+  "source_url": "https://www.myscheme.gov.in/schemes/blifrsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand.\n1. The applicant&#39;s age should be 18-35 years and up to 50 years for SC/ST/OBC reserved categories.",
+  "_criteria_filled": 3
+}

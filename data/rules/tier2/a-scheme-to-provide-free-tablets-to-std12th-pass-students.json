@@ -1,0 +1,26 @@
+{
+  "id": "a-scheme-to-provide-free-tablets-to-std12th-pass-students",
+  "name": "A Scheme to Provide Free Tablets to Std.12th Pass Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Under the scheme, students in the 12th standard belonging to the Scheduled Caste category will receive a tablet by paying a token fee of ₹1,000/-.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-passbookcancelled-cheque-caste-certificate-marksheet-of-12th-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/aspfts12ps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to the Scheduled Tribe (ST) category.\n1. The applicant should have passed the Higher Secondary Certificate (HSC/Std. 12) examination.\n1. The applicant should be admitted to the first year of a graduate-level course in a recognized university.\n\n<br>",
+  "_criteria_filled": 1
+}

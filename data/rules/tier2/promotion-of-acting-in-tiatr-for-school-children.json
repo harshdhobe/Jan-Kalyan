@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-acting-in-tiatr-for-school-children",
+  "name": "Promotion of Acting in Tiatr for School Children",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Cash Prizes and Recognition***\n\n- **Monologue (Comedy Acting):** 1st Performance - ₹3,000/-; 2nd Performance - ₹2,000/-- **Best Script Writer:** ₹2,000/-- **Dialogue (Comedy Acting):** 1st Performance - ₹5,000/-; 2nd Performance - ₹3,000/-- **Best Script Writer:** ₹2,000/-- **Monologue (Non-Comedy Acting):** 1st Performance - ₹3,000/-; 2nd Performance - ₹2,000/-- **Best Script Writer:** ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "typed-copy-of-the-script-contact-details-land-line-and-cell-phone-numbers-script"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/patsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a school student at primary school level or secondary school level.\n- The applicant must participate through their respective school.\n\n##### ***Participation Rules***\n\n- The applicant (one student of a school) can participate in each category.\n- The applicant must submit separate applications if participating in more than one category.\n- The applicant must ensure their performance is between 4 to 7 minutes duration.\n- The applicant must submit a typed copy of the script along with the application form.\n\n##### ***Content Requirements***\n\n- The applicant must ensure their script/performance does not contain any adverse remarks against any governments, individuals, institutions, or anything against caste, creed and religion.\n- The applicant must ensure their performance does not hurt the sentiments of anybody.\n\n##### ***Competition Categories Available***\n\n- The applicant can participate in Monologue (Comedy Acting) category.\n- The applicant can participate in Dialogue (Comedy Acting) category.\n- The applicant can participate in Monologue (Non-Comedy Acting) category.\n- The applicant can participate in Dialogue (Non-Comedy Acting) category.\n\n##### ***Judging Criteria***\nActing abilities are evaluated based on six specific criteria:\n\n- Delivery of dialogues\n- Facial expression\n- Reaction to others on the stage\n- Movement on the stage\n- Costumes\n- Overall impact\n\n##### ***Performance Guidelines***\n\n- Light effects and background music are not considered during judging.\n- Performances are limited to acting ability assessment only.\n- Professional judges with expertise in acting and direction conduct the evaluation.\n\n<br>",
+  "_criteria_filled": 1
+}

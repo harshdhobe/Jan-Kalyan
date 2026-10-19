@@ -1,0 +1,31 @@
+{
+  "id": "gaura-shakti-yojana",
+  "name": "Gaura Shakti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this Scheme, the following steps have been taken by Uttarakhand Police to prevent crimes against women and ensure women’s safety:\n\n   1. A Quick Reaction Team (QRT) has been formed under the Women Help Desk at every police station. On receiving a complaint related to women at the police station, the QRT immediately reaches the spot and acts as the first responder, providing all possible assi",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-2-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Women and girls of the state are eligible to receive assistance under this scheme.\n\n<br>",
+  "_criteria_filled": 2
+}

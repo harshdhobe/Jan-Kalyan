@@ -1,0 +1,26 @@
+{
+  "id": "adi-dravidar-and-tribal-welfare-department-scholarship-public-examination-fee-fo",
+  "name": "Adi Dravidar and Tribal Welfare Department: Scholarship-Public Examination Fee for 10th and 12th Std.",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Reimbursement:** Full reimbursement on Public Examination fee for 10th and 12th Std. students.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/83085",
+  "source_url": "https://www.myscheme.gov.in/schemes/adtwspe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/Tribal/Adi Dravidar converted to Christianity community.\n  - The beneficiary must be appearing for public examinations of 10th/12th Std.",
+  "_criteria_filled": 1
+}

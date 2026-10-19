@@ -1,0 +1,31 @@
+{
+  "id": "dr-muthulakshmi-reddy-ninaivu-inter-caste-marriage-assistance-scheme-ii",
+  "name": "Dr. Muthulakshmi Reddy Ninaivu Inter-caste Marriage Assistance Scheme-II",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹50,000 given to the newly married couple. \n- 1 Sovereign (8 gm) 22-carat gold coin for making Thirumangalyam. \n\n> **Mode of Disbursal:**\n\n₹30,000 through Electronic Clearing Service and ₹20,000 in the form of National Savings Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "marriage-invitation-or-marriage-registration-certificate-community-certificates"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmrnicmasii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The couple should belong to a backward class / most backward class community.\n1. The bride should have passed the 10th standard. \n1. The bride should have studied up to Vth standard in the case of the scheduled tribe.\n1. The age of the bride should be above 18 years at the time of marriage.\n1. The bride should have a degree passed from regular colleges, distance education/government-recognized open university.\n1. The applicant should have a diploma holder passed from the Institution recognized by the Directorate of Technical Education, Government of Tamil Nadu.",
+  "_criteria_filled": 2
+}

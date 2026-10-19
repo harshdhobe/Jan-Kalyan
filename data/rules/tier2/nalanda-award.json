@@ -1,0 +1,26 @@
+{
+  "id": "nalanda-award",
+  "name": "Nalanda Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- Financial assistance to the selected organization.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-passport-size-photos"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/nag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The organization must have made outstanding contributions in the field of social welfare.\n  - The welfare work should benefit socially and educationally backward classes (SEBC).\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

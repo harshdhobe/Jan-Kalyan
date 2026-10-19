@@ -1,0 +1,26 @@
+{
+  "id": "shridev-suman-state-merit-scholarship",
+  "name": "Shridev Suman State Merit Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- On the basis of the declared results of the eligibility test conducted by SCERT Uttarakhand, the scholarship is awarded to the next five students from each of the 95 development blocks of Uttarakhand (95 × 5 = 475) who are not selected for the Dr. Shivanand Nautiyal Scholarship. \n  - Each selected student receives ₹1,000/- per month for a duration of 10 months.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "recent-passport-size-photograph-aadhaar-card-class-7-marksheet-caste-certificate"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sssms",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be an institutional student of Class 8 in any government, local body, or government-aided school (excluding central and residential schools) in Uttarakhand.\n   1. The applicant must have passed the annual Class 7 examination with a minimum of 50% marks (40% for reserved categories).\n   1. There is no restriction on the annual income of parents or guardians.\n   1. The scholarship will be awarded for a period of 4 years, from Class 9 to Class 12.\n\n<br>",
+  "_criteria_filled": 1
+}

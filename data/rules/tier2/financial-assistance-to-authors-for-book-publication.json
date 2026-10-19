@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-authors-for-book-publication",
+  "name": "Financial Assistance to Authors for Book Publication",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, the department provides financial assistance to eminent litterateurs, writers, and poets of the state whose works remain unpublished due to lack of funds.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "manuscript-quotation-for-printing-the-book-aadhaar-card-account-number-pan-card"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatafbp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a native or permanent resident of Uttarakhand.\n1. The applicant must be an eminent litterateur, writer, author, or poet.\n1. The applicant’s literary work must remain unpublished solely due to financial constraints.\n\n<br>",
+  "_criteria_filled": 1
+}

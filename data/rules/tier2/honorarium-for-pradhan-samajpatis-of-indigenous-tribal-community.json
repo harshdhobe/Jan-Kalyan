@@ -1,0 +1,31 @@
+{
+  "id": "honorarium-for-pradhan-samajpatis-of-indigenous-tribal-community",
+  "name": "Honorarium for Pradhan Samajpatis of Indigenous Tribal Community",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "Honorarium of ₹2000/- per month.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "address-proof-age-proof-aadhaar-card-bank-details-bank-name",
+    "branch",
+    "account-number",
+    "ifsc-code-disability-certificate",
+    "if-applicable-any-other-relevant-documents",
+    "as-required"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Honorarium%20for%20Pradhan%20Samajpatis%20of%20Indigenous%20Tribal%20Community_0%20%281%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hpsitc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident of Tripura. \n- The applicant should belong to a tribal community of Tripura.\n- The applicant should be a Pradhan Samajpati (Chief Community Headman) of the tribal community.",
+  "_criteria_filled": 1
+}

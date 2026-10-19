@@ -1,0 +1,32 @@
+{
+  "id": "goa-welfare-pension-scheme-for-seafarers",
+  "name": "Goa Welfare / Pension Scheme For Seafarers",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance in the form of a **Gross Pension of ₹ 2,500/- per month.**\n**NOTE:** If the applicant is in receipt of a monthly pension under the Dayanand Social Security Scheme / Griha Aadhaar Scheme / Kala Samman Scheme, the amount whereof is less than the Gross Pension available under these schemes, then he/she will be entitled to receive only the difference, between the amounts of Gross ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "continuous-discharge-certificate-cdc-seafarers-identity-document-showing-the-rec",
+    "and-after-that-every-year-before-31st-march-to-the-bank-through-which-the-benefi"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/04/seafarers-scheme_compressed-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gwpss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Citizen of India.\n1. The applicant should be a retired seaman, i.e. seaman who was employed on board the ship and retired.\n1. The seaman invalidated from sea service on medical grounds before retirement are also eligible.\n1. The age of the retired seaman should be 60 years or above.\n1. The widow of a deceased Seaman can also be eligible on compassionate grounds, provided that she has been a resident of Goa for 15 years and that her annual income from all sources does not exceed ₹ 1,20,000/-.\n1. The beneficiary should be a bonafide resident of Goa by birth and if not, the said birth should have been registered in Goa or at least either of the parents of the beneficiary should have been born in Goa.\n1. The retired seaman should have rendered a total of 120 months of actual service on board the ship. A break in service up to the period of 6 months shall be condoned while computing the total period of service.\n\n**NOTE:** The limit of 120 months of actual service shall not apply to beneficiaries invalidated from sea service on medical grounds before retirement and the widow of a deceased beneficiary on compassionate grounds.",
+  "_criteria_filled": 2
+}

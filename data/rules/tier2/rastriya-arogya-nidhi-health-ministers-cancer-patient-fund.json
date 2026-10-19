@@ -1,0 +1,27 @@
+{
+  "id": "rastriya-arogya-nidhi-health-ministers-cancer-patient-fund",
+  "name": "Rastriya Arogya Nidhi - Health Minister’s Cancer Patient Fund",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "Financial Assistance: Up to ₹2,00,000 per patient; up to ₹5,00,000 in emergency cases.\n> ***Note:*** \n\n- _Individual cases, which require assistance of more than_  ₹5,00,000/- _will be sent to the Ministry for processing._-  _The maximum financial assistance admissible under the Scheme will be ₹15,00,000/-_\n\n**List of the treatments under this scheme -**\n\n- Radiation treatment of all kinds, includ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-prescribed-proforma-duly-signed-by-the-treating-doctor-and-c",
+    "certifying-that-the-beneficiary-belongs-to-a-family-living-below-poverty-line-in"
+  ],
+  "apply_url": "https://mohfw.gov.in/sites/default/files/RAN_Guideline_2019_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hmcpf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be living Below Poverty Line.\n- The applicant must be suffering from cancer.\n\n> **List of  27 Regional Cancer Centre(s):**\n\n   1. Kamala Nehru Memorial Hospital, Allahabad, Uttar Pradesh.\n   1. Chittaranjan National Cancer Institute, Kolkata, West Bengal.\n   1. Kidwai Memorial Institute of Oncology, Bangalore, Karnataka.\n   1. Regional Cancer Institute (WIA), Adyar, Chennai, Tamil Nadu.\n   1. Acharya Harihar Regional Cancer Centre for Cancer Research &amp;amp; Treatment, Cuttack, Orissa.\n   1. Regional Cancer Control Society, Shimla, Himachal Pradesh.\n   1. Cancer Hospital &amp;amp; Research Centre, Gwalior, Madhya Pradesh.\n   1. Indian Rotary Cancer Institute (AIIMS), New Delhi.\n   1. R.S.T. Hospital &amp;amp; Research Centre, Nagpur, Maharashtra.\n   1. Pt. J.N.M. Medical College, Raipur, Chhattisgarh.\n   1. Post Graduate Institute of Medical Education &amp;amp; Research (PGIMER), Chandigarh.\n   1. Sher-I-Kashmir Institute of Medical Sciences, Soura, Srinagar.\n   1. Regional Institute of Medical Sciences, Imphal, Manipur.\n   1. Government Medical College &amp;amp; Associated Hospital, Bakshi Nagar, Jammu.\n   1. Regional Cancer Centre, Thiruvananthapuram, Kerala.\n   1. Gujarat Cancer Research Institute, Ahmedabad, Gujarat.\n   1. MNJ Institute of Oncology, Hyderabad, Andhra Pradesh.\n   1. Pondicherry Regional Cancer Society, JIPMER, Puducherry.\n   1. Dr. B.B. Cancer Institute, Guwahati, Assam.\n   1. Tata Memorial Hospital, Mumbai, Maharashtra.\n   1. Indira Gandhi Institute of Medical Sciences, Patna, Bihar.\n   1. Acharya Tulsi Regional Cancer Trust &amp;amp; Research Institute (RCC), Bikaner, Rajasthan.\n   1. Regional Cancer Centre, Pt. B.D. Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana.\n   1. Civil Hospital, Aizawl, Mizoram.\n   1. Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow, Uttar Pradesh.\n   1. Government Arignar Anna Memorial Cancer Hospital, Kancheepuram, Tamil Nadu.\n   1. Cancer Hospital, Agartala, Tripura.\n\n<br>",
+  "_criteria_filled": 1
+}

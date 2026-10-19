@@ -1,0 +1,26 @@
+{
+  "id": "gaurav-puraskar-award",
+  "name": "Gaurav Puraskar Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Cash Prize:** \n\n  - Each awardee receives a cash prize of ₹1,000/-.\n\n> **Honorary Recognition:**\n\n  - Awardees are presented with a trophy and a letter of appreciation.\n\n> **Post-Award Engagement:**\n\n  - Awardees may be included as members in committees of the Academy.\n  - Awardees can offer their services as adjudicators or experts in state cultural programs such as Rajya-level Navratri festi",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-attested-copy-of-pan-card-bank-pass-bookcancelled-cheque-identity-c"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must have made a significant contribution or demonstrated excellence in the fields of music, dance, drama, or folk art.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

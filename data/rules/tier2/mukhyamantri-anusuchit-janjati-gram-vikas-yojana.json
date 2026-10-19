@@ -1,0 +1,28 @@
+{
+  "id": "mukhyamantri-anusuchit-janjati-gram-vikas-yojana",
+  "name": "Mukhyamantri Anusuchit Janjati Gram Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "1. Financial support of ₹1,00,000/-  to women self-help groups (SHGs) in selected villages as a grant.\n1. Assistance of up to ₹2,00,000/-  for self-employment or equipment for unemployed educated youth.\n1. Organization of regular health camps focusing on diseases like malaria, sickle cell anemia, and other chronic illnesses.\n1. Support for tribal-specific economic activities, including purchasing ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "scheduled-tribe-certificate-address-proof-aadhaar-card",
+    "voter-id",
+    "etc-educational-certificate-minimum-10th-grade-pass-shg-registration-certificate"
+  ],
+  "apply_url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO003SD00316032021113515818",
+  "source_url": "https://www.myscheme.gov.in/schemes/majgvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility For SHGs:**\n\n1. The group must be selected by the Gram Sabha.\n1. The applicant should belong to a Scheduled Tribe community.\n1. The applicant’s village should have at least 80% tribal population.\n1. The village should be included in the list of selected villages under the scheme.\n\n<br>\n\n**Eligibility For youth self-employment:**\n\n1. The applicant should be an unemployed educated youth.\n1. The applicant must have passed at least 10th grade.\n1. Priority will be given to those with vocational training.\n1. The applicant should belong to a Scheduled Tribe community.\n1. The applicant’s village should have at least 80% tribal population.\n1. The village should be included in the list of selected villages under the scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

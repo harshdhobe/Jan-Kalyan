@@ -1,0 +1,31 @@
+{
+  "id": "ex-gratia-grant-for-disability-to-capf-personnel",
+  "name": "Ex-Gratia Grant for Disability to CAPF Personnel",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Ex-gratia grant to disabled CAPF Personnel as per their percentage of disability:**\n•\t**Disability 75% and above:** ₹35,00,000/- \n•\t**Disability 50% to 74%:** ₹25,00,000/- \n•\t**Disability 25% to 49%:** ₹15,00,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-detailed-battle-casualty-report-and-part-ii-order-from-service-headquart"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=%2fH432+LFd6Eqn6JlERnhTQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/e-ggdcapfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be a disabled CAPF Personnel who became permanently disabled due to war/operation, operational areas, terrorist activities, natural calamities, etc.\n   1. The applicant should have been discharged from service due to the disability.\n   1. The applicant should apply within three years of the disability; otherwise, the application will be considered time-barred.",
+  "_criteria_filled": 2
+}

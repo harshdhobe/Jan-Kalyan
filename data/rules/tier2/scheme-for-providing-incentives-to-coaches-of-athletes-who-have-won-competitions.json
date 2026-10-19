@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-providing-incentives-to-coaches-of-athletes-who-have-won-competitions",
+  "name": "Scheme for Providing Incentives to Coaches of Athletes who have Won Competitions at the National and International Levels",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Under this scheme, financial incentives of up to 10% of the prize money awarded are provided to coaches of winning players in national and international level competitions, subject to a maximum limit of ₹10 lakh.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-affidavit-bank-pass-bookcancelled-cheque-domicile-certificate-suppo"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/tspicacnil",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be domiciled in the State of Gujarat.\n   1. The applicant must be a coach of an athlete/player who has won a national or international level competition.\n   1. The scheme is applicable to coaches of players who have received cash sports talent awards in the year 2015-16 and onwards.\n   1. The coach should be employed in the Sports Department of the State Government on a permanent or contract basis.\n   1. The coach must have trained at least five players.\n   1. The coach must provide supporting evidence from the players who have undergone training.\n   1. Online, postal, or telephonic coaching will not be considered.\n\n<br>",
+  "_criteria_filled": 1
+}

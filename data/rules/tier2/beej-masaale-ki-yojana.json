@@ -1,0 +1,27 @@
+{
+  "id": "beej-masaale-ki-yojana",
+  "name": "Beej Masaale Ki Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** 50% subsidy on the unit cost of ₹30,000/- per hectare, amounting to ₹15,000/- per hectare. (First year: ₹7,500/- and Second year: ₹7,500/-)  - **Affordable High-Quality Seeds:** Farmers can access certified or verified quality seeds of spices through OTP verification from Bihar State Seed Corporation, Patna.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-process-aadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/AreaExpansionStateScheme/OnlineAppSpices.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a farmer.\n   1. The applicant must have agricultural land a minimum of 0.25 acres (0.1 ha) and a maximum of 10 acres (4 ha).\n   1. The applicant must be registered on the DBT portal.\n\n&lt;br&gt;\n\n&gt; **Note 1: Beneficiary allocation:**\n\n    - General Category: 78.56%.\n    - Scheduled Castes: 20%.\n    - Scheduled Tribes: 1.44%.\n    - Women Participation: 30%.\n\n&gt; **Note 2:** The benefits of this scheme can be taken by ryot farmers on the basis of land documents and non-ryot farmers on the basis of contract form.\n\n&gt; **Note 3:** Beneficiaries will be selected on first come first serve basis.",
+  "_criteria_filled": 1
+}

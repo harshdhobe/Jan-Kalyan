@@ -1,0 +1,27 @@
+{
+  "id": "industry-linked-biotechnology-research-scheme",
+  "name": "Industry Linked Biotechnology Research Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "1. Financial assistance in the form of a grant of ₹40 lakhs excluding overhead cost and industry share (25%) for a period of three years shall be provided to Scientists and Technologists of R&amp;amp;D Centers/academic Institutions/Organizations actively involved in biotechnological research with emphasis on areas relating to marine, agriculture, health and environment.\n   1. In addition, the host",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "1-identity-proof-of-applicant-2-passport-size-photographs-3-educational-certific",
+    "if-required"
+  ],
+  "apply_url": "https://kscste.kerala.gov.in/industry-linked-biotechnology-research-scheme-ibrs/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ibrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicants should be the Scientists and Technologists of R&amp;amp;D Centers/Academic Institutions/Organizations actively involved in biotechnological research with emphasis on areas relating to marine, agriculture, health, and environment.\n   1. The proposals need to be submitted in active collaboration with an industry in which the industrial partner is willing to share 25% of the Kerala Biotechnology Commission allocated funds additionally.",
+  "_criteria_filled": 1
+}

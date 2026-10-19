@@ -1,0 +1,36 @@
+{
+  "id": "dr-syama-prasad-mookerjee-durghtana-sahayta-yojana",
+  "name": "Dr. Syama Prasad Mookerjee Durghtana Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "> **Monetary Benefit:**  ₹1,00,000/- is provided in case of:\n\n- Accidental death.\n- Total and permanent loss of both eyes.\n- Loss of both hands or both feet.\n- Loss of one eye and one hand or one foot.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 70
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-haryana-residency-such-as-ration-card-voter-id-domicile-ce"
+  ],
+  "apply_url": "https://socialjusticehry.gov.in/dr-syama-prasad-mookerjee-durghatna-sahayata-yojana/",
+  "source_url": "https://www.myscheme.gov.in/schemes/dspmdsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Haryana.\n  - The applicant should currently be residing in Haryana.\n  - The applicant should be between 18 and 70 years.\n  - The applicant should have met with an accident resulting in death or disability.\n\n**Note:**\n\n   1. In case of disability, the claimant must be the disabled person themselves.\n   1. In case of death, the claimants shall be:\n\n  - The spouse (if not remarried).\n  - All unmarried children with equal share.\n  - Mother\n  - Father\n  - No other claimant is eligible beyond the above.",
+  "_criteria_filled": 3
+}

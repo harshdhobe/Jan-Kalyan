@@ -1,0 +1,27 @@
+{
+  "id": "capital-contribution-scheme-goa",
+  "name": "Capital Contribution Scheme (Goa)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Maximum capital contribution up to ₹1,00,00,000/- per unit will be available, subject to the condition that contributions of promoters should be equal to or more than the capital contribution by the Government. However, this restriction/condition shall not be applicable to sick units.\n- The capital contribution will be for 5 years as may be indicated in the sanctioned order with a guaranteed ret",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-permanent-registration-certificate-or-necessary-proof-of-registration-wi",
+    "trade-and-commerce-audited-statement-of-accounts-of-the-preceding-3-years-projec"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ccs-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Clusters/Units which are in operation for a period of at least 3 years shall be eligible except those covered under the Goa Sick Industrial Unit Revival and Rehabilitation Scheme, 2008 or any such Scheme in force during the tenure of this Scheme.\n- Partnership firms and private limited concerns shall be eligible under this Scheme except those covered under the Goa Sick Industrial Unit Revival and Rehabilitation Scheme, 2008 or any Scheme in force during the tenure of this Scheme.\n- Only those Units which are permanently registered with the Directorate of Industries, Trade and Commerce will be eligible.\n\n_*Preference will be given to units in the small-scale sector, units involved in research and development, technically oriented units, and units run by women entrepreneurs/clusters._",
+  "_criteria_filled": 1
+}

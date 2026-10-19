@@ -1,0 +1,26 @@
+{
+  "id": "sindhu-darshan-scheme-in-ladakh",
+  "name": "Sindhu Darshan Scheme in Ladakh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Under this scheme, the State Government will reimburse 50% of the total expenses incurred during the pilgrimage to Sindhu Darshan in Ladakh, up to a maximum of ₹10,000/- per pilgrim.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-ie-aadhaar-card-3-domicile-certifica"
+  ],
+  "apply_url": "https://dharmasva.mp.gov.in/schemes/view/a3BHUnpXUHY1YmlFbW9xOHAvSm9WQT09",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdsl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n   1. The applicant should have completed a pilgrimage to Sindhu Darshan in Ladakh after being selected by the Madhya Pradesh Government&amp;#39;s Religious Trust and Endowment Department.\n   1. Only individuals selected by the Madhya Pradesh Government&amp;#39;s Religious Trust and Endowment Department for the pilgrimage are eligible for the scheme&amp;#39;s benefits.\n   1. The applicant must not be an income taxpayer.\n   1. Financial assistance is available to each individual only once in their lifetime.\n\n**Note:** To avail the benefit of this scheme, pilgrims should submit all the documents detailing their actual expenses during the journey.",
+  "_criteria_filled": 1
+}

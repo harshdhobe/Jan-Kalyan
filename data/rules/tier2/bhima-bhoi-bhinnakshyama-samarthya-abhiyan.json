@@ -1,0 +1,37 @@
+{
+  "id": "bhima-bhoi-bhinnakshyama-samarthya-abhiyan",
+  "name": "Bhima Bhoi Bhinnakshyama Samarthya Abhiyan",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "person",
+  "benefit": "Persons with Disabilities covered under the new Act include the following categories:\n\n   1. Acid Attack Victim,\n   1. Autism Spectrum Disorder,\n   1. Blindness,\n   1. Cerebral Palsy,\n   1. Chronic Neurological Conditions,\n   1. Dwarfism,\n   1. Hemophilia,\n   1. Hearing Impairment,\n   1. Intellectual Disability,\n   1. Leprosy Cured Person,\n   1. Locomotor Disability,\n   1. Low-Vision,\n   1. Mental",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "the-bhima-bhoi-bhinnakshyama-samarthya-abhiyan-scheme",
+    "would-require-a-set-of-documents-for-various-types-of-applications",
+    "such-as-for-educational-grants",
+    "cultural-programs",
+    "or-community-initiatives-for-individuals-or-community-groups-proof-of-identity-a",
+    "water",
+    "gas-bank-statement-rent-agreement-application-form-educational-documents-if-appl"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/GUIDELINES%20ON%20BHIMA%20BHOI%20BHINNAKSHYAMA%20SAMARTHYA%20ABHIYAN%20%28BBSA%29%20Revised%20as%20on%2001%2004%202018.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bbsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicants must be bona fide resident of Odisha.\n   1. A Person with Disability (PWD) irrespective of age and category of disability may avail all or any of services as envisaged provided he/she has not availed the same previously.\n\n&lt;br&gt;",
+  "_criteria_filled": 2
+}

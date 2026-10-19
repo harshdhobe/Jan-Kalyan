@@ -1,0 +1,36 @@
+{
+  "id": "financial-assistance-for-try-cycle-to-workers-and-their-dependents-haryana-labou",
+  "name": "Financial Assistance for Try Cycle to Workers and their Dependents - Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹7,000/- or the actual price, whichever is less, will be provided to workers and their dependents for purchasing a tricycle.\n\n**Note:** The worker will be provided with a one-time financial assistance in a block of 5 years to purchase a Try Cycle.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/87",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatcwd-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the worker is fixed for one year.\n   1. The worker will get the benefit after every five years in the whole service period.\n   1. Workers or their dependents are eligible to receive benefits under this scheme if they suffer the loss of their legs due to an accident or any other reason.",
+  "_criteria_filled": 3
+}

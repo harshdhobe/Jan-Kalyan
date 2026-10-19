@@ -1,0 +1,50 @@
+{
+  "id": "single-window-scheme-pipdic",
+  "name": "Single Window Scheme (PIPDIC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Term Loan for fixed assets and loan for working capital through the same agency.\n- The total working capital requirement of such units inclusive of all fund based facilities may be taken into account for determining the working capital facility eligible for finance.\n\n_*The total project outlay, including total working capital requirement, must not exceed ₹2,00,00,000/-._\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "particulars-to-be-submitted-at-the-time-of-filing-loan-applicationcopy-of-acknow",
+    "small",
+    "and-medium-enterprise-registration-certificate-obtained-from-industries-departme",
+    "existing-competitions",
+    "major-consumers-details",
+    "and-tie-up-letters-for-marketing-the-product-copy-of-partnership-deed-and-acknow",
+    "voters-identity",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-detailed-project-report-on-the-project-details-asked-for-in-t",
+    "13",
+    "14",
+    "and-15-to-prepare-appraisal-report-the-details-are-to-be-furnished-compulsorily",
+    "name-and-address-of-concerns",
+    "and-type-of-consultancy-service-rendered-by-the-consultant-if-any-details-of-eff",
+    "puducherry-planning-authority-approval-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "pollution-clearance",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-obtained-from-approved-panel-valuer-of-pondicherry-industr",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-factory-site-and-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/sws-pipdic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Entrepreneurs setting up new project in SSI/tiny sector, new promoters acquiring unencumbered fixed assets of existing SSI concerns and also existing well run units undertaking modernization / Technology upgradation and potentially viable sick units undertaking rehabilitation scheme.\n- The total project outlay, including total working capital requirement, must not exceed ₹2,00,00,000/-.\n\n<br>",
+  "_criteria_filled": 1
+}

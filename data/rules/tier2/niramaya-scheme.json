@@ -1,0 +1,26 @@
+{
+  "id": "niramaya-scheme",
+  "name": "Niramaya Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "1. **Cashless Medicinal Drugs:** This scheme provides free medicines treatment to the beneficiaries of the scheme. This means that they can avail of medical drugs without having to pay any cash upfront.   1. **No Age Limit:** The scheme has no age limit, and anyone can avail of the benefits of the scheme, including senior citizens.   1. **Easy Enrollment:** The enrollment process for the scheme is",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "null"
+  ],
+  "apply_url": "https://osmcl.nic.in/sites/default/files/guidelines/Guideline%20-%20Free%20Drug%20Distribution%20Scheme.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ns",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Patients who have done registration in the Govt. Hospitals are eligible to get free medicines under &amp;quot;Niramaya&amp;quot;.\n   1. Beneficiaries must be residents of Odisha.\n\n&lt;br&gt;",
+  "_criteria_filled": 1
+}

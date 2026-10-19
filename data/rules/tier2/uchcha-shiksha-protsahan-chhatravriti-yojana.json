@@ -1,0 +1,28 @@
+{
+  "id": "uchcha-shiksha-protsahan-chhatravriti-yojana",
+  "name": "Uchcha Shiksha Protsahan Chhatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the scheme, scholarships ranging from a minimum of ₹1,500/- to a maximum of ₹60,000/- are awarded to students who secure first, second, and third positions in each faculty at the undergraduate and postgraduate levels.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-account-details-all-educational-certificates-related-to-the-ex",
+    "60",
+    "or-75-marks-other-necessary-documents-as-required-all-documents-must-be-certifie"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmheess",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be studying in a Government College or State University campus of Uttarakhand.\n   1. At each college/campus level (per faculty):\n\n**Undergraduate Students:**\n\n   1. **First-year students:** Monthly scholarships of ₹3,000/-, ₹2,000/-, and ₹1,500/- will be awarded to students securing first, second, and third positions, respectively, based on a minimum of 80% marks or equivalent grade in the 12th examination.   1. **Second- and third-year students:** Monthly scholarships of ₹3,000/-, ₹2,000/-, and ₹1,500/- will be awarded to students securing first, second, and third positions, respectively, based on a minimum of 60% marks or equivalent grade in the previous year’s examination.   1. **Graduation-level examination toppers:** Students securing first, second, and third positions based on a minimum of 60% marks or equivalent grade in the first-year examination will be awarded a lump-sum scholarship of ₹35,000/-, ₹25,000/-, and ₹20,000/-, respectively.\n**Postgraduate Students:**\n\n   1. **Second-year students:** Students securing first, second, and third positions based on a minimum of 60% marks or equivalent grade in the first-year examination will be awarded monthly scholarships of ₹5,000/-, ₹3,000/-, and ₹2,000/-, respectively.   1. Final-year or one-year course students: Students must have secured a minimum of 60% marks or equivalent grade in the first-year examination. First, second, and third position holders will receive a one-time scholarship of ₹60,000/-, ₹35,000/-, and ₹25,000/-, respectively.\n\n**Merit-based Scholarships:**\n\n   1. 10% of students from each faculty of each college/university campus securing a minimum of 75% marks and having at least 75% attendance in the first, second, and third years of graduation (as applicable) will be awarded a scholarship of ₹1,500/- per month.\n\n**Additional Notes:**\n\n   1. Marks obtained after improvement tests will not be considered for scholarship calculation.\n   1. The academic session is calculated from July 1 to June 30.\n\n<br>",
+  "_criteria_filled": 1
+}

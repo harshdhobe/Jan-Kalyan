@@ -1,0 +1,27 @@
+{
+  "id": "jyotiba-phule-shramik-kanyadan-yojana",
+  "name": "Jyotiba Phule Shramik Kanyadan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "household",
+  "benefit": "Financial Assistance;  ₹51,000/-\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "attested-photocopy-of-the-online-filled-application-form-related-to-the-scheme-r",
+    "for-the-age-of-the-girl-child-read-photocopy-of-wedding-card"
+  ],
+  "apply_url": "https://skpuplabour.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/jpsky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Workers should be working in an establishment registered under the Factories Act, 1948.\n1. The monthly salary of the worker (basic salary + dearness allowance) should not exceed ₹15,000/-.\n1. Application can be made 3 months before or after 1 year from the scheduled date of marriage of the girl.\n1. The benefit of the said scheme will be payable only for the marriage of a worker or two daughters.\n1. The age of the girl should not be less than 18 years on the date of her marriage.",
+  "_criteria_filled": 1
+}

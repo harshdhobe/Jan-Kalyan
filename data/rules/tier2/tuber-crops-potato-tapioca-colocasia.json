@@ -1,0 +1,26 @@
+{
+  "id": "tuber-crops-potato-tapioca-colocasia",
+  "name": "Tuber Crops Potato, Tapioca, Colocasia",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "person",
+  "benefit": "> **Pattern of Assistance:**\n\nSupply of HYV seeds, pesticides, and sprayers to farmers for sale at a 50% subsidy.\n> **Type of Assistance and Entitlement (If any):**\n\nSl. No.EntitlementOwantum of Assistance1To boost up the production of potato by providing quality HYV seed, organic-based plant protection measures, and P.P equipment.50% sale to the farmers.2For the potato seed experimental farm Uppe",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=97",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcptc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant/farmer should be a resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of at least 0.2 (hectares) or more.\n\n**Note:** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

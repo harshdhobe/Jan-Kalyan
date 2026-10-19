@@ -1,0 +1,38 @@
+{
+  "id": "nawabihan-scheme",
+  "name": "Nawabihan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "- Provision of legal advice to the aggrieved woman as per her requirement.\n- Provision of counselling services to the aggrieved woman as per her requirement.\n- Arrangement of medical facilities for the aggrieved woman as per her requirement.\n- Provision of transportation facilities to the aggrieved woman as per her requirement.\n- Arrangement of shelter facilities for the aggrieved woman as per her",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "based-on-the-nature-of-assistance-required-and-the-information-provided",
+    "the-following-documents-may-be-necessary-proof-of-identity-eg",
+    "aadhaar-card",
+    "voter-id",
+    "pan-card-address-proof-eg",
+    "aadhaar-card",
+    "voter-id",
+    "utility-bill-medical-reports-if-medical-assistance-is-required-police-complaint"
+  ],
+  "apply_url": "https://cgwcd.gov.in/%E0%A4%A8%E0%A4%B5%E0%A4%BE%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE",
+  "source_url": "https://www.myscheme.gov.in/schemes/nscg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a woman.\n- The applicant must have experienced domestic violence as defined under the &quot;[Protection of Women from Domestic Violence Act 2005](https://www.indiacode.nic.in/bitstream/123456789/15436/1/protection_of_women_from_domestic_violence_act%2C_2005.pdf)&quot;.- The applicant must be in need of legal advice, counselling, medical aid, transportation, or shelter as per the provisions of the scheme.",
+  "_criteria_filled": 2
+}

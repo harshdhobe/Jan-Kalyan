@@ -1,0 +1,31 @@
+{
+  "id": "scheme-of-awarding-eklavya-award-sardar-patel-award-and-jaidipsinhji-awardj",
+  "name": "Scheme of Awarding Eklavya Award, Sardar Patel Award and Jaidipsinhji Awardj",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. **Eklavya Senior Award:** ₹1,00,000/-.   1. **Eklavya Junior Award:** ₹50,000/-.   1. **Sardar Patel Senior Award**: ₹50,000/-.   1. **Sardar Patel Junior Award:** ₹25,000/-.   1. **Jaidipsinhji Senior Award:** ₹20,000/-.   1. **Jaidipsinhji Junior Award:** ₹10,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "male"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "domicile-certificate"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/saeaspjag",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a male\n   1. The applicant should be a resident of Gujarat.\n   1. The applicant must have made notable achievements in sports at the state, national, or international level.\n\n<br>",
+  "_criteria_filled": 2
+}

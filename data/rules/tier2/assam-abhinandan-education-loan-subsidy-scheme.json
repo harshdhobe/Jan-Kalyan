@@ -1,0 +1,26 @@
+{
+  "id": "assam-abhinandan-education-loan-subsidy-scheme",
+  "name": "Assam Abhinandan Education Loan Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "The govt. will provide a loan subsidy of up to ₹ 50,000/- per student.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-of-the-student-students-aadhaar-card-proof-of-identity"
+  ],
+  "apply_url": "https://assam.gov.in/assam-abhinandan-education-loan-subsidy-scheme",
+  "source_url": "https://www.myscheme.gov.in/schemes/aaelss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant student should be a permanent resident of Assam.\n1. The Education Loan should have been availed from any Scheduled Commercial Bank or Regional Rural Bank within the state recognized by the Reserve Bank of India.\n1. The education loan should be a minimum of ₹ 1,00,000.",
+  "_criteria_filled": 1
+}

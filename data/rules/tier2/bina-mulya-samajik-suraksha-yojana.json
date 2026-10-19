@@ -1,0 +1,41 @@
+{
+  "id": "bina-mulya-samajik-suraksha-yojana",
+  "name": "Bina Mulya Samajik Suraksha Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "1. **Provident Fund:**  The State Government will pay ₹ 55/- ( ₹ 25/- + ₹ 30/-) including the beneficiary and State Grant) per month. On retirement or death, the total amount along with interest is refunded.1. **Health And Family Welfare:**\n\n  - **Medical Expenses**\n\n      1. Beneficiaries and their family members receive financial assistance for hospitalization and outdoor treatment of ailments c",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 78000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "photo-mandatory-signaturemandatory-aadhar-cardvoter-id-card-epic-document-bank-p"
+  ],
+  "apply_url": "https://bmssy.wblabour.gov.in/downloads/gazette-notification-no-698.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bmssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant  must be a resident of West Bengal.\n1. Applicant  should be between 18-60 years of age.\n1. Applicant family income should not exceed ₹ 6, 500/- per month except construction &amp; transport workers. For construction &amp; transport workers family income has no upper limit.\n1. The period for calculation of average family income will be 12 months prior to the month in which application is made.",
+  "_criteria_filled": 4
+}

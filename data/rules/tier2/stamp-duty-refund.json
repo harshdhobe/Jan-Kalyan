@@ -1,0 +1,26 @@
+{
+  "id": "stamp-duty-refund",
+  "name": "Stamp Duty Refund",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. **General Industrial Units:** 100% refund in &#39;D&#39; category blocks; 75% in &#39;C&#39; category blocks and 60% in &#39;B&#39; category blocks on the land meant for industrial use, after commencement of commercial production within 5 years from the date of purchase of land.1. **Thrust Sectors/Bio Energy Enterprises [MSME]:** 100% refund in ‘C’ and &#39;D&#39; category blocks; 80% in ‘B&#39",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-iemudyam-registration-certificate-urc-and-haryana-udhyam-memorandum-hum"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=0I615enSh6OFLav4NNtdxg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Industrial Units (MSME, Large, Mega)**\n\n1. Must commence commercial production after 01.01.2021 and within 5 years from the date of land purchase.\n1. Land must be purchased before 31.12.2025.\n1. Must file IEM/Udyam Registration Certificate (URC) and Haryana Udhyam Memorandum (HUM).\n1. Not listed in the restrictive/negative list of the State Government.\n1. Must have NOC/CLU, if applicable.\n1. Unit must be in commercial production.\n1. Must remain in production for at least 5 years.\n\n<br>\n\n**General Category Units**\t\n\n1. Eligible under same criteria as MSME/Large units, even if not covered under thrust sectors.\n\n<br>\n\n**Industrial Parks / Estates (Developers)\t-** \n\n1. Minimum area of 25 acres.\n1. Must obtain Industrial License/NOC from competent authority.\n1. Refund applicable after full infrastructure development.\n1. Infrastructure must be developed within 5 years of land purchase (land purchased before 31.12.2025).\n\n<br>",
+  "_criteria_filled": 1
+}

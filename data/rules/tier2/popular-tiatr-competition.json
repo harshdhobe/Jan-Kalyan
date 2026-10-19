@@ -1,0 +1,26 @@
+{
+  "id": "popular-tiatr-competition",
+  "name": "Popular Tiatr Competition",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Cash Prizes for Performance Categories***\n1st Prize: ₹2,00,000/- and Memento; 2nd Prize: ₹1,50,000/- and Memento; 3rd Prize: ₹1,00,000/- and Memento\n##### ***Individual Artist Awards (Acting)***\n\n- 1st Prize (Male): ₹10,000/-; 2nd Prize (Male): ₹5,000/-\n- 1st Prize (Female): ₹10,000/-; 2nd Prize (Female): ₹5,000/-\n- Best Comedian (Male): ₹10,000/-; Best Comedian (Female): ₹10,000/-\n- Best",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copies-of-aadhaar-card-self-attested-copies-of-permanent-account-n"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ptc-g",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must have completed at least 5 performances including Kantaram during the period from 1st April to 31st December.\n- The applicant must perform in specified auditoriums including Ravindra Bhavan Margao, Gomant Vidya Niketan Margao, Hanuman Natyagraha Mapusa, Kala Academy Panjim, Rajiv Gandhi Kala Mandir Ponda, Ravindra Bhavan Vasco, Ravindra Bhavan Sanquelim, or Ravindra Bhavan Curchorem.\n- The applicant must present popular tiatrs having traditional format of the tiatr.\n- The applicant must maintain the traditional format strictly as specified.\n- The applicant must communicate the date, time and place of staging of the tiatr in the competition to the organizers at least 15 days in advance from the date of performance.\n- The applicant must arrange for 6 passes for the Judges and the Organizers at the performance of the Competition show.\n- The applicant must ensure live music with a band consisting of at least 5 instruments which shall include drums, keyboard, bass, guitar and 2 blowing instruments.\n- (Optional) The applicant may include child artists up to 12 years of age for special awards in singing and acting.\n\n***Other Conditions***\n\n- The tiatr must be strictly presented as per the given traditional format wherever it is staged.\n- If the format is not maintained, the tiatr will not be eligible for 1st, 2nd and 3rd prize, however individual prizes will be given for deserving artists.\n- The decision to award or not to award the prizes shall depend entirely on the recommendations of the panel of judges.\n- Political songs should be performed without exceeding the limits of freedom of expression, and criticizing individuals by taking name or displaying images or character assassination will not be allowed.\n\n<br>",
+  "_criteria_filled": 1
+}

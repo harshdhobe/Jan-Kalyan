@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-of-hearing-machinehearing-aid-to-workers-and-their-dependen",
+  "name": "Financial Assistance of Hearing Machine/Hearing Aid to Workers and their Dependents- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹5,000/- or the actual cost of the hearing aid, whichever is less, is provided to workers and their dependents for the purchase of hearing aids machine.\n\n**Note:** The worker will be provided with a one-time financial assistance in a block of 5 years to purchase hearing aids.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/85",
+  "source_url": "https://www.myscheme.gov.in/schemes/fahmhawd-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the worker is fixed for one year.\n   1. The worker will get the benefit after every five years in the whole service period.\n   1. Workers and their dependents are eligible to receive assistance if they lose their hearing due to an accident or any other reason.",
+  "_criteria_filled": 1
+}

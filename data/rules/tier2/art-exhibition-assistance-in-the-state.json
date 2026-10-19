@@ -1,0 +1,27 @@
+{
+  "id": "art-exhibition-assistance-in-the-state",
+  "name": "Art Exhibition Assistance in the State",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Up to ₹25,000/- or actual expenses incurred (whichever is less) for organizing an art exhibition.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-must-be-over-18-years-proof-of-gujarat-residency-art-related-qualif",
+    "diploma-in-fine-arts-or-art-teacher-diploma-photographs-of-the-artwork-up-to-3-e"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/aeaits",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Gujarat.\n   1. The applicant should have received formal art education or should have conducted a previous individual or group art exhibition.\n   1. The applicant should organize an exhibition within Gujarat.\n   1. The applicant should exhibit a minimum of 30 artworks in the sponsored exhibition.\n\n<br>",
+  "_criteria_filled": 1
+}

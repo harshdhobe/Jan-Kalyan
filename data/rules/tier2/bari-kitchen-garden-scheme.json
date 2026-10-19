@@ -1,0 +1,31 @@
+{
+  "id": "bari-kitchen-garden-scheme",
+  "name": "Bari (Kitchen Garden) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Free Vegetable Seed Packets: Each eligible beneficiary receives a packet of vegetable seeds worth ₹75 free of cost.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-residence-certificate-bpl-certificate-any-other-documents-as-r"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/bkgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a small or marginal farmer/agricultural laborer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Below the Poverty Line (BPL) category.\n\n<br>",
+  "_criteria_filled": 2
+}

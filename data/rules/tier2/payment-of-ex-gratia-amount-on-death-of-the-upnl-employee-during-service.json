@@ -1,0 +1,28 @@
+{
+  "id": "payment-of-ex-gratia-amount-on-death-of-the-upnl-employee-during-service",
+  "name": "Payment of Ex-Gratia Amount on Death of the UPNL Employee During Service",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "A one-time ex-gratia payment of ₹1,00,000/- shall be made from the UPNL fund to the family/legal dependents of a UPNL employee in the event of the employee’s death during the service period.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-the-employee-service-certificate-from-the-department-of-the",
+    "as-per-the-prescribed-format-aadhaar-card-of-the-dependent-bank-account-details",
+    "along-with-a-certificate-stating-that-the-ex-gratia-grant-has-not-been-paid-to-t"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pegadeds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a legal dependent of the deceased UPNL employee.\n1. The deceased employee must have been a resident of Uttarakhand.\n1. The applicant must have been nominated during the service period of the deceased employee to receive the ex-gratia amount.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "solar-inverter-charger",
+  "name": "Solar Inverter Charger",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "- **For 320-watt Solar Inverter Charger System:** A subsidy of ₹6,000/- is provided.  - **For 640-watt Solar Inverter Charger System:** A subsidy of ₹10,000/- is provided.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "pariwar-pahichan-patra-ppp"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=E1fwq0pgAw75GA3jMlieDg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/sic",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any resident family of Haryana with Pariwar Pahichan Patra (PPP) to apply.\n   1. All the households who have domestic inverter and not installed solar inverter charger on his/her existing inverter.\n   1. Applicants who have not installed Solar Inverter Charger in past 5 years under the Department Scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

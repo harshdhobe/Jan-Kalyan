@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-gram-parivahan-yojana",
+  "name": "Mukhyamantri Gram Parivahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Standard vehicles:** 50% of the purchase price or up to ₹1,00,000/-.  - **E-rickshaws:** 50% of the purchase price or up to ₹70,000/-.  - **Ambulances:** 50% of the purchase price or up to ₹2,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-address-proof-of-birth-caste-certificate-aadhaar-details-optional-drivi"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/16/Smart%20City/Mukhyamantri%20Gram%20Parivahan%20Yojana/9613-7-8-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of the state.\n  - The applicant must belong to a rural area.\n  - The applicant should not have benefited from a similar scheme previously.\n  - For ambulance purchases, applicants must be willing to use it for public health services.",
+  "_criteria_filled": 1
+}

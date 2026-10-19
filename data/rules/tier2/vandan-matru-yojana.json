@@ -1,0 +1,38 @@
+{
+  "id": "vandan-matru-yojana",
+  "name": "Vandan Matru Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "&gt; **Financial Assistance:**\n\n  - **Registration Benefit:** A one-time financial assistance of ₹1000/- is provided.  - **Additional Benefit:** An additional amount of ₹1000/- is disbursed after institutional delivery.  - **Further Benefit:** ₹2000/- is given in two installments during the breastfeeding period, promoting continued maternal and child health.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-aadhaar-card",
+    "voter-id",
+    "etc-income-certificate-proof-of-family-income-below-rs-2-lakhs-per-annum-medical"
+  ],
+  "apply_url": "https://ahmedabad.cantt.gov.in/wp-content/uploads/sites/79/2024/09/CSS_SSS_20_09_2024_English_30.09.2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vmyg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n  - The applicant must be a pregnant or lactating woman.\n  - The applicant must belong to a family with an annual income below ₹2,00,000/-.\n  - The applicant must be registered at an Anganwadi center.",
+  "_criteria_filled": 3
+}

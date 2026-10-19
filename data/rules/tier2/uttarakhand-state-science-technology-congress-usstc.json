@@ -1,0 +1,26 @@
+{
+  "id": "uttarakhand-state-science-technology-congress-usstc",
+  "name": "Uttarakhand State Science & Technology Congress (USSTC)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "The Uttarakhand State Science and Technology Congress (USSTC) is organized annually by UCOST. The USSTC specifically aims to foster scientific talent and provide encouragement to emerging scientists and researchers in the state. The Science Congress attracts considerable attention from young researchers and scientists and has been a great success.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-prescribed-by-the-uttarakhand-state"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/usstc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Individual researchers from research institutes, startup innovators, farmers, and NGOs from Uttarakhand are eligible to participate in the Science &amp;amp; Technology Congress.\n\n<br>",
+  "_criteria_filled": 1
+}

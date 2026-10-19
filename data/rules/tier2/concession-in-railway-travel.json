@@ -1,0 +1,27 @@
+{
+  "id": "concession-in-railway-travel",
+  "name": "Concession in Railway Travel",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- 75% concession in Second Class Fare. \n- 50% concession in First Class Fare.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-of-the-artist-proof-of-identity-train-ticket-confirmation-letter-obtain",
+    "required-by-the-department"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iocfortc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an individual artist or a troupe consisting of more than three artists.\n- The applicant should undertake the journey by train.\n- The purpose of the journey should be to deliver a cultural performance (public programme) in the outstation.\n- The distance between the place from which the cultural troupe is to start and the place of performance should be beyond 300 km as fixed by the Indian Railways.",
+  "_criteria_filled": 1
+}

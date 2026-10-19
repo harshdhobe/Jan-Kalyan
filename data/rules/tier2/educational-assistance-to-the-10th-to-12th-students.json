@@ -1,0 +1,26 @@
+{
+  "id": "educational-assistance-to-the-10th-to-12th-students",
+  "name": "Educational Assistance to the 10th to 12th Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹10,000/- for children scoring 50% or more in 10th or 12th standard exams.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/eatt10t12s",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The children&#39;s parents or guardians should be registered under the Maharashtra Building and Other Construction Workers Welfare Board.\n1. The child must have passed the 10th or 12th standard with at least 50% marks.\n1. Only children and spouse of registered construction workers are eligible to get educational assistance.",
+  "_criteria_filled": 1
+}

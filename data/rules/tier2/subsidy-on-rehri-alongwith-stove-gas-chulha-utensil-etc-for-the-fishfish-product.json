@@ -1,0 +1,31 @@
+{
+  "id": "subsidy-on-rehri-alongwith-stove-gas-chulha-utensil-etc-for-the-fishfish-product",
+  "name": "Subsidy on Rehri alongwith (Stove, Gas Chulha, Utensil etc.) for the Fish/Fish Product Sale",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Under this scheme, financial assistance will be provided for the purchase of a Rehri (Handcart) along with essential items such as stove, gas chulha, utensils, etc., for selling fish or fish products. \n  - A subsidy of 60% on the total project cost of ₹60,000/- will be granted, amounting to ₹36,000/- per beneficiary.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-agreement-deed-between-the-fish-farmer-and-the-fisheries-departme"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=XzFoevcIgXyDNmFSk34fIw%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/rehrihr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have a Parivar Pehchan Patra (PPP).\n1. The applicant should be a permanent resident of Haryana.\n1. The applicant should belong to the Scheduled Caste category.\n1. The applicant&#39;s age should be a minimum of 18 years.",
+  "_criteria_filled": 2
+}

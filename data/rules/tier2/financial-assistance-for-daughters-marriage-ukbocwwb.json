@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-daughters-marriage-ukbocwwb",
+  "name": "Financial Assistance for Daughter's Marriage (UKBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- An amount of ₹51,000/- for each marriage is provided.\n\n&gt; **Note:** Assistance is provided for the marriage of up to two daughters of the registered worker as well as for the worker’s own marriage.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "labour-card-workers-bank-account-details-marriage-card-bride-and-grooms-aadhaar"
+  ],
+  "apply_url": "https://uk.gov.in/assets/pdf/MERI%20_YOJANA_book_04-12-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/afdmcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a construction worker registered with the Uttarakhand Building and Other Construction Workers Welfare Board.\n   1. Financial assistance is available for the worker’s own marriage and for the marriage of up to two daughters.\n\n<br>",
+  "_criteria_filled": 1
+}

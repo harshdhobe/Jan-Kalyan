@@ -1,0 +1,27 @@
+{
+  "id": "grant-of-financial-assistance-for-purchase-of-textbooksnotebooks-to-school-going",
+  "name": "Grant of Financial Assistance for Purchase of Textbooks/Notebooks to School-Going Children of Industrial Workers/Employees (GLWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **Financial Assistance** (based on the child&#39;s Level of Education)\n\n- Class 1st: ₹1,200.\n- Class 2nd: ₹1,200.\n- Class 3rd: ₹1,800.\n- Class 4th: ₹1,800.\n\n> **Purpose**\n\nPurchase of Textbooks / Notebooks.\n> **Disbursement**\n\nThrough the management of the Head of the Institutions where their children are studying.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-regular-employment-and-service-duration-salary-statement-of-the-worker",
+    "if-applicable-certificate-from-the-institution"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/SCHEME-1-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfaptnsgciwe-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a regular industrial worker/employee of the Goa Labour Welfare Board.\n- The applicant should have at least 6 months of continuous service.\n- The applicant should not be employed in supervisory or managerial roles earning ₹1,600/- and above per month.\n- The applicant should have wages/salary not exceeding ₹20,000/-.\n- The applicant should have children studying in classes 1st to 4th in recognized/approved schools.\n\n> **Criteria for Selection**\n\n- Lowest income of the parents.\n- Preference will be given to the students studying in higher classes.\n- Workers having not more than two children will be given priority.",
+  "_criteria_filled": 1
+}

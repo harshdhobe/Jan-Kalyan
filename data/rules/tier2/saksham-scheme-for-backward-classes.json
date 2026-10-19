@@ -1,0 +1,41 @@
+{
+  "id": "saksham-scheme-for-backward-classes",
+  "name": "Saksham Scheme for Backward Classes",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. Under the scheme, loans of up to ₹10,00,000/- are provided to young professionals for setting up Doctors&amp;#39; Clinics, Nursing Homes, Physiotherapy Clinics, Bio-Medical Labs, Lawyers&amp;#39; Offices, Engineering Units, Chemist Shops, Architect Offices, etc.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "1-identitycitizenship-proof-any-one-of-the-following-aadhaar-card-2-age-proof-an"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=4hXxZ7hJ6GYh+jxnimt8lA%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssbc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should be between 18 and 35 years old.\n   1. The applicant should belong to the Backward Class Category.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹3,00,000/- in both rural and urban areas.\n   1. The applicant should have professional and academic training.",
+  "_criteria_filled": 4
+}

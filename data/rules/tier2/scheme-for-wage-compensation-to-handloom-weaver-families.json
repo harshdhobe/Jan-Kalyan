@@ -1,0 +1,29 @@
+{
+  "id": "scheme-for-wage-compensation-to-handloom-weaver-families",
+  "name": "Scheme for Wage Compensation to Handloom Weaver Families",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- ₹2,000/- per month for two months.\n- Relief Assistance of ₹4,000/- as Subsistence Allowance per Weaver Family in a year.\n- The transfer of relief assistance to the beneficiaries&#39; accounts will be via Direct Benefit Transfer (DBT).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "weaver-photo-identity-card-issued-by-state-government-or-government-of-india-aad",
+    "ifsc-code",
+    "micr-code",
+    "bank-branch-details-mobile-number-of-the-applicant"
+  ],
+  "apply_url": "https://handlooms.ap.gov.in/documents/Thrift_Fund_G.O.125.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/swchwf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a handloom weaver engaged in the handloom profession or in an allied activity such as weaving, warping &amp; sizing.\n- The applicant should be enrolled under the &quot;Praja Sadhikara Survey&quot; of the Government of Andhra Pradesh.",
+  "_criteria_filled": 1
+}

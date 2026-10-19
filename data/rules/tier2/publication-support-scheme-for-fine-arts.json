@@ -1,0 +1,28 @@
+{
+  "id": "publication-support-scheme-for-fine-arts",
+  "name": "Publication Support Scheme for Fine Arts",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 50% of the total printing cost or a maximum of ₹20,000/- (whichever is lower).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-dummy-publication-drawings",
+    "sketches",
+    "and-photographs-of-paintings-book-text-manuscript-printed-book-10-copies-to-be-s"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/schemedetail.htm?38",
+  "source_url": "https://www.myscheme.gov.in/schemes/pssffa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- An individual artist or an art institution working in the field of fine arts is eligible for this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

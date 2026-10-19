@@ -1,0 +1,37 @@
+{
+  "id": "special-incentive-allowance-scheme",
+  "name": "Special Incentive Allowance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "1. The Units would be provided with the following special incentive allowance once at the end of every three year period:\n\n- Smaller Business Units: ₹ 50,00,000\n- Other Business Units: ₹ 1,00,00,000\n- Mega Business Units: ₹ 2,00,00,000\n\n**NOTE 1:** The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar",
+    "and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-the-first-bill-ge",
+    "including-the-percentage-of-employees-of-goan-origin-and-the-number-of-female-em",
+    "name-of-the-issuing-authority",
+    "type-of-certification",
+    "date-obtained",
+    "and-validity-period-if-any-10-copies-of-quality-certifications-completed-by-the",
+    "name-of-the-issuing-authority",
+    "namelevel-of-certification",
+    "date-obtained",
+    "and-validity-period-if-any-12-udyog-aadhaar"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/sias",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a New/Existing Unit.\n2. The applicant should have their operations in Goa.\n3. The applicant should be one of the following:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n4. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.\n5. The number of employees would be calculated based number of employees on the rolls (for more than 12 months) during the year.\n6. In case of expansion, new employees should be on the rolls for at least one year prior to the date of application.\n7. The minimum criteria to be met by the units to avail this special incentive allowance is as follows:\n\n- Criteria: Annual Growth;   Unit: &gt;= 20% pa for a period of 3 years\n- Criteria: Employee Head Count (Goans or Goan Graduates);   Unit: &gt;= 75% of the total employees\n- Criteria: Female Employees;   Unit: &gt;= 60%\n- Criteria: Employee Certification (Policy section 6.4.1);   Unit: 100% of the Goans\n- Criteria: Quality Certification by the company (Policy section 6.2.10);   Unit: At least one during the Policy period\n\n**NOTE:** Units will be subject to evaluation at the end of Fiscal Year to verify eligibility for continuing to receive subsidy under this scheme.",
+  "_criteria_filled": 1
+}

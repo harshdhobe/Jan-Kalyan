@@ -1,0 +1,41 @@
+{
+  "id": "indira-mahila-shakti-prashikshan-evam-koshal-sanvardhan-yojana-rs-csep",
+  "name": "Indira Mahila Shakti Prashikshan Evam Koshal Sanvardhan Yojana (RS-CSEP)",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **RKCL( Rajasthan Knowledge Corporation Limited), free spoken English and personality development training is given to women and girls.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 16
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-identity-card-income-certificate-age-certificate-address-proof-class"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/988",
+  "source_url": "https://www.myscheme.gov.in/schemes/imspeksyrcr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant is a native citizen of Rajasthan.\n- The applicant&amp;#39;s age should be 16 to 45 years old.\n- The applicant should have passed class 12th.\n- Widow/divorced/abandoned women suffering from violence be given priority.",
+  "_criteria_filled": 4
+}

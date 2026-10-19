@@ -1,0 +1,36 @@
+{
+  "id": "shreshtam-scheme-for-ensuring-participation-of-pwds-in-arts-sports",
+  "name": "Shreshtam Scheme For Ensuring Participation Of PwDs In Arts & Sports",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. Under the scheme, a maximum amount of ₹10,000/- will be provided to each beneficiary who has showcased their talents in State/ National level championships.\n\n**Note:** The amount will be provided to a total of 10 beneficiaries from each district of Kerala.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card-passport-size-photo-merit-certificate-admission-d"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/35544.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sseppas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native and resident of Kerala State.\n   1. The participants who have showcased their talents in arts and sporting activities in State/ National level championships will be eligible to apply.\n   1. The applicant should be a Person with Disability (PwD) having 40% or more disability.\n   1. The annual family income of the applicant should be below ₹1,00,000/-.\n   1. The applicant should be undergoing training from State/National Academies/Centers.",
+  "_criteria_filled": 3
+}

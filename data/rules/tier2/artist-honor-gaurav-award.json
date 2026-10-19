@@ -1,0 +1,26 @@
+{
+  "id": "artist-honor-gaurav-award",
+  "name": "Artist Honor (Gaurav Award)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Award Details:**\n\n- Cash prize of ₹51,000/- per artist.\n- Copper plate, citation, and shawl presented during the award ceremony.\n- Exhibition of artworks held for 5–7 days at Ravishankar Raval Kala Bhavan, Ahmedabad.\n- Catalogue publication of Gaurav Award-winning artists and their art.\n\n**Number of Awards:**\n\n- Total of 9 artists are honored every year.\n- 3 in painting, 3 in sculpture, and 3 in",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-residence-portfolio-of-artworks-passport-size-photogr"
+  ],
+  "apply_url": "https://lalitkalaacademy.gujarat.gov.in/schemedetail.htm?33",
+  "source_url": "https://www.myscheme.gov.in/schemes/asgp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The artist must be a resident of the State of Gujarat.\n   1. The artist must be associated with the field of fine arts, specifically in Painting, Sculpture or Graphic Arts.\n   1. The artist must have made a lifetime contribution in their respective field.\n   1. The artist should have achieved outstanding accomplishments or the highest level of recognition in their art form.\n   1. The applicant must be active in the art community and have a recognized body of work.\n\n<br>",
+  "_criteria_filled": 1
+}

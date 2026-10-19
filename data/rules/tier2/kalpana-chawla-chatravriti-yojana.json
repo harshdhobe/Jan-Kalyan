@@ -1,0 +1,31 @@
+{
+  "id": "kalpana-chawla-chatravriti-yojana",
+  "name": "Kalpana Chawla Chatravriti Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "- The scholarship provides ₹18,000 per annum, which will be directly credited to the beneficiary’s bank account.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-passing-certificate-of-class-12th-admission-certificate-of-the-post"
+  ],
+  "apply_url": "https://education.hp.gov.in/sites/default/files/Files%252Fkalpana%2520chawla.pdf04_49_2012_10_10_45.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kccy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Himachal Pradesh.\n1. The applicant must be a girl.\n1. The applicant must be a regular student of 10+2, academic, professional or technical course in Science/Arts/Commerce stream.\n1. The institution where the applicant is admitted must be a Government / Government Aided / Private School affiliated with the Himachal Pradesh Board of School Education.\n1. The scholarship is available for higher education courses, including undergraduate, postgraduate, and professional courses.\n1. The scholarship will be given strictly on 10+2 merit declared by the Himachal Pradesh Board of School Education, Dharamshala.",
+  "_criteria_filled": 2
+}

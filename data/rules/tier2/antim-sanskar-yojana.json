@@ -1,0 +1,26 @@
+{
+  "id": "antim-sanskar-yojana",
+  "name": "Antim Sans‍kar Yojana ​",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Lump sum financial assistance amount : ₹6,000/-**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "death-certificate-of-the-worker-photocopy-of-bank-passbook-verification-by-the-i"
+  ],
+  "apply_url": "https://mpedistrict.gov.in/MPL/ShowServiceDetail.aspx?param=Cj3p3Zcu7gXy8eDOS2yJlRAkCrrsI0s8",
+  "source_url": "https://www.myscheme.gov.in/schemes/asymp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Construction worker must be registered with labor department.\n1. Beneficiary must not be received assistance for last rites from any other department.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "destitute-widow-pension-scheme",
+  "name": "Destitute Widow Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Pension:** \n\n- ₹1,000/- per month.\n\n**Free Clothes during Pongal and Deepavali:**\n\n- One free saree.\n\n**Free Rice in Anganwadi Centres:**\n\n- 2kg/month to those who are taking nutritious meals.\n- 4kg/month to those who are not taking nutritious meals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-photo-aadhaar-card-proof-of-age-aadhaar-consent-form-smart-ration-car",
+    "passport",
+    "pan-card",
+    "driving-license-bank-passbook"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dwps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a widow.\n1. The applicant should be destitute.\n1. The applicant&#39;s age should be 18 years and above.\n1. The applicant&#39;s fixed assets should not exceed ₹1,00,000/-.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,36 @@
+{
+  "id": "aam-aadmi-bima-yojana-maharashtra",
+  "name": "Aam Aadmi Bima Yojana (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "household",
+  "benefit": "- **Natural Death Benefit:** ₹30,000 is payable to the nominee in case of natural death before the terminal date.- **Accidental Death Benefit:** ₹75,000 is payable to the nominee in case of death due to an accident.- **Permanent Total Disability (Accident):** ₹75,000 is provided in case of permanent total disability caused by an accident.- **Loss of Two Eyes or Two Limbs (Accident):** ₹75,000 is p",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-age-address-proof-certificate-of-landlessness-passpor"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/special-assistance",
+  "source_url": "https://www.myscheme.gov.in/schemes/aabym",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Maharashtra.\n   1. The applicant&amp;#39;s age should be between 18 and 59 years.\n   1. The applicant must be a landless labourer.\n   1. The applicant should be residing in a rural area.\n   1. The applicant&amp;#39;s family should not own any agricultural land.\n   1. The applicant should not be covered under any other similar insurance scheme.",
+  "_criteria_filled": 3
+}

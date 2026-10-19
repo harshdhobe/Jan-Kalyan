@@ -1,0 +1,31 @@
+{
+  "id": "disable-marriage-scheme-divyang-lagna-sahay",
+  "name": "Disable Marriage Scheme (Divyang Lagna Sahay)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, when two individuals with disabilities marry each other, the couple is entitled to a total assistance of ₹1,00,000/-, equating to ₹50,000/- per person.\n   1. If a person without disabilities marries someone with a disability, the individual with a disability is eligible to receive assistance of ₹50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-copy-of-aadhaar-card-3-attested-copy-of-disability"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dsd/scheme/lagna-sahay-yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmadls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The age of the girl should be above 18 years and the age of the boy should be above 21 years.\n   1. The benefit of this scheme will be available only once (one time per couple).\n   1. Under this scheme, the application has to be made within two years of marriage.\n   1. Under this scheme, benefits are given as per the percentage of disability mentioned in the table below:\n\n**Sl. No.****Type of Disability****Percentage of Disability**1Blindness, low vision, hereditary muscular dystrophy, leprosy-cured, acid attack victims, amblyopia, cerebral palsy, dwarfism, multiple sclerosis-hardening disorder   40% or more\n2Hearing impairment 71% to 100%3Chronic neurological conditions, generalized trauma, malignant haemorrhage, tremor, muscular rigidity, intellectual disability, reduced hemoglobin content, chronic anemia, mental illness, special learning disabilities, speech and language impairment, neuro-developmental impairment, multiple disabilities    50% or more\n**Note:** In the case of a differently-abled applicant marrying a differently-abled woman from another state, both the differently-abled spouses will be eligible to get the benefit of this scheme on the production of the prescribed proof. Further, the District Social Defence Officer will have to obtain an undertaking from the applicant that the female beneficiary has not received disability marriage assistance from her state.",
+  "_criteria_filled": 2
+}

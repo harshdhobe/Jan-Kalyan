@@ -1,0 +1,26 @@
+{
+  "id": "loktantra-senani-samman-pension-scheme-for-widowed-wife-or-widower-husband-of-de",
+  "name": "Loktantra Senani Samman Pension Scheme for Widowed Wife or Widower Husband of Democracy Fighters of the State Imprisoned under MISA/DIR during Emergency Period (from 25.06.1975 to 21.03.1977)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Pension Amount:** ₹20,000/- per month\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-documents-proof-that-the-late-husbandwife-was-receiving-loktantra"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/lsspswwhdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a widow or widower of a recognized democracy fighter.\n1. The applicant’s deceased spouse must have been imprisoned under MISA/DIR during the Emergency period from 25.06.1975 to 21.03.1977.\n\n<br>",
+  "_criteria_filled": 1
+}

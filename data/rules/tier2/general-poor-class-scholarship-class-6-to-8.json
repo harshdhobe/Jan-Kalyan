@@ -1,0 +1,36 @@
+{
+  "id": "general-poor-class-scholarship-class-6-to-8",
+  "name": "General Poor Class Scholarship (Class 6 to 8)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "- Girl students will receive a scholarship of ₹300/- per year.\n  - Boy students will receive a scholarship of ₹200/- per year.\n\n**Note:** The scholarship amount is directly transferred to the student&amp;#39;s bank account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-aadhaar-card-3-domicile-certificate-of-madhya-prade"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=419",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Madhya Pradesh.\n   1. The applicant should be studying in Class 6 to 8.\n   1. The student should be studying at a government school.\n   1. The student should belong to the Below Poverty Line (BPL) category.\n   1. The student&amp;#39;s parents&amp;#39; total income from all sources should be less than ₹1,00,000/- per year.\n   1. The student should have passed the previous class.",
+  "_criteria_filled": 3
+}

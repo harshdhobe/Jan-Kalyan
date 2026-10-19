@@ -1,0 +1,48 @@
+{
+  "id": "mahila-kisan-yojana-maharashtra",
+  "name": "Mahila Kisan Yojana (Maharashtra)",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "**Total Loan Amount:** The scheme provides financial assistance of ₹50,000 for eligible female beneficiaries.\n**Subsidy Provided:** A subsidy of ₹10,000 is granted, reducing the effective loan burden on the beneficiary\n**Loan Component:** The remaining ₹40,000 is provided as a loan with an affordable interest rate of 5% per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "completed-application-form-from-the-lidcom-district-office-recent-passport-size",
+    "joint-name-with-husband",
+    "or-husbands-name-with-affidavit-for-agricultural-loans-knowledge-or-experience-p"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/employment",
+  "source_url": "https://www.myscheme.gov.in/schemes/mkym",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Maharashtra.\n1. The applicant should be a female.\n1. The applicant should belong to the Charmakar Community.\n1. The applicant&#39;s age should be between 18 to 50 years.\n1. The applicant must have knowledge of the business for which they are applying for a loan.\n1. The applicant must have her own name, or joint name with her husband, or her husband’s name (with affidavit) on the 7/12 land extract for agricultural project loans.\n1. For the 50% Subsidy Scheme and Margin Money, her annual income must be below the poverty line.\n1. For the NSFDC Scheme, the income limit is ₹98,000 for rural areas and ₹1,20,000 for urban areas.",
+  "_criteria_filled": 5
+}

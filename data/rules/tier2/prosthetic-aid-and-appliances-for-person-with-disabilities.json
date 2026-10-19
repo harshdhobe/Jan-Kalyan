@@ -1,0 +1,33 @@
+{
+  "id": "prosthetic-aid-and-appliances-for-person-with-disabilities",
+  "name": "Prosthetic Aid and Appliances for Person with Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Under this scheme, the following equipment is given within a limit of ₹20,000/-.\n\n   1. Artificial limb, crutch or calipers, tricycle, folding wheelchair to Person with Disabilities.\n   1. Hearing aids and other tool assistance for mute and deaf persons.\n   1. Musical instruments, brail kit for visually impaired persons.\n   1. M. R. child kit for mentally challenged persons.\n   1. For self-employm",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-identity-card-for-disabilitydisability-certif",
+    "birth-certificate",
+    "medical-certificate-proof-of-residence-ration-card-electricity-billdriving-licen"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dsd/scheme/sahana-sahay-yojana?lang=Gujarati",
+  "source_url": "https://www.myscheme.gov.in/schemes/paapwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should have 40 % or more disability.\n   1. Employment-oriented tools will not be provided to individuals under the age of 16.\n   1. Under this scheme, employment-oriented and disability-relieving equipment will be available only once in a period of 5 years.\n   1. Both employment-oriented and disability-relieving equipment are available for persons with disability under the scheme.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,37 @@
+{
+  "id": "scholarship-for-differently-abled-students",
+  "name": "Scholarship For Differently Abled Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "The scholarship is being provided to students whose disability percentage is 40% or above on the following basis:\n**Sl. No.****Standard****Day Scholars****Hostel Students****Reader’s allowance**1Students from Class 1 to Class 4₹300/- per month-₹200/- per month2Students from Class 5 to Class 10₹500/- per month-₹200/- per month3+1, +2, IT Equivalent courses₹750/- per month₹1000/- per month₹300/- per",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 36000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-disabil",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12176.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a permanent resident of Kerala.\n- The applicant should be a differently abled student.\n- The differently abled student should have a disability of 40 % or more.\n- Disability category of students (Blind / Deaf / Orthopedically handicapped/ Mental Retardation).\n- The differently abled students studying in Schools, Colleges and attending Professional, PG courses and technical training are eligible to apply under the scheme.\n- Students with disabilities who have secured at least 40% marks in the previous year can apply under the scheme.\n- The annual family income of the applicant should be below ₹36,000/-.",
+  "_criteria_filled": 3
+}

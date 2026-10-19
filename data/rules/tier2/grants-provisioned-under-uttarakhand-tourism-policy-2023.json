@@ -1,0 +1,27 @@
+{
+  "id": "grants-provisioned-under-uttarakhand-tourism-policy-2023",
+  "name": "Grants Provisioned under Uttarakhand Tourism Policy, 2023",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **Under Uttarakhand Tourism Policy, 2023, the following grants are allowed to investors:-**\n\nThe following capital subsidy is provided for tourism projects to be set up by making capital investment in the tourism sector in the state. Grants are admissible:\n**Maximum capital grant for housing projects:**\n\n    - Category A – up to 25%\n    - Category B – up to 35%\n    - Category C – up to 50%\n\n***T",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-are-required-to-submit-the-necessary-documents-in-accordance-with-the",
+    "2023"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gputpuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Minimum investment and infrastructure development requirements prescribed for tourism projects, products, and services identified under various NIC codes mentioned in the Tourism Policy.\n\n   1. Any legitimate entity or investor interested in investing in the tourism sector, in accordance with applicable regulations and meeting the eligibility criteria specified in the Tourism Policy 2023 and its Operational Guidelines, shall be eligible to receive the grants provided under the policy.\n   1. In cases where land is required for project implementation, the investor must either possess land in Uttarakhand or acquire it through purchase or lease within the state for the purpose of executing the project.\n\n<br>",
+  "_criteria_filled": 1
+}

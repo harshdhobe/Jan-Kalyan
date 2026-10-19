@@ -1,0 +1,26 @@
+{
+  "id": "aawaas-sahayata",
+  "name": "Aawaas Sahayata",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "The scheme offers housing assistance to tribal students pursuing higher education outside their hometowns where hostels are unavailable.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=812",
+  "source_url": "https://www.myscheme.gov.in/schemes/as",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be a student.\n1. The student should have passed 12th grade from a Government or Non-Government college.\n1. The student should be enrolled in a Graduate or Graduate Diploma course.\n1. The student should be regularly admitted to a Technical or Paramedical course.\n1. The student should not have secured admission to a Government hostel.\n1. The student should be a tribal student pursuing higher education outside their hometown.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

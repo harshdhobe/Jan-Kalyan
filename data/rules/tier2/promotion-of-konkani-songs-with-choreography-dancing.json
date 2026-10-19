@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-konkani-songs-with-choreography-dancing",
+  "name": "Promotion of Konkani Songs with Choreography & Dancing",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Cash Prizes for Performance***\n\n- First Prize: ₹7,000/- plus memento and certificate.\n- Second Prize: ₹5,000/- plus memento and certificate.\n- Third Prize: ₹3,000/- plus memento and certificate.\n- Special Prize for Best Choreographer: ₹2,000/- plus memento and certificate.\n\n##### ***Traveling Allowance***\n\n- Groups traveling up to 10 kilometers radius: ₹1,000/-.\n- Groups traveling within ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-recorded-konkani-song-on-compact-discdigital-versatile-disc-contact"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pkscd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must form a group consisting of 6 to 10 participants.\n- The applicant must submit a recording of one selected Konkani song at the time of application.\n- The applicant must not perform fusion of songs as it will result in automatic disqualification.\n- The applicant must abide by all rules and regulations of the competition organized by Tiatr Academy of Goa.\n- The applicant must accept that the decision of the judges will be final and binding.\n\n<br>",
+  "_criteria_filled": 1
+}

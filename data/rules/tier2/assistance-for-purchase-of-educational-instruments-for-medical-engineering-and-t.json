@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-purchase-of-educational-instruments-for-medical-engineering-and-t",
+  "name": "Assistance for Purchase of Educational Instruments for Medical, Engineering and Technical Diploma Courses",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Financial Assistance Amounts:**\n\n- Medical Students: ₹15,000 annually.\n- Engineering Students: ₹10,000 annually.\n- Diploma Students: ₹5,000 annually.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "bank-passbookcancelled-cheque-income-certificate-other-mark-sheetslast-year-mark"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/apeimetdc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must have passed the Higher Secondary Certificate (HSC) examination.\n1. The applicant must be enrolled in a recognized medical, engineering, or technical diploma course.\n1. The applicant’s annual family income should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

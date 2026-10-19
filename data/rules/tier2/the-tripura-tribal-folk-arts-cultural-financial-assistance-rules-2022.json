@@ -1,0 +1,26 @@
+{
+  "id": "the-tripura-tribal-folk-arts-cultural-financial-assistance-rules-2022",
+  "name": "The Tripura Tribal Folk Arts & Cultural (Financial Assistance) Rules, 2022",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "person",
+  "benefit": "> **Government-Level Events:**\n\n- Financial assistance for State, District, Sub-Division, and block-level festivals/melas up to a maximum of 15% above the previous year&#39;s expenditure.\n\n<br>\n\n> **Non-Governmental Organization (NGO) Events:**\n\n- Financial assistance for State Level Festivals and Melas up to 10% of the previous year&#39;s expenditure.\n- New applications can receive a maximum of ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-invitation-card-list-of-dignitaries-along-with-the-photographs-billvouch"
+  ],
+  "apply_url": "https://twd.tripura.gov.in/sites/default/files/Guidelines_13.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ttfacfar-2022",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The persons and organizations belonging to Scheduled Tribes. \n1. Both governmental and non-governmental organizations are eligible if they are involved in promoting and preserving tribal culture.\n1. The governmental and non-governmental organizations should cover any Festivals, Melas/ Musical Instrument/occasions any community programmes. \n\n<br>",
+  "_criteria_filled": 1
+}

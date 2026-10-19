@@ -1,0 +1,37 @@
+{
+  "id": "mother-teresa-scholarship",
+  "name": "Mother Teresa Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "- The selected candidates will receive a scholarship of ₹15,000/- per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-registration-form-copy-of-mark-list-of-sslc",
+    "plastavhse",
+    "etc-copy-of-allotment-memo-first-page-of-bank-passbook-in-applicants-own-name",
+    "including-name",
+    "account-number",
+    "branch-code",
+    "branch-address-copy-of-aadhaar-card-or-npr-card-copy-of-nativity-certificate-cop"
+  ],
+  "apply_url": "https://scholarship.minoritywelfare.kerala.gov.in/dmw_ma/dmw_ind.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/mtskrl",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be domiciled in Kerala.\n1. The applicant must belong to the Muslim, Christian, Sikh, Buddhist, Parsi, or Jain communities.\n1. The applicant must have received seats in nursing or paramedical courses on a merit basis (including in Government, Aided colleges and merit quota in Self-financing colleges).\n1. The applicant must have secured 45% marks or more in the qualifying examination.\n1. The applicant must have an annual family income less than ₹8,00,000/- from all sources if belonging to the Above Poverty Line (APL) category.\n1. For students belonging to the Below Poverty Line (BPL) category, there is no income criteria.\n\n<br>",
+  "_criteria_filled": 2
+}

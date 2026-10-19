@@ -1,0 +1,49 @@
+{
+  "id": "scheme-of-encouragement-to-young-artists",
+  "name": "Scheme of Encouragement to Young Artists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Remuneration in the range of ₹5,000/- to ₹10,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-any-other-document",
+    "if-required-proof-of-proficiency-in-carnatic-style-art-form-proof-of-individual",
+    "bharathanatyam",
+    "kathakalakshepam",
+    "veena",
+    "violin-solo-nadaswaram",
+    "flute",
+    "jalatharangam",
+    "gottuvadhyam",
+    "clarionet",
+    "guitar",
+    "mandolin",
+    "saxophone",
+    "etc"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/soetya",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an artist.\n1. The applicant should be a domicile of Tamil Nadu.\n1. In the case of music artist, the age should be above 16 years and within 30 years.\n1. In the case of Bharatanatyam artist, the age should be over 15 years and within 30 years. \n1. The orchestra artists such as ghatam, ganjira, muharshingh, konnakkol are also eligible to apply. \n1. The artist should participate in any one of the following performances: Vocal, Bharatanatyam, Kathakalakshepam, Veena, Violin (solo) Nadaswaram, Flute, Jalatharangam, Gottuvadhyam, Clarinet, Guitar, Mandolin, Saxophone.",
+  "_criteria_filled": 3
+}

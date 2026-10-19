@@ -1,0 +1,36 @@
+{
+  "id": "assistance-for-delivery-miscarriage-of-pregnancy-termination-of-pregnancy-to-fem",
+  "name": "Assistance For Delivery / Miscarriage Of Pregnancy / Termination Of Pregnancy To Female Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "A sum of Rs.6,000/- @ Rs.1,000/- per month for delivery and Rs.3,000 for miscarriage/termination of pregnancy is given to a female differently abled person.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "evidence-to-be-attached-copy-of-national-spouse-identity-card-and-board-registra"
+  ],
+  "apply_url": "https://www.scd.tn.gov.in/pdf/schemes/pdf/ASSISTANCE%20FOR%20DELIVERY%20%20MISCARRIAGE%20OF%20PREGNANCY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/admptpfdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Differently abled person holding identity card issued by the welfare board for the differently abled.",
+  "_criteria_filled": 3
+}

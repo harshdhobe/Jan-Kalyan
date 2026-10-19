@@ -1,0 +1,32 @@
+{
+  "id": "prak-pariksha-prashikshan-kendra",
+  "name": "Prak Pariksha Prashikshan Kendra",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "- **Free Coaching:** Free coaching in [Prak Pariksha Prashikshan Kendras](https://state.bihar.gov.in/bcebcwelfare/cache/41/30-Dec-24/SHOW_DOCS/Letter%20No-I-179552.pdf).  - **Incentive:** Students will be provided an incentive amount of ₹3,000/- (three thousand rupees) based on 75% attendance.\n**Note:****** There is no hostel provision in the centers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-eg",
+    "aadhaar-card-proof-of-residence-educational-qualification-certificates-caste-or"
+  ],
+  "apply_url": "https://state.bihar.gov.in/bcebcwelfare/cache/41/30-Dec-24/SHOW_DOCS/Letter%20No-I-179552.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pppk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student must be a permanent resident of Bihar state.\n   1. The student must belong to the Backward Class or Extremely Backward Class.\n   1. The maximum annual income of the student or their guardian, from all sources, should not exceed ₹3,00,000/-.\n   1. The student’s age and minimum educational qualifications must meet the eligibility criteria for the competitive exam related to the respective course.",
+  "_criteria_filled": 2
+}

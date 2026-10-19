@@ -1,0 +1,31 @@
+{
+  "id": "pre-matric-scholarship-for-the-students-of-economically-backward-class",
+  "name": "Pre-Matric Scholarship for the Students of Economically Backward Class",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "> **Scholarship Amounts:**\n\n- Boys (Std. 1st to 8th): ₹750/- per annum.- Boys (Std. 9th to 10th): ₹1,000/- per annum.- Girls (Std. 1st to 5th): ₹500/- per annum.- Girls (Std. 6th to 10th): ₹1,000/- per annum.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-identity-proof-ie-aadhaar-card-income-certificate-10th12th-s"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be studying in a government or aided primary/secondary school in Gujarat.\n1. The applicant must belong to an Economically Backward Class (EBC).\n1. The applicant must be studying in classes 1st to 10th.1. There is no income limit for students of classes 1st to 10th.1. The applicant’s annual family income must not exceed ₹6,00,000/- for classes 9th to 10th.\n<br>",
+  "_criteria_filled": 2
+}

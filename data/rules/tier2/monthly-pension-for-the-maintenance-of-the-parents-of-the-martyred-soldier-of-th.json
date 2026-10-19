@@ -1,0 +1,31 @@
+{
+  "id": "monthly-pension-for-the-maintenance-of-the-parents-of-the-martyred-soldier-of-th",
+  "name": "Monthly Pension for the Maintenance of the Parents of the Martyred Soldier of the Army",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- A pension of ₹10,000 per month is provided to the parents of martyred soldiers.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 10000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-dependency-certificate-issued-by-tehsildar-confirming-depe"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=553",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpmpmsa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The martyred soldier must be a permanent resident of Madhya Pradesh.\n1. The applicant must be the mother or father of a martyred soldier.\n1. The martyred soldier whose death has been recognized as a battle casualty by the Government of Madhya Pradesh. \n1. The annual income of the applicant&#39;s parents must be less than ₹10,000.\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

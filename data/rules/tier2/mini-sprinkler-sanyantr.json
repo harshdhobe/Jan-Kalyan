@@ -1,0 +1,26 @@
+{
+  "id": "mini-sprinkler-sanyantr",
+  "name": "Mini Sprinkler Sanyantr",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. General farmers: Up to 70% of the grant\n1. Small and marginal farmers, including small marginal/SC/ST/women farmers: Up to 75% of the grant",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jamabandi-copy-not-older-than-6-months-aadhar-cardjanadhar-card-irrigation-sourc"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/mss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The agricultural land should be owned by the applicant.\n1. The applicant must be a farmer residing in Rajasthan.\n1. Farmers should have at least 0.2 hectares of irrigated cultivable land.",
+  "_criteria_filled": 1
+}

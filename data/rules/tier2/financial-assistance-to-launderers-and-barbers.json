@@ -1,0 +1,40 @@
+{
+  "id": "financial-assistance-to-launderers-and-barbers",
+  "name": "Financial Assistance to Launderers and Barbers",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Loan of upto ₹1,00,000/- for purchase of worktables &amp; furniture, etc.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-at-the-time-of-application-filingcopy-of-acknowledgement-of-m",
+    "small-and-medium-enterprises-registration-certificate-obtained-from-industries-d",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-profitability-statement-detailing-monthly-sales-income-and-ex",
+    "such-as-inspector-of-factories-approval",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance",
+    "etc-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-from-approved-panel-valuer-of-pondicherry-industrial-promo",
+    "field-measurement-book-copy",
+    "patta-copy-and-legal-opinion-report-for-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/falb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Puducherry. \n- The applicant must be a Launderer or Barber.\n- The applicant must have a minimum of three years&#39; experience.\n\n<br>",
+  "_criteria_filled": 1
+}

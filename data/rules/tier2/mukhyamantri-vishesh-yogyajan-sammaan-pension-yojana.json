@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-vishesh-yogyajan-sammaan-pension-yojana",
+  "name": "Mukhyamantri Vishesh Yogyajan Sammaan Pension Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "**The following monthly pension will be provided:**\nAge CriteriaAmount75 Years or Less₹1,000/- per Month.75 Years or More₹1,250/- per Month.Leprosy Free Patient₹2,500/- per Month.Silicosis Disease Patient₹1,500/- per Month.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-copy-jan-aadharbhamashah-card-copy-birth-certificate-income-certific"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/113",
+  "source_url": "https://www.myscheme.gov.in/schemes/mvyspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary must be permanent resident of Rajasthan State.\n1. The beneficiary must have any one of the following disabilities:\n\n  - 40% or more disability (blindness, shortsightedness, locomotor disability, leprosy free, hearing loss, mental retardation, mental illness, dwarfism, eunuch)\n  - Dwarfism with height less than 3 feet 6 inches.\n  - Suffering from Eunuchism.\n  - Cured leprosy or Silicosis disease.\n\n1. Annual family income must not exceed ₹60,000/-",
+  "_criteria_filled": 3
+}

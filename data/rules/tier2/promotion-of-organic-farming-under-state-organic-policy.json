@@ -1,0 +1,26 @@
+{
+  "id": "promotion-of-organic-farming-under-state-organic-policy",
+  "name": "Promotion of Organic Farming under State Organic Policy",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Organic Farming Registration and Certification Assistance (GOPCA):** The scheme provides 75% at-source assistance in cost to the farmer for registration and certification when undertaken through the Gujarat Organic Products Certification Agency (GOPCA).- **Organic Farming Registration, Certification, and Transportation Assistance (APEDA-approved agencies):** When certification is done through ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pofusop",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer. \n  - The applicant should be a resident of Gujarat.\n  - The applicant should be engaged in organic farming activities.\n\n<br>\n\n<br>\n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

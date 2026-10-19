@@ -1,0 +1,28 @@
+{
+  "id": "fawara-sanyantra",
+  "name": "Fawara Sanyantra",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. The grant amount is 70% of the unit cost for general farmers.\n1. The grant amount is 75% of the unit cost for small and marginal farmers, Scheduled Caste/Tribe farmers, and women farmers.\n1. The grant is payable up to a maximum area of 5 hectares.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jamabandi-copy-not-more-than-6-months-old",
+    "aadhar-cardjan-aadhar-card-irrigation-source-certificate",
+    "suppliers-quotation"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Applicant should be a farmer.\n1. The applicant should be a native of Rajasthan.\n1. The farmer should have at least 0.2 hectares of irrigated agricultural land.",
+  "_criteria_filled": 1
+}

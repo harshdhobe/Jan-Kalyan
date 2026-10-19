@@ -1,0 +1,26 @@
+{
+  "id": "rajiv-gandhi-krishak-sathi-sahayta-yojana",
+  "name": "Rajiv Gandhi Krishak Sathi Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **The following financial assistance will be provided by the government to farmers and people doing agriculture related work:-**\n\n<br>\n\nSituationRelief fundIn case of death in an accident₹2,00,000/-.By cutting off any part of both hands, both legs, or both eyes separately.₹50,000/-In case of coma due to spinal cord fracture and head injury.₹50,000/-De-scalping of hair on the head of a man or wom",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "a-medical-officers-certificate-required-fir-report-death-report-post-mortem-repo"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan#",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgkssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The Farmers/agricultural laborers of the state.\n1. The workers hold licenses from the market committee.",
+  "_criteria_filled": 1
+}

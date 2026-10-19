@@ -1,0 +1,29 @@
+{
+  "id": "scholarship-for-cadets-of-rashtriya-indian-military-college-rimc-dehradun",
+  "name": "Scholarship For Cadets Of Rashtriya Indian Military College (RIMC), Dehradun",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "- Financial Assistance: The scholarships provide financial assistance to cadets from economically weaker sections of society. This helps them to pursue their education and training at RIMC without any financial burden.\n- Accommodation: Cadets are provided with free accommodation and food during their stay at RIMC. This ensures that they can focus on their studies and training without worrying abou",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "academic-certificates-cadets-must-provide-copies-of-their-academic-certificates",
+    "including-mark-sheets-and-certificates-of-any-qualifying-examinations-they-have",
+    "such-as-a-school-principal-or-a-government-official-birth-certificate-cadets-mus",
+    "such-as-a-medical-certificate"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments",
+  "source_url": "https://www.myscheme.gov.in/schemes/scrimc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Scholarship will be admissible to Mizo students permanently residing in the state of Mizoram studying at RIMC, Dehradun.\n- Student should not be covered under any other Scholarship scheme.\n- Scholarship for studying in any class will be available for only one year and renewable as per Rules/Condition.\n- If after the award of scholarship the cadet is found medically unfit in any way which according to the appropriate medical authority, renders him unfit for his entry into the NDA, the scholarship awarded shall be discontinued from the date the cadet is declared unfit",
+  "_criteria_filled": 1
+}

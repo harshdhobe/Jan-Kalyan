@@ -1,0 +1,31 @@
+{
+  "id": "skill-development-and-economic-empowerment",
+  "name": "Skill Development and Economic Empowerment",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "&gt; **Free Vocational Training:** \n\n  - Provides training in various professional courses, including Computer Operator, Stenographer, Mushroom Producer, Radio Jockey, Data Entry Operator, Reflexology, and Gardener.\n\n&gt; **Essential Skill Training:** \n\n  - Offers training in Braille orientation and mobility, computer typing, Hindi and English, and home management skills.\n\n&amp;gt; **Modern Learni",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate-issued-by-a-registered-medical-officer-or-government-inst"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdaee",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to the Persons with Disabilities category.\n  - The applicant should be a visually challenged (Blindness/ Low-Vision) individual.\n  - The applicant should be willing to undergo full-time vocational training or other training courses.",
+  "_criteria_filled": 2
+}

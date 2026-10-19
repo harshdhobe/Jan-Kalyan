@@ -1,0 +1,26 @@
+{
+  "id": "cultivation-of-aromatic-plants-under-mgnrega-centre-for-aromatic-plants",
+  "name": "Cultivation of Aromatic Plants under MGNREGA - Centre for Aromatic Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- Under MGNREGA, when aromatic cultivation is undertaken, the wages for the work done by the labourers in land preparation and related activities are paid by the Rural Development Department, and the farmer does not have to pay the wages.\n  - The Centre for Aromatic Plants (CAP) provides free planting material along with technical support, consultancy, and monitoring services to the farmers.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-land-record-documents-mobile-number-other-supporting-documents-as"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/capmgnrega",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer residing in a rural area of Uttarakhand.\n   1. The farmer must be interested in aromatic plant cultivation.\n   1. The farmer must either legally own agricultural land or have leased land for a minimum period of 10 years.\n\n<br>",
+  "_criteria_filled": 1
+}

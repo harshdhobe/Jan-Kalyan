@@ -1,0 +1,28 @@
+{
+  "id": "sindhu-darshan-scheme",
+  "name": "Sindhu Darshan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** One-time grant of ₹15,000/- per pilgrim.\n**Beneficiary Cap:** Limited to 300 pilgrims per financial year.\n**Disbursement Condition:** Proof of yatra completion must be submitted within 60 days.\n**Validity:** Once in a lifetime per pilgrim.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-being-a-native-of-gujarat-aadhaar-card-bank-details-cancelled-chequepas",
+    "delhi-yatra-completion-certificate-from-sindhu-darshan-yatra-samiti",
+    "delhi-election-carddriving-license-recent-photograph"
+  ],
+  "apply_url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2018-8-23_166.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sdd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native of Gujarat.\n- The applicant must have completed the Sindhu Darshan Yatra.\n- The applicant must submit the application within 60 days of completing the yatra.\n- The applicant must not have availed the benefit before under this scheme.",
+  "_criteria_filled": 1
+}

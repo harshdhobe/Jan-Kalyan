@@ -1,0 +1,31 @@
+{
+  "id": "icro-amrit-internship-programme",
+  "name": "ICRO Amrit Internship Programme",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **STIPEND**\n\n- The selected intern shall be entitled to **₹ 6,000/- per month** as a stipend during the period of internship.\n> **CERTIFICATE**\n\n- The interns will be issued an **Internship Completion Certificate** upon successful completion of the internship.\n**NOTE:** No payment towards transportation and other allowance etc. shall be paid to the interns.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photo-in-jpgjpeg-format-size-less-than-2-mb-letter-of"
+  ],
+  "apply_url": "https://amritinternship.iplfoundation.org.in/PDFs/Amrit_English.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/icroaip",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant for the internship should be a citizen of India.\n1. The applicant should be 12th Pass / Diploma Holder / Graduate or in the Final Year of their graduation degree.\n1. The applicant should be in the age group of 18-45 years.\n\n> **Reservation/Preference/Priority**\n\nPreference will be given to candidates having agriculture or related sector qualification.\n<br>",
+  "_criteria_filled": 2
+}

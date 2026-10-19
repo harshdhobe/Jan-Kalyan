@@ -1,0 +1,38 @@
+{
+  "id": "rakshak-puraskars-award",
+  "name": "“RAKSHAK PURASKARS’’ Award",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "The recipients of the awarded are given a scroll/citation and cash prize of ₹ 20,000/- each.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-duly-attested-by-a-gazetted-officer-proof-of-identity-s",
+    "age",
+    "qualification",
+    "etc-in-the-prescribed-format-as-annexure-a-press-clippings-certificatesappreciat",
+    "photographs",
+    "if-any-residential-certificate-bank-details-bank-account-number",
+    "name-of-the-bank",
+    "bank-branch-and-ifsc-code"
+  ],
+  "apply_url": "https://www.dwcd.goa.gov.in/wp-content/uploads/2020/05/RAKSHAK-PURASKAR-PRESS-NOTE-AND-APPLICATION-FORM.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rpa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should have shown exceptional courage, especially in adverse circumstances or otherwise in coming to aid, protecting or helping beyond the call of duty, the victims or in dealing with the victims of any type of violence, attack, or harassment against women and girls at home, in the workplace and everywhere in the public domain and has shown their respect and dignity to women in society in the State of Goa.\n1. The applicant can be a person from any walk of life, whether they are Police Officers, Doctors, Lawyers, Public Prosecutors, Social Workers, Teachers, Tourist Guides, Lifeguards, Bus, Taxi or Auto Drivers, etc.\n1. The applicant should have a resident of Goa for the last 05 yrs as of 1st January of the respective year OR has worked in the State for at least two years shall be considered.\n1. The applicant should not be a recipient of any other award in the same field during the same year.\n1. The applicant should be above 25 years of age as of 1st January of the respective year.",
+  "_criteria_filled": 2
+}

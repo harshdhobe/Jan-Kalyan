@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-assistance-to-sate-market-committees-as-well-as-taluka-distric",
+  "name": "Scheme to Provide Assistance to Sate Market Committees as well as Taluka-District Co-operative Purchase and Sale Union to Construct Large Size Warehouse Godowns",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Component****Support Standard**Large size warehouse godowns up to 5000 MT in market committeesAll State Market Committees, each without considering the class standards will be paid ₹6,500/- per metric ton up to 50% of the project cost will be available for godowns up to 5000 mt\t<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-land-ownership-for-construction-detailed-project-report-dpr-including-m"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=Nlqxo9M/MYsELGV0b3ugFA==&domain=Uxijm857oHjeSHuzZgXyAA==",
+  "source_url": "https://www.myscheme.gov.in/schemes/spsmct",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All State Market Committees in Gujarat are eligible to apply.\n- The godowns must be used exclusively for the storage of farmers&#39; produce.",
+  "_criteria_filled": 1
+}

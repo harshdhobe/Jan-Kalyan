@@ -1,0 +1,29 @@
+{
+  "id": "financial-assistance-for-medical-treatment-of-journalists",
+  "name": "Financial Assistance for Medical Treatment of Journalists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Medical Assistant of ₹50,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-employment-copy-of-government-order-issued-for-receiving-pension-only-i",
+    "and-an-approximate-estimate-of-the-cost-of-surgery",
+    "with-the-doctors-and-hospitals-round-seal",
+    "should-be-attached-to-the-application"
+  ],
+  "apply_url": "https://cms.tn.gov.in/cms_migrated/document/schemes/journalist_medical_fund.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/famtj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The petitioner should be working as a full-time working journalist.\n1. The petitioner should have work experience of at least 5 years. \n1. The petitioner must apply within three months of undergoing medical treatment.\n1. The annual income shall not be taken into account for obtaining medical assistance funds for journalists.\n1. The treatment must be conducted in hospitals recognized by the Tamil Nadu State Hospital Organization.\n1. The retired journalist receiving government pension are eligible to apply but they will receive 50% of the financial assistance.",
+  "_criteria_filled": 1
+}

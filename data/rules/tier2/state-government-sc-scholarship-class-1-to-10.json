@@ -1,0 +1,26 @@
+{
+  "id": "state-government-sc-scholarship-class-1-to-10",
+  "name": "State Government SC Scholarship (Class 1 to 10)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Under this scheme, scholarships for Scheduled Caste students are provided at the following rates:\n\n  - **Class 1 to 5:** ₹250/- per year (for girls only)  - **Class 6 to 8:** ₹200/- per year (for boys) and ₹600/- per year (for girls)  - **Class 9 to 10:** ₹600/- per year (for boys) and ₹1,200/- per year (for girls)\n**Note:** The scholarship will be deposited directly into the student&amp;#39;s ban",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=409",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgscs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n   1. The student should be a permanent resident of Madhya Pradesh.\n   1. The student should belong to the Scheduled Caste category.\n   1. Girl students from Class 1 to 5 and all students (both boys and girls) from Class 6 to 10 are eligible for the benefits under the scheme.\n   1. There is no restriction on the annual family income of the students.\n\n**Note 1:** One-time failure in a class is allowed.\n**Note 2:** There is no need to reapply for renewal within the same level (Class 1 to 10).",
+  "_criteria_filled": 1
+}

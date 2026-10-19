@@ -1,0 +1,31 @@
+{
+  "id": "special-incentive-assistance-to-socially-and-educationally-backward-class-traine",
+  "name": "Special Incentive Assistance to Socially and Educationally Backward Class Trainees for Pre-preparation of Competitive Examination",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** \n\n- ₹20,000/- or actual fee paid (whichever is lower) for coaching related to any one exam.\n\n**Exams Include:**\n\n- State-Level: Gujarat Public Service Commission (GPSC), Gujarat Secondary Service Selection Board (GSSSB), (3) State Police Recruitment, Gujarat Panchayat Service Selection Board (GPSB), etc.\n- Central-Level: Banking, Railways, Army Recruitment, Central Police",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 450000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-income-certificate-receipt-of-fee-pa"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/siasebctpce",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student.\n1. The applicant must belong to the Socially and Educationally Backward Classes (SEBC).\n1. The applicant must be a permanent resident of Gujarat.\n1. The applicant must have passed Higher Secondary Certificate (HSC) or equivalent.\n1. The applicant must be preparing for a recognized Class 1, 2, or 3 competitive exam of State or Central Government.\n1. The applicant must have paid coaching fees and should have a valid receipt.\n1. The annual family income of the applicant must not exceed ₹4,50,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

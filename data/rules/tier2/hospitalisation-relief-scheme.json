@@ -1,0 +1,26 @@
+{
+  "id": "hospitalisation-relief-scheme",
+  "name": "Hospitalisation Relief Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "person",
+  "benefit": "- **The relief amount is ₹300/- per day, subject to a maximum of ₹4,500/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-registration-card-under-the-bocw-act-attested-copy-rene"
+  ],
+  "apply_url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2017LETF_MS15.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/hrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The worker must be a registered building and other construction worker with the Telangana Building and Other Construction Workers Welfare Board.\n1. The worker should be hospitalized for at least five days due to an accident or disease.",
+  "_criteria_filled": 1
+}

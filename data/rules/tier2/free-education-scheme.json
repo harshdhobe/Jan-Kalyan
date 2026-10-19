@@ -1,0 +1,26 @@
+{
+  "id": "free-education-scheme",
+  "name": "Free Education Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Special fees and other non-refundable compulsory fees are paid as prescribed by Government and examination fee in full.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card-or-any-other-document-as-directed-by-the-authority"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/27471",
+  "source_url": "https://www.myscheme.gov.in/schemes/fes",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary should be a student.\n1. The beneficiary should be a resident of Tamil Nadu.\n1. The beneficiary should belong to the Backward Classes (BC), Most Backward Classes (MBC), and Denotified Communities (DNC).\n1. The beneficiary should be studying 3-year undergraduate degree (B.A., B.Sc., B.Com.).\n1. The beneficiary should be enrolled in a Government or Government Aided Arts and Science College.",
+  "_criteria_filled": 1
+}

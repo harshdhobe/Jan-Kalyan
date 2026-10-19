@@ -1,0 +1,26 @@
+{
+  "id": "gunavatta-evam-navaachar-nishulk-paathy-pustak-yojana",
+  "name": "Gunavatta Evam Navaachar Nishulk Paathy Pustak Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Every year, in accordance with the guidelines of the Directorate of Elementary and Secondary Education, free textbooks are provided to all students from Classes 1 to 8 in government schools, government-aided schools, and recognized madrasas following the state government curriculum.\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-per-the-guidelines-of-the-respective-school"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gennppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student from Classes 1 to 8.\n   1. The applicant must be studying in a government or government-aided school, or a recognized madrasa that follows the Uttarakhand state government curriculum.\n\n<br>",
+  "_criteria_filled": 1
+}

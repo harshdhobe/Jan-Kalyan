@@ -1,0 +1,26 @@
+{
+  "id": "interest-subsidy-for-micro-small-medium-and-large-new-industries-under-motivatio",
+  "name": "\"Interest Subsidy (For Micro, Small, Medium and Large New Industries)\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- **Subsidy:** Upto**** 25% of the annual interest amount paid.- **Admissibility:** From the date of commencement of commercial production.- **Ceiling:** ₹5,00,000/- per annum.- **Period:** 5 years for Puducherry and Karaikal, and for 7 years for Mahe and Yanam.- **Number of Installments:** In single or multiple instalments, depending on the availability of funds.- **Mode of Disbursement:** Throug",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "entrepreneurs-memorandum-part-2-uam-pmt-registration-commencement-of-production"
+  ],
+  "apply_url": "https://industry.py.gov.in/common-application-subsidies",
+  "source_url": "https://www.myscheme.gov.in/schemes/is-mesifai-vi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- All the Micro, Small, Medium and Large Industries are eligible.\n- The Unit should have made the investment on or after 1st April 2017.\n- The unit should provide at least 60% of employment to the people of the Union territory of Puducherry of the total employment strength of the industrial units. This 60% of the local employment will have to be maintained by the industrial unit during the period specified in the Affidavit.\n- The industrial unit should be availing of a loan from a financial institution.\n- The industrial unit should be availing of a loan towards the creation of fixed assets and/or for working capital.\n- The industrial unit shall not transfer or dispose of the fixed asset including plant and machinery in any manner till the completion of 5 years from the date of submitting the application/disbursement of the subsidy whichever is later.\n- The additional investments made by the new/existing industrial units after availing the first claim are also eligible for subsidy up to the ceiling limit.\n\n_*The date of commencement as admitted by the entrepreneurs shall be reckoned after due verification by the officials of the Industries Department._\n> **Special Cases**\n\nIf, two or more industrial undertakings are set up by the same person as proprietor, common partners, common Board of Directors/shareholders, such units are eligible for subsidy as separate entity provided the location of the unit are different and licenses /clearances/ registrations are obtained separately for the enterprises.",
+  "_criteria_filled": 1
+}

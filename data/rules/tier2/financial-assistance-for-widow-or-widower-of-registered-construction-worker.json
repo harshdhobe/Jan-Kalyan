@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-widow-or-widower-of-registered-construction-worker",
+  "name": "Financial Assistance for Widow or Widower of Registered Construction Worker",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹24,000/- per annum up to 5 years to the widow or widower.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-aadhaar-card-identity-card-of-maharashtra-building-and-other"
+  ],
+  "apply_url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawwrcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be the widow or widower of a deceased construction worker.\n1. The deceased worker must have been registered with the Maharashtra Building and Other Construction Workers Welfare Board.",
+  "_criteria_filled": 1
+}

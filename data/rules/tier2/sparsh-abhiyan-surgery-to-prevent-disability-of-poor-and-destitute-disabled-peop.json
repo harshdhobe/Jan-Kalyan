@@ -1,0 +1,42 @@
+{
+  "id": "sparsh-abhiyan-surgery-to-prevent-disability-of-poor-and-destitute-disabled-peop",
+  "name": "Sparsh Abhiyan: Surgery to Prevent Disability of Poor and Destitute Disabled People of Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Provision of financial assistance for surgery of destitute and poor people.\n- Reimbursement of expenses incurred on surgery of disabled persons identified by the District Administration from the destitute funds collected at the district level under Madhya Pradesh Nirashrit Evam Nirdhan Vyakti Sahayata Niyam 1999 (as per rules amended from time to time).\n- Reimbursement of expenses incurred on su",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 96000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "disability-certificate",
+    "issued-by-the-district-medical-board-residence-certificate",
+    "issued-by-the-municipal-body-or-gram-panchayat-income-certificate-must-be-provid",
+    "showing-annual-income-from-all-sources-recommendation-for-surgery-by-a-medical-e",
+    "signed-and-sealed-by-the-superintendent",
+    "incharge",
+    "or-director-of-the-institution"
+  ],
+  "apply_url": "https://sparsh.mp.gov.in/Common/SJ/PDFFiles/form-sgry.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/sa-spdpddpmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Madhya Pradesh.\n\n- The applicant must be a disabled person.\n- The applicant must have a disability as defined in the &quot;Persons with Disabilities (Equal Opportunities, Protection of Rights and Full Participation) Act 1995&quot;.\n- The applicant’s guardians/guardians&#39; annual income must not exceed ₹96,000/-.\n- The applicant must have surgery recommended by a subject specialist doctor.\n- The applicant’s surgery must be recommended by a subject specialist surgeon.\n\n<br>",
+  "_criteria_filled": 3
+}

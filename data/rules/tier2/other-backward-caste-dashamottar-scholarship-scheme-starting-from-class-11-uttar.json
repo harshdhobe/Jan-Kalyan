@@ -1,0 +1,31 @@
+{
+  "id": "other-backward-caste-dashamottar-scholarship-scheme-starting-from-class-11-uttar",
+  "name": "Other Backward Caste Dashamottar Scholarship Scheme (Starting from Class 11) - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "***Total Amount = Educational Allowance + Tuition fee***\n\n  - **Group 1:** ₹20,000/- (₹10,000/- + ₹10,000/-)  - **Group 2:** ₹13,000/- (₹8,000/- + ₹5,000/-)  - **Group 3:** ₹8,000/- (₹6,000/- + ₹2,000/-)  - **Group 4:** ₹5,000/- (₹5,000/- + ₹ 0)\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-photograph-caste-certificate-residence-certificate-bank-passbook-ed"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/obcdssuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must belong to the Other Backward Class (OBC) category.\n   1. The applicant must be enrolled in a recognized school/educational institution in Uttarakhand.\n   1. The applicant must be studying in Class 11 or higher level course.\n   1. The applicant must possess valid documents, such as Caste Certificate, Residence Certificate, Bank Passbook, Aadhaar Card, Photograph, Educational Qualification Certificates, and Income Certificate.\n   1. The total annual income of the parents/guardians from all sources must not exceed ₹2.5 lakh.\n   1. The scholarship will be available for one year only for studying in any class.\n   1. The applicant must have a counselling certificate.\n\n<br>",
+  "_criteria_filled": 2
+}

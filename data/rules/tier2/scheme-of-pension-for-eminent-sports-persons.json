@@ -1,0 +1,32 @@
+{
+  "id": "scheme-of-pension-for-eminent-sports-persons",
+  "name": "Scheme of Pension for Eminent Sports Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "**The amount of pension for participation in competitions at various levels shall be as under:**\n**Sl. No.****Competitions Levels****Monthly Pension Amount**1Olympic Games₹1000/-2Official World Cup₹1000/-3Davis Cup in Tennis₹1000/-4Test Matches/One Day International in Cricket₹1000/-5Commonwealth Games₹600/-6Asian Games₹600/-> **Mode Of Payment:**\n\nThe payment will be sent to the pensioners throug",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "a-copy-of-identity-proof-passport-size-photograph-proof-of-age-bank-passbook-doc",
+    "as-required"
+  ],
+  "apply_url": "https://pbsports.punjab.gov.in/pdf/SCHEME_OF_PENSION_FOR_EMINENT_SPORTS_PERSONS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spesp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe candidates seeking pension under this scheme should have represented National teams in the following competitions:-\n•\tOlympic Games\n•\tOfficial World Cup\n•\tCommonwealth Games\n•\tAsian Games\n•\tDavis Cup in Tennis\n•\tTest matches/one day international in cricket\n2.\tThis benefit shall be admissible to candidates who attain the age of 40 years.\n3.\tAll the veteran sportsmen/women belonging to Punjab (Punjab Domicile) who have brought laurels to the National/State will be eligible for pension from the Punjab State Sports Council, irrespective of the fact whether they have represented the State of Punjab in National Games or not, before participation in the above mentioned international games.\n4.\tThe veteran sportsmen/women getting any sports pension from Govt. of India will also be eligible for pension under this scheme from Punjab State Sports Council.",
+  "_criteria_filled": 2
+}

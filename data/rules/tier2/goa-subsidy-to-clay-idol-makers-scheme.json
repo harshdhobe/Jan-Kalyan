@@ -1,0 +1,27 @@
+{
+  "id": "goa-subsidy-to-clay-idol-makers-scheme",
+  "name": "Goa (Subsidy to Clay Idol Makers) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Subsidy of ₹100/- per clay idol made by registered artisans, with minimum idol size of 1 foot.\n- Maximum subsidy limit: ₹15,000/- per artisan per year.\n- Applicable only for idols actually produced and sold within the State of Goa.\n\n**Disbursement:** Cheque in favour of the artisan after fund receipt from Government.\n**Availment:** Beneficiaries must maintain sale records and provide proof of pr",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationproof-of-registration-with-ghrssidc-proof-of-sale-of-i",
+    "buyer-receipts-or-invoices-original-bills-for-idols-sold-purchase-register-allot"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/0809/0809-17-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gscims",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a traditional clay idol maker or artisan from the State of Goa.\n- The applicant must be registered with GHRSSIDC as a clay idol manufacturer.\n- The applicant must personally manufacture idols within Goa; imported or traded idols are not eligible.\n- The applicant must have a workshop or production unit within Goa for manufacturing idols such as Ganesh, Durga, Saraswati, or Mother Mary.\n- The subsidy is applicable only for idols used for religious purposes (e.g., Ganesh Chaturthi, Christmas) and not for decorative items.\n- The applicant must maintain records of idols produced and sold, including size, price, buyer details, and sale date.\n- The applicant must comply with physical inspection by GHRSSIDC officials.\n\n<br>",
+  "_criteria_filled": 1
+}

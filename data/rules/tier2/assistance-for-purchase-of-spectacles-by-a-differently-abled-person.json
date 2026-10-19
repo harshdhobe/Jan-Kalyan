@@ -1,0 +1,31 @@
+{
+  "id": "assistance-for-purchase-of-spectacles-by-a-differently-abled-person",
+  "name": "Assistance For Purchase Of Spectacles By A Differently Abled Person",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "A sum of Rs.500/- (Rupees Five hundred only) is paid as an assistance towards the reimbursement of the cost of spectacles for differently-abled persons.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-disability-identity-card-and-board-registration-details-family-card-aad"
+  ],
+  "apply_url": "https://www.scd.tn.gov.in/pdf/schemes/pdf/ASSISTANCE%20FOR%20PURCHASE%20OF%20SPECTACLES%20BY%20A%20DIFFERENTLY.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apsdap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Differently-abled persons holding identity cards issued by the welfare board for the differently abled.",
+  "_criteria_filled": 2
+}

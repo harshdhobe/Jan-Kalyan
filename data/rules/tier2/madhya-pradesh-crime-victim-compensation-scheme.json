@@ -1,0 +1,31 @@
+{
+  "id": "madhya-pradesh-crime-victim-compensation-scheme",
+  "name": "Madhya Pradesh Crime Victim Compensation Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Compensation to victims for injury/loss:**\n\nS.No.Details of Loss or InjuryMaximum limit of CompensationMaximum limit of Compensation1.A. Loss of life (Death)Death of an earning memberMaximum upto ₹4,00,000Death of a non-earning memberMaximum upto ₹2,00,000B. Loss of FetusMaximum upto ₹50,000 and Free medical treatment in Government Hospitals2.In case of permanent disability being 100%Victim be",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 500000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-police-report-fir-copy-of-medical-certificate-detailing-injury-if-applic"
+  ],
+  "apply_url": "https://mphc.gov.in/PDF/web_pdf/JJC/Scheme/Madhya%20Pradesh%20Crime%20Victim%20Compensation%20Scheme,%202015.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpcvcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a victim of crime or a dependent of a victim who has suffered injury or loss due to criminal acts.\n1. The crime should have occurred within Madhya Pradesh. Victims outside the state but residing in Madhya Pradesh are eligible for interim relief.\n1. The applicant must report the crime without unreasonable delay.\n1. The applicant must cooperate with authorities in investigation and rehabilitation process.\n1. The annual income of the victim from all sources must not exceed ₹5,00,000. If it exceeds, compensation is limited to 50% of the prescribed amount.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

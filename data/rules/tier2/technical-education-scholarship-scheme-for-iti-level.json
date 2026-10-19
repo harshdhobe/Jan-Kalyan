@@ -1,0 +1,27 @@
+{
+  "id": "technical-education-scholarship-scheme-for-iti-level",
+  "name": "Technical Education Scholarship Scheme for ITI Level",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. The scholarships shall be paid at the rate of ₹250/- per month per trainee subject to the condition that the corresponding decrease shall be affected in the rate of scholarship if the trainees receive a stipend from any other department of the Government or any organization.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photo-2-aadhaar-card-uideid-no-3-himachali-bonafide-certificate",
+    "as-required"
+  ],
+  "apply_url": "https://techedu.hp.gov.in/?q=scholarship",
+  "source_url": "https://www.myscheme.gov.in/schemes/tessitil",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to Scheduled Caste (SC), Scheduled Tribe (ST), or Other Backward Class (OBC) as notified by the Himachal Pradesh State Government.\n1. The applicant should be a bonafide Himachali.\n1. The applicant should be studying in a Government or Government-recognized Industrial Training Institute (I.T.I.) or I.T.I. for Women in Himachal Pradesh.\n1. The applicant should be pursuing technical training and require financial assistance to continue the course.\n\n<br>",
+  "_criteria_filled": 1
+}

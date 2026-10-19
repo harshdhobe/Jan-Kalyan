@@ -1,0 +1,28 @@
+{
+  "id": "fodder-development-scheme-for-gram-panchayat-gaushala-and-panjarpol-having-gauch",
+  "name": "Fodder Development Scheme For Gram Panchayat, Gaushala And Panjarpol Having Gauchar Land",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "<br>\n\n**Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Constituent Benefits**Fodder Development Scheme for Gram Panchayat, Gaushala and Panjarapol having gauchar land\tFor developing cow pastures in an area of up to 20 hectares are assisted with 75% of per hectare expenditure up to a maximum of ₹75,000/- i.e. A maximum assistance of ₹15,00,000/- for a total of 2",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-extract",
+    "8-a-extract",
+    "6-rights-record-gps-photos-of-gauchar-land-with-datetime-project-map-and-cost-es"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=BMK6EDNp+BGYicSpRTpP4A==&domain=A36Rf7FTT/556gX2TyXKFw==",
+  "source_url": "https://www.myscheme.gov.in/schemes/fdsgpgp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Village panchayats having land for gauchar, gaushala and panjrapoles \n   1. Gauchar, gaushala and panjrapoles must be registered under the Public Charity Act.",
+  "_criteria_filled": 1
+}

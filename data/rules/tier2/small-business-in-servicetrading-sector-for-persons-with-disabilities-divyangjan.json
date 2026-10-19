@@ -1,0 +1,41 @@
+{
+  "id": "small-business-in-servicetrading-sector-for-persons-with-disabilities-divyangjan",
+  "name": "Small Business in Service/Trading Sector for Persons with Disabilities (Divyangjan Swavalamban Yojana)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, loans up to ₹50,00,000/- are offered for self-employment to Persons with Disabilities across a wide range of income-generating activities, including Agriculture and Allied Activities, Small Business/Artisan &amp;amp; Traditional Occupations, Transport Sector &amp;amp; Service Sector, and Technical &amp;amp; Professional Trades/Courses.\n   1. Loans are provided to individuals ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-proof-of-age-resident-proofaddress-pro"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=0qK9vlwtHtpTqvWmvJUbfg%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbstspddsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n   1. The applicant should have a disability of at least 40%.\n   1. The applicant&amp;#39;s age should be between 18 and 55 years. For persons with mental retardation, the eligible age is above 14 years. An age certificate issued by a competent authority authorized by the State Government, or as mentioned in the 10th certificate or any other government-issued certificate, will be the required document.\n   1. Unique Disability ID (UDID) registration under the Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice and Empowerment, Government of India, is mandatory for loan amounts of ₹15 lakhs and above.\n   1. The applicant should have a Parivar Pehchan Patra (PPP ID).",
+  "_criteria_filled": 4
+}

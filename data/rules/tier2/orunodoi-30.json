@@ -1,0 +1,26 @@
+{
+  "id": "orunodoi-30",
+  "name": "Orunodoi 3.0",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "1)\tThe Assam govt. runs this scheme for those women who belong to the low-income groups of society to support them financially.\n<br>\n\n2)\tEach beneficiary will get 1250 rupees per month on the very first date of every month.\nThe Orunodoi 3.0 Scheme covers the expenses for medicines for taking care of health needs, which is 400 rupees per family; Rs. 200 per family is given to provide a 50% subsidy ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "1-aadhaar-card-2-pan-card-3-domicile-of-assam-4-bank-account-5-bank-passbook-6-2"
+  ],
+  "apply_url": "https://dids.assam.gov.in/userGuide",
+  "source_url": "https://www.myscheme.gov.in/schemes/aos",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "If any of the following criteria is observed in case of an applicant, it will be sufficient for inclusion under the scheme.\n1.\tWidow, unmarried (above the age of 45 yrs)\n2.\tTransgender\n3.\tPerson with disability, as defined in the Rights of Persons with Disabilities Act, 2016, irrespective of gender\n4.\tOld/Infirm woman including those residing in Government registered old age home\n5.\tWomen of the Household, where earning members are either disabled or aged (more than sixty years of age)\n6.\tWoman in household, where any member is suffering from HIV/ Thalassemia/ Haemophilia/ Cerebral Palsy/ Leprosy/ Autism spectrum disorder\n7.\tWoman in household without shelter\n8.\tDestitute woman living on alms\n9.\tAntyodaya Anna Yojana (AAY) woman beneficiary\n10.\tWomen in the household, composite income of which is less than Rs.2 lacs per annum.\n<br>",
+  "_criteria_filled": 1
+}

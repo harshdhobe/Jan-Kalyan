@@ -1,0 +1,26 @@
+{
+  "id": "agricultural-income-tax-holiday-under-the-assam-tea-industries-special-incentive",
+  "name": "\"Agricultural Income Tax Holiday\" under the \"Assam Tea Industries Special Incentives Scheme\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Benefit Period:** 3 years of Agricultural Income Tax holiday.\n**Applicable Financial Years:** 2022-23 to 2024-25.\n**Condition:** Returns must be filed within the due date; if not filed on the due date, interest and penalty will be applicable.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "agricultural-income-tax-return-filing-documents-tea-estate-registration-certific"
+  ],
+  "apply_url": "https://atisis.assam.gov.in/atsisver/pdfView.html?filename=Notification_ATISIS_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aith-atisis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a tea plantation across all sizes.\n\n- The applicant must be a tea manufacturing unit manufacturing Crush, Tear, Curl Tea, Orthodox Tea, or Speciality tea including Green tea, Oolong Tea, White tea, Yellow tea and Purple tea.\n- The applicant must be located entirely in Assam.\n- The applicant must not have any part of the plantation or manufacturing facility located outside the State of Assam.\n\n<br>",
+  "_criteria_filled": 1
+}

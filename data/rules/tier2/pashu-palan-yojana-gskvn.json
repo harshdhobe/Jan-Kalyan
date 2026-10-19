@@ -1,0 +1,36 @@
+{
+  "id": "pashu-palan-yojana-gskvn",
+  "name": "Pashu Palan Yojana (GSKVN)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Loan up to ₹1,00,000/- is provided at an interest rate of 6% to sanitation workers or their dependents for initiating animal husbandry as a business or occupation.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-aadhaar-card-ration-card-of-the-applicant-election-identity-card-proo"
+  ],
+  "apply_url": "https://esamajkalyan.gujarat.gov.in/index.aspx?ServiceID=L1iZPwEhxuncDAQfWpWgDg==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ahsgskvn",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat.\n   1. The applicant should be a sanitation worker or a dependent of a sanitation worker.\n   1. The age of the applicant (sanitation worker or dependent) should be between 18 and 50 years as on the date of application.\n   1. Only applicant who has not previously availed any loan under any scheme of this Corporation or the Government, including their family members, are eligible to apply under this scheme.\n   1. Priority will be given to applicants who are BPL (Below Poverty Line), widowed, abandoned, or persons with disabilities.\n   1. The applicant should intend to start a self-employment venture in animal husbandry or related activities.\n\n<br>",
+  "_criteria_filled": 3
+}

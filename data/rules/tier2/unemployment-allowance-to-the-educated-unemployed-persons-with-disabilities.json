@@ -1,0 +1,47 @@
+{
+  "id": "unemployment-allowance-to-the-educated-unemployed-persons-with-disabilities",
+  "name": "Unemployment Allowance To The Educated Unemployed Persons With Disabilities",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "An unemployment allowance of ₹400/- to ₹1,000/- per month will be provided by the government.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 48
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-sized-photograph-aadhaar-card-residential-domicile-certificate-of-the-s",
+    "if-they-belong-to-reservation-communities"
+  ],
+  "apply_url": "https://socialwelfare.mn.gov.in/media/filer_public/01/20/0120558c-56a7-4e2d-b655-49416e13c0d5/unemployment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ueeupwd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All categories of disabilities except Intellectual Disabilities as specified in the Rights of Persons with Disabilities Act, 2016. \n1. The applicant should be a Person with Disability.\n1. The applicant should have a minimum qualification of Matriculate.\n1. The applicant should be registered with Special Employment Exchange for more than two years and could not be placed in any gainful occupation. \n1. The applicant should be in the age group of 18-48 years.\n1. The applicant should be a Manipuri by birth or a person who has settled in the state for at least 10 years.\n1. The annual family income of the applicant should not be more than ₹1,80,000/-.",
+  "_criteria_filled": 5
+}

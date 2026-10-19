@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministers-white-revolutions-scheme",
+  "name": "Chief Minister’s White Revolutions Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "a. Capital subsidy of 50% up to ₹3.00 lakh for a minimum unit of 2 cows through the Apex bank\nb. Farmers given Kisan Credit Cards for working capital loan up to ₹3.00 lakh per farmer covering feed requirement for 3 months, insurance, vaccines & veterinary aid\nc. State government ensures 4% interest subsidy through NABARD to Apex Bank to make these loans available at 0% interest rate to dairy farme",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-to-establish-the-identity-of-the-applicant-bpl-card-to-determine-the"
+  ],
+  "apply_url": "https://roing.nic.in/departments/ah-veterinary/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmwrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "a. The dairy farmers of Arunachal Pradesh are eligible for the scheme as selected by the District Dairy Development Committee.\nb. The preference will be given to women and genuinely poor.\nc. The beneficiaries will be selected on a cluster basis by the District Dairy Development Committee.\nd. The scheme provides a minimum support price for milk procurement.\ne. The beneficiaries will receive a capital subsidy of 50% up to ₹3.00 lakh for a minimum unit of 2 cows through the Apex bank.",
+  "_criteria_filled": 1
+}

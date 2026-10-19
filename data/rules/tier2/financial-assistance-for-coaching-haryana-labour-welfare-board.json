@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-coaching-haryana-labour-welfare-board",
+  "name": "Financial Assistance for Coaching- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. An amount of ₹20,000/- or 75% of the coaching fee (whichever is less) will be payable to the children of workers for coaching in entrance examinations in professional courses.\n   1. An amount of ₹1,00,000/- will be provided to the children of workers for coaching to prepare for the main examination on passing the Preliminary Examination of UPSC and HPSC.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/100",
+  "source_url": "https://www.myscheme.gov.in/schemes/fac-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The applicant should be registered with the Haryana Labour Welfare Board.\n   1. The applicant&amp;#39;s monthly salary must not exceed ₹25,000/-.\n   1. The applicant must have a minimum of one year of service.\n   1. Benefits are provided to children of registered workers who are receiving coaching for entrance examinations in professional courses, as well as for those preparing for the main examination after passing the preliminary examination of UPSC and HPSC.\n   1. The child/candidate should have scored at least 60% marks in the qualifying examination.\n   1. The benefits of this scheme are available to three girls and two boys of the workers.\n   1. The child of the worker will not be covered under this scheme if he/she is self-employed or employed.\n   1. If a worker&amp;#39;s child is receiving a scholarship from the Haryana Labour Welfare Board, he/she can also avail the benefits of this scheme.\n\n&gt; **Conditions prescribed for coaching institutes regarding the coaching being taken by students:**\n\n  - The coaching institute must have been providing coaching for at least three years.\n  - The institute should have provided coaching to a minimum of 300 students.\n  - The institute should have been paying service tax (GST) to the government for running coaching classes or a coaching institute for at least three years.\n  - The institute should have paid the Labour Welfare Fund due to the Board and must be registered under the Shop &amp;amp; Commercial Establishment Act, 1958.",
+  "_criteria_filled": 1
+}

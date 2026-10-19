@@ -1,0 +1,36 @@
+{
+  "id": "natural-death-assistance-for-the-construction-workers",
+  "name": "Natural Death Assistance for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "- Financial assistance of ₹1,00,000/- is provided to the nominees/dependents of the members in case of natural death of the worker.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "original-death-certificate-duly-issued-by-any-municipalgovernment-authority-phot"
+  ],
+  "apply_url": "https://bocw.delhi.gov.in/bocw/welfare-schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/ndacw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Registration**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n> **For Application**\n\n- The nominees/dependents who has lost any registered member/worker of the due to natural death.\n\n<br>",
+  "_criteria_filled": 3
+}

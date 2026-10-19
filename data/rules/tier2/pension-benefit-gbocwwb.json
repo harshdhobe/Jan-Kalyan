@@ -1,0 +1,26 @@
+{
+  "id": "pension-benefit-gbocwwb",
+  "name": "Pension Benefit (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Pension of ₹300/- per month, with an increase of ₹10/- for every completed year of service beyond 5 years.\n_*The pension will be payable from the first day of the succeeding month to the month in which he/she becomes 60 years old._",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-11-Pension-Benefit.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pb-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be registered as a &#39;Building Worker&#39; for not less than one year with the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be a member of the Fund of the Board.",
+  "_criteria_filled": 1
+}

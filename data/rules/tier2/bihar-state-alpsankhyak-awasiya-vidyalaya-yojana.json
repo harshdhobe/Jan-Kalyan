@@ -1,0 +1,36 @@
+{
+  "id": "bihar-state-alpsankhyak-awasiya-vidyalaya-yojana",
+  "name": "Bihar State Alpsankhyak Awasiya Vidyalaya Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Under this scheme, students from minority communities enrolled in residential schools will receive the following benefits:\n\n  - Free education from Class 9 to Class 12.\n  - Provision of free accommodation, including food, clothing, medicine, and books, along with free enrollment/admission.\n  - Access to well-equipped modern laboratories.\n  - Facility for studying subjects like PCM (Physics, Chemis",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-photograph-size-photograph-marks-certificates-proof-of-age-ie-birth"
+  ],
+  "apply_url": "https://state.bihar.gov.in/minoritywelfare/SectionInformation.html?editForm&rowId=3388",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsaavy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a student.\n   1. The student should belong to a minority community.\n   1. The maximum age limit for admission is 16 years for Class 9 and 18 years for Class 11.\n   1. The student&amp;#39;s annual family income should not exceed ₹6,00,000/-.\n\n**Note:** Admission will be based on the merit list of marks obtained in the examination.",
+  "_criteria_filled": 3
+}

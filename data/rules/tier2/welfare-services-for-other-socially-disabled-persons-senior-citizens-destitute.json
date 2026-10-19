@@ -1,0 +1,36 @@
+{
+  "id": "welfare-services-for-other-socially-disabled-persons-senior-citizens-destitute",
+  "name": "Welfare Services for Other Socially Disabled Persons (Senior Citizens & Destitute)",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "household",
+  "benefit": "> **Care &amp; Shelter**\n\n- Old age homes and respite care homes.\n\n> **Healthcare**\n\n- Mobile medical units.\n- Physiotherapy clinics.\n\n> **Day Care Services**\n\n- Multi-service centres for elderly.\n\n> **Special Care**\n\n- Dementia/Alzheimer’s care centres.\n\n> **Support Services**\n\n- Counseling and helplines.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-income-certificate-identity-proof-any-other-documents-as-required"
+  ],
+  "apply_url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/wsosdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For Individuals (Beneficiaries):**\n\n- The applicant must be a senior citizen aged 65 years or above.\n- The applicant must belong to a Below Poverty Line (BPL) family.\n- The applicant must be a destitute person without any regular means of livelihood.\n- The applicant must not have family members or relatives to provide financial or social support.\n\n> **For Organizations:**\n\n- The applicant must be a registered voluntary organization/NGO/institution.\n- The applicant must be engaged in providing welfare services for senior citizens or destitute persons.\n- The applicant must have adequate infrastructure such as old age homes, day care centres, or care facilities.\n- The applicant must have experience in implementing elderly care or social welfare programmes.\n- The applicant must ensure that services are provided without discrimination on any grounds.\n\n<br>",
+  "_criteria_filled": 3
+}

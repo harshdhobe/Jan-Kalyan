@@ -1,0 +1,42 @@
+{
+  "id": "goa-state-25-subsidy-for-self-employed-scheme",
+  "name": "Goa State 25% Subsidy for Self Employed Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Payment of 25% subsidy on fixed capital investment for all activities related to Industrial and other self-employment opportunities.\n\n##### ***Benefit Disbursement***\n\n- In the case of the Dr. Verghese Kurien Rojgar Yojana Scheme, an amount equal to 20% of the Equated Monthly Installments (which corresponds to approximately 25% of the principal component of the Equated Monthly Installments), pai",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 42
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "receipt-of-processing-fee-of-200-non-refundable-receipt-of-application-form-cost",
+    "subject-to-relaxation-proof-of-minimum-7th-standard-passed-income-proof-of-the-a",
+    "00",
+    "000-per-annum-documentation-related-to-loan-availment-from-nationalized-banks",
+    "scheduled-commercial-banks",
+    "co-operative-banks",
+    "or-registered-credit-societies-proof-of-self-help-group-registration-in-case-of"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2019/10/25-subsidy-to-local-entrepreneurs.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gs2sses",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an individual or a Group of individuals or a Partnership Firm.\n- The applicant must have availed financial assistance for the purpose of self-employment under the &quot;Chief Minister’s Rozgar Yojana (CMRY)&quot; or &quot;Dr. Verghese Kurien Rojgar Yojana (VKRY)&quot; Schemes, or from Nationalized Banks, Scheduled Commercial Banks, Co-operative Banks, and registered Credit Societies.\n- The income of the applicant along with spouse must not exceed ₹3,00,000/- per annum.\n- The applicant must be minimum 7th grade passed.\n- The applicant must be below 42 years of age.\n- In case of a group of individuals (except registered Self Help Groups), all the individuals must be below 42 years of age.\n- In the case of groups of individuals, all persons in the group must satisfy the residency, age, and education criteria.\n- The activity carried out must not be covered under the Red Category.\n- The activity carried out must not be related to tobacco and liquor.\n- The applicant must not be receiving assistance under the &quot;Dr. Verghese Kurien Rojgar Yojana Scheme&quot; for the acquisition of Yellow/Black–Motorcycles, Yellow/Black–Auto Rickshaws, Yellow/Black–Taxis, Tourist Taxis, or Buses.\n- The applicant must not be an existing beneficiary of the &quot;Chief Minister’s Rojgar Yojana Scheme&quot; financed for the acquisition of Yellow/Black–Motorcycles, Yellow/Black–Auto Rickshaws, Yellow/Black–Taxis, or Tourist Taxis.\n- The applicant must not be a beneficiary under any other subsidy linked schemes of the Government, wherein subsidy of approximately 25% or more is given by the concerned department.\n\n##### ***Preference, Relaxation, and Automatic Coverage***\n\n- The applicant should be born and resident for 15 years in Goa.\n- The applicant should be a resident of the State of Goa for at least 15 years prior to the application under this scheme.\n- The applicant should have passed graduation or 12th standard or 10th standard or schooling from the State of Goa.\n- The age limit shall be relaxable by 5 years for women, disabled persons, Scheduled Caste/Scheduled Tribes, and Other Backward Class persons.\n- Applicants eligible for age relaxation under the Chief Minister’s Rozgar Yojana/Dr. Verghese Kurien Rojgar Yojana shall be considered under this scheme automatically.\n- The minimum VIIth grade requirement may be relaxed in deserving cases by a specific order of the Director of Industries, Trade &amp; Commerce.\n- Applicants granted education relaxation under the Chief Minister’s Rozgar Yojana/Dr. Verghese Kurien Rojgar Yojana Scheme shall be considered under this scheme automatically.\n- Self Help Groups (SHGs) of women and disabled persons shall be given priority.\n- Priority will be given to women entrepreneurs to the extent of 30% of the budgeted outlay on the scheme in case applications exceed total budgetary provision.\n- All beneficiaries under the Chief Minister’s Rozgar Yojana/Dr. Verghese Kurien Rojgar Yojana Scheme are automatically covered under this scheme, and approval by the Task Force Committee is adequate.\n- Existing beneficiaries under the Revised and Modified Chief Minister’s Rozgar Yojana having their account without any over dues as on 30-09-2015, or from the month following which the account is regularized, shall be eligible.\n- Existing beneficiaries of other subsidy linked schemes of the Government, wherein the subsidy availed/eligible is less than 25%, may be granted subsidy under this scheme, provided the subsidy availed is deducted from this scheme&#39;s subsidy on a pro-rata basis.\n\n<br>",
+  "_criteria_filled": 3
+}

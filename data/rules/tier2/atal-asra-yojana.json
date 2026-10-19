@@ -1,0 +1,31 @@
+{
+  "id": "atal-asra-yojana",
+  "name": "Atal Asra Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "1. Financial Assistance of ₹ 3,00,000 for the construction of a new house/re-construction of the existing house.\n1. Financial Assistance of ₹ 1,50,000 for the repair of the existing house.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-affidavit-in-the-prescribed-form-2-house-tax-receipt-3-income-certificate-4-st"
+  ],
+  "apply_url": "https://tribalwelfare.goa.gov.in/attachments/article/45/ATAL%20ASRA%20FORM%20(New).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aay-goa",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an individual from the Scheduled Tribes community of the State of Goa.\n1. The annual income of the family of the applicant should be less than or equal to ₹ 3,00,000.",
+  "_criteria_filled": 2
+}

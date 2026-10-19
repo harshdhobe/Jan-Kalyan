@@ -1,0 +1,26 @@
+{
+  "id": "drbabasaheb-ambedkar-udyog-uday-yojana-assistance-to-mses-for-shed-developed-by",
+  "name": "Dr.Babasaheb Ambedkar Udyog Uday Yojana: Assistance to MSEs for Shed Developed by Private Developer",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** Private developers receive an additional 15% assistance on the total cost of the shed.  - **Government Support:** SC/ST entrepreneurs need to pay only 30% of the shed price, after which possession is handed over, and developers can claim assistance.  - **Subsidized Costs:** The government disburses 35% of the shed cost after the sale and the remaining amount after produ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "business-registration-documents-msmeudyam-registration-bank-account-details-proo"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/bauuysdpd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise run by SC/ST entrepreneur.\n   1. The shed must be located in a government-approved mini estate.\n   1. The entrepreneur must pay 30% of the shed cost to acquire possession.\n\n&amp;gt; **Note****:** \n\n  - **SC/ST Enterprise:** SC/ST Enterprise means the enterprise in which contribution of SC/ST entrepreneur is 51% or more.",
+  "_criteria_filled": 1
+}

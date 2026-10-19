@@ -1,0 +1,26 @@
+{
+  "id": "accidental-death-assistance-scheme-gujarat-labour-welfare-board",
+  "name": "Accidental Death Assistance Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- Under the scheme, families of workers (Shramyogis) will receive financial assistance of ₹2,00,000/- in the event of the worker&amp;#39;s death due to an accident during their course of employment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-identity-card-issued-by-the-contractor-to"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/welfare-schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/adas-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. In case of the death of a worker due to an accident, the family of the worker will be eligible for assistance under the scheme.\n   1. Only those workers (Shramyogis) whose factory/company/organization has regularly paid their Labour Welfare Fund will be eligible for the benefit of this scheme.\n\n**Note 01:** The benefit of the scheme will be given from the day after the worker joins the job.\n**Note 02:** Application should be made within 2 years from the date of death of the worker (Shramyogi). The application received after the time limit will be processed at the office.\n**Note 03:** Under this scheme, in case of the death of a worker due to an accident in the factory, the Director, Office of Industrial Safety and Health has to submit an accident report. Also, in case of accidental death outside the factory/company/organization, an affidavit has to be produced from the owner/manager of the factory/company/organization concerned.\n**Note 04:** The final decision regarding assistance will be with the Welfare Commissioner, with jurisdiction in Ahmedabad.",
+  "_criteria_filled": 1
+}

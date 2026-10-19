@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-kalyani-vivah-sahayta-yojana",
+  "name": "Mukhyamantri Kalyani Vivah Sahayta Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "Financial assistance of ₹2,00,000 is provided to widowed women at the time of their remarriage \n> **NOTE:** \n\n- Financial assistance is directly deposited into the beneficiary’s bank savings account.\n- The assistance is provided only once in a lifetime.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "permanent-resident-certificate-of-the-applicant-and-her-husband-samagra-id-9-dig"
+  ],
+  "apply_url": "https://socialjustice.mp.gov.in/uploads/schemes/Order__64(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmkvsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a widowed woman (Kalyani). \n1. The applicant must be a permanent resident of Madhya Pradesh, and her spouse must also be a permanent resident.\n1. The applicant must be 18 years or older, and her husband must be 21 years or older at the time of marriage.\n1. The applicant must not be an income taxpayer.\n1. The applicant must not be a government employee of the state, central government, or government-funded corporations and institutions.\n1. The applicant must not be receiving a family pension from any government source.\n1. There is no restriction of BPL under the scheme.\n1. The husband must not have any living wife from a previous marriage.\n1. There will be no compulsion to marry in a mass marriage ceremony for the Kalyani Vivah Yojana; individual marriages will also be considered valid.\n1. The Kalyani has minor children, the responsibility for the children&#39;s upkeep will be jointly borne by the Kalyani and her husband.\n\n<br>",
+  "_criteria_filled": 3
+}

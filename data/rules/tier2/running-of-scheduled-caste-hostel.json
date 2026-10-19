@@ -1,0 +1,26 @@
+{
+  "id": "running-of-scheduled-caste-hostel",
+  "name": "Running of Scheduled Caste Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- Scholarship, Free Food and Accommodation, Sports Equipment, Toiletry Kit, and Library Facilities.\n- 90% of the scholarship amount is paid in the joint account of the hostel superintendent and mess secretary (student) for running the mess.\n- 10% is paid in the student&#39;s account.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-caste-certificate-pre"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=611",
+  "source_url": "https://www.myscheme.gov.in/schemes/rosch",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Student.\n1. The applicant should be from a Scheduled Caste.\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be enrolled in a recognized institution.\n\n_*The applicant should note that there is no income limit for admission to senior hostels._",
+  "_criteria_filled": 1
+}

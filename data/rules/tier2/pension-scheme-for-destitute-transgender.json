@@ -1,0 +1,32 @@
+{
+  "id": "pension-scheme-for-destitute-transgender",
+  "name": "Pension Scheme for Destitute Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Pension of ₹ 1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "transgender-identity-card-issued-by-the-tamil-nadu-transgender-welfare-board-dis",
+    "if-required"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/swwe_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psfdt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be Transgender.\n1. The applicant should be destitute.\n1. The applicant&#39;s age should be 40 years and above.\n1. The applicant should be physically unable to work and earn.\n1. The applicant should not have received assistance from any family member or other sources.",
+  "_criteria_filled": 2
+}

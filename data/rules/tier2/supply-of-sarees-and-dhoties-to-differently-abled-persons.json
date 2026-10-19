@@ -1,0 +1,44 @@
+{
+  "id": "supply-of-sarees-and-dhoties-to-differently-abled-persons",
+  "name": "Supply of Sarees and Dhoties to Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Free Dhothies and Sarees or Equivalent Direct Benefit Transfer during Diwali / Pongal / local regional festivals.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook",
+    "the-applicant-is-required-to-provide-hisher-aadhaar-enrolment-id-along-with-any",
+    "1988-59-of-1988-9-certificate-of-identity-having-a-photo-of-such-person-issued-b"
+  ],
+  "apply_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssddap-pudu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The annual income of the applicant should not exceed ₹ 75,000/- per annum.\n- The applicant should have a disability of 40% or above.\n- The applicant should be 18 years or above in age.\n- The applicant should have registered their name in the local anganwadi centre.\n- The applicant should be a recipient of Financial Assistance from the Directorate of Social Welfare, Government of Puducherry.",
+  "_criteria_filled": 4
+}

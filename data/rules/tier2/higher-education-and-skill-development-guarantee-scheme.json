@@ -1,0 +1,32 @@
+{
+  "id": "higher-education-and-skill-development-guarantee-scheme",
+  "name": "Higher Education And Skill Development Guarantee Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "person",
+  "benefit": "**Benefits**\n\n  - The maximum amount of education loan guaranteed under this scheme is up to ₹ 10 Lakhs Only.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-aadhaar-card-student-pan-card-student-10th-certif",
+    "for-courses-for-which-the-qualifying-examination-is-class-x-12th-certificate-pas",
+    "for-courses-for-which-the-qualifying-examination-is-class-xii-employers-certific",
+    "and-within-india",
+    "are-covered-under-this-scheme-certificate-is-mandatory-at-the-time-of-applicatio",
+    "within-india-note-pan-no-is-not-mandatory-at-the-time-of-applicationsanction-of",
+    "students-shall-have-to-furnish-details-of-pan-before-releasing-the-second-instal"
+  ],
+  "apply_url": "http://web.delhi.gov.in/wps/wcm/connect/6c696c00497228e69f26bff3f26be34f/HE%26SDGS++Final+Amended+Approved+Scheme_final.pdf?MOD=AJPERES&lmod=-1079783884&CACHEID=6c696c00497228e69f26bff3f26be34f&HIGHER%20EDUCATION%20AND%20SKILL%20DEVELOPMENT%20GUARANTEE%20SCHEME%20FOR%20PURSUING%20HIGHER%20EDUCATION%20IN%20DELHI",
+  "source_url": "https://www.myscheme.gov.in/schemes/hesdgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility** \n\n   1. Students who wish to pursue a diploma or degree or specified skill development courses in Delhi and have done their Class-X and Class–XII from Delhi are eligible under this Scheme. For courses for which the qualifying examination is Class-X, students who have done Class-X in Delhi would be eligible under this Scheme. Students who are children of employees of Govt. of NCT of Delhi or Officials/government servants who are posted with the Govt..of NCT of Delhi are also eligible under this scheme.\n   1. The student should have secured admission to a higher education course or specified Skill development courses (diploma or degree including bachelor, Master and Doctoral Degrees) in recognized institutions in Delhi through the Entrance Test/ Merit Based Selection process after completion of the Secondary Examination/Senior Secondary Examination/required qualifying examination.\n   1. The guarantee would be available for loans for all recognized diploma/degree courses from Government Institutions /Universities and constituent colleges of the University of Delhi. It would also be available for Private/ Self-financed Institutions located in Delhi having NAAC/NBA/SFRC grading. The department will persuade all the Private Institutions to get accreditation from NAAC/NBA. Till such time, grading as given by the Third State Fee Regulatory Committee (SFRC) set up by the Directorate of Higher Education and Directorate of Training &amp;amp; Technical Education may be used for Private Institutions, since this grading is based on the infrastructure, faculty and academic standards of the institutions as also the costs being incurred by it.\n   1. It would also be available for Institutions of Technical/Training Skill Development such as courses by World Class Skill Centre or any other technical training/skill development institutions specified by the Government of NCT of Delhi.\n\n&lt;br&gt;\n\n**Courses Eligible for Studies in Delhi**\n\n   1. Approved courses leading to graduate/ post-graduate degrees and PG diplomas conducted by recognized colleges/ universities recognized by UGC/ Government/ AICTE/ AIBMS/ ICMR etc\n   1. Courses like ICWA, CA, CFA etc \n   1. Courses conducted by IIT, NIFT, NLU, IIFT etc \n   1. Regular Degree/Diploma courses like aeronautical, pilot training, shipping, including those run by Polytechnics etc., degree/diploma in nursing, physiotherapy or any other discipline approved by the Director General of Civil Aviation/Shipping/Indian Nursing Council or any other regulatory body as the case may be if the course is pursued in Delhi. \n   1. Skill Development Courses as may be specified by Govt. of NCT of Delhi.\n\n<br>",
+  "_criteria_filled": 1
+}

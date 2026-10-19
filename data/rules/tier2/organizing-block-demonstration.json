@@ -1,0 +1,27 @@
+{
+  "id": "organizing-block-demonstration",
+  "name": "Organizing Block Demonstration",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** A subsidy of 50% on the cost of inputs required to layout the demonstration of 5 hectare each or ₹2,000/- whichever is less.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreements-caste-certificate-for-scst"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6902",
+  "source_url": "https://www.myscheme.gov.in/schemes/obd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of Tamil Nadu.\n- The beneficiary should cultivate seed farms with Pulses crops.",
+  "_criteria_filled": 1
+}

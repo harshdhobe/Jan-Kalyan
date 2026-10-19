@@ -1,0 +1,36 @@
+{
+  "id": "palanhar-scheme",
+  "name": "Palanhar Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "1. Orphan Category :\nFor the age group (0 to 6 years) : Rs. 1500/- per month.\nFor the age group (6 to 18 years) : Rs. 2500/- per month.\n1. Other Category:\nFor the age group (0 to 6 years) : Rs. 500/- per month.\nFor the age group (6 to 18 years) : Rs. 1000/- per month.\n1. For Books/Stationaries/Dress/Sweater/shoes etc: Rs. 2000/- per year. \n\n<br>\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 18
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadharbhamashah-card-copy-aadhar-card-copy-education-qualification-marksheet"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/SJED/Palanhar/DOC_133_85941004-4f13-46da-b4f0-8c64f9ab5a10.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Orphan boy/girl.\n1. Children of parents sentenced to death/life imprisonment under judicial orders.\n1. Children of a widowed mother receiving a pension (maximum 3 children at a time).\n1. Children of remarried widowed mothers.\n1. Children of HIV/AIDS affected mother/father.\n1. Children of parents suffering from leprosy.\n1. Children of related mothers (Maximum 3 children at a time).\n1. Children of specially-abled parents.\n1. Children of divorced/abandoned women receiving the pension.\n1. Children of parents suffering from silicosis.\n1. The age of the child should be less than 18 years.\n1. If Child age is 18 and still studying/staying in 12th class or lower class, then in such a situation such children will be given an additional one year ( The benefit can be provided till the age of 19 years). The said benefit will not be payable after the child completes 19 years of age or passes 12th class.\n1. The certificate that the guardian is a native of Rajasthan state or has been residing in the state for more than three years.\n1. Guardian Family income should not be more than Rs. 1.20 Laks per annum.",
+  "_criteria_filled": 3
+}

@@ -1,0 +1,43 @@
+{
+  "id": "disability-pension-gbocwwb",
+  "name": "Disability Pension (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹300/- per month.\n- An ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "worker-registration-cardnumber-receipt-of-payment-of-first-last-subscription-wit",
+    "stating-the-cause-of-the-disability-certificate-from-the-builder-or-inspector-of",
+    "in-the-case-of-unregistered-workers-their-dependents"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-4-Disability-Pension.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dp-gbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Worker.\n- The worker should be between 18 to 60 years of age.\n- The worker should have completed ninety days of service as a registered worker in the year.\n- The applicant should be registered with the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be permanently disabled.\n- The disability should have been caused by Paralysis / Leprosy / Tuberculosis(TB) / Accident.\n- The unregistered workers/ their dependents shall be eligible upon production of a certificate from the builder or Inspector of the area stating that he/she is a building worker.",
+  "_criteria_filled": 4
+}

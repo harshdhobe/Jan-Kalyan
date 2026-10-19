@@ -1,0 +1,29 @@
+{
+  "id": "personal-accident-insurance-scheme-for-coir-workers",
+  "name": "Personal Accident Insurance Scheme For Coir Workers",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "1. Accidental death: ₹ 50,000/-\n1. Permanent total disability: ₹ 50,000/-\n1. Permanent partial disability: ₹ 25,000/-\n1. Provision for finger cut: Depending upon the finger and limited to applicable percentages of the capital sum insured.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-the-death-certificate-of-the-deceased-person-copy-of-police-report-or-fi",
+    "unit",
+    "establishment",
+    "nominating-an-officer-of-the-coir-board"
+  ],
+  "apply_url": "https://my.msme.gov.in/MyMsmeMob/MsmeScheme/Pages/1_3_5_3.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpaiscw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Coir Worker engaged in the coir industry.\n1. The applicant should be aged 18 years and above.\n1. There is no upper age limit for coverage under the insurance scheme.\n1. The disabled coir worker can apply for the claim.\n1. The nominee of the disabled/deceased coir worker can apply for the claim.\n1. For women coir workers, considering their majority in the group, accidents include death and disablement arising out of and traceable to:\n\n- Sterilisation and consequent complications.\n- Pregnancy.\n- Childbirth.\n- Caesarean.\n- Hysterectomy.\n- Removal of breast.\n- Murder and rape, etc.\n\n<br>",
+  "_criteria_filled": 1
+}

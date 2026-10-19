@@ -1,0 +1,34 @@
+{
+  "id": "merit-cum-means-linked-financial-assistance-scheme",
+  "name": "Merit Cum Means Linked Financial Assistance Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "**Benefits**\n\n- The extent of reimbursement will be \n\n1. 100% tuition fee of the meritorious students belonging to economically weaker section i.e. wards of parent/s who are beneficiaries and possess relevant cards issued under the National Food Security Scheme\n1. 50% of the tuition fee to meritorious students having annual family income.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "a-student-shall-submit-an-application-for-each-year-of-the-course-program-as-per",
+    "as-per-format-at-annexurea",
+    "by-the-student-affirming-that-no-financial-support-has-been-availedis-being-avai",
+    "an-affidavit-affirming-non-employment-certified-by-the-office-of-sdmcompetent-au"
+  ],
+  "apply_url": "http://higheredn.delhi.gov.in/merit-cum-means-linked-financial-assistance-scheme-pursuing-higher-education-state-universities-",
+  "source_url": "https://www.myscheme.gov.in/schemes/mcmlfas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The eligibility criteria for applying under this scheme shall be as follows:\n(1) The student should have been enrolled on an undergraduate programme in any of the Delhi State Public Universities or colleges/ institutes affiliated with Delhi State Public Universities.\n(2) The student should fulfil the income/ economic and academic performance criteria as specified for each category mentioned below\n<br>\n\nEligibility (Gross Annual Family Income of Student from all Sources)Qualifying Aggregate Percentage (Marks in All Subjects)Percentage of Financial AssistanceCategory 1: Beneficiary under National Food Security Scheme &amp;amp;amp;amp; possess the Card issued under the Scheme60%100%Category 2: Not covered under category 1 but whose family income is up to ₹2.50 Lakh p.a.60%50%Category 3: Family income above ₹2.50 Lakh p.a.but not exceeding ₹6 Lakh p.a60%25%<br>\n\nA relaxation of 5% in the qualifying aggregate percentage of marks will be allowed to SC/ST Category students. \n<br>",
+  "_criteria_filled": 2
+}

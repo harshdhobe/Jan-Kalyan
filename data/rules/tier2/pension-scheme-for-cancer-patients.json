@@ -1,0 +1,37 @@
+{
+  "id": "pension-scheme-for-cancer-patients",
+  "name": "Pension Scheme for Cancer Patients",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "₹2,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-bank-passbook-aadhaar-card-income-certificate-issued-by",
+    "agartala",
+    "or-a-govt-hospital-or-any-recognized-hospital-proof-of-residence-ration-card",
+    "permanent-resident-of-tripura-certificate-prtc",
+    "voter-id",
+    "driving-license",
+    "or-passport"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20of%20Scheme%20for%20providing%20pension%20to%20the%20Cancer%20Patients_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pscp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The income of the applicant should not exceed ₹1,50,000/- per annum.\n1. No member of the family (father, mother, son(s), or unmarried daughter(s)) of the applicant should be in government service.\n1. The applicant should be suffering from cancer.",
+  "_criteria_filled": 2
+}

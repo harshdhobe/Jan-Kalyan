@@ -1,0 +1,26 @@
+{
+  "id": "incentive-assistance-to-scheduled-tribe-farmers-to-increase-the-area-production",
+  "name": "Incentive Assistance to Scheduled Tribe Farmers to Increase the Area, Production and Productivity of Sugarcane Farming",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Assistance for sugarcane Sowing₹10,000/- per HectareEvery year10% assistance for excellent production10% extra benefit per metric ton for production exceeding 70 metric Tons/Hectares.Every year> **Note:** This scheme covers a cultivation area of 500 hectares of sugarcane for Scheduled Tri",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-8-a-copy-land-ownership-document-bank-passbook-and-cancelled-c"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/39qrRafhk%E2%9C%A4%E2%9C%BFDT2MD43m3eA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/iastasf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be from Gujarat state.\n  - The applicant must belong to the Scheduled Tribe category.\n  - The applicant must be a householder.\n  - The farmer must be engaged in sugarcane cultivation.\n  - Farmers applying for the 10% incentive must demonstrate excellent production using high-quality seeds, agricultural inputs, and modern farming practices.",
+  "_criteria_filled": 1
+}

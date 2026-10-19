@@ -1,0 +1,26 @@
+{
+  "id": "development-of-manures-fertilizers-assistance-for-constructioninstallation-of-bi",
+  "name": "Development of Manures & Fertilizers: Assistance for Construction/Installation of Biogas Plants",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***Assistance for Construction/Installation of Biogas Plants***\n\n- Biogas plants constructed by the farmer would be provided 90% subsidy against the estimated standard cost of construction/installation for Biogas. \n- To make the subsidy more inclusive and reflective of the actual costs involved, excavation costs, transportation costs, and Goods and Services Tax (GST) included in the standard",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "krishi-card-abstract-soil-health-card-cash-invoice-cost-estimates-details-of-the"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-22-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmf-acibp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any farmer carrying out agricultural activities in the State of Goa and having a Krishi card.\n- Institutions and private limited companies involved in agricultural activities and having a Krishi card will also be assisted under this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

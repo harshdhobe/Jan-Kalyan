@@ -1,0 +1,36 @@
+{
+  "id": "old-age-pension-scheme-punjab",
+  "name": "Old Age Pension Scheme - Punjab",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-proof-of-address-of-beneficiary-first-page-of-passbook-proof-o"
+  ],
+  "apply_url": "https://punjab.gov.in/wp-content/uploads/2023/08/OldAgePension-1_merged.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/oapsp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Beneficiary should be a Permanent Resident of Punjab.\n1. The Annual Income of Beneficiary should not be more than Rs. 60,000/- per year.\n1. The Age of Beneficiary should be :- \n\n   1. Men: 65 Years or Above. \n   1. Women :58 Years or Above.\n\n1. Beneficiary should own any of the below mentioned amount of land :-\n\n   1. Maximum 2.5 Acre Nehri or Chahi Land, OR\n   1. Maximum 5 Acre Barani Land, OR\n   1. Waterlogged 5 Acre Land.",
+  "_criteria_filled": 3
+}

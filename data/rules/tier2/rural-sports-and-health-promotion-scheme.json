@@ -1,0 +1,26 @@
+{
+  "id": "rural-sports-and-health-promotion-scheme",
+  "name": "Rural Sports and Health Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, an amount of ₹17,960/- is allocated to Mangal Dals for setting up community fitness equipment (open gym) in each Gram Panchayat to promote the health and fitness of the youth.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-is-required-in-accordance-with-the-departments-guideline"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rsahps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All Gram Panchayats in Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

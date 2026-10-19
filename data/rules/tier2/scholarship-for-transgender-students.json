@@ -1,0 +1,28 @@
+{
+  "id": "scholarship-for-transgender-students",
+  "name": "Scholarship For Transgender Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "person",
+  "benefit": "**Financial assistance is being provided to Transgender students on the following basis:**\n\n1. For Transgender students from 7th std. to 10th std.:  ₹1000/- per month for 10 months\n1. For Transgender students studying in Plus One &amp; Plus Two:  ₹1500/- per month for 10 months\n1. For Transgender students pursuing Diploma, Degree, Post-Graduation, or Professional courses:  ₹2000/- per month for 10",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card",
+    "election-id-voter-id-mobile-number-email-id-passport-size-photo-self-declaration",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/11673.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sts",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tApplicant should be Transgender.\n2.\tApplicant should be a resident of Kerala.\n3.\tApplicant should be a student and studying in State Government/ Government aided/ Self Financing schools/colleges.\n4.\tThe applicant should be studying in 7th Class to Diploma/Degree/PG Level.\n5.\tThere is no income limit.",
+  "_criteria_filled": 1
+}

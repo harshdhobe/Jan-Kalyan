@@ -1,0 +1,41 @@
+{
+  "id": "farm-machinery-bank-fmbfarm-machinery-hub-fmh",
+  "name": "Farm Machinery Bank (FMB)/Farm Machinery Hub (FMH)",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "household",
+  "benefit": "> **Pattern Of Assistance:**\n\n  - The subsidy will be 80% of the Total Financial Outlay (TFO) subject to maximum Rs 8.00 lakh and minimum TFO will be ₹10,00,000/-. The TFO includes indicative cost of machinery + Cost of shed +AMC + insurance. The remaining amount of the TFO will be borne by the beneficiary.  \n  - The maximum amount allowed for cost of open shed for machinery will be limited to 5% ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "proforma-application-form",
+    "properly-filled-in",
+    "proof-of-citizenship-epic",
+    "krishak-bandhu-id-no-visit-here-to-check-your-krishak-bandhu-id",
+    "copy-of-aadhaar-card",
+    "pan-card",
+    "proof-of-financial-solvency-self-authenticated-bank-statement-of-last-six-months",
+    "detailed-project-report-for-aif-if-applicable",
+    "quotations",
+    "vetted-plan-estimate-for-shade-of-fmbfmh-if-any-etc",
+    "resolution-of-the-organization-regarding-authorization-of-signatory-in-the-appli"
+  ],
+  "apply_url": "https://matirkatha.net/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1lDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6e05a52aaf58b7fbfa749a5d71be15309a5101ea/FMS_Operational%20Guidelines_2024_25.pdf?disposition=attachment",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Individual Rural Youth Entrepreneur registered under Krishak Bandhu (New) Scheme.\n\nOr,\nGroups like SKUS/PACS/FPO/FPC/FIG/SHG duly graded /LAMPS etc approved/recognized by any Govt Institution/Departments .\n\n  - The Group should be successfully running at least for last 1(one)year are only eligible to setup FMB/FMH in a selected village \n  - The project cost/Total Financial Outlay (TFO) should be minimum ₹10,00,000/-.\n  - The applicant should have sufficient land under his possession (own land/leased/hired) for setting up the FMB/FMH. \n  - The land in question must belong to “commercial or bastu or viti” category.\n  - The age of the beneficiary should be minimum 18 years at the time of application.\n\n<br>",
+  "_criteria_filled": 2
+}

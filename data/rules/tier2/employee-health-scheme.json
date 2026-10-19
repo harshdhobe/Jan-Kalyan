@@ -1,0 +1,26 @@
+{
+  "id": "employee-health-scheme",
+  "name": "Employee Health Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "In-Patient Treatment: The Employee Health Scheme (EHS) aims to provide cashless hospitalization to eligible beneficiaries such as employees, pensioners, and their dependents. The scheme covers listed therapies for identified diseases, providing end-to-end cashless services until 10 days post-discharge, including coverage of complications up to 30 days post-discharge. Additionally, free out-patient",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-scan-your-aadhaar-card-and-ensure-the-photo-and-the-aadhaar-number"
+  ],
+  "apply_url": "https://www.aputf.org/wp-content/uploads/2020/08/2013FIN_MS331.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ehsap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Serving employees:\n\n- All regular State Government employees. A State Government employee will have the meaning as defined under Fundamental Rules.\n- Provincialised employees of local bodies.\n\n2. Retired employees:\n\n- All Service Pensioners\n- Family pensioners\n- Re-employed service pensioners",
+  "_criteria_filled": 1
+}

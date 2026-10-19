@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-shaurya-medal-recipients-by-the-government-of-madhya-pra",
+  "name": "Financial Assistance to Shaurya Medal Recipients by the Government of Madhya Pradesh",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Financial assistance is provided to Shaurya Medal awardees. \n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "residence-certificate-copy-of-shaurya-medal-award-certificate"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0",
+  "source_url": "https://www.myscheme.gov.in/schemes/fasmrgmp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Madhya Pradesh.\n1. The applicant must be a Shaurya Medal awardee. \n\n<br>\n\n<br>",
+  "_criteria_filled": 1
+}

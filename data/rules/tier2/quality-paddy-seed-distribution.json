@@ -1,0 +1,27 @@
+{
+  "id": "quality-paddy-seed-distribution",
+  "name": "Quality Paddy Seed Distribution",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** ₹5/- per kg subsidy on certified paddy seeds.\n&lt;br&gt;",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-any-other-documents-if-requ"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/19244",
+  "source_url": "https://www.myscheme.gov.in/schemes/qpsd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary must purchase certified paddy seeds from Agricultural Extension Centers.",
+  "_criteria_filled": 1
+}

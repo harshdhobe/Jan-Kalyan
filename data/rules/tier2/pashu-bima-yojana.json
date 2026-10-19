@@ -1,0 +1,26 @@
+{
+  "id": "pashu-bima-yojana",
+  "name": "Pashu Bima Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- The maximum price per milch cattle has been fixed at ₹60,000/-. \n\n- The total amount of insurance at the rate of 3.5 percent will be ₹2,100/-.\n- The insurance company will insure milch cattle for 01 year. \n- The insurance company will fit the data ear tags in the milch cattle. \n\n> **NOTE 1:** 75% amount of ₹1,575/- will be paid by the state government as a grant and the remaining 25% amount of ₹",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-milk-producer-society-membership-receipt-proposers-photo"
+  ],
+  "apply_url": "https://dairy.bihar.gov.in/Scheme.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/pby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer of milch cattle. \n1. The applicant should be a member of the &quot;Milk Producer Cooperation Committee&quot;. \n1. The milch cattle of the farmer should be healthy and certified by a veterinary doctor at the time of insurance.",
+  "_criteria_filled": 1
+}

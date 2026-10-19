@@ -1,0 +1,37 @@
+{
+  "id": "non-governmental-aided-organization-special-schools-and-vocational-training-cent",
+  "name": "Non-Governmental Aided Organization (Special Schools And Vocational Training Centre) For Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Special Education is provided to children with disability who are below the age of 18 years.\nVocational Training is given to special children above the age of 18 years.\nThe children will have access to free education in an appropriate environment till he/she attains the age of eighteen years. \nAlso, free facilities of food, shelter, and education are provided in residential institutions.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-enrollment-into-the-non-government-institution-residential-institution",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/ngaossandvtd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be enrolled in a Non-Government Institution / Residential Institution.\n1. The applicant should be a Person with Disability (Visually Impaired, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of disability should be 40% and above.\n1. For Special Education, the age of the applicant should be between 6 to 18 years.\n1. For Vocational Education, the age of the applicant should be 18 years and above.",
+  "_criteria_filled": 2
+}

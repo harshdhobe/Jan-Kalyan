@@ -1,0 +1,31 @@
+{
+  "id": "garuda-scheme-for-funeral-expense",
+  "name": "Garuda Scheme for Funeral Expense",
+  "tier": 2,
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "scope": "household",
+  "benefit": "- Financial Assistance of ₹10,000/- for funeral expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Andhra Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-of-the-applicant-aadhar-card-of-the-applicant-aadhar-ca"
+  ],
+  "apply_url": "https://www.andhrabrahmin.ap.gov.in/down/garuda2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsfe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a close relative of the deceased (Spouse/Son/Daughter/Parent/Brother/Grandson). \n1. The applicant should provide a self-declaration that he/she is the legal heir of the deceased.\n1. The applicant should belong to the Brahmin community and reside in Andhra Pradesh.\n1. The applicant&#39;s annual family income should not exceed ₹75,000/-.\n1. The applicant should not have availed himself/ herself of any amount under any other government scheme for the same purpose.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-workers-with-a-visually-physically-or-mentally-disabled",
+  "name": "Financial Assistance to Workers with a Visually, Physically or Mentally Disabled Child- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Financial assistance of ₹20,000/- per year is provided on disability of the children from 70 to 90%.\n   1. Financial assistance of ₹30,000/- per year is provided on disability of the children from 91 to 100%.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/90",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawvpmdc-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The applicant should be registered with the Haryana Labour Welfare Board.\n   1. The benefit is provided to the disabled (blind, mentally retarded, mute, and deaf) children with a disability ranging from 70% to 100% who are dependents of registered workers.\n   1. There is no maximum limit set for the monthly salary of the worker.\n   1. There is no fixed service period requirement for the worker.\n   1. The dependent child&amp;#39;s name should be listed in the worker&amp;#39;s ESI Card/Ration Card.\n   1. The dependent child should not have any source of income and should not be married.\n   1. The worker should not have already availed of the benefit of this scheme for his/her dependent child in the relevant financial year.\n\n**Note:** The worker is required to submit the living certificates of his/her dependent beneficiary child every year, indicating that the dependent child has no source of income and is unmarried.",
+  "_criteria_filled": 2
+}

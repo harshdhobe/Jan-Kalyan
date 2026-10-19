@@ -1,0 +1,31 @@
+{
+  "id": "economic-help-to-tribal-girls-for-higher-education-college-level",
+  "name": "Economic Help To Tribal Girls For Higher Education (College Level)",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- Annual financial assistance of Rs. 5,000/- is provided for 10 months at the rate of Rs.500/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-annual-income-of-the-parent-guardian-non-tax-payee-janaadhaar-card"
+  ],
+  "apply_url": "https://schemes.rajasthan.gov.in/scheme/detail/451",
+  "source_url": "https://www.myscheme.gov.in/schemes/ehttg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl student should belong to the tribal class of Rajasthan.\n1. The girl student should be regularly studying general education in a private/government college.\n1. The parent/guardian/guardian/husband of the student should not be an income taxpayer.\n1. After passing the board examination, there should not be any gap in the continuous study of the student applying for the scheme.\n1. The student who is studying by living in a hostel run by the government. They will not be entitled to benefit under the said scheme.\n1. Must have Vaidya Bhamashah card and Aadhaar card.\n1. The girl student should be a native of Rajasthan.",
+  "_criteria_filled": 2
+}

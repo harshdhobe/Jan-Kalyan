@@ -1,0 +1,31 @@
+{
+  "id": "grant-of-margin-money-for-availing-the-capital-loan-component-of-the-development",
+  "name": "\"Grant of Margin Money for Availing the Capital Loan\" Component of the \"Development of Silk\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- 25% as margin money (restricted to ₹50,000/-) on the loan amount, upon receipt of sanction order from the financial institution.\n- The amount is released to the bank on behalf of the entrepreneurs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificateresidential-certificate-loan-sanction-letter-from-the-financial"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmmacl-ds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to Puducherry by virtue of birth or by residence continuously for 5 years\n- The applicant should ascertain availability of loan.\n- The silk unit should be set up in Puducherry.\n- The unit should start its commercial production within six months from the date of release of the Margin Money Grant.\n- The income of the applicant and his/her family members should not be more than ₹1,00,000/- and above from all sources.",
+  "_criteria_filled": 2
+}

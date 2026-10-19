@@ -1,0 +1,28 @@
+{
+  "id": "centrally-sponsored-scheme-of-post-matric-scholarship-for-obc-ebc-and-dnt-studen",
+  "name": "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC  and DNT Students for studying in India",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Components of the Scholarship**\n\n- Maintenance allowance for the complete duration of the course.\n- Reimbursement of compulsory non-refundable fees.\n- Study tour charges (if applicable).\n- Thesis typing/printing charges (for research scholars).\n- Book allowance for students pursuing correspondence courses.\n- Additional allowances for students with disabilities.\n\n**Financial Support Breakdown**\n*",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-domicile-certificate-admission-letter-from-the-re",
+    "issued-by-statedistrict-authority-bank-account-details",
+    "for-direct-benefit-transfer-previous-academic-marksheets-accreditation-proof-of"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsoeds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be from Other Backward Classes (OBC) / Economically Backward Classes (EBC) or from Denotified, Nomadic, and Semi-Nomadic Tribes (DNT).\n- The applicant should be studying at the post-matriculation or post-secondary stage of education.\n- The applicant should be permanently settled in the State/UT where they are applying.\n- The applicant should be studying in an institution recognized by the All India Survey on Higher Education (AISHE) or Unified District Information System for Education (UDISE).\n- The applicant&#39;s institution should have National Assessment and Accreditation Council (NAAC) or National Board of Accreditation (NBA) accreditation.\n- The applicant should maintain Aadhaar-based attendance in the institution.\n- The applicant must have a valid &quot;Freeship Card&quot; issued by the State/District Authority.\n\n**Preference/Priority/Reservation/Relaxation:**\nA maximum of 20 slots per annum are reserved for Commercial Pilot License courses, including helicopter and multi-engine training.",
+  "_criteria_filled": 1
+}

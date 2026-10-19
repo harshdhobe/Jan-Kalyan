@@ -1,0 +1,26 @@
+{
+  "id": "competitive-exam-coaching",
+  "name": "Competitive Exam Coaching",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "Free coaching to tribal (ST) students.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "education-qualification-marksheet-certificate-domicile-certificate-caste-certifi"
+  ],
+  "apply_url": "https://jankalyan.rajasthan.gov.in/#/scheme/detail/589",
+  "source_url": "https://www.myscheme.gov.in/schemes/cec",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Should be a student of ST category. Both Male and Female students are eligible for taking benefit of this scheme.",
+  "_criteria_filled": 1
+}

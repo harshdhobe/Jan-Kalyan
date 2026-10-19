@@ -1,0 +1,36 @@
+{
+  "id": "asangathit-karmakar-gambhir-bimari-chikitsa-sahayata-yojana",
+  "name": "Asangathit Karmakar Gambhir Bimari Chikitsa Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "> Unorganized workers can receive up to ₹ 50,000 in medical assistance to help cover the cost of treating kidney, cancer, sickle cell anemia, heart disease, AIDS, and paralysis. \n\n> If the actual cost of treatment is less than ₹ 50,000, they will only receive the actual cost of treatment.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-registration-card-disease-details-by-vikas-khand-adhikari-surgeon-c"
+  ],
+  "apply_url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20asangathit%20karmakaar%20gambheer%20beemaari%20chikitsa%20sahaayata%20yojana.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/akgbcsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be registered with the State Board for at least 90 days.\n1. The applicant must be between the ages of 18 and 60.\n1. The applicant must be registered as a beneficiary of unorganized workers under Section 10 of the Act.",
+  "_criteria_filled": 3
+}

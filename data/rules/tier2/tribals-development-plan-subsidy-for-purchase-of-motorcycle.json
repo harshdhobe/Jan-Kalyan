@@ -1,0 +1,33 @@
+{
+  "id": "tribals-development-plan-subsidy-for-purchase-of-motorcycle",
+  "name": "Tribals Development Plan: Subsidy for Purchase of Motorcycle",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "- Eligible BPL families receive a total subsidy of ₹25,000/-, comprising ₹10,000/- from DRDA under the Swarnajayanti Gram Swarozgar Yojana (SGSY) and an additional ₹15,000/- from the Directorate of Social Welfare.\n- Non-BPL tribal families (with income &lt; ₹1,20,000/- per annum) receive a subsidy of ₹15,000/- from the Directorate of Social Welfare only.\n- The subsidy is a one-time financial assis",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 120000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-application-stageproof-of-tribal-status-caste-certificate-for-gawda",
+    "velip-or-kunbi-community-proof-of-residence-residence-certificate-or-ration-card",
+    "maximum-file-size-2-mb-each"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/0607/0607-45-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tdp-spm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must belong to one of the Scheduled Tribe (ST) communities notified in Goa, i.e. Gawda, Velip, or Kunbi.\n- The applicant must be a resident of Goa.\n- The applicant’s annual family income must be less than ₹1,20,000/-.\n- The applicant must be part of a tribal household identified under the Tribals Development Plan.\n- The applicant’s family must fall under either:\n\n(a) the Below Poverty Line (BPL) category, or\n(b) the non-BPL category with annual income &lt; ₹1,20,000/-.\n\n- Only one member per family is eligible for assistance under this component.\n- The applicant must intend to use the motorcycle for self-employment or transport-related activity.\n\n<br>",
+  "_criteria_filled": 2
+}

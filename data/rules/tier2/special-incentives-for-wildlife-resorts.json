@@ -1,0 +1,29 @@
+{
+  "id": "special-incentives-for-wildlife-resorts",
+  "name": "Special Incentives for Wildlife Resorts",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "##### ***Category A Forest Areas (Kanha, Bandhavgarh, Pench Tiger Reserve, Ratapani Tiger Reserve &amp; adjacent National Parks &amp; Sanctuaries)***\n\n- The beneficiary receives a Capital Subsidy of 20% on the approved fixed capital investment.\n- The maximum ceiling of the subsidy is ₹1,00,00,000/-.\n\n##### ***Category B Forest Areas (Panna &amp; Satpuda Tiger Reserve and adjacent National Parks &a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-entity-registration-documentscopy-of-memorandum-and-articles-of-a",
+    "municipality",
+    "etc-building-permission-granted-by-the-appropriate-authority-approved-floor-plan",
+    "max-500-kb-proof-of-commercial-operationany-one-of-the-following-copy-of-first-l"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sifwr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must establish the wildlife resort within the boundaries of notified National Parks, Tiger Reserves, and Sanctuaries in the state of Madhya Pradesh.\n- The applicant must ensure the project is established and operationalized during the operative tenure of the Tourism Policy.\n- The applicant must submit the application for capital subsidy within one year from the date of commencement of operation.\n\n##### ***For Category A Forest Areas***\n\n- The applicant must incur a minimum capital expenditure of ₹5,00,00,000/-.\n- The applicant must construct a minimum of 10 rooms.\n\n##### ***For Category B Forest Areas***\n\n- The applicant must incur a minimum capital expenditure of ₹3,00,00,000/-.\n- The applicant must construct a minimum of 07 rooms.\n\n##### ***For Category C Forest Areas***\n\n- The applicant must incur a minimum capital expenditure of ₹1,00,00,000/-.\n- The applicant must construct a minimum of 05 rooms.\n\n<br>",
+  "_criteria_filled": 1
+}

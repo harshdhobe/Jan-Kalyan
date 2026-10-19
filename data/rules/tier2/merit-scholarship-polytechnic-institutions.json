@@ -1,0 +1,26 @@
+{
+  "id": "merit-scholarship-polytechnic-institutions",
+  "name": "Merit Scholarship: Polytechnic Institutions",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "(a) For students newly admitted to the first year of the Diploma program: ₹600/- per month.\n(b) For students admitted to the second year through lateral entry: ₹600/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "residential-certificate-of-chhattisgarh-mark-sheet-of-the-qualifying-examination"
+  ],
+  "apply_url": "https://cgdteraipur.cgstate.gov.in/sites/default/files/notification-of-merit-scholarship-2016-17-598083916f1b8.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mspi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a native resident student of Chhattisgarh.\n\n- The applicant must be currently studying in a recognized polytechnic institution in Chhattisgarh.\n- The applicant must have secured a minimum of 60% marks in the qualifying examination.\n- Students who have passed the 10th/12th class examination under the 10+2 system from any recognized institution located in Chhattisgarh with a minimum of 60% marks will be eligible.\n- Students newly admitted to the second year of the Diploma program who are ITI / 12th vocational certificate holders must have passed the qualifying examination with a minimum of 60% marks.\n\n<br>\n\n**Other Conditions -** \n\n- Without special approval from the government, no student will receive more than one scholarship at the same time. However, if the institution where he is studying has given him any fee concession, then he will be entitled to continue receiving it.\n- If any scholarship becomes vacant during its duration, then the approving authority can give such scholarships for its unexpired period to the next eligible and deserving candidate from the merit list.\n- Only those students will be eligible to receive scholarships who have passed the qualifying examination from any testing body of Chhattisgarh. But children of such permanent government employees of Chhattisgarh can be exempted from this condition who are on deputation to the Government of India or any other state government.\n- Such students will not be eligible to receive scholarships who are in full-time employment. In this regard, only one concession can be given that any such student, who is regularly studying in a recognized institution and is receiving any scholarship, can be allowed to do part-time work.",
+  "_criteria_filled": 1
+}

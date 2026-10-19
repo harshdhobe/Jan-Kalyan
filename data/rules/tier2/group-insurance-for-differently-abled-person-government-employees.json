@@ -1,0 +1,32 @@
+{
+  "id": "group-insurance-for-differently-abled-person-government-employees",
+  "name": "Group Insurance for Differently Abled Person Government Employees",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "In case of death due to accident while in service the sum insured as follows will be given to the family of the deceased employee:\n\n- **Group A:** ₹ 1,20,000/-.- **Group B:** ₹ 60,000/-.- **Group C:** ₹ 30,000/-.- **Group D:** ₹ 15,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/group-insurance-differently-abled-person-government-employees",
+  "source_url": "https://www.myscheme.gov.in/schemes/gidapge",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should have a disability of 40% or above.\n- The applicant should be a government servant.",
+  "_criteria_filled": 2
+}

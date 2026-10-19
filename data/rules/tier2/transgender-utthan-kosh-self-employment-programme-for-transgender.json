@@ -1,0 +1,41 @@
+{
+  "id": "transgender-utthan-kosh-self-employment-programme-for-transgender",
+  "name": "Transgender Utthan Kosh - Self Employment Programme for Transgender",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- **Financial Assistance:** 25% of the total business cost or ₹50,000/- (whichever is lower) for self-employment/business establishment.- **Loan Support:** The beneficiary must secure a loan from a nationalized/cooperative bank to avail of the grant.- **One-Time Benefit:** The assistance is available only once per individual.\n**Note:** The grant is disbursed only after the beneficiary starts the b",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 21
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-aadhar-card-copy-income-certificate-of-parentguardian-original-res"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/siteadmin/Uploads/202110051259226370.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tuk-sept",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Rajasthan.\n1. The applicant should be a transgender person.\n1. The applicant should be between 21 and 50 years of age.\n1. The applicant should secure a loan from a nationalized/cooperative bank.\n1. The gross annual income of applicant should not exceed ₹8,00,000/-.\n1. Each transgender individual can avail the benefits of this scheme only once.",
+  "_criteria_filled": 4
+}

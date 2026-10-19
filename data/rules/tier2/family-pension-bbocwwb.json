@@ -1,0 +1,27 @@
+{
+  "id": "family-pension-bbocwwb",
+  "name": "Family Pension (BBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "50% of the pension amount or ₹100/-, whichever is higher.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-bank-account-details-proof-of-age-at-the-time-of-registration-death-c"
+  ],
+  "apply_url": "https://bocwscheme.bihar.gov.in/worker_reg",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpbbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a dependent of a deceased worker.\n- The worker, in his/her lifetime, should have been registered with the &quot;Bihar Building &amp; Other Construction Workers Welfare Board&quot;.\n- The worker, in his/her lifetime, should have been in receipt of regular pension from the Board.",
+  "_criteria_filled": 1
+}

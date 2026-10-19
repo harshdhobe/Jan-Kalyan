@@ -1,0 +1,41 @@
+{
+  "id": "moovalur-ramamirtham-ammaiyar-ninaivu-marriage-assistance-scheme-ii",
+  "name": "Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme - II",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- Financial assistance of ₹50,000/-.\n- One sovereign (4gm) 22-carat gold coin for making Thirumangalyam. \n\n**NOTE:** The benefit will be given in the bride&#39;s mother or father&#39;s name. In case of the death of the parents, it will be given to the bride.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 24000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-school-transfer-certificate-copy-of-degree-diploma-certificate-income-ce"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/whatsnew/socialwelfare.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mranmas-ii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl.\n1. The bride should be 18 years or above at the time of marriage.\n1. The bride should be a degree holder from a regular college, Distance Education / Government recognized Open University Or diploma holder should have qualified from Institutions recognized by the Directorate of Technical Education, Government of Tamil Nadu.\n1. The bride&#39;s family income should not exceed ₹24,000/- per annum. \n1. The assistance is given to only one girl in a family.",
+  "_criteria_filled": 4
+}

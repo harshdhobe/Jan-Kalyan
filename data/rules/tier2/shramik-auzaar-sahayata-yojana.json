@@ -1,0 +1,31 @@
+{
+  "id": "shramik-auzaar-sahayata-yojana",
+  "name": "Shramik Auzaar Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "The Occupation-related Toolkit or the Equivalent Amount (whichever is less) shall be reimbursed.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residential-certificate-domicile-certificate-proof-of-age-date-of-b"
+  ],
+  "apply_url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be a registered Construction Worker (Nirmaan Shramik).\n1. The applicant should be engaged in construction work such as masons, carpenters, electricians, porters, painters, etc.\n1. The applicant should be 18 years or above in age.\n1. The applicant should not already have availed of the benefits of this scheme.",
+  "_criteria_filled": 2
+}

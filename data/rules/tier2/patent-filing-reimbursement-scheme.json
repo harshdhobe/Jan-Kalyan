@@ -1,0 +1,28 @@
+{
+  "id": "patent-filing-reimbursement-scheme",
+  "name": "Patent Filing Reimbursement Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- A total reimbursement of up to ₹ 25,00,000 per unit for the expenses incurred towards the filing of patents during the policy period.\n- This incentive shall be provided in the form of reimbursement of up to ₹ 2,50,000 for every successful domestic patent, and up to ₹ 5,00,000 for every successful international patent.\n\n**NOTE 1:** The benefits under this scheme are subject to budgetary allocatio",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "1-copy-of-incorporation-certificate-2-copy-of-new-unit-registration-documentcert",
+    "aadhaar-and-gst-tin-4-memorandum-and-articles-of-association-5-copy-of-the-first",
+    "if-any-10-udyog-aadhaar"
+  ],
+  "apply_url": "https://goaonline.gov.in/StatusTrack",
+  "source_url": "https://www.myscheme.gov.in/schemes/pfrs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All the new and existing units must have their operations in Goa.\n2. The applicant must be one of the below:\n\n- Proprietorship Firm\n- Private Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Public Limited Company incorporated under the Companies Act, 2013 (or equivalent)\n- Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent)\n- Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)\n\n3. The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.",
+  "_criteria_filled": 1
+}

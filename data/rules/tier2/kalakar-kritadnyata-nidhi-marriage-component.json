@@ -1,0 +1,37 @@
+{
+  "id": "kalakar-kritadnyata-nidhi-marriage-component",
+  "name": "Kalakar Kritadnyata Nidhi: Marriage Component",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "##### ***Financial Assistance***\n\n- Financial assistance of ₹20,000/- shall be sanctioned for the first wholly dependent daughter&#39;s marriage.\n- Financial assistance of ₹15,000/- shall be sanctioned for the second wholly dependent daughter&#39;s marriage.\n- Maximum two wholly dependent unmarried daughters shall be eligible for this benefit.\n\n##### ***Disbursement***\n\n- The financial assistance ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-the-time-of-applicationdependency-certificate-from-the-authorized-authority-b",
+    "government-of-goa-after-benefit-disbursaldetails-of-the-expenditure-incurred-vou"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkn-mc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***For the Artist***\n\n- The applicant must be a Goan aged needy artist, born and brought up in the state of Goa.\n- The applicant must be recognized by the Directorate of Art &amp; Culture, Government of Goa.\n- The applicant must be not less than 50 years of age.\n- The applicant&#39;s annual family income from all the sources should not exceed ₹2,00,000/- per annum.\n\n##### ***For Dependent Daughter(s)***\n\n- The daughters must be wholly dependent on the eligible Goan artist.\n- The daughters must be unmarried at the time of application.\n- Maximum two wholly dependent unmarried daughters shall be eligible.\n\n##### ***Relaxation***\n\n- The Government may relax the age criteria for the artist for deserving cases under special circumstances.\n\n<br>",
+  "_criteria_filled": 3
+}

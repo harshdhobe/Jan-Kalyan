@@ -1,0 +1,28 @@
+{
+  "id": "mizoram-research-fellowship",
+  "name": "Mizoram Research Fellowship",
+  "tier": 2,
+  "level": "state",
+  "state": "Mizoram",
+  "scope": "person",
+  "benefit": "Financial Assistance to Research Workers and Teachers.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Mizoram"
+      }
+    ]
+  },
+  "documents": [
+    "1-three-copies-of-the-approval-synopsis-of-the-dissertationthesis-indicating-a-t",
+    "election-voter-id-card",
+    "etc-9-proof-of-agedob-birth-certificate-10-passport-sized-photograph"
+  ],
+  "apply_url": "https://msb.mizoram.gov.in/uploads/attachments/dcc206aada1f0ea4ccc12e41d12a0103/mrf.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mrf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a bonafide permanent residents of Mizoram.\n1. The applicant must be prosecuting higher studies or research at a university/institution recognized/established by the law.\n1. The applicant must not be guilty of misconduct or breach of discipline or participating in strikes, demonstrations, picketing, and the like for unfair demands from any high-level authority.\n1. (Unless otherwise relaxed by the awarding authority) The applicant must secure at least 50% on average in the last university examination.\n1. The applicant must not be in receipt of any scholar or stipend except merit scholarship, from any sources.",
+  "_criteria_filled": 1
+}

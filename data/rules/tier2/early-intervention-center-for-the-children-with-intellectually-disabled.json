@@ -1,0 +1,41 @@
+{
+  "id": "early-intervention-center-for-the-children-with-intellectually-disabled",
+  "name": "Early Intervention Center for the Children with Intellectually Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Early intervention provides to children with intellectual disabilities.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 6
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "national-identity-card-of-the-differently-abled-birth-certificate-any-other-docu"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eiccid",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary child&#39;s age should be 6 years or below. \n1. The child with intellectual disability and allied disabilities is eligible.",
+  "_criteria_filled": 4
+}

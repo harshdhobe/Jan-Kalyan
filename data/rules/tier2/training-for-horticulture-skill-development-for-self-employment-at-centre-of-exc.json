@@ -1,0 +1,26 @@
+{
+  "id": "training-for-horticulture-skill-development-for-self-employment-at-centre-of-exc",
+  "name": "Training for Horticulture Skill Development for Self-Employment at Centre of Excellence",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Stipend:** ₹250/- per trainee.- **Other Facilities:** Dining facility, training literature kit, experiential education tour, trainee kit, etc.\n> **Duration of the Training:**\n\n- Minimum: 10 days\n- Maximum: 30 days",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-ration-card-true-copy-of-election-ca"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/thsdse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The applicant must be a resident of Gujarat.\nThe applicant should belong to any of the following:\n\n- Agriculture Labour\n- All Colleges\n- All Farmers\n- All Individuals\n- All Students\n- Anganwadi Worker\n- College Students\n- Farm Labourer\n- Horticulturists\n- Self-Employment\n- Skilled Individual\n- Small and Marginal Farmers\n- Small, Marginal &amp; Other Farmers",
+  "_criteria_filled": 1
+}

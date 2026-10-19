@@ -1,0 +1,26 @@
+{
+  "id": "mukhyamantri-samajik-samrasta-antarjatiya-vivah-shagun-yojana",
+  "name": "Mukhyamantri Samajik Samrasta Antarjatiya Vivah Shagun Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under this scheme, financial assistance of ₹2,50,000/- is given to the couple when a Non-Scheduled Caste boy or girl marries a Scheduled Caste girl/boy.\n\n**Note:** Out of the total ₹2,50,000/-, ₹1,25,000/- will be directly transferred to the joint account of the couple immediately after the marriage. The remaining ₹1,25,000/- will be deposited in the couple&amp;#39;s joint fixed deposit account",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "age-proof-of-the-bride-and-groom-haryana-residence-proof-of-the-sc-member-of-the"
+  ],
+  "apply_url": "https://www.haryanascbc.gov.in/sites/default/files/2020-08/Notification%20Inter%20caste%20marriage.PDF",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssavsy-haryana",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Both spouses should be citizens of India, and one spouse must belong to the Scheduled Caste community i.e. a Non-Scheduled Caste boy or girl marries with a Scheduled Caste girl/boy.\n   1. The beneficiary (he or she) should be a permanent resident of Haryana State.\n   1. The beneficiary (he or she) should not have received benefits under a similar scheme.\n   1. The beneficiary can apply for the incentive within 3 years from the date of marriage.\n   1. The bride should be at least 18 years old.\n   1. The groom should be at least 21 years old.\n   1. The benefit of the scheme is only applicable for the first marriage.",
+  "_criteria_filled": 1
+}

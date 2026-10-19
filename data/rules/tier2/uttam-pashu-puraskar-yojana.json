@@ -1,0 +1,29 @@
+{
+  "id": "uttam-pashu-puraskar-yojana",
+  "name": "Uttam Pashu Puraskar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "person",
+  "benefit": "1. Livestock owners of Cattle/Buffaloes giving 15 liters or more milk per day will be awarded a cash prize of ₹1000/- per Cow/Buffalo.\n1. The prize will be admissible to a maximum of two animals per farmer.\n1. Prizes will be transferred to the bank account of the selected owners.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "pan-card",
+    "voter-id-card",
+    "etc-copy-of-bank-passbook-residence-proof-bpl-certificate-castecategory-certific"
+  ],
+  "apply_url": "https://hpahdbt.hp.gov.in/Home/uttam_pashu_purskar_yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/uppy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe beneficiary should be a permanent resident of Himachal Pradesh.\n2.\tThe beneficiary/livestock owner of Cattle/Buffaloes giving 15 liters or more milk per day is eligible to apply under the scheme.\n<br>",
+  "_criteria_filled": 1
+}

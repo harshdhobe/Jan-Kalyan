@@ -1,0 +1,31 @@
+{
+  "id": "provision-of-special-assistance-for-development-of-low-cost-educational-material",
+  "name": "Provision of Special Assistance for Development of Low-Cost Educational Materials (SIPDA)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Support for Braille Presses:** Assistance is given for the installation of new Braille presses and enhancement of the capacity and modernization of existing Braille presses.  - **Upgradation of Talking Book Studios:** Financial support is offered for increasing the capacity and modernization of existing Talking Book Studios.  - **Creation and Enhancement of Digital Book Production Centers:** G",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "for-studentsunique-disability-id-udid-date-of-birth-parentguardians-mobile-numbe"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psadlce",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Individual Eligibility:**\n\n  - The applicant must be a visually impaired student enrolled in school or pursuing higher education.\n  - The applicant must have a valid Unique Disability ID (UDID) card issued by the competent authority.\n\n&gt; **Institutional Eligibility:**\n\n  - The agency must be approved for SIPDA projects.\n  - The agency must be actively involved in the development, production, or distribution of educational materials for persons with visual disabilities.",
+  "_criteria_filled": 2
+}

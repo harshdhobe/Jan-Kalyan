@@ -1,0 +1,26 @@
+{
+  "id": "artificial-intelligence",
+  "name": "Artificial Intelligence",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "UCOST, Regional Science Center, Dehradun, in collaboration with Intel, has established an AI Skills Lab under the AI for Youth program. Students from classes 9 to 12 across the state can participate in AI coding camps and perform hands-on experiments.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "no-additional-documents-are-required-apart-from-the-registration-form"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student of class 9 to 12 studying in a government or private school in Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

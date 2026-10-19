@@ -1,0 +1,26 @@
+{
+  "id": "rajyamukhyamantri-swarnrajat-padak-protsahan-puraskar",
+  "name": "Rajya/Mukhyamantri Swarn/Rajat Padak Protsahan Puraskar",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "- **Gold Medal Winners:** A cash award of ₹3,000/- each is given to 6 cadets who achieve gold medals during NCC training and camps.- **Silver Medal Winners:** A cash award of ₹2,000/- each is given to 6 cadets who achieve silver medals during NCC training and camps.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "fully-filled-application-form-any-other-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-25-02-2025-06-08-25.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rmsrppp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an NCC cadet.\n   1. The applicant must have demonstrated outstanding performance in one of the following camps during the current training year: RDC (Republic Day Camp), TSC (Thall Sainik Camp), VSC (Vayu Sena Camp), or NSC (Nau Sainik Camp).\n   1. The applicant must be among the top 6 performers for the gold medal or the next 6 performers for the silver medal.",
+  "_criteria_filled": 1
+}

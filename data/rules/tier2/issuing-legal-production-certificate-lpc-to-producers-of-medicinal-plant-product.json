@@ -1,0 +1,26 @@
+{
+  "id": "issuing-legal-production-certificate-lpc-to-producers-of-medicinal-plant-product",
+  "name": "Issuing Legal Production Certificate (LPC) to Producers of Medicinal Plant Products for Export - Herbal Research and Development Institute, Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "There is a ban on the export of products of certain endangered and CITES species, but the objective of this policy is to facilitate the export of endangered species like Kuth, Kutki, etc. produced legally in the measured land.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "letter-of-demand-from-the-importer-registration-certificate-issued-by-the-herbal"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ilpcpmppe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Uttarakhand.\n- The applicant must be legally cultivating endangered plants such as Kutha, Kutki, etc., on their own measured land.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "grant-of-stipend-to-the-differently-abled-trainees-of-the-vocational-training-in",
+  "name": "Grant of Stipend to the Differently Abled Trainees of the Vocational Training Institutes",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-disability-cer"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gsdatvti",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The applicant should be differently abled.\n- The applicant should have undertaken a full time vocational training course in any vocational training centre/ workshop/ ITI/ any other centre run by the Central / State Government/ Local body or any voluntary organization or institution recognized by Central / State Government.",
+  "_criteria_filled": 2
+}

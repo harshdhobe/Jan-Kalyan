@@ -1,0 +1,26 @@
+{
+  "id": "uttarakhand-startup-policy-2023",
+  "name": "Uttarakhand Startup Policy-2023",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under the policy, the following incentives are provided:\n\n  - A monthly allowance of ₹15,000/- per month for one year to entrepreneurial startups, and ₹20,000/- per month to women entrepreneurs, person from Scheduled Caste, Scheduled Tribes, Divyang, transgender startups, or those based on grassroots innovations.\n  - One-time seed funding of up to ₹10 lakh for recognized startups, and up to ₹12.50",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-startup-policy-guidelines-to-avail-the-benefit"
+  ],
+  "apply_url": "https://startuputtarakhand.uk.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/copy-of-uksp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "***For the purposes of this policy, an entity must be registered as a Private Limited Company, Limited Liability Partnership (LLP), or Registered Partnership Firm.***\nUnder the Uttarakhand Startup Policy 2023, an entity will be considered a “Startup” if it fulfills the following criteria:\n**Legal entities with their registered office in Uttarakhand:**\n\n   1. The period of formation and operation of the entity should not exceed ten years from the date of its incorporation.\n   1. The turnover of the entity should not have exceeded ₹100 crore in any financial year since incorporation or registration.\n   1. The entity should not be formed by splitting up or reconstructing an existing business, nor should it be a part of a family business or business group.\n   1. The entity should be engaged in innovation, development, or improvement of products, processes, or services, or should have a scalable business model with high potential for employment or wealth generation; or should meet the startup criteria as defined by the Government of India from time to time.\n\n***Legal entities having their registered office in other states of India (in addition to the criteria defined under this policy):***\n\n   1. The entity must have an office in the State of Uttarakhand, and its business operations should be conducted substantially through this office.\n\nDuring the entire period of recognition, the entity must employ at least 70% of its total full-time workforce from among the domiciles of Uttarakhand.\n<br>",
+  "_criteria_filled": 1
+}

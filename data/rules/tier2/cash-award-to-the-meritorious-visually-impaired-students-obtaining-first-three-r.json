@@ -1,0 +1,32 @@
+{
+  "id": "cash-award-to-the-meritorious-visually-impaired-students-obtaining-first-three-r",
+  "name": "Cash Award to the Meritorious Visually Impaired Students Obtaining First Three Ranks at the State Level in the SSLC and HSC Examination",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "A cash award of ₹20,000/-, ₹15,000/- and ₹10,000/- to the first, second, and third rank holders respectively.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-residence-cum-nativity-certificate",
+    "issued-by-the-competent-authority-recent-passport-size-photograph-bank-passbook"
+  ],
+  "apply_url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/camvisoftrslshe",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Native/Resident of the Union Territory of Puducherry for at least 5 years.\n- The percentage of the disability of the applicant should be 100% and above.\n- The applicant should have studied in Tamil or English Medium.\n- The applicant should have passed the qualifying SSLC &amp; HSC Examination respectively.",
+  "_criteria_filled": 2
+}

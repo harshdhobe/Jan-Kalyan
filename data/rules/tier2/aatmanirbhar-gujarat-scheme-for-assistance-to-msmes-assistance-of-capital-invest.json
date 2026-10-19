@@ -1,0 +1,36 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-of-capital-invest",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance of Capital Investment Subsidy to Micro enterprises",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "Financial Assistance \n**Category of Taluka****Quantum of Incentive** Category 1 25% of term loan amount upto ₹35,00,000/-.Category 220% of term loan amount upto ₹30,00,000/-.Category 3 &amp;amp;amp;amp; Municipal 10% of term loan amount upto INR 10 lakhs. Corporation Areas 10% of term loan amount upto ₹10,00,000/-.<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "printed-copy-of-the-application-along-with-declaration-and-undertaking-in-the-ap",
+    "including-their-designation-and-name-with-the-enterprises-stamp-copy-of-acknowle",
+    "for-projects-above-5-crores",
+    "dic-will-ask-for-a-bank-appraisal-report-shop-establishment-certificate-for-serv",
+    "namuna-6",
+    "copy-of-index",
+    "property-card",
+    "etc-any-one-na-permission-if-applicable-copy-of-notarized-rent-deed-agreement-wi",
+    "llps",
+    "pvt-ltd",
+    "or-limited-companies-declaration-and-undertaking-regarding-other-investments-in"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmecis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. The enterprise must be a new manufacturing enterprises or existing enterprises undertaking expansion or diversification. \n   1. The enterprises should have commenced commercial production during the operative period (October 5, 2022, to October 4, 2027).\n   1. Applications must be submitted online within one (1) year of the first loan disbursement date, the date of commercial production commencement, or the GR issue date, whichever is later, and before the scheme&amp;#39;s last operative date.",
+  "_criteria_filled": 1
+}

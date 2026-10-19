@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-production-of-domestic-indigenous-certified-seed-of-cotton-varieties",
+  "name": "Scheme of Production of Domestic Indigenous Certified Seed of Cotton Varieties",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- An amount of 750/- per quintal (for foundation and certified seeds certified by the Gujarat State Seed Certification Agency).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spdicv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a farmer.\n  - The applicant must be a resident of Gujarat.\n  - The applicant should be involved in producing certified or foundation cotton seeds.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "tool-kit-scheme-pbocwwb",
+  "name": "Tool Kit Scheme (P.B.O.C.W.W.B)",
+  "tier": 2,
+  "level": "state",
+  "state": "Punjab",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** Upto ₹5,000/-.\n> **Note:**\n\n- A construction worker can get the benefit of the tool kit scheme after every three years.\n- The financial benefit under the scheme shall be reimbursed after the beneficiary has purchased the tools.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Punjab"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerage-proof-if-no-age-proof-is-a",
+    "account-no-and-ifsc-rtgs-number-detail-of-dependents-employers-certificate-form"
+  ],
+  "apply_url": "https://bocw.punjab.gov.in/userfiles/file/Scheme%20Forms/BOCW%20Schemes%20in%20English%20Final2.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/tkspbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n  - The applicant should be a resident of Punjab.\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should have a monthly income of ₹15,000/- or below.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n  - The applicant should not have membership of the Employees&amp;#39; Provident Fund (EPF)/ National Pension System (NPS)/ Employees&amp;#39; State Insurance Corporation (ESIC).\n  - The applicant should not be an income tax payer.\n\n&gt; ***For the Application of the Welfare Scheme:***\n\n  - The applicant should be a registered member Under the Building and Other Construction Workers Welfare Board of Punjab.\n  - The applicant should be paying the contribution regularly.\n  - The applicant should have received training under the  “Skill Upgradation” or “Recognition of Prior Learning” scheme of the Board.\n  - Purchased tools should be relevant to their profession.",
+  "_criteria_filled": 4
+}

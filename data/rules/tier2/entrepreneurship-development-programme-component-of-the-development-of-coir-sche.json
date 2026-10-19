@@ -1,0 +1,26 @@
+{
+  "id": "entrepreneurship-development-programme-component-of-the-development-of-coir-sche",
+  "name": "\"Entrepreneurship Development Programme\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Entrepreneurship training to prospective entrepreneurs to start the coir industry.\n- Awareness programmes on modern technology and incentives under the state grant for existing coir industries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-unit-establishment-in-puducherry-any-other-documents-as-specified-by-th"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/edp-dc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a prospective entrepreneur willing to start a coir industry.\n- The applicant should be an entrepreneur with a coir industry.",
+  "_criteria_filled": 1
+}

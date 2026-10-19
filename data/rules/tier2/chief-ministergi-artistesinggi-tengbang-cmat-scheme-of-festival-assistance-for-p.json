@@ -1,0 +1,26 @@
+{
+  "id": "chief-ministergi-artistesinggi-tengbang-cmat-scheme-of-festival-assistance-for-p",
+  "name": "Chief Ministergi Artistesinggi Tengbang (CMAT) – Scheme Of Festival Assistance For Participating In International & National Festival",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "person",
+  "benefit": "The expenditure will be reimbursed to the applicant through DBT after receipt of all bill / vouchers / tickets / Boarding Pass etc in original.\nFor International Festival:1. Individual artiste (3 Nos.) once a year will be supported.\n2. Group Artistes (3 Nos. of the registered cultural group) once a year will be supported.\nFor National Festival:1. Individual artiste (3 Nos.) once a year will be sup",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "residentialdomicile-certificate-invitation-letter-in-original-ticket-copies-both"
+  ],
+  "apply_url": "https://artnculturemanipur.gov.in/media/filer_public/e6/d1/e6d13c2f-4f81-4036-b634-0f1a89e470d5/application_form_for_international__national_festival_participation.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmst-sfapinf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **For International Festival Assistance:**\n\n1. The applicant should be a resident/domicile of the State of Manipur.\n1. The applicant should be an Artist.\n1. The individual artists or groups should have already given a performance/show in at least 2/3 of the National Festival recognized by the National Academies / Zonal Cultural Centres / Ministry of Culture, Government of India / Culture Department of State Government.\n1. The individual artists or groups should have participated in 3/4 of the State Level Programme.\n1. The applicant individual or group should not have been sponsored wholly by any individual or institution for the same purpose.\n\n<br>\n\n> **For National Festival Assistance:**\n\n1. The applicant should be a resident/domicile of the State of Manipur.\n1. The applicant should be an Artist.\n1. The individual artists or groups should have already given a performance/show in at least 3/4 of recognized National Festivals.\n1. The individual artists or groups should have participated in 3/4 State Level Programmes.\n1. The applicant individual or group should not have been sponsored wholly by any individual or institution for the same purpose.\n\n<br>\n\n**Method of Selection:**\nThe selection of artists/groups will be done by a Screening / Selection Committee constituted by the Government. This Committee will also decide whether a festival/event is to be considered an International or National Festival.",
+  "_criteria_filled": 1
+}

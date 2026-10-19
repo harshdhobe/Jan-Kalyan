@@ -1,0 +1,46 @@
+{
+  "id": "individual-loaning-scheme-haryana-women-development-corporation",
+  "name": "Individual loaning scheme: Haryana Women Development Corporation",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**1. Financial Assistance:** For economically viable projects, the total cost of which should not exceed ₹1,50,000/-.\n**2. Subsidy:**\n\n- 25% (subject to a maximum of ₹10,000/-) for other categories.\n- 25% (subject to a maximum of ₹25,000/-) for Scheduled Caste (SC) Categories.\n- Earlier, the subsidy was only 10% (subject to a maximum of ₹5,000/-) for all categories.\n\n**3. Beneficiary Share:** 10% ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "parivar-pehchan-patra-number-residence-proof-ration-cardparivar-pehchan-patra-pp"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ilshrwcd",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be female.\n1. The applicant must require a loan for a project not exceeding ₹1,50,000/-.\n1. The applicant&#39;s annual income must be less than ₹1,50,000/- per annum.\n1. The applicant&#39;s spouse or parents are not income tax payees.\n1. The age of the prospective beneficiary should be between 18 and 60 years at the time of applying for the loan.\n\n<br>",
+  "_criteria_filled": 5
+}

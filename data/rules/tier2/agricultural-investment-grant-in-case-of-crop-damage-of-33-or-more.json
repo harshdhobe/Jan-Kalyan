@@ -1,0 +1,26 @@
+{
+  "id": "agricultural-investment-grant-in-case-of-crop-damage-of-33-or-more",
+  "name": "Agricultural Investment Grant (in Case of Crop Damage of 33% or More)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "Under this scheme:\n\n  - ₹8,500/- per hectare is provided for Agriculture, Horticulture, and Annual Crops in unirrigated areas. A minimum of ₹1,000/- is payable.\n  - ₹17,000/- per hectare is provided for Areas with Assured Irrigation. The minimum amount of assistance payable to any farmer will be ₹2,000/-.\n  - For Evergreen Crops - ₹22,500/- per hectare is admissible for all types of evergreen crop",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "form-p-20-entry-confirmation-recorded-by-the-concerned-patwari-other-supporting"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aiguk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident farmer of Uttarakhand engaged in agricultural activities within the state.\n1. The financial assistance will be applicable only for the area actually sown with crops.\n\n<br>",
+  "_criteria_filled": 1
+}

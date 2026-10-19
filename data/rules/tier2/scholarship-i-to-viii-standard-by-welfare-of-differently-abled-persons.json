@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-i-to-viii-standard-by-welfare-of-differently-abled-persons",
+  "name": "Scholarship (I to VIII Standard) by Welfare of Differently Abled Persons",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "**Scholarship for purchase of books and notebooks:**\n\n- Scholarship for students studying from 1st to 5th standard: ₹1,000/- per annum.\n- Scholarship for students studying from 6th to 8th standard: ₹3,000/- per annum.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "certificate-student-not-availed-of-similar-assistance-issued-by-the-headmaster-s"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sitviiisbwodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a student. \n1. The beneficiary must be a differently abled person. \n1. The beneficiary must be studying in between class 1st to 8th standard. \n1. The beneficiary must be studying in government-recognized schools. \n1. The beneficiary must be student should not be avail of similar assistance from other sources.",
+  "_criteria_filled": 2
+}

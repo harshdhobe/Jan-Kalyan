@@ -1,0 +1,31 @@
+{
+  "id": "post-matric-scholarship-students-with-disabilities",
+  "name": "Post Matric Scholarship Students With Disabilities",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "household",
+  "benefit": "> **Maintenance Allowance (₹ per Month):**\n\n1. **Group 1:** All Bachelor’s/Post-Graduate Degree Courses in Medicine, Engineering/Technology, Planning/Architecture, Fashion Technology, Management, Business/Finance Administration, Computer Science/Applications, Agriculture, Veterinary and Allied Sciences; **Hostellers – 1600/-; Day Scholars – 750/-.**1. **Group 2:** Professional Courses leading to D",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "photograph-proof-of-age-certificate-of-disability-rights-of-persons-with-disabil"
+  ],
+  "apply_url": "http://disabilityaffairs.gov.in/upload/uploadfiles/files/scholarship2(1).pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/post-dis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a student.\n1. The applicant must be pursuing a post-matric qualification, i.e. Class 11th, Class 12th, including Polytechnics, Post-Matriculation Diploma/Certificates and Bachelor’s Degree/Diploma in India and Master’s Degree/Diploma.\n1. The applicant must be disabled, with disability percentage of 40% or above.\n1. The Total Annual income of parents/guardians of the applicant (from all sources) must not exceed ₹ 2.50 Lakh per Annum.\n1. The applicant must not be availing any other scholarship by the govt.\n1. The applicant must not be the third sibling of the family who has been given this scholarship.",
+  "_criteria_filled": 2
+}

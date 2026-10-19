@@ -1,0 +1,32 @@
+{
+  "id": "scheme-for-persons-with-benchmark-disability-requiring-high-support",
+  "name": "Scheme for Persons with Benchmark Disability Requiring High Support",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance (one-time payment) of ₹40,000/- for the following purposes:\n\n- Assistive technologies and required aids/appliances.\n- Personal care assistance services.\n- Educational or vocational training support.\n\n##### ***Conditions***\n\n- _The scheme can be availed once every five years, subject to reassessment of eligibility._\n- _Funds will be recovered if they are found to be misused or ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationcertificate-of-benchmark-disability-requiring-high-support-nee",
+    "such-as-receipts-or-invoices-must-be-submitted-within-ninety-days-of-receiving-t"
+  ],
+  "apply_url": "https://goaprintingpress.gov.in/downloads/2526/2526-7-SI-OG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spwbdrhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must satisfy the following conditions to apply for financial assistance under this scheme.\n- The applicant must be a bona fide resident of the State of Goa by birth, by marriage, or through continuous domicile of at least fifteen years.\n- The applicant must be a person with a benchmark disability requiring high support.\n- The applicant must possess a certificate issued by the Medical Board notified by the State Government under Section 38 of the Rights of Persons with Disabilities Act, 2016.\n- The applicant must belong to the Economically Weaker Section (EWS) category as per the Government of India or the State Government’s notified criteria.\n- The applicant must not be receiving similar financial assistance from other Government or Non-Government sources for the same purpose.\n- The applicant must submit a self-declaration confirming that they are not receiving similar assistance from other sources.\n\n***Relaxation***\nExceptions to the residence requirement may be allowed for certain special cases (e.g., persons married into Goa).\n<br>",
+  "_criteria_filled": 2
+}

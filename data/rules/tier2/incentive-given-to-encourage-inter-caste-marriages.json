@@ -1,0 +1,33 @@
+{
+  "id": "incentive-given-to-encourage-inter-caste-marriages",
+  "name": "Incentive given to Encourage Inter caste Marriages",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "A financial assistance of ₹50,000/- issued as a joint draft in the names of both spouses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-caste-certificates-permanent-resident-proof-age-proof-school-le",
+    "aadhar-card",
+    "voter-id-income-certificate-income-proof-if-applicable-to-meet-any-scheme-specif"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/social-integration",
+  "source_url": "https://www.myscheme.gov.in/schemes/igteicm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The bride as well as the bridegroom should be permanent residents of Maharashtra.\n1. One spouse must belong to the Savarna, Hindu Lingayat, Jain, or Sikh community.\n1. One spouse must belong to one of the following communities: Scheduled Caste, Scheduled Tribe, Vimukta Jati (denoted tribe), Nomadic Tribe, and Special Backward Class.\n1. The male spouse should be 21 years or above in age.\n1. The female spouse should be 18 years or above in age.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ladli-beti-scheme",
+  "name": "Ladli Beti Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "Benefits & Features:A recurring deposit account under this scheme shall be opened by the natural or legal guardian of the girl child.\nA contribution of Rs. 1000/- per month will be made by J&K Government from the birth of the girl child/account opening date for the next 14 years.  (A total of Rs. 168000/- only will be contributed by the UT.) \nNo credits other than a monthly contribution of Rs. 100",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 75000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      }
+    ]
+  },
+  "documents": [
+    "duly-filled-and-signed-application-form-sanction-letter-from-cdpo-child-developm",
+    "passport",
+    "voter-id-card",
+    "driving-license",
+    "etc-address-proof-of-the-parents-or-the-legal-guardian-of-the-girl-child-aadhaar",
+    "voter-card",
+    "utility-bills",
+    "pan-card",
+    "etc-domicile-certificate-of-the-parentguardian-birth-certificate-of-the-girl-chi"
+  ],
+  "apply_url": "https://www.jkbank.com/deposits/personal/ladliBeti.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The girl child should have been born on or after 01/04/2015.\n1. The annual income of the parents of the girl child from all sources should be less than ₹75,000.\n1. The girl child and her family should be residents of Jammu &amp; Kashmir.",
+  "_criteria_filled": 3
+}

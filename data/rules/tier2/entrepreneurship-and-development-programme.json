@@ -1,0 +1,26 @@
+{
+  "id": "entrepreneurship-and-development-programme",
+  "name": "Entrepreneurship and Development Programme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under the Entrepreneurship and Development Program, Technology Resource Centers (TRCs) are established. These centers work on the development of advanced technologies based on locally available natural resources and improve them for business needs, so that businesses can be created by adding value to the available natural resources.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-uttarakhand-state-council-fo"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eadp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be an interested Entrepreneur/NGO Scientist/Researcher/Teacher from Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

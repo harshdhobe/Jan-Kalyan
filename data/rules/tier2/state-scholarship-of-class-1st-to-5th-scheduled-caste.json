@@ -1,0 +1,26 @@
+{
+  "id": "state-scholarship-of-class-1st-to-5th-scheduled-caste",
+  "name": "State Scholarship of Class 1st to 5th (Scheduled Caste)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "Scholarship amount of ₹200/- per year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-bank-account-details-passport-sized-photograph-ed"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=8",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssocsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The student should be enrolled in Class 1 to 5 in a recognized educational institution.\n1. The student should be a regular student of the institution.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "indira-mahila-shakti-udyam-protsahan-yojana",
+  "name": "Indira Mahila Shakti Udyam Protsahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "> **Loan Limit**\n\n1. Loan amount of ₹ 50,00,000/- to individual women.\n1. Loan amount of Rs 1,00,00,000/- to self-help groups.\n\n<br>\n\n> **Margin Money**\n\n- A margin money of 25% of the sanctioned loan amount will be provided under the scheme. For women belonging to Scheduled Castes/Tribes, Scheduled Castes, widows, abandoned women, victims of violence and disabled women, the margin money will be 3",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-address-proof-bank-account-statement-passport-size-photo-mobile-numb"
+  ],
+  "apply_url": "https://ssoapps.rajasthan.gov.in/imsupy/Introduction.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/imspesy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant&#39;s age should be 18 years or more.\n1. The applicant should be a permanent resident of Rajasthan.\n1. The women&#39;s self-help group or group of these groups (cluster/ federation) must be registered under any department of the state government and in case of cluster/federation of groups, it will be necessary to be registered under the Cooperative Act as per the rules.",
+  "_criteria_filled": 3
+}

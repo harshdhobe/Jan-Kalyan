@@ -1,0 +1,31 @@
+{
+  "id": "coaching-assistance-scheme-for-preparation-of-recruitment-exams-for-scheduled-ca",
+  "name": "Coaching Assistance Scheme for Preparation of Recruitment Exams for Scheduled Caste Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under this scheme, ₹20,000/- or the actual fee to be paid, whichever is less.\n   1. The assistance amount is directly credited to the student&amp;#39;s bank account through DBT (Direct Benefit Transfer).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 40
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-certifi"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/Applciation_form_11-02-2022_35.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/casprescs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **Eligibility Criteria for Student:**\n\n   1. The students should belong to Scheduled Castes Category.\n   1. The student should have passed the graduation exam with 50% or more marks.\n   1. The age limit will be a maximum of 35 years for males and a maximum of 40 years for females.\n   1. The applicant or the applicant&amp;#39;s parents should not be in government employment.\n   1. The applicant will not be able to pursue full-time studies, job/business, etc. at any other place during the training.\n   1. The benefit of this scheme will be available to the applicant only once.\n\n**Note:** After receiving the coaching, the details of which examination the student himself/herself has given should be sent from time to time to the concerned Deputy Director, Office of Scheduled Caste Welfare.\n&gt; **Eligibility Criteria for Institution:**\n\n   1. The Institution should have more than three years of experience.\n   1. The Institution should have a GST Number/PAN Card.\n   1. Institutions should have biometric (fingerprint) machines for student attendance.\n   1. For competitive recruitment examinations, the faculty should have at least graduation and general knowledge.\n   1. A training institution should be registered under any one of the following Acts.\n\n  - Mumbai Public Trust Act, 1950\n  - Companies Act, 1956\n  - Shops and Establishments Act, 1948",
+  "_criteria_filled": 2
+}

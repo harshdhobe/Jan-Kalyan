@@ -1,0 +1,29 @@
+{
+  "id": "centrally-sponsored-scheme-of-post-matric-scholarship-for-obc-students-for-study",
+  "name": "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC Students for studying in India",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "##### **Maintenance Allowance**\n> **Group A**\n\n1. Degree and Post Graduate level courses including M.Phil., PhD and Post Doctoral research in Medicine (Allopathic, Indian and other recognized systems of medicines), Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary and Allied Sciences, Management, Business Finance/Administration, Computer Science/A",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 150000
+      }
+    ]
+  },
+  "documents": [
+    "one-copy-of-the-application-for-the-scholarship-in-the-prescribed-form-a-separat",
+    "with-respect-of-all-examinations-passed-a-certificate-in-original-of-income-issu",
+    "not-below-the-rank-of-tehsildar-a-receipt-in-acknowledgement-of-the-scholarship",
+    "if-the-applicant-was-in-receipt-of-a-scholarship-under-this-scheme-in-the-preced"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/TRIPURA_PMS_OBC.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/csspostmsossi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "> **Eligibility Criteria for Applicants -** \n\n- The applicant should be an Indian national.\n- The applicant should belong to OBCs, as notified by their State Govt./ UT Admn.\n- The applicant should be pursuing post-matriculation or post-secondary courses in a recognized institution.\n- The applicant should be permanently settled and should have passed a recognized Matriculation or Higher Secondary or any higher examination.\n- The applicant should be eligible if, after failing or passing the undergraduate/Post-Graduate examinations in Arts/Science/Commerce, they join any recognized professional or technical certificate/diploma/degree courses, provided they are otherwise eligible. No subsequent failure will be condoned, except for courses in Group &#39;A&#39;, and no further change in the course will be allowed.\n- The employed applicant should be eligible to the extent of reimbursement of all compulsorily payable non-refundable fees if their income, combined with the income of their parents/guardians, does not exceed Rs. 1.50 lakh per annum.\n- The unemployed applicant should be eligible if their parents/guardians&#39; income from all sources does not exceed Rs. 1.50 lakh per annum.\n- The scholarships are restricted to two boys of the same parents/guardian, with this restriction not applying to girls.\n\n- The applicant should be eligible to pursue post-graduate courses in medicine only if they are not allowed to practice during the period of their course.\n- The applicant should not hold any other scholarship/stipend concurrently under this Scheme. If awarded any other scholarship/stipend, they can exercise their option for either of the two scholarships/stipends, whichever is more beneficial to them, and should inform the awarding authority through the Head of the Institution about the option made. No scholarship will be paid from the date they accept any other scholarship/stipend. However, students can accept free lodging or a grant or ad-hoc monetary help from the State Government or any other source for the purchase of books, equipment, or for meeting the expenses on board and lodging, in addition to the scholarship amount paid under the Scheme.\n- The applicant should be eligible if they pursue their studies through correspondence courses, with eligibility only towards reimbursement of a non-refundable fee and an annual allowance of Rs. 900/- for essential/prescribed books, as applicable.\n\n> **Eligibility Criteria for Beneficiaries -** \n\nThe scholarship holders receiving coaching in any of the pre-examination training centres with financial assistance from the Central Government/State Government will not be eligible for a stipend under the coaching schemes for the duration of the coaching program.\n<br>",
+  "_criteria_filled": 1
+}

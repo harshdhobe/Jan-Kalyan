@@ -1,0 +1,27 @@
+{
+  "id": "shauchalaya-sahayata-yojana",
+  "name": "Shauchalaya Sahayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "- The scheme provides a grant of ₹12,000/- to eligible construction workers. \n- The money is paid in two installments: ₹6,000/- before the toilet is built and ₹6,000/- after the toilet is built and is in use",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-construction-worker-registration-card-copy-of-aadhar-card-copy-of-bank-p",
+    "branch-name-and-ifsc-code-declarations-not-getting-the-benefit-of-toilet-constru"
+  ],
+  "apply_url": "https://www.upbocw.in/pdf/adhisuchna/Shauchalay%20Sahayata%20Yojana.pdf?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=en&_x_tr_pto=wapp",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssyup",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be registered with Uttar Pradesh Building and Other Construction Workers Welfare Board.\n1. Applicant must have their own homes, but not have toilets in it.\n1. Applicant must not have received similar benefits from any other government scheme.\n1. Applicant must be regularly depositing contributions.\n1. Applicant must have an Aadhaar card.\n1. Applicant must have a bank account in a CBS branch of a nationalized bank.",
+  "_criteria_filled": 1
+}

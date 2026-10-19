@@ -1,0 +1,27 @@
+{
+  "id": "mukhyamantri-bagwani-mission-strawberry-vikas-yojana",
+  "name": "Mukhyamantri Bagwani Mission: Strawberry Vikas Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "1. **Financial Assistance:** Farmers receive a subsidy of ₹3,36,000/- per hectare to support strawberry farming.   1. **Subsidized Packaging Materials:** \n    - 40% subsidy on wooden boxes for packaging (₹4.40/- per piece, unit cost ₹11/-).\n    - 40% subsidy on small plastic boxes (₹1/-per piece, unit cost ₹2.50/-).\n\n   1. **Provision of Quality Seedlings:** High-quality strawberry seedlings are p",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "for-dbt-registration-processaadhaar-details-should-be-linked-with-mobile-number",
+    "it-will-be-mandatory-to-attach-the-genealogy-along-with-the-land-ownership-reven"
+  ],
+  "apply_url": "https://horticulture.bihar.gov.in/HortMIS/AreaExpansionStateScheme/OnlineAppStrawberryState.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbysvy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n   1. The applicant should be a farmer.\n   1. The applicant must belong to any of the following district: Gopalganj, Jehanabad, Lakhisarai, Saran, Supaul, Aurangabad, Begusarai, Bhagalpur, Gaya, Katihar, Kishanganj, Munger, Muzaffarpur, Nalanda, West Champaran, Patna, East Champaran, Purniyan, Samastipur and Vaishali.\n   1. The applicant must have agricultural land a minimum of 0.25 acres (0.1 ha) and a maximum of 5 acres (2 ha).\n   1. The applicant must be registered on the DBT portal.\n\n&amp;gt; **Note 1:  Beneficiary allocation:**\n\n    - General Category: 78.56%.\n    - Scheduled Castes: 20%.\n    - Scheduled Tribes: 1.44%.\n    - Women Participation: 30%.\n\n&amp;gt; **Note 2:** The benefits of this scheme can be taken by ryot farmers on the basis of land documents and non-ryot farmers on the basis of contract form.\n\n&amp;gt; **Note 3:** Beneficiaries will be selected on first come first serve basis.",
+  "_criteria_filled": 1
+}

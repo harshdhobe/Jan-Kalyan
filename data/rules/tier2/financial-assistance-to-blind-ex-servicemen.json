@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-to-blind-ex-servicemen",
+  "name": "Financial Assistance to Blind Ex-Servicemen",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1. Under the scheme, financial assistance of ₹3,000/- per month is given to the 100% permanent blind ex-servicemen, with an annual increase of ₹400/- w.e.f. 01.11.2017 every year in November.\n\n**Note:** Subject to the condition that the application/claim case is found in order, financial assistance to the permanent blind ex-serviceman will be sanctioned with effect from the first day of the follow",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-ex-servicemen-identity-card-parivar-pehchan-patra-aadhaar-card-original"
+  ],
+  "apply_url": "https://csharyana.gov.in/WriteReadData/Policies/Defence%20III/2540.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fabesm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a bona fide resident of Haryana.\n   1. The applicant should be a 100% permanently blind ex-serviceman.\n   1. The applicant should not be in receipt of any kind of pension or financial assistance either from the Haryana State Government, any Department of the Government of India, or any entity controlled by the Central or State Government.\n\n**Note 1:** The definition of Ex-Servicemen for the purpose of eligibility for financial assistance shall be effective as notified by the Ministry of Defence Government of India from time to time.\n**Note 2:** The old beneficiaries whose cases for grant of financial assistance have already been sanctioned prior to the issue of these guidelines shall continue to get the financial assistance at enhanced rates and they need not apply afresh. However, payment shall be discontinued with immediate effect who fail to submit their survival verification proofs every year from the revenue authorities.\n**Note 3:** Payment of financial assistance to those beneficiaries shall also be stopped immediately who fail to submit their survival verification proofs every year from the revenue authorities in the month of April. Secretary, Zila Sainik Board shall be personally responsible for any lapse in this regard.\n**Note 4:** Every applicant shall have to produce a certificate issued by the concerned District Social Welfare Officer to the effect that the applicant is not getting any financial assistance Pension from the Social Justice &amp;amp; Empowerment Department of Haryana.\n**Note 5:** If any beneficiary, after the sanction of the financial assistance under this scheme, is found drawing any type of financial assistance from any other Deptt. of Haryana Govt. or pension from any Department of Govt. of India. He shall be permanently debarred from getting the financial assistance under this scheme.",
+  "_criteria_filled": 2
+}

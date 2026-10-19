@@ -1,0 +1,36 @@
+{
+  "id": "study-abroad-scholarships-scheduled-tribe",
+  "name": "Study Abroad Scholarships (Scheduled Tribe)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "1. The scheme covers tuition fees of 40,000 US Dollars per year, along with a living allowance of 9,000 US Dollars and a contingency allowance of 1,000 US Dollars.\n1. Additional expenses such as visa fees, insurance, poll tax, airfare, and rail/bus fare are also provided.\n\n**NOTE:** The fees are paid into the University account and subsistence/contingency allowance and other allowances are paid di",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 1000000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-birth-certificate-or-aadhar-card-income-certificate-educational-qua"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=16",
+  "source_url": "https://www.myscheme.gov.in/schemes/sas",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.   The applicant should be 35 years old as of 1st January.\n2.   The applicant should have an annual income limit of ₹10 lakhs.\n3.   The applicant should meet the course duration requirements:\n\n- Postgraduate – 2 years\n- PhD – 4 years\n- Research – 1 year 6 months\n\n4.   The applicant should have the following educational qualifications:\n\n- For Postgraduate: Must have passed the graduation final examination with at least 55% marks.\n- For PhD: Must have passed the postgraduate examination with at least 50% marks.\n- The applicant should choose the foreign educational institution for admission independently.\n- The applicant should be applying for a postgraduate or higher-level degree.",
+  "_criteria_filled": 3
+}

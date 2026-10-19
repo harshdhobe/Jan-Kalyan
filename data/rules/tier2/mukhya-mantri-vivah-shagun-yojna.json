@@ -1,0 +1,41 @@
+{
+  "id": "mukhya-mantri-vivah-shagun-yojna",
+  "name": "Mukhya Mantri Vivah Shagun Yojna",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "**Amount  of  Shagun:**\nSl. No.CategoryTotal Amount of Shagun1Widow /Divorced/Destitute/ Orphan and Destitute children. (whose family income is less than or equal to ₹1,80,000/- per annum)₹51,000/-2SC/DT/Tapriwas Communities (whose family income is less than or equal to ₹1,80,000/- per annum)₹71,000/-3Sports woman (Any caste whose family income is less than or equal to ₹1,80,000/- per annum).₹41,0",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 180000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-bpl-ration-card-income-certificate-haryana-resident-letter-divorce-c"
+  ],
+  "apply_url": "https://saralharyana.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmvsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe beneficiary should be a girl aged 18 years or older.\n2.\tThe beneficiary should be a resident of Haryana.\n3.\tThe beneficiary should belong to one of the following categories:\n•\tDaughter of a widow, divorced, or destitute woman\n•\tOrphan girl\n•\tMember of SC, DT, or Tapriwas communities\n•\tDaughter of a sportswoman (any caste)\n•\tFrom any section of society (General or Backward Classes)\n•\tPerson with disabilities (Divyangjan)\n3.\tThe beneficiary’s annual family income should not exceed ₹1,80,000/-.",
+  "_criteria_filled": 4
+}

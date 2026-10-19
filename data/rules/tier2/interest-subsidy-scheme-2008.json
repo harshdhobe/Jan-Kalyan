@@ -1,0 +1,28 @@
+{
+  "id": "interest-subsidy-scheme-2008",
+  "name": "Interest Subsidy Scheme, 2008",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Incentives were given to eligible units to the extent of 1% of the total net turnover or 30% of the interest paid by the units, whichever was less, subject to a ceiling of ₹5,00,000/- per annum.\n- The benefit under this Scheme was for a period of 5 years (20 quarters) from the quarter of applicability.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-issued-by-the-nationalized-banksspecified-financial-institutions-in",
+    "trade-and-commerce-entrepreneur-memorandum-ii-registration-proof-financial-state",
+    "and-net-of-any-discounts"
+  ],
+  "apply_url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/iss2008",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Only new Micro and Small Enterprises which went into commercial production after the commencement of this Scheme were eligible to avail facilities under this Scheme.\n- Only those units permanently registered with Entrepreneur Memorandum II by the Directorate of Industries, Trade and Commerce were eligible under this Scheme.\n- Units were eligible for the benefit for the period of 5 years (20 quarters) subsequent to the quarter in which the commercial production had commenced.\n- This Scheme was applicable to industries covered under the “Green” list and specified “Orange” List (The units covered under Orange II, II B were not entitled to avail benefit under this Scheme).\n- This Scheme was not applicable to units under revival plan as defined under sick unit revival policy.\n- The Scheme was applicable to the units which had availed loan as term loan and working capital from nationalized banks or scheduled bank or Co-operative Bank or Economic Development Corporation Ltd. or any other Financial Institution notified by the Government of Goa.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-for-purchasing-school-uniforms-books-and-notebooks-from-cla",
+  "name": "Financial Assistance for Purchasing School Uniforms, Books and Notebooks from Class 1st to 12th for Children of Workers- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, the following amounts of assistance are provided:\n**Sl. No.****Class****Amount of Financial Assistance**1On Continuing Studies from Class I to Class IV₹3,000/- 2On Continuing Studies from Class V to Class XII₹4,000/-",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/74",
+  "source_url": "https://www.myscheme.gov.in/schemes/fapsubnc1t12cw-hlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The worker should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the worker should not exceed ₹25,000/-.\n   1. The service period of the workers is fixed for two years.\n   1. The worker&amp;#39;s children studying in Class I to Class XII are eligible for the scheme&amp;#39;s benefits at the time of admission to continue their studies.\n   1. The scheme benefits are available to three girls and two boys per worker.\n   1. The name of the child/children should be mentioned on the Ration Card/ESI Card of the worker.\n\n**Note 01:** The last date for submission of applications in the respective sessions has been fixed as 31st December. Applications submitted after 31st December will not be considered.\n**Note 02:** The benefit of the scheme will be made available to the girls as well as boys of the worker.",
+  "_criteria_filled": 1
+}

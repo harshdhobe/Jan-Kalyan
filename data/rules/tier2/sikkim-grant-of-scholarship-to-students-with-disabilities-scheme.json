@@ -1,0 +1,37 @@
+{
+  "id": "sikkim-grant-of-scholarship-to-students-with-disabilities-scheme",
+  "name": "Sikkim Grant of Scholarship to Students with Disabilities Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Sikkim",
+  "scope": "person",
+  "benefit": "- Financial assistance for academic education and technical/professional training.\n- Coverage of expenses including cash incentives, books, stationery, uniforms, and allowances.\n- Support for students pursuing education within or outside Sikkim, but within India.\n\n<br>\n\n**Note:** The scholarship will be disbursed through the Direct Benefit Transfer Scheme or any other decided mode.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Sikkim"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "3-passport-size-photographs-fathers-sikkim-subject-certificate-or-certificate-of",
+    "human-services-family-welfare-department-certificate-and-mark-sheet-from-the-col"
+  ],
+  "apply_url": "https://sikkim.gov.in/uploads/DeptUploads/Notification_of_Sikkim_Grant_of_Scholarship_to_Students_with_Disabilities_20230530.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sgssds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student&#39;s age should be 5 years and above.  \n1. The student must be disabled, with disability percentage of 40% or above as certified by Medical Authorities as defined in section 2 (t) of the Persons with Disabilities Act, 1995.\n1. The student must be a regular student at a recognized College, University, or School of a recognized Board.\n1. The student should pass the examination in one attempt during a particular academic session, If fails the examination during an academic session are not eligible for the scholarship for the same class in the next academic year. \n1. The student must not be receiving any other similar scholarship from other departments or ministries.\n\n<br>",
+  "_criteria_filled": 3
+}

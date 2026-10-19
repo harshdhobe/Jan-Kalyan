@@ -1,0 +1,27 @@
+{
+  "id": "chief-minister-family-benefit-scheme",
+  "name": "Chief Minister Family Benefit Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "Under this scheme, a one-time grant of ₹20,000/- is provided to the family or close relative of the deceased person.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-the-applicant-ie-aadhaar-card",
+    "voter-id-card-identity-proof-of-the-deceased-person-ie-aadhaar-card-death-certif"
+  ],
+  "apply_url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/CMFBS.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfbs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant should be a resident of Bihar.\n2.\tThe applicant should be a family member or dependent of the deceased person.\n3.\tThe grant is provided in cases where the deceased:\n•\tDied in an accident, regardless of age, or\n•\tWas between 18 and 60 years old and died in a criminal incident.\n4.\tThe deceased should belong to a poor family.\n5.\tThe benefit will not be payable in cases of suicide.\n**Note:** If more than one member of the same family dies in an accident, the grant will be provided for all deceased members, including any deceased children.",
+  "_criteria_filled": 1
+}

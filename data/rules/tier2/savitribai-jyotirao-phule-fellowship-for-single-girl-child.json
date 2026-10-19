@@ -1,0 +1,36 @@
+{
+  "id": "savitribai-jyotirao-phule-fellowship-for-single-girl-child",
+  "name": "Savitribai Jyotirao Phule Fellowship For Single Girl Child",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**TENURE OF FELLOWSHIP:**\nThe tenure of the fellowship is for five years and will be effective from 1st April of the selection year or the actual date of joining under the fellowship in the University/College/Institute, whichever is later. Fellowship will be granted upto the date of submission of Ph.D. Thesis or 5 years of tenure whichever is earlier. No extension is permissible beyond the total p",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      }
+    ]
+  },
+  "documents": [
+    "scanned-copy-of-your-passport-size-photograph-and-signature-size-upto-1mb",
+    "format-jpg-complete-research-proposal-size-upto-5-mb-and-an-abstract-size-upto-1",
+    "an-auto-generated-form-will-be-displayed-on-your-screen-please-take-the-printout",
+    "get-it-signed-by-the-hodregistrar-and-upload-the-same-before-the-submission-of-t",
+    "the-parents-are-not-alive",
+    "the-affidavit-can-be-submitted-by-the-guardian-of-the-candidate-size-less-than-1"
+  ],
+  "apply_url": "https://www.ugc.gov.in/Fellowship/stu_Fellowship3",
+  "source_url": "https://www.myscheme.gov.in/schemes/sjpfsgc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Any single girl child of her parents pursuing Ph.D. in any stream/subject in recognised Universities/Colleges/ Institutes is eligible to apply under the scheme.\n1. The scheme is applicable to such a single girl child who has registered herself in regular, full-time Ph. D. program.\n1. Admission to Ph.D. Course in part-time/distance mode is not covered under the scheme. A scholar is not eligible for fellowship if the research is intended/pursued through open/ part-time distance education mode or part-time mode.\n1. Girl students up to the age of 40 years for general category and 45 years for the reserved categories i.e. SC/ST/OBC and PWD (Persons with Disabilities) as on the last date of submission of online application are eligible.\n1. Both the scholar receiving the fellowship and the institution concerned, where the scholar is pursuing her Ph.D are responsible to ensure that the terms and conditions of these schemes are followed properly and only the eligible candidates get the fellowship.\n\n<br>",
+  "_criteria_filled": 2
+}

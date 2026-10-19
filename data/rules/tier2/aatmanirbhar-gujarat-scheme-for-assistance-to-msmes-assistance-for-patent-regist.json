@@ -1,0 +1,29 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-msmes-assistance-for-patent-regist",
+  "name": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Assistance for Patent Registration",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "&gt; **Financial Support for Patent Registration:**\n\n    - 75% of the cost incurred for patent applications.\n    - Maximum assistance of  ₹25,00,000/- per applicant/enterprise.\n\n&gt; **Eligible Expenditures:**\n\n    - Fees for patent attorney, patent service center, and patent registration.\n    - Expenses related to patent equipment development (excluding travel and hotel costs).\n\n&gt; **Cap on Att",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyamiemloi-registration-certificate-particulars-or-constitution-of-the",
+    "as-per-the-format-specified-in-annexure-for-national-patent",
+    "international-patent",
+    "and-country-wise-patent-send-separate-ca-certified-statement-highlighted-bank-ac"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agmsmeasp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.  Micro/Small/Medium enterprises or Individuals are eligible for assistance under the scheme.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. The applicant shall have to submit application within one year from the date of publication/notification of the patent.",
+  "_criteria_filled": 1
+}

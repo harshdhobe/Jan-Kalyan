@@ -1,0 +1,36 @@
+{
+  "id": "satfera-samuhlagna-dcw-scheme",
+  "name": "Satfera Samuhlagna (DCW) Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Monetary Incentive to Couples:** \n\n- ₹12,000 is provided to each newly married couple from socially and educationally backward classes and economically backward classes.\n\n**Support to Organizing Institutions:** \n\n- ₹3,000 per couple is granted to the organizing institution, up to a maximum of ₹75,000 per event.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-bank-pass-bookcancelled-cheque-caste-certificate-certificate-of-ins"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssdcws",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a newly married female.\n1. The applicant should belong to a Socially and Educationally Backward Class (SEBC) or Economically Backward Class.\n1. The applicant’s annual individual income should not exceed ₹6,00,000/-.\n\n<br>",
+  "_criteria_filled": 3
+}

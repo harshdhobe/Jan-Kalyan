@@ -1,0 +1,41 @@
+{
+  "id": "green-business-scheme-haryana",
+  "name": "Green Business Scheme - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "household",
+  "benefit": "1. The Corporation, in collaboration with NSFDC, provides a loan for various economic development schemes having a unit cost up to ₹2,00,000/-.\n1. The Corporation provides margin money @10% of the project cost.\n1. The Corporation (HSFDC) provides a subsidy of 50% of the total project cost, with a maximum amount of subsidy being ₹10,000/- of the total project cost.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 300000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identitycitizenship-proof-ie-aadhaar-card-parivar-pehchaan-patra-resident-proofa"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s34c144c47ecba6f8318128703ca9e2601/uploads/2020/11/2020110373.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gbshr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Haryana.\n1. The applicant should be in the age group of 18 to 45 years.\n1. The applicant should belong to the Scheduled Caste category.\n1. The applicant&#39;s annual family income should be up to ₹3,00,000/-.\n\n**Note:** The income ceiling is at least 50% of the beneficiaries having an annual family income up to ₹1,50,000/-, and the balance 50% of the beneficiaries having an annual family income up to ₹3,00,000/-.\n<br>",
+  "_criteria_filled": 4
+}

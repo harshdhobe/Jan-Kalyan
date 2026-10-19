@@ -1,0 +1,28 @@
+{
+  "id": "grant-for-purchase-of-tools-hbocwwb",
+  "name": "Grant For Purchase Of Tools (HBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "1.\tA grant of ₹8000/- is given to the registered construction workers to buy new and suitable tool kits.\n2.\tThe grant facility is available once in three years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-card-passport-size-photograph-undertaking-work-slip-proof-of-residence-rat",
+    "of-tools-and-source-of-purchase"
+  ],
+  "apply_url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/100",
+  "source_url": "https://www.myscheme.gov.in/schemes/gpt-hbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe worker should be registered under Haryana Building and Other Construction Workers Welfare Board (HBOCWWB).\n2.\tThe registered worker should have minimum one-year regular membership.",
+  "_criteria_filled": 1
+}

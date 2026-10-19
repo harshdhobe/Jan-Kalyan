@@ -1,0 +1,28 @@
+{
+  "id": "chief-ministers-shasakt-kisan-yojana",
+  "name": "Chief Minister’s Shasakt Kisan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "household",
+  "benefit": "1.\tUnder this scheme, cash assistance will be provided by the State Government for tea and rubber plantation:\n    •\t₹1.00 lakh per hectare for tea plantation\n    •\t₹80,000 per hectare for rubber plantation\n2.\tProvision of seedlings and planting material\n3.\tProvision of Fencing Material – Barbed wire, nails, GI angle post, etc.\n4.\tTools and implement for tea, rubber, and double cropping farming lik",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-ie-aadhaar-card",
+    "voter-id-card",
+    "etc-copy-of-the-arunachal-pradesh-schedule-tribe-apst-certificate-if-applicable"
+  ],
+  "apply_url": "https://westsiang.nic.in/scheme-category/chief-ministers-sashakt-kisan-yojana-cm-sky/",
+  "source_url": "https://www.myscheme.gov.in/schemes/cm-sky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1.\tThe applicant/farmer should be a permanent resident of Arunachal Pradesh.\n2.\tThe applicant should be a progressive farmer of any area/field.\n3.\tAll categories of farmers are eligible to apply under the scheme.",
+  "_criteria_filled": 1
+}

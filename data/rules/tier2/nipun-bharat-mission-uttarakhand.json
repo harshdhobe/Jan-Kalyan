@@ -1,0 +1,36 @@
+{
+  "id": "nipun-bharat-mission-uttarakhand",
+  "name": "NIPUN Bharat Mission - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this mission, all children can get admission in Class 1 as per the admission norms of all schools in the state.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 3
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 9
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-are-required-as-per-the-guidelines-of-the-respective-schools"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nipunbmuk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a resident of Uttarakhand.\n   1. All children aged 3 to 9 years are eligible to benefit from the scheme to achieve foundational literacy and numeracy.\n\n<br>",
+  "_criteria_filled": 3
+}

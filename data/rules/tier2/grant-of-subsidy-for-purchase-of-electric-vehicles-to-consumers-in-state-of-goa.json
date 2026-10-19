@@ -1,0 +1,26 @@
+{
+  "id": "grant-of-subsidy-for-purchase-of-electric-vehicles-to-consumers-in-state-of-goa",
+  "name": "Grant of Subsidy for Purchase of 'Electric Vehicles' to Consumers in State of Goa",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "##### ***State Subsidy (Quantum of Subsidy per kilowatt-hour)***\n\n- Financial Year 2021-2022: ₹10,000/- per kilowatt-hour (kWh) for Two Wheelers, Three Wheelers, and Four Wheelers.\n- Financial Year 2022-2023: ₹8,000/- per kilowatt-hour (kWh) for Two Wheelers, Three Wheelers, and Four Wheelers.\n- Financial Year 2023-2024: ₹6,000/- per kilowatt-hour (kWh) for Two Wheelers, Three Wheelers, and Four W",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-registration-certificate-book-insurance-documents-required-to-substantia"
+  ],
+  "apply_url": "https://ahvs.goa.gov.in/wp-content/uploads/2025/03/financial-assistance-Dairy-equipment.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gspevcsg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a permanent resident of Goa.\n- The applicant must be the registered owner of the Electric Vehicle for which the Purchase Incentive is claimed.\n- The applicant must ensure the vehicle is an Electric Two Wheeler, Three Wheeler, or Four Wheeler purchased or converted in the State of Goa.\n- The applicant must purchase the Electric Vehicle from Convergence Energy Services Limited to avail of their low-cost loans and financial incentives.\n\n<br>",
+  "_criteria_filled": 1
+}

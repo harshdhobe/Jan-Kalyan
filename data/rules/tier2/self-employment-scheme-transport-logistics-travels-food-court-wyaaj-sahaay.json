@@ -1,0 +1,41 @@
+{
+  "id": "self-employment-scheme-transport-logistics-travels-food-court-wyaaj-sahaay",
+  "name": "Self-Employment Scheme: Transport/ Logistics/ Travels/ Food Court Wyaaj Sahaay",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Interest Subsidy:** A 5% subsidy on the interest for a bank loan of ₹6,00,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "application-form-in-the-prescribed-format-for-self-employment-bank-statement-non"
+  ],
+  "apply_url": "https://gueedc.gujarat.gov.in/self-employment-scheme-1.html",
+  "source_url": "https://www.myscheme.gov.in/schemes/sestltf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Gujarat.\n   1. The applicant must belong to the unreserved category.\n   1. The applicant&amp;#39;s age should be between 18 years and 50 years.\n   1. The applicant must have a valid driving license.\n   1. The vehicle purchased under the scheme must be mortgaged (hypothecated) to the corporation.\n   1. The applicant must be willing to repay the loan in equal monthly installments over 5 years.\n   1. The annual income limit of the family should be ₹6,00,000/- or less.\n\n&lt;br&gt;\n\n&gt; **Note**: \n\n  - The interest rate on the loan will be 5 percent simple interest per annum.\n  - The simple interest will be calculated based on the amount of the loan given per year.\n  - Only 1 person from a family can avail of the scheme benefits.\n  - A maximum of 5 beneficiaries per village will be selected.",
+  "_criteria_filled": 4
+}

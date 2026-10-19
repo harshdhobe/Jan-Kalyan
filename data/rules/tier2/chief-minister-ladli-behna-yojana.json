@@ -1,0 +1,41 @@
+{
+  "id": "chief-minister-ladli-behna-yojana",
+  "name": "Chief Minister Ladli Behna Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- An amount of ₹1,000/- per month will be paid to each eligible woman in her eligibility period in the own Aadhaar linked DBT enabled bank account.\n- If a woman is below the age of 60 years and already receiving less than ₹1,000/- per month under any other Social Security Pension Scheme, then that woman will be reimbursed up to ₹1,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 23
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "family-and-family-members-samgra-id-aadhaar-card-registered-mobile-number-on-sam"
+  ],
+  "apply_url": "https://cmladlibahna.mp.gov.in/home.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmlby",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicants must be local residents of Madhya Pradesh.\n1. Applicants must be married, including widows, divorced and abandoned women.\n1. Should have completed 23 years and less than 60 years of age as on January 01, in the calendar year of application.",
+  "_criteria_filled": 4
+}

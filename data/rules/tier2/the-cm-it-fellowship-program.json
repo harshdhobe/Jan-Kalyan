@@ -1,0 +1,35 @@
+{
+  "id": "the-cm-it-fellowship-program",
+  "name": "The CM IT Fellowship Program",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "person",
+  "benefit": "**Monthly Stipend:** The scheme provides a stipend of ₹50,000/- per month during the 2-year program duration.\n**Academic Qualification:** Fellows are enrolled in a full-time M.Tech in Data Science and Artificial Intelligence (DSAI) program at IIIT Naya Raipur.\n**Professional Experience:** Fellows gain hands-on experience by working directly with government departments on data-driven policy making ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-nationality-eg",
+    "aadhaar-card",
+    "passport-domicile-certificate-of-chhattisgarh-proof-of-age-eg",
+    "10th-class-marksheet",
+    "birth-certificate-graduate-or-post-graduate-degree-certificate-mark-sheets-of-qu"
+  ],
+  "apply_url": "https://cmitfellowship.cgstate.gov.in/about",
+  "source_url": "https://www.myscheme.gov.in/schemes/tcmitfp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an Indian National.\n- The applicant must hold a Domicile of Chhattisgarh.\n- The applicant must be upto 30 years of age as of the application deadline.\n- The applicant must be a graduate or postgraduate student.\n- The applicant must have qualified for the Graduate Aptitude Test in Engineering (GATE) in Computer Science (CS) or Data Science and Artificial Intelligence (DSAI).\n- The applicant must have secured a minimum CPI of 6.5 or 60% or First Class in their qualifying degree.\n\n<br>\n\n##### ***Relaxations***\n\n- The applicant belonging to SC/ST/PwD categories is eligible for a relaxation of 5% marks or 0.5 CPI.\n- The applicant is eligible for age relaxations as per the Chhattisgarh Government reservation rules.\n\n<br>",
+  "_criteria_filled": 2
+}

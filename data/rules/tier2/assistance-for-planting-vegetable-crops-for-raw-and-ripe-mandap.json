@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-planting-vegetable-crops-for-raw-and-ripe-mandap",
+  "name": "Assistance for Planting Vegetable Crops for Raw and Ripe Mandap",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "&gt; **Raw Mandap (Tomato/Chilli and other vegetables):**\n\n    - General Farmers: 50% subsidy, up to ₹26,000/ha.\n    - SC/ST Farmers: 75% subsidy, up to ₹39,000/ha.\n\n&gt; **Semi-ripe Mandap (Vine vegetables):**\n\n    - General Farmers: 50% subsidy, up to ₹40,000/ha.\n    - SC/ST Farmers: 75% subsidy, up to ₹60,000/ha.\n\n&gt; **Ripe Mandap (Vine vegetables):**\n\n    - General Farmers: 50% subsidy, up t",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "712-certificate-aadhaar-card-bank-pass-bookcancelled-cheque"
+  ],
+  "apply_url": "https://ikhedut.gujarat.gov.in/site/iKhedut%202.0%20User%20Manual%20PPT_Gujarati.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/apvcrrm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a farmer.\n   1. The applicant must be residing in Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

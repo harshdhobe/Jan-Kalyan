@@ -1,0 +1,30 @@
+{
+  "id": "national-scholarship-for-post-graduate-studies",
+  "name": "National Scholarship For Post Graduate Studies",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "- Scholarships of Rs.15,000/- per month for 10 months in a year.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 30
+      }
+    ]
+  },
+  "documents": [
+    "attested-copies-of-mark-sheets-and-certificates-from-class-ix-onwards-attested-c",
+    "voter-id-card",
+    "passport",
+    "pan-card",
+    "driving-license-bank-details-two-recent-passport-size-photographs"
+  ],
+  "apply_url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsfpgs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be pursuing first postgraduate degree. \n1. Applicant who have already completed a postgraduate degree are not eligible to apply.\n1. Applicant must be enrolled in first year of postgraduate program.\n1. Applicant must be under 30 years old.\n1. Applicant must be enrolled in full-time program.\n1. Applicant must be pursuing recognized postgraduate degree program.",
+  "_criteria_filled": 1
+}

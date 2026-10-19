@@ -1,0 +1,34 @@
+{
+  "id": "research-grant-for-in-service-faculty-members",
+  "name": "Research Grant For In-Service Faculty Members",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "**Tenure:** 2 years.\n**Slots:** 200 or as may be decided by the Commission\n***Financial Assistance:***\n\n   1. The quantum of support under the scheme is ₹ 10,00,000.\n   1. The grant can be utilized for purchasing items like minor equipment, consumables, contingencies, fieldwork, travel, etc.\n   1. The grant cannot be used for international travel, purchasing furniture items, or for appointing a pr",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      }
+    ]
+  },
+  "documents": [
+    "scanned-copy-of-your-passport-size-photograph-and-signature-size-upto-1mb",
+    "format-jpg-complete-research-proposal-size-upto-5-mb-and-an-abstract-size-upto-1",
+    "an-auto-generated-form-will-be-displayed-on-your-screen-please-take-the-printout",
+    "get-it-signed-by-the-hodregistrar",
+    "and-upload-it-before-submitting-the-application-form-proof-of-being-a-single-gir",
+    "the-parents-are-not-alive",
+    "the-affidavit-can-be-submitted-by-the-guardian-of-the-candidate-size-less-than-1",
+    "the-beneficiary-will-have-to-submit-feedback-in-the-form-of-a-report-on-the-rese",
+    "the-institution-concerned-shall-submit-the-summary-of-the-awardees-research-work"
+  ],
+  "apply_url": "https://frg.ugc.ac.in/download/Guidelines-In%20service%20faculty.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rgisfm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "(i) Faculty members regularly appointed and working in the following institutions are eligible to apply under the schemes:\n(a)   Universities (including constituent and affiliated colleges/institutions) are included under Section 2(f) of the UGC Act, 1956, and have valid accreditation from NAAC.\n(b)   Deemed to be Universities under Section 3 of the UGC Act 1956 and having valid accreditation from NAAC.\n(c)   Institutions fully funded by Central or State Governments and empowered to award Degrees.\n(d)   Institutions of National Importance.\n(ii) The age of the applicant should not be greater than 50 years. (Faculty above 50 years of age is not eligible to apply).\n(iii) The applicant should have a minimum of 10 years of service left in the University from the date of submission of his / her application.\n(iv) The applicant must have successfully supervised a Ph.D. dissertation of 5 full-time candidates\n(v) The applicant must have successfully completed at least 2 sponsored research projects funded by national/international government or private agencies.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mukhyamantri-vishesh-yogyajan-swaraozgar-yojana",
+  "name": "Mukhyamantri Vishesh Yogyajan Swaraozgar Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "***Financial Assistance***\n\n- Loan up to ₹5,00,000/- for starting self-employment.\n- Subsidy of 50% of the loan amount or a maximum of ₹50,000, whichever is lower.\n\n**NOTE:** The loan is provided as one-time financial support.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photo-proof-of-age-certificate-of-disability-training-certificate",
+    "if-any-self-declaration-regarding-income-in-the-prescribed-format-domicile-certi"
+  ],
+  "apply_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=115",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmvyjsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a specially-abled person as per the Persons with Disabilities Act, 1995.\n- The applicant should have a minimum disability of 40% or more.\n- The applicant should be a native of Rajasthan.\n- The applicant should be between 18 and 55 years of age.\n- The annual income of the applicant’s family should not exceed ₹2,00,000/- from all sources.\n- The applicant should not have availed of benefits under any other self-employment subsidy scheme like &amp;quot;Kiyosk Yojana&amp;quot; etc.\n- The applicant should not have any overdue loans from banks, cooperative societies, or government institutions.\n- The applicant should possess a valid disability certificate and passbook.",
+  "_criteria_filled": 5
+}

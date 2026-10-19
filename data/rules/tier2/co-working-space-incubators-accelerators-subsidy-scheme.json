@@ -1,0 +1,26 @@
+{
+  "id": "co-working-space-incubators-accelerators-subsidy-scheme",
+  "name": "Co-Working Space/ Incubators/ Accelerators Subsidy Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "> **In the case of Seat Offered by the Co-Working Spaces**\n\n- The startup will be reimbursed 50% of the seat cost or a maximum benefit of ₹3000 per seat, and can claim this benefit for a maximum cap of 8 seats only.\n- The benefits at co-working spaces can be availed for a maximum period of two years per startup.\n- A total of 100 seats in co-working will be subsidized under this scheme each year.\n\n",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "original-copy-of-bill-issued-by-co-working-incubator-accelerator-the-form-and-do"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cwsiass",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The startup should be certified by the Startup Promotion Cell (SPC).\n1. All the startups have to pay digitally to co-working spaces/ incubators/ accelerators listed by the SPC. In case digital payments are not possible, then it shall be up to the decision of SPC as per its guidelines to admit the expenditure.\n1. The bank accounts of the startups should be linked to Aadhaar.",
+  "_criteria_filled": 1
+}

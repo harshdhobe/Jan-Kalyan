@@ -1,0 +1,27 @@
+{
+  "id": "shelter-home-for-women-shw",
+  "name": "Shelter Home For Women (SHW)",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "The Shelter Homes are given Financial Assistance in the form of Grants consisting of Salary Components and Maintenance Expenditures.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-registration-details-of-the-admitted-women-details-of-the-rehabilitatio",
+    "and-counselling-bank-details-for-the-purpose-of-transfer-of-grants"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/shw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The applicant should qualify as ANY ONE of the following -** \n\n1. A Non-Government Voluntary Organization registered under the Registration of Societies Act, 1860.\n1. A Public Trust, registered under any law for the time being in force.\n1. Local Body.\n1. Government Body.\n1. Body as specified by the Govt. having a Managing Body with powers, duties and responsibilities, the experience of working in the field of women and children welfare, and rendering their services without distinction of caste, religion or language.",
+  "_criteria_filled": 1
+}

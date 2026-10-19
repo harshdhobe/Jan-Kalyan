@@ -1,0 +1,26 @@
+{
+  "id": "operation-of-sc-senior-hostel",
+  "name": "Operation of SC Senior Hostel",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "**Accommodation**\n\n- Free boarding facilities\n- Free lodging facilities\n- Separate hostels for boys and girls\n- Junior, senior, and college-level accommodations\n\n<br>\n\n**Additional Facilities**\n\n- Sports equipment\n- Toilet kits\n- Library facilities\n- Scholarship (90% paid to joint account of Hostel Superintendent and Mess Secretary, 10% to student&#39;s account)",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-domicile-certificate-of-madhya-pradesh-cas"
+  ],
+  "apply_url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=611",
+  "source_url": "https://www.myscheme.gov.in/schemes/oossh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to the Scheduled Caste category.\n1. The applicant must be a native of Madhya Pradesh.\n1. The applicant must be a regular student of a recognized institution.\n1. There is no income limit for senior hostels.",
+  "_criteria_filled": 1
+}

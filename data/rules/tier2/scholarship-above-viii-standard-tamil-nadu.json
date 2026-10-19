@@ -1,0 +1,31 @@
+{
+  "id": "scholarship-above-viii-standard-tamil-nadu",
+  "name": "Scholarship (Above VIII Standard) - Tamil Nadu",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "Scholarships are provided as:\n\n- For students studying from 9th to 12th Standard: ₹4,000/- per annum.\n- For Degree Courses: ₹6,000/- per annum. \n- For Postgraduate, Medical, Engineering, Vocational, and Other Professional Courses: ₹7,000/- per annum.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "certificates-from-the-head-of-the-institution-national-identity-card-of-the-diff"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/saviiisbwodap",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a student.\n1. The beneficiary must be a differently abled person. \n1. The beneficiary must be a student of the following courses:\n\n  - 9th to 12th Standard.\n  - Degree Courses.\n  - Postgraduate, Medical, Engineering, Vocational, and Other Professional Courses.\n\n1. The beneficiary must be differently abled, who are studying in government-recognized schools/colleges/training centers. \n1. The beneficiary must have obtained not less than 40% of the marks in the previous qualifying examination.",
+  "_criteria_filled": 2
+}

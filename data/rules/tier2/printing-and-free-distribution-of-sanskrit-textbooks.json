@@ -1,0 +1,26 @@
+{
+  "id": "printing-and-free-distribution-of-sanskrit-textbooks",
+  "name": "Printing and Free Distribution of Sanskrit Textbooks",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "**Each student is provided annual financial assistance under the scheme as follows:**\n\n  - Classes 1st to 5th: ₹250/- per student  - Classes 6th to 8th: ₹400/- per student  - Classes 9th to 10th: ₹600/- per student  - Classes 11th to 12th: ₹700/- per student\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-of-the-student-bank-account-details-any-other-document-if-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pafdost",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The students studying in Classes 1 to 12 at Sanskrit schools across Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

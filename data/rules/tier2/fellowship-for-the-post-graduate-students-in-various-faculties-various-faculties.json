@@ -1,0 +1,31 @@
+{
+  "id": "fellowship-for-the-post-graduate-students-in-various-faculties-various-faculties",
+  "name": "Fellowship for the Post-Graduate Students in Various Faculties Various Faculties of Sardarkrushinagar Dantiwada Agricultural University",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Master’s degree students:** ₹5,000/- per month for 2 years.  - **Ph.D. degree students:** ₹5,000/- per month for 3 years.\n&gt; **Note:** The University shall annually award four fellowships in each of the concerned faculties for both Master&amp;#39;s well as Doctorate degree programmes.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 28
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "graduate-mark-sheet-post-graduate-mark-sheet-passport-size-photos-bank-account-d"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fpgsdau",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a student.\n  - The applicant must be enrolled in a Master’s or Ph.D. program at Sardarkrushinagar Dantiwada Agricultural University (SDAU).\n  - The applicant must have secured a first-class or its equivalent OGPA in the qualifying undergraduate or postgraduate examination from a State Agricultural University in Gujarat.\n  - The applicant must be 28 years of age or below at the time of application.\n  - The applicant must maintain a minimum OGPA of 7.5 and must not receive an “F” (Fail) or “I” (Incomplete) grade during the course of study.\n\n<br>\n\n<br>",
+  "_criteria_filled": 2
+}

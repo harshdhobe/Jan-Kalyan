@@ -1,0 +1,47 @@
+{
+  "id": "marriage-assistance-to-differently-abled-women-parinayam-ii",
+  "name": "Marriage Assistance To Differently Abled Women (Parinayam-II)",
+  "tier": 2,
+  "level": "state",
+  "state": "Kerala",
+  "scope": "household",
+  "benefit": "1. A one-time assistance of ₹30,000/- is provided to the eligible beneficiaries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Kerala"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-ie-aadhaar-card-mobile-number-email-id-passport-size-photo-certifi",
+    "if-any"
+  ],
+  "apply_url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12358.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/madawp-ii",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Kerala.\n   1. The parents of differently abled girls or differently abled girls should be eligible to apply under the scheme.\n   1. The girl who intends to be married should have completed 18 years of age. \n   1. The combined annual family income should not exceed ₹1,00,000/-.\n\n**Note 01:** After receiving the financial aid as per these terms and conditions, if the marriage has to be dissolved for any reason and the girl has to marry a second time, the financial aid can be given for the second marriage.\n**Note 02:** If the applicant with disabilities dies before the marriage of the daughters, the said financial assistance can be given to the eldest member of the family or any other member of the family who is responsible for conducting the marriage. \n**Note 03:** In case the applicant PWD dies after the marriage of his daughter but before receiving financial assistance, the senior member of the family or the married member or the individual can be given financial assistance on a suitable bond.",
+  "_criteria_filled": 5
+}

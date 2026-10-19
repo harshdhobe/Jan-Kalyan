@@ -1,0 +1,27 @@
+{
+  "id": "subsidy-for-cultivation-of-fodder-crops-component-of-the-crop-production-technol",
+  "name": "\"Subsidy for Cultivation of Fodder Crops\" Component of the \"Crop Production Technology\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "Cash Incentives @ ₹12,500/hectare.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-applicants-photo-farmers-identity-card-bank-passbook-fm",
+    "issued-by-the-competent-authority"
+  ],
+  "apply_url": "https://agri.py.gov.in/sites/default/files/forms/Fodder.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/scfc-cpt",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a resident/native of Puducherry.\n- The applicant should be residing in the Puducherry region.\n- The applicant should be a Farmer.\n- The applicant should be cultivating fodder in the Puducherry region.",
+  "_criteria_filled": 1
+}

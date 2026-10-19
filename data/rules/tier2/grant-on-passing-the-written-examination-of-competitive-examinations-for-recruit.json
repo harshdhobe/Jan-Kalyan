@@ -1,0 +1,28 @@
+{
+  "id": "grant-on-passing-the-written-examination-of-competitive-examinations-for-recruit",
+  "name": "Grant on Passing the Written Examination of Competitive Examinations for Recruitment in Armed Forces",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "- A one-time grant of ₹15,000/- is provided to children of ex-serviceman who pass the written examination of CDS, NDA, IMA, OTA, Air Force, or Naval Academy, for the purpose of coaching.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "identity-proof-of-applicant-proof-of-passing-the-written-examination-admit-card",
+    "upsc-for-cdsnda",
+    "etc-proof-of-relationship-with-ex-serviceman-ex-servicemans-discharge-certificat"
+  ],
+  "apply_url": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/NDA.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cgsces",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Rajasthan.\n1. The applicant should be the child of an ex-serviceman.\n1. The applicant should have passed the written examination of NDA, CDS, IMA, OTA, Air Force, or Naval Academy.",
+  "_criteria_filled": 1
+}

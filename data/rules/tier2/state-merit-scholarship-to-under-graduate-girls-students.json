@@ -1,0 +1,32 @@
+{
+  "id": "state-merit-scholarship-to-under-graduate-girls-students",
+  "name": "State Merit Scholarship to Under Graduate Girls Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Scholarship Amount**\n\n- ₹3,000/- per student per annum.\n- Awarded to 10 girl students per government college.\n\n**Conditions for Scholarship Renewal**\n\n- The scholarship is tenable for three years during undergraduate studies.\n- To continue receiving the scholarship, the applicant must secure at least 55% marks in the qualifying examination each year.\n\n- If an applicant cannot appear for the annu",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-copy-applicants-photograph-applicants-signature-income-certificate",
+    "bpl-certificate-if-applicable-fathers-death-certificate-if-applicable"
+  ],
+  "apply_url": "https://harchhatravratti.highereduhry.ac.in/Notices/State%20Merit%20Scholarship%20To%20UG%20Girls.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/smsuggs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a girl.\n1. The applicant should be a student.\n1. The applicant should have passed 10+2 with at least 60% marks.\n1. The applicant should be pursuing an undergraduate general degree course in a Government College in Haryana.\n1. The applicant should not hold any other scholarship or stipend.\n1. The applicant may accept a grant for books, equipment, boarding, or lodging from the State Government or other sources.\n1. There is no income limit for availing of this scholarship.\n\n**Preference/Priority**\nIf multiple students secure the same marks, priority will be given based on:\n\n- Marks are calculated up to three decimal places.\n- If still tied, the younger applicant will get priority.",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,31 @@
+{
+  "id": "marang-gomke-jaipal-singh-munda-overseas-scholarship-scheme",
+  "name": "Marang Gomke Jaipal Singh Munda Overseas Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "- Provides financial assistance to students to pursue higher studies abroad.\n- Covers tuition fees for selected postgraduate programs up to £94,000/- per year.\n- Monthly living allowance for students based on their location (London or other regions).\n- Return airfare in the economy class for travel between India and the UK.\n- Additional grants for thesis submission, exams, and related expenses.\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 35
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-issued-by-the-competent-authority-proof-of-admission-from-the"
+  ],
+  "apply_url": "https://mgos.jharkhand.gov.in/images/MGOS_Sankalp.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgjsmoss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Jharkhand state.\n1. The applicant must belong to Scheduled Tribes, Scheduled Castes, Minorities, or Backward Classes.\n1. The applicant&#39;s maximum age should be 35 years at the time of application.\n1. The applicant should hold a bachelor&#39;s degree and have outstanding academic performance.\n1. The applicant must have an admission offer from a top 100 globally ranked university or a UK university listed in Annexure-A.",
+  "_criteria_filled": 2
+}

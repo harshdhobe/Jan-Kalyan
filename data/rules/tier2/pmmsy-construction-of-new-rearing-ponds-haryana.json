@@ -1,0 +1,30 @@
+{
+  "id": "pmmsy-construction-of-new-rearing-ponds-haryana",
+  "name": "PMMSY: Construction of New Rearing ponds - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "- Provides financial assistance for the construction of New Rearing Ponds (nursery/seed rearing ponds). \n- The project cost of ₹ 7,00,000/- per Hectare is provided.\n- The subsidy will be limited to 40% of the project cost for the General Category and 60% of the project cost for SC/Women beneficiaries.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-deed-between-the-beneficiary-and-the-fisheries-department-date-of-birt",
+    "tehsildar-training-certificate-land-record-from-tehsil-own-land-jamabandi",
+    "nakal-akshizra-farad",
+    "or-registered-lease-deed-of-minimum-7-years-billsreceiptsvouchers-photographs-of",
+    "etc-with-beneficiary-details-of-bank-account-and-pan-card-detailed-project-repor"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=KHkz5BcF1MLe%2fxw2TL3IHQ%3d%3d",
+  "source_url": "https://www.myscheme.gov.in/schemes/cnrphr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must have a Parivar Pehchan Patra (PPP).\n1. The construction of new rearing ponds subsidy will be provided by the State Government for the expansion of fisheries in various urban/semi-urban areas, only under the construction of new ponds under the PMMSY scheme.\n1. The applicant shall be provided with central assistance for the Construction of New Rearing unit costs for the initial crop only in the newly constructed ponds.\n1. The projects having land on long-term registered lease shall also be considered for Central financial assistance under the scheme. However, the lease period/agreement shall not be less than a minimum period of 7 (seven) years.\n1. The applicant, having their land, must furnish revenue records with a clear land title.",
+  "_criteria_filled": 1
+}

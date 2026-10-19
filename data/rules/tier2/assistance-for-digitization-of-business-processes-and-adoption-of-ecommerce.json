@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-digitization-of-business-processes-and-adoption-of-ecommerce",
+  "name": "Assistance for Digitization of Business Processes and Adoption of eCommerce",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "**Financial Reimbursement for Digitization Equipment:**\n\n  - MSMEs are eligible for a one-time reimbursement of 75% of the cost incurred for purchasing software or equipment used in digitization of business process (such as POS systems, barcode scanners machine, inventory management software, etc.).\n  - Maximum Limit: ₹50,000/- per MSME.\n\n**Financial Reimbursement for eCommerce Platform Fee:**\n\n- ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-udyam-registration-ur-certificate-invoices-for-purchased-softwareequipme"
+  ],
+  "apply_url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/adbpae",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The enterprise should be a Micro, Small, or Medium Enterprise (MSME) in production.\n   1. The enterprise should be located in Rajasthan.\n   1. The applicant should possess a valid Udyam Registration Certificate at the time of application.\n   1. The applicant should have incurred expenses on digitization (software/equipment) after notification of Rajasthan MSME Policy 2024.\n   1. The applicant should have registered on an eCommerce platform after the notification of Rajasthan MSME Policy 2024.\n   1. MSME enterprise will only be eligible for benefits once for each component.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pre-matric-scholarship-for-obc-ebc-and-dnt-students-dnh-dd",
+  "name": "Pre-Matric Scholarship for OBC, EBC and DNT Students - DNH & DD",
+  "tier": 2,
+  "level": "state",
+  "state": "Dadra & Nagar Haveli And Daman & Diu",
+  "scope": "person",
+  "benefit": "&gt; **Coverage Value of Scholarship:**\n\n  - The students shall be given a consolidated academic allowance of ₹4,000/- per annum.\n\n**Note:** The entire scholarship amount both from the State and Central Government will be paid directly into the account of the students or parents ONLY through DBT preferably through an Aadhaar Based Payment System (Aadhaar Payment Bridge-AePS).\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Dadra & Nagar Haveli And Daman & Diu"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-educational-qualification-marksheetscertif",
+    "if-applicable-bank-account-details-any-other-documents-as-required"
+  ],
+  "apply_url": "https://scholarships.gov.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsobcandebc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The scholarships are open to all the students of Dadra and Nagar Haveli and Daman and Diu.\n   1. Scholarship awards will be sanctioned in the case of students whose parents/guardians&amp;#39; income from all sources does not exceed ₹2,50,000/- per annum.\n   1. The students should be studying in Classes IX and X on a full-time basis in Government Schools only.\n   1. They should belong to either of the OBC, EBC, or DNT (who are not covered under SC, ST, or OBC) categories through a valid certificate.\n   1. A scholarship holder under this scheme will not hold any other educational scholarship for the purpose of studying in Class IX and X. If awarded any other educational scholarship for studying in classes IX and X, the students can avail of either of the two scholarships as per his/her choice and should inform the awarding authority to the Head of the Institution about the option made.\n   1. Income Certificate is required to be taken once only, i.e. at the time of admission to courses. \n\n**Note:** The condition stipulated in this Ministry’s Notification No. 428 dated 16.02.2017 relating to provisions contained in Section 7 of the Aadhaar (Targeted Delivery of Financial and other Subsidies, Benefits, and Services) Act 2016 are to be followed with the further stipulation that if, for any reason, the authentication of Aadhaar fails in respect of any applicant, such an individual should be permitted to establish his/her identity by any other means so that genuine persons are not deprived of their benefits.\n&gt; **Other Conditions for Award:**\n\n   1. If a student violates school discipline or any other terms and conditions of the scholarship, the scholarship may be suspended or even cancelled, subject to the satisfaction of the competent school authority. The State Government/ Union Territory Administrations can also directly cancel the award if duly satisfied with the reasons for violation of these regulations governing the scheme.\n   1. Migration of students from one institution to another would not normally be allowed during the course of the academic year except under exceptional circumstances and in the interest of the student&amp;#39;s academic career.\n   1. The scholar obtaining benefits under this scheme shall not be allowed to avail of benefits under any other pre-matric scholarship scheme.\n   1. Only two boys of the same parents/guardians will be entitled to receive scholarships. This restriction will, however, not apply to girls. Accordingly, scholarships availed by girls of the same parents/guardian will not adversely affect the admissibility of availing scholarships upto two boys of the same parents/guardian.\n   1. A regular attendance record of not less than 75% in the previous year should be a prerequisite for availing scholarship.\n   1. At least 5% of students with disabilities should be covered for the grant of the scholarships. 30% of the beneficiaries should be reserved for girl students.\n   1. If a student is found to have obtained a scholarship by false statements, his/ her scholarship will be cancelled forthwith and the amount of the scholarship paid will be recovered, at the discretion of the concerned State Government. The student concerned will be blacklisted and debarred for scholarship in any scheme forever.\n\n<br>",
+  "_criteria_filled": 2
+}

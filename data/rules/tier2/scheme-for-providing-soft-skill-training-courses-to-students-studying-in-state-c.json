@@ -1,0 +1,26 @@
+{
+  "id": "scheme-for-providing-soft-skill-training-courses-to-students-studying-in-state-c",
+  "name": "Scheme for Providing Soft Skill Training Courses to Students Studying in State Colleges",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Soft Skill training courses are being organized in various colleges of the state through Mahindra Pride Classroom and Nandi Foundation.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-as-per-soft-skill-training-course-guidelines"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/spsstcsssc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. All students studying in the colleges of Uttarakhand are eligible.\n\n<br>",
+  "_criteria_filled": 1
+}

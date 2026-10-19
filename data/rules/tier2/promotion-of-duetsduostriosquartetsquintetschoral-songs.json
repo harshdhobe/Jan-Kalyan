@@ -1,0 +1,31 @@
+{
+  "id": "promotion-of-duetsduostriosquartetsquintetschoral-songs",
+  "name": "Promotion of Duets/Duos/Trios/Quartets/Quintets/Choral Songs",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Best Duet: 1st Prize - ₹3,000/-, 2nd Prize - ₹1,500/-.\n- Best Duo: 1st Prize - ₹3,000/-, 2nd Prize - ₹1,500/-.\n- Best Trio: 1st Prize - ₹4,500/-, 2nd Prize - ₹2,250/-.\n- Best Quartet/Quintet: 1st Prize - ₹6,000/-, 2nd Prize - ₹3,000/-.\n- Best Choral Song: 1st Prize - ₹2,000/- to ₹4,000/- (maximum 4 participants), 2nd Prize - ₹1,000/- to ₹2,000/- (maximum 4 participants).\n- Best Lyrics: 1st Prize",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 25
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copies-of-birthbaptism-certificates-or-a-certificate-by-the-headma"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pddtqqcs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be aged either above 16 years to 25 years or up to 16 years on the day fixed for submission of application.\n- The applicant must present original compositions that have not been recorded on any audio albums.\n- The applicant must ensure that songs which have won 1st, 2nd and 3rd prizes in any competitions organized by Kala Academy/Art &amp; Culture Department/Tiatr Academy of Goa are not considered for first three prizes in this competition.\n- The applicant must not have participated in popular tiatr performances.\n- The applicant must participate in any one of the three sections: Section 1 (Duet or Duo), Section 2 (Trio or Quartet), or Section 3 (Quintet or Choral).\n- The applicant must ensure that duets are sung by a male and female singer with interactive lyrics depicting two different characters.\n- The applicant must ensure that duos are sung by two male singers or two female singers with interactive lyrics depicting two different characters.\n- The applicant must ensure that trios are sung by three singers with interactive lyrics depicting three different characters.\n- The applicant must ensure that quartets/quintets are sung by four/five singers with interactive lyrics depicting four/five different characters.\n- The applicant must ensure that choral songs are sung by two, three or four singers in different voices.\n\n<br>",
+  "_criteria_filled": 2
+}

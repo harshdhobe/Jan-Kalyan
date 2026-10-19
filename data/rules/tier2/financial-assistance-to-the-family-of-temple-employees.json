@@ -1,0 +1,26 @@
+{
+  "id": "financial-assistance-to-the-family-of-temple-employees",
+  "name": "Financial Assistance to the Family of Temple Employees",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "**Financial Benefit:** An amount of ₹5,000/- is granted under the Group Insurance Scheme.\n**Financial Benefit:** An amount of ₹20,000/- is granted under the Chief Minister’s Welfare Fund.\n**Intended Use of Benefit:** The amounts are granted to the family of the temple employee who expire while in service.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "documents-related-to-the-employee-and-heirproof-establishing-the-relation-of-the"
+  ],
+  "apply_url": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafte",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a family member of the deceased employee of the temple.\n- The temple employee must have died while in service.\n\n<br>",
+  "_criteria_filled": 1
+}

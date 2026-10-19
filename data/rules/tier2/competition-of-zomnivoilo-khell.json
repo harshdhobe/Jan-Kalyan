@@ -1,0 +1,29 @@
+{
+  "id": "competition-of-zomnivoilo-khell",
+  "name": "Competition of Zomnivoilo Khell",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- Financial assistance towards production costs as fixed by Tiatr Academy of Goa from time to time.\n- Mementos awarded to first three winning positions (no cash prizes).\n- Video recording of all performances for preservation in Tiatr Academy of Goa library.\n- Complimentary Digital Versatile Disc copy of the performance provided to the director.\n- Platform for showcasing traditional Khell performan",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "self-attested-copy-of-aadhaar-card-self-attested-copy-of-permanent-account-numbe",
+    "live-music-band",
+    "writer",
+    "and-director-handwritten-copies-of-script-and-lyrics-are-not-accepted"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/czk",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an institution or individual organizing a Khell performance.\n- The applicant must have staged the Khell during the current carnival season.\n- The applicant must comply with the exact format of Zomnivoilo Khell comprising 8 to 10 songs called Cantos.\n- The applicant must ensure each canto consists of 2 verses and one chorus with limited dialogues.\n- The applicant must maintain the duration of each Khell between 40 to 60 minutes.\n- The applicant must ensure comedy in the Khell is related to the story.\n- The applicant must use traditional musical instruments including drums and two blowing instruments.\n- The applicant must ensure no adverse remarks are made against any governments, individuals, institutions, or anything against caste, creed, and religion.\n- Artists can participate in only one group and one Khell (except musicians who can participate in multiple Khells).\n- Mandatory attendance at discussion session on positive and negative aspects of performances.\n- No adverse remarks against any governments, individuals, institutions, or anything against caste, creed, and religion.\n- The three Khell troupes which won 1st, 2nd, and 3rd places in the previous competition receive direct entry provided they apply within stipulated time.\n\n<br>",
+  "_criteria_filled": 1
+}

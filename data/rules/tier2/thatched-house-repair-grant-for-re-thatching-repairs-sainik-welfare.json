@@ -1,0 +1,27 @@
+{
+  "id": "thatched-house-repair-grant-for-re-thatching-repairs-sainik-welfare",
+  "name": "Thatched House Repair Grant for Re-thatching & Repairs (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- The actual cost of damage or a maximum of ₹40,000/- is provided for the re-thatching and repair of the house.\n- The amount, as decided by the Management Committee, is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-esm-discharge-certificate-of-ex-serviceman-dec",
+    "as-required-by-the-department"
+  ],
+  "apply_url": "https://sainik.py.gov.in/assistance-affd-fund",
+  "source_url": "https://www.myscheme.gov.in/schemes/thrgrr-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen)/Widow of an Ex-serviceman/Dependent of an Ex-serviceman.\n\n- The applicant should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.\n\n- The applicant should be receiving Subsistence Allowance.\n- The applicant should be living in a thatched house.",
+  "_criteria_filled": 1
+}

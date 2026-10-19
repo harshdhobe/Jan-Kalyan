@@ -1,0 +1,36 @@
+{
+  "id": "refund-of-subscriptions-for-the-construction-workers",
+  "name": "Refund of Subscriptions for the Construction Workers",
+  "tier": 2,
+  "level": "state",
+  "state": "West Bengal",
+  "scope": "person",
+  "benefit": "- **Quantum of Assistance:** Subscription deposited by the beneficiary will be refunded with 8% interest to the subscriber.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "West Bengal"
+      }
+    ]
+  },
+  "documents": [
+    "for-registration-as-a-building-construction-workerpassport-size-photographs-of-t"
+  ],
+  "apply_url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rosftcw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "&gt; **For Registration as a Building/ Construction Worker:**\n\n  - The applicant should be a resident of West Bengal.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n  - The applicant should be a registered member Under the Building and Other Construction Workers Welfare Board of West Bengal.\n  - The applicant should reach the age of maturity i.e. 60 years.\n\nOr,\n\n  - The applicant do not want to continue as a subscriber under the Board after 3 years of registration.\n\nOr,\n\n  - The subscriber has lost his/her life due to death. (Applicant should be nominee (legal heir) of the subscriber.",
+  "_criteria_filled": 3
+}

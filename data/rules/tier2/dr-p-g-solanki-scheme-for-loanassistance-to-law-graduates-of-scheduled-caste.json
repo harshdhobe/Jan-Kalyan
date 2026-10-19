@@ -1,0 +1,32 @@
+{
+  "id": "dr-p-g-solanki-scheme-for-loanassistance-to-law-graduates-of-scheduled-caste",
+  "name": "Dr. P. G. Solanki Scheme for Loan/Assistance to Law Graduates of Scheduled Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "1. Under the scheme, A Law graduates belonging to Scheduled Caste intending to start legal practice will be given ₹12,000/-; out of which ₹7,000/- will be @4% interest loan, and ₹5,000/- will be a subsidy.\n   1. The loan is provided to purchase business premises/shops.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-proof-o",
+    "give-a-certificate-copy-of-first-page-of-bank-passbookcancelled-check-in-applica"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/2_Appform_08102021_081021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpgsslalgsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Law graduate.\n   1. The applicant should belong to the Scheduled Caste category.\n   1. The benefit of this scheme will be given only to natives of Gujarat state.\n   1. The annual family income of the applicant limit should not exceed ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas.\n\n**Note:** Registration number and date received from Bar Council (to be attached with attested copy of registration certificate).",
+  "_criteria_filled": 2
+}

@@ -1,0 +1,37 @@
+{
+  "id": "the-scheme-of-state-award-for-disabled",
+  "name": "The Scheme Of State Award For Disabled",
+  "tier": 2,
+  "level": "state",
+  "state": "Maharashtra",
+  "scope": "person",
+  "benefit": "Category 1: Best Employees (Visually Handicapped, Hearing Handicapped, Orthopedically Handicapped, Mentally Retarded)\t\nNo. of Awards: 12\nComposition of Award: ₹10,000/- in Cash, a Citation, and a Certificate.\nCategory 2: Best Employer (Govt. / Public / Private Sector)\nNo. of Awards: 2\nComposition of Award: ₹25,000/- in Cash, a Citation, and a Certificate.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Maharashtra"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-proof-of-employment-bio-data-proof-of-outstanding-work-in-the-respe",
+    "marksheet-of-class-10th12th",
+    "etc-2-passport-sized-photograph-signed-across-residential-certificate-domicile-c",
+    "branch-name",
+    "address",
+    "ifsc",
+    "etc-any-other-document-required-by-the-district-social-welfare-office"
+  ],
+  "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/tssad",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Employee or an Employer or a Placement Agency.\n1. If the applicant is an Employee or an Employer:\n1. The applicant should be a Person with Disability (Visually Impaired, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of disability should be 40% and above.\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of the state of Maharashtra.",
+  "_criteria_filled": 2
+}

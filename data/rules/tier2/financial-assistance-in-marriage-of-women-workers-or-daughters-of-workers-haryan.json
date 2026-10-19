@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-in-marriage-of-women-workers-or-daughters-of-workers-haryan",
+  "name": "Financial Assistance in Marriage of Women Workers or Daughters of Workers- Haryana Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "Under this scheme, financial assistance of ₹51,000/- is provided to the workers employed in the industrial and commercial establishments of Haryana state for the marriage of their daughters and to the working female workers for their own marriage in the form of Kanyadan.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "documents-required-for-registration-under-the-haryana-labour-welfare-boardaadhaa"
+  ],
+  "apply_url": "https://hrylabour.gov.in/welfare/users/schemeDetailFront/80",
+  "source_url": "https://www.myscheme.gov.in/schemes/famwwdwhlwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be employed in an industrial or commercial establishment in Haryana.\n   1. The applicant should be registered with the Haryana Labour Welfare Board.\n   1. The monthly salary of the applicant should not exceed ₹25,000/-.\n   1. The applicant must have a minimum of three years of regular membership of the Board till the Marriage date.\n   1. The applicant should apply within six months after the marriage date.\n   1. The benefits are provided to workers for the marriage of up to three daughters and for the self-marriage of female workers.\n\n**Note:** The worker will give an undertaking that he will clearly explain to the Board whether he/she has availed the benefits of the Kanyadaan Scheme for the first time, second time or third time or never before.",
+  "_criteria_filled": 2
+}

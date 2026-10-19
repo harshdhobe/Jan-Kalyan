@@ -1,0 +1,26 @@
+{
+  "id": "national-bio-energy-programme-uttarakhand-renewable-energy-development-agency",
+  "name": "National Bio Energy Programme - Uttarakhand Renewable Energy Development Agency",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "The gas produced from biogas plants can be used for cooking, and high-quality compost manure can also be obtained as a byproduct.\nThe grant for establishing biogas plants is payable as follows:\n\n  - 1 cubic meter – ₹17,000/-\n  - 2–4 cubic meters – ₹22,000/-\n  - 6 cubic meters – ₹29,250/-\n  - 8–10 cubic meters – ₹34,500/-\n  - 15 cubic meters – ₹63,250/-\n  - 20–25 cubic meters – ₹70,400/-\n\nThe estim",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-ration-card-bank-account-other-supporting-documents-as-required"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/nbepureda",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The beneficiary must be a livestock farmer residing in Uttarakhand.\n1. To install a biogas plant, 12 sq. meters of land (4 × 3 m) and at least 3 animals are required.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "prl-junior-research-fellowships",
+  "name": "PRL Junior Research Fellowships",
+  "tier": 2,
+  "level": "central",
+  "state": null,
+  "scope": "person",
+  "benefit": "> **Fellowship Allowance:**\n\n•\tJunior Research Fellow (JRF): ₹37,000/- per month.\n•\tSenior Research Fellow (SRF, after 2 years): ₹42,000/- per month (based on performance review).\n> **Platinum Jubilee Research Fellowship (ATAL):**\n\n•\tSelected meritorious JRFs may receive an additional ATAL fellowship of ₹40,000/- per month (for 3rd to 5th year).\n> **Ph.D. Registration:**\n\n•\tFellows have the opport",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 28
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-bachelors-and-masters-degree-certificatesmarksheets-pro",
+    "gate",
+    "jest",
+    "etc-aadhaar-card-e-mail-id-and-mobile-number-recommendation-letters"
+  ],
+  "apply_url": "https://www.prl.res.in/prl-eng/phd",
+  "source_url": "https://www.myscheme.gov.in/schemes/prljrf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be an Indian citizen.\n1. The applicant should have studied at recognized Universities/Institutes in India.\n1. The applicant’s age should be 28 years as of 01st July 2024.\n1. The applicant should complete a Bachelor’s and Master’s degree in science or engineering with at least 60% marks (or equivalent) at both levels.\n1. Candidates from disciplines of any branch of Physics, Chemistry, Engineering Physics, Photonics, Space Physics, Atmospheric Science, Environmental Science, Oceanography, Meteorology, Geology, Geophysics, Earth Science and Remote Sensing are eligible to apply.\n1. The applicant should be interested in pursuing a research career in the current research areas at PRL, and must have qualified in any one of the following exams:\n\n  - CSIR-UGC-NET JRF/AP (2022 or later) in Physical Sciences/Chemical Sciences/Earth, Atmospheric, Ocean, and Planetary Sciences.\n  - GATE (2022 or later) in relevant subjects.\n  - JEST (2024) in Physics.\n  - UGC-NET JRF/AP (2022 or later) in Environmental Sciences.",
+  "_criteria_filled": 1
+}

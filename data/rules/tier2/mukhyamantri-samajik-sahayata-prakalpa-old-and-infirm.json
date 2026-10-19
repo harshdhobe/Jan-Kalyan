@@ -1,0 +1,33 @@
+{
+  "id": "mukhyamantri-samajik-sahayata-prakalpa-old-and-infirm",
+  "name": "Mukhyamantri Samajik Sahayata Prakalpa - Old and Infirm",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "The pension amount of ₹2000/- per month will be transferred directly to the bank account of the applicant.\n**NOTE:** The list of beneficiaries will be made available on the [official website](https://socialwelfare.tripura.gov.in/) of the Social Welfare &amp; Social Education Department, Govt. of Tripura.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      }
+    ]
+  },
+  "documents": [
+    "during-applicationincome-certificate-from-sdm-sub-divisional-magistrate-age-proo",
+    "issued-by-the-food-civil-supplies-department-permanent-resident-of-tripura-certi",
+    "issued-by-the-sub-divisional-administration-non-government-employee-certificate"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/mssp-oai",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**For Old Applicants**\n\n- The applicant should be a resident of Tripura.\n- The annual income of the family of the applicant should not exceed ₹1,00,000/-\n- The age of the applicant should be 60 years or above.\n-  If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura.\n\n**For Infirm Applicants**\n\n- The applicant should be a resident of Tripura.\n- The annual income of the family of the applicant should not exceed ₹1,00,000/-\n- The applicant should be affected by Cancer/ AIDS/ Leprosy.\n- If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura.\n\n**NOTE:** The assistance under this scheme will be stopped immediately in the following cases:\n1.   Death of Beneficiary.\n2.   Fulfillment of any exclusion criteria during the lifetime of a beneficiary:\n\n- Remarriage of a widow.\n- A member of the family of the beneficiary getting a Government Job.\n- The annual family income of the beneficiary exceeds ₹1,00,000/-.\n\n<br>",
+  "_criteria_filled": 2
+}

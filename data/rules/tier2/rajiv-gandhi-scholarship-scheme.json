@@ -1,0 +1,26 @@
+{
+  "id": "rajiv-gandhi-scholarship-scheme",
+  "name": "Rajiv Gandhi Scholarship Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "**Scholarship Amount:**\n\n1. ₹ 750/- per annum for middle-class students (Class VI to VIII).\n1. ₹ 1,000/- per annum for High and Senior Secondary students (Class IX to XII).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-school-identity-card-previous-years-marksheet-certifying-first-divi"
+  ],
+  "apply_url": "https://cdnbbsr.s3waas.gov.in/s3cf2226ddd41b1a2d0ae51dab54d32c36/uploads/2021/06/2021060221.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/eees",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a student of a government school in Haryana.\n1. The applicant should be studying in Class VI to Class XII.\n1. The applicant should have secured the first position in the preceding class.\n1. The applicant should have obtained a first division in the preceding examination.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "scheme-for-assistance-to-micro-small-and-medium-enterprises-msme-rehabilitation",
+  "name": "Scheme for Assistance to Micro, Small and Medium Enterprises (MSME): Rehabilitation of Sick Enterprises",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Reimbursement:** 50% of the cost of preparing the Draft Rehabilitation Scheme is reimbursed, up to a maximum of ₹1,00,000/-.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "for-general-purpose-registrationapplication-form-in-prescribed-format-copy-of-co",
+    "roc-certificate-etc-copy-of-em-part-ii-registration-or-udhyog-aadhar-last-three"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/samsmerse",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The enterprise must be an MSME (Micro, Small, or Medium Enterprise).\n1. The enterprise must satisfy the RBI guidelines for sickness.\n1. The application must be submitted with audited balance sheets for verification.",
+  "_criteria_filled": 1
+}

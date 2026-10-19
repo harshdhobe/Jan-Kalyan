@@ -1,0 +1,26 @@
+{
+  "id": "scheme-to-provide-grant-to-the-institutionsindividuals-for-long-term-project-in",
+  "name": "Scheme To Provide Grant To The Institution(s)/Individual(s) For Long Term Project In The Field Of Art And Culture",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "- ***Financial Grant:*** Eligible institutions or individuals shall be entitled for a grant to the extent of 80% of the total expenditure involved.- ***Maximum Ceiling:*** The maximum financial grant limit provided under this scheme is ₹5,00,000/- (Indian Rupees Five Lakhs) per annum.- ***Support for Talent and Education:*** The scheme encourages young talents in the State to excel their talent to",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "required-from-institutionscopy-of-constitutionbye-lawsrules-and-regulations-regi"
+  ],
+  "apply_url": "https://artandculture.goa.gov.in/pages/schemes-programmes/financial-assistance-to-long-term-project-in-the-field-of-art-culture",
+  "source_url": "https://www.myscheme.gov.in/schemes/spgiiltpfac",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "##### ***For Institutions***\n\n- The applicant must be registered under the Society’s Registration Act, 1860.\n- The applicant must be registered under the Indian Trust Act.\n- The applicant must be involved in a long term project in the field of Art and Culture.\n\n##### ***For Individuals***\n\n- The applicant must be from the Goan community.\n- The applicant must be a resident of Goa for 15 years or more.\n- The applicant must be involved in a long term project in the field of Art and Culture.\n- The applicant must have contributed at least 15 years in the relevant field.\n\n<br>",
+  "_criteria_filled": 1
+}

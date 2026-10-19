@@ -1,0 +1,36 @@
+{
+  "id": "pension-scheme-for-the-journalists",
+  "name": "Pension Scheme for the Journalists",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Pension Amount of ₹4,000/-** **per month**.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 20000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "two-passport-size-photographs-to-be-countersigned-by-a-government-registered-off"
+  ],
+  "apply_url": "https://cms.tn.gov.in/sites/default/files/forms/journalist_pension_0.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/psftj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a retired journalist.\n1. The age of the applicant should be 58 years or above. \n1. The applicant should have worked full-time for 20 years in one of the posts of teacher, assistant teacher, reporter, photographer, proofreader, or news correspondent.\n1. 10 years of journalism experience is sufficient if the applicant is terminally ill or physically disabled.\n1. The applicant&#39;s annual family income should not exceed ₹20,000/-.\n1. The applicant received gratuity and pension from previous companies should not exceed ₹30,000/-.\n1. In any year when the applicant was employed, their income should not exceed ₹50,000/-.",
+  "_criteria_filled": 3
+}

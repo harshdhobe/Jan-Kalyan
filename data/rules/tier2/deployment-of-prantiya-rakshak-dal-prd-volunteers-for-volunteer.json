@@ -1,0 +1,36 @@
+{
+  "id": "deployment-of-prantiya-rakshak-dal-prd-volunteers-for-volunteer",
+  "name": "Deployment of Prantiya Rakshak Dal (PRD) Volunteers (For volunteer)",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, PRD volunteers are paid a daily honorarium of ₹570/- for providing police assistance and performing duties in various offices.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 42
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "birth-certificate-mobile-number-bank-account-details-permanent-residence-certifi"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dprdv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant must be a youth (male or female) aged between 18 and 42 years.\n1. The applicant must be a Prantiya Rakshak Dal (PRD) volunteer.\n\n<br>",
+  "_criteria_filled": 3
+}

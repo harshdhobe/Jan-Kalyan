@@ -1,0 +1,26 @@
+{
+  "id": "intensive-castration-scheme",
+  "name": "Intensive Castration Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** An amount of ₹500/- subsidy per animal (male calf) for castration by close method (Burdizo Castrator)/open method (Surgical Method).",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "copy-of-barcoded-ration-card-or-institutes-registration-number-copy-of-governmen"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=picXjrkWac6JiCP+hnZI2Q==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/ics",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be an individual livestock owner or an animal-rearing organization (Gaushala/Panjarapol/others).\n  - The male calf must be castrated through the close or open method.",
+  "_criteria_filled": 1
+}

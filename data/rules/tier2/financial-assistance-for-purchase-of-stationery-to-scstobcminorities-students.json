@@ -1,0 +1,31 @@
+{
+  "id": "financial-assistance-for-purchase-of-stationery-to-scstobcminorities-students",
+  "name": "Financial Assistance For Purchase Of Stationery To SC/ST/OBC/Minorities Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Delhi",
+  "scope": "household",
+  "benefit": "**The amount of financial assistance is as followed:**\n\n1. I to VIII class – Rs. 1000/- P.A.\n1. IX to XII class – Rs. 2000/- P.A.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 200000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Delhi"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-aadhaar-card-caste-certificate-residence-proof-in"
+  ],
+  "apply_url": "http://scstwelfare.delhigovt.nic.in/wps/wcm/connect/doit_welfare/Welfare/Home/Citizen+Charter",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant should belong to SC/ST/OBC/Minorities and in support thereof they are required to upload SC/ST/OBC/Minorities certificate issued by concerned district office Delhi.\n1. Application should be resident of Delhi and in support thereof he/she is required to upload a supporting document (Domicile).\n1. The applicant should be studying in Class 1 to 12 in a government/aided/recognized public school.\n1. Student may not opt any centrally sponsored scholarship scheme with the state funded scheme.\n1. Have an annual family income not exceeding INR 2 lakh.\n\n<br>",
+  "_criteria_filled": 2
+}

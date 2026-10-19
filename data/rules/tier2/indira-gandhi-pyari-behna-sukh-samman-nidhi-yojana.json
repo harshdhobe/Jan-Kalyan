@@ -1,0 +1,41 @@
+{
+  "id": "indira-gandhi-pyari-behna-sukh-samman-nidhi-yojana",
+  "name": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "scope": "household",
+  "benefit": "- **Financial Assistance of ₹1500/- per month.**",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 59
+      },
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Himachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "valid-age-certificate-himachali-bonafidenative-certificate-photocopy-of-bank-pas"
+  ],
+  "apply_url": "http://esomsa.hp.gov.in/sites/default/files/PDF/Notification%20Indira%20Gandhi%20Pyari%20Behna%20Sukh-Samman%20Nidhi%20Yojna.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/igpbssny",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The women&#39;s age should be between 18-59 years. \n1. The applicant should be a permanent resident of Himachal Pradesh.\n1. The applicant&#39;s family members do not fall into the following categories: \n\n  - Central/State Government employees/pensioners, contract/outsourced/daily wage earners/part-time, etc. \n  - Category employees, serving/ex-servicemen and military widows, honorarium receiving Anganwadi workers/helpers/ Asha Workers/Mid-Day Meal Workers, Multi-Task Workers, Social Security Pension Beneficiaries, Employees of Panchayat Raj Institutions/Urban Local Bodies, Pensioners/Pensioners working in various Public Undertakings/Boards/Councils/Agencies under Central/State Government, for Goods and Services Tax Be a registered person and income tax payer etc.\n  - Buddhist nuns (Chomo) living permanently in Buddhist monasteries.",
+  "_criteria_filled": 4
+}

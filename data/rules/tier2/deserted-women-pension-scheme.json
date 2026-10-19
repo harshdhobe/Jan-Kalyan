@@ -1,0 +1,36 @@
+{
+  "id": "deserted-women-pension-scheme",
+  "name": "Deserted Women Pension Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- **Pension Amount:** ₹1,200/- per month.- **For Mentally Disabled ill Husband/Wife:** ₹1,400/- per month.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 48000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "applicants-mobile-number-passport-size-photograph-certified-by-gram-pradhan-vpdo"
+  ],
+  "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmOnlineRegisApplicationDistitute.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/dwp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a permanent resident of Uttarakhand.\n1. The applicant’s family monthly income must not exceed ₹4,000/- or the applicant must belong to the Below Poverty Line (BPL) category.\n1. The applicant should fall into one of the following categories:\n\n- An abandoned/deserted married woman, or\n- A mentally ill deserted husband or wife, or\n- A destitute unmarried woman aged above 40 years.\n\n***For abandoned/deserted married women:***\n\n- Marriage duration must be more than 1 year.\n- Husband must have been missing/absent for more than 1 year or must have deserted her.\n- A self-declaration regarding desertion must be certified by the Gram Pradhan/Ward Member.\n\n***For mentally ill deserted husbands/wives:***\n\n- Must submit a disability certificate from a government hospital certifying the inability to earn a livelihood due to mental disability.\n\n***For destitute unmarried women:***\n\n- Must be above 40 years of age.\n- Pension will be discontinued if the woman gets married.\n\n<br>",
+  "_criteria_filled": 3
+}

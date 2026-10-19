@@ -1,0 +1,36 @@
+{
+  "id": "jharkhand-sports-excellence-cash-award-scheme-to-players",
+  "name": "Jharkhand Sports Excellence Cash Award Scheme to Players",
+  "tier": 2,
+  "level": "state",
+  "state": "Jharkhand",
+  "scope": "person",
+  "benefit": "> **Cash Awards for Medal**\n\n<br>\n\nS. NoCompetitionGoldSilverBronzePartnership1Summer/Winter Olympic Games₹5,00,00,000/-₹3,00,00,000/-₹2,00,00,000/-₹7,00,000/-2Paralympic Games₹25,00,000/-₹15,00,000/-₹10,00,000/-₹1,50,000/-3Youth Olympic Games₹25,00,000/-₹15,00,000/-₹10,00,000/-₹1,50,000/-4World Cup/World Championship Senior (every 4 years)₹50,00,000/-₹35,00,000/-₹15,00,000/-₹2,00,000/-World Cup/W",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jharkhand"
+      }
+    ]
+  },
+  "documents": [
+    "non-colorful-passport-size-photo-documents-related-to-participationmedal-achieve",
+    "voter-id",
+    "pan-card",
+    "driving-license",
+    "passport",
+    "or-any-other-valid-id-residential-address-proof-aadhaar",
+    "local-resident-certificate",
+    "voter-id",
+    "driving-license",
+    "passport",
+    "or-ration-card"
+  ],
+  "apply_url": "https://sports.jharkhand.gov.in/notice_docs/2fab3f58Sankalp%20Cash%20Award%20REVISED.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/jsecasp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a sportsperson.\n1. The Athletes must represent Jharkhand in competitions recognized by national/international Olympic committees.\n1. The Athletes must have secured a medal or participated in such competitions.\n1. The record-setting athletes are eligible for additional cash incentives.\n1. Awards for one competition are based on the highest achievement if multiple medals are won.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "assistance-of-concentrate-feed-after-parturition-scheduled-caste-category",
+  "name": "Assistance of Concentrate Feed After Parturition (Scheduled Caste Category)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Name of Component****Standard of assistance****Remarks****Minimum Time Limit (in Years) for Reclaiming Benefits**Concentrate Feed 150 kg BIS type II Concentrate feed per beneficiary100% assistanceEvery year<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "barcoded-ration-card-government-approved-photo-id-aadhaarvoter-card-certificate"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=12ewfiAgGqKRe600IL5Z/w==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/acfapsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a Scheduled Caste (SC) livestock owner.\n1. The applicant must possess the following valid documents:\n\n  - Barcoded ration card.\n  - Government-approved photo ID (e.g., Aadhaar, Voter ID).\n  - Caste certificate issued by a competent authority.\n  - Certificate of calving issued by a Government Livestock Inspector.\n  - Disability certificate from a competent authority (only if the applicant is disabled).",
+  "_criteria_filled": 1
+}

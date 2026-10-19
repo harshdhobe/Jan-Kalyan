@@ -1,0 +1,28 @@
+{
+  "id": "distribution-of-minikits-at-free-of-cost",
+  "name": "Distribution of Minikits At Free of Cost",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Quantum of Assistance:** Subsidy for Minikits.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id",
+    "etc-proof-of-land-ownership-proof-of-maize-cultivation-caste-certificate-for-scs"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6855",
+  "source_url": "https://www.myscheme.gov.in/schemes/domafoc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi.\n- The beneficiary should be involved in maize cultivation.",
+  "_criteria_filled": 1
+}

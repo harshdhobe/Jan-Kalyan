@@ -1,0 +1,26 @@
+{
+  "id": "subsidy-for-orthodox-speciality-tea-unit-for-plant-machinery-under-the-assam-tea",
+  "name": "\"Subsidy for Orthodox & Speciality Tea Unit for Plant & Machinery\" under the \"Assam Tea Industries Special Incentives Scheme\"",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "person",
+  "benefit": "**Benefit Amount:** 25% of the cost of Plant &amp; Machinery.\n**Maximum Amount:** ₹30,00,000/- or 25% of actual cost, whichever is less.\n**Validity Period:** Units starting production on or after 01-04-2020 and before 31-03-2028.\n**Claim Period:** Within 12 months of the start of commercial manufacturing activities.\n**Disbursement Mode:** Direct Benefit Transfer as reimbursement.\n**Post-Selection ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "plant-machinery-purchase-invoice-summary-of-expenditure-incurred-on-plant-machin"
+  ],
+  "apply_url": "https://atisis.assam.gov.in/atsisver/pdfView.html?filename=Notification_ATISIS_2020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sostupm-atisis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**General Eligibility**\n\n- The applicant must be a tea plantation across all sizes.\n- The applicant must be a tea manufacturing unit manufacturing Crush, Tear, Curl Tea, Orthodox Tea, or Speciality tea including Green tea, Oolong Tea, White tea, Yellow tea and Purple tea.\n- The applicant must be located entirely in Assam.\n- The applicant must not have any part of the plantation or manufacturing facility located outside the State of Assam.\n\n<br>\n\n**Plant &amp; Machinery Subsidy Specific Eligibility**\n\n- The applicant must be manufacturing Orthodox tea, Green tea, White tea, Oolong tea, Singhpo tea, Purple Tea, Yellow tea or other Speciality tea (not manufactured through Crush, Tear, Curl process).\n- The applicant must have started production on or after 01-04-2020 and before 31-03-2028.\n- The applicant must be either an entirely new unit or an existing unit which has expanded its capacity by creating additional infrastructure for production of Orthodox and Speciality Tea.\n- The applicant must use all new machinery (no subsidy available on second hand machinery or parts of a machine).\n- The applicant must not have claimed any similar subsidy under any other scheme of the Government of India or the State.\n\n<br>",
+  "_criteria_filled": 1
+}

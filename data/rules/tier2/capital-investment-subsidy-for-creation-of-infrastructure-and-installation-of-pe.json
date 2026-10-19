@@ -1,0 +1,32 @@
+{
+  "id": "capital-investment-subsidy-for-creation-of-infrastructure-and-installation-of-pe",
+  "name": "Capital Investment Subsidy For Creation Of Infrastructure And Installation Of Permanent Facility/ Acquisition Of Equipment/Tents And Facilities To Establish Adventure Tourism, Water Tourism, Water Sports, Cruise/House Boat, Navigation Infrastructure, Amusement Park, Water Park, Sound And Light Show, Laser Show, Camping (Including Tents)",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "- **Capital Subsidy:** The beneficiary is entitled to a subsidy of 15% against the Fixed Capital Investment.- **Maximum Ceiling:** The maximum subsidy amount provided is ₹3,00,00,000/-.- **Qualifying Expenditure:** The subsidy covers the installation of permanent facilities/infrastructure, which includes creating/installing platforms, jetties, equipment, parking sites, electricity facilities, wate",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "identity-and-entity-proofscopy-of-memorandum-and-articles-of-association-if-publ",
+    "etc-copy-of-proof-of-a-legal-authorized-person-from-the-unit-land-and-location-d",
+    "municipality",
+    "etc-project-and-technical-approvalscopy-of-project-report-copy-of-building-permi",
+    "catering-bill",
+    "or-first-bill-of-servicefacility-provided-photographs-of-the-unitproject-from-3",
+    "not-more-than-500-kb-in-size"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/PoliciesandNotifications/Tourism%20Policy%202025.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cisciipfaetfeatwtwschbniapwpslscit",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a private investor or entity establishing a tourism project.\n- The applicant must establish a project in the categories of Adventure Tourism, Water Tourism, Water Sports, Cruise/House boat, Navigation infrastructure, Amusement Park, Water Park, Sound and Light show, Laser show, or Camping (including tents).\n- The applicant must incur a minimum capital expenditure of ₹5,00,000/- as approved by the department.\n- The applicant must ensure the project is established and operationalized during the operative tenure of the Tourism Policy 2025.\n- The applicant must submit the application for the capital subsidy within one year from the date of commencement of operation.\n\n<br>",
+  "_criteria_filled": 1
+}

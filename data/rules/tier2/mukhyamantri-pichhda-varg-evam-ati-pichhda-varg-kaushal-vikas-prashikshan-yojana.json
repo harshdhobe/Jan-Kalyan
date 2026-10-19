@@ -1,0 +1,36 @@
+{
+  "id": "mukhyamantri-pichhda-varg-evam-ati-pichhda-varg-kaushal-vikas-prashikshan-yojana",
+  "name": "Mukhyamantri Pichhda Varg Evam Ati Pichhda Varg Kaushal Vikas Prashikshan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "person",
+  "benefit": "**Free Skill Training:** \n\n- Domain Skilling Programs in various sectors like Apparel, Beauty &amp; Wellness, Construction, Electronics, IT-ITES, Retail, etc.\n\n**Certification:** \n\n- Candidates receive certificates post successful completion of training and assessment.\n\n**Placement Support:** \n\n- Support for employment or self-employment opportunities after course completion.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-income-certificate-residential-certificate-caste-certificate-any-ot"
+  ],
+  "apply_url": "https://bsbcpdcorporation.bihar.gov.in/BSBCFDC/SchemeDetails.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmpveapvkvpy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Bihar.\n1. The applicant should belong to the Backward Class or Extremely Backward Class category.\n1. The applicant should be between 18 and 45 years of age.\n1. The applicant should possess the Aadhaar number (mandatory for Aadhaar-based registration).",
+  "_criteria_filled": 3
+}

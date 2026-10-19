@@ -1,0 +1,26 @@
+{
+  "id": "scheme-of-conferring-kalaichemmal-awards",
+  "name": "Scheme of Conferring ‘Kalaichemmal’ Awards",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "- Financial Assistance of ₹1,00,000/-.\n- Copper Citation Plaque. \n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-of-the-artist"
+  ],
+  "apply_url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_artculture.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/socka",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an eminent artist. \n- The applicant should be a domicile of Tamil Nadu or should be a resident of the state for at least five years.\n- The eminent artist should have outstanding records of achievement in the field of Contemporary or Traditional art.\n- The eminent artist should have continuous involvement in their fields.\n- The eminent artist should have participated in art Exhibitions conducted on behalf of the Government or in the major exhibitions of Art conducted by others.\n- The eminent artist should receive awards at the National-level or State-level art Exhibitions.",
+  "_criteria_filled": 1
+}

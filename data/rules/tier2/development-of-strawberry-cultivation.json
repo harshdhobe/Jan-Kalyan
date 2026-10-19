@@ -1,0 +1,26 @@
+{
+  "id": "development-of-strawberry-cultivation",
+  "name": "Development of Strawberry Cultivation",
+  "tier": 2,
+  "level": "state",
+  "state": "Meghalaya",
+  "scope": "household",
+  "benefit": "> **Pattern of Assistance:**\n\nAssistance to the selected government-run farm and also a scale of 50% subsidies to the strawberry spokes.\n**Type of Assistance and Entitlement (If any):**\n**Sl. No.****Entitlement****Owantum of Assistance**1To promote the production of strawberry fruits by purchasing good quality materials of strawberry runners.100% assistance to the selected beneficiaries.2 Purchase",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Meghalaya"
+      }
+    ]
+  },
+  "documents": [
+    "1-passport-size-photograph-2-identity-proof-3-bank-passbookaccount-details-4-doc"
+  ],
+  "apply_url": "https://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesH.aspx?schid=118",
+  "source_url": "https://www.myscheme.gov.in/schemes/dsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Meghalaya.\n   1. The applicant should be a bonafide farmer engaged in agriculture, possessing own or leased land of at least 200 sqms.\n\n**Note:** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.",
+  "_criteria_filled": 1
+}

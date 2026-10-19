@@ -1,0 +1,41 @@
+{
+  "id": "vrutti-protsaha-loan-scheme",
+  "name": "Vrutti Protsaha Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "Financial Assistance provided totals ₹1,00,000/- in two parts:\n\n- 50% Loan Amount\n- 50% Subsidy Amount",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 103000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "project-report-casteminority-certificate-issued-by-the-competent-authority-incom"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/vpls",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should belong to a religious minority community as defined in the Government Order.\n1. The applicant should be a permanent resident of Karnataka.\n1. The age limit should be between 18 to 55 years.\n1. The annual income of the applicant&#39;s family from all sources should be less than ₹1,03,000/- in urban areas and less than ₹81,000/- in rural areas.\n1. No member of the applicant&#39;s family shall be an employee of the State/Central/ Government PSU.\n1. The applicant and family members should not have availed of benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years.",
+  "_criteria_filled": 4
+}

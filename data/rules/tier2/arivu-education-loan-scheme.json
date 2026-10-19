@@ -1,0 +1,31 @@
+{
+  "id": "arivu-education-loan-scheme",
+  "name": "Arivu Education Loan Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "household",
+  "benefit": "> ***Loan Amount:***\n\n- The loan amount is granted from ₹50,000/- to ₹5,00,000/- every year until the course duration. \n\n<br>\n\n> ***Loan Renewal Process:***\n\n- Renewal and pay 12% of the loan amount issued by the corporation during the previous year at their respective District Office.\n\n<br>\n\n> **Loan Repayment:**\n\n- Repay the loan with service charges of 2% after 6 months of completion of the cou",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 800000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "document-for-fresh-applicationrecent-two-passport-size-photos-of-the-student-stu"
+  ],
+  "apply_url": "https://kmdconline.karnataka.gov.in/Portal/login",
+  "source_url": "https://www.myscheme.gov.in/schemes/aels",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The student should belong to the State Religious Minority Community.\n1. The student should be a permanent resident of the State.\n1. The annual income of the family should not exceed ₹8,00,000/-.",
+  "_criteria_filled": 2
+}

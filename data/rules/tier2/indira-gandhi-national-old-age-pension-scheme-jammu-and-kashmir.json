@@ -1,0 +1,36 @@
+{
+  "id": "indira-gandhi-national-old-age-pension-scheme-jammu-and-kashmir",
+  "name": "Indira Gandhi National Old Age Pension Scheme (Jammu and Kashmir)",
+  "tier": 2,
+  "level": "state",
+  "state": "Jammu And Kashmir",
+  "scope": "household",
+  "benefit": "**Amount of Pension:** ₹1000/- per month.\n**Mode of Disbursement:** The amount is disbursed directly to the beneficiary through bank transfers or money orders.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Jammu And Kashmir"
+      },
+      {
+        "field": "household.bpl",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-identity-proof-ie-voter-id-card-or-driving"
+  ],
+  "apply_url": "https://cdn.s3waas.gov.in/s3f4b9ec30ad9f68f89b29639786cb62ef/uploads/2018/01/2018112294.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignoapsjak",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Jammu and Kashmir.\n1. The applicant should be 60 years of age or older.\n1. The applicant should belong to a Below Poverty Line (BPL) family.",
+  "_criteria_filled": 3
+}

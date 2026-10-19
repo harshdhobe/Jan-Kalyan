@@ -1,0 +1,32 @@
+{
+  "id": "poshan-sudha",
+  "name": "Poshan Sudha",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Nutritional Support:** Provision of one full nutritious meal daily for pregnant and lactating mothers. Supply of iron and calcium supplements to address nutritional deficiencies.  - **Health Education:** Awareness sessions on health and nutrition for better maternal and child care.",
+  "criteria": {
+    "all": [
+      {
+        "field": "gender",
+        "op": "==",
+        "value": "female"
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-eg",
+    "aadhaar-card-proof-of-residence-medical-certificate-of-being-pregnant-any-other"
+  ],
+  "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=294",
+  "source_url": "https://www.myscheme.gov.in/schemes/psgg",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a resident of Gujarat.\n\n  - The applicant must be a pregnant or lactating woman residing in one of the tribal districts of Gujarat.\n  - The applicant must be registered in a local Anganwadi center.",
+  "_criteria_filled": 2
+}

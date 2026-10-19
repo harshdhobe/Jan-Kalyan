@@ -1,0 +1,36 @@
+{
+  "id": "monthly-grant-to-old-crafts-persons-pension-component-of-the-development-of-hand",
+  "name": "\"Monthly Grant To Old Crafts Persons (Pension)\" Component of the \"Development of Handicrafts\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "household",
+  "benefit": "- A monthly grant of ₹2,000/-. This financial assistance continues until the lifetime of the beneficiary, subject to renewal every year. \n- In the case of the craftsperson&#39;s death, the living spouse is entitled to receive ₹1,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 40000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-age-residence-certificate-of-the-union-territory-of-puducherry-evidence"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/mgtocpp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an artisan who has attained the age of 60 years.\n- The artisan should be a native or resident of the Union Territory of Puducherry for at least 5 years.\n- The artisan should have practised the craft for at least 5 years in the Union Territory of Puducherry.\n- The family income from all sources should not exceed ₹40,000 per annum.\n- The applicant should not be a recipient of similar financial assistance from any other source.",
+  "_criteria_filled": 3
+}

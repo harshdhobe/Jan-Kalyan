@@ -1,0 +1,36 @@
+{
+  "id": "rental-housing-scheme",
+  "name": "Rental Housing Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- **Rental Housing Provision:** Provides rental housing to needy people, particularly in urban and semi-urban areas.- **Employment-based Accommodation:** Offers accommodation specifically for Grade Third and Grade Fourth government or semi-government employees.- **Non-government Eligibility:** Benefits eligible non-government individuals without property in the area.- **Urban Development:** Helps ",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 60
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "3-recent-passport-size-photograph-birth-certificate-or-age-proof-certificate-occ"
+  ],
+  "apply_url": "https://ashb.assam.gov.in/how-to/how-to-apply-for-housing-accommodation",
+  "source_url": "https://www.myscheme.gov.in/schemes/rhs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a Grade Third or Grade Fourth government or semi-government employee under Section 15(1) of Assam State Housing Board Rules, 1976.\n- The applicant must be a non-government individual meeting the conditions under Section 15(2) of Assam State Housing Board Rules, 1976.\n- The applicant must not own any landed property in the location where the rental housing is situated.\n- The applicant must fulfill all terms and conditions outlined under Section 15(1) of the Assam State Housing Board Rules, 1976.\n- The applicant must be between 18 years and 60 years of age.\n\n<br>",
+  "_criteria_filled": 3
+}

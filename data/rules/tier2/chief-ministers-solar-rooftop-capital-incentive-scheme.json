@@ -1,0 +1,32 @@
+{
+  "id": "chief-ministers-solar-rooftop-capital-incentive-scheme",
+  "name": "Chief Minister’s Solar Rooftop Capital Incentive Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "person",
+  "benefit": "A capital subsidy of ₹ 20,000 per kilowatt for grid-connected domestic solar PV systems in addition to the 30% subsidy scheme* of the Ministry of New and Renewable Energy (MNRE) of the Government of India. For individual homes/flats, the solar system capacity shall be 1 kW. For the residential flats solar system capacities of 5 kW, 10 kW, and multiples thereof can be applied for common usage as a ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "duly-filled-out-online-application-form-proof-of-possession-of-premises-such-as",
+    "voter-id-card",
+    "or-passport-proof-of-address-such-as-electricity-bill",
+    "telephone-bill",
+    "or-ration-card-site-plan-and-building-layout-plan-indicating-the-location-of-the",
+    "warranty",
+    "and-performance-guarantee-proof-of-payment-for-the-solar-rooftop-system-bank-acc"
+  ],
+  "apply_url": "http://www.teda.in/pdf/CIS_Individual.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsrcis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility for Consumer**\nThe scheme is open to applicants from individual homes/flats and residential flats, having an electricity connection.\n<br>\n\n**Eligibility for Vendor / Installer**\nQualified Solar Installers empanelled by the Tamil Nadu Energy Development Agency through a tendering system under this scheme (www.teda.in/pdf/CIS_INSTALLERS.pdf)",
+  "_criteria_filled": 1
+}

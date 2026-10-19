@@ -1,0 +1,32 @@
+{
+  "id": "banishree-scholarship",
+  "name": "Banishree Scholarship",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "**Rates of Scholarship**\n**A. Inside the State:** \n\n   1. Primary (Standard I to V): ₹400/-\n   1. Middle and High School (Standard VI to VIII and IX to XI) (Not covered by the Government of India Scholarship) : ₹500/-\n   1. College (+2 &amp;amp; +3) (Not covered by the Government of India Scholarship) : ₹600/-\n   1. College (P.G.) (Not covered by the Government of India Scholarship) : ₹700/-\n   1.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 60000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "documents-to-accompany-the-application-each-application-shall-be-accompanied-by",
+    "not-below-the-rank-of-tahasildar-or-any-other-officer-of-equivalent-status-mark"
+  ],
+  "apply_url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Banishree_Scholarship_merged.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/bs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The scheme shall apply to students:**\n\n   1. Pursuing primary education (Std. I to V).\n   1. Reading in middle &amp;amp; high schools (std. VI to X), \n   1. Not covered by Govt. of India Scholarship.\n   1. Reading in colleges/universities, not covered by Government of India Scholarship.\n   1. Reading in special schools registered under PWD, Act 1995, but not receiving grant-in-aid from State/ Central Govt.\n   1. Pursuing distance education through recognized universities/Govt. institutes.\n   1. Pursuing technical/ vocational/ professional education in any of the recognized institutes.\n\n**For the purpose of award of scholarship under the scheme, applications can be submitted subject to fulfilling the following conditions:–**\n\n   1. The applicant must be a bonafide resident of Odisha.\n   1. The applicant should be a regular student of an educational institution.\n   1. The parental/family income of the applicant is not more than ₹60,000/- per annum.\n   1. The applicant is not receiving any financial assistance/stipend/scholarship from State Government/ Central Government under any other scheme.\n   1. The student will continue to get the scholarship if he enrolls and regularly attends any recognized institution irrespective of whether he has passed or not in a particular year.\n\n<br>",
+  "_criteria_filled": 2
+}

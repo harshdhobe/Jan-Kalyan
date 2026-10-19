@@ -1,0 +1,41 @@
+{
+  "id": "dalit-bandhu",
+  "name": "Dalit Bandhu",
+  "tier": 2,
+  "level": "state",
+  "state": "Telangana",
+  "scope": "household",
+  "benefit": "The Dalit Bandhu Scheme in Telangana has several benefits for the Scheduled Caste (SC) families who are eligible for the scheme. Here are some of the benefits:\nFinancial assistance: The scheme provides financial assistance of Rs. 10 lakhs to eligible SC families to start their own businesses or entrepreneurial ventures. This grant can be used to purchase equipment, raw materials, and other resourc",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 25
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 50
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 250000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Telangana"
+      }
+    ]
+  },
+  "documents": [
+    "caste-certificate-bank-account-details-valid-mobile-number-aadhar-card-voter-id"
+  ],
+  "apply_url": "https://dalitbandhu.telangana.gov.in/Home/Index",
+  "source_url": "https://www.myscheme.gov.in/schemes/dalit-bandhu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Here are the eligibility criteria for the scheme:**\n<br>\n\n1. _The scheme is applicable only to families belonging to the SC community._\n1. _The applicant must be a resident of Telangana._\n1. _The family should have an annual income of less than Rs. 2.5 lakh._\n1. _The family should not own more than 3 acres of agricultural land or more than one residential house._\n1. _The applicant should not have availed of any other government loan or subsidy._\n1. _The applicant should have a viable business plan or entrepreneurial idea that can be supported by the grant._\n1. _The applicant should be willing to contribute 10% of the project cost._\n1. _The applicant should have a bank account._\n1. _The applicant should have a digital identity, such as an Aadhaar card._\n1. _The applicant should be between the ages of 25 and 50._\n1. _The applicant should have passed at least the 10th standard._\n1. _The applicant should not have a criminal record or have been convicted of a crime._\n\n<br>\n\nThese eligibility criteria have been put in place to ensure that the scheme benefits those who are most in need of financial assistance to start their own businesses or entrepreneurial ventures. By targeting eligible SC families who meet these criteria, the government aims to ensure that the benefits of the scheme reach the intended beneficiaries and help to reduce economic disparities in the state.\n<br>\n\n**The eligibility criteria for the Dalit Bandhu scheme in Telangana are based on the socio-economic conditions of the Dalit families. According to the Telangana Chief Minister, K. Chandrasekhar Rao, the following parameters will be considered in the eligibility survey:**\n<br>\n\n- ***Land holdings***\n- ***Annual income***\n- ***Savings***\n- ***Liabilities***\n- ***Education***\n- ***Skills***\n- ***Employment status***\n\n<br>\n\nThe eligibility survey will be conducted by a dedicated agency, the Telangana Dalit Bandhu Corporation, which will also provide capacity-building and training programs, as well as support for marketing and access to credit. It is worth noting that the scheme is not based on caste certificates, but on the socio-economic conditions of the families. Eligible Dalit families will receive financial assistance of Rs. 10 lakhs in a phased manner to start their own businesses or ventures.",
+  "_criteria_filled": 4
+}

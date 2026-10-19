@@ -1,0 +1,45 @@
+{
+  "id": "grant-of-financial-assistance-to-the-school-going-children-of-industrial-workers",
+  "name": "Grant of Financial Assistance to the School Going Children of Industrial Workers/Employees Studying in 1st to 4th Standard for Supply of One Set of Uniform",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹1,600/- per student per annum, intended for the purchase of one set of uniforms (shorts/trousers and shirts for male children, and frock for female children).",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 5
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 10
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 240000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-regular-employment-and-service-duration-salary-statementincome-certific",
+    "if-applicable",
+    "issued-by-the-medical-officer-in-the-directorate-of-health-service-or-the-goa-me",
+    "if-applicable",
+    "issued-by-the-competent-authority-bonafide-certificate-from-the-institution-stat"
+  ],
+  "apply_url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/SCHEME-2-converted.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfasgciwes1t4ssosu",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an industrial worker/employee.\n- The applicant should be registered with the Goa Labour Welfare Board.\n- The applicant should have a minimum of 6 months of continuous service to the Board at the time of application.\n- The monthly salary of the applicant should not exceed ₹20,000/-.\n- The age of the child of the applicant should be between 5 to 10 years.\n- The child of the applicant should be studying in 1st to 4th standard.\n- The child of the applicant should be enrolled in a recognized, aided, or private school.\n- Preference is given to workers with no more than two children.",
+  "_criteria_filled": 4
+}

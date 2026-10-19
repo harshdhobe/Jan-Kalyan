@@ -1,0 +1,26 @@
+{
+  "id": "soil-health-card-scheme-uttarakhand",
+  "name": "Soil Health Card Scheme - Uttarakhand",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "household",
+  "benefit": "- To provide Soil Health Cards to all farmers in the state.\n  - The soil of each farmer’s field is tested at soil testing laboratories, which are operational in all 13 districts.\n  - Farmers receive detailed information about the nutrient content of their soil, along with recommendations on the type and quantity of fertilizers best suited for their crops.\n  - Soil testing is provided free of cost ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-residence-certificate-mobile-number"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/shc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer.\n1. The farmer must own agricultural land in the state and be actively engaged in farming activities.\n\n<br>",
+  "_criteria_filled": 1
+}

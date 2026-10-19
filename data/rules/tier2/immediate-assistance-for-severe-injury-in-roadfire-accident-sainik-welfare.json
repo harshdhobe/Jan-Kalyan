@@ -1,0 +1,26 @@
+{
+  "id": "immediate-assistance-for-severe-injury-in-roadfire-accident-sainik-welfare",
+  "name": "Immediate Assistance for Severe Injury in Road/Fire Accident (Sainik Welfare)",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Financial Assistance of ₹25,000/-, credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "identity-card-of-the-esm-widow-of-esm-discharge-certificate-of-ex-serviceman-doc"
+  ],
+  "apply_url": "https://sainik.py.gov.in/assistance-affd-fund",
+  "source_url": "https://www.myscheme.gov.in/schemes/iasirfa-sw",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be an [Ex-serviceman](https://sainik.py.gov.in/definition-ex-servicemen)/Widow of an Ex-serviceman.- The applicant should be [registered ](https://sainik.py.gov.in/registration-procedure)with the Department of Sainik Welfare, Puducherry.\n\n- The applicant should have suffered a severe injury in a Road/Fire Accident.\n- The applicant should not be a member of the Ex-Servicemen Contributory Health Scheme (ECHS).",
+  "_criteria_filled": 1
+}

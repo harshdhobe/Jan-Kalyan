@@ -1,0 +1,30 @@
+{
+  "id": "uttarakhand-tourism-entrepreneur-promotion-scheme",
+  "name": "Uttarakhand Tourism Entrepreneur Promotion Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "> **Stamp Duty Reimbursement:**\n\n**1. Amount:** 100% of the applicable stamp duty.\n**2. Intended Use:** For new eligible tourism units to receive reimbursement on the stamp duty paid on:\n\n  - Sale/lease deeds related to the purchase/lease of land/built-up area for tourism projects, provided the sale/lease deed is executed during the scheme&amp;#39;s validity period.\n  - Loan agreements are made fo",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "salelease-deed-related-to-the-purchaselease-of-landbuilt-up-area-for-tourism-pro",
+    "applicable-if-executed-during-the-scheme-period-and-for-stamp-duty-reimbursement",
+    "applicable-if-executed-during-the-scheme-period-and-for-stamp-duty-reimbursement",
+    "applicable-if-executed-during-the-scheme-period-and-for-stamp-duty-reimbursement",
+    "obtained-through-the-single-window-portal-documents-related-to-capital-assets-ow"
+  ],
+  "apply_url": "https://investuttarakhand.uk.gov.in/themes/backend/acts/act_hindi1725277972.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ukteps",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident/entrepreneur of Uttarakhand.\n1. The applicant&#39;s proposed investment in identified tourism activities/operations should be between ₹1,00,00,000 and ₹5,00,00,000.\n1. The applicant&#39;s unit should be registered as a sole proprietorship/partnership/LLP/private limited company, or any other legal entity. The participation in all these companies/organizations must be exclusively by permanent residents/entrepreneurs of Uttarakhand.\n1. The applicant&#39;s unit should be established on fully owned land. If the unit is to be built on leased land, the remaining lease period must be more than 10 years.\n1. The applicant should obtain in-principle approval (CAF) through the Single Window Portal under the Uttarakhand Udhyam Ekul Khidki Sugamata aur Anugyapan Adhiniyam, 2012 (as amended), prior to establishing a new unit or expanding an existing one. This is necessary for the grants mentioned under this scheme.\n1. The applicant&#39;s unit should provide a minimum of 70% permanent local employment.\n1. The applicant&#39;s tourism unit should be mandatorily registered with the State Goods and Services Tax Department.\n1. Units that commence commercial operations under this scheme within 180 days from the date of the notification will need to submit documentation and records for capital investment assistance in a comprehensive and clear manner.\n1. The right to interpret the rules/provisions of this scheme, or to add, remove, or modify new tourism activities, is vested with the Uttarakhand Government.",
+  "_criteria_filled": 1
+}

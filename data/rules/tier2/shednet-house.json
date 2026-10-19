@@ -1,0 +1,29 @@
+{
+  "id": "shednet-house",
+  "name": "Shednet House",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "household",
+  "benefit": "> **For a maximum area of 4000 square meters**\n\n1. 50 percent subsidy is given to general-category farmers.\n1. 70 percent subsidy is given to small, marginal, scheduled caste, and scheduled tribe farmers.\n\n<br>\n\n> **In compliance with the Chief Minister&#39;s budget announcement, 25 percent additional grant is being given to all the small and marginal category farmers of the state along with the f",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-janadhar-card-copy-of-jamabandi-not-more-than-six-months-old-soil-an",
+    "marginal",
+    "scheduled-caste",
+    "and-scheduled-tribe-farmers"
+  ],
+  "apply_url": "https://rajkisan.rajasthan.gov.in/Rajkisanweb/Kisan",
+  "source_url": "https://www.myscheme.gov.in/schemes/sh",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n1. The applicant should be a native of Rajasthan.\n1. The applicant must have agricultural land ownership and irrigation sources.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "scheme-for-assistance-for-start-ups-innovation-interest-subsidy",
+  "name": "Scheme for assistance for Start Ups/ Innovation: Interest Subsidy",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Financial Support:** Interest subsidy of 1%, maximum up to 9% on term loans under the provisions of scheme for assistance to MSMEs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "registration-proof-as-a-startupinnovator-detailed-project-proposal",
+    "including-innovative-ideaconcept-recommendation-letter-from-the-approved-nodal-i"
+  ],
+  "apply_url": "https://ic.gujarat.gov.in/documents/commondoc/2020/13-GR_02092020.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/sfasiis",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n  - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n&gt; **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.",
+  "_criteria_filled": 1
+}

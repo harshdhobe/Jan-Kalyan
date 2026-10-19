@@ -1,0 +1,36 @@
+{
+  "id": "deen-dayal-upadhyaya-swawlamban-yojana",
+  "name": "Deen Dayal Upadhyaya Swawlamban Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "scope": "person",
+  "benefit": "1. The applicant receives a 40% front-ended capital investment subsidy to eligible beneficiaries for setting up small and medium enterprises.\n   1. The applicant can avail of a loan ranging from ₹10,00,000/- up to ₹50,00,000/- for the project cost, excluding the cost of land and building. \n   1. The applicant (specifically women entrepreneurs) is eligible for an additional 5% interest subsidy annu",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 45
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Arunachal Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhaar-card-proof-of-residence-proof-of-business-address-no-d"
+  ],
+  "apply_url": "https://ddusyarunachal.in/",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddusy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must belong to Arunachal Pradesh.\n   1. The applicant must be an unemployed individual. \n   1. The applicant must be between 18 and 45 years of age. \n   1. The applicant must have a minimum educational qualification of Class XII passed or its equivalent (10+2). \n   1. The applicant must possess a bankable and viable project proposal in any of the following sectors: \n\n  - Food-processing units in agriculture, horticulture and allied sectors include packaging, cold chain, cold storage, milk processing, etc.\n  - Eco-tourism, including home stays and tour operators.\n  - Traditional textile weaving forthe modernisation of traditional looms and purchase of new looms to start a new weaving unit.\n  - To be set up Small-scale manufacturing units/bamboo processing units/service centres/ diagnostic\n\n&gt; **Preference/Priority/Relaxation:**\n\n   1. The applicant will be given preference if they hold a Degree/Diploma in Tourism &amp;amp; Hospitality, Information Technology (IT), or from an Industrial Training Institute (ITI).\n   1. The applicant will be given preference if they contribute more than the minimum mandatory own contribution.\n   1. The applicant will be given preference for opening medical clinics or diagnostic centers in Border Community Development (CD) blocks.\n   1. The applicant will be given preference if the project is a manufacturing unit.\n\n&lt;br&gt;\n\n<br>",
+  "_criteria_filled": 3
+}

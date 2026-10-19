@@ -1,0 +1,26 @@
+{
+  "id": "gagan-bharari-shiksha-yojana-for-obc-dhangar-students",
+  "name": "Gagan Bharari Shiksha Yojana for OBC (Dhangar) Students",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "person",
+  "benefit": "**Additional Maintenance Allowance**\n\n- Day Scholars: ₹750 per month\n- Hostel Residents: ₹1,500 per month\n\n**Duration:** 10 months during the academic year\n<br>\n\n**Additional Disability Allowance**\nAmount: ₹750 per month\n**Duration:** 10 months during the academic year",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-caste-certificate-valid-for-3-years-from-date-of-issue-income-certi"
+  ],
+  "apply_url": "https://cmscholarship.goa.gov.in/SchemesDetails.aspx#",
+  "source_url": "https://www.myscheme.gov.in/schemes/gbsyobc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Student. \n- The applicant should belong to the OBC (Dhangar) community.\n- The applicant should have availed (or be eligible for) the Centrally Sponsored Post Matric Scholarship during the current academic year.",
+  "_criteria_filled": 1
+}

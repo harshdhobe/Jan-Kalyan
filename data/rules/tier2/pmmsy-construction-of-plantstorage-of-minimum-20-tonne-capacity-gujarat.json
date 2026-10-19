@@ -1,0 +1,26 @@
+{
+  "id": "pmmsy-construction-of-plantstorage-of-minimum-20-tonne-capacity-gujarat",
+  "name": "PMMSY: Construction of  Plant/Storage of Minimum 20 Tonne Capacity - Gujarat",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "> **Construction of Ice Plant/Storage (minimum 20 tonne capacity):** \n\n- Unit cost is ₹80,00,000/-. The amount of assistance for the beneficiary of general category will be 40% of the unit cost and for the beneficiary of women and ST/SC category the amount of assistance will be available at the rate of 60% of the unit cost.\n- The benefit will be available as per the target (category) allocated by ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhar-card-quotation-caste-certificate-if-applicable-fishing-license-passport-s"
+  ],
+  "apply_url": "https://cof.gujarat.gov.in/Home/SchemesDetailsPage/o4rkgGvkhO9IQUTkb5zosA%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsyc2guj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a native of Gujarat state.\n1. The applicant should have a fishing boat registered under Real Craft software.\n1. The applicant should hold a fishing license.\n1. The applicant should complete the online registration on the [iKhedut Portal](https://ikhedut.gujarat.gov.in/site/).1. The applicant should obtain in-principle approval before purchase of the floor plan.\n1. The applicant should have his/her own bank account.\n\n> **Preference/Reservation/Relaxation:**\n\n  - Women, SC, and ST beneficiaries are eligible for 60% assistance of the unit cost.\n  - General category beneficiaries are eligible for 40% assistance of the unit cost.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sant-ravidaas-shiksha-protsaahan-yojana",
+  "name": "Sant Ravidaas Shiksha Protsaahan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "**Financial Support:**\n\n1. **Lump sum amounts awarded for different grades and courses**\n\n  - Class 1-5: ₹2,000/-\n  - Class 6-10: ₹2,500/-\n  - Class 11-12: ₹3,000/-\n  - Undergraduate: ₹12,000/-\n  - ITI/Polytechnic/Vocational: ₹12,000/-\n  - Following professional degrees course (minimum 2 years): Fees or up to ₹60,000/-\n\n         1. Management - MBA, BBA\n         1. Engineering - B.Tech and B.Arch,",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "mark-sheets-fee-receipts-for-current-and-next-class-self-certified-copies-of-mar",
+    "next-class-fee-receipt",
+    "school-admissioneducation-certificate-self-declaration-letter-confirming-no-othe"
+  ],
+  "apply_url": "https://www.uplmis.in/Guest/frm_CreateLogin.aspx?type=2",
+  "source_url": "https://www.myscheme.gov.in/schemes/srspy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker must be registered with the Board and be actively updated.\n1. The construction worker must have completed at least one year (365 days) of membership with the Board after registration.\n1. The age of the child should be as follows according to the class on July 1 of each year:\n\n  - Class 1 and 2: Maximum age 6 to 8 years\n  - Class 3 to 5: Maximum age 8 to 11 years\n  - Class 6 to 8: Maximum age 11 to 14 years\n  - Class 9 to 12: Maximum age 14 to 18 years\n  - Graduate and postgraduate: Maximum age 18 to 25 years\n  - Graduate (MBBS) and postgraduate degree/diploma in medicine from any government educational institution: Maximum age 25 to 35 years\n  - Research in any subject: Maximum age 25 to 35 years\n  - Study at Indian Institute of Management (IIM), Indian Institute of Technology (IIT), National Institute of Technology (NIT), National Institute of Fashion Technology (NIFT), and National Law University: Maximum age 25 to 35 years\n\n1. Aadhaar certification of the construction worker&#39;s children is required for the benefits of the scheme.\n1. The child must be enrolled in an educational institution that is recognized by a government-established education board/university.\n1. The benefits will be payable to a maximum of two children of registered construction workers.\n1. Registered construction workers&#39; sons/daughters will be eligible to receive a subsidy for purchasing a bicycle to go to school after passing class 9, 10, 11, or 12 and entering the next class.",
+  "_criteria_filled": 1
+}

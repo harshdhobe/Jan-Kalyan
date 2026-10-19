@@ -1,0 +1,27 @@
+{
+  "id": "grant-of-margin-money-for-availing-capital-loan-component-of-the-development-of",
+  "name": "\"Grant of Margin Money for Availing Capital Loan\" Component of the \"Development of Coir\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- 25% margin money, capped at ₹25,00,000, upon receipt of a financial institution&#39;s sanction order for a project worth ₹1,00,00,000.\n- The loan amount will be released to the bank on behalf of the entrepreneurs.\n- The commercial production should commence within six months of the Margin Money Grant release.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "loan-sanction-letter-from-the-financial-institution-undertaking-letter-from-the",
+    "assuring-successful-operation-for-five-years-post-establishment-proof-of-unit-es"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/gmmacl-dc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The coir unit must be established in Puducherry.",
+  "_criteria_filled": 1
+}

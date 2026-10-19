@@ -1,0 +1,26 @@
+{
+  "id": "atal-awasiya-vidyala-yojana",
+  "name": "Atal Awasiya Vidyala Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "scope": "person",
+  "benefit": "1. Free education, accommodation, and meals\n1. Medical facilities\n1. Sports and recreational activities\n1. Access to a nurturing environment that fosters personal growth",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttar Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "parents-labor-registration-cards-child-birth-certificate-mark-sheet-of-previous"
+  ],
+  "apply_url": "https://www.upbocw.in/pdf/adhisuchna/atal_awasiya_vidyalaya_scheme_100423.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/aavy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Children destitute during the Corona period, identified by the Women Welfare Department, Lucknow.\n1. Children for the Chief Minister Child Service Scheme (General) are eligible.\n1. Orphan children and offspring of duly registered construction workers, who have completed at least 01 year (365 days) membership period of the board after registration.\n1. A maximum of 02 children per registered worker can avail educational benefits.",
+  "_criteria_filled": 1
+}

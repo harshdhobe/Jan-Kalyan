@@ -1,0 +1,36 @@
+{
+  "id": "providing-latest-technology-to-group-of-pottery-artisans-energy-efficient-kiln",
+  "name": "Providing Latest Technology to Group of Pottery Artisans (Energy Efficient Kiln)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Financial Assistance:** 100% financial assistance is provided on development of the kiln with unit cost of ₹83,000/-.\n**Technology Provision:** Energy-efficient furnaces are provided to improve productivity and quality.\n**Health Benefits:** Reduced health risks for pottery artisans through improved technology.\n<br>\n\n> **Mode and Frequency of Disbursement**\n\n- The assistance will be given only in",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 58
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-application-stagerequired-details-and-certificates-as-specified-in-the-applic"
+  ],
+  "apply_url": "https://e-kutir.gujarat.gov.in/index.aspx?ServiceID=15",
+  "source_url": "https://www.myscheme.gov.in/schemes/pltgpa-eek",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be registered clay artisans and potters eligible for the scheme on 100% subsidy basis.\n- The applicant must be directly involved in the pottery business and carry out pottery activity.\n- The applicant must be in the age group of 18 to 58 years.\n- The applicant must be part of a group doing at least 2 (two) pottery.\n- The applicant must have at least 800 to 1000 square feet of open space in their own rent lease or for at least five years on the date on which they apply for pottery business.\n- The applicant must be associated with pottery in the state of Gujarat only.\n\n**Post-Selection Conditions**\n\n- The applicant must adhere to the policy rules of the institute as well as the norms regarding the construction of the kiln.\n- The applicant must use the energy-saving furnace only for pottery business.\n- The applicant must compulsorily use the energy-saving furnace as per the guarantee letter given unanimously.\n\n<br>",
+  "_criteria_filled": 3
+}

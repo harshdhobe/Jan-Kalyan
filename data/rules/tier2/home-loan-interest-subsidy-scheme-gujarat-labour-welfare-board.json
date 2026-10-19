@@ -1,0 +1,27 @@
+{
+  "id": "home-loan-interest-subsidy-scheme-gujarat-labour-welfare-board",
+  "name": "Home Loan Interest Subsidy Scheme- Gujarat Labour Welfare Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. The scheme offers a 3% Interest Subsidy to workers employed in the organized sector for purchasing their own house.\n\n**Note 01:** The maximum loan on a house purchased by a worker is ₹15 lakhs or an interest subsidy of 3% taking into account the bank interest on the loan actually taken, whichever is less.\n**Note 02:** The assistance amount will be credited to the beneficiary&amp;#39;s bank acco",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-a-copy-of-the-identity-card-issued-by-the-contractor-to",
+    "contact-the-concerned-factoryestablishment-official"
+  ],
+  "apply_url": "https://glwb.gujarat.gov.in/hli-subsidy-scheme.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/hliss-glwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The workers who are working in the organized sector in the state of Gujarat will be eligible to get the benefit of this scheme.\n   1. The workers should have been working continuously with the Factory/Company/Organization for one year and his/her Labour Welfare Fund should have been deposited in the board.\n   1. The purchase price of the house is a maximum of ₹30 lakhs.\n   1. The loan tenure should be 15 years or more.\n   1. Home loans should be taken from Nationalized/Scheduled Bank/NBFC only.\n   1. Application has to be made within one year from the date of purchase document.",
+  "_criteria_filled": 1
+}

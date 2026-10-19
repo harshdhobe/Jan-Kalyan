@@ -1,0 +1,29 @@
+{
+  "id": "pathari-kshetr-talab-nirman-aadharit-matsya-paalan-ki-yojana",
+  "name": "Pathari Kshetr Talab Nirman Aadharit Matsya Paalan ki Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Bihar",
+  "scope": "household",
+  "benefit": "- **Maximum Subsidy per Beneficiary:** 80% of ₹16.70 lakh per acre.- **Subsidy Installments:** 60% after pond construction, 40% after installation of related units and purchase of inputs.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Bihar"
+      }
+    ]
+  },
+  "documents": [
+    "photograph-of-the-proposed-land-mobile-number",
+    "bank-branch-name",
+    "account-number",
+    "ifsc-code-attested-copies-of-aadhar-cardration-cardvoter-id-card-land-map-caste"
+  ],
+  "apply_url": "https://fisheries.bihar.gov.in/docs/pathari23-24.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/pktnampy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must own or lease land in the identified plateau-dominated districts. \n1. A person/family should construct a pond of a maximum of one acre and a minimum 0.4-acre water area i.e. 0.5-acre area.\n1. The applicant should install a concrete board on the pond. \n1. The board should be made of an iron sheet of size 4 feet x 3 feet, standing four feet at an iron angle, on which the description will be written with paint.",
+  "_criteria_filled": 1
+}

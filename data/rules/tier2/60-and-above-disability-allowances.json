@@ -1,0 +1,42 @@
+{
+  "id": "60-and-above-disability-allowances",
+  "name": "60% and above Disability Allowances",
+  "tier": 2,
+  "level": "state",
+  "state": "Tripura",
+  "scope": "household",
+  "benefit": "Pension of ₹2,000/- per month.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 10
+      },
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 100000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tripura"
+      },
+      {
+        "field": "has_disability",
+        "op": "==",
+        "value": true
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-income-certificate",
+    "issued-by-the-local-dcmsdm-not-applicable-for-bpl-family-passport-size-photograp"
+  ],
+  "apply_url": "https://socialwelfare.tripura.gov.in/sites/default/files/Citizen%20Charter.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/da-60ada",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a resident of Tripura.\n1. The applicant should be a Person with Disability.\n1. The percentage of disability should be 60% and above.\n1. The applicant&#39;s age should be 10 years and above.\n1. The family income of the applicant should be ₹1,00,000/- per annum.\n1. None of the family members of the applicant should be a government employee.",
+  "_criteria_filled": 4
+}

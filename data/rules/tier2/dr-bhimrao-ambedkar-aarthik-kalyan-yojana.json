@@ -1,0 +1,37 @@
+{
+  "id": "dr-bhimrao-ambedkar-aarthik-kalyan-yojana",
+  "name": "Dr. Bhimrao Ambedkar Aarthik Kalyan Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "household",
+  "benefit": "7% interest subsidy on loans for up to 5 years.",
+  "criteria": {
+    "all": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 18
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 55
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-passport-size-photograph-proof-of-residence-ration-card-optional-ba",
+    "copy-of-bank-passbook-caste-certificate-if-applicable-age-certificate-registrar"
+  ],
+  "apply_url": "https://govtpressmp.nic.in/pdf/extra/2022-05-13-Ex-249.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbaaky",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be between 18 and 55 years of age.\n1. The applicant should not be an income tax payer.\n1. The applicant should not be a defaulter of any bank or financial institution, such as MFI, NBFC, SFB, or PACS.\n1. The applicant should not currently be a beneficiary of any other self-employment scheme from the state or central government.\n1. The applicant&#39;s family income should meet the following definition:\n\n- If unmarried: Includes the applicant and dependent parents.\n- If married: Includes the applicant, spouse, and dependent children (no age limit for dependent, unmarried children).",
+  "_criteria_filled": 3
+}

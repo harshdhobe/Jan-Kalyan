@@ -1,0 +1,27 @@
+{
+  "id": "remembering-tiatr-artistes-of-yesteryears-organisation-of-special-dedicated-prog",
+  "name": "Remembering Tiatr Artistes of Yesteryears - Organisation of Special Dedicated Programmes",
+  "tier": 2,
+  "level": "state",
+  "state": "Goa",
+  "scope": "household",
+  "benefit": "**Financial Assistance:** Tiatr Academy of Goa will provide financial assistance as fixed by Tiatr Academy of Goa for each show.\n**Infrastructure Support:** Provision of auditorium/hall to stage the programme.\n**Village Performances:** Financial assistance as fixed by Tiatr Academy of Goa for erecting temporary pandal, providing stage, sound, etc. for village performances.\n**Additional Shows:** Op",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Goa"
+      }
+    ]
+  },
+  "documents": [
+    "at-time-of-applicationprescribed-application-form-available-in-the-office-of-tia",
+    "000-5-copies-of-photographs-of-the-function-for-records-two-of-which-should-show"
+  ],
+  "apply_url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/rtay-osdp",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a troupe, institution, or individual.\n- The applicant must wish to produce and stage a special programme dedicated to a particular artiste of yesteryears.\n- The applicant must obtain No Objection Certificate from the nearest family members of the late artiste.\n- The applicant must invite family members compulsorily for the function.\n- The applicant must stage the inaugural show preferably in Panjim, Margao or in the village of the artiste where he resided.\n- The applicant must submit the proposal well in advance giving all details of the programme including script and lyrics to be presented including the names of the artistes.\n- The applicant must comply with all conditions specified by Tiatr Academy of Goa.\n- The applicant must not make any adverse remark in any form either written or verbal against any Governments/Individuals/Institutions in the scripts/song lyrics/performances/speeches.\n- In all advertisements, oral, print or electronic media, banners, etc., the following must be inserted/published/announced: &#39;This programme is held in collaboration with Tiatr Academy of Goa&#39;.\n\n_* Tiatr Academy of Goa has no objection if sponsorship is taken by the producer from other sources._\n<br>\n\n***Programme Content Requirements***\n\n- The programme must include staging of tiatr/one-act plays written by the artistes of yesteryears.\n- The programme can include musical activities such as songs and music composed and sung by the late artiste if he/she was a singer or music composer/musician.\n- The programme should include narration of history of the life of the late artiste to whom the programme is dedicated.\n\n<br>",
+  "_criteria_filled": 1
+}

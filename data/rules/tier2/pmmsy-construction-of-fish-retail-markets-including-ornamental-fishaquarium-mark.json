@@ -1,0 +1,29 @@
+{
+  "id": "pmmsy-construction-of-fish-retail-markets-including-ornamental-fishaquarium-mark",
+  "name": "PMMSY: Construction of Fish Retail Markets including Ornamental Fish/Aquarium Markets - Haryana",
+  "tier": 2,
+  "level": "state",
+  "state": "Haryana",
+  "scope": "person",
+  "benefit": "The scheme provides a subsidy for the construction of fish retail markets, including ornamental fish or aquarium markets. The project cost is ₹1,00,00,000/- per unit.\n**The subsidy provided is:**\n\n- 40% of the project cost is for beneficiaries belonging to the General Category.\n- 60% of the project cost is for beneficiaries belonging to the Scheduled Caste (SC) or Women categories.\n\n<br>\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Haryana"
+      }
+    ]
+  },
+  "documents": [
+    "agreement-1-agreement-deed-between-beneficiary-and-fisheries-department-date-of",
+    "tehsildar-training-certificate-of-beneficiary-land-record-from-tehsil-own-land-j",
+    "nakal-akshizra-farad",
+    "or-registered-lease-deed-of-minimum-10-years-billsreceiptsvouchers-photographs-o"
+  ],
+  "apply_url": "https://kms.saralharyana.nic.in/ViewDoc?Id=7uNHI/+kwtha7DFPYA+bRQ==",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsycrmhr",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must have a Parivar Pehchan Patra (PPP).\n1. The applicant must submit an undertaking in the Detailed Project Report (DPR)/Self-Contained Proposal (SCP) stating that all operational, maintenance, and post-construction management costs of the infrastructure facilities will be borne by them.\n1. The applicant must commit to keeping the fish market in operational condition for 10 years.\n1. The applicant must agree to permanently display a board at the infrastructure facility indicating that the fish market was constructed with Central Assistance under the Pradhan Mantri Matsya Sampada Yojana (PMMSY).\n1. Central assistance will be restricted to one unit per individual beneficiary.\n1. Projects with land on a long-term registered lease will also be considered for Central financial assistance. The registered lease period or agreement must not be less than a minimum period of 10 years.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "grant-to-silk-societiesagency-component-of-the-development-of-silk-scheme",
+  "name": "\"Grant to Silk Societies/Agency\" Component of the \"Development of Silk\" Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "Grant of ₹2,00,000 per annum for 5 years, allocated for Administrative and Marketing expenses.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-societyagency-registration-membership-details-of-silk-weaving-artisans"
+  ],
+  "apply_url": "https://dic.py.gov.in/application-forms-download-area",
+  "source_url": "https://www.myscheme.gov.in/schemes/gssa-ds",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a Society/Agency.\n- The Society/Agency should be registered under either the Co-operative Society Act or the Society Act.\n- The members of the Society/Agency should be silk-weaving artisans.\n- The Society/Agency should exclusively deal with silk products produced by artisans in Puducherry.",
+  "_criteria_filled": 1
+}

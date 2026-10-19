@@ -1,0 +1,26 @@
+{
+  "id": "nekar-samman-yojana",
+  "name": "Nekar Samman Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Karnataka",
+  "scope": "person",
+  "benefit": "Benefits\nThe assistance of Rs.2000/- is transferred to the beneficiaries through the mode of Direct Benefit Transfer (DBT) mode\nFinancial assistance to registered handloom weavers under the “Nekara Samman Yojana” has been increased from Rs 2,000 to Rs 5,000 as per the budget for 2022-23.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Karnataka"
+      }
+    ]
+  },
+  "documents": [
+    "list-of-the-required-documents-aadhaar-card-ration-card-proof-of-resident-bank-a"
+  ],
+  "apply_url": "https://www.karnatakadht.org/english/handlooms-schemes.php",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**Eligibility**\n\n1. The beneficiary must be a resident of Karnataka. They must have a valid resident certificate.\n1. All the weavers and financially distressed workers engaged in the handloom/ power loom industry and ancillary activities such as cotton, wool, and silk in the state are eligible.  \n1. Prospective beneficiaries must have an active bank account.",
+  "_criteria_filled": 1
+}

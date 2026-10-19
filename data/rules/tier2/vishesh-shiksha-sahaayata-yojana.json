@@ -1,0 +1,27 @@
+{
+  "id": "vishesh-shiksha-sahaayata-yojana",
+  "name": "Vishesh Shiksha Sahaayata Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Chhattisgarh",
+  "scope": "household",
+  "benefit": "1. For registered workers who pass away after one year of registration, the Board will issue special registration cards.\n1. These children will be eligible for the benefits of the Naunihal Scholarship Scheme, Meritorious Students Education Incentive Scheme, and Technical Education Scheme.\n1. Benefits will be granted to the first two eligible children of the deceased worker.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Chhattisgarh"
+      }
+    ]
+  },
+  "documents": [
+    "original-copy-labor-registration-card-of-either-the-mother-or-father-of-the-bene",
+    "it-will-be-mandatory-to-scan-only-the-original-documents-and-upload-them-online"
+  ],
+  "apply_url": "https://govtschemes.in/sites/default/files/2023-04/Chhattisgarh%20Shramik%20Vishesh%20Shiksha%20Sahyta%20Yojna%20Guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vssy",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Construction workers (parents) should be registered.\n1. Construction workers (parents) are dead with in one year of registration with labor board.\n1. Only the first two children of registered construction workers will be eligible.\n1. Children will not be eligible if any other registered construction workers are in the family (parents) other than the deceased worker.",
+  "_criteria_filled": 1
+}

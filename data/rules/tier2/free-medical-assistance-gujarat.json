@@ -1,0 +1,31 @@
+{
+  "id": "free-medical-assistance-gujarat",
+  "name": "Free Medical Assistance (Gujarat)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "Financial assistance is provided to Scheduled Tribe individuals for medical treatment. The revised rates, effective from April 1, 2024, are as follows:\n<br>\n\n**S. No.****Name Of Disease****Current rate of assistance****Proposed Rate of Assistance****A Type:**1In Serve Cases Of Labour₹500/- per case₹2,000/- per case2For Female Genital Mutilation₹150/- per case₹2,000/- per case3Decay₹500/- every mon",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-income-certificate-certified-copy-of-house-tax-caste-certificate-pa"
+  ],
+  "apply_url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmaguj",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should belong to Gujarat.\n- The applicant should belong to a Scheduled Tribe.\n- The applicant&#39;s family income must be less than or equal to ₹6,00,000/-.\n- For HIV/AIDS patients, the annual income limit is ₹27,000/- for rural areas and ₹35,000/- for urban areas.\n\n<br>",
+  "_criteria_filled": 2
+}

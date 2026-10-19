@@ -1,0 +1,26 @@
+{
+  "id": "semi-commercial-duck-farming",
+  "name": "Semi-Commercial Duck Farming",
+  "tier": 2,
+  "level": "state",
+  "state": "Odisha",
+  "scope": "household",
+  "benefit": "- The individual beneficiary will be provided a maximum of 40% subsidy.\n- Training will be organized at the Block Head Quarter level or any other convenient place after the final approval of the list.\n- Each beneficiary will be trained on recommended management practices on feeding and watering, brooding and rearing young ducks, record keeping, etc.\n- The concerned Livestock Inspectors, Gomitras a",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Odisha"
+      }
+    ]
+  },
+  "documents": [
+    "identification-proof-aadhaar-card-aadhaar-linked-bank-ac-no-with-ifs-code-for-db"
+  ],
+  "apply_url": "https://sugam.odisha.gov.in/website/home/scheme-list",
+  "source_url": "https://www.myscheme.gov.in/schemes/scdf",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a permanent resident of Odisha.\n1. Individuals, farmers, and entrepreneurs will be eligible to avail of support under the scheme.\n1. All beneficiaries covered under the Scheme should mandatorily be Aadhaar linked to avoid duplication.\n1. The beneficiaries who have availed of subsidy previously in a similar scheme should not be included.",
+  "_criteria_filled": 1
+}

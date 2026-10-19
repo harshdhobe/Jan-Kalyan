@@ -1,0 +1,43 @@
+{
+  "id": "scheme-for-purchase-of-mobile-sales-van",
+  "name": "Scheme for Purchase of Mobile Sales Van",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "- Financial assistance is provided for purchase of new mobile sales vans for stocking display sales of KVI products and also to, transport of raw materials for producing KVI Products.\n- The loan limit must not exceed ₹3,00,000/- per vehicle.\n- The number of vehicles should not exceed six.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "the-loan-limit-per-vehicle-is-3",
+    "00",
+    "000",
+    "hence-the-checklist-for-loans-up-to-1000-lakhs-is-applicable-checklist-for-loan",
+    "small",
+    "and-medium-enterprises-registration-certificate-obtained-from-industries-departm",
+    "voters-identity-card",
+    "ration-card",
+    "aadhaar-card",
+    "and-bank-pass-book-profitability-statement-detailing-monthly-sales-income-and-ex",
+    "municipal-panchayat-permission",
+    "and-pollution-clearance-if-applicable-original-title-deed",
+    "antecedent-title-deeds",
+    "encumbrance-certificate-for-30-years",
+    "valuation-certificate-from-approved-panel-valuer-of-pondicherry-industrial-promo",
+    "field-measurement-book-copy",
+    "patta-copy",
+    "and-legal-opinion-report-for-collateral-security-property"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/spmsv",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "Individuals / Partnership Concerns / Private Limited / Public Limited Companies experienced in marketing of Village &amp; Small Industries (VSI) products are eligible.\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "national-mission-on-edible-oiloil-palm-planting-materials",
+  "name": "National Mission on Edible Oil–Oil Palm: Planting Materials",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "- **For Locally Sourced Planting Materials.:** ₹20,000/- per hectare   - **For Imported Plants (including transportation cost):** ₹29,000/- per hectare\n> **Note:** For imported seedlings (along with transportation cost) the assistance will be admissible as per the holding of land held by the farmer.\n\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-record-7-12-and-8-a-bank-passbookcancelled-cheque-caste-certif"
+  ],
+  "apply_url": "https://doh.gujarat.gov.in/Home/SchemesDetailsPage/qEITCG3U50OobCZFAdsNeQ%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/nmoeppm",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant should be a farmer.\n  - The applicant should be a resident of Gujarat.\n\n<br>",
+  "_criteria_filled": 1
+}

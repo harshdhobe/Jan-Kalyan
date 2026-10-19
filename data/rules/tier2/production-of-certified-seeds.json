@@ -1,0 +1,27 @@
+{
+  "id": "production-of-certified-seeds",
+  "name": "Production Of Certified Seeds",
+  "tier": 2,
+  "level": "state",
+  "state": "Tamil Nadu",
+  "scope": "household",
+  "benefit": "- **Financial Assistance:** A subsidy of ₹,1000/- per quintal.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Tamil Nadu"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-identity-aadhar-card",
+    "voter-id-land-ownership-documents-or-lease-agreement-certification-of-seed-produ"
+  ],
+  "apply_url": "https://www.tn.gov.in/scheme/data_view/6895",
+  "source_url": "https://www.myscheme.gov.in/schemes/pocs",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The beneficiary should be a Farmer.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should raise seed farms with Pulses crops.",
+  "_criteria_filled": 1
+}

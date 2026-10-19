@@ -1,0 +1,33 @@
+{
+  "id": "vahan-aksmat-sahay-scheme",
+  "name": "Vahan Aksmat Sahay Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "**Medical Treatment Packages**\nComprehensive treatment packages ranging from ₹1,000/- to ₹45,000/- covering various types of injuries:\n<br>\n\n**Package-wise Benefits**\n\n- Simple Injury-I (Package 1): ₹1,000/- for treating simple wounds, injection Tetanus Vaccination, analgesic, antibiotics, general conditions check, cleaning, suturing and dressing\n- Simple Injury-II (Package 2): ₹2,500/- including ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "at-time-of-treatment-scanned-copy-of-medico-legal-case-register-showing-the-deta",
+    "x-ray-showing-the-fracture-before-and-after-stabilization-for-chest-injuries-che",
+    "chest-x-ray-and-x-ray-of-erect-abdomen",
+    "ultrasound",
+    "computed-tomography-scan-report-if-required",
+    "electrocardiogram-with-report-if-required-for-spine-injuries-x-ray-spine-anterio",
+    "computed-tomographymagnetic-resonance-imaging-for-head-injuries-computed-tomogra",
+    "other-relevant-investigations"
+  ],
+  "apply_url": "https://civilhospitalahd.gujarat.gov.in/writereaddata/Portal/Magazine/Document/1_50_1_Vahan-Aksmat-sahay.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/vass",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a victim of road traffic accident.\n- The applicant must require immediate medical treatment for injuries sustained in the accident.\n- The applicant must receive treatment at hospitals empanelled under the Vahan Aksmat Sahay Scheme.\n- The applicant must have Medico Legal Case registered for the accident.\n- The applicant must have police intimation with acknowledgment for the road traffic accident.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "assistance-to-trustsinstitutions-for-setting-up-cultural-centersauditoriums-in-t",
+  "name": "Assistance to Trusts/Institutions for Setting Up Cultural Centers/Auditoriums in the Municipal Area",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Assistance for New Construction:** 50% of the total cost or ₹30,00,000/- whichever is lower.  - **Assistance for Renovation:** Up to ₹15,00,000/-.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-attested-copy-of-pan-card-bank-details-copy-bank-pass-bookcancelled"
+  ],
+  "apply_url": "https://sangeetnatak.gujarat.gov.in/schemedetail-guj.htm?37",
+  "source_url": "https://www.myscheme.gov.in/schemes/attisca",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- A trust or institution operating within the municipal areas of Gujarat shall be eligible for this scheme.\n\n<br>",
+  "_criteria_filled": 1
+}

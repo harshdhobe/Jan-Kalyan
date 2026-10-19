@@ -1,0 +1,26 @@
+{
+  "id": "construction-of-sports-infrastructure-facilities-badminton-table-tennis-squash-i",
+  "name": "Construction of Sports Infrastructure Facilities (Badminton, Table Tennis, Squash, Indoor Cricket, Basketball, Volleyball, Football, Hockey, and Swimming) in Private Sector",
+  "tier": 2,
+  "level": "state",
+  "state": "Uttarakhand",
+  "scope": "person",
+  "benefit": "Under this scheme, 25% of the total cost of the infrastructure, or up to a maximum of ₹50.00 lakh, is provided as a grant.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Uttarakhand"
+      }
+    ]
+  },
+  "documents": [
+    "submission-of-documents-is-required-in-accordance-with-the-directorates-guidelin"
+  ],
+  "apply_url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/gfcosi",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant must be a resident of Uttarakhand.\n\n<br>",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,26 @@
+{
+  "id": "medical-expenses-for-treatment-of-major-ailments-of-a-beneficiary",
+  "name": "Medical Expenses for Treatment of Major Ailments of a Beneficiary",
+  "tier": 2,
+  "level": "state",
+  "state": "Manipur",
+  "scope": "household",
+  "benefit": "***Financial Assistance:***\n\n- ₹2,000/- per year for minor treatments.\n\n- Up to ₹45,000/- (each operation) for major surgeries.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Manipur"
+      }
+    ]
+  },
+  "documents": [
+    "certificate-of-registration-payment-receipt-of-the-last-contribution-calculation"
+  ],
+  "apply_url": "http://manipurbcwb.in/SchemeDetails?title=medical+expenses+for+treatment+of+major+ailments+of+a+beneficiary",
+  "source_url": "https://www.myscheme.gov.in/schemes/metmab",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction worker should be registered under the Manipur Building and Other Construction Workers&#39; Welfare Board. \n1. The construction worker&#39;s family members (spouse and children) are eligible for financial assistance under this scheme. \n1. The construction worker or family members should suffer from T.B., Cancer, Heart Disease, Kidney Disease, Eye Disease, Leprosy, HIV Disease and Nerve Disease.",
+  "_criteria_filled": 1
+}

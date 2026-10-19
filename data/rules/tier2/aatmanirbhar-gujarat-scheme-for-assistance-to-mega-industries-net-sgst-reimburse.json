@@ -1,0 +1,28 @@
+{
+  "id": "aatmanirbhar-gujarat-scheme-for-assistance-to-mega-industries-net-sgst-reimburse",
+  "name": "Aatmanirbhar Gujarat Scheme for Assistance to Mega Industries: Net SGST reimbursement",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "- **Reimbursement:** Eligible units will be reimbursed the full net SGST paid.- **Maximum limit:** Reimbursement is capped at 0.9% of the eFCl value per annum.- **Long-term support:** The scheme offers reimbursement for a period of 20 years, starting from the commencement of commercial production.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "1-registration-copy-under-the-scheme-2-provisional-eligibility-certificate-under",
+    "chartered-accountant-or-goods-service-tax-auditor-6-details-of-sales-and-purchas",
+    "directors-partners-owner-authorised-person-should-be-any-directorpartnerat-least"
+  ],
+  "apply_url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage",
+  "source_url": "https://www.myscheme.gov.in/schemes/agsmnsgst",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The mega industry must operate as a manufacturing unit.\n   1. The unit must have a minimum investment of INR 2,500 crore in plant and machinery.\n   1. The unit must provide direct employment to at least 2,500 persons.\n   1. The unit must belong to one of the thrust sectors as defined in the [Guidelines](https://cmogujarat.gov.in/sites/default/files/2023-01/AatmaNirbhar-Gujarat_Industrial-Policy_0.pdf) (Refer Page No. 9).   1. The unit must obtain separate GST registration for the eligible products.\n   1. The project must be a new industrial undertaking with commercial production started within the applicable period.\n   1. The unit must comply with the conditions stated regarding sales classifications and documentation.",
+  "_criteria_filled": 1
+}

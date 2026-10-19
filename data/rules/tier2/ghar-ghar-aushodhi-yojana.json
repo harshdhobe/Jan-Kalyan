@@ -1,0 +1,26 @@
+{
+  "id": "ghar-ghar-aushodhi-yojana",
+  "name": "Ghar Ghar Aushodhi Yojana",
+  "tier": 2,
+  "level": "state",
+  "state": "Rajasthan",
+  "scope": "person",
+  "benefit": "The main objective of the Rajasthan Ghar Ghar Aushadhi Yojana is to provide medicinal plants like Tulsi, Ashwagandha, Giloy and Kalmegh to everyone.\n\n1. It aims to promote medicinal plants and their use in daily life\n1. It aims to help people to boost their immunity, lead a healthy and disease-free life\n1. Each family will be provided 24 saplings over a period of 5 years\n1. This Rajasthan Ghar Gha",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Rajasthan"
+      }
+    ]
+  },
+  "documents": [
+    "jan-aadhaar-id-photograph-land-proof"
+  ],
+  "apply_url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/FOR_/GGAY/BeneficiaryPdf_783_34d44cea-Be48-4fb8-8626-Edf6963f9ff9.Pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggay",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. Applicant must be a native of Rajasthan state.\n1. Should have Jan Aadhaar Card of Rajasthan Government.\n1. Should have enough space to plant.",
+  "_criteria_filled": 1
+}

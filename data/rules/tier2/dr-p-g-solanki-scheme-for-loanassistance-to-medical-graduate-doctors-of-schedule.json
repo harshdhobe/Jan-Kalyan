@@ -1,0 +1,31 @@
+{
+  "id": "dr-p-g-solanki-scheme-for-loanassistance-to-medical-graduate-doctors-of-schedule",
+  "name": "Dr. P. G. Solanki Scheme for Loan/Assistance to Medical Graduate Doctors of Scheduled Caste",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Loan/Assistance details under the scheme:**\n\n1. Subsidy/assistance of ₹25,000/-.\n1. Loan upto ₹2,50,000/- at the rate of interest 4%.",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.income",
+        "op": "<=",
+        "value": 600000
+      },
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "passport-size-photograph-aadhaar-card-of-the-applicant-caste-certificate-proof-o"
+  ],
+  "apply_url": "https://sje.gujarat.gov.in/dscw/assets/downloads/App_form_22122021.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/dpgsslamgsc",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a Medical Graduate Doctor possessing qualifications such as M.B.B.S, B.S.A.M, B.A.M.S, B.A.M (Ayurveda), B.D.S (Dental) Homeopathic Degree/ BHMS and DHMS in Diploma, and Homeopathic Degree/Diploma (BHMS and DHMS in Diploma).\n   1. The applicant should belong to the Scheduled Caste category.\n   1. The benefit of this scheme will be given only to natives of Gujarat state.\n   1. The annual income limit should not exceed ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas.\n   1. The applicant should not be employed in a government hospital or any private organization.\n   1. The benefit of this scheme will be available to one person in the family only once. If the involvement of another person is found, all loan assistance and other expenses will be recovered from the applicant.\n   1. After sanctioning the loan to the applicant, repayment will be made in monthly installments of ₹5,000/- for 12 months.\n   1. The applicant will have to start the clinic in 3 months after receiving government assistance.\n   1. Homeopathic doctors must practice only in pure homeopathy.",
+  "_criteria_filled": 2
+}

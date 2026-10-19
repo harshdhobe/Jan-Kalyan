@@ -1,0 +1,27 @@
+{
+  "id": "swanirbhar-naari",
+  "name": "Swanirbhar Naari",
+  "tier": 2,
+  "level": "state",
+  "state": "Assam",
+  "scope": "household",
+  "benefit": "- Empowerment of indigenous weavers by eliminating middlemen and ensuring fair market access.\n- Improved remuneration for the weavers through direct procurement and online payments.\n- Skill upgradation and training opportunities through Handloom Training Centres and Institutes.\n- Integration of modern technology to enhance the pattern, quality, and productivity of hand-woven items.\n- Facilitation ",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Assam"
+      }
+    ]
+  },
+  "documents": [
+    "proof-of-residence-in-assam-proof-of-owning-at-least-one-handloom-valid-bank-acc",
+    "assam-if-available"
+  ],
+  "apply_url": "https://swanirbharnaari.assam.gov.in/assets/Swanirbhar_naari_English_guidelines.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/naari",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The weaver must be a resident of Assam.\n1. The weaver must have at least one handloom in their household.\n1. The weaver must have a valid bank account with Core Banking Solution (CBS).\n1. The weaver should possess a valid yarn passbook issued by the Directorate of Handloom &amp; Textiles, Assam (if available).\n1. Indigenous weavers from Assam and intended weavers are allowed to register, subject to physical verification by concerned Inspectors of Handloom and Textile, Assam.",
+  "_criteria_filled": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "merit-loan-scheme-for-good-borrowers",
+  "name": "Merit Loan Scheme for Good Borrowers",
+  "tier": 2,
+  "level": "state",
+  "state": "Puducherry",
+  "scope": "person",
+  "benefit": "**Loan Limit:** Maximum amount of loan shall be the equal amount paid by the unit.\n**Interest Concession:** 1% less than the normal rate of interest.\n<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Puducherry"
+      }
+    ]
+  },
+  "documents": [
+    "requisition-letter-no-formal-application-form-is-required-audited-financial-stat",
+    "tamil-nadu-for-tamil-nadu-property-in-case-of-properties-in-the-name-of-deceased"
+  ],
+  "apply_url": "https://pipdic.in/pipdic_schemes",
+  "source_url": "https://www.myscheme.gov.in/schemes/mlsgb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "The scheme is applicable to the following - \n\n- Already assisted units of PIPDIC whose loan accounts are classified as Standard Assets continuously for 3 years.\n- Good Borrowers who have already settled the loan account with PIPDIC.\n\n<br>",
+  "_criteria_filled": 1
+}

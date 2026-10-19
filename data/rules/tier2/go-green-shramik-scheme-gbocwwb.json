@@ -1,0 +1,26 @@
+{
+  "id": "go-green-shramik-scheme-gbocwwb",
+  "name": "Go-Green Shramik Scheme (GBOCWWB)",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "person",
+  "benefit": "1. Under the scheme, a One-time subsidy will be available to the extent of 50% of the price of the battery-operated Two-Wheeler or ₹30,000/- whichever is less.\n   1. The assistance will also be available for the amount of Registration Fee and Road Tax paid for the first time for a new two-wheeler i.e. RTO Tax and Road Tax will be reimbursed.\n\n**Note 01:** After deducting the amount of subsidy paya",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-e-nirman-card-two-wheeler-license-any-other-documents-as-required"
+  ],
+  "apply_url": "https://bocwwb.gujarat.gov.in/schemes.htm",
+  "source_url": "https://www.myscheme.gov.in/schemes/ggssgbocwwb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The construction workers registered with the Gujarat Building and Other Construction Worker’s Welfare Board will be eligible to get the benefit of this scheme.\n   1. Registration period for construction workers should be one year or more.\n   1. A registered construction worker should have purchased a lithium-ion battery high-speed vehicle in his own name.\n   1. The registered construction worker should have a license to drive two-wheelers.\n   1. The benefit of this scheme will be available once per registered construction worker.\n   1. A registered construction worker cannot sell the vehicle for three years after purchasing it.",
+  "_criteria_filled": 1
+}

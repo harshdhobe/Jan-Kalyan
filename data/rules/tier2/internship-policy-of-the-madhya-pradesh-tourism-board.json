@@ -1,0 +1,26 @@
+{
+  "id": "internship-policy-of-the-madhya-pradesh-tourism-board",
+  "name": "Internship Policy Of The Madhya Pradesh Tourism Board",
+  "tier": 2,
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "scope": "person",
+  "benefit": "> **Stipend**\n\n**Courses:** Post Graduate Diploma In Forestry Management \n**Period:** As per the Requirement \n**Stipend (per Trainee):** ₹5,000/month\n<br>\n\n**Courses:** B.Sc (in Hotel Management )from IHM or SIHM / MBA/BBA/BA/B.COM (Tourism)\n**Period:** As per the Requirement \n**Stipend (per Trainee):** ₹2,500/month\n<br>\n\n**Courses:** Certificate/Diploma/PG Diploma in Food Production, F&amp;B Serv",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Madhya Pradesh"
+      }
+    ]
+  },
+  "documents": [
+    "bio-data-recent-photograph-bonafide-certificate-of-the-institute-the-original-re"
+  ],
+  "apply_url": "https://tourism.mp.gov.in/Uploaded%20Document/Policy/Internshippolicyenglish.pdf",
+  "source_url": "https://www.myscheme.gov.in/schemes/ipmptb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "**The applicant should be studying in one of the following institutes -** \n\n1. Institute of Hotel Management.\n1. Food Craft Institutes affiliated with the Government of India or Madhya Pradesh.\n1. Institutes of Travel and Tourism affiliated with the Government of India or Madhya Pradesh.\n1. Indian Institute of Forest Management.\n1. Any other institute permitted by the management of the MP Tourism Board.\n\n<br>\n\n**The applicant should be enrolled in one of the following courses/programs -**\n\n1. MBA/BBA/BA (Tourism) / B.Com. (Tourism)\n1. B.Sc. in Hotel Management.\n1. Diploma/ Certificate in Food Production/ Food &amp; Beverage Service/ Front Office/ Housekeeping.\n1. PG Diploma in Forest Management/ Hotel Operations.\n1. Any other tourism-related Courses like Photography, Digital Marketing, Advertising, Adventure sports, Bio-diversity, Tour Operators Courses etc.",
+  "_criteria_filled": 1
+}

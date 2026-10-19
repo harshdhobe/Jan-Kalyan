@@ -1,0 +1,26 @@
+{
+  "id": "assistance-for-cattleshed-gaman-water-tank-and-bucket",
+  "name": "Assistance for Cattleshed, Gaman, Water Tank and Bucket",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "<br>\n\n**Name of Component****Standard of Assistance****Minimum Time Limit(In Year) for Reclaiming Benefits**Assistance for Schedule Caste People of Cattleshed, Gaman, Water tank and Bucket (2 Animal)\tAssistace up to ₹30,000/- for 2  Animals Catlle Shed  can be availed after sanction of application and construction of cattle shedonce in a lifetime<br>",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "land-ownership-or-10-year-lease-agreement-documents-copy-of-ration-card-schedule"
+  ],
+  "apply_url": "https://agri.gujarat.gov.in/Home/SchemesDetailsPage?Id=IVf4y2kDy/hLkKH1ioD8IA==&domain=12ewfiAgGqKRe600IL5Z/w==",
+  "source_url": "https://www.myscheme.gov.in/schemes/afcgwtb",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "1. The applicant should be a farmer.\n   1. The applicant should belong to the Schedule Caste category.\n   1. The applicant must own land or have a minimum 10-year lease agreement.",
+  "_criteria_filled": 1
+}

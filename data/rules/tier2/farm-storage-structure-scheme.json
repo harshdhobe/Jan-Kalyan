@@ -1,0 +1,26 @@
+{
+  "id": "farm-storage-structure-scheme",
+  "name": "Farm Storage Structure Scheme",
+  "tier": 2,
+  "level": "state",
+  "state": "Gujarat",
+  "scope": "household",
+  "benefit": "**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming  Benefits**Crop Storage Structure50% of the total cost or ₹75,000/- whichever is lessOnly once",
+  "criteria": {
+    "all": [
+      {
+        "field": "household.state",
+        "op": "==",
+        "value": "Gujarat"
+      }
+    ]
+  },
+  "documents": [
+    "aadhaar-card-land-ownership-documents-8-a-record-bank-passbook-domicile-certific"
+  ],
+  "apply_url": "https://dag.gujarat.gov.in/Home/SchemesDetailsPage/xb5kXsJXEM4temzJx57Jxw%E2%99%AC%E2%99%AC",
+  "source_url": "https://www.myscheme.gov.in/schemes/fsss",
+  "last_verified": "2025-07-05",
+  "_eligibility_text": "- The applicant must be a land-holding farmer.\n- The applicant must belong to the Gujarat state.\n\n**Note:**\n\n- In case of joint account, beneficiary farmers shall be entitled to benefit only one of the holders of their land mentioned in 8-A subject to the consent of other account holders.",
+  "_criteria_filled": 1
+}

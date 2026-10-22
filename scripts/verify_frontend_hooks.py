@@ -8,7 +8,8 @@ dynamic_ids = {
     "choice-yes", "choice-no", "stepper-save-btn", "stepper-skip-btn",
     "stepper-enum-select", "stepper-num-input", "stepper-text-input",
     "btn-browse-anyway", "btn-show-more",
-    "btn-empty-clear-filters", "btn-toggle-more-cats"
+    "btn-empty-clear-filters", "btn-toggle-more-cats",
+    "btn-browse-eligible-saved", "btn-clear-dash-filter"
 }
 
 # IDs queried in JS

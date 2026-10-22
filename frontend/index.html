@@ -23,15 +23,45 @@
   <!-- Slim 64px Header -->
   <header class="app-header">
     <div class="header-container">
-      <a href="#" class="brand" aria-label="Jan Kalyan • जन कल्याण">
-        <span class="wordmark">Jan Kalyan</span>
-        <span class="brand-sep" aria-hidden="true">|</span>
-        <span class="wordmark-sub">जन कल्याण</span>
-      </a>
+      <div class="header-brand-group">
+        <a href="#/" class="brand" id="brand-logo" aria-label="Jan Kalyan • जन कल्याण">
+          <span class="wordmark">Jan Kalyan</span>
+          <span class="brand-sep" aria-hidden="true">|</span>
+          <span class="wordmark-sub">जन कल्याण</span>
+        </a>
+        <button id="btn-back-to-dashboard" class="btn-back" type="button" style="display: none;" aria-label="Back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span id="btn-back-text">Helper Home</span>
+        </button>
+      </div>
 
       <div class="header-controls">
-        <!-- Sample Personas Menu (No emoji, quiet styling) -->
-        <div class="persona-select-wrap">
+        <!-- Helper Badge Pill (when set) -->
+        <div id="header-helper-pill" class="helper-header-pill" style="display: none;" role="button" tabindex="0" title="Edit Helper Details">
+          <span class="helper-avatar-dot"></span>
+          <span id="header-helper-name" class="helper-header-name"></span>
+          <span id="header-helper-role" class="helper-header-role"></span>
+        </div>
+
+        <div id="active-profile-pill" class="active-profile-pill" style="display: none;">
+          <span class="profile-pill-dot"></span>
+          <span id="active-profile-name" class="profile-pill-name"></span>
+          <span id="active-profile-save-status" class="profile-pill-status">Saved</span>
+        </div>
+
+        <button id="btn-save-as-profile" class="btn-text-quiet btn-save-profile" type="button" style="display: none;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+            <polyline points="17 21 17 13 7 13 7 21"></polyline>
+            <polyline points="7 3 7 8 15 8"></polyline>
+          </svg>
+          <span id="btn-save-as-profile-text">Save as profile</span>
+        </button>
+
+        <!-- Sample Personas Menu (Quick check only) -->
+        <div class="persona-select-wrap" id="persona-select-wrap" style="display: none;">
           <select id="persona-select" class="persona-select" aria-label="Try a sample profile">
             <option value="">Try a sample profile...</option>
           </select>
@@ -44,7 +74,7 @@
         </div>
 
         <!-- Reset Button (Quiet text button) -->
-        <button id="reset-btn" class="btn-text-quiet" type="button" aria-label="Reset all answers">
+        <button id="reset-btn" class="btn-text-quiet" type="button" aria-label="Reset all answers" style="display: none;">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
@@ -57,13 +87,226 @@
         <div class="lang-toggle" role="group" aria-label="Language selector">
           <button id="lang-en" class="lang-btn active" type="button" aria-label="Switch to English">English</button>
           <button id="lang-hi" class="lang-btn" type="button" aria-label="हिंदी में बदलें">हिंदी</button>
+          <button id="lang-mr" class="lang-btn" type="button" aria-label="मराठीत बदला">मराठी</button>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Fluid 3-Column Main Layout on Desktop -->
-  <main class="main-layout no-rail">
+  <!-- IndexedDB Unavailable Alert -->
+  <div id="db-unavailable-banner" class="db-banner-alert" style="display: none;" role="alert">
+    <strong>Storage Warning:</strong> Local database (IndexedDB) is unavailable or restricted in this browser. Profiles will not be saved across sessions.
+  </div>
+
+  <!-- 1. LANDING VIEW (#/) -->
+  <section id="landing-view" class="landing-container" style="display: none;">
+    <div class="landing-hero">
+      <div class="landing-eyebrow">Jan Kalyan • जन कल्याण</div>
+      <h1 class="landing-title">Jan Kalyan</h1>
+      <p class="landing-line-1" id="landing-line-1">Discover government welfare schemes for families in Maharashtra.</p>
+      <p class="landing-line-2" id="landing-line-2">Check eligibility in seconds, prepare documents, and track application status offline.</p>
+    </div>
+
+    <div class="landing-cta-group">
+      <button id="btn-landing-helper" class="btn-landing btn-landing-primary" type="button">
+        <span class="btn-landing-title" id="btn-landing-helper-text">I'm a Helper</span>
+        <span class="btn-landing-sub" id="btn-landing-helper-sub">ASHA, Anganwadi, Panchayat, CSC</span>
+      </button>
+      <button id="btn-landing-quick" class="btn-landing btn-landing-secondary" type="button">
+        <span class="btn-landing-title" id="btn-landing-quick-text">Quick check</span>
+        <span class="btn-landing-sub" id="btn-landing-quick-sub">Check eligibility without saving</span>
+      </button>
+    </div>
+
+    <div class="landing-note-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+      </svg>
+      <span id="landing-privacy-note" class="landing-privacy-note">Works on this phone. Aadhaar is never stored.</span>
+    </div>
+  </section>
+
+  <!-- 2. HELPER SETUP VIEW (#/setup) -->
+  <section id="setup-view" class="setup-container" style="display: none;">
+    <div class="setup-card">
+      <div class="setup-header">
+        <h1 class="setup-title" id="setup-title-text">Helper Setup</h1>
+        <div class="setup-notice" id="setup-notice">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span id="setup-notice-text">This sets up this phone. Secure login will be added later.</span>
+        </div>
+      </div>
+
+      <form id="form-helper-setup" class="setup-form">
+        <div class="form-group">
+          <label for="input-helper-name" class="form-label" id="label-helper-name">Helper Name *</label>
+          <input type="text" id="input-helper-name" class="form-input" placeholder="e.g. Sunita Patil" required autocomplete="name" />
+        </div>
+
+        <div class="form-group">
+          <label for="select-helper-type" class="form-label" id="label-helper-type">Role / Helper Type *</label>
+          <select id="select-helper-type" class="form-input" required>
+            <option value="ASHA">ASHA</option>
+            <option value="Anganwadi">Anganwadi</option>
+            <option value="Panchayat staff">Panchayat staff</option>
+            <option value="CSC operator">CSC operator</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="input-helper-district" class="form-label" id="label-helper-district">District</label>
+          <input type="text" id="input-helper-district" class="form-input" placeholder="e.g. Pune, Nashik, Kolhapur" />
+        </div>
+
+        <div class="form-group">
+          <label for="select-helper-language" class="form-label" id="label-helper-language">Preferred Language</label>
+          <select id="select-helper-language" class="form-input">
+            <option value="en">English</option>
+            <option value="hi">हिंदी (Hindi)</option>
+            <option value="mr">मराठी (Marathi)</option>
+          </select>
+        </div>
+
+        <div id="setup-error-msg" class="form-error-msg" style="display: none;"></div>
+
+        <div class="setup-actions">
+          <button id="btn-cancel-setup" class="btn-secondary" type="button" style="display: none;">Cancel</button>
+          <button id="btn-save-setup" class="btn-primary" type="submit">Save &amp; Continue</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- 3. HELPER HOME VIEW (#/helper) -->
+  <section id="dashboard-view" class="dashboard-container" style="display: none;">
+    <!-- Logged-in Helper Bar -->
+    <div class="helper-welcome-bar" id="helper-welcome-bar">
+      <div class="helper-welcome-info">
+        <span class="helper-role-tag" id="helper-tag-role">ASHA</span>
+        <span class="helper-welcome-name" id="helper-tag-name">Helper</span>
+        <span class="helper-district-tag" id="helper-tag-district" style="display: none;"></span>
+      </div>
+      <button id="btn-edit-helper" class="link-quiet btn-edit-helper" type="button">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 20h9"></path>
+          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+        </svg>
+        <span id="btn-edit-helper-text">Edit Details</span>
+      </button>
+    </div>
+
+    <div class="dashboard-header-block">
+      <div class="dashboard-intro">
+        <h1 class="dashboard-title" id="dashboard-title-text">Beneficiary Profiles</h1>
+        <p class="dashboard-subtitle" id="dashboard-subtitle-text">Manage profiles for rural beneficiaries, evaluate scheme entitlements, and track applications.</p>
+      </div>
+      <div class="dashboard-actions">
+        <button id="btn-add-profile" class="btn-primary" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span id="btn-add-profile-text">Add profile</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Application Status Metric Counters (4 Summary Tiles) -->
+    <div class="dashboard-metrics-row dashboard-metrics-4">
+      <div class="metric-card interactive" id="metric-card-total" role="button" tabindex="0" title="Click to view all profiles">
+        <div class="metric-label" id="metric-label-total">Total Profiles</div>
+        <div id="stat-total-profiles" class="metric-value">0</div>
+        <div class="metric-hint" id="metric-hint-total">All registered</div>
+      </div>
+      <div class="metric-card interactive" id="metric-card-docs-pending" role="button" tabindex="0" title="Click to filter by Documents pending">
+        <div class="metric-label" id="metric-label-docs-pending">Documents pending</div>
+        <div id="stat-docs-pending" class="metric-value">0</div>
+        <div class="metric-hint" id="metric-hint-docs-pending">Awaiting documents</div>
+      </div>
+      <div class="metric-card interactive" id="metric-card-ready" role="button" tabindex="0" title="Click to filter by Ready to apply">
+        <div class="metric-label" id="metric-label-ready">Ready to apply</div>
+        <div id="stat-ready-apply" class="metric-value">0</div>
+        <div class="metric-hint" id="metric-hint-ready">Active applications</div>
+      </div>
+      <div class="metric-card interactive" id="metric-card-applied" role="button" tabindex="0" title="Click to filter by Applied">
+        <div class="metric-label" id="metric-label-applied">Applied</div>
+        <div id="stat-applied" class="metric-value">0</div>
+        <div class="metric-hint" id="metric-hint-applied">Submitted</div>
+      </div>
+    </div>
+
+    <!-- Needs Follow-Up List (>= 7 days pending or ready to apply) -->
+    <section class="followup-section" id="followup-section">
+      <div class="followup-header">
+        <div class="followup-title-wrap">
+          <h2 class="followup-title" id="followup-title">Needs Follow-Up</h2>
+          <span id="followup-badge" class="followup-count-badge">0</span>
+        </div>
+        <p class="followup-subtext" id="followup-subtext">Applications in Documents pending or Ready to apply for 7 or more days.</p>
+      </div>
+      <div id="followup-list" class="followup-grid"></div>
+      <div id="followup-empty" class="followup-empty-card" style="display: none;">
+        <span id="followup-empty-text">No profiles currently need follow-up.</span>
+      </div>
+    </section>
+
+    <!-- Profile Search Input by Name -->
+    <div class="profiles-search-container">
+      <div class="search-wrapper">
+        <span class="search-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+        <input type="text" id="input-profile-search" class="search-field" placeholder="Search profiles by name..." aria-label="Search profiles by name" />
+      </div>
+    </div>
+
+    <!-- Status Filter Bar for Profiles -->
+    <div class="dashboard-filter-bar" id="dashboard-filter-bar">
+      <div class="filter-bar-header">
+        <span class="filter-bar-title" id="filter-bar-title">Filter profiles by application status:</span>
+        <button id="btn-dashboard-filter-clear" class="link-quiet" type="button" style="display: none;">Show all</button>
+      </div>
+      <div class="dashboard-filter-chips" id="dashboard-filter-chips" role="group" aria-label="Filter profiles by status">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+
+    <!-- Profiles List or Empty State -->
+    <div id="profiles-container" class="profiles-section">
+      <div id="profiles-list" class="profiles-grid"></div>
+
+      <div id="profiles-empty-state" class="empty-state-editorial" style="display: none;">
+        <div class="msg-primary" id="empty-state-primary">No beneficiary profiles yet</div>
+        <div class="msg-secondary" id="empty-state-secondary">Create a profile on behalf of a beneficiary with their consent.</div>
+        <div class="empty-actions" style="margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+          <button id="btn-empty-add-profile" class="btn-primary" type="button">Add profile</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Check Alert Banner (only visible during #/quick) -->
+  <div id="quick-check-banner" class="quick-check-banner" style="display: none;" role="status">
+    <div class="quick-check-banner-inner">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+      <span id="quick-check-banner-text">Quick check: nothing is saved</span>
+    </div>
+  </div>
+
+  <!-- Fluid 3-Column Main Layout on Desktop (Scheme Finder) -->
+  <main id="finder-view" class="main-layout" style="display: none;">
 
     <!-- Left Column: Sticky Questionnaire & Profile Definition List -->
     <aside class="sidebar-column custom-scroll">
@@ -135,6 +378,10 @@
             <span>Ineligible</span>
             <span id="count-ineligible" class="tab-count">0</span>
           </button>
+          <button id="tab-saved" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span id="tab-saved-label">Schemes</span>
+            <span id="count-saved" class="tab-count">0</span>
+          </button>
         </nav>
 
         <!-- Filters Button on Tablet / Mobile -->
@@ -161,7 +408,21 @@
 
       <!-- Single-Column Schemes Container (Divider-separated rows) -->
       <div id="schemes-list" class="schemes-container">
-        <!-- Rendered dynamically by app.js -->
+        <div class="schemes-loading-state" id="schemes-initial-loader">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <div class="loading-text" id="schemes-loading-text">Loading welfare schemes catalog...</div>
+        </div>
+      </div>
+
+      <!-- Quick Check Conversion Prompt Card -->
+      <div id="quick-convert-card" class="convert-prompt-card" style="display: none;">
+        <div class="convert-prompt-text">
+          <h3 class="convert-prompt-title" id="quick-convert-title">Save this family and track applications?</h3>
+          <p class="convert-prompt-desc" id="quick-convert-desc">Set up as a Helper to track documents and application progress across visits.</p>
+        </div>
+        <button id="btn-quick-convert" class="btn-primary btn-convert" type="button">
+          <span id="btn-quick-convert-text">Save as profile</span>
+        </button>
       </div>
 
     </section>
@@ -290,11 +551,55 @@
       final disbursement.</p>
   </footer>
 
+  <!-- Add Beneficiary Profile Modal -->
+  <div id="modal-add-profile" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-add-title">Add Beneficiary Profile</h2>
+        <button id="btn-close-add-modal" class="btn-modal-close" type="button" aria-label="Close dialog">✕</button>
+      </div>
+      <form id="form-add-profile" class="modal-form">
+        <div class="form-group">
+          <label for="input-profile-name" class="form-label" id="label-profile-name">Beneficiary Full Name *</label>
+          <input type="text" id="input-profile-name" class="form-input" placeholder="e.g. Ramesh Shinde" required autocomplete="off" />
+        </div>
+        <div class="form-consent-box">
+          <label class="consent-label" for="check-profile-consent">
+            <input type="checkbox" id="check-profile-consent" class="consent-checkbox" required />
+            <span class="consent-text" id="consent-text-label">Beneficiary agreed to share these details</span>
+          </label>
+          <p class="consent-note" id="consent-note-text">Minimal personal data is stored locally. Government ID numbers are never collected or stored.</p>
+        </div>
+        <div id="add-profile-error" class="form-error-msg" style="display: none;"></div>
+        <div class="modal-actions">
+          <button id="btn-cancel-add-profile" class="btn-secondary" type="button">Cancel</button>
+          <button id="btn-create-profile" class="btn-primary" type="submit">Create &amp; Check Schemes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Delete Profile Confirmation Modal -->
+  <div id="modal-confirm-delete" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card modal-card-sm">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-delete-title">Delete Profile</h2>
+      </div>
+      <p id="delete-confirm-text" class="modal-body-text">Are you sure you want to delete this profile? This action cannot be undone.</p>
+      <div class="modal-actions">
+        <button id="btn-cancel-delete" class="btn-secondary" type="button">Cancel</button>
+        <button id="btn-confirm-delete" class="btn-danger" type="button">Delete Profile</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts: Data & Engine Modules -->
   <script src="data/rules.js"></script>
   <script src="data/fields.js"></script>
   <script src="data/personas.js"></script>
   <script src="js/engine.js"></script>
+  <script src="js/status.js"></script>
+  <script src="js/db.js"></script>
   <script src="js/app.js"></script>
 
 </body>

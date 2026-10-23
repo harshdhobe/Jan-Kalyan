@@ -4,6 +4,14 @@ __pycache__/
 .idea/
 *.log
 
+# Local secrets — never commit real keys, passwords, or service_role tokens
+.env
+.env.*
+!.env.example
+frontend/js/config.js
+!frontend/js/config.example.js
+temp_edge_*/
+
 # Excluded documentation and notes
 docs/
 AGENTS.md

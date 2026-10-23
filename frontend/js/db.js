@@ -318,6 +318,7 @@
         : [],
       note: typeof app.note === "string" ? app.note : "",
       createdAt: app.createdAt || now,
+      updatedAt: app.updatedAt || now,
     };
   }
 
@@ -774,6 +775,73 @@
       });
   }
 
+  function deleteMeta(key) {
+    if (!key) return Promise.resolve(true);
+    try {
+      if (typeof window !== "undefined" && window.localStorage) {
+        window.localStorage.removeItem("jankalyan_meta_" + key);
+      }
+      delete memoryFallback.meta[key];
+    } catch (e) {}
+
+    return openDB()
+      .then((db) => {
+        return new Promise((resolve) => {
+          try {
+            const tx = db.transaction("meta", "readwrite");
+            const store = tx.objectStore("meta");
+            store.delete(key);
+            tx.oncomplete = () => resolve(true);
+            tx.onerror = () => resolve(true);
+          } catch (err) {
+            resolve(true);
+          }
+        });
+      })
+      .catch(() => true);
+  }
+
+  function clearAllBeneficiaryData() {
+    // 1. Clear fallbacks
+    try {
+      memoryFallback.profiles = [];
+      memoryFallback.applications = [];
+      memoryFallback.meta = {};
+      if (typeof window !== "undefined" && window.localStorage) {
+        window.localStorage.removeItem("jankalyan_profiles");
+        window.localStorage.removeItem("jankalyan_applications");
+        window.localStorage.removeItem("jankalyan_meta_helper_account");
+        window.localStorage.removeItem("jankalyan_meta_local_owner_id");
+        window.localStorage.removeItem("jankalyan_meta_last_backup_at");
+        window.localStorage.removeItem("jankalyan_meta_pending_cloud_deletes");
+      }
+    } catch (e) {}
+
+    // 2. Clear IndexedDB
+    return openDB()
+      .then((db) => {
+        return new Promise((resolve, reject) => {
+          try {
+            const stores = ["profiles", "applications", "meta"];
+            const tx = db.transaction(stores, "readwrite");
+            tx.objectStore("profiles").clear();
+            tx.objectStore("applications").clear();
+            tx.objectStore("meta").clear();
+
+            tx.oncomplete = () => resolve(true);
+            tx.onerror = () => reject(tx.error || new Error("Failed to clear IndexedDB stores."));
+            tx.onabort = () => reject(tx.error || new Error("Transaction aborted while clearing stores."));
+          } catch (err) {
+            reject(err);
+          }
+        });
+      })
+      .catch((err) => {
+        console.warn("Error clearing IndexedDB, fallbacks cleared:", err);
+        return true;
+      });
+  }
+
   // Export to global scope
   window.GovDB = {
     isAvailable,
@@ -790,6 +858,8 @@
     deleteApplicationsByProfile,
     getMeta,
     setMeta,
+    deleteMeta,
+    clearAllBeneficiaryData,
     generateId,
     validateProfile,
     validateApplication,

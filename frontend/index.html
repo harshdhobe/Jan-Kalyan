@@ -98,6 +98,9 @@
     <strong>Storage Warning:</strong> Local database (IndexedDB) is unavailable or restricted in this browser. Profiles will not be saved across sessions.
   </div>
 
+  <!-- Toast Notification for Cloud Sync / Backup / Restore feedback -->
+  <div id="cloud-status-toast" class="cloud-status-toast" role="status" aria-live="polite" style="display: none;"></div>
+
   <!-- 1. LANDING VIEW (#/) -->
   <section id="landing-view" class="landing-container" style="display: none;">
     <div class="landing-hero">
@@ -126,6 +129,58 @@
     </div>
   </section>
 
+  <!-- 1b. HELPER LOGIN VIEW (#/login) -->
+  <section id="login-view" class="setup-container" style="display: none;">
+    <div class="setup-card auth-card">
+      <div class="setup-header">
+        <h1 class="setup-title" id="auth-title-text">Helper Login</h1>
+        <p class="auth-subtitle" id="auth-subtitle-text">Sign in to manage beneficiary records and applications</p>
+      </div>
+
+      <!-- Sign In / Create Account Toggle -->
+      <div class="auth-toggle-group" role="tablist">
+        <button type="button" id="tab-auth-signin" class="auth-tab-btn active" role="tab" aria-selected="true">Sign In</button>
+        <button type="button" id="tab-auth-signup" class="auth-tab-btn" role="tab" aria-selected="false">Create Account</button>
+      </div>
+
+      <div id="login-error-msg" class="form-error-msg" role="alert" style="display: none;"></div>
+      <div id="login-info-msg" class="form-info-msg" role="status" style="display: none;"></div>
+
+      <form id="form-helper-auth" class="setup-form" novalidate>
+        <div class="form-group">
+          <label for="input-auth-email" class="form-label" id="label-auth-email">Email Address *</label>
+          <input type="email" id="input-auth-email" class="form-input" placeholder="e.g. helper@example.com" required autocomplete="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="input-auth-password" class="form-label" id="label-auth-password">Password *</label>
+          <div class="password-input-wrapper">
+            <input type="password" id="input-auth-password" class="form-input" placeholder="At least 8 characters" required minlength="8" autocomplete="current-password" />
+            <button type="button" id="btn-toggle-password" class="password-toggle-btn" aria-label="Show password" title="Toggle password visibility">
+              <svg id="icon-pw-show" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <svg id="icon-pw-hide" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                <line x1="1" y1="1" x2="23" y2="23"></line>
+              </svg>
+            </button>
+          </div>
+          <span class="auth-input-hint" id="auth-password-hint">Minimum 8 characters</span>
+        </div>
+
+        <div class="setup-actions">
+          <button id="btn-cancel-auth" class="btn-secondary" type="button">Back</button>
+          <button id="btn-submit-auth" class="btn-primary" type="submit">
+            <span id="auth-submit-spinner" class="spinner-inline" style="display: none;"></span>
+            <span id="auth-submit-text">Sign In</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
   <!-- 2. HELPER SETUP VIEW (#/setup) -->
   <section id="setup-view" class="setup-container" style="display: none;">
     <div class="setup-card">
@@ -137,7 +192,7 @@
             <line x1="12" y1="16" x2="12" y2="12"></line>
             <line x1="12" y1="8" x2="12.01" y2="8"></line>
           </svg>
-          <span id="setup-notice-text">This sets up this phone. Secure login will be added later.</span>
+          <span id="setup-notice-text">Configure your helper profile details.</span>
         </div>
       </div>
 
@@ -190,22 +245,58 @@
         <span class="helper-role-tag" id="helper-tag-role">ASHA</span>
         <span class="helper-welcome-name" id="helper-tag-name">Helper</span>
         <span class="helper-district-tag" id="helper-tag-district" style="display: none;"></span>
+        <span class="helper-backup-status" id="helper-backup-status">Last backup: Not backed up yet</span>
       </div>
-      <button id="btn-edit-helper" class="link-quiet btn-edit-helper" type="button">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M12 20h9"></path>
-          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-        </svg>
-        <span id="btn-edit-helper-text">Edit Details</span>
-      </button>
+      <div class="helper-bar-actions">
+        <button id="btn-backup-now" class="link-quiet btn-backup-now" type="button" title="Back up data to cloud">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="17 8 12 3 7 8"></polyline>
+            <line x1="12" y1="3" x2="12" y2="15"></line>
+          </svg>
+          <span id="btn-backup-now-text">Back up now</span>
+        </button>
+        <button id="btn-restore-cloud" class="link-quiet btn-restore-cloud" type="button" title="Restore data from cloud">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span id="btn-restore-cloud-text">Restore from cloud</span>
+        </button>
+        <button id="btn-edit-helper" class="link-quiet btn-edit-helper" type="button">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 20h9"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+          </svg>
+          <span id="btn-edit-helper-text">Edit Details</span>
+        </button>
+        <button id="btn-sign-out" class="link-quiet btn-sign-out" type="button">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+          <span id="btn-sign-out-text">Sign Out</span>
+        </button>
+      </div>
     </div>
 
     <div class="dashboard-header-block">
       <div class="dashboard-intro">
         <h1 class="dashboard-title" id="dashboard-title-text">Beneficiary Profiles</h1>
         <p class="dashboard-subtitle" id="dashboard-subtitle-text">Manage profiles for rural beneficiaries, evaluate scheme entitlements, and track applications.</p>
+        <div class="dashboard-backup-status" id="dashboard-last-backup">Last backup: Not backed up yet</div>
       </div>
       <div class="dashboard-actions">
+        <button id="btn-backup-home" class="btn-secondary" type="button" title="Back up data to cloud">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="17 8 12 3 7 8"></polyline>
+            <line x1="12" y1="3" x2="12" y2="15"></line>
+          </svg>
+          <span id="btn-backup-home-text">Back up now</span>
+        </button>
         <button id="btn-add-profile" class="btn-primary" type="button">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -585,7 +676,7 @@
       <div class="modal-header">
         <h2 class="modal-title" id="modal-delete-title">Delete Profile</h2>
       </div>
-      <p id="delete-confirm-text" class="modal-body-text">Are you sure you want to delete this profile? This action cannot be undone.</p>
+      <p id="delete-confirm-text" class="modal-body-text">Are you sure you want to delete this profile? Its saved applications and cloud copy will also be deleted. This action cannot be undone.</p>
       <div class="modal-actions">
         <button id="btn-cancel-delete" class="btn-secondary" type="button">Cancel</button>
         <button id="btn-confirm-delete" class="btn-danger" type="button">Delete Profile</button>
@@ -593,7 +684,56 @@
     </div>
   </div>
 
-  <!-- Scripts: Data & Engine Modules -->
+  <!-- Adopt Local Data Modal (First login on phone with existing profiles) -->
+  <div id="modal-adopt-local-data" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-adopt-title">Existing Profiles on Phone</h2>
+      </div>
+      <p id="adopt-modal-text" class="modal-body-text">Profiles were found already saved on this phone. Do you want to keep them with your helper account, or start fresh?</p>
+      <div class="modal-actions">
+        <button id="btn-adopt-erase" class="btn-secondary" type="button">Erase &amp; Start Fresh</button>
+        <button id="btn-adopt-keep" class="btn-primary" type="button">Keep Profiles</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Different Account Block Modal (Shared Phone Protection) -->
+  <div id="modal-different-account" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-diff-title">Different Account Detected</h2>
+      </div>
+      <p id="diff-modal-text" class="modal-body-text">This phone holds saved beneficiary records from a different helper account. For privacy, you cannot view another helper's data.</p>
+      <div id="diff-modal-warning" class="modal-warning-box" style="display: none;"></div>
+      <div class="modal-actions">
+        <button id="btn-diff-signout" class="btn-secondary" type="button">Sign Out</button>
+        <button id="btn-diff-erase" class="btn-danger" type="button">Erase Local Data &amp; Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Sign Out Modal (With Shared Phone erase option) -->
+  <div id="modal-confirm-signout" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-signout-title">Sign Out</h2>
+        <button id="btn-close-signout-modal" class="btn-modal-close" type="button" aria-label="Close dialog">✕</button>
+      </div>
+      <p id="signout-modal-text" class="modal-body-text">Would you like to also erase beneficiary records on this phone? If this phone is shared with other helpers or people, erasing is safer.</p>
+      <div id="signout-modal-warning" class="modal-warning-box" style="display: none;"></div>
+      <div class="modal-actions modal-actions-stack">
+        <button id="btn-signout-keep" class="btn-primary" type="button">Keep on this Phone &amp; Sign Out</button>
+        <button id="btn-signout-erase" class="btn-danger" type="button">Erase from this Phone &amp; Sign Out</button>
+        <button id="btn-signout-cancel" class="btn-secondary" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts: config, vendored Supabase UMD (no CDN), cloud bridge, data & engine -->
+  <script src="js/config.js"></script>
+  <script src="vendor/supabase.js"></script>
+  <script src="js/cloud.js"></script>
   <script src="data/rules.js"></script>
   <script src="data/fields.js"></script>
   <script src="data/personas.js"></script>

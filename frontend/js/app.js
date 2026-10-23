@@ -51,6 +51,10 @@
     expandedBenefits: new Set(),
     openDocDisclosures: new Set(),
     visibleCount: 30, // Batch size for rendering performance (Stage P1: 30 cards)
+    authMode: "signin", // "signin" | "signup"
+    isAuthSubmitting: false,
+    redirectAfterLogin: null,
+    currentUser: null,
   };
 
   // 16 Canonical categories + Pensions + Other
@@ -387,9 +391,9 @@
       mr: "प्रोफाइल हटवा", // needs_review
     },
     deleteConfirmText: {
-      en: "Are you sure you want to delete this profile? This action cannot be undone.",
-      hi: "क्या आप वाकई इस प्रोफाइल को हटाना चाहते हैं? यह क्रिया पूर्ववत नहीं की जा सकती।",
-      mr: "तुम्हाला खात्री आहे की तुम्ही हे प्रोफाइल हटवू इच्छिता? ही कृती पूर्ववत केली जाऊ शकत नाही.", // needs_review
+      en: "Are you sure you want to delete this profile? Its saved applications and cloud copy will also be deleted. This action cannot be undone.",
+      hi: "क्या आप वाकई इस प्रोफाइल को हटाना चाहते हैं? इसके सहेजे गए आवेदन और क्लाउड प्रतिलिपि भी हटा दी जाएगी। यह क्रिया पूर्ववत नहीं की जा सकती।",
+      mr: "तुम्हाला खात्री आहे की तुम्ही हे प्रोफाइल हटवू इच्छिता? त्याचे जतन केलेले अर्ज आणि क्लाउड प्रत देखील हटवली जाईल. ही कृती पूर्ववत केली जाऊ शकत नाही.", // needs_review
     },
     btnConfirmDelete: {
       en: "Delete Profile",
@@ -505,6 +509,243 @@
       en: "Clear filter",
       hi: "फ़िल्टर हटाएं",
       mr: "फिल्टर काढा", // needs_review
+    },
+    // Stage 8a: Helper Auth & Shared Phone Modals
+    authTitle: {
+      en: "Helper Login",
+      hi: "सहायक लॉगिन",
+      mr: "सहाय्यक लॉगिन", // needs_review
+    },
+    authSubtitle: {
+      en: "Sign in to manage beneficiary records and applications",
+      hi: "लाभार्थी रिकॉर्ड और आवेदनों का प्रबंधन करने के लिए साइन इन करें",
+      mr: "लाभार्थी नोंदी आणि अर्जांचे व्यवस्थापन करण्यासाठी साइन इन करा", // needs_review
+    },
+    tabSignIn: {
+      en: "Sign In",
+      hi: "साइन इन",
+      mr: "साइन इन", // needs_review
+    },
+    tabCreateAccount: {
+      en: "Create Account",
+      hi: "खाता बनाएं",
+      mr: "खाते तयार करा", // needs_review
+    },
+    labelAuthEmail: {
+      en: "Email Address *",
+      hi: "ईमेल पता *",
+      mr: "ईमेल पत्ता *", // needs_review
+    },
+    labelAuthPassword: {
+      en: "Password *",
+      hi: "पासवर्ड *",
+      mr: "पासवर्ड *", // needs_review
+    },
+    authPasswordHint: {
+      en: "Minimum 8 characters",
+      hi: "कम से कम 8 अक्षर",
+      mr: "किमान ८ अक्षरे", // needs_review
+    },
+    btnSignIn: {
+      en: "Sign In",
+      hi: "साइन इन",
+      mr: "साइन इन", // needs_review
+    },
+    btnCreateAccount: {
+      en: "Create Account",
+      hi: "खाता बनाएं",
+      mr: "खाते तयार करा", // needs_review
+    },
+    btnSignOut: {
+      en: "Sign Out",
+      hi: "साइन आउट",
+      mr: "साइन आउट", // needs_review
+    },
+    signingIn: {
+      en: "Signing in...",
+      hi: "साइन इन हो रहा है...",
+      mr: "साइन इन होत आहे...", // needs_review
+    },
+    creatingAccount: {
+      en: "Creating account...",
+      hi: "खाता बन रहा है...",
+      mr: "खाते तयार होत आहे...", // needs_review
+    },
+    errEmailRequired: {
+      en: "Please enter a valid email address.",
+      hi: "कृपया एक वैध ईमेल पता दर्ज करें।",
+      mr: "कृपया वैध ईमेल पत्ता प्रविष्ट करा.", // needs_review
+    },
+    errPasswordMinLength: {
+      en: "Password must be at least 8 characters.",
+      hi: "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।",
+      mr: "पासवर्ड किमान ८ अक्षरांचा असावा.", // needs_review
+    },
+    errInvalidCredentials: {
+      en: "Invalid email or password. Please check your credentials.",
+      hi: "अमान्य ईमेल या पासवर्ड। कृपया अपनी जानकारी जांचें।",
+      mr: "अवैध ईमेल किंवा पासवर्ड. कृपया आपले तपशील तपासा.", // needs_review
+    },
+    errAccountExists: {
+      en: "An account with this email already exists. Try signing in.",
+      hi: "इस ईमेल से पहले से खाता मौजूद है। साइन इन करने का प्रयास करें।",
+      mr: "या ईमेलसह खाते आधीच अस्तित्वात आहे. साइन इन करण्याचा प्रयत्न करा.", // needs_review
+    },
+    errWeakPassword: {
+      en: "Password is too weak. Please choose at least 8 characters.",
+      hi: "पासवर्ड कमजोर है। कृपया कम से कम 8 अक्षरों का पासवर्ड चुनें।",
+      mr: "पासवर्ड कमकुवत आहे. कृपया किमान ८ अक्षरांचा पासवर्ड निवडा.", // needs_review
+    },
+    errNoInternet: {
+      en: "No internet connection. Please check your network.",
+      hi: "कोई इंटरनेट कनेक्शन नहीं है। कृपया नेटवर्क जांचें।",
+      mr: "इंटरनेट कनेक्शन नाही. कृपया नेटवर्क तपासा.", // needs_review
+    },
+    errTooManyAttempts: {
+      en: "Too many attempts. Please wait a few moments and try again.",
+      hi: "बहुत अधिक प्रयास किए गए। कृपया कुछ देर प्रतीक्षा करें।",
+      mr: "खूप जास्त प्रयत्न झाले. कृपया थोडा वेळ थांबा आणि पुन्हा प्रयत्न करा.", // needs_review
+    },
+    errGenericAuth: {
+      en: "Unable to complete request. Please try again.",
+      hi: "अनुरोध पूरा नहीं हो सका। कृपया पुनः प्रयास करें।",
+      mr: "विनंती पूर्ण करता आली नाही. कृपया पुन्हा प्रयत्न करा.", // needs_review
+    },
+    infoCheckEmail: {
+      en: "Account created! Please check your email to confirm your account before signing in.",
+      hi: "खाता बन गया! कृपया साइन इन करने से पहले अपने ईमेल पर जाकर पुष्टि करें।",
+      mr: "खाते तयार झाले! कृपया साइन इन करण्यापूर्वी पुष्टी करण्यासाठी आपला ईमेल तपासा.", // needs_review
+    },
+    signInNeedsInternet: {
+      en: "Sign in requires an internet connection. Please connect to internet to sign in.",
+      hi: "साइन इन करने के लिए इंटरनेट कनेक्शन आवश्यक है। कृपया इंटरनेट से जुड़ें।",
+      mr: "साइन इन करण्यासाठी इंटरनेट कनेक्शन आवश्यक आहे. कृपया इंटरनेटशी कनेक्ट व्हा.", // needs_review
+    },
+    adoptModalTitle: {
+      en: "Existing Profiles on Phone",
+      hi: "फोन पर मौजूदा प्रोफाइल",
+      mr: "फोनवरील अस्तित्वात असलेल्या प्रोफाइल्स", // needs_review
+    },
+    adoptModalText: {
+      en: "Beneficiary profiles were found already saved on this phone. Do you want to keep them with your helper account, or start fresh?",
+      hi: "इस फोन पर पहले से सहेजे गए लाभार्थी प्रोफाइल मिले हैं। क्या आप उन्हें अपने सहायक खाते से जोड़ना चाहते हैं, या नया आरंभ करना चाहते हैं?",
+      mr: "या फोनवर आधीपासून जतन केलेल्या लाभार्थी प्रोफाइल्स सापडल्या आहेत. आपण त्यांना आपल्या खात्याशी जोडायचे आहे का, की नव्याने सुरू करायचे आहे?", // needs_review
+    },
+    btnAdoptKeep: {
+      en: "Keep Profiles",
+      hi: "प्रोफाइल रखें",
+      mr: "प्रोफाइल्स ठेवा", // needs_review
+    },
+    btnAdoptErase: {
+      en: "Erase & Start Fresh",
+      hi: "मिटाएं और नया आरंभ करें",
+      mr: "हटवा आणि नव्याने सुरू करा", // needs_review
+    },
+    diffModalTitle: {
+      en: "Different Account Detected",
+      hi: "अलग खाता पाया गया",
+      mr: "वेगळे खाते आढळले", // needs_review
+    },
+    diffModalText: {
+      en: "This phone holds saved beneficiary records from a different helper account. For beneficiary privacy, you cannot view another helper's data.",
+      hi: "इस फोन पर किसी अन्य सहायक खाते के सहेजे गए लाभार्थी रिकॉर्ड हैं। गोपनीयता के लिए, आप किसी अन्य सहायक का डेटा नहीं देख सकते।",
+      mr: "या फोनवर दुसऱ्या सहाय्यक खात्याच्या जतन केलेल्या लाभार्थी नोंदी आहेत. गोपनीयतेसाठी, आपण दुसऱ्या सहाय्यकाचा डेटा पाहू शकत नाही.", // needs_review
+    },
+    btnDiffSignout: {
+      en: "Sign Out",
+      hi: "साइन आउट",
+      mr: "साइन आउट", // needs_review
+    },
+    btnDiffErase: {
+      en: "Erase Local Data & Continue",
+      hi: "स्थानीय डेटा मिटाएं और जारी रखें",
+      mr: "स्थानिक डेटा हटवा आणि सुरू ठेवा", // needs_review
+    },
+    signoutModalTitle: {
+      en: "Sign Out",
+      hi: "साइन आउट",
+      mr: "साइन आउट", // needs_review
+    },
+    signoutModalText: {
+      en: "Would you like to also erase beneficiary records on this phone? If this phone is shared with other helpers or people, erasing is safer.",
+      hi: "क्या आप इस फोन से लाभार्थी रिकॉर्ड भी मिटाना चाहते हैं? यदि यह फोन अन्य सहायकों या लोगों के साथ साझा किया जाता है, तो मिटाना अधिक सुरक्षित है।",
+      mr: "आपण या फोनवरील लाभार्थी नोंदी देखील हटवू इच्छिता? हा फोन इतर सहाय्यक किंवा लोकांसोबत शेअर केलेला असल्यास, हटवणे अधिक सुरक्षित आहे.", // needs_review
+    },
+    btnSignoutKeep: {
+      en: "Keep on this Phone & Sign Out",
+      hi: "इस फोन पर रखें और साइन आउट करें",
+      mr: "या फोनवर ठेवा आणि साइन आउट करा", // needs_review
+    },
+    btnSignoutErase: {
+      en: "Erase from this Phone & Sign Out",
+      hi: "इस फोन से मिटाएं और साइन आउट करें",
+      mr: "या फोनवरून हटवा आणि साइन आउट करा", // needs_review
+    },
+    cloudSyncOfflineNote: {
+      en: "Saved locally. Cloud will update when online.",
+      hi: "स्थानीय रूप से सहेजा गया। ऑनलाइन होने पर क्लाउड अपडेट होगा।",
+      mr: "स्थानिक पातळीवर जतन केले. ऑनलाइन आल्यावर क्लाउड अपडेट होईल.", // needs_review
+    },
+    // Stage 8a Part 2: Backup, Restore & Unbacked-up Warnings
+    btnBackupNow: {
+      en: "Back up now",
+      hi: "अभी बैकअप लें",
+      mr: "आता बॅकअप घ्या", // needs_review
+    },
+    btnRestoreCloud: {
+      en: "Restore from cloud",
+      hi: "क्लाउड से पुनर्स्थापित करें",
+      mr: "क्लाउडवरून पुनर्संचयित करा", // needs_review
+    },
+    lastBackupPrefix: {
+      en: "Last backup",
+      hi: "पिछला बैकअप",
+      mr: "शेवटचा बॅकअप", // needs_review
+    },
+    notBackedUpYet: {
+      en: "Not backed up yet",
+      hi: "अभी तक बैकअप नहीं हुआ",
+      mr: "अद्याप बॅकअप घेतलेला नाही", // needs_review
+    },
+    backupNeedsInternet: {
+      en: "Back up needs internet",
+      hi: "बैकअप के लिए इंटरनेट आवश्यक है",
+      mr: "बॅकअपसाठी इंटरनेट आवश्यक आहे", // needs_review
+    },
+    restoreNeedsInternet: {
+      en: "Restore needs internet",
+      hi: "पुनर्स्थापित करने के लिए इंटरनेट आवश्यक है",
+      mr: "पुनर्संचयित करण्यासाठी इंटरनेट आवश्यक आहे", // needs_review
+    },
+    backingUpProgress: {
+      en: "Backing up to cloud...",
+      hi: "क्लाउड पर बैकअप हो रहा है...",
+      mr: "क्लाउडवर बॅकअप होत आहे...", // needs_review
+    },
+    restoringProgress: {
+      en: "Restoring from cloud...",
+      hi: "क्लाउड से पुनर्स्थापित हो रहा है...",
+      mr: "क्लाउडवरून पुनर्संचयित होत आहे...", // needs_review
+    },
+    switchAccountAdvice: {
+      en: "You can choose Sign Out, sign back in with the original account, run Back up now, and then switch.",
+      hi: "आप साइन आउट चुन सकते हैं, मूल खाते से पुनः साइन इन कर सकते हैं, 'अभी बैकअप लें' चला सकते हैं, और फिर बदल सकते हैं।",
+      mr: "आपण साइन आउट निवडू शकता, मूळ खात्याने पुन्हा साइन इन करू शकता, 'आता बॅकअप घ्या' चालवू शकता आणि नंतर बदलू शकता.", // needs_review
+    },
+    unbackedWarningDiff: {
+      en: "have not been backed up and will be permanently lost if you erase.",
+      hi: "का बैकअप नहीं लिया गया है और मिटाने पर वे हमेशा के लिए नष्ट हो जाएंगे।",
+      mr: "चा बॅकअप घेतलेला नाही आणि हटवल्यास ते कायमचे नष्ट होतील.", // needs_review
+    },
+    confirmEraseUnbacked: {
+      en: "have not been backed up and will be permanently lost. Are you sure you want to erase?",
+      hi: "का बैकअप नहीं लिया गया है और वे हमेशा के लिए नष्ट हो जाएंगे। क्या आप वाकई मिटाना चाहते हैं?",
+      mr: "चा बॅकअप घेतलेला नाही आणि ते कायमचे नष्ट होतील. आपण नक्की हटवू इच्छिता?", // needs_review
+    },
+    allBackedUpInfo: {
+      en: "All profiles on this phone have been backed up to the cloud.",
+      hi: "इस फोन के सभी प्रोफाइल का क्लाउड पर बैकअप लिया जा चुका है।",
+      mr: "या फोनवरील सर्व प्रोफाइल्सचा क्लाउडवर बॅकअप घेतला गेला आहे.", // needs_review
     },
   };
 
@@ -1124,6 +1365,62 @@
     els.btnCancelDelete = document.getElementById("btn-cancel-delete");
     els.btnConfirmDelete = document.getElementById("btn-confirm-delete");
 
+    // Stage 8a: Login & Auth Elements
+    els.loginView = document.getElementById("login-view");
+    els.authTitleText = document.getElementById("auth-title-text");
+    els.authSubtitleText = document.getElementById("auth-subtitle-text");
+    els.tabAuthSignin = document.getElementById("tab-auth-signin");
+    els.tabAuthSignup = document.getElementById("tab-auth-signup");
+    els.loginErrorMsg = document.getElementById("login-error-msg");
+    els.loginInfoMsg = document.getElementById("login-info-msg");
+    els.formHelperAuth = document.getElementById("form-helper-auth");
+    els.inputAuthEmail = document.getElementById("input-auth-email");
+    els.labelAuthEmail = document.getElementById("label-auth-email");
+    els.inputAuthPassword = document.getElementById("input-auth-password");
+    els.labelAuthPassword = document.getElementById("label-auth-password");
+    els.btnTogglePassword = document.getElementById("btn-toggle-password");
+    els.iconPwShow = document.getElementById("icon-pw-show");
+    els.iconPwHide = document.getElementById("icon-pw-hide");
+    els.authPasswordHint = document.getElementById("auth-password-hint");
+    els.btnCancelAuth = document.getElementById("btn-cancel-auth");
+    els.btnSubmitAuth = document.getElementById("btn-submit-auth");
+    els.authSubmitSpinner = document.getElementById("auth-submit-spinner");
+    els.authSubmitText = document.getElementById("auth-submit-text");
+    els.btnSignOut = document.getElementById("btn-sign-out");
+    els.btnSignOutText = document.getElementById("btn-sign-out-text");
+
+    // Stage 8a: Shared Phone Modals
+    els.modalAdoptLocalData = document.getElementById("modal-adopt-local-data");
+    els.modalAdoptTitle = document.getElementById("modal-adopt-title");
+    els.adoptModalText = document.getElementById("adopt-modal-text");
+    els.btnAdoptKeep = document.getElementById("btn-adopt-keep");
+    els.btnAdoptErase = document.getElementById("btn-adopt-erase");
+    els.modalDifferentAccount = document.getElementById("modal-different-account");
+    els.modalDiffTitle = document.getElementById("modal-diff-title");
+    els.diffModalText = document.getElementById("diff-modal-text");
+    els.btnDiffSignout = document.getElementById("btn-diff-signout");
+    els.btnDiffErase = document.getElementById("btn-diff-erase");
+    els.modalConfirmSignout = document.getElementById("modal-confirm-signout");
+    els.modalSignoutTitle = document.getElementById("modal-signout-title");
+    els.signoutModalText = document.getElementById("signout-modal-text");
+    els.btnSignoutKeep = document.getElementById("btn-signout-keep");
+    els.btnSignoutErase = document.getElementById("btn-signout-erase");
+    els.btnSignoutCancel = document.getElementById("btn-signout-cancel");
+    els.btnCloseSignoutModal = document.getElementById("btn-close-signout-modal");
+
+    // Stage 8a Part 2: Backup, Restore & Unbacked-up Modals
+    els.btnBackupNow = document.getElementById("btn-backup-now");
+    els.btnBackupNowText = document.getElementById("btn-backup-now-text");
+    els.btnRestoreCloud = document.getElementById("btn-restore-cloud");
+    els.btnRestoreCloudText = document.getElementById("btn-restore-cloud-text");
+    els.btnBackupHome = document.getElementById("btn-backup-home");
+    els.btnBackupHomeText = document.getElementById("btn-backup-home-text");
+    els.helperBackupStatus = document.getElementById("helper-backup-status");
+    els.dashboardLastBackup = document.getElementById("dashboard-last-backup");
+    els.cloudStatusToast = document.getElementById("cloud-status-toast");
+    els.diffModalWarning = document.getElementById("diff-modal-warning");
+    els.signoutModalWarning = document.getElementById("signout-modal-warning");
+
     // Quick Check & Finder View Elements
     els.personaSelectWrap = document.getElementById("persona-select-wrap");
     els.quickCheckBanner = document.getElementById("quick-check-banner");
@@ -1208,18 +1505,37 @@
     // Hash change routing
     window.addEventListener("hashchange", handleRoute);
 
-    // Initial load: check if helper account exists in meta store
-    loadHelperAccount().then((helper) => {
-      const rawHash = (window.location.hash || "").trim();
-      if (!rawHash || rawHash === "#") {
-        if (helper) {
-          window.location.hash = "#/helper";
-        } else {
-          window.location.hash = "#/";
+    // Initial load: check session and helper account
+    checkHasSession().then((hasSession) => {
+      loadHelperAccount().then((helper) => {
+        const rawHash = (window.location.hash || "").trim();
+        if (!rawHash || rawHash === "#") {
+          if (hasSession && helper) {
+            window.location.hash = "#/helper";
+          } else {
+            window.location.hash = "#/";
+          }
         }
-      }
-      handleRoute();
+        handleRoute();
+      });
     });
+
+    // Listen to Supabase auth changes
+    if (window.GovCloud) {
+      window.GovCloud.onAuthChange((event, session) => {
+        if (event === "SIGNED_OUT") {
+          state.currentUser = null;
+          const rawHash = (window.location.hash || "").trim();
+          if (rawHash === "#/helper" || rawHash === "#/setup" || rawHash.startsWith("#/profile/")) {
+            window.location.hash = "#/login";
+          }
+        } else if (event === "SIGNED_IN" || event === "TOKEN_REFRESHED") {
+          if (session && session.user) {
+            state.currentUser = session.user;
+          }
+        }
+      });
+    }
     window.__INIT_DONE = true;
     } catch (err) {
       console.error("JanKalyan init error:", err);
@@ -1250,23 +1566,12 @@
 
     // Landing Page Buttons
     if (els.btnLandingHelper) {
-      els.btnLandingHelper.addEventListener("click", () => {
-        if (state.helperAccount) {
-          window.location.hash = "#/helper";
+      els.btnLandingHelper.addEventListener("click", async () => {
+        const hasSession = await checkHasSession();
+        if (!hasSession) {
+          window.location.hash = "#/login";
         } else {
-          if (window.GovDB && window.GovDB.isAvailable()) {
-            window.GovDB.getMeta("helper_account").then((acc) => {
-              if (acc) {
-                state.helperAccount = acc;
-                updateHeaderHelperPill();
-                window.location.hash = "#/helper";
-              } else {
-                window.location.hash = "#/setup";
-              }
-            });
-          } else {
-            window.location.hash = "#/setup";
-          }
+          window.location.hash = "#/helper";
         }
       });
     }
@@ -1274,6 +1579,67 @@
       els.btnLandingQuick.addEventListener("click", () => {
         window.location.hash = "#/quick";
       });
+    }
+
+    // Stage 8a: Auth Form & Controls
+    if (els.tabAuthSignin) {
+      els.tabAuthSignin.addEventListener("click", () => setAuthMode("signin"));
+    }
+    if (els.tabAuthSignup) {
+      els.tabAuthSignup.addEventListener("click", () => setAuthMode("signup"));
+    }
+    if (els.btnTogglePassword) {
+      els.btnTogglePassword.addEventListener("click", togglePasswordVisibility);
+    }
+    if (els.btnCancelAuth) {
+      els.btnCancelAuth.addEventListener("click", () => {
+        window.location.hash = "#/";
+      });
+    }
+    if (els.formHelperAuth) {
+      els.formHelperAuth.addEventListener("submit", handleAuthSubmit);
+    }
+
+    // Stage 8a: Sign Out & Modals
+    if (els.btnSignOut) {
+      els.btnSignOut.addEventListener("click", openSignOutModal);
+    }
+    if (els.btnCloseSignoutModal) {
+      els.btnCloseSignoutModal.addEventListener("click", closeSignOutModal);
+    }
+    if (els.btnSignoutCancel) {
+      els.btnSignoutCancel.addEventListener("click", closeSignOutModal);
+    }
+    if (els.btnSignoutKeep) {
+      els.btnSignoutKeep.addEventListener("click", () => handleSignOutAction(false));
+    }
+    if (els.btnSignoutErase) {
+      els.btnSignoutErase.addEventListener("click", () => handleSignOutAction(true));
+    }
+
+    // Stage 8a: Shared Phone Modals
+    if (els.btnAdoptKeep) {
+      els.btnAdoptKeep.addEventListener("click", () => handleAdoptAction(true));
+    }
+    if (els.btnAdoptErase) {
+      els.btnAdoptErase.addEventListener("click", () => handleAdoptAction(false));
+    }
+    if (els.btnDiffSignout) {
+      els.btnDiffSignout.addEventListener("click", handleDiffSignout);
+    }
+    if (els.btnDiffErase) {
+      els.btnDiffErase.addEventListener("click", handleDiffErase);
+    }
+
+    // Stage 8a Part 2: Backup & Restore
+    if (els.btnBackupNow) {
+      els.btnBackupNow.addEventListener("click", performBackup);
+    }
+    if (els.btnBackupHome) {
+      els.btnBackupHome.addEventListener("click", performBackup);
+    }
+    if (els.btnRestoreCloud) {
+      els.btnRestoreCloud.addEventListener("click", performRestore);
     }
 
     // Helper Setup Form
@@ -1551,8 +1917,10 @@
           const appId = e.target.getAttribute("data-app-id");
           const app = state.applications.find((a) => a.id === appId);
           if (!app || !window.GovDB) return;
+          const now = new Date().toISOString();
           app.status = e.target.value;
-          app.statusUpdatedAt = new Date().toISOString();
+          app.statusUpdatedAt = now;
+          app.updatedAt = now;
           window.GovDB.saveApplication(app).then((saved) => {
             state.profileApplications.set(saved.schemeId, saved);
             const idx = state.applications.findIndex((a) => a.id === saved.id);
@@ -1573,6 +1941,7 @@
           if (e.target.checked) set.add(docIdx);
           else set.delete(docIdx);
           app.docsDone = Array.from(set);
+          app.updatedAt = new Date().toISOString();
           window.GovDB.saveApplication(app).then((saved) => {
             state.profileApplications.set(saved.schemeId, saved);
             const idx = state.applications.findIndex((a) => a.id === saved.id);
@@ -1602,6 +1971,7 @@
           clearTimeout(noteSaveTimeouts[appId]);
           noteSaveTimeouts[appId] = setTimeout(() => {
             app.note = e.target.value;
+            app.updatedAt = new Date().toISOString();
             window.GovDB.saveApplication(app).then((saved) => {
               state.profileApplications.set(saved.schemeId, saved);
               const idx = state.applications.findIndex((a) => a.id === saved.id);
@@ -1772,6 +2142,38 @@
     if (els.tabSavedLabel) els.tabSavedLabel.textContent = t("schemesTab");
     if (els.filterBarTitle) els.filterBarTitle.textContent = t("filterLabel");
     if (els.btnDashboardFilterClear) els.btnDashboardFilterClear.textContent = t("showAll");
+
+    // Stage 8a: Auth & Modals
+    if (els.authTitleText) els.authTitleText.textContent = t("authTitle");
+    if (els.authSubtitleText) els.authSubtitleText.textContent = t("authSubtitle");
+    if (els.tabAuthSignin) els.tabAuthSignin.textContent = t("tabSignIn");
+    if (els.tabAuthSignup) els.tabAuthSignup.textContent = t("tabCreateAccount");
+    if (els.labelAuthEmail) els.labelAuthEmail.textContent = t("labelAuthEmail");
+    if (els.labelAuthPassword) els.labelAuthPassword.textContent = t("labelAuthPassword");
+    if (els.authPasswordHint) els.authPasswordHint.textContent = t("authPasswordHint");
+    if (els.authSubmitText) els.authSubmitText.textContent = state.authMode === "signup" ? t("btnCreateAccount") : t("btnSignIn");
+    if (els.btnSignOutText) els.btnSignOutText.textContent = t("btnSignOut");
+
+    if (els.modalAdoptTitle) els.modalAdoptTitle.textContent = t("adoptModalTitle");
+    if (els.adoptModalText) els.adoptModalText.textContent = t("adoptModalText");
+    if (els.btnAdoptKeep) els.btnAdoptKeep.textContent = t("btnAdoptKeep");
+    if (els.btnAdoptErase) els.btnAdoptErase.textContent = t("btnAdoptErase");
+
+    if (els.modalDiffTitle) els.modalDiffTitle.textContent = t("diffModalTitle");
+    if (els.diffModalText) els.diffModalText.textContent = t("diffModalText");
+    if (els.btnDiffSignout) els.btnDiffSignout.textContent = t("btnDiffSignout");
+    if (els.btnDiffErase) els.btnDiffErase.textContent = t("btnDiffErase");
+
+    if (els.modalSignoutTitle) els.modalSignoutTitle.textContent = t("signoutModalTitle");
+    if (els.signoutModalText) els.signoutModalText.textContent = t("signoutModalText");
+    if (els.btnSignoutKeep) els.btnSignoutKeep.textContent = t("btnSignoutKeep");
+    if (els.btnSignoutErase) els.btnSignoutErase.textContent = t("btnSignoutErase");
+
+    // Stage 8a Part 2
+    if (els.btnBackupNowText) els.btnBackupNowText.textContent = t("btnBackupNow");
+    if (els.btnBackupHomeText) els.btnBackupHomeText.textContent = t("btnBackupNow");
+    if (els.btnRestoreCloudText) els.btnRestoreCloudText.textContent = t("btnRestoreCloud");
+    renderBackupStatus();
   }
 
   function updateHeaderHelperPill() {
@@ -1831,7 +2233,378 @@
       });
   }
 
-  function handleSaveHelperSetup(e) {
+  async function checkHasSession() {
+    if (!window.GovCloud || !window.GovCloud.isConfigured()) return false;
+    try {
+      const { data, error } = await window.GovCloud.getSession();
+      if (data && data.session && data.session.user) {
+        state.currentUser = data.session.user;
+        return true;
+      }
+      state.currentUser = null;
+      return false;
+    } catch (e) {
+      state.currentUser = null;
+      return false;
+    }
+  }
+
+  function setAuthMode(mode) {
+    state.authMode = mode;
+    const isSignup = mode === "signup";
+    if (els.tabAuthSignin) {
+      els.tabAuthSignin.classList.toggle("active", !isSignup);
+      els.tabAuthSignin.setAttribute("aria-selected", !isSignup ? "true" : "false");
+    }
+    if (els.tabAuthSignup) {
+      els.tabAuthSignup.classList.toggle("active", isSignup);
+      els.tabAuthSignup.setAttribute("aria-selected", isSignup ? "true" : "false");
+    }
+    if (els.authSubmitText) {
+      els.authSubmitText.textContent = isSignup ? t("btnCreateAccount") : t("btnSignIn");
+    }
+    if (els.authPasswordHint) {
+      els.authPasswordHint.style.display = isSignup ? "block" : "none";
+    }
+    if (els.loginErrorMsg) {
+      els.loginErrorMsg.style.display = "none";
+      els.loginErrorMsg.textContent = "";
+    }
+    if (els.loginInfoMsg) {
+      els.loginInfoMsg.style.display = "none";
+      els.loginInfoMsg.textContent = "";
+    }
+    if (els.inputAuthPassword) {
+      els.inputAuthPassword.autocomplete = isSignup ? "new-password" : "current-password";
+    }
+  }
+
+  function togglePasswordVisibility() {
+    if (!els.inputAuthPassword) return;
+    const isPassword = els.inputAuthPassword.type === "password";
+    els.inputAuthPassword.type = isPassword ? "text" : "password";
+    if (els.iconPwShow) els.iconPwShow.style.display = isPassword ? "none" : "block";
+    if (els.iconPwHide) els.iconPwHide.style.display = isPassword ? "block" : "none";
+    if (els.btnTogglePassword) {
+      els.btnTogglePassword.setAttribute("aria-label", isPassword ? "Hide password" : "Show password");
+    }
+  }
+
+  async function handleAuthSubmit(e) {
+    if (e && e.preventDefault) e.preventDefault();
+    if (state.isAuthSubmitting) return;
+
+    const email = els.inputAuthEmail ? els.inputAuthEmail.value.trim() : "";
+    const password = els.inputAuthPassword ? els.inputAuthPassword.value : "";
+
+    if (!email || !email.includes("@") || !email.includes(".")) {
+      if (els.loginErrorMsg) {
+        els.loginErrorMsg.textContent = t("errEmailRequired");
+        els.loginErrorMsg.style.display = "block";
+      }
+      if (els.inputAuthEmail) els.inputAuthEmail.focus();
+      return;
+    }
+
+    if (!password || password.length < 8) {
+      if (els.loginErrorMsg) {
+        els.loginErrorMsg.textContent = t("errPasswordMinLength");
+        els.loginErrorMsg.style.display = "block";
+      }
+      if (els.inputAuthPassword) els.inputAuthPassword.focus();
+      return;
+    }
+
+    if (els.loginErrorMsg) {
+      els.loginErrorMsg.style.display = "none";
+      els.loginErrorMsg.textContent = "";
+    }
+    if (els.loginInfoMsg) {
+      els.loginInfoMsg.style.display = "none";
+      els.loginInfoMsg.textContent = "";
+    }
+
+    // Submit state
+    state.isAuthSubmitting = true;
+    if (els.btnSubmitAuth) els.btnSubmitAuth.disabled = true;
+    if (els.authSubmitSpinner) els.authSubmitSpinner.style.display = "inline-block";
+    if (els.authSubmitText) {
+      els.authSubmitText.textContent = state.authMode === "signup" ? t("creatingAccount") : t("signingIn");
+    }
+
+    try {
+      if (state.authMode === "signup") {
+        const res = await window.GovCloud.signUp({ email, password });
+        if (res.error) {
+          const errCode = res.friendlyCode;
+          let msg = t("errGenericAuth");
+          if (errCode === "account_exists") msg = t("errAccountExists");
+          else if (errCode === "weak_password") msg = t("errWeakPassword");
+          else if (errCode === "offline") msg = t("errNoInternet");
+          else if (errCode === "too_many_attempts") msg = t("errTooManyAttempts");
+
+          if (els.loginErrorMsg) {
+            els.loginErrorMsg.textContent = msg;
+            els.loginErrorMsg.style.display = "block";
+          }
+        } else if (res.requiresEmailConfirmation) {
+          if (els.loginInfoMsg) {
+            els.loginInfoMsg.textContent = t("infoCheckEmail");
+            els.loginInfoMsg.style.display = "block";
+          }
+        } else if (res.user) {
+          state.currentUser = res.user;
+          await handlePostLoginFlow(res.user);
+        }
+      } else {
+        const res = await window.GovCloud.signIn({ email, password });
+        if (res.error) {
+          const errCode = res.friendlyCode;
+          let msg = t("errGenericAuth");
+          if (errCode === "invalid_credentials") msg = t("errInvalidCredentials");
+          else if (errCode === "offline") msg = t("errNoInternet");
+          else if (errCode === "too_many_attempts") msg = t("errTooManyAttempts");
+
+          if (els.loginErrorMsg) {
+            els.loginErrorMsg.textContent = msg;
+            els.loginErrorMsg.style.display = "block";
+          }
+        } else if (res.user) {
+          state.currentUser = res.user;
+          await handlePostLoginFlow(res.user);
+        }
+      }
+    } catch (err) {
+      if (els.loginErrorMsg) {
+        els.loginErrorMsg.textContent = t("errGenericAuth");
+        els.loginErrorMsg.style.display = "block";
+      }
+    } finally {
+      state.isAuthSubmitting = false;
+      if (els.btnSubmitAuth) els.btnSubmitAuth.disabled = false;
+      if (els.authSubmitSpinner) els.authSubmitSpinner.style.display = "none";
+      if (els.authSubmitText) {
+        els.authSubmitText.textContent = state.authMode === "signup" ? t("btnCreateAccount") : t("btnSignIn");
+      }
+    }
+  }
+
+  let pendingAuthUser = null;
+
+  function renderDifferentAccountModalWarning(total, unbackedCount) {
+    if (!els.diffModalWarning) return;
+    if (unbackedCount > 0) {
+      els.diffModalWarning.innerHTML = `
+        <p class="modal-warning-highlight"><strong>${unbackedCount} profile${unbackedCount === 1 ? "" : "s"} ${escapeHtml(t("unbackedWarningDiff"))}</strong></p>
+        <p class="modal-advice-text">${escapeHtml(t("switchAccountAdvice"))}</p>
+      `;
+      els.diffModalWarning.style.display = "block";
+    } else {
+      els.diffModalWarning.innerHTML = `
+        <p class="modal-warning-highlight" style="color: #15803d;"><strong>${escapeHtml(t("allBackedUpInfo"))}</strong></p>
+      `;
+      els.diffModalWarning.style.display = "block";
+    }
+  }
+
+  function renderSignOutModalWarning(total, unbackedCount) {
+    if (!els.signoutModalWarning) return;
+    if (unbackedCount > 0) {
+      els.signoutModalWarning.innerHTML = `
+        <p class="modal-warning-highlight"><strong>${unbackedCount} profile${unbackedCount === 1 ? "" : "s"} ${escapeHtml(t("unbackedWarningDiff"))}</strong></p>
+      `;
+      els.signoutModalWarning.style.display = "block";
+    } else {
+      els.signoutModalWarning.style.display = "none";
+    }
+  }
+
+  async function handlePostLoginFlow(user) {
+    if (!user) return;
+    pendingAuthUser = user;
+
+    if (!window.GovDB || !window.GovDB.isAvailable()) {
+      await proceedPostLoginSetup(user);
+      return;
+    }
+
+    const localOwnerId = await window.GovDB.getMeta("local_owner_id");
+    const localProfiles = await window.GovDB.getAllProfiles();
+
+    // Case 1: First login on device with existing profiles
+    if (!localOwnerId) {
+      if (localProfiles && localProfiles.length > 0) {
+        if (els.modalAdoptLocalData) els.modalAdoptLocalData.style.display = "flex";
+        return;
+      }
+      await window.GovDB.setMeta("local_owner_id", user.id);
+      await proceedPostLoginSetup(user);
+      return;
+    }
+
+    // Case 2: Same user
+    if (localOwnerId === user.id) {
+      await proceedPostLoginSetup(user);
+      return;
+    }
+
+    // Case 3: Different account! Block with modal
+    const localApps = await window.GovDB.getAllApplications();
+    const lastBackupAt = await window.GovDB.getMeta("last_backup_at");
+    const unbackedCount = window.GovCloud
+      ? window.GovCloud.getUnbackedUpProfilesCount({ profiles: localProfiles, applications: localApps, lastBackupAt })
+      : localProfiles.length;
+
+    renderDifferentAccountModalWarning(localProfiles.length, unbackedCount);
+    if (els.modalDifferentAccount) els.modalDifferentAccount.style.display = "flex";
+  }
+
+  async function handleAdoptAction(keepData) {
+    if (els.modalAdoptLocalData) els.modalAdoptLocalData.style.display = "none";
+    const user = pendingAuthUser;
+    if (!user) return;
+
+    if (!keepData) {
+      await window.GovDB.clearAllBeneficiaryData();
+      state.profiles = [];
+      state.applications = [];
+      state.helperAccount = null;
+    }
+    await window.GovDB.setMeta("local_owner_id", user.id);
+    await proceedPostLoginSetup(user);
+  }
+
+  async function handleDiffSignout() {
+    if (els.modalDifferentAccount) els.modalDifferentAccount.style.display = "none";
+    pendingAuthUser = null;
+    await window.GovCloud.signOut();
+    state.currentUser = null;
+    window.location.hash = "#/login";
+  }
+
+  async function handleDiffErase() {
+    const localProfiles = await window.GovDB.getAllProfiles();
+    const localApps = await window.GovDB.getAllApplications();
+    const lastBackupAt = await window.GovDB.getMeta("last_backup_at");
+    const unbackedCount = window.GovCloud
+      ? window.GovCloud.getUnbackedUpProfilesCount({ profiles: localProfiles, applications: localApps, lastBackupAt })
+      : localProfiles.length;
+
+    let confirmMsg = "Are you sure you want to erase all local profiles and applications from this phone? This cannot be undone.";
+    if (unbackedCount > 0) {
+      confirmMsg = `${unbackedCount} profile(s) have not been backed up and will be permanently lost if you erase. Are you sure you want to erase all local data and continue?`;
+    }
+
+    if (!window.confirm(confirmMsg)) {
+      return;
+    }
+    if (els.modalDifferentAccount) els.modalDifferentAccount.style.display = "none";
+    const user = pendingAuthUser;
+    if (!user) return;
+
+    await window.GovDB.clearAllBeneficiaryData();
+    state.profiles = [];
+    state.applications = [];
+    state.helperAccount = null;
+    await window.GovDB.setMeta("local_owner_id", user.id);
+    await proceedPostLoginSetup(user);
+  }
+
+  async function flushQueuedCloudDeletes() {
+    if (!window.GovDB || !window.GovDB.isAvailable() || !window.GovCloud || !window.GovCloud.isOnline()) return;
+    try {
+      const pending = (await window.GovDB.getMeta("pending_cloud_deletes")) || [];
+      if (!pending || pending.length === 0) return;
+      const res = await window.GovCloud.flushPendingDeletes(pending);
+      if (res && res.deleted && res.deleted.length > 0) {
+        const remaining = pending.filter((id) => !res.deleted.includes(id));
+        await window.GovDB.setMeta("pending_cloud_deletes", remaining);
+      }
+    } catch (err) {
+      console.warn("Could not flush pending cloud deletes:", err);
+    }
+  }
+
+  async function proceedPostLoginSetup(user) {
+    pendingAuthUser = null;
+    state.currentUser = user;
+    // Flush queued deletes from offline sessions
+    await flushQueuedCloudDeletes();
+
+    // Query cloud helper record
+    const cloudRes = await window.GovCloud.getCloudHelper(user.id);
+    if (cloudRes && cloudRes.data && cloudRes.data.name) {
+      // Sync cloud row into local meta
+      const cloudData = cloudRes.data;
+      await window.GovDB.setMeta("helper_account", cloudData);
+      state.helperAccount = cloudData;
+      updateHeaderHelperPill();
+      if (cloudData.language && cloudData.language !== state.lang) {
+        setLanguage(cloudData.language);
+      }
+      const targetHash = state.redirectAfterLogin || "#/helper";
+      state.redirectAfterLogin = null;
+      window.location.hash = targetHash;
+      return;
+    }
+
+    // Helper has no cloud row, pre-fill from local meta if present
+    const localMeta = await window.GovDB.getMeta("helper_account");
+    if (localMeta && localMeta.name) {
+      state.helperAccount = localMeta;
+      updateHeaderHelperPill();
+    }
+    window.location.hash = "#/setup";
+  }
+
+  async function openSignOutModal() {
+    if (!els.modalConfirmSignout) return;
+    const localProfiles = (window.GovDB && window.GovDB.isAvailable()) ? await window.GovDB.getAllProfiles() : [];
+    const localApps = (window.GovDB && window.GovDB.isAvailable()) ? await window.GovDB.getAllApplications() : [];
+    const lastBackupAt = (window.GovDB && window.GovDB.isAvailable()) ? await window.GovDB.getMeta("last_backup_at") : null;
+    const unbackedCount = (window.GovCloud && localProfiles.length > 0)
+      ? window.GovCloud.getUnbackedUpProfilesCount({ profiles: localProfiles, applications: localApps, lastBackupAt })
+      : 0;
+
+    renderSignOutModalWarning(localProfiles.length, unbackedCount);
+    els.modalConfirmSignout.style.display = "flex";
+  }
+
+  function closeSignOutModal() {
+    if (els.modalConfirmSignout) els.modalConfirmSignout.style.display = "none";
+  }
+
+  async function handleSignOutAction(eraseLocal) {
+    if (eraseLocal && window.GovDB && window.GovDB.isAvailable()) {
+      const localProfiles = await window.GovDB.getAllProfiles();
+      const localApps = await window.GovDB.getAllApplications();
+      const lastBackupAt = await window.GovDB.getMeta("last_backup_at");
+      const unbackedCount = window.GovCloud
+        ? window.GovCloud.getUnbackedUpProfilesCount({ profiles: localProfiles, applications: localApps, lastBackupAt })
+        : 0;
+
+      if (unbackedCount > 0) {
+        const confirmMsg = `${unbackedCount} profile(s) have not been backed up and will be permanently lost. Are you sure you want to erase from this phone and sign out?`;
+        if (!window.confirm(confirmMsg)) {
+          return;
+        }
+      }
+    }
+
+    closeSignOutModal();
+    if (eraseLocal && window.GovDB) {
+      await window.GovDB.clearAllBeneficiaryData();
+      state.helperAccount = null;
+      state.profiles = [];
+      state.applications = [];
+      updateHeaderHelperPill();
+    }
+    await window.GovCloud.signOut();
+    state.currentUser = null;
+    window.location.hash = "#/login";
+  }
+
+  async function handleSaveHelperSetup(e) {
     if (e && e.preventDefault) e.preventDefault();
     const name = els.inputHelperName ? els.inputHelperName.value.trim() : "";
     const helperType = els.selectHelperType ? els.selectHelperType.value : "ASHA";
@@ -1861,49 +2634,80 @@
       updatedAt: new Date().toISOString(),
     };
 
-    if (window.GovDB && window.GovDB.isAvailable()) {
-      window.GovDB.setMeta("helper_account", helperData)
-        .then(() => {
-          state.helperAccount = helperData;
-          updateHeaderHelperPill();
-          if (language && language !== state.lang) {
-            setLanguage(language);
+    // Save to Cloud helpers table if user is signed in
+    if (window.GovCloud) {
+      try {
+        const user = await window.GovCloud.getUser();
+        if (user && user.id) {
+          helperData.id = user.id;
+          const cloudRes = await window.GovCloud.saveCloudHelper(helperData);
+          if (cloudRes && cloudRes.error && cloudRes.isOffline) {
+            if (els.setupNoticeText) {
+              els.setupNoticeText.textContent = t("cloudSyncOfflineNote");
+            }
           }
-
-          if (state.pendingQuickCheckConversion) {
-            state.pendingQuickCheckConversion = false;
-            window.location.hash = "#/helper";
-            openAddProfileModal(state.pendingQuickCheckFacts);
-          } else {
-            window.location.hash = "#/helper";
-          }
-        })
-        .catch((err) => {
-          console.error("Failed to save helper account:", err);
-          if (els.setupErrorMsg) {
-            els.setupErrorMsg.textContent = "Failed to save helper account: " + err.message;
-            els.setupErrorMsg.style.display = "block";
-          }
-        });
-    } else {
-      state.helperAccount = helperData;
-      updateHeaderHelperPill();
-      if (state.pendingQuickCheckConversion) {
-        state.pendingQuickCheckConversion = false;
-        window.location.hash = "#/helper";
-        openAddProfileModal(state.pendingQuickCheckFacts);
-      } else {
-        window.location.hash = "#/helper";
+        }
+      } catch (err) {
+        console.warn("Could not sync helper profile to cloud:", err);
       }
+    }
+
+    if (window.GovDB && window.GovDB.isAvailable()) {
+      try {
+        await window.GovDB.setMeta("helper_account", helperData);
+      } catch (err) {
+        console.error("Failed to save helper account locally:", err);
+      }
+    }
+
+    state.helperAccount = helperData;
+    updateHeaderHelperPill();
+    if (language && language !== state.lang) {
+      setLanguage(language);
+    }
+
+    if (state.pendingQuickCheckConversion) {
+      state.pendingQuickCheckConversion = false;
+      window.location.hash = "#/helper";
+      openAddProfileModal(state.pendingQuickCheckFacts);
+    } else {
+      window.location.hash = "#/helper";
     }
   }
 
-  function handleRoute() {
+  async function handleRoute() {
     const rawHash = (window.location.hash || "").trim();
 
+    // Public routes: #/, #, empty, #/quick
     if (!rawHash || rawHash === "#" || rawHash === "#/") {
       showLandingView();
       return;
+    }
+
+    if (rawHash === "#/quick") {
+      showQuickCheck();
+      return;
+    }
+
+    if (rawHash === "#/login") {
+      const hasSession = await checkHasSession();
+      if (hasSession) {
+        window.location.hash = "#/helper";
+        return;
+      }
+      showLoginView();
+      return;
+    }
+
+    // Protected routes: #/setup, #/helper, #/profile/<id>
+    const isProtected = rawHash === "#/setup" || rawHash === "#/helper" || rawHash.startsWith("#/profile/");
+    if (isProtected) {
+      const hasSession = await checkHasSession();
+      if (!hasSession) {
+        state.redirectAfterLogin = rawHash;
+        window.location.hash = "#/login";
+        return;
+      }
     }
 
     if (rawHash === "#/setup") {
@@ -1926,17 +2730,32 @@
       return;
     }
 
-    if (rawHash === "#/quick") {
-      showQuickCheck();
-      return;
-    }
-
     // Default fallback
     window.location.hash = "#/";
   }
 
   function showLandingView() {
     switchView("landing");
+  }
+
+  function showLoginView() {
+    switchView("login");
+    setAuthMode(state.authMode || "signin");
+    if (els.inputAuthEmail) els.inputAuthEmail.value = "";
+    if (els.inputAuthPassword) els.inputAuthPassword.value = "";
+    if (els.loginErrorMsg) {
+      if (typeof navigator !== "undefined" && navigator.onLine === false) {
+        els.loginErrorMsg.textContent = t("signInNeedsInternet");
+        els.loginErrorMsg.style.display = "block";
+      } else {
+        els.loginErrorMsg.style.display = "none";
+        els.loginErrorMsg.textContent = "";
+      }
+    }
+    if (els.loginInfoMsg) {
+      els.loginInfoMsg.style.display = "none";
+      els.loginInfoMsg.textContent = "";
+    }
   }
 
   function showSetupView() {
@@ -2005,17 +2824,19 @@
     state.currentView = viewName;
 
     const isLanding = viewName === "landing";
+    const isLogin = viewName === "login";
     const isSetup = viewName === "setup";
     const isHelper = viewName === "helper" || viewName === "dashboard";
     const isFinder = viewName === "finder";
 
     if (els.landingView) els.landingView.style.display = isLanding ? "block" : "none";
+    if (els.loginView) els.loginView.style.display = isLogin ? "block" : "none";
     if (els.setupView) els.setupView.style.display = isSetup ? "block" : "none";
     if (els.dashboardView) els.dashboardView.style.display = isHelper ? "block" : "none";
     if (els.finderView) els.finderView.style.display = isFinder ? "" : "none";
 
     // Header controls & sub-banners
-    if (isLanding) {
+    if (isLanding || isLogin) {
       if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
       if (els.activeProfilePill) els.activeProfilePill.style.display = "none";
       if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "none";
@@ -2239,22 +3060,224 @@
     }
   }
 
-  function confirmDeleteProfile() {
+  async function confirmDeleteProfile() {
     if (!state.pendingDeleteProfileId || !window.GovDB || !window.GovDB.isAvailable()) {
       closeDeleteModal();
       return;
     }
 
     const idToDelete = state.pendingDeleteProfileId;
-    window.GovDB.deleteProfile(idToDelete)
-      .then(() => {
-        closeDeleteModal();
-        refreshDashboard();
-      })
-      .catch((err) => {
-        console.error("Failed to delete profile:", err);
-        closeDeleteModal();
+    try {
+      await window.GovDB.deleteProfile(idToDelete);
+
+      const currentUser = state.currentUser || (window.GovCloud ? await window.GovCloud.getUser() : null);
+      if (currentUser && currentUser.id) {
+        let deletedInCloud = false;
+        if (window.GovCloud && window.GovCloud.isOnline()) {
+          const res = await window.GovCloud.deleteProfileCloud(idToDelete);
+          if (!res || !res.error) {
+            deletedInCloud = true;
+          }
+        }
+        if (!deletedInCloud) {
+          const pending = (await window.GovDB.getMeta("pending_cloud_deletes")) || [];
+          if (!pending.includes(idToDelete)) {
+            pending.push(idToDelete);
+            await window.GovDB.setMeta("pending_cloud_deletes", pending);
+          }
+        }
+      }
+    } catch (err) {
+      console.error("Failed to delete profile:", err);
+    } finally {
+      closeDeleteModal();
+      refreshDashboard();
+    }
+  }
+
+  let toastTimeout = null;
+  function showCloudToast(message, isError) {
+    if (!els.cloudStatusToast) return;
+    clearTimeout(toastTimeout);
+    els.cloudStatusToast.textContent = message;
+    els.cloudStatusToast.className = isError ? "cloud-status-toast error" : "cloud-status-toast success";
+    els.cloudStatusToast.style.display = "block";
+    toastTimeout = setTimeout(() => {
+      if (els.cloudStatusToast) els.cloudStatusToast.style.display = "none";
+    }, 4500);
+  }
+
+  async function renderBackupStatus() {
+    if (!window.GovDB || !window.GovDB.isAvailable()) return;
+    try {
+      const lastBackup = await window.GovDB.getMeta("last_backup_at");
+      let text = "";
+      if (!lastBackup) {
+        text = `${t("lastBackupPrefix")}: ${t("notBackedUpYet")}`;
+      } else {
+        try {
+          const d = new Date(lastBackup);
+          const timeStr = d.toLocaleDateString(state.lang === "hi" ? "hi-IN" : state.lang === "mr" ? "mr-IN" : "en-IN", {
+            day: "numeric",
+            month: "short",
+            hour: "2-digit",
+            minute: "2-digit",
+          });
+          text = `${t("lastBackupPrefix")}: ${timeStr}`;
+        } catch (e) {
+          text = `${t("lastBackupPrefix")}: ${lastBackup}`;
+        }
+      }
+      if (els.helperBackupStatus) {
+        els.helperBackupStatus.textContent = text;
+      }
+      if (els.dashboardLastBackup) {
+        els.dashboardLastBackup.textContent = text;
+      }
+    } catch (e) {
+      // quiet fallback
+    }
+  }
+
+  async function performBackup() {
+    if (!window.GovCloud) return;
+
+    if (!window.GovCloud.isOnline()) {
+      showCloudToast(t("backupNeedsInternet"), true);
+      return;
+    }
+
+    const user = state.currentUser || (await window.GovCloud.getUser());
+    if (!user || !user.id) {
+      window.location.hash = "#/login";
+      return;
+    }
+
+    showCloudToast(t("backingUpProgress"), false);
+
+    try {
+      const profiles = await window.GovDB.getAllProfiles();
+      const applications = await window.GovDB.getAllApplications();
+      const pendingDeletes = (await window.GovDB.getMeta("pending_cloud_deletes")) || [];
+
+      const res = await window.GovCloud.backupToCloud({
+        profiles,
+        applications,
+        userId: user.id,
+        pendingDeletes,
       });
+
+      if (res.flushedDeletes && res.flushedDeletes.length > 0) {
+        const remaining = pendingDeletes.filter((id) => !res.flushedDeletes.includes(id));
+        await window.GovDB.setMeta("pending_cloud_deletes", remaining);
+      }
+
+      if (res.success) {
+        const now = new Date().toISOString();
+        await window.GovDB.setMeta("last_backup_at", now);
+        await renderBackupStatus();
+
+        let msg = "";
+        if (state.lang === "hi") {
+          msg = `${res.profilesBackedUp} प्रोफाइल और ${res.appsBackedUp} आवेदनों का बैकअप लिया गया`;
+        } else if (state.lang === "mr") {
+          msg = `${res.profilesBackedUp} प्रोफाइल्स आणि ${res.appsBackedUp} अर्जांचा बॅकअप घेतला`; // needs_review
+        } else {
+          msg = `Backed up ${res.profilesBackedUp} profile${res.profilesBackedUp === 1 ? "" : "s"} and ${res.appsBackedUp} application${res.appsBackedUp === 1 ? "" : "s"}`;
+        }
+        showCloudToast(msg, false);
+      } else {
+        const failedCount = (res.profilesFailed || 0) + (res.appsFailed || 0);
+        let msg = "";
+        if (state.lang === "hi") {
+          msg = `बैकअप आंशिक रूप से विफल रहा: ${res.profilesBackedUp} प्रोफाइल सहेजे गए, ${failedCount} विफल`;
+        } else if (state.lang === "mr") {
+          msg = `बॅकअप अंशतः अयशस्वी: ${res.profilesBackedUp} प्रोफाइल्स जतन केले, ${failedCount} अयशस्वी`; // needs_review
+        } else {
+          msg = `Backup partially failed: ${res.profilesBackedUp} profiles and ${res.appsBackedUp} applications backed up, ${failedCount} failed`;
+        }
+        showCloudToast(msg, true);
+      }
+    } catch (err) {
+      console.error("Backup failed:", err);
+      showCloudToast(t("errGenericAuth"), true);
+    }
+  }
+
+  async function performRestore() {
+    if (!window.GovCloud) return;
+
+    if (!window.GovCloud.isOnline()) {
+      showCloudToast(t("restoreNeedsInternet"), true);
+      return;
+    }
+
+    const user = state.currentUser || (await window.GovCloud.getUser());
+    if (!user || !user.id) {
+      window.location.hash = "#/login";
+      return;
+    }
+
+    showCloudToast(t("restoringProgress"), false);
+
+    try {
+      const restoreRes = await window.GovCloud.restoreFromCloud(user.id);
+      if (restoreRes.error) {
+        showCloudToast(t("errGenericAuth"), true);
+        return;
+      }
+
+      const cloudProfiles = restoreRes.data ? restoreRes.data.profiles : [];
+      const cloudApps = restoreRes.data ? restoreRes.data.applications : [];
+      const localProfiles = await window.GovDB.getAllProfiles();
+      const localApps = await window.GovDB.getAllApplications();
+      const pendingDeletes = (await window.GovDB.getMeta("pending_cloud_deletes")) || [];
+
+      const mergeResult = window.GovCloud.mergeRestoreData({
+        cloudProfiles,
+        cloudApps,
+        localProfiles,
+        localApps,
+        pendingDeletes,
+      });
+
+      for (const p of mergeResult.profilesToAdd) {
+        await window.GovDB.saveProfile(p);
+      }
+      for (const p of mergeResult.profilesToUpdate) {
+        await window.GovDB.saveProfile(p);
+      }
+
+      for (const appId of mergeResult.appsToDelete) {
+        await window.GovDB.deleteApplication(appId);
+      }
+      for (const a of mergeResult.appsToAdd) {
+        await window.GovDB.saveApplication(a);
+      }
+      for (const a of mergeResult.appsToUpdate) {
+        await window.GovDB.saveApplication(a);
+      }
+
+      await refreshDashboard();
+      await renderBackupStatus();
+
+      const pAdded = mergeResult.profilesAdded;
+      const pUpdated = mergeResult.profilesUpdated;
+      const pKept = mergeResult.profilesKept;
+
+      let msg = "";
+      if (state.lang === "hi") {
+        msg = `${pAdded} प्रोफाइल जोड़े गए, ${pUpdated} अपडेट किए गए, ${pKept} यथावत रखे गए`;
+      } else if (state.lang === "mr") {
+        msg = `${pAdded} प्रोफाइल्स जोडले, ${pUpdated} अपडेट केले, ${pKept} जसे आहेत तसेच ठेवले`; // needs_review
+      } else {
+        msg = `Added ${pAdded} profile${pAdded === 1 ? "" : "s"}, updated ${pUpdated}, kept ${pKept} as is`;
+      }
+      showCloudToast(msg, false);
+    } catch (err) {
+      console.error("Restore failed:", err);
+      showCloudToast(t("errGenericAuth"), true);
+    }
   }
 
   let autoSaveTimeout = null;
@@ -2293,6 +3316,7 @@
   function refreshDashboard() {
     updateI18nLabels();
     updateHelperWelcomeBar();
+    renderBackupStatus();
 
     if (!window.GovDB || !window.GovDB.isAvailable()) {
       if (els.dbUnavailableBanner) els.dbUnavailableBanner.style.display = "block";
@@ -3536,14 +4560,16 @@
       return;
     }
 
+    const now = new Date().toISOString();
     const newApp = {
       id: window.GovDB.generateId(),
       profileId: state.activeProfileId,
       schemeId: schemeId,
       status: "Saved",
-      statusUpdatedAt: new Date().toISOString(),
+      statusUpdatedAt: now,
       docsDone: [],
       note: "",
+      updatedAt: now,
     };
 
     window.GovDB.saveApplication(newApp)
@@ -3771,8 +4797,10 @@
         const appId = e.currentTarget.getAttribute("data-app-id");
         const app = savedApps.find((a) => a.id === appId);
         if (!app) return;
+        const now = new Date().toISOString();
         app.status = e.currentTarget.value;
-        app.statusUpdatedAt = new Date().toISOString();
+        app.statusUpdatedAt = now;
+        app.updatedAt = now;
         window.GovDB.saveApplication(app).then((saved) => {
           state.profileApplications.set(saved.schemeId, saved);
           const idx = state.applications.findIndex((a) => a.id === saved.id);
@@ -3793,6 +4821,7 @@
         if (e.currentTarget.checked) set.add(docIdx);
         else set.delete(docIdx);
         app.docsDone = Array.from(set);
+        app.updatedAt = new Date().toISOString();
         window.GovDB.saveApplication(app).then((saved) => {
           state.profileApplications.set(saved.schemeId, saved);
           const idx = state.applications.findIndex((a) => a.id === saved.id);
@@ -3811,6 +4840,7 @@
         clearTimeout(noteSaveTimeouts[appId]);
         noteSaveTimeouts[appId] = setTimeout(() => {
           app.note = e.target.value;
+          app.updatedAt = new Date().toISOString();
           window.GovDB.saveApplication(app).then((saved) => {
             state.profileApplications.set(saved.schemeId, saved);
             const idx = state.applications.findIndex((a) => a.id === saved.id);

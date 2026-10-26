@@ -200,6 +200,21 @@
       hi: "विवरण संपादित करें",
       mr: "तपशील संपादित करा", // needs_review
     },
+    btnAccountMenu: {
+      en: "Account",
+      hi: "खाता",
+      mr: "खाते", // needs_review
+    },
+    helperAvatar: {
+      en: "Helper account avatar",
+      hi: "सहायक खाता अवतार",
+      mr: "सहायक खाते अवतार", // needs_review
+    },
+    accountMenuAria: {
+      en: "Helper account menu",
+      hi: "सहायक खाता मेनू",
+      mr: "सहायक खाते मेनू", // needs_review
+    },
     docsPending: {
       en: "Documents pending",
       hi: "दस्तावेज लंबित",
@@ -747,12 +762,198 @@
       hi: "इस फोन के सभी प्रोफाइल का क्लाउड पर बैकअप लिया जा चुका है।",
       mr: "या फोनवरील सर्व प्रोफाइल्सचा क्लाउडवर बॅकअप घेतला गेला आहे.", // needs_review
     },
+    // Helper Profile Screen, Checklist & Status Tracker
+    open: {
+      en: "Open",
+      hi: "खोलें",
+      mr: "उघडा", // needs_review
+    },
+    findSchemes: {
+      en: "Find schemes",
+      hi: "योजनाएं खोजें",
+      mr: "योजना शोधा", // needs_review
+    },
+    findingSchemesFor: {
+      en: "Finding schemes for",
+      hi: "के लिए योजनाएं खोजी जा रही हैं",
+      mr: "साठी योजना शोधत आहे", // needs_review
+    },
+    saveTo: {
+      en: "Save to {name}",
+      hi: "{name} के लिए सहेजें",
+      mr: "{name} साठी जतन करा", // needs_review
+    },
+    saved: {
+      en: "Saved",
+      hi: "सहेजा गया",
+      mr: "जतन केले", // needs_review
+    },
+    savedSchemes: {
+      en: "Saved Schemes",
+      hi: "सहेजी गई योजनाएं",
+      mr: "जतन केलेल्या योजना", // needs_review
+    },
+    noSchemesSaved: {
+      en: "No schemes saved yet",
+      hi: "अभी तक कोई योजना सहेजी नहीं गई",
+      mr: "अद्याप कोणतीही योजना जतन केलेली नाही", // needs_review
+    },
+    noSchemesSavedDesc: {
+      en: "Find schemes matching this beneficiary's profile",
+      hi: "इस लाभार्थी के प्रोफाइल के अनुसार योजनाएं खोजें",
+      mr: "या लाभार्थ्याच्या प्रोफाइलनुसार योजना शोधा", // needs_review
+    },
+    docsProgress: {
+      en: "Documents {done} of {total}",
+      hi: "दस्तावेज {done} / {total}",
+      mr: "कागदपत्रे {done} / {total}", // needs_review
+    },
+    noDocsRequired: {
+      en: "No documents required",
+      hi: "कोई दस्तावेज आवश्यक नहीं",
+      mr: "कागदपत्रांची आवश्यकता नाही", // needs_review
+    },
+    have: {
+      en: "Have",
+      hi: "उपलब्ध",
+      mr: "आहे", // needs_review
+    },
+    missing: {
+      en: "Missing",
+      hi: "लापता",
+      mr: "नाही", // needs_review
+    },
+    suggestMoveToPending: {
+      en: "Move to Documents pending",
+      hi: "'दस्तावेज लंबित' पर ले जाएं",
+      mr: "'कागदपत्रे प्रलंबित' वर हलवा", // needs_review
+    },
+    suggestMoveToReady: {
+      en: "Move to Ready to apply",
+      hi: "'आवेदन के लिए तैयार' पर ले जाएं",
+      mr: "'अर्ज करण्यास तयार' वर हलवा", // needs_review
+    },
+    officialInfo: {
+      en: "Official info",
+      hi: "आधिकारिक जानकारी",
+      mr: "अधिकृत माहिती", // needs_review
+    },
+    applyOnline: {
+      en: "Apply online",
+      hi: "ऑनलाइन आवेदन",
+      mr: "ऑनलाइन अर्ज करा", // needs_review
+    },
+    changeStatus: {
+      en: "Change Status",
+      hi: "स्थिति बदलें",
+      mr: "स्थिती बदला", // needs_review
+    },
+    rejectionReasonLabel: {
+      en: "Reason for rejection (optional)",
+      hi: "अस्वीकृति का कारण (वैकल्पिक)",
+      mr: "नाकारण्याचे कारण (पर्यायी)", // needs_review
+    },
+    rejectionReasonPlaceholder: {
+      en: "e.g. Land area exceeded limit, missing income proof",
+      hi: "उदा. भूमि सीमा से अधिक, आय प्रमाण पत्र का अभाव",
+      mr: "उदा. जमीन मर्यादा ओलांडली, उत्पन्नाचा पुरावा नाही", // needs_review
+    },
+    confirm: {
+      en: "Confirm",
+      hi: "पुष्टि करें",
+      mr: "नक्की करा", // needs_review
+    },
+    skip: {
+      en: "Skip",
+      hi: "छोड़ें",
+      mr: "वगळा", // needs_review
+    },
+    updatedToday: {
+      en: "Updated today",
+      hi: "आज अद्यतनित",
+      mr: "आज अपडेट केले", // needs_review
+    },
+    updatedYesterday: {
+      en: "Updated yesterday",
+      hi: "कल अद्यतनित",
+      mr: "काल अपडेट केले", // needs_review
+    },
+    updatedDaysAgo: {
+      en: "Updated {days} days ago",
+      hi: "{days} दिन पहले अद्यतनित",
+      mr: "{days} दिवसांपूर्वी अपडेट केले", // needs_review
+    },
+    deleteProfile: {
+      en: "Delete profile",
+      hi: "प्रोफाइल हटाएं",
+      mr: "प्रोफाइल हटवा", // needs_review
+    },
+    moreOptions: {
+      en: "More options",
+      hi: "अधिक विकल्प",
+      mr: "अधिक पर्याय", // needs_review
+    },
+    backToHelper: {
+      en: "Back to beneficiaries",
+      hi: "लाभार्थियों पर वापस जाएं",
+      mr: "लाभार्थ्यांकडे परत जा", // needs_review
+    },
+    totalSchemes: {
+      en: "Total Schemes",
+      hi: "कुल योजनाएं",
+      mr: "एकूण योजना", // needs_review
+    },
+    totalSchemesSub: {
+      en: "Across all profiles",
+      hi: "सभी प्रोफाइलों में",
+      mr: "सर्व प्रोफाइल्समध्ये", // needs_review
+    },
+    profileLoadError: {
+      en: "Unable to load profile",
+      hi: "प्रोफाइल लोड करने में असमर्थ",
+      mr: "प्रोफाइल लोड करण्यात अयशस्वी", // needs_review
+    },
+    retry: {
+      en: "Retry",
+      hi: "पुनः प्रयास करें",
+      mr: "पुन्हा प्रयत्न करा", // needs_review
+    },
+    oneSchemeSaved: {
+      en: "1 scheme saved",
+      hi: "1 योजना सहेजी गई",
+      mr: "1 योजना जतन केली", // needs_review
+    },
+    schemesSavedCount: {
+      en: "{count} schemes saved",
+      hi: "{count} योजनाएं सहेजी गईं",
+      mr: "{count} योजना जतन केल्या", // needs_review
+    },
+    suggestionTip: {
+      en: "Suggested next step:",
+      hi: "सुझाया गया अगला कदम:",
+      mr: "सुचवलेले पुढील पाऊल:", // needs_review
+    },
+    backToProfile: {
+      en: "Back to profile",
+      hi: "प्रोफाइल पर वापस जाएं",
+      mr: "प्रोफाइलवर परत जा", // needs_review
+    },
+    noSchemesSavedSummary: {
+      en: "No schemes saved yet",
+      hi: "अभी तक कोई योजना सहेजी नहीं गई",
+      mr: "अद्याप कोणतीही योजना जतन केलेली नाही", // needs_review
+    },
   };
 
-  function t(key) {
+  function t(key, params) {
     const entry = I18N[key];
-    if (!entry) return key;
-    return entry[state.lang] || entry.en || key;
+    let str = entry ? (entry[state.lang] || entry.en || key) : key;
+    if (params && typeof params === "object") {
+      Object.keys(params).forEach((p) => {
+        str = str.replace(new RegExp(`\\{${p}\\}`, "g"), params[p]);
+      });
+    }
+    return str;
   }
 
   function getCategoryLabel(cat) {
@@ -963,6 +1164,8 @@
         if (state.currentView === "finder") {
           const filterData = getFilterData();
           renderSchemes(filterData);
+        } else if (state.currentView === "profile" && state.activeProfileId) {
+          showProfileScreen(state.activeProfileId);
         } else if (state.activeProfileId && state.activeProfileTab === "schemes") {
           renderSavedApplications(state.activeProfileId);
         }
@@ -1293,6 +1496,12 @@
     els.helperTagDistrict = document.getElementById("helper-tag-district");
     els.btnEditHelper = document.getElementById("btn-edit-helper");
     els.btnEditHelperText = document.getElementById("btn-edit-helper-text");
+    els.btnAcctMenu = document.getElementById("btn-acct-menu");
+    els.btnAcctMenuText = document.getElementById("btn-acct-menu-text");
+    els.acctDropdownMenu = document.getElementById("acct-dropdown-menu");
+    els.acctAvatar = document.getElementById("acct-avatar");
+    els.acctDistrictWrap = document.getElementById("acct-district-wrap");
+    els.acctMenuWrap = document.getElementById("acct-menu-wrap");
 
     // Views & Alerts
     els.dbUnavailableBanner = document.getElementById("db-unavailable-banner");
@@ -1495,6 +1704,47 @@
     els.sheetCatTitle = document.getElementById("sheet-cat-title");
     els.sheetCatList = document.getElementById("sheet-cat-list");
 
+    // Helper Profile Screen Elements
+    els.profileView = document.getElementById("profile-view");
+    els.btnProfileBack = document.getElementById("btn-profile-back");
+    els.profHeaderName = document.getElementById("prof-header-name");
+    els.profHeaderSub = document.getElementById("prof-header-sub");
+    els.btnProfMenu = document.getElementById("btn-prof-menu");
+    els.profDropdownMenu = document.getElementById("prof-dropdown-menu");
+    els.btnProfDelete = document.getElementById("btn-prof-delete");
+    els.profMenuDeleteText = document.getElementById("prof-menu-delete-text");
+    els.btnProfFindSchemes = document.getElementById("btn-prof-find-schemes");
+    els.profFindSchemesText = document.getElementById("prof-find-schemes-text");
+    els.profSavedHeading = document.getElementById("prof-saved-heading");
+    els.profSavedCountBadge = document.getElementById("prof-saved-count-badge");
+    els.profLoadingState = document.getElementById("prof-loading-state");
+    els.profErrorState = document.getElementById("prof-error-state");
+    els.profErrorMsg = document.getElementById("prof-error-msg");
+    els.btnProfRetry = document.getElementById("btn-prof-retry");
+    els.profEmptyState = document.getElementById("prof-empty-state");
+    els.profEmptyTitle = document.getElementById("prof-empty-title");
+    els.profEmptyDesc = document.getElementById("prof-empty-desc");
+    els.btnEmptyFindSchemes = document.getElementById("btn-empty-find-schemes");
+    els.profEmptyBtnText = document.getElementById("prof-empty-btn-text");
+    els.profSavedList = document.getElementById("prof-saved-list");
+
+    // Finder Profile Context Banner
+    els.finderProfileBanner = document.getElementById("finder-profile-banner");
+    els.finderProfileBannerText = document.getElementById("finder-profile-banner-text");
+    els.btnFinderBackToProfile = document.getElementById("btn-finder-back-to-profile");
+
+    // Status Bottom Sheet Elements
+    els.statusBottomSheet = document.getElementById("status-bottom-sheet");
+    els.statusSheetTitle = document.getElementById("status-sheet-title");
+    els.statusSheetScheme = document.getElementById("status-sheet-scheme");
+    els.btnCloseStatusSheet = document.getElementById("btn-close-status-sheet");
+    els.statusRadioList = document.getElementById("status-radio-list");
+    els.statusRejectionBlock = document.getElementById("status-rejection-block");
+    els.labelRejectionReason = document.getElementById("label-rejection-reason");
+    els.inputRejectionReason = document.getElementById("input-rejection-reason");
+    els.btnConfirmRejection = document.getElementById("btn-confirm-rejection");
+    els.btnSkipRejection = document.getElementById("btn-skip-rejection");
+
     bindEvents();
     initRailStickyObserver();
     populatePersonaDropdown();
@@ -1560,8 +1810,95 @@
     // Back button
     if (els.btnBackToDashboard) {
       els.btnBackToDashboard.addEventListener("click", () => {
-        window.location.hash = state.helperAccount ? "#/helper" : "#/";
+        if (state.activeProfileId) {
+          const targetHash = `#/helper/profile/${state.activeProfileId}`;
+          if (window.location.hash === targetHash) {
+            showProfileScreen(state.activeProfileId);
+          } else {
+            window.location.hash = targetHash;
+          }
+        } else {
+          window.location.hash = state.helperAccount ? "#/helper" : "#/";
+        }
       });
+    }
+
+    if (els.btnProfileBack) {
+      els.btnProfileBack.addEventListener("click", () => {
+        window.location.hash = "#/helper";
+      });
+    }
+
+    if (els.btnFinderBackToProfile) {
+      els.btnFinderBackToProfile.addEventListener("click", () => {
+        if (state.activeProfileId) {
+          const targetHash = `#/helper/profile/${state.activeProfileId}`;
+          if (window.location.hash === targetHash) {
+            showProfileScreen(state.activeProfileId);
+          } else {
+            window.location.hash = targetHash;
+          }
+        } else {
+          window.location.hash = "#/helper";
+        }
+      });
+    }
+
+    if (els.btnProfFindSchemes) {
+      els.btnProfFindSchemes.addEventListener("click", openFinderForActiveProfile);
+    }
+    if (els.btnEmptyFindSchemes) {
+      els.btnEmptyFindSchemes.addEventListener("click", openFinderForActiveProfile);
+    }
+
+    if (els.btnProfMenu) {
+      els.btnProfMenu.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (els.profDropdownMenu) {
+          const isOpen = els.profDropdownMenu.style.display === "flex";
+          els.profDropdownMenu.style.display = isOpen ? "none" : "flex";
+          els.btnProfMenu.setAttribute("aria-expanded", String(!isOpen));
+        }
+      });
+    }
+
+    if (els.btnProfDelete) {
+      els.btnProfDelete.addEventListener("click", () => {
+        if (els.profDropdownMenu) els.profDropdownMenu.style.display = "none";
+        if (state.activeProfileId) promptDeleteProfile(state.activeProfileId);
+      });
+    }
+
+    // Close prof dropdown when clicking outside
+    window.addEventListener("click", (e) => {
+      if (els.profDropdownMenu && !e.target.closest(".prof-menu-container")) {
+        els.profDropdownMenu.style.display = "none";
+        if (els.btnProfMenu) els.btnProfMenu.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    if (els.btnProfRetry) {
+      els.btnProfRetry.addEventListener("click", () => {
+        if (state.activeProfileId) showProfileScreen(state.activeProfileId);
+      });
+    }
+
+    // Status bottom sheet listeners
+    if (els.btnCloseStatusSheet) {
+      els.btnCloseStatusSheet.addEventListener("click", closeStatusBottomSheet);
+    }
+    if (els.statusBottomSheet) {
+      els.statusBottomSheet.addEventListener("click", (e) => {
+        if (e.target === els.statusBottomSheet) {
+          closeStatusBottomSheet();
+        }
+      });
+    }
+    if (els.btnConfirmRejection) {
+      els.btnConfirmRejection.addEventListener("click", handleConfirmRejection);
+    }
+    if (els.btnSkipRejection) {
+      els.btnSkipRejection.addEventListener("click", handleSkipRejection);
     }
 
     // Landing Page Buttons
@@ -1658,6 +1995,108 @@
       els.btnEditHelper.addEventListener("click", () => {
         window.location.hash = "#/setup";
       });
+    }
+
+    // Helper Account Menu (Stage UI-2)
+    function openAccountMenu(focusFirst = false) {
+      if (!els.acctDropdownMenu) return;
+      els.acctDropdownMenu.classList.add("is-open");
+      if (els.btnAcctMenu) els.btnAcctMenu.setAttribute("aria-expanded", "true");
+      if (focusFirst) {
+        const items = getAccountMenuItems();
+        if (items.length > 0) items[0].focus();
+      }
+    }
+
+    function closeAccountMenu(returnFocus = false) {
+      if (!els.acctDropdownMenu) return;
+      els.acctDropdownMenu.classList.remove("is-open");
+      if (els.btnAcctMenu) {
+        els.btnAcctMenu.setAttribute("aria-expanded", "false");
+        if (returnFocus) els.btnAcctMenu.focus();
+      }
+    }
+
+    function toggleAccountMenu() {
+      if (!els.acctDropdownMenu) return;
+      if (els.acctDropdownMenu.classList.contains("is-open")) {
+        closeAccountMenu(false);
+      } else {
+        openAccountMenu(false);
+      }
+    }
+
+    function getAccountMenuItems() {
+      if (!els.acctDropdownMenu) return [];
+      return Array.from(els.acctDropdownMenu.querySelectorAll('[role="menuitem"]:not([disabled])'));
+    }
+
+    if (els.btnAcctMenu) {
+      els.btnAcctMenu.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleAccountMenu();
+      });
+      els.btnAcctMenu.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openAccountMenu(true);
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          openAccountMenu(false);
+          const items = getAccountMenuItems();
+          if (items.length > 0) items[items.length - 1].focus();
+        } else if (e.key === "Escape") {
+          closeAccountMenu(true);
+        }
+      });
+    }
+
+    if (els.acctDropdownMenu) {
+      els.acctDropdownMenu.addEventListener("keydown", (e) => {
+        const items = getAccountMenuItems();
+        const currentIndex = items.indexOf(document.activeElement);
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          const nextIndex = (currentIndex + 1) % items.length;
+          items[nextIndex].focus();
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          const prevIndex = (currentIndex - 1 + items.length) % items.length;
+          items[prevIndex].focus();
+        } else if (e.key === "Home") {
+          e.preventDefault();
+          if (items.length > 0) items[0].focus();
+        } else if (e.key === "End") {
+          e.preventDefault();
+          if (items.length > 0) items[items.length - 1].focus();
+        } else if (e.key === "Escape") {
+          e.preventDefault();
+          closeAccountMenu(true);
+        } else if (e.key === "Tab") {
+          closeAccountMenu(false);
+        }
+      });
+    }
+
+    document.addEventListener("click", (e) => {
+      if (els.acctDropdownMenu && els.acctDropdownMenu.classList.contains("is-open")) {
+        if (!e.target.closest("#acct-menu-wrap")) {
+          closeAccountMenu(false);
+        }
+      }
+    });
+
+    if (els.btnBackupNow) {
+      els.btnBackupNow.addEventListener("click", () => closeAccountMenu(false));
+    }
+    if (els.btnRestoreCloud) {
+      els.btnRestoreCloud.addEventListener("click", () => closeAccountMenu(false));
+    }
+    if (els.btnEditHelper) {
+      els.btnEditHelper.addEventListener("click", () => closeAccountMenu(false));
+    }
+    if (els.btnSignOut) {
+      els.btnSignOut.addEventListener("click", () => closeAccountMenu(false));
     }
 
     // Metric Summary Tiles filter clicks
@@ -2070,6 +2509,8 @@
       refreshDashboard();
     } else if (state.currentView === "finder") {
       render();
+    } else if (state.currentView === "profile" && state.activeProfileId) {
+      showProfileScreen(state.activeProfileId);
     }
   }
 
@@ -2173,6 +2614,30 @@
     if (els.btnBackupNowText) els.btnBackupNowText.textContent = t("btnBackupNow");
     if (els.btnBackupHomeText) els.btnBackupHomeText.textContent = t("btnBackupNow");
     if (els.btnRestoreCloudText) els.btnRestoreCloudText.textContent = t("btnRestoreCloud");
+    if (els.btnAcctMenuText) els.btnAcctMenuText.textContent = t("btnAccountMenu");
+    if (els.btnAcctMenu) els.btnAcctMenu.setAttribute("aria-label", t("accountMenuAria"));
+    if (els.acctAvatar) els.acctAvatar.setAttribute("aria-label", t("helperAvatar"));
+
+    // Helper Profile Screen, Checklist & Status Sheet
+    if (els.metricLabelTotal) els.metricLabelTotal.textContent = t("totalSchemes");
+    if (els.metricHintTotal) els.metricHintTotal.textContent = t("totalSchemesSub");
+    if (els.btnProfileBack) els.btnProfileBack.setAttribute("aria-label", t("backToHelper"));
+    if (els.btnProfMenu) els.btnProfMenu.setAttribute("aria-label", t("moreOptions"));
+    if (els.profMenuDeleteText) els.profMenuDeleteText.textContent = t("deleteProfile");
+    if (els.profFindSchemesText) els.profFindSchemesText.textContent = t("findSchemes");
+    if (els.profSavedHeading) els.profSavedHeading.textContent = t("savedSchemes");
+    if (els.profEmptyTitle) els.profEmptyTitle.textContent = t("noSchemesSaved");
+    if (els.profEmptyDesc) els.profEmptyDesc.textContent = t("noSchemesSavedDesc");
+    if (els.profEmptyBtnText) els.profEmptyBtnText.textContent = t("findSchemes");
+    if (els.profErrorMsg) els.profErrorMsg.textContent = t("profileLoadError");
+    if (els.btnProfRetry) els.btnProfRetry.textContent = t("retry");
+    if (els.statusSheetTitle) els.statusSheetTitle.textContent = t("changeStatus");
+    if (els.labelRejectionReason) els.labelRejectionReason.textContent = t("rejectionReasonLabel");
+    if (els.inputRejectionReason) els.inputRejectionReason.placeholder = t("rejectionReasonPlaceholder");
+    if (els.btnConfirmRejection) els.btnConfirmRejection.textContent = t("confirm");
+    if (els.btnSkipRejection) els.btnSkipRejection.textContent = t("skip");
+    if (els.btnFinderBackToProfile) els.btnFinderBackToProfile.textContent = t("backToProfile");
+
     renderBackupStatus();
   }
 
@@ -2194,17 +2659,42 @@
     }
   }
 
+  function getHelperInitial(name) {
+    if (!name || typeof name !== "string") return "?";
+    const trimmed = name.trim();
+    if (!trimmed) return "?";
+    try {
+      if (typeof Intl !== "undefined" && Intl.Segmenter) {
+        const seg = new Intl.Segmenter(state.lang || "en", { granularity: "grapheme" });
+        const iterator = seg.segment(trimmed)[Symbol.iterator]();
+        const first = iterator.next().value?.segment;
+        if (first) return first.toUpperCase();
+      }
+    } catch (e) {}
+    const m = trimmed.match(/^[\u0900-\u097F]+(?:\u094D[\u0900-\u097F]+)*/);
+    if (m && m[0]) return m[0].replace(/\u094D$/, "");
+    return trimmed.charAt(0).toUpperCase();
+  }
+
   function updateHelperWelcomeBar() {
     if (state.helperAccount && state.helperAccount.name) {
       if (els.helperWelcomeBar) els.helperWelcomeBar.style.display = "flex";
-      if (els.helperTagRole) els.helperTagRole.textContent = state.helperAccount.helper_type || "ASHA";
-      if (els.helperTagName) els.helperTagName.textContent = state.helperAccount.name;
-      if (els.helperTagDistrict) {
-        if (state.helperAccount.district) {
-          els.helperTagDistrict.textContent = state.helperAccount.district;
-          els.helperTagDistrict.style.display = "inline-block";
+      if (els.acctAvatar) {
+        els.acctAvatar.textContent = getHelperInitial(state.helperAccount.name);
+        els.acctAvatar.setAttribute("aria-label", t("helperAvatar"));
+      }
+      if (els.helperTagName) {
+        els.helperTagName.textContent = state.helperAccount.name;
+      }
+      if (els.helperTagRole) {
+        els.helperTagRole.textContent = state.helperAccount.helper_type || "ASHA";
+      }
+      if (els.acctDistrictWrap && els.helperTagDistrict) {
+        if (state.helperAccount.district && state.helperAccount.district.trim()) {
+          els.helperTagDistrict.textContent = state.helperAccount.district.trim();
+          els.acctDistrictWrap.style.display = "inline-flex";
         } else {
-          els.helperTagDistrict.style.display = "none";
+          els.acctDistrictWrap.style.display = "none";
         }
       }
     } else {
@@ -2699,8 +3189,8 @@
       return;
     }
 
-    // Protected routes: #/setup, #/helper, #/profile/<id>
-    const isProtected = rawHash === "#/setup" || rawHash === "#/helper" || rawHash.startsWith("#/profile/");
+    // Protected routes: #/setup, #/helper, #/helper/profile/<id>, #/profile/<id>
+    const isProtected = rawHash === "#/setup" || rawHash === "#/helper" || rawHash.startsWith("#/helper/profile/") || rawHash.startsWith("#/profile/");
     if (isProtected) {
       const hasSession = await checkHasSession();
       if (!hasSession) {
@@ -2720,10 +3210,12 @@
       return;
     }
 
-    if (rawHash.startsWith("#/profile/")) {
-      const id = rawHash.replace("#/profile/", "").trim();
+    if (rawHash.startsWith("#/helper/profile/") || rawHash.startsWith("#/profile/")) {
+      const id = rawHash.startsWith("#/helper/profile/")
+        ? rawHash.replace("#/helper/profile/", "").trim()
+        : rawHash.replace("#/profile/", "").trim();
       if (id) {
-        openProfile(id);
+        showProfileScreen(id);
       } else {
         window.location.hash = "#/helper";
       }
@@ -2828,12 +3320,14 @@
     const isSetup = viewName === "setup";
     const isHelper = viewName === "helper" || viewName === "dashboard";
     const isFinder = viewName === "finder";
+    const isProfile = viewName === "profile";
 
     if (els.landingView) els.landingView.style.display = isLanding ? "block" : "none";
     if (els.loginView) els.loginView.style.display = isLogin ? "block" : "none";
     if (els.setupView) els.setupView.style.display = isSetup ? "block" : "none";
     if (els.dashboardView) els.dashboardView.style.display = isHelper ? "block" : "none";
     if (els.finderView) els.finderView.style.display = isFinder ? "" : "none";
+    if (els.profileView) els.profileView.style.display = isProfile ? "block" : "none";
 
     // Header controls & sub-banners
     if (isLanding || isLogin) {
@@ -2844,6 +3338,7 @@
       if (els.resetBtn) els.resetBtn.style.display = "none";
       if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
       if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
+      if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
     } else if (isSetup) {
       if (els.btnBackToDashboard) {
         els.btnBackToDashboard.style.display = state.helperAccount ? "inline-flex" : "none";
@@ -2855,6 +3350,7 @@
       if (els.resetBtn) els.resetBtn.style.display = "none";
       if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
       if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
+      if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
     } else if (isHelper) {
       if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
       if (els.activeProfilePill) els.activeProfilePill.style.display = "none";
@@ -2863,12 +3359,28 @@
       if (els.resetBtn) els.resetBtn.style.display = "none";
       if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
       if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
+      if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
+    } else if (isProfile) {
+      if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
+      if (els.activeProfilePill) els.activeProfilePill.style.display = "none";
+      if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "none";
+      if (els.personaSelectWrap) els.personaSelectWrap.style.display = "none";
+      if (els.resetBtn) els.resetBtn.style.display = "none";
+      if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
+      if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
+      if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
     } else if (isFinder) {
       if (state.activeProfileId) {
         // Beneficiary profile mode
+        if (els.finderProfileBanner) {
+          els.finderProfileBanner.style.display = "block";
+          if (els.finderProfileBannerText) {
+            els.finderProfileBannerText.textContent = `${t("findingSchemesFor")} ${state.activeProfileName || ""}`;
+          }
+        }
         if (els.btnBackToDashboard) {
           els.btnBackToDashboard.style.display = "inline-flex";
-          if (els.btnBackText) els.btnBackText.textContent = t("helperHome");
+          if (els.btnBackText) els.btnBackText.textContent = t("backToProfile");
         }
         if (els.activeProfilePill) {
           els.activeProfilePill.style.display = "inline-flex";
@@ -2882,6 +3394,7 @@
         if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
       } else {
         // Quick check mode
+        if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
         if (els.btnBackToDashboard) {
           els.btnBackToDashboard.style.display = "inline-flex";
           if (els.btnBackText) els.btnBackText.textContent = state.helperAccount ? t("helperHome") : "Home";
@@ -2927,43 +3440,513 @@
     switchView("finder");
   }
 
-  function openProfile(id) {
-    if (!window.GovDB || !window.GovDB.isAvailable()) return;
-    Promise.all([
-      window.GovDB.getProfile(id),
-      window.GovDB.getApplicationsByProfile(id),
-    ])
-      .then(([profile, applications]) => {
-        if (!profile) {
-          window.location.hash = "#/helper";
-          return;
-        }
-        state.activeProfileId = profile.id;
-        state.activeProfileName = profile.name;
-        state.facts = JSON.parse(JSON.stringify(profile.facts || {}));
-        state.checkedDocs.clear();
-        state.selectedCategories.clear();
-        state.selectedLevels.clear();
-        state.selectedScopes.clear();
-        state.searchQuery = "";
+  function formatStatusTimeAgo(statusUpdatedAt, lang) {
+    if (!statusUpdatedAt) return "";
+    const time = new Date(statusUpdatedAt).getTime();
+    if (isNaN(time) || time <= 0) return "";
+    const now = Date.now();
+    const diffMs = Math.max(0, now - time);
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    if (diffDays === 0) {
+      return t("updatedToday");
+    } else if (diffDays === 1) {
+      return t("updatedYesterday");
+    } else {
+      return t("updatedDaysAgo", { days: diffDays });
+    }
+  }
 
-        state.profileApplications = new Map();
-        (applications || []).forEach((app) => {
-          state.profileApplications.set(app.schemeId, app);
-        });
-        if (els.countSaved) {
-          els.countSaved.textContent = String(state.profileApplications.size);
-        }
+  function formatProfileStatusSummary(profApps, lang) {
+    if (!profApps || profApps.length === 0) {
+      return t("noSchemesSavedSummary");
+    }
+    const total = profApps.length;
+    const parts = [];
+    parts.push(total === 1 ? t("oneSchemeSaved") : t("schemesSavedCount", { count: total }));
 
-        if (els.searchInput) els.searchInput.value = "";
-        if (els.personaSelect) els.personaSelect.value = "";
-        state.currentTab = "eligible";
-        switchView("finder");
-      })
-      .catch((err) => {
-        console.error("Error opening profile:", err);
+    const statusCounts = {};
+    profApps.forEach((a) => {
+      if (a.status && a.status !== "Saved") {
+        statusCounts[a.status] = (statusCounts[a.status] || 0) + 1;
+      }
+    });
+
+    Object.entries(statusCounts).forEach(([st, cnt]) => {
+      const lbl = (window.GovStatus && window.GovStatus.getStatusLabel)
+        ? window.GovStatus.getStatusLabel(st, lang)
+        : st;
+      parts.push(`${cnt} ${lbl.toLowerCase()}`);
+    });
+
+    return parts.join(" · ");
+  }
+
+  async function showProfileScreen(id) {
+    switchView("profile");
+    state.activeProfileId = id;
+
+    if (els.profLoadingState) els.profLoadingState.style.display = "flex";
+    if (els.profErrorState) els.profErrorState.style.display = "none";
+    if (els.profEmptyState) els.profEmptyState.style.display = "none";
+    if (els.profSavedList) els.profSavedList.innerHTML = "";
+    if (els.profDropdownMenu) els.profDropdownMenu.style.display = "none";
+
+    try {
+      if (!window.GovDB || !window.GovDB.isAvailable()) {
+        throw new Error("IndexedDB not available");
+      }
+
+      const [profile, applications] = await Promise.all([
+        window.GovDB.getProfile(id),
+        window.GovDB.getApplicationsByProfile(id),
+      ]);
+
+      if (!profile) {
         window.location.hash = "#/helper";
+        return;
+      }
+
+      state.activeProfileName = profile.name || "";
+      state.facts = JSON.parse(JSON.stringify(profile.facts || {}));
+
+      // Cache applications
+      state.profileApplications = new Map();
+      (applications || []).forEach((app) => {
+        state.profileApplications.set(app.schemeId, app);
       });
+
+      // Update Header info: person's name, then "age · gender · state" in muted text
+      if (els.profHeaderName) els.profHeaderName.textContent = profile.name || "Beneficiary";
+
+      const pFacts = profile.facts || {};
+      const ageStr = pFacts.age != null ? `${pFacts.age} yr` : "";
+      const genderStr = pFacts.gender ? pFacts.gender.charAt(0).toUpperCase() + pFacts.gender.slice(1) : "";
+      const stateStr = (pFacts.household && pFacts.household.state) ? pFacts.household.state : (pFacts.state || "");
+      const demoParts = [ageStr, genderStr, stateStr].filter(Boolean);
+      const demoText = demoParts.length > 0 ? demoParts.join(" · ") : "-- · -- · --";
+      if (els.profHeaderSub) els.profHeaderSub.textContent = demoText;
+
+      if (els.profLoadingState) els.profLoadingState.style.display = "none";
+
+      renderProfileSavedSchemes(profile, applications || []);
+
+      if (detailLoadStatus !== "loaded") {
+        loadRulesDetail().then(() => {
+          if (state.currentView === "profile" && state.activeProfileId === id) {
+            renderProfileSavedSchemes(profile, applications || []);
+          }
+        }).catch(() => {});
+      }
+    } catch (err) {
+      console.error("Error loading profile screen:", err);
+      if (els.profLoadingState) els.profLoadingState.style.display = "none";
+      if (els.profErrorState) els.profErrorState.style.display = "flex";
+    }
+  }
+
+  function openFinderForActiveProfile() {
+    if (!state.activeProfileId) return;
+    state.currentTab = "eligible";
+    state.visibleCount = 30;
+    state.searchQuery = "";
+    state.selectedCategories.clear();
+    state.selectedLevels.clear();
+    state.selectedScopes.clear();
+    if (els.searchInput) els.searchInput.value = "";
+    if (els.personaSelect) els.personaSelect.value = "";
+    switchView("finder");
+    render();
+  }
+
+  function renderProfileSavedSchemes(profile, applications) {
+    if (!els.profSavedList) return;
+
+    const apps = applications || [];
+    if (els.profSavedCountBadge) {
+      els.profSavedCountBadge.textContent = String(apps.length);
+    }
+
+    if (apps.length === 0) {
+      if (els.profEmptyState) els.profEmptyState.style.display = "flex";
+      els.profSavedList.innerHTML = "";
+      return;
+    }
+
+    if (els.profEmptyState) els.profEmptyState.style.display = "none";
+
+    // Initialize expanded tracking set if not present
+    if (!state.expandedProfileSchemes) {
+      state.expandedProfileSchemes = new Set();
+    }
+
+    const rules = window.ALL_RULES || [];
+    const ruleMap = new Map();
+    rules.forEach((r) => ruleMap.set(r.id, r));
+
+    const rowsHtml = apps.map((app) => {
+      const detailItem = window.RULES_DETAIL ? window.RULES_DETAIL[app.schemeId] : null;
+      const scheme = (staticRuleMap && staticRuleMap.get(app.schemeId)) || ruleMap.get(app.schemeId) || { id: app.schemeId, name: getRuleName(app.schemeId), documents: [] };
+      let rawDocs = [];
+      if (detailItem && Array.isArray(detailItem.documents) && detailItem.documents.length > 0) {
+        rawDocs = detailItem.documents;
+      } else if (scheme && Array.isArray(scheme.documents) && scheme.documents.length > 0) {
+        rawDocs = scheme.documents;
+      } else if (detailItem && Array.isArray(detailItem.documents)) {
+        rawDocs = detailItem.documents;
+      }
+      const docItems = cleanDocumentSlugs(rawDocs);
+      const doneSet = new Set(app.docsDone || []);
+      const haveCount = doneSet.size;
+      const totalDocs = docItems.length;
+
+      const isExpanded = state.expandedProfileSchemes.has(app.schemeId);
+
+      const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
+        ? window.GovStatus.getStatusMeta(app.status)
+        : { slug: "saved" };
+      const statusLabel = (window.GovStatus && window.GovStatus.getStatusLabel)
+        ? window.GovStatus.getStatusLabel(app.status, state.lang)
+        : app.status;
+
+      const timeAgoText = formatStatusTimeAgo(app.statusUpdatedAt, state.lang);
+
+      const progressText = totalDocs > 0
+        ? t("docsProgress", { done: haveCount, total: totalDocs })
+        : t("noDocsRequired");
+
+      // Auto-suggestion rules:
+      // 1. Helper marks a doc Missing on Ready to apply -> suggest "Move to Documents pending"
+      // 2. Helper marks first doc Have on "Saved" scheme -> suggest "Move to Documents pending" (or "Ready to apply" if all done)
+      // 3. When all docs are Have -> suggest "Ready to apply" (if not already Ready to apply, Applied, Approved, Benefit received)
+      let suggestionHtml = "";
+      let suggestTarget = null;
+      let suggestBtnLabel = null;
+
+      if (app.status === "Ready to apply" && haveCount < totalDocs) {
+        suggestTarget = "Documents pending";
+        suggestBtnLabel = t("suggestMoveToPending");
+      } else if (app.status === "Saved" && haveCount >= 1) {
+        if (totalDocs > 0 && haveCount === totalDocs) {
+          suggestTarget = "Ready to apply";
+          suggestBtnLabel = t("suggestMoveToReady");
+        } else {
+          suggestTarget = "Documents pending";
+          suggestBtnLabel = t("suggestMoveToPending");
+        }
+      } else if (totalDocs > 0 && haveCount === totalDocs && app.status !== "Ready to apply" && app.status !== "Applied" && app.status !== "Approved" && app.status !== "Benefit received") {
+        suggestTarget = "Ready to apply";
+        suggestBtnLabel = t("suggestMoveToReady");
+      }
+
+      if (suggestTarget && suggestBtnLabel) {
+        suggestionHtml = `
+          <div class="prof-suggestion-banner" role="status">
+            <div class="prof-suggestion-text">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>${t("suggestionTip")} <strong>${escapeHtml(suggestBtnLabel)}</strong></span>
+            </div>
+            <button class="prof-suggestion-btn" type="button" data-action="apply-suggestion" data-scheme-id="${escapeHtml(app.schemeId)}" data-target-status="${escapeHtml(suggestTarget)}">
+              <span>${escapeHtml(suggestBtnLabel)}</span>
+            </button>
+          </div>
+        `;
+      }
+
+      // Checklist items
+      let checklistHtml = "";
+      if (totalDocs === 0) {
+        checklistHtml = `<div class="prof-doc-item"><span class="prof-doc-name" style="color: var(--text-muted);">${t("noDocsRequired")}</span></div>`;
+      } else {
+        checklistHtml = docItems.map((docName, idx) => {
+          const isHave = doneSet.has(idx);
+          return `
+            <div class="prof-doc-item">
+              <span class="prof-doc-name">${escapeHtml(docName)}</span>
+              <div class="prof-doc-toggle" role="group" aria-label="${escapeHtml(docName)}">
+                <button type="button" class="prof-toggle-btn ${isHave ? "active-have" : ""}" data-action="toggle-doc" data-scheme-id="${escapeHtml(app.schemeId)}" data-doc-idx="${idx}" data-val="have" aria-pressed="${isHave}">
+                  ${t("have")}
+                </button>
+                <button type="button" class="prof-toggle-btn ${!isHave ? "active-missing" : ""}" data-action="toggle-doc" data-scheme-id="${escapeHtml(app.schemeId)}" data-doc-idx="${idx}" data-val="missing" aria-pressed="${!isHave}">
+                  ${t("missing")}
+                </button>
+              </div>
+            </div>
+          `;
+        }).join("");
+      }
+
+      // Links: official info & apply online
+      const infoUrl = (scheme.links && scheme.links.info) || (detailItem && detailItem.links && detailItem.links.info) || scheme.url || (Array.isArray(scheme.references) && scheme.references[0]) || null;
+      const applyUrl = (scheme.links && scheme.links.apply) || (detailItem && detailItem.links && detailItem.links.apply) || null;
+      let linksHtml = "";
+      if (infoUrl || applyUrl) {
+        linksHtml = `
+          <div class="prof-scheme-links">
+            ${infoUrl ? `<a href="${escapeHtml(infoUrl)}" target="_blank" rel="noopener noreferrer" class="prof-link-info"><span>${t("officialInfo")}</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>` : ""}
+            ${applyUrl ? `<a href="${escapeHtml(applyUrl)}" target="_blank" rel="noopener noreferrer" class="prof-link-apply"><span>${t("applyOnline")}</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>` : ""}
+          </div>
+        `;
+      }
+
+      return `
+        <div class="prof-scheme-card ${isExpanded ? "is-expanded" : ""}" data-scheme-id="${escapeHtml(app.schemeId)}">
+          <div class="prof-scheme-head" role="button" tabindex="0" aria-expanded="${isExpanded}">
+            <div class="prof-scheme-head-top">
+              <h3 class="prof-scheme-title">${escapeHtml(scheme.name || app.schemeId)}</h3>
+              <span class="prof-expand-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </div>
+            <div class="prof-scheme-head-meta">
+              <button class="prof-status-btn" type="button" data-action="open-status-sheet" data-scheme-id="${escapeHtml(app.schemeId)}" aria-label="${t("changeStatus")}">
+                <div class="prof-status-chip-row">
+                  <span class="status-chip chip-${meta.slug}">
+                    <span class="status-chip-dot"></span>
+                    <span class="prof-status-label">${escapeHtml(statusLabel)}</span>
+                  </span>
+                </div>
+                ${timeAgoText ? `<span class="prof-status-updated">${escapeHtml(timeAgoText)}</span>` : ""}
+              </button>
+              <div class="prof-docs-progress">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>${escapeHtml(progressText)}</span>
+              </div>
+            </div>
+          </div>
+
+          ${isExpanded ? `
+            <div class="prof-checklist-body">
+              <h4 class="prof-checklist-heading">Document Checklist</h4>
+              ${checklistHtml}
+              ${suggestionHtml}
+              ${linksHtml}
+            </div>
+          ` : ""}
+        </div>
+      `;
+    }).join("");
+
+    els.profSavedList.innerHTML = rowsHtml;
+
+    // Attach row header click listeners (expand/collapse)
+    els.profSavedList.querySelectorAll(".prof-scheme-head").forEach((head) => {
+      head.addEventListener("click", (e) => {
+        if (e.target.closest("button[data-action='open-status-sheet']")) return;
+        const card = head.closest(".prof-scheme-card");
+        if (!card) return;
+        const sid = card.getAttribute("data-scheme-id");
+        if (!sid) return;
+
+        if (state.expandedProfileSchemes.has(sid)) {
+          state.expandedProfileSchemes.delete(sid);
+        } else {
+          state.expandedProfileSchemes.add(sid);
+        }
+        renderProfileSavedSchemes(profile, applications);
+      });
+    });
+
+    // Attach status button click listener
+    els.profSavedList.querySelectorAll("button[data-action='open-status-sheet']").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const sid = btn.getAttribute("data-scheme-id");
+        const app = applications.find((a) => a.schemeId === sid);
+        const schemeName = getRuleName(sid);
+        if (app) openStatusBottomSheet(app, schemeName, profile, applications);
+      });
+    });
+
+    // Attach document toggle listeners
+    els.profSavedList.querySelectorAll("button[data-action='toggle-doc']").forEach((btn) => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const sid = btn.getAttribute("data-scheme-id");
+        const idx = parseInt(btn.getAttribute("data-doc-idx"), 10);
+        const val = btn.getAttribute("data-val");
+        const app = applications.find((a) => a.schemeId === sid);
+        if (!app) return;
+
+        app.docsDone = Array.isArray(app.docsDone) ? [...app.docsDone] : [];
+        if (val === "have") {
+          if (!app.docsDone.includes(idx)) app.docsDone.push(idx);
+        } else {
+          app.docsDone = app.docsDone.filter((i) => i !== idx);
+        }
+        app.updatedAt = new Date().toISOString();
+
+        await window.GovDB.saveApplication(app);
+        renderProfileSavedSchemes(profile, applications);
+      });
+    });
+
+    // Attach suggestion click listener
+    els.profSavedList.querySelectorAll("button[data-action='apply-suggestion']").forEach((btn) => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const sid = btn.getAttribute("data-scheme-id");
+        const targetStatus = btn.getAttribute("data-target-status");
+        const app = applications.find((a) => a.schemeId === sid);
+        if (!app || !targetStatus) return;
+
+        app.status = targetStatus;
+        app.statusUpdatedAt = new Date().toISOString();
+        app.updatedAt = app.statusUpdatedAt;
+
+        await window.GovDB.saveApplication(app);
+        renderProfileSavedSchemes(profile, applications);
+      });
+    });
+  }
+
+  function openStatusBottomSheet(app, schemeName, profile, applications) {
+    state.activeStatusSheetApp = app;
+    state.activeStatusSheetProfile = profile;
+    state.activeStatusSheetApplications = applications;
+
+    if (els.statusSheetScheme) {
+      els.statusSheetScheme.textContent = schemeName || app.schemeId;
+    }
+    if (els.statusRejectionBlock) {
+      els.statusRejectionBlock.style.display = "none";
+    }
+    if (els.inputRejectionReason) {
+      els.inputRejectionReason.value = app.note || "";
+    }
+
+    renderStatusRadioList(app.status);
+
+    if (els.statusBottomSheet) {
+      els.statusBottomSheet.style.display = "flex";
+    }
+  }
+
+  function closeStatusBottomSheet() {
+    if (els.statusBottomSheet) {
+      els.statusBottomSheet.style.display = "none";
+    }
+    state.activeStatusSheetApp = null;
+  }
+
+  function renderStatusRadioList(currentStatus) {
+    if (!els.statusRadioList) return;
+
+    const statuses = (window.GovStatus && window.GovStatus.STATUSES)
+      ? window.GovStatus.STATUSES
+      : [
+          "Saved",
+          "Documents pending",
+          "Ready to apply",
+          "Applied",
+          "Approved",
+          "Rejected",
+          "Benefit received",
+        ];
+
+    const radioHtml = statuses.map((st) => {
+      const isActive = st === currentStatus;
+      const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
+        ? window.GovStatus.getStatusMeta(st)
+        : { slug: "saved" };
+      const label = (window.GovStatus && window.GovStatus.getStatusLabel)
+        ? window.GovStatus.getStatusLabel(st, state.lang)
+        : st;
+
+      const dotColor = (meta.slug === "approved" || meta.slug === "benefit-received")
+        ? "#059669"
+        : (meta.slug === "rejected" ? "#dc2626" : (meta.slug === "ready-apply" ? "#2563eb" : (meta.slug === "docs-pending" ? "#d97706" : "#4b5563")));
+
+      return `
+        <button class="status-radio-row ${isActive ? "is-active" : ""}" type="button" data-status="${escapeHtml(st)}" role="radio" aria-checked="${isActive}">
+          <div class="status-radio-label-wrap">
+            <span class="status-radio-dot" style="background: ${dotColor};"></span>
+            <span class="status-radio-text">${escapeHtml(label)}</span>
+          </div>
+          <div class="status-radio-indicator">
+            ${isActive ? '<span class="status-radio-inner-dot"></span>' : ""}
+          </div>
+        </button>
+      `;
+    }).join("");
+
+    els.statusRadioList.innerHTML = radioHtml;
+
+    els.statusRadioList.querySelectorAll("button[data-status]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const st = btn.getAttribute("data-status");
+        handleSelectStatusOption(st);
+      });
+    });
+  }
+
+  async function handleSelectStatusOption(selectedStatus) {
+    const app = state.activeStatusSheetApp;
+    if (!app) return;
+
+    if (selectedStatus === "Rejected") {
+      renderStatusRadioList("Rejected");
+      if (els.statusRejectionBlock) {
+        els.statusRejectionBlock.style.display = "flex";
+        if (els.inputRejectionReason) els.inputRejectionReason.focus();
+      }
+      return;
+    }
+
+    // Direct change for other statuses
+    app.status = selectedStatus;
+    app.statusUpdatedAt = new Date().toISOString();
+    app.updatedAt = app.statusUpdatedAt;
+
+    await window.GovDB.saveApplication(app);
+    closeStatusBottomSheet();
+
+    if (state.activeStatusSheetProfile && state.activeStatusSheetApplications) {
+      renderProfileSavedSchemes(state.activeStatusSheetProfile, state.activeStatusSheetApplications);
+    }
+  }
+
+  async function handleConfirmRejection() {
+    const app = state.activeStatusSheetApp;
+    if (!app) return;
+
+    const note = (els.inputRejectionReason && els.inputRejectionReason.value.trim()) || "";
+    app.status = "Rejected";
+    app.statusUpdatedAt = new Date().toISOString();
+    app.note = note;
+    app.updatedAt = app.statusUpdatedAt;
+
+    await window.GovDB.saveApplication(app);
+    closeStatusBottomSheet();
+
+    if (state.activeStatusSheetProfile && state.activeStatusSheetApplications) {
+      renderProfileSavedSchemes(state.activeStatusSheetProfile, state.activeStatusSheetApplications);
+    }
+  }
+
+  async function handleSkipRejection() {
+    const app = state.activeStatusSheetApp;
+    if (!app) return;
+
+    app.status = "Rejected";
+    app.statusUpdatedAt = new Date().toISOString();
+    app.note = "";
+    app.updatedAt = app.statusUpdatedAt;
+
+    await window.GovDB.saveApplication(app);
+    closeStatusBottomSheet();
+
+    if (state.activeStatusSheetProfile && state.activeStatusSheetApplications) {
+      renderProfileSavedSchemes(state.activeStatusSheetProfile, state.activeStatusSheetApplications);
+    }
   }
 
   function openAddProfileModal(prefilledFacts) {
@@ -3091,7 +4074,11 @@
       console.error("Failed to delete profile:", err);
     } finally {
       closeDeleteModal();
-      refreshDashboard();
+      if (state.currentView === "profile" || (window.location.hash || "").includes("/profile/")) {
+        window.location.hash = "#/helper";
+      } else {
+        refreshDashboard();
+      }
     }
   }
 
@@ -3448,11 +4435,12 @@
     const count = profiles.length;
     const allApps = applications || [];
 
+    const totalSchemesCount = allApps.length;
     const docsPendingCount = allApps.filter((a) => a.status === "Documents pending").length;
     const readyToApplyCount = allApps.filter((a) => a.status === "Ready to apply").length;
     const appliedCount = allApps.filter((a) => a.status === "Applied").length;
 
-    if (els.statTotalProfiles) els.statTotalProfiles.textContent = String(count);
+    if (els.statTotalProfiles) els.statTotalProfiles.textContent = String(totalSchemesCount);
     if (els.statDocsPending) els.statDocsPending.textContent = String(docsPendingCount);
     if (els.statReadyApply) els.statReadyApply.textContent = String(readyToApplyCount);
     if (els.statApplied) els.statApplied.textContent = String(appliedCount);
@@ -3462,7 +4450,7 @@
     if (els.metricCardReady) els.metricCardReady.classList.toggle("active-filter", state.dashboardStatusFilter === "Ready to apply");
     if (els.metricCardApplied) els.metricCardApplied.classList.toggle("active-filter", state.dashboardStatusFilter === "Applied");
 
-    // Render filter chips
+    // Render filter chips (counting schemes / applications)
     renderDashboardFilterChips(profiles, allApps);
 
     if (count === 0) {
@@ -3527,30 +4515,10 @@
 
       // Applications for this profile
       const profApps = allApps.filter((a) => a.profileId === p.id);
-      let appBadgesHtml = "";
-      if (profApps.length > 0) {
-        appBadgesHtml = `
-          <div class="profile-card-app-badges">
-            ${profApps.map((a) => {
-              const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
-                ? window.GovStatus.getStatusMeta(a.status)
-                : { slug: "saved" };
-              const label = (window.GovStatus && window.GovStatus.getStatusLabel)
-                ? window.GovStatus.getStatusLabel(a.status, state.lang)
-                : a.status;
-              return `
-                <span class="status-chip chip-${meta.slug}" title="${escapeHtml(a.schemeId)}">
-                  <span class="status-chip-dot"></span>
-                  <span>${escapeHtml(label)}</span>
-                </span>
-              `;
-            }).join("")}
-          </div>
-        `;
-      }
+      const statusSummary = formatProfileStatusSummary(profApps, state.lang);
 
       return `
-        <div class="profile-card" data-profile-id="${p.id}">
+        <div class="profile-card" data-profile-id="${p.id}" role="link" tabindex="0">
           <div class="profile-card-top">
             <div>
               <h3 class="profile-card-name">${escapeHtml(p.name)}</h3>
@@ -3567,13 +4535,12 @@
               <span style="font-size: 12px; color: var(--text-muted);">${unknownCount}</span>
             </div>
           </div>
-          ${appBadgesHtml}
+          <div class="profile-card-status-line">
+            <span>${escapeHtml(statusSummary)}</span>
+          </div>
           <div class="profile-card-actions">
             <button class="btn-primary btn-card-open" type="button" data-action="open-profile" data-profile-id="${p.id}">
-              ${t("checkSchemes")}
-            </button>
-            <button class="btn-secondary btn-card-delete" type="button" data-action="delete-profile" data-profile-id="${p.id}" aria-label="${t("delete")}">
-              ${t("delete")}
+              ${t("open")}
             </button>
           </div>
         </div>
@@ -3582,11 +4549,18 @@
 
     els.profilesList.innerHTML = cardsHtml;
 
+    // Whole card click navigation to #/helper/profile/<id>
     els.profilesList.querySelectorAll(".profile-card").forEach((card) => {
-      card.addEventListener("click", (e) => {
-        if (e.target.closest("button[data-action='delete-profile']")) return;
+      card.addEventListener("click", () => {
         const profId = card.getAttribute("data-profile-id");
-        if (profId) window.location.hash = `#/profile/${profId}`;
+        if (profId) window.location.hash = `#/helper/profile/${profId}`;
+      });
+      card.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          const profId = card.getAttribute("data-profile-id");
+          if (profId) window.location.hash = `#/helper/profile/${profId}`;
+        }
       });
     });
 
@@ -3594,15 +4568,7 @@
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const profId = btn.getAttribute("data-profile-id");
-        window.location.hash = `#/profile/${profId}`;
-      });
-    });
-
-    els.profilesList.querySelectorAll("button[data-action='delete-profile']").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const profId = btn.getAttribute("data-profile-id");
-        promptDeleteProfile(profId);
+        window.location.hash = `#/helper/profile/${profId}`;
       });
     });
   }
@@ -3622,15 +4588,13 @@
     const allChipHtml = `
       <button class="filter-status-chip ${isAllActive ? "active" : ""}" type="button" data-filter-status="all">
         <span>${t("filterAllStatuses")}</span>
-        <span class="filter-status-count">${profiles.length}</span>
+        <span class="filter-status-count">${applications.length}</span>
       </button>
     `;
 
     const statusChipsHtml = statuses.map((st) => {
       const isActive = state.dashboardStatusFilter === st;
-      const count = profiles.filter((p) =>
-        applications.some((a) => a.profileId === p.id && a.status === st)
-      ).length;
+      const count = applications.filter((a) => a.status === st).length;
       const label = (window.GovStatus && window.GovStatus.getStatusLabel)
         ? window.GovStatus.getStatusLabel(st, state.lang)
         : st;
@@ -4477,22 +5441,30 @@
         const scopeLabel = scheme.scope === "household" ? (isHi ? "परिवार के लिए" : "For households") : (isHi ? "व्यक्तिगत" : "For individuals");
         const stateLabel = scheme.state ? ` · ${scheme.state}` : "";
 
-        // Stage 3: Save scheme button or current status chip
+        // Save scheme button or current status chip
         let saveChipHtml = "";
         const existingApp = state.activeProfileId ? state.profileApplications.get(scheme.id) : null;
-        if (existingApp) {
-          const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
-            ? window.GovStatus.getStatusMeta(existingApp.status)
-            : { slug: "saved" };
-          const label = (window.GovStatus && window.GovStatus.getStatusLabel)
-            ? window.GovStatus.getStatusLabel(existingApp.status, state.lang)
-            : existingApp.status;
-          saveChipHtml = `
-            <span class="status-chip chip-${meta.slug} scheme-card-saved-chip" data-goto-saved="${scheme.id}" title="${t("schemesTab")}">
-              <span class="status-chip-dot"></span>
-              <span class="status-chip-text">${escapeHtml(label)}</span>
-            </span>
-          `;
+        if (state.activeProfileId) {
+          if (existingApp) {
+            saveChipHtml = `
+              <button class="btn-save-scheme is-saved" disabled type="button" aria-disabled="true">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>${t("saved")}</span>
+              </button>
+            `;
+          } else {
+            const saveText = t("saveTo", { name: state.activeProfileName || "" });
+            saveChipHtml = `
+              <button class="btn-save-scheme" data-action="save-scheme" data-scheme-id="${scheme.id}" type="button">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>${escapeHtml(saveText)}</span>
+              </button>
+            `;
+          }
         } else {
           saveChipHtml = `
             <button class="btn-save-scheme" data-action="save-scheme" data-scheme-id="${scheme.id}" type="button">

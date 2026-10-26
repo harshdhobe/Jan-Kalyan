@@ -239,47 +239,68 @@
 
   <!-- 3. HELPER HOME VIEW (#/helper) -->
   <section id="dashboard-view" class="dashboard-container" style="display: none;">
-    <!-- Logged-in Helper Bar -->
-    <div class="helper-welcome-bar" id="helper-welcome-bar">
-      <div class="helper-welcome-info">
-        <span class="helper-role-tag" id="helper-tag-role">ASHA</span>
-        <span class="helper-welcome-name" id="helper-tag-name">Helper</span>
-        <span class="helper-district-tag" id="helper-tag-district" style="display: none;"></span>
-        <span class="helper-backup-status" id="helper-backup-status">Last backup: Not backed up yet</span>
+    <!-- Logged-in Helper Account Card -->
+    <div class="helper-welcome-bar acct-card" id="helper-welcome-bar">
+      <div class="acct-left">
+        <div class="acct-avatar" id="acct-avatar" aria-label="Helper account avatar">H</div>
+        <div class="acct-meta">
+          <span class="acct-name" id="helper-tag-name">Helper</span>
+          <div class="acct-subline">
+            <span class="acct-role" id="helper-tag-role">ASHA</span>
+            <span class="acct-district-wrap" id="acct-district-wrap" style="display: none;">
+              <span class="acct-sep" aria-hidden="true">·</span>
+              <svg class="acct-loc-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span class="acct-district" id="helper-tag-district"></span>
+            </span>
+          </div>
+        </div>
       </div>
-      <div class="helper-bar-actions">
-        <button id="btn-backup-now" class="link-quiet btn-backup-now" type="button" title="Back up data to cloud">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
-            <polyline points="17 8 12 3 7 8"></polyline>
-            <line x1="12" y1="3" x2="12" y2="15"></line>
+      <div class="acct-menu-wrap" id="acct-menu-wrap">
+        <button id="btn-acct-menu" class="acct-menu-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="acct-dropdown-menu" aria-label="Helper account menu">
+          <span id="btn-acct-menu-text">Account</span>
+          <svg class="acct-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
-          <span id="btn-backup-now-text">Back up now</span>
         </button>
-        <button id="btn-restore-cloud" class="link-quiet btn-restore-cloud" type="button" title="Restore data from cloud">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
-            <polyline points="7 10 12 15 17 10"></polyline>
-            <line x1="12" y1="15" x2="12" y2="3"></line>
-          </svg>
-          <span id="btn-restore-cloud-text">Restore from cloud</span>
-        </button>
-        <button id="btn-edit-helper" class="link-quiet btn-edit-helper" type="button">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 20h9"></path>
-            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-          </svg>
-          <span id="btn-edit-helper-text">Edit Details</span>
-        </button>
-        <button id="btn-sign-out" class="link-quiet btn-sign-out" type="button">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-            <polyline points="16 17 21 12 16 7"></polyline>
-            <line x1="21" y1="12" x2="9" y2="12"></line>
-          </svg>
-          <span id="btn-sign-out-text">Sign Out</span>
-        </button>
+        <div id="acct-dropdown-menu" class="acct-menu-dropdown" role="menu" aria-labelledby="btn-acct-menu">
+          <button id="btn-backup-now" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <span id="btn-backup-now-text">Back up now</span>
+          </button>
+          <button id="btn-restore-cloud" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span id="btn-restore-cloud-text">Restore from cloud</span>
+          </button>
+          <button id="btn-edit-helper" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+            <span id="btn-edit-helper-text">Edit Details</span>
+          </button>
+          <div class="acct-menu-divider" role="separator" aria-orientation="horizontal"></div>
+          <button id="btn-sign-out" class="acct-menu-item acct-menu-danger" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+              <polyline points="16 17 21 12 16 7"></polyline>
+              <line x1="21" y1="12" x2="9" y2="12"></line>
+            </svg>
+            <span id="btn-sign-out-text">Sign Out</span>
+          </button>
+        </div>
       </div>
+      <span id="helper-backup-status" style="display: none;" aria-hidden="true"></span>
     </div>
 
     <div class="dashboard-header-block">
@@ -309,10 +330,10 @@
 
     <!-- Application Status Metric Counters (4 Summary Tiles) -->
     <div class="dashboard-metrics-row dashboard-metrics-4">
-      <div class="metric-card interactive" id="metric-card-total" role="button" tabindex="0" title="Click to view all profiles">
-        <div class="metric-label" id="metric-label-total">Total Profiles</div>
+      <div class="metric-card interactive" id="metric-card-total" role="button" tabindex="0" title="Click to view all schemes">
+        <div class="metric-label" id="metric-label-total">Total Schemes</div>
         <div id="stat-total-profiles" class="metric-value">0</div>
-        <div class="metric-hint" id="metric-hint-total">All registered</div>
+        <div class="metric-hint" id="metric-hint-total">Across all profiles</div>
       </div>
       <div class="metric-card interactive" id="metric-card-docs-pending" role="button" tabindex="0" title="Click to filter by Documents pending">
         <div class="metric-label" id="metric-label-docs-pending">Documents pending</div>
@@ -383,6 +404,118 @@
       </div>
     </div>
   </section>
+
+  <!-- 2b. BENEFICIARY PROFILE SCREEN (#/helper/profile/<id>) -->
+  <section id="profile-view" class="profile-view-container" style="display: none;">
+    <!-- Profile Top Bar: back arrow, name, age · gender · state, ⋯ menu -->
+    <div class="prof-header-bar">
+      <div class="prof-header-left">
+        <button id="btn-profile-back" class="prof-btn-back" type="button" aria-label="Back to beneficiaries" title="Back">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <div class="prof-header-info">
+          <h1 id="prof-header-name" class="prof-header-name">Beneficiary</h1>
+          <div id="prof-header-sub" class="prof-header-sub">-- · -- · --</div>
+        </div>
+      </div>
+      <div class="prof-header-right">
+        <div class="prof-menu-container">
+          <button id="btn-prof-menu" class="prof-btn-menu" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="false" title="More options">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="2"></circle>
+              <circle cx="19" cy="12" r="2"></circle>
+              <circle cx="5" cy="12" r="2"></circle>
+            </svg>
+          </button>
+          <div id="prof-dropdown-menu" class="prof-dropdown-menu" style="display: none;" role="menu">
+            <button id="btn-prof-delete" class="prof-menu-item text-danger" type="button" role="menuitem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="3 6 5 6 21 6"></polyline>
+                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              </svg>
+              <span id="prof-menu-delete-text">Delete profile</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Main Body: Mobile-first 360px single column -->
+    <div class="prof-body">
+      <!-- 1. Find schemes primary action -->
+      <div class="prof-action-section">
+        <button id="btn-prof-find-schemes" class="btn-primary prof-btn-find-schemes" type="button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span id="prof-find-schemes-text">Find schemes</span>
+        </button>
+      </div>
+
+      <!-- 2. Saved schemes list section -->
+      <section class="prof-saved-section" aria-labelledby="prof-saved-heading">
+        <div class="prof-saved-header">
+          <div class="prof-saved-title-wrap">
+            <h2 id="prof-saved-heading" class="prof-saved-heading">Saved Schemes</h2>
+            <span id="prof-saved-count-badge" class="prof-count-badge">0</span>
+          </div>
+        </div>
+
+        <!-- Skeleton Loading State -->
+        <div id="prof-loading-state" class="prof-loading-state" style="display: none;">
+          <div class="prof-skeleton-card">
+            <div class="prof-skeleton-line short"></div>
+            <div class="prof-skeleton-line"></div>
+          </div>
+          <div class="prof-skeleton-card">
+            <div class="prof-skeleton-line short"></div>
+            <div class="prof-skeleton-line"></div>
+          </div>
+        </div>
+
+        <!-- Error State with Retry -->
+        <div id="prof-error-state" class="prof-error-card" style="display: none;" role="alert">
+          <p id="prof-error-msg" class="prof-error-text">Unable to load profile.</p>
+          <button id="btn-prof-retry" class="btn-secondary" type="button">Retry</button>
+        </div>
+
+        <!-- Empty State -->
+        <div id="prof-empty-state" class="prof-empty-card" style="display: none;">
+          <div class="prof-empty-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <h3 id="prof-empty-title" class="prof-empty-title">No schemes saved yet</h3>
+          <p id="prof-empty-desc" class="prof-empty-desc">Find schemes matching this beneficiary's profile.</p>
+          <button id="btn-empty-find-schemes" class="btn-primary" type="button">
+            <span id="prof-empty-btn-text">Find schemes</span>
+          </button>
+        </div>
+
+        <!-- Saved Schemes Rows Container -->
+        <div id="prof-saved-list" class="prof-saved-list">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Finder Profile Context Banner (visible when finding schemes for a profile) -->
+  <div id="finder-profile-banner" class="finder-profile-banner" style="display: none;" role="status">
+    <div class="finder-profile-banner-inner">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+      <span id="finder-profile-banner-text">Finding schemes</span>
+      <button id="btn-finder-back-to-profile" class="btn-text-quiet finder-banner-back" type="button">Back to profile</button>
+    </div>
+  </div>
 
   <!-- Quick Check Alert Banner (only visible during #/quick) -->
   <div id="quick-check-banner" class="quick-check-banner" style="display: none;" role="status">
@@ -726,6 +859,36 @@
         <button id="btn-signout-keep" class="btn-primary" type="button">Keep on this Phone &amp; Sign Out</button>
         <button id="btn-signout-erase" class="btn-danger" type="button">Erase from this Phone &amp; Sign Out</button>
         <button id="btn-signout-cancel" class="btn-secondary" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status Bottom Sheet -->
+  <div id="status-bottom-sheet" class="status-sheet-backdrop" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="status-sheet-title">
+    <div class="status-sheet-card" role="document">
+      <div class="status-sheet-handle-wrap">
+        <div class="status-sheet-handle"></div>
+      </div>
+      <div class="status-sheet-header">
+        <div>
+          <h2 id="status-sheet-title" class="status-sheet-title">Change Status</h2>
+          <p id="status-sheet-scheme" class="status-sheet-scheme-name">Scheme Name</p>
+        </div>
+        <button id="btn-close-status-sheet" class="status-sheet-close" type="button" aria-label="Close">✕</button>
+      </div>
+
+      <div id="status-radio-list" class="status-radio-list" role="radiogroup" aria-label="Select application status">
+        <!-- 7 canonical statuses rendered dynamically -->
+      </div>
+
+      <!-- Rejection Reason Sub-panel -->
+      <div id="status-rejection-block" class="status-rejection-block" style="display: none;">
+        <label for="input-rejection-reason" id="label-rejection-reason" class="status-rejection-label">Reason for rejection (optional)</label>
+        <input type="text" id="input-rejection-reason" class="form-input" placeholder="e.g. Land area exceeded limit, missing income proof" maxlength="200" />
+        <div class="status-rejection-actions">
+          <button type="button" id="btn-skip-rejection" class="btn-secondary">Skip</button>
+          <button type="button" id="btn-confirm-rejection" class="btn-primary">Confirm</button>
+        </div>
       </div>
     </div>
   </div>

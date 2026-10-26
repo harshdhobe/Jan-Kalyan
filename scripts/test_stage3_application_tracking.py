@@ -57,11 +57,10 @@ def test_stage3():
     assert '<script src="js/status.js"></script>' in html, "status.js script tag missing in index.html!"
     assert 'id="tab-saved"' in html, "tab-saved button missing in index.html!"
     assert 'id="count-saved"' in html, "count-saved counter missing in index.html!"
-    assert 'id="dashboard-filter-bar"' in html, "dashboard-filter-bar missing in index.html!"
-    assert 'id="dashboard-filter-chips"' in html, "dashboard-filter-chips missing in index.html!"
-    assert 'id="metric-card-ready"' in html, "metric-card-ready missing in index.html!"
-    assert 'id="metric-card-applied"' in html, "metric-card-applied missing in index.html!"
-    print("  [PASS] index.html includes status.js, Schemes tab, dashboard filter bar, and interactive metric cards.")
+    assert 'id="dash-filter-active-bar"' in html, "dash-filter-active-bar missing in index.html!"
+    assert 'id="card-count-ready"' in html, "card-count-ready missing in index.html!"
+    assert 'id="card-count-applied"' in html, "card-count-applied missing in index.html!"
+    print("  [PASS] index.html includes status.js, Schemes tab, dashboard filter bar, and interactive count cards.")
 
     # 4. Verify app.js
     app_path = os.path.join("frontend", "js", "app.js")

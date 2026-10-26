@@ -55,6 +55,8 @@
     isAuthSubmitting: false,
     redirectAfterLogin: null,
     currentUser: null,
+    dashTodayExpanded: false,
+    dashData: null,
   };
 
   // 16 Canonical categories + Pensions + Other
@@ -943,6 +945,167 @@
       hi: "अभी तक कोई योजना सहेजी नहीं गई",
       mr: "अद्याप कोणतीही योजना जतन केलेली नाही", // needs_review
     },
+    // Stage UI-3: Simple Helper Dashboard Keys
+    dashNamaste: {
+      en: "Namaste,",
+      hi: "नमस्ते,",
+      mr: "नमस्ते,", // needs_review
+    },
+    dashAddBeneficiary: {
+      en: "Add beneficiary",
+      hi: "लाभार्थी जोड़ें",
+      mr: "लाभार्थी जोडा", // needs_review
+    },
+    dashWhatToDoToday: {
+      en: "What to do today",
+      hi: "आज क्या करना है",
+      mr: "आज काय करावे", // needs_review
+    },
+    dashAllCaughtUp: {
+      en: "You're all caught up",
+      hi: "आप पूरी तरह अद्यतित हैं",
+      mr: "सर्व कामे पूर्ण झाली आहेत", // needs_review
+    },
+    dashShowAllCount: {
+      en: "Show all ({count})",
+      hi: "सभी देखें ({count})",
+      mr: "सर्व पहा ({count})", // needs_review
+    },
+    dashShowLess: {
+      en: "Show less",
+      hi: "कम दिखाएं",
+      mr: "कमी दाखवा", // needs_review
+    },
+    dashApplyNow: {
+      en: "Apply now",
+      hi: "अब आवेदन करें",
+      mr: "आता अर्ज करा", // needs_review
+    },
+    dashCollectDocuments: {
+      en: "Collect documents",
+      hi: "दस्तावेज एकत्र करें",
+      mr: "कागदपत्रे गोळा करा", // needs_review
+    },
+    dashRejectedReview: {
+      en: "Rejected: review",
+      hi: "अस्वीकृत: समीक्षा करें",
+      mr: "नाकारले: पुनरावलोकन करा", // needs_review
+    },
+    dashCheckStatus: {
+      en: "Check status",
+      hi: "स्थिति जांचें",
+      mr: "स्थिती तपासा", // needs_review
+    },
+    dashCardWaitingDecision: {
+      en: "Waiting for decision",
+      hi: "निर्णय की प्रतीक्षा",
+      mr: "निर्णयाची प्रतीक्षा", // needs_review
+    },
+    dashCardBenefitsReceived: {
+      en: "Benefits received",
+      hi: "लाभ प्राप्त",
+      mr: "लाभ मिळाले", // needs_review
+    },
+    dashSchemeMissing: {
+      en: "Scheme no longer in the list",
+      hi: "योजना अब सूची में नहीं है",
+      mr: "योजना आता यादीत नाही", // needs_review
+    },
+    dashDaysSingular: {
+      en: "1 day",
+      hi: "1 दिन",
+      mr: "1 दिवस", // needs_review
+    },
+    dashDaysPlural: {
+      en: "{count} days",
+      hi: "{count} दिन",
+      mr: "{count} दिवस", // needs_review
+    },
+    dashFilteringBy: {
+      en: "Filtering by:",
+      hi: "फ़िल्टर:",
+      mr: "फिल्टर:", // needs_review
+    },
+    dashClearFilter: {
+      en: "Clear filter",
+      hi: "फ़िल्टर हटाएं",
+      mr: "फिल्टर काढा", // needs_review
+    },
+    dashEmptyTitle: {
+      en: "Welcome to Jan Kalyan",
+      hi: "जन कल्याण में आपका स्वागत है",
+      mr: "जन कल्याण मध्ये आपले स्वागत आहे", // needs_review
+    },
+    dashEmptySub: {
+      en: "Get started by adding your first beneficiary to discover and track welfare schemes.",
+      hi: "कल्याणकारी योजनाओं को खोजने और ट्रैक करने के लिए अपना पहला लाभार्थी जोड़कर शुरुआत करें।",
+      mr: "कल्याणकारी योजना शोधण्यासाठी आणि त्यांचा मागोवा घेण्यासाठी पहिला लाभार्थी जोडून सुरुवात करा.", // needs_review
+    },
+    dashStep1Title: {
+      en: "Add a beneficiary",
+      hi: "लाभार्थी जोड़ें",
+      mr: "लाभार्थी जोडा", // needs_review
+    },
+    dashStep1Desc: {
+      en: "Enter their basic information with their consent.",
+      hi: "उनकी सहमति से उनकी बुनियादी जानकारी दर्ज करें।",
+      mr: "त्यांच्या संमतीने त्यांची मूलभूत माहिती प्रविष्ट करा.", // needs_review
+    },
+    dashStep2Title: {
+      en: "See their schemes",
+      hi: "उनकी योजनाएं देखें",
+      mr: "त्यांच्या योजना पहा", // needs_review
+    },
+    dashStep2Desc: {
+      en: "Find all central and state schemes they are eligible for.",
+      hi: "उन सभी केंद्रीय और राज्य योजनाओं को खोजें जिनके वे पात्र हैं।",
+      mr: "ते पात्र असलेल्या सर्व केंद्र आणि राज्य योजना शोधा.", // needs_review
+    },
+    dashStep3Title: {
+      en: "Save a scheme and track it",
+      hi: "योजना सहेजें और ट्रैक करें",
+      mr: "योजना जतन करा आणि मागोवा घ्या", // needs_review
+    },
+    dashStep3Desc: {
+      en: "Track document collection and application progress.",
+      hi: "दस्तावेज़ संग्रह और आवेदन की प्रगति को ट्रैक करें।",
+      mr: "कागदपत्र संकलन आणि अर्जाच्या प्रगतीचा मागोवा घ्या.", // needs_review
+    },
+    dashTryQuickCheck: {
+      en: "Try Quick check",
+      hi: "त्वरित जाँच आज़माएं",
+      mr: "त्वरित तपासणी करून पहा", // needs_review
+    },
+    dashChangesNotBackedUp: {
+      en: "Changes not backed up",
+      hi: "बदलावों का बैकअप नहीं लिया गया",
+      mr: "बदलांचा बॅकअप घेतलेला नाही", // needs_review
+    },
+    dashRelativeJustNow: {
+      en: "just now",
+      hi: "अभी",
+      mr: "आत्ताच", // needs_review
+    },
+    dashRelativeMinutesAgo: {
+      en: "{count}m ago",
+      hi: "{count} मिनट पहले",
+      mr: "{count} मिनिटांपूर्वी", // needs_review
+    },
+    dashRelativeHoursAgo: {
+      en: "{count}h ago",
+      hi: "{count} घंटे पहले",
+      mr: "{count} तासांपूर्वी", // needs_review
+    },
+    dashRelativeYesterday: {
+      en: "yesterday",
+      hi: "कल",
+      mr: "काल", // needs_review
+    },
+    dashRelativeDaysAgo: {
+      en: "{count} days ago",
+      hi: "{count} दिन पहले",
+      mr: "{count} दिवसांपूर्वी", // needs_review
+    },
   };
 
   function t(key, params) {
@@ -1509,50 +1672,70 @@
     els.finderView = document.getElementById("finder-view");
 
     // Dashboard / Helper Home View Elements
-    els.dashboardTitleText = document.getElementById("dashboard-title-text");
-    els.dashboardSubtitleText = document.getElementById("dashboard-subtitle-text");
+    els.dashWelcomeRow = document.getElementById("dash-welcome-row");
+    els.dashWelcomeGreeting = document.getElementById("dash-welcome-greeting");
+    els.dashHelperName = document.getElementById("dash-helper-name");
     els.btnAddProfile = document.getElementById("btn-add-profile");
     els.btnAddProfileText = document.getElementById("btn-add-profile-text");
 
-    // 4 Summary Metric Tiles
-    els.statTotalProfiles = document.getElementById("stat-total-profiles");
+    // "What to do today" Section Elements
+    els.dashTodaySection = document.getElementById("dash-today-section");
+    els.dashTodayTitle = document.getElementById("dash-today-title");
+    els.dashTodayList = document.getElementById("dash-today-list");
+    els.dashTodayEmpty = document.getElementById("dash-today-empty");
+    els.dashTodayEmptyText = document.getElementById("dash-today-empty-text");
+    els.dashTodayExpandWrap = document.getElementById("dash-today-expand-wrap");
+    els.btnDashTodayToggle = document.getElementById("btn-dash-today-toggle");
+    els.dashTodayToggleText = document.getElementById("dash-today-toggle-text");
+
+    // Four Count Cards
+    els.dashMetricsSection = document.getElementById("dash-metrics-section");
+    els.dashCountGrid = document.getElementById("dash-count-grid");
+    els.cardCountDocsPending = document.getElementById("card-count-docs-pending");
+    els.cardCountReady = document.getElementById("card-count-ready");
+    els.cardCountApplied = document.getElementById("card-count-applied");
+    els.cardCountBenefitReceived = document.getElementById("card-count-benefit-received");
+
     els.statDocsPending = document.getElementById("stat-docs-pending");
     els.statReadyApply = document.getElementById("stat-ready-apply");
     els.statApplied = document.getElementById("stat-applied");
-    els.metricLabelTotal = document.getElementById("metric-label-total");
-    els.metricLabelDocsPending = document.getElementById("metric-label-docs-pending");
-    els.metricLabelReady = document.getElementById("metric-label-ready");
-    els.metricLabelApplied = document.getElementById("metric-label-applied");
-    els.metricCardTotal = document.getElementById("metric-card-total");
-    els.metricCardDocsPending = document.getElementById("metric-card-docs-pending");
-    els.metricCardReady = document.getElementById("metric-card-ready");
-    els.metricCardApplied = document.getElementById("metric-card-applied");
-    els.metricHintTotal = document.getElementById("metric-hint-total");
-    els.metricHintDocsPending = document.getElementById("metric-hint-docs-pending");
-    els.metricHintReady = document.getElementById("metric-hint-ready");
-    els.metricHintApplied = document.getElementById("metric-hint-applied");
+    els.statBenefitReceived = document.getElementById("stat-benefit-received");
 
-    // Follow-Up Section Elements
-    els.followupSection = document.getElementById("followup-section");
-    els.followupTitle = document.getElementById("followup-title");
-    els.followupBadge = document.getElementById("followup-badge");
-    els.followupSubtext = document.getElementById("followup-subtext");
-    els.followupList = document.getElementById("followup-list");
-    els.followupEmpty = document.getElementById("followup-empty");
-    els.followupEmptyText = document.getElementById("followup-empty-text");
+    els.labelCardDocsPending = document.getElementById("label-card-docs-pending");
+    els.labelCardReady = document.getElementById("label-card-ready");
+    els.labelCardApplied = document.getElementById("label-card-applied");
+    els.labelCardBenefitReceived = document.getElementById("label-card-benefit-received");
 
-    // Profile search input
+    // Filter Notification & Clear Filter
+    els.dashFilterActiveBar = document.getElementById("dash-filter-active-bar");
+    els.dashFilterActiveStatus = document.getElementById("dash-filter-active-status");
+    els.btnDashClearFilter = document.getElementById("btn-dash-clear-filter");
+
+    // Profile search input & container
+    els.dashSearchContainer = document.getElementById("dash-search-container");
     els.inputProfileSearch = document.getElementById("input-profile-search");
 
-    els.dashboardFilterBar = document.getElementById("dashboard-filter-bar");
-    els.filterBarTitle = document.getElementById("filter-bar-title");
-    els.btnDashboardFilterClear = document.getElementById("btn-dashboard-filter-clear");
-    els.dashboardFilterChips = document.getElementById("dashboard-filter-chips");
+    // Beneficiary Profiles List & 3-Step Guide Empty State
+    els.profilesContainer = document.getElementById("profiles-container");
     els.profilesList = document.getElementById("profiles-list");
     els.profilesEmptyState = document.getElementById("profiles-empty-state");
-    els.emptyStatePrimary = document.getElementById("empty-state-primary");
-    els.emptyStateSecondary = document.getElementById("empty-state-secondary");
     els.btnEmptyAddProfile = document.getElementById("btn-empty-add-profile");
+    els.btnEmptyAddProfileText = document.getElementById("btn-empty-add-profile-text");
+    els.btnEmptyQuickCheck = document.getElementById("btn-empty-quick-check");
+    els.dashEmptyTitle = document.getElementById("dash-empty-title");
+    els.dashEmptySub = document.getElementById("dash-empty-sub");
+    els.dashStep1Title = document.getElementById("dash-step-1-title");
+    els.dashStep1Desc = document.getElementById("dash-step-1-desc");
+    els.dashStep2Title = document.getElementById("dash-step-2-title");
+    els.dashStep2Desc = document.getElementById("dash-step-2-desc");
+    els.dashStep3Title = document.getElementById("dash-step-3-title");
+    els.dashStep3Desc = document.getElementById("dash-step-3-desc");
+
+    // Footer Backup Line
+    els.dashFooterBackup = document.getElementById("dash-footer-backup");
+    els.dashBackupStatusText = document.getElementById("dash-backup-status-text");
+    els.dashBackupWarning = document.getElementById("dash-backup-warning");
+    els.btnDashBackupFooter = document.getElementById("btn-dash-backup-footer");
 
     // Modals
     els.modalAddProfile = document.getElementById("modal-add-profile");
@@ -2099,17 +2282,36 @@
       els.btnSignOut.addEventListener("click", () => closeAccountMenu(false));
     }
 
-    // Metric Summary Tiles filter clicks
-    if (els.metricCardTotal) els.metricCardTotal.addEventListener("click", () => setDashboardStatusFilter("all"));
-    if (els.metricCardDocsPending) els.metricCardDocsPending.addEventListener("click", () => setDashboardStatusFilter("Documents pending"));
-    if (els.metricCardReady) els.metricCardReady.addEventListener("click", () => setDashboardStatusFilter("Ready to apply"));
-    if (els.metricCardApplied) els.metricCardApplied.addEventListener("click", () => setDashboardStatusFilter("Applied"));
+    // Dashboard Count Cards filter clicks
+    if (els.cardCountDocsPending) {
+      els.cardCountDocsPending.addEventListener("click", () => handleCountCardClick("Documents pending"));
+    }
+    if (els.cardCountReady) {
+      els.cardCountReady.addEventListener("click", () => handleCountCardClick("Ready to apply"));
+    }
+    if (els.cardCountApplied) {
+      els.cardCountApplied.addEventListener("click", () => handleCountCardClick("Applied"));
+    }
+    if (els.cardCountBenefitReceived) {
+      els.cardCountBenefitReceived.addEventListener("click", () => handleCountCardClick("Benefit received"));
+    }
+    if (els.btnDashClearFilter) {
+      els.btnDashClearFilter.addEventListener("click", () => handleCountCardClick("all"));
+    }
+    if (els.btnDashTodayToggle) {
+      els.btnDashTodayToggle.addEventListener("click", handleToggleTodayRows);
+    }
+    if (els.btnDashBackupFooter) {
+      els.btnDashBackupFooter.addEventListener("click", performBackup);
+    }
 
     // Profile search input
     if (els.inputProfileSearch) {
       els.inputProfileSearch.addEventListener("input", (e) => {
         state.profileSearchQuery = e.target.value;
-        renderDashboardProfiles(state.profiles, state.applications);
+        if (state.dashData) {
+          renderBeneficiaryList(state.dashData.profiles);
+        }
       });
     }
 
@@ -2188,12 +2390,6 @@
     els.tabUnknown.addEventListener("click", () => setTab("unknown"));
     els.tabIneligible.addEventListener("click", () => setTab("ineligible"));
     if (els.tabSaved) els.tabSaved.addEventListener("click", () => setTab("saved"));
-
-    // Metric Cards Filter Clicks
-    if (els.metricCardTotal) els.metricCardTotal.addEventListener("click", () => setDashboardStatusFilter("all"));
-    if (els.metricCardReady) els.metricCardReady.addEventListener("click", () => setDashboardStatusFilter("Ready to apply"));
-    if (els.metricCardApplied) els.metricCardApplied.addEventListener("click", () => setDashboardStatusFilter("Applied"));
-    if (els.btnDashboardFilterClear) els.btnDashboardFilterClear.addEventListener("click", () => setDashboardStatusFilter("all"));
 
     // Search (Debounced by 200ms)
     let searchDebounceTimer = null;
@@ -2536,34 +2732,35 @@
 
     // Helper Welcome & Home
     if (els.btnEditHelperText) els.btnEditHelperText.textContent = t("editHelperDetails");
-    if (els.dashboardTitleText) els.dashboardTitleText.textContent = t("dashboardTitle");
-    if (els.dashboardSubtitleText) els.dashboardSubtitleText.textContent = t("dashboardSubtitle");
-    if (els.btnAddProfileText) els.btnAddProfileText.textContent = t("addProfile");
-    if (els.metricLabelTotal) els.metricLabelTotal.textContent = t("totalProfiles");
-    if (els.metricLabelDocsPending) els.metricLabelDocsPending.textContent = t("docsPending");
-    if (els.metricLabelReady) els.metricLabelReady.textContent = t("readyToApply");
-    if (els.metricLabelApplied) els.metricLabelApplied.textContent = t("applied");
-
-    // Follow-up
-    if (els.followupTitle) els.followupTitle.textContent = t("needsFollowUp");
-    if (els.followupSubtext) els.followupSubtext.textContent = t("needsFollowUpSub");
-    if (els.followupEmptyText) els.followupEmptyText.textContent = t("noFollowUp");
-
-    // Profile search
-    if (els.inputProfileSearch) els.inputProfileSearch.placeholder = t("searchProfilesPlaceholder");
-
-    // Quick Check & Finder
-    if (els.quickCheckBannerText) els.quickCheckBannerText.textContent = t("quickCheckBanner");
-    if (els.quickConvertTitle) els.quickConvertTitle.textContent = t("quickConvertTitle");
-    if (els.quickConvertDesc) els.quickConvertDesc.textContent = t("quickConvertDesc");
-    if (els.btnQuickConvertText) {
-      els.btnQuickConvertText.textContent = state.helperAccount ? t("saveAsProfile") : t("setUpAsHelper");
+    if (els.dashWelcomeGreeting) els.dashWelcomeGreeting.textContent = t("dashNamaste");
+    if (els.btnAddProfileText) els.btnAddProfileText.textContent = t("dashAddBeneficiary");
+    if (els.dashTodayTitle) els.dashTodayTitle.textContent = t("dashWhatToDoToday");
+    if (els.dashTodayEmptyText) els.dashTodayEmptyText.textContent = t("dashAllCaughtUp");
+    if (els.dashTodayToggleText && state.dashData) {
+      const len = state.dashData.actionRows.length;
+      els.dashTodayToggleText.textContent = state.dashTodayExpanded
+        ? t("dashShowLess")
+        : t("dashShowAllCount", { count: len });
     }
+    if (els.labelCardDocsPending) els.labelCardDocsPending.textContent = t("dashCollectDocuments");
+    if (els.labelCardReady) els.labelCardReady.textContent = t("dashApplyNow");
+    if (els.labelCardApplied) els.labelCardApplied.textContent = t("dashCardWaitingDecision");
+    if (els.labelCardBenefitReceived) els.labelCardBenefitReceived.textContent = t("dashCardBenefitsReceived");
+    if (els.btnDashClearFilter) els.btnDashClearFilter.textContent = t("dashClearFilter");
 
-    // Profiles List & Modals
-    if (els.emptyStatePrimary) els.emptyStatePrimary.textContent = t("noProfilesPrimary");
-    if (els.emptyStateSecondary) els.emptyStateSecondary.textContent = t("noProfilesSecondary");
-    if (els.btnEmptyAddProfile) els.btnEmptyAddProfile.textContent = t("addProfile");
+    if (els.dashEmptyTitle) els.dashEmptyTitle.textContent = t("dashEmptyTitle");
+    if (els.dashEmptySub) els.dashEmptySub.textContent = t("dashEmptySub");
+    if (els.dashStep1Title) els.dashStep1Title.textContent = t("dashStep1Title");
+    if (els.dashStep1Desc) els.dashStep1Desc.textContent = t("dashStep1Desc");
+    if (els.dashStep2Title) els.dashStep2Title.textContent = t("dashStep2Title");
+    if (els.dashStep2Desc) els.dashStep2Desc.textContent = t("dashStep2Desc");
+    if (els.dashStep3Title) els.dashStep3Title.textContent = t("dashStep3Title");
+    if (els.dashStep3Desc) els.dashStep3Desc.textContent = t("dashStep3Desc");
+    if (els.btnEmptyAddProfileText) els.btnEmptyAddProfileText.textContent = t("dashAddBeneficiary");
+    if (els.btnEmptyQuickCheck) els.btnEmptyQuickCheck.textContent = t("dashTryQuickCheck");
+
+    if (els.btnDashBackupFooter) els.btnDashBackupFooter.textContent = t("btnBackupNow");
+    if (els.dashBackupWarning) els.dashBackupWarning.textContent = t("dashChangesNotBackedUp");
     if (els.btnBackText) {
       els.btnBackText.textContent = (state.currentView === "setup" || state.currentView === "finder")
         ? (state.helperAccount ? t("helperHome") : "Home")
@@ -4094,32 +4291,78 @@
     }, 4500);
   }
 
+  function formatRelativeTime(dateVal, nowMs) {
+    if (!dateVal) return null;
+    const tVal = typeof dateVal === "number" ? dateVal : new Date(dateVal).getTime();
+    if (isNaN(tVal) || tVal <= 0) return null;
+    const diffSec = Math.max(0, Math.floor((nowMs - tVal) / 1000));
+    if (diffSec < 60) return t("dashRelativeJustNow");
+    const diffMin = Math.floor(diffSec / 60);
+    if (diffMin < 60) return t("dashRelativeMinutesAgo", { count: diffMin });
+    const diffHours = Math.floor(diffMin / 60);
+    if (diffHours < 24) return t("dashRelativeHoursAgo", { count: diffHours });
+    const diffDays = Math.floor(diffHours / 24);
+    if (diffDays === 1) return t("dashRelativeYesterday");
+    if (diffDays < 30) return t("dashRelativeDaysAgo", { count: diffDays });
+    try {
+      return new Date(tVal).toLocaleDateString(state.lang === "hi" ? "hi-IN" : state.lang === "mr" ? "mr-IN" : "en-IN", {
+        day: "numeric",
+        month: "short",
+      });
+    } catch (e) {
+      return `${diffDays} days ago`;
+    }
+  }
+
   async function renderBackupStatus() {
     if (!window.GovDB || !window.GovDB.isAvailable()) return;
     try {
       const lastBackup = await window.GovDB.getMeta("last_backup_at");
+      const nowMs = Date.now();
       let text = "";
       if (!lastBackup) {
-        text = `${t("lastBackupPrefix")}: ${t("notBackedUpYet")}`;
+        text = t("notBackedUpYet");
       } else {
-        try {
-          const d = new Date(lastBackup);
-          const timeStr = d.toLocaleDateString(state.lang === "hi" ? "hi-IN" : state.lang === "mr" ? "mr-IN" : "en-IN", {
-            day: "numeric",
-            month: "short",
-            hour: "2-digit",
-            minute: "2-digit",
-          });
-          text = `${t("lastBackupPrefix")}: ${timeStr}`;
-        } catch (e) {
-          text = `${t("lastBackupPrefix")}: ${lastBackup}`;
-        }
+        const rel = formatRelativeTime(lastBackup, nowMs);
+        text = `${t("lastBackupPrefix")}: ${rel || lastBackup}`;
+      }
+
+      if (els.dashBackupStatusText) {
+        els.dashBackupStatusText.textContent = text;
       }
       if (els.helperBackupStatus) {
         els.helperBackupStatus.textContent = text;
       }
-      if (els.dashboardLastBackup) {
-        els.dashboardLastBackup.textContent = text;
+
+      // Check if any profile or application has updatedAt later than last_backup_at
+      // (or never backed up and data exists)
+      const profiles = state.profiles || [];
+      const applications = state.applications || [];
+      let hasUnbacked = false;
+
+      if (window.GovCloud && typeof window.GovCloud.getUnbackedUpProfilesCount === "function") {
+        const unbackedCount = window.GovCloud.getUnbackedUpProfilesCount({
+          profiles,
+          applications,
+          lastBackupAt: lastBackup,
+        });
+        hasUnbacked = unbackedCount > 0;
+      } else {
+        if ((profiles.length > 0 || applications.length > 0) && !lastBackup) {
+          hasUnbacked = true;
+        } else if (lastBackup) {
+          const bTime = new Date(lastBackup).getTime();
+          hasUnbacked = profiles.some((p) => new Date(p.updatedAt || p.createdAt || 0).getTime() > bTime) ||
+                        applications.some((a) => new Date(a.updatedAt || a.statusUpdatedAt || a.createdAt || 0).getTime() > bTime);
+        }
+      }
+
+      if (els.dashBackupWarning) {
+        els.dashBackupWarning.style.display = hasUnbacked ? "inline-block" : "none";
+        els.dashBackupWarning.textContent = t("dashChangesNotBackedUp");
+      }
+      if (els.dashFooterBackup) {
+        els.dashFooterBackup.classList.toggle("has-unbacked-changes", hasUnbacked);
       }
     } catch (e) {
       // quiet fallback
@@ -4140,6 +4383,8 @@
       return;
     }
 
+    if (els.btnDashBackupFooter) els.btnDashBackupFooter.disabled = true;
+    if (els.btnBackupNow) els.btnBackupNow.disabled = true;
     showCloudToast(t("backingUpProgress"), false);
 
     try {
@@ -4188,6 +4433,10 @@
     } catch (err) {
       console.error("Backup failed:", err);
       showCloudToast(t("errGenericAuth"), true);
+    } finally {
+      if (els.btnDashBackupFooter) els.btnDashBackupFooter.disabled = false;
+      if (els.btnBackupNow) els.btnBackupNow.disabled = false;
+      await renderBackupStatus();
     }
   }
 
@@ -4295,248 +4544,238 @@
     }, 250);
   }
 
+  function handleCountCardClick(status) {
+    if (state.dashboardStatusFilter === status) {
+      state.dashboardStatusFilter = "all";
+    } else {
+      state.dashboardStatusFilter = status;
+    }
+    if (state.dashData) {
+      updateCountCards(state.dashData.counts);
+      renderBeneficiaryList(state.dashData.profiles);
+    }
+  }
+
+  function handleToggleTodayRows() {
+    state.dashTodayExpanded = !state.dashTodayExpanded;
+    if (state.dashData) {
+      renderTodayActionRows(state.dashData.actionRows);
+    }
+  }
+
   function setDashboardStatusFilter(status) {
     state.dashboardStatusFilter = status;
-    refreshDashboard();
+    if (state.dashData) {
+      updateCountCards(state.dashData.counts);
+      renderBeneficiaryList(state.dashData.profiles);
+    } else {
+      refreshDashboard();
+    }
   }
 
-  function refreshDashboard() {
-    updateI18nLabels();
-    updateHelperWelcomeBar();
-    renderBackupStatus();
+  function getRuleName(schemeId) {
+    if (!schemeId) return null;
+    if (typeof staticRuleMap !== "undefined" && staticRuleMap && staticRuleMap.has(schemeId)) {
+      const r = staticRuleMap.get(schemeId);
+      return r.name || r.id || null;
+    }
+    const rules = window.ALL_RULES || [];
+    const found = rules.find((r) => r.id === schemeId);
+    return found ? (found.name || found.id) : null;
+  }
 
-    if (!window.GovDB || !window.GovDB.isAvailable()) {
-      if (els.dbUnavailableBanner) els.dbUnavailableBanner.style.display = "block";
-      if (els.profilesEmptyState) els.profilesEmptyState.style.display = "flex";
-      if (els.profilesList) els.profilesList.innerHTML = "";
-      if (els.statTotalProfiles) els.statTotalProfiles.textContent = "0";
-      if (els.statDocsPending) els.statDocsPending.textContent = "0";
-      if (els.statReadyApply) els.statReadyApply.textContent = "0";
-      if (els.statApplied) els.statApplied.textContent = "0";
-      if (els.followupEmpty) els.followupEmpty.style.display = "block";
-      if (els.followupList) els.followupList.innerHTML = "";
+  function renderTodayActionRows(actionRows) {
+    if (!els.dashTodayList) return;
+    const rows = actionRows || [];
+
+    if (rows.length === 0) {
+      if (els.dashTodayEmpty) els.dashTodayEmpty.style.display = "flex";
+      els.dashTodayList.innerHTML = "";
+      if (els.dashTodayExpandWrap) els.dashTodayExpandWrap.style.display = "none";
       return;
     }
 
-    if (els.dbUnavailableBanner) els.dbUnavailableBanner.style.display = "none";
+    if (els.dashTodayEmpty) els.dashTodayEmpty.style.display = "none";
 
-    Promise.all([
-      window.GovDB.getAllProfiles(),
-      window.GovDB.getAllApplications(),
-    ])
-      .then(([profiles, applications]) => {
-        state.profiles = profiles || [];
-        state.applications = applications || [];
-        renderDashboardProfiles(state.profiles, state.applications);
-        renderFollowUpList(state.profiles, state.applications);
-      })
-      .catch((err) => {
-        console.error("Error loading profiles & applications:", err);
-        if (els.profilesEmptyState) els.profilesEmptyState.style.display = "flex";
-        if (els.profilesList) els.profilesList.innerHTML = "";
-      });
-  }
+    const isExpanded = state.dashTodayExpanded;
+    const visibleRows = isExpanded ? rows : rows.slice(0, 5);
 
-  function renderFollowUpList(profiles, applications) {
-    if (!els.followupList) return;
-
-    const profileMap = new Map();
-    (profiles || []).forEach((p) => profileMap.set(p.id, p));
-
-    const now = Date.now();
-    const followUps = [];
-
-    (applications || []).forEach((app) => {
-      if (app.status === "Documents pending" || app.status === "Ready to apply") {
-        const updatedTime = app.statusUpdatedAt ? new Date(app.statusUpdatedAt).getTime() : 0;
-        if (updatedTime > 0) {
-          const diffMs = now - updatedTime;
-          const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-          if (diffDays >= FOLLOW_UP_THRESHOLD_DAYS) {
-            const profile = profileMap.get(app.profileId);
-            if (profile) {
-              followUps.push({
-                app,
-                profile,
-                days: diffDays,
-              });
-            }
-          }
-        }
+    if (rows.length > 5) {
+      if (els.dashTodayExpandWrap) els.dashTodayExpandWrap.style.display = "flex";
+      if (els.dashTodayToggleText) {
+        els.dashTodayToggleText.textContent = isExpanded
+          ? t("dashShowLess")
+          : t("dashShowAllCount", { count: rows.length });
       }
-    });
-
-    // Sort oldest first (highest number of elapsed days first)
-    followUps.sort((a, b) => b.days - a.days);
-
-    if (els.followupBadge) {
-      els.followupBadge.textContent = String(followUps.length);
+      if (els.btnDashTodayToggle) {
+        els.btnDashTodayToggle.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+      }
+    } else {
+      if (els.dashTodayExpandWrap) els.dashTodayExpandWrap.style.display = "none";
     }
 
-    if (followUps.length === 0) {
-      if (els.followupEmpty) els.followupEmpty.style.display = "block";
-      els.followupList.innerHTML = "";
-      return;
-    }
+    const badgeClasses = {
+      apply_now: "badge-apply-now",
+      collect_documents: "badge-collect-docs",
+      rejected_review: "badge-rejected-review",
+      check_status: "badge-check-status",
+    };
 
-    if (els.followupEmpty) els.followupEmpty.style.display = "none";
+    const actionI18nKeys = {
+      apply_now: "dashApplyNow",
+      collect_documents: "dashCollectDocuments",
+      rejected_review: "dashRejectedReview",
+      check_status: "dashCheckStatus",
+    };
 
-    els.followupList.innerHTML = followUps
+    els.dashTodayList.innerHTML = visibleRows
       .map((item) => {
-        const ruleName = getRuleName(item.app.schemeId);
-        const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
-          ? window.GovStatus.getStatusMeta(item.app.status)
-          : { slug: "docs-pending" };
-        const statusLabel = (window.GovStatus && window.GovStatus.getStatusLabel)
-          ? window.GovStatus.getStatusLabel(item.app.status, state.lang)
-          : item.app.status;
-        const daysLabel = item.days === 1 ? (t("day") || "day") : (t("days") || "days");
-        const daysText = `${item.days} ${daysLabel}`;
+        const badgeClass = badgeClasses[item.actionKey] || "badge-apply-now";
+        const actionText = t(actionI18nKeys[item.actionKey]) || item.actionLabel;
+        const schemeText = item.isSchemeMissing ? t("dashSchemeMissing") : item.schemeName;
+        const daysText = item.days === 1
+          ? t("dashDaysSingular")
+          : t("dashDaysPlural", { count: item.days });
 
         return `
-          <div class="followup-card" data-profile-id="${item.profile.id}" role="button" tabindex="0">
-            <div class="followup-card-top">
-              <span class="followup-beneficiary">${escapeHtml(item.profile.name)}</span>
-              <span class="followup-days-badge">${daysText}</span>
+          <div class="dash-action-row" data-profile-id="${item.profileId}" role="button" tabindex="0" aria-label="${escapeHtml(item.beneficiaryName)}, ${escapeHtml(schemeText)}, ${escapeHtml(actionText)}, ${escapeHtml(daysText)}">
+            <div class="dash-action-left">
+              <span class="dash-action-beneficiary">${escapeHtml(item.beneficiaryName)}</span>
+              <span class="dash-action-scheme">${escapeHtml(schemeText)}</span>
             </div>
-            <div class="followup-scheme">${escapeHtml(ruleName)}</div>
-            <span class="status-chip chip-${meta.slug} followup-status-tag">
-              <span class="status-chip-dot"></span>
-              <span>${escapeHtml(statusLabel)}</span>
-            </span>
+            <div class="dash-action-right">
+              <span class="dash-action-badge ${badgeClass}">${escapeHtml(actionText)}</span>
+              <span class="dash-action-days">${escapeHtml(daysText)}</span>
+            </div>
           </div>
         `;
       })
       .join("");
 
-    els.followupList.querySelectorAll(".followup-card").forEach((card) => {
-      card.addEventListener("click", () => {
-        const profId = card.getAttribute("data-profile-id");
-        if (profId) {
-          window.location.hash = `#/profile/${profId}`;
+    els.dashTodayList.querySelectorAll(".dash-action-row").forEach((row) => {
+      row.addEventListener("click", () => {
+        const profId = row.getAttribute("data-profile-id");
+        if (profId) window.location.hash = `#/profile/${profId}`;
+      });
+      row.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          const profId = row.getAttribute("data-profile-id");
+          if (profId) window.location.hash = `#/profile/${profId}`;
         }
       });
     });
   }
 
-  function getRuleName(schemeId) {
-    if (!schemeId) return "";
-    if (typeof staticRuleMap !== "undefined" && staticRuleMap && staticRuleMap.has(schemeId)) {
-      const r = staticRuleMap.get(schemeId);
-      return r.name || r.id || schemeId;
+  function updateCountCards(counts) {
+    if (els.statDocsPending) els.statDocsPending.textContent = String(counts.docsPending || 0);
+    if (els.statReadyApply) els.statReadyApply.textContent = String(counts.readyToApply || 0);
+    if (els.statApplied) els.statApplied.textContent = String(counts.waitingDecision || 0);
+    if (els.statBenefitReceived) els.statBenefitReceived.textContent = String(counts.benefitsReceived || 0);
+    if (els.statTotalProfiles) els.statTotalProfiles.textContent = String(counts.totalApplications || 0);
+
+    const f = state.dashboardStatusFilter;
+    const isFiltered = f && f !== "all";
+
+    if (els.cardCountDocsPending) {
+      const active = f === "Documents pending";
+      els.cardCountDocsPending.classList.toggle("active", active);
+      els.cardCountDocsPending.setAttribute("aria-pressed", active ? "true" : "false");
     }
-    const rules = window.ALL_RULES || [];
-    const found = rules.find((r) => r.id === schemeId);
-    return found ? (found.name || found.id) : schemeId;
+    if (els.cardCountReady) {
+      const active = f === "Ready to apply";
+      els.cardCountReady.classList.toggle("active", active);
+      els.cardCountReady.setAttribute("aria-pressed", active ? "true" : "false");
+    }
+    if (els.cardCountApplied) {
+      const active = f === "Applied";
+      els.cardCountApplied.classList.toggle("active", active);
+      els.cardCountApplied.setAttribute("aria-pressed", active ? "true" : "false");
+    }
+    if (els.cardCountBenefitReceived) {
+      const active = f === "Benefit received";
+      els.cardCountBenefitReceived.classList.toggle("active", active);
+      els.cardCountBenefitReceived.setAttribute("aria-pressed", active ? "true" : "false");
+    }
+
+    if (els.dashFilterActiveBar) {
+      els.dashFilterActiveBar.style.display = isFiltered ? "flex" : "none";
+      if (isFiltered && els.dashFilterActiveStatus) {
+        const label = (window.GovStatus && window.GovStatus.getStatusLabel)
+          ? window.GovStatus.getStatusLabel(f, state.lang)
+          : f;
+        els.dashFilterActiveStatus.textContent = label;
+      }
+    }
   }
 
-  function renderDashboardProfiles(profiles, applications) {
-    const rules = window.ALL_RULES || [];
-    const count = profiles.length;
-    const allApps = applications || [];
+  function renderBeneficiaryList(enrichedProfiles) {
+    if (!els.profilesList) return;
 
-    const totalSchemesCount = allApps.length;
-    const docsPendingCount = allApps.filter((a) => a.status === "Documents pending").length;
-    const readyToApplyCount = allApps.filter((a) => a.status === "Ready to apply").length;
-    const appliedCount = allApps.filter((a) => a.status === "Applied").length;
+    if (!window.GovDashboardData) return;
 
-    if (els.statTotalProfiles) els.statTotalProfiles.textContent = String(totalSchemesCount);
-    if (els.statDocsPending) els.statDocsPending.textContent = String(docsPendingCount);
-    if (els.statReadyApply) els.statReadyApply.textContent = String(readyToApplyCount);
-    if (els.statApplied) els.statApplied.textContent = String(appliedCount);
-
-    if (els.metricCardTotal) els.metricCardTotal.classList.toggle("active-filter", state.dashboardStatusFilter === "all");
-    if (els.metricCardDocsPending) els.metricCardDocsPending.classList.toggle("active-filter", state.dashboardStatusFilter === "Documents pending");
-    if (els.metricCardReady) els.metricCardReady.classList.toggle("active-filter", state.dashboardStatusFilter === "Ready to apply");
-    if (els.metricCardApplied) els.metricCardApplied.classList.toggle("active-filter", state.dashboardStatusFilter === "Applied");
-
-    // Render filter chips (counting schemes / applications)
-    renderDashboardFilterChips(profiles, allApps);
-
-    if (count === 0) {
-      if (els.profilesEmptyState) els.profilesEmptyState.style.display = "flex";
-      if (els.profilesList) els.profilesList.innerHTML = "";
-      if (els.dashboardFilterBar) els.dashboardFilterBar.style.display = "none";
-      return;
-    }
-
-    if (els.dashboardFilterBar) els.dashboardFilterBar.style.display = "flex";
-
-    // Filter profiles by status and search query
-    let filteredProfiles = profiles;
-    if (state.dashboardStatusFilter !== "all") {
-      filteredProfiles = profiles.filter((p) =>
-        allApps.some((a) => a.profileId === p.id && a.status === state.dashboardStatusFilter)
-      );
-    }
-    if (state.profileSearchQuery && state.profileSearchQuery.trim()) {
-      const q = state.profileSearchQuery.trim().toLowerCase();
-      filteredProfiles = filteredProfiles.filter((p) =>
-        (p.name || "").toLowerCase().includes(q)
-      );
-    }
+    const filteredProfiles = window.GovDashboardData.filterDashboardProfiles(enrichedProfiles, {
+      statusFilter: state.dashboardStatusFilter,
+      searchQuery: state.profileSearchQuery,
+    });
 
     if (filteredProfiles.length === 0) {
-      if (els.profilesEmptyState) els.profilesEmptyState.style.display = "none";
       els.profilesList.innerHTML = `
         <div class="empty-state-editorial" style="grid-column: 1 / -1;">
           <div class="msg-primary">${t("noFilteredProfilesPrimary")}</div>
           <div class="msg-secondary">${t("noFilteredProfilesSecondary")}</div>
-          <button class="btn-secondary" id="btn-clear-dash-filter" style="margin-top: 14px;" type="button">
+          <button class="btn-secondary" id="btn-clear-dash-filter-empty" style="margin-top: 14px;" type="button">
             ${t("clearFilter")}
           </button>
         </div>
       `;
-      const clrBtn = document.getElementById("btn-clear-dash-filter");
+      const clrBtn = document.getElementById("btn-clear-dash-filter-empty");
       if (clrBtn) {
         clrBtn.onclick = () => {
           state.profileSearchQuery = "";
           if (els.inputProfileSearch) els.inputProfileSearch.value = "";
-          setDashboardStatusFilter("all");
+          handleCountCardClick("all");
         };
       }
       return;
     }
 
-    if (els.profilesEmptyState) els.profilesEmptyState.style.display = "none";
-
     const cardsHtml = filteredProfiles.map((p) => {
-      const pFacts = p.facts || {};
-      const evalResults = window.GovEngine.evaluateAll(rules, pFacts);
-      const eligibleCount = evalResults.filter((r) => r.result === "eligible").length;
-      const unknownCount = evalResults.filter((r) => r.result === "unknown").length;
+      let savedStr = "";
+      if (p.savedCount === 0) {
+        savedStr = t("noSchemesSavedSummary");
+      } else if (p.savedCount === 1) {
+        savedStr = t("oneSchemeSaved");
+      } else {
+        savedStr = t("schemesSavedCount", { count: p.savedCount });
+      }
 
-      const ageStr = pFacts.age != null ? `${pFacts.age} yr` : "";
-      const genderStr = pFacts.gender ? pFacts.gender.charAt(0).toUpperCase() + pFacts.gender.slice(1) : "";
-      const stateStr = pFacts.household && pFacts.household.state ? pFacts.household.state : "";
-
-      const demoParts = [ageStr, genderStr, stateStr].filter(Boolean);
-      const demoBadge = demoParts.length > 0 ? demoParts.join(" • ") : t("noSpecificAge");
-
-      // Applications for this profile
-      const profApps = allApps.filter((a) => a.profileId === p.id);
-      const statusSummary = formatProfileStatusSummary(profApps, state.lang);
+      let chipHtml = "";
+      if (p.mostUrgentStatus) {
+        const meta = (window.GovStatus && window.GovStatus.getStatusMeta)
+          ? window.GovStatus.getStatusMeta(p.mostUrgentStatus)
+          : { slug: "saved" };
+        const label = (window.GovStatus && window.GovStatus.getStatusLabel)
+          ? window.GovStatus.getStatusLabel(p.mostUrgentStatus, state.lang)
+          : p.mostUrgentStatus;
+        chipHtml = `
+          <span class="status-chip chip-${meta.slug} dash-card-urgent-chip">
+            <span class="status-chip-dot"></span>
+            <span>${escapeHtml(label)}</span>
+          </span>
+        `;
+      }
 
       return `
         <div class="profile-card" data-profile-id="${p.id}" role="link" tabindex="0">
           <div class="profile-card-top">
             <div>
               <h3 class="profile-card-name">${escapeHtml(p.name)}</h3>
-              <span class="profile-card-age">${escapeHtml(demoBadge)}</span>
             </div>
-          </div>
-          <div class="profile-card-stats">
-            <div class="profile-stat-item">
-              <span class="stat-item-label">${t("eligibleSchemesCount")}</span>
-              <span class="stat-item-badge">${eligibleCount}</span>
-            </div>
-            <div class="profile-stat-item">
-              <span class="stat-item-label">${t("needsInfoSchemesCount")}</span>
-              <span style="font-size: 12px; color: var(--text-muted);">${unknownCount}</span>
-            </div>
+            ${chipHtml}
           </div>
           <div class="profile-card-status-line">
-            <span>${escapeHtml(statusSummary)}</span>
+            <span>${escapeHtml(savedStr)}</span>
           </div>
           <div class="profile-card-actions">
             <button class="btn-primary btn-card-open" type="button" data-action="open-profile" data-profile-id="${p.id}">
@@ -4549,17 +4788,16 @@
 
     els.profilesList.innerHTML = cardsHtml;
 
-    // Whole card click navigation to #/helper/profile/<id>
     els.profilesList.querySelectorAll(".profile-card").forEach((card) => {
       card.addEventListener("click", () => {
         const profId = card.getAttribute("data-profile-id");
-        if (profId) window.location.hash = `#/helper/profile/${profId}`;
+        if (profId) window.location.hash = `#/profile/${profId}`;
       });
       card.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           const profId = card.getAttribute("data-profile-id");
-          if (profId) window.location.hash = `#/helper/profile/${profId}`;
+          if (profId) window.location.hash = `#/profile/${profId}`;
         }
       });
     });
@@ -4568,52 +4806,74 @@
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const profId = btn.getAttribute("data-profile-id");
-        window.location.hash = `#/helper/profile/${profId}`;
+        if (profId) window.location.hash = `#/profile/${profId}`;
       });
     });
   }
 
-  function renderDashboardFilterChips(profiles, applications) {
-    if (!els.dashboardFilterChips) return;
+  function refreshDashboard() {
+    updateI18nLabels();
+    updateHelperWelcomeBar();
+    renderBackupStatus();
 
-    const statuses = (window.GovStatus && window.GovStatus.STATUSES)
-      ? window.GovStatus.STATUSES
-      : (window.APPLICATION_STATUSES || []);
-    const isAllActive = state.dashboardStatusFilter === "all";
-
-    if (els.btnDashboardFilterClear) {
-      els.btnDashboardFilterClear.style.display = isAllActive ? "none" : "inline-block";
+    if (!window.GovDB || !window.GovDB.isAvailable()) {
+      if (els.dbUnavailableBanner) els.dbUnavailableBanner.style.display = "block";
+      if (els.profilesEmptyState) els.profilesEmptyState.style.display = "block";
+      if (els.profilesList) els.profilesList.innerHTML = "";
+      if (els.dashTodaySection) els.dashTodaySection.style.display = "none";
+      if (els.dashMetricsSection) els.dashMetricsSection.style.display = "none";
+      if (els.dashSearchContainer) els.dashSearchContainer.style.display = "none";
+      if (els.dashFilterActiveBar) els.dashFilterActiveBar.style.display = "none";
+      return;
     }
 
-    const allChipHtml = `
-      <button class="filter-status-chip ${isAllActive ? "active" : ""}" type="button" data-filter-status="all">
-        <span>${t("filterAllStatuses")}</span>
-        <span class="filter-status-count">${applications.length}</span>
-      </button>
-    `;
+    if (els.dbUnavailableBanner) els.dbUnavailableBanner.style.display = "none";
 
-    const statusChipsHtml = statuses.map((st) => {
-      const isActive = state.dashboardStatusFilter === st;
-      const count = applications.filter((a) => a.status === st).length;
-      const label = (window.GovStatus && window.GovStatus.getStatusLabel)
-        ? window.GovStatus.getStatusLabel(st, state.lang)
-        : st;
-      return `
-        <button class="filter-status-chip ${isActive ? "active" : ""}" type="button" data-filter-status="${escapeHtml(st)}">
-          <span>${escapeHtml(label)}</span>
-          <span class="filter-status-count">${count}</span>
-        </button>
-      `;
-    }).join("");
+    Promise.all([
+      window.GovDB.getAllProfiles(),
+      window.GovDB.getAllApplications(),
+    ])
+      .then(([profiles, applications]) => {
+        state.profiles = profiles || [];
+        state.applications = applications || [];
 
-    els.dashboardFilterChips.innerHTML = allChipHtml + statusChipsHtml;
+        const dashData = window.GovDashboardData
+          ? window.GovDashboardData.computeDashboardData(
+              state.profiles,
+              state.applications,
+              getRuleName,
+              Date.now()
+            )
+          : { actionRows: [], counts: {}, profiles: state.profiles };
+        state.dashData = dashData;
 
-    els.dashboardFilterChips.querySelectorAll("button[data-filter-status]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const st = btn.getAttribute("data-filter-status");
-        setDashboardStatusFilter(st);
+        if (state.profiles.length === 0) {
+          updateCountCards(dashData.counts);
+          if (els.profilesEmptyState) els.profilesEmptyState.style.display = "block";
+          if (els.profilesList) els.profilesList.innerHTML = "";
+          if (els.dashTodaySection) els.dashTodaySection.style.display = "none";
+          if (els.dashMetricsSection) els.dashMetricsSection.style.display = "none";
+          if (els.dashSearchContainer) els.dashSearchContainer.style.display = "none";
+          if (els.dashFilterActiveBar) els.dashFilterActiveBar.style.display = "none";
+          renderBackupStatus();
+          return;
+        }
+
+        if (els.profilesEmptyState) els.profilesEmptyState.style.display = "none";
+        if (els.dashTodaySection) els.dashTodaySection.style.display = "block";
+        if (els.dashMetricsSection) els.dashMetricsSection.style.display = "block";
+        if (els.dashSearchContainer) els.dashSearchContainer.style.display = "block";
+
+        renderTodayActionRows(dashData.actionRows);
+        updateCountCards(dashData.counts);
+        renderBeneficiaryList(dashData.profiles);
+        renderBackupStatus();
+      })
+      .catch((err) => {
+        console.error("Error loading profiles & applications:", err);
+        if (els.profilesEmptyState) els.profilesEmptyState.style.display = "block";
+        if (els.profilesList) els.profilesList.innerHTML = "";
       });
-    });
   }
 
   function setTab(tab) {

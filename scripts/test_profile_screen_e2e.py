@@ -173,8 +173,10 @@ async def main():
               const openBtn = card ? card.querySelector("button[data-action='open-profile']") : null;
               const delBtn = card ? card.querySelector("button[data-action='delete-profile']") : null;
               const statusLine = card ? card.querySelector(".profile-card-status-line") : null;
-              const totalMetric = document.getElementById("stat-total-profiles");
-              const totalLabel = document.getElementById("metric-label-total");
+              const docsPending = document.getElementById("stat-docs-pending");
+              const readyApply = document.getElementById("stat-ready-apply");
+              const applied = document.getElementById("stat-applied");
+              const benefitReceived = document.getElementById("stat-benefit-received");
 
               return {
                 cardExists: !!card,
@@ -182,8 +184,10 @@ async def main():
                 openBtnText: openBtn ? openBtn.textContent.trim() : null,
                 hasDeleteBtn: !!delBtn,
                 statusLineText: statusLine ? statusLine.textContent.trim() : null,
-                totalCount: totalMetric ? totalMetric.textContent.trim() : null,
-                totalLabel: totalLabel ? totalLabel.textContent.trim() : null
+                docsPendingCount: docsPending ? docsPending.textContent.trim() : null,
+                readyApplyCount: readyApply ? readyApply.textContent.trim() : null,
+                appliedCount: applied ? applied.textContent.trim() : null,
+                benefitReceivedCount: benefitReceived ? benefitReceived.textContent.trim() : null
               };
             })()
             """, 4)
@@ -191,9 +195,11 @@ async def main():
             assert card_check["cardExists"], "Profile card must exist"
             assert card_check["hasOpenBtn"] and card_check["openBtnText"] == "Open", "Must have 'Open' button"
             assert not card_check["hasDeleteBtn"], "Delete button must NOT be on card"
-            assert card_check["totalCount"] == "0", "Total schemes should start at 0"
-            assert card_check["totalLabel"] == "Total Schemes", "Metric label should be 'Total Schemes'"
-            print("  [PASS] Home screen card has Open button, no Delete button, and Total Schemes label!")
+            assert card_check["docsPendingCount"] == "0", "Docs pending count should start at 0"
+            assert card_check["readyApplyCount"] == "0", "Ready to apply count should start at 0"
+            assert card_check["appliedCount"] == "0", "Waiting for decision should start at 0"
+            assert card_check["benefitReceivedCount"] == "0", "Benefits received should start at 0"
+            print("  [PASS] Home screen card has Open button, no Delete button, and action count cards start at 0!")
 
             # Step 3: Open Profile Screen
             await eval_js(ws, "window.location.hash = '#/helper/profile/prof-anita-001';", 5)
@@ -590,27 +596,26 @@ async def main():
 
             home_sync_check = await eval_js(ws, """
             (() => {
-              const totalMetric = document.getElementById("stat-total-profiles").textContent.trim();
               const pendingMetric = document.getElementById("stat-docs-pending").textContent.trim();
               const card = document.querySelector(".profile-card[data-profile-id='prof-anita-001']");
               const summaryLine = card ? card.querySelector(".profile-card-status-line").textContent.trim() : null;
+              const urgentChip = card ? (card.querySelector(".dash-card-urgent-chip") ? card.querySelector(".dash-card-urgent-chip").textContent.trim() : null) : null;
 
               return {
-                totalMetric: totalMetric,
                 pendingMetric: pendingMetric,
-                summaryLine: summaryLine
+                summaryLine: summaryLine,
+                urgentChip: urgentChip
               };
             })()
             """, 29)
             print(f"[CHECK 13] Home screen counters & status summary: {home_sync_check}")
-            assert home_sync_check["totalMetric"] == "2", "Total schemes counter should count 2 applications"
             assert "2 schemes saved" in home_sync_check["summaryLine"].lower(), "Summary line must show '2 schemes saved'"
-            assert "rejected" in home_sync_check["summaryLine"].lower(), "Summary line must detail active statuses"
             if target_status == "Documents pending":
-                assert "documents pending" in home_sync_check["summaryLine"].lower()
+                assert home_sync_check["pendingMetric"] == "1", "Pending count should be 1"
+                assert "documents pending" in home_sync_check["urgentChip"].lower()
             else:
-                assert "ready to apply" in home_sync_check["summaryLine"].lower()
-            print("  [PASS] Home screen counters and summary line correctly synchronized!")
+                assert "ready to apply" in home_sync_check["urgentChip"].lower()
+            print("  [PASS] Home screen counters and urgent status chip correctly synchronized!")
 
             # Step 15: Capture screenshots at 1440px, 768px, and 360px
             await eval_js(ws, "window.location.hash = '#/helper/profile/prof-anita-001';", 30)
@@ -690,19 +695,19 @@ async def main():
             (() => {
               const hash = window.location.hash;
               const cards = document.querySelectorAll(".profile-card");
-              const totalMetric = document.getElementById("stat-total-profiles").textContent.trim();
+              const pendingMetric = document.getElementById("stat-docs-pending") ? document.getElementById("stat-docs-pending").textContent.trim() : null;
 
               return {
                 hash: hash,
                 cardCount: cards.length,
-                totalMetric: totalMetric
+                pendingMetric: pendingMetric
               };
             })()
             """, 53)
             print(f"[CHECK 15] After deletion: {after_delete_check}")
             assert after_delete_check["hash"] == "#/helper", "Must redirect to #/helper after delete"
             assert after_delete_check["cardCount"] == 0, "Profile list should now be empty"
-            assert after_delete_check["totalMetric"] == "0", "Total schemes should reset to 0"
+            assert after_delete_check["pendingMetric"] == "0", "Docs pending should reset to 0"
             print("  [PASS] Profile deletion via ... menu succeeded and cleaned up all applications!")
 
             print("=" * 60)

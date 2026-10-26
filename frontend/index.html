@@ -303,74 +303,83 @@
       <span id="helper-backup-status" style="display: none;" aria-hidden="true"></span>
     </div>
 
-    <div class="dashboard-header-block">
-      <div class="dashboard-intro">
-        <h1 class="dashboard-title" id="dashboard-title-text">Beneficiary Profiles</h1>
-        <p class="dashboard-subtitle" id="dashboard-subtitle-text">Manage profiles for rural beneficiaries, evaluate scheme entitlements, and track applications.</p>
-        <div class="dashboard-backup-status" id="dashboard-last-backup">Last backup: Not backed up yet</div>
+    <!-- Welcome Row (Namaste, <Helper name> + Primary Add Beneficiary CTA) -->
+    <div class="dash-welcome-row" id="dash-welcome-row">
+      <div class="dash-welcome-text">
+        <h1 class="dash-welcome-heading">
+          <span class="dash-welcome-greeting" id="dash-welcome-greeting">Namaste,</span>
+          <span class="dash-helper-name" id="dash-helper-name">Helper</span>
+        </h1>
       </div>
-      <div class="dashboard-actions">
-        <button id="btn-backup-home" class="btn-secondary" type="button" title="Back up data to cloud">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
-            <polyline points="17 8 12 3 7 8"></polyline>
-            <line x1="12" y1="3" x2="12" y2="15"></line>
-          </svg>
-          <span id="btn-backup-home-text">Back up now</span>
-        </button>
-        <button id="btn-add-profile" class="btn-primary" type="button">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <div class="dash-welcome-actions">
+        <button id="btn-add-profile" class="btn-primary dash-btn-add" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
           </svg>
-          <span id="btn-add-profile-text">Add profile</span>
+          <span id="btn-add-profile-text">Add beneficiary</span>
         </button>
       </div>
     </div>
 
-    <!-- Application Status Metric Counters (4 Summary Tiles) -->
-    <div class="dashboard-metrics-row dashboard-metrics-4">
-      <div class="metric-card interactive" id="metric-card-total" role="button" tabindex="0" title="Click to view all schemes">
-        <div class="metric-label" id="metric-label-total">Total Schemes</div>
-        <div id="stat-total-profiles" class="metric-value">0</div>
-        <div class="metric-hint" id="metric-hint-total">Across all profiles</div>
+    <!-- Section: What to do today -->
+    <section class="dash-today-section" id="dash-today-section" aria-labelledby="dash-today-title">
+      <div class="dash-section-header">
+        <h2 class="dash-section-title" id="dash-today-title">What to do today</h2>
       </div>
-      <div class="metric-card interactive" id="metric-card-docs-pending" role="button" tabindex="0" title="Click to filter by Documents pending">
-        <div class="metric-label" id="metric-label-docs-pending">Documents pending</div>
-        <div id="stat-docs-pending" class="metric-value">0</div>
-        <div class="metric-hint" id="metric-hint-docs-pending">Awaiting documents</div>
+      <div id="dash-today-list" class="dash-today-list" role="list">
+        <!-- Rendered dynamically by app.js: action rows -->
       </div>
-      <div class="metric-card interactive" id="metric-card-ready" role="button" tabindex="0" title="Click to filter by Ready to apply">
-        <div class="metric-label" id="metric-label-ready">Ready to apply</div>
-        <div id="stat-ready-apply" class="metric-value">0</div>
-        <div class="metric-hint" id="metric-hint-ready">Active applications</div>
+      <div id="dash-today-empty" class="dash-today-empty" style="display: none;">
+        <svg class="dash-empty-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span id="dash-today-empty-text">You're all caught up</span>
       </div>
-      <div class="metric-card interactive" id="metric-card-applied" role="button" tabindex="0" title="Click to filter by Applied">
-        <div class="metric-label" id="metric-label-applied">Applied</div>
-        <div id="stat-applied" class="metric-value">0</div>
-        <div class="metric-hint" id="metric-hint-applied">Submitted</div>
-      </div>
-    </div>
-
-    <!-- Needs Follow-Up List (>= 7 days pending or ready to apply) -->
-    <section class="followup-section" id="followup-section">
-      <div class="followup-header">
-        <div class="followup-title-wrap">
-          <h2 class="followup-title" id="followup-title">Needs Follow-Up</h2>
-          <span id="followup-badge" class="followup-count-badge">0</span>
-        </div>
-        <p class="followup-subtext" id="followup-subtext">Applications in Documents pending or Ready to apply for 7 or more days.</p>
-      </div>
-      <div id="followup-list" class="followup-grid"></div>
-      <div id="followup-empty" class="followup-empty-card" style="display: none;">
-        <span id="followup-empty-text">No profiles currently need follow-up.</span>
+      <div class="dash-today-expand-wrap" id="dash-today-expand-wrap" style="display: none;">
+        <button type="button" id="btn-dash-today-toggle" class="btn-secondary dash-btn-expand" aria-expanded="false">
+          <span id="dash-today-toggle-text">Show all (0)</span>
+        </button>
       </div>
     </section>
 
-    <!-- Profile Search Input by Name -->
-    <div class="profiles-search-container">
+    <!-- Four Count Cards Named After Actions (counting APPLICATIONS) -->
+    <section class="dash-metrics-section" id="dash-metrics-section" aria-label="Application counters and filters">
+      <div class="dash-count-grid" id="dash-count-grid" role="group" aria-label="Status filter cards">
+        <button class="dash-count-card" id="card-count-docs-pending" type="button" data-status="Documents pending" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-docs-pending">Collect documents</span>
+          <span class="dash-card-value" id="stat-docs-pending">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-ready" type="button" data-status="Ready to apply" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-ready">Ready to apply</span>
+          <span class="dash-card-value" id="stat-ready-apply">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-applied" type="button" data-status="Applied" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-applied">Waiting for decision</span>
+          <span class="dash-card-value" id="stat-applied">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-benefit-received" type="button" data-status="Benefit received" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-benefit-received">Benefits received</span>
+          <span class="dash-card-value" id="stat-benefit-received">0</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Active Filter Notification Bar & Clear Filter Control -->
+    <div class="dash-filter-active-bar" id="dash-filter-active-bar" style="display: none;">
+      <span class="dash-filter-active-text" id="dash-filter-active-text">
+        <span>Filtering by: </span>
+        <strong id="dash-filter-active-status"></strong>
+      </span>
+      <button type="button" id="btn-dash-clear-filter" class="dash-btn-clear-filter">
+        Clear filter
+      </button>
+    </div>
+
+    <!-- Beneficiary Search Bar -->
+    <div class="profiles-search-container dash-search-container" id="dash-search-container">
       <div class="search-wrapper">
-        <span class="search-icon">
+        <span class="search-icon" aria-hidden="true">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -380,29 +389,62 @@
       </div>
     </div>
 
-    <!-- Status Filter Bar for Profiles -->
-    <div class="dashboard-filter-bar" id="dashboard-filter-bar">
-      <div class="filter-bar-header">
-        <span class="filter-bar-title" id="filter-bar-title">Filter profiles by application status:</span>
-        <button id="btn-dashboard-filter-clear" class="link-quiet" type="button" style="display: none;">Show all</button>
-      </div>
-      <div class="dashboard-filter-chips" id="dashboard-filter-chips" role="group" aria-label="Filter profiles by status">
-        <!-- Rendered dynamically by app.js -->
-      </div>
-    </div>
-
-    <!-- Profiles List or Empty State -->
-    <div id="profiles-container" class="profiles-section">
+    <!-- Beneficiary Profiles Section & Empty Guide -->
+    <section id="profiles-container" class="profiles-section dash-profiles-section" aria-label="Beneficiary profiles">
       <div id="profiles-list" class="profiles-grid"></div>
 
-      <div id="profiles-empty-state" class="empty-state-editorial" style="display: none;">
-        <div class="msg-primary" id="empty-state-primary">No beneficiary profiles yet</div>
-        <div class="msg-secondary" id="empty-state-secondary">Create a profile on behalf of a beneficiary with their consent.</div>
-        <div class="empty-actions" style="margin-top: 20px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-          <button id="btn-empty-add-profile" class="btn-primary" type="button">Add profile</button>
+      <!-- 3-Step Guide Empty State (shown when profiles.length === 0) -->
+      <div id="profiles-empty-state" class="dash-empty-guide" style="display: none;">
+        <div class="dash-empty-header">
+          <h2 class="dash-empty-title" id="dash-empty-title">Welcome to Jan Kalyan</h2>
+          <p class="dash-empty-sub" id="dash-empty-sub">Get started by adding your first beneficiary to discover and track welfare schemes.</p>
+        </div>
+        <ol class="dash-guide-steps" role="list">
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">1</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-1-title">Add a beneficiary</div>
+              <div class="dash-step-desc" id="dash-step-1-desc">Enter their basic information with their consent.</div>
+            </div>
+          </li>
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">2</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-2-title">See their schemes</div>
+              <div class="dash-step-desc" id="dash-step-2-desc">Find all central and state schemes they are eligible for.</div>
+            </div>
+          </li>
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">3</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-3-title">Save a scheme and track it</div>
+              <div class="dash-step-desc" id="dash-step-3-desc">Track document collection and application progress.</div>
+            </div>
+          </li>
+        </ol>
+        <div class="dash-empty-actions">
+          <button id="btn-empty-add-profile" class="btn-primary dash-btn-add" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <span id="btn-empty-add-profile-text">Add beneficiary</span>
+          </button>
+          <a href="#/finder" id="btn-empty-quick-check" class="dash-link-secondary">Try Quick check</a>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Single Footer Line for Backup -->
+    <footer class="dash-footer-backup" id="dash-footer-backup">
+      <div class="dash-footer-left">
+        <span class="dash-backup-status-text" id="dash-backup-status-text">Not backed up yet</span>
+        <span class="dash-backup-warning" id="dash-backup-warning" style="display: none;">Changes not backed up</span>
+      </div>
+      <button type="button" id="btn-dash-backup-footer" class="dash-btn-backup-text">
+        Back up now
+      </button>
+    </footer>
   </section>
 
   <!-- 2b. BENEFICIARY PROFILE SCREEN (#/helper/profile/<id>) -->
@@ -903,6 +945,7 @@
   <script src="js/engine.js"></script>
   <script src="js/status.js"></script>
   <script src="js/db.js"></script>
+  <script src="js/dashboard-data.js"></script>
   <script src="js/app.js"></script>
 
 </body>

@@ -4399,9 +4399,545 @@ p, .clamped-text {
   opacity: 0.75;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────
+   Stage UI-3: Simple Helper Dashboard (.dash-*)
+   ───────────────────────────────────────────────────────────────────────── */
 
+/* 1. Welcome Row */
+.dash-welcome-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
 
+.dash-welcome-heading {
+  font-size: clamp(22px, 3.2vw, 28px);
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.25;
+}
 
+.dash-welcome-greeting {
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-right: 4px;
+}
 
+/* Display capitalized via CSS only */
+.dash-helper-name {
+  text-transform: capitalize;
+  color: var(--text-main);
+}
 
+.dash-btn-add {
+  min-height: 48px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: var(--radius-control);
+}
 
+/* 2. "What to do today" Section */
+.dash-today-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-panel);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.dash-section-header {
+  margin-bottom: 16px;
+}
+
+.dash-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.dash-today-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Action row */
+.dash-action-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 48px;
+  padding: 12px 16px;
+  background: var(--bg-page);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color var(--transition-fast, 150ms ease), border-color var(--transition-fast, 150ms ease);
+}
+
+.dash-action-row:hover {
+  background: var(--bg-hover);
+  border-color: #cbd5e1;
+}
+
+.dash-action-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.dash-action-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.dash-action-beneficiary {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.dash-action-scheme {
+  font-size: 13px;
+  color: var(--text-muted);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.dash-action-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.dash-action-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.dash-action-badge.badge-apply-now {
+  background: #EAF1ED;
+  color: #1F4D3A;
+  border: 1px solid rgba(31, 77, 58, 0.2);
+}
+
+.dash-action-badge.badge-collect-docs {
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid rgba(146, 64, 14, 0.2);
+}
+
+.dash-action-badge.badge-rejected-review {
+  background: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid rgba(153, 27, 27, 0.2);
+}
+
+.dash-action-badge.badge-check-status {
+  background: #EFF6FF;
+  color: #1E40AF;
+  border: 1px solid rgba(30, 64, 175, 0.2);
+}
+
+.dash-action-days {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.dash-today-empty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-control);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.dash-empty-check-icon {
+  stroke: var(--accent);
+  flex-shrink: 0;
+}
+
+.dash-today-expand-wrap {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.dash-btn-expand {
+  min-height: 48px;
+  padding: 0 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--radius-control);
+}
+
+/* 3. Four Count Cards */
+.dash-metrics-section {
+  margin-bottom: 24px;
+}
+
+.dash-count-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.dash-count-card {
+  appearance: none;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-control);
+  padding: 16px 14px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all var(--transition-fast, 150ms ease);
+}
+
+.dash-count-card:hover {
+  background: var(--bg-hover);
+  border-color: #cbd5e1;
+}
+
+.dash-count-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.dash-count-card.active {
+  border-color: var(--accent);
+  background: var(--accent-tint, #EAF1ED);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.dash-card-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.3;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.dash-count-card.active .dash-card-label {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.dash-card-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1;
+  margin-top: 8px;
+}
+
+.dash-count-card.active .dash-card-value {
+  color: var(--accent);
+}
+
+/* Active filter bar */
+.dash-filter-active-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--accent-tint, #EAF1ED);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-control);
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: var(--text-main);
+}
+
+.dash-btn-clear-filter {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  min-height: 48px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  font-family: inherit;
+}
+
+.dash-btn-clear-filter:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* 4. Beneficiary List & Search */
+.dash-search-container {
+  margin-bottom: 20px;
+}
+
+.dash-profiles-section {
+  margin-bottom: 32px;
+}
+
+/* Card overrides for row view */
+.profile-card .btn-card-open {
+  min-height: 48px;
+}
+
+.dash-card-urgent-chip {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* 5. Empty State 3-Step Guide */
+.dash-empty-guide {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-panel);
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.dash-empty-header {
+  max-width: 560px;
+  margin: 0 auto 32px;
+}
+
+.dash-empty-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+}
+
+.dash-empty-sub {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.dash-guide-steps {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 0 auto 32px;
+  max-width: 860px;
+  text-align: left;
+}
+
+.dash-guide-step {
+  background: var(--bg-page);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-control);
+  padding: 18px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.dash-step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dash-step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.dash-step-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.dash-step-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.45;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.dash-empty-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.dash-link-secondary {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: underline;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+}
+
+.dash-link-secondary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* 6. Footer Line for Backup */
+.dash-footer-backup {
+  border-top: 1px solid var(--border-hairline);
+  padding-top: 20px;
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.dash-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dash-backup-status-text {
+  color: var(--text-muted);
+}
+
+.dash-backup-warning {
+  font-size: 12px;
+  font-weight: 600;
+  color: #B45309;
+  background: #FEF3C7;
+  border: 1px solid rgba(180, 83, 9, 0.25);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+}
+
+.dash-btn-backup-text {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  min-height: 48px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: underline;
+  font-family: inherit;
+}
+
+.dash-btn-backup-text:hover {
+  color: var(--accent-hover);
+}
+
+.dash-btn-backup-text:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.dash-btn-backup-text:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+/* 7. Responsive Breakpoints & Overflow Guards */
+@media (max-width: 768px) {
+  .dash-guide-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .dash-count-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dash-action-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .dash-action-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 360px) {
+  .dash-welcome-row,
+  .dash-today-section,
+  .dash-count-grid,
+  .dash-footer-backup {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dash-action-row,
+  .dash-count-card,
+  .dash-btn-add,
+  .dash-btn-expand {
+    transition: none !important;
+  }
+}

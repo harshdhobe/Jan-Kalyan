@@ -1,0 +1,474 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Kalyan | जन कल्याण</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&amp;family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#FAF4EA',
+            sand: '#F1E4CE',
+            'deep-brown': '#2A1A10',
+            terracotta: '#A8421E',
+            'deep-green': '#1F4D36',
+            'trust-green': '#1F5A3B',
+            'hairline': '#D6C4A6',
+          },
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['"Public Sans"', 'sans-serif'],
+            devanagari: ['"Noto Sans Devanagari"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #FAF4EA;
+      color: #2A1A10;
+      font-family: 'Public Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    .serif-display {
+      font-family: 'Newsreader', Georgia, serif;
+      letter-spacing: -0.03em;
+    }
+    .devanagari-font {
+      font-family: 'Noto Sans Devanagari', sans-serif;
+      line-height: 1.5;
+    }
+    .hairline-border {
+      border-color: #D6C4A6;
+    }
+    /* Accessible focus ring */
+    .focus-ring:focus-visible {
+      outline: 3px solid #A8421E;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body class="bg-cream text-deep-brown selection:bg-[#F1E4CE] selection:text-deep-brown">
+
+  <!-- HEADER (Sticky, 1px bottom hairline, no shadow, no nav links, no pills) -->
+  <header class="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b hairline-border w-full">
+    <div class="max-w-[1200px] mx-auto px-6 h-24 flex items-center justify-between">
+      <!-- Logo: Serif "Jan Kalyan" | Thin Divider | Bold Devanagari "जन कल्याण" -->
+      <div class="flex items-baseline space-x-3.5">
+        <span class="serif-display text-3xl font-semibold tracking-tight text-deep-brown">Jan Kalyan</span>
+        <span class="inline-block w-[1px] h-6 bg-hairline self-center"></span>
+        <span class="devanagari-font text-2xl font-bold text-deep-brown">जन कल्याण</span>
+      </div>
+
+      <!-- Language switcher: 3 plain text buttons separated by thin vertical dividers -->
+      <nav class="flex items-center" aria-label="Language selection">
+        <button type="button" class="h-12 px-4 text-base font-bold text-deep-brown border-b-[3px] border-terracotta focus-ring transition-colors">
+          English
+        </button>
+        <span class="inline-block w-[1px] h-5 bg-hairline" aria-hidden="true"></span>
+        <button type="button" class="h-12 px-4 text-base devanagari-font font-medium text-deep-brown/80 hover:text-deep-brown focus-ring transition-colors">
+          हिंदी
+        </button>
+        <span class="inline-block w-[1px] h-5 bg-hairline" aria-hidden="true"></span>
+        <button type="button" class="h-12 px-4 text-base devanagari-font font-medium text-deep-brown/80 hover:text-deep-brown focus-ring transition-colors">
+          मराठी
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT AREA -->
+  <main>
+
+    <!-- HERO SECTION (Asymmetric 12-column grid: 7 cols text, 5 cols photo; 120px top/bottom spacing) -->
+    <section class="max-w-[1200px] mx-auto px-6 pt-16 pb-28">
+      <div class="grid grid-cols-12 gap-10 items-start">
+        
+        <!-- Left Column: 7 Columns -->
+        <div class="col-span-7 flex flex-col justify-start pr-4">
+          <!-- Small uppercase eyebrow -->
+          <div class="text-[18px] uppercase tracking-[0.2em] font-medium text-deep-brown/80 mb-5 font-sans flex items-center gap-3">
+            <span class="">JAN KALYAN</span> <span class="text-hairline">•</span> <span class="devanagari-font tracking-normal font-semibold text-deep-brown">जन कल्याण</span>
+          </div>
+
+          <!-- H1: 144px in serif, tight line-height -->
+          <h1 class="serif-display text-5xl md:text-[76px] leading-[1.05] text-deep-brown font-normal mb-6">
+            Jan Kalyan
+          </h1>
+
+          <!-- Subheading (24px) -->
+          <p class="text-2xl leading-snug font-normal text-deep-brown mb-4 max-w-xl">
+            Discover government welfare schemes for families across India.
+          </p>
+
+          <!-- Supporting line (20px) -->
+          <p class="text-xl leading-relaxed text-deep-brown/80 mb-12 max-w-xl">
+            Check eligibility in seconds, prepare documents, and track application status offline.
+          </p>
+
+          <!-- Two rectangular buttons side by side, equal height 88px, 6px radius -->
+          <div class="flex items-center gap-5 mb-8">
+            <!-- Primary Button: deep brown fill, cream text, 88px, 6px radius -->
+            <button type="button" class="h-[88px] flex-1 bg-deep-brown text-cream hover:bg-[#3d2719] rounded-[6px] px-6 flex items-center gap-4 text-left focus-ring transition-colors group">
+              <!-- Line pictogram of two people (2px stroke, dark brown / cream contrast) -->
+              <svg class="w-8 h-8 text-cream shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold leading-tight text-cream">I'm a Helper</span>
+                <span class="text-sm font-normal text-cream/70 mt-1">ASHA, Anganwadi, Panchayat, CSC</span>
+              </div>
+            </button>
+
+            <!-- Secondary Button: white fill, 2px terracotta border, deep brown text, 88px, 6px radius -->
+            <button type="button" class="h-[88px] flex-1 bg-white border-2 border-terracotta hover:bg-cream rounded-[6px] px-6 flex items-center gap-4 text-left focus-ring transition-colors group">
+              <!-- Line pictogram of a checkmark (2px stroke, dark brown) -->
+              <svg class="w-8 h-8 text-deep-brown shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold leading-tight text-deep-brown">Quick check</span>
+                <span class="text-sm font-normal text-deep-brown/70 mt-1">Check eligibility without saving</span>
+              </div>
+            </button>
+          </div>
+
+          <!-- Privacy text with 3px green rule on left and small shield line pictogram (plain text, NOT a pill) -->
+          <div class="flex items-center gap-3 pl-3 border-l-[3px] border-[#2E6B4A]">
+            <svg class="w-5 h-5 text-[#2E6B4A] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span class="text-base text-deep-brown/90 font-medium">
+              Works on this phone. Aadhaar is never stored.
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Column: 5 Columns natural documentary photograph -->
+        <div class="col-span-5">
+          <div class="overflow-hidden rounded-[4px] border hairline-border bg-sand/30">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYVHWbDPjKieMm3um8Sn_oLksqIGUdbuI5R-Dzb1JpGlWPL884GyybutYiQmTVKKHIMftxH-kuicjloUTtqZF9JqvATRige91lAgWyadf4SG0i1tdlc3rwISPZyzIV2_0Nvg8yZNkZG7iuf1ffpojEQV6lxXQjnn58YMi4bdE0t-WKEHCu12h3GLayaYmgsZn416jN2I5PdA0NMzZjL3feEOmwaXXJyOfijr6f7QwEIPdbbH7AxlPIog" alt="An Indian community healthcare worker with an ID card assisting a multigenerational Indian family on a mobile phone" class="w-full h-auto object-contain block rounded-[4px]">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MISSION BAND (Full width, deep green #1F4D36, cream text, 160px vertical padding, text left-aligned in left 9 columns) -->
+    <section class="w-full bg-deep-green text-cream py-40">
+      <div class="max-w-[1200px] mx-auto px-6">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 lg:col-span-9">
+            <h2 class="serif-display text-5xl md:text-[64px] leading-[1.05] font-normal mb-8 text-cream">
+              Every family has a right to the benefits meant for them.
+            </h2>
+            <p class="text-xl font-normal text-cream/90 leading-relaxed max-w-2xl font-sans">
+              Too many families miss out only because no one told them. Jan Kalyan helps every family find out.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS (Cream background, 120px vertical padding, 56px title, TWO columns side-by-side, NO cards, NO boxes, NO shadows, NO arrows) -->
+    <section class="max-w-[1200px] mx-auto px-6 py-28">
+      <h2 class="serif-display text-[56px] leading-[1.0] text-deep-brown font-normal mb-16">
+        How it works
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+
+        <!-- Column 1: Check on your own (4px top rule in deep brown) -->
+        <div class="flex flex-col">
+          <!-- 4px top rule in deep brown -->
+          <div class="w-full h-1 bg-deep-brown mb-6"></div>
+          
+          <!-- Column Header -->
+          <div class="mb-6">
+            <h3 class="serif-display text-4xl text-deep-brown font-normal leading-tight">
+              Check on your own
+            </h3>
+            <span class="text-base text-deep-brown/70 font-sans mt-1 block">
+              For families
+            </span>
+          </div>
+
+          <!-- Typographic List with hairline dividers -->
+          <div class="border-t hairline-border">
+            
+            <!-- Row 1 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">1</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                Answer a few questions
+              </span>
+              <!-- Line pictogram 56px: clipboard with pencil (2px stroke, dark brown, NO colored box) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1"></rect>
+                  <path d="M12 11h4"></path>
+                  <path d="M12 16h4"></path>
+                  <path d="M8 11h.01"></path>
+                  <path d="M8 16h.01"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Row 2 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">2</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                See schemes you may get
+              </span>
+              <!-- Line pictogram 56px: list with ticks (2px stroke, dark brown) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 6h11"></path>
+                  <path d="M9 12h11"></path>
+                  <path d="M9 18h11"></path>
+                  <path d="M4 6l1.5 1.5L8 5"></path>
+                  <path d="M4 12l1.5 1.5L8 11"></path>
+                  <path d="M4 18l1.5 1.5L8 17"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Row 3 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">3</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                Get your document list
+              </span>
+              <!-- Line pictogram 56px: document (2px stroke, dark brown) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <line x1="10" y1="9" x2="8" y2="9"></line>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Column 2: Get help from a helper (4px top rule in terracotta) -->
+        <div class="flex flex-col">
+          <!-- 4px top rule in terracotta -->
+          <div class="w-full h-1 bg-terracotta mb-6"></div>
+          
+          <!-- Column Header -->
+          <div class="mb-6">
+            <h3 class="serif-display text-4xl text-deep-brown font-normal leading-tight">
+              Get help from a helper
+            </h3>
+            <span class="text-base text-deep-brown/70 font-sans mt-1 block">
+              ASHA, Anganwadi, Panchayat, CSC
+            </span>
+          </div>
+
+          <!-- Typographic List with hairline dividers -->
+          <div class="border-t hairline-border">
+            
+            <!-- Row 1 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">1</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                Save each family's profile
+              </span>
+              <!-- Line pictogram 56px: person card (2px stroke, dark brown) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                  <path d="M7 17a5 5 0 0 1 10 0"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Row 2 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">2</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                Find schemes, prepare documents
+              </span>
+              <!-- Line pictogram 56px: magnifier over document (2px stroke, dark brown) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <circle cx="11.5" cy="14.5" r="2.5"></circle>
+                  <path d="M13.5 16.5L16 19"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Row 3 (120px tall) -->
+            <div class="h-[120px] flex items-center justify-between border-b hairline-border py-4">
+              <span class="serif-display text-[56px] text-terracotta leading-none w-14 shrink-0 font-normal">3</span>
+              <span class="text-2xl font-semibold text-deep-brown leading-snug px-6 flex-1">
+                Apply and track progress
+              </span>
+              <!-- Line pictogram 56px: three-step progress bar with tick (2px stroke, dark brown) -->
+              <div class="w-14 h-14 shrink-0 flex items-center justify-center">
+                <svg class="w-12 h-12 text-deep-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 12h5"></path>
+                  <path d="M11 12h2"></path>
+                  <path d="M16 12h5"></path>
+                  <circle cx="3" cy="12" r="1.5"></circle>
+                  <circle cx="12" cy="12" r="1.5"></circle>
+                  <circle cx="21" cy="12" r="1.5"></circle>
+                  <path d="M8 8l2.5 2.5L14 7"></path>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MADE FOR EVERY FAMILY (Sand background #F1E4CE, 120px vertical padding, 12-col grid: Title 4 cols, list 8 cols in 2 cols x 3 rows, NO icons, NO tiles, NO boxes) -->
+    <section class="w-full bg-sand py-28">
+      <div class="max-w-[1200px] mx-auto px-6">
+        <div class="grid grid-cols-12 gap-10">
+          
+          <!-- Title on Left: 4 Columns -->
+          <div class="col-span-12 lg:col-span-4 pr-6">
+            <h2 class="serif-display text-[56px] leading-[1.0] text-deep-brown font-normal mb-4">
+              Made for every family
+            </h2>
+          </div>
+
+          <!-- Plain Typographic List on Right: 8 Columns (2 sub-columns of 3 rows) separated by hairlines -->
+          <div class="col-span-12 lg:col-span-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 border-t hairline-border">
+              
+              <!-- Column A -->
+              <div>
+                <!-- Item 1: Farmers / किसान -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Farmers
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    किसान
+                  </div>
+                </div>
+
+                <!-- Item 2: Women / महिलाएँ -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Women
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    महिलाएँ
+                  </div>
+                </div>
+
+                <!-- Item 3: Older people / बुज़ुर्ग -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Older people
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    बुज़ुर्ग
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column B -->
+              <div>
+                <!-- Item 4: Workers / श्रमिक -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Workers
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    श्रमिक
+                  </div>
+                </div>
+
+                <!-- Item 5: Persons with disability / दिव्यांगजन -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Persons with disability
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    दिव्यांगजन
+                  </div>
+                </div>
+
+                <!-- Item 6: Students / विद्यार्थी -->
+                <div class="py-6 border-b hairline-border">
+                  <div class="serif-display text-[28px] text-deep-brown leading-tight font-medium">
+                    Students
+                  </div>
+                  <div class="devanagari-font text-[18px] text-deep-brown/80 mt-1 font-semibold">
+                    विद्यार्थी
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMISES (Cream background, hairline above and below, one single row of four short statements in 20px semibold separated by thin vertical dividers, NO icons) -->
+    <section class="w-full bg-cream border-t border-b hairline-border py-12">
+      <div class="max-w-[1200px] mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between divide-y md:divide-y-0 md:divide-x hairline-border">
+          <div class="w-full md:w-1/4 py-3 md:py-0 md:px-6 first:pl-0 text-center md:text-left text-xl font-semibold text-deep-brown">
+            Works offline
+          </div>
+          <div class="w-full md:w-1/4 py-3 md:py-0 md:px-6 text-center md:text-left text-xl font-semibold text-deep-brown">
+            Free to use
+          </div>
+          <div class="w-full md:w-1/4 py-3 md:py-0 md:px-6 text-center md:text-left text-xl font-semibold text-deep-brown">
+            Your data stays on your phone
+          </div>
+          <div class="w-full md:w-1/4 py-3 md:py-0 md:px-6 last:pr-0 text-center md:text-left text-xl font-semibold text-deep-brown">
+            Official government sources
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (Deep brown #2A1A10, cream text #F5E9D6, 16px minimum, NO links) -->
+  <footer class="w-full bg-deep-brown text-[#F5E9D6] py-20 border-t border-deep-brown">
+    <div class="max-w-[1200px] mx-auto px-6">
+      <div class="flex flex-col space-y-4 max-w-3xl">
+        <p class="text-xl font-semibold text-[#F5E9D6] tracking-tight">
+          Jan Kalyan • Deterministic Welfare Eligibility Engine
+        </p>
+        <p class="text-base text-[#F5E9D6]/80 leading-relaxed font-normal">
+          Official guidelines sourced from MyScheme, NSAP, PM-KISAN, PMAY and State portals. Verification required before final disbursement.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+</body></html>

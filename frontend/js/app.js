@@ -23,6 +23,9 @@
   // Stage 4: Follow-up threshold in days (logged in decisions.md)
   const FOLLOW_UP_THRESHOLD_DAYS = 7;
 
+  // View Nodes Cache for single outlet
+  const viewNodes = {};
+
   // Global state
   const state = {
     lang: "en", // "en" | "hi" | "mr"
@@ -1620,20 +1623,24 @@
     els.personaSelect = document.getElementById("persona-select");
     els.resetBtn = document.getElementById("reset-btn");
 
-    // Stage 4: Landing View Elements
-    els.landingView = document.getElementById("landing-view");
-    els.landingLine1 = document.getElementById("landing-line-1");
-    els.landingLine2 = document.getElementById("landing-line-2");
-    els.btnLandingHelper = document.getElementById("btn-landing-helper");
-    els.btnLandingHelperText = document.getElementById("btn-landing-helper-text");
-    els.btnLandingHelperSub = document.getElementById("btn-landing-helper-sub");
-    els.btnLandingQuick = document.getElementById("btn-landing-quick");
-    els.btnLandingQuickText = document.getElementById("btn-landing-quick-text");
-    els.btnLandingQuickSub = document.getElementById("btn-landing-quick-sub");
-    els.landingPrivacyNote = document.getElementById("landing-privacy-note");
+    // App Shell & Single Outlet Elements
+    els.landingSlot = document.getElementById("landing-slot");
+    els.appShell = document.getElementById("app-shell");
+    els.appOutlet = document.getElementById("app-outlet");
+    els.appFooter = document.getElementById("app-footer");
 
-    // Stage 4: Helper Setup View Elements
+    // Views
+    els.loginView = document.getElementById("login-view");
     els.setupView = document.getElementById("setup-view");
+    els.dashboardView = document.getElementById("dashboard-view");
+    els.profileView = document.getElementById("profile-view");
+    els.finderView = document.getElementById("finder-view");
+
+    viewNodes.login = els.loginView;
+    viewNodes.setup = els.setupView;
+    viewNodes.dashboard = els.dashboardView;
+    viewNodes.profile = els.profileView;
+    viewNodes.finder = els.finderView;
     els.setupTitleText = document.getElementById("setup-title-text");
     els.setupNoticeText = document.getElementById("setup-notice-text");
     els.labelHelperName = document.getElementById("label-helper-name");
@@ -1934,20 +1941,18 @@
     populateManualCatalog();
 
     updateI18nLabels();
+    const savedLang = localStorage.getItem("jk_lang") || "en";
+    setLanguage(savedLang);
 
     // Hash change routing
     window.addEventListener("hashchange", handleRoute);
 
     // Initial load: check session and helper account
-    checkHasSession().then((hasSession) => {
-      loadHelperAccount().then((helper) => {
+    checkHasSession().then(() => {
+      loadHelperAccount().then(() => {
         const rawHash = (window.location.hash || "").trim();
         if (!rawHash || rawHash === "#") {
-          if (hasSession && helper) {
-            window.location.hash = "#/helper";
-          } else {
-            window.location.hash = "#/";
-          }
+          window.location.hash = "#/";
         }
         handleRoute();
       });
@@ -1959,8 +1964,8 @@
         if (event === "SIGNED_OUT") {
           state.currentUser = null;
           const rawHash = (window.location.hash || "").trim();
-          if (rawHash === "#/helper" || rawHash === "#/setup" || rawHash.startsWith("#/profile/")) {
-            window.location.hash = "#/login";
+          if (rawHash === "#/helper" || rawHash === "#/setup" || rawHash === "#/dashboard" || rawHash.startsWith("#/profile/")) {
+            window.location.hash = "#/";
           }
         } else if (event === "SIGNED_IN" || event === "TOKEN_REFRESHED") {
           if (session && session.user) {
@@ -2686,12 +2691,27 @@
   }
 
   function setLanguage(lang) {
+    if (!["en", "hi", "mr"].includes(lang)) lang = "en";
     state.lang = lang;
+    localStorage.setItem("jk_lang", lang);
+    document.documentElement.setAttribute("lang", lang);
     document.body.classList.toggle("lang-hi", lang === "hi");
     document.body.classList.toggle("lang-mr", lang === "mr");
-    if (els.langEn) els.langEn.classList.toggle("active", lang === "en");
-    if (els.langHi) els.langHi.classList.toggle("active", lang === "hi");
-    if (els.langMr) els.langMr.classList.toggle("active", lang === "mr");
+    if (window.JanKalyanLanding && window.JanKalyanLanding.getLanguage() !== lang) {
+      window.JanKalyanLanding.setLanguage(lang);
+    }
+    if (els.langEn) {
+      els.langEn.classList.toggle("active", lang === "en");
+      els.langEn.setAttribute("aria-pressed", lang === "en");
+    }
+    if (els.langHi) {
+      els.langHi.classList.toggle("active", lang === "hi");
+      els.langHi.setAttribute("aria-pressed", lang === "hi");
+    }
+    if (els.langMr) {
+      els.langMr.classList.toggle("active", lang === "mr");
+      els.langMr.setAttribute("aria-pressed", lang === "mr");
+    }
     if (state.helperAccount) {
       state.helperAccount.language = lang;
       if (window.GovDB && window.GovDB.isAvailable()) {
@@ -3166,7 +3186,7 @@
     pendingAuthUser = null;
     await window.GovCloud.signOut();
     state.currentUser = null;
-    window.location.hash = "#/login";
+    window.location.hash = "#/";
   }
 
   async function handleDiffErase() {
@@ -3288,7 +3308,7 @@
     }
     await window.GovCloud.signOut();
     state.currentUser = null;
-    window.location.hash = "#/login";
+    window.location.hash = "#/";
   }
 
   async function handleSaveHelperSetup(e) {
@@ -3362,32 +3382,58 @@
     }
   }
 
+  function focusMainHeading() {
+    setTimeout(() => {
+      const h1 = document.querySelector("h1");
+      if (h1) {
+        h1.setAttribute("tabindex", "-1");
+        h1.focus();
+      }
+    }, 60);
+  }
+
   async function handleRoute() {
     const rawHash = (window.location.hash || "").trim();
 
-    // Public routes: #/, #, empty, #/quick
+    // Scroll to top on every route change
+    window.scrollTo(0, 0);
+
+    // Public routes: #/, #, empty
     if (!rawHash || rawHash === "#" || rawHash === "#/") {
       showLandingView();
+      focusMainHeading();
       return;
     }
 
-    if (rawHash === "#/quick") {
+    if (rawHash === "#/quick-check" || rawHash === "#/quick") {
       showQuickCheck();
+      focusMainHeading();
       return;
     }
 
-    if (rawHash === "#/login") {
+    if (rawHash === "#/helper-login" || rawHash === "#/login") {
       const hasSession = await checkHasSession();
       if (hasSession) {
-        window.location.hash = "#/helper";
+        window.location.hash = "#/dashboard";
         return;
       }
       showLoginView();
+      focusMainHeading();
       return;
     }
 
-    // Protected routes: #/setup, #/helper, #/helper/profile/<id>, #/profile/<id>
-    const isProtected = rawHash === "#/setup" || rawHash === "#/helper" || rawHash.startsWith("#/helper/profile/") || rawHash.startsWith("#/profile/");
+    if (rawHash === "#/helper") {
+      const hasSession = await checkHasSession();
+      if (hasSession) {
+        window.location.hash = "#/dashboard";
+      } else {
+        window.location.hash = "#/login";
+      }
+      return;
+    }
+
+    // Protected routes: #/setup, #/dashboard, #/helper/profile/<id>, #/profile/<id>
+    const isProtected = rawHash === "#/setup" || rawHash === "#/dashboard" || rawHash.startsWith("#/helper/profile/") || rawHash.startsWith("#/profile/");
     if (isProtected) {
       const hasSession = await checkHasSession();
       if (!hasSession) {
@@ -3399,11 +3445,13 @@
 
     if (rawHash === "#/setup") {
       showSetupView();
+      focusMainHeading();
       return;
     }
 
-    if (rawHash === "#/helper") {
+    if (rawHash === "#/dashboard") {
       checkHelperAndShowHome();
+      focusMainHeading();
       return;
     }
 
@@ -3413,13 +3461,14 @@
         : rawHash.replace("#/profile/", "").trim();
       if (id) {
         showProfileScreen(id);
+        focusMainHeading();
       } else {
-        window.location.hash = "#/helper";
+        window.location.hash = "#/dashboard";
       }
       return;
     }
 
-    // Default fallback
+    // Default fallback: unknown routes go back to #/
     window.location.hash = "#/";
   }
 
@@ -3490,7 +3539,7 @@
   }
 
   function showHelperHome() {
-    switchView("helper");
+    switchView("dashboard");
     updateHelperWelcomeBar();
     refreshDashboard();
   }
@@ -3515,19 +3564,117 @@
     const isLanding = viewName === "landing";
     const isLogin = viewName === "login";
     const isSetup = viewName === "setup";
-    const isHelper = viewName === "helper" || viewName === "dashboard";
+    const isDashboard = viewName === "helper" || viewName === "dashboard";
     const isFinder = viewName === "finder";
     const isProfile = viewName === "profile";
 
-    if (els.landingView) els.landingView.style.display = isLanding ? "block" : "none";
-    if (els.loginView) els.loginView.style.display = isLogin ? "block" : "none";
-    if (els.setupView) els.setupView.style.display = isSetup ? "block" : "none";
-    if (els.dashboardView) els.dashboardView.style.display = isHelper ? "block" : "none";
-    if (els.finderView) els.finderView.style.display = isFinder ? "" : "none";
-    if (els.profileView) els.profileView.style.display = isProfile ? "block" : "none";
+    if (isLanding) {
+      // 1. Completely detach app-shell from DOM
+      if (els.appShell && els.appShell.parentNode) {
+        els.appShell.parentNode.removeChild(els.appShell);
+      }
+      // 2. Render landing layout into landing-slot
+      if (window.JanKalyanLanding) {
+        window.JanKalyanLanding.render("landing-slot");
+      }
+      return;
+    }
 
-    // Header controls & sub-banners
-    if (isLanding || isLogin) {
+    // All app routes:
+    // 1. Unmount and clear landing-slot so no landing elements exist in DOM
+    if (window.JanKalyanLanding) {
+      window.JanKalyanLanding.unmount("landing-slot");
+    } else if (els.landingSlot) {
+      els.landingSlot.innerHTML = "";
+    }
+
+    // 2. Re-attach app-shell into body before modals if detached
+    if (els.appShell && !els.appShell.parentNode) {
+      const modalAnchor = document.getElementById("modal-add-profile");
+      if (modalAnchor) {
+        document.body.insertBefore(els.appShell, modalAnchor);
+      } else {
+        document.body.appendChild(els.appShell);
+      }
+    }
+    if (els.appShell) {
+      els.appShell.style.display = "block";
+    }
+
+    // 3. Clear app-outlet and attach ONLY active view node
+    if (els.appOutlet) {
+      els.appOutlet.innerHTML = "";
+      let activeNode = null;
+      let pageAttr = "";
+
+      if (isLogin) {
+        activeNode = viewNodes.login || els.loginView;
+        pageAttr = "login";
+      } else if (isSetup) {
+        activeNode = viewNodes.setup || els.setupView;
+        pageAttr = "setup";
+      } else if (isDashboard) {
+        activeNode = viewNodes.dashboard || els.dashboardView;
+        pageAttr = "dashboard";
+      } else if (isProfile) {
+        activeNode = viewNodes.profile || els.profileView;
+        pageAttr = "profile";
+      } else if (isFinder) {
+        activeNode = viewNodes.finder || els.finderView;
+        pageAttr = state.activeProfileId ? "finder" : "quick-check";
+      }
+
+      if (activeNode) {
+        activeNode.style.display = "";
+        activeNode.setAttribute("data-page", pageAttr);
+        els.appOutlet.appendChild(activeNode);
+      }
+    }
+
+    // 4. Single footer management:
+    // Dashboard view contains #dash-footer-backup, so detach #app-footer when on dashboard.
+    // On all other app views (login, setup, profile, finder), attach #app-footer.
+    if (els.appFooter) {
+      if (isDashboard) {
+        if (els.appFooter.parentNode) {
+          els.appFooter.parentNode.removeChild(els.appFooter);
+        }
+      } else {
+        if (!els.appFooter.parentNode && els.appShell) {
+          els.appShell.appendChild(els.appFooter);
+        }
+        els.appFooter.style.display = "flex";
+      }
+    }
+
+    // 5. Header controls & sub-banners
+    updateAppHeaderControlsForView(viewName);
+
+    if (isFinder) {
+      updateActiveQuestion();
+      render();
+    }
+
+    updateI18nLabels();
+  }
+
+  function updateAppHeaderControlsForView(viewName) {
+    const isLogin = viewName === "login";
+    const isSetup = viewName === "setup";
+    const isDashboard = viewName === "helper" || viewName === "dashboard";
+    const isFinder = viewName === "finder";
+    const isProfile = viewName === "profile";
+
+    // Helper pill: only show on non-login screens when helperAccount exists
+    if (els.headerHelperPill) {
+      if (isLogin || !state.helperAccount) {
+        els.headerHelperPill.style.display = "none";
+      } else {
+        updateHeaderHelperPill();
+      }
+    }
+
+    if (isLogin) {
       if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
       if (els.activeProfilePill) els.activeProfilePill.style.display = "none";
       if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "none";
@@ -3548,7 +3695,7 @@
       if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
       if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
       if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
-    } else if (isHelper) {
+    } else if (isDashboard) {
       if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
       if (els.activeProfilePill) els.activeProfilePill.style.display = "none";
       if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "none";
@@ -3581,21 +3728,21 @@
         }
         if (els.activeProfilePill) {
           els.activeProfilePill.style.display = "inline-flex";
-          if (els.activeProfileName) els.activeProfileName.textContent = state.activeProfileName;
-          if (els.activeProfileSaveStatus) els.activeProfileSaveStatus.textContent = t("saved");
+          if (els.activeProfileName) {
+            els.activeProfileName.textContent = state.activeProfileName;
+          }
+          if (els.activeProfileSaveStatus) {
+            els.activeProfileSaveStatus.textContent = t("saved");
+          }
         }
         if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "none";
         if (els.personaSelectWrap) els.personaSelectWrap.style.display = "none";
-        if (els.resetBtn) els.resetBtn.style.display = "inline-flex";
         if (els.quickCheckBanner) els.quickCheckBanner.style.display = "none";
         if (els.quickConvertCard) els.quickConvertCard.style.display = "none";
       } else {
         // Quick check mode
         if (els.finderProfileBanner) els.finderProfileBanner.style.display = "none";
-        if (els.btnBackToDashboard) {
-          els.btnBackToDashboard.style.display = "inline-flex";
-          if (els.btnBackText) els.btnBackText.textContent = state.helperAccount ? t("helperHome") : "Home";
-        }
+        if (els.btnBackToDashboard) els.btnBackToDashboard.style.display = "none";
         if (els.activeProfilePill) {
           els.activeProfilePill.style.display = "inline-flex";
           if (els.activeProfileName) els.activeProfileName.textContent = t("quickCheckSession");
@@ -3603,20 +3750,14 @@
         }
         if (els.btnSaveAsProfile) els.btnSaveAsProfile.style.display = "inline-flex";
         if (els.personaSelectWrap) els.personaSelectWrap.style.display = "inline-flex";
-        if (els.resetBtn) els.resetBtn.style.display = "inline-flex";
         if (els.quickCheckBanner) els.quickCheckBanner.style.display = "flex";
         if (els.quickConvertCard) els.quickConvertCard.style.display = "flex";
         if (els.btnQuickConvertText) {
           els.btnQuickConvertText.textContent = state.helperAccount ? t("saveAsProfile") : t("setUpAsHelper");
         }
       }
-
-      updateActiveQuestion();
-      render();
+      if (els.resetBtn) els.resetBtn.style.display = "inline-flex";
     }
-
-    updateHeaderHelperPill();
-    updateI18nLabels();
   }
 
   function startQuickCheck() {
@@ -6620,6 +6761,11 @@
       });
     }
   }
+
+  window.GovApp = {
+    setLanguage: setLanguage,
+    getState: () => state
+  };
 
   // Boot on DOM ready
   document.addEventListener("DOMContentLoaded", init);

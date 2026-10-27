@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jan Kalyan • जन कल्याण — Welfare Scheme Eligibility Finder</title>
+  <meta name="description"
+    content="Discover Indian government welfare schemes, check eligibility in real-time with deterministic logic, filter by category, and get complete document checklists." />
+
+  <!-- Refined Typography: Inter, Instrument Serif, Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+
+<body>
+
+  <!-- Slim 64px Header (Legacy helper app header - hidden on landing/placeholder) -->
+  <header class="app-header" style="display: none;">
+    <div class="header-container">
+      <div class="header-brand-group">
+        <a href="#/" class="brand" id="brand-logo" aria-label="Jan Kalyan • जन कल्याण">
+          <span class="wordmark">Jan Kalyan</span>
+          <span class="brand-sep" aria-hidden="true">|</span>
+          <span class="wordmark-sub">जन कल्याण</span>
+        </a>
+        <button id="btn-back-to-dashboard" class="btn-back" type="button" style="display: none;" aria-label="Back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span id="btn-back-text">Helper Home</span>
+        </button>
+      </div>
+
+      <div class="header-controls">
+        <!-- Helper Badge Pill (when set) -->
+        <div id="header-helper-pill" class="helper-header-pill" style="display: none;" role="button" tabindex="0" title="Edit Helper Details">
+          <span class="helper-avatar-dot"></span>
+          <span id="header-helper-name" class="helper-header-name"></span>
+          <span id="header-helper-role" class="helper-header-role"></span>
+        </div>
+
+        <div id="active-profile-pill" class="active-profile-pill" style="display: none;">
+          <span class="profile-pill-dot"></span>
+          <span id="active-profile-name" class="profile-pill-name"></span>
+          <span id="active-profile-save-status" class="profile-pill-status">Saved</span>
+        </div>
+
+        <button id="btn-save-as-profile" class="btn-text-quiet btn-save-profile" type="button" style="display: none;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+            <polyline points="17 21 17 13 7 13 7 21"></polyline>
+            <polyline points="7 3 7 8 15 8"></polyline>
+          </svg>
+          <span id="btn-save-as-profile-text">Save as profile</span>
+        </button>
+
+        <!-- Sample Personas Menu (Quick check only) -->
+        <div class="persona-select-wrap" id="persona-select-wrap" style="display: none;">
+          <select id="persona-select" class="persona-select" aria-label="Try a sample profile">
+            <option value="">Try a sample profile...</option>
+          </select>
+          <span class="persona-arrow">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </div>
+
+        <!-- Reset Button (Quiet text button) -->
+        <button id="reset-btn" class="btn-text-quiet" type="button" aria-label="Reset all answers" style="display: none;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <polyline points="3 3 3 8 8 8"></polyline>
+          </svg>
+          <span>Reset</span>
+        </button>
+
+        <!-- Language Switcher (Segmented Control) -->
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button id="lang-en" class="lang-btn active" type="button" aria-label="Switch to English">English</button>
+          <button id="lang-hi" class="lang-btn" type="button" aria-label="हिंदी में बदलें">हिंदी</button>
+          <button id="lang-mr" class="lang-btn" type="button" aria-label="मराठीत बदला">मराठी</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- IndexedDB Unavailable Alert -->
+  <div id="db-unavailable-banner" class="db-banner-alert" style="display: none;" role="alert">
+    <strong>Storage Warning:</strong> Local database (IndexedDB) is unavailable or restricted in this browser. Profiles will not be saved across sessions.
+  </div>
+
+  <!-- Toast Notification for Cloud Sync / Backup / Restore feedback -->
+  <div id="cloud-status-toast" class="cloud-status-toast" role="status" aria-live="polite" style="display: none;"></div>
+
+  <!-- 1. LANDING VIEW (#/) -->
+  <div id="landing-view" style="display: none;"></div>
+
+  <!-- 1a. PLACEHOLDER VIEW (#/helper, #/quick-check) -->
+  <div id="placeholder-view" style="display: none;"></div>
+
+
+  <!-- 1b. HELPER LOGIN VIEW (#/login) -->
+  <section id="login-view" class="setup-container" style="display: none;">
+    <div class="setup-card auth-card">
+      <div class="setup-header">
+        <h1 class="setup-title" id="auth-title-text">Helper Login</h1>
+        <p class="auth-subtitle" id="auth-subtitle-text">Sign in to manage beneficiary records and applications</p>
+      </div>
+
+      <!-- Sign In / Create Account Toggle -->
+      <div class="auth-toggle-group" role="tablist">
+        <button type="button" id="tab-auth-signin" class="auth-tab-btn active" role="tab" aria-selected="true">Sign In</button>
+        <button type="button" id="tab-auth-signup" class="auth-tab-btn" role="tab" aria-selected="false">Create Account</button>
+      </div>
+
+      <div id="login-error-msg" class="form-error-msg" role="alert" style="display: none;"></div>
+      <div id="login-info-msg" class="form-info-msg" role="status" style="display: none;"></div>
+
+      <form id="form-helper-auth" class="setup-form" novalidate>
+        <div class="form-group">
+          <label for="input-auth-email" class="form-label" id="label-auth-email">Email Address *</label>
+          <input type="email" id="input-auth-email" class="form-input" placeholder="e.g. helper@example.com" required autocomplete="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="input-auth-password" class="form-label" id="label-auth-password">Password *</label>
+          <div class="password-input-wrapper">
+            <input type="password" id="input-auth-password" class="form-input" placeholder="At least 8 characters" required minlength="8" autocomplete="current-password" />
+            <button type="button" id="btn-toggle-password" class="password-toggle-btn" aria-label="Show password" title="Toggle password visibility">
+              <svg id="icon-pw-show" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <svg id="icon-pw-hide" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                <line x1="1" y1="1" x2="23" y2="23"></line>
+              </svg>
+            </button>
+          </div>
+          <span class="auth-input-hint" id="auth-password-hint">Minimum 8 characters</span>
+        </div>
+
+        <div class="setup-actions">
+          <button id="btn-cancel-auth" class="btn-secondary" type="button">Back</button>
+          <button id="btn-submit-auth" class="btn-primary" type="submit">
+            <span id="auth-submit-spinner" class="spinner-inline" style="display: none;"></span>
+            <span id="auth-submit-text">Sign In</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- 2. HELPER SETUP VIEW (#/setup) -->
+  <section id="setup-view" class="setup-container" style="display: none;">
+    <div class="setup-card">
+      <div class="setup-header">
+        <h1 class="setup-title" id="setup-title-text">Helper Setup</h1>
+        <div class="setup-notice" id="setup-notice">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span id="setup-notice-text">Configure your helper profile details.</span>
+        </div>
+      </div>
+
+      <form id="form-helper-setup" class="setup-form">
+        <div class="form-group">
+          <label for="input-helper-name" class="form-label" id="label-helper-name">Helper Name *</label>
+          <input type="text" id="input-helper-name" class="form-input" placeholder="e.g. Sunita Patil" required autocomplete="name" />
+        </div>
+
+        <div class="form-group">
+          <label for="select-helper-type" class="form-label" id="label-helper-type">Role / Helper Type *</label>
+          <select id="select-helper-type" class="form-input" required>
+            <option value="ASHA">ASHA</option>
+            <option value="Anganwadi">Anganwadi</option>
+            <option value="Panchayat staff">Panchayat staff</option>
+            <option value="CSC operator">CSC operator</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="input-helper-district" class="form-label" id="label-helper-district">District</label>
+          <input type="text" id="input-helper-district" class="form-input" placeholder="e.g. Pune, Nashik, Kolhapur" />
+        </div>
+
+        <div class="form-group">
+          <label for="select-helper-language" class="form-label" id="label-helper-language">Preferred Language</label>
+          <select id="select-helper-language" class="form-input">
+            <option value="en">English</option>
+            <option value="hi">हिंदी (Hindi)</option>
+            <option value="mr">मराठी (Marathi)</option>
+          </select>
+        </div>
+
+        <div id="setup-error-msg" class="form-error-msg" style="display: none;"></div>
+
+        <div class="setup-actions">
+          <button id="btn-cancel-setup" class="btn-secondary" type="button" style="display: none;">Cancel</button>
+          <button id="btn-save-setup" class="btn-primary" type="submit">Save &amp; Continue</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- 3. HELPER HOME VIEW (#/helper) -->
+  <section id="dashboard-view" class="dashboard-container" style="display: none;">
+    <!-- Logged-in Helper Account Card -->
+    <div class="helper-welcome-bar acct-card" id="helper-welcome-bar">
+      <div class="acct-left">
+        <div class="acct-avatar" id="acct-avatar" aria-label="Helper account avatar">H</div>
+        <div class="acct-meta">
+          <span class="acct-name" id="helper-tag-name">Helper</span>
+          <div class="acct-subline">
+            <span class="acct-role" id="helper-tag-role">ASHA</span>
+            <span class="acct-district-wrap" id="acct-district-wrap" style="display: none;">
+              <span class="acct-sep" aria-hidden="true">·</span>
+              <svg class="acct-loc-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span class="acct-district" id="helper-tag-district"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="acct-menu-wrap" id="acct-menu-wrap">
+        <button id="btn-acct-menu" class="acct-menu-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="acct-dropdown-menu" aria-label="Helper account menu">
+          <span id="btn-acct-menu-text">Account</span>
+          <svg class="acct-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+        <div id="acct-dropdown-menu" class="acct-menu-dropdown" role="menu" aria-labelledby="btn-acct-menu">
+          <button id="btn-backup-now" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <span id="btn-backup-now-text">Back up now</span>
+          </button>
+          <button id="btn-restore-cloud" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span id="btn-restore-cloud-text">Restore from cloud</span>
+          </button>
+          <button id="btn-edit-helper" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+            <span id="btn-edit-helper-text">Edit Details</span>
+          </button>
+          <div class="acct-menu-divider" role="separator" aria-orientation="horizontal"></div>
+          <button id="btn-sign-out" class="acct-menu-item acct-menu-danger" type="button" role="menuitem" tabindex="-1">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+              <polyline points="16 17 21 12 16 7"></polyline>
+              <line x1="21" y1="12" x2="9" y2="12"></line>
+            </svg>
+            <span id="btn-sign-out-text">Sign Out</span>
+          </button>
+        </div>
+      </div>
+      <span id="helper-backup-status" style="display: none;" aria-hidden="true"></span>
+    </div>
+
+    <!-- Welcome Row (Namaste, <Helper name> + Primary Add Beneficiary CTA) -->
+    <div class="dash-welcome-row" id="dash-welcome-row">
+      <div class="dash-welcome-text">
+        <h1 class="dash-welcome-heading">
+          <span class="dash-welcome-greeting" id="dash-welcome-greeting">Namaste,</span>
+          <span class="dash-helper-name" id="dash-helper-name">Helper</span>
+        </h1>
+      </div>
+      <div class="dash-welcome-actions">
+        <button id="btn-add-profile" class="btn-primary dash-btn-add" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span id="btn-add-profile-text">Add beneficiary</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Section: What to do today -->
+    <section class="dash-today-section" id="dash-today-section" aria-labelledby="dash-today-title">
+      <div class="dash-section-header">
+        <h2 class="dash-section-title" id="dash-today-title">What to do today</h2>
+      </div>
+      <div id="dash-today-list" class="dash-today-list" role="list">
+        <!-- Rendered dynamically by app.js: action rows -->
+      </div>
+      <div id="dash-today-empty" class="dash-today-empty" style="display: none;">
+        <svg class="dash-empty-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span id="dash-today-empty-text">You're all caught up</span>
+      </div>
+      <div class="dash-today-expand-wrap" id="dash-today-expand-wrap" style="display: none;">
+        <button type="button" id="btn-dash-today-toggle" class="btn-secondary dash-btn-expand" aria-expanded="false">
+          <span id="dash-today-toggle-text">Show all (0)</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Four Count Cards Named After Actions (counting APPLICATIONS) -->
+    <section class="dash-metrics-section" id="dash-metrics-section" aria-label="Application counters and filters">
+      <div class="dash-count-grid" id="dash-count-grid" role="group" aria-label="Status filter cards">
+        <button class="dash-count-card" id="card-count-docs-pending" type="button" data-status="Documents pending" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-docs-pending">Collect documents</span>
+          <span class="dash-card-value" id="stat-docs-pending">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-ready" type="button" data-status="Ready to apply" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-ready">Ready to apply</span>
+          <span class="dash-card-value" id="stat-ready-apply">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-applied" type="button" data-status="Applied" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-applied">Waiting for decision</span>
+          <span class="dash-card-value" id="stat-applied">0</span>
+        </button>
+        <button class="dash-count-card" id="card-count-benefit-received" type="button" data-status="Benefit received" aria-pressed="false">
+          <span class="dash-card-label" id="label-card-benefit-received">Benefits received</span>
+          <span class="dash-card-value" id="stat-benefit-received">0</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Active Filter Notification Bar & Clear Filter Control -->
+    <div class="dash-filter-active-bar" id="dash-filter-active-bar" style="display: none;">
+      <span class="dash-filter-active-text" id="dash-filter-active-text">
+        <span>Filtering by: </span>
+        <strong id="dash-filter-active-status"></strong>
+      </span>
+      <button type="button" id="btn-dash-clear-filter" class="dash-btn-clear-filter">
+        Clear filter
+      </button>
+    </div>
+
+    <!-- Beneficiary Search Bar -->
+    <div class="profiles-search-container dash-search-container" id="dash-search-container">
+      <div class="search-wrapper">
+        <span class="search-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+        <input type="text" id="input-profile-search" class="search-field" placeholder="Search profiles by name..." aria-label="Search profiles by name" />
+      </div>
+    </div>
+
+    <!-- Beneficiary Profiles Section & Empty Guide -->
+    <section id="profiles-container" class="profiles-section dash-profiles-section" aria-label="Beneficiary profiles">
+      <div id="profiles-list" class="profiles-grid"></div>
+
+      <!-- 3-Step Guide Empty State (shown when profiles.length === 0) -->
+      <div id="profiles-empty-state" class="dash-empty-guide" style="display: none;">
+        <div class="dash-empty-header">
+          <h2 class="dash-empty-title" id="dash-empty-title">Welcome to Jan Kalyan</h2>
+          <p class="dash-empty-sub" id="dash-empty-sub">Get started by adding your first beneficiary to discover and track welfare schemes.</p>
+        </div>
+        <ol class="dash-guide-steps" role="list">
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">1</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-1-title">Add a beneficiary</div>
+              <div class="dash-step-desc" id="dash-step-1-desc">Enter their basic information with their consent.</div>
+            </div>
+          </li>
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">2</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-2-title">See their schemes</div>
+              <div class="dash-step-desc" id="dash-step-2-desc">Find all central and state schemes they are eligible for.</div>
+            </div>
+          </li>
+          <li class="dash-guide-step">
+            <div class="dash-step-num" aria-hidden="true">3</div>
+            <div class="dash-step-content">
+              <div class="dash-step-title" id="dash-step-3-title">Save a scheme and track it</div>
+              <div class="dash-step-desc" id="dash-step-3-desc">Track document collection and application progress.</div>
+            </div>
+          </li>
+        </ol>
+        <div class="dash-empty-actions">
+          <button id="btn-empty-add-profile" class="btn-primary dash-btn-add" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <span id="btn-empty-add-profile-text">Add beneficiary</span>
+          </button>
+          <a href="#/finder" id="btn-empty-quick-check" class="dash-link-secondary">Try Quick check</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Single Footer Line for Backup -->
+    <footer class="dash-footer-backup" id="dash-footer-backup">
+      <div class="dash-footer-left">
+        <span class="dash-backup-status-text" id="dash-backup-status-text">Not backed up yet</span>
+        <span class="dash-backup-warning" id="dash-backup-warning" style="display: none;">Changes not backed up</span>
+      </div>
+      <button type="button" id="btn-dash-backup-footer" class="dash-btn-backup-text">
+        Back up now
+      </button>
+    </footer>
+  </section>
+
+  <!-- 2b. BENEFICIARY PROFILE SCREEN (#/helper/profile/<id>) -->
+  <section id="profile-view" class="profile-view-container" style="display: none;">
+    <!-- Profile Top Bar: back arrow, name, age · gender · state, ⋯ menu -->
+    <div class="prof-header-bar">
+      <div class="prof-header-left">
+        <button id="btn-profile-back" class="prof-btn-back" type="button" aria-label="Back to beneficiaries" title="Back">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <div class="prof-header-info">
+          <h1 id="prof-header-name" class="prof-header-name">Beneficiary</h1>
+          <div id="prof-header-sub" class="prof-header-sub">-- · -- · --</div>
+        </div>
+      </div>
+      <div class="prof-header-right">
+        <div class="prof-menu-container">
+          <button id="btn-prof-menu" class="prof-btn-menu" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="false" title="More options">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="2"></circle>
+              <circle cx="19" cy="12" r="2"></circle>
+              <circle cx="5" cy="12" r="2"></circle>
+            </svg>
+          </button>
+          <div id="prof-dropdown-menu" class="prof-dropdown-menu" style="display: none;" role="menu">
+            <button id="btn-prof-delete" class="prof-menu-item text-danger" type="button" role="menuitem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="3 6 5 6 21 6"></polyline>
+                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              </svg>
+              <span id="prof-menu-delete-text">Delete profile</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Main Body: Mobile-first 360px single column -->
+    <div class="prof-body">
+      <!-- 1. Find schemes primary action -->
+      <div class="prof-action-section">
+        <button id="btn-prof-find-schemes" class="btn-primary prof-btn-find-schemes" type="button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span id="prof-find-schemes-text">Find schemes</span>
+        </button>
+      </div>
+
+      <!-- 2. Saved schemes list section -->
+      <section class="prof-saved-section" aria-labelledby="prof-saved-heading">
+        <div class="prof-saved-header">
+          <div class="prof-saved-title-wrap">
+            <h2 id="prof-saved-heading" class="prof-saved-heading">Saved Schemes</h2>
+            <span id="prof-saved-count-badge" class="prof-count-badge">0</span>
+          </div>
+        </div>
+
+        <!-- Skeleton Loading State -->
+        <div id="prof-loading-state" class="prof-loading-state" style="display: none;">
+          <div class="prof-skeleton-card">
+            <div class="prof-skeleton-line short"></div>
+            <div class="prof-skeleton-line"></div>
+          </div>
+          <div class="prof-skeleton-card">
+            <div class="prof-skeleton-line short"></div>
+            <div class="prof-skeleton-line"></div>
+          </div>
+        </div>
+
+        <!-- Error State with Retry -->
+        <div id="prof-error-state" class="prof-error-card" style="display: none;" role="alert">
+          <p id="prof-error-msg" class="prof-error-text">Unable to load profile.</p>
+          <button id="btn-prof-retry" class="btn-secondary" type="button">Retry</button>
+        </div>
+
+        <!-- Empty State -->
+        <div id="prof-empty-state" class="prof-empty-card" style="display: none;">
+          <div class="prof-empty-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <h3 id="prof-empty-title" class="prof-empty-title">No schemes saved yet</h3>
+          <p id="prof-empty-desc" class="prof-empty-desc">Find schemes matching this beneficiary's profile.</p>
+          <button id="btn-empty-find-schemes" class="btn-primary" type="button">
+            <span id="prof-empty-btn-text">Find schemes</span>
+          </button>
+        </div>
+
+        <!-- Saved Schemes Rows Container -->
+        <div id="prof-saved-list" class="prof-saved-list">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Finder Profile Context Banner (visible when finding schemes for a profile) -->
+  <div id="finder-profile-banner" class="finder-profile-banner" style="display: none;" role="status">
+    <div class="finder-profile-banner-inner">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+      <span id="finder-profile-banner-text">Finding schemes</span>
+      <button id="btn-finder-back-to-profile" class="btn-text-quiet finder-banner-back" type="button">Back to profile</button>
+    </div>
+  </div>
+
+  <!-- Quick Check Alert Banner (only visible during #/quick) -->
+  <div id="quick-check-banner" class="quick-check-banner" style="display: none;" role="status">
+    <div class="quick-check-banner-inner">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+      <span id="quick-check-banner-text">Quick check: nothing is saved</span>
+    </div>
+  </div>
+
+  <!-- Fluid 3-Column Main Layout on Desktop (Scheme Finder) -->
+  <main id="finder-view" class="main-layout" style="display: none;">
+
+    <!-- Left Column: Sticky Questionnaire & Profile Definition List -->
+    <aside class="sidebar-column custom-scroll">
+
+      <!-- Section 1: Check Your Eligibility (One question at a time) -->
+      <section class="panel-section">
+        <div class="panel-header">
+          <h2 class="panel-title" id="stepper-heading">Check Eligibility</h2>
+        </div>
+        <div id="question-box">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- Section 2: Active Profile Answers (Compact Definition List) -->
+      <section class="answers-section">
+        <div class="answers-header">
+          <h2 class="panel-title">
+            Your Answers <span id="facts-count" style="font-weight: 400; color: var(--text-faint);">(0)</span>
+          </h2>
+          <button id="catalog-toggle" class="link-quiet" type="button">
+            <span>Edit all</span>
+            <span class="toggle-icon"></span>
+          </button>
+        </div>
+
+        <div id="facts-list" class="definition-list">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+
+        <!-- Collapsible Drawer for 51 Catalog Fields -->
+        <div id="catalog-accordion">
+          <div id="catalog-content" class="catalog-drawer">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+    <!-- Centre Column: Search, Tabs, Summary, Selected Chips & Schemes List -->
+    <section class="results-column">
+
+      <!-- Search Field (Icon-in-input) -->
+      <div class="search-wrapper">
+        <span class="search-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+        <input type="text" id="search-input" class="search-field"
+          placeholder="Search schemes by name, keyword, or benefit..." aria-label="Search schemes" />
+      </div>
+
+      <!-- Tabs and Tablet/Mobile Filters Trigger Row -->
+      <div class="tabs-and-filters-row">
+        <nav class="tab-segmented-control" role="tablist" aria-label="Filter schemes by status">
+          <button id="tab-eligible" class="tab-nav-btn active" role="tab" aria-selected="true" type="button">
+            <span>Eligible</span>
+            <span id="count-eligible" class="tab-count">0</span>
+          </button>
+          <button id="tab-unknown" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span>Needs Info</span>
+            <span id="count-unknown" class="tab-count">0</span>
+          </button>
+          <button id="tab-ineligible" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span>Ineligible</span>
+            <span id="count-ineligible" class="tab-count">0</span>
+          </button>
+          <button id="tab-saved" class="tab-nav-btn" role="tab" aria-selected="false" type="button">
+            <span id="tab-saved-label">Schemes</span>
+            <span id="count-saved" class="tab-count">0</span>
+          </button>
+        </nav>
+
+        <!-- Filters Button on Tablet / Mobile -->
+        <div class="filters-toggle-wrap">
+          <button id="btn-filters-toggle" class="btn-filters-toggle" type="button" aria-label="Filter by category">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+            <span>Categories</span>
+            <span id="filters-badge" class="filters-badge" style="display: none;">0</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Results Meta Bar: Summary count line & Active category chips -->
+      <div class="results-meta-bar">
+        <div id="results-summary" class="results-summary" aria-live="polite">
+          <!-- Rendered dynamically by app.js: e.g. "42 schemes" or "42 of 685 schemes" -->
+        </div>
+        <div id="category-chips" class="category-chips-bar">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Single-Column Schemes Container (Divider-separated rows) -->
+      <div id="schemes-list" class="schemes-container">
+        <div class="schemes-loading-state" id="schemes-initial-loader">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <div class="loading-text" id="schemes-loading-text">Loading welfare schemes catalog...</div>
+        </div>
+      </div>
+
+      <!-- Quick Check Conversion Prompt Card -->
+      <div id="quick-convert-card" class="convert-prompt-card" style="display: none;">
+        <div class="convert-prompt-text">
+          <h3 class="convert-prompt-title" id="quick-convert-title">Save this family and track applications?</h3>
+          <p class="convert-prompt-desc" id="quick-convert-desc">Set up as a Helper to track documents and application progress across visits.</p>
+        </div>
+        <button id="btn-quick-convert" class="btn-primary btn-convert" type="button">
+          <span id="btn-quick-convert-text">Save as profile</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- Right Column: Category Rail (Desktop >=1200px) -->
+    <aside class="category-rail" id="category-rail" style="display: none;">
+      <!-- Category Filter Section -->
+      <div class="rail-section" id="cat-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="cat-rail-title">Filter by Category</h2>
+          <button id="btn-clear-categories" class="link-quiet" type="button" style="display: none;">Clear all</button>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Categories</legend>
+          <div id="category-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+
+      <!-- Scheme Level Filter Section (Separated by hairline and 24px) -->
+      <div class="rail-divider" id="rail-level-divider"></div>
+      <div class="rail-section" id="level-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="level-rail-title">Scheme Level</h2>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Scheme Level</legend>
+          <div id="level-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+
+      <!-- Scheme Scope / Beneficiary Filter Section (Separated by hairline and 24px) -->
+      <div class="rail-divider" id="rail-scope-divider"></div>
+      <div class="rail-section" id="scope-rail-section">
+        <div class="category-rail-head">
+          <h2 class="panel-title" id="scope-rail-title">Beneficiary</h2>
+        </div>
+        <fieldset class="cat-fieldset">
+          <legend class="sr-only">Beneficiary</legend>
+          <div id="scope-list-container">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </fieldset>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Mobile / Tablet Filters Bottom Sheet -->
+  <div id="filters-bottom-sheet" class="sheet-backdrop" role="dialog" aria-modal="true"
+    aria-labelledby="sheet-title-text">
+    <div class="sheet-drawer">
+      <div class="sheet-header">
+        <div style="display: flex; align-items: baseline; gap: 12px;">
+          <h2 class="sheet-title" id="sheet-title-text">Filters</h2>
+          <button id="btn-sheet-clear" class="link-quiet" type="button" style="display: none;">Clear all</button>
+        </div>
+        <button id="btn-sheet-close" class="sheet-close-btn" type="button" aria-label="Close filters">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="sheet-body custom-scroll" id="sheet-filters-body">
+        <!-- Scheme Level Section FIRST -->
+        <div class="sheet-section" id="sheet-level-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-level-title">Scheme Level</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Scheme Level</legend>
+            <div id="sheet-level-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="sheet-divider" id="sheet-level-divider"></div>
+
+        <!-- Scheme Scope / Beneficiary Section SECOND -->
+        <div class="sheet-section" id="sheet-scope-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-scope-title">Beneficiary</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Beneficiary</legend>
+            <div id="sheet-scope-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="sheet-divider" id="sheet-scope-divider"></div>
+
+        <!-- Categories Section THIRD -->
+        <div class="sheet-section" id="sheet-cat-section">
+          <div class="sheet-section-head">
+            <h3 class="panel-title" id="sheet-cat-title">Filter by Category</h3>
+          </div>
+          <fieldset class="cat-fieldset">
+            <legend class="sr-only">Categories</legend>
+            <div id="sheet-cat-list">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <button id="btn-sheet-apply" class="btn-sheet-apply" type="button">
+          Show schemes
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Beneficiary Profile Modal -->
+  <div id="modal-add-profile" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-add-title">Add Beneficiary Profile</h2>
+        <button id="btn-close-add-modal" class="btn-modal-close" type="button" aria-label="Close dialog">✕</button>
+      </div>
+      <form id="form-add-profile" class="modal-form">
+        <div class="form-group">
+          <label for="input-profile-name" class="form-label" id="label-profile-name">Beneficiary Full Name *</label>
+          <input type="text" id="input-profile-name" class="form-input" placeholder="e.g. Ramesh Shinde" required autocomplete="off" />
+        </div>
+        <div class="form-consent-box">
+          <label class="consent-label" for="check-profile-consent">
+            <input type="checkbox" id="check-profile-consent" class="consent-checkbox" required />
+            <span class="consent-text" id="consent-text-label">Beneficiary agreed to share these details</span>
+          </label>
+          <p class="consent-note" id="consent-note-text">Minimal personal data is stored locally. Government ID numbers are never collected or stored.</p>
+        </div>
+        <div id="add-profile-error" class="form-error-msg" style="display: none;"></div>
+        <div class="modal-actions">
+          <button id="btn-cancel-add-profile" class="btn-secondary" type="button">Cancel</button>
+          <button id="btn-create-profile" class="btn-primary" type="submit">Create &amp; Check Schemes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Delete Profile Confirmation Modal -->
+  <div id="modal-confirm-delete" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card modal-card-sm">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-delete-title">Delete Profile</h2>
+      </div>
+      <p id="delete-confirm-text" class="modal-body-text">Are you sure you want to delete this profile? Its saved applications and cloud copy will also be deleted. This action cannot be undone.</p>
+      <div class="modal-actions">
+        <button id="btn-cancel-delete" class="btn-secondary" type="button">Cancel</button>
+        <button id="btn-confirm-delete" class="btn-danger" type="button">Delete Profile</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adopt Local Data Modal (First login on phone with existing profiles) -->
+  <div id="modal-adopt-local-data" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-adopt-title">Existing Profiles on Phone</h2>
+      </div>
+      <p id="adopt-modal-text" class="modal-body-text">Profiles were found already saved on this phone. Do you want to keep them with your helper account, or start fresh?</p>
+      <div class="modal-actions">
+        <button id="btn-adopt-erase" class="btn-secondary" type="button">Erase &amp; Start Fresh</button>
+        <button id="btn-adopt-keep" class="btn-primary" type="button">Keep Profiles</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Different Account Block Modal (Shared Phone Protection) -->
+  <div id="modal-different-account" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-diff-title">Different Account Detected</h2>
+      </div>
+      <p id="diff-modal-text" class="modal-body-text">This phone holds saved beneficiary records from a different helper account. For privacy, you cannot view another helper's data.</p>
+      <div id="diff-modal-warning" class="modal-warning-box" style="display: none;"></div>
+      <div class="modal-actions">
+        <button id="btn-diff-signout" class="btn-secondary" type="button">Sign Out</button>
+        <button id="btn-diff-erase" class="btn-danger" type="button">Erase Local Data &amp; Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Sign Out Modal (With Shared Phone erase option) -->
+  <div id="modal-confirm-signout" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-signout-title">Sign Out</h2>
+        <button id="btn-close-signout-modal" class="btn-modal-close" type="button" aria-label="Close dialog">✕</button>
+      </div>
+      <p id="signout-modal-text" class="modal-body-text">Would you like to also erase beneficiary records on this phone? If this phone is shared with other helpers or people, erasing is safer.</p>
+      <div id="signout-modal-warning" class="modal-warning-box" style="display: none;"></div>
+      <div class="modal-actions modal-actions-stack">
+        <button id="btn-signout-keep" class="btn-primary" type="button">Keep on this Phone &amp; Sign Out</button>
+        <button id="btn-signout-erase" class="btn-danger" type="button">Erase from this Phone &amp; Sign Out</button>
+        <button id="btn-signout-cancel" class="btn-secondary" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status Bottom Sheet -->
+  <div id="status-bottom-sheet" class="status-sheet-backdrop" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="status-sheet-title">
+    <div class="status-sheet-card" role="document">
+      <div class="status-sheet-handle-wrap">
+        <div class="status-sheet-handle"></div>
+      </div>
+      <div class="status-sheet-header">
+        <div>
+          <h2 id="status-sheet-title" class="status-sheet-title">Change Status</h2>
+          <p id="status-sheet-scheme" class="status-sheet-scheme-name">Scheme Name</p>
+        </div>
+        <button id="btn-close-status-sheet" class="status-sheet-close" type="button" aria-label="Close">✕</button>
+      </div>
+
+      <div id="status-radio-list" class="status-radio-list" role="radiogroup" aria-label="Select application status">
+        <!-- 7 canonical statuses rendered dynamically -->
+      </div>
+
+      <!-- Rejection Reason Sub-panel -->
+      <div id="status-rejection-block" class="status-rejection-block" style="display: none;">
+        <label for="input-rejection-reason" id="label-rejection-reason" class="status-rejection-label">Reason for rejection (optional)</label>
+        <input type="text" id="input-rejection-reason" class="form-input" placeholder="e.g. Land area exceeded limit, missing income proof" maxlength="200" />
+        <div class="status-rejection-actions">
+          <button type="button" id="btn-skip-rejection" class="btn-secondary">Skip</button>
+          <button type="button" id="btn-confirm-rejection" class="btn-primary">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts: config, vendored Supabase UMD (no CDN), cloud bridge, data & engine -->
+  <script src="js/config.js"></script>
+  <script src="vendor/supabase.js"></script>
+  <script src="js/cloud.js"></script>
+  <script src="data/rules.js"></script>
+  <script src="data/fields.js"></script>
+  <script src="data/personas.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/status.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/dashboard-data.js"></script>
+  <script src="js/locales/en.js"></script>
+  <script src="js/locales/hi.js"></script>
+  <script src="js/locales/mr.js"></script>
+  <script src="js/landing-components.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

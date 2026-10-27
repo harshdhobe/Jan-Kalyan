@@ -15,13 +15,21 @@
     href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
 
+  <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/landing.css" />
 </head>
 
 <body>
 
-  <!-- Slim 64px Header -->
-  <header class="app-header">
+  <!-- Landing Slot: Mounts landing page on #/ and empty hash -->
+  <div id="landing-slot"></div>
+
+  <!-- App Shell: Wrapped around all non-landing screens -->
+  <div id="app-shell" style="display: none;">
+
+    <!-- Slim 64px Header (Legacy helper app header) -->
+    <header class="app-header">
     <div class="header-container">
       <div class="header-brand-group">
         <a href="#/" class="brand" id="brand-logo" aria-label="Jan Kalyan • जन कल्याण">
@@ -99,38 +107,35 @@
   </div>
 
   <!-- Toast Notification for Cloud Sync / Backup / Restore feedback -->
-  <div id="cloud-status-toast" class="cloud-status-toast" role="status" aria-live="polite" style="display: none;"></div>
-
-  <!-- 1. LANDING VIEW (#/) -->
-  <section id="landing-view" class="landing-container" style="display: none;">
-    <div class="landing-hero">
-      <div class="landing-eyebrow">Jan Kalyan • जन कल्याण</div>
-      <h1 class="landing-title">Jan Kalyan</h1>
-      <p class="landing-line-1" id="landing-line-1">Discover government welfare schemes for families in Maharashtra.</p>
-      <p class="landing-line-2" id="landing-line-2">Check eligibility in seconds, prepare documents, and track application status offline.</p>
+    <!-- Finder Profile Context Banner (visible when finding schemes for a profile) -->
+    <div id="finder-profile-banner" class="finder-profile-banner" style="display: none;" role="status">
+      <div class="finder-profile-banner-inner">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        <span id="finder-profile-banner-text">Finding schemes</span>
+        <button id="btn-finder-back-to-profile" class="btn-text-quiet finder-banner-back" type="button">Back to profile</button>
+      </div>
     </div>
 
-    <div class="landing-cta-group">
-      <button id="btn-landing-helper" class="btn-landing btn-landing-primary" type="button">
-        <span class="btn-landing-title" id="btn-landing-helper-text">I'm a Helper</span>
-        <span class="btn-landing-sub" id="btn-landing-helper-sub">ASHA, Anganwadi, Panchayat, CSC</span>
-      </button>
-      <button id="btn-landing-quick" class="btn-landing btn-landing-secondary" type="button">
-        <span class="btn-landing-title" id="btn-landing-quick-text">Quick check</span>
-        <span class="btn-landing-sub" id="btn-landing-quick-sub">Check eligibility without saving</span>
-      </button>
+    <!-- Quick Check Alert Banner (only visible during #/quick) -->
+    <div id="quick-check-banner" class="quick-check-banner" style="display: none;" role="status">
+      <div class="quick-check-banner-inner">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span id="quick-check-banner-text">Quick check: nothing is saved</span>
+      </div>
     </div>
 
-    <div class="landing-note-wrap">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-      </svg>
-      <span id="landing-privacy-note" class="landing-privacy-note">Works on this phone. Aadhaar is never stored.</span>
-    </div>
-  </section>
+    <!-- Single Main Outlet for App Views -->
+    <main id="app-outlet">
 
-  <!-- 1b. HELPER LOGIN VIEW (#/login) -->
-  <section id="login-view" class="setup-container" style="display: none;">
+      <!-- 1b. HELPER LOGIN VIEW (#/login) -->
+      <section id="login-view" class="setup-container" style="display: none;">
     <div class="setup-card auth-card">
       <div class="setup-header">
         <h1 class="setup-title" id="auth-title-text">Helper Login</h1>
@@ -547,41 +552,17 @@
     </div>
   </section>
 
-  <!-- Finder Profile Context Banner (visible when finding schemes for a profile) -->
-  <div id="finder-profile-banner" class="finder-profile-banner" style="display: none;" role="status">
-    <div class="finder-profile-banner-inner">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-        <circle cx="12" cy="7" r="4"></circle>
-      </svg>
-      <span id="finder-profile-banner-text">Finding schemes</span>
-      <button id="btn-finder-back-to-profile" class="btn-text-quiet finder-banner-back" type="button">Back to profile</button>
-    </div>
-  </div>
+      <!-- 4. Scheme Finder (#/quick, #/finder) -->
+      <section id="finder-view" class="main-layout" style="display: none;">
 
-  <!-- Quick Check Alert Banner (only visible during #/quick) -->
-  <div id="quick-check-banner" class="quick-check-banner" style="display: none;" role="status">
-    <div class="quick-check-banner-inner">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="10"></circle>
-        <line x1="12" y1="16" x2="12" y2="12"></line>
-        <line x1="12" y1="8" x2="12.01" y2="8"></line>
-      </svg>
-      <span id="quick-check-banner-text">Quick check: nothing is saved</span>
-    </div>
-  </div>
+        <!-- Left Column: Sticky Questionnaire & Profile Definition List -->
+        <aside class="sidebar-column custom-scroll">
 
-  <!-- Fluid 3-Column Main Layout on Desktop (Scheme Finder) -->
-  <main id="finder-view" class="main-layout" style="display: none;">
-
-    <!-- Left Column: Sticky Questionnaire & Profile Definition List -->
-    <aside class="sidebar-column custom-scroll">
-
-      <!-- Section 1: Check Your Eligibility (One question at a time) -->
-      <section class="panel-section">
-        <div class="panel-header">
-          <h2 class="panel-title" id="stepper-heading">Check Eligibility</h2>
-        </div>
+          <!-- Section 1: Check Your Eligibility (One question at a time) -->
+          <section class="panel-section">
+            <div class="panel-header">
+              <h1 class="panel-title" id="stepper-heading">Check Eligibility</h1>
+            </div>
         <div id="question-box">
           <!-- Rendered dynamically by app.js -->
         </div>
@@ -736,86 +717,90 @@
           </div>
         </fieldset>
       </div>
-    </aside>
+        </aside>
 
-  </main>
+      </section>
 
-  <!-- Mobile / Tablet Filters Bottom Sheet -->
-  <div id="filters-bottom-sheet" class="sheet-backdrop" role="dialog" aria-modal="true"
-    aria-labelledby="sheet-title-text">
-    <div class="sheet-drawer">
-      <div class="sheet-header">
-        <div style="display: flex; align-items: baseline; gap: 12px;">
-          <h2 class="sheet-title" id="sheet-title-text">Filters</h2>
-          <button id="btn-sheet-clear" class="link-quiet" type="button" style="display: none;">Clear all</button>
-        </div>
-        <button id="btn-sheet-close" class="sheet-close-btn" type="button" aria-label="Close filters">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-      </div>
+    </main> <!-- /#app-outlet -->
 
-      <div class="sheet-body custom-scroll" id="sheet-filters-body">
-        <!-- Scheme Level Section FIRST -->
-        <div class="sheet-section" id="sheet-level-section">
-          <div class="sheet-section-head">
-            <h3 class="panel-title" id="sheet-level-title">Scheme Level</h3>
+    <!-- Mobile / Tablet Filters Bottom Sheet -->
+    <div id="filters-bottom-sheet" class="sheet-backdrop" role="dialog" aria-modal="true"
+      aria-labelledby="sheet-title-text">
+      <div class="sheet-drawer">
+        <div class="sheet-header">
+          <div style="display: flex; align-items: baseline; gap: 12px;">
+            <h2 class="sheet-title" id="sheet-title-text">Filters</h2>
+            <button id="btn-sheet-clear" class="link-quiet" type="button" style="display: none;">Clear all</button>
           </div>
-          <fieldset class="cat-fieldset">
-            <legend class="sr-only">Scheme Level</legend>
-            <div id="sheet-level-list">
-              <!-- Rendered dynamically by app.js -->
-            </div>
-          </fieldset>
+          <button id="btn-sheet-close" class="sheet-close-btn" type="button" aria-label="Close filters">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
         </div>
 
-        <div class="sheet-divider" id="sheet-level-divider"></div>
-
-        <!-- Scheme Scope / Beneficiary Section SECOND -->
-        <div class="sheet-section" id="sheet-scope-section">
-          <div class="sheet-section-head">
-            <h3 class="panel-title" id="sheet-scope-title">Beneficiary</h3>
+        <div class="sheet-body custom-scroll" id="sheet-filters-body">
+          <!-- Scheme Level Section FIRST -->
+          <div class="sheet-section" id="sheet-level-section">
+            <div class="sheet-section-head">
+              <h3 class="panel-title" id="sheet-level-title">Scheme Level</h3>
+            </div>
+            <fieldset class="cat-fieldset">
+              <legend class="sr-only">Scheme Level</legend>
+              <div id="sheet-level-list">
+                <!-- Rendered dynamically by app.js -->
+              </div>
+            </fieldset>
           </div>
-          <fieldset class="cat-fieldset">
-            <legend class="sr-only">Beneficiary</legend>
-            <div id="sheet-scope-list">
-              <!-- Rendered dynamically by app.js -->
+
+          <div class="sheet-divider" id="sheet-level-divider"></div>
+
+          <!-- Scheme Scope / Beneficiary Section SECOND -->
+          <div class="sheet-section" id="sheet-scope-section">
+            <div class="sheet-section-head">
+              <h3 class="panel-title" id="sheet-scope-title">Beneficiary</h3>
             </div>
-          </fieldset>
-        </div>
-
-        <div class="sheet-divider" id="sheet-scope-divider"></div>
-
-        <!-- Categories Section THIRD -->
-        <div class="sheet-section" id="sheet-cat-section">
-          <div class="sheet-section-head">
-            <h3 class="panel-title" id="sheet-cat-title">Filter by Category</h3>
+            <fieldset class="cat-fieldset">
+              <legend class="sr-only">Beneficiary</legend>
+              <div id="sheet-scope-list">
+                <!-- Rendered dynamically by app.js -->
+              </div>
+            </fieldset>
           </div>
-          <fieldset class="cat-fieldset">
-            <legend class="sr-only">Categories</legend>
-            <div id="sheet-cat-list">
-              <!-- Rendered dynamically by app.js -->
-            </div>
-          </fieldset>
-        </div>
-      </div>
 
-      <div class="sheet-footer">
-        <button id="btn-sheet-apply" class="btn-sheet-apply" type="button">
-          Show schemes
-        </button>
+          <div class="sheet-divider" id="sheet-scope-divider"></div>
+
+          <!-- Categories Section THIRD -->
+          <div class="sheet-section" id="sheet-cat-section">
+            <div class="sheet-section-head">
+              <h3 class="panel-title" id="sheet-cat-title">Filter by Category</h3>
+            </div>
+            <fieldset class="cat-fieldset">
+              <legend class="sr-only">Categories</legend>
+              <div id="sheet-cat-list">
+                <!-- Rendered dynamically by app.js -->
+              </div>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="sheet-footer">
+          <button id="btn-sheet-apply" class="btn-sheet-apply" type="button">
+            Show schemes
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Editorial Quiet Footer -->
-  <footer class="app-footer">
-    <p>Jan Kalyan • Deterministic Welfare Eligibility Engine</p>
-    <p>Official guidelines sourced from MyScheme, NSAP, PM-KISAN, PMAY and State portals. Verification required before
-      final disbursement.</p>
-  </footer>
+    <!-- Editorial Quiet Footer for App Screens -->
+    <footer class="app-footer" id="app-footer">
+      <p>Jan Kalyan • Deterministic Welfare Eligibility Engine</p>
+      <p>Official guidelines sourced from MyScheme, NSAP, PM-KISAN, PMAY and State portals. Verification required before
+        final disbursement.</p>
+    </footer>
+
+  </div> <!-- /#app-shell -->
 
   <!-- Add Beneficiary Profile Modal -->
   <div id="modal-add-profile" class="modal-backdrop" role="dialog" aria-modal="true" style="display: none;">
@@ -946,6 +931,10 @@
   <script src="js/status.js"></script>
   <script src="js/db.js"></script>
   <script src="js/dashboard-data.js"></script>
+  <script src="js/locales/en.js"></script>
+  <script src="js/locales/hi.js"></script>
+  <script src="js/locales/mr.js"></script>
+  <script src="js/landing-components.js"></script>
   <script src="js/app.js"></script>
 
 </body>

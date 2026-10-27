@@ -165,6 +165,36 @@
       hi: "यह इस फ़ोन पर काम करता है। आधार कभी संग्रहीत नहीं किया जाता है।",
       mr: "हे या फोनवर काम करते. आधार कधीही साठवले जात नाही.", // needs_review
     },
+    footerBrandDesc: {
+      en: "Helping Helpers connect families in Maharashtra with the government schemes meant for them.",
+      hi: "सहायकों को महाराष्ट्र के परिवारों को उनके लिए बनी सरकारी योजनाओं से जोड़ने में मदद करना।",
+      mr: "महाराष्ट्रातील कुटुंबांना त्यांच्यासाठी असलेल्या सरकारी योजनांशी जोडण्यासाठी सहायकांना मदत करणे.", // needs_review
+    },
+    footerRulesHeading: {
+      en: "About the rules",
+      hi: "नियमों के बारे में",
+      mr: "नियमांबद्दल", // needs_review
+    },
+    footerRulesText: {
+      en: "Scheme rules come from public sources such as MyScheme, NSAP, PM-KISAN and PMAY. Always confirm at the official office before applying.",
+      hi: "योजना के नियम MyScheme, NSAP, PM-KISAN और PMAY जैसे सार्वजनिक स्रोतों से आते हैं। आवेदन करने से पहले हमेशा आधिकारिक कार्यालय में पुष्टि करें।",
+      mr: "योजनेचे नियम MyScheme, NSAP, PM-KISAN आणि PMAY सारख्या सार्वजनिक स्त्रोतांकडून आले आहेत. अर्ज करण्यापूर्वी नेहमी अधिकृत कार्यालयात खात्री करा.", // needs_review
+    },
+    footerPrivacyHeading: {
+      en: "Your privacy",
+      hi: "आपकी गोपनीयता",
+      mr: "तुमची गोपनीयता", // needs_review
+    },
+    footerPrivacyText: {
+      en: "Aadhaar numbers are never stored. Beneficiary details are saved only with their consent.",
+      hi: "आधार नंबर कभी संग्रहीत नहीं किए जाते हैं। लाभार्थी का विवरण केवल उनकी सहमति से सहेजा जाता है।",
+      mr: "आधार क्रमांक कधीही साठवले जात नाहीत. लाभार्थ्यांचे तपशील केवळ त्यांच्या संमतीनेच जतन केले जातात.", // needs_review
+    },
+    footerDisclaimer: {
+      en: "Jan Kalyan. A product prototype, not an official government service.",
+      hi: "Jan Kalyan. एक उत्पाद प्रोटोटाइप, कोई आधिकारिक सरकारी सेवा नहीं।",
+      mr: "Jan Kalyan. एक उत्पादन प्रोटोटाइप, कोणतीही अधिकृत सरकारी सेवा नाही.", // needs_review
+    },
     setupTitle: {
       en: "Helper Setup",
       hi: "सहायक सेटअप",
@@ -1624,10 +1654,21 @@
     els.resetBtn = document.getElementById("reset-btn");
 
     // App Shell & Single Outlet Elements
+    els.pageWrapper = document.getElementById("page-wrapper");
     els.landingSlot = document.getElementById("landing-slot");
     els.appShell = document.getElementById("app-shell");
     els.appOutlet = document.getElementById("app-outlet");
-    els.appFooter = document.getElementById("app-footer");
+    els.siteFooter = document.getElementById("site-footer");
+    els.siteFooterBrandDesc = document.getElementById("site-footer-brand-desc");
+    els.siteFooterRulesHeading = document.getElementById("site-footer-rules-heading");
+    els.siteFooterRulesText = document.getElementById("site-footer-rules-text");
+    els.siteFooterPrivacyHeading = document.getElementById("site-footer-privacy-heading");
+    els.siteFooterPrivacyText = document.getElementById("site-footer-privacy-text");
+    els.siteFooterYear = document.getElementById("site-footer-year");
+    els.siteFooterDisclaimer = document.getElementById("site-footer-disclaimer");
+    if (els.siteFooterYear) {
+      els.siteFooterYear.textContent = new Date().getFullYear();
+    }
 
     // Views
     els.loginView = document.getElementById("login-view");
@@ -2855,6 +2896,16 @@
     if (els.btnSkipRejection) els.btnSkipRejection.textContent = t("skip");
     if (els.btnFinderBackToProfile) els.btnFinderBackToProfile.textContent = t("backToProfile");
 
+    // Site Footer
+    const currentYear = new Date().getFullYear();
+    if (els.siteFooterYear) els.siteFooterYear.textContent = currentYear;
+    if (els.siteFooterBrandDesc) els.siteFooterBrandDesc.textContent = t("footerBrandDesc");
+    if (els.siteFooterRulesHeading) els.siteFooterRulesHeading.textContent = t("footerRulesHeading");
+    if (els.siteFooterRulesText) els.siteFooterRulesText.textContent = t("footerRulesText");
+    if (els.siteFooterPrivacyHeading) els.siteFooterPrivacyHeading.textContent = t("footerPrivacyHeading");
+    if (els.siteFooterPrivacyText) els.siteFooterPrivacyText.textContent = t("footerPrivacyText");
+    if (els.siteFooterDisclaimer) els.siteFooterDisclaimer.textContent = t("footerDisclaimer");
+
     renderBackupStatus();
   }
 
@@ -2994,6 +3045,7 @@
     if (els.iconPwHide) els.iconPwHide.style.display = isPassword ? "block" : "none";
     if (els.btnTogglePassword) {
       els.btnTogglePassword.setAttribute("aria-label", isPassword ? "Hide password" : "Show password");
+      els.btnTogglePassword.setAttribute("aria-pressed", isPassword ? "true" : "false");
     }
   }
 
@@ -3568,8 +3620,10 @@
     const isFinder = viewName === "finder";
     const isProfile = viewName === "profile";
 
+    document.body.classList.toggle("is-landing", isLanding);
+
     if (isLanding) {
-      // 1. Completely detach app-shell from DOM
+      // 1. Completely detach app-shell from DOM so querySelectorAll('header') is exact 1
       if (els.appShell && els.appShell.parentNode) {
         els.appShell.parentNode.removeChild(els.appShell);
       }
@@ -3588,17 +3642,20 @@
       els.landingSlot.innerHTML = "";
     }
 
-    // 2. Re-attach app-shell into body before modals if detached
+    // 2. Ensure app-shell is inside page-wrapper before site-footer and visible
+    const siteFooter = document.getElementById("site-footer");
+    const pageWrapper = document.getElementById("page-wrapper");
     if (els.appShell && !els.appShell.parentNode) {
-      const modalAnchor = document.getElementById("modal-add-profile");
-      if (modalAnchor) {
-        document.body.insertBefore(els.appShell, modalAnchor);
+      if (pageWrapper && siteFooter) {
+        pageWrapper.insertBefore(els.appShell, siteFooter);
+      } else if (pageWrapper) {
+        pageWrapper.appendChild(els.appShell);
       } else {
         document.body.appendChild(els.appShell);
       }
     }
     if (els.appShell) {
-      els.appShell.style.display = "block";
+      els.appShell.style.display = "flex";
     }
 
     // 3. Clear app-outlet and attach ONLY active view node
@@ -3631,23 +3688,7 @@
       }
     }
 
-    // 4. Single footer management:
-    // Dashboard view contains #dash-footer-backup, so detach #app-footer when on dashboard.
-    // On all other app views (login, setup, profile, finder), attach #app-footer.
-    if (els.appFooter) {
-      if (isDashboard) {
-        if (els.appFooter.parentNode) {
-          els.appFooter.parentNode.removeChild(els.appFooter);
-        }
-      } else {
-        if (!els.appFooter.parentNode && els.appShell) {
-          els.appShell.appendChild(els.appFooter);
-        }
-        els.appFooter.style.display = "flex";
-      }
-    }
-
-    // 5. Header controls & sub-banners
+    // 4. Header controls & sub-banners
     updateAppHeaderControlsForView(viewName);
 
     if (isFinder) {

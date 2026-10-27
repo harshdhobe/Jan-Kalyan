@@ -330,19 +330,6 @@
     `;
   }
 
-  function renderFooter(s) {
-    return `
-      <footer class="landing-footer">
-        <div class="landing-container">
-          <div class="landing-footer-content">
-            <p class="landing-footer-heading">Jan Kalyan • Deterministic Welfare Eligibility Engine</p>
-            <p class="landing-footer-text">${s.footerText}</p>
-          </div>
-        </div>
-      </footer>
-    `;
-  }
-
   function renderLandingView(targetId = "landing-slot") {
     const container = document.getElementById(targetId) || document.getElementById("landing-slot");
     if (!container) return;
@@ -358,7 +345,6 @@
           ${renderMadeForEveryFamily(s)}
           ${renderPromises(s)}
         </main>
-        ${renderFooter(s)}
       </div>
     `;
 

@@ -45,8 +45,12 @@ window.LANDING_I18N.en = {
   promise3: "Your data stays on your phone",
   promise4: "Official government sources",
 
-  footerHeading: "Jan Kalyan • Deterministic Welfare Eligibility Engine",
-  footerText: "Official guidelines sourced from MyScheme, NSAP, PM-KISAN, PMAY and State portals. Verification required before final disbursement.",
+  footerBrandDesc: "Helping Helpers connect families in Maharashtra with the government schemes meant for them.",
+  footerRulesHeading: "About the rules",
+  footerRulesText: "Scheme rules come from public sources such as MyScheme, NSAP, PM-KISAN and PMAY. Always confirm at the official office before applying.",
+  footerPrivacyHeading: "Your privacy",
+  footerPrivacyText: "Aadhaar numbers are never stored. Beneficiary details are saved only with their consent.",
+  footerDisclaimer: "Jan Kalyan. A product prototype, not an official government service.",
 
   back: "Back",
   placeholderNext: "This screen will be built next."

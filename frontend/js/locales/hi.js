@@ -46,8 +46,12 @@ window.LANDING_I18N.hi = {
   promise3: "आपका डेटा आपके फ़ोन में रहता है",
   promise4: "आधिकारिक सरकारी स्रोत",
 
-  footerHeading: "Jan Kalyan • Deterministic Welfare Eligibility Engine",
-  footerText: "आधिकारिक दिशानिर्देश MyScheme, NSAP, PM-KISAN, PMAY और राज्य पोर्टलों से लिए गए हैं। अंतिम भुगतान से पहले सत्यापन आवश्यक है।",
+  footerBrandDesc: "सहायकों को महाराष्ट्र के परिवारों को उनके लिए बनी सरकारी योजनाओं से जोड़ने में मदद करना।",
+  footerRulesHeading: "नियमों के बारे में",
+  footerRulesText: "योजना के नियम MyScheme, NSAP, PM-KISAN और PMAY जैसे सार्वजनिक स्रोतों से आते हैं। आवेदन करने से पहले हमेशा आधिकारिक कार्यालय में पुष्टि करें।",
+  footerPrivacyHeading: "आपकी गोपनीयता",
+  footerPrivacyText: "आधार नंबर कभी संग्रहीत नहीं किए जाते हैं। लाभार्थी का विवरण केवल उनकी सहमति से सहेजा जाता है।",
+  footerDisclaimer: "Jan Kalyan. एक उत्पाद प्रोटोटाइप, कोई आधिकारिक सरकारी सेवा नहीं।",
 
   helperLogin: "सहायक लॉगिन",
   back: "वापस",

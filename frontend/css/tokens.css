@@ -1,0 +1,80 @@
+/**
+ * Jan Kalyan Design System Tokens (Stage DS-1)
+ * Single visual system derived faithfully from the landing page (#/)
+ * Palette: Cream background, deep brown, forest green, terracotta rust, sand, hairline borders.
+ */
+
+:root {
+  /* Surfaces & Backgrounds */
+  --color-bg: #FAF4EA;                         /* Warm cream page background */
+  --color-surface: #FFFFFF;                    /* Crisp white surface for cards & inputs */
+  --color-surface-subtle: #F1E4CE;             /* Sand tone for subtle panels */
+  --color-text: #2A1A10;                       /* Deep brown primary text */
+  --color-text-muted: rgba(42, 26, 16, 0.72);  /* Muted secondary text */
+  --color-text-faint: rgba(42, 26, 16, 0.45);  /* Subtle caption / placeholder text */
+  --color-border: #D6C4A6;                     /* Hairline border / divider */
+  --color-border-subtle: #E8DDCA;              /* Subtle border tint */
+
+  /* Primary Brand Buttons (Deep brown fill, cream text) */
+  --color-primary: #2A1A10;                    /* Deep brown */
+  --color-primary-hover: #3D2719;              /* Deep brown hover */
+  --color-on-primary: #FAF4EA;                 /* Cream text on primary */
+
+  /* Secondary Buttons (White surface, terracotta border, deep brown text) */
+  --color-secondary: #FFFFFF;                  /* White surface */
+  --color-secondary-hover: #FAF4EA;            /* Cream hover */
+  --color-on-secondary: #2A1A10;               /* Deep brown text */
+
+  /* Accent & Highlights */
+  --color-accent: #A8421E;                     /* Terracotta rust */
+  --color-accent-hover: #8F3718;               /* Terracotta hover */
+  --color-accent-tint: #FBECE8;                /* Soft terracotta tint */
+
+  /* Forest Green (Mission band & trusted brand badges) */
+  --color-forest: #1F4D36;                     /* Deep forest green */
+  --color-forest-hover: #173B29;               /* Deep green hover */
+  --color-on-forest: #FAF4EA;                  /* Cream text on forest green */
+
+  /* Accessible Focus Ring */
+  --color-focus: #A8421E;                      /* 3px terracotta focus outline */
+
+  /* Semantic Status Colors (Derived from landing palette) */
+  --status-ok-bg: #E8F3ED;                     /* Forest green tint */
+  --status-ok-text: #1F5A3B;                   /* Landing trust-note green */
+  --status-warn-bg: #FDF3E5;                   /* Sand/amber tint */
+  --status-warn-text: #8F5413;                 /* Deep amber brown */
+  --status-bad-bg: #FBECE8;                    /* Terracotta tint */
+  --status-bad-text: #A8421E;                  /* Terracotta rust */
+  --status-info-bg: #F1E4CE;                   /* Sand */
+  --status-info-text: #2A1A10;                 /* Deep brown */
+
+  /* Typography */
+  --font-heading: 'Newsreader', Georgia, serif;
+  --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+  --font-size-base: 16px;
+
+  /* Corner Radii */
+  --radius-sm: 4px;                            /* Photo / tag radius */
+  --radius-md: 6px;                            /* Button / input radius */
+  --radius-lg: 8px;                            /* Card / container radius */
+  --radius-pill: 9999px;                       /* Badge / pill radius */
+
+  /* Shadows (Flat editorial aesthetic with subtle soft lift) */
+  --shadow-sm: none;
+  --shadow-md: none;
+
+  /* Spacing Scale (8px modular scale) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 56px;
+  --space-8: 64px;
+
+  /* Containers */
+  --container-max: 1200px;
+  --container-pad: 24px;
+}

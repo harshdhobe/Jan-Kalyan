@@ -4,22 +4,22 @@
 */
 
 :root {
-  --color-cream: #FAF4EA;
-  --color-sand: #F1E4CE;
-  --color-deep-brown: #2A1A10;
-  --color-terracotta: #A8421E;
-  --color-deep-green: #1F4D36;
-  --color-trust-green: #1F5A3B;
+  --color-cream: var(--color-bg, #FAF4EA);
+  --color-sand: var(--color-surface-subtle, #F1E4CE);
+  --color-deep-brown: var(--color-text, #2A1A10);
+  --color-terracotta: var(--color-accent, #A8421E);
+  --color-deep-green: var(--color-forest, #1F4D36);
+  --color-trust-green: var(--status-ok-text, #1F5A3B);
   --color-shield-border: #2E6B4A;
-  --color-hairline: #D6C4A6;
-  --color-footer-text: #F5E9D6;
+  --color-hairline: var(--color-border, #D6C4A6);
+  --color-footer-text: var(--color-on-forest, #F5E9D6);
 
-  --font-serif: 'Newsreader', Georgia, serif;
-  --font-sans: 'Public Sans', sans-serif;
-  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+  --font-serif: var(--font-heading, 'Newsreader', Georgia, serif);
+  --font-sans: var(--font-body, 'Public Sans', sans-serif);
+  --font-devanagari: var(--font-devanagari, 'Noto Sans Devanagari', sans-serif);
 
-  --radius-btn: 6px;
-  --radius-photo: 4px;
+  --radius-btn: var(--radius-md, 6px);
+  --radius-photo: var(--radius-sm, 4px);
 }
 
 /* ==========================================================================
@@ -62,15 +62,32 @@ body {
   box-sizing: border-box;
 }
 
-/* Accessible focus ring: 3px terracotta */
+/* Accessible focus ring: 3px terracotta on interactive elements only */
 .landing-focus-ring:focus-visible,
 .landing-btn-cta:focus-visible,
 .landing-lang-btn:focus-visible,
 .landing-logo:focus-visible,
 .landing-page-root a:focus-visible,
-.landing-page-root button:focus-visible {
-  outline: 3px solid var(--color-terracotta) !important;
+.landing-page-root button:focus-visible,
+.landing-page-root input:focus-visible,
+.landing-page-root select:focus-visible,
+.landing-page-root textarea:focus-visible {
+  outline: 3px solid var(--color-focus, var(--color-terracotta)) !important;
   outline-offset: 2px !important;
+}
+
+/* Remove visible focus ring from non-interactive headings when focused programmatically */
+.landing-hero-h1:focus,
+.landing-hero-h1:focus-visible,
+.landing-mission-h2:focus,
+.landing-mission-h2:focus-visible,
+.landing-section-h2:focus,
+.landing-section-h2:focus-visible,
+.landing-family-title:focus,
+.landing-family-title:focus-visible,
+.landing-col-title:focus,
+.landing-col-title:focus-visible {
+  outline: none !important;
 }
 
 /* Section Anchor Offset for 80px Sticky Header */
@@ -675,6 +692,7 @@ html[lang="mr"] .landing-btn-cta .btn-title {
 
 .landing-family-title-col {
   grid-column: span 4;
+  min-width: 0;
 }
 
 .landing-family-title {
@@ -686,10 +704,13 @@ html[lang="mr"] .landing-btn-cta .btn-title {
   margin: 0;
   text-align: left;
   letter-spacing: -0.02em;
+  min-width: 0;
+  word-break: break-word;
 }
 
 .landing-family-list-col {
   grid-column: span 8;
+  min-width: 0;
 }
 
 .landing-family-items-grid {
@@ -706,6 +727,7 @@ html[lang="mr"] .landing-btn-cta .btn-title {
   text-align: left;
 }
 
+.landing-family-item-primary,
 .landing-family-item-en {
   font-family: var(--font-serif);
   font-size: 28px;
@@ -713,8 +735,10 @@ html[lang="mr"] .landing-btn-cta .btn-title {
   line-height: 1.2;
   font-weight: 500;
   text-align: left;
+  word-break: break-word;
 }
 
+.landing-family-item-secondary,
 .landing-family-item-devanagari {
   font-family: var(--font-devanagari);
   font-size: 18px;
@@ -722,6 +746,7 @@ html[lang="mr"] .landing-btn-cta .btn-title {
   margin-top: 4px;
   font-weight: 700;
   text-align: left;
+  word-break: break-word;
 }
 
 /* ==========================================================================
@@ -884,7 +909,7 @@ html[lang="mr"] .landing-btn-cta .btn-title {
   }
   .landing-family-title-col,
   .landing-family-list-col {
-    grid-column: span 12;
+    grid-column: 1 / -1;
   }
 }
 
@@ -934,7 +959,8 @@ html[lang="mr"] .landing-btn-cta .btn-title {
     width: 100%;
   }
   .landing-hero-h1 {
-    font-size: 56px;
+    font-size: clamp(38px, 11vw, 54px);
+    word-break: break-word;
     white-space: normal; /* Wrap gracefully if screen is very narrow */
   }
   .landing-hero-actions {
@@ -942,8 +968,12 @@ html[lang="mr"] .landing-btn-cta .btn-title {
     gap: 16px;
     width: 100%;
   }
+  .landing-btn-cta .btn-title {
+    white-space: normal;
+  }
   .landing-privacy-note {
     white-space: normal;
+    font-size: 16px;
   }
   .landing-hero-right {
     order: 2; /* After text + buttons */
@@ -984,14 +1014,18 @@ html[lang="mr"] .landing-btn-cta .btn-title {
 
   /* Made For Every Family Mobile */
   .landing-family-title {
-    font-size: 40px;
+    font-size: clamp(28px, 8vw, 38px);
+    min-width: 0;
+    word-break: break-word;
   }
   .landing-family-items-grid {
     grid-template-columns: 1fr;
     column-gap: 0;
   }
+  .landing-family-item-primary,
   .landing-family-item-en {
-    font-size: 24px;
+    font-size: 22px;
+    word-break: break-word;
   }
 
   /* Promises Mobile (2x2 grid) */
@@ -1024,3 +1058,30 @@ html[lang="mr"] .landing-btn-cta .btn-title {
     padding-bottom: 64px;
   }
 }
+
+/* Below 480px: Ensure zero overflow on 360px mobile viewports */
+@media (max-width: 479px) {
+  .landing-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .landing-hero-actions {
+    max-width: 100%;
+  }
+  .landing-btn-cta {
+    padding: 14px 16px;
+    gap: 12px;
+  }
+  .landing-btn-cta .btn-title {
+    font-size: 19px;
+    white-space: normal;
+  }
+  .landing-privacy-note {
+    font-size: 15px;
+    white-space: normal;
+  }
+  .landing-promises-row {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -194,8 +194,9 @@ h6:focus-visible {
    1. Slim Header (64px, Hairline border, no background fill)
    ───────────────────────────────────────────────────────────────────────────── */
 .app-header {
-  height: 80px;
+  height: auto;
   min-height: 80px;
+  padding: 6px 0;
   border-bottom: 1px solid var(--color-border);
   background-color: var(--color-bg);
   position: sticky;
@@ -205,44 +206,40 @@ h6:focus-visible {
   align-items: center;
   box-shadow: none;
   margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 .header-container {
   width: 100%;
-  max-width: var(--container-max, 1200px);
+  max-width: 1880px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--container-pad, 24px);
-  padding-right: var(--container-pad, 24px);
+  padding-left: clamp(16px, 2.5vw, 48px);
+  padding-right: clamp(16px, 2.5vw, 48px);
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  height: 100%;
-}
-
-@media (min-width: 1280px) {
-  .header-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  min-height: 100%;
 }
 
 .header-brand-group {
   display: flex;
   align-items: center;
   gap: 16px;
+  flex-shrink: 0;
 }
 
 .brand {
-  display: flex;
+  display: inline-flex;
   align-items: baseline;
   gap: 14px;
   text-decoration: none;
   color: var(--color-text);
   line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .brand:focus-visible {
@@ -257,6 +254,8 @@ h6:focus-visible {
   letter-spacing: -0.02em;
   color: var(--color-text);
   line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .brand-sep {
@@ -269,6 +268,7 @@ h6:focus-visible {
   color: transparent;
   user-select: none;
   margin: 0;
+  flex-shrink: 0;
 }
 
 .wordmark-sub,
@@ -279,6 +279,8 @@ h6:focus-visible {
   font-weight: 700;
   letter-spacing: normal;
   line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .btn-back {
@@ -310,6 +312,7 @@ h6:focus-visible {
 
 .header-controls {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 12px;
 }
@@ -319,6 +322,7 @@ h6:focus-visible {
   position: relative;
   display: inline-flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .persona-select {
@@ -370,6 +374,8 @@ h6:focus-visible {
   align-items: center;
   gap: 6px;
   min-height: 38px;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: color var(--transition-fast), background-color var(--transition-fast);
 }
 
@@ -392,6 +398,8 @@ h6:focus-visible {
   border: none;
   border-radius: 0;
   padding: 0;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .lang-btn {
@@ -413,6 +421,8 @@ h6:focus-visible {
   border-bottom: 3px solid transparent;
   border-radius: 0;
   box-shadow: none;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: color 0.15s ease, border-color 0.15s ease;
   box-sizing: border-box;
 }
@@ -1737,7 +1747,8 @@ h6:focus-visible {
 
 /* Tablet (768px - 1199px): 2 Columns */
 @media (min-width: 768px) and (max-width: 1199px) {
-  .main-layout {
+  .main-layout,
+  .main-layout.no-rail {
     grid-template-columns: clamp(300px, 30vw, 360px) minmax(0, 1fr);
   }
   .category-rail {
@@ -1788,48 +1799,6 @@ h6:focus-visible {
     padding: 0 12px;
     font-size: 16px;
   }
-}
-
-/* Below 480px: Header wraps gracefully with no horizontal overflow, keeping all controls reachable */
-@media (max-width: 479px) {
-  .app-header {
-    height: auto;
-    min-height: 80px;
-    padding: 10px 0;
-  }
-
-  .header-container {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .header-brand-group {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .header-controls {
-    flex-wrap: wrap;
-    gap: 8px;
-    width: 100%;
-    justify-content: flex-end;
-  }
-
-  .lang-toggle {
-    width: 100%;
-    justify-content: flex-end;
-  }
-
-  .lang-btn {
-    height: 44px;
-    min-height: 44px;
-    padding: 0 10px;
-    font-size: 15px;
-  }
-}
 
   .main-layout,
   .main-layout.no-rail {
@@ -1871,6 +1840,47 @@ h6:focus-visible {
     justify-content: center;
     width: 100%;
     text-align: center;
+  }
+}
+
+/* Below 480px: Header wraps gracefully with no horizontal overflow, keeping all controls reachable */
+@media (max-width: 479px) {
+  .app-header {
+    height: auto;
+    min-height: 80px;
+    padding: 10px 0;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header-brand-group {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .header-controls {
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .lang-toggle {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .lang-btn {
+    height: 44px;
+    min-height: 44px;
+    padding: 0 10px;
+    font-size: 15px;
   }
 }
 
@@ -1927,6 +1937,8 @@ h6:focus-visible {
   background: rgba(16, 185, 129, 0.08);
   border: 1px solid rgba(16, 185, 129, 0.25);
   color: #065f46;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .profile-pill-dot {
@@ -1939,7 +1951,7 @@ h6:focus-visible {
 
 .profile-pill-name {
   font-weight: 600;
-  max-width: 140px;
+  max-width: 180px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1966,6 +1978,8 @@ h6:focus-visible {
   border-radius: var(--radius-control, 6px);
   cursor: pointer;
   transition: all var(--transition-fast, 150ms ease);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .btn-save-profile:hover {
@@ -2865,6 +2879,8 @@ h6:focus-visible {
   cursor: pointer;
   transition: border-color var(--transition-fast, 180ms ease-out), background-color var(--transition-fast, 180ms ease-out);
   min-height: 36px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .helper-header-pill:hover {

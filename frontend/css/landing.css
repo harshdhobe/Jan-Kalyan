@@ -153,6 +153,8 @@ body {
   gap: 14px;
   text-decoration: none;
   color: var(--color-deep-brown);
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
 }
 
 .landing-logo-serif {
@@ -162,6 +164,8 @@ body {
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--color-deep-brown);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .landing-logo-divider {
@@ -170,6 +174,7 @@ body {
   height: 28px;
   background-color: var(--color-hairline);
   align-self: center;
+  flex-shrink: 0;
 }
 
 .landing-logo-devanagari {
@@ -178,6 +183,8 @@ body {
   font-weight: 700;
   line-height: 1;
   color: var(--color-deep-brown);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Language switcher */

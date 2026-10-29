@@ -1139,6 +1139,41 @@
       hi: "{count} दिन पहले",
       mr: "{count} दिवसांपूर्वी", // needs_review
     },
+    dashStage1: {
+      en: "STAGE 1",
+      hi: "चरण 1",
+      mr: "टप्पा 1", // needs_review
+    },
+    dashStage2: {
+      en: "STAGE 2",
+      hi: "चरण 2",
+      mr: "टप्पा 2", // needs_review
+    },
+    dashStage3: {
+      en: "STAGE 3",
+      hi: "चरण 3",
+      mr: "टप्पा 3", // needs_review
+    },
+    dashStage4: {
+      en: "STAGE 4",
+      hi: "चरण 4",
+      mr: "टप्पा 4", // needs_review
+    },
+    dashActionsCount: {
+      en: "{count} actions",
+      hi: "{count} कार्य",
+      mr: "{count} कृती", // needs_review
+    },
+    dashSavedCount: {
+      en: "{count} saved",
+      hi: "{count} सुरक्षित",
+      mr: "{count} जतन", // needs_review
+    },
+    dashBackupTitle: {
+      en: "Backup",
+      hi: "बैकअप",
+      mr: "बॅकअप", // needs_review
+    },
   };
 
   function t(key, params) {
@@ -1729,6 +1764,7 @@
     // "What to do today" Section Elements
     els.dashTodaySection = document.getElementById("dash-today-section");
     els.dashTodayTitle = document.getElementById("dash-today-title");
+    els.dashTodayCountChip = document.getElementById("dash-today-count-chip");
     els.dashTodayList = document.getElementById("dash-today-list");
     els.dashTodayEmpty = document.getElementById("dash-today-empty");
     els.dashTodayEmptyText = document.getElementById("dash-today-empty-text");
@@ -1743,6 +1779,16 @@
     els.cardCountReady = document.getElementById("card-count-ready");
     els.cardCountApplied = document.getElementById("card-count-applied");
     els.cardCountBenefitReceived = document.getElementById("card-count-benefit-received");
+
+    els.stageCardDocsPending = document.getElementById("stage-card-docs-pending");
+    els.stageCardReady = document.getElementById("stage-card-ready");
+    els.stageCardApplied = document.getElementById("stage-card-applied");
+    els.stageCardBenefitReceived = document.getElementById("stage-card-benefit-received");
+
+    els.clearCardDocsPending = document.getElementById("clear-card-docs-pending");
+    els.clearCardReady = document.getElementById("clear-card-ready");
+    els.clearCardApplied = document.getElementById("clear-card-applied");
+    els.clearCardBenefitReceived = document.getElementById("clear-card-benefit-received");
 
     els.statDocsPending = document.getElementById("stat-docs-pending");
     els.statReadyApply = document.getElementById("stat-ready-apply");
@@ -1781,9 +1827,11 @@
 
     // Footer Backup Line
     els.dashFooterBackup = document.getElementById("dash-footer-backup");
+    els.dashBackupCardTitle = document.getElementById("dash-backup-card-title");
     els.dashBackupStatusText = document.getElementById("dash-backup-status-text");
     els.dashBackupWarning = document.getElementById("dash-backup-warning");
     els.btnDashBackupFooter = document.getElementById("btn-dash-backup-footer");
+    els.btnDashBackupFooterText = document.getElementById("btn-dash-backup-footer-text");
 
     // Modals
     els.modalAddProfile = document.getElementById("modal-add-profile");
@@ -2130,6 +2178,32 @@
       els.btnSkipRejection.addEventListener("click", handleSkipRejection);
     }
 
+    // Mobile / Tablet Filters Bottom Sheet
+    if (els.btnFiltersToggle) {
+      els.btnFiltersToggle.addEventListener("click", openBottomSheet);
+    }
+    if (els.btnSheetClose) {
+      els.btnSheetClose.addEventListener("click", closeBottomSheet);
+    }
+    if (els.btnSheetApply) {
+      els.btnSheetApply.addEventListener("click", closeBottomSheet);
+    }
+    if (els.btnSheetClear) {
+      els.btnSheetClear.addEventListener("click", clearAllFilters);
+    }
+    if (els.filtersBottomSheet) {
+      els.filtersBottomSheet.addEventListener("click", (e) => {
+        if (e.target === els.filtersBottomSheet) {
+          closeBottomSheet();
+        }
+      });
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && els.filtersBottomSheet && els.filtersBottomSheet.classList.contains("open")) {
+        closeBottomSheet();
+      }
+    });
+
     // Landing Page Buttons
     if (els.btnLandingHelper) {
       els.btnLandingHelper.addEventListener("click", async () => {
@@ -2344,6 +2418,15 @@
     if (els.btnDashClearFilter) {
       els.btnDashClearFilter.addEventListener("click", () => handleCountCardClick("all"));
     }
+    const cardClearLinks = [els.clearCardDocsPending, els.clearCardReady, els.clearCardApplied, els.clearCardBenefitReceived];
+    cardClearLinks.forEach((link) => {
+      if (link) {
+        link.addEventListener("click", (e) => {
+          e.stopPropagation();
+          handleCountCardClick("all");
+        });
+      }
+    });
     if (els.btnDashTodayToggle) {
       els.btnDashTodayToggle.addEventListener("click", handleToggleTodayRows);
     }
@@ -2688,6 +2771,7 @@
     const filterData = getFilterData();
     renderSchemes(filterData);
     renderCategoriesRail(filterData);
+    renderMobileSheetFilters(filterData);
   }
 
   function resetListScroll() {
@@ -2807,6 +2891,13 @@
     if (els.labelCardReady) els.labelCardReady.textContent = t("dashApplyNow");
     if (els.labelCardApplied) els.labelCardApplied.textContent = t("dashCardWaitingDecision");
     if (els.labelCardBenefitReceived) els.labelCardBenefitReceived.textContent = t("dashCardBenefitsReceived");
+    if (els.stageCardDocsPending) els.stageCardDocsPending.textContent = t("dashStage1");
+    if (els.stageCardReady) els.stageCardReady.textContent = t("dashStage2");
+    if (els.stageCardApplied) els.stageCardApplied.textContent = t("dashStage3");
+    if (els.stageCardBenefitReceived) els.stageCardBenefitReceived.textContent = t("dashStage4");
+    [els.clearCardDocsPending, els.clearCardReady, els.clearCardApplied, els.clearCardBenefitReceived].forEach((c) => {
+      if (c) c.textContent = t("dashClearFilter");
+    });
     if (els.btnDashClearFilter) els.btnDashClearFilter.textContent = t("dashClearFilter");
 
     if (els.dashEmptyTitle) els.dashEmptyTitle.textContent = t("dashEmptyTitle");
@@ -2820,7 +2911,14 @@
     if (els.btnEmptyAddProfileText) els.btnEmptyAddProfileText.textContent = t("dashAddBeneficiary");
     if (els.btnEmptyQuickCheck) els.btnEmptyQuickCheck.textContent = t("dashTryQuickCheck");
 
-    if (els.btnDashBackupFooter) els.btnDashBackupFooter.textContent = t("btnBackupNow");
+    if (els.dashBackupCardTitle) els.dashBackupCardTitle.textContent = t("dashBackupTitle");
+    if (els.btnDashBackupFooter) {
+      if (els.btnDashBackupFooterText) {
+        els.btnDashBackupFooterText.textContent = t("btnBackupNow");
+      } else {
+        els.btnDashBackupFooter.textContent = t("btnBackupNow");
+      }
+    }
     if (els.dashBackupWarning) els.dashBackupWarning.textContent = t("dashChangesNotBackedUp");
     if (els.btnBackText) {
       els.btnBackText.textContent = (state.currentView === "setup" || state.currentView === "finder")
@@ -2942,6 +3040,19 @@
     const m = trimmed.match(/^[\u0900-\u097F]+(?:\u094D[\u0900-\u097F]+)*/);
     if (m && m[0]) return m[0].replace(/\u094D$/, "");
     return trimmed.charAt(0).toUpperCase();
+  }
+
+  function getPersonInitials(name) {
+    if (!name || typeof name !== "string") return "?";
+    const trimmed = name.trim();
+    if (!trimmed) return "?";
+    const words = trimmed.split(/\s+/).filter(Boolean);
+    if (words.length >= 2) {
+      return (words[0].charAt(0) + words[1].charAt(0)).toUpperCase();
+    } else if (words.length === 1) {
+      return words[0].slice(0, 2).toUpperCase();
+    }
+    return "?";
   }
 
   function updateHelperWelcomeBar() {
@@ -4770,6 +4881,15 @@
     if (!els.dashTodayList) return;
     const rows = actionRows || [];
 
+    if (els.dashTodayCountChip) {
+      if (rows.length > 0) {
+        els.dashTodayCountChip.textContent = t("dashActionsCount", { count: rows.length });
+        els.dashTodayCountChip.style.display = "inline-flex";
+      } else {
+        els.dashTodayCountChip.style.display = "none";
+      }
+    }
+
     if (rows.length === 0) {
       if (els.dashTodayEmpty) els.dashTodayEmpty.style.display = "flex";
       els.dashTodayList.innerHTML = "";
@@ -4818,9 +4938,11 @@
         const daysText = item.days === 1
           ? t("dashDaysSingular")
           : t("dashDaysPlural", { count: item.days });
+        const initials = getPersonInitials(item.beneficiaryName);
 
         return `
           <div class="dash-action-row" data-profile-id="${item.profileId}" role="button" tabindex="0" aria-label="${escapeHtml(item.beneficiaryName)}, ${escapeHtml(schemeText)}, ${escapeHtml(actionText)}, ${escapeHtml(daysText)}">
+            <div class="dash-row-avatar" aria-hidden="true">${escapeHtml(initials)}</div>
             <div class="dash-action-left">
               <span class="dash-action-beneficiary">${escapeHtml(item.beneficiaryName)}</span>
               <span class="dash-action-scheme">${escapeHtml(schemeText)}</span>
@@ -4859,26 +4981,22 @@
     const f = state.dashboardStatusFilter;
     const isFiltered = f && f !== "all";
 
-    if (els.cardCountDocsPending) {
-      const active = f === "Documents pending";
-      els.cardCountDocsPending.classList.toggle("active", active);
-      els.cardCountDocsPending.setAttribute("aria-pressed", active ? "true" : "false");
-    }
-    if (els.cardCountReady) {
-      const active = f === "Ready to apply";
-      els.cardCountReady.classList.toggle("active", active);
-      els.cardCountReady.setAttribute("aria-pressed", active ? "true" : "false");
-    }
-    if (els.cardCountApplied) {
-      const active = f === "Applied";
-      els.cardCountApplied.classList.toggle("active", active);
-      els.cardCountApplied.setAttribute("aria-pressed", active ? "true" : "false");
-    }
-    if (els.cardCountBenefitReceived) {
-      const active = f === "Benefit received";
-      els.cardCountBenefitReceived.classList.toggle("active", active);
-      els.cardCountBenefitReceived.setAttribute("aria-pressed", active ? "true" : "false");
-    }
+    const cardDefs = [
+      { el: els.cardCountDocsPending, status: "Documents pending", clear: els.clearCardDocsPending, stage: els.stageCardDocsPending },
+      { el: els.cardCountReady, status: "Ready to apply", clear: els.clearCardReady, stage: els.stageCardReady },
+      { el: els.cardCountApplied, status: "Applied", clear: els.clearCardApplied, stage: els.stageCardApplied },
+      { el: els.cardCountBenefitReceived, status: "Benefit received", clear: els.clearCardBenefitReceived, stage: els.stageCardBenefitReceived }
+    ];
+
+    cardDefs.forEach(({ el, status, clear, stage }) => {
+      if (!el) return;
+      const active = f === status;
+      el.classList.toggle("active", active);
+      el.classList.toggle("is-active", active);
+      el.setAttribute("aria-pressed", active ? "true" : "false");
+      if (clear) clear.style.display = active ? "inline-block" : "none";
+      if (stage) stage.style.display = active ? "none" : "inline-block";
+    });
 
     if (els.dashFilterActiveBar) {
       els.dashFilterActiveBar.style.display = isFiltered ? "flex" : "none";
@@ -4923,14 +5041,8 @@
     }
 
     const cardsHtml = filteredProfiles.map((p) => {
-      let savedStr = "";
-      if (p.savedCount === 0) {
-        savedStr = t("noSchemesSavedSummary");
-      } else if (p.savedCount === 1) {
-        savedStr = t("oneSchemeSaved");
-      } else {
-        savedStr = t("schemesSavedCount", { count: p.savedCount });
-      }
+      const savedStr = t("dashSavedCount", { count: p.savedCount });
+      const initials = getPersonInitials(p.name);
 
       let chipHtml = "";
       if (p.mostUrgentStatus) {
@@ -4949,18 +5061,19 @@
       }
 
       return `
-        <div class="profile-card" data-profile-id="${p.id}" role="link" tabindex="0">
-          <div class="profile-card-top">
-            <div>
-              <h3 class="profile-card-name">${escapeHtml(p.name)}</h3>
-            </div>
-            ${chipHtml}
+        <div class="profile-card dash-table-row" data-profile-id="${p.id}" role="link" tabindex="0">
+          <div class="dash-cell-name">
+            <div class="dash-row-avatar" aria-hidden="true">${escapeHtml(initials)}</div>
+            <h3 class="profile-card-name">${escapeHtml(p.name)}</h3>
           </div>
-          <div class="profile-card-status-line">
+          <div class="dash-cell-schemes profile-card-status-line">
             <span>${escapeHtml(savedStr)}</span>
           </div>
-          <div class="profile-card-actions">
-            <button class="btn-primary btn-card-open" type="button" data-action="open-profile" data-profile-id="${p.id}">
+          <div class="dash-cell-status">
+            ${chipHtml}
+          </div>
+          <div class="dash-cell-action profile-card-actions">
+            <button class="btn-secondary btn-card-open" type="button" data-action="open-profile" data-profile-id="${p.id}">
               ${t("open")}
             </button>
           </div>

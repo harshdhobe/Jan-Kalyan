@@ -271,237 +271,302 @@
 
         <!-- 3. HELPER HOME VIEW (#/helper) -->
         <section id="dashboard-view" class="dashboard-container" style="display: none;">
-          <!-- Logged-in Helper Account Card -->
-          <div class="helper-welcome-bar acct-card" id="helper-welcome-bar">
-            <div class="acct-left">
-              <div class="acct-avatar" id="acct-avatar" aria-label="Helper account avatar">H</div>
-              <div class="acct-meta">
-                <span class="acct-name" id="helper-tag-name">Helper</span>
-                <div class="acct-subline">
-                  <span class="acct-role" id="helper-tag-role">ASHA</span>
-                  <span class="acct-district-wrap" id="acct-district-wrap" style="display: none;">
-                    <span class="acct-sep" aria-hidden="true">·</span>
+          <!-- 1. Welcome Row: Avatar, Namaste + Name, Role + District, Account Dropdown, Add Beneficiary Button -->
+          <div class="dash-welcome-row" id="dash-welcome-row">
+            <div class="helper-welcome-bar acct-card" id="helper-welcome-bar">
+              <div class="acct-left">
+                <div class="acct-avatar" id="acct-avatar" aria-label="Helper account avatar">H</div>
+                <div class="acct-meta">
+                  <div class="dash-welcome-text">
+                    <h1 class="dash-welcome-heading">
+                      <span class="dash-welcome-greeting" id="dash-welcome-greeting">Namaste,</span>
+                      <span class="acct-name" id="helper-tag-name">Helper</span>
+                    </h1>
+                    <span class="dash-helper-name" id="dash-helper-name" style="display: none;">Helper</span>
+                  </div>
+                  <div class="acct-subline">
                     <svg class="acct-loc-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       aria-hidden="true">
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <span class="acct-district" id="helper-tag-district"></span>
-                  </span>
+                    <span class="acct-role" id="helper-tag-role">ASHA</span>
+                    <span class="acct-district-wrap" id="acct-district-wrap" style="display: none;">
+                      <span class="acct-sep" aria-hidden="true">,</span>
+                      <span class="acct-district" id="helper-tag-district"></span>
+                    </span>
+                  </div>
+                </div>
+                <div class="acct-menu-wrap" id="acct-menu-wrap">
+                  <button id="btn-acct-menu" class="acct-menu-btn" type="button" aria-haspopup="menu" aria-expanded="false"
+                    aria-controls="acct-dropdown-menu" aria-label="Helper account menu">
+                    <span id="btn-acct-menu-text">Account</span>
+                    <svg class="acct-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </button>
+                  <div id="acct-dropdown-menu" class="acct-menu-dropdown" role="menu" aria-labelledby="btn-acct-menu">
+                    <button id="btn-backup-now" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                      </svg>
+                      <span id="btn-backup-now-text">Back up now</span>
+                    </button>
+                    <button id="btn-restore-cloud" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                      </svg>
+                      <span id="btn-restore-cloud-text">Restore from cloud</span>
+                    </button>
+                    <button id="btn-edit-helper" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M12 20h9"></path>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                      </svg>
+                      <span id="btn-edit-helper-text">Edit Details</span>
+                    </button>
+                    <div class="acct-menu-divider" role="separator" aria-orientation="horizontal"></div>
+                    <button id="btn-sign-out" class="acct-menu-item acct-menu-danger" type="button" role="menuitem"
+                      tabindex="-1">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                      </svg>
+                      <span id="btn-sign-out-text">Sign Out</span>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="acct-menu-wrap" id="acct-menu-wrap">
-              <button id="btn-acct-menu" class="acct-menu-btn" type="button" aria-haspopup="menu" aria-expanded="false"
-                aria-controls="acct-dropdown-menu" aria-label="Helper account menu">
-                <span id="btn-acct-menu-text">Account</span>
-                <svg class="acct-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </button>
-              <div id="acct-dropdown-menu" class="acct-menu-dropdown" role="menu" aria-labelledby="btn-acct-menu">
-                <button id="btn-backup-now" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="17 8 12 3 7 8"></polyline>
-                    <line x1="12" y1="3" x2="12" y2="15"></line>
-                  </svg>
-                  <span id="btn-backup-now-text">Back up now</span>
-                </button>
-                <button id="btn-restore-cloud" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M19 14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="7 10 12 15 17 10"></polyline>
-                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                  </svg>
-                  <span id="btn-restore-cloud-text">Restore from cloud</span>
-                </button>
-                <button id="btn-edit-helper" class="acct-menu-item" type="button" role="menuitem" tabindex="-1">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M12 20h9"></path>
-                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-                  </svg>
-                  <span id="btn-edit-helper-text">Edit Details</span>
-                </button>
-                <div class="acct-menu-divider" role="separator" aria-orientation="horizontal"></div>
-                <button id="btn-sign-out" class="acct-menu-item acct-menu-danger" type="button" role="menuitem"
-                  tabindex="-1">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                    <polyline points="16 17 21 12 16 7"></polyline>
-                    <line x1="21" y1="12" x2="9" y2="12"></line>
-                  </svg>
-                  <span id="btn-sign-out-text">Sign Out</span>
-                </button>
-              </div>
-            </div>
-            <span id="helper-backup-status" style="display: none;" aria-hidden="true"></span>
-          </div>
-
-          <!-- Welcome Row (Namaste, <Helper name> + Primary Add Beneficiary CTA) -->
-          <div class="dash-welcome-row" id="dash-welcome-row">
-            <div class="dash-welcome-text">
-              <h1 class="dash-welcome-heading">
-                <span class="dash-welcome-greeting" id="dash-welcome-greeting">Namaste,</span>
-                <span class="dash-helper-name" id="dash-helper-name">Helper</span>
-              </h1>
-            </div>
-            <div class="dash-welcome-actions">
-              <button id="btn-add-profile" class="btn-primary dash-btn-add" type="button">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <line x1="12" y1="5" x2="12" y2="19"></line>
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg>
-                <span id="btn-add-profile-text">Add beneficiary</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Section: What to do today -->
-          <section class="dash-today-section" id="dash-today-section" aria-labelledby="dash-today-title">
-            <div class="dash-section-header">
-              <h2 class="dash-section-title" id="dash-today-title">What to do today</h2>
-            </div>
-            <div id="dash-today-list" class="dash-today-list" role="list">
-              <!-- Rendered dynamically by app.js: action rows -->
-            </div>
-            <div id="dash-today-empty" class="dash-today-empty" style="display: none;">
-              <svg class="dash-empty-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                aria-hidden="true">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <span id="dash-today-empty-text">You're all caught up</span>
-            </div>
-            <div class="dash-today-expand-wrap" id="dash-today-expand-wrap" style="display: none;">
-              <button type="button" id="btn-dash-today-toggle" class="btn-secondary dash-btn-expand"
-                aria-expanded="false">
-                <span id="dash-today-toggle-text">Show all (0)</span>
-              </button>
-            </div>
-          </section>
-
-          <!-- Four Count Cards Named After Actions (counting APPLICATIONS) -->
-          <section class="dash-metrics-section" id="dash-metrics-section" aria-label="Application counters and filters">
-            <div class="dash-count-grid" id="dash-count-grid" role="group" aria-label="Status filter cards">
-              <button class="dash-count-card" id="card-count-docs-pending" type="button" data-status="Documents pending"
-                aria-pressed="false">
-                <span class="dash-card-label" id="label-card-docs-pending">Collect documents</span>
-                <span class="dash-card-value" id="stat-docs-pending">0</span>
-              </button>
-              <button class="dash-count-card" id="card-count-ready" type="button" data-status="Ready to apply"
-                aria-pressed="false">
-                <span class="dash-card-label" id="label-card-ready">Ready to apply</span>
-                <span class="dash-card-value" id="stat-ready-apply">0</span>
-              </button>
-              <button class="dash-count-card" id="card-count-applied" type="button" data-status="Applied"
-                aria-pressed="false">
-                <span class="dash-card-label" id="label-card-applied">Waiting for decision</span>
-                <span class="dash-card-value" id="stat-applied">0</span>
-              </button>
-              <button class="dash-count-card" id="card-count-benefit-received" type="button"
-                data-status="Benefit received" aria-pressed="false">
-                <span class="dash-card-label" id="label-card-benefit-received">Benefits received</span>
-                <span class="dash-card-value" id="stat-benefit-received">0</span>
-              </button>
-            </div>
-          </section>
-
-          <!-- Active Filter Notification Bar & Clear Filter Control -->
-          <div class="dash-filter-active-bar" id="dash-filter-active-bar" style="display: none;">
-            <span class="dash-filter-active-text" id="dash-filter-active-text">
-              <span>Filtering by: </span>
-              <strong id="dash-filter-active-status"></strong>
-            </span>
-            <button type="button" id="btn-dash-clear-filter" class="dash-btn-clear-filter">
-              Clear filter
-            </button>
-          </div>
-
-          <!-- Beneficiary Search Bar -->
-          <div class="profiles-search-container dash-search-container" id="dash-search-container">
-            <div class="search-wrapper">
-              <span class="search-icon" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-              </span>
-              <input type="text" id="input-profile-search" class="search-field" placeholder="Search profiles by name..."
-                aria-label="Search profiles by name" />
-            </div>
-          </div>
-
-          <!-- Beneficiary Profiles Section & Empty Guide -->
-          <section id="profiles-container" class="profiles-section dash-profiles-section"
-            aria-label="Beneficiary profiles">
-            <div id="profiles-list" class="profiles-grid"></div>
-
-            <!-- 3-Step Guide Empty State (shown when profiles.length === 0) -->
-            <div id="profiles-empty-state" class="dash-empty-guide" style="display: none;">
-              <div class="dash-empty-header">
-                <h2 class="dash-empty-title" id="dash-empty-title">Welcome to Jan Kalyan</h2>
-                <p class="dash-empty-sub" id="dash-empty-sub">Get started by adding your first beneficiary to discover
-                  and track welfare schemes.</p>
-              </div>
-              <ol class="dash-guide-steps" role="list">
-                <li class="dash-guide-step">
-                  <div class="dash-step-num" aria-hidden="true">1</div>
-                  <div class="dash-step-content">
-                    <div class="dash-step-title" id="dash-step-1-title">Add a beneficiary</div>
-                    <div class="dash-step-desc" id="dash-step-1-desc">Enter their basic information with their consent.
-                    </div>
-                  </div>
-                </li>
-                <li class="dash-guide-step">
-                  <div class="dash-step-num" aria-hidden="true">2</div>
-                  <div class="dash-step-content">
-                    <div class="dash-step-title" id="dash-step-2-title">See their schemes</div>
-                    <div class="dash-step-desc" id="dash-step-2-desc">Find all central and state schemes they are
-                      eligible for.</div>
-                  </div>
-                </li>
-                <li class="dash-guide-step">
-                  <div class="dash-step-num" aria-hidden="true">3</div>
-                  <div class="dash-step-content">
-                    <div class="dash-step-title" id="dash-step-3-title">Save a scheme and track it</div>
-                    <div class="dash-step-desc" id="dash-step-3-desc">Track document collection and application
-                      progress.</div>
-                  </div>
-                </li>
-              </ol>
-              <div class="dash-empty-actions">
-                <button id="btn-empty-add-profile" class="btn-primary dash-btn-add" type="button">
+              <div class="dash-welcome-actions">
+                <button id="btn-add-profile" class="btn-primary dash-btn-add" type="button">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <line x1="12" y1="5" x2="12" y2="19"></line>
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                   </svg>
-                  <span id="btn-empty-add-profile-text">Add beneficiary</span>
+                  <span id="btn-add-profile-text">Add beneficiary</span>
                 </button>
-                <a href="#/finder" id="btn-empty-quick-check" class="dash-link-secondary">Try Quick check</a>
               </div>
+              <span id="helper-backup-status" style="display: none;" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <!-- 2. Four Count Cards Spanning Full Width -->
+          <section class="dash-metrics-section" id="dash-metrics-section" aria-label="Application counters and filters">
+            <div class="dash-count-grid" id="dash-count-grid" role="group" aria-label="Status filter cards">
+              <button class="dash-count-card" id="card-count-docs-pending" type="button" data-status="Documents pending"
+                aria-pressed="false">
+                <div class="dash-card-top">
+                  <svg class="dash-card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                  <span class="dash-card-stage" id="stage-card-docs-pending">STAGE 1</span>
+                  <span class="dash-card-clear-link" id="clear-card-docs-pending" style="display: none;">Clear filter</span>
+                </div>
+                <span class="dash-card-value" id="stat-docs-pending">0</span>
+                <span class="dash-card-label" id="label-card-docs-pending">Collect documents</span>
+              </button>
+              <button class="dash-count-card" id="card-count-ready" type="button" data-status="Ready to apply"
+                aria-pressed="false">
+                <div class="dash-card-top">
+                  <svg class="dash-card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                  <span class="dash-card-stage" id="stage-card-ready">STAGE 2</span>
+                  <span class="dash-card-clear-link" id="clear-card-ready" style="display: none;">Clear filter</span>
+                </div>
+                <span class="dash-card-value" id="stat-ready-apply">0</span>
+                <span class="dash-card-label" id="label-card-ready">Apply now</span>
+              </button>
+              <button class="dash-count-card" id="card-count-applied" type="button" data-status="Applied"
+                aria-pressed="false">
+                <div class="dash-card-top">
+                  <svg class="dash-card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span class="dash-card-stage" id="stage-card-applied">STAGE 3</span>
+                  <span class="dash-card-clear-link" id="clear-card-applied" style="display: none;">Clear filter</span>
+                </div>
+                <span class="dash-card-value" id="stat-applied">0</span>
+                <span class="dash-card-label" id="label-card-applied">Waiting for decision</span>
+              </button>
+              <button class="dash-count-card" id="card-count-benefit-received" type="button"
+                data-status="Benefit received" aria-pressed="false">
+                <div class="dash-card-top">
+                  <svg class="dash-card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span class="dash-card-stage" id="stage-card-benefit-received">STAGE 4</span>
+                  <span class="dash-card-clear-link" id="clear-card-benefit-received" style="display: none;">Clear filter</span>
+                </div>
+                <span class="dash-card-value" id="stat-benefit-received">0</span>
+                <span class="dash-card-label" id="label-card-benefit-received">Benefits received</span>
+              </button>
             </div>
           </section>
 
-          <!-- Single Line for Backup -->
-          <div class="dash-footer-backup" id="dash-footer-backup">
-            <div class="dash-footer-left">
-              <span class="dash-backup-status-text" id="dash-backup-status-text">Not backed up yet</span>
-              <span class="dash-backup-warning" id="dash-backup-warning" style="display: none;">Changes not backed
-                up</span>
+          <!-- 3. Main Two-Column Layout (Left ~40%, Right ~60%) -->
+          <div class="dash-main-layout" id="dash-main-layout">
+            <!-- Left Column: What to do today + Backup card -->
+            <div class="dash-col-left" id="dash-col-left">
+              <!-- Section: What to do today -->
+              <section class="dash-today-section dash-card" id="dash-today-section" aria-labelledby="dash-today-title">
+                <div class="dash-section-header">
+                  <h2 class="dash-section-title" id="dash-today-title">What to do today</h2>
+                  <span class="dash-today-count-chip" id="dash-today-count-chip" style="display: none;"></span>
+                </div>
+                <div id="dash-today-list" class="dash-today-list" role="list">
+                  <!-- Rendered dynamically by app.js: action rows -->
+                </div>
+                <div id="dash-today-empty" class="dash-today-empty" style="display: none;">
+                  <svg class="dash-empty-check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span id="dash-today-empty-text">You're all caught up</span>
+                </div>
+                <div class="dash-today-expand-wrap" id="dash-today-expand-wrap" style="display: none;">
+                  <button type="button" id="btn-dash-today-toggle" class="dash-btn-expand"
+                    aria-expanded="false">
+                    <span id="dash-today-toggle-text">Show all (0)</span>
+                    <svg class="dash-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </section>
+
+              <!-- Backup Card -->
+              <div class="dash-footer-backup dash-backup-card" id="dash-footer-backup">
+                <div class="dash-backup-header">
+                  <h3 class="dash-backup-card-title" id="dash-backup-card-title">Backup</h3>
+                </div>
+                <div class="dash-footer-left">
+                  <span class="dash-backup-status-text" id="dash-backup-status-text">Not backed up yet</span>
+                  <span id="dashboard-last-backup" style="display: none;" aria-hidden="true"></span>
+                  <span class="dash-backup-warning" id="dash-backup-warning" style="display: none;">Changes not backed up</span>
+                </div>
+                <button type="button" id="btn-dash-backup-footer" class="dash-btn-backup-text">
+                  <svg class="dash-backup-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                  </svg>
+                  <span id="btn-dash-backup-footer-text">Back up now</span>
+                </button>
+                <button id="btn-backup-home" style="display: none;" type="button" aria-hidden="true"><span id="btn-backup-home-text"></span></button>
+                <button id="btn-clear-dash-filter-empty" style="display: none;" type="button" aria-hidden="true"></button>
+              </div>
+              <div id="cloud-status-toast" class="cloud-status-toast" style="display: none;" role="status" aria-live="polite"></div>
+
             </div>
-            <button type="button" id="btn-dash-backup-footer" class="dash-btn-backup-text">
-              Back up now
-            </button>
+
+            <!-- Right Column: Beneficiaries Section (Filter + Search + List / Empty state) -->
+            <div class="dash-col-right" id="dash-col-right">
+              <!-- Active Filter Notification Bar & Clear Filter Control -->
+              <div class="dash-filter-active-bar" id="dash-filter-active-bar" style="display: none;">
+                <span class="dash-filter-active-text" id="dash-filter-active-text">
+                  <span>Filtering by: </span>
+                  <strong id="dash-filter-active-status"></strong>
+                </span>
+                <button type="button" id="btn-dash-clear-filter" class="dash-btn-clear-filter">
+                  Clear filter
+                </button>
+              </div>
+
+              <!-- Beneficiary Profiles Section & Empty Guide -->
+              <section id="profiles-container" class="profiles-section dash-profiles-section dash-card"
+                aria-label="Beneficiary profiles">
+                <div class="dash-card-header dash-beneficiaries-header">
+                  <h2 class="dash-card-title" id="dash-beneficiaries-title">Beneficiaries</h2>
+                  <!-- Beneficiary Search Bar -->
+                  <div class="profiles-search-container dash-search-container" id="dash-search-container">
+                    <div class="search-wrapper">
+                      <span class="search-icon" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                          stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                      </span>
+                      <input type="text" id="input-profile-search" class="search-field" placeholder="Search profiles by name..."
+                        aria-label="Search profiles by name" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dash-table-header" id="dash-table-header" aria-hidden="true">
+                  <span class="dash-th-name" id="th-name">NAME</span>
+                  <span class="dash-th-schemes" id="th-schemes">SCHEMES SAVED</span>
+                  <span class="dash-th-status" id="th-status">STATUS</span>
+                  <span class="dash-th-action" id="th-action">ACTION</span>
+                </div>
+
+                <div id="profiles-list" class="profiles-grid"></div>
+
+                <!-- 3-Step Guide Empty State (shown when profiles.length === 0) -->
+                <div id="profiles-empty-state" class="dash-empty-guide" style="display: none;">
+                  <div class="dash-empty-header">
+                    <h2 class="dash-empty-title" id="dash-empty-title">Welcome to Jan Kalyan</h2>
+                    <p class="dash-empty-sub" id="dash-empty-sub">Get started by adding your first beneficiary to discover
+                      and track welfare schemes.</p>
+                  </div>
+                  <ol class="dash-guide-steps" role="list">
+                    <li class="dash-guide-step">
+                      <div class="dash-step-num" aria-hidden="true">1</div>
+                      <div class="dash-step-content">
+                        <div class="dash-step-title" id="dash-step-1-title">Add a beneficiary</div>
+                        <div class="dash-step-desc" id="dash-step-1-desc">Enter their basic information with their consent.
+                        </div>
+                      </div>
+                    </li>
+                    <li class="dash-guide-step">
+                      <div class="dash-step-num" aria-hidden="true">2</div>
+                      <div class="dash-step-content">
+                        <div class="dash-step-title" id="dash-step-2-title">See their schemes</div>
+                        <div class="dash-step-desc" id="dash-step-2-desc">Find all central and state schemes they are
+                          eligible for.</div>
+                      </div>
+                    </li>
+                    <li class="dash-guide-step">
+                      <div class="dash-step-num" aria-hidden="true">3</div>
+                      <div class="dash-step-content">
+                        <div class="dash-step-title" id="dash-step-3-title">Save a scheme and track it</div>
+                        <div class="dash-step-desc" id="dash-step-3-desc">Track document collection and application
+                          progress.</div>
+                      </div>
+                    </li>
+                  </ol>
+                  <div class="dash-empty-actions">
+                    <button id="btn-empty-add-profile" class="btn-primary dash-btn-add" type="button">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                      </svg>
+                      <span id="btn-empty-add-profile-text">Add beneficiary</span>
+                    </button>
+                    <a href="#/finder" id="btn-empty-quick-check" class="dash-link-secondary">Try Quick check</a>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </section>
 
